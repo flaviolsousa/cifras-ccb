@@ -28,8 +28,7 @@
 
 5. Press `A` on keyboard
 
-
-## Reference Pages: 
+## Reference Pages:
 
 - https://docs.expo.dev/workflow/expo-cli/
 - https://callstack.github.io/react-native-paper/getting-started.html
@@ -40,4 +39,25 @@
 
 ```sh
 expo init violao-ccb
+
+npm install -s @react-navigation/native @react-navigation/stack @react-native-community/masked-view @react-navigation/drawer @react-navigation/material-bottom-tabs react-native-paper
+
+npm install --save \
+  react-native \
+  react-native-reanimated \
+  react-native-gesture-handler \
+  react-native-screens \
+  react-native-safe-area-view \
+  react-native-safe-area-context \
+  react-native-vector-icons
+
+# react-navigation
+# @react-native-community/masked-view
+# react-native
+# react-native-appearance
+#
+#
+#
+# react-native-svg
+# react-native-web
 ```
