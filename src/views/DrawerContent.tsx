@@ -21,7 +21,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 type Props = DrawerContentComponentProps;
 
 function DrawerContent(props: Props) {
-  console.log(styles.drawerContent);
   return (
     <DrawerContentScrollView {...props}>
       <View style={styles.drawerContent}>
@@ -39,20 +38,26 @@ function DrawerContent(props: Props) {
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
-                name="account-outline"
+                name="home-outline"
                 color={color}
                 size={size}
               />
             )}
-            label="Profile"
-            onPress={() => {}}
+            label="Home"
+            onPress={() => {
+              props.navigation.navigate('HomeView');
+            }}
           />
+        </Drawer.Section>
+        <Drawer.Section>
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons name="tune" color={color} size={size} />
             )}
             label="Preferences"
-            onPress={() => {}}
+            onPress={() => {
+              props.navigation.navigate('PreferenceView');
+            }}
           />
           <DrawerItem
             icon={({ color, size }) => (
@@ -63,18 +68,10 @@ function DrawerContent(props: Props) {
               />
             )}
             label="Bookmarks"
-            onPress={() => {}}
+            onPress={() => {
+              props.navigation.navigate('BookmarkView');
+            }}
           />
-        </Drawer.Section>
-        <Drawer.Section title="Preferences">
-          <TouchableRipple onPress={() => {}}>
-            <View style={styles.preference}>
-              <Text>Dark Theme</Text>
-              <View pointerEvents="none">
-                <Switch value={false} />
-              </View>
-            </View>
-          </TouchableRipple>
         </Drawer.Section>
       </View>
     </DrawerContentScrollView>
