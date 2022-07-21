@@ -28,6 +28,12 @@
 
 5. Press `A` on keyboard
 
+## Build
+
+```sh
+eas build -p android --profile preview
+```
+
 ## Reference Pages:
 
 - https://docs.expo.dev/workflow/expo-cli/
@@ -49,15 +55,19 @@ npm install --save \
   react-native-screens \
   react-native-safe-area-view \
   react-native-safe-area-context \
-  react-native-vector-icons
+  react-native-vector-icons \
+  react-native-appearance
 
 # react-navigation
 # @react-native-community/masked-view
-# react-native
-# react-native-appearance
 #
 #
 #
 # react-native-svg
 # react-native-web
+```
+
+```
+npm install -g eas-cli
+› eas build -p android
 ```
