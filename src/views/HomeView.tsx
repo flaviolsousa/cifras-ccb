@@ -3,20 +3,14 @@ import { View } from 'react-native';
 import { useTheme } from 'react-native-paper';
 import { Text, Button } from 'react-native-paper';
 import FiltrableList, { FiltrableListItem } from '../components/FiltrableList';
+import Hymns from '../data/Hymns.json';
 
 function HomeView() {
   const theme = useTheme();
-  const items: FiltrableListItem[] = [
-    { code: '001', description: 'Cristo, meu Mestre...' },
-    { code: '002', description: 'De Deus tu és eleita' },
-    { code: '003', description: 'Faz-nos ouvir Tua voz' },
-    { code: '004', description: 'Ouve a nossa oração' },
-    { code: '005', description: 'A Rocha celestial' },
-    { code: '006', description: 'Glória ao Justo, fiel Cordeiro!' },
-    { code: '007', description: 'Granjeai, granjeai os talentos' },
-    { code: '008', description: 'Oh! Vem, sim, vem' },
-    { code: '009', description: 'Luminosa é a senda' },
-  ];
+  const items = Hymns.map((hymn) => ({
+    code: hymn.code,
+    description: hymn.description,
+  }));
 
   return (
     <View
