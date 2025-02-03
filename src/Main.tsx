@@ -20,6 +20,9 @@ function Main() {
       <Drawer.Navigator
         drawerContent={(props) => <DrawerContent {...props} />}
         initialRouteName="HomeView"
+        screenOptions={{
+          headerTintColor: theme.colors.text,
+        }}
       >
         <Drawer.Screen name="HomeView" component={HomeView} />
         <Drawer.Screen name="PreferenceView" component={PreferenceView} />

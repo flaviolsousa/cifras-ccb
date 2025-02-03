@@ -15,7 +15,6 @@ function HomeView() {
       }}
     >
       <Text>Home View 001</Text>
-      <Text></Text>
       <Button
         icon="camera"
         mode="contained"
