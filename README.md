@@ -41,6 +41,7 @@ eas build -p android --profile preview
 - https://github.com/Trancever/twitterClone
 - https://medium.com/react-native-training/best-practices-for-creating-react-native-apps-part-1-66311c746df3
 - https://stackoverflow.com/questions/69854731/drawer-navigation-react-native-paper
+- https://github.com/eneiasramos/ccb-hinario-5-do
 
 ## Reference to new project configuration
 
