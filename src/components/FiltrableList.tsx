@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { TextInput, List } from 'react-native-paper';
 
 export interface FiltrableListItem {
   code: string;
@@ -30,22 +31,14 @@ const FiltrableList: React.FC<FiltrableListProps> = ({ items }) => {
 
   return (
     <div>
-      <input
-        type="text"
+      <TextInput
+        label="Filter items"
         value={filter}
-        onChange={(e) => setFilter(e.target.value)}
-        placeholder="Filter items"
+        onChangeText={(text) => setFilter(text)}
       />
       <ul onKeyDown={handleKeyDown} tabIndex={0}>
         {filteredItems.map((item, index) => (
-          <li
-            key={index}
-            style={{
-              background: index === selectedIndex ? 'lightgray' : 'white',
-            }}
-          >
-            {item.description}
-          </li>
+          <List.Item key={index} title={item.description} />
         ))}
       </ul>
     </div>

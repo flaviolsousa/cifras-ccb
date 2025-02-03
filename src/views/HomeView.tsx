@@ -1,8 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import { View } from 'react-native';
-import { useTheme } from 'react-native-paper';
-import { Text, Button } from 'react-native-paper';
-import FiltrableList, { FiltrableListItem } from '../components/FiltrableList';
+import { useTheme, Button, Text } from 'react-native-paper';
+import FiltrableList from '../components/FiltrableList';
 import Hymns from '../data/Hymns.json';
 
 function HomeView() {
