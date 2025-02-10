@@ -1,11 +1,7292 @@
 [
-  { "code": "001", "title": "Cristo, meu Mestre..." },
-  { "code": "002", "title": "De Deus tu és eleita" },
-  { "code": "003", "title": "Faz-nos ouvir Tua voz" },
-  { "code": "004", "title": "Ouve a nossa oração" },
-  { "code": "005", "title": "A Rocha celestial" },
-  { "code": "006", "title": "Glória ao Justo, fiel Cordeiro!" },
-  { "code": "007", "title": "Granjeai, granjeai os talentos" },
-  { "code": "008", "title": "Oh! Vem, sim, vem" },
-  { "code": "009", "title": "Luminosa é a senda" }
+  {
+    "code": "001",
+    "title": "Cristo, meu Mestre...",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 66"
+    }
+  },
+  {
+    "code": "002",
+    "title": "De Deus tu és eleita",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "003",
+    "title": "Faz-nos ouvir Tua voz",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "004",
+    "title": "Ouve a nossa oração",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.86667,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "005",
+    "title": "A Rocha celestial",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "006",
+    "title": "Glória ao Justo, fiel Cordeiro!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "007",
+    "title": "Granjeai, granjeai os talentos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 100"
+    }
+  },
+  {
+    "code": "008",
+    "title": "Oh! Vem, sim, vem",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "009",
+    "title": "Luminosa é a senda",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 72"
+    }
+  },
+  {
+    "code": "010",
+    "title": "Prossegui vitoriosos em Cristo",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "011",
+    "title": "Ó igreja de Deus, resplandece",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "012",
+    "title": "Sempre em Jesus confiarei",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 76"
+    }
+  },
+  {
+    "code": "013",
+    "title": "Confiemos em Deus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "014",
+    "title": "Manda os Teus dons celestes",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "015",
+    "title": "Ó alma que choras",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 132"
+    }
+  },
+  {
+    "code": "016",
+    "title": "Promessa excelente",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "100 - 120"
+    }
+  },
+  {
+    "code": "017",
+    "title": "Ó Senhor, vem visitar-me",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "018",
+    "title": "É Jesus meu Refúgio",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 92"
+    }
+  },
+  {
+    "code": "019",
+    "title": "Manda-nos Teu Poder",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "020",
+    "title": "Teu Espírito derrama",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "021",
+    "title": "Não mais oprimidos seremos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 138"
+    }
+  },
+  {
+    "code": "022",
+    "title": "Guia-me, ó Senhor",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "023",
+    "title": "O Senhor é o meu Pastor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.6,
+      "text": "96 - 120"
+    }
+  },
+  {
+    "code": "024",
+    "title": "Dá-me graça, Senhor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 100"
+    }
+  },
+  {
+    "code": "025",
+    "title": "Um grande bem, precioso bem",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 72"
+    }
+  },
+  {
+    "code": "026",
+    "title": "Julga-me, Senhor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "027",
+    "title": "O Senhor é minha Luz",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 144"
+    }
+  },
+  {
+    "code": "028",
+    "title": "Para o ceú marchemos",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 80"
+    }
+  },
+  {
+    "code": "029",
+    "title": "Senhor Jesus, Tu és o meu Rochedo",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "030",
+    "title": "Confiarei sempre no Senhor",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 132"
+    }
+  },
+  {
+    "code": "031",
+    "title": "Forte Rocha",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 2,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "032",
+    "title": "Eu me escondo em Ti, Senhor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "52 - 72"
+    }
+  },
+  {
+    "code": "033",
+    "title": "Jesus é o nosso Guia",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "034",
+    "title": "O Mestre que desceu dos ceús",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "50 - 60"
+    }
+  },
+  {
+    "code": "035",
+    "title": "Eis que multidão mui grande",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 120"
+    }
+  },
+  {
+    "code": "036",
+    "title": "A fiel proteção",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 100"
+    }
+  },
+  {
+    "code": "037",
+    "title": "Se a nossa vida entregarmos a Jesus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "038",
+    "title": "Ó Senhor, és minha Vida",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 72"
+    }
+  },
+  {
+    "code": "039",
+    "title": "Eu desejo, Senhor",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "040",
+    "title": "Quando em mim Tu operaste",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "041",
+    "title": "O teu coração vem a Cristo entregar",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "042",
+    "title": "Ó minha alma, por que te abates?",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "50 - 60"
+    }
+  },
+  {
+    "code": "043",
+    "title": "Trema o céu, a terra, o mar",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "044",
+    "title": "Sol da justiça",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "045",
+    "title": "Oh! Quanto nos amaste!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.6,
+      "text": "96 - 120"
+    }
+  },
+  {
+    "code": "046",
+    "title": "Grandioso é o nosso Deus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.766667,
+      "text": "92 - 126"
+    }
+  },
+  {
+    "code": "047",
+    "title": "Sublime é o perdão!",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 152"
+    }
+  },
+  {
+    "code": "048",
+    "title": "Creio no Senhor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "049",
+    "title": "Venho adorar-Te, santo Criador",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.8,
+      "text": "108 - 132"
+    }
+  },
+  {
+    "code": "050",
+    "title": "Glória a Jesus! Aleluia!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 144"
+    }
+  },
+  {
+    "code": "051",
+    "title": "A Palavra do Senhor é Pão celestial",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "052",
+    "title": "Luz eternal é Jesus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 144"
+    }
+  },
+  {
+    "code": "053",
+    "title": "Nós somos luz do mundo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "054",
+    "title": "Um tesouro glorioso achei",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "055",
+    "title": "Paz seja em vós",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "056",
+    "title": "Põe em Deus a confiança",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "057",
+    "title": "É estreia a porta para a Salvação",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "058",
+    "title": "Sou crente em Jesus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "059",
+    "title": "Faz-me mais perseverante",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "060",
+    "title": "Oh! Vem a Jesus",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 132"
+    }
+  },
+  {
+    "code": "061",
+    "title": "A minha alma deseja ver-Te",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "132 - 144"
+    }
+  },
+  {
+    "code": "062",
+    "title": "Ó Criador, forte Rocha és",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "063",
+    "title": "Se vós baterdes, Ele vos abre",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "46 - 56"
+    }
+  },
+  {
+    "code": "064",
+    "title": "Tu, que vives sem destino",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "065",
+    "title": "Igual ao Mestre!",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "42 - 54"
+    }
+  },
+  {
+    "code": "066",
+    "title": "Cansado estás? Vem a Jesus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "067",
+    "title": "\"Vinde a Mim!\"",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "068",
+    "title": "Sem tardar, vai a Cristo",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "069",
+    "title": "A família de Jesus",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "070",
+    "title": "Senhor, Tu és a minha Esperança",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "071",
+    "title": "Ó Senhor Jesus, eu recorro a Ti",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "072",
+    "title": "Nome glorioso, o de Jesus!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "073",
+    "title": "Semearei, semearei",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "074",
+    "title": "Vamos produzir frutos de louvor",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "075",
+    "title": "Vem a Jesus, ó alma errante",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "076",
+    "title": "Cristo Jesus Sua mão me dá",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "077",
+    "title": "Vamos lançar a semente",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "078",
+    "title": "Glória a Jesus! Glória a Jesus!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "079",
+    "title": "Bom é estarmos nós aqui",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "080",
+    "title": "Por Cristo, resgatado",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "081",
+    "title": "A vida deu por ti",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 120"
+    }
+  },
+  {
+    "code": "082",
+    "title": "Oh! Que grande amor!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 72"
+    }
+  },
+  {
+    "code": "083",
+    "title": "Vinde às bodas",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "084",
+    "title": "Quão amável é a Tua casa",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "085",
+    "title": "Anunciai o santo Evangelho",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 92"
+    }
+  },
+  {
+    "code": "086",
+    "title": "Grande Tu és, ó Pai",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 108"
+    }
+  },
+  {
+    "code": "087",
+    "title": "Eis que vem Jesus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "088",
+    "title": "Minha oração",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "089",
+    "title": "Oh! Grande Deus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 90"
+    }
+  },
+  {
+    "code": "090",
+    "title": "Teu destino é a glória",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "091",
+    "title": "No esconderijo do Onipotente",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "92 - 120"
+    }
+  },
+  {
+    "code": "092",
+    "title": "O santo Evangelho",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "093",
+    "title": "Aceitando ao Senhor...",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "094",
+    "title": "Quem sustenta a nossa vida",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "095",
+    "title": "\"Vinde, ó benditos de Meu Pai\"",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "096",
+    "title": "Vinde, adoremos a Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "097",
+    "title": "Cristo Jesus, nosso bom Pastor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.7,
+      "text": "42 - 52"
+    }
+  },
+  {
+    "code": "098",
+    "title": "Cristo Jesus tudo pode",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 126"
+    }
+  },
+  {
+    "code": "099",
+    "title": "Jesus Cristo é o Amigo celestial",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "100",
+    "title": "Todos juntos, jubilemos",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "101",
+    "title": "Cantemos, juntos, louvores a Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "102",
+    "title": "Sinto a voz divina do meu fiel Pastor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 144"
+    }
+  },
+  {
+    "code": "103",
+    "title": "Bendize, ó minha alma",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "104",
+    "title": "Santo, Santo és, Senhor",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "105",
+    "title": "Volta ao teu lar Paternal!",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "44 - 60"
+    }
+  },
+  {
+    "code": "106",
+    "title": "Em nome do nosso Redentor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 72"
+    }
+  },
+  {
+    "code": "107",
+    "title": "O fim de tudo chegará",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.666667,
+      "text": "40 - 50"
+    }
+  },
+  {
+    "code": "108",
+    "title": "É Jesus a Fonte de riqueza",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "109",
+    "title": "Vem, ó Senhor, ajudar-me",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "110",
+    "title": "Vigiai, irmãos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "111",
+    "title": "Do sepulcro ressurgiu triunfante",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "112",
+    "title": "Sigamos sempre ao Senhor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "113",
+    "title": "O Senhor seja louvado",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "114",
+    "title": "Clama ao Mestre, Cristo Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "115",
+    "title": "Minha alma engrandece...",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "116",
+    "title": "Amo ao Senhor",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 138"
+    }
+  },
+  {
+    "code": "117",
+    "title": "Jesus habita em meu coração",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "132 - 152"
+    }
+  },
+  {
+    "code": "118",
+    "title": "Fiel Salvador é Jesus",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 120"
+    }
+  },
+  {
+    "code": "119",
+    "title": "Luz aos meus pés é a Tua Palavra",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "120",
+    "title": "Nossa cruz tomemos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 92"
+    }
+  },
+  {
+    "code": "121",
+    "title": "O meu socorro vem do Senhor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "122",
+    "title": "Alegrei-me quando me disseram...",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "123",
+    "title": "Ó Jesus, és meu Guardião",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "124",
+    "title": "Vivo na graça",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 96"
+    }
+  },
+  {
+    "code": "125",
+    "title": "Mais grato a Ti",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.8,
+      "text": "96 - 120"
+    }
+  },
+  {
+    "code": "126",
+    "title": "Levemos a mensagem de amor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "127",
+    "title": "Meu bom Jesus, Contigo almejo estar",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "128",
+    "title": "Teu filho sou, ó Criador",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.06667,
+      "text": "128 - 132"
+    }
+  },
+  {
+    "code": "129",
+    "title": "Salvo estou por Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "130",
+    "title": "A minha alma",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "131",
+    "title": "Ó Senhor glorioso, Deus da perfeição",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "132",
+    "title": "Eis-me, Senhor, aos Teus pés",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 132"
+    }
+  },
+  {
+    "code": "133",
+    "title": "Quão bom e quão suave é...",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "134",
+    "title": "Teu amor, ó Cordeiro divinal",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "135",
+    "title": "Bendito o Rei que veio do céu!",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "136",
+    "title": "Benignidade eterna é a de Deus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "137",
+    "title": "Senhor, vem selar-nos",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "138",
+    "title": "Louvemos ao bom Jesus",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 144"
+    }
+  },
+  {
+    "code": "139",
+    "title": "Ó Senhor, Tu me conheces",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "140",
+    "title": "Sou feliz",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "141",
+    "title": "Cristo, o Verbo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 120"
+    }
+  },
+  {
+    "code": "142",
+    "title": "Ó Pai celestial",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.733333,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "143",
+    "title": "Porfiemos, irmãos, por entrar nos céus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "144",
+    "title": "A vida eterna",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "145",
+    "title": "Pródigo filho, vai!",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 138"
+    }
+  },
+  {
+    "code": "146",
+    "title": "De Deus veio a Luz",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "147",
+    "title": "É bom louvar ao Criador",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "148",
+    "title": "Louvor a Deus, o Criador",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 72"
+    }
+  },
+  {
+    "code": "149",
+    "title": "Ó irmãos, por fé, louvemos a Jesus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "150",
+    "title": "Jesus Cristo, meu Senhor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 69"
+    }
+  },
+  {
+    "code": "151",
+    "title": "Se, de Cristo, o Nome amares",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "152",
+    "title": "Venho à casa do Senhor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "153",
+    "title": "O divinal Cordeiro",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "154",
+    "title": "Terá que renascer",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "155",
+    "title": "Olha a Cristo, o Redentor",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "156",
+    "title": "Cristo entrou nos céus primeiro",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 88"
+    }
+  },
+  {
+    "code": "157",
+    "title": "Ouve a voz que te convida...",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "158",
+    "title": "Meu lar está no céu",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "159",
+    "title": "Deus amou o mundo",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "160",
+    "title": "\"Sou o Caminho, a Verdade e a Vida\"",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "161",
+    "title": "Cristo quer salvar",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "162",
+    "title": "Cristo salvou-me",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "40 - 48"
+    }
+  },
+  {
+    "code": "163",
+    "title": "Neste mundo de ilusão",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "164",
+    "title": "Louvemos sempre alegres",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "165",
+    "title": "Foi o Senhor Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "166",
+    "title": "A graça inefável de Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.8,
+      "text": "96 - 126"
+    }
+  },
+  {
+    "code": "167",
+    "title": "Água viva",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "168",
+    "title": "A Palavra do Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 80"
+    }
+  },
+  {
+    "code": "169",
+    "title": "Aos pés de Deus estamos",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "170",
+    "title": "Pai eternal, envia dos céus...",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "171",
+    "title": "Vida eterna! Vida eterna!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "172",
+    "title": "Um culto santo ao Senhor",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 63"
+    }
+  },
+  {
+    "code": "173",
+    "title": "Para ouvir aqui estamos",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "174",
+    "title": "Vem atender ao Seu chamado",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "175",
+    "title": "O Senhor Jesus te chama",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "176",
+    "title": "Por Ti vivo, ó Deus potente",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "177",
+    "title": "Eu necessito achegar-me",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "40 - 50"
+    }
+  },
+  {
+    "code": "178",
+    "title": "A Palavra preciosa",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "179",
+    "title": "Trabalhai! Trabalhai!",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "180",
+    "title": "Jesus é a Luz que veio ao mundo...",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 88"
+    }
+  },
+  {
+    "code": "181",
+    "title": "Só em Cristo, só em Cristo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "182",
+    "title": "Brevemente retornará Jesus Cristo",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 66"
+    }
+  },
+  {
+    "code": "183",
+    "title": "Cristo Jesus é a Porta dos céus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "184",
+    "title": "Nós Te louvamos, por fé, grande Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "185",
+    "title": "Deus mandou Sua Luz",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "186",
+    "title": "Cristo, Luz do mundo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "187",
+    "title": "Jesus Cristo habita em nós",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "188",
+    "title": "O Mestre habita em mim",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "189",
+    "title": "Oh! Que preciosa paz",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "190",
+    "title": "Amados, não temamos",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 84"
+    }
+  },
+  {
+    "code": "191",
+    "title": "Vem, vem consolar-me",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "192",
+    "title": "Quão fiel promessa Jesus nos fez",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "193",
+    "title": "Nada jamais me faltará",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "194",
+    "title": "\"Vós chorareis e vos lamentareis\"",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "195",
+    "title": "Senhor, estou disposto",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "196",
+    "title": "Sem Deus Pai",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "197",
+    "title": "Senhor, por Teu poder",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 104"
+    }
+  },
+  {
+    "code": "198",
+    "title": "Nosso Pai celeste sabe e provê",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 100"
+    }
+  },
+  {
+    "code": "199",
+    "title": "Senhor, Tu és a minha Porção",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 120"
+    }
+  },
+  {
+    "code": "200",
+    "title": "\"Não se turbe o vosso coração\"",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "201",
+    "title": "Deus nos guarde...",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "202",
+    "title": "Em Ti me alegro, Senhor",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.86667,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "203",
+    "title": "O meu vero Amigo é Jesus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "204",
+    "title": "Só Jesus é Amigo verdadeiro",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "205",
+    "title": "Salvo por Seu poder",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "42 - 56"
+    }
+  },
+  {
+    "code": "206",
+    "title": "Tu és o Amigo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 138"
+    }
+  },
+  {
+    "code": "207",
+    "title": "Cristo é fiel",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "208",
+    "title": "Conserva a paz, ó minha alma",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "44 - 54"
+    }
+  },
+  {
+    "code": "209",
+    "title": "Oh! Marchai, soldados",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "210",
+    "title": "Grandes promessas",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "211",
+    "title": "O Senhor Jesus passava...",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "212",
+    "title": "Testemunhas verazes nós somos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "213",
+    "title": "Quando vier do céu",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "214",
+    "title": "Como foi para os céus, assim virá",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 76"
+    }
+  },
+  {
+    "code": "215",
+    "title": "Em breve ao céu irei",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "44 - 60"
+    }
+  },
+  {
+    "code": "216",
+    "title": "Irmãos, amemos ao Senhor",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 132"
+    }
+  },
+  {
+    "code": "217",
+    "title": "Vamos, unidos, a Deus louvar",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "218",
+    "title": "Oh! Jubilemos, devotos de Cristo",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "219",
+    "title": "Novos céus nós aguardamos",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "40 - 50"
+    }
+  },
+  {
+    "code": "220",
+    "title": "Cristo voltará",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "221",
+    "title": "A descida do Espírito Santo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "222",
+    "title": "Brevemente virá o Senhor Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "223",
+    "title": "Muitos, por fé, aceitaram Jesus",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 -132"
+    }
+  },
+  {
+    "code": "224",
+    "title": "Só Jesus concede paz e salvação",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.8,
+      "text": "54 - 66"
+    }
+  },
+  {
+    "code": "225",
+    "title": "Senhor, com Tua voz me chamas",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "226",
+    "title": "A história do Evangelho",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 76"
+    }
+  },
+  {
+    "code": "227",
+    "title": "Procuras tu ao Salvador?",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "228",
+    "title": "Salvação! Salvação!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "229",
+    "title": "Eu vivia no pecado",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "230",
+    "title": "A Ti rendemos graças",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "231",
+    "title": "Provemos, irmãos, do amor do Senhor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "232",
+    "title": "Seguro estou...",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 84"
+    }
+  },
+  {
+    "code": "233",
+    "title": "Avante, santos e fiéis de Deus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "234",
+    "title": "O meu ser entrego a Cristo",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "235",
+    "title": "Um amor imenso",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 104"
+    }
+  },
+  {
+    "code": "236",
+    "title": "Há um lugar de eterna paz",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "237",
+    "title": "Deus é por mim",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "238",
+    "title": "Teu servo ouve; fala, Senhor",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 132"
+    }
+  },
+  {
+    "code": "239",
+    "title": "Eis que a noite é passada",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "240",
+    "title": "Não me cansarei de cantar",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "241",
+    "title": "A Justiça divina",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "242",
+    "title": "Profundo é o saber de Deus, Criador",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "243",
+    "title": "É Jesus o nosso Intercessor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "244",
+    "title": "Cristo intercede por ti",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "245",
+    "title": "Não pode entender o mundo",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "246",
+    "title": "Irmãos, já resgatados",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 132"
+    }
+  },
+  {
+    "code": "247",
+    "title": "Se fores tentado",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 132"
+    }
+  },
+  {
+    "code": "248",
+    "title": "Glória! Aleluia! Sinto Jesus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "249",
+    "title": "A Caridade",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "250",
+    "title": "Com meu Redentor viverei nos céus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "251",
+    "title": "Firme nas mãos de Cristo",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "252",
+    "title": "Exaltação ao Deus Onipotente!",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 100"
+    }
+  },
+  {
+    "code": "253",
+    "title": "Foi alegre, ditoso o dia",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "254",
+    "title": "De Jesus a graça divina",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "52 - 66"
+    }
+  },
+  {
+    "code": "255",
+    "title": "Jesus é a nossa Rocha",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "256",
+    "title": "Sem Deus Pai, vivi no mundo",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "100 - 120"
+    }
+  },
+  {
+    "code": "257",
+    "title": "Remiu-nos por graça",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 144"
+    }
+  },
+  {
+    "code": "258",
+    "title": "Louvemos ao nosso Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "259",
+    "title": "Só triunfará o de sincero coração",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "260",
+    "title": "Sou servo inútil, ó Deus piedoso",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "261",
+    "title": "Vivo por Cristo",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "50 - 66"
+    }
+  },
+  {
+    "code": "262",
+    "title": "Senhor, a Tua igreja",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "263",
+    "title": "Cristo é Luz resplandecente",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "264",
+    "title": "Redentor celeste e santo",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "265",
+    "title": "Bençãos dos céus prometidas",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "266",
+    "title": "Vinde às fileiras",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 69"
+    }
+  },
+  {
+    "code": "267",
+    "title": "Graça maravilhosa",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 92"
+    }
+  },
+  {
+    "code": "268",
+    "title": "Ó Deus bendito",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "126 - 152"
+    }
+  },
+  {
+    "code": "269",
+    "title": "Ressuscitados, por graça, fomos",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "270",
+    "title": "Deste mundo mais nada esperarei",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "271",
+    "title": "Graças dou a Ti, ó bom Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 96"
+    }
+  },
+  {
+    "code": "272",
+    "title": "Louvarei ao bom Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "42 - 52"
+    }
+  },
+  {
+    "code": "273",
+    "title": "Jesus me deu celeste hino",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "274",
+    "title": "Na plenitude estarei",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 66"
+    }
+  },
+  {
+    "code": "275",
+    "title": "Avante eu vou",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "276",
+    "title": "Ó Senhor da glória",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 72"
+    }
+  },
+  {
+    "code": "277",
+    "title": "Oh! Quanto é bom louvarmos",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "278",
+    "title": "Éramos mortos nas obras más",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "279",
+    "title": "Oh! Não temas, igreja de Jesus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "280",
+    "title": "De Deus a armadura",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 144"
+    }
+  },
+  {
+    "code": "281",
+    "title": "Soldados valorosos nós somos",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 100"
+    }
+  },
+  {
+    "code": "282",
+    "title": "Constantemente oremos a Deus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "92 - 126"
+    }
+  },
+  {
+    "code": "283",
+    "title": "Quero, ó Senhor, ir Contigo ao céu",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "284",
+    "title": "Louvor nos céus altíssimos",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "285",
+    "title": "Glória e louvor a Jesus darei",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "286",
+    "title": "Nome precioso para mim",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "287",
+    "title": "Irmãos amados, sempre avante",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "288",
+    "title": "Ó irmãos, com Cristo avante",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.8,
+      "text": "108 - 120"
+    }
+  },
+  {
+    "code": "289",
+    "title": "Avante, sempre avante",
+    "keySig": {
+      "accidental": 4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "290",
+    "title": "Sempre avante!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "291",
+    "title": "Irmãos, avante, avante!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 92"
+    }
+  },
+  {
+    "code": "292",
+    "title": "Oh! Quanto é bom o Redentor!",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 88"
+    }
+  },
+  {
+    "code": "293",
+    "title": "Tu és Oleiro",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "92 - 126"
+    }
+  },
+  {
+    "code": "294",
+    "title": "Avante! Coragem! Marchemos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.73333,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "295",
+    "title": "Fui, Senhor, por Ti remido",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 69"
+    }
+  },
+  {
+    "code": "296",
+    "title": "Teu Nome é soberano, ó Redentor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "297",
+    "title": "Senhor, conforta meu coração",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "298",
+    "title": "Avante sempre, sem temer!",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "299",
+    "title": "Em nome de Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "300",
+    "title": "Tudo o que nos falta",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 88"
+    }
+  },
+  {
+    "code": "301",
+    "title": "Nossa Esperança é Jesus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "302",
+    "title": "Que gloriosa Esperança é Jesus!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "303",
+    "title": "O Senhor não mudará",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "304",
+    "title": "Cristo é a Esperança",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "305",
+    "title": "Oh! Que fundamento",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "306",
+    "title": "Bendizei ao Altíssimo Deus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "92 - 116"
+    }
+  },
+  {
+    "code": "307",
+    "title": "Cristo nos dará da Sua plenitude",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "308",
+    "title": "Soa a trombeta",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "309",
+    "title": "Galardão nos espera",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "310",
+    "title": "Nós Te louvamos, ó Rei dos reis",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 72"
+    }
+  },
+  {
+    "code": "311",
+    "title": "Teus tesouros revelaste",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "312",
+    "title": "Tributos de louvor",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 104"
+    }
+  },
+  {
+    "code": "313",
+    "title": "Arrebatado aos céus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "314",
+    "title": "O Teu poder supremo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 100"
+    }
+  },
+  {
+    "code": "315",
+    "title": "Contempla do céu",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "80 - 100"
+    }
+  },
+  {
+    "code": "316",
+    "title": "Tua vida é triste?",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "44 - 56"
+    }
+  },
+  {
+    "code": "317",
+    "title": "Sinto o Senhor, por fé, em mim",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.766667,
+      "text": "92 - 132"
+    }
+  },
+  {
+    "code": "318",
+    "title": "Ó Salvador, vem converter o pecador",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "319",
+    "title": "Foi Jesus Quem me salvou",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "320",
+    "title": "Que prazer é andar com Cristo",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "321",
+    "title": "Bendito seja o Deus vivente",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 69"
+    }
+  },
+  {
+    "code": "322",
+    "title": "Vem, Rei eterno",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.73333,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "323",
+    "title": "Oh! Não busques, ansioso",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "324",
+    "title": "Do mal o Salvador veio me tirar",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "325",
+    "title": "Louvemos ao Rei dos reis",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "326",
+    "title": "Sempre a Cristo fiéis",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 120"
+    }
+  },
+  {
+    "code": "327",
+    "title": "Soldados somos do Senhor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 92"
+    }
+  },
+  {
+    "code": "328",
+    "title": "Grande é o Teu poder, Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "329",
+    "title": "Com fé combate",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.8,
+      "text": "96 - 138"
+    }
+  },
+  {
+    "code": "330",
+    "title": "Ao findar a jornada",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "331",
+    "title": "Vem a Cristo sem tardar",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "332",
+    "title": "É Cristo Quem cuida de ti",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 132"
+    }
+  },
+  {
+    "code": "333",
+    "title": "Peregrino sou no mundo",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "334",
+    "title": "Há uma pátria perfeita...",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 80"
+    }
+  },
+  {
+    "code": "335",
+    "title": "Eu almejo nessa pátria entrar",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "336",
+    "title": "Sempre bilhar devemos",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "337",
+    "title": "Por fé seguimos ao Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "338",
+    "title": "O Senhor é sempiterno",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "339",
+    "title": "Glória sem par",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.86667,
+      "text": "112 - 132"
+    }
+  },
+  {
+    "code": "340",
+    "title": "No mundo sou peregrino",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.8,
+      "text": "108 - 132"
+    }
+  },
+  {
+    "code": "341",
+    "title": "Com fé espera no Senhor",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.766667,
+      "text": "92 - 132"
+    }
+  },
+  {
+    "code": "342",
+    "title": "Sião celestial",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 112"
+    }
+  },
+  {
+    "code": "343",
+    "title": "Lá no céu cantaremos",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 88"
+    }
+  },
+  {
+    "code": "344",
+    "title": "Vou encontrar meu Deus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.6,
+      "text": "96 - 126"
+    }
+  },
+  {
+    "code": "345",
+    "title": "Regozijo-me em falar do Salvador",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "346",
+    "title": "Longe do mal e perto de Ti",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.6,
+      "text": "96 - 116"
+    }
+  },
+  {
+    "code": "347",
+    "title": "Ontem, hoje e eternamente",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "116 - 138"
+    }
+  },
+  {
+    "code": "348",
+    "title": "Em Cristo espera, sem vacilar",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "349",
+    "title": "Irmãos amados",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "350",
+    "title": "A jornada farei",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 92"
+    }
+  },
+  {
+    "code": "351",
+    "title": "Senhor, à Tua presença",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 116"
+    }
+  },
+  {
+    "code": "352",
+    "title": "Sinto viva esperança",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "353",
+    "title": "Eleitos nós somos",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.93333,
+      "text": "58 - 69"
+    }
+  },
+  {
+    "code": "354",
+    "title": "Jerusalém celestial!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 80"
+    }
+  },
+  {
+    "code": "355",
+    "title": "A Ti, Deus, eu consagrei-me",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "356",
+    "title": "Por preço elevado Jesus resgatou-me",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "357",
+    "title": "Face a face O verei",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 72"
+    }
+  },
+  {
+    "code": "358",
+    "title": "O Teu precioso sangue",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "359",
+    "title": "Ó irmãos, de Deus diletos",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "360",
+    "title": "Do mal apartados devemos estar",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "361",
+    "title": "Tudo entende o Salvador",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.8,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "362",
+    "title": "Que bela herança!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 152"
+    }
+  },
+  {
+    "code": "363",
+    "title": "Aos Teus pés estou, Senhor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 72"
+    }
+  },
+  {
+    "code": "364",
+    "title": "Os tempos já chegados são...",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "365",
+    "title": "Contrito, venho a Ti",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "366",
+    "title": "Pela fé tereis vitória",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "367",
+    "title": "Ao que vive para sempre...",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "368",
+    "title": "Deus nos elegeu para Si",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "369",
+    "title": "Sentes bater em teu coração?",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 138"
+    }
+  },
+  {
+    "code": "370",
+    "title": "Têm os santos do Senhor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "371",
+    "title": "Aos Teus pés me apresento",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "372",
+    "title": "Da igreja, fiel Fundamento é Jesus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 120"
+    }
+  },
+  {
+    "code": "373",
+    "title": "Cristo Jesus, o Redentor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "374",
+    "title": "Santo! Santo! Santo!",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "375",
+    "title": "\"A paz Eu vos deixo\"",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "40 - 54"
+    }
+  },
+  {
+    "code": "376",
+    "title": "Senhor, preciso mais...",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "377",
+    "title": "No céu, Senhor, no céu",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 72"
+    }
+  },
+  {
+    "code": "378",
+    "title": "Grandioso és Tu",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 72"
+    }
+  },
+  {
+    "code": "379",
+    "title": "Grande festa haverá nos céus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 84"
+    }
+  },
+  {
+    "code": "380",
+    "title": "Com Jesus, eternamente viverei",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "381",
+    "title": "Mui breve virá, mui breve virá",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 126"
+    }
+  },
+  {
+    "code": "382",
+    "title": "Creio nas fiéis promessas do meu Deus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "383",
+    "title": "Cristo é a Estrela",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "384",
+    "title": "Nos resgatou e nos lavou",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "385",
+    "title": "\"Vinde após Mim\"",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "386",
+    "title": "Pela morte de Jesus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "387",
+    "title": "Ó Salvador, que recebeste poder",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.73333,
+      "text": "104 - 126"
+    }
+  },
+  {
+    "code": "388",
+    "title": "Na cidade santa",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "389",
+    "title": "Cristo Jesus chama os Seus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 138"
+    }
+  },
+  {
+    "code": "390",
+    "title": "Eis que vem o Verdadeiro",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "391",
+    "title": "Um peregrino sou aqui",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 72"
+    }
+  },
+  {
+    "code": "392",
+    "title": "Com Jesus, a Esperança",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "393",
+    "title": "Ó bom Jesus, meu caro Jesus",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "394",
+    "title": "Nas moradas do Senhor",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 80"
+    }
+  },
+  {
+    "code": "395",
+    "title": "\"Eis-Me aqui\", dirá o Criador",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "92 - 112"
+    }
+  },
+  {
+    "code": "396",
+    "title": "Vamos, ó irmãos, marchar",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "397",
+    "title": "Paz, sublime paz",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 80"
+    }
+  },
+  {
+    "code": "398",
+    "title": "Não tardará a volta do Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.66667,
+      "text": "50 - 63"
+    }
+  },
+  {
+    "code": "399",
+    "title": "\"Sou a Videira\"",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 1,
+      "text": "120 - 144"
+    }
+  },
+  {
+    "code": "400",
+    "title": "Divina Fonte é Jesus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "401",
+    "title": "Revela Teu querer",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 88"
+    }
+  },
+  {
+    "code": "402",
+    "title": "Ó irmãos, a Deus devemos...",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "403",
+    "title": "Pela fé uma vez...",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "404",
+    "title": "Por fé, recebe o grande Mestre",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "405",
+    "title": "Só por Cristo temos salvação",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "406",
+    "title": "A voz de Cristo te convida: Vem!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 84"
+    }
+  },
+  {
+    "code": "407",
+    "title": "És bendito eternamente!",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "408",
+    "title": "Jesus Cristo é o Pão celeste",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.53333,
+      "text": "46 - 54"
+    }
+  },
+  {
+    "code": "409",
+    "title": "Breve voltará Jesus Cristo",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "410",
+    "title": "O sangue precioso",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.33333,
+      "text": "40 - 60"
+    }
+  },
+  {
+    "code": "411",
+    "title": "O vitupério de Jesus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 69"
+    }
+  },
+  {
+    "code": "412",
+    "title": "Senhor, recordamos aqui...",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.766667,
+      "text": "46 - 58"
+    }
+  },
+  {
+    "code": "413",
+    "title": "Foi por mim que morreste",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "50 - 69"
+    }
+  },
+  {
+    "code": "414",
+    "title": "Teu sangue imaculado",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 69"
+    }
+  },
+  {
+    "code": "415",
+    "title": "Na cruz morreu o Cordeiro",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.666667,
+      "text": "80 - 100"
+    }
+  },
+  {
+    "code": "416",
+    "title": "No Calvário...",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "52 - 63"
+    }
+  },
+  {
+    "code": "417",
+    "title": "Recordemo-nos sempre do Mestre",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 108"
+    }
+  },
+  {
+    "code": "418",
+    "title": "Só Jesus Cristo, santo Cordeiro",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 138"
+    }
+  },
+  {
+    "code": "419",
+    "title": "\"Fazei isto em memória de Mim\"",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "420",
+    "title": "Foi no Calvário...",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "50 - 66"
+    }
+  },
+  {
+    "code": "421",
+    "title": "Recorda, por fé, minha alma",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.666667,
+      "text": "80 - 112"
+    }
+  },
+  {
+    "code": "422",
+    "title": "Jesus Cristo, fiel Cordeiro",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.666667,
+      "text": "80 - 100"
+    }
+  },
+  {
+    "code": "423",
+    "title": "Só o sangue precioso e expiador",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "424",
+    "title": "Ó Jesus, por nós morreste",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 80"
+    }
+  },
+  {
+    "code": "425",
+    "title": "Cristo Supremo",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 9,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 126"
+    }
+  },
+  {
+    "code": "426",
+    "title": "Lá no céu, o lar de amor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.733333,
+      "text": "44 - 60"
+    }
+  },
+  {
+    "code": "427",
+    "title": "Os que no Senhor dormiram",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.733333,
+      "text": "44 - 58"
+    }
+  },
+  {
+    "code": "428",
+    "title": "O dia de Cristo bem perto está",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 60"
+    }
+  },
+  {
+    "code": "429",
+    "title": "A trombeta soará",
+    "keySig": {
+      "accidental": 4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "50 - 60"
+    }
+  },
+  {
+    "code": "430",
+    "title": "Preciosa é, aos olhos do Criador...",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.8,
+      "text": "96 - 112"
+    }
+  },
+  {
+    "code": "431",
+    "title": "Ó meninos, estamos reunidos",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 88"
+    }
+  },
+  {
+    "code": "432",
+    "title": "Vem, ó divino Mestre",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.4,
+      "text": "84 - 108"
+    }
+  },
+  {
+    "code": "433",
+    "title": "Na santa escola",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "434",
+    "title": "A minha alma sente paz no Senhor",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "435",
+    "title": "Ó Jesus, quanto és piedoso!",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 76"
+    }
+  },
+  {
+    "code": "436",
+    "title": "Alegria sinto em servir Jesus",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "437",
+    "title": "Os meninos viram Jesus passar",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "438",
+    "title": "Oh! Que amor celeste!",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.833333,
+      "text": "100 - 138"
+    }
+  },
+  {
+    "code": "439",
+    "title": "Somos jovens",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 92"
+    }
+  },
+  {
+    "code": "440",
+    "title": "Lembra-te do teu Criador!",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 92"
+    }
+  },
+  {
+    "code": "441",
+    "title": "Eu sou um cordeirinho",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 2
+    },
+    "time": {
+      "reference": 1.73333,
+      "text": "52 - 69"
+    }
+  },
+  {
+    "code": "442",
+    "title": "Bênçãos, bênçãos Deus derramará",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "443",
+    "title": "Ó meninos, Deus vos convida",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 88"
+    }
+  },
+  {
+    "code": "444",
+    "title": "Ó meninos, exaltemos",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "445",
+    "title": "Ajuntemos um tesouro eterno",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.2,
+      "text": "72 - 92"
+    }
+  },
+  {
+    "code": "446",
+    "title": "Vós, ó jovens do Senhor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "447",
+    "title": "Brilha mais e mais",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "448",
+    "title": "Sou criança, Senhor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.766667,
+      "text": "92 - 126"
+    }
+  },
+  {
+    "code": "449",
+    "title": "O meu nome no céu escreveste, Senhor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 92"
+    }
+  },
+  {
+    "code": "450",
+    "title": "Vamos, queridos, escolher a boa parte",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "451",
+    "title": "Jamais esquecerei Tua mercê",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 132"
+    }
+  },
+  {
+    "code": "452",
+    "title": "Jesus, ó Divinal Pastor",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "453",
+    "title": "Consagrados sejamos a Deus",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.46667,
+      "text": "88 - 116"
+    }
+  },
+  {
+    "code": "454",
+    "title": "Cidadão dos céus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 126"
+    }
+  },
+  {
+    "code": "455",
+    "title": "Quão ditoso é caminhar com Jesus!",
+    "keySig": {
+      "accidental": -5
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "456",
+    "title": "Somos joias preciosas",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "457",
+    "title": "Comigo está Jesus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.866667,
+      "text": "104 - 144"
+    }
+  },
+  {
+    "code": "458",
+    "title": "Cristo me ama",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "56 - 76"
+    }
+  },
+  {
+    "code": "459",
+    "title": "Vamos nos preparar!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 12,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.933333,
+      "text": "112 - 144"
+    }
+  },
+  {
+    "code": "460",
+    "title": "Vamos todos juntos cantar",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 88"
+    }
+  },
+  {
+    "code": "461",
+    "title": "Abrigado em Jesus",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "462",
+    "title": "Gloriosa é a história",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 84"
+    }
+  },
+  {
+    "code": "463",
+    "title": "Mocidade! Vamos combater!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 88"
+    }
+  },
+  {
+    "code": "464",
+    "title": "Reunidos nós estamos",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 72"
+    }
+  },
+  {
+    "code": "465",
+    "title": "Deus tem por nós imenso amor",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "466",
+    "title": "A criança consagrada",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "467",
+    "title": "Vamos com Jesus",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "468",
+    "title": "Toda a criança...",
+    "keySig": {
+      "accidental": -1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "469",
+    "title": "Pai nosso, que estás nos céus",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.26667,
+      "text": "76 - 84"
+    }
+  },
+  {
+    "code": "470",
+    "title": "Jesus Cristo, Seus fiéis, ensina",
+    "keySig": {
+      "accidental": 2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.15,
+      "text": "69 - 92"
+    }
+  },
+  {
+    "code": "471",
+    "title": "Que grande bem é andar com Cristo!",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 76"
+    }
+  },
+  {
+    "code": "472",
+    "title": "Glorificarei, glorificarei",
+    "keySig": {
+      "accidental": 0
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "473",
+    "title": "Forasteiro sou no mundo",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.1,
+      "text": "66 - 84"
+    }
+  },
+  {
+    "code": "474",
+    "title": "Oh! Glória! Bendito é o Senhor!",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 84"
+    }
+  },
+  {
+    "code": "475",
+    "title": "Se eu for aqui provado",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 84"
+    }
+  },
+  {
+    "code": "476",
+    "title": "\"Deixai a Mim vir os pequeninos...\"",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "477",
+    "title": "Vinde, crianças",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 84"
+    }
+  },
+  {
+    "code": "478",
+    "title": "Cedo retorna o Senhor",
+    "keySig": {
+      "accidental": -3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "479",
+    "title": "Somos jovens consagrados",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 3,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1.05,
+      "text": "63 - 80"
+    }
+  },
+  {
+    "code": "480",
+    "title": "Jovens, amai o conselho",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 6,
+      "sigD": 8
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "108 - 138"
+    }
+  },
+  {
+    "code": "Coro-1",
+    "title": "Aleluia! Aleluia!",
+    "keySig": {
+      "accidental": 3
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 80"
+    }
+  },
+  {
+    "code": "Coro-2",
+    "title": "Toda a glória a Jesus",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 2,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.9,
+      "text": "54 - 66"
+    }
+  },
+  {
+    "code": "Coro-3",
+    "title": "Ação de graças darei",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 0.966667,
+      "text": "58 - 76"
+    }
+  },
+  {
+    "code": "Coro-4",
+    "title": "Glória, glória nas alturas!",
+    "keySig": {
+      "accidental": -4
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 84"
+    }
+  },
+  {
+    "code": "Coro-5",
+    "title": "Majestoso é Cristo Jesus!",
+    "keySig": {
+      "accidental": -2
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  },
+  {
+    "code": "Coro-6",
+    "title": "A Jesus eu cantarei louvor",
+    "keySig": {
+      "accidental": 1
+    },
+    "measures": {
+      "sigN": 4,
+      "sigD": 4
+    },
+    "time": {
+      "reference": 1,
+      "text": "60 - 76"
+    }
+  }
 ]

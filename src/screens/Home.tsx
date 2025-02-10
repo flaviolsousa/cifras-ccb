@@ -13,13 +13,15 @@ const Home = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Exemplo de dados – substitua pelos dados reais dos hinos
   const hymns = Hymns.map((hymn) => ({
     code: hymn.code,
     title: hymn.title,
   }));
 
-  const filteredHymns = hymns.filter((h) => h.title.toLowerCase().includes(searchQuery.toLowerCase()) || h.code.includes(searchQuery));
+  const filteredHymns = hymns.filter(({ title, code }) => {
+    const query = searchQuery.toLowerCase().trim();
+    return title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
+  });
 
   return (
     <View style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>

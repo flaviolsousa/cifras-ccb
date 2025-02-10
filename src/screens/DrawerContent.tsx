@@ -1,12 +1,10 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, BackHandler } from "react-native";
 import { DrawerItem, DrawerContentScrollView, DrawerContentComponentProps } from "@react-navigation/drawer";
 import { useTheme, Avatar, Title, Caption, Paragraph, Drawer, Text, TouchableRipple, Switch } from "react-native-paper";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 type Props = DrawerContentComponentProps;
-
-//const DrawerItemNavigate = ({ materialIcon, label, navigateTo }) => {};
 
 function DrawerContent(props: Props) {
   const theme = useTheme();
@@ -61,7 +59,7 @@ function DrawerContent(props: Props) {
           label="Close"
           labelStyle={{ color: theme.colors.secondary }}
           onPress={() => {
-            props.navigation.closeDrawer();
+            BackHandler.exitApp();
           }}
         />
       </View>

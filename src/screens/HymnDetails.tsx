@@ -44,7 +44,7 @@ const HymnDetails = () => {
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
         <ScrollView contentContainerStyle={styles.content}>
-          <Text style={[styles.hymnText, { fontSize }]}>{hymnContent}</Text>
+          <Text style={[styles.hymnText, { fontSize, color: theme.colors.secondary }]}>{hymnContent}</Text>
         </ScrollView>
       </PinchGestureHandler>
     </View>
@@ -54,7 +54,6 @@ const HymnDetails = () => {
 const styles = StyleSheet.create({
   content: {
     padding: 16,
-    backgroundColor: "#F00",
   },
   hymnText: {
     fontFamily: "UbuntuMonoRegular",

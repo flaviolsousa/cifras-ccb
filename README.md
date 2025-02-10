@@ -50,6 +50,8 @@ expo install expo-app-loading
 
 npx expo install react-native-gesture-handler
 
+npm i @react-native-community/slider --save
+
 ```
 
 ## References
