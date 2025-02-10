@@ -1,10 +1,10 @@
 // src/screens/Preferences.tsx
 import React, { useState } from "react";
 import { View, StyleSheet, ScrollView, Text } from "react-native";
-import { useTheme, Appbar, RadioButton, List, Button, SegmentedButtons } from "react-native-paper";
+import { useTheme, Appbar, List, Button, SegmentedButtons } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
-import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE } from "../constants";
+import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE } from "../constants/values";
 
 const Preferences = () => {
   const theme = useTheme();

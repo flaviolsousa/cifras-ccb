@@ -7,9 +7,9 @@ import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
 
-import { useTheme, Provider as PaperProvider, MD3DarkTheme, MD3LightTheme } from "react-native-paper";
-import { DefaultTheme, DarkTheme } from "@react-navigation/native";
+import { Provider as PaperProvider } from "react-native-paper";
 import { useColorScheme } from "react-native";
+import theme from "./src/constants/theme";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -18,13 +18,9 @@ export default function App() {
     UbuntuRegular: require("./assets/fonts/ubuntu/Ubuntu-R.ttf"),
   });
 
-  const theme = useTheme();
+  //const theme = useTheme();
   const colorScheme = useColorScheme();
-
-  console.log("theme", theme);
-  console.log("theme.dark", theme.dark);
-  console.log("colorScheme", colorScheme);
-  const navigationTheme = colorScheme == "dark" ? DarkTheme : DefaultTheme;
+  const _theme = colorScheme == "dark" ? theme.dark : theme.light;
 
   if (!fontsLoaded) {
     return <AppLoading />;
@@ -33,8 +29,8 @@ export default function App() {
   return (
     <ReduxProvider store={store}>
       <GestureHandlerRootView>
-        <PaperProvider theme={colorScheme == "dark" ? MD3DarkTheme : MD3LightTheme}>
-          <NavigationContainer theme={navigationTheme}>
+        <PaperProvider theme={_theme}>
+          <NavigationContainer theme={_theme}>
             <MainNavigator />
           </NavigationContainer>
         </PaperProvider>
