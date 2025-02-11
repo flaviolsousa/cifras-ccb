@@ -4,6 +4,8 @@ import { View, StyleSheet, ScrollView, Text } from "react-native";
 import { useTheme, Appbar, List, Button, SegmentedButtons } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
+import _ from "lodash";
+
 import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE } from "../constants/values";
 
 const Preferences = () => {
@@ -12,9 +14,9 @@ const Preferences = () => {
   const [fontSize, setFontSize] = useState(16);
   const [themeSelection, setThemeSelection] = useState("system");
 
-  const handleFontSizeChange = (value: number) => {
+  const handleFontSizeChange = _.debounce((value: number) => {
     setFontSize(value);
-  };
+  }, 150);
 
   const savePreferences = () => {
     // Save preferences logic here
@@ -39,8 +41,8 @@ const Preferences = () => {
               value={fontSize}
               onValueChange={handleFontSizeChange}
             />
-            <Text>Selected Font Size: {fontSize}</Text>
-            <Text style={[styles.exampleSizeText, { fontSize, color: theme.colors.secondary }]}>Cristo</Text>
+            <Text style={{ color: theme.colors.secondary }}>Selected Font Size: {fontSize}</Text>
+            <Text style={{ fontSize, color: theme.colors.secondary }}>Ó caro salvador, a Tua voz de amor</Text>
           </List.Section>
 
           <List.Section>
@@ -57,7 +59,7 @@ const Preferences = () => {
           </List.Section>
         </ScrollView>
         <Button mode="contained" onPress={savePreferences}>
-          Salvars
+          Salvar
         </Button>
       </View>
     </View>
@@ -74,7 +76,6 @@ const styles = StyleSheet.create({
   slideFontSize: {
     width: "100%",
   },
-  exampleSizeText: {},
 });
 
 export default Preferences;

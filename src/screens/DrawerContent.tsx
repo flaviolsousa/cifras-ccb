@@ -10,23 +10,25 @@ function DrawerContent(props: Props) {
   const theme = useTheme();
   return (
     <View style={{ flex: 1 }}>
-      <DrawerContentScrollView {...props} style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>
+      <DrawerContentScrollView {...props} style={{ flex: 1 }}>
         <View style={styles.drawerContent}>
-          <View style={styles.userInfoSection}>
+          <View style={{ ...styles.profile }}>
             <Avatar.Image
+              style={{ ...styles.profileAvatar }}
               source={{
                 uri: "https://pbs.twimg.com/profile_images/1548044150603333638/3F3siO5A_200x200.jpg",
               }}
-              size={50}
+              size={100}
             />
-            <Title style={{ ...theme, ...styles.title, color: theme.colors.primary }}>Flávio Sousa</Title>
-            <Caption style={{ ...theme, ...styles.caption, color: theme.colors.secondary }}>google: flaviolsousa</Caption>
+            <View style={{ ...styles.profileContent }}>
+              <Title style={{ ...styles.profileTitle }}>Flávio Sousa</Title>
+              <Caption style={{ ...styles.profileUser }}>google: flaviolsousa</Caption>
+            </View>
           </View>
           <Drawer.Section style={styles.drawerSection}>
             <DrawerItem
               icon={({ size }) => <MaterialCommunityIcons name="home-outline" color={theme.colors.secondary} size={size} />}
               label="Home"
-              labelStyle={{ color: theme.colors.secondary }}
               onPress={() => {
                 props.navigation.navigate("HomeStack");
                 props.navigation.closeDrawer();
@@ -37,7 +39,6 @@ function DrawerContent(props: Props) {
             <DrawerItem
               icon={({ color, size }) => <MaterialCommunityIcons name="tune" color={theme.colors.secondary} size={size} />}
               label="Preferences"
-              labelStyle={{ color: theme.colors.secondary }}
               onPress={() => {
                 props.navigation.navigate("Preferences");
               }}
@@ -45,7 +46,6 @@ function DrawerContent(props: Props) {
             <DrawerItem
               icon={({ color, size }) => <MaterialCommunityIcons name="bookmark-outline" color={theme.colors.secondary} size={size} />}
               label="Bookmarks"
-              labelStyle={{ color: theme.colors.secondary }}
               onPress={() => {
                 props.navigation.navigate("Bookmarks");
               }}
@@ -57,7 +57,6 @@ function DrawerContent(props: Props) {
         <DrawerItem
           icon={({ color, size }) => <MaterialCommunityIcons name="exit-to-app" color={theme.colors.secondary} size={size} />}
           label="Close"
-          labelStyle={{ color: theme.colors.secondary }}
           onPress={() => {
             BackHandler.exitApp();
           }}
@@ -71,23 +70,27 @@ const styles = StyleSheet.create({
   drawerContent: {
     flex: 1,
   },
-  userInfoSection: {
-    flexDirection: "row",
+
+  profile: {
     paddingLeft: 20,
     paddingTop: 20,
-  },
-  title: {
-    marginTop: 20,
-    fontWeight: "bold",
-  },
-  caption: {
-    fontSize: 14,
-    lineHeight: 14,
-  },
-  row: {
-    marginTop: 20,
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "flex-start",
+  },
+  profileAvatar: {
+    marginRight: 15,
+  },
+  profileContent: {
+    marginRight: "auto",
+  },
+  profileTitle: {
+    fontWeight: "bold",
+  },
+  profileUser: {
+    fontSize: 14,
+    lineHeight: 14,
+    display: "flex",
   },
   section: {
     flexDirection: "row",
