@@ -1,10 +1,11 @@
 // src/screens/HymnDetails.tsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Text } from "react-native";
 import { useTheme, Appbar, IconButton } from "react-native-paper";
 import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../navigation/MainNavigator";
 import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
+import HymnService from "../services/Hymn/HymnService";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -16,12 +17,19 @@ const HymnDetails = () => {
   const { hymnCode: hymnCode } = route.params;
   const [fontSize, setFontSize] = useState(fontSizeInitial);
   const [fontSizeReference, setFontSizeReference] = useState(fontSizeInitial);
-  const [hymnContent, setHymnContent] = useState("Letra do hino com acordes");
+  const [hymnContent, setHymnContent] = useState<string>("");
+
+  useEffect(() => {
+    const fetchContent = async () => {
+      const content = await HymnService.getContent(hymnCode);
+      setHymnContent(content);
+    };
+    fetchContent();
+  }, [hymnCode]);
 
   const onPinchEvent = (event: PinchGestureHandlerGestureEvent) => {
     if (event.nativeEvent.scale) {
       setFontSize(() => Math.max(10, Math.min(72, fontSizeReference * event.nativeEvent.scale)));
-      setHymnContent("!scale: " + event.nativeEvent.scale + " fontSizeRef: " + fontSizeReference + " fontSize: " + fontSize);
     }
   };
 
