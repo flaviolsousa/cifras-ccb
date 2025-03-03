@@ -93,8 +93,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   landscape: {
-    paddingHorizontal: 48,
-    maxWidth: 800,
+    paddingHorizontal: 16,
+    marginTop: 16,
     alignSelf: "center",
     width: "100%",
   },

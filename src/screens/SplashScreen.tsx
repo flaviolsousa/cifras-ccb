@@ -4,27 +4,46 @@ import { View, Image, StyleSheet, Animated } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/MainNavigator";
+import * as SplashScreen from "expo-splash-screen";
 
-const SplashScreen = () => {
+// Keep the splash screen visible while we fetch resources
+SplashScreen.preventAutoHideAsync();
+
+const Screen = () => {
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
   const opacity = new Animated.Value(0);
 
   useEffect(() => {
-    Animated.timing(opacity, {
-      toValue: 1,
-      duration: 800,
-      useNativeDriver: true,
-    }).start(() => {
-      setTimeout(() => {
+    const prepare = async () => {
+      try {
+        // Add any initialization logic here (fonts, data loading, etc)
+        await new Promise((resolve) => setTimeout(resolve, 500)); // Small delay for demo
+      } catch (e) {
+        console.warn(e);
+      } finally {
+        // Hide the native splash screen
+        await SplashScreen.hideAsync();
+
+        // Start our custom animation
         Animated.timing(opacity, {
-          toValue: 0,
+          toValue: 1,
           duration: 800,
           useNativeDriver: true,
         }).start(() => {
-          navigation.replace("Home");
+          setTimeout(() => {
+            Animated.timing(opacity, {
+              toValue: 0,
+              duration: 800,
+              useNativeDriver: true,
+            }).start(() => {
+              navigation.replace("Home");
+            });
+          }, 1500);
         });
-      }, 1500);
-    });
+      }
+    };
+
+    prepare();
   }, []);
 
   return (
@@ -47,4 +66,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SplashScreen;
+export default Screen;
