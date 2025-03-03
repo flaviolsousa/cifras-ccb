@@ -9,6 +9,7 @@ import Preferences from "../screens/Preferences";
 import Bookmarks from "../screens/Bookmarks";
 import HymnDetails from "../screens/HymnDetails";
 import DrawerContent from "../screens/DrawerContent";
+import { Platform } from "react-native";
 
 export type RootStackParamList = {
   Splash: undefined;
@@ -22,9 +23,11 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const Drawer = createDrawerNavigator();
 
 const MainNavigator = () => {
-  React.useEffect(() => {
-    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
-  }, []);
+  if (Platform.OS !== "web") {
+    React.useEffect(() => {
+      ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+    }, []);
+  }
 
   return (
     <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />} screenOptions={{ headerShown: false }}>
@@ -42,7 +45,7 @@ const HomeStackNavigator = () => {
       screenOptions={{ headerShown: false }}
       screenListeners={{
         beforeRemove: () => {
-          ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+          if (Platform.OS !== "web") ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
         },
       }}
     >
@@ -53,7 +56,7 @@ const HomeStackNavigator = () => {
         component={HymnDetails}
         listeners={{
           focus: () => {
-            ScreenOrientation.unlockAsync();
+            if (Platform.OS !== "web") ScreenOrientation.unlockAsync();
           },
         }}
       />

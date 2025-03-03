@@ -1,6 +1,6 @@
 // src/screens/HymnDetails.tsx
 import React, { useState, useEffect } from "react";
-import { View, StyleSheet, ScrollView, Text, Dimensions } from "react-native";
+import { View, StyleSheet, ScrollView, Text, Dimensions, Platform } from "react-native";
 import { useTheme, Appbar, IconButton } from "react-native-paper";
 import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../navigation/MainNavigator";
@@ -56,18 +56,22 @@ const HymnDetails = () => {
     if (event.nativeEvent.state === State.ACTIVE) setFontSizeReference(fontSize);
   };
 
+  const shouldShowHeader = Platform.OS === "web" || isPortrait;
+
   return (
     <View style={{ ...theme, flex: 1 }}>
-      <Appbar.Header elevated={true}>
-        <Appbar.BackAction onPress={() => navigation.goBack()} />
-        <Appbar.Content title={hymnTitle} />
-        <IconButton
-          icon="information"
-          onPress={() => {
-            /* Toggle área de detalhes do hino */
-          }}
-        />
-      </Appbar.Header>
+      {shouldShowHeader && (
+        <Appbar.Header elevated={true}>
+          <Appbar.BackAction onPress={() => navigation.goBack()} />
+          <Appbar.Content title={hymnTitle} />
+          <IconButton
+            icon="information"
+            onPress={() => {
+              /* Toggle área de detalhes do hino */
+            }}
+          />
+        </Appbar.Header>
+      )}
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
         <ScrollView contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}>
