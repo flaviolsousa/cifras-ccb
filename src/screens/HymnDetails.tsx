@@ -1,6 +1,6 @@
 // src/screens/HymnDetails.tsx
 import React, { useState, useEffect } from "react";
-import { View, StyleSheet, ScrollView, Text } from "react-native";
+import { View, StyleSheet, ScrollView, Text, Dimensions } from "react-native";
 import { useTheme, Appbar, IconButton } from "react-native-paper";
 import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../navigation/MainNavigator";
@@ -17,15 +17,34 @@ const HymnDetails = () => {
   const { hymnCode: hymnCode } = route.params;
   const [fontSize, setFontSize] = useState(fontSizeInitial);
   const [fontSizeReference, setFontSizeReference] = useState(fontSizeInitial);
+  const [hymnTitle, setTitle] = useState<string>("");
   const [hymnContent, setHymnContent] = useState<string>("");
+  const [isPortrait, setIsPortrait] = useState(true);
 
   useEffect(() => {
     const fetchContent = async () => {
-      const content = await HymnService.getContent(hymnCode);
-      setHymnContent(content);
+      const hymn = await HymnService.getHymn(hymnCode);
+      if (hymn) {
+        const content = hymn.content.join("\n");
+        setTitle(`${hymn.code} - ${hymn.title}`);
+        setHymnContent(content);
+      } else {
+        setTitle(`${hymnCode} - Hino não encontrado`);
+        setHymnContent("TBD");
+      }
     };
     fetchContent();
   }, [hymnCode]);
+
+  useEffect(() => {
+    const subscription = Dimensions.addEventListener("change", ({ window }) => {
+      setIsPortrait(window.height > window.width);
+    });
+
+    setIsPortrait(Dimensions.get("window").height > Dimensions.get("window").width);
+
+    return () => subscription.remove();
+  }, []);
 
   const onPinchEvent = (event: PinchGestureHandlerGestureEvent) => {
     if (event.nativeEvent.scale) {
@@ -41,7 +60,7 @@ const HymnDetails = () => {
     <View style={{ ...theme, flex: 1 }}>
       <Appbar.Header elevated={true}>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
-        <Appbar.Content title={`Hino ${hymnCode}`} />
+        <Appbar.Content title={hymnTitle} />
         <IconButton
           icon="information"
           onPress={() => {
@@ -51,7 +70,7 @@ const HymnDetails = () => {
       </Appbar.Header>
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
-        <ScrollView contentContainerStyle={styles.content}>
+        <ScrollView contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}>
           <Text style={[styles.hymnText, { fontSize, color: theme.colors.secondary }]}>{hymnContent}</Text>
         </ScrollView>
       </PinchGestureHandler>
@@ -65,6 +84,15 @@ const styles = StyleSheet.create({
   },
   hymnText: {
     fontFamily: "UbuntuMonoRegular",
+  },
+  portrait: {
+    paddingHorizontal: 16,
+  },
+  landscape: {
+    paddingHorizontal: 48,
+    maxWidth: 800,
+    alignSelf: "center",
+    width: "100%",
   },
 });
 

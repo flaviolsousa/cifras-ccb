@@ -1,5 +1,6 @@
 // src/navigation/MainNavigator.tsx
 import React from "react";
+import * as ScreenOrientation from "expo-screen-orientation";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SplashScreen from "../screens/SplashScreen";
@@ -21,6 +22,10 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const Drawer = createDrawerNavigator();
 
 const MainNavigator = () => {
+  React.useEffect(() => {
+    ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+  }, []);
+
   return (
     <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />} screenOptions={{ headerShown: false }}>
       <Drawer.Screen name="HomeStack" component={HomeStackNavigator} />
@@ -32,10 +37,26 @@ const MainNavigator = () => {
 
 const HomeStackNavigator = () => {
   return (
-    <Stack.Navigator initialRouteName="Splash" screenOptions={{ headerShown: false }}>
+    <Stack.Navigator
+      initialRouteName="Splash"
+      screenOptions={{ headerShown: false }}
+      screenListeners={{
+        beforeRemove: () => {
+          ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
+        },
+      }}
+    >
       <Stack.Screen name="Splash" component={SplashScreen} />
       <Stack.Screen name="Home" component={Home} />
-      <Stack.Screen name="HymnDetails" component={HymnDetails} />
+      <Stack.Screen
+        name="HymnDetails"
+        component={HymnDetails}
+        listeners={{
+          focus: () => {
+            ScreenOrientation.unlockAsync();
+          },
+        }}
+      />
     </Stack.Navigator>
   );
 };

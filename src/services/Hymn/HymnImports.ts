@@ -1,6 +1,8 @@
 import { HymnModel } from "./HymnService";
 
-const HymnMappings: { [key: string]: HymnModel } = {
+import Hymns from "../../../data/Hymns.json";
+
+const HymnModels: { [key: string]: HymnModel } = {
   "001": require("../../../data/lyrics/001.json"),
   "002": require("../../../data/lyrics/002.json"),
   "003": require("../../../data/lyrics/003.json"),
@@ -484,4 +486,4 @@ const HymnMappings: { [key: string]: HymnModel } = {
   "Coro-6": require("../../../data/lyrics/Coro-6.json"),
 };
 
-export default HymnMappings;
+export { Hymns, HymnModels };

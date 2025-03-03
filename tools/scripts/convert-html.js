@@ -26,6 +26,9 @@ const preTags = document.querySelectorAll("body pre");
 preTags.forEach((preTag) => {
   const id = preTag.id;
   if (id) {
+    if (id == "005") {
+      console.log(id);
+    }
     const titleEntry = titles.find((title) => title.id === id);
     if (titleEntry) {
       const content = preTag.textContent.trim().replace(/<b>(.*?)<\/b>/g, "$1");
@@ -44,6 +47,12 @@ preTags.forEach((preTag) => {
       }
       for (let i = 0; i < lines.length; i++) {
         lines[i] = lines[i].trim() === "" ? "" : lines[i];
+      }
+      for (let i = 0; i < lines.length - 1; i++) {
+        if (lines[i].replace(/\s{2,}.*\s{2,}/, "").trim().length > 8 && lines[i + 1].replace(/\s{2,}.*\s{2,}/, "").trim().length > 8) {
+          lines.splice(i + 1, 0, "");
+          i++;
+        }
       }
 
       // Create the JSON object

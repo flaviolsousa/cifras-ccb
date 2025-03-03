@@ -1,25 +1,25 @@
-import hymnImports from "./HymnImports";
-export interface HymnModel {
-  version: string;
-  title: string;
-  difficulty: number;
-  tone: string;
-  content: string[];
-}
+import { HymnModel } from "../../domain/hymn";
+import { Hymns, HymnModels } from "./HymnImports";
 
 async function readFile(file: string): Promise<HymnModel | null> {
-  return hymnImports[file] || null;
+  return HymnModels[file] || null;
 }
 
 class HymnService {
-  static async getContent(hymnCode: string): Promise<string> {
-    const json: HymnModel | null = await readFile(hymnCode);
-    if (!json) {
-      return "TBD";
+  static async getHymn(hymnCode: string): Promise<HymnModel | null> {
+    const hymnData: HymnModel | null = await readFile(hymnCode);
+    if (!hymnData) {
+      return null;
     }
 
-    const lines = json.content.join("\n");
-    return lines;
+    const hymnMetaData = Hymns.find((hymn) => hymn.code === hymnCode);
+    if (hymnMetaData) {
+      return {
+        ...hymnMetaData,
+        ...hymnData,
+      };
+    }
+    return null;
   }
 }
 

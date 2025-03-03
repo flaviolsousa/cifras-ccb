@@ -21,6 +21,7 @@
     "expo": "~52.0.30",
     "expo-app-loading": "^2.1.1",
     "expo-font": "~13.0.3",
+    "expo-screen-orientation": "^8.0.4",
     "expo-status-bar": "~2.0.1",
     "lodash": "^4.17.21",
     "react": "18.3.1",
