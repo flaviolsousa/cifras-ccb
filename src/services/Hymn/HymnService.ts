@@ -1,4 +1,4 @@
-import { HymnModel } from "../../domain/hymn";
+import { HymnModel } from "../../domain/HymnModel";
 import { Hymns, HymnModels } from "./HymnImports";
 
 async function readFile(file: string): Promise<HymnModel | null> {

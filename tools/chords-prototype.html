@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hino com Cifras</title>
+    <style>
+      .wrapper {
+        display: grid;
+		margin-top: -36px;
+      }
+      .chord,
+      .lyric {
+        grid-column: 1;
+        grid-row: 1;
+        font-family: monospace;
+        font-size: 48px;
+        white-space: pre-wrap;
+        line-height: 2.5;
+        margin: 0;
+      }
+      .chord {
+        pointer-events: none;
+        color: white;
+      }
+      .lyric {
+		margin-top: 48px;
+	  }
+	  .contentChord {
+        color: blue;
+	  }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
+      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
+    </div>
+    <div class="wrapper">
+      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
+      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
+    </div>
+    <div class="wrapper">
+      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
+      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
+    </div>
+	
+	<script>
+	  document.querySelectorAll('.chord').forEach(function(pre) {
+		pre.innerHTML = pre.textContent.replace(/([^_]+)/g, '<span class="contentChord">$1</span>');
+	  });
+	</script>
+  </body>
+</html>
