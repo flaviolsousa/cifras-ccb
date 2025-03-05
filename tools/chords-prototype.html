@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hino com Cifras</title>
     <style>
-      .wrapper {
+      .stanza {
+        margin-bottom: 48px; /* fontSize */
+      }
+      .verse {
         display: grid;
-		margin-top: -36px;
+        margin-top: -24px; /* -50% of fontSize */
       }
       .chord,
       .lyric {
@@ -16,7 +19,7 @@
         font-family: monospace;
         font-size: 48px;
         white-space: pre-wrap;
-        line-height: 2.5;
+        line-height: 2;
         margin: 0;
       }
       .chord {
@@ -24,31 +27,93 @@
         color: white;
       }
       .lyric {
-		margin-top: 48px;
-	  }
-	  .contentChord {
-        color: blue;
-	  }
+        margin-top: 48px; /* fontSize */
+      }
+      .contentChord {
+        color: rgb(27, 110, 182);
+      }
     </style>
   </head>
   <body>
-    <div class="wrapper">
-      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
-      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
+    <div class="score">
+      <div class="stanza">
+        <div class="verse">
+          <pre class="chord">   G                C                G                     D </pre>
+          <pre class="lyric">1. Minha alma_engrandece_ao meu Salvador, que para mim atentou;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord">G            C               G                   D    G</pre>
+          <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord">         D                G                       D </pre>
+          <pre class="lyric">Redimida por Seu grande favor, minha alma louva a Deus.</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord">G                 C             G              D     G</pre>
+          <pre class="lyric">Com Seu sangue precioso, o Redentor pagou os pecados meus.</pre>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="verse">
+          <pre class="chord">    G                C             G                     D  </pre>
+          <pre class="lyric">2. Sorte entre_os remidos me concedeu Jesus, o meu Salvador;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord"> G             C            G                 D     G </pre>
+          <pre class="lyric">Deu-me a liberdade para servir a Deus com sincero_amor;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord">              D             G                      D </pre>
+          <pre class="lyric">Cristo converteu o meu coração com o Seu eterno poder</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord"> G              C               G             D     G </pre>
+          <pre class="lyric">E as trevas do mal também dissipou; agora eu posso ver.</pre>
+        </div>
+      </div>
+
+      <div class="stanza">
+        <div class="verse">
+          <pre class="chord">    G             C               G                         D  </pre>
+          <pre class="lyric">3. Pela luz da Palavra sinto_o Senhor que, com amor, me conduz;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord"> G            C               G             D      G </pre>
+          <pre class="lyric">Forças receberei, virtude, saber e fé no Senhor Jesus;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord">            D              G                      D </pre>
+          <pre class="lyric">Finalmente entrarei lá no céu para ver a face de Deus;</pre>
+        </div>
+        <div class="verse">
+          <pre class="chord"> G             C              G                 D       G</pre>
+          <pre class="lyric">Oh! Que felicidade Cristo me deu, pois vou habitar nos céus</pre>
+        </div>
+      </div>
     </div>
-    <div class="wrapper">
-      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
-      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
-    </div>
-    <div class="wrapper">
-      <pre class="chord">G__ ________ C______ ______ _G__ __ _____ ___ __ D____G__</pre>
-      <pre class="lyric">Meu espírito sente_o grande amor de Deus, que me perdoou.</pre>
-    </div>
-	
-	<script>
-	  document.querySelectorAll('.chord').forEach(function(pre) {
-		pre.innerHTML = pre.textContent.replace(/([^_]+)/g, '<span class="contentChord">$1</span>');
-	  });
-	</script>
+    <script>
+      function adjustChord(chordStr, lyricStr) {
+        let adjustedChord = "";
+        for (let i = 0; i < lyricStr.length; i++) {
+          let chordChar = chordStr[i] || " ";
+          adjustedChord += lyricStr[i] !== " " && chordChar === " " ? "_" : chordChar;
+        }
+        return adjustedChord;
+      }
+
+      document.querySelectorAll(".verse").forEach((verse) => {
+        const chordPre = verse.querySelector("pre.chord");
+        const lyricPre = verse.querySelector("pre.lyric");
+        if (chordPre && lyricPre) {
+          chordPre.textContent = adjustChord(chordPre.textContent, lyricPre.textContent);
+        }
+      });
+
+      document.querySelectorAll(".chord").forEach(function (pre) {
+        pre.innerHTML = pre.textContent.replace(/([^_]+)/g, '<span class="contentChord">$1</span>');
+      });
+    </script>
   </body>
 </html>

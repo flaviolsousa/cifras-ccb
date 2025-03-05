@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "cSpell.words": ["Appbar", "Coro"]
+  "cSpell.words": ["Appbar"],
+  "cSpell.language": "en,pt,pt-BR"
 }
