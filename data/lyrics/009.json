@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Luminosa é a senda",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G    D    G",
-    "1. Luminosa é a senda",
-    "                       D",
-    "Que conduz, por fé, a Deus;",
-    "       G            C",
-    "Não há nada que me prenda",
-    "      D                G",
-    "Nem detenha os passos meus.",
-    "",
-    "       D       G                    D",
-    "Que prazer é viver com o meu bom Jesus!",
-    "       G             C             D         G",
-    "Na tristeza e na alegria sinto em mim a Sua luz.",
-    "",
-    "       G     D      G",
-    "2. Jubiloso, eu prossigo",
-    "                  D",
-    "Para a glória eternal;",
-    "         G            C",
-    "Sei que Cristo está comigo,",
-    "     D            G",
-    "Protegendo-me do mal.",
-    "",
-    "          G     D     G",
-    "3. Jesus Cristo me consola",
-    "                     D",
-    "Quando estou em aflição;",
-    "      G          C",
-    "Seu Espírito controla",
-    "      D            G",
-    "Minha mente e coração."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G    D    G",
+            "lyrics": "Luminosa é a senda"
+          },
+          {
+            "chords": "                       D",
+            "lyrics": "Que conduz, por fé, a Deus;"
+          },
+          {
+            "chords": "       G            C",
+            "lyrics": "Não há nada que me prenda"
+          },
+          {
+            "chords": "      D                G",
+            "lyrics": "Nem detenha os passos meus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       D       G                    D",
+            "lyrics": "Que prazer é viver com o meu bom Jesus!"
+          },
+          {
+            "chords": "       G             C             D         G",
+            "lyrics": "Na tristeza e na alegria sinto em mim a Sua luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    G     D      G",
+            "lyrics": "Jubiloso, eu prossigo"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "Para a glória eternal;"
+          },
+          {
+            "chords": "         G            C",
+            "lyrics": "Sei que Cristo está comigo,"
+          },
+          {
+            "chords": "     D            G",
+            "lyrics": "Protegendo-me do mal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       G     D     G",
+            "lyrics": "Jesus Cristo me consola"
+          },
+          {
+            "chords": "                     D",
+            "lyrics": "Quando estou em aflição;"
+          },
+          {
+            "chords": "      G          C",
+            "lyrics": "Seu Espírito controla"
+          },
+          {
+            "chords": "      D            G",
+            "lyrics": "Minha mente e coração."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

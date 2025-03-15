@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvarei ao bom Jesus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "    A                                   E ",
-    "1. Louvarei ao bom Jesus, o santo Redentor;",
-    "E7                             A",
-    "Sua poderosa mão veio me libertar;",
-    "                                        D ",
-    "As promessas cumprirá, pelo Seu grande_amor,",
-    "              A              E     A",
-    "E, por graça, no Seu reino_irei morar.",
-    "",
-    "    A                                      E ",
-    "2. Glorifico_ao bom Jesus, santo_e fiel Senhor;",
-    "E7                                      A",
-    "Eu me_alegro_em Sua lei, sempre a seguirei;",
-    "                                 D ",
-    "Nada pode me deter, vivo em Seu amor;",
-    "              A           E    A",
-    "Seu querer inteiramente_aceitarei.",
-    "",
-    "   A                               E ",
-    "3. Aleluia! Eu serei como é meu Senhor,",
-    "E7                                   A",
-    "No glorioso dia_em que Ele do céu voltar;",
-    "                                  D ",
-    "Nesta vida me sustém o bom Consolador,",
-    "            A           E   A",
-    "Pela fé que me ajuda_a caminhar.",
-    "",
-    "A                  D ",
-    "O bom Jesus veio morar",
-    "            A            B7     E    E7 ",
-    "No meu coração e,_assim, o consolar.",
-    "A                      D ",
-    "Glória sem fim ao Redentor,",
-    "          A           E      A",
-    "Filho do eterno Deus, o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " A                                   E ",
+            "lyrics": "Louvarei ao bom Jesus, o santo Redentor;"
+          },
+          {
+            "chords": "E7                             A",
+            "lyrics": "Sua poderosa mão veio me libertar;"
+          },
+          {
+            "chords": "                                        D ",
+            "lyrics": "As promessas cumprirá, pelo Seu grande_amor,"
+          },
+          {
+            "chords": "              A              E     A",
+            "lyrics": "E, por graça, no Seu reino_irei morar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " A                                      E ",
+            "lyrics": "Glorifico_ao bom Jesus, santo_e fiel Senhor;"
+          },
+          {
+            "chords": "E7                                      A",
+            "lyrics": "Eu me_alegro_em Sua lei, sempre a seguirei;"
+          },
+          {
+            "chords": "                                 D ",
+            "lyrics": "Nada pode me deter, vivo em Seu amor;"
+          },
+          {
+            "chords": "              A           E    A",
+            "lyrics": "Seu querer inteiramente_aceitarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                               E ",
+            "lyrics": "Aleluia! Eu serei como é meu Senhor,"
+          },
+          {
+            "chords": "E7                                   A",
+            "lyrics": "No glorioso dia_em que Ele do céu voltar;"
+          },
+          {
+            "chords": "                                  D ",
+            "lyrics": "Nesta vida me sustém o bom Consolador,"
+          },
+          {
+            "chords": "            A           E   A",
+            "lyrics": "Pela fé que me ajuda_a caminhar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                  D ",
+            "lyrics": "O bom Jesus veio morar"
+          },
+          {
+            "chords": "            A            B7     E    E7 ",
+            "lyrics": "No meu coração e,_assim, o consolar."
+          },
+          {
+            "chords": "A                      D ",
+            "lyrics": "Glória sem fim ao Redentor,"
+          },
+          {
+            "chords": "          A           E      A",
+            "lyrics": "Filho do eterno Deus, o Criador."
+          }
+        ]
+      }
+    ]
+  }
 }

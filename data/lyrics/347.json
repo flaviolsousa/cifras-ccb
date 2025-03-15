@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ontem, hoje e eternamente",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                            D           A",
-    "1. Passa_o céu e a terra, mas Jesus não mudará;",
-    "                               E  ",
-    "O Seu reino_é de grande glória e jamais passará;",
-    "               A               D     B7   E   E7 ",
-    "Ele_é sempre o mesmo, Ele_é chamado “o Senhor”;",
-    "A                         D    E   A   A...",
-    "Ao Seu santo mandado nada pode se opor.",
-    "",
-    "   A                       D         A",
-    "2. Ao enfermo que esperava a libertação,",
-    "                               E ",
-    "Disse: “Filho, os teus pecados perdoados estão.”",
-    "               A                D        B7     E  E7 ",
-    "Hoje, Cristo Jesus, à destra de Deus, sentado_está",
-    "A                              D    E   A  A...",
-    "E, do homem que n´Ele crer, se compadecerá.",
-    "",
-    "   A                            D           A",
-    "3. Sobre todas as coisas Cristo tem poder total;",
-    "                         E ",
-    "N´Ele_habita a plenitude de Deus, Pai celestial.",
-    "             A                   D       B7   E  E7 ",
-    "Esse mesmo Jesus que foi para_os céus, retornará;",
-    "A                         D   E    A  ",
-    "Coroado de glória_e honra Ele voltará.",
-    "",
-    "A              D              A               E ",
-    "Ontem, hoje e_eternamente é_o mesmo, Cristo Jesus,",
-    "A                D                    E              A",
-    "Ele_é_o Verbo de Deus, que nos trouxe graça, vida_e luz;",
-    "      D   A                E  E7 ",
-    "Santo e fiel é Jesus, Redentor!",
-    "A               D      D...  E         E7   A",
-    "Tudo passa, mas Cristo não;  glória_ao Salvador!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                            D           A",
+            "lyrics": "Passa_o céu e a terra, mas Jesus não mudará;"
+          },
+          {
+            "chords": "                               E  ",
+            "lyrics": "O Seu reino_é de grande glória e jamais passará;"
+          },
+          {
+            "chords": "               A               D     B7   E   E7 ",
+            "lyrics": "Ele_é sempre o mesmo, Ele_é chamado “o Senhor”;"
+          },
+          {
+            "chords": "A                         D    E   A   A...",
+            "lyrics": "Ao Seu santo mandado nada pode se opor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                       D         A",
+            "lyrics": "Ao enfermo que esperava a libertação,"
+          },
+          {
+            "chords": "                               E ",
+            "lyrics": "Disse: “Filho, os teus pecados perdoados estão.”"
+          },
+          {
+            "chords": "               A                D        B7     E  E7 ",
+            "lyrics": "Hoje, Cristo Jesus, à destra de Deus, sentado_está"
+          },
+          {
+            "chords": "A                              D    E   A  A...",
+            "lyrics": "E, do homem que n´Ele crer, se compadecerá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                            D           A",
+            "lyrics": "Sobre todas as coisas Cristo tem poder total;"
+          },
+          {
+            "chords": "                         E ",
+            "lyrics": "N´Ele_habita a plenitude de Deus, Pai celestial."
+          },
+          {
+            "chords": "             A                   D       B7   E  E7 ",
+            "lyrics": "Esse mesmo Jesus que foi para_os céus, retornará;"
+          },
+          {
+            "chords": "A                         D   E    A  ",
+            "lyrics": "Coroado de glória_e honra Ele voltará."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "A              D              A               E "
+          },
+          {
+            "chords": "Ontem, hoje e_eternamente é_o mesmo, Cristo Jesus,",
+            "lyrics": "A                D                    E              A"
+          },
+          {
+            "chords": "Ele_é_o Verbo de Deus, que nos trouxe graça, vida_e luz;",
+            "lyrics": "      D   A                E  E7 "
+          },
+          {
+            "chords": "Santo e fiel é Jesus, Redentor!",
+            "lyrics": "A               D      D...  E         E7   A"
+          }
+        ]
+      }
+    ]
+  }
 }

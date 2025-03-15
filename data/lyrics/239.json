@@ -1,34 +1,78 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eis que a noite é passada",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "             F          C                       F",
-    "1. Eis que_a noite é passada, para mim surgiu o dia;",
-    "     Bb                    G7         C ",
-    "De Jesus estou mais perto; oh! que alegria!",
-    "       F               C                        F",
-    "Sempre mais eu vou crescendo nas virtudes do Senhor",
-    "         Bb   D°     C#7   C7         F",
-    "Para,_um dia, ser perfeito no divino_amor.",
-    "",
-    "    F            C ",
-    "Ó Jesus, por Tua graça,",
-    "       C7          F",
-    "Glória sempre Te darei;",
-    "     F7           Bb ",
-    "Resgatado por Teu sangue,",
-    "     C7      F",
-    "Só a Ti servirei.",
-    "",
-    "             F          C                       F",
-    "2. Eis que_a noite é passada, já surgiu a Luz divina;",
-    "     Bb                  G7        C ",
-    "Essa Luz é Jesus Cristo, que me ilumina.",
-    "       F          C                      F",
-    "Bem cingido de justiça e das armas do Senhor,",
-    "     Bb    D°   C#7   C7          F",
-    "Eu espero, confiante, ser um vencedor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "          F          C                       F",
+            "lyrics": "Eis que_a noite é passada, para mim surgiu o dia;"
+          },
+          {
+            "chords": "     Bb                    G7         C ",
+            "lyrics": "De Jesus estou mais perto; oh! que alegria!"
+          },
+          {
+            "chords": "       F               C                        F",
+            "lyrics": "Sempre mais eu vou crescendo nas virtudes do Senhor"
+          },
+          {
+            "chords": "         Bb   D°     C#7   C7         F",
+            "lyrics": "Para,_um dia, ser perfeito no divino_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    F            C ",
+            "lyrics": "Ó Jesus, por Tua graça,"
+          },
+          {
+            "chords": "       C7          F",
+            "lyrics": "Glória sempre Te darei;"
+          },
+          {
+            "chords": "     F7           Bb ",
+            "lyrics": "Resgatado por Teu sangue,"
+          },
+          {
+            "chords": "     C7      F",
+            "lyrics": "Só a Ti servirei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "          F          C                       F",
+            "lyrics": "Eis que_a noite é passada, já surgiu a Luz divina;"
+          },
+          {
+            "chords": "     Bb                  G7        C ",
+            "lyrics": "Essa Luz é Jesus Cristo, que me ilumina."
+          },
+          {
+            "chords": "       F          C                      F",
+            "lyrics": "Bem cingido de justiça e das armas do Senhor,"
+          },
+          {
+            "chords": "     Bb    D°   C#7   C7          F",
+            "lyrics": "Eu espero, confiante, ser um vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

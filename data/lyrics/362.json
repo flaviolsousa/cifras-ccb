@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Que bela herança!",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "              A               E ",
-    "1. Que bela_herança Deus me reserva",
-    "                          A",
-    "Junto_a Jesus, o bom Redentor!",
-    "                            E ",
-    "Para_alcançá-la, Deus me preserva",
-    "                           A",
-    "De todo_o mal, por grande amor.",
-    "",
-    "          D                A",
-    "Breve, no céu, os santos remidos",
-    "      E                 A",
-    "Receberão o reino_e_o poder;",
-    "           D                 A",
-    "Breve_os fiéis, por Deus escolhidos,",
-    "           E             A    A...",
-    "Vão, com Jesus, resplandecer.",
-    "",
-    "               A           E ",
-    "2. Próximo_é_o dia tão esperado",
-    "                         A",
-    "Em que Jesus do céu voltará;",
-    "                         E ",
-    "Oh! Que encontro tão desejado!",
-    "                          A",
-    "Quem for fiel, a Deus subirá.",
-    "",
-    "        A                 E ",
-    "3. É inefável, grande_e superno",
-    "                         A",
-    "O galardão que vou desfrutar;",
-    "                           E ",
-    "Com Jesus Cristo no reino_eterno",
-    "                       A",
-    "Junto a Deus, irei habitar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           A               E ",
+            "lyrics": "Que bela_herança Deus me reserva"
+          },
+          {
+            "chords": "                          A",
+            "lyrics": "Junto_a Jesus, o bom Redentor!"
+          },
+          {
+            "chords": "                            E ",
+            "lyrics": "Para_alcançá-la, Deus me preserva"
+          },
+          {
+            "chords": "                           A",
+            "lyrics": "De todo_o mal, por grande amor."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "          D                A"
+          },
+          {
+            "chords": "Breve, no céu, os santos remidos",
+            "lyrics": "      E                 A"
+          },
+          {
+            "chords": "Receberão o reino_e_o poder;",
+            "lyrics": "           D                 A"
+          },
+          {
+            "chords": "Breve_os fiéis, por Deus escolhidos,",
+            "lyrics": "           E             A    A..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "            A           E ",
+            "lyrics": "Próximo_é_o dia tão esperado"
+          },
+          {
+            "chords": "                         A",
+            "lyrics": "Em que Jesus do céu voltará;"
+          },
+          {
+            "chords": "                         E ",
+            "lyrics": "Oh! Que encontro tão desejado!"
+          },
+          {
+            "chords": "                          A",
+            "lyrics": "Quem for fiel, a Deus subirá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A                 E ",
+            "lyrics": "É inefável, grande_e superno"
+          },
+          {
+            "chords": "                         A",
+            "lyrics": "O galardão que vou desfrutar;"
+          },
+          {
+            "chords": "                           E ",
+            "lyrics": "Com Jesus Cristo no reino_eterno"
+          },
+          {
+            "chords": "                       A",
+            "lyrics": "Junto a Deus, irei habitar."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Mais grato a Ti",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F                     Bb      F",
-    "1. Mais grato_a Ti, ó bondoso Senhor,",
-    "C                          F",
-    "Faz-me, por Teu infinito poder;",
-    "                 Bb        F",
-    "O que fizeste em mim, por amor,",
-    "G       C        G     C    C... ",
-    "Homem nenhum poderia fazer.",
-    "",
-    "F",
-    "Mais grato_a Ti, mais grato_a Ti,",
-    "Bb      F       Dm          C ",
-    "De coração, ó Senhor, quero ser;",
-    "C7      F      Bb     F",
-    "Celeste dádiva eu recebi,",
-    "Bb          F       Dm...  C7      F",
-    "Quero_o Teu Nome,_ó Deus,  engrandecer.",
-    "",
-    "   F                Bb       F",
-    "2. Tu confirmaste o meu coração",
-    "C                         F",
-    "Com a Palavra da fé e da paz,",
-    "             Bb        F",
-    "E enviaste veraz salvação",
-    "G        C       G          C    C... ",
-    "Que a certeza da glória me traz.",
-    "",
-    "   F                    Bb          F",
-    "3. Teu filho sou, por Jesus, ó bom Deus,",
-    "C                    F",
-    "Pelo Espírito de adoção;",
-    "                Bb          F",
-    "Um cidadão me fizeste, dos céus,",
-    "G       C       G        C    C... ",
-    "Para herdar divinal galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F                     Bb      F",
+            "lyrics": "Mais grato_a Ti, ó bondoso Senhor,"
+          },
+          {
+            "chords": "C                          F",
+            "lyrics": "Faz-me, por Teu infinito poder;"
+          },
+          {
+            "chords": "                 Bb        F",
+            "lyrics": "O que fizeste em mim, por amor,"
+          },
+          {
+            "chords": "G       C        G     C    C... ",
+            "lyrics": "Homem nenhum poderia fazer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Mais grato_a Ti, mais grato_a Ti,"
+          },
+          {
+            "chords": "Bb      F       Dm          C ",
+            "lyrics": "De coração, ó Senhor, quero ser;"
+          },
+          {
+            "chords": "C7      F      Bb     F",
+            "lyrics": "Celeste dádiva eu recebi,"
+          },
+          {
+            "chords": "Bb          F       Dm...  C7      F",
+            "lyrics": "Quero_o Teu Nome,_ó Deus,  engrandecer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F                Bb       F",
+            "lyrics": "Tu confirmaste o meu coração"
+          },
+          {
+            "chords": "C                         F",
+            "lyrics": "Com a Palavra da fé e da paz,"
+          },
+          {
+            "chords": "             Bb        F",
+            "lyrics": "E enviaste veraz salvação"
+          },
+          {
+            "chords": "G        C       G          C    C... ",
+            "lyrics": "Que a certeza da glória me traz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F                    Bb          F",
+            "lyrics": "Teu filho sou, por Jesus, ó bom Deus,"
+          },
+          {
+            "chords": "C                    F",
+            "lyrics": "Pelo Espírito de adoção;"
+          },
+          {
+            "chords": "                Bb          F",
+            "lyrics": "Um cidadão me fizeste, dos céus,"
+          },
+          {
+            "chords": "G       C       G        C    C... ",
+            "lyrics": "Para herdar divinal galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

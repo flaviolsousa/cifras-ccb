@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Benignidade eterna é a de Deus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D            A7                     D",
-    "1. Benignidade eterna é a de Deus, Criador,",
-    "                    A     E7                   A ",
-    "Que escreveu nossos nomes no céu, a pátria de_amor;",
-    "D              A7     D       A7         D",
-    "Regozijemo-nos de coração, cantemos-Lhe glória;",
-    "                     A7         D     A7      D",
-    "Ele, por Seu grande_amor, nos dará completa vitória.",
-    "",
-    "   D                A7                       D",
-    "2. Que grande felicidade nos preparou o bom Deus!",
-    "                   A   E7               A ",
-    "Pois moraremos com Ele eternamente nos céus.",
-    "D            A7       D        A7        D",
-    "A Sua face veremos, então. Que grande ventura!",
-    "                   A7     D       A7       D",
-    "Todos os santos se deleitarão com tal formosura.",
-    "",
-    "   D              A7                         D",
-    "3. Na esperança vivemos, sempre pensando em Deus,",
-    "             A    E7                  A ",
-    "Obedecendo a tudo o que nos fala dos céus;",
-    "D                 A7        D          A7     D",
-    "Suas promessas se hão de cumprir; Deus é verdadeiro;",
-    "                    A7        D    A7        D",
-    "No tempo certo, dos céus voltará Jesus, o Cordeiro.",
-    "",
-    "   D                 A7                            D",
-    "4. Por Sua grande bondade, Deus, nosso Pai, nos chamou;",
-    "             A     E7              A ",
-    "Para a vida eterna Ele nos predestinou;",
-    "D              A7      D       A7   D",
-    "Seja bendito o Nome de Deus, o Onipotente;",
-    "                 A7       D     A7       D",
-    "Nome que é, para todo_o fiel, socorro presente."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D            A7                     D",
+            "lyrics": "Benignidade eterna é a de Deus, Criador,"
+          },
+          {
+            "chords": "                    A     E7                   A ",
+            "lyrics": "Que escreveu nossos nomes no céu, a pátria de_amor;"
+          },
+          {
+            "chords": "D              A7     D       A7         D",
+            "lyrics": "Regozijemo-nos de coração, cantemos-Lhe glória;"
+          },
+          {
+            "chords": "                     A7         D     A7      D",
+            "lyrics": "Ele, por Seu grande_amor, nos dará completa vitória."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                A7                       D",
+            "lyrics": "Que grande felicidade nos preparou o bom Deus!"
+          },
+          {
+            "chords": "                   A   E7               A ",
+            "lyrics": "Pois moraremos com Ele eternamente nos céus."
+          },
+          {
+            "chords": "D            A7       D        A7        D",
+            "lyrics": "A Sua face veremos, então. Que grande ventura!"
+          },
+          {
+            "chords": "                   A7     D       A7       D",
+            "lyrics": "Todos os santos se deleitarão com tal formosura."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D              A7                         D",
+            "lyrics": "Na esperança vivemos, sempre pensando em Deus,"
+          },
+          {
+            "chords": "             A    E7                  A ",
+            "lyrics": "Obedecendo a tudo o que nos fala dos céus;"
+          },
+          {
+            "chords": "D                 A7        D          A7     D",
+            "lyrics": "Suas promessas se hão de cumprir; Deus é verdadeiro;"
+          },
+          {
+            "chords": "                    A7        D    A7        D",
+            "lyrics": "No tempo certo, dos céus voltará Jesus, o Cordeiro."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "D                 A7                            D",
+            "lyrics": "Por Sua grande bondade, Deus, nosso Pai, nos chamou;"
+          },
+          {
+            "chords": "             A     E7              A ",
+            "lyrics": "Para a vida eterna Ele nos predestinou;"
+          },
+          {
+            "chords": "D              A7      D       A7   D",
+            "lyrics": "Seja bendito o Nome de Deus, o Onipotente;"
+          },
+          {
+            "chords": "                 A7       D     A7       D",
+            "lyrics": "Nome que é, para todo_o fiel, socorro presente."
+          }
+        ]
+      }
+    ]
+  }
 }

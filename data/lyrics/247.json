@@ -1,39 +1,88 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Se fores tentado",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G           D     Em          B7 ",
-    "1. Se fores tentado, não deves ceder,",
-    "C            G    D         G",
-    "Resiste ao pecado até o vencer;",
-    "           D    Em              B7 ",
-    "Sê mui valoroso com fé que Deus dá,",
-    "C          G     D          G",
-    "Então o inimigo, de ti, fugirá.",
-    "",
-    "    G             D      Em           B7 ",
-    "2. Não manches as vestes que Cristo lavou;",
-    "C             G        D           G",
-    "Para embranquecê-las, sangue derramou;",
-    "            D     Em         B7 ",
-    "Rejeita o pecado, procura imitar",
-    "C           G      D         G",
-    "Os que o venceram sem desanimar.",
-    "",
-    "   G             D     Em        B7 ",
-    "3. Se forças te faltam para combater,",
-    " C              G    D         G",
-    "Deus, o Onipotente, pode te valer;",
-    "               D      Em        B7 ",
-    "A quem busca auxílio, vitória dará,",
-    " C           G     D         G",
-    "Jamais confundido Ele o deixará.",
-    "",
-    "G                     D             G",
-    "Só em Cristo confia, seja noite ou dia,",
-    "C           G   D           G",
-    "E terás alegria em teu coração."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G           D     Em          B7 ",
+            "lyrics": "Se fores tentado, não deves ceder,"
+          },
+          {
+            "chords": "C            G    D         G",
+            "lyrics": "Resiste ao pecado até o vencer;"
+          },
+          {
+            "chords": "           D    Em              B7 ",
+            "lyrics": "Sê mui valoroso com fé que Deus dá,"
+          },
+          {
+            "chords": "C          G     D          G",
+            "lyrics": "Então o inimigo, de ti, fugirá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " G             D      Em           B7 ",
+            "lyrics": "Não manches as vestes que Cristo lavou;"
+          },
+          {
+            "chords": "C             G        D           G",
+            "lyrics": "Para embranquecê-las, sangue derramou;"
+          },
+          {
+            "chords": "            D     Em         B7 ",
+            "lyrics": "Rejeita o pecado, procura imitar"
+          },
+          {
+            "chords": "C           G      D         G",
+            "lyrics": "Os que o venceram sem desanimar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G             D     Em        B7 ",
+            "lyrics": "Se forças te faltam para combater,"
+          },
+          {
+            "chords": " C              G    D         G",
+            "lyrics": "Deus, o Onipotente, pode te valer;"
+          },
+          {
+            "chords": "               D      Em        B7 ",
+            "lyrics": "A quem busca auxílio, vitória dará,"
+          },
+          {
+            "chords": " C           G     D         G",
+            "lyrics": "Jamais confundido Ele o deixará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                     D             G",
+            "lyrics": "Só em Cristo confia, seja noite ou dia,"
+          },
+          {
+            "chords": "C           G   D           G",
+            "lyrics": "E terás alegria em teu coração."
+          }
+        ]
+      }
+    ]
+  }
 }

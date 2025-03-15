@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sinto a voz divina do meu fiel Pastor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "    D               G    A7                 D",
-    "1. Sinto a voz tão meiga de Cristo, o Redentor,",
-    "Bm7              Em   A7               D",
-    "Que sempre me consola com Seu sublime amor;",
-    "               G     A7            D",
-    "A pastos verdejantes sempre me guiará;",
-    "Bm7            Em    A7          D",
-    "Com seu calado santo me apascentará.",
-    "",
-    "   D              G     A7              D",
-    "2. Amigo Seu, me chama, meu Salvador Jesus;",
-    "Bm7           Em    A7                D",
-    "A Seu falar sublime dá compreensão e luz;",
-    "                   G      A7              D",
-    "Quero, aos pés do Mestre, continuamente estar;",
-    "Bm7                Em      A7             D",
-    "Quero, nos Seus conselhos, sempre me deleitar.",
-    "",
-    "   D             G     A7             D   ",
-    "3. O meu divino Mestre fala com mansidão",
-    "Bm7            Em   A7             D",
-    "E traz à minha alma grande consolação;",
-    "               G       A7             D",
-    "Em todas as angústias, na prova ou na dor,",
-    "Bm7              Em    A7              D",
-    "Dentro de mim eu sinto a voz do meu Senhor.",
-    "",
-    "D             Em   A7             D ",
-    "Sinto a voz divina do meu fiel Pastor,",
-    "Bm7             Em   A7            D",
-    "Que sempre me ensina com infinito amor;",
-    "              Em  A7              D",
-    "A Sua face um dia na glória eu verei;",
-    "Bm7          Em    A7           D",
-    "Na bem-aventurança regozijar-me-ei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " D               G    A7                 D",
+            "lyrics": "Sinto a voz tão meiga de Cristo, o Redentor,"
+          },
+          {
+            "chords": "Bm7              Em   A7               D",
+            "lyrics": "Que sempre me consola com Seu sublime amor;"
+          },
+          {
+            "chords": "               G     A7            D",
+            "lyrics": "A pastos verdejantes sempre me guiará;"
+          },
+          {
+            "chords": "Bm7            Em    A7          D",
+            "lyrics": "Com seu calado santo me apascentará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D              G     A7              D",
+            "lyrics": "Amigo Seu, me chama, meu Salvador Jesus;"
+          },
+          {
+            "chords": "Bm7           Em    A7                D",
+            "lyrics": "A Seu falar sublime dá compreensão e luz;"
+          },
+          {
+            "chords": "                   G      A7              D",
+            "lyrics": "Quero, aos pés do Mestre, continuamente estar;"
+          },
+          {
+            "chords": "Bm7                Em      A7             D",
+            "lyrics": "Quero, nos Seus conselhos, sempre me deleitar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D             G     A7             D   ",
+            "lyrics": "O meu divino Mestre fala com mansidão"
+          },
+          {
+            "chords": "Bm7            Em   A7             D",
+            "lyrics": "E traz à minha alma grande consolação;"
+          },
+          {
+            "chords": "               G       A7             D",
+            "lyrics": "Em todas as angústias, na prova ou na dor,"
+          },
+          {
+            "chords": "Bm7              Em    A7              D",
+            "lyrics": "Dentro de mim eu sinto a voz do meu Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D             Em   A7             D ",
+            "lyrics": "Sinto a voz divina do meu fiel Pastor,"
+          },
+          {
+            "chords": "Bm7             Em   A7            D",
+            "lyrics": "Que sempre me ensina com infinito amor;"
+          },
+          {
+            "chords": "              Em  A7              D",
+            "lyrics": "A Sua face um dia na glória eu verei;"
+          },
+          {
+            "chords": "Bm7          Em    A7           D",
+            "lyrics": "Na bem-aventurança regozijar-me-ei."
+          }
+        ]
+      }
+    ]
+  }
 }

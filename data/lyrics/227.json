@@ -1,52 +1,111 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Procuras tu ao Salvador?",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "            G",
-    "1. Procuras tu ao Salvador,",
-    "                   D  G",
-    "Que dá a bem-aventurança?",
-    "         D   G",
-    "Qual é a tua confiança",
-    "        D           G",
-    "Aqui no mundo_enagnador?",
-    "                 D            G           D ",
-    "Em Cristo tens a vida, tens a força e_o favor.",
-    "  G",
-    "O santo Redentor",
-    "               D  G",
-    "Será a tua Segurança.",
-    "",
-    "            G",
-    "2. A Cristo vem, sem duvidar,",
-    "                          D  G",
-    "Vem dar os teus primeiros passos;",
-    "        D       G",
-    "Jesus remove_os embaraços,",
-    "         D            G",
-    "Perdão e vida quer te dar,",
-    "                 D             G          D ",
-    "É Cristo Quem te salva, faz de ti um vencedor.",
-    "  G",
-    "Deseja,_o Redentor,",
-    "                       D    G",
-    "Manter contigo_eternos la - ços.",
-    "",
-    "             G",
-    "3. Findano_a peregrinação,",
-    "                     D    G",
-    "Terás com Ele_eterna vi - da;",
-    "       D      G",
-    "Jesus aqui te dá guarida",
-    "        D          G",
-    "E lá no céu o galardão.",
-    "                D           G         D ",
-    "É Cristo Fonte_eterna de virtude e de fé.",
-    "  G",
-    "Potente Ele é",
-    "                       D    G",
-    "E te socorre_em toda_a li - da."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "         G",
+            "lyrics": "Procuras tu ao Salvador,"
+          },
+          {
+            "chords": "                   D  G",
+            "lyrics": "Que dá a bem-aventurança?"
+          },
+          {
+            "chords": "         D   G",
+            "lyrics": "Qual é a tua confiança"
+          },
+          {
+            "chords": "        D           G",
+            "lyrics": "Aqui no mundo_enagnador?"
+          },
+          {
+            "chords": "                 D            G           D ",
+            "lyrics": "Em Cristo tens a vida, tens a força e_o favor."
+          },
+          {
+            "chords": "  G",
+            "lyrics": "O santo Redentor"
+          },
+          {
+            "chords": "               D  G",
+            "lyrics": "Será a tua Segurança."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         G",
+            "lyrics": "A Cristo vem, sem duvidar,"
+          },
+          {
+            "chords": "                          D  G",
+            "lyrics": "Vem dar os teus primeiros passos;"
+          },
+          {
+            "chords": "        D       G",
+            "lyrics": "Jesus remove_os embaraços,"
+          },
+          {
+            "chords": "         D            G",
+            "lyrics": "Perdão e vida quer te dar,"
+          },
+          {
+            "chords": "                 D             G          D ",
+            "lyrics": "É Cristo Quem te salva, faz de ti um vencedor."
+          },
+          {
+            "chords": "  G",
+            "lyrics": "Deseja,_o Redentor,"
+          },
+          {
+            "chords": "                       D    G",
+            "lyrics": "Manter contigo_eternos la - ços."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "          G",
+            "lyrics": "Findano_a peregrinação,"
+          },
+          {
+            "chords": "                     D    G",
+            "lyrics": "Terás com Ele_eterna vi - da;"
+          },
+          {
+            "chords": "       D      G",
+            "lyrics": "Jesus aqui te dá guarida"
+          },
+          {
+            "chords": "        D          G",
+            "lyrics": "E lá no céu o galardão."
+          },
+          {
+            "chords": "                D           G         D ",
+            "lyrics": "É Cristo Fonte_eterna de virtude e de fé."
+          },
+          {
+            "chords": "  G",
+            "lyrics": "Potente Ele é"
+          },
+          {
+            "chords": "                       D    G",
+            "lyrics": "E te socorre_em toda_a li - da."
+          }
+        ]
+      }
+    ]
+  }
 }

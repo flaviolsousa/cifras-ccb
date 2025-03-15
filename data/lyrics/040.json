@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quando em mim Tu operaste",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "              A        D",
-    "1. Quanto_em mim Tu operaste",
-    "      E          A",
-    "Pelo Teu imenso_amor!",
-    "                  D",
-    "Graça_e força enviaste",
-    "     E             A",
-    "À minha´alma, ó Senhor.",
-    "",
-    "       E7                 A",
-    "Vem, Senhor Jesus, com virtude_e fé,",
-    "       D            C#",
-    "E com graça, fortificar",
-    "      D                A",
-    "O meu coração, que Teu templo é;",
-    "      B         E7  A",
-    "Quero sempre Te exaltar.",
-    "",
-    "       A          D",
-    "2. O Espírito da graça,",
-    "       E             A",
-    "Que provém de Ti, Senhor,",
-    "                    D",
-    "Sempre mais fiel me faça,",
-    "     E            A",
-    "Ó Jesus, meu Redentor.",
-    "",
-    "       A             D",
-    "3. Da eterna_e sã verdade",
-    "       E           A",
-    "Faz-me sempre seguidor,",
-    "                    D",
-    "Quero_andar em santidade,",
-    "   E              A",
-    "Imitando_a Ti, Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           A        D",
+            "lyrics": "Quanto_em mim Tu operaste"
+          },
+          {
+            "chords": "      E          A",
+            "lyrics": "Pelo Teu imenso_amor!"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "Graça_e força enviaste"
+          },
+          {
+            "chords": "     E             A",
+            "lyrics": "À minha´alma, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       E7                 A",
+            "lyrics": "Vem, Senhor Jesus, com virtude_e fé,"
+          },
+          {
+            "chords": "       D            C#",
+            "lyrics": "E com graça, fortificar"
+          },
+          {
+            "chords": "      D                A",
+            "lyrics": "O meu coração, que Teu templo é;"
+          },
+          {
+            "chords": "      B         E7  A",
+            "lyrics": "Quero sempre Te exaltar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    A          D",
+            "lyrics": "O Espírito da graça,"
+          },
+          {
+            "chords": "       E             A",
+            "lyrics": "Que provém de Ti, Senhor,"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Sempre mais fiel me faça,"
+          },
+          {
+            "chords": "     E            A",
+            "lyrics": "Ó Jesus, meu Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A             D",
+            "lyrics": "Da eterna_e sã verdade"
+          },
+          {
+            "chords": "       E           A",
+            "lyrics": "Faz-me sempre seguidor,"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Quero_andar em santidade,"
+          },
+          {
+            "chords": "   E              A",
+            "lyrics": "Imitando_a Ti, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

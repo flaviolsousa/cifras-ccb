@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Deus bendito",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F",
-    "1. Ó Deus bendito, ó Pai da_eternidade,",
-    "Bb  F   Bb    F      G7        C  C7 ",
-    "Em  Tua som - bra me quero_abrigar;",
-    "F",
-    "Forças contrárias à Tua santidade",
-    "Bb    F       Bb  C7            F",
-    "Que - rem, da fé, me fazer desviar.",
-    "",
-    "   F",
-    "2. Quanto é frágil a minha estrutura!",
-    "Bb  F      Bb    F      G7       C  C7 ",
-    "Os  meus recei - os, dissipa, Senhor;",
-    "F",
-    "Dá ao Teu servo divina armadura;",
-    "Bb   F     Bb    C7                F",
-    "Ou - ve, ó Deus, minha voz, meu clamor.",
-    "",
-    "   F",
-    "3. A minha alma, por Ti, foi resgatada,",
-    "Bb  F    Bb   F      G7          C  C7 ",
-    "Foi envolvi - da por Teu grande_amor,",
-    "F",
-    "E, das ruínas, também foi levantada;",
-    "Bb  F    Bb  C7              F",
-    "Em  Ti está  minha sorte, Senhor.",
-    "",
-    "F",
-    "Ó Deus bendito, Pai de bondade,",
-    "Bb  B°     F        G7      C  C7 ",
-    "Tu  -  a Palavra me pode livrar;",
-    "F",
-    "Neste deserto de_iniquidade, ",
-    "Bb  B°       F        C         F",
-    "Tu  -  as virtudes me podem guardar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Ó Deus bendito, ó Pai da_eternidade,"
+          },
+          {
+            "chords": "Bb  F   Bb    F      G7        C  C7 ",
+            "lyrics": "Em  Tua som - bra me quero_abrigar;"
+          },
+          {
+            "chords": "F",
+            "lyrics": "Forças contrárias à Tua santidade"
+          },
+          {
+            "chords": "Bb    F       Bb  C7            F",
+            "lyrics": "Que - rem, da fé, me fazer desviar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Quanto é frágil a minha estrutura!"
+          },
+          {
+            "chords": "Bb  F      Bb    F      G7       C  C7 ",
+            "lyrics": "Os  meus recei - os, dissipa, Senhor;"
+          },
+          {
+            "chords": "F",
+            "lyrics": "Dá ao Teu servo divina armadura;"
+          },
+          {
+            "chords": "Bb   F     Bb    C7                F",
+            "lyrics": "Ou - ve, ó Deus, minha voz, meu clamor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "A minha alma, por Ti, foi resgatada,"
+          },
+          {
+            "chords": "Bb  F    Bb   F      G7          C  C7 ",
+            "lyrics": "Foi envolvi - da por Teu grande_amor,"
+          },
+          {
+            "chords": "F",
+            "lyrics": "E, das ruínas, também foi levantada;"
+          },
+          {
+            "chords": "Bb  F    Bb  C7              F",
+            "lyrics": "Em  Ti está  minha sorte, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Ó Deus bendito, Pai de bondade,"
+          },
+          {
+            "chords": "Bb  B°     F        G7      C  C7 ",
+            "lyrics": "Tu  -  a Palavra me pode livrar;"
+          },
+          {
+            "chords": "F",
+            "lyrics": "Neste deserto de_iniquidade, "
+          },
+          {
+            "chords": "Bb  B°       F        C         F",
+            "lyrics": "Tu  -  as virtudes me podem guardar."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória a Jesus! Aleluia!",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "    C                                         G ",
-    "1. Glória_a Jesus! Aleluia! Glória ao grande Rei!",
-    "                                        C",
-    "Glória por todo o sempre a Cristo eu darei;",
-    "                      C7             F ",
-    "Ele me tem conduzido, com fé e com amor,",
-    "        Fm       C      G                C",
-    "Neste caminho de vida; glória ao bom Pastor!",
-    "",
-    "    C                                       G ",
-    "2. Glória_a Jesus! Aleluia! Eu sempre cantarei,",
-    "                                        C",
-    "Glória_a Jesus! Aleluia! N´Ele prosperarei;",
-    "                        C7               F ",
-    "Receberei sempre forças do meu bom Salvador",
-    "         Fm        C      G               C",
-    "Para, em todo_o momento, Lhe tributar louvor.",
-    "",
-    "    C                                       G ",
-    "3. Glória_a Jesus! Aleluia! Por minha salvação,",
-    "                                       C ",
-    "Glória e honra Lhe devo, e minha gratidão;",
-    "                       C7             F ",
-    "Merecedor é meu Mestre de receber louvor,",
-    "          Fm     C       G               C",
-    "Pois me dará a vitória, por Seu imenso_amor.",
-    "",
-    "C                                      G ",
-    "Glória, glória_a Jesus, o meu Pastor fiel!",
-    "                                 C",
-    "Glória ao Salvador, Cristo, Emanuel; ",
-    "                    C7              F ",
-    "Glória não cessarei de dar ao Redentor;",
-    "      Fm         C                G     C",
-    "Minha alma_engrandece_ao meu eternal Senhor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " C                                         G ",
+            "lyrics": "Glória_a Jesus! Aleluia! Glória ao grande Rei!"
+          },
+          {
+            "chords": "                                        C",
+            "lyrics": "Glória por todo o sempre a Cristo eu darei;"
+          },
+          {
+            "chords": "                      C7             F ",
+            "lyrics": "Ele me tem conduzido, com fé e com amor,"
+          },
+          {
+            "chords": "        Fm       C      G                C",
+            "lyrics": "Neste caminho de vida; glória ao bom Pastor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " C                                       G ",
+            "lyrics": "Glória_a Jesus! Aleluia! Eu sempre cantarei,"
+          },
+          {
+            "chords": "                                        C",
+            "lyrics": "Glória_a Jesus! Aleluia! N´Ele prosperarei;"
+          },
+          {
+            "chords": "                        C7               F ",
+            "lyrics": "Receberei sempre forças do meu bom Salvador"
+          },
+          {
+            "chords": "         Fm        C      G               C",
+            "lyrics": "Para, em todo_o momento, Lhe tributar louvor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " C                                       G ",
+            "lyrics": "Glória_a Jesus! Aleluia! Por minha salvação,"
+          },
+          {
+            "chords": "                                       C ",
+            "lyrics": "Glória e honra Lhe devo, e minha gratidão;"
+          },
+          {
+            "chords": "                       C7             F ",
+            "lyrics": "Merecedor é meu Mestre de receber louvor,"
+          },
+          {
+            "chords": "          Fm     C       G               C",
+            "lyrics": "Pois me dará a vitória, por Seu imenso_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                                      G ",
+            "lyrics": "Glória, glória_a Jesus, o meu Pastor fiel!"
+          },
+          {
+            "chords": "                                 C",
+            "lyrics": "Glória ao Salvador, Cristo, Emanuel; "
+          },
+          {
+            "chords": "                    C7              F ",
+            "lyrics": "Glória não cessarei de dar ao Redentor;"
+          },
+          {
+            "chords": "      Fm         C                G     C",
+            "lyrics": "Minha alma_engrandece_ao meu eternal Senhor!"
+          }
+        ]
+      }
+    ]
+  }
 }

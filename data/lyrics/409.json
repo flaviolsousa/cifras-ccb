@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Breve voltará Jesus Cristo",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G          D                   G",
-    "1. Que júbilo sem par haveremos de sentir,",
-    "                               D      D...",
-    "Quando, sobre_as nuvens, nosso Rei surgir!",
-    "  G       D                     G",
-    "A Si atrairá os eleitos do bom Deus",
-    "         C          G          D        G",
-    "Que, com grande regozijo, entrarão nos céus.",
-    "",
-    "B          Em        B          Em",
-    "Breve voltará Jesus Cristo, o Senhor,",
-    "D          G          D           G",
-    "Breve voltará em Seu grande esplendor,",
-    "              D      Em         B",
-    "Com os santos anjos, que recolherão",
-    "C            G             D     G ",
-    "Os que já inscritos lá no céu estão.",
-    "",
-    "      G          D                    G",
-    "2. Do mundo_a ilusão não nos deve seduzir,",
-    "                          D     D...",
-    "Pois herança_eterna temos no porvir;",
-    "   G         D                    G",
-    "A glória perenal que iremos desfrutar,",
-    "       C          G             D    G",
-    "Todo_o ouro deste mundo não nos pode dar.",
-    "",
-    "        G           D                 G",
-    "3. Com glória, entrarão na cidade eternal",
-    "                      D   D...",
-    "Os amados do Cordeiro divinal;",
-    "    G              D                    G",
-    "Ao que vencer, por fé, este mundo_enganador,",
-    "     C          G            D    G",
-    "Novo nome lhe dará no céu, o Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G          D                   G",
+            "lyrics": "Que júbilo sem par haveremos de sentir,"
+          },
+          {
+            "chords": "                               D      D...",
+            "lyrics": "Quando, sobre_as nuvens, nosso Rei surgir!"
+          },
+          {
+            "chords": "  G       D                     G",
+            "lyrics": "A Si atrairá os eleitos do bom Deus"
+          },
+          {
+            "chords": "         C          G          D        G",
+            "lyrics": "Que, com grande regozijo, entrarão nos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B          Em        B          Em",
+            "lyrics": "Breve voltará Jesus Cristo, o Senhor,"
+          },
+          {
+            "chords": "D          G          D           G",
+            "lyrics": "Breve voltará em Seu grande esplendor,"
+          },
+          {
+            "chords": "              D      Em         B",
+            "lyrics": "Com os santos anjos, que recolherão"
+          },
+          {
+            "chords": "C            G             D     G ",
+            "lyrics": "Os que já inscritos lá no céu estão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G          D                    G",
+            "lyrics": "Do mundo_a ilusão não nos deve seduzir,"
+          },
+          {
+            "chords": "                          D     D...",
+            "lyrics": "Pois herança_eterna temos no porvir;"
+          },
+          {
+            "chords": "   G         D                    G",
+            "lyrics": "A glória perenal que iremos desfrutar,"
+          },
+          {
+            "chords": "       C          G             D    G",
+            "lyrics": "Todo_o ouro deste mundo não nos pode dar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G           D                 G",
+            "lyrics": "Com glória, entrarão na cidade eternal"
+          },
+          {
+            "chords": "                      D   D...",
+            "lyrics": "Os amados do Cordeiro divinal;"
+          },
+          {
+            "chords": "    G              D                    G",
+            "lyrics": "Ao que vencer, por fé, este mundo_enganador,"
+          },
+          {
+            "chords": "     C          G            D    G",
+            "lyrics": "Novo nome lhe dará no céu, o Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

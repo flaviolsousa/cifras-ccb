@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"Eis-Me aqui\", dirá o Criador",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E              A  E    B7  E",
-    "1. “Eis-Me aqui”, di-rá o Criador",
-    "    C#m    G#m     B         F#7  B",
-    "Aos Seus fiéis que rogam Seu fa - vor;",
-    "          G    Bm    F#7  B",
-    "Deus mandará poder celestial",
-    "E  A         E    F°  F#m  E   B7      E",
-    "Pa-ra que_os Seus tri-un - fem sobre_o mal.",
-    "",
-    "   E         A   E      B7    E",
-    "2. A geração dos santos do Senhor",
-    "    C#m    G#m     B       F#7  B",
-    "Tem em seu Deus, potente Defen -sor;",
-    "         G       Bm     F#7  B",
-    "Só Ele_é Deus, Autor da cria-ção;",
-    "E  A      E   F°  F#m  E  B7     E",
-    "Tu-do_Ele fez com luz  e  perfeição.",
-    "",
-    "   E              A  E        B7  E",
-    "3. Vamos, irmãos, a  Deus nos achegar;",
-    "  C#m   G#m   B        F#7  B",
-    "E nossa fé em Deus deposi - tar;",
-    "      G      Bm     F#7   B",
-    "Ele é Pai de grande compaixão;",
-    "E  A      E   F°  F#m  E      B7    E",
-    "Te-mos também de  Cris-to_a_intercessão.",
-    "",
-    "   E             A  E     B7   E",
-    "4. Voz celestial o  justo sentirá",
-    "   C#m    G#m  B     F#7  B",
-    "Dentro de si e rejubila - rá;",
-    "         G       Bm   F#7  B",
-    "“Eis-Me aqui”, dirá o Cria-dor",
-    "E  A     E  F°  F#m  E  B7   E",
-    "Ao Seu fiel e   san -to servidor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E              A  E    B7  E",
+            "lyrics": "“Eis-Me aqui”, di-rá o Criador"
+          },
+          {
+            "chords": "    C#m    G#m     B         F#7  B",
+            "lyrics": "Aos Seus fiéis que rogam Seu fa - vor;"
+          },
+          {
+            "chords": "          G    Bm    F#7  B",
+            "lyrics": "Deus mandará poder celestial"
+          },
+          {
+            "chords": "E  A         E    F°  F#m  E   B7      E",
+            "lyrics": "Pa-ra que_os Seus tri-un - fem sobre_o mal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E         A   E      B7    E",
+            "lyrics": "A geração dos santos do Senhor"
+          },
+          {
+            "chords": "    C#m    G#m     B       F#7  B",
+            "lyrics": "Tem em seu Deus, potente Defen -sor;"
+          },
+          {
+            "chords": "         G       Bm     F#7  B",
+            "lyrics": "Só Ele_é Deus, Autor da cria-ção;"
+          },
+          {
+            "chords": "E  A      E   F°  F#m  E  B7     E",
+            "lyrics": "Tu-do_Ele fez com luz  e  perfeição."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E              A  E        B7  E",
+            "lyrics": "Vamos, irmãos, a  Deus nos achegar;"
+          },
+          {
+            "chords": "  C#m   G#m   B        F#7  B",
+            "lyrics": "E nossa fé em Deus deposi - tar;"
+          },
+          {
+            "chords": "      G      Bm     F#7   B",
+            "lyrics": "Ele é Pai de grande compaixão;"
+          },
+          {
+            "chords": "E  A      E   F°  F#m  E      B7    E",
+            "lyrics": "Te-mos também de  Cris-to_a_intercessão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "E             A  E     B7   E",
+            "lyrics": "Voz celestial o  justo sentirá"
+          },
+          {
+            "chords": "   C#m    G#m  B     F#7  B",
+            "lyrics": "Dentro de si e rejubila - rá;"
+          },
+          {
+            "chords": "         G       Bm   F#7  B",
+            "lyrics": "“Eis-Me aqui”, dirá o Cria-dor"
+          },
+          {
+            "chords": "E  A     E  F°  F#m  E  B7   E",
+            "lyrics": "Ao Seu fiel e   san -to servidor."
+          }
+        ]
+      }
+    ]
+  }
 }

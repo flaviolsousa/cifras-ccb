@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Um amor imenso",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F   C7   F              Bb   C ",
-    "1. Um amor imenso, santo_e celestial,",
-    "Bb     F       Bb  Gm  Dm     C7  F",
-    "Sinto_agora_em Cristo, Mestre divinal;",
-    "        Gm     F#°  D7  Gm      Bb      C ",
-    "Deus, o Pai bendi - to, transformou meu ser;",
-    "Gm  C        F  Dm  Bb   C7    F",
-    "Revelou-me_a graça, pelo Seu poder.",
-    "",
-    "   F    C7   F         Bb    C ",
-    "2. Nada me separa do divino_amor",
-    "Bb     F     Bb  Gm  Dm    C7   F",
-    "Que me une_a Cristo, o meu Salvador;",
-    "     Gm     F#°   D7  Gm    Bb    C ",
-    "O fervor glorio - so  de servir a Deus",
-    "Gm    C    F  Dm  Bb      C7      F",
-    "Me conduz avante  rumo_ao céu dos céus.",
-    "",
-    "   F     C7    F           Bb    C ",
-    "3. Paz e vida_eterna tenho por Jesus,",
-    "Bb   F    Bb    Gm  Dm  C7     F",
-    "Bem-aventuran - ça, regozijo_e luz;",
-    "      Gm      F#°    D7  Gm    Bb    C ",
-    "Meu Tesouro_é Cris - to, Ele_é meu Viver;",
-    "Gm        C       F    Dm  Bb      C7  F",
-    "Quero,_ao Mestre_ama - do, sempre_obedecer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F   C7   F              Bb   C ",
+            "lyrics": "Um amor imenso, santo_e celestial,"
+          },
+          {
+            "chords": "Bb     F       Bb  Gm  Dm     C7  F",
+            "lyrics": "Sinto_agora_em Cristo, Mestre divinal;"
+          },
+          {
+            "chords": "        Gm     F#°  D7  Gm      Bb      C ",
+            "lyrics": "Deus, o Pai bendi - to, transformou meu ser;"
+          },
+          {
+            "chords": "Gm  C        F  Dm  Bb   C7    F",
+            "lyrics": "Revelou-me_a graça, pelo Seu poder."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F    C7   F         Bb    C ",
+            "lyrics": "Nada me separa do divino_amor"
+          },
+          {
+            "chords": "Bb     F     Bb  Gm  Dm    C7   F",
+            "lyrics": "Que me une_a Cristo, o meu Salvador;"
+          },
+          {
+            "chords": "     Gm     F#°   D7  Gm    Bb    C ",
+            "lyrics": "O fervor glorio - so  de servir a Deus"
+          },
+          {
+            "chords": "Gm    C    F  Dm  Bb      C7      F",
+            "lyrics": "Me conduz avante  rumo_ao céu dos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F     C7    F           Bb    C ",
+            "lyrics": "Paz e vida_eterna tenho por Jesus,"
+          },
+          {
+            "chords": "Bb   F    Bb    Gm  Dm  C7     F",
+            "lyrics": "Bem-aventuran - ça, regozijo_e luz;"
+          },
+          {
+            "chords": "      Gm      F#°    D7  Gm    Bb    C ",
+            "lyrics": "Meu Tesouro_é Cris - to, Ele_é meu Viver;"
+          },
+          {
+            "chords": "Gm        C       F    Dm  Bb      C7  F",
+            "lyrics": "Quero,_ao Mestre_ama - do, sempre_obedecer."
+          }
+        ]
+      }
+    ]
+  }
 }

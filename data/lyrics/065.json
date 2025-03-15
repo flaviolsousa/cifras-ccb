@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Igual ao Mestre!",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D               A ",
-    "1. Igual ao Mestre eu desejo ser,",
-    "               D",
-    "Em humildade_e mansidão viver,",
-    "                     G ",
-    "Sempre, com zelo, em santidade_andar",
-    "E       A      E         A    A7 ",
-    "E minha vida a Ele consagrar.",
-    "",
-    "D                         A7 ",
-    "Meu coração é todo Teu, Senhor,",
-    "                              D  ",
-    "Ele_é o um templo para Teu louvor,",
-    "                    B7         Em ",
-    "Guarda-o do mal, ao vir a tentação;",
-    " E        A  D...  A        D",
-    "Sou Teu remi-do,   divino Redentor.",
-    "",
-    "    D                A ",
-    "2. Cristo, o Mestre, Sua cruz levou",
-    "               D ",
-    "E_o Pai eterno O glorificou;",
-    "                G ",
-    "Também desejo a minha cruz levar",
-    "E       A           E       A    A7 ",
-    "E, para sempre, com Ele habitar.",
-    "",
-    "    D               A ",
-    "3. Como_é o Mestre, no céu, O verei;",
-    "             D ",
-    "À semelhança d´Ele eu serei,",
-    "                    G ",
-    "Num corpo santo, glorioso_e imortal,",
-    "E      A       E         A    A7 ",
-    "Habitarei na cidade eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D               A ",
+            "lyrics": "Igual ao Mestre eu desejo ser,"
+          },
+          {
+            "chords": "               D",
+            "lyrics": "Em humildade_e mansidão viver,"
+          },
+          {
+            "chords": "                     G ",
+            "lyrics": "Sempre, com zelo, em santidade_andar"
+          },
+          {
+            "chords": "E       A      E         A    A7 ",
+            "lyrics": "E minha vida a Ele consagrar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D                         A7 ",
+            "lyrics": "Meu coração é todo Teu, Senhor,"
+          },
+          {
+            "chords": "                              D  ",
+            "lyrics": "Ele_é o um templo para Teu louvor,"
+          },
+          {
+            "chords": "                    B7         Em ",
+            "lyrics": "Guarda-o do mal, ao vir a tentação;"
+          },
+          {
+            "chords": " E        A  D...  A        D",
+            "lyrics": "Sou Teu remi-do,   divino Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D                A ",
+            "lyrics": "Cristo, o Mestre, Sua cruz levou"
+          },
+          {
+            "chords": "               D ",
+            "lyrics": "E_o Pai eterno O glorificou;"
+          },
+          {
+            "chords": "                G ",
+            "lyrics": "Também desejo a minha cruz levar"
+          },
+          {
+            "chords": "E       A           E       A    A7 ",
+            "lyrics": "E, para sempre, com Ele habitar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " D               A ",
+            "lyrics": "Como_é o Mestre, no céu, O verei;"
+          },
+          {
+            "chords": "             D ",
+            "lyrics": "À semelhança d´Ele eu serei,"
+          },
+          {
+            "chords": "                    G ",
+            "lyrics": "Num corpo santo, glorioso_e imortal,"
+          },
+          {
+            "chords": "E      A       E         A    A7 ",
+            "lyrics": "Habitarei na cidade eternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

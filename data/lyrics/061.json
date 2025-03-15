@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A minha alma deseja ver-Te",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "           E",
-    "1. A minha alma quer contemplar-Te",
-    "        B7            E",
-    "Ó meu fiel e_amado Jesus;",
-    "",
-    "Quero servir-Te, quero seguir-Te",
-    "       B7              E    E...",
-    "E caminhar Contigo na luz.",
-    "",
-    "             E",
-    "2. És Torre forte à minha alma,",
-    "        B7                E",
-    "És Proteção em tempos de dor;",
-    "",
-    "Tu me alegras, Tu me preservas",
-    "          B7               E    E...",
-    "De todo_o mal, ó meu Redentor.",
-    "",
-    "             E",
-    "3. Vivo_aguardando a Tua volta",
-    "       B7             E",
-    "Para subir Contigo a Deus;",
-    "",
-    "A todo_instante vivo_anelante",
-    "          B7                 E",
-    "Por contemplar a glória dos céus.",
-    "",
-    "        A            E",
-    "A minha alma deseja ver-Te",
-    "          B7         E",
-    "Sinto por Ti imenso amor;",
-    "       A              E",
-    "Eu Te adoro, eu Te imploro;",
-    "         B7              E",
-    "Faz-me viver Contigo, Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        E",
+            "lyrics": "A minha alma quer contemplar-Te"
+          },
+          {
+            "chords": "        B7            E",
+            "lyrics": "Ó meu fiel e_amado Jesus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Quero servir-Te, quero seguir-Te"
+          },
+          {
+            "chords": "       B7              E    E...",
+            "lyrics": "E caminhar Contigo na luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "          E",
+            "lyrics": "És Torre forte à minha alma,"
+          },
+          {
+            "chords": "        B7                E",
+            "lyrics": "És Proteção em tempos de dor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Tu me alegras, Tu me preservas"
+          },
+          {
+            "chords": "          B7               E    E...",
+            "lyrics": "De todo_o mal, ó meu Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "          E",
+            "lyrics": "Vivo_aguardando a Tua volta"
+          },
+          {
+            "chords": "       B7             E",
+            "lyrics": "Para subir Contigo a Deus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "A todo_instante vivo_anelante"
+          },
+          {
+            "chords": "          B7                 E",
+            "lyrics": "Por contemplar a glória dos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        A            E",
+            "lyrics": "A minha alma deseja ver-Te"
+          },
+          {
+            "chords": "          B7         E",
+            "lyrics": "Sinto por Ti imenso amor;"
+          },
+          {
+            "chords": "       A              E",
+            "lyrics": "Eu Te adoro, eu Te imploro;"
+          },
+          {
+            "chords": "         B7              E",
+            "lyrics": "Faz-me viver Contigo, Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

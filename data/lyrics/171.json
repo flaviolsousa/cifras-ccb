@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vida eterna! Vida eterna!",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "        A                        D            A",
-    "1. As moradas preparadas para_os santos do Senhor",
-    "                 B7        E7 ",
-    "São ornadas de beleza sem igual;",
-    "      A                     D ",
-    "Nelas nós habitaremos com Jesus, o Redentor,",
-    "      A       C°    E7         A",
-    "E com Deus, o nosso Pai celestial.",
-    "",
-    "      Bm7   E7       A",
-    "Vida_eterna,   vida_eterna",
-    "      D              A     E7 ",
-    "Nós teremos junto_ao nosso Deus;",
-    "    A                  D  D#° ",
-    "Regozijo, alegria sempiterna,",
-    "    A           E7      A",
-    "É o prêmio dos eleitos Seus.",
-    "",
-    "        A                  D         A",
-    "2. É de ouro a cidade gloriosa do Senhor,",
-    "                 B7         E7 ",
-    "Resplandece para sempre sua luz;",
-    "       A                          D ",
-    "Não há nela sol nem lua, pois tem luz do Criador",
-    "     A     C°  E7          A",
-    "E também a sua Lâmpada_é Jesus.",
-    "",
-    "          A                         D           A",
-    "3. Com as vestes brancas e_entoando hinos de louvor",
-    "                  B7           E7 ",
-    "Triunfantes, entraremos lá nos céus;",
-    "     A                         D ",
-    "Lá veremos todos quantos já dormiram no Senhor,",
-    "     A      C°     E7           A",
-    "Lá veremos, face_a face, nosso Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     A                        D            A",
+            "lyrics": "As moradas preparadas para_os santos do Senhor"
+          },
+          {
+            "chords": "                 B7        E7 ",
+            "lyrics": "São ornadas de beleza sem igual;"
+          },
+          {
+            "chords": "      A                     D ",
+            "lyrics": "Nelas nós habitaremos com Jesus, o Redentor,"
+          },
+          {
+            "chords": "      A       C°    E7         A",
+            "lyrics": "E com Deus, o nosso Pai celestial."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      Bm7   E7       A",
+            "lyrics": "Vida_eterna,   vida_eterna"
+          },
+          {
+            "chords": "      D              A     E7 ",
+            "lyrics": "Nós teremos junto_ao nosso Deus;"
+          },
+          {
+            "chords": "    A                  D  D#° ",
+            "lyrics": "Regozijo, alegria sempiterna,"
+          },
+          {
+            "chords": "    A           E7      A",
+            "lyrics": "É o prêmio dos eleitos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     A                  D         A",
+            "lyrics": "É de ouro a cidade gloriosa do Senhor,"
+          },
+          {
+            "chords": "                 B7         E7 ",
+            "lyrics": "Resplandece para sempre sua luz;"
+          },
+          {
+            "chords": "       A                          D ",
+            "lyrics": "Não há nela sol nem lua, pois tem luz do Criador"
+          },
+          {
+            "chords": "     A     C°  E7          A",
+            "lyrics": "E também a sua Lâmpada_é Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A                         D           A",
+            "lyrics": "Com as vestes brancas e_entoando hinos de louvor"
+          },
+          {
+            "chords": "                  B7           E7 ",
+            "lyrics": "Triunfantes, entraremos lá nos céus;"
+          },
+          {
+            "chords": "     A                         D ",
+            "lyrics": "Lá veremos todos quantos já dormiram no Senhor,"
+          },
+          {
+            "chords": "     A      C°     E7           A",
+            "lyrics": "Lá veremos, face_a face, nosso Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

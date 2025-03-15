@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vigiai, irmãos",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "       E",
-    "1. Vigiai, irmãos, em todo_o tempo,",
-    "       B         E",
-    "Como_ensina o Senhor;",
-    "",
-    "E, orando, achareis sustento,",
-    "     B            E",
-    "Sentireis maior vigor.",
-    "",
-    "        E ",
-    "Oh! Vigiai em todo_o tempo",
-    "     B          E",
-    "Para que o coração",
-    "",
-    "Sinta vigor, também alento,",
-    "     B               E    E...",
-    "E de Deus a santa_unção.",
-    "",
-    "       E",
-    "2. Vigiai, pois não sabeis a hora",
-    "       B          E",
-    "Em que o Senhor virá;",
-    "",
-    "Ele diz, também_a nós agora,",
-    "        B          E",
-    "Que mui breve voltará.",
-    "",
-    "       E",
-    "3. Vigiando,_atentos, aguardemos",
-    "       B         E",
-    "Nosso_amado Salvador;",
-    "",
-    "Nossas vestes brancas conservemos;",
-    "    B           E",
-    "Vigiemos com fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Vigiai, irmãos, em todo_o tempo,"
+          },
+          {
+            "chords": "       B         E",
+            "lyrics": "Como_ensina o Senhor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "E, orando, achareis sustento,"
+          },
+          {
+            "chords": "     B            E",
+            "lyrics": "Sentireis maior vigor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        E ",
+            "lyrics": "Oh! Vigiai em todo_o tempo"
+          },
+          {
+            "chords": "     B          E",
+            "lyrics": "Para que o coração"
+          },
+          {
+            "chords": "",
+            "lyrics": "Sinta vigor, também alento,"
+          },
+          {
+            "chords": "     B               E    E...",
+            "lyrics": "E de Deus a santa_unção."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Vigiai, pois não sabeis a hora"
+          },
+          {
+            "chords": "       B          E",
+            "lyrics": "Em que o Senhor virá;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Ele diz, também_a nós agora,"
+          },
+          {
+            "chords": "        B          E",
+            "lyrics": "Que mui breve voltará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Vigiando,_atentos, aguardemos"
+          },
+          {
+            "chords": "       B         E",
+            "lyrics": "Nosso_amado Salvador;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Nossas vestes brancas conservemos;"
+          },
+          {
+            "chords": "    B           E",
+            "lyrics": "Vigiemos com fervor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Profundo é o saber de Deus, Criador",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "       A                  D         E ",
-    "1. Profundo_é_o saber de Deus, Criador,",
-    "  A                 E            A",
-    "Saber sem igual, de grande esplendor;",
-    "    E        E7 ",
-    "O_intento de Deus ninguém pode sondar;",
-    "   A                     E             A",
-    "Conselhos ninguém foi ao grande Deus ditar.",
-    "",
-    "      A             D        E ",
-    "2. Perfeito saber é só o de Deus,",
-    "  A              E            A",
-    "Altíssimo são os pensamentos Seus;",
-    "    E     E7 ",
-    "Por Ele e d´Ele é tudo_o que há;",
-    "   A                       E            A",
-    "É Deus que, aos homens, sustento sempre dá.",
-    "",
-    "     A              D        E        ",
-    "3. Sublime saber pertence a Deus,",
-    "  A                  E           A",
-    "Ciência dos céus não negará aos Seus;",
-    "  E         E7 ",
-    "Riquezas perpétuas só Ele_é que tem;",
-    "  A             E            A",
-    "A Ele a glória eternamente._Amém."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A                  D         E ",
+            "lyrics": "Profundo_é_o saber de Deus, Criador,"
+          },
+          {
+            "chords": "  A                 E            A",
+            "lyrics": "Saber sem igual, de grande esplendor;"
+          },
+          {
+            "chords": "    E        E7 ",
+            "lyrics": "O_intento de Deus ninguém pode sondar;"
+          },
+          {
+            "chords": "   A                     E             A",
+            "lyrics": "Conselhos ninguém foi ao grande Deus ditar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A             D        E ",
+            "lyrics": "Perfeito saber é só o de Deus,"
+          },
+          {
+            "chords": "  A              E            A",
+            "lyrics": "Altíssimo são os pensamentos Seus;"
+          },
+          {
+            "chords": "    E     E7 ",
+            "lyrics": "Por Ele e d´Ele é tudo_o que há;"
+          },
+          {
+            "chords": "   A                       E            A",
+            "lyrics": "É Deus que, aos homens, sustento sempre dá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  A              D        E        ",
+            "lyrics": "Sublime saber pertence a Deus,"
+          },
+          {
+            "chords": "  A                  E           A",
+            "lyrics": "Ciência dos céus não negará aos Seus;"
+          },
+          {
+            "chords": "  E         E7 ",
+            "lyrics": "Riquezas perpétuas só Ele_é que tem;"
+          },
+          {
+            "chords": "  A             E            A",
+            "lyrics": "A Ele a glória eternamente._Amém."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,51 +1,120 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Foi alegre, ditoso o dia",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "        G               D ",
-    "1. Eu estava morto no pecado,",
-    "      D7           G",
-    "Mas Jesus, com Sua voz, me despertou;",
-    "                 C  ",
-    "Era, pelo mal, escravizado",
-    "   G      D7      G",
-    "E agora liberto_estou.",
-    "",
-    "     G               A7 ",
-    "Foi alegre, ditoso_o dia",
-    "       D              G°    G",
-    "Em que Cristo, o Verdadei - ro,",
-    "                    D  ",
-    "Trouxe_a luz divina ao meu coração",
-    "     D7           G",
-    "E vestiu-me de justiça_e salvação;",
-    "                      A7 ",
-    "Grande glória, oh! aleluia!,",
-    "       D             G",
-    "No Seu reino desfrutarei;",
-    "                  G7       C ",
-    "Lá eu cantarei louvores ao justo,",
-    "     G      D7     G",
-    "Majestoso e grande Rei.",
-    "",
-    "          G                D ",
-    "2. Eu não servirei à_iniquidade,",
-    "       D7             G",
-    "Pois retenho_em mim a fé no Salvador;",
-    "                 C ",
-    "Entrarei na celestial cidade",
-    "       G         D7     G",
-    "Para_estar com o meu Senhor.",
-    "",
-    "        G               D ",
-    "3. Com eterna bem-aventurança,",
-    "        D7           G",
-    "Os Seus santos, o Senhor coroará;",
-    "                  C ",
-    "Eu prossigo com a esperança",
-    "     G          D7      G",
-    "Da vitória, que perto_está."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     G               D ",
+            "lyrics": "Eu estava morto no pecado,"
+          },
+          {
+            "chords": "      D7           G",
+            "lyrics": "Mas Jesus, com Sua voz, me despertou;"
+          },
+          {
+            "chords": "                 C  ",
+            "lyrics": "Era, pelo mal, escravizado"
+          },
+          {
+            "chords": "   G      D7      G",
+            "lyrics": "E agora liberto_estou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     G               A7 ",
+            "lyrics": "Foi alegre, ditoso_o dia"
+          },
+          {
+            "chords": "       D              G°    G",
+            "lyrics": "Em que Cristo, o Verdadei - ro,"
+          },
+          {
+            "chords": "                    D  ",
+            "lyrics": "Trouxe_a luz divina ao meu coração"
+          },
+          {
+            "chords": "     D7           G",
+            "lyrics": "E vestiu-me de justiça_e salvação;"
+          },
+          {
+            "chords": "                      A7 ",
+            "lyrics": "Grande glória, oh! aleluia!,"
+          },
+          {
+            "chords": "       D             G",
+            "lyrics": "No Seu reino desfrutarei;"
+          },
+          {
+            "chords": "                  G7       C ",
+            "lyrics": "Lá eu cantarei louvores ao justo,"
+          },
+          {
+            "chords": "     G      D7     G",
+            "lyrics": "Majestoso e grande Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G                D ",
+            "lyrics": "Eu não servirei à_iniquidade,"
+          },
+          {
+            "chords": "       D7             G",
+            "lyrics": "Pois retenho_em mim a fé no Salvador;"
+          },
+          {
+            "chords": "                 C ",
+            "lyrics": "Entrarei na celestial cidade"
+          },
+          {
+            "chords": "       G         D7     G",
+            "lyrics": "Para_estar com o meu Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G               D ",
+            "lyrics": "Com eterna bem-aventurança,"
+          },
+          {
+            "chords": "        D7           G",
+            "lyrics": "Os Seus santos, o Senhor coroará;"
+          },
+          {
+            "chords": "                  C ",
+            "lyrics": "Eu prossigo com a esperança"
+          },
+          {
+            "chords": "     G          D7      G",
+            "lyrics": "Da vitória, que perto_está."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

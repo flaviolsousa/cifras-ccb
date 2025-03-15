@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Quanto nos amaste!",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                            F",
-    "1. Manda-nos, ó Senhor, bênçãos lá dos céus,",
-    "C/E    F         G              C",
-    "Que conforto nos dão, ó eterno Deus,",
-    "     Dm                E",
-    "Para Teus feitos anunciar",
-    "Am  A7        Dm      G ",
-    "E o Teu santo Nome louvar.",
-    "",
-    "C               G                  C",
-    "Oh! Quanto nos amaste, bondoso Criador!",
-    "C/E    F           G             C",
-    "Dá-nos mais do Teu santo e puro_amor.",
-    "",
-    "   C                    F",
-    "2. Manda Tua Palavra, ó Formador,",
-    "C/E    F      G            C",
-    "Pelo_Espírito Santo Consolador;",
-    "    Dm                   E",
-    "Desejamos melhor compreender",
-    "Am    A7     Dm       G",
-    "Teu divino e santo querer.",
-    "",
-    "   C                       F",
-    "3. Continua, Senhor, a nos ensinar;",
-    "C/E    F         G          C",
-    "Nossas mentes Tu podes iluminar",
-    "     Dm                  E",
-    "Para que nós possamos vencer",
-    "Am    A7        Dm      G",
-    "E, ao fim, galardão receber."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                            F",
+            "lyrics": "Manda-nos, ó Senhor, bênçãos lá dos céus,"
+          },
+          {
+            "chords": "C/E    F         G              C",
+            "lyrics": "Que conforto nos dão, ó eterno Deus,"
+          },
+          {
+            "chords": "     Dm                E",
+            "lyrics": "Para Teus feitos anunciar"
+          },
+          {
+            "chords": "Am  A7        Dm      G ",
+            "lyrics": "E o Teu santo Nome louvar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C               G                  C",
+            "lyrics": "Oh! Quanto nos amaste, bondoso Criador!"
+          },
+          {
+            "chords": "C/E    F           G             C",
+            "lyrics": "Dá-nos mais do Teu santo e puro_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                    F",
+            "lyrics": "Manda Tua Palavra, ó Formador,"
+          },
+          {
+            "chords": "C/E    F      G            C",
+            "lyrics": "Pelo_Espírito Santo Consolador;"
+          },
+          {
+            "chords": "    Dm                   E",
+            "lyrics": "Desejamos melhor compreender"
+          },
+          {
+            "chords": "Am    A7     Dm       G",
+            "lyrics": "Teu divino e santo querer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                       F",
+            "lyrics": "Continua, Senhor, a nos ensinar;"
+          },
+          {
+            "chords": "C/E    F         G          C",
+            "lyrics": "Nossas mentes Tu podes iluminar"
+          },
+          {
+            "chords": "     Dm                  E",
+            "lyrics": "Para que nós possamos vencer"
+          },
+          {
+            "chords": "Am    A7        Dm      G",
+            "lyrics": "E, ao fim, galardão receber."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

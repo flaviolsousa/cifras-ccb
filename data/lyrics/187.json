@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus Cristo habita em nós",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "         D",
-    "1. O que hoje é mistério para_os santos do Senhor,",
-    "    G                        E          A ",
-    "Revelado lhes será por Seu Espírito de_amor,",
-    "       D                         G        E... ",
-    "Pois está em Jesus Cristo_a plenitude divinal",
-    "     A                      D          D...",
-    "E os justos participam do segredo celestial.",
-    "",
-    "      D",
-    "Jesus Cristo_habita_em nós,",
-    "     G  E            A ",
-    "Sua luz   habita_em nós;",
-    "      D                      G          E... ",
-    "Nesta graça preciosa não nos sentiremos sós;",
-    "         A                     D                D...",
-    "Glória! Glória! Aleluia! Jesus Cristo_habita_em nós!",
-    "",
-    "           D",
-    "2. Nos nem tudo entendemos, pois o Pai o quer assim,",
-    "         G                         E            A ",
-    "Mas, de luz em luz, iremos sempre_avante_até o fim;",
-    "       D                        G             E... ",
-    "Nossos olhos, desvendados por Jesus, contemplarão",
-    "      A                        D           D...",
-    "Os mistérios eternais, que revelados nos serão.",
-    "",
-    "        D",
-    "3. Hoje fala, pelo_Espírito da graça, o Senhor,",
-    "      G                       E              A ",
-    "E nos mostra o caminho para_o reino de_esplendor,",
-    "        D                       G         E... ",
-    "Mas, em breve, face_a face, ouviremos Sua voz.",
-    "        A                         D                D...",
-    "Glória_eterna_alcançaremos, Jesus Cristo_habita_em nós!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      D",
+            "lyrics": "O que hoje é mistério para_os santos do Senhor,"
+          },
+          {
+            "chords": "    G                        E          A ",
+            "lyrics": "Revelado lhes será por Seu Espírito de_amor,"
+          },
+          {
+            "chords": "       D                         G        E... ",
+            "lyrics": "Pois está em Jesus Cristo_a plenitude divinal"
+          },
+          {
+            "chords": "     A                      D          D...",
+            "lyrics": "E os justos participam do segredo celestial."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      D",
+            "lyrics": "Jesus Cristo_habita_em nós,"
+          },
+          {
+            "chords": "     G  E            A ",
+            "lyrics": "Sua luz   habita_em nós;"
+          },
+          {
+            "chords": "      D                      G          E... ",
+            "lyrics": "Nesta graça preciosa não nos sentiremos sós;"
+          },
+          {
+            "chords": "         A                     D                D...",
+            "lyrics": "Glória! Glória! Aleluia! Jesus Cristo_habita_em nós!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        D",
+            "lyrics": "Nos nem tudo entendemos, pois o Pai o quer assim,"
+          },
+          {
+            "chords": "         G                         E            A ",
+            "lyrics": "Mas, de luz em luz, iremos sempre_avante_até o fim;"
+          },
+          {
+            "chords": "       D                        G             E... ",
+            "lyrics": "Nossos olhos, desvendados por Jesus, contemplarão"
+          },
+          {
+            "chords": "      A                        D           D...",
+            "lyrics": "Os mistérios eternais, que revelados nos serão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D",
+            "lyrics": "Hoje fala, pelo_Espírito da graça, o Senhor,"
+          },
+          {
+            "chords": "      G                       E              A ",
+            "lyrics": "E nos mostra o caminho para_o reino de_esplendor,"
+          },
+          {
+            "chords": "        D                       G         E... ",
+            "lyrics": "Mas, em breve, face_a face, ouviremos Sua voz."
+          },
+          {
+            "chords": "        A                         D                D...",
+            "lyrics": "Glória_eterna_alcançaremos, Jesus Cristo_habita_em nós!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

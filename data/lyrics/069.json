@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A família de Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D                  G       A     D",
-    "1. Em volta de Jesus se achava_a multidão.",
-    "  Bm            B7     Em     G       G7  F# ",
-    "Ouvindo Seus conselhos e_aprendendo_a retidão.",
-    "  D                 D7   G    D#°  Em ",
-    "Alguém aproximou-se para Lhe anunciar",
-    "     A         D      G      A          D",
-    "Que Sua mãe e Seus irmãos queriam Lhe falar.",
-    "",
-    "      D                           G      A    D",
-    "2. Responde_o grande Mestre,_estendendo Suas mãos:",
-    "  Bm         B7    Em      G      G7     F# ",
-    "“Aqui está a Minha mãe, também os Meus irmãos”;",
-    "  D                  D7     G          D#°    Em ",
-    "Àqueles que_obedecem a Deus Pai, que_está nos céus,",
-    "  A            D     G     A             D",
-    "Jesus os chama de irmãos e co_herdeiros Seus.",
-    "",
-    "       D                    G       A     D",
-    "3. Oh! Que amor profundo Jesus tem pelos Seus,",
-    "     Bm            B7     Em     G   G7    F# ",
-    "Pois chama-os de_irmãos e filhos do eterno Deus;",
-    "    D               D7     G     D#°  Em ",
-    "Tão excelente_afeto Deus fará compreender",
-    "   A             D     G     A            D",
-    "Ao homem que_invocá-Lo e cumprir o Seu querer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D                  G       A     D",
+            "lyrics": "Em volta de Jesus se achava_a multidão."
+          },
+          {
+            "chords": "  Bm            B7     Em     G       G7  F# ",
+            "lyrics": "Ouvindo Seus conselhos e_aprendendo_a retidão."
+          },
+          {
+            "chords": "  D                 D7   G    D#°  Em ",
+            "lyrics": "Alguém aproximou-se para Lhe anunciar"
+          },
+          {
+            "chords": "     A         D      G      A          D",
+            "lyrics": "Que Sua mãe e Seus irmãos queriam Lhe falar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   D                           G      A    D",
+            "lyrics": "Responde_o grande Mestre,_estendendo Suas mãos:"
+          },
+          {
+            "chords": "  Bm         B7    Em      G      G7     F# ",
+            "lyrics": "“Aqui está a Minha mãe, também os Meus irmãos”;"
+          },
+          {
+            "chords": "  D                  D7     G          D#°    Em ",
+            "lyrics": "Àqueles que_obedecem a Deus Pai, que_está nos céus,"
+          },
+          {
+            "chords": "  A            D     G     A             D",
+            "lyrics": "Jesus os chama de irmãos e co_herdeiros Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    D                    G       A     D",
+            "lyrics": "Oh! Que amor profundo Jesus tem pelos Seus,"
+          },
+          {
+            "chords": "     Bm            B7     Em     G   G7    F# ",
+            "lyrics": "Pois chama-os de_irmãos e filhos do eterno Deus;"
+          },
+          {
+            "chords": "    D               D7     G     D#°  Em ",
+            "lyrics": "Tão excelente_afeto Deus fará compreender"
+          },
+          {
+            "chords": "   A             D     G     A            D",
+            "lyrics": "Ao homem que_invocá-Lo e cumprir o Seu querer."
+          }
+        ]
+      }
+    ]
+  }
 }

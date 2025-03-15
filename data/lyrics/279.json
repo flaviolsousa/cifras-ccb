@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Não temas, igreja de Jesus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "           A                E ",
-    "1. Oh! Não temas tu, igreja de Jesus,",
-    "                           A",
-    "Com justiça Ele te confirmará;",
-    "                         E ",
-    "O lugar da tua tenda_e_habitação",
-    "B7             E ",
-    "O Senhor ampliará.",
-    "",
-    "E                  A",
-    "Toda_a arma contra ti",
-    "C#7               F#m  A7",
-    "Prosperar não poderá;",
-    "D                       A",
-    "Quando_o inimigo contra ti se levantar,",
-    "E                A",
-    "Cristo te defenderá.",
-    "",
-    "          A              E ",
-    "2. Toda_a arma preparada contra ti",
-    "                               A",
-    "Te combate, mas jamais te vencerá,",
-    "                        E ",
-    "Pois Jesus, o teu amado Redentor,",
-    "B7             E",
-    "A vitória te dará.",
-    "",
-    "       A                    E ",
-    "3. Na eterna glória, não te lembrarás",
-    "                                A",
-    "Das angústias deste mundo_enganador,",
-    "                     E ",
-    "Pois ali eternamente estarás",
-    "B7                E ",
-    "Com Jesus, o Vencedor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        A                E ",
+            "lyrics": "Oh! Não temas tu, igreja de Jesus,"
+          },
+          {
+            "chords": "                           A",
+            "lyrics": "Com justiça Ele te confirmará;"
+          },
+          {
+            "chords": "                         E ",
+            "lyrics": "O lugar da tua tenda_e_habitação"
+          },
+          {
+            "chords": "B7             E ",
+            "lyrics": "O Senhor ampliará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E                  A",
+            "lyrics": "Toda_a arma contra ti"
+          },
+          {
+            "chords": "C#7               F#m  A7",
+            "lyrics": "Prosperar não poderá;"
+          },
+          {
+            "chords": "D                       A",
+            "lyrics": "Quando_o inimigo contra ti se levantar,"
+          },
+          {
+            "chords": "E                A",
+            "lyrics": "Cristo te defenderá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       A              E ",
+            "lyrics": "Toda_a arma preparada contra ti"
+          },
+          {
+            "chords": "                               A",
+            "lyrics": "Te combate, mas jamais te vencerá,"
+          },
+          {
+            "chords": "                        E ",
+            "lyrics": "Pois Jesus, o teu amado Redentor,"
+          },
+          {
+            "chords": "B7             E",
+            "lyrics": "A vitória te dará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A                    E ",
+            "lyrics": "Na eterna glória, não te lembrarás"
+          },
+          {
+            "chords": "                                A",
+            "lyrics": "Das angústias deste mundo_enganador,"
+          },
+          {
+            "chords": "                     E ",
+            "lyrics": "Pois ali eternamente estarás"
+          },
+          {
+            "chords": "B7                E ",
+            "lyrics": "Com Jesus, o Vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

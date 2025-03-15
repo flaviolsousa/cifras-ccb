@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quem sustenta a nossa vida",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "           C                        G7 ",
-    "1. Quem sustenta_a nossa vida é_a Palavra do Senhor,",
-    "                                     C",
-    "Que anima, edifica e nos traz consolação,",
-    "                             C7          F ",
-    "E que une_a alma_humilde ao amor do Redentor;",
-    "                C            G            C",
-    "É_a Palavra poderosa que faz crer na salvação.",
-    "",
-    "    G7           C           G7        C",
-    "A Palavra do bom Criador é a Guia do remido",
-    "      G7       C           D7         G ",
-    "Na jornada a caminho das moradas do Fiel;",
-    "    C           F           G          C",
-    "É Palavra de virtude, que levanta o_abatido;",
-    "                 F          G           C",
-    "É Espada de dois gumes, é o Verbo,_Emanuel.",
-    "",
-    "         C                        G7 ",
-    "2. Proclamemos que Jesus não tardará em retornar,",
-    "                                        C",
-    "Vamos sempre_obedecê-Lo e de coração O_amar;",
-    "                          C7             F ",
-    "Estejamos vigilantes, esperando_o Seu voltar,",
-    "                    C          G         C",
-    "Pois em breve a trombeta todos vamos escutar.",
-    "",
-    "         C                   G7 ",
-    "3. Não sejamos ociosos em servir o grande Rei,",
-    "                                         C",
-    "Mas sejamos fervorosos para sempre_O atender;",
-    "                               C7        F ",
-    "Com as divinais virtudes cumpriremos Sua lei,",
-    "                  C              G         C",
-    "Subiremos para_a glória, lar do_Onipotente Ser."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        C                        G7 ",
+            "lyrics": "Quem sustenta_a nossa vida é_a Palavra do Senhor,"
+          },
+          {
+            "chords": "                                     C",
+            "lyrics": "Que anima, edifica e nos traz consolação,"
+          },
+          {
+            "chords": "                             C7          F ",
+            "lyrics": "E que une_a alma_humilde ao amor do Redentor;"
+          },
+          {
+            "chords": "                C            G            C",
+            "lyrics": "É_a Palavra poderosa que faz crer na salvação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G7           C           G7        C",
+            "lyrics": "A Palavra do bom Criador é a Guia do remido"
+          },
+          {
+            "chords": "      G7       C           D7         G ",
+            "lyrics": "Na jornada a caminho das moradas do Fiel;"
+          },
+          {
+            "chords": "    C           F           G          C",
+            "lyrics": "É Palavra de virtude, que levanta o_abatido;"
+          },
+          {
+            "chords": "                 F          G           C",
+            "lyrics": "É Espada de dois gumes, é o Verbo,_Emanuel."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      C                        G7 ",
+            "lyrics": "Proclamemos que Jesus não tardará em retornar,"
+          },
+          {
+            "chords": "                                        C",
+            "lyrics": "Vamos sempre_obedecê-Lo e de coração O_amar;"
+          },
+          {
+            "chords": "                          C7             F ",
+            "lyrics": "Estejamos vigilantes, esperando_o Seu voltar,"
+          },
+          {
+            "chords": "                    C          G         C",
+            "lyrics": "Pois em breve a trombeta todos vamos escutar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      C                   G7 ",
+            "lyrics": "Não sejamos ociosos em servir o grande Rei,"
+          },
+          {
+            "chords": "                                         C",
+            "lyrics": "Mas sejamos fervorosos para sempre_O atender;"
+          },
+          {
+            "chords": "                               C7        F ",
+            "lyrics": "Com as divinais virtudes cumpriremos Sua lei,"
+          },
+          {
+            "chords": "                  C              G         C",
+            "lyrics": "Subiremos para_a glória, lar do_Onipotente Ser."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

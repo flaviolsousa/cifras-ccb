@@ -1,41 +1,100 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Deus é por mim",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E                    F#m ",
-    "1. Deus é por mim, nada devo temer;",
-    "    B7             E  B7 ",
-    "Por que hei de duvidar?",
-    "E      E7      A      F#m ",
-    "Ele em tudo me pode valer,",
-    "   B7             E",
-    "Só n´Ele vou confiar.",
-    "",
-    "E        A             B7 ",
-    "Do mundo já separado_estou,",
-    "      E",
-    "Foi Jesus Quem me separou;",
-    "C#      F#m                B7   E",
-    "Com Seu sangue precioso me resgatou.",
-    "",
-    "   E               F#m ",
-    "2. Nada no mundo jamais poderá",
-    "   B7             E  B7 ",
-    "Privar-me do Seu amor;",
-    "E       E7         A      F#m ",
-    "É esse_amor que me conduzirá",
-    "   B7           E",
-    "Ao reino do Criador.",
-    "",
-    "   E                    F#m ",
-    "3. Para_os fiéis não há condenação,",
-    "  B7             E  B7 ",
-    "Jesus é seu Defensor;",
-    "E       E7         A      F#m ",
-    "Sobre a morte_eles triunfarão",
-    "   B7             E",
-    "Na volta do seu Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E                    F#m ",
+            "lyrics": "Deus é por mim, nada devo temer;"
+          },
+          {
+            "chords": "    B7             E  B7 ",
+            "lyrics": "Por que hei de duvidar?"
+          },
+          {
+            "chords": "E      E7      A      F#m ",
+            "lyrics": "Ele em tudo me pode valer,"
+          },
+          {
+            "chords": "   B7             E",
+            "lyrics": "Só n´Ele vou confiar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E        A             B7 ",
+            "lyrics": "Do mundo já separado_estou,"
+          },
+          {
+            "chords": "      E",
+            "lyrics": "Foi Jesus Quem me separou;"
+          },
+          {
+            "chords": "C#      F#m                B7   E",
+            "lyrics": "Com Seu sangue precioso me resgatou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E               F#m ",
+            "lyrics": "Nada no mundo jamais poderá"
+          },
+          {
+            "chords": "   B7             E  B7 ",
+            "lyrics": "Privar-me do Seu amor;"
+          },
+          {
+            "chords": "E       E7         A      F#m ",
+            "lyrics": "É esse_amor que me conduzirá"
+          },
+          {
+            "chords": "   B7           E",
+            "lyrics": "Ao reino do Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E                    F#m ",
+            "lyrics": "Para_os fiéis não há condenação,"
+          },
+          {
+            "chords": "  B7             E  B7 ",
+            "lyrics": "Jesus é seu Defensor;"
+          },
+          {
+            "chords": "E       E7         A      F#m ",
+            "lyrics": "Sobre a morte_eles triunfarão"
+          },
+          {
+            "chords": "   B7             E",
+            "lyrics": "Na volta do seu Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

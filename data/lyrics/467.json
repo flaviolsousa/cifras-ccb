@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos com Jesus",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E",
-    "1. Sigamos, com fervor, Jesus, o Salvador,",
-    "                                  B",
-    "Que por amor nos livrou da condenação;",
-    "  E",
-    "É Ele_o nosso Rei, nós somos Sua grei,",
-    "     C#m         E         B            E",
-    "Que_irá, no céu, receber o grande galardão.",
-    "",
-    "A                E",
-    "Vamos com Jesus, Ele nos conduz",
-    "F#7              B    B...",
-    "Ao Seu reino de amor;",
-    "    E",
-    "Marchemos com valor à pátria celestial,",
-    "  A         B                     E    E...",
-    "O nosso Rei nos dará a glória eternal.",
-    "",
-    "       E",
-    "2. Oh! Vamos combater e, pela fé, vencer",
-    "                                    B",
-    "O tentador que os quer para_o mal levar;",
-    "  E",
-    "Sigamos ao Senhor com todo o fervor;",
-    "   C#m     E            B          E",
-    "Só Ele tem armas que os fazem triunfar.",
-    "",
-    "      E",
-    "3. Mistérios celestiais, riquezas eternais,",
-    "                                   B",
-    "Jesus, o Rei, por amor nos desvendará;",
-    "  E",
-    "Felizes, pois, nos céus seremos junto_a Deus;",
-    "  C#m       E         B         E",
-    "Naquele lar nosso coração jubilará."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "Sigamos, com fervor, Jesus, o Salvador,"
+          },
+          {
+            "chords": "                                  B",
+            "lyrics": "Que por amor nos livrou da condenação;"
+          },
+          {
+            "chords": "  E",
+            "lyrics": "É Ele_o nosso Rei, nós somos Sua grei,"
+          },
+          {
+            "chords": "     C#m         E         B            E",
+            "lyrics": "Que_irá, no céu, receber o grande galardão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                E",
+            "lyrics": "Vamos com Jesus, Ele nos conduz"
+          },
+          {
+            "chords": "F#7              B    B...",
+            "lyrics": "Ao Seu reino de amor;"
+          },
+          {
+            "chords": "    E",
+            "lyrics": "Marchemos com valor à pátria celestial,"
+          },
+          {
+            "chords": "  A         B                     E    E...",
+            "lyrics": "O nosso Rei nos dará a glória eternal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Oh! Vamos combater e, pela fé, vencer"
+          },
+          {
+            "chords": "                                    B",
+            "lyrics": "O tentador que os quer para_o mal levar;"
+          },
+          {
+            "chords": "  E",
+            "lyrics": "Sigamos ao Senhor com todo o fervor;"
+          },
+          {
+            "chords": "   C#m     E            B          E",
+            "lyrics": "Só Ele tem armas que os fazem triunfar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   E",
+            "lyrics": "Mistérios celestiais, riquezas eternais,"
+          },
+          {
+            "chords": "                                   B",
+            "lyrics": "Jesus, o Rei, por amor nos desvendará;"
+          },
+          {
+            "chords": "  E",
+            "lyrics": "Felizes, pois, nos céus seremos junto_a Deus;"
+          },
+          {
+            "chords": "  C#m       E         B         E",
+            "lyrics": "Naquele lar nosso coração jubilará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

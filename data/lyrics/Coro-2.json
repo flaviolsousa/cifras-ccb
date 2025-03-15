@@ -1,16 +1,31 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Toda a glória a Jesus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "G                  D",
-    "Toda a glória a Jesus!",
-    "C      G     A    D",
-    "Toda a honra a Jesus!",
-    "G                   Bm",
-    "Juntos louvemos a Jesus!",
-    " C        G          D   G    G...",
-    "Seu santo Nome vamos exaltar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                  D",
+            "lyrics": "Toda a glória a Jesus!"
+          },
+          {
+            "chords": "C      G     A    D",
+            "lyrics": "Toda a honra a Jesus!"
+          },
+          {
+            "chords": "G                   Bm",
+            "lyrics": "Juntos louvemos a Jesus!"
+          },
+          {
+            "chords": " C        G          D   G    G...",
+            "lyrics": "Seu santo Nome vamos exaltar."
+          }
+        ]
+      }
+    ]
+  }
 }

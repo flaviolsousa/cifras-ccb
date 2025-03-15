@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sigamos sempre ao Senhor",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E                             B            E",
-    "1. Irmãos, avante com nosso Rei, o santo Libertador;",
-    "                           B                 E",
-    "Permaneçamos na Sua lei, sigamos sempre_ao Senhor.",
-    "",
-    "  E ",
-    "Jesus nos conduzirá aos céus,",
-    "  A     E           B ",
-    "Sigamos sempre_ao Senhor;",
-    "  E",
-    "Habitaremos com nosso Deus ",
-    "   A     B        E",
-    "No reino de esplendor.",
-    "",
-    "     E                        B              E ",
-    "2. O Evangelho nos conduziu a Cristo, o Redentor,",
-    "                                    B                 E",
-    "Que, nossas almas, do mal remiu; sirvamos sempre_ao Senhor.",
-    "",
-    "     E                         B                  E",
-    "3. Devemos sempre obedecer aos Seus preceitos de_amor",
-    "                                B                 E",
-    "E Seus conselhos em nós reter; amemos sempre_ao Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E                             B            E",
+            "lyrics": "Irmãos, avante com nosso Rei, o santo Libertador;"
+          },
+          {
+            "chords": "                           B                 E",
+            "lyrics": "Permaneçamos na Sua lei, sigamos sempre_ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  E ",
+            "lyrics": "Jesus nos conduzirá aos céus,"
+          },
+          {
+            "chords": "  A     E           B ",
+            "lyrics": "Sigamos sempre_ao Senhor;"
+          },
+          {
+            "chords": "  E",
+            "lyrics": "Habitaremos com nosso Deus "
+          },
+          {
+            "chords": "   A     B        E",
+            "lyrics": "No reino de esplendor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  E                        B              E ",
+            "lyrics": "O Evangelho nos conduziu a Cristo, o Redentor,"
+          },
+          {
+            "chords": "                                    B                 E",
+            "lyrics": "Que, nossas almas, do mal remiu; sirvamos sempre_ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  E                         B                  E",
+            "lyrics": "Devemos sempre obedecer aos Seus preceitos de_amor"
+          },
+          {
+            "chords": "                                B                 E",
+            "lyrics": "E Seus conselhos em nós reter; amemos sempre_ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

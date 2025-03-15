@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Que fundamento",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "        A       E        A              E ",
-    "1. Oh! Que fundamento em Jesus Cristo temos,",
-    "  F#m       E         B        E ",
-    "É Ele_a_Esperança do eterno porvir;",
-    "    A      E  A    E      F#m  E ",
-    "As Suas promessas eternas alcançamos;",
-    "   A                                     E ",
-    "Em Seu amor, unidos, a Deus vamos servir,",
-    "                F#m    E        A",
-    "Em Seu amor, unidos, O vamos servir.",
-    "",
-    "       A      E         A              E ",
-    "2. Se, peregrinando, combates nós tivermos;",
-    "  F#m      E                B        E ",
-    "A mão do Senhor, por graça, nos livrará;",
-    "  A        E  A     E       F#m    E ",
-    "E contra a força do mal nós luta - remos;",
-    "   A                                     E ",
-    "Servindo_a Deus com zelo, ajuda nos dará,",
-    "                      F#m  E      A",
-    "Servindo_a Deus com zelo, ajuda dará.",
-    "",
-    "     A      E        A            E ",
-    "3. Ó Rocha eterna e_eterna Fortaleza,",
-    "    F#m      E            B       E ",
-    "Por fé nós vivemos no Teu grande amor;",
-    "  A         E  A      E    F#m    E ",
-    "Fizeste-nos dignos da celestial riqueza,",
-    "     A                                      E ",
-    "Pois todo_o nosso bem vem de Ti, ó Redentor,",
-    "                      F#m    E        A",
-    "Pois todo_o nosso bem vem de Ti, Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     A       E        A              E ",
+            "lyrics": "Oh! Que fundamento em Jesus Cristo temos,"
+          },
+          {
+            "chords": "  F#m       E         B        E ",
+            "lyrics": "É Ele_a_Esperança do eterno porvir;"
+          },
+          {
+            "chords": "    A      E  A    E      F#m  E ",
+            "lyrics": "As Suas promessas eternas alcançamos;"
+          },
+          {
+            "chords": "   A                                     E ",
+            "lyrics": "Em Seu amor, unidos, a Deus vamos servir,"
+          },
+          {
+            "chords": "                F#m    E        A",
+            "lyrics": "Em Seu amor, unidos, O vamos servir."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    A      E         A              E ",
+            "lyrics": "Se, peregrinando, combates nós tivermos;"
+          },
+          {
+            "chords": "  F#m      E                B        E ",
+            "lyrics": "A mão do Senhor, por graça, nos livrará;"
+          },
+          {
+            "chords": "  A        E  A     E       F#m    E ",
+            "lyrics": "E contra a força do mal nós luta - remos;"
+          },
+          {
+            "chords": "   A                                     E ",
+            "lyrics": "Servindo_a Deus com zelo, ajuda nos dará,"
+          },
+          {
+            "chords": "                      F#m  E      A",
+            "lyrics": "Servindo_a Deus com zelo, ajuda dará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  A      E        A            E ",
+            "lyrics": "Ó Rocha eterna e_eterna Fortaleza,"
+          },
+          {
+            "chords": "    F#m      E            B       E ",
+            "lyrics": "Por fé nós vivemos no Teu grande amor;"
+          },
+          {
+            "chords": "  A         E  A      E    F#m    E ",
+            "lyrics": "Fizeste-nos dignos da celestial riqueza,"
+          },
+          {
+            "chords": "     A                                      E ",
+            "lyrics": "Pois todo_o nosso bem vem de Ti, ó Redentor,"
+          },
+          {
+            "chords": "                      F#m    E        A",
+            "lyrics": "Pois todo_o nosso bem vem de Ti, Redentor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Somos jovens consagrados",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "         B                      F#7         B",
-    "1. Somos jovens consagrados a Jesus, o Redentor,",
-    "                           F#7        B",
-    "E, por Ele, ensinados a servir ao Criador.",
-    "",
-    "       B",
-    "Que_alegria encontramos",
-    "      F#7        B",
-    "Em servir ao Criador!",
-    "",
-    "Nós, Seus filhos, O amamos,",
-    "       F#7          B",
-    "Com sincero_e puro_amor.",
-    "",
-    "         B                     F#7         B",
-    "2. Somos jovens obedientes a Jesus, o Salvador,",
-    "                           F#7         B",
-    "Atendemos, reverentes, à Palavra do Senhor.",
-    "",
-    "         B                      F#7        B",
-    "3. Somos jovens dedicados nesta obra do Senhor,",
-    "                               F#7         B",
-    "Fomos todos resgatados por Seu sangue_expiador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      B                      F#7         B",
+            "lyrics": "Somos jovens consagrados a Jesus, o Redentor,"
+          },
+          {
+            "chords": "                           F#7        B",
+            "lyrics": "E, por Ele, ensinados a servir ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       B",
+            "lyrics": "Que_alegria encontramos"
+          },
+          {
+            "chords": "      F#7        B",
+            "lyrics": "Em servir ao Criador!"
+          },
+          {
+            "chords": "",
+            "lyrics": "Nós, Seus filhos, O amamos,"
+          },
+          {
+            "chords": "       F#7          B",
+            "lyrics": "Com sincero_e puro_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      B                     F#7         B",
+            "lyrics": "Somos jovens obedientes a Jesus, o Salvador,"
+          },
+          {
+            "chords": "                           F#7         B",
+            "lyrics": "Atendemos, reverentes, à Palavra do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      B                      F#7        B",
+            "lyrics": "Somos jovens dedicados nesta obra do Senhor,"
+          },
+          {
+            "chords": "                               F#7         B",
+            "lyrics": "Fomos todos resgatados por Seu sangue_expiador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

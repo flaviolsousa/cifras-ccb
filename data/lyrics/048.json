@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Creio no Senhor",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "           E                    B7         E",
-    "1. Quão gloriosa sinto_em mim a voz do Criador!",
-    "                          B7          E",
-    "Refrigério ela traz, é um bálsamo de_amor.",
-    "",
-    "E                          B7 ",
-    "Creio no Senhor, sábio Criador;",
-    "E                    A...    B7         E",
-    "Sinto_em mim o Seu poder que me fará vencer.",
-    "",
-    "       E                  B7            E",
-    "2. A Palavra do Senhor, desejo sempre_ouvir;",
-    "                         B7          E",
-    "Segurança Ela traz e_esperança do porvir.",
-    "",
-    "        E                  B7              E",
-    "3. Eu almejo sempre_estar unido_ao grande Deus;",
-    "                            B7              E",
-    "Em justiça_e retidão, vou seguindo para_os céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        E                    B7         E",
+            "lyrics": "Quão gloriosa sinto_em mim a voz do Criador!"
+          },
+          {
+            "chords": "                          B7          E",
+            "lyrics": "Refrigério ela traz, é um bálsamo de_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E                          B7 ",
+            "lyrics": "Creio no Senhor, sábio Criador;"
+          },
+          {
+            "chords": "E                    A...    B7         E",
+            "lyrics": "Sinto_em mim o Seu poder que me fará vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E                  B7            E",
+            "lyrics": "A Palavra do Senhor, desejo sempre_ouvir;"
+          },
+          {
+            "chords": "                         B7          E",
+            "lyrics": "Segurança Ela traz e_esperança do porvir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E                  B7              E",
+            "lyrics": "Eu almejo sempre_estar unido_ao grande Deus;"
+          },
+          {
+            "chords": "                            B7              E",
+            "lyrics": "Em justiça_e retidão, vou seguindo para_os céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vem atender ao Seu chamado",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "       A                      D ",
-    "1. Ao amado Jesus Cristo dá ouvidos,",
-    "    E7          A",
-    "Ele diz: “Vem a Mim”;",
-    "                             D ",
-    "E serão os teus pecados esquecidos;",
-    "       B7          E7 ",
-    "Cristo diz: “Vem a Mim”.",
-    "",
-    "    E7                A",
-    "Vem atender ao Seu chamado;",
-    "  E7                    C#  E7... ",
-    "Serás, por Cristo, perdoa - do",
-    "    A                     D ",
-    "E fará de ti um bem-aventurado.",
-    "      E7    B7  E7  A",
-    "Diz Jesus: “Vem a   Mim”.",
-    "",
-    "        A                       D ",
-    "2. Só Jesus tem força para libertar-te;",
-    "       E7       A",
-    "Crê no teu Redentor;",
-    "                                 D ",
-    "Ele que, com Deus, o Pai, reconciliar-te;",
-    "       B7       E7 ",
-    "Crê no teu Salvador.",
-    "",
-    "          A                            D ",
-    "3. Sobre_amarga cruz, por ti, provou a morte;",
-    "       E7        A",
-    "Ouve_a voz do Senhor;",
-    "                                   D ",
-    "Não rejeites tão preciosa_e grande sorte;",
-    "       B7       E7 ",
-    "Vem provar Seu amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A                      D ",
+            "lyrics": "Ao amado Jesus Cristo dá ouvidos,"
+          },
+          {
+            "chords": "    E7          A",
+            "lyrics": "Ele diz: “Vem a Mim”;"
+          },
+          {
+            "chords": "                             D ",
+            "lyrics": "E serão os teus pecados esquecidos;"
+          },
+          {
+            "chords": "       B7          E7 ",
+            "lyrics": "Cristo diz: “Vem a Mim”."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E7                A",
+            "lyrics": "Vem atender ao Seu chamado;"
+          },
+          {
+            "chords": "  E7                    C#  E7... ",
+            "lyrics": "Serás, por Cristo, perdoa - do"
+          },
+          {
+            "chords": "    A                     D ",
+            "lyrics": "E fará de ti um bem-aventurado."
+          },
+          {
+            "chords": "      E7    B7  E7  A",
+            "lyrics": "Diz Jesus: “Vem a   Mim”."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     A                       D ",
+            "lyrics": "Só Jesus tem força para libertar-te;"
+          },
+          {
+            "chords": "       E7       A",
+            "lyrics": "Crê no teu Redentor;"
+          },
+          {
+            "chords": "                                 D ",
+            "lyrics": "Ele que, com Deus, o Pai, reconciliar-te;"
+          },
+          {
+            "chords": "       B7       E7 ",
+            "lyrics": "Crê no teu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A                            D ",
+            "lyrics": "Sobre_amarga cruz, por ti, provou a morte;"
+          },
+          {
+            "chords": "       E7        A",
+            "lyrics": "Ouve_a voz do Senhor;"
+          },
+          {
+            "chords": "                                   D ",
+            "lyrics": "Não rejeites tão preciosa_e grande sorte;"
+          },
+          {
+            "chords": "       B7       E7 ",
+            "lyrics": "Vem provar Seu amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

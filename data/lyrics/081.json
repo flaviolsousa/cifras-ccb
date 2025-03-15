@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A vida deu por ti",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "     C            F            C      G   C",
-    "1. A vida deu por ti Cristo Jesus, o Salvador;",
-    "                   F                G         C",
-    "Verteu por ti, na cruz, sangue precioso, expiador;",
-    "    G               C             G               C",
-    "Por ti, por ti, Sua vida deu; oh! dá-Lhe teu coração;",
-    "    G               C          G             C",
-    "Por ti, por ti, Sua vida deu e te dará salvação.",
-    "",
-    "     C          F            C      G     C",
-    "2. Coroa tão cruel, grande escárnio suportou;",
-    "               F               G                 C",
-    "Os cravos e o fel, por ti, na cruz, o Mestre provou;",
-    "   G              C              G             C",
-    "Tomou o cálix da dor por ti; as tuas culpas pagou;",
-    "   G              C              G             C",
-    "Tomou o cálix da dor por ti; da perdição te livrou.",
-    "",
-    "     C         F          C    G    C",
-    "3. À ordem divinal o Salvador obedeceu;",
-    "              F         G            C",
-    "Injúria sem igual e vitupério Ele sofreu;",
-    "    G                 C              G              C",
-    "Desceu da glória dos céus por ti; em Cristo há redenção.",
-    "    G                 C               G                  C",
-    "Desceu da glória dos céus por ti; só n´Ele encontras perdão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  C            F            C      G   C",
+            "lyrics": "A vida deu por ti Cristo Jesus, o Salvador;"
+          },
+          {
+            "chords": "                   F                G         C",
+            "lyrics": "Verteu por ti, na cruz, sangue precioso, expiador;"
+          },
+          {
+            "chords": "    G               C             G               C",
+            "lyrics": "Por ti, por ti, Sua vida deu; oh! dá-Lhe teu coração;"
+          },
+          {
+            "chords": "    G               C          G             C",
+            "lyrics": "Por ti, por ti, Sua vida deu e te dará salvação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  C          F            C      G     C",
+            "lyrics": "Coroa tão cruel, grande escárnio suportou;"
+          },
+          {
+            "chords": "               F               G                 C",
+            "lyrics": "Os cravos e o fel, por ti, na cruz, o Mestre provou;"
+          },
+          {
+            "chords": "   G              C              G             C",
+            "lyrics": "Tomou o cálix da dor por ti; as tuas culpas pagou;"
+          },
+          {
+            "chords": "   G              C              G             C",
+            "lyrics": "Tomou o cálix da dor por ti; da perdição te livrou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  C         F          C    G    C",
+            "lyrics": "À ordem divinal o Salvador obedeceu;"
+          },
+          {
+            "chords": "              F         G            C",
+            "lyrics": "Injúria sem igual e vitupério Ele sofreu;"
+          },
+          {
+            "chords": "    G                 C              G              C",
+            "lyrics": "Desceu da glória dos céus por ti; em Cristo há redenção."
+          },
+          {
+            "chords": "    G                 C               G                  C",
+            "lyrics": "Desceu da glória dos céus por ti; só n´Ele encontras perdão."
+          }
+        ]
+      }
+    ]
+  }
 }

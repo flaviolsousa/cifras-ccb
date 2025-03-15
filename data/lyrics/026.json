@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Julga-me, Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "    A                     D        A",
-    "1. Julga-me, Senhor, pois amo Tua lei,",
-    "E",
-    "Confiando_em Ti, jamais vacilarei;",
-    "A                      D    B7               E",
-    "Vem, ó Deus, com Teu falar, minha alma sustentar,",
-    "              E...  E           A",
-    "Quero em justiça    sempre caminhar.",
-    "",
-    "A",
-    "Teu Espírito,_ó Senhor,",
-    "E    B7          E",
-    "Tudo pode_investigar;",
-    "A                 D",
-    "Nada posso Te_ocultar,",
-    "B7                    E",
-    "Pois, com Teu divino_olhar,",
-    "                  E...  E         A",
-    "Vês os céus e_a terra,  sábio Criador.",
-    "",
-    "   A                      D          A",
-    "2. Diante dos meus olhos Teu favor está:",
-    " E ",
-    "Bem-aventurança que igual não há;",
-    " A                    D    B7               E",
-    "Quero,_ó Deus, Te agradar  e Teu reino alcançar;",
-    "               E...  E         A",
-    "Vem, com a Palavra,  me purificar.",
-    "",
-    "   A                D              A",
-    "3. Em caminho plano os meus pés estão,",
-    "E ",
-    "No caminho que conduz à salvação;",
-    " A                   D    B7                  E",
-    "Nas congregações, ó Deus, contarei os feitos Teus,",
-    "                E...  E           A",
-    "Pois Tu cancelaste    os pecados meus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " A                     D        A",
+            "lyrics": "Julga-me, Senhor, pois amo Tua lei,"
+          },
+          {
+            "chords": "E",
+            "lyrics": "Confiando_em Ti, jamais vacilarei;"
+          },
+          {
+            "chords": "A                      D    B7               E",
+            "lyrics": "Vem, ó Deus, com Teu falar, minha alma sustentar,"
+          },
+          {
+            "chords": "              E...  E           A",
+            "lyrics": "Quero em justiça    sempre caminhar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Teu Espírito,_ó Senhor,"
+          },
+          {
+            "chords": "E    B7          E",
+            "lyrics": "Tudo pode_investigar;"
+          },
+          {
+            "chords": "A                 D",
+            "lyrics": "Nada posso Te_ocultar,"
+          },
+          {
+            "chords": "B7                    E",
+            "lyrics": "Pois, com Teu divino_olhar,"
+          },
+          {
+            "chords": "                  E...  E         A",
+            "lyrics": "Vês os céus e_a terra,  sábio Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                      D          A",
+            "lyrics": "Diante dos meus olhos Teu favor está:"
+          },
+          {
+            "chords": " E ",
+            "lyrics": "Bem-aventurança que igual não há;"
+          },
+          {
+            "chords": " A                    D    B7               E",
+            "lyrics": "Quero,_ó Deus, Te agradar  e Teu reino alcançar;"
+          },
+          {
+            "chords": "               E...  E         A",
+            "lyrics": "Vem, com a Palavra,  me purificar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                D              A",
+            "lyrics": "Em caminho plano os meus pés estão,"
+          },
+          {
+            "chords": "E ",
+            "lyrics": "No caminho que conduz à salvação;"
+          },
+          {
+            "chords": " A                   D    B7                  E",
+            "lyrics": "Nas congregações, ó Deus, contarei os feitos Teus,"
+          },
+          {
+            "chords": "                E...  E           A",
+            "lyrics": "Pois Tu cancelaste    os pecados meus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

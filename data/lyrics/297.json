@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, conforta meu coração",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G                 C ",
-    "1. Senhor, conforta meu coração",
-    "E7  A                D ",
-    "E   vem livrar-me da aflição;",
-    "  G              C   Am... ",
-    "A minha súplica, ó Senhor,",
-    "  G     D           G",
-    "Recebe, por grande_amor.",
-    "",
-    "G",
-    "Vem, Jesus, meu Consolador,",
-    "                  D ",
-    "Nas angústias, também na dor,",
-    "    G           C     Am... ",
-    "Com Teu amor me confortar;",
-    "G                   D    G   G...",
-    "Vem, nas provas, me libertar.",
-    "",
-    "      G                 C ",
-    "2. Senhor, conforta meu coração,",
-    "E7  A            D ",
-    "Com Tua paz e consolação;",
-    " G             C   Am... ",
-    "Alegremente eu viverei;",
-    "   G     D       G",
-    "Louvor a Ti cantarei.",
-    "",
-    "      G                 C ",
-    "3. Senhor, conforta meu coração,",
-    "E7  A            D ",
-    "Com Teu amor e celeste_unção;",
-    "    G             C    Am... ",
-    "Teu refrigério eu sentirei,",
-    "  G     D          G",
-    "Ó meu Senhor e meu Rei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G                 C ",
+            "lyrics": "Senhor, conforta meu coração"
+          },
+          {
+            "chords": "E7  A                D ",
+            "lyrics": "E   vem livrar-me da aflição;"
+          },
+          {
+            "chords": "  G              C   Am... ",
+            "lyrics": "A minha súplica, ó Senhor,"
+          },
+          {
+            "chords": "  G     D           G",
+            "lyrics": "Recebe, por grande_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Vem, Jesus, meu Consolador,"
+          },
+          {
+            "chords": "                  D ",
+            "lyrics": "Nas angústias, também na dor,"
+          },
+          {
+            "chords": "    G           C     Am... ",
+            "lyrics": "Com Teu amor me confortar;"
+          },
+          {
+            "chords": "G                   D    G   G...",
+            "lyrics": "Vem, nas provas, me libertar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G                 C ",
+            "lyrics": "Senhor, conforta meu coração,"
+          },
+          {
+            "chords": "E7  A            D ",
+            "lyrics": "Com Tua paz e consolação;"
+          },
+          {
+            "chords": " G             C   Am... ",
+            "lyrics": "Alegremente eu viverei;"
+          },
+          {
+            "chords": "   G     D       G",
+            "lyrics": "Louvor a Ti cantarei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G                 C ",
+            "lyrics": "Senhor, conforta meu coração,"
+          },
+          {
+            "chords": "E7  A            D ",
+            "lyrics": "Com Teu amor e celeste_unção;"
+          },
+          {
+            "chords": "    G             C    Am... ",
+            "lyrics": "Teu refrigério eu sentirei,"
+          },
+          {
+            "chords": "  G     D          G",
+            "lyrics": "Ó meu Senhor e meu Rei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ao que vive para sempre...",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "          D         G  D          G     A    D",
-    "1. Ao que vive para sempre, seja glória e louvor;",
-    "                      G  D            G      A   D",
-    "Ao Senhor, três vezes Santo, Deus, de tudo_o Criador;",
-    "                   G     A       D",
-    "Nesta terra louvem-No os santos Seus;",
-    "        D...      G         A      D    D...",
-    "Nas alturas seja glória_ao grande Deus.",
-    "",
-    "         D        G  D       G     A    D",
-    "2. Ao mandado do Eterno logo tudo_apareceu;",
-    "                  G    D        G     A    D",
-    "Ele fez o sol e_a lu - a, fez a terra e o céu;",
-    "                G       A     D",
-    "Sua obra não se pode_esquadrinhar,",
-    "       D...       G     A   D    D...",
-    "Sua glória não se pode_imaginar.",
-    "",
-    "         D          G  D       G     A   D",
-    "3. Salvação e vida_eterna preparou o Criador,",
-    "               G   D          G    A    D",
-    "Enviando Jesus Cristo, nosso_amado Redentor.",
-    "                  G    A       D",
-    "É perfeita toda_a obra do bom Deus;",
-    "          D...      G    A       D    D...",
-    "São perfeitos todos os caminhos Seus.",
-    "",
-    "          D         G  D          G     A    D",
-    "4. Ao que vive para sempre, seja glória e louvor;",
-    "                      G  D            G      A   D",
-    "Ao Senhor, três vezes Santo, Deus, de tudo_o Criador;",
-    "                   G     A       D",
-    "Nesta terra louvem-No os santos Seus;",
-    "        D...      G         A      D    D...",
-    "Nas alturas seja glória_ao grande Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       D         G  D          G     A    D",
+            "lyrics": "Ao que vive para sempre, seja glória e louvor;"
+          },
+          {
+            "chords": "                      G  D            G      A   D",
+            "lyrics": "Ao Senhor, três vezes Santo, Deus, de tudo_o Criador;"
+          },
+          {
+            "chords": "                   G     A       D",
+            "lyrics": "Nesta terra louvem-No os santos Seus;"
+          },
+          {
+            "chords": "        D...      G         A      D    D...",
+            "lyrics": "Nas alturas seja glória_ao grande Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      D        G  D       G     A    D",
+            "lyrics": "Ao mandado do Eterno logo tudo_apareceu;"
+          },
+          {
+            "chords": "                  G    D        G     A    D",
+            "lyrics": "Ele fez o sol e_a lu - a, fez a terra e o céu;"
+          },
+          {
+            "chords": "                G       A     D",
+            "lyrics": "Sua obra não se pode_esquadrinhar,"
+          },
+          {
+            "chords": "       D...       G     A   D    D...",
+            "lyrics": "Sua glória não se pode_imaginar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      D          G  D       G     A   D",
+            "lyrics": "Salvação e vida_eterna preparou o Criador,"
+          },
+          {
+            "chords": "               G   D          G    A    D",
+            "lyrics": "Enviando Jesus Cristo, nosso_amado Redentor."
+          },
+          {
+            "chords": "                  G    A       D",
+            "lyrics": "É perfeita toda_a obra do bom Deus;"
+          },
+          {
+            "chords": "          D...      G    A       D    D...",
+            "lyrics": "São perfeitos todos os caminhos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "       D         G  D          G     A    D",
+            "lyrics": "Ao que vive para sempre, seja glória e louvor;"
+          },
+          {
+            "chords": "                      G  D            G      A   D",
+            "lyrics": "Ao Senhor, três vezes Santo, Deus, de tudo_o Criador;"
+          },
+          {
+            "chords": "                   G     A       D",
+            "lyrics": "Nesta terra louvem-No os santos Seus;"
+          },
+          {
+            "chords": "        D...      G         A      D    D...",
+            "lyrics": "Nas alturas seja glória_ao grande Deus."
+          }
+        ]
+      }
+    ]
+  }
 }

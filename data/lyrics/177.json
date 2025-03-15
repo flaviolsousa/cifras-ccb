@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu necessito achegar-me",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E       B7       E",
-    "1. Eu necessito_achegar-me",
-    "                 B7      E    D#° ",
-    "Ao meu fiel e bondoso Senhor,",
-    "C#m    G#7      C#m ",
-    "Para poder consolar-me",
-    "          F#7           B ",
-    "Sempre no Seu infinito amor.",
-    "",
-    "B7   E       B         E",
-    "Sim, eu necessito_entregar-me",
-    "B7  E         B        E",
-    "Nos braços do meu Redentor;",
-    "                C#7     F#m ",
-    "Só em Jesus poderei abrigar-me,",
-    "B7               E",
-    "Pois é fiel Defensor.",
-    "",
-    "   E       B7    E",
-    "2. Eu necessito ater-me",
-    "                   B7       E    D#° ",
-    "Ao meu Senhor, o veraz Redentor;",
-    "C#m           G#7      C#m ",
-    "Não posso,_eu só, defender-me,",
-    "          F#7               B ",
-    "Mas com Jesus eu serei vencedor.",
-    "",
-    "   E       B7       E",
-    "3. Eu necessito prostrar-me",
-    "                      B7       E    D#° ",
-    "Aos santos pés do meu bom Redentor;",
-    "C#m    G#7        C#m ",
-    "Ele ao céu quer levar-me",
-    "         F#7              B ",
-    "Por Seu eterno_e sublime amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E       B7       E",
+            "lyrics": "Eu necessito_achegar-me"
+          },
+          {
+            "chords": "                 B7      E    D#° ",
+            "lyrics": "Ao meu fiel e bondoso Senhor,"
+          },
+          {
+            "chords": "C#m    G#7      C#m ",
+            "lyrics": "Para poder consolar-me"
+          },
+          {
+            "chords": "          F#7           B ",
+            "lyrics": "Sempre no Seu infinito amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B7   E       B         E",
+            "lyrics": "Sim, eu necessito_entregar-me"
+          },
+          {
+            "chords": "B7  E         B        E",
+            "lyrics": "Nos braços do meu Redentor;"
+          },
+          {
+            "chords": "                C#7     F#m ",
+            "lyrics": "Só em Jesus poderei abrigar-me,"
+          },
+          {
+            "chords": "B7               E",
+            "lyrics": "Pois é fiel Defensor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E       B7    E",
+            "lyrics": "Eu necessito ater-me"
+          },
+          {
+            "chords": "                   B7       E    D#° ",
+            "lyrics": "Ao meu Senhor, o veraz Redentor;"
+          },
+          {
+            "chords": "C#m           G#7      C#m ",
+            "lyrics": "Não posso,_eu só, defender-me,"
+          },
+          {
+            "chords": "          F#7               B ",
+            "lyrics": "Mas com Jesus eu serei vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E       B7       E",
+            "lyrics": "Eu necessito prostrar-me"
+          },
+          {
+            "chords": "                      B7       E    D#° ",
+            "lyrics": "Aos santos pés do meu bom Redentor;"
+          },
+          {
+            "chords": "C#m    G#7        C#m ",
+            "lyrics": "Ele ao céu quer levar-me"
+          },
+          {
+            "chords": "         F#7              B ",
+            "lyrics": "Por Seu eterno_e sublime amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

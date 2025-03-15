@@ -1,35 +1,81 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu sangue imaculado",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D               A                  D",
-    "1. Teu sangue_imaculado, bendito Redentor,",
-    "Bm            Em   E            A ",
-    "Dá plena confiança de ir ao Criador;",
-    "Bm           Em     E          A    D",
-    "É um refúgio forte Teu sangue, ó Senhor.",
-    "",
-    "   D             A               D",
-    "2. Nele eu fui lavado e nada temerei,",
-    "Bm           Em     E                 A",
-    "Sempre agradecido, por ele,_a Deus serei;",
-    "Bm              Em     E         A     D",
-    "No sangue do Concerto, socorro_encontrarei.",
-    "",
-    "   D             A                      D",
-    "3. Eu fui justificado no sangue Teu, Senhor,",
-    "Bm            Em        E              A",
-    "Com ele vem cobrir-me, por Teu imenso_amor;",
-    "Bm             Em   E         A    D",
-    "Por ele, nesta vida posso ser vencedor.",
-    "",
-    "   D              A                       D",
-    "4. Sob o precioso sangue de Cristo,_o Remidor,",
-    "Bm           Em   E             A ",
-    "Eu vivo protegido e não terei pavor;",
-    "Bm          Em     E        A    D",
-    "Caminharei avante, firme no Salvador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D               A                  D",
+            "lyrics": "Teu sangue_imaculado, bendito Redentor,"
+          },
+          {
+            "chords": "Bm            Em   E            A ",
+            "lyrics": "Dá plena confiança de ir ao Criador;"
+          },
+          {
+            "chords": "Bm           Em     E          A    D",
+            "lyrics": "É um refúgio forte Teu sangue, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D             A               D",
+            "lyrics": "Nele eu fui lavado e nada temerei,"
+          },
+          {
+            "chords": "Bm           Em     E                 A",
+            "lyrics": "Sempre agradecido, por ele,_a Deus serei;"
+          },
+          {
+            "chords": "Bm              Em     E         A     D",
+            "lyrics": "No sangue do Concerto, socorro_encontrarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D             A                      D",
+            "lyrics": "Eu fui justificado no sangue Teu, Senhor,"
+          },
+          {
+            "chords": "Bm            Em        E              A",
+            "lyrics": "Com ele vem cobrir-me, por Teu imenso_amor;"
+          },
+          {
+            "chords": "Bm             Em   E         A    D",
+            "lyrics": "Por ele, nesta vida posso ser vencedor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "D              A                       D",
+            "lyrics": "Sob o precioso sangue de Cristo,_o Remidor,"
+          },
+          {
+            "chords": "Bm           Em   E             A ",
+            "lyrics": "Eu vivo protegido e não terei pavor;"
+          },
+          {
+            "chords": "Bm          Em     E        A    D",
+            "lyrics": "Caminharei avante, firme no Salvador."
+          }
+        ]
+      }
+    ]
+  }
 }

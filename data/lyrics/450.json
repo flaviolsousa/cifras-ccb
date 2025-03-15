@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos, queridos, escolher a boa parte",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                E",
-    "1. Vamos, queridos, escolher",
-    "            A",
-    "A boa parte para nós,",
-    "                 D ",
-    "Sempre ouvindo, com prazer,",
-    "          A        E     A",
-    "De Jesus Cristo,_a doce voz.",
-    "",
-    "A           D",
-    "Grande bem, sem igual,",
-    "A              E     ",
-    "É estar diante do Senhor;",
-    "A       D",
-    "Sua voz divinal",
-    "A                E      A    A...",
-    "Nos ensina com sublime_amor.",
-    "",
-    "    A              E",
-    "2. Não há no mundo nada_igual",
-    "            A",
-    "Ao regozijo de estar",
-    "                  D",
-    "Aos pés do Mestre divinal,",
-    "         A     E       A",
-    "A Quem devemos sempre_amar.",
-    "",
-    "   A            E",
-    "3. A boa parte que nos dá",
-    "                A",
-    "Cristo Jesus, o Redentor,",
-    "              D",
-    "Nada de nós a tomará,",
-    "         A       E   A",
-    "Se a guardarmos com amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                E",
+            "lyrics": "Vamos, queridos, escolher"
+          },
+          {
+            "chords": "            A",
+            "lyrics": "A boa parte para nós,"
+          },
+          {
+            "chords": "                 D ",
+            "lyrics": "Sempre ouvindo, com prazer,"
+          },
+          {
+            "chords": "          A        E     A",
+            "lyrics": "De Jesus Cristo,_a doce voz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A           D",
+            "lyrics": "Grande bem, sem igual,"
+          },
+          {
+            "chords": "A              E     ",
+            "lyrics": "É estar diante do Senhor;"
+          },
+          {
+            "chords": "A       D",
+            "lyrics": "Sua voz divinal"
+          },
+          {
+            "chords": "A                E      A    A...",
+            "lyrics": "Nos ensina com sublime_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " A              E",
+            "lyrics": "Não há no mundo nada_igual"
+          },
+          {
+            "chords": "            A",
+            "lyrics": "Ao regozijo de estar"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "Aos pés do Mestre divinal,"
+          },
+          {
+            "chords": "         A     E       A",
+            "lyrics": "A Quem devemos sempre_amar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A            E",
+            "lyrics": "A boa parte que nos dá"
+          },
+          {
+            "chords": "                A",
+            "lyrics": "Cristo Jesus, o Redentor,"
+          },
+          {
+            "chords": "              D",
+            "lyrics": "Nada de nós a tomará,"
+          },
+          {
+            "chords": "         A       E   A",
+            "lyrics": "Se a guardarmos com amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

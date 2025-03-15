@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nós Te louvamos, ó Rei dos reis",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B                          F#",
-    "1. Nós Te louvamos, ó Rei dos reis,",
-    "                               B",
-    "Pois nos tens feito santos e fiéis",
-    "                       E",
-    "Para andarmos em Teu temor,",
-    "C#    B      F#         B    B...",
-    "Como ovelhas Tuas, ó Senhor.",
-    "",
-    "   B                        F#",
-    "2. Nós esperamos, com Teu poder,",
-    "                        B",
-    "Tua vontade sempre_obedecer,",
-    "                            E",
-    "Mostrando_ao mundo obras de luz",
-    "C#       B     F#        B    B...",
-    "Pelas virtudes Tuas, ó Jesus.",
-    "",
-    "   B                          F#",
-    "3. Faz-nos saber Teu santo querer;",
-    "                              B",
-    "Bênçãos celestes vem nos conceder.",
-    "                         E",
-    "A sã Palavra, vinda dos céus,",
-    "C#      B    F#           B    B...",
-    "Dá nova vida aos remidos Teus.",
-    "",
-    "   B                        F#",
-    "4. Com essa vida, ó Rei dos reis,",
-    "                             B",
-    "Podemos ser-Te sempre mais fiéis;",
-    "                       E",
-    "Tuas ovelhas somos, Senhor,",
-    "C#      B     F#       B    B...",
-    "Tu és o nosso único Pastor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B                          F#",
+            "lyrics": "Nós Te louvamos, ó Rei dos reis,"
+          },
+          {
+            "chords": "                               B",
+            "lyrics": "Pois nos tens feito santos e fiéis"
+          },
+          {
+            "chords": "                       E",
+            "lyrics": "Para andarmos em Teu temor,"
+          },
+          {
+            "chords": "C#    B      F#         B    B...",
+            "lyrics": "Como ovelhas Tuas, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                        F#",
+            "lyrics": "Nós esperamos, com Teu poder,"
+          },
+          {
+            "chords": "                        B",
+            "lyrics": "Tua vontade sempre_obedecer,"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "Mostrando_ao mundo obras de luz"
+          },
+          {
+            "chords": "C#       B     F#        B    B...",
+            "lyrics": "Pelas virtudes Tuas, ó Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                          F#",
+            "lyrics": "Faz-nos saber Teu santo querer;"
+          },
+          {
+            "chords": "                              B",
+            "lyrics": "Bênçãos celestes vem nos conceder."
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "A sã Palavra, vinda dos céus,"
+          },
+          {
+            "chords": "C#      B    F#           B    B...",
+            "lyrics": "Dá nova vida aos remidos Teus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "B                        F#",
+            "lyrics": "Com essa vida, ó Rei dos reis,"
+          },
+          {
+            "chords": "                             B",
+            "lyrics": "Podemos ser-Te sempre mais fiéis;"
+          },
+          {
+            "chords": "                       E",
+            "lyrics": "Tuas ovelhas somos, Senhor,"
+          },
+          {
+            "chords": "C#      B     F#       B    B...",
+            "lyrics": "Tu és o nosso único Pastor."
+          }
+        ]
+      }
+    ]
+  }
 }

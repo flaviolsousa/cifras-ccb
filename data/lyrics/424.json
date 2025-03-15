@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Jesus, por nós morreste",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "        F              C       F      Bb      C      F",
-    "1. Ó Jesus, por nós morreste, com Teu sangue nos compraste,",
-    "                 G7     C            G7   C",
-    "Do pecado nos salvaste, dentre povos e nações.",
-    "F                 C     F              C",
-    "Somos reis e sacerdotes ao Autor do universo;",
-    "Bb            Gm          C       F ",
-    "Tu trouxeste_amor excelso para os nossos corações,",
-    "Bb     D            Gm    C       F      C    F    F...",
-    "Tu trouxeste_amor excelso para os nossos corações.",
-    "",
-    "        F           C      F  Bb       C      F",
-    "2. Ó Jesus, Tu és o Forte, aboliste_a própria morte;",
-    "                    G7     C              G7  C",
-    "Preparaste_a grande sorte aos Teus santos e fiéis;",
-    "F                  C     F                 C",
-    "Voltarás, com majestade, triunfante_e glorioso;",
-    "Bb          Gm            C       F",
-    "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis,",
-    "Bb   D              Gm    C       F       C       F    F...",
-    "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis.",
-    "",
-    "        F               C       F    Bb    C     F",
-    "3. Voltarás com grande glória, aos fiéis darás vitória,",
-    "                  G7    C            G7   C",
-    "Pois honraram a memória do Teu Nome, ó Senhor.",
-    "F                   C      F                 C",
-    "Já se cumprem as promessas do fiel Concerto_eterno;",
-    "Bb             Gm          C         F",
-    "Glória! Glória ao Superno! Glória a Deus, o Criador!",
-    "Bb      D           Gm     C         F       C  F    F...",
-    "Glória! Glória ao Superno! Glória a Deus, o Criador!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     F              C       F      Bb      C      F",
+            "lyrics": "Ó Jesus, por nós morreste, com Teu sangue nos compraste,"
+          },
+          {
+            "chords": "                 G7     C            G7   C",
+            "lyrics": "Do pecado nos salvaste, dentre povos e nações."
+          },
+          {
+            "chords": "F                 C     F              C",
+            "lyrics": "Somos reis e sacerdotes ao Autor do universo;"
+          },
+          {
+            "chords": "Bb            Gm          C       F ",
+            "lyrics": "Tu trouxeste_amor excelso para os nossos corações,"
+          },
+          {
+            "chords": "Bb     D            Gm    C       F      C    F    F...",
+            "lyrics": "Tu trouxeste_amor excelso para os nossos corações."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     F           C      F  Bb       C      F",
+            "lyrics": "Ó Jesus, Tu és o Forte, aboliste_a própria morte;"
+          },
+          {
+            "chords": "                    G7     C              G7  C",
+            "lyrics": "Preparaste_a grande sorte aos Teus santos e fiéis;"
+          },
+          {
+            "chords": "F                  C     F                 C",
+            "lyrics": "Voltarás, com majestade, triunfante_e glorioso;"
+          },
+          {
+            "chords": "Bb          Gm            C       F",
+            "lyrics": "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis,"
+          },
+          {
+            "chords": "Bb   D              Gm    C       F       C       F    F...",
+            "lyrics": "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     F               C       F    Bb    C     F",
+            "lyrics": "Voltarás com grande glória, aos fiéis darás vitória,"
+          },
+          {
+            "chords": "                  G7    C            G7   C",
+            "lyrics": "Pois honraram a memória do Teu Nome, ó Senhor."
+          },
+          {
+            "chords": "F                   C      F                 C",
+            "lyrics": "Já se cumprem as promessas do fiel Concerto_eterno;"
+          },
+          {
+            "chords": "Bb             Gm          C         F",
+            "lyrics": "Glória! Glória ao Superno! Glória a Deus, o Criador!"
+          },
+          {
+            "chords": "Bb      D           Gm     C         F       C  F    F...",
+            "lyrics": "Glória! Glória ao Superno! Glória a Deus, o Criador!"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nós somos luz do mundo",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "    E         A         E     B7           E",
-    "1. Nós somos luz deste mundo, nos falou o Salvador,",
-    "         A        E      B7             E",
-    "E somos sal desta terra, por Deus, Criador;",
-    "B7      E               F#7       B7 ",
-    "Ante os homens, devemos sempre brilhar",
-    "E         A          E     B7            E",
-    "E as boas obras, ao mundo, poderemos mostrar.",
-    "",
-    "    E         A       E     B7               E",
-    "2. Cristo, o Mestre divino, nos dá sempre_o Seu saber,",
-    "       A         E     B7            E ",
-    "Entendimento, virtude, fé, também poder;",
-    "B7     E            F#7     B7 ",
-    "Pelo Espírito Santo nos guiará;",
-    "E            A       E      B7                E",
-    "Assim o Seu povo, na terra, sempre mais brilhará.",
-    "",
-    "    E        A         E     B7          E",
-    "3. Deus revelou aos pequenos os segredos lá do céu;",
-    "        A          E      B7            E ",
-    "A luz divina, por Cristo, já lhes concedeu;",
-    "B7         E             F#7       B7 ",
-    "São sábios para servir a Deus, Criador,",
-    " E              A        E     B7                 E",
-    "São luz para_o mundo de trevas e têm grande_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " E         A         E     B7           E",
+            "lyrics": "Nós somos luz deste mundo, nos falou o Salvador,"
+          },
+          {
+            "chords": "         A        E      B7             E",
+            "lyrics": "E somos sal desta terra, por Deus, Criador;"
+          },
+          {
+            "chords": "B7      E               F#7       B7 ",
+            "lyrics": "Ante os homens, devemos sempre brilhar"
+          },
+          {
+            "chords": "E         A          E     B7            E",
+            "lyrics": "E as boas obras, ao mundo, poderemos mostrar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " E         A       E     B7               E",
+            "lyrics": "Cristo, o Mestre divino, nos dá sempre_o Seu saber,"
+          },
+          {
+            "chords": "       A         E     B7            E ",
+            "lyrics": "Entendimento, virtude, fé, também poder;"
+          },
+          {
+            "chords": "B7     E            F#7     B7 ",
+            "lyrics": "Pelo Espírito Santo nos guiará;"
+          },
+          {
+            "chords": "E            A       E      B7                E",
+            "lyrics": "Assim o Seu povo, na terra, sempre mais brilhará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " E        A         E     B7          E",
+            "lyrics": "Deus revelou aos pequenos os segredos lá do céu;"
+          },
+          {
+            "chords": "        A          E      B7            E ",
+            "lyrics": "A luz divina, por Cristo, já lhes concedeu;"
+          },
+          {
+            "chords": "B7         E             F#7       B7 ",
+            "lyrics": "São sábios para servir a Deus, Criador,"
+          },
+          {
+            "chords": " E              A        E     B7                 E",
+            "lyrics": "São luz para_o mundo de trevas e têm grande_esplendor."
+          }
+        ]
+      }
+    ]
+  }
 }

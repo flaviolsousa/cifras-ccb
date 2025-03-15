@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"Sou a Videira\"",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "    F               C       F",
-    "1. \"Sou a Videira”, disse Jesus,",
-    "Gm           C  ",
-    "Nosso amado, bom Salvador;",
-    "F           C         F",
-    "A Sua seiva em nós produz",
-    "Gm            C        F",
-    "Vida celeste, vida de_amor.",
-    "",
-    "Bb     F      Bb        F",
-    "És a Videira, ó Rei dos reis;",
-    "         C                  F",
-    "Somos as varas, nós, Teus fiéis;",
-    "Bb     F      Bb       F",
-    "Produziremos, por Teu amor,",
-    "          C            F",
-    "Frutos à glória do Criador.",
-    "",
-    "    F               C       F",
-    "2. \"Sou a Videira”, disse Jesus,",
-    "Gm            C ",
-    "Somos renovos do Seu louvor;",
-    "F           C        F",
-    "A Sua seiva vida nos dá,",
-    "Gm            C        F",
-    "Para andarmos em Seu temor.",
-    "",
-    "    F               C       F",
-    "3. \"Sou a Videira”, disse Jesus,",
-    "Gm               C ",
-    "N´Ela_enxertados fomos por Deus;",
-    "F            C        F",
-    "Ele é Sábio, bom Lavrador,",
-    "Gm           C         F",
-    "Pela Palavra limpa os Seus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " F               C       F",
+            "lyrics": "\"Sou a Videira”, disse Jesus,"
+          },
+          {
+            "chords": "Gm           C  ",
+            "lyrics": "Nosso amado, bom Salvador;"
+          },
+          {
+            "chords": "F           C         F",
+            "lyrics": "A Sua seiva em nós produz"
+          },
+          {
+            "chords": "Gm            C        F",
+            "lyrics": "Vida celeste, vida de_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "Bb     F      Bb        F",
+            "lyrics": "És a Videira, ó Rei dos reis;"
+          },
+          {
+            "chords": "         C                  F",
+            "lyrics": "Somos as varas, nós, Teus fiéis;"
+          },
+          {
+            "chords": "Bb     F      Bb       F",
+            "lyrics": "Produziremos, por Teu amor,"
+          },
+          {
+            "chords": "          C            F",
+            "lyrics": "Frutos à glória do Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " F               C       F",
+            "lyrics": "\"Sou a Videira”, disse Jesus,"
+          },
+          {
+            "chords": "Gm            C ",
+            "lyrics": "Somos renovos do Seu louvor;"
+          },
+          {
+            "chords": "F           C        F",
+            "lyrics": "A Sua seiva vida nos dá,"
+          },
+          {
+            "chords": "Gm            C        F",
+            "lyrics": "Para andarmos em Seu temor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " F               C       F",
+            "lyrics": "\"Sou a Videira”, disse Jesus,"
+          },
+          {
+            "chords": "Gm               C ",
+            "lyrics": "N´Ela_enxertados fomos por Deus;"
+          },
+          {
+            "chords": "F            C        F",
+            "lyrics": "Ele é Sábio, bom Lavrador,"
+          },
+          {
+            "chords": "Gm           C         F",
+            "lyrics": "Pela Palavra limpa os Seus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

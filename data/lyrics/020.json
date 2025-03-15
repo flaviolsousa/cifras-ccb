@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu Espírito derrama",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "         F",
-    "1. Teu Espírito derrama",
-    "      C              F",
-    "Sobre Teus fiéis, Senhor,",
-    "",
-    "Que, humildes e contritos,",
-    "       C        F",
-    "Buscam o Consolador.",
-    "",
-    "F                           C          F",
-    "Vem com Teu Poder, Senhor, Teu povo fortificar;",
-    "                           C           F",
-    "Com o bom Consolador, vem, oh! vem batizar.",
-    "",
-    "         F",
-    "2. Teu Espírito derrama,",
-    "     C                F",
-    "A promessa cumpre,_ó Deus,",
-    "",
-    "Enviando aos Teu filhos",
-    "      C             F",
-    "As virtudes lá dos céus.",
-    "",
-    "         F",
-    "3. Teu Espírito derrama,",
-    "     C             F",
-    "Revestindo-nos de_amor;",
-    "",
-    "Dos Teus dons maravilhosos,",
-    "     C            F",
-    "Enriquece-nos, Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Teu Espírito derrama"
+          },
+          {
+            "chords": "      C              F",
+            "lyrics": "Sobre Teus fiéis, Senhor,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Que, humildes e contritos,"
+          },
+          {
+            "chords": "       C        F",
+            "lyrics": "Buscam o Consolador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F                           C          F",
+            "lyrics": "Vem com Teu Poder, Senhor, Teu povo fortificar;"
+          },
+          {
+            "chords": "                           C           F",
+            "lyrics": "Com o bom Consolador, vem, oh! vem batizar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Teu Espírito derrama,"
+          },
+          {
+            "chords": "     C                F",
+            "lyrics": "A promessa cumpre,_ó Deus,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Enviando aos Teu filhos"
+          },
+          {
+            "chords": "      C             F",
+            "lyrics": "As virtudes lá dos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Teu Espírito derrama,"
+          },
+          {
+            "chords": "     C             F",
+            "lyrics": "Revestindo-nos de_amor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Dos Teus dons maravilhosos,"
+          },
+          {
+            "chords": "     C            F",
+            "lyrics": "Enriquece-nos, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

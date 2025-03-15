@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Remiu-nos por graça",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "     F                      Bb     F",
-    "1. Remiu-nos por graça_o bondoso Jesus,",
-    "             G7          C   C7 ",
-    "Morrendo por nós sobre_a cruz,",
-    "  F                Bb     F",
-    "Pagou nossa dívida ao Criador,",
-    "    Bb     C7     F",
-    "Por Seu inefável amor.",
-    "",
-    "   F                             C ",
-    "Busquemos a Cristo com todo_o fervor,",
-    "                F         G7     C ",
-    "Na paz, na_humildade, com fé e temor;",
-    "  F                           Gm ",
-    "Divina mercê quer Jesus dispensar",
-    "  A          Dm      C7     F",
-    "A quem, confiante, a Ele clamar.",
-    "",
-    "      F                Bb        F",
-    "2. Ninguém merecia_o favor do Senhor,",
-    "             G7      C  C7 ",
-    "Mas Ele, por grande amor,",
-    "  F               Bb       F",
-    "A todos promete real salvação;",
-    "     Bb       C7           F",
-    "Quem crê em Jesus, tem perdão.",
-    "",
-    "      F                 Bb        F",
-    "3. Só em Cristo temos veraz salvação,",
-    "             G7       C  C7 ",
-    "Por Ele_alcançamos perdão;",
-    "  F                  Bb         F",
-    "Jesus veio com Seu poder nos salvar",
-    "  Bb         C7        F",
-    "E Seus fiéis ao céu guiar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  F                      Bb     F",
+            "lyrics": "Remiu-nos por graça_o bondoso Jesus,"
+          },
+          {
+            "chords": "             G7          C   C7 ",
+            "lyrics": "Morrendo por nós sobre_a cruz,"
+          },
+          {
+            "chords": "  F                Bb     F",
+            "lyrics": "Pagou nossa dívida ao Criador,"
+          },
+          {
+            "chords": "    Bb     C7     F",
+            "lyrics": "Por Seu inefável amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   F                             C ",
+            "lyrics": "Busquemos a Cristo com todo_o fervor,"
+          },
+          {
+            "chords": "                F         G7     C ",
+            "lyrics": "Na paz, na_humildade, com fé e temor;"
+          },
+          {
+            "chords": "  F                           Gm ",
+            "lyrics": "Divina mercê quer Jesus dispensar"
+          },
+          {
+            "chords": "  A          Dm      C7     F",
+            "lyrics": "A quem, confiante, a Ele clamar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   F                Bb        F",
+            "lyrics": "Ninguém merecia_o favor do Senhor,"
+          },
+          {
+            "chords": "             G7      C  C7 ",
+            "lyrics": "Mas Ele, por grande amor,"
+          },
+          {
+            "chords": "  F               Bb       F",
+            "lyrics": "A todos promete real salvação;"
+          },
+          {
+            "chords": "     Bb       C7           F",
+            "lyrics": "Quem crê em Jesus, tem perdão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   F                 Bb        F",
+            "lyrics": "Só em Cristo temos veraz salvação,"
+          },
+          {
+            "chords": "             G7       C  C7 ",
+            "lyrics": "Por Ele_alcançamos perdão;"
+          },
+          {
+            "chords": "  F                  Bb         F",
+            "lyrics": "Jesus veio com Seu poder nos salvar"
+          },
+          {
+            "chords": "  Bb         C7        F",
+            "lyrics": "E Seus fiéis ao céu guiar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

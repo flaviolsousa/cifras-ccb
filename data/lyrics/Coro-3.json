@@ -1,16 +1,31 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ação de graças darei",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "  G        A7    D",
-    "Ação de graças darei",
-    "G        D7           G   D",
-    "A Jesus, meu Pastor, meu Rei;",
-    "    G   D     G",
-    "As Suas obras contarei,",
-    "    C     D7    G",
-    "Seu Nome exaltarei!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G        A7    D",
+            "lyrics": "Ação de graças darei"
+          },
+          {
+            "chords": "G        D7           G   D",
+            "lyrics": "A Jesus, meu Pastor, meu Rei;"
+          },
+          {
+            "chords": "    G   D     G",
+            "lyrics": "As Suas obras contarei,"
+          },
+          {
+            "chords": "    C     D7    G",
+            "lyrics": "Seu Nome exaltarei!"
+          }
+        ]
+      }
+    ]
+  }
 }

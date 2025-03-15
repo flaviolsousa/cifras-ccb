@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Muitos, por fé, aceitaram Jesus",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F                   Bb      F",
-    "1. Muitos, por fé, aceitaram Jesus",
-    "C7           F",
-    "E_alcançaram salvação;",
-    "                Bb     F",
-    "O pecador que recebe a Luz",
-    "C ",
-    "Tem perdão.",
-    "",
-    "C7                 F",
-    "Muitos já sentem o grande amor",
-    "C7                F",
-    "De Jesus Cristo, Amigo sem par;",
-    "C7                 F",
-    "Oh! Não rejeites o bom Redentor",
-    "Dm     C       F",
-    "Que te quer salvar.",
-    "",
-    "   F                   Bb       F",
-    "2. Muitos já trilham a senda do bem;",
-    "C7              F",
-    "Sobre_o mal vão triunfar;",
-    "                  Bb      F",
-    "Deves juntar-te a eles também",
-    "C ",
-    "Sem tardar.",
-    "",
-    "   F                 Bb       F",
-    "3. Muitos aguardam a vida_eternal",
-    "C7         F",
-    "Para descansar nos céus;",
-    "                 Bb     F",
-    "Crê em Jesus, o Amigo leal;",
-    "C ",
-    "Crê em Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F                   Bb      F",
+            "lyrics": "Muitos, por fé, aceitaram Jesus"
+          },
+          {
+            "chords": "C7           F",
+            "lyrics": "E_alcançaram salvação;"
+          },
+          {
+            "chords": "                Bb     F",
+            "lyrics": "O pecador que recebe a Luz"
+          },
+          {
+            "chords": "C ",
+            "lyrics": "Tem perdão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C7                 F",
+            "lyrics": "Muitos já sentem o grande amor"
+          },
+          {
+            "chords": "C7                F",
+            "lyrics": "De Jesus Cristo, Amigo sem par;"
+          },
+          {
+            "chords": "C7                 F",
+            "lyrics": "Oh! Não rejeites o bom Redentor"
+          },
+          {
+            "chords": "Dm     C       F",
+            "lyrics": "Que te quer salvar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F                   Bb       F",
+            "lyrics": "Muitos já trilham a senda do bem;"
+          },
+          {
+            "chords": "C7              F",
+            "lyrics": "Sobre_o mal vão triunfar;"
+          },
+          {
+            "chords": "                  Bb      F",
+            "lyrics": "Deves juntar-te a eles também"
+          },
+          {
+            "chords": "C ",
+            "lyrics": "Sem tardar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F                 Bb       F",
+            "lyrics": "Muitos aguardam a vida_eternal"
+          },
+          {
+            "chords": "C7         F",
+            "lyrics": "Para descansar nos céus;"
+          },
+          {
+            "chords": "                 Bb     F",
+            "lyrics": "Crê em Jesus, o Amigo leal;"
+          },
+          {
+            "chords": "C ",
+            "lyrics": "Crê em Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glorificarei, glorificarei",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                 F          C",
-    "1. Desde pequenino, Deus, o Criador,",
-    "                   G    ",
-    "Fez-me conhecer a Cristo,_o Salvador;",
-    "C                   F         C",
-    "Tem manifestado_em mim o Seu amor,",
-    "G               C",
-    "Pelo bom Consolador.",
-    "",
-    "G              C",
-    "Glorificarei, glorificarei",
-    "            F               D   G",
-    "Ao Senhor Jesus e_a Deus, o Criador;",
-    "C                 F",
-    "Sendo eu pequeno, separado_estou,",
-    "G                 C",
-    "Para glória do Senhor.",
-    "",
-    "   C                 F          C",
-    "2. Com perseverança clamo ao Senhor,",
-    "                G",
-    "Esperando d´Ele força e fervor;",
-    "C                 F           C",
-    "Nas tribulações serei um vencedor,",
-    "G                       C",
-    "Pois Deus ouve_o meu clamor.",
-    "",
-    "   C                 F           C",
-    "3. A gloriosa pátria hei de alcançar,",
-    "                    G",
-    "Se seguir a Cristo sem desanimar;",
-    "C                F           C",
-    "Nada neste mundo pode se_igualar",
-    "G                 C",
-    "Com aquele_eterno lar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                 F          C",
+            "lyrics": "Desde pequenino, Deus, o Criador,"
+          },
+          {
+            "chords": "                   G    ",
+            "lyrics": "Fez-me conhecer a Cristo,_o Salvador;"
+          },
+          {
+            "chords": "C                   F         C",
+            "lyrics": "Tem manifestado_em mim o Seu amor,"
+          },
+          {
+            "chords": "G               C",
+            "lyrics": "Pelo bom Consolador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G              C",
+            "lyrics": "Glorificarei, glorificarei"
+          },
+          {
+            "chords": "            F               D   G",
+            "lyrics": "Ao Senhor Jesus e_a Deus, o Criador;"
+          },
+          {
+            "chords": "C                 F",
+            "lyrics": "Sendo eu pequeno, separado_estou,"
+          },
+          {
+            "chords": "G                 C",
+            "lyrics": "Para glória do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                 F          C",
+            "lyrics": "Com perseverança clamo ao Senhor,"
+          },
+          {
+            "chords": "                G",
+            "lyrics": "Esperando d´Ele força e fervor;"
+          },
+          {
+            "chords": "C                 F           C",
+            "lyrics": "Nas tribulações serei um vencedor,"
+          },
+          {
+            "chords": "G                       C",
+            "lyrics": "Pois Deus ouve_o meu clamor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                 F           C",
+            "lyrics": "A gloriosa pátria hei de alcançar,"
+          },
+          {
+            "chords": "                    G",
+            "lyrics": "Se seguir a Cristo sem desanimar;"
+          },
+          {
+            "chords": "C                F           C",
+            "lyrics": "Nada neste mundo pode se_igualar"
+          },
+          {
+            "chords": "G                 C",
+            "lyrics": "Com aquele_eterno lar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

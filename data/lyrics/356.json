@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Por preço elevado Jesus resgatou-me",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "       D               A ",
-    "1. Por preço_elevado Jesus resgatou-me,",
-    "                D",
-    "Por preço que_o ouro não pode pagar;",
-    "                         G          D",
-    "Com Seu próprio sangue o Mestre comprou-me",
-    "  E                             A... ",
-    "A fim de fazer-me na glória entrar.",
-    "",
-    "          D               A ",
-    "Não têm valor a prata_e_o ouro",
-    "                 D",
-    "Para dar a salvação;",
-    "                          G  ",
-    "Não há, na terra,_algum tesouro",
-    "       D      A      D",
-    "Que resgate_e dê perdão.",
-    "",
-    "   D                  A ",
-    "2. O ouro não dá remissão do pecado,",
-    "            D",
-    "A prata não leva ao reino dos céus;",
-    "                     G         D",
-    "Somente o sangue, na cruz derramado,",
-    "  E                               A... ",
-    "Livrou-me da morte, por graça de Deus.",
-    "",
-    "     D                 A ",
-    "3. O sangue precioso e imaculado",
-    "            D",
-    "De Cristo Jesus conduziu-me a Deus;",
-    "                    G       D",
-    "É nele que sempre estou abrigado,",
-    "    E                        A... ",
-    "Por ele conservo a vida dos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    D               A ",
+            "lyrics": "Por preço_elevado Jesus resgatou-me,"
+          },
+          {
+            "chords": "                D",
+            "lyrics": "Por preço que_o ouro não pode pagar;"
+          },
+          {
+            "chords": "                         G          D",
+            "lyrics": "Com Seu próprio sangue o Mestre comprou-me"
+          },
+          {
+            "chords": "  E                             A... ",
+            "lyrics": "A fim de fazer-me na glória entrar."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "          D               A "
+          },
+          {
+            "chords": "Não têm valor a prata_e_o ouro",
+            "lyrics": "                 D"
+          },
+          {
+            "chords": "Para dar a salvação;",
+            "lyrics": "                          G  "
+          },
+          {
+            "chords": "Não há, na terra,_algum tesouro",
+            "lyrics": "       D      A      D"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                  A ",
+            "lyrics": "O ouro não dá remissão do pecado,"
+          },
+          {
+            "chords": "            D",
+            "lyrics": "A prata não leva ao reino dos céus;"
+          },
+          {
+            "chords": "                     G         D",
+            "lyrics": "Somente o sangue, na cruz derramado,"
+          },
+          {
+            "chords": "  E                               A... ",
+            "lyrics": "Livrou-me da morte, por graça de Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  D                 A ",
+            "lyrics": "O sangue precioso e imaculado"
+          },
+          {
+            "chords": "            D",
+            "lyrics": "De Cristo Jesus conduziu-me a Deus;"
+          },
+          {
+            "chords": "                    G       D",
+            "lyrics": "É nele que sempre estou abrigado,"
+          },
+          {
+            "chords": "    E                        A... ",
+            "lyrics": "Por ele conservo a vida dos céus."
+          }
+        ]
+      }
+    ]
+  }
 }

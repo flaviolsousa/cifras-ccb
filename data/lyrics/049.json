@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Venho adorar-Te, santo Criador",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F                C            F",
-    "1. Ó Deus e Pai, Senhor da_eternidade,",
-    "Bb     B°   F       G         C    C5+",
-    "Venho_ado - rar-Te, santo Criador;",
-    "F                  C       Dm   F7",
-    "Com fé_e temor da Tua majesta - de,",
-    "Bb   B°  F    D7    G   C  F    F...",
-    "Para os céus elevo meu cla-mor.",
-    "",
-    "   F                 C          F",
-    "2. Rogo, Senhor, por mérito de Cristo,",
-    "Bb     B°  F      G        C    C5+",
-    "Dá ao Teu  servo graça e saber;",
-    "F                 C           Dm  F7",
-    "Aos olhos Teus, desejo ser benquisto;",
-    "Bb     B°  F       D7    G  C   F    F...",
-    "Nesta_ora-ção transforma o meu ser.",
-    "",
-    "   F              C                  F",
-    "3. Vem visitar minha´alma,_ó Deus bendito,",
-    "Bb     B°   F     G         C    C5+",
-    "Das minhas provas me esquecerei;",
-    "F                      C          Dm  F7",
-    "Eis-me_aos Teus pés, ansioso e contri-to;",
-    "Bb   B°   F     D7  G  C  F    F...",
-    "Ardente - mente Te exaltarei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F                C            F",
+            "lyrics": "Ó Deus e Pai, Senhor da_eternidade,"
+          },
+          {
+            "chords": "Bb     B°   F       G         C    C5+",
+            "lyrics": "Venho_ado - rar-Te, santo Criador;"
+          },
+          {
+            "chords": "F                  C       Dm   F7",
+            "lyrics": "Com fé_e temor da Tua majesta - de,"
+          },
+          {
+            "chords": "Bb   B°  F    D7    G   C  F    F...",
+            "lyrics": "Para os céus elevo meu cla-mor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F                 C          F",
+            "lyrics": "Rogo, Senhor, por mérito de Cristo,"
+          },
+          {
+            "chords": "Bb     B°  F      G        C    C5+",
+            "lyrics": "Dá ao Teu  servo graça e saber;"
+          },
+          {
+            "chords": "F                 C           Dm  F7",
+            "lyrics": "Aos olhos Teus, desejo ser benquisto;"
+          },
+          {
+            "chords": "Bb     B°  F       D7    G  C   F    F...",
+            "lyrics": "Nesta_ora-ção transforma o meu ser."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F              C                  F",
+            "lyrics": "Vem visitar minha´alma,_ó Deus bendito,"
+          },
+          {
+            "chords": "Bb     B°   F     G         C    C5+",
+            "lyrics": "Das minhas provas me esquecerei;"
+          },
+          {
+            "chords": "F                      C          Dm  F7",
+            "lyrics": "Eis-me_aos Teus pés, ansioso e contri-to;"
+          },
+          {
+            "chords": "Bb   B°   F     D7  G  C  F    F...",
+            "lyrics": "Ardente - mente Te exaltarei."
+          }
+        ]
+      }
+    ]
+  }
 }

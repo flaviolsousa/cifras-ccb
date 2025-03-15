@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Alegrei-me quando me disseram...",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A                      E ",
-    "1. Eu alegrei-me quando me disseram:",
-    "                  E7         A",
-    "“Oh! Vamos para_a casa do Senhor”,",
-    "                               E ",
-    "Pois nela_os santos sempre receberam",
-    "B                        E    E7... ",
-    "As bênçãos do eterno Criador.",
-    "",
-    "A              E ",
-    "Somos a nação abençoada,",
-    "                             A",
-    "Nação de Deus, unida_em Seu amor,",
-    "          A7       D ",
-    "Somos Sua geração amada;",
-    "     A    E           A ",
-    "Por nós é Deus, o Criador.",
-    "",
-    "     A                    E ",
-    "2. A santa, gloriosa lei eterna,",
-    "              E7        A",
-    "Na Sua casa_ensina o Senhor;",
-    "                            E ",
-    "Ouvimos nela sempre_a voz Paterna",
-    "B                         E     E7... ",
-    "E os juízos de Deus, Formador.",
-    "",
-    "       A                      E           ",
-    "3. Paz haja entre nós continuamente,",
-    "               E7         A",
-    "Prosperidade_e celestial amor;",
-    "                         E",
-    "Por essa paz divina, excelente,",
-    "B                           E    E7...",
-    "A Deus oremos sempre com fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A                      E ",
+            "lyrics": "Eu alegrei-me quando me disseram:"
+          },
+          {
+            "chords": "                  E7         A",
+            "lyrics": "“Oh! Vamos para_a casa do Senhor”,"
+          },
+          {
+            "chords": "                               E ",
+            "lyrics": "Pois nela_os santos sempre receberam"
+          },
+          {
+            "chords": "B                        E    E7... ",
+            "lyrics": "As bênçãos do eterno Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A              E ",
+            "lyrics": "Somos a nação abençoada,"
+          },
+          {
+            "chords": "                             A",
+            "lyrics": "Nação de Deus, unida_em Seu amor,"
+          },
+          {
+            "chords": "          A7       D ",
+            "lyrics": "Somos Sua geração amada;"
+          },
+          {
+            "chords": "     A    E           A ",
+            "lyrics": "Por nós é Deus, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  A                    E ",
+            "lyrics": "A santa, gloriosa lei eterna,"
+          },
+          {
+            "chords": "              E7        A",
+            "lyrics": "Na Sua casa_ensina o Senhor;"
+          },
+          {
+            "chords": "                            E ",
+            "lyrics": "Ouvimos nela sempre_a voz Paterna"
+          },
+          {
+            "chords": "B                         E     E7... ",
+            "lyrics": "E os juízos de Deus, Formador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A                      E           ",
+            "lyrics": "Paz haja entre nós continuamente,"
+          },
+          {
+            "chords": "               E7         A",
+            "lyrics": "Prosperidade_e celestial amor;"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Por essa paz divina, excelente,"
+          },
+          {
+            "chords": "B                           E    E7...",
+            "lyrics": "A Deus oremos sempre com fervor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

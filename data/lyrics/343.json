@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Lá no céu cantaremos",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C",
-    "1. Neste mundo somos peregrinos,",
-    "G                           C",
-    "Nosso lar é_a pátria do bom Deus;",
-    "            F     F#° ",
-    "Que_alegria já sentimos",
-    "C      G               C",
-    "De, um dia,_entrar nos céus!",
-    "",
-    "      C",
-    "Lá no céu cantaremos,",
-    "                 D          G ",
-    "Todos juntos, louvores ao Senhor;",
-    "       C  C7  F ",
-    "Lá no céu   veremos",
-    "  C       G            C ",
-    "Jesus, em grande esplendor.",
-    "",
-    "   C",
-    "2. Sempre, por fé, ó irmãos, andemos;",
-    "G                    C",
-    "Esta vida breve findará;",
-    "            F   F#° ",
-    "Se fiéis permanecermos,",
-    "C       G             C",
-    "Deus, a glória, nos dará.",
-    "",
-    "   C",
-    "3. Preparados, nós esperaremos",
-    "G                   C",
-    "A Jesus, unidos em amor;",
-    "          F    F#° ",
-    "E com Ele entraremos",
-    "C    G          C",
-    "Na cidade do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Neste mundo somos peregrinos,"
+          },
+          {
+            "chords": "G                           C",
+            "lyrics": "Nosso lar é_a pátria do bom Deus;"
+          },
+          {
+            "chords": "            F     F#° ",
+            "lyrics": "Que_alegria já sentimos"
+          },
+          {
+            "chords": "C      G               C",
+            "lyrics": "De, um dia,_entrar nos céus!"
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "      C"
+          },
+          {
+            "chords": "Lá no céu cantaremos,",
+            "lyrics": "                 D          G "
+          },
+          {
+            "chords": "Todos juntos, louvores ao Senhor;",
+            "lyrics": "       C  C7  F "
+          },
+          {
+            "chords": "Lá no céu   veremos",
+            "lyrics": "  C       G            C "
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Sempre, por fé, ó irmãos, andemos;"
+          },
+          {
+            "chords": "G                    C",
+            "lyrics": "Esta vida breve findará;"
+          },
+          {
+            "chords": "            F   F#° ",
+            "lyrics": "Se fiéis permanecermos,"
+          },
+          {
+            "chords": "C       G             C",
+            "lyrics": "Deus, a glória, nos dará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Preparados, nós esperaremos"
+          },
+          {
+            "chords": "G                   C",
+            "lyrics": "A Jesus, unidos em amor;"
+          },
+          {
+            "chords": "          F    F#° ",
+            "lyrics": "E com Ele entraremos"
+          },
+          {
+            "chords": "C    G          C",
+            "lyrics": "Na cidade do Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Clama ao Mestre, Cristo Jesus",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B            E        B",
-    "1. Quando te sentires abatido,",
-    "F#7               B",
-    "Cristo te_estende a Sua mão;",
-    "                E           B",
-    "Ele_é_o santo_e verdadeiro_Amigo,",
-    "F#7            B",
-    "Ele_é a tua Porção.",
-    "",
-    "F#7              B",
-    "Clama ao Mestre, Cristo Jesus;",
-    "E         B        F#7 ",
-    "D´Ele_o poder sentirás;",
-    "B           E                B",
-    "Ele disse: “Eis que_estou convosco”;",
-    "F#7                 B",
-    "Cristo é Quem te conduz.",
-    "",
-    "   B          E           B",
-    "2. Quando estiveres perturbado,",
-    "F#7             B",
-    "Busca de Cristo paz e vigor;",
-    "            E        B",
-    "Não te deixará desanimado",
-    "F#7             B",
-    "O teu fiel Salvador.",
-    "",
-    "   B           E          B",
-    "3. Vindo sobre ti ardente prova,",
-    "F#7          B",
-    "Bate à porta do Criador",
-    "                    E           B",
-    "Que, por Cristo,_as forças te renova",
-    "F#7            B",
-    "E te fará vencedor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B            E        B",
+            "lyrics": "Quando te sentires abatido,"
+          },
+          {
+            "chords": "F#7               B",
+            "lyrics": "Cristo te_estende a Sua mão;"
+          },
+          {
+            "chords": "                E           B",
+            "lyrics": "Ele_é_o santo_e verdadeiro_Amigo,"
+          },
+          {
+            "chords": "F#7            B",
+            "lyrics": "Ele_é a tua Porção."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F#7              B",
+            "lyrics": "Clama ao Mestre, Cristo Jesus;"
+          },
+          {
+            "chords": "E         B        F#7 ",
+            "lyrics": "D´Ele_o poder sentirás;"
+          },
+          {
+            "chords": "B           E                B",
+            "lyrics": "Ele disse: “Eis que_estou convosco”;"
+          },
+          {
+            "chords": "F#7                 B",
+            "lyrics": "Cristo é Quem te conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B          E           B",
+            "lyrics": "Quando estiveres perturbado,"
+          },
+          {
+            "chords": "F#7             B",
+            "lyrics": "Busca de Cristo paz e vigor;"
+          },
+          {
+            "chords": "            E        B",
+            "lyrics": "Não te deixará desanimado"
+          },
+          {
+            "chords": "F#7             B",
+            "lyrics": "O teu fiel Salvador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B           E          B",
+            "lyrics": "Vindo sobre ti ardente prova,"
+          },
+          {
+            "chords": "F#7          B",
+            "lyrics": "Bate à porta do Criador"
+          },
+          {
+            "chords": "                    E           B",
+            "lyrics": "Que, por Cristo,_as forças te renova"
+          },
+          {
+            "chords": "F#7            B",
+            "lyrics": "E te fará vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

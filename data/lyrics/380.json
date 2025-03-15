@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Com Jesus, eternamente viverei",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "        D                       G ",
-    "1. Eu espero, firmemente, com Jesus ir descansar",
-    "       A                   D ",
-    "Lá no céu, alegremente, Aleluia!",
-    "                               G  ",
-    "Doce paz minh´alma sente tão somente em pensar:",
-    "     A                         D",
-    "Que glória lá no céu vou desfrutar!",
-    "",
-    "      D",
-    "Com Jesus, eternamente viverei",
-    "   G                     A ",
-    "No repouso onde Ele já entrou;",
-    "      D                  G ",
-    "Santa paz e alegria sem igual desfrutarei;",
-    "   A                      D    D...",
-    "Na pátria dos fiéis habitarei.",
-    "",
-    "         D                        G ",
-    "2. De Jesus, o rosto santo, eu no céu vou contemplar,",
-    "      A                        D",
-    "Onde não há dor nem pranto. Aleluia!",
-    "                               G ",
-    "Um sublime_e novo canto vão os santos entoar;",
-    "     A                         D",
-    "Que glória lá no céu vou desfrutar!",
-    "",
-    "           D                    G ",
-    "3. Quando, no céu desejado, vitorioso eu entrar,",
-    "      A                      D",
-    "Lá verei Cristo_exaltado. Aleluia!",
-    "                           G ",
-    "Para sempre consolado, ouvirei o Seu falar;",
-    "     A                         D",
-    "Que glória lá no céu vou desfrutar!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     D                       G ",
+            "lyrics": "Eu espero, firmemente, com Jesus ir descansar"
+          },
+          {
+            "chords": "       A                   D ",
+            "lyrics": "Lá no céu, alegremente, Aleluia!"
+          },
+          {
+            "chords": "                               G  ",
+            "lyrics": "Doce paz minh´alma sente tão somente em pensar:"
+          },
+          {
+            "chords": "     A                         D",
+            "lyrics": "Que glória lá no céu vou desfrutar!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      D",
+            "lyrics": "Com Jesus, eternamente viverei"
+          },
+          {
+            "chords": "   G                     A ",
+            "lyrics": "No repouso onde Ele já entrou;"
+          },
+          {
+            "chords": "      D                  G ",
+            "lyrics": "Santa paz e alegria sem igual desfrutarei;"
+          },
+          {
+            "chords": "   A                      D    D...",
+            "lyrics": "Na pátria dos fiéis habitarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      D                        G ",
+            "lyrics": "De Jesus, o rosto santo, eu no céu vou contemplar,"
+          },
+          {
+            "chords": "      A                        D",
+            "lyrics": "Onde não há dor nem pranto. Aleluia!"
+          },
+          {
+            "chords": "                               G ",
+            "lyrics": "Um sublime_e novo canto vão os santos entoar;"
+          },
+          {
+            "chords": "     A                         D",
+            "lyrics": "Que glória lá no céu vou desfrutar!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        D                    G ",
+            "lyrics": "Quando, no céu desejado, vitorioso eu entrar,"
+          },
+          {
+            "chords": "      A                      D",
+            "lyrics": "Lá verei Cristo_exaltado. Aleluia!"
+          },
+          {
+            "chords": "                           G ",
+            "lyrics": "Para sempre consolado, ouvirei o Seu falar;"
+          },
+          {
+            "chords": "     A                         D",
+            "lyrics": "Que glória lá no céu vou desfrutar!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

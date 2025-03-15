@@ -1,44 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Minha oração",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "             G            D ",
-    "1. Minha_oração, ó meu Senhor,",
-    "                    G",
-    "Elevo_a Ti, em comunhão;",
-    "                          C ",
-    "Faz-me sentir Teu grande_amor,",
-    "      D           G",
-    "A Tua paz e Tua_unção.",
-    "",
-    "        D           G",
-    "Em nome do Senhor Jesus",
-    "        A7         D ",
-    "Elevo_a Ti esta_oração.",
-    "      G             C ",
-    "Ó Criador, Fonte de luz,",
-    "          D           G",
-    "Entrego_a Ti meu coração.",
-    "",
-    "",
-    "             G             D ",
-    "2. Minha_oração, ó Pai de_amor,",
-    "                     G",
-    "Elevo_a Ti para_alcançar",
-    "                   C ",
-    "A Tua paz, o Teu favor;",
-    "       D           G",
-    "Aqui estou a Te_adorar.",
-    "",
-    "             G             D ",
-    "3. Minha_oração, ó grande Deus,",
-    "                     G",
-    "Elevo_a Ti para_aprender",
-    "                      C ",
-    "Os eternais preceitos Teus",
-    "         D       G",
-    "E sempre Te obedecer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "          G            D ",
+            "lyrics": "Minha_oração, ó meu Senhor,"
+          },
+          {
+            "chords": "                    G",
+            "lyrics": "Elevo_a Ti, em comunhão;"
+          },
+          {
+            "chords": "                          C ",
+            "lyrics": "Faz-me sentir Teu grande_amor,"
+          },
+          {
+            "chords": "      D           G",
+            "lyrics": "A Tua paz e Tua_unção."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        D           G",
+            "lyrics": "Em nome do Senhor Jesus"
+          },
+          {
+            "chords": "        A7         D ",
+            "lyrics": "Elevo_a Ti esta_oração."
+          },
+          {
+            "chords": "      G             C ",
+            "lyrics": "Ó Criador, Fonte de luz,"
+          },
+          {
+            "chords": "          D           G",
+            "lyrics": "Entrego_a Ti meu coração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "          G             D ",
+            "lyrics": "Minha_oração, ó Pai de_amor,"
+          },
+          {
+            "chords": "                     G",
+            "lyrics": "Elevo_a Ti para_alcançar"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "A Tua paz, o Teu favor;"
+          },
+          {
+            "chords": "       D           G",
+            "lyrics": "Aqui estou a Te_adorar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "          G             D ",
+            "lyrics": "Minha_oração, ó grande Deus,"
+          },
+          {
+            "chords": "                     G",
+            "lyrics": "Elevo_a Ti para_aprender"
+          },
+          {
+            "chords": "                      C ",
+            "lyrics": "Os eternais preceitos Teus"
+          },
+          {
+            "chords": "         D       G",
+            "lyrics": "E sempre Te obedecer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

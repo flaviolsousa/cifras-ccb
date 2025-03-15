@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quão fiel promessa Jesus nos fez",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A          ",
-    "1. Jesus, o Senhor, preparou",
-    "    D                  A",
-    "O lugar aos filhos de Deus;",
-    "    E              A",
-    "No eterno lar onde Ele entrou",
-    "  B7           E      E... ",
-    "Fará entrar os santos Seus.",
-    "",
-    "E...   A             E ",
-    "Quão fiel promessa Jesus nos fez:",
-    "                     A",
-    "“Convosco sempre_estarei!”;",
-    "              C#7      F#m  D... ",
-    "Brevemente_em nuvens retornará",
-    "  A     E      A",
-    "O nosso grande Rei.",
-    "",
-    "     A",
-    "2. Jesus, órfãos não nos deixou;",
-    "    D           A",
-    "Enviou o Consolador;",
-    "     E                A",
-    "Por imenso_amor, nos abençoou",
-    "    B7          E       E... ",
-    "Com vida_eterna e_esplendor.",
-    "",
-    "        A",
-    "3. Quão doce_é saber que Jesus",
-    "        D             A",
-    "Nos deu fé a fim de andar",
-    "     E            A",
-    "Pela Sua senda de paz e luz,",
-    " B7         E      E... ",
-    "Até o breve Seu voltar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A          ",
+            "lyrics": "Jesus, o Senhor, preparou"
+          },
+          {
+            "chords": "    D                  A",
+            "lyrics": "O lugar aos filhos de Deus;"
+          },
+          {
+            "chords": "    E              A",
+            "lyrics": "No eterno lar onde Ele entrou"
+          },
+          {
+            "chords": "  B7           E      E... ",
+            "lyrics": "Fará entrar os santos Seus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E...   A             E ",
+            "lyrics": "Quão fiel promessa Jesus nos fez:"
+          },
+          {
+            "chords": "                     A",
+            "lyrics": "“Convosco sempre_estarei!”;"
+          },
+          {
+            "chords": "              C#7      F#m  D... ",
+            "lyrics": "Brevemente_em nuvens retornará"
+          },
+          {
+            "chords": "  A     E      A",
+            "lyrics": "O nosso grande Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  A",
+            "lyrics": "Jesus, órfãos não nos deixou;"
+          },
+          {
+            "chords": "    D           A",
+            "lyrics": "Enviou o Consolador;"
+          },
+          {
+            "chords": "     E                A",
+            "lyrics": "Por imenso_amor, nos abençoou"
+          },
+          {
+            "chords": "    B7          E       E... ",
+            "lyrics": "Com vida_eterna e_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Quão doce_é saber que Jesus"
+          },
+          {
+            "chords": "        D             A",
+            "lyrics": "Nos deu fé a fim de andar"
+          },
+          {
+            "chords": "     E            A",
+            "lyrics": "Pela Sua senda de paz e luz,"
+          },
+          {
+            "chords": " B7         E      E... ",
+            "lyrics": "Até o breve Seu voltar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

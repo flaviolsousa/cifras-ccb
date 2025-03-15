@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo é Luz resplandecente",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                           G     D     E   A ",
-    "1. Cristo_é Luz resplandecente ao contrito pecador,",
-    "D                                 A     D",
-    "Que, cansado e aflito, paz espera do Senhor.",
-    "",
-    "D          A  A7           D",
-    "Salvação terá   todo_o pecador",
-    "                        A           D",
-    "Que se converter ao Evangelho do Senhor.",
-    "",
-    "   D                       G      D     E   A ",
-    "2. Cristo_é Senda gloriosa que preserva no amor",
-    "D                                 A     D",
-    "Todo_aquele que_obedece à vontade do Senhor. ",
-    "",
-    "   D                     G        D       E   A ",
-    "3. É a celestial Verdade que transforma_o pecador,",
-    "D                                        A     D",
-    "E, quem d´Ela se reveste, filho_eleito_é do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                           G     D     E   A ",
+            "lyrics": "Cristo_é Luz resplandecente ao contrito pecador,"
+          },
+          {
+            "chords": "D                                 A     D",
+            "lyrics": "Que, cansado e aflito, paz espera do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D          A  A7           D",
+            "lyrics": "Salvação terá   todo_o pecador"
+          },
+          {
+            "chords": "                        A           D",
+            "lyrics": "Que se converter ao Evangelho do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                       G      D     E   A ",
+            "lyrics": "Cristo_é Senda gloriosa que preserva no amor"
+          },
+          {
+            "chords": "D                                 A     D",
+            "lyrics": "Todo_aquele que_obedece à vontade do Senhor. "
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                     G        D       E   A ",
+            "lyrics": "É a celestial Verdade que transforma_o pecador,"
+          },
+          {
+            "chords": "D                                        A     D",
+            "lyrics": "E, quem d´Ela se reveste, filho_eleito_é do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Há um lugar de eterna paz",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "             E                    B ",
-    "1. Os santos do Senhor em terra_estranha_estão,",
-    "                            E",
-    "Caminham com fervor, em peregrinação;",
-    "                              A  ",
-    "Estão buscando_o lar de esplendor sem par,",
-    "          B7          E",
-    "São co-herdeiros de Jesus.",
-    "",
-    "        B7            E",
-    "Há um lugar de_eterna paz",
-    "        B       F#7  B ",
-    "E de consolação ve - raz;",
-    "             E                        A ",
-    "Quem se_entregar a Deus, quem crer no Salvador,",
-    "      E          B7  E",
-    "Irá morar no lar de_amor.",
-    "",
-    "             E                   B ",
-    "2. Quem pode exprimir, quem pode explicar",
-    "                                E",
-    "A glória do porvir, que_o justo vai herdar?",
-    "                            A ",
-    "Certeza deste bem, por fé, agora têm",
-    "        B7         E",
-    "Os resgatados de Jesus.",
-    "",
-    "           E                        B ",
-    "3. Mandado é, dos céus, que_o homem pecador",
-    "                               E",
-    "Aceite_a_eterna lei de Deus, o Criador;",
-    "                          A ",
-    "Justificado,_então terá o galardão",
-    "           B7          E",
-    "Com os que creram em Jesus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "          E                    B ",
+            "lyrics": "Os santos do Senhor em terra_estranha_estão,"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "Caminham com fervor, em peregrinação;"
+          },
+          {
+            "chords": "                              A  ",
+            "lyrics": "Estão buscando_o lar de esplendor sem par,"
+          },
+          {
+            "chords": "          B7          E",
+            "lyrics": "São co-herdeiros de Jesus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        B7            E",
+            "lyrics": "Há um lugar de_eterna paz"
+          },
+          {
+            "chords": "        B       F#7  B ",
+            "lyrics": "E de consolação ve - raz;"
+          },
+          {
+            "chords": "             E                        A ",
+            "lyrics": "Quem se_entregar a Deus, quem crer no Salvador,"
+          },
+          {
+            "chords": "      E          B7  E",
+            "lyrics": "Irá morar no lar de_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "          E                   B ",
+            "lyrics": "Quem pode exprimir, quem pode explicar"
+          },
+          {
+            "chords": "                                E",
+            "lyrics": "A glória do porvir, que_o justo vai herdar?"
+          },
+          {
+            "chords": "                            A ",
+            "lyrics": "Certeza deste bem, por fé, agora têm"
+          },
+          {
+            "chords": "        B7         E",
+            "lyrics": "Os resgatados de Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        E                        B ",
+            "lyrics": "Mandado é, dos céus, que_o homem pecador"
+          },
+          {
+            "chords": "                               E",
+            "lyrics": "Aceite_a_eterna lei de Deus, o Criador;"
+          },
+          {
+            "chords": "                          A ",
+            "lyrics": "Justificado,_então terá o galardão"
+          },
+          {
+            "chords": "           B7          E",
+            "lyrics": "Com os que creram em Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cansado estás? Vem a Jesus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "             G                             D ",
-    "1. Cansado_estás? Vem a Jesus, o justo Remidor;",
-    "         G              D           G",
-    "Terás em ti a Sua luz e Seu divino_amor.",
-    "",
-    "         D            G      C           D ",
-    "Vem, oprimido, sem tardar, à Fonte do perdão;",
-    "       G             C    D          G",
-    "O Redentor te faz herdar eterna salvação.",
-    "",
-    "          G                               D ",
-    "2. Da opressão, livrar-te-á Jesus, o Redentor;",
-    "        G                    D           G",
-    "Da perdição, salvar-te-á por Seu imenso_amor.",
-    "",
-    "            G                               D ",
-    "3. Ele_é o_Amor que não tem par, Amigo celestial;",
-    "        G                    D         G",
-    "A vida_eterna quer te dar no reino divinal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "          G                             D ",
+            "lyrics": "Cansado_estás? Vem a Jesus, o justo Remidor;"
+          },
+          {
+            "chords": "         G              D           G",
+            "lyrics": "Terás em ti a Sua luz e Seu divino_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         D            G      C           D ",
+            "lyrics": "Vem, oprimido, sem tardar, à Fonte do perdão;"
+          },
+          {
+            "chords": "       G             C    D          G",
+            "lyrics": "O Redentor te faz herdar eterna salvação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G                               D ",
+            "lyrics": "Da opressão, livrar-te-á Jesus, o Redentor;"
+          },
+          {
+            "chords": "        G                    D           G",
+            "lyrics": "Da perdição, salvar-te-á por Seu imenso_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         G                               D ",
+            "lyrics": "Ele_é o_Amor que não tem par, Amigo celestial;"
+          },
+          {
+            "chords": "        G                    D         G",
+            "lyrics": "A vida_eterna quer te dar no reino divinal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

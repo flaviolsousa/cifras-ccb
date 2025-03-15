@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo voltará",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                  C7        F ",
-    "1. Com poder e glória e total vitória,",
-    "C                        G ",
-    "Cristo, sobre_as nuvens, breve voltará;",
-    "C                   C7         F ",
-    "Oh! Que grande dia! Oh! Que alegria!",
-    "C               G           C",
-    "Para os fiéis o pranto findará.",
-    "",
-    "C               F           C",
-    "Cristo voltará, Cristo voltará,",
-    "               G ",
-    "E a Sua_igreja arrebatará;",
-    "C                F      C",
-    "E, então, no céu a coroará",
-    "                    G             C",
-    "Com a glória_eterna que_Ele lhe dará.",
-    "",
-    "   C                  C7        F ",
-    "2. Eis que se apressa a fiel promessa",
-    "C                    G ",
-    "Do Senhor Jesus, que breve_há de voltar;",
-    "C                C7          F ",
-    "Quero nesse dia, cheio de_alegria,",
-    "C                      G           C",
-    "Juntamente_aos salvos, Cristo encontrar.",
-    "",
-    "   C                C7             F ",
-    "3. Sempre vigiando, contra_o mal lutando,",
-    "C                G ",
-    "Vamos aguardar a volta do Senhor;",
-    "C                C7            F ",
-    "O que for achado servindo_ao pecado,",
-    "C                  G         C",
-    "Não terá lugar nas bodas de amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                  C7        F ",
+            "lyrics": "Com poder e glória e total vitória,"
+          },
+          {
+            "chords": "C                        G ",
+            "lyrics": "Cristo, sobre_as nuvens, breve voltará;"
+          },
+          {
+            "chords": "C                   C7         F ",
+            "lyrics": "Oh! Que grande dia! Oh! Que alegria!"
+          },
+          {
+            "chords": "C               G           C",
+            "lyrics": "Para os fiéis o pranto findará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C               F           C",
+            "lyrics": "Cristo voltará, Cristo voltará,"
+          },
+          {
+            "chords": "               G ",
+            "lyrics": "E a Sua_igreja arrebatará;"
+          },
+          {
+            "chords": "C                F      C",
+            "lyrics": "E, então, no céu a coroará"
+          },
+          {
+            "chords": "                    G             C",
+            "lyrics": "Com a glória_eterna que_Ele lhe dará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                  C7        F ",
+            "lyrics": "Eis que se apressa a fiel promessa"
+          },
+          {
+            "chords": "C                    G ",
+            "lyrics": "Do Senhor Jesus, que breve_há de voltar;"
+          },
+          {
+            "chords": "C                C7          F ",
+            "lyrics": "Quero nesse dia, cheio de_alegria,"
+          },
+          {
+            "chords": "C                      G           C",
+            "lyrics": "Juntamente_aos salvos, Cristo encontrar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                C7             F ",
+            "lyrics": "Sempre vigiando, contra_o mal lutando,"
+          },
+          {
+            "chords": "C                G ",
+            "lyrics": "Vamos aguardar a volta do Senhor;"
+          },
+          {
+            "chords": "C                C7            F ",
+            "lyrics": "O que for achado servindo_ao pecado,"
+          },
+          {
+            "chords": "C                  G         C",
+            "lyrics": "Não terá lugar nas bodas de amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

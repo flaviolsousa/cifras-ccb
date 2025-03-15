@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu sou um cordeirinho",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "       D                    A7              D",
-    "1. Eu sou um cordeirinho, Jesus é o meu Pastor;",
-    "                       A7           D    D7",
-    "Desfruto Seu carinho e Seu sublime amor;",
-    "   G                       A7        D",
-    "Nasci no Seu rebanho, por graça divinal;",
-    "    Bm7             Em         A7         D",
-    "Não sigo a voz do estranho, ma só a Paternal.",
-    "",
-    "       D                    A7              D",
-    "2. Eu sou um cordeirinho, Jesus é o meu Pastor;",
-    "                         A7          D    D7",
-    "Sou um feliz menino nos braços do Senhor;",
-    "   G                  A7            D",
-    "A Sua voz conheço, também o Seu querer;",
-    "  Bm7    Em       A7              D",
-    "A Ele obedeço, disposto e com prazer.",
-    "",
-    "     D                    A7             D",
-    "3. Sozinho no deserto, jamais eu posso andar;",
-    "                       A7            D    D7",
-    "Jesus está bem perto a fim de me guardar;",
-    "   G                   A7           D",
-    "É grande o cuidado que Ele tem por mim;",
-    "  Bm7         Em       A7         D",
-    "O meu Pastor amado me guia até o fim."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    D                    A7              D",
+            "lyrics": "Eu sou um cordeirinho, Jesus é o meu Pastor;"
+          },
+          {
+            "chords": "                       A7           D    D7",
+            "lyrics": "Desfruto Seu carinho e Seu sublime amor;"
+          },
+          {
+            "chords": "   G                       A7        D",
+            "lyrics": "Nasci no Seu rebanho, por graça divinal;"
+          },
+          {
+            "chords": "    Bm7             Em         A7         D",
+            "lyrics": "Não sigo a voz do estranho, ma só a Paternal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    D                    A7              D",
+            "lyrics": "Eu sou um cordeirinho, Jesus é o meu Pastor;"
+          },
+          {
+            "chords": "                         A7          D    D7",
+            "lyrics": "Sou um feliz menino nos braços do Senhor;"
+          },
+          {
+            "chords": "   G                  A7            D",
+            "lyrics": "A Sua voz conheço, também o Seu querer;"
+          },
+          {
+            "chords": "  Bm7    Em       A7              D",
+            "lyrics": "A Ele obedeço, disposto e com prazer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  D                    A7             D",
+            "lyrics": "Sozinho no deserto, jamais eu posso andar;"
+          },
+          {
+            "chords": "                       A7            D    D7",
+            "lyrics": "Jesus está bem perto a fim de me guardar;"
+          },
+          {
+            "chords": "   G                   A7           D",
+            "lyrics": "É grande o cuidado que Ele tem por mim;"
+          },
+          {
+            "chords": "  Bm7         Em       A7         D",
+            "lyrics": "O meu Pastor amado me guia até o fim."
+          }
+        ]
+      }
+    ]
+  }
 }

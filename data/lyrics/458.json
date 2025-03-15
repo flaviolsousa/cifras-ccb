@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo me ama",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "    E",
-    "1. Sou amado por Jesus,",
-    "A           E",
-    "A Palavra_assim me diz;",
-    "",
-    "Ele é a minha Luz",
-    "A    E       B7    E",
-    "E me leva_ao Seu país.",
-    "",
-    "E         A",
-    "Cristo me ama,",
-    "E          B7",
-    "Sei que me ama,",
-    "E        A...",
-    "Muito me ama,",
-    "   E      B7    E    E...",
-    "Em Cristo sou feliz.",
-    "",
-    "    E",
-    "2. Sou amado por Jesus,",
-    " A                 E",
-    "Pois, por mim, na cruz morreu;",
-    "",
-    "Ele_agora me conduz",
-    "A       E      B7    E",
-    "Para_o lar que prometeu.",
-    "",
-    "    E",
-    "3. Sou amado por Jesus,",
-    " A          E",
-    "Pois comigo sempre_está;",
-    "",
-    "Seu conselho_em mim produz",
-    "A       E     B7   E",
-    "Força, que me susterá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " E",
+            "lyrics": "Sou amado por Jesus,"
+          },
+          {
+            "chords": "A           E",
+            "lyrics": "A Palavra_assim me diz;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Ele é a minha Luz"
+          },
+          {
+            "chords": "A    E       B7    E",
+            "lyrics": "E me leva_ao Seu país."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E         A",
+            "lyrics": "Cristo me ama,"
+          },
+          {
+            "chords": "E          B7",
+            "lyrics": "Sei que me ama,"
+          },
+          {
+            "chords": "E        A...",
+            "lyrics": "Muito me ama,"
+          },
+          {
+            "chords": "   E      B7    E    E...",
+            "lyrics": "Em Cristo sou feliz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " E",
+            "lyrics": "Sou amado por Jesus,"
+          },
+          {
+            "chords": " A                 E",
+            "lyrics": "Pois, por mim, na cruz morreu;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Ele_agora me conduz"
+          },
+          {
+            "chords": "A       E      B7    E",
+            "lyrics": "Para_o lar que prometeu."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " E",
+            "lyrics": "Sou amado por Jesus,"
+          },
+          {
+            "chords": " A          E",
+            "lyrics": "Pois comigo sempre_está;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Seu conselho_em mim produz"
+          },
+          {
+            "chords": "A       E     B7   E",
+            "lyrics": "Força, que me susterá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

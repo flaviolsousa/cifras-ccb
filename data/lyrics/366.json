@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Pela fé tereis vitória",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F           Gm ",
-    "1. O Santo_Evangelho diz: Marchai,",
-    "C                 F",
-    "Tende fé em Deus; n´Ele confiai;",
-    "           Gm  ",
-    "Todas as batalhas enfrentai,",
-    "C                C7    F",
-    "Pela fé tereis vitó - ria.",
-    "",
-    "Gm               F",
-    "Deus por Cristo, tudo cumprirá,",
-    "C           F          F#° ",
-    "Seu auxílio nunca faltará;",
-    "Gm            F",
-    "Nos combates vos ajudará;",
-    "                 C7    F",
-    "Pela fé tereis vitó - ria.",
-    "",
-    "   F             Gm ",
-    "2. O cristão não deve recuar,",
-    "C                    F",
-    "Mas, com fé em Deus, sempre avançar;",
-    "            Gm ",
-    "Com coragem ide pelejar,",
-    "C                C7    F",
-    "Pela fé tereis vitó - ria.",
-    "",
-    "   F           Gm ",
-    "3. O mal não resiste_ao Seu poder,",
-    "C                    F",
-    "Com a_unção de Deus, ide combater;",
-    "          Gm ",
-    "Deus coroará ao que vencer,",
-    "C                C7    F",
-    "Pela fé tereis vitó - ria."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F           Gm ",
+            "lyrics": "O Santo_Evangelho diz: Marchai,"
+          },
+          {
+            "chords": "C                 F",
+            "lyrics": "Tende fé em Deus; n´Ele confiai;"
+          },
+          {
+            "chords": "           Gm  ",
+            "lyrics": "Todas as batalhas enfrentai,"
+          },
+          {
+            "chords": "C                C7    F",
+            "lyrics": "Pela fé tereis vitó - ria."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "Gm               F",
+            "lyrics": "Deus por Cristo, tudo cumprirá,"
+          },
+          {
+            "chords": "C           F          F#° ",
+            "lyrics": "Seu auxílio nunca faltará;"
+          },
+          {
+            "chords": "Gm            F",
+            "lyrics": "Nos combates vos ajudará;"
+          },
+          {
+            "chords": "                 C7    F",
+            "lyrics": "Pela fé tereis vitó - ria."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F             Gm ",
+            "lyrics": "O cristão não deve recuar,"
+          },
+          {
+            "chords": "C                    F",
+            "lyrics": "Mas, com fé em Deus, sempre avançar;"
+          },
+          {
+            "chords": "            Gm ",
+            "lyrics": "Com coragem ide pelejar,"
+          },
+          {
+            "chords": "C                C7    F",
+            "lyrics": "Pela fé tereis vitó - ria."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F           Gm ",
+            "lyrics": "O mal não resiste_ao Seu poder,"
+          },
+          {
+            "chords": "C                    F",
+            "lyrics": "Com a_unção de Deus, ide combater;"
+          },
+          {
+            "chords": "          Gm ",
+            "lyrics": "Deus coroará ao que vencer,"
+          },
+          {
+            "chords": "C                C7    F",
+            "lyrics": "Pela fé tereis vitó - ria."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

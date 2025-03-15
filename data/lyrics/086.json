@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grande Tu és, ó Pai",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "    D        G          A7     D",
-    "1. Grande Tu és, ó Pai, em lealdade,",
-    "G           D/F#      E7       A",
-    "És sempre_o mesmo, jamais mudarás;",
-    "A7       D         D7         G ",
-    "És compassivo,_infinito_em bondade,",
-    "G#°     D/A       A7        D",
-    "Como Tu és, assim sempre serás.",
-    "",
-    " A         D        B7      Em ",
-    "Santo_e Supremo és, excelso Formador,",
-    " A          D       E        A ",
-    "Sobre Teus filhos está Teu favor;",
-    "A7     D     D7    G ",
-    "Imensa é Tua fidelidade;",
-    "G#°         D/A       A7    D",
-    "Glória_e louvor a Ti, ó Criador.",
-    "",
-    "    D          G             A7        D",
-    "2. Quanto_é elevado,_ó Deus, Teu pensamento,",
-    "G       D/F#      E7      A",
-    "Em Tuas obras há grande saber;",
-    "A7       D             D7        G ",
-    "Reges a terra,_os céus e_o firmamento,",
-    "G#°      D/A       A7      D",
-    "Tudo_enaltece Teu grande poder.",
-    "",
-    "   D        G          A7      D ",
-    "3. Só em Ti há perdão para_o pecado,",
-    " G       D/F#      E7      A ",
-    "Paz sempiterna dás ao coração;",
-    "A7     D              D7         G ",
-    "Tua presença,_ó Deus, nos tem guiado",
-    "G#°   D/A    A7       D",
-    "E guiará até a perfeição."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " D        G          A7     D",
+            "lyrics": "Grande Tu és, ó Pai, em lealdade,"
+          },
+          {
+            "chords": "G           D/F#      E7       A",
+            "lyrics": "És sempre_o mesmo, jamais mudarás;"
+          },
+          {
+            "chords": "A7       D         D7         G ",
+            "lyrics": "És compassivo,_infinito_em bondade,"
+          },
+          {
+            "chords": "G#°     D/A       A7        D",
+            "lyrics": "Como Tu és, assim sempre serás."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " A         D        B7      Em ",
+            "lyrics": "Santo_e Supremo és, excelso Formador,"
+          },
+          {
+            "chords": " A          D       E        A ",
+            "lyrics": "Sobre Teus filhos está Teu favor;"
+          },
+          {
+            "chords": "A7     D     D7    G ",
+            "lyrics": "Imensa é Tua fidelidade;"
+          },
+          {
+            "chords": "G#°         D/A       A7    D",
+            "lyrics": "Glória_e louvor a Ti, ó Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D          G             A7        D",
+            "lyrics": "Quanto_é elevado,_ó Deus, Teu pensamento,"
+          },
+          {
+            "chords": "G       D/F#      E7      A",
+            "lyrics": "Em Tuas obras há grande saber;"
+          },
+          {
+            "chords": "A7       D             D7        G ",
+            "lyrics": "Reges a terra,_os céus e_o firmamento,"
+          },
+          {
+            "chords": "G#°      D/A       A7      D",
+            "lyrics": "Tudo_enaltece Teu grande poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D        G          A7      D ",
+            "lyrics": "Só em Ti há perdão para_o pecado,"
+          },
+          {
+            "chords": " G       D/F#      E7      A ",
+            "lyrics": "Paz sempiterna dás ao coração;"
+          },
+          {
+            "chords": "A7     D              D7         G ",
+            "lyrics": "Tua presença,_ó Deus, nos tem guiado"
+          },
+          {
+            "chords": "G#°   D/A    A7       D",
+            "lyrics": "E guiará até a perfeição."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

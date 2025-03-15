@@ -1,51 +1,107 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Por fé seguimos ao Senhor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "     B                 ",
-    "1. Fiéis irmãos, mostremos sempre o amor",
-    "   F#          C#         F# ",
-    "Do bom Jesus a todo_o pecador;",
-    "    B              E ",
-    "Não há ninguém que poderá nos impedir",
-    "   B           F#           B  B...",
-    "De afirmar que Cristo há de vir.",
-    "",
-    "     B",
-    "2. Fiéis irmãos, eleitos fomos do Senhor",
-    "  F#          C#          F# ",
-    "A proclamar o Seu eterno_amor;",
-    "  B          E ",
-    "Embora nós tenhamos que aqui sofrer",
-    "    B            F#             B  B...",
-    "Por esse_amor, Jesus nos faz vencer.",
-    "",
-    "     B",
-    "3. Fiéis irmãos, andemos sempre nesse_amor,",
-    "  F#            C#         F# ",
-    "Sublime_amor do nosso Redentor;",
-    "  B          E ",
-    "O galardão receberemos lá nos céus,",
-    "  B              F#         B...",
-    "Onde_é o lar do_Onipresente Deus.",
-    "",
-    "         B",
-    "Por fé seguimos ao Senhor",
-    "                   F# ",
-    "No Seu caminho de amor,",
-    "",
-    "Amor que mostra a luz divina",
-    "         F#7        B",
-    "E nos conduz ao Criador.",
-    "",
-    "Feliz será quem o provar,",
-    "           B7              E ",
-    "Pois é_um amor que não tem par;",
-    "        F°            B",
-    "Amor glorioso, amor sublime,",
-    "        E      F#7    B",
-    "Só em Jesus se pode_achar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  B                 ",
+            "lyrics": "Fiéis irmãos, mostremos sempre o amor"
+          },
+          {
+            "chords": "   F#          C#         F# ",
+            "lyrics": "Do bom Jesus a todo_o pecador;"
+          },
+          {
+            "chords": "    B              E ",
+            "lyrics": "Não há ninguém que poderá nos impedir"
+          },
+          {
+            "chords": "   B           F#           B  B...",
+            "lyrics": "De afirmar que Cristo há de vir."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  B",
+            "lyrics": "Fiéis irmãos, eleitos fomos do Senhor"
+          },
+          {
+            "chords": "  F#          C#          F# ",
+            "lyrics": "A proclamar o Seu eterno_amor;"
+          },
+          {
+            "chords": "  B          E ",
+            "lyrics": "Embora nós tenhamos que aqui sofrer"
+          },
+          {
+            "chords": "    B            F#             B  B...",
+            "lyrics": "Por esse_amor, Jesus nos faz vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  B",
+            "lyrics": "Fiéis irmãos, andemos sempre nesse_amor,"
+          },
+          {
+            "chords": "  F#            C#         F# ",
+            "lyrics": "Sublime_amor do nosso Redentor;"
+          },
+          {
+            "chords": "  B          E ",
+            "lyrics": "O galardão receberemos lá nos céus,"
+          },
+          {
+            "chords": "  B              F#         B...",
+            "lyrics": "Onde_é o lar do_Onipresente Deus."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "         B"
+          },
+          {
+            "chords": "Por fé seguimos ao Senhor",
+            "lyrics": "                   F# "
+          },
+          {
+            "chords": "No Seu caminho de amor,",
+            "lyrics": ""
+          },
+          {
+            "chords": "Amor que mostra a luz divina",
+            "lyrics": "         F#7        B"
+          },
+          {
+            "chords": "E nos conduz ao Criador.",
+            "lyrics": ""
+          },
+          {
+            "chords": "Feliz será quem o provar,",
+            "lyrics": "           B7              E "
+          },
+          {
+            "chords": "Pois é_um amor que não tem par;",
+            "lyrics": "        F°            B"
+          },
+          {
+            "chords": "Amor glorioso, amor sublime,",
+            "lyrics": "        E      F#7    B"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Lembra-te do teu Criador!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                   Am ",
-    "1. Nos dias da tua peregrinação,",
-    "D7                         G",
-    "Usa_o tempo servindo_ao Senhor",
-    "                       Am ",
-    "E, com alegria, cumpre a missão;",
-    "D7                G",
-    "Lembra-te do Criador!",
-    "",
-    "        G      E7           A7 ",
-    "Debaixo do sol    tudo_é vaidade,",
-    "          D7           G  ",
-    "Recorre_a Deus, o Formador;",
-    "                E7        A7 ",
-    "Nos breves dias    da mocidade,",
-    "         D7           G",
-    "Não te esqueças do Senhor!",
-    "",
-    "   G                     Am ",
-    "2. Os preditos dias logo hão de vir,",
-    "D7                          G",
-    "Serve, pois, a Deus, o Formador;",
-    "                         Am ",
-    "“Vinde, ó benditos”, tu irás ouvir",
-    "D7                 G",
-    "De Jesus, teu Redentor.",
-    "",
-    "   G                         Am ",
-    "3. Mesmo tendo, neste mundo, muitos bens",
-    "D7                  G",
-    "E a vida cheia de vigor,",
-    "                          Am ",
-    "É maior a_herança que, na glória, tens",
-    "D7              G",
-    "Com o santo Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                   Am ",
+            "lyrics": "Nos dias da tua peregrinação,"
+          },
+          {
+            "chords": "D7                         G",
+            "lyrics": "Usa_o tempo servindo_ao Senhor"
+          },
+          {
+            "chords": "                       Am ",
+            "lyrics": "E, com alegria, cumpre a missão;"
+          },
+          {
+            "chords": "D7                G",
+            "lyrics": "Lembra-te do Criador!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        G      E7           A7 ",
+            "lyrics": "Debaixo do sol    tudo_é vaidade,"
+          },
+          {
+            "chords": "          D7           G  ",
+            "lyrics": "Recorre_a Deus, o Formador;"
+          },
+          {
+            "chords": "                E7        A7 ",
+            "lyrics": "Nos breves dias    da mocidade,"
+          },
+          {
+            "chords": "         D7           G",
+            "lyrics": "Não te esqueças do Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                     Am ",
+            "lyrics": "Os preditos dias logo hão de vir,"
+          },
+          {
+            "chords": "D7                          G",
+            "lyrics": "Serve, pois, a Deus, o Formador;"
+          },
+          {
+            "chords": "                         Am ",
+            "lyrics": "“Vinde, ó benditos”, tu irás ouvir"
+          },
+          {
+            "chords": "D7                 G",
+            "lyrics": "De Jesus, teu Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                         Am ",
+            "lyrics": "Mesmo tendo, neste mundo, muitos bens"
+          },
+          {
+            "chords": "D7                  G",
+            "lyrics": "E a vida cheia de vigor,"
+          },
+          {
+            "chords": "                          Am ",
+            "lyrics": "É maior a_herança que, na glória, tens"
+          },
+          {
+            "chords": "D7              G",
+            "lyrics": "Com o santo Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

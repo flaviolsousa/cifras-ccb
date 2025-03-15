@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvor a Deus, o Criador",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A             D              A          E ",
-    "1. Louvor a Deus, o Criador, do universo, Regedor;",
-    "  A          D                    A     E     A",
-    "É infinito_o Seu poder, é d´Ele_a força e_o saber.",
-    "     D           A                             E ",
-    "Deus é perfeito, é Amor, está cercado de_esplendor;",
-    "   A              D                   A       E      A",
-    "Os céus nos falam do Seu Ser, tudo_obedece_ao Seu querer.",
-    "",
-    "      A             D                   A           E ",
-    "2. Louvor a Deus, o Criador, por ter mandado_o Redentor;",
-    "  A           D                A         E      A",
-    "O Seu favor sublime é em Jesus Cristo,_Autor da fé;",
-    "      D             A                         E ",
-    "Quem, neste mundo_enganador, obedecer ao Salvador,",
-    "  A          D                       A      E   A",
-    "Receberá, de Deus, perdão, virtude_e paz no coração.",
-    "",
-    "      A             D                   A             E ",
-    "3. Louvor a Deus, o Criador, das sãs promessas, Cumpridor;",
-    "    A            D                 A     E    A",
-    "Por todos nós honrado é e_em nós habita, pela fé;",
-    "   D             A                                  E ",
-    "Ninguém impede_o Criador, com Cristo_e_o bom Consolador,",
-    "   A        D                    A        E     A",
-    "De operar a Seu prazer, pois infinito_é_o Seu poder."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A             D              A          E ",
+            "lyrics": "Louvor a Deus, o Criador, do universo, Regedor;"
+          },
+          {
+            "chords": "  A          D                    A     E     A",
+            "lyrics": "É infinito_o Seu poder, é d´Ele_a força e_o saber."
+          },
+          {
+            "chords": "     D           A                             E ",
+            "lyrics": "Deus é perfeito, é Amor, está cercado de_esplendor;"
+          },
+          {
+            "chords": "   A              D                   A       E      A",
+            "lyrics": "Os céus nos falam do Seu Ser, tudo_obedece_ao Seu querer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A             D                   A           E ",
+            "lyrics": "Louvor a Deus, o Criador, por ter mandado_o Redentor;"
+          },
+          {
+            "chords": "  A           D                A         E      A",
+            "lyrics": "O Seu favor sublime é em Jesus Cristo,_Autor da fé;"
+          },
+          {
+            "chords": "      D             A                         E ",
+            "lyrics": "Quem, neste mundo_enganador, obedecer ao Salvador,"
+          },
+          {
+            "chords": "  A          D                       A      E   A",
+            "lyrics": "Receberá, de Deus, perdão, virtude_e paz no coração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   A             D                   A             E ",
+            "lyrics": "Louvor a Deus, o Criador, das sãs promessas, Cumpridor;"
+          },
+          {
+            "chords": "    A            D                 A     E    A",
+            "lyrics": "Por todos nós honrado é e_em nós habita, pela fé;"
+          },
+          {
+            "chords": "   D             A                                  E ",
+            "lyrics": "Ninguém impede_o Criador, com Cristo_e_o bom Consolador,"
+          },
+          {
+            "chords": "   A        D                    A        E     A",
+            "lyrics": "De operar a Seu prazer, pois infinito_é_o Seu poder."
+          }
+        ]
+      }
+    ]
+  }
 }

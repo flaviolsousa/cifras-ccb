@@ -1,27 +1,65 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tu, que vives sem destino",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G        D    D7     G          Am        G    D ",
-    "1. Tu, que vives sem destino neste mundo de perdição,",
-    " G     D          D7    G         Am        D         G",
-    "Vem a Cristo, que te concede salvação, verdadeiro perdão.",
-    "",
-    "   G          D      D7  G           Am       G      D ",
-    "2. Tu, que_estás sem esperança neste mundo cruel de dor,",
-    " G     D       D7     G             Am         D      G",
-    "Vem a Cristo e não vaciles, pois te chama com grande amor.",
-    "",
-    "    G     D     D7   G               Am      G    D ",
-    "3. Deixa Cristo conduzir-te, segue_a Ele com devoção;",
-    "G     D      D7   G            Am          D        G",
-    "É só Ele_o real Caminho, é o_Autor da_eternal redenção.",
-    "",
-    "    G  D     D7     G           Am        G     D ",
-    "4. Pecadores fomos todos, mas Jesus veio nos salvar",
-    " G        D      D7   G          Am      D        G",
-    "Para,_um dia, na Sua glória, a coroa da vida nos dar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G        D    D7     G          Am        G    D ",
+            "lyrics": "Tu, que vives sem destino neste mundo de perdição,"
+          },
+          {
+            "chords": " G     D          D7    G         Am        D         G",
+            "lyrics": "Vem a Cristo, que te concede salvação, verdadeiro perdão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G          D      D7  G           Am       G      D ",
+            "lyrics": "Tu, que_estás sem esperança neste mundo cruel de dor,"
+          },
+          {
+            "chords": " G     D       D7     G             Am         D      G",
+            "lyrics": "Vem a Cristo e não vaciles, pois te chama com grande amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " G     D     D7   G               Am      G    D ",
+            "lyrics": "Deixa Cristo conduzir-te, segue_a Ele com devoção;"
+          },
+          {
+            "chords": "G     D      D7   G            Am          D        G",
+            "lyrics": "É só Ele_o real Caminho, é o_Autor da_eternal redenção."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": " G  D     D7     G           Am        G     D ",
+            "lyrics": "Pecadores fomos todos, mas Jesus veio nos salvar"
+          },
+          {
+            "chords": " G        D      D7   G          Am      D        G",
+            "lyrics": "Para,_um dia, na Sua glória, a coroa da vida nos dar."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vinde às fileiras",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B          E  B               F#7 ",
-    "1. Vinde às fileiras do bom Salvador,",
-    "             B      E     C#   F# ",
-    "Que vos cingirá com armas de valor,",
-    "B         F#7                B",
-    "Para combaterdes em nenhum temor",
-    "E      F#7  B     E     F#7    B",
-    "Contra o  pecado, com todo_o vigor.",
-    "",
-    "   B               E  B              F#7 ",
-    "2. Cristo, sobre_a morte, foi o Vencedor,",
-    "            B       E   C#    F# ",
-    "Sendo, do sepulcro, o Suplantador;",
-    "B           F#7                    B",
-    "Sem nenhuma culpa, sobre_a cruz morreu,",
-    "E      F#7    B    E    F#7    B",
-    "Mas, vitori - oso, retornou ao céu.",
-    "",
-    "   B             E  B              F#7 ",
-    "3. Cristo, nosso Mestre, Guia celestial,",
-    "             B     E    C#     F# ",
-    "É Quem nos defende do poder do mal;",
-    "B             F#7            B",
-    "Sempre resplandece com a Sua luz,",
-    "E     F#7   B     E      F#7    B",
-    "Na gloriosa senda que ao céu conduz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B          E  B               F#7 ",
+            "lyrics": "Vinde às fileiras do bom Salvador,"
+          },
+          {
+            "chords": "             B      E     C#   F# ",
+            "lyrics": "Que vos cingirá com armas de valor,"
+          },
+          {
+            "chords": "B         F#7                B",
+            "lyrics": "Para combaterdes em nenhum temor"
+          },
+          {
+            "chords": "E      F#7  B     E     F#7    B",
+            "lyrics": "Contra o  pecado, com todo_o vigor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B               E  B              F#7 ",
+            "lyrics": "Cristo, sobre_a morte, foi o Vencedor,"
+          },
+          {
+            "chords": "            B       E   C#    F# ",
+            "lyrics": "Sendo, do sepulcro, o Suplantador;"
+          },
+          {
+            "chords": "B           F#7                    B",
+            "lyrics": "Sem nenhuma culpa, sobre_a cruz morreu,"
+          },
+          {
+            "chords": "E      F#7    B    E    F#7    B",
+            "lyrics": "Mas, vitori - oso, retornou ao céu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B             E  B              F#7 ",
+            "lyrics": "Cristo, nosso Mestre, Guia celestial,"
+          },
+          {
+            "chords": "             B     E    C#     F# ",
+            "lyrics": "É Quem nos defende do poder do mal;"
+          },
+          {
+            "chords": "B             F#7            B",
+            "lyrics": "Sempre resplandece com a Sua luz,"
+          },
+          {
+            "chords": "E     F#7   B     E      F#7    B",
+            "lyrics": "Na gloriosa senda que ao céu conduz."
+          }
+        ]
+      }
+    ]
+  }
 }

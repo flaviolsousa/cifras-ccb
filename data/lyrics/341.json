@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Com fé espera no Senhor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "       D         G            D               A ",
-    "1. Com fé espera no Senhor em tuas provas, também na dor;",
-    "  D               G           D             A     D",
-    "Paciência_e paz alcançarás do teu amado_e fiel Senhor.",
-    "                                                A... ",
-    "Jesus virá te socorrer; é grande,_eterno, Seu poder.",
-    "    D         G     G...   D            A      D   D... ",
-    "Com fé espera no Senhor; somente Ele te faz vencer.",
-    "",
-    "    D             G          D           A ",
-    "2. Orando, sempre sentirás a Sua doce consolação;",
-    "  D           G          D              A   D",
-    "Jesus te fortalecerá; suster-te-á com a Sua mão;",
-    "                                            A... ",
-    "As tuas causas o Senhor resolverá, por Seu amor.",
-    "    D         G     G...     D            A    D   D...",
-    "Com fé espera no Senhor, com fé espera no Salvador.",
-    "",
-    "      D          G              D             A ",
-    "3. O que recebes do Senhor, com zelo deves em ti guardar;",
-    "  D         G            D               A     D",
-    "À tua mão direita_está o teu Pastor para te guiar;",
-    "                                            A... ",
-    "Depois ao céu te levará, em glória te receberá.",
-    "    D         G     G...   D              A     D   D...",
-    "Com fé espera no Senhor; o teu desejo_ele cumprirá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    D         G            D               A ",
+            "lyrics": "Com fé espera no Senhor em tuas provas, também na dor;"
+          },
+          {
+            "chords": "  D               G           D             A     D",
+            "lyrics": "Paciência_e paz alcançarás do teu amado_e fiel Senhor."
+          },
+          {
+            "chords": "                                                A... ",
+            "lyrics": "Jesus virá te socorrer; é grande,_eterno, Seu poder."
+          },
+          {
+            "chords": "    D         G     G...   D            A      D   D... ",
+            "lyrics": "Com fé espera no Senhor; somente Ele te faz vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D             G          D           A ",
+            "lyrics": "Orando, sempre sentirás a Sua doce consolação;"
+          },
+          {
+            "chords": "  D           G          D              A   D",
+            "lyrics": "Jesus te fortalecerá; suster-te-á com a Sua mão;"
+          },
+          {
+            "chords": "                                            A... ",
+            "lyrics": "As tuas causas o Senhor resolverá, por Seu amor."
+          },
+          {
+            "chords": "    D         G     G...     D            A    D   D...",
+            "lyrics": "Com fé espera no Senhor, com fé espera no Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   D          G              D             A ",
+            "lyrics": "O que recebes do Senhor, com zelo deves em ti guardar;"
+          },
+          {
+            "chords": "  D         G            D               A     D",
+            "lyrics": "À tua mão direita_está o teu Pastor para te guiar;"
+          },
+          {
+            "chords": "                                            A... ",
+            "lyrics": "Depois ao céu te levará, em glória te receberá."
+          },
+          {
+            "chords": "    D         G     G...   D              A     D   D...",
+            "lyrics": "Com fé espera no Senhor; o teu desejo_ele cumprirá."
+          }
+        ]
+      }
+    ]
+  }
 }

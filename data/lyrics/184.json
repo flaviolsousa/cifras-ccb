@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nós Te louvamos, por fé, grande Deus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G         Am     Em  D           G",
-    "1. Nós Te louvamos, por fé, grande Deus,",
-    "                 C     A7   D ",
-    "E imploramos Teu santo fa - vor;",
-    "      E7  Am    D   G  ",
-    "Anjos Te  lou - vam lá nos céus",
-    "C        G      C    D      G",
-    "E nós também Te da - mos louvor.",
-    "",
-    "   G         Am    Em  D         G",
-    "2. Salva Teu povo, ó   Deus, Criador,",
-    "                     C    A7   D ",
-    "Pelo Teu grande,_infinito po - der;",
-    "       E7   Am  D  G  ",
-    "Dá-nos mais fé, maior vigor,",
-    "C           G       C    D      G",
-    "Para que,_o mal, possa - mos vencer.",
-    "",
-    "   G         Am    Em  D        G",
-    "3. Venha Teu reino e - terno de paz",
-    "                    C     A7   D ",
-    "Sobre Teus santos fiéis domi - nar;",
-    "     E7   Am   D   G",
-    "Pela Pa – la - vra eficaz",
-    "C        G       C  D       G",
-    "Tu nos farás, na glória, entrar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G         Am     Em  D           G",
+            "lyrics": "Nós Te louvamos, por fé, grande Deus,"
+          },
+          {
+            "chords": "                 C     A7   D ",
+            "lyrics": "E imploramos Teu santo fa - vor;"
+          },
+          {
+            "chords": "      E7  Am    D   G  ",
+            "lyrics": "Anjos Te  lou - vam lá nos céus"
+          },
+          {
+            "chords": "C        G      C    D      G",
+            "lyrics": "E nós também Te da - mos louvor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G         Am    Em  D         G",
+            "lyrics": "Salva Teu povo, ó   Deus, Criador,"
+          },
+          {
+            "chords": "                     C    A7   D ",
+            "lyrics": "Pelo Teu grande,_infinito po - der;"
+          },
+          {
+            "chords": "       E7   Am  D  G  ",
+            "lyrics": "Dá-nos mais fé, maior vigor,"
+          },
+          {
+            "chords": "C           G       C    D      G",
+            "lyrics": "Para que,_o mal, possa - mos vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G         Am    Em  D        G",
+            "lyrics": "Venha Teu reino e - terno de paz"
+          },
+          {
+            "chords": "                    C     A7   D ",
+            "lyrics": "Sobre Teus santos fiéis domi - nar;"
+          },
+          {
+            "chords": "     E7   Am   D   G",
+            "lyrics": "Pela Pa – la - vra eficaz"
+          },
+          {
+            "chords": "C        G       C  D       G",
+            "lyrics": "Tu nos farás, na glória, entrar."
+          }
+        ]
+      }
+    ]
+  }
 }

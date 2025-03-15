@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó irmãos, com Cristo avante",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G                 D      G           D        G",
-    "1. Ó irmãos, com Cristo avante, todo_o mal iremos vencer;",
-    "                  D      G           D      G",
-    "Com a Sua mão poderosa, não nos deixará perecer;",
-    "D      G     D         G           Em     Am  D ",
-    "Quando lutas nós enfrentarmos, o Senhor pelejará;",
-    "G                D       G          D        G  G...",
-    "O Seu Nome invocaremos; Seu socorro nos mandará.",
-    "",
-    "          G              D      G            D      G",
-    "2. Quando fracos nós estivermos e sem forças para lutar,",
-    "                     D      G            D     G",
-    "Pela fé nós prosseguiremos, pois Jesus virá ajudar;",
-    "D          G     D          G          Em    Am   D ",
-    "Cristo_é_a nossa grande_Esperança, é a nossa Salvação;",
-    "G                      D      G             D      G   G...",
-    "N´Ele_encontraremos as forças para_estarmos em retidão.",
-    "",
-    "          G               D     G          D         G",
-    "3. Muitas provas nesta jornada nós teremos que enfrentar,",
-    "                     D      G          D        G",
-    "Mas Jesus, o Mestre amado, nos fará ao fim triunfar.",
-    "D     G     D       G        Em    Am   D ",
-    "Sendo nossa vida guiada pelo sábio Condutor,",
-    "G                   D     G         D            G   G...",
-    "Certamente nós chegaremos ao eterno lar de_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G                 D      G           D        G",
+            "lyrics": "Ó irmãos, com Cristo avante, todo_o mal iremos vencer;"
+          },
+          {
+            "chords": "                  D      G           D      G",
+            "lyrics": "Com a Sua mão poderosa, não nos deixará perecer;"
+          },
+          {
+            "chords": "D      G     D         G           Em     Am  D ",
+            "lyrics": "Quando lutas nós enfrentarmos, o Senhor pelejará;"
+          },
+          {
+            "chords": "G                D       G          D        G  G...",
+            "lyrics": "O Seu Nome invocaremos; Seu socorro nos mandará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G              D      G            D      G",
+            "lyrics": "Quando fracos nós estivermos e sem forças para lutar,"
+          },
+          {
+            "chords": "                     D      G            D     G",
+            "lyrics": "Pela fé nós prosseguiremos, pois Jesus virá ajudar;"
+          },
+          {
+            "chords": "D          G     D          G          Em    Am   D ",
+            "lyrics": "Cristo_é_a nossa grande_Esperança, é a nossa Salvação;"
+          },
+          {
+            "chords": "G                      D      G             D      G   G...",
+            "lyrics": "N´Ele_encontraremos as forças para_estarmos em retidão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       G               D     G          D         G",
+            "lyrics": "Muitas provas nesta jornada nós teremos que enfrentar,"
+          },
+          {
+            "chords": "                     D      G          D        G",
+            "lyrics": "Mas Jesus, o Mestre amado, nos fará ao fim triunfar."
+          },
+          {
+            "chords": "D     G     D       G        Em    Am   D ",
+            "lyrics": "Sendo nossa vida guiada pelo sábio Condutor,"
+          },
+          {
+            "chords": "G                   D     G         D            G   G...",
+            "lyrics": "Certamente nós chegaremos ao eterno lar de_esplendor."
+          }
+        ]
+      }
+    ]
+  }
 }

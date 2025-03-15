@@ -1,29 +1,76 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vem, ó divino Mestre",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A              E                     A",
-    "1. Senhor Jesus, bom Redentor, envia Teu poder;",
-    "                   B                         E",
-    "Reveste_os santos Teus, Senhor, de força e saber.",
-    "",
-    "     A",
-    "Vem, ó divino Mestre,",
-    "A7   D           A",
-    "Dá - nos saber celeste;",
-    "    D          A   A...  D      E4  E      A",
-    "Nós somos pequeni-nos,   mas Tu és  nosso Rei.",
-    "",
-    "      A            E                      A",
-    "2. Jesus, Cordeiro divinal, imenso_é Teu amor;",
-    "               B                     E",
-    "E nesse_amor celestial vivemos, ó Senhor.",
-    "",
-    "       A            E                            A",
-    "3. Nas nuvens, ó Senhor Jesus, queremos Te_encontrar",
-    "                B                      E",
-    "E, no glorioso lar de luz, Contigo habitar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A              E                     A",
+            "lyrics": "Senhor Jesus, bom Redentor, envia Teu poder;"
+          },
+          {
+            "chords": "                   B                         E",
+            "lyrics": "Reveste_os santos Teus, Senhor, de força e saber."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Vem, ó divino Mestre,"
+          },
+          {
+            "chords": "A7   D           A",
+            "lyrics": "Dá - nos saber celeste;"
+          },
+          {
+            "chords": "    D          A   A...  D      E4  E      A",
+            "lyrics": "Nós somos pequeni-nos,   mas Tu és  nosso Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A            E                      A",
+            "lyrics": "Jesus, Cordeiro divinal, imenso_é Teu amor;"
+          },
+          {
+            "chords": "               B                     E",
+            "lyrics": "E nesse_amor celestial vivemos, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A            E                            A",
+            "lyrics": "Nas nuvens, ó Senhor Jesus, queremos Te_encontrar"
+          },
+          {
+            "chords": "                B                      E",
+            "lyrics": "E, no glorioso lar de luz, Contigo habitar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O meu ser entrego a Cristo",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D           A7              D            A7   D",
-    "1. O meu ser entrego_a Cristo, d´Ele sempre eu serei;",
-    "        A7            D        A7  D",
-    "Ele é o sábio Mestre, só a Ele ouvirei.",
-    "",
-    "D            Em  A7        D",
-    "Cristo me salvou e me perdoou;",
-    "                  G      A7          D",
-    "O meu ser a Ele_entrego, servo d´Ele sou.",
-    "",
-    "   D           A7              D            A7    D",
-    "2. O meu ser entrego_a Cristo, sempre_a Ele ama - rei;",
-    "              A7           D          A7   D",
-    "Cristo é_o Pastor celeste, n´Ele me deleitarei.",
-    "",
-    "   D           A7              D           A7      D",
-    "3. O meu ser entrego_a Cristo, perto d´Ele quero_estar;",
-    "            A7       D               A7   D",
-    "Seu poder é infinito para,_à glória, me levar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D           A7              D            A7   D",
+            "lyrics": "O meu ser entrego_a Cristo, d´Ele sempre eu serei;"
+          },
+          {
+            "chords": "        A7            D        A7  D",
+            "lyrics": "Ele é o sábio Mestre, só a Ele ouvirei."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D            Em  A7        D",
+            "lyrics": "Cristo me salvou e me perdoou;"
+          },
+          {
+            "chords": "                  G      A7          D",
+            "lyrics": "O meu ser a Ele_entrego, servo d´Ele sou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D           A7              D            A7    D",
+            "lyrics": "O meu ser entrego_a Cristo, sempre_a Ele ama - rei;"
+          },
+          {
+            "chords": "              A7           D          A7   D",
+            "lyrics": "Cristo é_o Pastor celeste, n´Ele me deleitarei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D           A7              D           A7      D",
+            "lyrics": "O meu ser entrego_a Cristo, perto d´Ele quero_estar;"
+          },
+          {
+            "chords": "            A7       D               A7   D",
+            "lyrics": "Seu poder é infinito para,_à glória, me levar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

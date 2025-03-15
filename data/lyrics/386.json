@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Pela morte de Jesus",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C             D#°  G7                      C",
-    "1. Pela morte de Je - sus, deu-nos vida_o Criador,",
-    "             F           C        G7        C",
-    "Trouxe paz e trouxe luz, nosso bendito Salvador.",
-    "",
-    "C                    G7",
-    "Não foi com ouro que Cristo nos comprou,",
-    "                      C",
-    "Mas com Seu sangue preciso_e remidor,",
-    "                  F ",
-    "E, por Sua graça, nos vivificou;",
-    "D7          C         G7   C",
-    "Somos co-herdeiros do Redentor.",
-    "",
-    "   C             D#°  G7                     C",
-    "2. Sua graça nos do - ou, Jesus Cristo, o Senhor;",
-    "            F          C        G7           C",
-    "Dos pecados nos lavou; vamos servi-Lo com fervor.",
-    "",
-    "   C                 D#°  G7                      C",
-    "3. Honra_e glória ao Se - nhor, o Autor de todo_o bem,",
-    "                F        C     G7        C",
-    "Que nos guia_ao Criador, à eternal Jerusalém."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C             D#°  G7                      C",
+            "lyrics": "Pela morte de Je - sus, deu-nos vida_o Criador,"
+          },
+          {
+            "chords": "             F           C        G7        C",
+            "lyrics": "Trouxe paz e trouxe luz, nosso bendito Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                    G7",
+            "lyrics": "Não foi com ouro que Cristo nos comprou,"
+          },
+          {
+            "chords": "                      C",
+            "lyrics": "Mas com Seu sangue preciso_e remidor,"
+          },
+          {
+            "chords": "                  F ",
+            "lyrics": "E, por Sua graça, nos vivificou;"
+          },
+          {
+            "chords": "D7          C         G7   C",
+            "lyrics": "Somos co-herdeiros do Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C             D#°  G7                     C",
+            "lyrics": "Sua graça nos do - ou, Jesus Cristo, o Senhor;"
+          },
+          {
+            "chords": "            F          C        G7           C",
+            "lyrics": "Dos pecados nos lavou; vamos servi-Lo com fervor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                 D#°  G7                      C",
+            "lyrics": "Honra_e glória ao Se - nhor, o Autor de todo_o bem,"
+          },
+          {
+            "chords": "                F        C     G7        C",
+            "lyrics": "Que nos guia_ao Criador, à eternal Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

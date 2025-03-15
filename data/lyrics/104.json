@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Santo, Santo és, Senhor",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "     F",
-    "1. A Ti, ó Senhor, tributamos louvor,",
-    "                             C  G  C",
-    "Honra_e glória por Teu infinito fa-vor.",
-    "",
-    "F                                        C",
-    "Santo, Santo és, Senhor; Santo, Santo és Tu;",
-    "F                        Bb  C      F    F...",
-    "Só a Ti todo_o louvor perten-ce, Senhor.",
-    "",
-    "    F",
-    "2. Amado Jesus, celestial Rei dos reis,",
-    "                                 C   G  C",
-    "Brevemente_estarão, junto_a Ti, Teus fi-éis.",
-    "",
-    "      F",
-    "3. Em breve no céus, Teus remidos, Senhor,",
-    "                          C  G   C",
-    "Viverão para sempre no reino de_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  F",
+            "lyrics": "A Ti, ó Senhor, tributamos louvor,"
+          },
+          {
+            "chords": "                             C  G  C",
+            "lyrics": "Honra_e glória por Teu infinito fa-vor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F                                        C",
+            "lyrics": "Santo, Santo és, Senhor; Santo, Santo és Tu;"
+          },
+          {
+            "chords": "F                        Bb  C      F    F...",
+            "lyrics": "Só a Ti todo_o louvor perten-ce, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " F",
+            "lyrics": "Amado Jesus, celestial Rei dos reis,"
+          },
+          {
+            "chords": "                                 C   G  C",
+            "lyrics": "Brevemente_estarão, junto_a Ti, Teus fi-éis."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   F",
+            "lyrics": "Em breve no céus, Teus remidos, Senhor,"
+          },
+          {
+            "chords": "                          C  G   C",
+            "lyrics": "Viverão para sempre no reino de_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

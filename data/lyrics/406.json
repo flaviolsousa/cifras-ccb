@@ -1,37 +1,79 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A voz de Cristo te convida: Vem!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G                   C     G                      D",
-    "1. A voz de Cristo te convida: Vem! Sedento,_a Cristo vem!",
-    "   G                C    G",
-    "Chamando continua_o Salvador,",
-    "   Em    D   G",
-    "Ao homem pecador.",
-    "",
-    "G                      C     G",
-    "Glória_ao grande_e poderoso Deus,",
-    "                  A7       D",
-    "Que mandou a redenção dos céus",
-    "G                 C      G",
-    "Em Jesus, a Fonte do perdão,",
-    " D           G",
-    "Eterna Salvação.",
-    "",
-    "     G                  C    G              D",
-    "2. Sedentos, vinde ao Manancial de vida eternal;",
-    "     G                 C   G",
-    "Quem ao convite não se recusar,",
-    "    Em      D     G",
-    "Com Cristo_irá reinar.",
-    "",
-    "         G                   C    G                   D",
-    "3. Quem quer à glória ir com o Senhor e ver Seu esplendor,",
-    "   G               C     G ",
-    "Contrito, deve receber a luz",
-    "   Em    D     G",
-    "Provinda de Jesus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G                   C     G                      D",
+            "lyrics": "A voz de Cristo te convida: Vem! Sedento,_a Cristo vem!"
+          },
+          {
+            "chords": "   G                C    G",
+            "lyrics": "Chamando continua_o Salvador,"
+          },
+          {
+            "chords": "   Em    D   G",
+            "lyrics": "Ao homem pecador."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "G                      C     G"
+          },
+          {
+            "chords": "Glória_ao grande_e poderoso Deus,",
+            "lyrics": "                  A7       D"
+          },
+          {
+            "chords": "Que mandou a redenção dos céus",
+            "lyrics": "G                 C      G"
+          },
+          {
+            "chords": "Em Jesus, a Fonte do perdão,",
+            "lyrics": " D           G"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G                  C    G              D",
+            "lyrics": "Sedentos, vinde ao Manancial de vida eternal;"
+          },
+          {
+            "chords": "     G                 C   G",
+            "lyrics": "Quem ao convite não se recusar,"
+          },
+          {
+            "chords": "    Em      D     G",
+            "lyrics": "Com Cristo_irá reinar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      G                   C    G                   D",
+            "lyrics": "Quem quer à glória ir com o Senhor e ver Seu esplendor,"
+          },
+          {
+            "chords": "   G               C     G ",
+            "lyrics": "Contrito, deve receber a luz"
+          },
+          {
+            "chords": "   Em    D     G",
+            "lyrics": "Provinda de Jesus."
+          }
+        ]
+      }
+    ]
+  }
 }

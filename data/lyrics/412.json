@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, recordamos aqui...",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "      F         C       F",
-    "1. Senhor, recordamos aqui",
-    "  Bb       F       C",
-    "O Teu sacrifício atroz;",
-    "            F         C         F",
-    "Partindo o pão nos lembramos de Ti;",
-    "           C           F    F...",
-    "Martírio sofreste por nós.",
-    "",
-    "     F      C          F",
-    "2. O cálix nos dá comunhão",
-    "   Bb          F         C",
-    "Do Teu sangue, Cristo Jesus;",
-    "           F       C        F",
-    "Somente em Ti há real salvação,",
-    "               C          F    F...",
-    "Tu és Quem ao céu nos conduz.",
-    "",
-    "       F           C      F",
-    "3. Faz-nos dignos, ó Redentor,",
-    "   Bb     F       C",
-    "Da celestial comunhão",
-    "               F         C         F",
-    "Do Teu corpo_e sangue precioso, Senhor;",
-    "             C        F    F...",
-    "Conserva-nos nesta_união."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   F         C       F",
+            "lyrics": "Senhor, recordamos aqui"
+          },
+          {
+            "chords": "  Bb       F       C",
+            "lyrics": "O Teu sacrifício atroz;"
+          },
+          {
+            "chords": "            F         C         F",
+            "lyrics": "Partindo o pão nos lembramos de Ti;"
+          },
+          {
+            "chords": "           C           F    F...",
+            "lyrics": "Martírio sofreste por nós."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  F      C          F",
+            "lyrics": "O cálix nos dá comunhão"
+          },
+          {
+            "chords": "   Bb          F         C",
+            "lyrics": "Do Teu sangue, Cristo Jesus;"
+          },
+          {
+            "chords": "           F       C        F",
+            "lyrics": "Somente em Ti há real salvação,"
+          },
+          {
+            "chords": "               C          F    F...",
+            "lyrics": "Tu és Quem ao céu nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    F           C      F",
+            "lyrics": "Faz-nos dignos, ó Redentor,"
+          },
+          {
+            "chords": "   Bb     F       C",
+            "lyrics": "Da celestial comunhão"
+          },
+          {
+            "chords": "               F         C         F",
+            "lyrics": "Do Teu corpo_e sangue precioso, Senhor;"
+          },
+          {
+            "chords": "             C        F    F...",
+            "lyrics": "Conserva-nos nesta_união."
+          }
+        ]
+      }
+    ]
+  }
 }

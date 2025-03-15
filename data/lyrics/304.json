@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo é a Esperança",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E    B                               E",
-    "1. Tu - do_é vaidade neste mundo de_ilusão;",
-    "E7    A       B                 E",
-    "Gló - rias terrenas breve findarão.",
-    "             A     F#     B        E",
-    "É_um vapor a vida, que se desvanecerá;",
-    "              A       B               E",
-    "A_esperança_é Cristo; n´Ele_a graça_está.",
-    "",
-    "E              B ",
-    "Cristo é a_Esperança,",
-    "                  E",
-    "É do mundo_o Redentor;",
-    "      C#      F#m ",
-    "N´Ele há confiança,",
-    "B            E",
-    "Vida, paz e_amor.",
-    "",
-    "   E    B                                 E",
-    "2. So - bre a terra há tristeza,_inquietação,",
-    "E7   A      B               E",
-    "Do - res, enfado e perturbação;",
-    "              A      F#    B           E",
-    "Não há paz no mundo, neste mundo_enganador;",
-    "              A       B           E",
-    "A_esperança_é Cristo, nosso Benfeitor.",
-    "",
-    "   E  B                             E",
-    "3. De Deus a ira sobre_a terra descerá",
-    "E7  A     B              E",
-    "E,  nesse dia, tudo findará;",
-    "            A      F#   B           E",
-    "Nada, deste mundo, pode dar a salvação;",
-    "              A       B           E",
-    "A_esperança_é Cristo, nossa Redenção."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E    B                               E",
+            "lyrics": "Tu - do_é vaidade neste mundo de_ilusão;"
+          },
+          {
+            "chords": "E7    A       B                 E",
+            "lyrics": "Gló - rias terrenas breve findarão."
+          },
+          {
+            "chords": "             A     F#     B        E",
+            "lyrics": "É_um vapor a vida, que se desvanecerá;"
+          },
+          {
+            "chords": "              A       B               E",
+            "lyrics": "A_esperança_é Cristo; n´Ele_a graça_está."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "E              B "
+          },
+          {
+            "chords": "Cristo é a_Esperança,",
+            "lyrics": "                  E"
+          },
+          {
+            "chords": "É do mundo_o Redentor;",
+            "lyrics": "      C#      F#m "
+          },
+          {
+            "chords": "N´Ele há confiança,",
+            "lyrics": "B            E"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E    B                                 E",
+            "lyrics": "So - bre a terra há tristeza,_inquietação,"
+          },
+          {
+            "chords": "E7   A      B               E",
+            "lyrics": "Do - res, enfado e perturbação;"
+          },
+          {
+            "chords": "              A      F#    B           E",
+            "lyrics": "Não há paz no mundo, neste mundo_enganador;"
+          },
+          {
+            "chords": "              A       B           E",
+            "lyrics": "A_esperança_é Cristo, nosso Benfeitor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E  B                             E",
+            "lyrics": "De Deus a ira sobre_a terra descerá"
+          },
+          {
+            "chords": "E7  A     B              E",
+            "lyrics": "E,  nesse dia, tudo findará;"
+          },
+          {
+            "chords": "            A      F#   B           E",
+            "lyrics": "Nada, deste mundo, pode dar a salvação;"
+          },
+          {
+            "chords": "              A       B           E",
+            "lyrics": "A_esperança_é Cristo, nossa Redenção."
+          }
+        ]
+      }
+    ]
+  }
 }

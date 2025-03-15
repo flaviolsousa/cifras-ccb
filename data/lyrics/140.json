@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sou feliz",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F",
-    "1. Vou marchando para_a glória,",
-    "                   C ",
-    "Para_o país celestial;",
-    "A    Dm          F",
-    "Em Jesus terei vitória",
-    "C            F",
-    "E a vida eternal.",
-    "",
-    "      F          C ",
-    "Sou feliz, sou feliz,",
-    "                                   F",
-    "Pois achei Quem me conduz ao meu país;",
-    "                   C ",
-    "Mais feliz, mais feliz",
-    "                                 F",
-    "Eu serei quando_estiver no meu país.",
-    "",
-    "   F",
-    "2. É glorioso_e inefável",
-    "                  C ",
-    "O meu país celestial,",
-    "A    Dm          F",
-    "De riqueza_inigualável",
-    "C               F",
-    "E de glória perenal.",
-    "",
-    "   F",
-    "3. Todos nos separaremos,",
-    "                   C ",
-    "Aqui no mundo de labor,",
-    "A      Dm         F",
-    "Mas ao fim nos uniremos",
-    "C                F",
-    "No país de esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Vou marchando para_a glória,"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Para_o país celestial;"
+          },
+          {
+            "chords": "A    Dm          F",
+            "lyrics": "Em Jesus terei vitória"
+          },
+          {
+            "chords": "C            F",
+            "lyrics": "E a vida eternal."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      F          C ",
+            "lyrics": "Sou feliz, sou feliz,"
+          },
+          {
+            "chords": "                                   F",
+            "lyrics": "Pois achei Quem me conduz ao meu país;"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Mais feliz, mais feliz"
+          },
+          {
+            "chords": "                                 F",
+            "lyrics": "Eu serei quando_estiver no meu país."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "É glorioso_e inefável"
+          },
+          {
+            "chords": "                  C ",
+            "lyrics": "O meu país celestial,"
+          },
+          {
+            "chords": "A    Dm          F",
+            "lyrics": "De riqueza_inigualável"
+          },
+          {
+            "chords": "C               F",
+            "lyrics": "E de glória perenal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Todos nos separaremos,"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Aqui no mundo de labor,"
+          },
+          {
+            "chords": "A      Dm         F",
+            "lyrics": "Mas ao fim nos uniremos"
+          },
+          {
+            "chords": "C                F",
+            "lyrics": "No país de esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, por Teu poder",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "      F",
-    "1. Senhor, por Teu poder, vem nos conceder",
-    "                         C ",
-    "Celestial ciência, ó Criador;",
-    "  F          ",
-    "Aqui nos encontramos para_aprender",
-    "                   Bb    C   F",
-    "A Tua sã doutrina, cheia de_amor.",
-    "",
-    "  C             F",
-    "A Tua igreja Te roga, ó Deus:",
-    "  C                 F",
-    "Envia, do alto, Teu Consolador;",
-    "",
-    "Em nossos corações desperta_o fervor,",
-    "                   Bb   C    F",
-    "Assim caminharemos rumo aos céus.",
-    "",
-    "      F",
-    "2. Os nossos corações conheces, ó Deus;",
-    "                                C ",
-    "Em comunhão Contigo_estamos, Senhor;",
-    "   F",
-    "Tu prometeste, para todos os Teus,",
-    "                     Bb   C    F",
-    "O Teu divino_e santo Consola - dor.",
-    "",
-    "       F",
-    "3. Com Teus conselhos santos vem ensinar",
-    "                                C ",
-    "Teus filhos muito_amados, ó Criador;",
-    "  F",
-    "O nosso_entendimento vem renovar",
-    "                     Bb      C   F",
-    "E faz-nos meditar no Teu grande_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   F",
+            "lyrics": "Senhor, por Teu poder, vem nos conceder"
+          },
+          {
+            "chords": "                         C ",
+            "lyrics": "Celestial ciência, ó Criador;"
+          },
+          {
+            "chords": "  F          ",
+            "lyrics": "Aqui nos encontramos para_aprender"
+          },
+          {
+            "chords": "                   Bb    C   F",
+            "lyrics": "A Tua sã doutrina, cheia de_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  C             F",
+            "lyrics": "A Tua igreja Te roga, ó Deus:"
+          },
+          {
+            "chords": "  C                 F",
+            "lyrics": "Envia, do alto, Teu Consolador;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Em nossos corações desperta_o fervor,"
+          },
+          {
+            "chords": "                   Bb   C    F",
+            "lyrics": "Assim caminharemos rumo aos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   F",
+            "lyrics": "Os nossos corações conheces, ó Deus;"
+          },
+          {
+            "chords": "                                C ",
+            "lyrics": "Em comunhão Contigo_estamos, Senhor;"
+          },
+          {
+            "chords": "   F",
+            "lyrics": "Tu prometeste, para todos os Teus,"
+          },
+          {
+            "chords": "                     Bb   C    F",
+            "lyrics": "O Teu divino_e santo Consola - dor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    F",
+            "lyrics": "Com Teus conselhos santos vem ensinar"
+          },
+          {
+            "chords": "                                C ",
+            "lyrics": "Teus filhos muito_amados, ó Criador;"
+          },
+          {
+            "chords": "  F",
+            "lyrics": "O nosso_entendimento vem renovar"
+          },
+          {
+            "chords": "                     Bb      C   F",
+            "lyrics": "E faz-nos meditar no Teu grande_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

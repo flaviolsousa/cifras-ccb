@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Olha a Cristo, o Redentor",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C              F      C",
-    "1. Olha a Cristo, o Redentor,",
-    "G                      C",
-    "E não desprezes o Seu amor;",
-    "                  F ",
-    "Só por Seu sangue Deus dá mercê",
-    "       C        F   G    C",
-    "E salvação, que vêm pela fé.",
-    "",
-    "      C",
-    "Por Jesus, receberás",
-    "     G               C",
-    "O perdão e_a paz dos céus;",
-    "                  F ",
-    "O Seu sangue livrará",
-    "    C       G      C",
-    "Tua alma da ira de Deus.",
-    "",
-    "   C              F      C",
-    "2. Por Sua graça, o Salvador",
-    "G                         C",
-    "Quer conceder-te grande favor;",
-    "              F ",
-    "Ele te chama, vem sem tardar,",
-    "           C      F  G   C",
-    "Vem no Seu sangue te abrigar.",
-    "",
-    "   C                F         C",
-    "3. Sem o Seu sangue não há perdão,",
-    "G                           C",
-    "Não há, com Deus, reconciliação;",
-    "                 F ",
-    "Das obras mortas limpo serás;",
-    "         C       F  G    C",
-    "Vida com glória_eterna terás."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C              F      C",
+            "lyrics": "Olha a Cristo, o Redentor,"
+          },
+          {
+            "chords": "G                      C",
+            "lyrics": "E não desprezes o Seu amor;"
+          },
+          {
+            "chords": "                  F ",
+            "lyrics": "Só por Seu sangue Deus dá mercê"
+          },
+          {
+            "chords": "       C        F   G    C",
+            "lyrics": "E salvação, que vêm pela fé."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      C",
+            "lyrics": "Por Jesus, receberás"
+          },
+          {
+            "chords": "     G               C",
+            "lyrics": "O perdão e_a paz dos céus;"
+          },
+          {
+            "chords": "                  F ",
+            "lyrics": "O Seu sangue livrará"
+          },
+          {
+            "chords": "    C       G      C",
+            "lyrics": "Tua alma da ira de Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C              F      C",
+            "lyrics": "Por Sua graça, o Salvador"
+          },
+          {
+            "chords": "G                         C",
+            "lyrics": "Quer conceder-te grande favor;"
+          },
+          {
+            "chords": "              F ",
+            "lyrics": "Ele te chama, vem sem tardar,"
+          },
+          {
+            "chords": "           C      F  G   C",
+            "lyrics": "Vem no Seu sangue te abrigar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                F         C",
+            "lyrics": "Sem o Seu sangue não há perdão,"
+          },
+          {
+            "chords": "G                           C",
+            "lyrics": "Não há, com Deus, reconciliação;"
+          },
+          {
+            "chords": "                 F ",
+            "lyrics": "Das obras mortas limpo serás;"
+          },
+          {
+            "chords": "         C       F  G    C",
+            "lyrics": "Vida com glória_eterna terás."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

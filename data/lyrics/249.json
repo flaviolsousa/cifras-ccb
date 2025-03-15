@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Caridade",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "       A                        D         A",
-    "1. Esperança e fé sustêm nossa vida no Senhor,",
-    "      E           A",
-    "Na firmeza e santidade;",
-    "                                 D         A",
-    "Esses dons que vêm dos céus levarão ao Criador",
-    "         D          E          A",
-    "Os que andarem na divina Caridade.",
-    "",
-    "  A             D ",
-    "A Caridade é a perfeição",
-    "    A               E ",
-    "Que permanece eternamente;",
-    "   A                  D                   A",
-    "O fiel a Deus, que em si a possuir, receberá",
-    "             E  A",
-    "Galardão excelente.",
-    "",
-    "         A                      D           A",
-    "2. Se falarmos, ó irmãos, a linguagem celestial",
-    "        E             A",
-    "E a dos homens, em verdade.",
-    "                      D           A",
-    "Isso não nos levará à cidade eternal,",
-    "       D           E          A",
-    "Se em nós não estiver a Caridade.",
-    "",
-    "            A                     D          A",
-    "3. Para os santos do Senhor, é virtude sem igual",
-    "      E          A",
-    "A excelente Caridade;",
-    "                           D             A",
-    "Revestidos desse bem, venceremos todo o mal",
-    "    D              E             A",
-    "E veremos Deus, o Pai da eternidade."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A                        D         A",
+            "lyrics": "Esperança e fé sustêm nossa vida no Senhor,"
+          },
+          {
+            "chords": "      E           A",
+            "lyrics": "Na firmeza e santidade;"
+          },
+          {
+            "chords": "                                 D         A",
+            "lyrics": "Esses dons que vêm dos céus levarão ao Criador"
+          },
+          {
+            "chords": "         D          E          A",
+            "lyrics": "Os que andarem na divina Caridade."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  A             D ",
+            "lyrics": "A Caridade é a perfeição"
+          },
+          {
+            "chords": "    A               E ",
+            "lyrics": "Que permanece eternamente;"
+          },
+          {
+            "chords": "   A                  D                   A",
+            "lyrics": "O fiel a Deus, que em si a possuir, receberá"
+          },
+          {
+            "chords": "             E  A",
+            "lyrics": "Galardão excelente."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A                      D           A",
+            "lyrics": "Se falarmos, ó irmãos, a linguagem celestial"
+          },
+          {
+            "chords": "        E             A",
+            "lyrics": "E a dos homens, em verdade."
+          },
+          {
+            "chords": "                      D           A",
+            "lyrics": "Isso não nos levará à cidade eternal,"
+          },
+          {
+            "chords": "       D           E          A",
+            "lyrics": "Se em nós não estiver a Caridade."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         A                     D          A",
+            "lyrics": "Para os santos do Senhor, é virtude sem igual"
+          },
+          {
+            "chords": "      E          A",
+            "lyrics": "A excelente Caridade;"
+          },
+          {
+            "chords": "                           D             A",
+            "lyrics": "Revestidos desse bem, venceremos todo o mal"
+          },
+          {
+            "chords": "    D              E             A",
+            "lyrics": "E veremos Deus, o Pai da eternidade."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

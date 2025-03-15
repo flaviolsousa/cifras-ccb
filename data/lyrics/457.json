@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Comigo está Jesus",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "     C                        F             C",
-    "1. Comigo_está Jesus, meu bom Mestre_e Salvador,",
-    "                   Am    D          G",
-    "Me guia com a luz, pelo Seu imenso_amor;",
-    "          G7            C",
-    "Mistérios celestiais Jesus revelará;",
-    "    F        C       G        C    C...",
-    "No Seu bom caminho andar me fará.",
-    "",
-    "        C                 F             C",
-    "2. Quem me separará do sublime_amor de Deus?",
-    "                   Am      D              G",
-    "Quem me condenará? Pois Jesus defende_os Seus.",
-    "      G7            C",
-    "Unido ao Senhor por celestial amor,",
-    "  F      C         G      C    C...",
-    "Caminho avante com fé e valor.",
-    "",
-    "       C                        F         C",
-    "3. Das sendas celestiais eu não me afastarei,",
-    "                     Am    D            G",
-    "Pois amo sempre mais a doutrina do meu Rei;",
-    "         G7       C",
-    "Jesus me guiará e forças me dará.",
-    "  F       C      G      C ",
-    "O Mestre amado comigo está.",
-    "",
-    "  C                                 G7",
-    "Estou com Jesus, meu Senhor: vou vencer!",
-    "                                                 C",
-    "Jesus ama_os Seus e_as coisas de Deus lhes faz saber.",
-    "                                 F",
-    "A nada aqui temerei, pois eu bem sei",
-    "                     C      G       C",
-    "Que tudo está sob as ordens do meu Rei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  C                        F             C",
+            "lyrics": "Comigo_está Jesus, meu bom Mestre_e Salvador,"
+          },
+          {
+            "chords": "                   Am    D          G",
+            "lyrics": "Me guia com a luz, pelo Seu imenso_amor;"
+          },
+          {
+            "chords": "          G7            C",
+            "lyrics": "Mistérios celestiais Jesus revelará;"
+          },
+          {
+            "chords": "    F        C       G        C    C...",
+            "lyrics": "No Seu bom caminho andar me fará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     C                 F             C",
+            "lyrics": "Quem me separará do sublime_amor de Deus?"
+          },
+          {
+            "chords": "                   Am      D              G",
+            "lyrics": "Quem me condenará? Pois Jesus defende_os Seus."
+          },
+          {
+            "chords": "      G7            C",
+            "lyrics": "Unido ao Senhor por celestial amor,"
+          },
+          {
+            "chords": "  F      C         G      C    C...",
+            "lyrics": "Caminho avante com fé e valor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    C                        F         C",
+            "lyrics": "Das sendas celestiais eu não me afastarei,"
+          },
+          {
+            "chords": "                     Am    D            G",
+            "lyrics": "Pois amo sempre mais a doutrina do meu Rei;"
+          },
+          {
+            "chords": "         G7       C",
+            "lyrics": "Jesus me guiará e forças me dará."
+          },
+          {
+            "chords": "  F       C      G      C ",
+            "lyrics": "O Mestre amado comigo está."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  C                                 G7",
+            "lyrics": "Estou com Jesus, meu Senhor: vou vencer!"
+          },
+          {
+            "chords": "                                                 C",
+            "lyrics": "Jesus ama_os Seus e_as coisas de Deus lhes faz saber."
+          },
+          {
+            "chords": "                                 F",
+            "lyrics": "A nada aqui temerei, pois eu bem sei"
+          },
+          {
+            "chords": "                     C      G       C",
+            "lyrics": "Que tudo está sob as ordens do meu Rei."
+          }
+        ]
+      }
+    ]
+  }
 }

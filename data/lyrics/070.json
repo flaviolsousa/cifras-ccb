@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, Tu és a minha Esperança",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "              G",
-    "1. Senhor, Tu és a minha Esperança,",
-    "          D                G",
-    "Seguir-Te-ei de todo o meu coração;",
-    "             G7         C ",
-    "Em Ti está a minha confiança",
-    "       D                    G",
-    "De receber, no céu, o galardão.",
-    "",
-    "    G         C ",
-    "Ao céu desejo ir",
-    "   D          G",
-    "Contigo, ó Senhor;",
-    " G7         C ",
-    "Ali irei fruir",
-    "         D                  G",
-    "Os bens eternos, ó bom Salvador.",
-    "",
-    "              G",
-    "2. Senhor, Tu és a minha Fortaleza,",
-    "        D                 G",
-    "E és também o meu potente Salvador;",
-    "               G7         C ",
-    "Tu removeste_a minha incerteza,",
-    "           D                   G",
-    "A vida_e_a fé me deste,_ó Redentor.",
-    "",
-    "         G",
-    "3. Agora tenho Tua alegria,",
-    "         D                   G",
-    "Viva_esperança, paz, vigor, amor e luz;",
-    "                 G7           C ",
-    "Tu és meu Guarda e também meu Guia,",
-    "        D                 G",
-    "És tudo para mim, ó bom Jesus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           G",
+            "lyrics": "Senhor, Tu és a minha Esperança,"
+          },
+          {
+            "chords": "          D                G",
+            "lyrics": "Seguir-Te-ei de todo o meu coração;"
+          },
+          {
+            "chords": "             G7         C ",
+            "lyrics": "Em Ti está a minha confiança"
+          },
+          {
+            "chords": "       D                    G",
+            "lyrics": "De receber, no céu, o galardão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G         C ",
+            "lyrics": "Ao céu desejo ir"
+          },
+          {
+            "chords": "   D          G",
+            "lyrics": "Contigo, ó Senhor;"
+          },
+          {
+            "chords": " G7         C ",
+            "lyrics": "Ali irei fruir"
+          },
+          {
+            "chords": "         D                  G",
+            "lyrics": "Os bens eternos, ó bom Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "           G",
+            "lyrics": "Senhor, Tu és a minha Fortaleza,"
+          },
+          {
+            "chords": "        D                 G",
+            "lyrics": "E és também o meu potente Salvador;"
+          },
+          {
+            "chords": "               G7         C ",
+            "lyrics": "Tu removeste_a minha incerteza,"
+          },
+          {
+            "chords": "           D                   G",
+            "lyrics": "A vida_e_a fé me deste,_ó Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      G",
+            "lyrics": "Agora tenho Tua alegria,"
+          },
+          {
+            "chords": "         D                   G",
+            "lyrics": "Viva_esperança, paz, vigor, amor e luz;"
+          },
+          {
+            "chords": "                 G7           C ",
+            "lyrics": "Tu és meu Guarda e também meu Guia,"
+          },
+          {
+            "chords": "        D                 G",
+            "lyrics": "És tudo para mim, ó bom Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

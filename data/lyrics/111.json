@@ -1,58 +1,123 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Do sepulcro ressurgiu triunfante",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E                     B ",
-    "1. Do sepulcro, eis que, triunfante,",
-    "                      E",
-    "Ressurgiu o Filho do eterno Deus",
-    "                        B ",
-    "Para dar-nos Sua fé constante",
-    "                            E",
-    "E ao fim levar-nos para_os céus.",
-    "      A                   E",
-    "Foi Jesus, o Mestre, sepultado,",
-    "      B7               E",
-    "Mas a morte não O pôde mais reter;",
-    "         A                    E",
-    "Quem não tinha_em Si nenhum pecado,",
-    "     B7              E",
-    "Veio pelo pecador morrer.",
-    "",
-    "          E                B ",
-    "2. Quando as discípulas chegaram",
-    "                        E",
-    "Com aromas para_ungirem o Senhor,",
-    "                        B ",
-    "No sepulcro não mais O acharam,",
-    "                        E",
-    "Pois da morte fora vencedor.",
-    "      A                   E",
-    "Viram anjos que lhes informaram",
-    "             B7                  E",
-    "Que_entre_os mortos Cristo não estava mais;",
-    "       A               E",
-    "Cheias de_alegria retornaram,",
-    "      B7                 E",
-    "Contemplando maravilhas tais.",
-    "",
-    "        E               B ",
-    "3. Aos apóstolos apresentou-Se,",
-    "                             E",
-    "E lhes disse: “Seja_em vós a Minha paz”;",
-    "                             B ",
-    "A tristeza_em glória transformou-se",
-    "                    E",
-    "Pela Sua_aparição veraz.",
-    "     A              E",
-    "Em Jerusalém permaneceram; ",
-    "     B7               E",
-    "Revestidos foram do poder de Deus;",
-    "      A              E",
-    "As virtudes eles receberam;",
-    "       B7                    E",
-    "Veio_o Dom bendito desde_os céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E                     B ",
+            "lyrics": "Do sepulcro, eis que, triunfante,"
+          },
+          {
+            "chords": "                      E",
+            "lyrics": "Ressurgiu o Filho do eterno Deus"
+          },
+          {
+            "chords": "                        B ",
+            "lyrics": "Para dar-nos Sua fé constante"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "E ao fim levar-nos para_os céus."
+          },
+          {
+            "chords": "      A                   E",
+            "lyrics": "Foi Jesus, o Mestre, sepultado,"
+          },
+          {
+            "chords": "      B7               E",
+            "lyrics": "Mas a morte não O pôde mais reter;"
+          },
+          {
+            "chords": "         A                    E",
+            "lyrics": "Quem não tinha_em Si nenhum pecado,"
+          },
+          {
+            "chords": "     B7              E",
+            "lyrics": "Veio pelo pecador morrer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       E                B ",
+            "lyrics": "Quando as discípulas chegaram"
+          },
+          {
+            "chords": "                        E",
+            "lyrics": "Com aromas para_ungirem o Senhor,"
+          },
+          {
+            "chords": "                        B ",
+            "lyrics": "No sepulcro não mais O acharam,"
+          },
+          {
+            "chords": "                        E",
+            "lyrics": "Pois da morte fora vencedor."
+          },
+          {
+            "chords": "      A                   E",
+            "lyrics": "Viram anjos que lhes informaram"
+          },
+          {
+            "chords": "             B7                  E",
+            "lyrics": "Que_entre_os mortos Cristo não estava mais;"
+          },
+          {
+            "chords": "       A               E",
+            "lyrics": "Cheias de_alegria retornaram,"
+          },
+          {
+            "chords": "      B7                 E",
+            "lyrics": "Contemplando maravilhas tais."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E               B ",
+            "lyrics": "Aos apóstolos apresentou-Se,"
+          },
+          {
+            "chords": "                             E",
+            "lyrics": "E lhes disse: “Seja_em vós a Minha paz”;"
+          },
+          {
+            "chords": "                             B ",
+            "lyrics": "A tristeza_em glória transformou-se"
+          },
+          {
+            "chords": "                    E",
+            "lyrics": "Pela Sua_aparição veraz."
+          },
+          {
+            "chords": "     A              E",
+            "lyrics": "Em Jerusalém permaneceram; "
+          },
+          {
+            "chords": "     B7               E",
+            "lyrics": "Revestidos foram do poder de Deus;"
+          },
+          {
+            "chords": "      A              E",
+            "lyrics": "As virtudes eles receberam;"
+          },
+          {
+            "chords": "       B7                    E",
+            "lyrics": "Veio_o Dom bendito desde_os céus."
+          }
+        ]
+      }
+    ]
+  }
 }

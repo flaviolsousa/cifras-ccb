@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Por Ti vivo, ó Deus potente",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E",
-    "1. Viver desejo só por Ti, Senhor,",
-    "                        B ",
-    "Cumprindo sempre Teu querer,",
-    "   E",
-    "Mostrando_a luz ao mundo_enganador",
-    "  B    B7              E",
-    "E consagrando_a Ti meu ser.",
-    "",
-    "E7     A              E",
-    "Por Ti vivo, ó Deus potente;",
-    "          B7               E",
-    "Por Ti, Senhor, sempre viverei;",
-    "E7    A                E",
-    "Com minh´alma, mui reverente,",
-    "      B7        E",
-    "O Teu Nome bendirei.",
-    "",
-    "     E",
-    "2. Viver por Ti, Senhor, honroso é,",
-    "                         B ",
-    "Oh! Faz-me_andar em Teu amor;",
-    "   E",
-    "Em paz prosseguirei de fé em fé",
-    "  B    B7         E",
-    "E vencerei o tentador.",
-    "",
-    "     E",
-    "3. Viver desejo,_ó Deus, em retidão,",
-    "                     B ",
-    "Com as virtudes celestiais;",
-    "   E",
-    "De Ti receberei o galardão",
-    "  B    B7         E",
-    "E as riquezas eternais."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "Viver desejo só por Ti, Senhor,"
+          },
+          {
+            "chords": "                        B ",
+            "lyrics": "Cumprindo sempre Teu querer,"
+          },
+          {
+            "chords": "   E",
+            "lyrics": "Mostrando_a luz ao mundo_enganador"
+          },
+          {
+            "chords": "  B    B7              E",
+            "lyrics": "E consagrando_a Ti meu ser."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E7     A              E",
+            "lyrics": "Por Ti vivo, ó Deus potente;"
+          },
+          {
+            "chords": "          B7               E",
+            "lyrics": "Por Ti, Senhor, sempre viverei;"
+          },
+          {
+            "chords": "E7    A                E",
+            "lyrics": "Com minh´alma, mui reverente,"
+          },
+          {
+            "chords": "      B7        E",
+            "lyrics": "O Teu Nome bendirei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "Viver por Ti, Senhor, honroso é,"
+          },
+          {
+            "chords": "                         B ",
+            "lyrics": "Oh! Faz-me_andar em Teu amor;"
+          },
+          {
+            "chords": "   E",
+            "lyrics": "Em paz prosseguirei de fé em fé"
+          },
+          {
+            "chords": "  B    B7         E",
+            "lyrics": "E vencerei o tentador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "Viver desejo,_ó Deus, em retidão,"
+          },
+          {
+            "chords": "                     B ",
+            "lyrics": "Com as virtudes celestiais;"
+          },
+          {
+            "chords": "   E",
+            "lyrics": "De Ti receberei o galardão"
+          },
+          {
+            "chords": "  B    B7         E",
+            "lyrics": "E as riquezas eternais."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

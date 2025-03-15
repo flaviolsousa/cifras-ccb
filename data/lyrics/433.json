@@ -1,35 +1,81 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Na santa escola",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "     B          F#          B",
-    "1. Estamos, ó meninos, na_escola do Senhor;",
-    "   E            B        E          B",
-    "Cantemos santos hinos a Deus, o Criador.",
-    "                           G#m            C#m  F#  B    B...",
-    "Na santa_escola do Mestre_eterno há bem super  -   no.",
-    "",
-    "      B           F#        B",
-    "2. Jesus, o nosso Mestre, ensina com amor",
-    "   E           B          E           B",
-    "A_eterna lei celeste, que leva_ao Criador.",
-    "                          G#m       C#m  F#  B    B...",
-    "Na santa_escola o Mestre_amado é adora   -   do.",
-    "",
-    "     B         F#      B",
-    "3. O santo Evangelho viemos aprender;",
-    "   E           B        E         B",
-    "De Cristo o conselho queremos atender.",
-    "                           G#m          C#m  F#  B    B...",
-    "Na santa_escola o Mestre_ensina a sã doutri  -   na.",
-    "",
-    "     B          F#       B",
-    "4. Ó jovens e meninos, devemos conservar",
-    "   E          B       E          B",
-    "Os divinais ensinos e neles caminhar.",
-    "                            G#m          C#m  F#  B    B...",
-    "Na santa_escola ao Mestre_ouvimos e O servi   -  mos."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  B          F#          B",
+            "lyrics": "Estamos, ó meninos, na_escola do Senhor;"
+          },
+          {
+            "chords": "   E            B        E          B",
+            "lyrics": "Cantemos santos hinos a Deus, o Criador."
+          },
+          {
+            "chords": "                           G#m            C#m  F#  B    B...",
+            "lyrics": "Na santa_escola do Mestre_eterno há bem super  -   no."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   B           F#        B",
+            "lyrics": "Jesus, o nosso Mestre, ensina com amor"
+          },
+          {
+            "chords": "   E           B          E           B",
+            "lyrics": "A_eterna lei celeste, que leva_ao Criador."
+          },
+          {
+            "chords": "                          G#m       C#m  F#  B    B...",
+            "lyrics": "Na santa_escola o Mestre_amado é adora   -   do."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  B         F#      B",
+            "lyrics": "O santo Evangelho viemos aprender;"
+          },
+          {
+            "chords": "   E           B        E         B",
+            "lyrics": "De Cristo o conselho queremos atender."
+          },
+          {
+            "chords": "                           G#m          C#m  F#  B    B...",
+            "lyrics": "Na santa_escola o Mestre_ensina a sã doutri  -   na."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "  B          F#       B",
+            "lyrics": "Ó jovens e meninos, devemos conservar"
+          },
+          {
+            "chords": "   E          B       E          B",
+            "lyrics": "Os divinais ensinos e neles caminhar."
+          },
+          {
+            "chords": "                            G#m          C#m  F#  B    B...",
+            "lyrics": "Na santa_escola ao Mestre_ouvimos e O servi   -  mos."
+          }
+        ]
+      }
+    ]
+  }
 }

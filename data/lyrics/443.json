@@ -1,58 +1,123 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó meninos, Deus vos convida",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B          F#7         B",
-    "1. Ó meninos, Deus vos convida",
-    "E             F#7        B",
-    "Para_a grande festa nos céus;",
-    "          F#7     G#m",
-    "Regozijo_eterno e vida",
-    "E   B       F#7       B",
-    "Achareis no reino de Deus.",
-    "G#m                   D#7",
-    "Grande glória lá vos aguarda,",
-    "B           C#        F#7",
-    "Bênção que aqui não tereis;",
-    "B             F#7        G#m",
-    "Atendei, pois Cristo não tarda;",
-    "E    B     F#7      B    B...",
-    "Brevemente vós O vereis.",
-    "",
-    "   B            F#7   B",
-    "2. Deslumbrante é a beleza",
-    "E           F#7    B",
-    "Das moradas do Criador,",
-    "            F#7    G#m",
-    "Que reserva essa riqueza",
-    "E     B     F#7      B",
-    "Aos remidos por Seu amor.",
-    "G#m                    D#7",
-    "Vós vereis na glória celeste,",
-    " B            C#         F#7",
-    "Glória onde_é tudo_esplendor,",
-    "B             F#7       G#m",
-    "Todos quantos seguem ao Mestre,",
-    "E      B      F#7      B    B...",
-    "Jesus Cristo, nosso Senhor.",
-    "",
-    "    B          F#7    B",
-    "3. Tão somente santificai-vos",
-    "E          F#7       B",
-    "Pela força do nosso Deus;",
-    "           F#7        G#m",
-    "De justiça sempre_adornai-vos,",
-    "E       B     F#7        B",
-    "Para_a grande festa nos céus.",
-    "G#m                  D#7",
-    "Todos juntos nós subiremos,",
-    " B            C#       F#7",
-    "Com Jesus, ao Pai celestial;",
-    "B            F#7  G#m",
-    "Diante d´Ele entoaremos",
-    "E     B     F#7     B    B...",
-    "Hinos de louvor eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B          F#7         B",
+            "lyrics": "Ó meninos, Deus vos convida"
+          },
+          {
+            "chords": "E             F#7        B",
+            "lyrics": "Para_a grande festa nos céus;"
+          },
+          {
+            "chords": "          F#7     G#m",
+            "lyrics": "Regozijo_eterno e vida"
+          },
+          {
+            "chords": "E   B       F#7       B",
+            "lyrics": "Achareis no reino de Deus."
+          },
+          {
+            "chords": "G#m                   D#7",
+            "lyrics": "Grande glória lá vos aguarda,"
+          },
+          {
+            "chords": "B           C#        F#7",
+            "lyrics": "Bênção que aqui não tereis;"
+          },
+          {
+            "chords": "B             F#7        G#m",
+            "lyrics": "Atendei, pois Cristo não tarda;"
+          },
+          {
+            "chords": "E    B     F#7      B    B...",
+            "lyrics": "Brevemente vós O vereis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B            F#7   B",
+            "lyrics": "Deslumbrante é a beleza"
+          },
+          {
+            "chords": "E           F#7    B",
+            "lyrics": "Das moradas do Criador,"
+          },
+          {
+            "chords": "            F#7    G#m",
+            "lyrics": "Que reserva essa riqueza"
+          },
+          {
+            "chords": "E     B     F#7      B",
+            "lyrics": "Aos remidos por Seu amor."
+          },
+          {
+            "chords": "G#m                    D#7",
+            "lyrics": "Vós vereis na glória celeste,"
+          },
+          {
+            "chords": " B            C#         F#7",
+            "lyrics": "Glória onde_é tudo_esplendor,"
+          },
+          {
+            "chords": "B             F#7       G#m",
+            "lyrics": "Todos quantos seguem ao Mestre,"
+          },
+          {
+            "chords": "E      B      F#7      B    B...",
+            "lyrics": "Jesus Cristo, nosso Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " B          F#7    B",
+            "lyrics": "Tão somente santificai-vos"
+          },
+          {
+            "chords": "E          F#7       B",
+            "lyrics": "Pela força do nosso Deus;"
+          },
+          {
+            "chords": "           F#7        G#m",
+            "lyrics": "De justiça sempre_adornai-vos,"
+          },
+          {
+            "chords": "E       B     F#7        B",
+            "lyrics": "Para_a grande festa nos céus."
+          },
+          {
+            "chords": "G#m                  D#7",
+            "lyrics": "Todos juntos nós subiremos,"
+          },
+          {
+            "chords": " B            C#       F#7",
+            "lyrics": "Com Jesus, ao Pai celestial;"
+          },
+          {
+            "chords": "B            F#7  G#m",
+            "lyrics": "Diante d´Ele entoaremos"
+          },
+          {
+            "chords": "E     B     F#7     B    B...",
+            "lyrics": "Hinos de louvor eternal."
+          }
+        ]
+      }
+    ]
+  }
 }

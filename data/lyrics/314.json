@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Teu poder supremo",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E           B        A   B   E",
-    "1. O Teu poder supremo, ó Rei dos reis,",
-    "             B         F#m  B  E",
-    "Remove os tropeços aos Teus fi-éis;",
-    "   B     F#    B           F#      B",
-    "Só Tu me podes conduzir ao lar de_amor;",
-    "   E             A  E      B        E ",
-    "És Fonte de toda força, firmeza e vigor.",
-    "",
-    "      E           B       A  B  E",
-    "2. Em Teu bendito Nome, ó Re-dentor,",
-    "               B      F#m  B  E",
-    "Por Deus é recebido o meu  clamor;",
-    "    B     F#    B            F#   B",
-    "Meu ser entrego todo_a Ti, ó Salvador;",
-    "     E            A  E    B            E",
-    "Meus olhos a Ti levanto, atende-me, Senhor.",
-    "",
-    "     E           B      A    B   E",
-    "3. Agrava-se_a batalha aqui, meu Rei,",
-    "                   B         F#m  B  E",
-    "Mas sempre_estás comigo, não te – me-rei;",
-    "   B   F#   B          F#   B",
-    "De armadura divinal me proverás;",
-    "   E              A  E       B        E",
-    "Ao fim, na eterna glória, Tu me receberás."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E           B        A   B   E",
+            "lyrics": "O Teu poder supremo, ó Rei dos reis,"
+          },
+          {
+            "chords": "             B         F#m  B  E",
+            "lyrics": "Remove os tropeços aos Teus fi-éis;"
+          },
+          {
+            "chords": "   B     F#    B           F#      B",
+            "lyrics": "Só Tu me podes conduzir ao lar de_amor;"
+          },
+          {
+            "chords": "   E             A  E      B        E ",
+            "lyrics": "És Fonte de toda força, firmeza e vigor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   E           B       A  B  E",
+            "lyrics": "Em Teu bendito Nome, ó Re-dentor,"
+          },
+          {
+            "chords": "               B      F#m  B  E",
+            "lyrics": "Por Deus é recebido o meu  clamor;"
+          },
+          {
+            "chords": "    B     F#    B            F#   B",
+            "lyrics": "Meu ser entrego todo_a Ti, ó Salvador;"
+          },
+          {
+            "chords": "     E            A  E    B            E",
+            "lyrics": "Meus olhos a Ti levanto, atende-me, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  E           B      A    B   E",
+            "lyrics": "Agrava-se_a batalha aqui, meu Rei,"
+          },
+          {
+            "chords": "                   B         F#m  B  E",
+            "lyrics": "Mas sempre_estás comigo, não te – me-rei;"
+          },
+          {
+            "chords": "   B   F#   B          F#   B",
+            "lyrics": "De armadura divinal me proverás;"
+          },
+          {
+            "chords": "   E              A  E       B        E",
+            "lyrics": "Ao fim, na eterna glória, Tu me receberás."
+          }
+        ]
+      }
+    ]
+  }
 }

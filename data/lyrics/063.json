@@ -1,34 +1,74 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Se vós baterdes, Ele vos abre",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "              C                                  F   G    C",
-    "1. Com fé chegai-vos ao grande Mestre, Cristo Jesus, o Senhor;",
-    "                                       D       G ",
-    "Seus dons celestes, Sua virtude derramará por amor;",
-    "         F         E  Am                G        C",
-    "Não duvideis, pois de Cristo vem o que vós precisais;",
-    "C7        F      C                F   G      C    C...",
-    "Tudo_Ele pode fazer-vos, além do que vós pensais.",
-    "",
-    "           C                              F  G    C",
-    "2. O mar revolto e_a tempestade Cristo Jesus aplacou;",
-    "                                         D     G ",
-    "Os cegos viram, coxos andaram, a muitos purificou;",
-    "          F     E Am             G           C",
-    "Mortos voltaram à vida, foram entregues aos seus.",
-    "C7         F     C                F G      C",
-    "Cristo, o Verbo eterno, veio por graça de Deus.",
-    "",
-    "         C               G ",
-    "Se vós baterdes, Ele vos abre;",
-    "                  C",
-    "O que pedirdes, dará.",
-    "C7        F         C",
-    "Se vós buscardes o Mestre,",
-    "          F  G    C",
-    "Por vós acha-do será."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           C                                  F   G    C",
+            "lyrics": "Com fé chegai-vos ao grande Mestre, Cristo Jesus, o Senhor;"
+          },
+          {
+            "chords": "                                       D       G ",
+            "lyrics": "Seus dons celestes, Sua virtude derramará por amor;"
+          },
+          {
+            "chords": "         F         E  Am                G        C",
+            "lyrics": "Não duvideis, pois de Cristo vem o que vós precisais;"
+          },
+          {
+            "chords": "C7        F      C                F   G      C    C...",
+            "lyrics": "Tudo_Ele pode fazer-vos, além do que vós pensais."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        C                              F  G    C",
+            "lyrics": "O mar revolto e_a tempestade Cristo Jesus aplacou;"
+          },
+          {
+            "chords": "                                         D     G ",
+            "lyrics": "Os cegos viram, coxos andaram, a muitos purificou;"
+          },
+          {
+            "chords": "          F     E Am             G           C",
+            "lyrics": "Mortos voltaram à vida, foram entregues aos seus."
+          },
+          {
+            "chords": "C7         F     C                F G      C",
+            "lyrics": "Cristo, o Verbo eterno, veio por graça de Deus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         C               G ",
+            "lyrics": "Se vós baterdes, Ele vos abre;"
+          },
+          {
+            "chords": "                  C",
+            "lyrics": "O que pedirdes, dará."
+          },
+          {
+            "chords": "C7        F         C",
+            "lyrics": "Se vós buscardes o Mestre,"
+          },
+          {
+            "chords": "          F  G    C",
+            "lyrics": "Por vós acha-do será."
+          }
+        ]
+      }
+    ]
+  }
 }

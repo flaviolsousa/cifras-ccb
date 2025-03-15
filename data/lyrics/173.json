@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Para ouvir aqui estamos",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B                 E ",
-    "1. Para_ouvir aqui estamos ",
-    "F#              B",
-    "A Palavra do Senhor;",
-    "                 E ",
-    "Só por Ela temos vida",
-    "F#              B",
-    "E a luz do Salvador.",
-    "",
-    "G#m            D#7   G#m   B",
-    "Templos santos fomos fei - tos",
-    "G#m        C#7    F#  ",
-    "Para_habitação de Deus;",
-    "B                    E ",
-    "O Senhor nos quer perfeitos;",
-    "F#               B",
-    "Somos os eleitos Seus.",
-    "",
-    "   B                E ",
-    "2. Exaltando_aqui estamos",
-    "F#                  B",
-    "A Jesus, que nos salvou;",
-    "                  E ",
-    "Todo o louvor Lhe damos;",
-    "F#              B",
-    "Ele já nos resgatou.",
-    "",
-    "   B                   E ",
-    "3. Nós devemos ser-Lhe gratos",
-    "F#               B",
-    "Pelo Seu imenso_amor;",
-    "                        E ",
-    "Nesta casa,_e_em toda_a parte,",
-    "F#              B",
-    "Exaltemos ao Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B                 E ",
+            "lyrics": "Para_ouvir aqui estamos "
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "A Palavra do Senhor;"
+          },
+          {
+            "chords": "                 E ",
+            "lyrics": "Só por Ela temos vida"
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "E a luz do Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G#m            D#7   G#m   B",
+            "lyrics": "Templos santos fomos fei - tos"
+          },
+          {
+            "chords": "G#m        C#7    F#  ",
+            "lyrics": "Para_habitação de Deus;"
+          },
+          {
+            "chords": "B                    E ",
+            "lyrics": "O Senhor nos quer perfeitos;"
+          },
+          {
+            "chords": "F#               B",
+            "lyrics": "Somos os eleitos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                E ",
+            "lyrics": "Exaltando_aqui estamos"
+          },
+          {
+            "chords": "F#                  B",
+            "lyrics": "A Jesus, que nos salvou;"
+          },
+          {
+            "chords": "                  E ",
+            "lyrics": "Todo o louvor Lhe damos;"
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "Ele já nos resgatou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                   E ",
+            "lyrics": "Nós devemos ser-Lhe gratos"
+          },
+          {
+            "chords": "F#               B",
+            "lyrics": "Pelo Seu imenso_amor;"
+          },
+          {
+            "chords": "                        E ",
+            "lyrics": "Nesta casa,_e_em toda_a parte,"
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "Exaltemos ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

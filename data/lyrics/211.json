@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Senhor Jesus passava...",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "        C                          F         C",
-    "1. O Senhor Jesus passava, com Ele ia_a multidão;",
-    "           G                C          G              C",
-    "Eis que_um cego, junto_ao caminho, esperava por compaixão;",
-    "          F        C                 G ",
-    "E ouvindo que se falava sobre_o nome de Jesus,",
-    "C             F          C               G      C",
-    "Levantou-se_e foi ao bom Mestre para receber a luz.",
-    "",
-    "       C                       F         C ",
-    "2. A Palavra virtuosa, tão esperada, escutou;",
-    "    G                 C           G                C",
-    "A visão lhe foi restaurada e, por fé, também se salvou;",
-    "          F         C                      G ",
-    "Libertado por Jesus Cristo, dava glória_ao grande Deus;",
-    "C         F        C                G       C",
-    "Exaltou o Mestre divino e seguiu os passos Seus.",
-    "",
-    "         C                            F            C",
-    "3. Jesus Cristo é o mesmo, entre_os fiéis também está,",
-    "        G              C             G                 C",
-    "E, quem crer, verá Sua glória; Seu favor, por certo, terá.",
-    "        F        C                       G ",
-    "Ele é a Luz preciosa que, dos céus, Deus enviou;",
-    "C              F       C                G   C",
-    "Quem em trevas se encontrava, essa Luz iluminou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     C                          F         C",
+            "lyrics": "O Senhor Jesus passava, com Ele ia_a multidão;"
+          },
+          {
+            "chords": "           G                C          G              C",
+            "lyrics": "Eis que_um cego, junto_ao caminho, esperava por compaixão;"
+          },
+          {
+            "chords": "          F        C                 G ",
+            "lyrics": "E ouvindo que se falava sobre_o nome de Jesus,"
+          },
+          {
+            "chords": "C             F          C               G      C",
+            "lyrics": "Levantou-se_e foi ao bom Mestre para receber a luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    C                       F         C ",
+            "lyrics": "A Palavra virtuosa, tão esperada, escutou;"
+          },
+          {
+            "chords": "    G                 C           G                C",
+            "lyrics": "A visão lhe foi restaurada e, por fé, também se salvou;"
+          },
+          {
+            "chords": "          F         C                      G ",
+            "lyrics": "Libertado por Jesus Cristo, dava glória_ao grande Deus;"
+          },
+          {
+            "chords": "C         F        C                G       C",
+            "lyrics": "Exaltou o Mestre divino e seguiu os passos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      C                            F            C",
+            "lyrics": "Jesus Cristo é o mesmo, entre_os fiéis também está,"
+          },
+          {
+            "chords": "        G              C             G                 C",
+            "lyrics": "E, quem crer, verá Sua glória; Seu favor, por certo, terá."
+          },
+          {
+            "chords": "        F        C                       G ",
+            "lyrics": "Ele é a Luz preciosa que, dos céus, Deus enviou;"
+          },
+          {
+            "chords": "C              F       C                G   C",
+            "lyrics": "Quem em trevas se encontrava, essa Luz iluminou."
+          }
+        ]
+      }
+    ]
+  }
 }

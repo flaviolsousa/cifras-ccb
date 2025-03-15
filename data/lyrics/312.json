@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tributos de louvor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D           Bm    G              A ",
-    "1. Tributos de louvor darei ao grande Deus,",
-    "   D             E                   A ",
-    "Ao Deus que escreveu me nome lá nos céus;",
-    "    G   A   D",
-    "Que grande_amor!",
-    "   G                          A      D   D...",
-    "Bendito seja sempre_o Deus do meu louvor!",
-    "",
-    "     D           Bm     G         A ",
-    "2. Perante_o Criador eu me inclinarei;",
-    "    D             E                  A ",
-    "Prostrado aos Seu pés, Seu Nome bendirei;",
-    "  G  A  D",
-    "Fiel é  Deus!",
-    "   G                         A       D   D...",
-    "Do Seu lugar excelso ouve_os santos Seus.",
-    "",
-    "      D              Bm    G          A ",
-    "3. No trono_eterno_está o_Onipotente Deus,",
-    "   D         E                  A ",
-    "Cercado por exércitos de anjos Seus;",
-    "    G    A   D",
-    "Que es - plendor!",
-    " G                            A   D   D...",
-    "Eterna glória_a Deus, o santo Criador!",
-    "",
-    "       D            Bm     G          A ",
-    "4. Meu Deus me contará com todos os fiéis;",
-    "  D          E                         A ",
-    "Herança me dará com Cristo,_o Rei dos reis;",
-    " G    A    D",
-    "Ele – va - rei",
-    "  G                       A        D   D...",
-    "O meu louvor a Deus e a Jesus, meu Rei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D           Bm    G              A ",
+            "lyrics": "Tributos de louvor darei ao grande Deus,"
+          },
+          {
+            "chords": "   D             E                   A ",
+            "lyrics": "Ao Deus que escreveu me nome lá nos céus;"
+          },
+          {
+            "chords": "    G   A   D",
+            "lyrics": "Que grande_amor!"
+          },
+          {
+            "chords": "   G                          A      D   D...",
+            "lyrics": "Bendito seja sempre_o Deus do meu louvor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  D           Bm     G         A ",
+            "lyrics": "Perante_o Criador eu me inclinarei;"
+          },
+          {
+            "chords": "    D             E                  A ",
+            "lyrics": "Prostrado aos Seu pés, Seu Nome bendirei;"
+          },
+          {
+            "chords": "  G  A  D",
+            "lyrics": "Fiel é  Deus!"
+          },
+          {
+            "chords": "   G                         A       D   D...",
+            "lyrics": "Do Seu lugar excelso ouve_os santos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   D              Bm    G          A ",
+            "lyrics": "No trono_eterno_está o_Onipotente Deus,"
+          },
+          {
+            "chords": "   D         E                  A ",
+            "lyrics": "Cercado por exércitos de anjos Seus;"
+          },
+          {
+            "chords": "    G    A   D",
+            "lyrics": "Que es - plendor!"
+          },
+          {
+            "chords": " G                            A   D   D...",
+            "lyrics": "Eterna glória_a Deus, o santo Criador!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "    D            Bm     G          A ",
+            "lyrics": "Meu Deus me contará com todos os fiéis;"
+          },
+          {
+            "chords": "  D          E                         A ",
+            "lyrics": "Herança me dará com Cristo,_o Rei dos reis;"
+          },
+          {
+            "chords": " G    A    D",
+            "lyrics": "Ele – va - rei"
+          },
+          {
+            "chords": "  G                       A        D   D...",
+            "lyrics": "O meu louvor a Deus e a Jesus, meu Rei."
+          }
+        ]
+      }
+    ]
+  }
 }

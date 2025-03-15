@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Aos pés de Deus estamos",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                        D       E            A",
-    "1. Aos pés de Deus estamos, perante Quem nos prostramos;",
-    "            D#°  A   F#m     B7       E7 ",
-    "Por fé O adora - mos com devoção e fervor;",
-    "A                                    E ",
-    "Em nome do Seu Filho, nós nos apresentamos;",
-    "              A    F#m  Bm      E     A",
-    "Humildemente_ora - mos, rogando Seu favor.",
-    "",
-    "   A                     D      E         A",
-    "2. Tudo_o que padecemos, já padeceu nosso Mestre,",
-    "              D#°  A   F#m      B7       E7 ",
-    "Mas foi vitorio  - so; nos concedeu salvação;",
-    "A                                  E ",
-    "Ele_intercede_agora junto ao Pai celeste",
-    "             A    F#m  Bm      E   A",
-    "Para ser atendi - da   a nossa oração.",
-    "",
-    "   A                 D         E       A",
-    "3. Nunca desanimemos mas, confiantes, oremos,",
-    "                   D#°  A  F#m      B7       E7 ",
-    "Certos de que Deus ou - ve a voz do nosso clamor;",
-    "A                                 E ",
-    "Ele_é o_Onipotente, só n´Ele confiemos;",
-    "                A    F#m  Bm        E   A",
-    "Todo_o louvor dare - mos  a Deus, o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                        D       E            A",
+            "lyrics": "Aos pés de Deus estamos, perante Quem nos prostramos;"
+          },
+          {
+            "chords": "            D#°  A   F#m     B7       E7 ",
+            "lyrics": "Por fé O adora - mos com devoção e fervor;"
+          },
+          {
+            "chords": "A                                    E ",
+            "lyrics": "Em nome do Seu Filho, nós nos apresentamos;"
+          },
+          {
+            "chords": "              A    F#m  Bm      E     A",
+            "lyrics": "Humildemente_ora - mos, rogando Seu favor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                     D      E         A",
+            "lyrics": "Tudo_o que padecemos, já padeceu nosso Mestre,"
+          },
+          {
+            "chords": "              D#°  A   F#m      B7       E7 ",
+            "lyrics": "Mas foi vitorio  - so; nos concedeu salvação;"
+          },
+          {
+            "chords": "A                                  E ",
+            "lyrics": "Ele_intercede_agora junto ao Pai celeste"
+          },
+          {
+            "chords": "             A    F#m  Bm      E   A",
+            "lyrics": "Para ser atendi - da   a nossa oração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                 D         E       A",
+            "lyrics": "Nunca desanimemos mas, confiantes, oremos,"
+          },
+          {
+            "chords": "                   D#°  A  F#m      B7       E7 ",
+            "lyrics": "Certos de que Deus ou - ve a voz do nosso clamor;"
+          },
+          {
+            "chords": "A                                 E ",
+            "lyrics": "Ele_é o_Onipotente, só n´Ele confiemos;"
+          },
+          {
+            "chords": "                A    F#m  Bm        E   A",
+            "lyrics": "Todo_o louvor dare - mos  a Deus, o Criador."
+          }
+        ]
+      }
+    ]
+  }
 }

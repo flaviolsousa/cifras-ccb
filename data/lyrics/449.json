@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O meu nome no céu escreveste, Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A                   D        A",
-    "1. As riquezas celestes eu almejo, Senhor,",
-    "                           B7      E7",
-    "Os tesouros da terra têm pequeno valor.",
-    "       A                  D           A",
-    "Com fervor eu Te rogo, ó eterno Deus meu,",
-    "                 D          E7       A",
-    "Que conserves escrito o meu nome no céu.",
-    "",
-    "      A                          E",
-    "O meu nome no céu escreveste, Senhor,",
-    "       A        D             E7      A    A...",
-    "No Teu livro da vida, por Teu grande amor.",
-    "",
-    "          A                   D          A",
-    "2. Que ventura sublime! Que tesouro sem par!",
-    "                              B7        E7",
-    "Pois verei Teu semblante, ouvirei Teu falar;",
-    "       A                      D        A",
-    "O meu nome não risques, eu imploro, Senhor;",
-    "                  D              E7       A",
-    "Entre_os Teus escolhidos quero_estar, Criador.",
-    "",
-    "          A                  D         A",
-    "3. Tu me predestinaste para ser filho Teu,",
-    "                              B7          E7",
-    "Para ser Teu herdeiro, com os santos, no céu;",
-    "      A                   D        A",
-    "Como posso pagar-Te essa grande mercê?",
-    "                D           E7        A",
-    "Pois em mim colocaste a_esperança e_a fé."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A                   D        A",
+            "lyrics": "As riquezas celestes eu almejo, Senhor,"
+          },
+          {
+            "chords": "                           B7      E7",
+            "lyrics": "Os tesouros da terra têm pequeno valor."
+          },
+          {
+            "chords": "       A                  D           A",
+            "lyrics": "Com fervor eu Te rogo, ó eterno Deus meu,"
+          },
+          {
+            "chords": "                 D          E7       A",
+            "lyrics": "Que conserves escrito o meu nome no céu."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      A                          E",
+            "lyrics": "O meu nome no céu escreveste, Senhor,"
+          },
+          {
+            "chords": "       A        D             E7      A    A...",
+            "lyrics": "No Teu livro da vida, por Teu grande amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       A                   D          A",
+            "lyrics": "Que ventura sublime! Que tesouro sem par!"
+          },
+          {
+            "chords": "                              B7        E7",
+            "lyrics": "Pois verei Teu semblante, ouvirei Teu falar;"
+          },
+          {
+            "chords": "       A                      D        A",
+            "lyrics": "O meu nome não risques, eu imploro, Senhor;"
+          },
+          {
+            "chords": "                  D              E7       A",
+            "lyrics": "Entre_os Teus escolhidos quero_estar, Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A                  D         A",
+            "lyrics": "Tu me predestinaste para ser filho Teu,"
+          },
+          {
+            "chords": "                              B7          E7",
+            "lyrics": "Para ser Teu herdeiro, com os santos, no céu;"
+          },
+          {
+            "chords": "      A                   D        A",
+            "lyrics": "Como posso pagar-Te essa grande mercê?"
+          },
+          {
+            "chords": "                D           E7        A",
+            "lyrics": "Pois em mim colocaste a_esperança e_a fé."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

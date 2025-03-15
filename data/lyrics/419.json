@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"Fazei isto em memória de Mim\"",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G               D      G        D      G      A     D",
-    "1. Sempre lembremo-nos da morte do nosso_amado_e bom Jesus;",
-    "G           D   G           D    G     A        D",
-    "Sua memória celebremos, Seu sacrifício sobre_a cruz.",
-    "  A  D      Em   D  G        D     Em   A     D",
-    "Toma-remos, co – mo-vidos, a Santa Ceia do Senhor;",
-    "G             D      G         Em   Am  D       G   D   G    G...",
-    "Somos, agora, Seus remidos por Su - a   obra de grande_amor.",
-    "",
-    "   G                D     G        D    G     A    D",
-    "2. Neste momento_o pão partimos, como Jesus determinou,",
-    "G             D       G         D    G       A   D",
-    "E, nesta comunhão, sentimos quanto o Mestre nos amou;",
-    "   A  D      Em  D  G          D    Em    A     D",
-    "Ao be-bermos des-te cálix, por mandamento do Senhor",
-    "G           D  G      Em  Am  D       G  D  G    G...",
-    "Anunciamos Sua morte até  que venha o Re-dentor.",
-    "",
-    "   G           D    G          D    G         A  D",
-    "3. Rememoremos o martírio, a_humilhação que suportou;",
-    "G                  D    G          D     G      A     D",
-    "Sendo, de Deus, o_amado Filho, do céu desceu e nos salvou.",
-    "  A  D      Em  D   G          D         Em    A    D",
-    "Retornou ao Pai e - terno, mas dentro_em breve voltará",
-    "G               D      G        Em  Am  D       G  D    G    G...",
-    "Para nos dar perpétua glória no rei-no que prepara-do_está."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G               D      G        D      G      A     D",
+            "lyrics": "Sempre lembremo-nos da morte do nosso_amado_e bom Jesus;"
+          },
+          {
+            "chords": "G           D   G           D    G     A        D",
+            "lyrics": "Sua memória celebremos, Seu sacrifício sobre_a cruz."
+          },
+          {
+            "chords": "  A  D      Em   D  G        D     Em   A     D",
+            "lyrics": "Toma-remos, co – mo-vidos, a Santa Ceia do Senhor;"
+          },
+          {
+            "chords": "G             D      G         Em   Am  D       G   D   G    G...",
+            "lyrics": "Somos, agora, Seus remidos por Su - a   obra de grande_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                D     G        D    G     A    D",
+            "lyrics": "Neste momento_o pão partimos, como Jesus determinou,"
+          },
+          {
+            "chords": "G             D       G         D    G       A   D",
+            "lyrics": "E, nesta comunhão, sentimos quanto o Mestre nos amou;"
+          },
+          {
+            "chords": "   A  D      Em  D  G          D    Em    A     D",
+            "lyrics": "Ao be-bermos des-te cálix, por mandamento do Senhor"
+          },
+          {
+            "chords": "G           D  G      Em  Am  D       G  D  G    G...",
+            "lyrics": "Anunciamos Sua morte até  que venha o Re-dentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G           D    G          D    G         A  D",
+            "lyrics": "Rememoremos o martírio, a_humilhação que suportou;"
+          },
+          {
+            "chords": "G                  D    G          D     G      A     D",
+            "lyrics": "Sendo, de Deus, o_amado Filho, do céu desceu e nos salvou."
+          },
+          {
+            "chords": "  A  D      Em  D   G          D         Em    A    D",
+            "lyrics": "Retornou ao Pai e - terno, mas dentro_em breve voltará"
+          },
+          {
+            "chords": "G               D      G        Em  Am  D       G  D    G    G...",
+            "lyrics": "Para nos dar perpétua glória no rei-no que prepara-do_está."
+          }
+        ]
+      }
+    ]
+  }
 }

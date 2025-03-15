@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sou crente em Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D           G ",
-    "1. Jesus me guia com amor,",
-    "   D                A    A... ",
-    "Na fé, na paz e no Seu temor;",
-    "     D           G    G... ",
-    "Meu ser, desejo consagrar",
-    "     D                 A     D...",
-    "A Jesus, que veio para me salvar.",
-    "",
-    "     D     A     G          D",
-    "Sou crente em Jesus, meu Senhor,",
-    "                    A... ",
-    "A Ele sempre obedecerei;",
-    "   D      A       G     D",
-    "Terei em mim Seu santo amor",
-    "                          A   D...",
-    "E,_ao fim, reinar com Ele poderei.",
-    "",
-    "      D           G ",
-    "2. Só a Jesus me_apegarei",
-    "   D               A  A... ",
-    "E mal nenhum eu recearei;",
-    "    D             G    G... ",
-    "Confio sempre_em Seu poder,",
-    "      D               A   D...",
-    "Nada poderá jamais me abater.",
-    "",
-    "       D            G ",
-    "3. Ao fim do meu peregrinar,",
-    "  D                A     A... ",
-    "Irei com Cristo Jesus reinar;",
-    "   D           G     G... ",
-    "Serei ditoso, mui feliz,",
-    "      D                   A     D...",
-    "No glorioso, santo, celestial país."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D           G ",
+            "lyrics": "Jesus me guia com amor,"
+          },
+          {
+            "chords": "   D                A    A... ",
+            "lyrics": "Na fé, na paz e no Seu temor;"
+          },
+          {
+            "chords": "     D           G    G... ",
+            "lyrics": "Meu ser, desejo consagrar"
+          },
+          {
+            "chords": "     D                 A     D...",
+            "lyrics": "A Jesus, que veio para me salvar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D     A     G          D",
+            "lyrics": "Sou crente em Jesus, meu Senhor,"
+          },
+          {
+            "chords": "                    A... ",
+            "lyrics": "A Ele sempre obedecerei;"
+          },
+          {
+            "chords": "   D      A       G     D",
+            "lyrics": "Terei em mim Seu santo amor"
+          },
+          {
+            "chords": "                          A   D...",
+            "lyrics": "E,_ao fim, reinar com Ele poderei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   D           G ",
+            "lyrics": "Só a Jesus me_apegarei"
+          },
+          {
+            "chords": "   D               A  A... ",
+            "lyrics": "E mal nenhum eu recearei;"
+          },
+          {
+            "chords": "    D             G    G... ",
+            "lyrics": "Confio sempre_em Seu poder,"
+          },
+          {
+            "chords": "      D               A   D...",
+            "lyrics": "Nada poderá jamais me abater."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    D            G ",
+            "lyrics": "Ao fim do meu peregrinar,"
+          },
+          {
+            "chords": "  D                A     A... ",
+            "lyrics": "Irei com Cristo Jesus reinar;"
+          },
+          {
+            "chords": "   D           G     G... ",
+            "lyrics": "Serei ditoso, mui feliz,"
+          },
+          {
+            "chords": "      D                   A     D...",
+            "lyrics": "No glorioso, santo, celestial país."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Redentor celeste e santo",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                              G        C",
-    "1. Redentor celeste_e santo, puro é o Teu amor;",
-    "                        F    G       G7      C",
-    "Tu me deste a_esperança de entrar no céu, Senhor.",
-    "",
-    "G7               C",
-    "Oh! Quão feliz serei no dia",
-    "F        G      D7     G ",
-    "Em que Jesus do céu voltar;",
-    "C                 F      C",
-    "Junto aos santos, que_alegria,",
-    "F      G       G7    C",
-    "O galardão vou desfrutar!",
-    "",
-    "   C                                      G         C",
-    "2. Faz, Senhor, com que_eu me_aparte do pecado e do mal,",
-    "                     F       G     G7   C",
-    "E medite noite_e dia sobre_a lei celestial.",
-    "",
-    "   C                             G            C",
-    "3. Bem firmado na_esperança, a vitória_alcançarei;",
-    "                        F      G     G7   C",
-    "Prosseguindo confiante, no Teu reino entrarei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                              G        C",
+            "lyrics": "Redentor celeste_e santo, puro é o Teu amor;"
+          },
+          {
+            "chords": "                        F    G       G7      C",
+            "lyrics": "Tu me deste a_esperança de entrar no céu, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G7               C",
+            "lyrics": "Oh! Quão feliz serei no dia"
+          },
+          {
+            "chords": "F        G      D7     G ",
+            "lyrics": "Em que Jesus do céu voltar;"
+          },
+          {
+            "chords": "C                 F      C",
+            "lyrics": "Junto aos santos, que_alegria,"
+          },
+          {
+            "chords": "F      G       G7    C",
+            "lyrics": "O galardão vou desfrutar!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                                      G         C",
+            "lyrics": "Faz, Senhor, com que_eu me_aparte do pecado e do mal,"
+          },
+          {
+            "chords": "                     F       G     G7   C",
+            "lyrics": "E medite noite_e dia sobre_a lei celestial."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                             G            C",
+            "lyrics": "Bem firmado na_esperança, a vitória_alcançarei;"
+          },
+          {
+            "chords": "                        F      G     G7   C",
+            "lyrics": "Prosseguindo confiante, no Teu reino entrarei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Um peregrino sou aqui",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "           A          D ",
-    "1. Um peregrino sou aqui,",
-    "           A             E ",
-    "Pois o meu lar está nos céus;",
-    "           A A7       D ",
-    "Em breve_irei  viver ali,",
-    "       A    E       A",
-    "Unido aos fiéis de Deus.",
-    "",
-    "        A         E ",
-    "Que alegria sem igual",
-    "                      A",
-    "Há de sentir meu coração!",
-    "        A7         D ",
-    "Terei repouso eternal",
-    "          A    E    A",
-    "No fim da peregrinação.",
-    "",
-    "         A           D ",
-    "2. Inigualável galardão",
-    "           A         E ",
-    "Espero_em breve alcançar;",
-    "        A A7        D ",
-    "Da divinal  consolação,",
-    "            A        E     A",
-    "Junto_aos fiéis vou desfrutar.",
-    "",
-    "               A          D ",
-    "3. Findando_o meu peregrinar,",
-    "        A          E ",
-    "Irei à pátria eternal;",
-    "         A  A7           D ",
-    "Darei louvo - res sem cessar",
-    "           A    E    A",
-    "A Deus, o Pai celestial."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        A          D ",
+            "lyrics": "Um peregrino sou aqui,"
+          },
+          {
+            "chords": "           A             E ",
+            "lyrics": "Pois o meu lar está nos céus;"
+          },
+          {
+            "chords": "           A A7       D ",
+            "lyrics": "Em breve_irei  viver ali,"
+          },
+          {
+            "chords": "       A    E       A",
+            "lyrics": "Unido aos fiéis de Deus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        A         E ",
+            "lyrics": "Que alegria sem igual"
+          },
+          {
+            "chords": "                      A",
+            "lyrics": "Há de sentir meu coração!"
+          },
+          {
+            "chords": "        A7         D ",
+            "lyrics": "Terei repouso eternal"
+          },
+          {
+            "chords": "          A    E    A",
+            "lyrics": "No fim da peregrinação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A           D ",
+            "lyrics": "Inigualável galardão"
+          },
+          {
+            "chords": "           A         E ",
+            "lyrics": "Espero_em breve alcançar;"
+          },
+          {
+            "chords": "        A A7        D ",
+            "lyrics": "Da divinal  consolação,"
+          },
+          {
+            "chords": "            A        E     A",
+            "lyrics": "Junto_aos fiéis vou desfrutar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "            A          D ",
+            "lyrics": "Findando_o meu peregrinar,"
+          },
+          {
+            "chords": "        A          E ",
+            "lyrics": "Irei à pátria eternal;"
+          },
+          {
+            "chords": "         A  A7           D ",
+            "lyrics": "Darei louvo - res sem cessar"
+          },
+          {
+            "chords": "           A    E    A",
+            "lyrics": "A Deus, o Pai celestial."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Faz-me mais perseverante",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "        G",
-    "1. Ó Senhor, conduz-me_avante",
-    "      C     D ",
-    "Nesta senda de amor,",
-    "      G      C ",
-    "Ao destino, mui brilhante,",
-    "      D             G",
-    "De riqueza e_esplendor.",
-    "",
-    "        D           G",
-    "Faz-me mais perseverante",
-    "       D          G",
-    "Nesta graça, ó Senhor;",
-    "     G7          C ",
-    "Eu aguardo, confiante,",
-    "       D          G",
-    "Teus tesouros de amor.",
-    "",
-    "          G",
-    "2. Pelo_Espírito divino,",
-    "     C     D ",
-    "Teu amor acresce_em mim;",
-    "        G       C ",
-    "Só por Teu glorioso_ensino,",
-    "      D         G",
-    "Chegarei até o fim.",
-    "",
-    "        G",
-    "3. Amo Tua sã verdade,",
-    "     C     D ",
-    "Tua lei e Teu querer;",
-    "     G   C ",
-    "Amo Tua santidade",
-    "        D            G",
-    "Que me faz resplandecer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     G",
+            "lyrics": "Ó Senhor, conduz-me_avante"
+          },
+          {
+            "chords": "      C     D ",
+            "lyrics": "Nesta senda de amor,"
+          },
+          {
+            "chords": "      G      C ",
+            "lyrics": "Ao destino, mui brilhante,"
+          },
+          {
+            "chords": "      D             G",
+            "lyrics": "De riqueza e_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        D           G",
+            "lyrics": "Faz-me mais perseverante"
+          },
+          {
+            "chords": "       D          G",
+            "lyrics": "Nesta graça, ó Senhor;"
+          },
+          {
+            "chords": "     G7          C ",
+            "lyrics": "Eu aguardo, confiante,"
+          },
+          {
+            "chords": "       D          G",
+            "lyrics": "Teus tesouros de amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G",
+            "lyrics": "Pelo_Espírito divino,"
+          },
+          {
+            "chords": "     C     D ",
+            "lyrics": "Teu amor acresce_em mim;"
+          },
+          {
+            "chords": "        G       C ",
+            "lyrics": "Só por Teu glorioso_ensino,"
+          },
+          {
+            "chords": "      D         G",
+            "lyrics": "Chegarei até o fim."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G",
+            "lyrics": "Amo Tua sã verdade,"
+          },
+          {
+            "chords": "     C     D ",
+            "lyrics": "Tua lei e Teu querer;"
+          },
+          {
+            "chords": "     G   C ",
+            "lyrics": "Amo Tua santidade"
+          },
+          {
+            "chords": "        D            G",
+            "lyrics": "Que me faz resplandecer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

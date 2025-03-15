@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Recordemo-nos sempre do Mestre",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "        D         G         D  ",
-    "1. Recordemo-nos sempre do Mestre,",
-    "          A7                  D",
-    "Que, sem culpa, o martírio sofreu;",
-    "                G           D",
-    "Sendo Filho de Deus, Pai celeste,",
-    "       E7               A7 ",
-    "Pelos nossos pecados morreu.",
-    "",
-    "    A7                  D ",
-    "Comovidos por Seu sofrimento atroz",
-    "    A7                D ",
-    "Exaltemos o Filho de Deus;",
-    "               D7          G        G... ",
-    "Relembrando o amor que Ele teve por nós,",
-    "    A7                D",
-    "Orações elevemos aos céus.",
-    "",
-    "          D       G       D ",
-    "2. Jesus Cristo orou reverente,",
-    "     A7                 D ",
-    "A missão já chegava ao fim;",
-    "                    G         D",
-    " “Se possível”, clamou tristemente,",
-    "        E7                 A7 ",
-    "“Faz passar este cálix de mim.”",
-    "",
-    "        D         G            D ",
-    "3. A angústia, então, foi mui grande,",
-    "          A7                 D ",
-    "Que, por nós, o Senhor suportou;",
-    "                  G         D",
-    "Seu suor transformou-se em sangue,",
-    "     E7               A7 ",
-    "A vontade do Pai aceitou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     D         G         D  ",
+            "lyrics": "Recordemo-nos sempre do Mestre,"
+          },
+          {
+            "chords": "          A7                  D",
+            "lyrics": "Que, sem culpa, o martírio sofreu;"
+          },
+          {
+            "chords": "                G           D",
+            "lyrics": "Sendo Filho de Deus, Pai celeste,"
+          },
+          {
+            "chords": "       E7               A7 ",
+            "lyrics": "Pelos nossos pecados morreu."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    A7                  D ",
+            "lyrics": "Comovidos por Seu sofrimento atroz"
+          },
+          {
+            "chords": "    A7                D ",
+            "lyrics": "Exaltemos o Filho de Deus;"
+          },
+          {
+            "chords": "               D7          G        G... ",
+            "lyrics": "Relembrando o amor que Ele teve por nós,"
+          },
+          {
+            "chords": "    A7                D",
+            "lyrics": "Orações elevemos aos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       D       G       D ",
+            "lyrics": "Jesus Cristo orou reverente,"
+          },
+          {
+            "chords": "     A7                 D ",
+            "lyrics": "A missão já chegava ao fim;"
+          },
+          {
+            "chords": "                    G         D",
+            "lyrics": " “Se possível”, clamou tristemente,"
+          },
+          {
+            "chords": "        E7                 A7 ",
+            "lyrics": "“Faz passar este cálix de mim.”"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D         G            D ",
+            "lyrics": "A angústia, então, foi mui grande,"
+          },
+          {
+            "chords": "          A7                 D ",
+            "lyrics": "Que, por nós, o Senhor suportou;"
+          },
+          {
+            "chords": "                  G         D",
+            "lyrics": "Seu suor transformou-se em sangue,"
+          },
+          {
+            "chords": "     E7               A7 ",
+            "lyrics": "A vontade do Pai aceitou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

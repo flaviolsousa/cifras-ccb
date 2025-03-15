@@ -1,45 +1,95 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Bendizei ao Altíssimo Deus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G                D         G",
-    "1. Na alma do justo há voz de louvor",
-    "  C        G         A      D ",
-    "A Deus e a Cristo, fiel Remidor;",
-    "   G                  D      G",
-    "Há voz de_alegria, há exaltação;",
-    "    C          G        D       G",
-    "Seu cálix transborda de consolação.",
-    "",
-    "     G                          D ",
-    "Bendizei, bendizei ao Altíssimo Deus,",
-    "",
-    "Deus de_amor, Deus de paz,",
-    "       G",
-    "Que mandou lá dos céus",
-    "                    D       G",
-    "O santo Cordeiro, fiel Redentor,",
-    "  C        G       D         G   G...",
-    "A nossa Justiça, Jesus, o Senhor.",
-    "",
-    "     G                   D         G",
-    "2. A Deus toda_a honra e glória_etenal,",
-    "     C    G      A          D ",
-    "Pois é piedoso o Pai celestial;",
-    "    G                     D        G",
-    "Por Seu Filho_amado, Deus reconciliou",
-    "   C         G      D       G",
-    "Os homens Consigo e os resgatou.",
-    "",
-    "       G              D         G",
-    "3. Por boa vontade de Deus, Criador,",
-    "   C       G         A        D ",
-    "Do novo Concerto_é Jesus Mediador;",
-    "   G                 D         G",
-    "Preciosas promessas irão se cumprir",
-    "   C        G          D        G",
-    "Na volta de Cristo, em breve porvir."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G                D         G",
+            "lyrics": "Na alma do justo há voz de louvor"
+          },
+          {
+            "chords": "  C        G         A      D ",
+            "lyrics": "A Deus e a Cristo, fiel Remidor;"
+          },
+          {
+            "chords": "   G                  D      G",
+            "lyrics": "Há voz de_alegria, há exaltação;"
+          },
+          {
+            "chords": "    C          G        D       G",
+            "lyrics": "Seu cálix transborda de consolação."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "     G                          D "
+          },
+          {
+            "chords": "Bendizei, bendizei ao Altíssimo Deus,",
+            "lyrics": ""
+          },
+          {
+            "chords": "Deus de_amor, Deus de paz,",
+            "lyrics": "       G"
+          },
+          {
+            "chords": "Que mandou lá dos céus",
+            "lyrics": "                    D       G"
+          },
+          {
+            "chords": "O santo Cordeiro, fiel Redentor,",
+            "lyrics": "  C        G       D         G   G..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G                   D         G",
+            "lyrics": "A Deus toda_a honra e glória_etenal,"
+          },
+          {
+            "chords": "     C    G      A          D ",
+            "lyrics": "Pois é piedoso o Pai celestial;"
+          },
+          {
+            "chords": "    G                     D        G",
+            "lyrics": "Por Seu Filho_amado, Deus reconciliou"
+          },
+          {
+            "chords": "   C         G      D       G",
+            "lyrics": "Os homens Consigo e os resgatou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G              D         G",
+            "lyrics": "Por boa vontade de Deus, Criador,"
+          },
+          {
+            "chords": "   C       G         A        D ",
+            "lyrics": "Do novo Concerto_é Jesus Mediador;"
+          },
+          {
+            "chords": "   G                 D         G",
+            "lyrics": "Preciosas promessas irão se cumprir"
+          },
+          {
+            "chords": "   C        G          D        G",
+            "lyrics": "Na volta de Cristo, em breve porvir."
+          }
+        ]
+      }
+    ]
+  }
 }

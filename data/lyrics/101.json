@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cantemos, juntos, louvores a Deus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G                 D        G",
-    "1. Cantemos, juntos, louvores a Deus",
-    "  C          D ",
-    "E celebremos ao Senhor;",
-    "    G         D          G",
-    "Com júbilo elevemos aos céus",
-    "   C               D   G",
-    "Tributos santos ao Criador.",
-    "",
-    "    G             D         G",
-    "2. Eternamente preside_o Senhor,",
-    "     C           D ",
-    "Seus dias não se findarão;",
-    "    G              D         G              ",
-    "Prostremo-nos ante Deus, Criador,",
-    "     C             D    G",
-    "Pois somos obra da Sua mão.",
-    "",
-    "     G          D          G",
-    "3. Ó vinde e adoremos, por fé,",
-    "   C                D ",
-    "Ao Deus que nos fez povo Seu;",
-    " G            D         G",
-    "Onipresente e santo_Ele é",
-    "  C              D      G",
-    "E prometeu nos levar ao céu.",
-    "",
-    "      G               D         G",
-    "4. Se hoje_ouvirmos a voz do Senhor,",
-    "  C           D ",
-    "Devemos logo_obedecer,",
-    "     G            D         G",
-    "Pois o repouso no reino de_amor,",
-    "   C                  D   G",
-    "De Deus, o Pai, vamos receber."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G                 D        G",
+            "lyrics": "Cantemos, juntos, louvores a Deus"
+          },
+          {
+            "chords": "  C          D ",
+            "lyrics": "E celebremos ao Senhor;"
+          },
+          {
+            "chords": "    G         D          G",
+            "lyrics": "Com júbilo elevemos aos céus"
+          },
+          {
+            "chords": "   C               D   G",
+            "lyrics": "Tributos santos ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " G             D         G",
+            "lyrics": "Eternamente preside_o Senhor,"
+          },
+          {
+            "chords": "     C           D ",
+            "lyrics": "Seus dias não se findarão;"
+          },
+          {
+            "chords": "    G              D         G              ",
+            "lyrics": "Prostremo-nos ante Deus, Criador,"
+          },
+          {
+            "chords": "     C             D    G",
+            "lyrics": "Pois somos obra da Sua mão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G          D          G",
+            "lyrics": "Ó vinde e adoremos, por fé,"
+          },
+          {
+            "chords": "   C                D ",
+            "lyrics": "Ao Deus que nos fez povo Seu;"
+          },
+          {
+            "chords": " G            D         G",
+            "lyrics": "Onipresente e santo_Ele é"
+          },
+          {
+            "chords": "  C              D      G",
+            "lyrics": "E prometeu nos levar ao céu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "   G               D         G",
+            "lyrics": "Se hoje_ouvirmos a voz do Senhor,"
+          },
+          {
+            "chords": "  C           D ",
+            "lyrics": "Devemos logo_obedecer,"
+          },
+          {
+            "chords": "     G            D         G",
+            "lyrics": "Pois o repouso no reino de_amor,"
+          },
+          {
+            "chords": "   C                  D   G",
+            "lyrics": "De Deus, o Pai, vamos receber."
+          }
+        ]
+      }
+    ]
+  }
 }

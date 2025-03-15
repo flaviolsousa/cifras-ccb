@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Meu lar está no céu",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                    G          C",
-    "1. Meu lar está no céu, pátria de_amor,",
-    "                    G     C",
-    "Onde, com o Senhor, habitarei;",
-    "           F     C            F   C",
-    "Oh! Quão feliz serei ao ver o Criador!",
-    "    G      C         F  G     C",
-    "Seu grande esplendor contemplarei.",
-    "",
-    "   C                    G          C",
-    "2. Meu lar está no céu, pátria de_amor,",
-    "                    G       C",
-    "Onde, do meu labor, descansarei;",
-    "          F    C             F     C",
-    "Cristo me prometeu dar, pelo Seu favor,",
-    "  G     C          F  G    C",
-    "Herança que no céu desfrutarei.",
-    "",
-    "   C                    G          C",
-    "3. Meu lar está no céu, pátria de_amor;",
-    "                      G       C",
-    "Em glória, com Jesus, lá entrarei;",
-    "          F       C            F        C",
-    "Quando, enfim, chegar ao reino de_esplendor,",
-    "  G      C           F    G    C",
-    "Livre de toda_a dor, re - pousarei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                    G          C",
+            "lyrics": "Meu lar está no céu, pátria de_amor,"
+          },
+          {
+            "chords": "                    G     C",
+            "lyrics": "Onde, com o Senhor, habitarei;"
+          },
+          {
+            "chords": "           F     C            F   C",
+            "lyrics": "Oh! Quão feliz serei ao ver o Criador!"
+          },
+          {
+            "chords": "    G      C         F  G     C",
+            "lyrics": "Seu grande esplendor contemplarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                    G          C",
+            "lyrics": "Meu lar está no céu, pátria de_amor,"
+          },
+          {
+            "chords": "                    G       C",
+            "lyrics": "Onde, do meu labor, descansarei;"
+          },
+          {
+            "chords": "          F    C             F     C",
+            "lyrics": "Cristo me prometeu dar, pelo Seu favor,"
+          },
+          {
+            "chords": "  G     C          F  G    C",
+            "lyrics": "Herança que no céu desfrutarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                    G          C",
+            "lyrics": "Meu lar está no céu, pátria de_amor;"
+          },
+          {
+            "chords": "                      G       C",
+            "lyrics": "Em glória, com Jesus, lá entrarei;"
+          },
+          {
+            "chords": "          F       C            F        C",
+            "lyrics": "Quando, enfim, chegar ao reino de_esplendor,"
+          },
+          {
+            "chords": "  G      C           F    G    C",
+            "lyrics": "Livre de toda_a dor, re - pousarei."
+          }
+        ]
+      }
+    ]
+  }
 }

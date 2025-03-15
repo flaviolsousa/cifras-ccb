@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A história do Evangelho",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "          D                          G         D",
-    "1. É a_história do_Evangelho que nos fala de Jesus,",
-    "       A7       D          E7          A... ",
-    "Que ao Pai obedeceu e veio ser a nossa Luz.",
-    "     D                         G          A ",
-    "Para dar-nos vida_eterna, dura morte suportou;",
-    "     D                D...      A7         D...",
-    "Pela glória que_antevia, ao Seu Pai se humilhou.",
-    "",
-    "          D                       G          D",
-    "2. Transpassado com a lança foi o corpo do Senhor,",
-    "        A7            D          E7         A... ",
-    "Sobre_a cruz foi derramado o Seu sangue remidor;",
-    "       D                    G          A ",
-    "E, por esse sacrifício, recebemos salvação;",
-    "      D              D...       A7           D...",
-    "O_Evangelho nos declara: “Só em Cristo há perdão.”",
-    "",
-    "       D                         G          D",
-    "3. Comovente é ouvir contar a_história de Jesus;",
-    "       A7         D          E7        A... ",
-    "Quem, atento, escutá-la participará da luz;",
-    "      D                         G           A ",
-    "Ela_ensina que_o castigo foi trocado por perdão;",
-    "          D             D...      A7         D...",
-    "Glória_ao divinal Cordeiro, todos os fiéis darão.",
-    "",
-    "     A                            D",
-    "Não existe outra_história que se_iguale_à do Senhor,",
-    "   A                       D",
-    "Alegria dá aos mansos e converte_o pecador;",
-    "                     D...    G        A ",
-    "Essa_história manifesta a verdade e a luz",
-    "       D             G    G...      A7         D",
-    "Que restauram nossas vi - das e nos guiam a Jesus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       D                          G         D",
+            "lyrics": "É a_história do_Evangelho que nos fala de Jesus,"
+          },
+          {
+            "chords": "       A7       D          E7          A... ",
+            "lyrics": "Que ao Pai obedeceu e veio ser a nossa Luz."
+          },
+          {
+            "chords": "     D                         G          A ",
+            "lyrics": "Para dar-nos vida_eterna, dura morte suportou;"
+          },
+          {
+            "chords": "     D                D...      A7         D...",
+            "lyrics": "Pela glória que_antevia, ao Seu Pai se humilhou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       D                       G          D",
+            "lyrics": "Transpassado com a lança foi o corpo do Senhor,"
+          },
+          {
+            "chords": "        A7            D          E7         A... ",
+            "lyrics": "Sobre_a cruz foi derramado o Seu sangue remidor;"
+          },
+          {
+            "chords": "       D                    G          A ",
+            "lyrics": "E, por esse sacrifício, recebemos salvação;"
+          },
+          {
+            "chords": "      D              D...       A7           D...",
+            "lyrics": "O_Evangelho nos declara: “Só em Cristo há perdão.”"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    D                         G          D",
+            "lyrics": "Comovente é ouvir contar a_história de Jesus;"
+          },
+          {
+            "chords": "       A7         D          E7        A... ",
+            "lyrics": "Quem, atento, escutá-la participará da luz;"
+          },
+          {
+            "chords": "      D                         G           A ",
+            "lyrics": "Ela_ensina que_o castigo foi trocado por perdão;"
+          },
+          {
+            "chords": "          D             D...      A7         D...",
+            "lyrics": "Glória_ao divinal Cordeiro, todos os fiéis darão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     A                            D",
+            "lyrics": "Não existe outra_história que se_iguale_à do Senhor,"
+          },
+          {
+            "chords": "   A                       D",
+            "lyrics": "Alegria dá aos mansos e converte_o pecador;"
+          },
+          {
+            "chords": "                     D...    G        A ",
+            "lyrics": "Essa_história manifesta a verdade e a luz"
+          },
+          {
+            "chords": "       D             G    G...      A7         D",
+            "lyrics": "Que restauram nossas vi - das e nos guiam a Jesus."
+          }
+        ]
+      }
+    ]
+  }
 }

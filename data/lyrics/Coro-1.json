@@ -1,24 +1,47 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Aleluia! Aleluia!",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                 D        Bm",
-    "Aleluia!_Aleluia!_Aleluia!_Aleluia!",
-    "E4        E    A",
-    "Glória_ao Redentor!",
-    "                     D        Bm",
-    "Aleluia!_Aleluia!_Aleluia!_Aleluia!",
-    "E4        E    A",
-    "Glória_ao Redentor!",
-    "               E ",
-    "Glória_ao Redentor! Aleluia!",
-    "E7        A",
-    "Santo Remidor! Aleluia!",
-    "           D       Bm ",
-    "Nosso Salvador! Aleluia!",
-    "E4  E        A    A...",
-    "Glóaria_a Jesus!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A                 D        Bm",
+            "lyrics": "Aleluia!_Aleluia!_Aleluia!_Aleluia!"
+          },
+          {
+            "chords": "E4        E    A",
+            "lyrics": "Glória_ao Redentor!"
+          },
+          {
+            "chords": "                     D        Bm",
+            "lyrics": "Aleluia!_Aleluia!_Aleluia!_Aleluia!"
+          },
+          {
+            "chords": "E4        E    A",
+            "lyrics": "Glória_ao Redentor!"
+          },
+          {
+            "chords": "               E ",
+            "lyrics": "Glória_ao Redentor! Aleluia!"
+          },
+          {
+            "chords": "E7        A",
+            "lyrics": "Santo Remidor! Aleluia!"
+          },
+          {
+            "chords": "           D       Bm ",
+            "lyrics": "Nosso Salvador! Aleluia!"
+          },
+          {
+            "chords": "E4  E        A    A...",
+            "lyrics": "Glóaria_a Jesus!"
+          }
+        ]
+      }
+    ]
+  }
 }

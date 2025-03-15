@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ouve a nossa oração",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A      Am    A                              B7 E",
-    "1. Nossos olhos para_os céus, ó Deus, nós levanta-mos;",
-    "                         A           E E...",
-    "Confiando_em Teu amor, a nossa voz alçamos.",
-    "",
-    "A            B7",
-    "Ouve_a nossa oração",
-    "E             A",
-    "Desde_a Tua habitação;",
-    "                    D...",
-    "Tua bênção, Teu perdão,",
-    "E                  A",
-    "Manda,_ó Deus piedoso.",
-    "",
-    "   A    Am    A                      B7 E",
-    "2. Refrigério celestial e bálsamo precioso",
-    "                              A           E E...",
-    "É sentir-Te_em nosso ser, Pai santo, glorio-so.",
-    "",
-    "   A      Am     A                      B7 E",
-    "3. No Teu trono, ó Senhor, recebe nesta ho-ra",
-    "                    A            E E...",
-    "A humilde oração do povo que Te_adora."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A      Am    A                              B7 E",
+            "lyrics": "Nossos olhos para_os céus, ó Deus, nós levanta-mos;"
+          },
+          {
+            "chords": "                         A           E E...",
+            "lyrics": "Confiando_em Teu amor, a nossa voz alçamos."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A            B7",
+            "lyrics": "Ouve_a nossa oração"
+          },
+          {
+            "chords": "E             A",
+            "lyrics": "Desde_a Tua habitação;"
+          },
+          {
+            "chords": "                    D...",
+            "lyrics": "Tua bênção, Teu perdão,"
+          },
+          {
+            "chords": "E                  A",
+            "lyrics": "Manda,_ó Deus piedoso."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A    Am    A                      B7 E",
+            "lyrics": "Refrigério celestial e bálsamo precioso"
+          },
+          {
+            "chords": "                              A           E E...",
+            "lyrics": "É sentir-Te_em nosso ser, Pai santo, glorio-so."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A      Am     A                      B7 E",
+            "lyrics": "No Teu trono, ó Senhor, recebe nesta ho-ra"
+          },
+          {
+            "chords": "                    A            E E...",
+            "lyrics": "A humilde oração do povo que Te_adora."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

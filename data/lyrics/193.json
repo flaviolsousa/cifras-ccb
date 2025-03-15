@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nada jamais me faltará",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "          E    A         E",
-    "1. Apascentado por Jesus Cristo",
-    "       B7           E",
-    "Nada jamais me faltará;",
-    "             A       E",
-    "De confiança eu me revisto,",
-    "         B7        F#7   B7 ",
-    "O meu Pastor não falha - rá.",
-    "",
-    "        B7               E",
-    "Sigo de perto meu grande Mestre,",
-    "       B7           E",
-    "Nada jamais me faltará;",
-    "        B7               E",
-    "No Seu aprisco santo_e celeste",
-    "         A       B7     E",
-    "Todo_o fiel protegido_está.",
-    "",
-    "           E      A          E ",
-    "2. Passo a passo, por fé prossigo",
-    "       B7          E",
-    "Rumo à pátria celestial;",
-    "              A      E",
-    "Na tempestade tenho abrigo;",
-    "        B7      F#7  B7 ",
-    "Tenho socorro divi - nal.",
-    "",
-    "             E     A         E",
-    "3. Eu vou vencendo de dia_em dia",
-    "          B7           E",
-    "As minhas provas, pela fé;",
-    "               A      E",
-    "Cristo me unge com alegria;",
-    "          B7     F#7  B7 ",
-    "Sempre presente Ele   é."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       E    A         E",
+            "lyrics": "Apascentado por Jesus Cristo"
+          },
+          {
+            "chords": "       B7           E",
+            "lyrics": "Nada jamais me faltará;"
+          },
+          {
+            "chords": "             A       E",
+            "lyrics": "De confiança eu me revisto,"
+          },
+          {
+            "chords": "         B7        F#7   B7 ",
+            "lyrics": "O meu Pastor não falha - rá."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        B7               E",
+            "lyrics": "Sigo de perto meu grande Mestre,"
+          },
+          {
+            "chords": "       B7           E",
+            "lyrics": "Nada jamais me faltará;"
+          },
+          {
+            "chords": "        B7               E",
+            "lyrics": "No Seu aprisco santo_e celeste"
+          },
+          {
+            "chords": "         A       B7     E",
+            "lyrics": "Todo_o fiel protegido_está."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        E      A          E ",
+            "lyrics": "Passo a passo, por fé prossigo"
+          },
+          {
+            "chords": "       B7          E",
+            "lyrics": "Rumo à pátria celestial;"
+          },
+          {
+            "chords": "              A      E",
+            "lyrics": "Na tempestade tenho abrigo;"
+          },
+          {
+            "chords": "        B7      F#7  B7 ",
+            "lyrics": "Tenho socorro divi - nal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "          E     A         E",
+            "lyrics": "Eu vou vencendo de dia_em dia"
+          },
+          {
+            "chords": "          B7           E",
+            "lyrics": "As minhas provas, pela fé;"
+          },
+          {
+            "chords": "               A      E",
+            "lyrics": "Cristo me unge com alegria;"
+          },
+          {
+            "chords": "          B7     F#7  B7 ",
+            "lyrics": "Sempre presente Ele   é."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

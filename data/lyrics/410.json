@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O sangue precioso",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G                              D",
-    "1. O sangue precioso, vertido do Senhor,",
-    "  G                      D           G",
-    "Redime_e justifica quem crer no Salvador.",
-    "",
-    "        G       C            D     G",
-    "Com Seu sangue, Cristo nos lavou e nos purificou;",
-    "                   D         G    G...",
-    "Na cruz, as nossas dívidas pagou.",
-    "",
-    "     G                                     D",
-    "2. Sejamos sempre gratos, Seu sangue nos lavou;",
-    "   G                    D               G",
-    "Em comunhão, louvemos Jesus, que nos salvou.",
-    "",
-    "      G                                  D",
-    "3. Em breve nós veremos, em grande esplendor,",
-    "    G                D          G",
-    "De glória coroado, Jesus, o Remidor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G                              D",
+            "lyrics": "O sangue precioso, vertido do Senhor,"
+          },
+          {
+            "chords": "  G                      D           G",
+            "lyrics": "Redime_e justifica quem crer no Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        G       C            D     G",
+            "lyrics": "Com Seu sangue, Cristo nos lavou e nos purificou;"
+          },
+          {
+            "chords": "                   D         G    G...",
+            "lyrics": "Na cruz, as nossas dívidas pagou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G                                     D",
+            "lyrics": "Sejamos sempre gratos, Seu sangue nos lavou;"
+          },
+          {
+            "chords": "   G                    D               G",
+            "lyrics": "Em comunhão, louvemos Jesus, que nos salvou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G                                  D",
+            "lyrics": "Em breve nós veremos, em grande esplendor,"
+          },
+          {
+            "chords": "    G                D          G",
+            "lyrics": "De glória coroado, Jesus, o Remidor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "É bom louvar ao Criador",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G                        C               G",
-    "1. É bom louvar ao Criador, alçar a voz em louvor,",
-    "   D           G                           D ",
-    "Contar as Suas obras e lembrar Seu grande amor,",
-    "           D7     G        Em        B7 ",
-    "Render-Lhe santo culto, sincera adoração;",
-    "   C            G     D           G",
-    "É bom, perante Ele, andar em retidão.",
-    "",
-    "  D        G",
-    "Fiéis adoradores,",
-    "   C             G",
-    "Louvai ao Deus vivente;",
-    "                   C ",
-    "Por Seus imensos favores,",
-    "   D          G",
-    "Louvai ao Criador!",
-    "",
-    "      G                    C             G",
-    "2. Sinceramente exaltai o santo Nome de Deus,",
-    "   D          G                              D ",
-    "Cantai alegremente ao Senhor que habita nos céus,",
-    "      D7       G       Em             B7 ",
-    "O coração e a mente ao grande Deus elevai;",
-    "   C          G         D          G",
-    "Ó filhos do Eterno, ao Pai glorificai.",
-    "",
-    "       G                      C               G",
-    "3. Com humildade, ó irmãos, apresentai-vos a Deus,",
-    "  D           G                           D ",
-    "Andai na santidade que convém a todos os Seus,",
-    "           D7     G      Em              B7 ",
-    "Com toda a vossa vida honrai a Quem vos amou,",
-    "  C             G       D           G",
-    "Aquele que, do alto, a salvação mandou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G                        C               G",
+            "lyrics": "É bom louvar ao Criador, alçar a voz em louvor,"
+          },
+          {
+            "chords": "   D           G                           D ",
+            "lyrics": "Contar as Suas obras e lembrar Seu grande amor,"
+          },
+          {
+            "chords": "           D7     G        Em        B7 ",
+            "lyrics": "Render-Lhe santo culto, sincera adoração;"
+          },
+          {
+            "chords": "   C            G     D           G",
+            "lyrics": "É bom, perante Ele, andar em retidão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  D        G",
+            "lyrics": "Fiéis adoradores,"
+          },
+          {
+            "chords": "   C             G",
+            "lyrics": "Louvai ao Deus vivente;"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Por Seus imensos favores,"
+          },
+          {
+            "chords": "   D          G",
+            "lyrics": "Louvai ao Criador!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G                    C             G",
+            "lyrics": "Sinceramente exaltai o santo Nome de Deus,"
+          },
+          {
+            "chords": "   D          G                              D ",
+            "lyrics": "Cantai alegremente ao Senhor que habita nos céus,"
+          },
+          {
+            "chords": "      D7       G       Em             B7 ",
+            "lyrics": "O coração e a mente ao grande Deus elevai;"
+          },
+          {
+            "chords": "   C          G         D          G",
+            "lyrics": "Ó filhos do Eterno, ao Pai glorificai."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G                      C               G",
+            "lyrics": "Com humildade, ó irmãos, apresentai-vos a Deus,"
+          },
+          {
+            "chords": "  D           G                           D ",
+            "lyrics": "Andai na santidade que convém a todos os Seus,"
+          },
+          {
+            "chords": "           D7     G      Em              B7 ",
+            "lyrics": "Com toda a vossa vida honrai a Quem vos amou,"
+          },
+          {
+            "chords": "  C             G       D           G",
+            "lyrics": "Aquele que, do alto, a salvação mandou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

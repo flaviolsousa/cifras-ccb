@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Os meninos viram Jesus passar",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                   D ",
-    "1. Os meninos viram Jesus passar;",
-    "                 G",
-    "Logo O seguiram para proclamar:",
-    "                      C9         G",
-    "Glória ao que veio_em nome do Senhor!",
-    "                   D    G",
-    "Foi engrandecido o Redentor.",
-    "",
-    "    G                 D ",
-    "2. Vamos exaltar a Jesus, então,",
-    "                     G",
-    "Com os nossos lábios e o coração;",
-    "                 C9           G",
-    "Ó meninos, vamos ao Senhor servir",
-    "                     D       G",
-    "E a lei perfeita de Deus cumprir.",
-    "",
-    "    G                         D ",
-    "3. Eis que, entre nós, Jesus Cristo_está;",
-    "                     G",
-    "Ele, que nos vê, nos abençoará;",
-    "                   C9            G",
-    "As virtudes santas quer nos conceder,",
-    "                     D     G ",
-    "Para que possamos o mal vencer.",
-    "",
-    "   G                      D ",
-    "4. Em silêncio_ouçamos o que dirá",
-    "                         G",
-    "Cristo,_o nosso Mestre, que ensinará",
-    "                 C9              G",
-    "A doutrina santa que conduz aos céus;",
-    "                  D      G ",
-    "Ó meninos, vamos amar a Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                   D ",
+            "lyrics": "Os meninos viram Jesus passar;"
+          },
+          {
+            "chords": "                 G",
+            "lyrics": "Logo O seguiram para proclamar:"
+          },
+          {
+            "chords": "                      C9         G",
+            "lyrics": "Glória ao que veio_em nome do Senhor!"
+          },
+          {
+            "chords": "                   D    G",
+            "lyrics": "Foi engrandecido o Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " G                 D ",
+            "lyrics": "Vamos exaltar a Jesus, então,"
+          },
+          {
+            "chords": "                     G",
+            "lyrics": "Com os nossos lábios e o coração;"
+          },
+          {
+            "chords": "                 C9           G",
+            "lyrics": "Ó meninos, vamos ao Senhor servir"
+          },
+          {
+            "chords": "                     D       G",
+            "lyrics": "E a lei perfeita de Deus cumprir."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " G                         D ",
+            "lyrics": "Eis que, entre nós, Jesus Cristo_está;"
+          },
+          {
+            "chords": "                     G",
+            "lyrics": "Ele, que nos vê, nos abençoará;"
+          },
+          {
+            "chords": "                   C9            G",
+            "lyrics": "As virtudes santas quer nos conceder,"
+          },
+          {
+            "chords": "                     D     G ",
+            "lyrics": "Para que possamos o mal vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "G                      D ",
+            "lyrics": "Em silêncio_ouçamos o que dirá"
+          },
+          {
+            "chords": "                         G",
+            "lyrics": "Cristo,_o nosso Mestre, que ensinará"
+          },
+          {
+            "chords": "                 C9              G",
+            "lyrics": "A doutrina santa que conduz aos céus;"
+          },
+          {
+            "chords": "                  D      G ",
+            "lyrics": "Ó meninos, vamos amar a Deus."
+          }
+        ]
+      }
+    ]
+  }
 }

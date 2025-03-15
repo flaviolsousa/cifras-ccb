@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "No mundo sou peregrino",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D",
-    "1. No mundo sou peregrino,",
-    "                  A ",
-    "É Cristo meu Condutor;",
-    "                    D",
-    "Ele_é_o Caminho que leva ao céu,",
-    "   G         A    D",
-    "Também é meu Salvador.",
-    "",
-    "D              D°  D                A ",
-    "Eu subirei com Cristo à celestial Sião,",
-    "                   A7           D",
-    "É Ele Quem me guia na peregrinação;",
-    "                     D°   D                G ",
-    "Quando_eu entrar na gló - ria do meu amado Rei,",
-    "                  D     G     A      D",
-    "Ao contemplar Sua face, regozijar-me-ei.",
-    "",
-    "   D",
-    "2. No mundo sou peregrino,",
-    "                     A ",
-    "Quem pode_aqui me_ajudar?",
-    "                      D",
-    "Só Cristo,_a Porta do reino dos céus,",
-    "    G        A     D",
-    "Por Quem poderei entrar.",
-    "",
-    "   D",
-    "3. No mundo sou peregrino,",
-    "                A ",
-    "Ando aqui com Jesus;",
-    "                    D",
-    "Busco_as moradas do Pai celestial,",
-    "  G         A       D",
-    "O lar de justiça_e luz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "No mundo sou peregrino,"
+          },
+          {
+            "chords": "                  A ",
+            "lyrics": "É Cristo meu Condutor;"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Ele_é_o Caminho que leva ao céu,"
+          },
+          {
+            "chords": "   G         A    D",
+            "lyrics": "Também é meu Salvador."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "D              D°  D                A "
+          },
+          {
+            "chords": "Eu subirei com Cristo à celestial Sião,",
+            "lyrics": "                   A7           D"
+          },
+          {
+            "chords": "É Ele Quem me guia na peregrinação;",
+            "lyrics": "                     D°   D                G "
+          },
+          {
+            "chords": "Quando_eu entrar na gló - ria do meu amado Rei,",
+            "lyrics": "                  D     G     A      D"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "No mundo sou peregrino,"
+          },
+          {
+            "chords": "                     A ",
+            "lyrics": "Quem pode_aqui me_ajudar?"
+          },
+          {
+            "chords": "                      D",
+            "lyrics": "Só Cristo,_a Porta do reino dos céus,"
+          },
+          {
+            "chords": "    G        A     D",
+            "lyrics": "Por Quem poderei entrar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "No mundo sou peregrino,"
+          },
+          {
+            "chords": "                A ",
+            "lyrics": "Ando aqui com Jesus;"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Busco_as moradas do Pai celestial,"
+          },
+          {
+            "chords": "  G         A       D",
+            "lyrics": "O lar de justiça_e luz."
+          }
+        ]
+      }
+    ]
+  }
 }

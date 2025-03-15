@@ -1,16 +1,31 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Jesus eu cantarei louvor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "G               D",
-    "A Jesus eu cantarei louvor;",
-    "                      G     ",
-    "Honra_e glória sempre Lhe darei;",
-    "      G7  C",
-    "Exaltarei ao meu Senhor;",
-    "D               G",
-    "O Seu Nome bendirei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G               D",
+            "lyrics": "A Jesus eu cantarei louvor;"
+          },
+          {
+            "chords": "                      G     ",
+            "lyrics": "Honra_e glória sempre Lhe darei;"
+          },
+          {
+            "chords": "      G7  C",
+            "lyrics": "Exaltarei ao meu Senhor;"
+          },
+          {
+            "chords": "D               G",
+            "lyrics": "O Seu Nome bendirei."
+          }
+        ]
+      }
+    ]
+  }
 }

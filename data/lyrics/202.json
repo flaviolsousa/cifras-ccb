@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Em Ti me alegro, Senhor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D                     A ",
-    "1. Eu sinto, por fé, em meu coração",
-    "                   D",
-    "A Tua presença, Senhor Jesus;",
-    "                   G ",
-    "Por ela eu vivo em comunhão,",
-    "           D     A     D    D...",
-    "Guiado por Tua divina luz.",
-    "",
-    "   D",
-    "Em Ti me alegro, Senhor,",
-    "   A              D",
-    "Tu és o fiel Salvador;",
-    "                       G       D",
-    "Reinar lá no céu, onde tudo é luz,",
-    "   G     A          D",
-    "Contigo irei, meu Jesus.",
-    "",
-    "      D                 A ",
-    "2. As Tuas promessas, ó Salvador,",
-    "                     D",
-    "Em meu coração quero conservar;",
-    "                     G ",
-    "Por elas desfruto do Teu amor,",
-    "            D       A    D    D...",
-    "Enquanto na terra peregrinar.",
-    "",
-    "        D                    A ",
-    "3. Transborda de bênçãos meu coração,",
-    "                   D",
-    "Alegre me sinto em Te louvar;",
-    "                      G ",
-    "Em prova, angústia ou aflição,",
-    "         D         A      D    D...",
-    "A Tua presença vem me_alegrar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D                     A ",
+            "lyrics": "Eu sinto, por fé, em meu coração"
+          },
+          {
+            "chords": "                   D",
+            "lyrics": "A Tua presença, Senhor Jesus;"
+          },
+          {
+            "chords": "                   G ",
+            "lyrics": "Por ela eu vivo em comunhão,"
+          },
+          {
+            "chords": "           D     A     D    D...",
+            "lyrics": "Guiado por Tua divina luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   D",
+            "lyrics": "Em Ti me alegro, Senhor,"
+          },
+          {
+            "chords": "   A              D",
+            "lyrics": "Tu és o fiel Salvador;"
+          },
+          {
+            "chords": "                       G       D",
+            "lyrics": "Reinar lá no céu, onde tudo é luz,"
+          },
+          {
+            "chords": "   G     A          D",
+            "lyrics": "Contigo irei, meu Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   D                 A ",
+            "lyrics": "As Tuas promessas, ó Salvador,"
+          },
+          {
+            "chords": "                     D",
+            "lyrics": "Em meu coração quero conservar;"
+          },
+          {
+            "chords": "                     G ",
+            "lyrics": "Por elas desfruto do Teu amor,"
+          },
+          {
+            "chords": "            D       A    D    D...",
+            "lyrics": "Enquanto na terra peregrinar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D                    A ",
+            "lyrics": "Transborda de bênçãos meu coração,"
+          },
+          {
+            "chords": "                   D",
+            "lyrics": "Alegre me sinto em Te louvar;"
+          },
+          {
+            "chords": "                      G ",
+            "lyrics": "Em prova, angústia ou aflição,"
+          },
+          {
+            "chords": "         D         A      D    D...",
+            "lyrics": "A Tua presença vem me_alegrar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

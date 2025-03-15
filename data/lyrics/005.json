@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Rocha celestial",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A",
-    "1. Sábio_e prudente será o varão",
-    "      E                A",
-    "Que_a casa na rocha erguer;",
-    "",
-    "Sempre terá eficaz proteção,",
-    "     B7             E",
-    "Pois nada a pode_abater.",
-    "",
-    "A",
-    "A Rocha celestial",
-    "            B7       E",
-    "É Cristo,_o Filho de Deus,",
-    "A  A7   D         C#",
-    "O  Fundamento_eternal",
-    "Bm  E                       A",
-    "De  quem busca_o reino dos céus.",
-    "",
-    "   A",
-    "2. Quem sobre_a_areia quiser construir,",
-    "   E                A",
-    "Em vão trabalhado terá,",
-    "",
-    "Pois sua casa virá a cair;",
-    "   B7                 E",
-    "Em falso_alicerce_estará.",
-    "",
-    "   A",
-    "3. As tempestades e_os ventos virão",
-    "  E                   A",
-    "A todos, com grande furor;",
-    "",
-    "Mas os que sobre a Rocha estão,",
-    "   B7                E",
-    "Firmeza terão nos Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Sábio_e prudente será o varão"
+          },
+          {
+            "chords": "      E                A",
+            "lyrics": "Que_a casa na rocha erguer;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Sempre terá eficaz proteção,"
+          },
+          {
+            "chords": "     B7             E",
+            "lyrics": "Pois nada a pode_abater."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "A Rocha celestial"
+          },
+          {
+            "chords": "            B7       E",
+            "lyrics": "É Cristo,_o Filho de Deus,"
+          },
+          {
+            "chords": "A  A7   D         C#",
+            "lyrics": "O  Fundamento_eternal"
+          },
+          {
+            "chords": "Bm  E                       A",
+            "lyrics": "De  quem busca_o reino dos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Quem sobre_a_areia quiser construir,"
+          },
+          {
+            "chords": "   E                A",
+            "lyrics": "Em vão trabalhado terá,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pois sua casa virá a cair;"
+          },
+          {
+            "chords": "   B7                 E",
+            "lyrics": "Em falso_alicerce_estará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "As tempestades e_os ventos virão"
+          },
+          {
+            "chords": "  E                   A",
+            "lyrics": "A todos, com grande furor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Mas os que sobre a Rocha estão,"
+          },
+          {
+            "chords": "   B7                E",
+            "lyrics": "Firmeza terão nos Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

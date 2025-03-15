@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Foi Jesus Quem me salvou",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "    G                ",
-    "1. Alegre canto um hino de louvor,",
-    "                   D    D7... ",
-    "Pois Cristo me salvou;",
-    "    G",
-    "Um hino de vitória e amor",
-    "   C9     D     G",
-    "A Quem me libertou.",
-    "",
-    "      G              D ",
-    "Foi Jesus Quem me salvou,",
-    "      C9 ",
-    "Minha alma resgatou,",
-    "      G",
-    "Minha vida transformou;",
-    "                D ",
-    "Seu amor anunciarei",
-    "      C9        D    G",
-    "E Seu Nome glorificarei.",
-    "",
-    "       G",
-    "2. Minh´alma sente a celeste paz,",
-    "                   D    D7... ",
-    "Pois Cristo me salvou;",
-    "   G",
-    "Jamais voltar desejo para trás,",
-    "     C9      D        G",
-    "Com Cristo avante eu vou.",
-    "",
-    "      G",
-    "3. Só em Jesus eu conheci o amor,",
-    "                D    D7... ",
-    "Amor que me salvou,",
-    "  G",
-    "Amor que me tem feito vencedor",
-    "  C9   D    G",
-    "E vida me doou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " G                ",
+            "lyrics": "Alegre canto um hino de louvor,"
+          },
+          {
+            "chords": "                   D    D7... ",
+            "lyrics": "Pois Cristo me salvou;"
+          },
+          {
+            "chords": "    G",
+            "lyrics": "Um hino de vitória e amor"
+          },
+          {
+            "chords": "   C9     D     G",
+            "lyrics": "A Quem me libertou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      G              D ",
+            "lyrics": "Foi Jesus Quem me salvou,"
+          },
+          {
+            "chords": "      C9 ",
+            "lyrics": "Minha alma resgatou,"
+          },
+          {
+            "chords": "      G",
+            "lyrics": "Minha vida transformou;"
+          },
+          {
+            "chords": "                D ",
+            "lyrics": "Seu amor anunciarei"
+          },
+          {
+            "chords": "      C9        D    G",
+            "lyrics": "E Seu Nome glorificarei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Minh´alma sente a celeste paz,"
+          },
+          {
+            "chords": "                   D    D7... ",
+            "lyrics": "Pois Cristo me salvou;"
+          },
+          {
+            "chords": "   G",
+            "lyrics": "Jamais voltar desejo para trás,"
+          },
+          {
+            "chords": "     C9      D        G",
+            "lyrics": "Com Cristo avante eu vou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G",
+            "lyrics": "Só em Jesus eu conheci o amor,"
+          },
+          {
+            "chords": "                D    D7... ",
+            "lyrics": "Amor que me salvou,"
+          },
+          {
+            "chords": "  G",
+            "lyrics": "Amor que me tem feito vencedor"
+          },
+          {
+            "chords": "  C9   D    G",
+            "lyrics": "E vida me doou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

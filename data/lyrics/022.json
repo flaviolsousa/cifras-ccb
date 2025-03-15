@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Guia-me, ó Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "    A                 E              A",
-    "1. Guia-me, ó Senhor, na fulgurante luz;",
-    "                     E                  A",
-    "Dá-me mais do amor, que_á glória me conduz.",
-    "",
-    " A        D       A              E",
-    "Guia-me, guia-me com Tua mão, Senhor;",
-    " A          D        E               A",
-    "Guarda-me, guarda-me do mundo_enganador.",
-    "",
-    "    A                   E             A",
-    "2. Guia-me, bom Jesus, descanso eu terei;",
-    "                  E                  A",
-    "Rege-me pela luz que vem de Ti, meu Rei.",
-    "",
-    "    A                 E             A",
-    "3. Guia-me, Salvador, na Tua santa lei;",
-    "                    E             A",
-    "Guarda-me em amor, Teu Nome bendirei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " A                 E              A",
+            "lyrics": "Guia-me, ó Senhor, na fulgurante luz;"
+          },
+          {
+            "chords": "                     E                  A",
+            "lyrics": "Dá-me mais do amor, que_á glória me conduz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " A        D       A              E",
+            "lyrics": "Guia-me, guia-me com Tua mão, Senhor;"
+          },
+          {
+            "chords": " A          D        E               A",
+            "lyrics": "Guarda-me, guarda-me do mundo_enganador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " A                   E             A",
+            "lyrics": "Guia-me, bom Jesus, descanso eu terei;"
+          },
+          {
+            "chords": "                  E                  A",
+            "lyrics": "Rege-me pela luz que vem de Ti, meu Rei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " A                 E             A",
+            "lyrics": "Guia-me, Salvador, na Tua santa lei;"
+          },
+          {
+            "chords": "                    E             A",
+            "lyrics": "Guarda-me em amor, Teu Nome bendirei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

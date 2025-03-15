@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vivo na graça",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                C         G",
-    "1. Vivo na graça do Filho de Deus,",
-    "D7             G     D7",
-    "Regenerado por Ele estou;",
-    "G                 C      D#7  G",
-    "Para Seu reino de glória nos céus,",
-    "G7       C         D7      G",
-    "Cristo Jesus já me predestinou.",
-    "",
-    "G                D        G",
-    "Vivo na graça do meu Salvador,",
-    "                  A7     D7",
-    "Vivo contente, em paz e amor;",
-    "G                 E       Am",
-    "Vivo_exaltando ao meu Criador;",
-    "                     D7      G    G...",
-    "Sinto_em minh´alma divino fervor.",
-    "",
-    "   G              C         G",
-    "2. Purificado por Cristo Jesus,",
-    "D7                 G      D7",
-    "Sinto em mim Seu sublime amor;",
-    "G              C    D#7  G",
-    "Ando na Sua justiça e   luz,",
-    "G7      C       D7       G",
-    "E neste mundo serei vencedor.",
-    "",
-    "   G                  C        G",
-    "3. Este_é_o desejo do meu coração:",
-    "D7               G        D7",
-    "Ser revestido da vida_eternal;",
-    "G                       C     D#7   G",
-    "Ser como_é Cristo,_o perfeito Va - rão,",
-    "G7      C        D7      G",
-    "E ter entrada no lar divinal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                C         G",
+            "lyrics": "Vivo na graça do Filho de Deus,"
+          },
+          {
+            "chords": "D7             G     D7",
+            "lyrics": "Regenerado por Ele estou;"
+          },
+          {
+            "chords": "G                 C      D#7  G",
+            "lyrics": "Para Seu reino de glória nos céus,"
+          },
+          {
+            "chords": "G7       C         D7      G",
+            "lyrics": "Cristo Jesus já me predestinou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                D        G",
+            "lyrics": "Vivo na graça do meu Salvador,"
+          },
+          {
+            "chords": "                  A7     D7",
+            "lyrics": "Vivo contente, em paz e amor;"
+          },
+          {
+            "chords": "G                 E       Am",
+            "lyrics": "Vivo_exaltando ao meu Criador;"
+          },
+          {
+            "chords": "                     D7      G    G...",
+            "lyrics": "Sinto_em minh´alma divino fervor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G              C         G",
+            "lyrics": "Purificado por Cristo Jesus,"
+          },
+          {
+            "chords": "D7                 G      D7",
+            "lyrics": "Sinto em mim Seu sublime amor;"
+          },
+          {
+            "chords": "G              C    D#7  G",
+            "lyrics": "Ando na Sua justiça e   luz,"
+          },
+          {
+            "chords": "G7      C       D7       G",
+            "lyrics": "E neste mundo serei vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                  C        G",
+            "lyrics": "Este_é_o desejo do meu coração:"
+          },
+          {
+            "chords": "D7               G        D7",
+            "lyrics": "Ser revestido da vida_eternal;"
+          },
+          {
+            "chords": "G                       C     D#7   G",
+            "lyrics": "Ser como_é Cristo,_o perfeito Va - rão,"
+          },
+          {
+            "chords": "G7      C        D7      G",
+            "lyrics": "E ter entrada no lar divinal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

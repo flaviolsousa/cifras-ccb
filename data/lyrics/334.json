@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Há uma pátria perfeita...",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "          G         C          G",
-    "1. Há_uma pátria perfeita_em beleza,",
-    "                            D ",
-    "Pátria_eterna, sublime, de_amor;",
-    "      G           C       G",
-    "Nessa pátria de_infinda riqueza,",
-    "             D         G",
-    "Tudo tem eternal esplendor.",
-    "",
-    "      G           D ",
-    "É nos céus, é nos céus",
-    "                          G",
-    "Essa pátria de vida_e de_amor;",
-    "         G7      C ",
-    "Nela_está  nosso Deus ",
-    "    G           D       G",
-    "E Jesus, nosso_amado Senhor.",
-    "",
-    "          G        C        G",
-    "2. A Deus Pai o louvor tributemos,",
-    "                      D ",
-    "E a Cristo, o Rei divinal,",
-    "      G       C       G",
-    "E, um dia, ao céu subiremos;",
-    "             D          G",
-    "Viveremos na glória_eternal.",
-    "",
-    "         G        C         G",
-    "3. Ao Cordeiro de Deus cantaremos,",
-    "                        D ",
-    "Nessa pátria, divino louvor;",
-    "      G      C      G",
-    "Congregados ali estaremos",
-    "                D         G",
-    "Ante_o trono de Deus, Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       G         C          G",
+            "lyrics": "Há_uma pátria perfeita_em beleza,"
+          },
+          {
+            "chords": "                            D ",
+            "lyrics": "Pátria_eterna, sublime, de_amor;"
+          },
+          {
+            "chords": "      G           C       G",
+            "lyrics": "Nessa pátria de_infinda riqueza,"
+          },
+          {
+            "chords": "             D         G",
+            "lyrics": "Tudo tem eternal esplendor."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "      G           D "
+          },
+          {
+            "chords": "É nos céus, é nos céus",
+            "lyrics": "                          G"
+          },
+          {
+            "chords": "Essa pátria de vida_e de_amor;",
+            "lyrics": "         G7      C "
+          },
+          {
+            "chords": "Nela_está  nosso Deus ",
+            "lyrics": "    G           D       G"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G        C        G",
+            "lyrics": "A Deus Pai o louvor tributemos,"
+          },
+          {
+            "chords": "                      D ",
+            "lyrics": "E a Cristo, o Rei divinal,"
+          },
+          {
+            "chords": "      G       C       G",
+            "lyrics": "E, um dia, ao céu subiremos;"
+          },
+          {
+            "chords": "             D          G",
+            "lyrics": "Viveremos na glória_eternal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      G        C         G",
+            "lyrics": "Ao Cordeiro de Deus cantaremos,"
+          },
+          {
+            "chords": "                        D ",
+            "lyrics": "Nessa pátria, divino louvor;"
+          },
+          {
+            "chords": "      G      C      G",
+            "lyrics": "Congregados ali estaremos"
+          },
+          {
+            "chords": "                D         G",
+            "lyrics": "Ante_o trono de Deus, Criador."
+          }
+        ]
+      }
+    ]
+  }
 }

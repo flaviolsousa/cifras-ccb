@@ -1,46 +1,99 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo Jesus Sua mão me dá",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C   A7   Dm  G/B   G7         C                              ",
-    "1. Cristo Jesus       Sua mão me dá;",
-    "        Am        Dm  ",
-    "Neste caminho que leva_aos céus,",
-    "G7            C ",
-    "Ele dirige os passos meus;",
-    "    A7  Dm  G/B   G7       Am ",
-    "Com Sua mão,      poderosa mão,",
-    "   Dm       D#°       Em     A7... ",
-    "Me faz triunfar, me fará habitar",
-    "       Dm  G7   C",
-    "Na_eternal Si - ão.",
-    "",
-    "   C   A7   Dm  G/B   G7         C",
-    "2. Cristo Jesus       Sua mão me dá;",
-    "        Am        Dm  ",
-    "Com Sua sombra me cobrirá",
-    "G7                C ",
-    "E nenhum mal me molestará;",
-    "     A7     Dm  G/B   G7         Am ",
-    "Meus pés também       não tropeçarão;",
-    "   Dm        D#°         Em      A7... ",
-    "Os anjos dos céus, ao mandado de Deus,",
-    "      Dm  G7   C",
-    "Me susten-ta - rão.",
-    "",
-    "   C   A7   Dm  G/B   G7         C",
-    "3. Cristo Jesus       Sua mão me dá;",
-    "         Am        Dm  ",
-    "Nada, portanto, me faz parar,",
-    "G7               C ",
-    "Nada aqui pode me_abalar;",
-    "    A7    Dm  G/B   G7            Am ",
-    "Com meu Jesus,      passo_a passo vou;",
-    "  Dm      D#°      Em    A7... ",
-    "Vitória terei, coroado serei",
-    "         Dm  G7  C",
-    "Por Quem me  a - mou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C   A7   Dm  G/B   G7         C                              ",
+            "lyrics": "Cristo Jesus       Sua mão me dá;"
+          },
+          {
+            "chords": "        Am        Dm  ",
+            "lyrics": "Neste caminho que leva_aos céus,"
+          },
+          {
+            "chords": "G7            C ",
+            "lyrics": "Ele dirige os passos meus;"
+          },
+          {
+            "chords": "    A7  Dm  G/B   G7       Am ",
+            "lyrics": "Com Sua mão,      poderosa mão,"
+          },
+          {
+            "chords": "   Dm       D#°       Em     A7... ",
+            "lyrics": "Me faz triunfar, me fará habitar"
+          },
+          {
+            "chords": "       Dm  G7   C",
+            "lyrics": "Na_eternal Si - ão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C   A7   Dm  G/B   G7         C",
+            "lyrics": "Cristo Jesus       Sua mão me dá;"
+          },
+          {
+            "chords": "        Am        Dm  ",
+            "lyrics": "Com Sua sombra me cobrirá"
+          },
+          {
+            "chords": "G7                C ",
+            "lyrics": "E nenhum mal me molestará;"
+          },
+          {
+            "chords": "     A7     Dm  G/B   G7         Am ",
+            "lyrics": "Meus pés também       não tropeçarão;"
+          },
+          {
+            "chords": "   Dm        D#°         Em      A7... ",
+            "lyrics": "Os anjos dos céus, ao mandado de Deus,"
+          },
+          {
+            "chords": "      Dm  G7   C",
+            "lyrics": "Me susten-ta - rão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C   A7   Dm  G/B   G7         C",
+            "lyrics": "Cristo Jesus       Sua mão me dá;"
+          },
+          {
+            "chords": "         Am        Dm  ",
+            "lyrics": "Nada, portanto, me faz parar,"
+          },
+          {
+            "chords": "G7               C ",
+            "lyrics": "Nada aqui pode me_abalar;"
+          },
+          {
+            "chords": "    A7    Dm  G/B   G7            Am ",
+            "lyrics": "Com meu Jesus,      passo_a passo vou;"
+          },
+          {
+            "chords": "  Dm      D#°      Em    A7... ",
+            "lyrics": "Vitória terei, coroado serei"
+          },
+          {
+            "chords": "         Dm  G7  C",
+            "lyrics": "Por Quem me  a - mou."
+          }
+        ]
+      }
+    ]
+  }
 }

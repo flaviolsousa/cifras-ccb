@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vinde às bodas",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E    B7           E",
-    "1. Deus brevemente celebrará",
-    "   A          B7",
-    "As bodas de Jesus;",
-    "   E     B7      E  D#7  G#m",
-    "A_igreja se preparando está",
-    "     E      B7     E",
-    "Com graça, amor e luz.",
-    "",
-    "E                      B7",
-    "Vinde às bodas do Salvador,",
-    "F#m        B7   E",
-    "Vinde, não rejeiteis;",
-    "               D#7   G#m  A",
-    "Vestes divinas de justi - ça",
-    "E          B7  E",
-    "Dos céus recebereis.",
-    "",
-    "      E        B7              E",
-    "2. Ao rico,_ao pobre, convida Deus",
-    "   A            B7",
-    "E não faz distinção;",
-    "      E     B7        E  D#7     G#m",
-    "Pois quer fazê-los herdeiros dos céus,",
-    "   E         B7    E",
-    "Herdeiros da salvação.",
-    "",
-    "        E      B7            E",
-    "3. Que glória_eterna, celestial,",
-    "    A           B7",
-    "Que honra, que amor,",
-    "  E      B7         E  D#7  G#m",
-    "Terão os santos no lar divi-nal",
-    "     E        B7     E",
-    "Com Cristo, o seu Senhor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E    B7           E",
+            "lyrics": "Deus brevemente celebrará"
+          },
+          {
+            "chords": "   A          B7",
+            "lyrics": "As bodas de Jesus;"
+          },
+          {
+            "chords": "   E     B7      E  D#7  G#m",
+            "lyrics": "A_igreja se preparando está"
+          },
+          {
+            "chords": "     E      B7     E",
+            "lyrics": "Com graça, amor e luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E                      B7",
+            "lyrics": "Vinde às bodas do Salvador,"
+          },
+          {
+            "chords": "F#m        B7   E",
+            "lyrics": "Vinde, não rejeiteis;"
+          },
+          {
+            "chords": "               D#7   G#m  A",
+            "lyrics": "Vestes divinas de justi - ça"
+          },
+          {
+            "chords": "E          B7  E",
+            "lyrics": "Dos céus recebereis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   E        B7              E",
+            "lyrics": "Ao rico,_ao pobre, convida Deus"
+          },
+          {
+            "chords": "   A            B7",
+            "lyrics": "E não faz distinção;"
+          },
+          {
+            "chords": "      E     B7        E  D#7     G#m",
+            "lyrics": "Pois quer fazê-los herdeiros dos céus,"
+          },
+          {
+            "chords": "   E         B7    E",
+            "lyrics": "Herdeiros da salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E      B7            E",
+            "lyrics": "Que glória_eterna, celestial,"
+          },
+          {
+            "chords": "    A           B7",
+            "lyrics": "Que honra, que amor,"
+          },
+          {
+            "chords": "  E      B7         E  D#7  G#m",
+            "lyrics": "Terão os santos no lar divi-nal"
+          },
+          {
+            "chords": "     E        B7     E",
+            "lyrics": "Com Cristo, o seu Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

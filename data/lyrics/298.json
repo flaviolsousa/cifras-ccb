@@ -1,30 +1,66 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Avante sempre, sem temer!",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "    B                   F#                      B",
-    "1. Avante sempre, sem temer, ó soldados verdadeiros!",
-    "G#  C#m                 G#   C#                    C#7   F#... ",
-    "Por Cristo, nosso_Ensinador, fomos feitos bons guerrei - ros;",
-    "     F#                               F#°    F# ",
-    "Ele, por nós, combaterá, Suas armas potentes são,",
-    "         F#7              B   B7  E    B      F#7   B   B...",
-    "Pois nos livram sempre do mal,    do poder da tentação.",
-    "",
-    "    B                 F#                      B",
-    "2. Avante, com o Salvador, pois é certa a vitória!",
-    "G#    C#m                 G#   C#                  C#7   F#... ",
-    "Mar - chemos sempre com vigor, prosseguindo para_a gló - ria;",
-    "    F#                             F#°  F# ",
-    "A coroa receberá, só quem for em tudo fiel",
-    "    F#7             B  B7  E   B      F#7    B",
-    "A Jesus, o nosso Senhor    e o nosso_Emanu - el.",
-    "",
-    "   B        F#                          B",
-    "Aleluia! Aleluia! Bendiremos nosso Salvador;",
-    "      B7  G#    C#m   E°      B        F#7  B",
-    "Aleluia!  Ale - luia! Glória_eterna_ao Redentor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " B                   F#                      B",
+            "lyrics": "Avante sempre, sem temer, ó soldados verdadeiros!"
+          },
+          {
+            "chords": "G#  C#m                 G#   C#                    C#7   F#... ",
+            "lyrics": "Por Cristo, nosso_Ensinador, fomos feitos bons guerrei - ros;"
+          },
+          {
+            "chords": "     F#                               F#°    F# ",
+            "lyrics": "Ele, por nós, combaterá, Suas armas potentes são,"
+          },
+          {
+            "chords": "         F#7              B   B7  E    B      F#7   B   B...",
+            "lyrics": "Pois nos livram sempre do mal,    do poder da tentação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " B                 F#                      B",
+            "lyrics": "Avante, com o Salvador, pois é certa a vitória!"
+          },
+          {
+            "chords": "G#    C#m                 G#   C#                  C#7   F#... ",
+            "lyrics": "Mar - chemos sempre com vigor, prosseguindo para_a gló - ria;"
+          },
+          {
+            "chords": "    F#                             F#°  F# ",
+            "lyrics": "A coroa receberá, só quem for em tudo fiel"
+          },
+          {
+            "chords": "    F#7             B  B7  E   B      F#7    B",
+            "lyrics": "A Jesus, o nosso Senhor    e o nosso_Emanu - el."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   B        F#                          B",
+            "lyrics": "Aleluia! Aleluia! Bendiremos nosso Salvador;"
+          },
+          {
+            "chords": "      B7  G#    C#m   E°      B        F#7  B",
+            "lyrics": "Aleluia!  Ale - luia! Glória_eterna_ao Redentor!"
+          }
+        ]
+      }
+    ]
+  }
 }

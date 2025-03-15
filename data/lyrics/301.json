@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nossa Esperança é Jesus",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E               B ",
-    "1. Nossa Esperança é Jesus;",
-    "                  E",
-    "Ele, nesta graça, nos conduz",
-    "                 A  ",
-    "Bem alegres pela comunhão",
-    "B                   E",
-    "Que nos traz consolação.",
-    "",
-    "B                 E",
-    "Só a Jesus Cristo seguiremos,",
-    "B             E",
-    "Ele é o nosso bom Pastor;",
-    "                   A ",
-    "E, ao fim, com Ele reinaremos",
-    "B                  E",
-    "Na cidade de_esplendor.",
-    "",
-    "   E                        B ",
-    "2. Cristo,_o Rei dos reis e Salvador,",
-    "                    E",
-    "Faz-nos caminhar em Seu amor;",
-    "               A ",
-    "Do pecado veio nos remir,",
-    "B                E",
-    "Para um feliz porvir.",
-    "",
-    "   E                 B ",
-    "3. Neste mundo cheio de_ilusão",
-    "                    E",
-    "Só em Cristo_existe salvação;",
-    "                A ",
-    "Ele nos concede graça_e luz",
-    "B                 E",
-    "E à glória nos conduz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E               B ",
+            "lyrics": "Nossa Esperança é Jesus;"
+          },
+          {
+            "chords": "                  E",
+            "lyrics": "Ele, nesta graça, nos conduz"
+          },
+          {
+            "chords": "                 A  ",
+            "lyrics": "Bem alegres pela comunhão"
+          },
+          {
+            "chords": "B                   E",
+            "lyrics": "Que nos traz consolação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B                 E",
+            "lyrics": "Só a Jesus Cristo seguiremos,"
+          },
+          {
+            "chords": "B             E",
+            "lyrics": "Ele é o nosso bom Pastor;"
+          },
+          {
+            "chords": "                   A ",
+            "lyrics": "E, ao fim, com Ele reinaremos"
+          },
+          {
+            "chords": "B                  E",
+            "lyrics": "Na cidade de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E                        B ",
+            "lyrics": "Cristo,_o Rei dos reis e Salvador,"
+          },
+          {
+            "chords": "                    E",
+            "lyrics": "Faz-nos caminhar em Seu amor;"
+          },
+          {
+            "chords": "               A ",
+            "lyrics": "Do pecado veio nos remir,"
+          },
+          {
+            "chords": "B                E",
+            "lyrics": "Para um feliz porvir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E                 B ",
+            "lyrics": "Neste mundo cheio de_ilusão"
+          },
+          {
+            "chords": "                    E",
+            "lyrics": "Só em Cristo_existe salvação;"
+          },
+          {
+            "chords": "                A ",
+            "lyrics": "Ele nos concede graça_e luz"
+          },
+          {
+            "chords": "B                 E",
+            "lyrics": "E à glória nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

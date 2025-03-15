@@ -1,29 +1,76 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ajuntemos um tesouro eterno",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B                                 F#",
-    "1. Ajuntemos, ó meninos, nosso bom tesouro lá nos céus de_amor,",
-    "B                                        E     F#  B",
-    "Onde_habita nosso Mestre e o Pai eterno, nosso Criador.",
-    "",
-    "B",
-    "Ajuntemos um tesouro_eterno",
-    "F#                       B",
-    "Onde_habita nosso Deus superno.",
-    "E    F#     B               F#   B",
-    "Nos céus os bens jamais se acabarão.",
-    "",
-    "   B                                      F#",
-    "2. Ricos das eternas bênçãos e dos dons celestes que nos vêm de Deus,",
-    "B                                          E      F#        B",
-    "Caminhemos nas veredas da justiça_eterna, que nos leva_aos céus.",
-    "",
-    "   B                                 F#",
-    "3. Ao sairmos deste mundo, tudo deixaremos, tudo findará;",
-    "B                                   E      F#  B",
-    "O tesouro ajuntado na eterna glória sempre durará."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B                                 F#",
+            "lyrics": "Ajuntemos, ó meninos, nosso bom tesouro lá nos céus de_amor,"
+          },
+          {
+            "chords": "B                                        E     F#  B",
+            "lyrics": "Onde_habita nosso Mestre e o Pai eterno, nosso Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "Ajuntemos um tesouro_eterno"
+          },
+          {
+            "chords": "F#                       B",
+            "lyrics": "Onde_habita nosso Deus superno."
+          },
+          {
+            "chords": "E    F#     B               F#   B",
+            "lyrics": "Nos céus os bens jamais se acabarão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                                      F#",
+            "lyrics": "Ricos das eternas bênçãos e dos dons celestes que nos vêm de Deus,"
+          },
+          {
+            "chords": "B                                          E      F#        B",
+            "lyrics": "Caminhemos nas veredas da justiça_eterna, que nos leva_aos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                                 F#",
+            "lyrics": "Ao sairmos deste mundo, tudo deixaremos, tudo findará;"
+          },
+          {
+            "chords": "B                                   E      F#  B",
+            "lyrics": "O tesouro ajuntado na eterna glória sempre durará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Fiel Salvador é Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "     D               G          D",
-    "1. Fiel Salvador é Jesus, o meu Rei,",
-    "                  A ",
-    "O meu poderoso Senhor;",
-    "  D                  G ",
-    "Estando_em perigo, refúgio terei",
-    "  A                  D",
-    "À sombra do meu Redentor.",
-    "",
-    "  A7              D",
-    "Estou abrigado em meu Salvador,",
-    "  A7                   D",
-    "Nenhum mal me pode_atingir.",
-    "                       G ",
-    "Jesus tem por mim entranhável amor,",
-    " A                      D   ",
-    "Amor que não posso_exprimir!",
-    " A                      D   ",
-    "Amor que não posso_exprimir!",
-    "",
-    "       D                 G          D",
-    "2. Por nome, Jesus, o Senhor, me chamou,",
-    "                       A ",
-    "Minh´alma preciosa Lhe é;",
-    "    D                   G ",
-    "Com Seu grande_amor Ele me circundou,",
-    "   A                    D",
-    "Firmou-me na graça_e na fé.",
-    "",
-    "     D                 G        D",
-    "3. A fúria das águas jamais temerei,",
-    "                   A ",
-    "Jesus me dará Sua mão;",
-    "   D                  G         ",
-    "Passando no fogo, não me queimarei,",
-    "    A             D",
-    "Com Sua fiel proteção."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  D               G          D",
+            "lyrics": "Fiel Salvador é Jesus, o meu Rei,"
+          },
+          {
+            "chords": "                  A ",
+            "lyrics": "O meu poderoso Senhor;"
+          },
+          {
+            "chords": "  D                  G ",
+            "lyrics": "Estando_em perigo, refúgio terei"
+          },
+          {
+            "chords": "  A                  D",
+            "lyrics": "À sombra do meu Redentor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  A7              D",
+            "lyrics": "Estou abrigado em meu Salvador,"
+          },
+          {
+            "chords": "  A7                   D",
+            "lyrics": "Nenhum mal me pode_atingir."
+          },
+          {
+            "chords": "                       G ",
+            "lyrics": "Jesus tem por mim entranhável amor,"
+          },
+          {
+            "chords": " A                      D   ",
+            "lyrics": "Amor que não posso_exprimir!"
+          },
+          {
+            "chords": " A                      D   ",
+            "lyrics": "Amor que não posso_exprimir!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    D                 G          D",
+            "lyrics": "Por nome, Jesus, o Senhor, me chamou,"
+          },
+          {
+            "chords": "                       A ",
+            "lyrics": "Minh´alma preciosa Lhe é;"
+          },
+          {
+            "chords": "    D                   G ",
+            "lyrics": "Com Seu grande_amor Ele me circundou,"
+          },
+          {
+            "chords": "   A                    D",
+            "lyrics": "Firmou-me na graça_e na fé."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  D                 G        D",
+            "lyrics": "A fúria das águas jamais temerei,"
+          },
+          {
+            "chords": "                   A ",
+            "lyrics": "Jesus me dará Sua mão;"
+          },
+          {
+            "chords": "   D                  G         ",
+            "lyrics": "Passando no fogo, não me queimarei,"
+          },
+          {
+            "chords": "    A             D",
+            "lyrics": "Com Sua fiel proteção."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

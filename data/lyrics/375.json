@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"A paz Eu vos deixo\"",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "       C                   G          C",
-    "1. “A paz Eu vos deixo”, falou o Salvador,",
-    "   Am        D         G ",
-    "“A paz que o mundo não dá”.",
-    "  C         F             D      G ",
-    "Fiel é_o Senhor que, por grande amor,",
-    "    C        G         C    C...",
-    "A Palavra em nós cumprirá.",
-    "",
-    "      C   G           C    G  C",
-    "Haja paz    desde_os céus;",
-    "      F          G        C    C...",
-    "Haja paz sobre_o povo de Deus.",
-    "",
-    "    C           G                    C",
-    "2. Ainda que_os montes se movam do lugar",
-    "    Am        D         G ",
-    "E_a terra não mais produzir",
-    "  C        F        D      G ",
-    "E tudo, no mundo, pareça falhar,",
-    "     C         G         C    C...",
-    "Os fiéis vão a Cristo seguir.",
-    "",
-    "     C       G                    C",
-    "3. Real fortaleza que não se_abalará,",
-    "  Am           D         G ",
-    "Jesus veio_em nós construir;",
-    "    C           F        D      G ",
-    "Em Deus, nossa crença fundada está;",
-    "     C        G        C    C...",
-    "Aguardamos glorioso porvir."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    C                   G          C",
+            "lyrics": "“A paz Eu vos deixo”, falou o Salvador,"
+          },
+          {
+            "chords": "   Am        D         G ",
+            "lyrics": "“A paz que o mundo não dá”."
+          },
+          {
+            "chords": "  C         F             D      G ",
+            "lyrics": "Fiel é_o Senhor que, por grande amor,"
+          },
+          {
+            "chords": "    C        G         C    C...",
+            "lyrics": "A Palavra em nós cumprirá."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      C   G           C    G  C",
+            "lyrics": "Haja paz    desde_os céus;"
+          },
+          {
+            "chords": "      F          G        C    C...",
+            "lyrics": "Haja paz sobre_o povo de Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " C           G                    C",
+            "lyrics": "Ainda que_os montes se movam do lugar"
+          },
+          {
+            "chords": "    Am        D         G ",
+            "lyrics": "E_a terra não mais produzir"
+          },
+          {
+            "chords": "  C        F        D      G ",
+            "lyrics": "E tudo, no mundo, pareça falhar,"
+          },
+          {
+            "chords": "     C         G         C    C...",
+            "lyrics": "Os fiéis vão a Cristo seguir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  C       G                    C",
+            "lyrics": "Real fortaleza que não se_abalará,"
+          },
+          {
+            "chords": "  Am           D         G ",
+            "lyrics": "Jesus veio_em nós construir;"
+          },
+          {
+            "chords": "    C           F        D      G ",
+            "lyrics": "Em Deus, nossa crença fundada está;"
+          },
+          {
+            "chords": "     C        G        C    C...",
+            "lyrics": "Aguardamos glorioso porvir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

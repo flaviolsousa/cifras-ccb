@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "No esconderijo do Onipotente",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                      A ",
-    "1. No_esconderijo do Onipotente,",
-    "                             D",
-    "Sempre do mal preservado_estarás",
-    "                G       D",
-    "E, sobrevindo a prova ardente,",
-    "G       D        A       D",
-    "Com Sua sombra coberto serás.",
-    "",
-    "D         A         D",
-    "O Criador te_esconderá",
-    "               A ",
-    "Em Seu seguro abrigo;",
-    "D               G     D",
-    "Ao teu redor Se acampará,",
-    "G       D        A  D",
-    "Não temerás o_inimi-go.",
-    "",
-    "   D                          A ",
-    "2. Florescerás como toda_a palmeira",
-    "                             D",
-    "E, como_o cedro, assim crescerás;",
-    "                     G     D",
-    "Nada_embargar pode_a tua carreira",
-    "G       D       A       D",
-    "E desta graça jamais cairás.",
-    "",
-    "   D                         A ",
-    "3. Não temerás a braveza dos mares",
-    "                           D",
-    "E nem, da noite, espanto terás;",
-    "                G       D",
-    "Se do escudo da fé te armares,",
-    "G      D        A       D",
-    "Teu inimigo por terra verás."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                      A ",
+            "lyrics": "No_esconderijo do Onipotente,"
+          },
+          {
+            "chords": "                             D",
+            "lyrics": "Sempre do mal preservado_estarás"
+          },
+          {
+            "chords": "                G       D",
+            "lyrics": "E, sobrevindo a prova ardente,"
+          },
+          {
+            "chords": "G       D        A       D",
+            "lyrics": "Com Sua sombra coberto serás."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D         A         D",
+            "lyrics": "O Criador te_esconderá"
+          },
+          {
+            "chords": "               A ",
+            "lyrics": "Em Seu seguro abrigo;"
+          },
+          {
+            "chords": "D               G     D",
+            "lyrics": "Ao teu redor Se acampará,"
+          },
+          {
+            "chords": "G       D        A  D",
+            "lyrics": "Não temerás o_inimi-go."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                          A ",
+            "lyrics": "Florescerás como toda_a palmeira"
+          },
+          {
+            "chords": "                             D",
+            "lyrics": "E, como_o cedro, assim crescerás;"
+          },
+          {
+            "chords": "                     G     D",
+            "lyrics": "Nada_embargar pode_a tua carreira"
+          },
+          {
+            "chords": "G       D       A       D",
+            "lyrics": "E desta graça jamais cairás."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                         A ",
+            "lyrics": "Não temerás a braveza dos mares"
+          },
+          {
+            "chords": "                           D",
+            "lyrics": "E nem, da noite, espanto terás;"
+          },
+          {
+            "chords": "                G       D",
+            "lyrics": "Se do escudo da fé te armares,"
+          },
+          {
+            "chords": "G      D        A       D",
+            "lyrics": "Teu inimigo por terra verás."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

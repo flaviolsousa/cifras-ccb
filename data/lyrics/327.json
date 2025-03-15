@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Soldados somos do Senhor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G",
-    "1. Soldados somos do Senhor,",
-    " D           G",
-    "Avante sem temer!",
-    "",
-    "Deus nos dá força e valor",
-    "  C     D     G",
-    "E nos fará vencer.",
-    "",
-    "     D         G",
-    "Galardão nos dará,",
-    "                   D ",
-    "Eternal! E_excelso bem;",
-    "   G",
-    "Ao terminar a luta, nos exaltará",
-    "       C     D   G",
-    "Na_eternal Jerusalém.",
-    "",
-    "     G",
-    "2. Lutemos firmes, sem cessar,",
-    "     D              G",
-    "Pois Cristo,_o Vencedor,",
-    "",
-    "Nos auxilia_a enfrentar",
-    "    C    D    G",
-    "O_astuto tentador.",
-    "",
-    "      G",
-    "3. Se forte a peleja for,",
-    "  D           G",
-    "Lutemos sem temer,",
-    "",
-    "Pois é mais forte o Senhor;",
-    " C       D     G",
-    "Imenso_é Seu poder."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G",
+            "lyrics": "Soldados somos do Senhor,"
+          },
+          {
+            "chords": " D           G",
+            "lyrics": "Avante sem temer!"
+          },
+          {
+            "chords": "",
+            "lyrics": "Deus nos dá força e valor"
+          },
+          {
+            "chords": "  C     D     G",
+            "lyrics": "E nos fará vencer."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "     D         G"
+          },
+          {
+            "chords": "Galardão nos dará,",
+            "lyrics": "                   D "
+          },
+          {
+            "chords": "Eternal! E_excelso bem;",
+            "lyrics": "   G"
+          },
+          {
+            "chords": "Ao terminar a luta, nos exaltará",
+            "lyrics": "       C     D   G"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G",
+            "lyrics": "Lutemos firmes, sem cessar,"
+          },
+          {
+            "chords": "     D              G",
+            "lyrics": "Pois Cristo,_o Vencedor,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Nos auxilia_a enfrentar"
+          },
+          {
+            "chords": "    C    D    G",
+            "lyrics": "O_astuto tentador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G",
+            "lyrics": "Se forte a peleja for,"
+          },
+          {
+            "chords": "  D           G",
+            "lyrics": "Lutemos sem temer,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pois é mais forte o Senhor;"
+          },
+          {
+            "chords": " C       D     G",
+            "lyrics": "Imenso_é Seu poder."
+          }
+        ]
+      }
+    ]
+  }
 }

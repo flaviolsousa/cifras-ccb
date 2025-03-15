@@ -1,34 +1,78 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Revela Teu querer",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "     C                 F ",
-    "1. Revela, Criador, ao nosso coração,",
-    "  C                   Am  D7    G ",
-    "O santo Teu querer, a Tua intenção;",
-    "  C                  F  ",
-    "Riquezas perenais de divinal fulgor,",
-    "   C    G7      C",
-    "Concede-nos, Senhor.",
-    "",
-    "  C                  F ",
-    "Revela, ó bom Pai, rogamos com fervor,",
-    "      C                   Am     D7  G ",
-    "Teus planos eternais, por Teu Consolador.",
-    "   C                    F ",
-    "Precioso, para nós, é_o santo Teu saber",
-    "    C     G7    C",
-    "Que nos fará vencer.",
-    "",
-    "       C                    F ",
-    "2. Oh! Faze-nos crescer na_imagem de Jesus;",
-    "   C                  Am    D7    G ",
-    "Queremos prosperar na graça e na luz.",
-    "   C                   F ",
-    "Desvenda, ó Senhor, mistérios lá dos céus",
-    "  C    G7      C",
-    "E pensamentos Teus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  C                 F ",
+            "lyrics": "Revela, Criador, ao nosso coração,"
+          },
+          {
+            "chords": "  C                   Am  D7    G ",
+            "lyrics": "O santo Teu querer, a Tua intenção;"
+          },
+          {
+            "chords": "  C                  F  ",
+            "lyrics": "Riquezas perenais de divinal fulgor,"
+          },
+          {
+            "chords": "   C    G7      C",
+            "lyrics": "Concede-nos, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  C                  F ",
+            "lyrics": "Revela, ó bom Pai, rogamos com fervor,"
+          },
+          {
+            "chords": "      C                   Am     D7  G ",
+            "lyrics": "Teus planos eternais, por Teu Consolador."
+          },
+          {
+            "chords": "   C                    F ",
+            "lyrics": "Precioso, para nós, é_o santo Teu saber"
+          },
+          {
+            "chords": "    C     G7    C",
+            "lyrics": "Que nos fará vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    C                    F ",
+            "lyrics": "Oh! Faze-nos crescer na_imagem de Jesus;"
+          },
+          {
+            "chords": "   C                  Am    D7    G ",
+            "lyrics": "Queremos prosperar na graça e na luz."
+          },
+          {
+            "chords": "   C                   F ",
+            "lyrics": "Desvenda, ó Senhor, mistérios lá dos céus"
+          },
+          {
+            "chords": "  C    G7      C",
+            "lyrics": "E pensamentos Teus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Alegria sinto em servir Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "       D",
-    "1. Alegria sinto em servir Jesus,",
-    "    A                   D",
-    "Alegria que, no mundo, não há_igual;",
-    "                     Em  ",
-    "Bem por isso sigo a eterna luz",
-    "      A        D    D...",
-    "Da Justiça divinal.",
-    "",
-    "     Em    A       D             E              A",
-    "Privilégio santo, sem igual, é andar com meu Senhor,",
-    "     D           Em   A                  D",
-    "Caminhar em Seu amor,   exaltando_ao Criador!",
-    "                   G        G...",
-    "Desejamos ver retornar dos céus",
-    "G#°        D  A        D    D...",
-    "Cristo,_o Rei   e Salvador.",
-    "",
-    "       D",
-    "2. Regozijo e real consolação,",
-    "      A             D",
-    "Paz divina e celestial amor,",
-    "                         Em",
-    "Me preservam deste mundo de_ilusão",
-    "     A          D    D...",
-    "E me unem ao Senhor.",
-    "",
-    "      D",
-    "3. Ó amados, caminhemos com Jesus,",
-    "      A                   D",
-    "N´Ele temos vida_eterna_e salvação;",
-    "                      Em",
-    "Se aqui manifestarmos Sua luz,",
-    "      A           D    D...",
-    "Nós teremos galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    D",
+            "lyrics": "Alegria sinto em servir Jesus,"
+          },
+          {
+            "chords": "    A                   D",
+            "lyrics": "Alegria que, no mundo, não há_igual;"
+          },
+          {
+            "chords": "                     Em  ",
+            "lyrics": "Bem por isso sigo a eterna luz"
+          },
+          {
+            "chords": "      A        D    D...",
+            "lyrics": "Da Justiça divinal."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     Em    A       D             E              A",
+            "lyrics": "Privilégio santo, sem igual, é andar com meu Senhor,"
+          },
+          {
+            "chords": "     D           Em   A                  D",
+            "lyrics": "Caminhar em Seu amor,   exaltando_ao Criador!"
+          },
+          {
+            "chords": "                   G        G...",
+            "lyrics": "Desejamos ver retornar dos céus"
+          },
+          {
+            "chords": "G#°        D  A        D    D...",
+            "lyrics": "Cristo,_o Rei   e Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    D",
+            "lyrics": "Regozijo e real consolação,"
+          },
+          {
+            "chords": "      A             D",
+            "lyrics": "Paz divina e celestial amor,"
+          },
+          {
+            "chords": "                         Em",
+            "lyrics": "Me preservam deste mundo de_ilusão"
+          },
+          {
+            "chords": "     A          D    D...",
+            "lyrics": "E me unem ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   D",
+            "lyrics": "Ó amados, caminhemos com Jesus,"
+          },
+          {
+            "chords": "      A                   D",
+            "lyrics": "N´Ele temos vida_eterna_e salvação;"
+          },
+          {
+            "chords": "                      Em",
+            "lyrics": "Se aqui manifestarmos Sua luz,"
+          },
+          {
+            "chords": "      A           D    D...",
+            "lyrics": "Nós teremos galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo é fiel",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G             D ",
-    "1. Fortes ventos soprarão",
-    "                    G",
-    "Contra_o crente_em Deus;",
-    "            D    ",
-    "Temporais sobrevirão",
-    "A          D ",
-    "Aos amados Seus.",
-    "",
-    "G      E   Am ",
-    "Cristo é fiel,",
-    "D          G",
-    "Nunca falhará;",
-    "C             G    E... ",
-    "Ao Seu servo_aju - rá",
-    "Am  D            G",
-    "E   forças lhe dará.",
-    "",
-    "   G          D ",
-    "2. Incertezas surgirão",
-    "           G",
-    "Para te_abater,",
-    "             D ",
-    "Mas não prevalecerão,",
-    "A            D ",
-    "Vais vitória ter.",
-    "",
-    "   G            D ",
-    "3. Horas de_amargor cruel",
-    "           G",
-    "Os remidos têm,",
-    "            D ",
-    "Mas o Guardião fiel",
-    "A           D ",
-    "Socorrê-los vem."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G             D ",
+            "lyrics": "Fortes ventos soprarão"
+          },
+          {
+            "chords": "                    G",
+            "lyrics": "Contra_o crente_em Deus;"
+          },
+          {
+            "chords": "            D    ",
+            "lyrics": "Temporais sobrevirão"
+          },
+          {
+            "chords": "A          D ",
+            "lyrics": "Aos amados Seus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G      E   Am ",
+            "lyrics": "Cristo é fiel,"
+          },
+          {
+            "chords": "D          G",
+            "lyrics": "Nunca falhará;"
+          },
+          {
+            "chords": "C             G    E... ",
+            "lyrics": "Ao Seu servo_aju - rá"
+          },
+          {
+            "chords": "Am  D            G",
+            "lyrics": "E   forças lhe dará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G          D ",
+            "lyrics": "Incertezas surgirão"
+          },
+          {
+            "chords": "           G",
+            "lyrics": "Para te_abater,"
+          },
+          {
+            "chords": "             D ",
+            "lyrics": "Mas não prevalecerão,"
+          },
+          {
+            "chords": "A            D ",
+            "lyrics": "Vais vitória ter."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G            D ",
+            "lyrics": "Horas de_amargor cruel"
+          },
+          {
+            "chords": "           G",
+            "lyrics": "Os remidos têm,"
+          },
+          {
+            "chords": "            D ",
+            "lyrics": "Mas o Guardião fiel"
+          },
+          {
+            "chords": "A           D ",
+            "lyrics": "Socorrê-los vem."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

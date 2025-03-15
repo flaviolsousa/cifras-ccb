@@ -1,43 +1,66 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus me deu celeste hino",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "A             E           A",
-    "  1. Jesus me deu celeste hino",
-    "          E           A",
-    "  Para_engrandecer a Deus;",
-    "            E        F#m ",
-    "  E, pelo_Espírito divino,",
-    "        B7              E ",
-    "  Esse canto_elevo_aos céus.",
-    "",
-    "E               A",
-    "Tenho_em mim um hino_ao Criador,",
-    "   E                  A",
-    "Um canto de amor, de_eterna gratidão;",
-    "E               A",
-    "Tenho_em mim um hino_ao Redentor;",
-    "    E                   A",
-    "Aos céus elevo_o meu louvor.",
-    "",
-    "A              E          A",
-    "  2. Jesus tornou-me venturoso,",
-    "        E             A",
-    "  Minha vida transformou;",
-    "           E          F#m ",
-    "  Um hino santo, glorioso,",
-    "          B7        E ",
-    "  Em minh´alma colocou.",
-    "",
-    "A            E           A",
-    "  3. Um novo hino lá na glória",
-    "         E           A",
-    "  Com os anjos cantarei,",
-    "          E         F#m ",
-    "  Será um hino de vitória",
-    "      B7             E ",
-    "  A Jesus, o grande Rei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E               A",
+            "lyrics": "Tenho_em mim um hino_ao Criador,"
+          },
+          {
+            "chords": "   E                  A",
+            "lyrics": "Um canto de amor, de_eterna gratidão;"
+          },
+          {
+            "chords": "E               A",
+            "lyrics": "Tenho_em mim um hino_ao Redentor;"
+          },
+          {
+            "chords": "    E                   A",
+            "lyrics": "Aos céus elevo_o meu louvor."
+          },
+          {
+            "chords": "",
+            "lyrics": "A              E          A"
+          },
+          {
+            "chords": "  2. Jesus tornou-me venturoso,",
+            "lyrics": "        E             A"
+          },
+          {
+            "chords": "  Minha vida transformou;",
+            "lyrics": "           E          F#m "
+          },
+          {
+            "chords": "  Um hino santo, glorioso,",
+            "lyrics": "          B7        E "
+          },
+          {
+            "chords": "  Em minh´alma colocou.",
+            "lyrics": ""
+          },
+          {
+            "chords": "A            E           A",
+            "lyrics": "  3. Um novo hino lá na glória"
+          },
+          {
+            "chords": "         E           A",
+            "lyrics": "  Com os anjos cantarei,"
+          },
+          {
+            "chords": "          E         F#m ",
+            "lyrics": "  Será um hino de vitória"
+          },
+          {
+            "chords": "      B7             E ",
+            "lyrics": "  A Jesus, o grande Rei."
+          }
+        ]
+      }
+    ]
+  }
 }

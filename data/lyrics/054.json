@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Um tesouro glorioso achei",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "         G               C         A ",
-    "1. Um tesouro glorioso achei em Jesus,",
-    "      D                 G",
-    "Um tesouro de_imenso valor;",
-    "                            C ",
-    "Não é prata nem ouro que_ao homem seduz,",
-    "     G       D         G",
-    "É a vida de Deus, Criador.",
-    "",
-    "     C                G",
-    "Um tesouro glorioso achei",
-    "      A                  D    D... ",
-    "Em Jesus, o divino Redentor;",
-    "      G               C    Am... ",
-    "Nada mais precioso encontrarei;",
-    " A#°    G        D          G",
-    "Grande graça me fez o Salvador.",
-    "",
-    "         G                   C      A ",
-    "2. Os tesouros daqui pode_a traça roer,",
-    "     D                    G",
-    "A ferrugem, também, consumir;",
-    "                          C ",
-    "Mas aqueles do céu, que irei receber,",
-    "      G      D         G",
-    "Nada pode jamais destruir.",
-    "",
-    "           G                 C        A ",
-    "3. Que_alegria eu sinto por ter salvação,",
-    "      D                 G",
-    "Pela santa presença de Deus!",
-    "                           C ",
-    "Sinto_a Vida tomar todo_o meu coração;",
-    "            G        D        G",
-    "Cristo_é_a Vida que leva aos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      G               C         A ",
+            "lyrics": "Um tesouro glorioso achei em Jesus,"
+          },
+          {
+            "chords": "      D                 G",
+            "lyrics": "Um tesouro de_imenso valor;"
+          },
+          {
+            "chords": "                            C ",
+            "lyrics": "Não é prata nem ouro que_ao homem seduz,"
+          },
+          {
+            "chords": "     G       D         G",
+            "lyrics": "É a vida de Deus, Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     C                G",
+            "lyrics": "Um tesouro glorioso achei"
+          },
+          {
+            "chords": "      A                  D    D... ",
+            "lyrics": "Em Jesus, o divino Redentor;"
+          },
+          {
+            "chords": "      G               C    Am... ",
+            "lyrics": "Nada mais precioso encontrarei;"
+          },
+          {
+            "chords": " A#°    G        D          G",
+            "lyrics": "Grande graça me fez o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      G                   C      A ",
+            "lyrics": "Os tesouros daqui pode_a traça roer,"
+          },
+          {
+            "chords": "     D                    G",
+            "lyrics": "A ferrugem, também, consumir;"
+          },
+          {
+            "chords": "                          C ",
+            "lyrics": "Mas aqueles do céu, que irei receber,"
+          },
+          {
+            "chords": "      G      D         G",
+            "lyrics": "Nada pode jamais destruir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        G                 C        A ",
+            "lyrics": "Que_alegria eu sinto por ter salvação,"
+          },
+          {
+            "chords": "      D                 G",
+            "lyrics": "Pela santa presença de Deus!"
+          },
+          {
+            "chords": "                           C ",
+            "lyrics": "Sinto_a Vida tomar todo_o meu coração;"
+          },
+          {
+            "chords": "            G        D        G",
+            "lyrics": "Cristo_é_a Vida que leva aos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

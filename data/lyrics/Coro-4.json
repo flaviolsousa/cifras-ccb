@@ -1,16 +1,31 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória, glória nas alturas!",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    " A",
-    "Glória, glória nas alturas!",
-    " E       A               E",
-    "Glória, glória_ao nosso Deus!",
-    "      A                      D             A",
-    "Salvação nos preparou por Jesus, que nos amou;",
-    "                        E            A",
-    "Glória_ao Deus vivente que está nos céus!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " A",
+            "lyrics": "Glória, glória nas alturas!"
+          },
+          {
+            "chords": " E       A               E",
+            "lyrics": "Glória, glória_ao nosso Deus!"
+          },
+          {
+            "chords": "      A                      D             A",
+            "lyrics": "Salvação nos preparou por Jesus, que nos amou;"
+          },
+          {
+            "chords": "                        E            A",
+            "lyrics": "Glória_ao Deus vivente que está nos céus!"
+          }
+        ]
+      }
+    ]
+  }
 }

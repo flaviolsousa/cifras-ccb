@@ -1,37 +1,92 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvemos ao Rei dos reis",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G     D           G                       D ",
-    "1. Louvemos ao Rei dos reis com todo_o nosso fervor;",
-    "    G    C     A7            D           G",
-    "Num só espírito,_ó fiéis, cantemos hinos de louvor;",
-    "           D      G    C     D           G",
-    "Por graça, temos paz e vida eterna no Senhor.",
-    "",
-    "    G",
-    "Que grande tesouro",
-    "                D ",
-    "Alcançaremos em glória!",
-    "    G               C ",
-    "Nem ouro_ou prata será,",
-    "          D           G",
-    "Mas vida que não findará.",
-    "",
-    "      G     D     G                     D ",
-    "2. O santo, puro amor somente vem de Jesus,",
-    "     G      C     A7          D         G",
-    "Por Quem sentimos o vigor de suportar a nossa cruz",
-    "           D        G      C     D           G",
-    "Com fé, paciência_e calma, irradiando sempre luz.",
-    "",
-    "        G      D       G                      D ",
-    "3. Por Cristo, Sumo Pastor, fruímos o grande bem",
-    "    G      C     A7               D             G",
-    "De sermos filhos do bom Deus, que já nos faz provar também",
-    "        D        G      C       D         G",
-    "As celestiais primícias da eternal Jerusalém."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G     D           G                       D ",
+            "lyrics": "Louvemos ao Rei dos reis com todo_o nosso fervor;"
+          },
+          {
+            "chords": "    G    C     A7            D           G",
+            "lyrics": "Num só espírito,_ó fiéis, cantemos hinos de louvor;"
+          },
+          {
+            "chords": "           D      G    C     D           G",
+            "lyrics": "Por graça, temos paz e vida eterna no Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Que grande tesouro"
+          },
+          {
+            "chords": "                D ",
+            "lyrics": "Alcançaremos em glória!"
+          },
+          {
+            "chords": "    G               C ",
+            "lyrics": "Nem ouro_ou prata será,"
+          },
+          {
+            "chords": "          D           G",
+            "lyrics": "Mas vida que não findará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G     D     G                     D ",
+            "lyrics": "O santo, puro amor somente vem de Jesus,"
+          },
+          {
+            "chords": "     G      C     A7          D         G",
+            "lyrics": "Por Quem sentimos o vigor de suportar a nossa cruz"
+          },
+          {
+            "chords": "           D        G      C     D           G",
+            "lyrics": "Com fé, paciência_e calma, irradiando sempre luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G      D       G                      D ",
+            "lyrics": "Por Cristo, Sumo Pastor, fruímos o grande bem"
+          },
+          {
+            "chords": "    G      C     A7               D             G",
+            "lyrics": "De sermos filhos do bom Deus, que já nos faz provar também"
+          },
+          {
+            "chords": "        D        G      C       D         G",
+            "lyrics": "As celestiais primícias da eternal Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

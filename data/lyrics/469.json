@@ -1,52 +1,130 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Pai nosso, que estás nos céus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A       D             A",
-    "1. Ó Pai nosso, que estás nos céus,",
-    "    E         A",
-    "Infinito em poder,",
-    "            D               A",
-    "Santo é Teu Nome,_ó grande Deus,",
-    "      B7           E",
-    "Sem limite_é Teu saber.",
-    "",
-    "         A       D      A",
-    "Glória, glória, glória eterna",
-    "                            E",
-    "Te daremos, ó Deus, Pai de_amor!",
-    "        A      A7    D           A",
-    "Pois herdeiros nos fizeste, ó Senhor,",
-    "       E              A",
-    "Do Teu reino de_esplendor.",
-    "",
-    "            A      D                A",
-    "2. Venha_a nós Teu reino,_ó grande Deus,",
-    "     E              A",
-    "Seja feito_o Teu querer",
-    "             D           A",
-    "Nesta terra, como é nos céus,",
-    "      B7          E",
-    "Pelo_imenso Teu poder.",
-    "",
-    "         A  D             A",
-    "3. Cada dia dá-nos nosso pão",
-    "     E          A",
-    "E perdoa nosso mal;",
-    "           D           A",
-    "Ofendidos, damos o perdão",
-    "      B7          E",
-    "Com carinho fraternal.",
-    "",
-    "        A       D             A",
-    "4. Ó Senhor, preserva-nos do mal",
-    "     E           A",
-    "E da tentação também,",
-    "             D         A",
-    "Pois é Teu o reino eternal,",
-    "       B7        E",
-    "Glória e poder. Amém!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A       D             A",
+            "lyrics": "Ó Pai nosso, que estás nos céus,"
+          },
+          {
+            "chords": "    E         A",
+            "lyrics": "Infinito em poder,"
+          },
+          {
+            "chords": "            D               A",
+            "lyrics": "Santo é Teu Nome,_ó grande Deus,"
+          },
+          {
+            "chords": "      B7           E",
+            "lyrics": "Sem limite_é Teu saber."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         A       D      A",
+            "lyrics": "Glória, glória, glória eterna"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "Te daremos, ó Deus, Pai de_amor!"
+          },
+          {
+            "chords": "        A      A7    D           A",
+            "lyrics": "Pois herdeiros nos fizeste, ó Senhor,"
+          },
+          {
+            "chords": "       E              A",
+            "lyrics": "Do Teu reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         A      D                A",
+            "lyrics": "Venha_a nós Teu reino,_ó grande Deus,"
+          },
+          {
+            "chords": "     E              A",
+            "lyrics": "Seja feito_o Teu querer"
+          },
+          {
+            "chords": "             D           A",
+            "lyrics": "Nesta terra, como é nos céus,"
+          },
+          {
+            "chords": "      B7          E",
+            "lyrics": "Pelo_imenso Teu poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      A  D             A",
+            "lyrics": "Cada dia dá-nos nosso pão"
+          },
+          {
+            "chords": "     E          A",
+            "lyrics": "E perdoa nosso mal;"
+          },
+          {
+            "chords": "           D           A",
+            "lyrics": "Ofendidos, damos o perdão"
+          },
+          {
+            "chords": "      B7          E",
+            "lyrics": "Com carinho fraternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "     A       D             A",
+            "lyrics": "Ó Senhor, preserva-nos do mal"
+          },
+          {
+            "chords": "     E           A",
+            "lyrics": "E da tentação também,"
+          },
+          {
+            "chords": "             D         A",
+            "lyrics": "Pois é Teu o reino eternal,"
+          },
+          {
+            "chords": "       B7        E",
+            "lyrics": "Glória e poder. Amém!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

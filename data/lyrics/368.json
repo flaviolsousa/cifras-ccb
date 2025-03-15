@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Deus nos elegeu para Si",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G              D           C   G    C   D    G",
-    "1. Não duvidemos, Deus nos elegeu para Si, em Jesus;",
-    "             D          C   G     C    D       G",
-    "Confirmará a nossa salvação com poder, graça_e luz.",
-    "                        D",
-    "Salvo não será quem não combater.",
-    "         G            D",
-    "Quem, na caminhada, esmorecer;",
-    "   G                         C    D   G    G...",
-    "Os vitoriosos reinarão e com Deus viverão.",
-    "",
-    "   G              D         C     G    C   D  G",
-    "2. Tem proteção o povo do Senhor, proteção eficaz;",
-    "                 D              C    G       C  D      G",
-    "Seu fundamento_é Cristo,_o Salvador, que lhe dá vida_e paz;",
-    "                    D",
-    "Por Seu verdadeiro adorador,",
-    "        G               D",
-    "Deus, o Criador, tem profundo_amor;",
-    "    G                           C   D    G    G...",
-    "Bem perto_está e cuidará, guardará, salvará.",
-    "",
-    "   G                 D            C    G    C    D    G",
-    "3. Se Deus, o Pai, estando nós no mal, nos amou, perdoou,",
-    "                 D         C    G    C   D      G",
-    "E, por Jesus, Cordeiro divinal, salvação nos mandou,",
-    "                   D",
-    "Como não dará aos eleitos Seus",
-    "      G             D",
-    "Graça e poder de chegar aos céus?",
-    "    G                      C    D   G    G...",
-    "Que inefável afeição, celestial eleição!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G              D           C   G    C   D    G",
+            "lyrics": "Não duvidemos, Deus nos elegeu para Si, em Jesus;"
+          },
+          {
+            "chords": "             D          C   G     C    D       G",
+            "lyrics": "Confirmará a nossa salvação com poder, graça_e luz."
+          },
+          {
+            "chords": "                        D",
+            "lyrics": "Salvo não será quem não combater."
+          },
+          {
+            "chords": "         G            D",
+            "lyrics": "Quem, na caminhada, esmorecer;"
+          },
+          {
+            "chords": "   G                         C    D   G    G...",
+            "lyrics": "Os vitoriosos reinarão e com Deus viverão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G              D         C     G    C   D  G",
+            "lyrics": "Tem proteção o povo do Senhor, proteção eficaz;"
+          },
+          {
+            "chords": "                 D              C    G       C  D      G",
+            "lyrics": "Seu fundamento_é Cristo,_o Salvador, que lhe dá vida_e paz;"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Por Seu verdadeiro adorador,"
+          },
+          {
+            "chords": "        G               D",
+            "lyrics": "Deus, o Criador, tem profundo_amor;"
+          },
+          {
+            "chords": "    G                           C   D    G    G...",
+            "lyrics": "Bem perto_está e cuidará, guardará, salvará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                 D            C    G    C    D    G",
+            "lyrics": "Se Deus, o Pai, estando nós no mal, nos amou, perdoou,"
+          },
+          {
+            "chords": "                 D         C    G    C   D      G",
+            "lyrics": "E, por Jesus, Cordeiro divinal, salvação nos mandou,"
+          },
+          {
+            "chords": "                   D",
+            "lyrics": "Como não dará aos eleitos Seus"
+          },
+          {
+            "chords": "      G             D",
+            "lyrics": "Graça e poder de chegar aos céus?"
+          },
+          {
+            "chords": "    G                      C    D   G    G...",
+            "lyrics": "Que inefável afeição, celestial eleição!"
+          }
+        ]
+      }
+    ]
+  }
 }

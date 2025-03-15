@@ -1,52 +1,130 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu destino é a glória",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "        A",
-    "1. Pela fé, irmão querido,",
-    "        B         E7   A",
-    "Serve_a Cristo,_o Redentor;",
-    "",
-    "Não te deixes ser vencido,",
-    "        B7       E7     A",
-    "Vence_o mal, com teu Senhor.",
-    "",
-    "A      E7        A",
-    "Teu destino é a glória,",
-    "    B7          E ",
-    "A herança dos fiéis;",
-    "    A",
-    "É segura a vitória",
-    "      B7   E7      A",
-    "Que dará o Rei dos reis.",
-    "",
-    "         A",
-    "2. Oh! Levanta_as mãos cansadas",
-    "      B     E7    A",
-    "E não olhes para trás,",
-    "",
-    "Pois serão fortificadas",
-    "     B7    E7     A",
-    "Pelo Príncipe da paz.",
-    "",
-    "            A",
-    "3. Segue_as obras do teu Mestre,",
-    "       B     E7      A",
-    "Marcha firme para_o céu;",
-    "",
-    "Ele é a Luz celeste,",
-    "       B7      E7      A",
-    "Que ilumina_os passos teus.",
-    "",
-    "       A",
-    "4. A Palavra da verdade,",
-    "    B    E7  A",
-    "A Espada divinal,",
-    "",
-    "Te conserva_em santidade",
-    "       B7    E7   A",
-    "Para_o reino eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Pela fé, irmão querido,"
+          },
+          {
+            "chords": "        B         E7   A",
+            "lyrics": "Serve_a Cristo,_o Redentor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Não te deixes ser vencido,"
+          },
+          {
+            "chords": "        B7       E7     A",
+            "lyrics": "Vence_o mal, com teu Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A      E7        A",
+            "lyrics": "Teu destino é a glória,"
+          },
+          {
+            "chords": "    B7          E ",
+            "lyrics": "A herança dos fiéis;"
+          },
+          {
+            "chords": "    A",
+            "lyrics": "É segura a vitória"
+          },
+          {
+            "chords": "      B7   E7      A",
+            "lyrics": "Que dará o Rei dos reis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A",
+            "lyrics": "Oh! Levanta_as mãos cansadas"
+          },
+          {
+            "chords": "      B     E7    A",
+            "lyrics": "E não olhes para trás,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pois serão fortificadas"
+          },
+          {
+            "chords": "     B7    E7     A",
+            "lyrics": "Pelo Príncipe da paz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         A",
+            "lyrics": "Segue_as obras do teu Mestre,"
+          },
+          {
+            "chords": "       B     E7      A",
+            "lyrics": "Marcha firme para_o céu;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Ele é a Luz celeste,"
+          },
+          {
+            "chords": "       B7      E7      A",
+            "lyrics": "Que ilumina_os passos teus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "    A",
+            "lyrics": "A Palavra da verdade,"
+          },
+          {
+            "chords": "    B    E7  A",
+            "lyrics": "A Espada divinal,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Te conserva_em santidade"
+          },
+          {
+            "chords": "       B7    E7   A",
+            "lyrics": "Para_o reino eternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

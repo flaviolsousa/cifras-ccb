@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus Cristo, fiel Cordeiro",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "         E               B7",
-    "1. Jesus Cristo, fiel Cordeiro,",
-    "                     E",
-    "Por amor, desceu do céu;",
-    "                   B7",
-    "Santo, Puro e Verdadeiro,",
-    "                      E    E...",
-    "Para nos resgatar, morreu.",
-    "",
-    "    E               B7",
-    "Humilhou-Se assim Jesus,",
-    "                       E",
-    "Vitupério, por nós, sofreu;",
-    "               E7    A    E...",
-    "Pelos nossos pecados padeceu;",
-    "      E        B7        E",
-    "Vida, ao ressurgir, nos deu.",
-    "",
-    "         E               B7",
-    "2. Jesus Cristo, fiel Cordeiro,",
-    "                     E",
-    "Padeceu na cruz por nós;",
-    "                     B7",
-    "Maldição se fez no madeiro,",
-    "                      E    E...",
-    "Onde teve_uma morte_atroz.",
-    "",
-    "         E               B7",
-    "3. Jesus Cristo, fiel Cordeiro,",
-    "                    E",
-    "Sobre_a morte triunfou;",
-    "                 B7",
-    "Unigênito_e Verdadeiro,",
-    "                       E    E...",
-    "O poder, Deus Lhe outorgou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      E               B7",
+            "lyrics": "Jesus Cristo, fiel Cordeiro,"
+          },
+          {
+            "chords": "                     E",
+            "lyrics": "Por amor, desceu do céu;"
+          },
+          {
+            "chords": "                   B7",
+            "lyrics": "Santo, Puro e Verdadeiro,"
+          },
+          {
+            "chords": "                      E    E...",
+            "lyrics": "Para nos resgatar, morreu."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E               B7",
+            "lyrics": "Humilhou-Se assim Jesus,"
+          },
+          {
+            "chords": "                       E",
+            "lyrics": "Vitupério, por nós, sofreu;"
+          },
+          {
+            "chords": "               E7    A    E...",
+            "lyrics": "Pelos nossos pecados padeceu;"
+          },
+          {
+            "chords": "      E        B7        E",
+            "lyrics": "Vida, ao ressurgir, nos deu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      E               B7",
+            "lyrics": "Jesus Cristo, fiel Cordeiro,"
+          },
+          {
+            "chords": "                     E",
+            "lyrics": "Padeceu na cruz por nós;"
+          },
+          {
+            "chords": "                     B7",
+            "lyrics": "Maldição se fez no madeiro,"
+          },
+          {
+            "chords": "                      E    E...",
+            "lyrics": "Onde teve_uma morte_atroz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      E               B7",
+            "lyrics": "Jesus Cristo, fiel Cordeiro,"
+          },
+          {
+            "chords": "                    E",
+            "lyrics": "Sobre_a morte triunfou;"
+          },
+          {
+            "chords": "                 B7",
+            "lyrics": "Unigênito_e Verdadeiro,"
+          },
+          {
+            "chords": "                       E    E...",
+            "lyrics": "O poder, Deus Lhe outorgou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

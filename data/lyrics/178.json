@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Palavra preciosa",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "       B           E             C#7        F#7 ",
-    "1. A Palavra da verdade, de Deus Pai, o Criador,",
-    "         B           E          F#7         B",
-    "Traz dos céus a santidade aos remidos do Senhor.",
-    "",
-    "    E          B",
-    "A Palavra preciosa",
-    "     C#7         F#7 ",
-    "Do fiel, vivente Deus,",
-    "    B        E ",
-    "É Espada poderosa,",
-    "      F#7              B",
-    "Que defende_os santos Seus.",
-    "",
-    "       B         E              C#7          F#7 ",
-    "2. A Palavra criadora trouxe_ao mundo grande luz",
-    "     B         E         F#7        B",
-    "Pela obra redentora consumada por Jesus.",
-    "",
-    "        B           E        C#7       F#7 ",
-    "3. Para sempre permanece a Palavra divinal;",
-    "       B          E         F#7         B",
-    "Nossas almas fortalece e protege-nos do mal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    B           E             C#7        F#7 ",
+            "lyrics": "A Palavra da verdade, de Deus Pai, o Criador,"
+          },
+          {
+            "chords": "         B           E          F#7         B",
+            "lyrics": "Traz dos céus a santidade aos remidos do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E          B",
+            "lyrics": "A Palavra preciosa"
+          },
+          {
+            "chords": "     C#7         F#7 ",
+            "lyrics": "Do fiel, vivente Deus,"
+          },
+          {
+            "chords": "    B        E ",
+            "lyrics": "É Espada poderosa,"
+          },
+          {
+            "chords": "      F#7              B",
+            "lyrics": "Que defende_os santos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    B         E              C#7          F#7 ",
+            "lyrics": "A Palavra criadora trouxe_ao mundo grande luz"
+          },
+          {
+            "chords": "     B         E         F#7        B",
+            "lyrics": "Pela obra redentora consumada por Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     B           E        C#7       F#7 ",
+            "lyrics": "Para sempre permanece a Palavra divinal;"
+          },
+          {
+            "chords": "       B          E         F#7         B",
+            "lyrics": "Nossas almas fortalece e protege-nos do mal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

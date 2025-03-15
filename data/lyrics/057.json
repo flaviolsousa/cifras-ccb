@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "É estreia a porta para a Salvação",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                   A ",
-    "1. É estreita_a porta para_a salvação,",
-    "A7                  D",
-    "Disse_o nosso Redentor;",
-    "                D7           G ",
-    "O caminho largo leva_à perdição,",
-    "A               D",
-    "Ensinou o Salvador.",
-    "",
-    "D               A ",
-    "Porfiemos por andar",
-    "A7                 D",
-    "Nos caminhos do Senhor",
-    "         D7     G ",
-    "E alcançaremos vida eternal",
-    "A                   D",
-    "Com Deus Pai, o Criador.",
-    "",
-    "   D                   A ",
-    "2. Ó irmãos queridos, Cristo,_o Salvador,",
-    "A7            D",
-    "Todo-Poderoso é;",
-    "                  D7            G ",
-    "Tão somente nós devemos nos dispor",
-    "A                D",
-    "A segui-Lo pela fé.",
-    "",
-    "    D                 A ",
-    "3. Aos desejos nossos vamos renunciar,",
-    "A7              D",
-    "Agrademos ao Senhor;",
-    "                  D7          G ",
-    "Toda_a nossa vida vamos consagrar",
-    "A               D",
-    "Ao divino Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                   A ",
+            "lyrics": "É estreita_a porta para_a salvação,"
+          },
+          {
+            "chords": "A7                  D",
+            "lyrics": "Disse_o nosso Redentor;"
+          },
+          {
+            "chords": "                D7           G ",
+            "lyrics": "O caminho largo leva_à perdição,"
+          },
+          {
+            "chords": "A               D",
+            "lyrics": "Ensinou o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D               A ",
+            "lyrics": "Porfiemos por andar"
+          },
+          {
+            "chords": "A7                 D",
+            "lyrics": "Nos caminhos do Senhor"
+          },
+          {
+            "chords": "         D7     G ",
+            "lyrics": "E alcançaremos vida eternal"
+          },
+          {
+            "chords": "A                   D",
+            "lyrics": "Com Deus Pai, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                   A ",
+            "lyrics": "Ó irmãos queridos, Cristo,_o Salvador,"
+          },
+          {
+            "chords": "A7            D",
+            "lyrics": "Todo-Poderoso é;"
+          },
+          {
+            "chords": "                  D7            G ",
+            "lyrics": "Tão somente nós devemos nos dispor"
+          },
+          {
+            "chords": "A                D",
+            "lyrics": "A segui-Lo pela fé."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " D                 A ",
+            "lyrics": "Aos desejos nossos vamos renunciar,"
+          },
+          {
+            "chords": "A7              D",
+            "lyrics": "Agrademos ao Senhor;"
+          },
+          {
+            "chords": "                  D7          G ",
+            "lyrics": "Toda_a nossa vida vamos consagrar"
+          },
+          {
+            "chords": "A               D",
+            "lyrics": "Ao divino Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo intercede por ti",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F",
-    "1. Quando te faltam forças contra_o mal,",
-    "                    C ",
-    "Tens o socorro dos céus;",
-    "F",
-    "Cristo Jesus, Cordeiro divinal,",
-    "C                      F",
-    "É_Intercessor junto_a Deus.",
-    "",
-    "F                    C    ",
-    "Cristo_intercede por ti",
-    "                         F",
-    "Junto_a Deus, o Pai celestial;",
-    "F7                Bb ",
-    "Cristo_é_o Modelo santo_e perfeito,",
-    "F           C      F",
-    "Cristo_é_o Amigo leal.",
-    "",
-    "   F",
-    "2. Quando_o_inimigo te vier tentar,",
-    "                    C ",
-    "Clama_a Jesus, Redentor;",
-    "F",
-    "Forças, por certo, Ele_irá te dar",
-    "C              F",
-    "E te fará vencedor.",
-    "",
-    "   F",
-    "3. Quando_estiveres em tribulação,",
-    "                   C ",
-    "Clama ao Filho de Deus,",
-    "F",
-    "E certamente te socorrerão",
-    "C                   F",
-    "Anjos mandados dos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Quando te faltam forças contra_o mal,"
+          },
+          {
+            "chords": "                    C ",
+            "lyrics": "Tens o socorro dos céus;"
+          },
+          {
+            "chords": "F",
+            "lyrics": "Cristo Jesus, Cordeiro divinal,"
+          },
+          {
+            "chords": "C                      F",
+            "lyrics": "É_Intercessor junto_a Deus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F                    C    ",
+            "lyrics": "Cristo_intercede por ti"
+          },
+          {
+            "chords": "                         F",
+            "lyrics": "Junto_a Deus, o Pai celestial;"
+          },
+          {
+            "chords": "F7                Bb ",
+            "lyrics": "Cristo_é_o Modelo santo_e perfeito,"
+          },
+          {
+            "chords": "F           C      F",
+            "lyrics": "Cristo_é_o Amigo leal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Quando_o_inimigo te vier tentar,"
+          },
+          {
+            "chords": "                    C ",
+            "lyrics": "Clama_a Jesus, Redentor;"
+          },
+          {
+            "chords": "F",
+            "lyrics": "Forças, por certo, Ele_irá te dar"
+          },
+          {
+            "chords": "C              F",
+            "lyrics": "E te fará vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Quando_estiveres em tribulação,"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Clama ao Filho de Deus,"
+          },
+          {
+            "chords": "F",
+            "lyrics": "E certamente te socorrerão"
+          },
+          {
+            "chords": "C                   F",
+            "lyrics": "Anjos mandados dos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

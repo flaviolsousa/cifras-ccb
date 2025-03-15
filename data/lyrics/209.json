@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Marchai, soldados",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G",
-    "1. Oh! Marchai, soldados, sois de Cristo!",
-    "C     G        A           D ",
-    "Vós deveis com fé aqui marchar;",
-    "G                       C ",
-    "Em justiça vós deveis andar",
-    "      G           D     G",
-    "Até entrardes no eterno lar.",
-    "",
-    "       G",
-    "Oh! Marchai com valor,",
-    "  A                 D ",
-    "Olhai a Cristo, o Senhor,",
-    "        G                C ",
-    "Pois só d´Ele vos virá coragem",
-    "         G            D    G",
-    "Para avançardes com o Redentor.",
-    "",
-    "   G",
-    "2. Oh! Marchai, soldados, sois de Cristo!",
-    "C    G     A                D ",
-    "A tormenta tendes que_enfrentar,",
-    "G                         C ",
-    "Mas, bem firmes e sem duvidar,",
-    "       G              D   G",
-    "Resistireis sem nunca vacilar.",
-    "",
-    "   G",
-    "3. Oh! Marchai, soldados, sois de Cristo!",
-    "C   G     A            D ",
-    "A vitória vós ireis cantar;",
-    "G                      C ",
-    "As primícias do eterno lar,",
-    "         G             D      G",
-    "Jesus, o Salvador, vos faz provar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
+          },
+          {
+            "chords": "C     G        A           D ",
+            "lyrics": "Vós deveis com fé aqui marchar;"
+          },
+          {
+            "chords": "G                       C ",
+            "lyrics": "Em justiça vós deveis andar"
+          },
+          {
+            "chords": "      G           D     G",
+            "lyrics": "Até entrardes no eterno lar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       G",
+            "lyrics": "Oh! Marchai com valor,"
+          },
+          {
+            "chords": "  A                 D ",
+            "lyrics": "Olhai a Cristo, o Senhor,"
+          },
+          {
+            "chords": "        G                C ",
+            "lyrics": "Pois só d´Ele vos virá coragem"
+          },
+          {
+            "chords": "         G            D    G",
+            "lyrics": "Para avançardes com o Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
+          },
+          {
+            "chords": "C    G     A                D ",
+            "lyrics": "A tormenta tendes que_enfrentar,"
+          },
+          {
+            "chords": "G                         C ",
+            "lyrics": "Mas, bem firmes e sem duvidar,"
+          },
+          {
+            "chords": "       G              D   G",
+            "lyrics": "Resistireis sem nunca vacilar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
+          },
+          {
+            "chords": "C   G     A            D ",
+            "lyrics": "A vitória vós ireis cantar;"
+          },
+          {
+            "chords": "G                      C ",
+            "lyrics": "As primícias do eterno lar,"
+          },
+          {
+            "chords": "         G             D      G",
+            "lyrics": "Jesus, o Salvador, vos faz provar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,41 +1,100 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Faz-nos ouvir Tua voz",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                 D        G",
-    "1. Faz-nos ouvir Tua voz gloriosa,",
-    "C       G         D       G",
-    "Ó nosso Mestre, fiel Redentor;",
-    "                D      G",
-    "A Tua_igreja, dileta esposa,",
-    "C         G     D      G",
-    "Sente por Ti inefável amor.",
-    "",
-    "D      G         D     G",
-    "Ó caro Salvador, a Tua voz de_amor",
-    "C        G            Am       B7...",
-    "Nos guia para_o céus, glorioso lar;",
-    "C      G         D        G    G...",
-    "Pela Palavra vem nos consolar.",
-    "",
-    "   G                 D       G",
-    "2. Ó Jesus Cristo, celeste Esposo,",
-    "C        G            D           G",
-    "Vem conduzir-nos, por Teu grande_amor;",
-    "                D        G",
-    "Já antevemos, ó Rei majestoso,",
-    "C         G        D         G",
-    "A glória_eterna do Teu esplendor.",
-    "",
-    "   G              D         G",
-    "3. A Tua_igreja está se_adornando",
-    "C         G          D         G",
-    "Para_encontrar-se Contigo,_ó Jesus;",
-    "                     D       G",
-    "Com santas vestes, está aguardando",
-    "C       G       D        G",
-    "Ver Tua face no reino de luz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                 D        G",
+            "lyrics": "Faz-nos ouvir Tua voz gloriosa,"
+          },
+          {
+            "chords": "C       G         D       G",
+            "lyrics": "Ó nosso Mestre, fiel Redentor;"
+          },
+          {
+            "chords": "                D      G",
+            "lyrics": "A Tua_igreja, dileta esposa,"
+          },
+          {
+            "chords": "C         G     D      G",
+            "lyrics": "Sente por Ti inefável amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D      G         D     G",
+            "lyrics": "Ó caro Salvador, a Tua voz de_amor"
+          },
+          {
+            "chords": "C        G            Am       B7...",
+            "lyrics": "Nos guia para_o céus, glorioso lar;"
+          },
+          {
+            "chords": "C      G         D        G    G...",
+            "lyrics": "Pela Palavra vem nos consolar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                 D       G",
+            "lyrics": "Ó Jesus Cristo, celeste Esposo,"
+          },
+          {
+            "chords": "C        G            D           G",
+            "lyrics": "Vem conduzir-nos, por Teu grande_amor;"
+          },
+          {
+            "chords": "                D        G",
+            "lyrics": "Já antevemos, ó Rei majestoso,"
+          },
+          {
+            "chords": "C         G        D         G",
+            "lyrics": "A glória_eterna do Teu esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G              D         G",
+            "lyrics": "A Tua_igreja está se_adornando"
+          },
+          {
+            "chords": "C         G          D         G",
+            "lyrics": "Para_encontrar-se Contigo,_ó Jesus;"
+          },
+          {
+            "chords": "                     D       G",
+            "lyrics": "Com santas vestes, está aguardando"
+          },
+          {
+            "chords": "C       G       D        G",
+            "lyrics": "Ver Tua face no reino de luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

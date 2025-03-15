@@ -1,52 +1,125 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Pela fé uma vez...",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "        C",
-    "1. Pela fé uma vez por Jesus dada_aos santos,",
-    "      G7                         C",
-    "Fé perfeita que fez vitoriosos a tantos,",
-    "                           G7  ",
-    "Não temeram horrores nem espantos",
-    "                            C",
-    "Os fiéis que seguiram ao Senhor.",
-    "",
-    "        C",
-    "Nas tristezas, nas lutas e dor,",
-    "             D     G7 ",
-    "Recorriam a Cristo Jesus,",
-    "         Am      F        C",
-    "Que lhes dava virtude_e valor,",
-    "     G7                   C",
-    "Pela fé que_os guiava na luz.",
-    "",
-    "          C",
-    "2. Os cristãos foram, nos tribunais, condenados,",
-    "       G7                             C",
-    "Nas prisões eles foram, sem culpa, lançados,",
-    "                                 G7 ",
-    "E, de seus bens terrestres, despojados;",
-    "                        C",
-    "Tudo isso sofreram pela fé.",
-    "",
-    "         C",
-    "3. Nessa fé é que nós, crentes, sempre devemos",
-    "    G7                              C",
-    "Caminhar bem firmados, e_assim venceremos;",
-    "                          G7 ",
-    "E um dia, no céu, encontraremos",
-    "                          C",
-    "Os fiéis que amaram ao Senhor.",
-    "",
-    "       C",
-    "Lá no céu não teremos mais dor",
-    "              D        G7 ",
-    "E o pranto também cessará,",
-    "       Am     F       C",
-    "Pois o nosso amado Senhor,",
-    "       G7              C",
-    "Nossas lágrimas, enxugará."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     C",
+            "lyrics": "Pela fé uma vez por Jesus dada_aos santos,"
+          },
+          {
+            "chords": "      G7                         C",
+            "lyrics": "Fé perfeita que fez vitoriosos a tantos,"
+          },
+          {
+            "chords": "                           G7  ",
+            "lyrics": "Não temeram horrores nem espantos"
+          },
+          {
+            "chords": "                            C",
+            "lyrics": "Os fiéis que seguiram ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        C",
+            "lyrics": "Nas tristezas, nas lutas e dor,"
+          },
+          {
+            "chords": "             D     G7 ",
+            "lyrics": "Recorriam a Cristo Jesus,"
+          },
+          {
+            "chords": "         Am      F        C",
+            "lyrics": "Que lhes dava virtude_e valor,"
+          },
+          {
+            "chords": "     G7                   C",
+            "lyrics": "Pela fé que_os guiava na luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       C",
+            "lyrics": "Os cristãos foram, nos tribunais, condenados,"
+          },
+          {
+            "chords": "       G7                             C",
+            "lyrics": "Nas prisões eles foram, sem culpa, lançados,"
+          },
+          {
+            "chords": "                                 G7 ",
+            "lyrics": "E, de seus bens terrestres, despojados;"
+          },
+          {
+            "chords": "                        C",
+            "lyrics": "Tudo isso sofreram pela fé."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      C",
+            "lyrics": "Nessa fé é que nós, crentes, sempre devemos"
+          },
+          {
+            "chords": "    G7                              C",
+            "lyrics": "Caminhar bem firmados, e_assim venceremos;"
+          },
+          {
+            "chords": "                          G7 ",
+            "lyrics": "E um dia, no céu, encontraremos"
+          },
+          {
+            "chords": "                          C",
+            "lyrics": "Os fiéis que amaram ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       C",
+            "lyrics": "Lá no céu não teremos mais dor"
+          },
+          {
+            "chords": "              D        G7 ",
+            "lyrics": "E o pranto também cessará,"
+          },
+          {
+            "chords": "       Am     F       C",
+            "lyrics": "Pois o nosso amado Senhor,"
+          },
+          {
+            "chords": "       G7              C",
+            "lyrics": "Nossas lágrimas, enxugará."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,28 +1,63 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sem Deus Pai, vivi no mundo",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G               D                 C    D     G",
-    "1. Sem Deus Pai, vivi no mundo, à vaidade eu servi;",
-    "             D                       C       D    G",
-    "Em tristezas me_encontrava quando,_a Cristo, conheci;",
-    "                                   D   G",
-    "Seu perdão, Seu amor, em minh´alma recebi.",
-    "",
-    "   G            D                C     D     G",
-    "2. Eu jamais compreenderia o_Evangelho do Senhor,",
-    "             D               C     D      G",
-    "Se não fosse Sua graça, Seu amor, imenso_amor,",
-    "                                   D   G",
-    "Que do mal me livrou, me unindo_ao Criador.",
-    "",
-    "   G           D                C   D        G",
-    "3. No meu ser agora sinto Teu Espírito,_ó Senhor,",
-    "            D               C       D       G",
-    "Que me guia na verdade e me leva_ao lar de_amor;",
-    "                                 D    G ",
-    "Nesse lar viverei com Jesus, meu Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G               D                 C    D     G",
+            "lyrics": "Sem Deus Pai, vivi no mundo, à vaidade eu servi;"
+          },
+          {
+            "chords": "             D                       C       D    G",
+            "lyrics": "Em tristezas me_encontrava quando,_a Cristo, conheci;"
+          },
+          {
+            "chords": "                                   D   G",
+            "lyrics": "Seu perdão, Seu amor, em minh´alma recebi."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G            D                C     D     G",
+            "lyrics": "Eu jamais compreenderia o_Evangelho do Senhor,"
+          },
+          {
+            "chords": "             D               C     D      G",
+            "lyrics": "Se não fosse Sua graça, Seu amor, imenso_amor,"
+          },
+          {
+            "chords": "                                   D   G",
+            "lyrics": "Que do mal me livrou, me unindo_ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G           D                C   D        G",
+            "lyrics": "No meu ser agora sinto Teu Espírito,_ó Senhor,"
+          },
+          {
+            "chords": "            D               C       D       G",
+            "lyrics": "Que me guia na verdade e me leva_ao lar de_amor;"
+          },
+          {
+            "chords": "                                 D    G ",
+            "lyrics": "Nesse lar viverei com Jesus, meu Redentor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Consagrados sejamos a Deus",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "         F",
-    "1. Se quisermos, irmãos, do Senhor receber",
-    "      C                 F",
-    "As virtudes da vida_eternal,",
-    "",
-    "Seja_a nossa_afeição e o nosso prazer",
-    "      C                 F",
-    "Em Jesus e na lei celestial.",
-    "",
-    "     Bb                F",
-    "Consagrados sejamos a Deus, Criador,",
-    "  Bb       G        C   C7...",
-    "E Ele, de nós, Se agradará;",
-    "    F",
-    "Abrirá Sua mão e, com grande amor,",
-    "     C                F",
-    "Boas dádivas nos mandará.",
-    "",
-    "         F",
-    "2. Se quisermos, irmãos, ser benditos de Deus,",
-    "   C                F",
-    "Adoremo-Lo com devoção;",
-    "",
-    "Seus preceitos de_amor Ele_envia dos céus;",
-    "     C               F",
-    "Seja Ele a nossa Porção.",
-    "",
-    "         F",
-    "3. Se honrarmos a Deus, Ele nos honrará",
-    "      C                     F",
-    "Nesta terra_e na pátria_eternal;",
-    "",
-    "Um diadema, nos céus, Ele concederá,",
-    "      C                 F",
-    "Ao entrarmos no lar divinal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Se quisermos, irmãos, do Senhor receber"
+          },
+          {
+            "chords": "      C                 F",
+            "lyrics": "As virtudes da vida_eternal,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Seja_a nossa_afeição e o nosso prazer"
+          },
+          {
+            "chords": "      C                 F",
+            "lyrics": "Em Jesus e na lei celestial."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     Bb                F",
+            "lyrics": "Consagrados sejamos a Deus, Criador,"
+          },
+          {
+            "chords": "  Bb       G        C   C7...",
+            "lyrics": "E Ele, de nós, Se agradará;"
+          },
+          {
+            "chords": "    F",
+            "lyrics": "Abrirá Sua mão e, com grande amor,"
+          },
+          {
+            "chords": "     C                F",
+            "lyrics": "Boas dádivas nos mandará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Se quisermos, irmãos, ser benditos de Deus,"
+          },
+          {
+            "chords": "   C                F",
+            "lyrics": "Adoremo-Lo com devoção;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Seus preceitos de_amor Ele_envia dos céus;"
+          },
+          {
+            "chords": "     C               F",
+            "lyrics": "Seja Ele a nossa Porção."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Se honrarmos a Deus, Ele nos honrará"
+          },
+          {
+            "chords": "      C                     F",
+            "lyrics": "Nesta terra_e na pátria_eternal;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Um diadema, nos céus, Ele concederá,"
+          },
+          {
+            "chords": "      C                 F",
+            "lyrics": "Ao entrarmos no lar divinal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

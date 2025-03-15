@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Fui, Senhor, por Ti remido",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "           G             C ",
-    "1. Fui, Senhor, por Ti remido",
-    "       Am     D      G",
-    "Para_andar em santo_amor;",
-    "                   C ",
-    "Neste mundo,_a Ti unido,",
-    "     D           G",
-    "Eu serei um vencedor.",
-    "",
-    "        G            C ",
-    "2. Teu amor já me consola",
-    "     Am      D   G",
-    "Para sempre_obedecer",
-    "                  C ",
-    "À Palavra, que controla",
-    "     D          G",
-    "Todo este fraco ser.",
-    "",
-    "        G         C ",
-    "3. Seja eu fortificado",
-    "      Am    D       G",
-    "Com o Teu poder, Senhor,",
-    "                C ",
-    "Para ser santificado",
-    "       D          G",
-    "Pelo_Espírito de_amor.",
-    "",
-    "           G            C ",
-    "4. Sou Teu servo muito_amado,",
-    "      Am    D       G",
-    "Co-herdeiro Teu, Senhor;",
-    "                C ",
-    "E, no reino desejado,",
-    "     D         G",
-    "Eu verei o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        G             C ",
+            "lyrics": "Fui, Senhor, por Ti remido"
+          },
+          {
+            "chords": "       Am     D      G",
+            "lyrics": "Para_andar em santo_amor;"
+          },
+          {
+            "chords": "                   C ",
+            "lyrics": "Neste mundo,_a Ti unido,"
+          },
+          {
+            "chords": "     D           G",
+            "lyrics": "Eu serei um vencedor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     G            C ",
+            "lyrics": "Teu amor já me consola"
+          },
+          {
+            "chords": "     Am      D   G",
+            "lyrics": "Para sempre_obedecer"
+          },
+          {
+            "chords": "                  C ",
+            "lyrics": "À Palavra, que controla"
+          },
+          {
+            "chords": "     D          G",
+            "lyrics": "Todo este fraco ser."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G         C ",
+            "lyrics": "Seja eu fortificado"
+          },
+          {
+            "chords": "      Am    D       G",
+            "lyrics": "Com o Teu poder, Senhor,"
+          },
+          {
+            "chords": "                C ",
+            "lyrics": "Para ser santificado"
+          },
+          {
+            "chords": "       D          G",
+            "lyrics": "Pelo_Espírito de_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "        G            C ",
+            "lyrics": "Sou Teu servo muito_amado,"
+          },
+          {
+            "chords": "      Am    D       G",
+            "lyrics": "Co-herdeiro Teu, Senhor;"
+          },
+          {
+            "chords": "                C ",
+            "lyrics": "E, no reino desejado,"
+          },
+          {
+            "chords": "     D         G",
+            "lyrics": "Eu verei o Criador."
+          }
+        ]
+      }
+    ]
+  }
 }

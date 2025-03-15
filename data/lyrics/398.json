@@ -1,46 +1,102 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Não tardará a volta do Senhor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "      B                    B°            B",
-    "1. Marchemos, irmãos, pela senda da verdade!",
-    "    F# ",
-    "O fiel Salvador nos dará, do céu, a proteção,",
-    "   B                 B°           B",
-    "Fervor e valor, e também a santidade;",
-    "     F#                     C#7        F#",
-    "Do Senhor, nosso Deus, alcançamos o perdão.",
-    "         B                     B°             B",
-    "Jesus morreu sobre_a cruz para dar-nos liberdade",
-    "     C#7                        F#",
-    "De_andar e_O servir em santificação.",
-    "",
-    "         B  E  B          E      F#",
-    "Não tardará a  volta do Senhor Jesus!",
-    "                                       F#7...",
-    "Virá, irmãos, premiar os Seus com galardão;",
-    "     B  E   B          E   F#",
-    "Mas, os que rejeitarem Sua luz,",
-    "   G#m  G7   F#7           B",
-    "Condena-ção eterna_encontrarão.",
-    "",
-    "Andai, irmãos,",
-    "                   B...    F#  F#7  B    B...",
-    "Na fé, na paz, no_amor  do Rei dos  reis.",
-    "",
-    "     B                   B°           B",
-    "2. Irmãos, em amor, bem unidos caminhemos",
-    "      F#",
-    "Com Jesus, Salvador, que dará o galardão final.",
-    "   B               B°             B",
-    "Louvor perenal e veraz Lhe tributemos",
-    "     F#                   C#7        F#",
-    "Pelo bem que os fez nosso Rei celestial;",
-    "         B               B°           B",
-    "Por esse bem divinal de amor, receberemos",
-    "   C#7                          F#",
-    "No céu, nosso lar, a glória eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   B                    B°            B",
+            "lyrics": "Marchemos, irmãos, pela senda da verdade!"
+          },
+          {
+            "chords": "    F# ",
+            "lyrics": "O fiel Salvador nos dará, do céu, a proteção,"
+          },
+          {
+            "chords": "   B                 B°           B",
+            "lyrics": "Fervor e valor, e também a santidade;"
+          },
+          {
+            "chords": "     F#                     C#7        F#",
+            "lyrics": "Do Senhor, nosso Deus, alcançamos o perdão."
+          },
+          {
+            "chords": "         B                     B°             B",
+            "lyrics": "Jesus morreu sobre_a cruz para dar-nos liberdade"
+          },
+          {
+            "chords": "     C#7                        F#",
+            "lyrics": "De_andar e_O servir em santificação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         B  E  B          E      F#",
+            "lyrics": "Não tardará a  volta do Senhor Jesus!"
+          },
+          {
+            "chords": "                                       F#7...",
+            "lyrics": "Virá, irmãos, premiar os Seus com galardão;"
+          },
+          {
+            "chords": "     B  E   B          E   F#",
+            "lyrics": "Mas, os que rejeitarem Sua luz,"
+          },
+          {
+            "chords": "   G#m  G7   F#7           B",
+            "lyrics": "Condena-ção eterna_encontrarão."
+          },
+          {
+            "chords": "",
+            "lyrics": "Andai, irmãos,"
+          },
+          {
+            "chords": "                   B...    F#  F#7  B    B...",
+            "lyrics": "Na fé, na paz, no_amor  do Rei dos  reis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  B                   B°           B",
+            "lyrics": "Irmãos, em amor, bem unidos caminhemos"
+          },
+          {
+            "chords": "      F#",
+            "lyrics": "Com Jesus, Salvador, que dará o galardão final."
+          },
+          {
+            "chords": "   B               B°             B",
+            "lyrics": "Louvor perenal e veraz Lhe tributemos"
+          },
+          {
+            "chords": "     F#                   C#7        F#",
+            "lyrics": "Pelo bem que os fez nosso Rei celestial;"
+          },
+          {
+            "chords": "         B               B°           B",
+            "lyrics": "Por esse bem divinal de amor, receberemos"
+          },
+          {
+            "chords": "   C#7                          F#",
+            "lyrics": "No céu, nosso lar, a glória eternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

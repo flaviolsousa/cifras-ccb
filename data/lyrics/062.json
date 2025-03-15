@@ -1,27 +1,65 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Criador, forte Rocha és",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A             E     A                    E    E7 ",
-    "1. Ó Criador, forte Rocha és, imenso é o Teu poder;",
-    "   A   A7       D      E       A           E    A",
-    "Eu me abrigo em Ti, Senhor, a fim de nunca perecer.",
-    "",
-    "      A             E    A                      E    E7   ",
-    "2. Ó Criador, Teu fiel favor me faz jubilar de amor;",
-    "    A      A7       D      E        A          E       A",
-    "Com toda a alma, imploro a Ti; oh! Vem me defender, Senhor.",
-    "",
-    "      A               E    A                     E     E7 ",
-    "3. Ó Criador, vem me preservar do mal e da tentação;",
-    "     A    A7     D       E    A           E   A",
-    "Mui fraco sou, recorro a Ti; atende minha oração.",
-    "",
-    "      A           E     A                   E     E7 ",
-    "4. Ó Criador, poderoso Deus, espero em Teu amor;",
-    " A    A7        D    E       A           E      A",
-    "Opera sempre a meu favor; louvores Te darei, Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A             E     A                    E    E7 ",
+            "lyrics": "Ó Criador, forte Rocha és, imenso é o Teu poder;"
+          },
+          {
+            "chords": "   A   A7       D      E       A           E    A",
+            "lyrics": "Eu me abrigo em Ti, Senhor, a fim de nunca perecer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A             E    A                      E    E7   ",
+            "lyrics": "Ó Criador, Teu fiel favor me faz jubilar de amor;"
+          },
+          {
+            "chords": "    A      A7       D      E        A          E       A",
+            "lyrics": "Com toda a alma, imploro a Ti; oh! Vem me defender, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   A               E    A                     E     E7 ",
+            "lyrics": "Ó Criador, vem me preservar do mal e da tentação;"
+          },
+          {
+            "chords": "     A    A7     D       E    A           E   A",
+            "lyrics": "Mui fraco sou, recorro a Ti; atende minha oração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "   A           E     A                   E     E7 ",
+            "lyrics": "Ó Criador, poderoso Deus, espero em Teu amor;"
+          },
+          {
+            "chords": " A    A7        D    E       A           E      A",
+            "lyrics": "Opera sempre a meu favor; louvores Te darei, Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

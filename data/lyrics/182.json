@@ -1,28 +1,63 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Brevemente retornará Jesus Cristo",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "        B                      E     F#7   B",
-    "1. Brevemente retornará e_a promessa cumprirá,",
-    "F#7                     B     F#7                B",
-    "Jesus Cristo,_o Rei dos reis, que ao céu nos levará;",
-    "                            E     F#7  B",
-    "Pois só Ele pode nos dar o eterno galardão.",
-    "",
-    "         B                        E      F#7  B",
-    "2. Vamos todos nos consagrar e servir ao Redentor;",
-    "F#7             B   F#7                   B",
-    "É glorioso o porvir no Seu reino de_esplendor;",
-    "                              E     F#7  B",
-    "Nossa alma desfrutará paz que nunca findará.",
-    "",
-    "       B                       E     F#7    B",
-    "3. A potente voz de Jesus, ouvirão o santos Seus,",
-    "F#7             B   F#7               B",
-    "Convidando os fiéis a entrarem lá nos céus;",
-    "                              E     F#7     B",
-    "Brevemente retornará Cristo,_eterno Rei dos reis."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     B                      E     F#7   B",
+            "lyrics": "Brevemente retornará e_a promessa cumprirá,"
+          },
+          {
+            "chords": "F#7                     B     F#7                B",
+            "lyrics": "Jesus Cristo,_o Rei dos reis, que ao céu nos levará;"
+          },
+          {
+            "chords": "                            E     F#7  B",
+            "lyrics": "Pois só Ele pode nos dar o eterno galardão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      B                        E      F#7  B",
+            "lyrics": "Vamos todos nos consagrar e servir ao Redentor;"
+          },
+          {
+            "chords": "F#7             B   F#7                   B",
+            "lyrics": "É glorioso o porvir no Seu reino de_esplendor;"
+          },
+          {
+            "chords": "                              E     F#7  B",
+            "lyrics": "Nossa alma desfrutará paz que nunca findará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    B                       E     F#7    B",
+            "lyrics": "A potente voz de Jesus, ouvirão o santos Seus,"
+          },
+          {
+            "chords": "F#7             B   F#7               B",
+            "lyrics": "Convidando os fiéis a entrarem lá nos céus;"
+          },
+          {
+            "chords": "                              E     F#7     B",
+            "lyrics": "Brevemente retornará Cristo,_eterno Rei dos reis."
+          }
+        ]
+      }
+    ]
+  }
 }

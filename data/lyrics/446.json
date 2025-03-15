@@ -1,47 +1,112 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vós, ó jovens do Senhor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "          G                         C          G",
-    "1. Vós, ó jovens do Senhor, dai-Lhe honra e louvor,",
-    "                                    D    D7",
-    "Esforçai-vos por servir ao Rei dos reis;",
-    "     G                        C           G",
-    "Revesti-vos, pois, de fé e do Seu imenso_amor;",
-    "       C         D             G",
-    "O que d´Ele precisardes vós tereis.",
-    "",
-    "       G                                   D",
-    "Vós, ó jovens do Senhor, oh! amai-O com fervor,",
-    "                           G",
-    "O que Ele vos mandar, procurai executar;",
-    "    A7                D   ",
-    "Morareis com Deus em Seu lar;",
-    "    G                                   D",
-    "Diligentes sede vós, Ele não vos deixa sós,",
-    "                         G",
-    "Mas convosco estará e as forças vos dará,",
-    "       C      D      G",
-    "Pois a graça n´Ele_está.",
-    "",
-    "          G                      C          G",
-    "2. Sois remidos, ó irmãos, sois amados de Jesus",
-    "                                D    D7",
-    "E sois fortes para suplantar o mal;",
-    "     G                    C               G",
-    "Pelo bom Consolador vós tereis virtude_e luz;",
-    "         C          D        G",
-    "Sim, crescei na estatura divinal.",
-    "",
-    "        G                  C             G",
-    "3. Se vier o tentador com ofertas vos tentar,",
-    "                          D    D7",
-    "Incitando-vos a males cometer,",
-    "     G                     C         G",
-    "Recorrei ao Salvador, Ele vos virá livrar;",
-    "       C             D             G",
-    "Vós, ó jovens, não deveis jamais ceder."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       G                         C          G",
+            "lyrics": "Vós, ó jovens do Senhor, dai-Lhe honra e louvor,"
+          },
+          {
+            "chords": "                                    D    D7",
+            "lyrics": "Esforçai-vos por servir ao Rei dos reis;"
+          },
+          {
+            "chords": "     G                        C           G",
+            "lyrics": "Revesti-vos, pois, de fé e do Seu imenso_amor;"
+          },
+          {
+            "chords": "       C         D             G",
+            "lyrics": "O que d´Ele precisardes vós tereis."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       G                                   D",
+            "lyrics": "Vós, ó jovens do Senhor, oh! amai-O com fervor,"
+          },
+          {
+            "chords": "                           G",
+            "lyrics": "O que Ele vos mandar, procurai executar;"
+          },
+          {
+            "chords": "    A7                D   ",
+            "lyrics": "Morareis com Deus em Seu lar;"
+          },
+          {
+            "chords": "    G                                   D",
+            "lyrics": "Diligentes sede vós, Ele não vos deixa sós,"
+          },
+          {
+            "chords": "                         G",
+            "lyrics": "Mas convosco estará e as forças vos dará,"
+          },
+          {
+            "chords": "       C      D      G",
+            "lyrics": "Pois a graça n´Ele_está."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G                      C          G",
+            "lyrics": "Sois remidos, ó irmãos, sois amados de Jesus"
+          },
+          {
+            "chords": "                                D    D7",
+            "lyrics": "E sois fortes para suplantar o mal;"
+          },
+          {
+            "chords": "     G                    C               G",
+            "lyrics": "Pelo bom Consolador vós tereis virtude_e luz;"
+          },
+          {
+            "chords": "         C          D        G",
+            "lyrics": "Sim, crescei na estatura divinal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G                  C             G",
+            "lyrics": "Se vier o tentador com ofertas vos tentar,"
+          },
+          {
+            "chords": "                          D    D7",
+            "lyrics": "Incitando-vos a males cometer,"
+          },
+          {
+            "chords": "     G                     C         G",
+            "lyrics": "Recorrei ao Salvador, Ele vos virá livrar;"
+          },
+          {
+            "chords": "       C             D             G",
+            "lyrics": "Vós, ó jovens, não deveis jamais ceder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

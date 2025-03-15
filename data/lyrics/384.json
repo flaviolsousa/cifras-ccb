@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nos resgatou e nos lavou",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "         D                        A ",
-    "1. Jesus Cristo, o Cordeiro, dura morte suportou;",
-    "     D                        A ",
-    "Por amor de nossas almas, Sua vida não poupou;",
-    "      D                         A ",
-    "Com o Seu precioso sangue nos lavou e libertou;",
-    "       D   D...   A                  D",
-    "Glória a Jesus, o Justo que nos resgatou!",
-    "",
-    "    D          G     D",
-    "Nos resgatou e nos lavou",
-    "                 G                 A ",
-    "Com Seu precioso sangue, Cristo,_o Redentor;",
-    "    D          G      D",
-    "Nos libertou e nos salvou",
-    "                G               A    D    D...",
-    "Do mundo_e do pecado, Cristo,_o Salvador.",
-    "",
-    "        D                        A ",
-    "2. Pelo sangue do Concerto, liberdade temos nós",
-    "     D                     A ",
-    "De entrar no santuário e ouvir, de Deus, a voz;",
-    "     D                          A ",
-    "Esse sangue nos confirma quanto Cristo nos amou;",
-    "       D   D...   A                  D",
-    "Glória a Jesus, o Justo que nos resgatou!",
-    "",
-    "          D                         A ",
-    "3. Somos, por Jesus, selados para_a nossa redenção;",
-    "        D                        A ",
-    "Sempre_avante, caminhemos nesta grande vocação;",
-    "     D                          A ",
-    "Pelo sangue inocente, Cristo,_a Deus, nos adotou;",
-    "       D   D...   A                  D",
-    "Glória a Jesus, o Justo que nos resgatou!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      D                        A ",
+            "lyrics": "Jesus Cristo, o Cordeiro, dura morte suportou;"
+          },
+          {
+            "chords": "     D                        A ",
+            "lyrics": "Por amor de nossas almas, Sua vida não poupou;"
+          },
+          {
+            "chords": "      D                         A ",
+            "lyrics": "Com o Seu precioso sangue nos lavou e libertou;"
+          },
+          {
+            "chords": "       D   D...   A                  D",
+            "lyrics": "Glória a Jesus, o Justo que nos resgatou!"
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "    D          G     D"
+          },
+          {
+            "chords": "Nos resgatou e nos lavou",
+            "lyrics": "                 G                 A "
+          },
+          {
+            "chords": "Com Seu precioso sangue, Cristo,_o Redentor;",
+            "lyrics": "    D          G      D"
+          },
+          {
+            "chords": "Nos libertou e nos salvou",
+            "lyrics": "                G               A    D    D..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     D                        A ",
+            "lyrics": "Pelo sangue do Concerto, liberdade temos nós"
+          },
+          {
+            "chords": "     D                     A ",
+            "lyrics": "De entrar no santuário e ouvir, de Deus, a voz;"
+          },
+          {
+            "chords": "     D                          A ",
+            "lyrics": "Esse sangue nos confirma quanto Cristo nos amou;"
+          },
+          {
+            "chords": "       D   D...   A                  D",
+            "lyrics": "Glória a Jesus, o Justo que nos resgatou!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       D                         A ",
+            "lyrics": "Somos, por Jesus, selados para_a nossa redenção;"
+          },
+          {
+            "chords": "        D                        A ",
+            "lyrics": "Sempre_avante, caminhemos nesta grande vocação;"
+          },
+          {
+            "chords": "     D                          A ",
+            "lyrics": "Pelo sangue inocente, Cristo,_a Deus, nos adotou;"
+          },
+          {
+            "chords": "       D   D...   A                  D",
+            "lyrics": "Glória a Jesus, o Justo que nos resgatou!"
+          }
+        ]
+      }
+    ]
+  }
 }

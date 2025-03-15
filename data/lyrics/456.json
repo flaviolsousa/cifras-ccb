@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Somos joias preciosas",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "         E                       A      E        B7   E",
-    "1. Ao voltar, com grande glória, Jesus Cristo,_o Redentor,",
-    "                     A      E     B7       E",
-    "Levará as Suas joias para_o reino de_esplendor.",
-    "",
-    "      A          E",
-    "Somos joias preciosas",
-    "A    E     B7    E  E7",
-    "Do tesouro do Senhor;",
-    "      A             E",
-    "Somos belas, mui formosas, ",
-    "A     E     B7   E    E...",
-    "Somos joias de valor.",
-    "",
-    "          E                A     E      B7   E",
-    "2. Destas joias preciosas Cristo sempre cuidará;",
-    "                          A   E     B7   E",
-    "Sempre belas e brilhantes Ele as conservará.",
-    "",
-    "        E                A    E     B7  E",
-    "3. Revestidos de pureza, caminhando em amor,",
-    "                       A   E     B7    E",
-    "Aguardemos bem atentos o retorno do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      E                       A      E        B7   E",
+            "lyrics": "Ao voltar, com grande glória, Jesus Cristo,_o Redentor,"
+          },
+          {
+            "chords": "                     A      E     B7       E",
+            "lyrics": "Levará as Suas joias para_o reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      A          E",
+            "lyrics": "Somos joias preciosas"
+          },
+          {
+            "chords": "A    E     B7    E  E7",
+            "lyrics": "Do tesouro do Senhor;"
+          },
+          {
+            "chords": "      A             E",
+            "lyrics": "Somos belas, mui formosas, "
+          },
+          {
+            "chords": "A     E     B7   E    E...",
+            "lyrics": "Somos joias de valor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       E                A     E      B7   E",
+            "lyrics": "Destas joias preciosas Cristo sempre cuidará;"
+          },
+          {
+            "chords": "                          A   E     B7   E",
+            "lyrics": "Sempre belas e brilhantes Ele as conservará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E                A    E     B7  E",
+            "lyrics": "Revestidos de pureza, caminhando em amor,"
+          },
+          {
+            "chords": "                       A   E     B7    E",
+            "lyrics": "Aguardemos bem atentos o retorno do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

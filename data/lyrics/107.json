@@ -1,46 +1,99 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O fim de tudo chegará",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "      F                     Gm  C   F",
-    "1. O fim de tudo chegará, ouvi, pecadores,",
-    "                         Gm    C    F",
-    "Só Cristo vos perdoará e vida vos dará;",
-    "                          Gm  C        F",
-    "O fim está bem perto, bem per-to, bem perto,",
-    "                         Gm        C       F",
-    "Fazei então concerto com Quem vos quer salvar;",
-    "     C         F       C              F",
-    "Ó vinde, contritos, depressa, sem tardar,",
-    "      C       F         Gm      C        F",
-    "A Cristo piedoso, que a glória vos quer dar.",
-    "",
-    "     F                        Gm  C        F",
-    "2. Arrependei-vos e aceitai a Cristo, o Cordeiro;",
-    "                              Gm    C     F",
-    "A Ele as culpas confessai e o mundo rejeitai;",
-    "                             Gm     C       F",
-    "Não desprezeis a sorte, pois grande é essa sorte",
-    "                       Gm   C       F",
-    "Que livrará da morte e do eterno ardor;",
-    "    C        F       C            F",
-    "Da ira vindoura vos livra o redentor;",
-    "      C       F    Gm         C    F",
-    "Perfeito refúgio é Cristo, o Salvador.",
-    "",
-    "      F                       Gm   C      F",
-    "3. Ó vinde já vos entregar, Jesus vos convida",
-    "                             Gm     C     F",
-    "E quer a Deus vos adotar, também herança dar;",
-    "                      Gm   C    F",
-    "É grande Seu afeto, divi - no afeto,",
-    "                          Gm    C     F",
-    "É o Seu amor, perfeito, potente a salvar;",
-    "     C         F       C             F",
-    "Ó vinde, depressa, as bênçãos desfrutar,",
-    "        C      F   Gm       C      F",
-    "Com glória eterna ireis no céu reinar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   F                     Gm  C   F",
+            "lyrics": "O fim de tudo chegará, ouvi, pecadores,"
+          },
+          {
+            "chords": "                         Gm    C    F",
+            "lyrics": "Só Cristo vos perdoará e vida vos dará;"
+          },
+          {
+            "chords": "                          Gm  C        F",
+            "lyrics": "O fim está bem perto, bem per-to, bem perto,"
+          },
+          {
+            "chords": "                         Gm        C       F",
+            "lyrics": "Fazei então concerto com Quem vos quer salvar;"
+          },
+          {
+            "chords": "     C         F       C              F",
+            "lyrics": "Ó vinde, contritos, depressa, sem tardar,"
+          },
+          {
+            "chords": "      C       F         Gm      C        F",
+            "lyrics": "A Cristo piedoso, que a glória vos quer dar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  F                        Gm  C        F",
+            "lyrics": "Arrependei-vos e aceitai a Cristo, o Cordeiro;"
+          },
+          {
+            "chords": "                              Gm    C     F",
+            "lyrics": "A Ele as culpas confessai e o mundo rejeitai;"
+          },
+          {
+            "chords": "                             Gm     C       F",
+            "lyrics": "Não desprezeis a sorte, pois grande é essa sorte"
+          },
+          {
+            "chords": "                       Gm   C       F",
+            "lyrics": "Que livrará da morte e do eterno ardor;"
+          },
+          {
+            "chords": "    C        F       C            F",
+            "lyrics": "Da ira vindoura vos livra o redentor;"
+          },
+          {
+            "chords": "      C       F    Gm         C    F",
+            "lyrics": "Perfeito refúgio é Cristo, o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   F                       Gm   C      F",
+            "lyrics": "Ó vinde já vos entregar, Jesus vos convida"
+          },
+          {
+            "chords": "                             Gm     C     F",
+            "lyrics": "E quer a Deus vos adotar, também herança dar;"
+          },
+          {
+            "chords": "                      Gm   C    F",
+            "lyrics": "É grande Seu afeto, divi - no afeto,"
+          },
+          {
+            "chords": "                          Gm    C     F",
+            "lyrics": "É o Seu amor, perfeito, potente a salvar;"
+          },
+          {
+            "chords": "     C         F       C             F",
+            "lyrics": "Ó vinde, depressa, as bênçãos desfrutar,"
+          },
+          {
+            "chords": "        C      F   Gm       C      F",
+            "lyrics": "Com glória eterna ireis no céu reinar."
+          }
+        ]
+      }
+    ]
+  }
 }

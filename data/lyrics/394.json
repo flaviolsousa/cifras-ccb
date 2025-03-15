@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nas moradas do Senhor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "          D",
-    "1. Nas moradas do Senhor não há pranto, não há dor,",
-    "      A7                      D",
-    "Todos lá desfrutarão o bem superno;",
-    "      Bm           F#7      G         D",
-    "Lá também desejo estar e a Cristo entoar,",
-    "                                A7 D",
-    "Com os santos, hinos de louvor eterno.",
-    "",
-    "      D",
-    "Lá no céu cantarei",
-    "      G          D           A7 ",
-    "Novos hinos a Jesus, fiel Cordeiro.",
-    "                 D                      G ",
-    "Todo pranto findará, toda angústia cessará.",
-    "          D             A7                D",
-    "Glória a Deus que, por amor, me fez herdeiro!",
-    "",
-    "           D",
-    "2. Meu prazer será sem par lá no céu, ao contemplar,",
-    "      A7                     D",
-    "De Jesus, a santa face, gloriosa;",
-    "      Bm           F#7           G              D",
-    "Sinto júbilo em pensar que, com Cristo, irei morar,",
-    "                                 A7  D",
-    "Pois terei no céu a herança precio - sa.",
-    "",
-    "           D",
-    "3. Na eternal Jerusalém, onde existe só o bem,",
-    "     A7                           D",
-    "Entrarei com Jesus Cristo, alegremente;",
-    "          Bm          F#7           G             D",
-    "Junto aos santos cantarei; Glória! Glória ao meu Rei!",
-    "                        A7 D",
-    "Regozijo sentirei eternamente."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       D",
+            "lyrics": "Nas moradas do Senhor não há pranto, não há dor,"
+          },
+          {
+            "chords": "      A7                      D",
+            "lyrics": "Todos lá desfrutarão o bem superno;"
+          },
+          {
+            "chords": "      Bm           F#7      G         D",
+            "lyrics": "Lá também desejo estar e a Cristo entoar,"
+          },
+          {
+            "chords": "                                A7 D",
+            "lyrics": "Com os santos, hinos de louvor eterno."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      D",
+            "lyrics": "Lá no céu cantarei"
+          },
+          {
+            "chords": "      G          D           A7 ",
+            "lyrics": "Novos hinos a Jesus, fiel Cordeiro."
+          },
+          {
+            "chords": "                 D                      G ",
+            "lyrics": "Todo pranto findará, toda angústia cessará."
+          },
+          {
+            "chords": "          D             A7                D",
+            "lyrics": "Glória a Deus que, por amor, me fez herdeiro!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        D",
+            "lyrics": "Meu prazer será sem par lá no céu, ao contemplar,"
+          },
+          {
+            "chords": "      A7                     D",
+            "lyrics": "De Jesus, a santa face, gloriosa;"
+          },
+          {
+            "chords": "      Bm           F#7           G              D",
+            "lyrics": "Sinto júbilo em pensar que, com Cristo, irei morar,"
+          },
+          {
+            "chords": "                                 A7  D",
+            "lyrics": "Pois terei no céu a herança precio - sa."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        D",
+            "lyrics": "Na eternal Jerusalém, onde existe só o bem,"
+          },
+          {
+            "chords": "     A7                           D",
+            "lyrics": "Entrarei com Jesus Cristo, alegremente;"
+          },
+          {
+            "chords": "          Bm          F#7           G             D",
+            "lyrics": "Junto aos santos cantarei; Glória! Glória ao meu Rei!"
+          },
+          {
+            "chords": "                        A7 D",
+            "lyrics": "Regozijo sentirei eternamente."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

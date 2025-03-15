@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sol da justiça",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "              G               D                                                         ",
-    "1. Do Pai das luzes, o Deus vivente,",
-    "G                         D    D7",
-    "Veio com glória Cristo Jesus;",
-    "G                     D",
-    "O santo Filho do_Onipotente",
-    "G                D       G",
-    "É, para_o mundo, Vida e Luz.",
-    "",
-    "          C               G",
-    "Sol da justiça, Sol da justiça,",
-    "             A         D",
-    "Temos agora Teu resplendor;",
-    "G                       D",
-    "Graça trouxeste do Pai Eterno,",
-    "G            D      G",
-    "Misericórdia ao pecador.",
-    "",
-    "          G           D  ",
-    "2. O povo santo, iluminado,",
-    "G                    D    D7",
-    "É dirigido por essa Luz,",
-    "G                          D ",
-    "Pois, do Seu trono, o Rei amado",
-    "G            D      G",
-    "Vigia sempre e o conduz.",
-    "",
-    "              G             D  ",
-    "3. Do mal, a força se enfraquece,",
-    "G                   D    D7",
-    "É dissipado o seu poder,",
-    "G                          D ",
-    "Pois é só Cristo Quem prevalece;",
-    "G                D       G",
-    "Seu reino_avança para vencer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           G               D                                                         ",
+            "lyrics": "Do Pai das luzes, o Deus vivente,"
+          },
+          {
+            "chords": "G                         D    D7",
+            "lyrics": "Veio com glória Cristo Jesus;"
+          },
+          {
+            "chords": "G                     D",
+            "lyrics": "O santo Filho do_Onipotente"
+          },
+          {
+            "chords": "G                D       G",
+            "lyrics": "É, para_o mundo, Vida e Luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "          C               G",
+            "lyrics": "Sol da justiça, Sol da justiça,"
+          },
+          {
+            "chords": "             A         D",
+            "lyrics": "Temos agora Teu resplendor;"
+          },
+          {
+            "chords": "G                       D",
+            "lyrics": "Graça trouxeste do Pai Eterno,"
+          },
+          {
+            "chords": "G            D      G",
+            "lyrics": "Misericórdia ao pecador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       G           D  ",
+            "lyrics": "O povo santo, iluminado,"
+          },
+          {
+            "chords": "G                    D    D7",
+            "lyrics": "É dirigido por essa Luz,"
+          },
+          {
+            "chords": "G                          D ",
+            "lyrics": "Pois, do Seu trono, o Rei amado"
+          },
+          {
+            "chords": "G            D      G",
+            "lyrics": "Vigia sempre e o conduz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "           G             D  ",
+            "lyrics": "Do mal, a força se enfraquece,"
+          },
+          {
+            "chords": "G                   D    D7",
+            "lyrics": "É dissipado o seu poder,"
+          },
+          {
+            "chords": "G                          D ",
+            "lyrics": "Pois é só Cristo Quem prevalece;"
+          },
+          {
+            "chords": "G                D       G",
+            "lyrics": "Seu reino_avança para vencer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

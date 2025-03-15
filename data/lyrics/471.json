@@ -1,41 +1,100 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Que grande bem é andar com Cristo!",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "               C                        Dm ",
-    "1. Que grande bem é andar com Cristo, o Mestre!",
-    "          G                C",
-    "Que privilégio é servir a Deus!",
-    "               Em         D ",
-    "Sublime bênção é a paz celeste,",
-    "           G      D       G ",
-    "A paz que Cristo deu aos Seus.",
-    "",
-    "           C",
-    "Que grande bem,",
-    "",
-    "Eterno bem,",
-    "    G         C",
-    "Recebemos de Deus!",
-    "",
-    "            C                Dm ",
-    "2. É mui feliz aquele que procura,",
-    "         G                C",
-    "Aqui no mundo, agradar a Deus;",
-    "           Em         D ",
-    "Obedecendo à Palavra pura,",
-    "        G    D       G ",
-    "Será honrado lá nos céus.",
-    "",
-    "              C              Dm ",
-    "3. Deus nos dará a bem-aventurança,",
-    "       G                   C",
-    "Inexplicável é tão grande amor!",
-    "                 Em           D ",
-    "Seu reino eterno é a nossa herança,",
-    "         G      D  G ",
-    "Bendito seja o Criador!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "            C                        Dm ",
+            "lyrics": "Que grande bem é andar com Cristo, o Mestre!"
+          },
+          {
+            "chords": "          G                C",
+            "lyrics": "Que privilégio é servir a Deus!"
+          },
+          {
+            "chords": "               Em         D ",
+            "lyrics": "Sublime bênção é a paz celeste,"
+          },
+          {
+            "chords": "           G      D       G ",
+            "lyrics": "A paz que Cristo deu aos Seus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "           C",
+            "lyrics": "Que grande bem,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Eterno bem,"
+          },
+          {
+            "chords": "    G         C",
+            "lyrics": "Recebemos de Deus!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         C                Dm ",
+            "lyrics": "É mui feliz aquele que procura,"
+          },
+          {
+            "chords": "         G                C",
+            "lyrics": "Aqui no mundo, agradar a Deus;"
+          },
+          {
+            "chords": "           Em         D ",
+            "lyrics": "Obedecendo à Palavra pura,"
+          },
+          {
+            "chords": "        G    D       G ",
+            "lyrics": "Será honrado lá nos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "           C              Dm ",
+            "lyrics": "Deus nos dará a bem-aventurança,"
+          },
+          {
+            "chords": "       G                   C",
+            "lyrics": "Inexplicável é tão grande amor!"
+          },
+          {
+            "chords": "                 Em           D ",
+            "lyrics": "Seu reino eterno é a nossa herança,"
+          },
+          {
+            "chords": "         G      D  G ",
+            "lyrics": "Bendito seja o Criador!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Para o ceú marchemos",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                                   G",
-    "1. Para_o céu marchemos, firmes, sem temer;",
-    "                  C",
-    "Nada nesta marcha pode nos deter;",
-    "              F       D         G",
-    "Com valor marchemos, quem impedirá?",
-    "C             F            G         C",
-    "Cristo, nossa Força, Seu poder nos dará.",
-    "",
-    "   C                    F",
-    "Marchemos para_o céu, morada do Senhor,",
-    " G                         C",
-    "Olhando bem atentos para_o Redentor;",
-    "                      F",
-    "Marchemos com valor à pátria celestial;",
-    "G          C          G   C",
-    "Lá desfrutaremos vida eternal.",
-    "",
-    "   C                                G",
-    "2. Para_o céu marchemos, cheios de amor,",
-    "                   C",
-    "Do amor de Cristo, nosso Condutor;",
-    "            F      D            G",
-    "Com valor andemos, sempre_em união,",
-    "C              F          G       C",
-    "Para_a_eterna glória, a celeste Sião.",
-    "",
-    "   C                                G",
-    "3. Para_o céu marchemos, sem esmorecer;",
-    "                 C",
-    "Pela fé, podemos todo_o mal vencer;",
-    "            F    D          G",
-    "Cristo fortalece nosso coração;",
-    "C            F           G        C",
-    "No_eternal repouso nos dará galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                                   G",
+            "lyrics": "Para_o céu marchemos, firmes, sem temer;"
+          },
+          {
+            "chords": "                  C",
+            "lyrics": "Nada nesta marcha pode nos deter;"
+          },
+          {
+            "chords": "              F       D         G",
+            "lyrics": "Com valor marchemos, quem impedirá?"
+          },
+          {
+            "chords": "C             F            G         C",
+            "lyrics": "Cristo, nossa Força, Seu poder nos dará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   C                    F",
+            "lyrics": "Marchemos para_o céu, morada do Senhor,"
+          },
+          {
+            "chords": " G                         C",
+            "lyrics": "Olhando bem atentos para_o Redentor;"
+          },
+          {
+            "chords": "                      F",
+            "lyrics": "Marchemos com valor à pátria celestial;"
+          },
+          {
+            "chords": "G          C          G   C",
+            "lyrics": "Lá desfrutaremos vida eternal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                                G",
+            "lyrics": "Para_o céu marchemos, cheios de amor,"
+          },
+          {
+            "chords": "                   C",
+            "lyrics": "Do amor de Cristo, nosso Condutor;"
+          },
+          {
+            "chords": "            F      D            G",
+            "lyrics": "Com valor andemos, sempre_em união,"
+          },
+          {
+            "chords": "C              F          G       C",
+            "lyrics": "Para_a_eterna glória, a celeste Sião."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                                G",
+            "lyrics": "Para_o céu marchemos, sem esmorecer;"
+          },
+          {
+            "chords": "                 C",
+            "lyrics": "Pela fé, podemos todo_o mal vencer;"
+          },
+          {
+            "chords": "            F    D          G",
+            "lyrics": "Cristo fortalece nosso coração;"
+          },
+          {
+            "chords": "C            F           G        C",
+            "lyrics": "No_eternal repouso nos dará galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Promessa excelente",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G                 C         G",
-    "1. Promessa_excelente fizeste, ó Deus,",
-    "  D                  G       D...",
-    "Fiel cumprimento_a Palavra terá;",
-    "   G                           C...",
-    "Sentir Teu Espírito querem os Teus;",
-    "     D              G",
-    "Teu povo clamando está.",
-    "",
-    "  G               ",
-    "Envia, ó Deus por amor,",
-    "      D               G",
-    "Teus dons pelo Consolador.",
-    "                      C       C...",
-    "Vem nos revestir de poder divinal;",
-    "  D                  G",
-    "Visita-nos, Pai eternal.",
-    "",
-    "        G                  C       G",
-    "2. Oh! Vem despertar-nos, amado Senhor;",
-    "    D              G        D...",
-    "O_Espírito Santo envia dos céus;",
-    "    G                      C...",
-    "Com fé aguardamos o Consolador,",
-    "     D                G",
-    "Que faz virtuosos os Teus.",
-    "",
-    "      G                  C      G",
-    "3. O Teu Santo_Espírito nos guiará",
-    "    D               G        D...",
-    "Em toda verdade, justiça e_amor;",
-    "    G                       C...",
-    "Por Ele Teu povo_ensinado será;",
-    "    D                  G",
-    "Teu Dom aguardamos, Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G                 C         G",
+            "lyrics": "Promessa_excelente fizeste, ó Deus,"
+          },
+          {
+            "chords": "  D                  G       D...",
+            "lyrics": "Fiel cumprimento_a Palavra terá;"
+          },
+          {
+            "chords": "   G                           C...",
+            "lyrics": "Sentir Teu Espírito querem os Teus;"
+          },
+          {
+            "chords": "     D              G",
+            "lyrics": "Teu povo clamando está."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  G               ",
+            "lyrics": "Envia, ó Deus por amor,"
+          },
+          {
+            "chords": "      D               G",
+            "lyrics": "Teus dons pelo Consolador."
+          },
+          {
+            "chords": "                      C       C...",
+            "lyrics": "Vem nos revestir de poder divinal;"
+          },
+          {
+            "chords": "  D                  G",
+            "lyrics": "Visita-nos, Pai eternal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     G                  C       G",
+            "lyrics": "Oh! Vem despertar-nos, amado Senhor;"
+          },
+          {
+            "chords": "    D              G        D...",
+            "lyrics": "O_Espírito Santo envia dos céus;"
+          },
+          {
+            "chords": "    G                      C...",
+            "lyrics": "Com fé aguardamos o Consolador,"
+          },
+          {
+            "chords": "     D                G",
+            "lyrics": "Que faz virtuosos os Teus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G                  C      G",
+            "lyrics": "O Teu Santo_Espírito nos guiará"
+          },
+          {
+            "chords": "    D               G        D...",
+            "lyrics": "Em toda verdade, justiça e_amor;"
+          },
+          {
+            "chords": "    G                       C...",
+            "lyrics": "Por Ele Teu povo_ensinado será;"
+          },
+          {
+            "chords": "    D                  G",
+            "lyrics": "Teu Dom aguardamos, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

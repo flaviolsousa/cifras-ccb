@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo quer salvar",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "     A         D         A",
-    "1. O Evangelho vamos anunciar,",
-    "     E                     A",
-    "Pois Cristo quer salvar e quer justificar;",
-    "                   D           A",
-    "Verteu na cruz Seu sangue_expiador",
-    "  D     E    A",
-    "O justo Redentor.",
-    "",
-    "   E                  A",
-    "Em Cristo há perdão, eterna salvação,",
-    "  B7            E7 ",
-    "É Ele a celeste Luz;",
-    "A             D          A",
-    "É, do mundo,_eterna Redenção;",
-    "   D      E      A",
-    "Só Ele_ao céu conduz.",
-    "",
-    "     A         D           A",
-    "2. O Evangelho vamos proclamar,",
-    "     E                     A",
-    "Pois Cristo quer salvar e quer justificar;",
-    "                      D        A",
-    "Mui breve,_em nuvens, Ele voltará",
-    "    D      E     A",
-    "E_o prêmio nos dará.",
-    "",
-    "      A         D           A",
-    "3. Do Evangelho temos que falar,",
-    "     E                     A",
-    "Pois Cristo quer salvar e quer justificar;",
-    "                D          A",
-    "Por essa graça, damos o louvor",
-    "  D       E   A",
-    "A Deus, o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  A         D         A",
+            "lyrics": "O Evangelho vamos anunciar,"
+          },
+          {
+            "chords": "     E                     A",
+            "lyrics": "Pois Cristo quer salvar e quer justificar;"
+          },
+          {
+            "chords": "                   D           A",
+            "lyrics": "Verteu na cruz Seu sangue_expiador"
+          },
+          {
+            "chords": "  D     E    A",
+            "lyrics": "O justo Redentor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   E                  A",
+            "lyrics": "Em Cristo há perdão, eterna salvação,"
+          },
+          {
+            "chords": "  B7            E7 ",
+            "lyrics": "É Ele a celeste Luz;"
+          },
+          {
+            "chords": "A             D          A",
+            "lyrics": "É, do mundo,_eterna Redenção;"
+          },
+          {
+            "chords": "   D      E      A",
+            "lyrics": "Só Ele_ao céu conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  A         D           A",
+            "lyrics": "O Evangelho vamos proclamar,"
+          },
+          {
+            "chords": "     E                     A",
+            "lyrics": "Pois Cristo quer salvar e quer justificar;"
+          },
+          {
+            "chords": "                      D        A",
+            "lyrics": "Mui breve,_em nuvens, Ele voltará"
+          },
+          {
+            "chords": "    D      E     A",
+            "lyrics": "E_o prêmio nos dará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   A         D           A",
+            "lyrics": "Do Evangelho temos que falar,"
+          },
+          {
+            "chords": "     E                     A",
+            "lyrics": "Pois Cristo quer salvar e quer justificar;"
+          },
+          {
+            "chords": "                D          A",
+            "lyrics": "Por essa graça, damos o louvor"
+          },
+          {
+            "chords": "  D       E   A",
+            "lyrics": "A Deus, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

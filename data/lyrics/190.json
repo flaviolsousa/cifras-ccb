@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Amados, não temamos",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "      B                     E           B",
-    "1. Mantendo nossa vida consagrada ao Senhor,",
-    "                                C#7        F# ",
-    "Do céu virão as bênçãos, pois fiel é_o Criador;",
-    "  B                       E          B",
-    "A graça retenhamos, sem jamais esmorecer;",
-    "  E            B             F#        B...",
-    "Jesus venceu o mundo_e nos fará prevalecer.",
-    "",
-    " B            E ",
-    "Amados, não temamos",
-    "   C#7            F# ",
-    "Na marcha para_os céus;",
-    "  B           E ",
-    "A Cristo_obedeçamos,",
-    "F°       B    F#   B",
-    "Pois nos leva para Deus.",
-    "",
-    "      B                     E          B",
-    "2. Na fé fortalecidos, revestidos de poder",
-    "                             C#7        F# ",
-    "Seremos pelo Mestre, que nos dá o Seu saber;",
-    " B                       E         B",
-    "Avante, esforcemo-nos em obras divinais;",
-    "  E              B           F#         B...",
-    "O prêmio_é vida_eterna nas moradas celestiais.",
-    "",
-    "      B                        E              B",
-    "3. Lembremo-nos de todos os conselhos que nos deu",
-    "                           C#7         F# ",
-    "Jesus, o Verdadeiro, que a glória prometeu;",
-    " B                       E         B",
-    "Avante, com propósito em nosso coração",
-    "   E                B              F#          B...",
-    "De sempre_a Deus servir e_assim chegar à perfeição."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   B                     E           B",
+            "lyrics": "Mantendo nossa vida consagrada ao Senhor,"
+          },
+          {
+            "chords": "                                C#7        F# ",
+            "lyrics": "Do céu virão as bênçãos, pois fiel é_o Criador;"
+          },
+          {
+            "chords": "  B                       E          B",
+            "lyrics": "A graça retenhamos, sem jamais esmorecer;"
+          },
+          {
+            "chords": "  E            B             F#        B...",
+            "lyrics": "Jesus venceu o mundo_e nos fará prevalecer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " B            E ",
+            "lyrics": "Amados, não temamos"
+          },
+          {
+            "chords": "   C#7            F# ",
+            "lyrics": "Na marcha para_os céus;"
+          },
+          {
+            "chords": "  B           E ",
+            "lyrics": "A Cristo_obedeçamos,"
+          },
+          {
+            "chords": "F°       B    F#   B",
+            "lyrics": "Pois nos leva para Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   B                     E          B",
+            "lyrics": "Na fé fortalecidos, revestidos de poder"
+          },
+          {
+            "chords": "                             C#7        F# ",
+            "lyrics": "Seremos pelo Mestre, que nos dá o Seu saber;"
+          },
+          {
+            "chords": " B                       E         B",
+            "lyrics": "Avante, esforcemo-nos em obras divinais;"
+          },
+          {
+            "chords": "  E              B           F#         B...",
+            "lyrics": "O prêmio_é vida_eterna nas moradas celestiais."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   B                        E              B",
+            "lyrics": "Lembremo-nos de todos os conselhos que nos deu"
+          },
+          {
+            "chords": "                           C#7         F# ",
+            "lyrics": "Jesus, o Verdadeiro, que a glória prometeu;"
+          },
+          {
+            "chords": " B                       E         B",
+            "lyrics": "Avante, com propósito em nosso coração"
+          },
+          {
+            "chords": "   E                B              F#          B...",
+            "lyrics": "De sempre_a Deus servir e_assim chegar à perfeição."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Vem, sim, vem",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B             F#7                B",
-    "1. Nesta terrena vida, ó justo Redentor,",
-    "                        E          C#7  F#7   B",
-    "São grandes os combates aos Teus fiéis, Se - nhor.",
-    "",
-    "B        E        F#7             B",
-    "Oh! Vem, sim, vem nos alegrar, Senhor;",
-    "                   E       C#7  F#7   B",
-    "És nossa Esperança e nosso De – fen - sor.",
-    "",
-    "   B              F#7                    B",
-    "2. No mundo há vaidade, muita tristeza_e dor,",
-    "                        E     C#7  F#7   B",
-    "Mas Teus remidos sentem a Tua paz  e_a - mor.",
-    "",
-    "   B             F#7                     B",
-    "3. Do céu Te esperamos, glorioso,_eterno Rei;",
-    "                     E         C#7  F#7  B",
-    "Tu és veraz Pastor e nós somos Tu - a   grei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B             F#7                B",
+            "lyrics": "Nesta terrena vida, ó justo Redentor,"
+          },
+          {
+            "chords": "                        E          C#7  F#7   B",
+            "lyrics": "São grandes os combates aos Teus fiéis, Se - nhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B        E        F#7             B",
+            "lyrics": "Oh! Vem, sim, vem nos alegrar, Senhor;"
+          },
+          {
+            "chords": "                   E       C#7  F#7   B",
+            "lyrics": "És nossa Esperança e nosso De – fen - sor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B              F#7                    B",
+            "lyrics": "No mundo há vaidade, muita tristeza_e dor,"
+          },
+          {
+            "chords": "                        E     C#7  F#7   B",
+            "lyrics": "Mas Teus remidos sentem a Tua paz  e_a - mor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B             F#7                     B",
+            "lyrics": "Do céu Te esperamos, glorioso,_eterno Rei;"
+          },
+          {
+            "chords": "                     E         C#7  F#7  B",
+            "lyrics": "Tu és veraz Pastor e nós somos Tu - a   grei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

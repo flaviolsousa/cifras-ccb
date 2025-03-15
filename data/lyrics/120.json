@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nossa cruz tomemos",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E           F#m7  B              E",
-    "1. Ó irmãos, deve -  mos nos renunciar",
-    "           B    F#7          B",
-    "E, em cada dia, nossa cruz tomar;",
-    "          E                 A",
-    "Pela fé sigamos ao Senhor Jesus,",
-    "                                     B",
-    "Ao celeste_e_eterno reino Ele nos conduz.",
-    "",
-    "E            B                             E",
-    "Nossa cruz tomemos, amados, caminhemos na luz,",
-    "                   A     B      E",
-    "Firmes nas pisadas do Senhor Jesus.",
-    "",
-    "   E            F#m7  B            E",
-    "2. Deus dará virtu -  de para suportar",
-    "           B     F#7           B",
-    "Todo_o vitupério que se_apresentar;",
-    "          E               A",
-    "A terrena vida breve findará,",
-    "                                  B",
-    "Mas a vida sempiterna reservada_está.",
-    "",
-    "   E         F#m7  B               E",
-    "3. Bem-aventura -  dos somos, ó irmãos,",
-    "              B       F#7            B",
-    "Pois já fomos feitos, dos céus, cidadãos;",
-    "             E                  A",
-    "Seja_a nossa vida consagrada_a Deus,",
-    "                                   B",
-    "Que dará real tesouro aos remidos Seus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E           F#m7  B              E",
+            "lyrics": "Ó irmãos, deve -  mos nos renunciar"
+          },
+          {
+            "chords": "           B    F#7          B",
+            "lyrics": "E, em cada dia, nossa cruz tomar;"
+          },
+          {
+            "chords": "          E                 A",
+            "lyrics": "Pela fé sigamos ao Senhor Jesus,"
+          },
+          {
+            "chords": "                                     B",
+            "lyrics": "Ao celeste_e_eterno reino Ele nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E            B                             E",
+            "lyrics": "Nossa cruz tomemos, amados, caminhemos na luz,"
+          },
+          {
+            "chords": "                   A     B      E",
+            "lyrics": "Firmes nas pisadas do Senhor Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E            F#m7  B            E",
+            "lyrics": "Deus dará virtu -  de para suportar"
+          },
+          {
+            "chords": "           B     F#7           B",
+            "lyrics": "Todo_o vitupério que se_apresentar;"
+          },
+          {
+            "chords": "          E               A",
+            "lyrics": "A terrena vida breve findará,"
+          },
+          {
+            "chords": "                                  B",
+            "lyrics": "Mas a vida sempiterna reservada_está."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E         F#m7  B               E",
+            "lyrics": "Bem-aventura -  dos somos, ó irmãos,"
+          },
+          {
+            "chords": "              B       F#7            B",
+            "lyrics": "Pois já fomos feitos, dos céus, cidadãos;"
+          },
+          {
+            "chords": "             E                  A",
+            "lyrics": "Seja_a nossa vida consagrada_a Deus,"
+          },
+          {
+            "chords": "                                   B",
+            "lyrics": "Que dará real tesouro aos remidos Seus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

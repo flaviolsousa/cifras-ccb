@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vem a Cristo sem tardar",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A                      D             A",
-    "1. Vem a Cristo sem tardar, Sua graça quer te dar;",
-    "        D          B7        E ",
-    "Vem, contrito, receber a Sua luz;",
-    "     A                      D   ",
-    "Seu olhar tem sobre ti, Ele quer te perdoar;",
-    "      A               A...  E      A   A...",
-    "Vem a Cristo entregar-te    sem tardar.",
-    "",
-    "         A                        D            A",
-    "2. Vem a Cristo sem tardar, paz e vida quer te dar,",
-    "        D           B7          E ",
-    "Deixa_a senda que à morte te conduz;",
-    "     A                       D ",
-    "Ele quer te transformar, Ele pode te salvar;",
-    "      A               A...  E      A   A...",
-    "Vem a Cristo entregar-te    sem tardar.",
-    "",
-    "         A                          D             A",
-    "3. Vem a Cristo sem tardar, pois no céu te quer doar",
-    "     D             B7           E ",
-    "Um tesouro que, no mundo, não terás;",
-    "       A                   D ",
-    "Tu não deves rejeitar esta graça, que_é sem par;",
-    "      A               A...  E      A   ",
-    "Vem a Cristo entregar-te    sem tardar.",
-    "",
-    "       A                E ",
-    "Sem tardar, sem mais tardar,",
-    "    E7              A",
-    "A Jesus vem te_entregar;",
-    "                            D            D... ",
-    "Seu olhar tem sobre ti, Ele quer te perdoar,",
-    "      A                   A...  E      A",
-    "Vem depressa_a Quem te chama,   sem tardar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A                      D             A",
+            "lyrics": "Vem a Cristo sem tardar, Sua graça quer te dar;"
+          },
+          {
+            "chords": "        D          B7        E ",
+            "lyrics": "Vem, contrito, receber a Sua luz;"
+          },
+          {
+            "chords": "     A                      D   ",
+            "lyrics": "Seu olhar tem sobre ti, Ele quer te perdoar;"
+          },
+          {
+            "chords": "      A               A...  E      A   A...",
+            "lyrics": "Vem a Cristo entregar-te    sem tardar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A                        D            A",
+            "lyrics": "Vem a Cristo sem tardar, paz e vida quer te dar,"
+          },
+          {
+            "chords": "        D           B7          E ",
+            "lyrics": "Deixa_a senda que à morte te conduz;"
+          },
+          {
+            "chords": "     A                       D ",
+            "lyrics": "Ele quer te transformar, Ele pode te salvar;"
+          },
+          {
+            "chords": "      A               A...  E      A   A...",
+            "lyrics": "Vem a Cristo entregar-te    sem tardar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      A                          D             A",
+            "lyrics": "Vem a Cristo sem tardar, pois no céu te quer doar"
+          },
+          {
+            "chords": "     D             B7           E ",
+            "lyrics": "Um tesouro que, no mundo, não terás;"
+          },
+          {
+            "chords": "       A                   D ",
+            "lyrics": "Tu não deves rejeitar esta graça, que_é sem par;"
+          },
+          {
+            "chords": "      A               A...  E      A   ",
+            "lyrics": "Vem a Cristo entregar-te    sem tardar."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "       A                E "
+          },
+          {
+            "chords": "Sem tardar, sem mais tardar,",
+            "lyrics": "    E7              A"
+          },
+          {
+            "chords": "A Jesus vem te_entregar;",
+            "lyrics": "                            D            D... "
+          },
+          {
+            "chords": "Seu olhar tem sobre ti, Ele quer te perdoar,",
+            "lyrics": "      A                   A...  E      A"
+          }
+        ]
+      }
+    ]
+  }
 }

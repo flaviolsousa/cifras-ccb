@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Forasteiro sou no mundo",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E            A",
-    "1. Forasteiro sou no mundo,",
-    "      E            B",
-    "Neste mundo de_ilusão;",
-    "        E           A",
-    "Para_o céu vou caminhando,",
-    "     B              E",
-    "Onde os fiéis entrarão.",
-    "",
-    "    E",
-    "Viverei com os fiéis",
-    "                   B",
-    "Para sempre lá nos céus,",
-    "         E          A",
-    "Pois, no número dos santos,",
-    "     B                E    E...",
-    "Eu serei contado por Deus.",
-    "",
-    "       E        A",
-    "2. Ansioso eu espero",
-    "      E          B",
-    "Ver a face do Senhor,",
-    "       E          A",
-    "Contemplar a formosura",
-    "     B             E",
-    "E a glória do Redentor.",
-    "",
-    "         E           A",
-    "3. Com a multidão cantando",
-    "     E           B",
-    "E louvando ao Senhor,",
-    "     E            A",
-    "Entrarei, com regozijo,",
-    "     B                  E",
-    "No celeste lar de_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E            A",
+            "lyrics": "Forasteiro sou no mundo,"
+          },
+          {
+            "chords": "      E            B",
+            "lyrics": "Neste mundo de_ilusão;"
+          },
+          {
+            "chords": "        E           A",
+            "lyrics": "Para_o céu vou caminhando,"
+          },
+          {
+            "chords": "     B              E",
+            "lyrics": "Onde os fiéis entrarão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Viverei com os fiéis"
+          },
+          {
+            "chords": "                   B",
+            "lyrics": "Para sempre lá nos céus,"
+          },
+          {
+            "chords": "         E          A",
+            "lyrics": "Pois, no número dos santos,"
+          },
+          {
+            "chords": "     B                E    E...",
+            "lyrics": "Eu serei contado por Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E        A",
+            "lyrics": "Ansioso eu espero"
+          },
+          {
+            "chords": "      E          B",
+            "lyrics": "Ver a face do Senhor,"
+          },
+          {
+            "chords": "       E          A",
+            "lyrics": "Contemplar a formosura"
+          },
+          {
+            "chords": "     B             E",
+            "lyrics": "E a glória do Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      E           A",
+            "lyrics": "Com a multidão cantando"
+          },
+          {
+            "chords": "     E           B",
+            "lyrics": "E louvando ao Senhor,"
+          },
+          {
+            "chords": "     E            A",
+            "lyrics": "Entrarei, com regozijo,"
+          },
+          {
+            "chords": "     B                  E",
+            "lyrics": "No celeste lar de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

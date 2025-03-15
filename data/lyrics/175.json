@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Senhor Jesus te chama",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                 G                            C",
-    "1. O Senhor Jesus te chama, com sublime_e grande amor;",
-    "                      G                       C",
-    "Nâo desprezes Quem te ama e quer ser teu Salvador.",
-    "",
-    "C                      G ",
-    "Deixa Cristo,_o Rei da glória,",
-    "                 C",
-    "Possuir teu coração,",
-    "E          F     C",
-    "Se desejas ter vitória",
-    "   G          C",
-    "E eterna salvação.",
-    "",
-    "   C                 G                     C",
-    "2. O prazer bem cedo finda neste mundo sedutor;",
-    "                    G                              C",
-    "Cristo quer, em Sua vinda, dar-te_o reino de_esplendor.",
-    "",
-    "   C              G                       C",
-    "3. Hoje_é dia aceitável, hoje_é dia de perdão;",
-    "               G                       C",
-    "Com amor inigualável, Cristo dá a salvação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                 G                            C",
+            "lyrics": "O Senhor Jesus te chama, com sublime_e grande amor;"
+          },
+          {
+            "chords": "                      G                       C",
+            "lyrics": "Nâo desprezes Quem te ama e quer ser teu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                      G ",
+            "lyrics": "Deixa Cristo,_o Rei da glória,"
+          },
+          {
+            "chords": "                 C",
+            "lyrics": "Possuir teu coração,"
+          },
+          {
+            "chords": "E          F     C",
+            "lyrics": "Se desejas ter vitória"
+          },
+          {
+            "chords": "   G          C",
+            "lyrics": "E eterna salvação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                 G                     C",
+            "lyrics": "O prazer bem cedo finda neste mundo sedutor;"
+          },
+          {
+            "chords": "                    G                              C",
+            "lyrics": "Cristo quer, em Sua vinda, dar-te_o reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C              G                       C",
+            "lyrics": "Hoje_é dia aceitável, hoje_é dia de perdão;"
+          },
+          {
+            "chords": "               G                       C",
+            "lyrics": "Com amor inigualável, Cristo dá a salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

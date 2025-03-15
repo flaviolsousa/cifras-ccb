@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Não pode entender o mundo",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                   C  ",
-    "1. Não pode_entender o mundo",
-    "D                     G",
-    "Quão alegre_é_o meu viver;",
-    "                          D ",
-    "Mas, de Cristo,_o_amor profundo",
-    "E            A7    D ",
-    "Sentirá quem n´Ele crer.",
-    "",
-    "G                        C               G",
-    "Mesmo quando_em aflição, sinto_a paz de Deus;",
-    "D              G        A7               D ",
-    "Cristo, ao meu coração, bênçãos traz dos céus;",
-    "G                       C            B   B... ",
-    "Se, com Ele,_aqui viver tão glorioso é,",
-    "E7                    A7        D          G",
-    "Quão glorioso_então será, se permanecer na fé?!",
-    "",
-    "   G                 C ",
-    "2. Eu me sinto mui ditoso, ",
-    "D                  G",
-    "Pela graça do bom Deus;",
-    "                    D ",
-    "Meu futuro_é mui glorioso,",
-    "E           A7     D ",
-    "Pois espero ir aos céus.",
-    "",
-    "   G                     C ",
-    "3. O meu ser foi transformado",
-    "D               G",
-    "Pela obra do Senhor;",
-    "                  D ",
-    "Dia_a dia mais chegado",
-    "E           A7      D ",
-    "Eu estou ao lar de_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                   C  ",
+            "lyrics": "Não pode_entender o mundo"
+          },
+          {
+            "chords": "D                     G",
+            "lyrics": "Quão alegre_é_o meu viver;"
+          },
+          {
+            "chords": "                          D ",
+            "lyrics": "Mas, de Cristo,_o_amor profundo"
+          },
+          {
+            "chords": "E            A7    D ",
+            "lyrics": "Sentirá quem n´Ele crer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                        C               G",
+            "lyrics": "Mesmo quando_em aflição, sinto_a paz de Deus;"
+          },
+          {
+            "chords": "D              G        A7               D ",
+            "lyrics": "Cristo, ao meu coração, bênçãos traz dos céus;"
+          },
+          {
+            "chords": "G                       C            B   B... ",
+            "lyrics": "Se, com Ele,_aqui viver tão glorioso é,"
+          },
+          {
+            "chords": "E7                    A7        D          G",
+            "lyrics": "Quão glorioso_então será, se permanecer na fé?!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                 C ",
+            "lyrics": "Eu me sinto mui ditoso, "
+          },
+          {
+            "chords": "D                  G",
+            "lyrics": "Pela graça do bom Deus;"
+          },
+          {
+            "chords": "                    D ",
+            "lyrics": "Meu futuro_é mui glorioso,"
+          },
+          {
+            "chords": "E           A7     D ",
+            "lyrics": "Pois espero ir aos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                     C ",
+            "lyrics": "O meu ser foi transformado"
+          },
+          {
+            "chords": "D               G",
+            "lyrics": "Pela obra do Senhor;"
+          },
+          {
+            "chords": "                  D ",
+            "lyrics": "Dia_a dia mais chegado"
+          },
+          {
+            "chords": "E           A7      D ",
+            "lyrics": "Eu estou ao lar de_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

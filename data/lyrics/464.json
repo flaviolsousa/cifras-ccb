@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Reunidos nós estamos",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "      E           B               A      B  E",
-    "1. Reunidos nós estamos aos Teus pés, ó Criador,",
-    "             B          A         B     E",
-    "Ansiosos esperamos Tuas bênçãos, Teu favor;",
-    "            A        E                  A    E",
-    "Glorificado seja sempre Teu santo Nome, ó Senhor,",
-    "      C#m         B        A      B   E    E...",
-    "E Teu reino_anunciado para todo_o pecador.",
-    "",
-    "        E             B           A       B    E",
-    "2. Ó Senhor, só Tu conheces nossa mente_e coração,",
-    "                 B            A    B    E",
-    "Elevamos nossas preces com sincera devoção.",
-    "              A       E              A     E",
-    "Nós invocamos o Teu Nome e desejamos Te honrar;",
-    "       C#m         B           A     B   E    E...",
-    "Dá-nos força, Pai eterno, para Te glorificar.",
-    "",
-    "            E         B            A       B       E",
-    "3. Faz que nós consideremos que presente_estás, ó Deus,",
-    "                 B           A      B       E",
-    "Para que nos alegremos nos fiéis conselhos Teus;",
-    "            A       E                 A    E",
-    "Tua Palavra de virtude nós esperamos, ó Senhor,",
-    "        C#m       B           A        B      E    E...",
-    "N´Ela_está a plenitude do Teu santo_e_imenso_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   E           B               A      B  E",
+            "lyrics": "Reunidos nós estamos aos Teus pés, ó Criador,"
+          },
+          {
+            "chords": "             B          A         B     E",
+            "lyrics": "Ansiosos esperamos Tuas bênçãos, Teu favor;"
+          },
+          {
+            "chords": "            A        E                  A    E",
+            "lyrics": "Glorificado seja sempre Teu santo Nome, ó Senhor,"
+          },
+          {
+            "chords": "      C#m         B        A      B   E    E...",
+            "lyrics": "E Teu reino_anunciado para todo_o pecador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     E             B           A       B    E",
+            "lyrics": "Ó Senhor, só Tu conheces nossa mente_e coração,"
+          },
+          {
+            "chords": "                 B            A    B    E",
+            "lyrics": "Elevamos nossas preces com sincera devoção."
+          },
+          {
+            "chords": "              A       E              A     E",
+            "lyrics": "Nós invocamos o Teu Nome e desejamos Te honrar;"
+          },
+          {
+            "chords": "       C#m         B           A     B   E    E...",
+            "lyrics": "Dá-nos força, Pai eterno, para Te glorificar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         E         B            A       B       E",
+            "lyrics": "Faz que nós consideremos que presente_estás, ó Deus,"
+          },
+          {
+            "chords": "                 B           A      B       E",
+            "lyrics": "Para que nos alegremos nos fiéis conselhos Teus;"
+          },
+          {
+            "chords": "            A       E                 A    E",
+            "lyrics": "Tua Palavra de virtude nós esperamos, ó Senhor,"
+          },
+          {
+            "chords": "        C#m       B           A        B      E    E...",
+            "lyrics": "N´Ela_está a plenitude do Teu santo_e_imenso_amor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,52 +1,120 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu vivia no pecado",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "        D        G ",
-    "1. Eu vivia no pecado,",
-    "      A           D",
-    "Sem a paz e sem a luz,",
-    "                    G ",
-    "Quando Deus, o Pai amado,",
-    "    A                   D",
-    "Revelou-me_a graça de Jesus.",
-    "",
-    "     D",
-    "Como poderei eu esquecer-me",
-    "",
-    "Da mercê do meu bom Criador?!",
-    "       A            D",
-    "Pois livrou-me do pecado",
-    "     E           A ",
-    "Pelo Seu imenso_amor.",
-    "    D",
-    "A celeste paz agora sinto",
-    "",
-    "Por Jesus, o meu intercessor,",
-    "      A          D",
-    "Minha Rocha e Justiça,",
-    "G     A               D",
-    "Meu fiel e forte Defensor.",
-    "",
-    "",
-    "         D                 G ",
-    "2. Foi Jesus, por Deus, mandado,",
-    "        A             D",
-    "Sendo_o Cristo_e Salvador;",
-    "                  G ",
-    "E, na cruz, vituperado,",
-    "     A              D",
-    "Consumou a obra de amor.",
-    "",
-    "           D           G ",
-    "3. Deus me libertou da morte ",
-    "      A               D",
-    "Por sublime_e grande_amor;",
-    "                  G ",
-    "Oh! Que grandiosa sorte",
-    "     A                  D",
-    "Alcancei do meu bom Criador!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     D        G ",
+            "lyrics": "Eu vivia no pecado,"
+          },
+          {
+            "chords": "      A           D",
+            "lyrics": "Sem a paz e sem a luz,"
+          },
+          {
+            "chords": "                    G ",
+            "lyrics": "Quando Deus, o Pai amado,"
+          },
+          {
+            "chords": "    A                   D",
+            "lyrics": "Revelou-me_a graça de Jesus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D",
+            "lyrics": "Como poderei eu esquecer-me"
+          },
+          {
+            "chords": "",
+            "lyrics": "Da mercê do meu bom Criador?!"
+          },
+          {
+            "chords": "       A            D",
+            "lyrics": "Pois livrou-me do pecado"
+          },
+          {
+            "chords": "     E           A ",
+            "lyrics": "Pelo Seu imenso_amor."
+          },
+          {
+            "chords": "    D",
+            "lyrics": "A celeste paz agora sinto"
+          },
+          {
+            "chords": "",
+            "lyrics": "Por Jesus, o meu intercessor,"
+          },
+          {
+            "chords": "      A          D",
+            "lyrics": "Minha Rocha e Justiça,"
+          },
+          {
+            "chords": "G     A               D",
+            "lyrics": "Meu fiel e forte Defensor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      D                 G ",
+            "lyrics": "Foi Jesus, por Deus, mandado,"
+          },
+          {
+            "chords": "        A             D",
+            "lyrics": "Sendo_o Cristo_e Salvador;"
+          },
+          {
+            "chords": "                  G ",
+            "lyrics": "E, na cruz, vituperado,"
+          },
+          {
+            "chords": "     A              D",
+            "lyrics": "Consumou a obra de amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        D           G ",
+            "lyrics": "Deus me libertou da morte "
+          },
+          {
+            "chords": "      A               D",
+            "lyrics": "Por sublime_e grande_amor;"
+          },
+          {
+            "chords": "                  G ",
+            "lyrics": "Oh! Que grandiosa sorte"
+          },
+          {
+            "chords": "     A                  D",
+            "lyrics": "Alcancei do meu bom Criador!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

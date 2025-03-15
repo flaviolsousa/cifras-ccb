@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "É Jesus meu Refúgio",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "          G      D                 G",
-    "1. Grande é a tormenta e a tribulação,",
-    "                                        D",
-    "Muitos são os combates, grande, a tentação;",
-    "       G          D                 G",
-    "Mas Jesus, meu Rochedo e fiel Guardião,",
-    "  C      G...     D        G",
-    "É a Fortaleza que dá proteção.",
-    "",
-    "     G                     C        G",
-    "É Jesus meu Refúgio, meu fiel Protetor,",
-    "   C        G      A7         D",
-    "E n´Ele abrigado terei Seu vigor;",
-    "      G                    C        G",
-    "Cada dia que passa, sinto mais Seu amor",
-    "     C     G...      D       G",
-    "E_a vida celeste do meu Salvador.",
-    "",
-    "         G          D                G",
-    "2. Ao Senhor, mais unido eu almejo viver",
-    "                                         D",
-    "E cumprir, neste mundo, Seu glorioso querer;",
-    "         G        D                  G",
-    "Os Seus passos seguindo, eu irei receber",
-    "      C        G...     D         G",
-    "Mais força_e coragem, a fim de vencer.",
-    "",
-    "            G          D                        G",
-    "3. Vou, com fé no meu Mestre, a tormenta_enfrentar,",
-    "                                  D",
-    "Mesmo que fortemente ela se levantar;",
-    "       G       D                   G",
-    "Com Jesus, a vitória eu irei alcançar,",
-    "      C      G...        D       G",
-    "Pois Suas promessas não podem falhar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       G      D                 G",
+            "lyrics": "Grande é a tormenta e a tribulação,"
+          },
+          {
+            "chords": "                                        D",
+            "lyrics": "Muitos são os combates, grande, a tentação;"
+          },
+          {
+            "chords": "       G          D                 G",
+            "lyrics": "Mas Jesus, meu Rochedo e fiel Guardião,"
+          },
+          {
+            "chords": "  C      G...     D        G",
+            "lyrics": "É a Fortaleza que dá proteção."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     G                     C        G",
+            "lyrics": "É Jesus meu Refúgio, meu fiel Protetor,"
+          },
+          {
+            "chords": "   C        G      A7         D",
+            "lyrics": "E n´Ele abrigado terei Seu vigor;"
+          },
+          {
+            "chords": "      G                    C        G",
+            "lyrics": "Cada dia que passa, sinto mais Seu amor"
+          },
+          {
+            "chords": "     C     G...      D       G",
+            "lyrics": "E_a vida celeste do meu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      G          D                G",
+            "lyrics": "Ao Senhor, mais unido eu almejo viver"
+          },
+          {
+            "chords": "                                         D",
+            "lyrics": "E cumprir, neste mundo, Seu glorioso querer;"
+          },
+          {
+            "chords": "         G        D                  G",
+            "lyrics": "Os Seus passos seguindo, eu irei receber"
+          },
+          {
+            "chords": "      C        G...     D         G",
+            "lyrics": "Mais força_e coragem, a fim de vencer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         G          D                        G",
+            "lyrics": "Vou, com fé no meu Mestre, a tormenta_enfrentar,"
+          },
+          {
+            "chords": "                                  D",
+            "lyrics": "Mesmo que fortemente ela se levantar;"
+          },
+          {
+            "chords": "       G       D                   G",
+            "lyrics": "Com Jesus, a vitória eu irei alcançar,"
+          },
+          {
+            "chords": "      C      G...        D       G",
+            "lyrics": "Pois Suas promessas não podem falhar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

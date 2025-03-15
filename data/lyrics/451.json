@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jamais esquecerei Tua mercê",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "    A",
-    "1. Não poderei jamais esquecer",
-    " E            A",
-    "Tua mercê, Senhor;",
-    "",
-    "Deste_aos pequenos de conhecer",
-    " E              A    A7",
-    "Tua grandeza e_amor.",
-    "",
-    "D         A",
-    "Jamais esquecerei",
-    "E                 A",
-    "Tua mercê, ó Criador;",
-    "           D      C#7... ",
-    "Por Cristo alcançarei",
-    "D        E         A",
-    "Grande tesouro de_amor.",
-    "",
-    "   A",
-    "2. Oh! que tesouro de esplendor",
-    "E                A",
-    "Tu me darás nos céus;",
-    "",
-    "Não há herança de_igual valor",
-    " E                   A    A7",
-    "Para Teus filhos, ó Deus.",
-    "",
-    "   A",
-    "3. Se eu andar sempre_em Teu temor,",
-    "E               A",
-    "Ao fim eu entrarei",
-    "",
-    "No reino_eterno de esplendor,",
-    "E                 A    A7",
-    "Onde_o repouso terei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " A",
+            "lyrics": "Não poderei jamais esquecer"
+          },
+          {
+            "chords": " E            A",
+            "lyrics": "Tua mercê, Senhor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Deste_aos pequenos de conhecer"
+          },
+          {
+            "chords": " E              A    A7",
+            "lyrics": "Tua grandeza e_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D         A",
+            "lyrics": "Jamais esquecerei"
+          },
+          {
+            "chords": "E                 A",
+            "lyrics": "Tua mercê, ó Criador;"
+          },
+          {
+            "chords": "           D      C#7... ",
+            "lyrics": "Por Cristo alcançarei"
+          },
+          {
+            "chords": "D        E         A",
+            "lyrics": "Grande tesouro de_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Oh! que tesouro de esplendor"
+          },
+          {
+            "chords": "E                A",
+            "lyrics": "Tu me darás nos céus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Não há herança de_igual valor"
+          },
+          {
+            "chords": " E                   A    A7",
+            "lyrics": "Para Teus filhos, ó Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Se eu andar sempre_em Teu temor,"
+          },
+          {
+            "chords": "E               A",
+            "lyrics": "Ao fim eu entrarei"
+          },
+          {
+            "chords": "",
+            "lyrics": "No reino_eterno de esplendor,"
+          },
+          {
+            "chords": "E                 A    A7",
+            "lyrics": "Onde_o repouso terei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

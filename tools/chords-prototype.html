@@ -96,6 +96,7 @@
     <script>
       function adjustChord(chordStr, lyricStr) {
         let adjustedChord = "";
+        lyricStr = lyricStr.padEnd(chordStr.length, " ");
         for (let i = 0; i < lyricStr.length; i++) {
           let chordChar = chordStr[i] || " ";
           adjustedChord += lyricStr[i] !== " " && chordChar === " " ? "_" : chordChar;

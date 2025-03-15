@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvemos ao bom Jesus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "       A                           E           A",
-    "1. Dos céus, com glória, surgirá a celestial cidade;",
-    "                         E         A",
-    "Cidade santa onde Deus conosco estará.",
-    "  E                     A",
-    "Naquele reino_eterno há paz e_amor superno;",
-    "                F#m         Bm    E      A",
-    "Louvor e glória ao Senhor daremos com fervor.",
-    "",
-    "     A                        E           A",
-    "2. Jamais devemos vacilar nas tentações e provas;",
-    "                            E            A",
-    "Não nos cansemos de lutar, orando sem cessar;",
-    "    E                       A",
-    "Por Cristo, nossa Glória, teremos a vitória,",
-    "              F#m            Bm    E     A",
-    "Então veremos o_esplendor do reino do Senhor.",
-    "",
-    "     A                         E            A",
-    "3. Jesus mui breve voltará, Glorioso_e_Onipotente,",
-    "                            E         A",
-    "Nas nuvens nos acolherá e_a Si nos unirá;",
-    "    E                  A",
-    "Com Ele subiremos e,_então, contemplaremos",
-    "               F#m        Bm    E        A",
-    "O nosso_eterno Criador no reino de_esplendor.",
-    "",
-    "A                      E           A",
-    "Louvemos ao bom Jesus, Rei da paz, Rei da luz;",
-    "                           E             A",
-    "Louvemos ao bom Jesus, que para_o céu conduz;",
-    "   E                  A",
-    "A_igreja reunida com Cristo,_eterna Vida,",
-    "            F#m         Bm   E     A",
-    "Entoará, ao Criador, um hino de louvor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A                           E           A",
+            "lyrics": "Dos céus, com glória, surgirá a celestial cidade;"
+          },
+          {
+            "chords": "                         E         A",
+            "lyrics": "Cidade santa onde Deus conosco estará."
+          },
+          {
+            "chords": "  E                     A",
+            "lyrics": "Naquele reino_eterno há paz e_amor superno;"
+          },
+          {
+            "chords": "                F#m         Bm    E      A",
+            "lyrics": "Louvor e glória ao Senhor daremos com fervor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  A                        E           A",
+            "lyrics": "Jamais devemos vacilar nas tentações e provas;"
+          },
+          {
+            "chords": "                            E            A",
+            "lyrics": "Não nos cansemos de lutar, orando sem cessar;"
+          },
+          {
+            "chords": "    E                       A",
+            "lyrics": "Por Cristo, nossa Glória, teremos a vitória,"
+          },
+          {
+            "chords": "              F#m            Bm    E     A",
+            "lyrics": "Então veremos o_esplendor do reino do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  A                         E            A",
+            "lyrics": "Jesus mui breve voltará, Glorioso_e_Onipotente,"
+          },
+          {
+            "chords": "                            E         A",
+            "lyrics": "Nas nuvens nos acolherá e_a Si nos unirá;"
+          },
+          {
+            "chords": "    E                  A",
+            "lyrics": "Com Ele subiremos e,_então, contemplaremos"
+          },
+          {
+            "chords": "               F#m        Bm    E        A",
+            "lyrics": "O nosso_eterno Criador no reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                      E           A",
+            "lyrics": "Louvemos ao bom Jesus, Rei da paz, Rei da luz;"
+          },
+          {
+            "chords": "                           E             A",
+            "lyrics": "Louvemos ao bom Jesus, que para_o céu conduz;"
+          },
+          {
+            "chords": "   E                  A",
+            "lyrics": "A_igreja reunida com Cristo,_eterna Vida,"
+          },
+          {
+            "chords": "            F#m         Bm   E     A",
+            "lyrics": "Entoará, ao Criador, um hino de louvor."
+          }
+        ]
+      }
+    ]
+  }
 }

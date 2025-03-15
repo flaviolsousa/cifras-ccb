@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Teu precioso sangue",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C              F       C            G ",
-    "1. O Teu precioso sangue, ó divinal Cordeiro,",
-    "C             F           C    G7     C",
-    "Do mundo resgatou-me, por Teu imenso_amor;",
-    "G                 D  D7           G ",
-    "Faz que em Ti esteja a minha confiança,",
-    "C            F       C     G7   C",
-    "Dá-me perseverança e fé, ó Redentor.",
-    "",
-    "   C                F      C                G ",
-    "2. Fraco eu sou, no mundo, para_enfrentar a lida,",
-    "C                F        C       G7  C",
-    "Mas, com celeste força, o mal não temerei;",
-    "G            D  D7                G ",
-    "Vindo o inimigo para_enlaçar-me_a vida,",
-    "C                F       C       G7     C",
-    "Sei que terei guarida em Ti, meu grande Rei.",
-    "",
-    "   C               F     C             G ",
-    "3. Estando sempre_atento à celestial Palavra,",
-    "C              F       C      G7     C",
-    "Nunca serei vencido do mal, ó meu Senhor.",
-    "G               D  D7            G ",
-    "O Teu falar divino confortará minha´alma,",
-    "C               F         C    G7   C",
-    "Dando-lhe paz e calma, firmeza e fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C              F       C            G ",
+            "lyrics": "O Teu precioso sangue, ó divinal Cordeiro,"
+          },
+          {
+            "chords": "C             F           C    G7     C",
+            "lyrics": "Do mundo resgatou-me, por Teu imenso_amor;"
+          },
+          {
+            "chords": "G                 D  D7           G ",
+            "lyrics": "Faz que em Ti esteja a minha confiança,"
+          },
+          {
+            "chords": "C            F       C     G7   C",
+            "lyrics": "Dá-me perseverança e fé, ó Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                F      C                G ",
+            "lyrics": "Fraco eu sou, no mundo, para_enfrentar a lida,"
+          },
+          {
+            "chords": "C                F        C       G7  C",
+            "lyrics": "Mas, com celeste força, o mal não temerei;"
+          },
+          {
+            "chords": "G            D  D7                G ",
+            "lyrics": "Vindo o inimigo para_enlaçar-me_a vida,"
+          },
+          {
+            "chords": "C                F       C       G7     C",
+            "lyrics": "Sei que terei guarida em Ti, meu grande Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C               F     C             G ",
+            "lyrics": "Estando sempre_atento à celestial Palavra,"
+          },
+          {
+            "chords": "C              F       C      G7     C",
+            "lyrics": "Nunca serei vencido do mal, ó meu Senhor."
+          },
+          {
+            "chords": "G               D  D7            G ",
+            "lyrics": "O Teu falar divino confortará minha´alma,"
+          },
+          {
+            "chords": "C               F         C    G7   C",
+            "lyrics": "Dando-lhe paz e calma, firmeza e fervor."
+          }
+        ]
+      }
+    ]
+  }
 }

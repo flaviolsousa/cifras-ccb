@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu me escondo em Ti, Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                            E",
-    "1. Eu me escondo_em Ti, Senhor eterno,",
-    "                 B7         E    E7",
-    "Em Ti me_abrigo, ó meu Salvador;",
-    "A                         E",
-    "Sinto em mim o Teu amor superno;",
-    "A      D     E            A",
-    "Vivo seguro; és meu Defensor.",
-    "",
-    "    A                       E",
-    "2. Busco de Ti a proteção celeste",
-    "                B7         E    E7",
-    "Quando estou cercado pelo mal,",
-    " A                           E",
-    "Pois Tu, Jesus, és meu amado Mestre;",
-    " A         D       E        A",
-    "Cuidas de mim com zelo divinal.",
-    "",
-    "    A                      E",
-    "3. Quando aqui estou atribulado,",
-    "                B7           E    E7",
-    "Quando está sem paz meu coração,",
-    " A                        E",
-    "Clamo a Ti, meu Redentor amado;",
-    "A       D    E         A ",
-    "De Ti espero a libertação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                            E",
+            "lyrics": "Eu me escondo_em Ti, Senhor eterno,"
+          },
+          {
+            "chords": "                 B7         E    E7",
+            "lyrics": "Em Ti me_abrigo, ó meu Salvador;"
+          },
+          {
+            "chords": "A                         E",
+            "lyrics": "Sinto em mim o Teu amor superno;"
+          },
+          {
+            "chords": "A      D     E            A",
+            "lyrics": "Vivo seguro; és meu Defensor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " A                       E",
+            "lyrics": "Busco de Ti a proteção celeste"
+          },
+          {
+            "chords": "                B7         E    E7",
+            "lyrics": "Quando estou cercado pelo mal,"
+          },
+          {
+            "chords": " A                           E",
+            "lyrics": "Pois Tu, Jesus, és meu amado Mestre;"
+          },
+          {
+            "chords": " A         D       E        A",
+            "lyrics": "Cuidas de mim com zelo divinal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " A                      E",
+            "lyrics": "Quando aqui estou atribulado,"
+          },
+          {
+            "chords": "                B7           E    E7",
+            "lyrics": "Quando está sem paz meu coração,"
+          },
+          {
+            "chords": " A                        E",
+            "lyrics": "Clamo a Ti, meu Redentor amado;"
+          },
+          {
+            "chords": "A       D    E         A ",
+            "lyrics": "De Ti espero a libertação."
+          }
+        ]
+      }
+    ]
+  }
 }

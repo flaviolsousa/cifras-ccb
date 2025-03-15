@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Bênçãos, bênçãos Deus derramará",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                 D",
-    "1. Bênção como chuva se derramarão",
-    "E                          A",
-    "Sobre_aquele que a Deus servir,",
-    "                        D ",
-    "E, dos céus, as portas não se fecharão,",
-    "E                       A",
-    "Bens celestes poderá fruir.",
-    "",
-    "A        E              F#m  C#",
-    "Bênçãos, bênçãos Deus derramará,",
-    "D       B7                        E",
-    "Bênçãos que, no mundo,_iguais não há;",
-    "A                   D",
-    "Ele,_aqui, te dá as bênçãos temporais",
-    "E                           A",
-    "E, por fim, no céu, as eternais.",
-    "",
-    "   A             D",
-    "2. Se obedeceres ao teu Criador,",
-    "E                      A",
-    "Tu serás bendito do Senhor;",
-    "                  D",
-    "O Seu forte braço Ele_estenderá",
-    "E                      A",
-    "E em teu favor trabalhará.",
-    "",
-    "   A                   D",
-    "3. O que Deus te pede, deves tu fazer",
-    "E                    A",
-    "E somente_a Ele_obedecer,",
-    "                     D",
-    "Pois Deus é contigo, te ajudará",
-    "E                    A",
-    "E dos céus te abençoará."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                 D",
+            "lyrics": "Bênção como chuva se derramarão"
+          },
+          {
+            "chords": "E                          A",
+            "lyrics": "Sobre_aquele que a Deus servir,"
+          },
+          {
+            "chords": "                        D ",
+            "lyrics": "E, dos céus, as portas não se fecharão,"
+          },
+          {
+            "chords": "E                       A",
+            "lyrics": "Bens celestes poderá fruir."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A        E              F#m  C#",
+            "lyrics": "Bênçãos, bênçãos Deus derramará,"
+          },
+          {
+            "chords": "D       B7                        E",
+            "lyrics": "Bênçãos que, no mundo,_iguais não há;"
+          },
+          {
+            "chords": "A                   D",
+            "lyrics": "Ele,_aqui, te dá as bênçãos temporais"
+          },
+          {
+            "chords": "E                           A",
+            "lyrics": "E, por fim, no céu, as eternais."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A             D",
+            "lyrics": "Se obedeceres ao teu Criador,"
+          },
+          {
+            "chords": "E                      A",
+            "lyrics": "Tu serás bendito do Senhor;"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "O Seu forte braço Ele_estenderá"
+          },
+          {
+            "chords": "E                      A",
+            "lyrics": "E em teu favor trabalhará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                   D",
+            "lyrics": "O que Deus te pede, deves tu fazer"
+          },
+          {
+            "chords": "E                    A",
+            "lyrics": "E somente_a Ele_obedecer,"
+          },
+          {
+            "chords": "                     D",
+            "lyrics": "Pois Deus é contigo, te ajudará"
+          },
+          {
+            "chords": "E                    A",
+            "lyrics": "E dos céus te abençoará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

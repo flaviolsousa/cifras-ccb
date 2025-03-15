@@ -1,41 +1,85 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, preciso mais...",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E                           B7 ",
-    "1. Senhor, preciso mais da Tua luz,",
-    "                           E",
-    "Luz preciosa que ao céu conduz,",
-    "             A          E",
-    "Que pode_as trevas dissipar",
-    "     B7              E",
-    "E_em retidão fazer andar.",
-    "                                     B7 ",
-    "Vencedor sobre_o mal, com Tua luz, serei;",
-    "                                E",
-    "Nos caminhos da vida_eterna andarei;",
-    "              A             E",
-    "A Luz, que_é Cristo,_o Redentor,",
-    "   B7              E",
-    "Me guiará a Ti, Senhor.",
-    "",
-    "   E                           B7 ",
-    "2. Senhor, preciso mais da Tua paz,",
-    "                         E",
-    "Do Teu poder eterno e_eficaz;",
-    "       A                E",
-    "Fortalecido_em Ti, meu Deus,",
-    "    B7                  E",
-    "Não falharão os passos meus.",
-    "                                    B7 ",
-    "Vencerei neste mundo, pois Jesus venceu,",
-    "                                E",
-    "Foi tentado em tudo, mas prevaleceu;",
-    "       A          E",
-    "A Tua paz e Teu poder",
-    "    B7                E",
-    "Por certo me farão vencer."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E                           B7 ",
+            "lyrics": "Senhor, preciso mais da Tua luz,"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "Luz preciosa que ao céu conduz,"
+          },
+          {
+            "chords": "             A          E",
+            "lyrics": "Que pode_as trevas dissipar"
+          },
+          {
+            "chords": "     B7              E",
+            "lyrics": "E_em retidão fazer andar."
+          },
+          {
+            "chords": "                                     B7 ",
+            "lyrics": "Vencedor sobre_o mal, com Tua luz, serei;"
+          },
+          {
+            "chords": "                                E",
+            "lyrics": "Nos caminhos da vida_eterna andarei;"
+          },
+          {
+            "chords": "              A             E",
+            "lyrics": "A Luz, que_é Cristo,_o Redentor,"
+          },
+          {
+            "chords": "   B7              E",
+            "lyrics": "Me guiará a Ti, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E                           B7 ",
+            "lyrics": "Senhor, preciso mais da Tua paz,"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Do Teu poder eterno e_eficaz;"
+          },
+          {
+            "chords": "       A                E",
+            "lyrics": "Fortalecido_em Ti, meu Deus,"
+          },
+          {
+            "chords": "    B7                  E",
+            "lyrics": "Não falharão os passos meus."
+          },
+          {
+            "chords": "                                    B7 ",
+            "lyrics": "Vencerei neste mundo, pois Jesus venceu,"
+          },
+          {
+            "chords": "                                E",
+            "lyrics": "Foi tentado em tudo, mas prevaleceu;"
+          },
+          {
+            "chords": "       A          E",
+            "lyrics": "A Tua paz e Teu poder"
+          },
+          {
+            "chords": "    B7                E",
+            "lyrics": "Por certo me farão vencer."
+          }
+        ]
+      }
+    ]
+  }
 }

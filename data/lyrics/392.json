@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Com Jesus, a Esperança",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "          A",
-    "1. Com Jesus, a Esperança, caminhemos com fervor,",
-    "                                E ",
-    "Todos firmes, jubilando_em Seu amor;",
-    "      A                         D              A",
-    "Com o dom da fé iremos, junto_a Cristo,_o Redentor,",
-    "      D     E   A",
-    "À_eternal Jerusalém.",
-    "",
-    "     D                     A ",
-    "Novo hino cantaremos ao Cordeiro divinal",
-    "     E                  F#m  ",
-    "No sublime lar, pátria eternal;",
-    "    D                     A",
-    "Sua face lá veremos e Seu brilho sem igual,",
-    "            E       A",
-    "Na_eternal    Jerusalém.",
-    "",
-    "          A",
-    "2. Com Jesus, fiel Guerreiro, pelejemos com valor,",
-    "                          E ",
-    "Resistindo ao astuto tentador;",
-    "      A                      D          A",
-    "Sustentados pela fé, sigamos nosso Redentor",
-    "      D     E   A",
-    "À_eternal Jerusalém.",
-    "",
-    "          A",
-    "3. Com Jesus, a nossa Força, lutaremos sem temor,",
-    "                            E ",
-    "Venceremos este mundo_enganador;",
-    "      A                         D          A",
-    "Temos viva esperança, Quem nos guia é_o Senhor",
-    "     D     E   A",
-    "À_etenal Jerusalém."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       A",
+            "lyrics": "Com Jesus, a Esperança, caminhemos com fervor,"
+          },
+          {
+            "chords": "                                E ",
+            "lyrics": "Todos firmes, jubilando_em Seu amor;"
+          },
+          {
+            "chords": "      A                         D              A",
+            "lyrics": "Com o dom da fé iremos, junto_a Cristo,_o Redentor,"
+          },
+          {
+            "chords": "      D     E   A",
+            "lyrics": "À_eternal Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D                     A ",
+            "lyrics": "Novo hino cantaremos ao Cordeiro divinal"
+          },
+          {
+            "chords": "     E                  F#m  ",
+            "lyrics": "No sublime lar, pátria eternal;"
+          },
+          {
+            "chords": "    D                     A",
+            "lyrics": "Sua face lá veremos e Seu brilho sem igual,"
+          },
+          {
+            "chords": "            E       A",
+            "lyrics": "Na_eternal    Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       A",
+            "lyrics": "Com Jesus, fiel Guerreiro, pelejemos com valor,"
+          },
+          {
+            "chords": "                          E ",
+            "lyrics": "Resistindo ao astuto tentador;"
+          },
+          {
+            "chords": "      A                      D          A",
+            "lyrics": "Sustentados pela fé, sigamos nosso Redentor"
+          },
+          {
+            "chords": "      D     E   A",
+            "lyrics": "À_eternal Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A",
+            "lyrics": "Com Jesus, a nossa Força, lutaremos sem temor,"
+          },
+          {
+            "chords": "                            E ",
+            "lyrics": "Venceremos este mundo_enganador;"
+          },
+          {
+            "chords": "      A                         D          A",
+            "lyrics": "Temos viva esperança, Quem nos guia é_o Senhor"
+          },
+          {
+            "chords": "     D     E   A",
+            "lyrics": "À_etenal Jerusalém."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

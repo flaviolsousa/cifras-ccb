@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grandes promessas",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E               B          E             B    E",
-    "1. Quão grandes promessas fez Cristo, nosso Redentor;",
-    "A            E              B         E         B",
-    "Crendo, participarei com os santos no reino de_amor;",
-    "E          B           E           E7    A",
-    "Temos em Jesus, o Rei, santo e_eternal poder",
-    "            E                 B             E",
-    "Para que os Seus fiéis possam todo_o mal vencer.",
-    "",
-    "   E             B        E        B        E",
-    "2. Cristo nos promete dar vida eternal nos céus",
-    "A        E                 B        E          B",
-    "E galardoar, ao fim, todos os fiéis servos de Deus.",
-    "E            B         E         E7   A",
-    "Creio no meu Salvador, justo e fiel Juiz.",
-    "         E                 B            E",
-    "Ele me fará, no céu, mui ditoso_e mui feliz.",
-    "",
-    "   E         B        E           B    E",
-    "3. Modelo perfeito é, o santo_e fiel Jesus;",
-    "A         E            B         E        B",
-    "Vida que imitarei, caminhando na senda de luz;",
-    "E            B            E           E7  A",
-    "Tenho, por Jesus, no céu, parte com o Criador",
-    "             E            B              E",
-    "E,_em santa adoração, estarei com meu Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E               B          E             B    E",
+            "lyrics": "Quão grandes promessas fez Cristo, nosso Redentor;"
+          },
+          {
+            "chords": "A            E              B         E         B",
+            "lyrics": "Crendo, participarei com os santos no reino de_amor;"
+          },
+          {
+            "chords": "E          B           E           E7    A",
+            "lyrics": "Temos em Jesus, o Rei, santo e_eternal poder"
+          },
+          {
+            "chords": "            E                 B             E",
+            "lyrics": "Para que os Seus fiéis possam todo_o mal vencer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E             B        E        B        E",
+            "lyrics": "Cristo nos promete dar vida eternal nos céus"
+          },
+          {
+            "chords": "A        E                 B        E          B",
+            "lyrics": "E galardoar, ao fim, todos os fiéis servos de Deus."
+          },
+          {
+            "chords": "E            B         E         E7   A",
+            "lyrics": "Creio no meu Salvador, justo e fiel Juiz."
+          },
+          {
+            "chords": "         E                 B            E",
+            "lyrics": "Ele me fará, no céu, mui ditoso_e mui feliz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E         B        E           B    E",
+            "lyrics": "Modelo perfeito é, o santo_e fiel Jesus;"
+          },
+          {
+            "chords": "A         E            B         E        B",
+            "lyrics": "Vida que imitarei, caminhando na senda de luz;"
+          },
+          {
+            "chords": "E            B            E           E7  A",
+            "lyrics": "Tenho, por Jesus, no céu, parte com o Criador"
+          },
+          {
+            "chords": "             E            B              E",
+            "lyrics": "E,_em santa adoração, estarei com meu Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

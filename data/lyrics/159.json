@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Deus amou o mundo",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                            D ",
-    "1. Deus amou o mundo e_enviou Jesus,",
-    "                               G",
-    "O Autor da graça, que nos resgatou;",
-    "                 G7          C ",
-    "Grande vitupério suportou na cruz;",
-    "Am       G               D    G",
-    "Pela Sua morte,_ao homem perdoou.",
-    "",
-    "G",
-    "Que glorioso_amor, que sublime_amor",
-    "C           G       Em          D ",
-    "Deus manifestou, salvando_o pecador!",
-    "G                B7          Em ",
-    "Que divino_amor, que imenso_amor",
-    "C            G                D    G",
-    "Deus nos revelou em Cristo,_o Salvador!",
-    "",
-    "   G                         D ",
-    "2. O decreto santo do eterno Deus",
-    "                                 G",
-    "Foi, na cruz, cumprido pelo Redentor;",
-    "                 G7           C ",
-    "O Seu sacrifício nos abriu os céus,",
-    "Am           G           D   G",
-    "Trouxe luz e vida para_o pecador.",
-    "",
-    "   G                                D ",
-    "3. Por amor profundo, Deus mandou Jesus;",
-    "                                G",
-    "Todo_o que crer n´Ele não perecerá,",
-    "                   G7            C ",
-    "Mas a vida_eterna, em Seu lar de luz,",
-    "Am          G               D       G",
-    "Com superna glória, junto_a Deus, terá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                            D ",
+            "lyrics": "Deus amou o mundo e_enviou Jesus,"
+          },
+          {
+            "chords": "                               G",
+            "lyrics": "O Autor da graça, que nos resgatou;"
+          },
+          {
+            "chords": "                 G7          C ",
+            "lyrics": "Grande vitupério suportou na cruz;"
+          },
+          {
+            "chords": "Am       G               D    G",
+            "lyrics": "Pela Sua morte,_ao homem perdoou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Que glorioso_amor, que sublime_amor"
+          },
+          {
+            "chords": "C           G       Em          D ",
+            "lyrics": "Deus manifestou, salvando_o pecador!"
+          },
+          {
+            "chords": "G                B7          Em ",
+            "lyrics": "Que divino_amor, que imenso_amor"
+          },
+          {
+            "chords": "C            G                D    G",
+            "lyrics": "Deus nos revelou em Cristo,_o Salvador!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                         D ",
+            "lyrics": "O decreto santo do eterno Deus"
+          },
+          {
+            "chords": "                                 G",
+            "lyrics": "Foi, na cruz, cumprido pelo Redentor;"
+          },
+          {
+            "chords": "                 G7           C ",
+            "lyrics": "O Seu sacrifício nos abriu os céus,"
+          },
+          {
+            "chords": "Am           G           D   G",
+            "lyrics": "Trouxe luz e vida para_o pecador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                                D ",
+            "lyrics": "Por amor profundo, Deus mandou Jesus;"
+          },
+          {
+            "chords": "                                G",
+            "lyrics": "Todo_o que crer n´Ele não perecerá,"
+          },
+          {
+            "chords": "                   G7            C ",
+            "lyrics": "Mas a vida_eterna, em Seu lar de luz,"
+          },
+          {
+            "chords": "Am          G               D       G",
+            "lyrics": "Com superna glória, junto_a Deus, terá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

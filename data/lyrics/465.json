@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Deus tem por nós imenso amor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "         B                   E           B",
-    "1. Nesta hora reunidos nós estamos ante Deus",
-    "               C#7         F#7",
-    "E em nome de Jesus, o Salvador;",
-    "         B                      E                B",
-    "Quer-nos todos reverentes nosso Pai que_está os céus;",
-    "             F#7         B    B...",
-    "Deus tem por nós imenso_amor.",
-    "",
-    "        B                        E            B",
-    "2. Como filhos reverentes que_obedecem a seu pai,",
-    "               C#7       F#7",
-    "Atendamos ao sublime Criador;",
-    "       B                        E            B",
-    "Lá no céu os Seus tesouros conceder-nos Ele vai;",
-    "             F#7         B    B...",
-    "Deus tem por nós imenso_amor.",
-    "",
-    "        B                      E          B",
-    "3. Se andamos pela senda da justiça e da luz,",
-    "                     C#7        F#7",
-    "Tem prazer em nossas almas, o Senhor;",
-    "     B                   E              B",
-    "Se aqui nós imitamos o Modelo, que_é Jesus,",
-    "             F#7         B ",
-    "Deus tem por nós imenso_amor.",
-    "",
-    "    E                          B ",
-    "Ao eterno Pai celeste honra_e glória vamos dar",
-    "                    C#7        F#7",
-    "E, atentos, Seus conselhos escutar;",
-    "     B                       E        B",
-    "Suas bênçãos gloriosas nos dará o Criador;",
-    "             F#7         B",
-    "Deus tem por nós imenso_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      B                   E           B",
+            "lyrics": "Nesta hora reunidos nós estamos ante Deus"
+          },
+          {
+            "chords": "               C#7         F#7",
+            "lyrics": "E em nome de Jesus, o Salvador;"
+          },
+          {
+            "chords": "         B                      E                B",
+            "lyrics": "Quer-nos todos reverentes nosso Pai que_está os céus;"
+          },
+          {
+            "chords": "             F#7         B    B...",
+            "lyrics": "Deus tem por nós imenso_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     B                        E            B",
+            "lyrics": "Como filhos reverentes que_obedecem a seu pai,"
+          },
+          {
+            "chords": "               C#7       F#7",
+            "lyrics": "Atendamos ao sublime Criador;"
+          },
+          {
+            "chords": "       B                        E            B",
+            "lyrics": "Lá no céu os Seus tesouros conceder-nos Ele vai;"
+          },
+          {
+            "chords": "             F#7         B    B...",
+            "lyrics": "Deus tem por nós imenso_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     B                      E          B",
+            "lyrics": "Se andamos pela senda da justiça e da luz,"
+          },
+          {
+            "chords": "                     C#7        F#7",
+            "lyrics": "Tem prazer em nossas almas, o Senhor;"
+          },
+          {
+            "chords": "     B                   E              B",
+            "lyrics": "Se aqui nós imitamos o Modelo, que_é Jesus,"
+          },
+          {
+            "chords": "             F#7         B ",
+            "lyrics": "Deus tem por nós imenso_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E                          B ",
+            "lyrics": "Ao eterno Pai celeste honra_e glória vamos dar"
+          },
+          {
+            "chords": "                    C#7        F#7",
+            "lyrics": "E, atentos, Seus conselhos escutar;"
+          },
+          {
+            "chords": "     B                       E        B",
+            "lyrics": "Suas bênçãos gloriosas nos dará o Criador;"
+          },
+          {
+            "chords": "             F#7         B",
+            "lyrics": "Deus tem por nós imenso_amor."
+          }
+        ]
+      }
+    ]
+  }
 }

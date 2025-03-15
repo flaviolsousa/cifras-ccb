@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sempre a Cristo fiéis",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "             E                 B7 ",
-    "1. Sempre_a Cristo fiéis nós seremos,",
-    "                        E",
-    "Sempre firmes devemos lutar;",
-    "               E7      A ",
-    "Pela graça que nós recebemos,",
-    "    B7                    E",
-    "Poderemos bons frutos Lhe dar.",
-    "",
-    "       E                    F#m ",
-    "Sempre fiéis, de valor em valor,",
-    "     B7               E",
-    "Seguiremos o nosso Pastor;",
-    "              E7       A ",
-    "Entraremos no lar glorioso",
-    "    B7               E",
-    "E veremos o nosso Senhor.",
-    "",
-    "        E                     B7 ",
-    "2. Vestiremos, de Deus, a_armadura",
-    "                           E",
-    "Para_o nosso_inimigo_enfrentar;",
-    "             E7            A ",
-    "A Palavra de Deus, santa_e pura,",
-    "    B7                  E",
-    "Nos fará a vitória_alcançar.",
-    "",
-    "        E               B7 ",
-    "3. Finalmente diremos, unidos:",
-    "                         E",
-    "\"Combatemos, guardamos a fé\";",
-    "               E7       A ",
-    "Na presença de Deus, reunidos,",
-    "    B7                 E",
-    "O veremos tal como_Ele é."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "          E                 B7 ",
+            "lyrics": "Sempre_a Cristo fiéis nós seremos,"
+          },
+          {
+            "chords": "                        E",
+            "lyrics": "Sempre firmes devemos lutar;"
+          },
+          {
+            "chords": "               E7      A ",
+            "lyrics": "Pela graça que nós recebemos,"
+          },
+          {
+            "chords": "    B7                    E",
+            "lyrics": "Poderemos bons frutos Lhe dar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       E                    F#m ",
+            "lyrics": "Sempre fiéis, de valor em valor,"
+          },
+          {
+            "chords": "     B7               E",
+            "lyrics": "Seguiremos o nosso Pastor;"
+          },
+          {
+            "chords": "              E7       A ",
+            "lyrics": "Entraremos no lar glorioso"
+          },
+          {
+            "chords": "    B7               E",
+            "lyrics": "E veremos o nosso Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     E                     B7 ",
+            "lyrics": "Vestiremos, de Deus, a_armadura"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "Para_o nosso_inimigo_enfrentar;"
+          },
+          {
+            "chords": "             E7            A ",
+            "lyrics": "A Palavra de Deus, santa_e pura,"
+          },
+          {
+            "chords": "    B7                  E",
+            "lyrics": "Nos fará a vitória_alcançar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E               B7 ",
+            "lyrics": "Finalmente diremos, unidos:"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "\"Combatemos, guardamos a fé\";"
+          },
+          {
+            "chords": "               E7       A ",
+            "lyrics": "Na presença de Deus, reunidos,"
+          },
+          {
+            "chords": "    B7                 E",
+            "lyrics": "O veremos tal como_Ele é."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

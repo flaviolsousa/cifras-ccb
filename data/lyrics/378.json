@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grandioso és Tu",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "                A                    D ",
-    "1. Grandioso és Tu, Jesus, Rei da verdade,",
-    "         A     E          A",
-    "Nenhuma força pode Te vencer;",
-    "                         D ",
-    "Aniquilaste o jugo da maldade",
-    "           A       E          A",
-    "E Te assentaste à destra do Poder.",
-    "",
-    "       A      D          A    F#m ",
-    "A Ti devemos nossa gratidão;",
-    "             Bm  E           A",
-    "Grandioso és Tu,   Senhor Jesus;",
-    "               D          A    F#m ",
-    "Tu nos tiraste da escravidão;",
-    "             Bm     E      A",
-    "Grandioso és Tu, Senhor Jesus.",
-    "",
-    "                A                    D ",
-    "2. Grandioso és Tu, Jesus, ó Rei da glória,",
-    "        A     E         A",
-    "De majestade coroado estás;",
-    "                            D ",
-    "Em tudo o Pai Te concedeu vitória,",
-    "       A         E            A",
-    "E a vitória aos Teus fiéis darás.",
-    "",
-    "                A                D ",
-    "3. Grandioso és Tu, ó divinal Cordeiro,",
-    "           A     E           A",
-    "Teu Nome, todos hão de confessar;",
-    "                          D ",
-    "Perante Ti,ó Santo e Verdadeiro,",
-    "         A    E           A",
-    "Todo o joelho há de se dobrar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "             A                    D ",
+            "lyrics": "Grandioso és Tu, Jesus, Rei da verdade,"
+          },
+          {
+            "chords": "         A     E          A",
+            "lyrics": "Nenhuma força pode Te vencer;"
+          },
+          {
+            "chords": "                         D ",
+            "lyrics": "Aniquilaste o jugo da maldade"
+          },
+          {
+            "chords": "           A       E          A",
+            "lyrics": "E Te assentaste à destra do Poder."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       A      D          A    F#m ",
+            "lyrics": "A Ti devemos nossa gratidão;"
+          },
+          {
+            "chords": "             Bm  E           A",
+            "lyrics": "Grandioso és Tu,   Senhor Jesus;"
+          },
+          {
+            "chords": "               D          A    F#m ",
+            "lyrics": "Tu nos tiraste da escravidão;"
+          },
+          {
+            "chords": "             Bm     E      A",
+            "lyrics": "Grandioso és Tu, Senhor Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "             A                    D ",
+            "lyrics": "Grandioso és Tu, Jesus, ó Rei da glória,"
+          },
+          {
+            "chords": "        A     E         A",
+            "lyrics": "De majestade coroado estás;"
+          },
+          {
+            "chords": "                            D ",
+            "lyrics": "Em tudo o Pai Te concedeu vitória,"
+          },
+          {
+            "chords": "       A         E            A",
+            "lyrics": "E a vitória aos Teus fiéis darás."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "             A                D ",
+            "lyrics": "Grandioso és Tu, ó divinal Cordeiro,"
+          },
+          {
+            "chords": "           A     E           A",
+            "lyrics": "Teu Nome, todos hão de confessar;"
+          },
+          {
+            "chords": "                          D ",
+            "lyrics": "Perante Ti,ó Santo e Verdadeiro,"
+          },
+          {
+            "chords": "         A    E           A",
+            "lyrics": "Todo o joelho há de se dobrar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

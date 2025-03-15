@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sem tardar, vai a Cristo",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "  D    A          D            A           D",
-    "1. Se, cansado e aflito, tu procuras salvação,",
-    "      A             D             A          D",
-    "Não demores, vai a Cristo, que concede redenção.",
-    "",
-    "       G           D",
-    "Sem tardar, sem tardar,",
-    "       A             D ",
-    "Vai a Cristo,_o Salvador;",
-    "     G         D",
-    "Ele quer te salvar,",
-    "        A          D",
-    "Segue_a Ele com fervor.",
-    "",
-    "  D      A           D         A          D",
-    "2. Dá um passo para Cristo e receberás perdão;",
-    "        A              D            A           D",
-    "E, por Deus, serás benquisto, sendo um fiel Cristão.",
-    "",
-    "  D      A          D         A        D",
-    "3. Não recuses o chamado do divino Remidor",
-    "    A          D         A           D",
-    "E serás justificado ante Deus, o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A          D            A           D",
+            "lyrics": "Se, cansado e aflito, tu procuras salvação,"
+          },
+          {
+            "chords": "      A             D             A          D",
+            "lyrics": "Não demores, vai a Cristo, que concede redenção."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       G           D",
+            "lyrics": "Sem tardar, sem tardar,"
+          },
+          {
+            "chords": "       A             D ",
+            "lyrics": "Vai a Cristo,_o Salvador;"
+          },
+          {
+            "chords": "     G         D",
+            "lyrics": "Ele quer te salvar,"
+          },
+          {
+            "chords": "        A          D",
+            "lyrics": "Segue_a Ele com fervor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A           D         A          D",
+            "lyrics": "Dá um passo para Cristo e receberás perdão;"
+          },
+          {
+            "chords": "        A              D            A           D",
+            "lyrics": "E, por Deus, serás benquisto, sendo um fiel Cristão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      A          D         A        D",
+            "lyrics": "Não recuses o chamado do divino Remidor"
+          },
+          {
+            "chords": "    A          D         A           D",
+            "lyrics": "E serás justificado ante Deus, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

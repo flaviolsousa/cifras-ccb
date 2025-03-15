@@ -1,37 +1,84 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória ao Justo, fiel Cordeiro!",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "         C                      F       G   C",
-    "1. Ao Cordeiro imaculado, Jesus Cristo, exaltemos;",
-    "            G   C                F   D     G",
-    "Do Seu Nome falaremos, pois, com infinito_amor,",
-    "       Am     G    C          F     G     C    C...",
-    "Veio_à terra, glorioso, com poder e esplendor.",
-    "",
-    "        C                          F     G    C",
-    "2. Seguiremos a Jesus Cristo com inteira confiança,",
-    "           G   C           F      D       G",
-    "Temos viva esperança de chegar ao lar de_amor,",
-    "    Am     G   C          F     G    C    C...",
-    "Dirigidos, amparados pelo sábio Condutor.",
-    "",
-    "        C                          F     G   C",
-    "3. Só a Cristo daremos glória e louvores em eterno,",
-    "                G    C           F    D    G",
-    "Pois livrou-nos do inferno, do pecado e do mal,",
-    "     Am      G   C            F     G    C",
-    "Para dar-nos a herança no Seu lar celestial.",
-    "",
-    "C           F        G     C",
-    "  Glória_ao Justo, fiel Cordeiro,",
-    "        G           C",
-    "  Puro, Santo, Verdadeiro!",
-    "       F     G    C",
-    "  Pela morte no madeiro,",
-    "        F    G        C",
-    "  Nos reconciliou com Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      C                      F       G   C",
+            "lyrics": "Ao Cordeiro imaculado, Jesus Cristo, exaltemos;"
+          },
+          {
+            "chords": "            G   C                F   D     G",
+            "lyrics": "Do Seu Nome falaremos, pois, com infinito_amor,"
+          },
+          {
+            "chords": "       Am     G    C          F     G     C    C...",
+            "lyrics": "Veio_à terra, glorioso, com poder e esplendor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     C                          F     G    C",
+            "lyrics": "Seguiremos a Jesus Cristo com inteira confiança,"
+          },
+          {
+            "chords": "           G   C           F      D       G",
+            "lyrics": "Temos viva esperança de chegar ao lar de_amor,"
+          },
+          {
+            "chords": "    Am     G   C          F     G    C    C...",
+            "lyrics": "Dirigidos, amparados pelo sábio Condutor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     C                          F     G   C",
+            "lyrics": "Só a Cristo daremos glória e louvores em eterno,"
+          },
+          {
+            "chords": "                G    C           F    D    G",
+            "lyrics": "Pois livrou-nos do inferno, do pecado e do mal,"
+          },
+          {
+            "chords": "     Am      G   C            F     G    C",
+            "lyrics": "Para dar-nos a herança no Seu lar celestial."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C           F        G     C",
+            "lyrics": "  Glória_ao Justo, fiel Cordeiro,"
+          },
+          {
+            "chords": "        G           C",
+            "lyrics": "  Puro, Santo, Verdadeiro!"
+          },
+          {
+            "chords": "       F     G    C",
+            "lyrics": "  Pela morte no madeiro,"
+          },
+          {
+            "chords": "        F    G        C",
+            "lyrics": "  Nos reconciliou com Deus."
+          }
+        ]
+      }
+    ]
+  }
 }

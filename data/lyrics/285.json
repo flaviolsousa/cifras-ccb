@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória e louvor a Jesus darei",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A               D ",
-    "1. Glória e louvor a Jesus darei,",
-    "A                     E ",
-    "Sua comunhão em mim está;",
-    "A              D ",
-    "Dádivas do céu eu alcançarei;",
-    "A             E    A",
-    "A vitória Ele me dará.",
-    "",
-    "A     D      A                    E ",
-    "Livre já sou para_exaltar o meu Senhor;",
-    "A       D      A                E    A   A...",
-    "Glória, glória a Jesus, o meu Libertador.",
-    "",
-    "   A               D ",
-    "2. Glória e louvor minha alma dá",
-    "A                      E ",
-    "A Jesus que já me resgatou;",
-    "A                D ",
-    "Nada, do Senhor, me separará,",
-    "A                      E     A",
-    "Pois eu sigo_a Quem me libertou.",
-    "",
-    "   A                D ",
-    "3. Glória e louvor, glória sem cessar,",
-    "A                            E ",
-    "A Jesus, que_a todo_o mal venceu;",
-    "A                  D ",
-    "Glória_ao Redentor sempre devo dar,",
-    "A                  E     A",
-    "Pelo bem que já me concedeu."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A               D ",
+            "lyrics": "Glória e louvor a Jesus darei,"
+          },
+          {
+            "chords": "A                     E ",
+            "lyrics": "Sua comunhão em mim está;"
+          },
+          {
+            "chords": "A              D ",
+            "lyrics": "Dádivas do céu eu alcançarei;"
+          },
+          {
+            "chords": "A             E    A",
+            "lyrics": "A vitória Ele me dará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A     D      A                    E ",
+            "lyrics": "Livre já sou para_exaltar o meu Senhor;"
+          },
+          {
+            "chords": "A       D      A                E    A   A...",
+            "lyrics": "Glória, glória a Jesus, o meu Libertador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A               D ",
+            "lyrics": "Glória e louvor minha alma dá"
+          },
+          {
+            "chords": "A                      E ",
+            "lyrics": "A Jesus que já me resgatou;"
+          },
+          {
+            "chords": "A                D ",
+            "lyrics": "Nada, do Senhor, me separará,"
+          },
+          {
+            "chords": "A                      E     A",
+            "lyrics": "Pois eu sigo_a Quem me libertou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                D ",
+            "lyrics": "Glória e louvor, glória sem cessar,"
+          },
+          {
+            "chords": "A                            E ",
+            "lyrics": "A Jesus, que_a todo_o mal venceu;"
+          },
+          {
+            "chords": "A                  D ",
+            "lyrics": "Glória_ao Redentor sempre devo dar,"
+          },
+          {
+            "chords": "A                  E     A",
+            "lyrics": "Pelo bem que já me concedeu."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Só Jesus concede paz e salvação",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C",
-    "1. Quem, disposto, segue ao Senhor Jesus,",
-    "F             C     D          G ",
-    "Com virtude_e força leva_a sua cruz;",
-    "G7          C    Am     F   E ",
-    "Tem poder divino em seu coração,",
-    "C           F    D  G7        C",
-    "Não será venci - do pela tentação.",
-    "",
-    "G ",
-    "Só Jesus concede paz e salvação,",
-    "                     D           G7 ",
-    "E, na glória_eterna, grande galardão;",
-    "C",
-    "Quem também deseja ir com Deus morar,",
-    "F            C       G7       C",
-    "Sente que, a Cristo, deve aceitar.",
-    "",
-    "   C",
-    "2. Todos os casados, vinde ao Senhor,",
-    "F           C     D            G ",
-    "Vinde sem demora, Ele_é_o Salvador;",
-    "G7        C       Am    F    E ",
-    "E dizei a Cristo, com satisfação:",
-    "C            F  D   G7        C",
-    "“Nós Te consagramos nosso coração.”",
-    "",
-    "   C",
-    "3. Com a nova vida no Senhor Jesus",
-    "F             C      D          G ",
-    "Mostrareis ao mundo que_Ele é a Luz;",
-    "G7           C    Am    F     E ",
-    "Seja_a vossa obra um louvor a Deus,",
-    "C         F  D  G7             C",
-    "E a vida_eterna vós tereis nos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Quem, disposto, segue ao Senhor Jesus,"
+          },
+          {
+            "chords": "F             C     D          G ",
+            "lyrics": "Com virtude_e força leva_a sua cruz;"
+          },
+          {
+            "chords": "G7          C    Am     F   E ",
+            "lyrics": "Tem poder divino em seu coração,"
+          },
+          {
+            "chords": "C           F    D  G7        C",
+            "lyrics": "Não será venci - do pela tentação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G ",
+            "lyrics": "Só Jesus concede paz e salvação,"
+          },
+          {
+            "chords": "                     D           G7 ",
+            "lyrics": "E, na glória_eterna, grande galardão;"
+          },
+          {
+            "chords": "C",
+            "lyrics": "Quem também deseja ir com Deus morar,"
+          },
+          {
+            "chords": "F            C       G7       C",
+            "lyrics": "Sente que, a Cristo, deve aceitar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Todos os casados, vinde ao Senhor,"
+          },
+          {
+            "chords": "F           C     D            G ",
+            "lyrics": "Vinde sem demora, Ele_é_o Salvador;"
+          },
+          {
+            "chords": "G7        C       Am    F    E ",
+            "lyrics": "E dizei a Cristo, com satisfação:"
+          },
+          {
+            "chords": "C            F  D   G7        C",
+            "lyrics": "“Nós Te consagramos nosso coração.”"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C",
+            "lyrics": "Com a nova vida no Senhor Jesus"
+          },
+          {
+            "chords": "F             C      D          G ",
+            "lyrics": "Mostrareis ao mundo que_Ele é a Luz;"
+          },
+          {
+            "chords": "G7           C    Am    F     E ",
+            "lyrics": "Seja_a vossa obra um louvor a Deus,"
+          },
+          {
+            "chords": "C         F  D  G7             C",
+            "lyrics": "E a vida_eterna vós tereis nos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

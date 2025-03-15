@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Salvo por Seu poder",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G   B7  Em      D     G",
-    "1. Fiel  A - migo eu encontrei",
-    "    C             G   D ",
-    "Em Cristo, o Salvador;",
-    " G B7 Em        D   G",
-    "Alegremente eu cantarei",
-    "   C     G       A7     D ",
-    "O Seu sublime e grande amor!",
-    "",
-    " G         D ",
-    "Salvo por Seu poder,",
-    "D7         G",
-    "Salvo por Seu amor,",
-    "                  C ",
-    "Sinto em meu coração",
-    "             D7   G",
-    "A virtude do Salvador.",
-    "",
-    "     G   B7 Em      D      G",
-    "2. Retido estava em todo o mal",
-    "    C          G  D ",
-    "Que me escravizou;",
-    "     G    B7 Em     D    G",
-    "Mas Cristo, Amigo celestial,",
-    "     C    G      A7    D ",
-    "Com Seu poder me libertou.",
-    "",
-    "       G  B7   Em       D     G",
-    "3. Bem longe estava do meu Senhor,",
-    "     C             G  D ",
-    "Sem paz, sem salvação,",
-    "    G    B7 Em     D     G",
-    "Mas sinto  agora o doce amor",
-    "    C      G      A7   D ",
-    "De Cristo, em meu coração."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G   B7  Em      D     G",
+            "lyrics": "Fiel  A - migo eu encontrei"
+          },
+          {
+            "chords": "    C             G   D ",
+            "lyrics": "Em Cristo, o Salvador;"
+          },
+          {
+            "chords": " G B7 Em        D   G",
+            "lyrics": "Alegremente eu cantarei"
+          },
+          {
+            "chords": "   C     G       A7     D ",
+            "lyrics": "O Seu sublime e grande amor!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " G         D ",
+            "lyrics": "Salvo por Seu poder,"
+          },
+          {
+            "chords": "D7         G",
+            "lyrics": "Salvo por Seu amor,"
+          },
+          {
+            "chords": "                  C ",
+            "lyrics": "Sinto em meu coração"
+          },
+          {
+            "chords": "             D7   G",
+            "lyrics": "A virtude do Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G   B7 Em      D      G",
+            "lyrics": "Retido estava em todo o mal"
+          },
+          {
+            "chords": "    C          G  D ",
+            "lyrics": "Que me escravizou;"
+          },
+          {
+            "chords": "     G    B7 Em     D    G",
+            "lyrics": "Mas Cristo, Amigo celestial,"
+          },
+          {
+            "chords": "     C    G      A7    D ",
+            "lyrics": "Com Seu poder me libertou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G  B7   Em       D     G",
+            "lyrics": "Bem longe estava do meu Senhor,"
+          },
+          {
+            "chords": "     C             G  D ",
+            "lyrics": "Sem paz, sem salvação,"
+          },
+          {
+            "chords": "    G    B7 Em     D     G",
+            "lyrics": "Mas sinto  agora o doce amor"
+          },
+          {
+            "chords": "    C      G      A7   D ",
+            "lyrics": "De Cristo, em meu coração."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

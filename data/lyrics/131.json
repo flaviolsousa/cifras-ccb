@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Senhor glorioso, Deus da perfeição",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G           D7                    G",
-    "1. Ó Senhor glorioso, Deus da perfeição,",
-    "Em          D     A7         D    D7",
-    "Tu nos libertaste da escravidão;",
-    "G            D7                   G",
-    "Caminhando_estamos ao Teu lar de_amor,",
-    "    D°    Am      D7          G",
-    "Entoando, sempre, hinos de louvor.",
-    "",
-    "   G            D7                   G",
-    "2. Na jornada_estamos para_o céu, Senhor,",
-    "Em        D      A7          D    D7",
-    "Nela encontramos provações e dor,",
-    "G            D7             G",
-    "Mas jamais viremos a desfalecer,",
-    "     D°  Am    D7           G",
-    "Pela esperança de Teu rosto ver.",
-    "",
-    "   G          D7                    G",
-    "3. Vales e montanhas nos farás transpor,",
-    "Em        D      A7          D    D7",
-    "E o mar revolto, ó Deus, Criador;",
-    "G          D7               G",
-    "Nada nesta terra pode nos parar,",
-    "     D°    Am   D7        G",
-    "Nada nos impede de Te exaltar.",
-    "",
-    "   G              D7                    G",
-    "4. Já bem longe_estamos, na jornada,_ó Deus,",
-    "Em         D       A7           D    D7",
-    "E já contemplamos, pela fé, os céus,",
-    "G        D7                 G",
-    "E a nova terra que Tu nos darás,",
-    "      D°     Am      D7       G",
-    "Onde, com os santos, Tu habitarás."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G           D7                    G",
+            "lyrics": "Ó Senhor glorioso, Deus da perfeição,"
+          },
+          {
+            "chords": "Em          D     A7         D    D7",
+            "lyrics": "Tu nos libertaste da escravidão;"
+          },
+          {
+            "chords": "G            D7                   G",
+            "lyrics": "Caminhando_estamos ao Teu lar de_amor,"
+          },
+          {
+            "chords": "    D°    Am      D7          G",
+            "lyrics": "Entoando, sempre, hinos de louvor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G            D7                   G",
+            "lyrics": "Na jornada_estamos para_o céu, Senhor,"
+          },
+          {
+            "chords": "Em        D      A7          D    D7",
+            "lyrics": "Nela encontramos provações e dor,"
+          },
+          {
+            "chords": "G            D7             G",
+            "lyrics": "Mas jamais viremos a desfalecer,"
+          },
+          {
+            "chords": "     D°  Am    D7           G",
+            "lyrics": "Pela esperança de Teu rosto ver."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G          D7                    G",
+            "lyrics": "Vales e montanhas nos farás transpor,"
+          },
+          {
+            "chords": "Em        D      A7          D    D7",
+            "lyrics": "E o mar revolto, ó Deus, Criador;"
+          },
+          {
+            "chords": "G          D7               G",
+            "lyrics": "Nada nesta terra pode nos parar,"
+          },
+          {
+            "chords": "     D°    Am   D7        G",
+            "lyrics": "Nada nos impede de Te exaltar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "G              D7                    G",
+            "lyrics": "Já bem longe_estamos, na jornada,_ó Deus,"
+          },
+          {
+            "chords": "Em         D       A7           D    D7",
+            "lyrics": "E já contemplamos, pela fé, os céus,"
+          },
+          {
+            "chords": "G        D7                 G",
+            "lyrics": "E a nova terra que Tu nos darás,"
+          },
+          {
+            "chords": "      D°     Am      D7       G",
+            "lyrics": "Onde, com os santos, Tu habitarás."
+          }
+        ]
+      }
+    ]
+  }
 }

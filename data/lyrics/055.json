@@ -1,46 +1,102 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Paz seja em vós",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "    C                  F        G                C",
-    "1. Foi grande a tempestade que, no mar, se levantou,",
-    "                 F         G              C",
-    "Ondas cobriam o barco e_a todos temor causou;",
-    "           E7      Am    E7   Am        D        G    G7 ",
-    "O Mestre_estava dormin - do,  foi despertado,_então,",
-    " C                 F       G            C",
-    "Pelos que_a Ele pediram socorro e salvação.",
-    "",
-    "C                       G",
-    "Ao Seu mandar santo_e divinal,",
-    "             C",
-    "Paz seja_em vós;",
-    "                   G",
-    "Ventos e mares se_aquietarão,",
-    "C7           F ",
-    "Paz seja_em vós;",
-    "   G      E7      Am ",
-    "Convosco está o Senhor do mar,",
-    "   G                    C      C...",
-    "Portanto, com fé, vós deveis remar,",
-    "      C",
-    "Pois Ele_está pronto_a vos salvar,",
-    "G          C",
-    "Tende paz, tende paz;",
-    "",
-    "As ondas cessam de_encapelar,",
-    "G            C",
-    "Paz seja_em vós.",
-    "",
-    "    C              F        G              C",
-    "2. Repreendendo o vento, Jesus aquietou o mar,",
-    "                 F       G               C",
-    "E houve grande bonança diante do Seu mandar.",
-    "           E7       Am    E7    Am      D       G    G7 ",
-    "Nas provas e nas tormen - tas, n´Ele deveis ter fé;",
-    " C                F           G           C",
-    "Perto está vosso Mestre, que dono de tudo é."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " C                  F        G                C",
+            "lyrics": "Foi grande a tempestade que, no mar, se levantou,"
+          },
+          {
+            "chords": "                 F         G              C",
+            "lyrics": "Ondas cobriam o barco e_a todos temor causou;"
+          },
+          {
+            "chords": "           E7      Am    E7   Am        D        G    G7 ",
+            "lyrics": "O Mestre_estava dormin - do,  foi despertado,_então,"
+          },
+          {
+            "chords": " C                 F       G            C",
+            "lyrics": "Pelos que_a Ele pediram socorro e salvação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                       G",
+            "lyrics": "Ao Seu mandar santo_e divinal,"
+          },
+          {
+            "chords": "             C",
+            "lyrics": "Paz seja_em vós;"
+          },
+          {
+            "chords": "                   G",
+            "lyrics": "Ventos e mares se_aquietarão,"
+          },
+          {
+            "chords": "C7           F ",
+            "lyrics": "Paz seja_em vós;"
+          },
+          {
+            "chords": "   G      E7      Am ",
+            "lyrics": "Convosco está o Senhor do mar,"
+          },
+          {
+            "chords": "   G                    C      C...",
+            "lyrics": "Portanto, com fé, vós deveis remar,"
+          },
+          {
+            "chords": "      C",
+            "lyrics": "Pois Ele_está pronto_a vos salvar,"
+          },
+          {
+            "chords": "G          C",
+            "lyrics": "Tende paz, tende paz;"
+          },
+          {
+            "chords": "",
+            "lyrics": "As ondas cessam de_encapelar,"
+          },
+          {
+            "chords": "G            C",
+            "lyrics": "Paz seja_em vós."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " C              F        G              C",
+            "lyrics": "Repreendendo o vento, Jesus aquietou o mar,"
+          },
+          {
+            "chords": "                 F       G               C",
+            "lyrics": "E houve grande bonança diante do Seu mandar."
+          },
+          {
+            "chords": "           E7       Am    E7    Am      D       G    G7 ",
+            "lyrics": "Nas provas e nas tormen - tas, n´Ele deveis ter fé;"
+          },
+          {
+            "chords": " C                F           G           C",
+            "lyrics": "Perto está vosso Mestre, que dono de tudo é."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

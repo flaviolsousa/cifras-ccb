@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sempre em Jesus confiarei",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "                E              A    E     B7",
-    "1. Sempre_em Jesus confiarei, Sua Palavra honrarei;",
-    " E                           A       E    B7     E",
-    "Por Sua morte_atroz na cruz, me concedeu eterna luz.",
-    "",
-    "          A          E",
-    "Cristo me guia com poder,",
-    "          A    A#°   B7",
-    "Cristo me guia com saber;",
-    "         E          A",
-    "Ele_é o_Amigo mui fiel,",
-    "         B7          E",
-    "Cristo Jesus, o_Emanuel.",
-    "",
-    "              E                A         E     B7",
-    "2. Os bons conselhos de Jesus são, para mim, divina luz;",
-    "E                      A      E     B7   E",
-    "Eles me trazem retidão e divinal consolação.",
-    "",
-    "           E                  A       E    B7",
-    "3. Eu vou avante, com valor; sigo por fé o meu Senhor.",
-    "E                        A        E     B7     E",
-    "No céu, um dia, O verei e_igual a Ele_então serei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "             E              A    E     B7",
+            "lyrics": "Sempre_em Jesus confiarei, Sua Palavra honrarei;"
+          },
+          {
+            "chords": " E                           A       E    B7     E",
+            "lyrics": "Por Sua morte_atroz na cruz, me concedeu eterna luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "          A          E",
+            "lyrics": "Cristo me guia com poder,"
+          },
+          {
+            "chords": "          A    A#°   B7",
+            "lyrics": "Cristo me guia com saber;"
+          },
+          {
+            "chords": "         E          A",
+            "lyrics": "Ele_é o_Amigo mui fiel,"
+          },
+          {
+            "chords": "         B7          E",
+            "lyrics": "Cristo Jesus, o_Emanuel."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "           E                A         E     B7",
+            "lyrics": "Os bons conselhos de Jesus são, para mim, divina luz;"
+          },
+          {
+            "chords": "E                      A      E     B7   E",
+            "lyrics": "Eles me trazem retidão e divinal consolação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        E                  A       E    B7",
+            "lyrics": "Eu vou avante, com valor; sigo por fé o meu Senhor."
+          },
+          {
+            "chords": "E                        A        E     B7     E",
+            "lyrics": "No céu, um dia, O verei e_igual a Ele_então serei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

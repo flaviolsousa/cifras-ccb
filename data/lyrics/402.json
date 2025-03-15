@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó irmãos, a Deus devemos...",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F                  Bb9    F                  C    C7 ",
-    "1. Ó irmãos, a Deus devemos nossas faltas confessar;",
-    " F            Bb9    F      C        F",
-    "Ele tem misericórdia e nos pode perdoar;",
-    "C                F F7  Bb9    F           C    C7 ",
-    "Ocultar jamais devemos nossos erros ao Senhor;",
-    " F                 Bb9      F      C            F",
-    "Confessemos nossas faltas, pois é grande o Seu amor.",
-    "",
-    "   F            Bb9    F               C    C7 ",
-    "2. Elevemos ao Eterno nossa voz em oração,",
-    " F                Bb9    F     C         F",
-    "Com fervor e humildade, com sincero coração;",
-    " C                    F F7  Bb9      F         C    C7 ",
-    "Cristo, por nós, intercede; Ele é o nosso Mediador;",
-    "F                  Bb9    F      C           F",
-    "Ó irmãos , não ocultemos nossas faltas ao Senhor.",
-    "",
-    "    F                Bb9     F                    C    C7 ",
-    "3. Pelo sangue do Concerto, Deus nos quer justificar;",
-    " F                   Bb9      F  C            F",
-    "Nossas Vestes Sempre brancas poderemos conservar;",
-    " C                  F F7   Bb9  F             C    C7 ",
-    "Confessemos nossas faltas, rejeitemos todo o mal,",
-    "F                Bb9   F    C       F",
-    "E, ao fim, receberemos a coroa eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F                  Bb9    F                  C    C7 ",
+            "lyrics": "Ó irmãos, a Deus devemos nossas faltas confessar;"
+          },
+          {
+            "chords": " F            Bb9    F      C        F",
+            "lyrics": "Ele tem misericórdia e nos pode perdoar;"
+          },
+          {
+            "chords": "C                F F7  Bb9    F           C    C7 ",
+            "lyrics": "Ocultar jamais devemos nossos erros ao Senhor;"
+          },
+          {
+            "chords": " F                 Bb9      F      C            F",
+            "lyrics": "Confessemos nossas faltas, pois é grande o Seu amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F            Bb9    F               C    C7 ",
+            "lyrics": "Elevemos ao Eterno nossa voz em oração,"
+          },
+          {
+            "chords": " F                Bb9    F     C         F",
+            "lyrics": "Com fervor e humildade, com sincero coração;"
+          },
+          {
+            "chords": " C                    F F7  Bb9      F         C    C7 ",
+            "lyrics": "Cristo, por nós, intercede; Ele é o nosso Mediador;"
+          },
+          {
+            "chords": "F                  Bb9    F      C           F",
+            "lyrics": "Ó irmãos , não ocultemos nossas faltas ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " F                Bb9     F                    C    C7 ",
+            "lyrics": "Pelo sangue do Concerto, Deus nos quer justificar;"
+          },
+          {
+            "chords": " F                   Bb9      F  C            F",
+            "lyrics": "Nossas Vestes Sempre brancas poderemos conservar;"
+          },
+          {
+            "chords": " C                  F F7   Bb9  F             C    C7 ",
+            "lyrics": "Confessemos nossas faltas, rejeitemos todo o mal,"
+          },
+          {
+            "chords": "F                Bb9   F    C       F",
+            "lyrics": "E, ao fim, receberemos a coroa eternal."
+          }
+        ]
+      }
+    ]
+  }
 }

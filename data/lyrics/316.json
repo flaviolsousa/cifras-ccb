@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tua vida é triste?",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B   B°     B                     F#7 ",
-    "1. Tua vida_é triste? Tens profunda dor?",
-    "F#                           B",
-    "Queres um auxílio, um libertador?",
-    "    B°      B                 E ",
-    "Aceitando_a Cristo, paz receberás,",
-    "      F°   B    F#           B   B...",
-    "Força e_alegria d´Ele_alcançarás.",
-    "",
-    "   B     B°   B                 F#7 ",
-    "2. Fardo de pecado carregando_estás?",
-    "F#                         B",
-    "Jugo de justiça de Jesus terás;",
-    "     B°   B                 E ",
-    "Ouve a mensagem de amor sem par",
-    "     F°       B       F#          B   B...",
-    "Para que, com Cristo, possas caminhar.",
-    "",
-    "   B     B°    B                   F#7 ",
-    "3. Por caminho largo andas sem ter paz?",
-    "F#                            B",
-    "Cristo é a Senda que feliz te faz;",
-    "     B°   B                 E ",
-    "Confiando n´Ele, tu encontrarás",
-    "     F°   B      F#         B  ",
-    "Salvação eterna, salvação veraz.",
-    "",
-    "B           F#7                 B",
-    "Olha para_o alto, de_onde vem a luz,",
-    "E          B             C#7  F#7 ",
-    "E verás, então, a glória de Jesus;",
-    "B     B°    B                E ",
-    "Que sublime obra consumou na cruz;",
-    "     F°    B     F#7       B",
-    "Ao celeste reino Ele te conduz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B   B°     B                     F#7 ",
+            "lyrics": "Tua vida_é triste? Tens profunda dor?"
+          },
+          {
+            "chords": "F#                           B",
+            "lyrics": "Queres um auxílio, um libertador?"
+          },
+          {
+            "chords": "    B°      B                 E ",
+            "lyrics": "Aceitando_a Cristo, paz receberás,"
+          },
+          {
+            "chords": "      F°   B    F#           B   B...",
+            "lyrics": "Força e_alegria d´Ele_alcançarás."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B     B°   B                 F#7 ",
+            "lyrics": "Fardo de pecado carregando_estás?"
+          },
+          {
+            "chords": "F#                         B",
+            "lyrics": "Jugo de justiça de Jesus terás;"
+          },
+          {
+            "chords": "     B°   B                 E ",
+            "lyrics": "Ouve a mensagem de amor sem par"
+          },
+          {
+            "chords": "     F°       B       F#          B   B...",
+            "lyrics": "Para que, com Cristo, possas caminhar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B     B°    B                   F#7 ",
+            "lyrics": "Por caminho largo andas sem ter paz?"
+          },
+          {
+            "chords": "F#                            B",
+            "lyrics": "Cristo é a Senda que feliz te faz;"
+          },
+          {
+            "chords": "     B°   B                 E ",
+            "lyrics": "Confiando n´Ele, tu encontrarás"
+          },
+          {
+            "chords": "     F°   B      F#         B  ",
+            "lyrics": "Salvação eterna, salvação veraz."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "B           F#7                 B"
+          },
+          {
+            "chords": "Olha para_o alto, de_onde vem a luz,",
+            "lyrics": "E          B             C#7  F#7 "
+          },
+          {
+            "chords": "E verás, então, a glória de Jesus;",
+            "lyrics": "B     B°    B                E "
+          },
+          {
+            "chords": "Que sublime obra consumou na cruz;",
+            "lyrics": "     F°    B     F#7       B"
+          }
+        ]
+      }
+    ]
+  }
 }

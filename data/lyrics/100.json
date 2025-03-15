@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Todos juntos, jubilemos",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "        B                     B7              E",
-    "1. Para esta vocação celeste, Deus nos tem chamado,",
-    "       F#7                B",
-    "Glória e louvor nós damos ao Senhor!",
-    "                                  B7     E      D#7   C#m...",
-    "Dentre_os povos e as tribos fomos nós comprados por Jesus,",
-    "   F#7             B",
-    "Louvemos nosso Remidor!",
-    "",
-    "      F#7                     B",
-    "Todos juntos, jubilemos de um coração sincero,",
-    "      E       G#7       C#7        F#7",
-    "Dando honra_e glória_ao nosso Redentor;",
-    "      B",
-    "O seu sangue precioso",
-    "    B7   E       D#7   C#m...",
-    "Ele derramou por nós a cruz;",
-    "  F#7               B",
-    "Remidos somos do Senhor.",
-    "",
-    "         B                            B7             E",
-    "2. Jesus Cristo, nosso Mestre, é_o Primeiro_e_o Derradeiro,",
-    "    F#7                    B",
-    "É o Rei dos reis, de todos é Senhor;",
-    "                            B7    E     D#7    C#m...",
-    "Ele nos conserva_unidos o caminho de justiça_e paz;",
-    "   F#7              B",
-    "Bendito seja_o Redentor!",
-    "",
-    "          B                        B7          E",
-    "3. Com Jesus, celeste_Esposo, para sempre reinaremos",
-    "       F#7                   B",
-    "No Seu lar de_amor, lugar de esplendor;",
-    "                             B7    E   D#7    C#m...",
-    "Como Ele nós seremos, no Seu reino eternal de luz;",
-    "    F#7                  B",
-    "Oh! Glória_ao nosso Salvador!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     B                     B7              E",
+            "lyrics": "Para esta vocação celeste, Deus nos tem chamado,"
+          },
+          {
+            "chords": "       F#7                B",
+            "lyrics": "Glória e louvor nós damos ao Senhor!"
+          },
+          {
+            "chords": "                                  B7     E      D#7   C#m...",
+            "lyrics": "Dentre_os povos e as tribos fomos nós comprados por Jesus,"
+          },
+          {
+            "chords": "   F#7             B",
+            "lyrics": "Louvemos nosso Remidor!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      F#7                     B",
+            "lyrics": "Todos juntos, jubilemos de um coração sincero,"
+          },
+          {
+            "chords": "      E       G#7       C#7        F#7",
+            "lyrics": "Dando honra_e glória_ao nosso Redentor;"
+          },
+          {
+            "chords": "      B",
+            "lyrics": "O seu sangue precioso"
+          },
+          {
+            "chords": "    B7   E       D#7   C#m...",
+            "lyrics": "Ele derramou por nós a cruz;"
+          },
+          {
+            "chords": "  F#7               B",
+            "lyrics": "Remidos somos do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      B                            B7             E",
+            "lyrics": "Jesus Cristo, nosso Mestre, é_o Primeiro_e_o Derradeiro,"
+          },
+          {
+            "chords": "    F#7                    B",
+            "lyrics": "É o Rei dos reis, de todos é Senhor;"
+          },
+          {
+            "chords": "                            B7    E     D#7    C#m...",
+            "lyrics": "Ele nos conserva_unidos o caminho de justiça_e paz;"
+          },
+          {
+            "chords": "   F#7              B",
+            "lyrics": "Bendito seja_o Redentor!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       B                        B7          E",
+            "lyrics": "Com Jesus, celeste_Esposo, para sempre reinaremos"
+          },
+          {
+            "chords": "       F#7                   B",
+            "lyrics": "No Seu lar de_amor, lugar de esplendor;"
+          },
+          {
+            "chords": "                             B7    E   D#7    C#m...",
+            "lyrics": "Como Ele nós seremos, no Seu reino eternal de luz;"
+          },
+          {
+            "chords": "    F#7                  B",
+            "lyrics": "Oh! Glória_ao nosso Salvador!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Põe em Deus a confiança",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "    E                                        B7 ",
-    "1. Põe em Deus a confiança, segue sempre a Jesus;",
-    "E                       F#7          B7 ",
-    "Ele é a Esperança que à glória te conduz;",
-    "       E             A         B7            E",
-    "Não vaciles, mas confia, pois eterno_é Seu poder;",
-    "                  A           B7          E",
-    "Nos perigos Ele_envia os Seus anjos te suster.",
-    "",
-    "    E                                          B7 ",
-    "2. Mesmo que os anos passem, Seu amor não passará;",
-    " E                                F#7           B7 ",
-    "Céus e terra também passam, mas o Verbo firme_está.",
-    "          E              A          B7               E",
-    "Vindo_as trevas sobre_o mundo e, do sol, cessando_a luz,",
-    "                     A            B7           E",
-    "Cristo, por amor profundo, ao Seu reino te conduz.",
-    "",
-    "    E                                        B7 ",
-    "3. Firme na fiel promessa, ao mal podes resistir;",
-    " E                         F#7          B7 ",
-    "Não há nada que impeça tua glória no porvir;",
-    "         E            A         B7        E",
-    "Eis que perto_está o dia em que tudo cessará,",
-    "              A        B7         E",
-    "Mas a tua alegria para sempre durará.",
-    "",
-    "       E",
-    "Põe em Deus a confiança, sê fiel ao Redentor;",
-    "                            B7 ",
-    "Segue_avante, segue para_os céus;",
-    "       E",
-    "Põe em Deus a esperança, sê fiel ao Criador;",
-    "                  B7      E",
-    "Glória! Glória ao grande Deus!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " E                                        B7 ",
+            "lyrics": "Põe em Deus a confiança, segue sempre a Jesus;"
+          },
+          {
+            "chords": "E                       F#7          B7 ",
+            "lyrics": "Ele é a Esperança que à glória te conduz;"
+          },
+          {
+            "chords": "       E             A         B7            E",
+            "lyrics": "Não vaciles, mas confia, pois eterno_é Seu poder;"
+          },
+          {
+            "chords": "                  A           B7          E",
+            "lyrics": "Nos perigos Ele_envia os Seus anjos te suster."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " E                                          B7 ",
+            "lyrics": "Mesmo que os anos passem, Seu amor não passará;"
+          },
+          {
+            "chords": " E                                F#7           B7 ",
+            "lyrics": "Céus e terra também passam, mas o Verbo firme_está."
+          },
+          {
+            "chords": "          E              A          B7               E",
+            "lyrics": "Vindo_as trevas sobre_o mundo e, do sol, cessando_a luz,"
+          },
+          {
+            "chords": "                     A            B7           E",
+            "lyrics": "Cristo, por amor profundo, ao Seu reino te conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " E                                        B7 ",
+            "lyrics": "Firme na fiel promessa, ao mal podes resistir;"
+          },
+          {
+            "chords": " E                         F#7          B7 ",
+            "lyrics": "Não há nada que impeça tua glória no porvir;"
+          },
+          {
+            "chords": "         E            A         B7        E",
+            "lyrics": "Eis que perto_está o dia em que tudo cessará,"
+          },
+          {
+            "chords": "              A        B7         E",
+            "lyrics": "Mas a tua alegria para sempre durará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       E",
+            "lyrics": "Põe em Deus a confiança, sê fiel ao Redentor;"
+          },
+          {
+            "chords": "                            B7 ",
+            "lyrics": "Segue_avante, segue para_os céus;"
+          },
+          {
+            "chords": "       E",
+            "lyrics": "Põe em Deus a esperança, sê fiel ao Criador;"
+          },
+          {
+            "chords": "                  B7      E",
+            "lyrics": "Glória! Glória ao grande Deus!"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu almejo nessa pátria entrar",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E                         B ",
-    "1. Sei que, ao findar aqui o meu labor,",
-    "                            E",
-    "Reinarei no lar de glória_e de_esplendor,",
-    "                      B ",
-    "Onde a tristeza não terá lugar;",
-    "                           E",
-    "Paz e alegria lá vou desfrutar.",
-    "",
-    "E               B ",
-    "Eu almejo nessa pátria_entrar",
-    "                    E",
-    "E, na glória, com Jesus reinar;",
-    "       A      B ",
-    "Com os santos eu entoarei",
-    "E           A         B     E",
-    "Hinos de louvores ao eterno Rei.",
-    "",
-    "   E                         B ",
-    "2. Sei que, ao findar a luta contra_o mal,",
-    "                           E",
-    "Viverei com Deus na pátria celestial;",
-    "                       B ",
-    "Lá existe paz, justiça e amor,",
-    "                            E",
-    "E os salvos louvarão ao Criador.",
-    "",
-    "   E                          B ",
-    "3. Sei que, ao findar o meu peregrinar,",
-    "                         E",
-    "Entrarei com Cristo no celeste lar,",
-    "                     B ",
-    "Onde os remidos se encontrarão",
-    "                             E",
-    "E eternamente,_a Deus, exaltarão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E                         B ",
+            "lyrics": "Sei que, ao findar aqui o meu labor,"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "Reinarei no lar de glória_e de_esplendor,"
+          },
+          {
+            "chords": "                      B ",
+            "lyrics": "Onde a tristeza não terá lugar;"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "Paz e alegria lá vou desfrutar."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "E               B "
+          },
+          {
+            "chords": "Eu almejo nessa pátria_entrar",
+            "lyrics": "                    E"
+          },
+          {
+            "chords": "E, na glória, com Jesus reinar;",
+            "lyrics": "       A      B "
+          },
+          {
+            "chords": "Com os santos eu entoarei",
+            "lyrics": "E           A         B     E"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E                         B ",
+            "lyrics": "Sei que, ao findar a luta contra_o mal,"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "Viverei com Deus na pátria celestial;"
+          },
+          {
+            "chords": "                       B ",
+            "lyrics": "Lá existe paz, justiça e amor,"
+          },
+          {
+            "chords": "                            E",
+            "lyrics": "E os salvos louvarão ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E                          B ",
+            "lyrics": "Sei que, ao findar o meu peregrinar,"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Entrarei com Cristo no celeste lar,"
+          },
+          {
+            "chords": "                     B ",
+            "lyrics": "Onde os remidos se encontrarão"
+          },
+          {
+            "chords": "                             E",
+            "lyrics": "E eternamente,_a Deus, exaltarão."
+          }
+        ]
+      }
+    ]
+  }
 }

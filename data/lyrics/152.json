@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Venho à casa do Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "        A",
-    "1. Ao entrar na casa do bom Criador,",
-    "      E          A",
-    "O meu ser se regozija;",
-    "",
-    "Para desfrutar do Seu sublime_amor,",
-    "        E          A",
-    "Venho_à casa do Senhor.",
-    "",
-    "     A         B7 ",
-    "É na casa do Senhor",
-    "     E           A",
-    "Que aprendo a honrar,",
-    "                D ",
-    "Com temor e reverência,",
-    "     E        A",
-    "Meu amado Criador.",
-    "",
-    "            A",
-    "2. Quando_estou na casa do bom Criador,",
-    "      E        A",
-    "Minha alma rejubila;",
-    "",
-    "Para_ouvir os Seus conselhos de amor,",
-    "         E          A",
-    "Venhor_à casa do Senhor.",
-    "",
-    "        A",
-    "3. Terminando_o santo culto_ao Criador,",
-    "      E         A",
-    "Sinto paz e alegria;",
-    "",
-    "Meditando no glorioso Seu amor,",
-    "        E          A",
-    "Deixo_a casa do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Ao entrar na casa do bom Criador,"
+          },
+          {
+            "chords": "      E          A",
+            "lyrics": "O meu ser se regozija;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Para desfrutar do Seu sublime_amor,"
+          },
+          {
+            "chords": "        E          A",
+            "lyrics": "Venho_à casa do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     A         B7 ",
+            "lyrics": "É na casa do Senhor"
+          },
+          {
+            "chords": "     E           A",
+            "lyrics": "Que aprendo a honrar,"
+          },
+          {
+            "chords": "                D ",
+            "lyrics": "Com temor e reverência,"
+          },
+          {
+            "chords": "     E        A",
+            "lyrics": "Meu amado Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         A",
+            "lyrics": "Quando_estou na casa do bom Criador,"
+          },
+          {
+            "chords": "      E        A",
+            "lyrics": "Minha alma rejubila;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Para_ouvir os Seus conselhos de amor,"
+          },
+          {
+            "chords": "         E          A",
+            "lyrics": "Venhor_à casa do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Terminando_o santo culto_ao Criador,"
+          },
+          {
+            "chords": "      E         A",
+            "lyrics": "Sinto paz e alegria;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Meditando no glorioso Seu amor,"
+          },
+          {
+            "chords": "        E          A",
+            "lyrics": "Deixo_a casa do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

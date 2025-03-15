@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo entrou nos céus primeiro",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E           B7           E",
-    "1. A esperança de entrar na glória",
-    "                    B7 ",
-    "Nos sustém fiéis ao nosso Deus;",
-    "E                  A       E",
-    "É, para_os santos, neste caminho,",
-    "B7                 E",
-    "Âncora que vem dos céus.",
-    "",
-    "C#m      G#       C#m ",
-    "Cristo_entrou nos céus primeiro,",
-    "B7      F#    B7 ",
-    "Ele_é_o nosso Precursor;",
-    "E        A ",
-    "É o Sumo Sacerdote_eterno",
-    "B7                  E",
-    "Junto_a Deus, o Criador.",
-    "",
-    "   E            B7          E",
-    "2. Na esperança que está proposta,",
-    "                   B7 ",
-    "Firme_está a nossa vocação;",
-    "E            A       E",
-    "Ela sustenta a nossa alma",
-    "B7              E",
-    "Através da provação.",
-    "",
-    "   E            B7            E",
-    "3. No santuário dos céus entraremos",
-    "                     B7 ",
-    "Como_entrou Jesus, o nosso Rei,",
-    "E             A           E",
-    "Se atendermos aos Seus preceitos",
-    "B7            E",
-    "E amarmos Sua lei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E           B7           E",
+            "lyrics": "A esperança de entrar na glória"
+          },
+          {
+            "chords": "                    B7 ",
+            "lyrics": "Nos sustém fiéis ao nosso Deus;"
+          },
+          {
+            "chords": "E                  A       E",
+            "lyrics": "É, para_os santos, neste caminho,"
+          },
+          {
+            "chords": "B7                 E",
+            "lyrics": "Âncora que vem dos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C#m      G#       C#m ",
+            "lyrics": "Cristo_entrou nos céus primeiro,"
+          },
+          {
+            "chords": "B7      F#    B7 ",
+            "lyrics": "Ele_é_o nosso Precursor;"
+          },
+          {
+            "chords": "E        A ",
+            "lyrics": "É o Sumo Sacerdote_eterno"
+          },
+          {
+            "chords": "B7                  E",
+            "lyrics": "Junto_a Deus, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E            B7          E",
+            "lyrics": "Na esperança que está proposta,"
+          },
+          {
+            "chords": "                   B7 ",
+            "lyrics": "Firme_está a nossa vocação;"
+          },
+          {
+            "chords": "E            A       E",
+            "lyrics": "Ela sustenta a nossa alma"
+          },
+          {
+            "chords": "B7              E",
+            "lyrics": "Através da provação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E            B7            E",
+            "lyrics": "No santuário dos céus entraremos"
+          },
+          {
+            "chords": "                     B7 ",
+            "lyrics": "Como_entrou Jesus, o nosso Rei,"
+          },
+          {
+            "chords": "E             A           E",
+            "lyrics": "Se atendermos aos Seus preceitos"
+          },
+          {
+            "chords": "B7            E",
+            "lyrics": "E amarmos Sua lei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

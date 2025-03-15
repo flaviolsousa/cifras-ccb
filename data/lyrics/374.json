@@ -1,34 +1,8 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Santo! Santo! Santo!",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "    D      Bm     A  D    G        D",
-    " 1. Santo! Santo! Santo! Deus Onipotente!",
-    " A            Bm A    E         A    A7 ",
-    " Sempre_alegremente a Ti exaltarei;",
-    " D      Bm     A  D    G         D",
-    " Santo! Santo! Santo! Deus Onipresente",
-    " Bm F#m  G   B7  Em    A     D",
-    " E   Onisciente! Eu Te honrarei!",
-    "",
-    "    D      Bm     A  D   G          D",
-    " 2. Santo! Santo! Santo! Todos os remidos",
-    " A             Bm A      E        A    A7 ",
-    " Com louvor Te_adoram em todo o lugar.",
-    " D     Bm  A  D  G         D",
-    " Anjos e Arcanjo cantam reunidos,",
-    "Bm F#m     G  B7   Em     A   D",
-    " Todos se prostram para Te_adorar.",
-    "",
-    "    D      Bm     A  D    G               D",
-    " 3. Santo! Santo! Santo! Deus de_amor, piedoso,",
-    " A            Bm A      E            A    A7 ",
-    " Teu fulgor excelso não pode_o homem ver;",
-    " D       Bm    A  D   G        D",
-    " És três vezes Santo, Todo-Poderoso,",
-    " Bm F#m    G  B7  Em    A    D",
-    " Justo_e Sublime, Fonte do saber!"
-  ]
+  "score": {
+    "stanzas": []
+  }
 }

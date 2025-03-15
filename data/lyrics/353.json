@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eleitos nós somos",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G                    D            G",
-    "1. Eleitos nós somos por Deus, o Verdadeiro,",
-    "                     A7          D    ",
-    "E fomos remidos por Seu grande amor;",
-    "  G                    D          G",
-    "Vivemos por Cristo, o divinal Cordeiro;",
-    "     C          G       D         G",
-    "Oh! Glória! Aleluia! Hosana ao Senhor!",
-    "",
-    "    G",
-    "Nós somos eleitos por Deus, Criador;",
-    "    C        G         D         G",
-    "Nos céus fruiremos a herança de amor.",
-    "",
-    "       G               D            G",
-    "2. Do trono celeste, poder nós buscaremos,",
-    "                      A7       D    ",
-    "E chuvas de bênçãos dará o Criador;",
-    "    G                  D             G",
-    "Na graça gloriosa, por fé, nós cresceremos;",
-    "     C          G      D          G",
-    "Oh! Glória! Aleluia! Hosana ao Senhor!",
-    "",
-    "     G                    D                G",
-    "3. Está perto a volta de Cristo, o Rei da glória;",
-    "                       A7       D    ",
-    "Irmãos, aguardemos com fé e fervor;",
-    "    G                D        G",
-    "No céu cantaremos o hino da vitória;",
-    "     C          G      D          G",
-    "Oh! Glória! Aleluia! Hosana ao Senhor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G                    D            G",
+            "lyrics": "Eleitos nós somos por Deus, o Verdadeiro,"
+          },
+          {
+            "chords": "                     A7          D    ",
+            "lyrics": "E fomos remidos por Seu grande amor;"
+          },
+          {
+            "chords": "  G                    D          G",
+            "lyrics": "Vivemos por Cristo, o divinal Cordeiro;"
+          },
+          {
+            "chords": "     C          G       D         G",
+            "lyrics": "Oh! Glória! Aleluia! Hosana ao Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Nós somos eleitos por Deus, Criador;"
+          },
+          {
+            "chords": "    C        G         D         G",
+            "lyrics": "Nos céus fruiremos a herança de amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    G               D            G",
+            "lyrics": "Do trono celeste, poder nós buscaremos,"
+          },
+          {
+            "chords": "                      A7       D    ",
+            "lyrics": "E chuvas de bênçãos dará o Criador;"
+          },
+          {
+            "chords": "    G                  D             G",
+            "lyrics": "Na graça gloriosa, por fé, nós cresceremos;"
+          },
+          {
+            "chords": "     C          G      D          G",
+            "lyrics": "Oh! Glória! Aleluia! Hosana ao Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G                    D                G",
+            "lyrics": "Está perto a volta de Cristo, o Rei da glória;"
+          },
+          {
+            "chords": "                       A7       D    ",
+            "lyrics": "Irmãos, aguardemos com fé e fervor;"
+          },
+          {
+            "chords": "    G                D        G",
+            "lyrics": "No céu cantaremos o hino da vitória;"
+          },
+          {
+            "chords": "     C          G      D          G",
+            "lyrics": "Oh! Glória! Aleluia! Hosana ao Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

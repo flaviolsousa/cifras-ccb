@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Dá-me graça, Senhor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "          G                   D         G      ",
-    "1. Dá-me graça, Senhor, para sempre Te_amar",
-    "      Am          A     D",
-    "Com intenso_e profundo amor",
-    "       G                D      G      ",
-    "Que procede de Ti, glorioso Senhor,",
-    "      C          D           G",
-    "E me faz Teus conselhos guardar.",
-    "",
-    "       C          D         G     E              ",
-    "Quero_amar-Te com todo_o fervor,",
-    "   Am          A7        D                                   ",
-    "Adorar-Te, meu bom Salvador;",
-    "          G                C     Am ",
-    "Vem, com Tuas virtudes, cingir",
-    "                  D          G",
-    "O Teu servo, que quer Te servir.",
-    "",
-    "         G                   D            G      ",
-    "2. Com divina_afeição quero sempre Te_honrar",
-    "     Am        A        D",
-    "E também ser fiel servidor;",
-    "       G                D          G      ",
-    "Esse_imenso amor que de Ti vem, Senhor,",
-    "     C           D         G",
-    "Me ensina_ao Teu Nome_exaltar.",
-    "",
-    "        G                  D          G      ",
-    "3. Esse elo de_amor sempre me faz lembrar",
-    "        Am       A          D",
-    "Quanto_amaste minh´alma, Senhor;",
-    "      G                   D          G      ",
-    "Quero sempre sentir, cultivar esse_amor,",
-    "     C          D           G",
-    "Aguardando, com fé, Teu voltar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       G                   D         G      ",
+            "lyrics": "Dá-me graça, Senhor, para sempre Te_amar"
+          },
+          {
+            "chords": "      Am          A     D",
+            "lyrics": "Com intenso_e profundo amor"
+          },
+          {
+            "chords": "       G                D      G      ",
+            "lyrics": "Que procede de Ti, glorioso Senhor,"
+          },
+          {
+            "chords": "      C          D           G",
+            "lyrics": "E me faz Teus conselhos guardar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       C          D         G     E              ",
+            "lyrics": "Quero_amar-Te com todo_o fervor,"
+          },
+          {
+            "chords": "   Am          A7        D                                   ",
+            "lyrics": "Adorar-Te, meu bom Salvador;"
+          },
+          {
+            "chords": "          G                C     Am ",
+            "lyrics": "Vem, com Tuas virtudes, cingir"
+          },
+          {
+            "chords": "                  D          G",
+            "lyrics": "O Teu servo, que quer Te servir."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      G                   D            G      ",
+            "lyrics": "Com divina_afeição quero sempre Te_honrar"
+          },
+          {
+            "chords": "     Am        A        D",
+            "lyrics": "E também ser fiel servidor;"
+          },
+          {
+            "chords": "       G                D          G      ",
+            "lyrics": "Esse_imenso amor que de Ti vem, Senhor,"
+          },
+          {
+            "chords": "     C           D         G",
+            "lyrics": "Me ensina_ao Teu Nome_exaltar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G                  D          G      ",
+            "lyrics": "Esse elo de_amor sempre me faz lembrar"
+          },
+          {
+            "chords": "        Am       A          D",
+            "lyrics": "Quanto_amaste minh´alma, Senhor;"
+          },
+          {
+            "chords": "      G                   D          G      ",
+            "lyrics": "Quero sempre sentir, cultivar esse_amor,"
+          },
+          {
+            "chords": "     C          D           G",
+            "lyrics": "Aguardando, com fé, Teu voltar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

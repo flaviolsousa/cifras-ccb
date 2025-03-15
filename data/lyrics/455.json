@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quão ditoso é caminhar com Jesus!",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D",
-    "1. Alegremente seguimos os passos",
-    "                  E7         A7",
-    "Do nosso bom Salvador, nosso Rei,",
-    " D                   G",
-    "Pois acolheu-nos em Seus santos braços,",
-    "D        G         A7       D...",
-    "Desde crianças nos fez Sua grei.",
-    "",
-    "       G                      D",
-    "Quão ditoso_é caminhar com Jesus, ó meninos!",
-    "A7              D",
-    "Somos Sua grei, Ele_é_o bom Pastor;",
-    "  G                       D",
-    "Seguimos, com amor, os preciosos ensinos",
-    "A7           D",
-    "De Deus, Criador.",
-    "",
-    "   D",
-    "2. Nesta jornada, unidos devemos;",
-    "                    E7       A7",
-    "Sempre dispostos, a Cristo seguir;",
-    "D                 G",
-    "E, no Seu Nome, vitória teremos,",
-    "D       G        A7         D...",
-    "Desfrutaremos os bens do porvir.",
-    "",
-    "   D",
-    "3. O Salvador nos conduz nesta vida",
-    "                 E7          A7",
-    "Para fazer-nos morar lá nos céus;",
-    "D                  G",
-    "E, essa pátria, gloriosa_e querida,",
-    "D        G       A7      D...",
-    "Contemplaremos a face de Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "Alegremente seguimos os passos"
+          },
+          {
+            "chords": "                  E7         A7",
+            "lyrics": "Do nosso bom Salvador, nosso Rei,"
+          },
+          {
+            "chords": " D                   G",
+            "lyrics": "Pois acolheu-nos em Seus santos braços,"
+          },
+          {
+            "chords": "D        G         A7       D...",
+            "lyrics": "Desde crianças nos fez Sua grei."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       G                      D",
+            "lyrics": "Quão ditoso_é caminhar com Jesus, ó meninos!"
+          },
+          {
+            "chords": "A7              D",
+            "lyrics": "Somos Sua grei, Ele_é_o bom Pastor;"
+          },
+          {
+            "chords": "  G                       D",
+            "lyrics": "Seguimos, com amor, os preciosos ensinos"
+          },
+          {
+            "chords": "A7           D",
+            "lyrics": "De Deus, Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "Nesta jornada, unidos devemos;"
+          },
+          {
+            "chords": "                    E7       A7",
+            "lyrics": "Sempre dispostos, a Cristo seguir;"
+          },
+          {
+            "chords": "D                 G",
+            "lyrics": "E, no Seu Nome, vitória teremos,"
+          },
+          {
+            "chords": "D       G        A7         D...",
+            "lyrics": "Desfrutaremos os bens do porvir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "O Salvador nos conduz nesta vida"
+          },
+          {
+            "chords": "                 E7          A7",
+            "lyrics": "Para fazer-nos morar lá nos céus;"
+          },
+          {
+            "chords": "D                  G",
+            "lyrics": "E, essa pátria, gloriosa_e querida,"
+          },
+          {
+            "chords": "D        G       A7      D...",
+            "lyrics": "Contemplaremos a face de Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

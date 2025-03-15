@@ -1,38 +1,82 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos nos preparar!",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "            C                                 G7",
-    "1. Cristo Jesus breve voltará, vamos nos preparar!",
-    "                                      C",
-    "Ele à glória nos levará, para nos coroar!",
-    "",
-    "Receberá os remidos Seus",
-    "                   F ",
-    "Para_habitarem no céu dos céus,",
-    "G7        C     F    C  Dm  C         G7   C    C...",
-    "Junto aos anjos e a Deus.   Vamos nos preparar!",
-    "",
-    "           C                                  G7",
-    "2. Não cederemos à tentação; vamos, com fé, lutar;",
-    "                                    C",
-    "Rejeitaremos a ilusão, para não vacilar.",
-    "",
-    "Quando voltar Cristo,_o Salvador,",
-    "               F",
-    "Vitorioso, com esplendor,",
-    "G7      C      F    C  Dm  C         G7   C   ",
-    "Encontrará em nós valor.   Vamos nos preparar!",
-    "",
-    "C                                   F",
-    "Glória! Glória a Cristo,_o Rei dos reis!",
-    "G7                               C",
-    "Glória! Glória! Cantam os Seus fiéis;",
-    "   G7   Am  E7  F               C",
-    "Glória! Gló-ria na terra e nos céus;",
-    "G7  C    F  F#°  C      G7    C    C...",
-    "Gló-ria! Glória  ao poderoso Deus!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "         C                                 G7",
+            "lyrics": "Cristo Jesus breve voltará, vamos nos preparar!"
+          },
+          {
+            "chords": "                                      C",
+            "lyrics": "Ele à glória nos levará, para nos coroar!"
+          },
+          {
+            "chords": "",
+            "lyrics": "Receberá os remidos Seus"
+          },
+          {
+            "chords": "                   F ",
+            "lyrics": "Para_habitarem no céu dos céus,"
+          },
+          {
+            "chords": "G7        C     F    C  Dm  C         G7   C    C...",
+            "lyrics": "Junto aos anjos e a Deus.   Vamos nos preparar!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        C                                  G7",
+            "lyrics": "Não cederemos à tentação; vamos, com fé, lutar;"
+          },
+          {
+            "chords": "                                    C",
+            "lyrics": "Rejeitaremos a ilusão, para não vacilar."
+          },
+          {
+            "chords": "",
+            "lyrics": "Quando voltar Cristo,_o Salvador,"
+          },
+          {
+            "chords": "               F",
+            "lyrics": "Vitorioso, com esplendor,"
+          },
+          {
+            "chords": "G7      C      F    C  Dm  C         G7   C   ",
+            "lyrics": "Encontrará em nós valor.   Vamos nos preparar!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                                   F",
+            "lyrics": "Glória! Glória a Cristo,_o Rei dos reis!"
+          },
+          {
+            "chords": "G7                               C",
+            "lyrics": "Glória! Glória! Cantam os Seus fiéis;"
+          },
+          {
+            "chords": "   G7   Am  E7  F               C",
+            "lyrics": "Glória! Gló-ria na terra e nos céus;"
+          },
+          {
+            "chords": "G7  C    F  F#°  C      G7    C    C...",
+            "lyrics": "Gló-ria! Glória  ao poderoso Deus!"
+          }
+        ]
+      }
+    ]
+  }
 }

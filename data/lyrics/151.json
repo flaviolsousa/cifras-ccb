@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Se, de Cristo, o Nome amares",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                             D                    A",
-    "1. Se, de Cristo,_o Nome_amares, não terás, do mal, pavor;",
-    "E                 A      E             A",
-    "Se, com fé, O invocares, ser-te-á ajudador.",
-    "",
-    "     D         A",
-    "Nome bom, sem igual,",
-    "              E ",
-    "É o Nome de Jesus,",
-    "     A       D    D... ",
-    "Defensor eternal",
-    "       A     E     A",
-    "Que à glória te conduz.",
-    "",
-    "   A                           D                 A",
-    "2. Se, de Cristo,_o Nome_amado em ti bem gravado for,",
-    "E                A     E                A",
-    "Serás livre do pecado, andarás em Seu temor.",
-    "",
-    "   A                           D                A",
-    "3. Se, de Cristo,_o Nome forte invocares com fervor,",
-    "E                A      E                A",
-    "Tu não temerás a morte, Ele_é teu Consolador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                             D                    A",
+            "lyrics": "Se, de Cristo,_o Nome_amares, não terás, do mal, pavor;"
+          },
+          {
+            "chords": "E                 A      E             A",
+            "lyrics": "Se, com fé, O invocares, ser-te-á ajudador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D         A",
+            "lyrics": "Nome bom, sem igual,"
+          },
+          {
+            "chords": "              E ",
+            "lyrics": "É o Nome de Jesus,"
+          },
+          {
+            "chords": "     A       D    D... ",
+            "lyrics": "Defensor eternal"
+          },
+          {
+            "chords": "       A     E     A",
+            "lyrics": "Que à glória te conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                           D                 A",
+            "lyrics": "Se, de Cristo,_o Nome_amado em ti bem gravado for,"
+          },
+          {
+            "chords": "E                A     E                A",
+            "lyrics": "Serás livre do pecado, andarás em Seu temor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                           D                A",
+            "lyrics": "Se, de Cristo,_o Nome forte invocares com fervor,"
+          },
+          {
+            "chords": "E                A      E                A",
+            "lyrics": "Tu não temerás a morte, Ele_é teu Consolador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

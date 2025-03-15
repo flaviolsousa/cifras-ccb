@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Longe do mal e perto de Ti",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A              D        A          E            A",
-    "1. Longe do mal e perto de Ti eu já estou, ó meu Jesus;",
-    "                D        A             E    A  A7",
-    "Paz neste mundo nunca senti, não tinha Tua luz;",
-    "D                 A           E                 B7     E    E7... ",
-    "Já livre_estou da condenação, já livre_estou da ira de Deus;",
-    "A              D        A         E           A",
-    "Tu me livraste da perdição para levar-me_aos céus.",
-    "",
-    "   A               D         A          E           A",
-    "2. Longe do mal, ó meu Guardião, vivo feliz em Teu amor;",
-    "                 D        A           E    A   A7",
-    "Sinto_alegria_em meu coração, ó justo Salvador.",
-    "D               A           E               B7        E   E7... ",
-    "Com toda_a alma eu cantarei hinos de glória em Teu louvor;",
-    "A               D       A           E       A",
-    "Por toda_a vida Te bendirei e Te_amarei, Senhor.",
-    "",
-    "   A               D        A            E          A",
-    "3. Longe do mal Contigo_andarei, não temerei o tentador;",
-    "              D       A              E     A   A7",
-    "Sobre a terra Te honrarei, santo_e fiel Senhor.",
-    "D             A            E                   B7      E   E7... ",
-    "Vem dilatar o meu coração, vem estreitar-me_em Ti, ó Jesus;",
-    "A             D        A            E       A",
-    "Quero amar-Te com devoção, és minha Vida_e Luz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A              D        A          E            A",
+            "lyrics": "Longe do mal e perto de Ti eu já estou, ó meu Jesus;"
+          },
+          {
+            "chords": "                D        A             E    A  A7",
+            "lyrics": "Paz neste mundo nunca senti, não tinha Tua luz;"
+          },
+          {
+            "chords": "D                 A           E                 B7     E    E7... ",
+            "lyrics": "Já livre_estou da condenação, já livre_estou da ira de Deus;"
+          },
+          {
+            "chords": "A              D        A         E           A",
+            "lyrics": "Tu me livraste da perdição para levar-me_aos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A               D         A          E           A",
+            "lyrics": "Longe do mal, ó meu Guardião, vivo feliz em Teu amor;"
+          },
+          {
+            "chords": "                 D        A           E    A   A7",
+            "lyrics": "Sinto_alegria_em meu coração, ó justo Salvador."
+          },
+          {
+            "chords": "D               A           E               B7        E   E7... ",
+            "lyrics": "Com toda_a alma eu cantarei hinos de glória em Teu louvor;"
+          },
+          {
+            "chords": "A               D       A           E       A",
+            "lyrics": "Por toda_a vida Te bendirei e Te_amarei, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A               D        A            E          A",
+            "lyrics": "Longe do mal Contigo_andarei, não temerei o tentador;"
+          },
+          {
+            "chords": "              D       A              E     A   A7",
+            "lyrics": "Sobre a terra Te honrarei, santo_e fiel Senhor."
+          },
+          {
+            "chords": "D             A            E                   B7      E   E7... ",
+            "lyrics": "Vem dilatar o meu coração, vem estreitar-me_em Ti, ó Jesus;"
+          },
+          {
+            "chords": "A             D        A            E       A",
+            "lyrics": "Quero amar-Te com devoção, és minha Vida_e Luz."
+          }
+        ]
+      }
+    ]
+  }
 }

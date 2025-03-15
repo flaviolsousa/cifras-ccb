@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvor nos céus altíssimos",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "      F              Dm          Bb      C        F",
-    "1. Louvor nos céus altíssimos, hosana_ao Rei vivente,",
-    "               Dm        Bb   C7   F",
-    "Ao Forte,_Onipotente, bendito Redentor.",
-    "                        C                       F",
-    "Glória, glória_ao Verbo santo, ao Autor da fé potente;",
-    "          F7      Bb  Gm      F      C    F",
-    "Tem vida_eterna_o crente em Jesus, o Salvador.",
-    "",
-    "     F            Dm          Bb       C        F",
-    "2. O Justo_e Potentíssimo, do céu, nos foi mandado;",
-    "               Dm        Bb   C7   F",
-    "Em forma de um servo, ao Pai obedeceu;",
-    "                  C                           F",
-    "Humilhou-Se_até a morte, foi por Deus ressuscitado.",
-    "           F7   Bb   Gm         F       C    F",
-    "Jesus, por nós ama - do, vida_e paz nos concedeu.",
-    "",
-    "     F           Dm          Bb    C        F",
-    "3. Aqui no mundo de labor, Jesus é nossa Glória,",
-    "             Dm      Bb    C7   F",
-    "É firme Fortaleza, é nosso Salvador;",
-    "                  C                     F",
-    "Só por Ele nós vencemos, Ele alcançou vitória;",
-    "         F7     Bb    Gm       F    C   F",
-    "Cantemos sempre gló - ria ao divino Remidor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   F              Dm          Bb      C        F",
+            "lyrics": "Louvor nos céus altíssimos, hosana_ao Rei vivente,"
+          },
+          {
+            "chords": "               Dm        Bb   C7   F",
+            "lyrics": "Ao Forte,_Onipotente, bendito Redentor."
+          },
+          {
+            "chords": "                        C                       F",
+            "lyrics": "Glória, glória_ao Verbo santo, ao Autor da fé potente;"
+          },
+          {
+            "chords": "          F7      Bb  Gm      F      C    F",
+            "lyrics": "Tem vida_eterna_o crente em Jesus, o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  F            Dm          Bb       C        F",
+            "lyrics": "O Justo_e Potentíssimo, do céu, nos foi mandado;"
+          },
+          {
+            "chords": "               Dm        Bb   C7   F",
+            "lyrics": "Em forma de um servo, ao Pai obedeceu;"
+          },
+          {
+            "chords": "                  C                           F",
+            "lyrics": "Humilhou-Se_até a morte, foi por Deus ressuscitado."
+          },
+          {
+            "chords": "           F7   Bb   Gm         F       C    F",
+            "lyrics": "Jesus, por nós ama - do, vida_e paz nos concedeu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  F           Dm          Bb    C        F",
+            "lyrics": "Aqui no mundo de labor, Jesus é nossa Glória,"
+          },
+          {
+            "chords": "             Dm      Bb    C7   F",
+            "lyrics": "É firme Fortaleza, é nosso Salvador;"
+          },
+          {
+            "chords": "                  C                     F",
+            "lyrics": "Só por Ele nós vencemos, Ele alcançou vitória;"
+          },
+          {
+            "chords": "         F7     Bb    Gm       F    C   F",
+            "lyrics": "Cantemos sempre gló - ria ao divino Remidor!"
+          }
+        ]
+      }
+    ]
+  }
 }

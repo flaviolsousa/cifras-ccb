@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Irmãos amados, sempre avante",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "           G              D ",
-    "1. Irmãos amados, sempre avante",
-    "G                 D        G",
-    "Com Jesus Cristo, nosso Senhor;",
-    "            E           Am ",
-    "Ele em tudo foi triunfante;",
-    "C        G    D             G",
-    "Nós vencere - mos por Seu valor.",
-    "",
-    "        C                   G",
-    "Sempre avante! Cristo_é_o Valente",
-    "E             Am  C     G",
-    "Que por Seu povo  pelejará;",
-    "          C             G",
-    "Cristo, o Forte, o_Onipotente,",
-    "E            Am  D       G",
-    "A glória_eterna  nos levará.",
-    "",
-    "            G            D ",
-    "2. Sempre sejamos perseverantes,",
-    "G               D        G",
-    "Pois certamente vamos vencer;",
-    "                  E            Am ",
-    "Por Jesus Cristo, na fé constantes,",
-    "C       G    D          G",
-    "Nós podere - mos prevalecer.",
-    "",
-    "            G              D ",
-    "3. Fortes sejamos, não recuemos,",
-    "G               D          G",
-    "Mas prossigamos com fé em Deus;",
-    "           E        Am ",
-    "Ao inimigo resistiremos",
-    "C      G  D               G",
-    "Até chegarmos ao lar dos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        G              D ",
+            "lyrics": "Irmãos amados, sempre avante"
+          },
+          {
+            "chords": "G                 D        G",
+            "lyrics": "Com Jesus Cristo, nosso Senhor;"
+          },
+          {
+            "chords": "            E           Am ",
+            "lyrics": "Ele em tudo foi triunfante;"
+          },
+          {
+            "chords": "C        G    D             G",
+            "lyrics": "Nós vencere - mos por Seu valor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        C                   G",
+            "lyrics": "Sempre avante! Cristo_é_o Valente"
+          },
+          {
+            "chords": "E             Am  C     G",
+            "lyrics": "Que por Seu povo  pelejará;"
+          },
+          {
+            "chords": "          C             G",
+            "lyrics": "Cristo, o Forte, o_Onipotente,"
+          },
+          {
+            "chords": "E            Am  D       G",
+            "lyrics": "A glória_eterna  nos levará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         G            D ",
+            "lyrics": "Sempre sejamos perseverantes,"
+          },
+          {
+            "chords": "G               D        G",
+            "lyrics": "Pois certamente vamos vencer;"
+          },
+          {
+            "chords": "                  E            Am ",
+            "lyrics": "Por Jesus Cristo, na fé constantes,"
+          },
+          {
+            "chords": "C       G    D          G",
+            "lyrics": "Nós podere - mos prevalecer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         G              D ",
+            "lyrics": "Fortes sejamos, não recuemos,"
+          },
+          {
+            "chords": "G               D          G",
+            "lyrics": "Mas prossigamos com fé em Deus;"
+          },
+          {
+            "chords": "           E        Am ",
+            "lyrics": "Ao inimigo resistiremos"
+          },
+          {
+            "chords": "C      G  D               G",
+            "lyrics": "Até chegarmos ao lar dos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

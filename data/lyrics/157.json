@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ouve a voz que te convida...",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A               D  A       E7       A",
-    "1. Vendo Deus que, neste mundo, o pecado imperou,",
-    "E7   A           D     A         E7        A",
-    "Por amor santo_e profundo, a Seu Filho enviou",
-    "     E7         A               F#m ",
-    "Para vencer o pecado e nos libertar.",
-    "E7    A                                        D  A",
-    "Tu também podes ser salvo, por Jesus podes ser salvo;",
-    "      D          A           E7            A",
-    "Vai a Ele sem tardar, vai ao Mestre sem tardar.",
-    "",
-    "         A            D    A          E7           A",
-    "2. Da prisão do teu peca - do, Cristo quer te libertar;",
-    "E7  A          D    A       E7       A",
-    "Ele foi crucifica - do para te regenerar.",
-    "         E7        A                  F#m ",
-    "Crê em Jesus, o Cordeiro, que te salvará.",
-    "E7    A                                      D    A",
-    "Servo és do teu pecado, morto_estás no teu peca - do;",
-    "      D           A         E7         A",
-    "Crê somente_e viverás, para Cristo viverás.",
-    "",
-    "          A             D    A        E7            A",
-    "3. Ouve_a voz que te convi - da, dá ouvidos ao teu Deus,",
-    "E7  A          D    A           E7             A",
-    "E terás a nova vi - da que, por graça, têm os Seus;",
-    "          E7        A                 F#m ",
-    "Quer-te remir Jesus Cristo e te dar a paz;",
-    "E7   A                                       D  A",
-    "E ao fim, na Sua glória, no_esplendor da Sua glória,",
-    "      D            A         E7         A",
-    "Vida_eterna_alcançarás, galardão alcançarás."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A               D  A       E7       A",
+            "lyrics": "Vendo Deus que, neste mundo, o pecado imperou,"
+          },
+          {
+            "chords": "E7   A           D     A         E7        A",
+            "lyrics": "Por amor santo_e profundo, a Seu Filho enviou"
+          },
+          {
+            "chords": "     E7         A               F#m ",
+            "lyrics": "Para vencer o pecado e nos libertar."
+          },
+          {
+            "chords": "E7    A                                        D  A",
+            "lyrics": "Tu também podes ser salvo, por Jesus podes ser salvo;"
+          },
+          {
+            "chords": "      D          A           E7            A",
+            "lyrics": "Vai a Ele sem tardar, vai ao Mestre sem tardar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A            D    A          E7           A",
+            "lyrics": "Da prisão do teu peca - do, Cristo quer te libertar;"
+          },
+          {
+            "chords": "E7  A          D    A       E7       A",
+            "lyrics": "Ele foi crucifica - do para te regenerar."
+          },
+          {
+            "chords": "         E7        A                  F#m ",
+            "lyrics": "Crê em Jesus, o Cordeiro, que te salvará."
+          },
+          {
+            "chords": "E7    A                                      D    A",
+            "lyrics": "Servo és do teu pecado, morto_estás no teu peca - do;"
+          },
+          {
+            "chords": "      D           A         E7         A",
+            "lyrics": "Crê somente_e viverás, para Cristo viverás."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A             D    A        E7            A",
+            "lyrics": "Ouve_a voz que te convi - da, dá ouvidos ao teu Deus,"
+          },
+          {
+            "chords": "E7  A          D    A           E7             A",
+            "lyrics": "E terás a nova vi - da que, por graça, têm os Seus;"
+          },
+          {
+            "chords": "          E7        A                 F#m ",
+            "lyrics": "Quer-te remir Jesus Cristo e te dar a paz;"
+          },
+          {
+            "chords": "E7   A                                       D  A",
+            "lyrics": "E ao fim, na Sua glória, no_esplendor da Sua glória,"
+          },
+          {
+            "chords": "      D            A         E7         A",
+            "lyrics": "Vida_eterna_alcançarás, galardão alcançarás."
+          }
+        ]
+      }
+    ]
+  }
 }

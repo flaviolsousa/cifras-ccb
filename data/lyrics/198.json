@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nosso Pai celeste sabe e provê",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "         D           Em ",
-    "1. Nosso Pai celeste sabe_e provê",
-    "      A           D",
-    "O que temos de mister;",
-    "          B7    Em ",
-    "Nada deixará faltar ao que crê,",
-    "     A              D",
-    "Pois grande é Seu poder.",
-    "",
-    "D  A    D                             A ",
-    "Sempre, com fé, procuremos agradar a Deus;",
-    "                                         D",
-    "Sempre, por fé, aceitemos o que vem dos céus;",
-    "     A    D             D7                G ",
-    "Deus tem, por nós, o cuidado santo_e paternal;",
-    "        G#°         D     B7 ",
-    "Glória, sempiterna glória ao Deus vivo,",
-    "Em          A    D",
-    "Nosso Pai celestial!",
-    "",
-    "       D           Em ",
-    "2. Duvidosos não devemos estar,",
-    "          A         D",
-    "Pois Deus tudo proverá;",
-    "           B7      Em ",
-    "Caminhemos firmes, sem vacilar,",
-    " A               D",
-    "Ajuda dos céus virá.",
-    "",
-    "          D            Em ",
-    "3. Que cuidado tem das aves dos céus",
-    "      A          D",
-    "Nosso Pai celestial!",
-    "             B7    Em ",
-    "Muita mais terá cuidado dos Seus,",
-    "    A             D",
-    "Com Seu zelo paternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      D           Em ",
+            "lyrics": "Nosso Pai celeste sabe_e provê"
+          },
+          {
+            "chords": "      A           D",
+            "lyrics": "O que temos de mister;"
+          },
+          {
+            "chords": "          B7    Em ",
+            "lyrics": "Nada deixará faltar ao que crê,"
+          },
+          {
+            "chords": "     A              D",
+            "lyrics": "Pois grande é Seu poder."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D  A    D                             A ",
+            "lyrics": "Sempre, com fé, procuremos agradar a Deus;"
+          },
+          {
+            "chords": "                                         D",
+            "lyrics": "Sempre, por fé, aceitemos o que vem dos céus;"
+          },
+          {
+            "chords": "     A    D             D7                G ",
+            "lyrics": "Deus tem, por nós, o cuidado santo_e paternal;"
+          },
+          {
+            "chords": "        G#°         D     B7 ",
+            "lyrics": "Glória, sempiterna glória ao Deus vivo,"
+          },
+          {
+            "chords": "Em          A    D",
+            "lyrics": "Nosso Pai celestial!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    D           Em ",
+            "lyrics": "Duvidosos não devemos estar,"
+          },
+          {
+            "chords": "          A         D",
+            "lyrics": "Pois Deus tudo proverá;"
+          },
+          {
+            "chords": "           B7      Em ",
+            "lyrics": "Caminhemos firmes, sem vacilar,"
+          },
+          {
+            "chords": " A               D",
+            "lyrics": "Ajuda dos céus virá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       D            Em ",
+            "lyrics": "Que cuidado tem das aves dos céus"
+          },
+          {
+            "chords": "      A          D",
+            "lyrics": "Nosso Pai celestial!"
+          },
+          {
+            "chords": "             B7    Em ",
+            "lyrics": "Muita mais terá cuidado dos Seus,"
+          },
+          {
+            "chords": "    A             D",
+            "lyrics": "Com Seu zelo paternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

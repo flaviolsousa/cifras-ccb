@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grande festa haverá nos céus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "           A  E             A",
-    "1. Perto_está o porto da salvação,",
-    "        D            A",
-    "Perto_está o lar eternal;",
-    "        E                    A",
-    "Brevemente_os filhos de Deus verão",
-    "    D    E    A",
-    "A Sião celestial.",
-    "",
-    "        A    D           A",
-    "Grande festa haverá nos céus",
-    "        D            E  ",
-    "Para_os santos do Senhor;",
-    "    A             D              D... ",
-    "Aleluia! Glória, glória_ao nosso Deus!",
-    "          A      E    A",
-    "Quanto_é grande Seu favor!",
-    "",
-    "            A    E                A",
-    "2. Sobre_as á - guas Cristo Jesus virá,",
-    "         D             A",
-    "Quando_o mar se embravecer;",
-    "        E            A",
-    "O furor do vento aplacará",
-    "      D     E     A",
-    "Pelo_imenso Seu poder.",
-    "",
-    "           A   E             A",
-    "3. Cristo, no Seu reino, exaltará",
-    "       D              A",
-    "Quem viver com fé e valor;",
-    "         E              A",
-    "E com glória_eterna coroará",
-    "    D    E    A",
-    "O fiel e vencedor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        A  E             A",
+            "lyrics": "Perto_está o porto da salvação,"
+          },
+          {
+            "chords": "        D            A",
+            "lyrics": "Perto_está o lar eternal;"
+          },
+          {
+            "chords": "        E                    A",
+            "lyrics": "Brevemente_os filhos de Deus verão"
+          },
+          {
+            "chords": "    D    E    A",
+            "lyrics": "A Sião celestial."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        A    D           A",
+            "lyrics": "Grande festa haverá nos céus"
+          },
+          {
+            "chords": "        D            E  ",
+            "lyrics": "Para_os santos do Senhor;"
+          },
+          {
+            "chords": "    A             D              D... ",
+            "lyrics": "Aleluia! Glória, glória_ao nosso Deus!"
+          },
+          {
+            "chords": "          A      E    A",
+            "lyrics": "Quanto_é grande Seu favor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         A    E                A",
+            "lyrics": "Sobre_as á - guas Cristo Jesus virá,"
+          },
+          {
+            "chords": "         D             A",
+            "lyrics": "Quando_o mar se embravecer;"
+          },
+          {
+            "chords": "        E            A",
+            "lyrics": "O furor do vento aplacará"
+          },
+          {
+            "chords": "      D     E     A",
+            "lyrics": "Pelo_imenso Seu poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        A   E             A",
+            "lyrics": "Cristo, no Seu reino, exaltará"
+          },
+          {
+            "chords": "       D              A",
+            "lyrics": "Quem viver com fé e valor;"
+          },
+          {
+            "chords": "         E              A",
+            "lyrics": "E com glória_eterna coroará"
+          },
+          {
+            "chords": "    D    E    A",
+            "lyrics": "O fiel e vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

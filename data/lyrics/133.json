@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quão bom e quão suave é...",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "        F                Gm   C      F",
-    "1. Quão bom e quão suave é, perante Deus,",
-    "                       Bb   Gm   A ",
-    "Que vivam os irmãos em doce uni- ão;",
-    "  F7           Bb        Gm            F",
-    "É como_orvalho santo que desce lá dos céus,",
-    "             A    Gm   C    F",
-    "Trazendo regozijo e consolação.",
-    "",
-    "     F                 Gm     C        F",
-    "2. É o celeste_orvalho que as bênçãos traz",
-    "                    Bb    Gm   A ",
-    "E vivifica sempre_o nosso coração,",
-    "   F7             Bb     Gm        F",
-    "Porque_o Senhor ordena a vida e a paz.",
-    "                A       Gm    C      F",
-    "O santo_amor de Deus conduz à perfeição.",
-    "",
-    "      F               Gm   C     F",
-    "3. Fundados estejamos no divino_amor",
-    "                        Bb      Gm    A ",
-    "A fim de compreendermos quão profundo é",
-    "   F7           Bb        Gm          F",
-    "O_amor do nosso Mestre, Jesus, o Redentor.",
-    "                     A     Gm   C   F",
-    "Que trouxe_às nossas almas preciosa fé.",
-    "",
-    "       F               Gm  C      F",
-    "4. Nós somos a herança do eterno Deus;",
-    "                     Bb  Gm    A ",
-    "Jesus, o Verdadeiro, é a nossa Paz;",
-    "  F7              Bb         Gm            F",
-    "“Amai-vos uns aos outros”, ensina para_os Seus;",
-    "             A     Gm  C     F",
-    "O Seu amor sublime regozijo traz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     F                Gm   C      F",
+            "lyrics": "Quão bom e quão suave é, perante Deus,"
+          },
+          {
+            "chords": "                       Bb   Gm   A ",
+            "lyrics": "Que vivam os irmãos em doce uni- ão;"
+          },
+          {
+            "chords": "  F7           Bb        Gm            F",
+            "lyrics": "É como_orvalho santo que desce lá dos céus,"
+          },
+          {
+            "chords": "             A    Gm   C    F",
+            "lyrics": "Trazendo regozijo e consolação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  F                 Gm     C        F",
+            "lyrics": "É o celeste_orvalho que as bênçãos traz"
+          },
+          {
+            "chords": "                    Bb    Gm   A ",
+            "lyrics": "E vivifica sempre_o nosso coração,"
+          },
+          {
+            "chords": "   F7             Bb     Gm        F",
+            "lyrics": "Porque_o Senhor ordena a vida e a paz."
+          },
+          {
+            "chords": "                A       Gm    C      F",
+            "lyrics": "O santo_amor de Deus conduz à perfeição."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   F               Gm   C     F",
+            "lyrics": "Fundados estejamos no divino_amor"
+          },
+          {
+            "chords": "                        Bb      Gm    A ",
+            "lyrics": "A fim de compreendermos quão profundo é"
+          },
+          {
+            "chords": "   F7           Bb        Gm          F",
+            "lyrics": "O_amor do nosso Mestre, Jesus, o Redentor."
+          },
+          {
+            "chords": "                     A     Gm   C   F",
+            "lyrics": "Que trouxe_às nossas almas preciosa fé."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "    F               Gm  C      F",
+            "lyrics": "Nós somos a herança do eterno Deus;"
+          },
+          {
+            "chords": "                     Bb  Gm    A ",
+            "lyrics": "Jesus, o Verdadeiro, é a nossa Paz;"
+          },
+          {
+            "chords": "  F7              Bb         Gm            F",
+            "lyrics": "“Amai-vos uns aos outros”, ensina para_os Seus;"
+          },
+          {
+            "chords": "             A     Gm  C     F",
+            "lyrics": "O Seu amor sublime regozijo traz."
+          }
+        ]
+      }
+    ]
+  }
 }

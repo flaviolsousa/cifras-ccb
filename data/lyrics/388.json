@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Na cidade santa",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                   F ",
-    "1. Na cidade santa do eterno Deus,",
-    "G                     C",
-    "Pecador não poderá entrar;",
-    "                       F ",
-    "Lá só entrarão os escolhidos Seus",
-    "G                          C",
-    "Para_os bens eternos desfrutar.",
-    "",
-    "C                         F    D7 ",
-    "Na cidade santa, por Deus preparada,",
-    "G                     C ",
-    "Um repouso_eterno o fiel terá;",
-    "                           F   D7 ",
-    "De_eternais riquezas ela_é adornada",
-    "G                        C",
-    "E seu brilho não se_apagará.",
-    "",
-    "   C                  F ",
-    "2. A cidade santa do eterno Rei",
-    "G                       C",
-    "É de_incomparável esplendor;",
-    "                        F ",
-    "Nela_habitará quem caminhar na lei,",
-    "G                       C",
-    "Na perfeita lei do Redentor.",
-    "",
-    "    C                    F ",
-    "3. Grande alegria, ao entrarmos lá,",
-    "G                    C",
-    "Sentirá o nosso coração;",
-    "                        F ",
-    "Toda a tristeza_aqui se deixará,",
-    "G                       C",
-    "Todos os combates cessarão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                   F ",
+            "lyrics": "Na cidade santa do eterno Deus,"
+          },
+          {
+            "chords": "G                     C",
+            "lyrics": "Pecador não poderá entrar;"
+          },
+          {
+            "chords": "                       F ",
+            "lyrics": "Lá só entrarão os escolhidos Seus"
+          },
+          {
+            "chords": "G                          C",
+            "lyrics": "Para_os bens eternos desfrutar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                         F    D7 ",
+            "lyrics": "Na cidade santa, por Deus preparada,"
+          },
+          {
+            "chords": "G                     C ",
+            "lyrics": "Um repouso_eterno o fiel terá;"
+          },
+          {
+            "chords": "                           F   D7 ",
+            "lyrics": "De_eternais riquezas ela_é adornada"
+          },
+          {
+            "chords": "G                        C",
+            "lyrics": "E seu brilho não se_apagará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                  F ",
+            "lyrics": "A cidade santa do eterno Rei"
+          },
+          {
+            "chords": "G                       C",
+            "lyrics": "É de_incomparável esplendor;"
+          },
+          {
+            "chords": "                        F ",
+            "lyrics": "Nela_habitará quem caminhar na lei,"
+          },
+          {
+            "chords": "G                       C",
+            "lyrics": "Na perfeita lei do Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " C                    F ",
+            "lyrics": "Grande alegria, ao entrarmos lá,"
+          },
+          {
+            "chords": "G                    C",
+            "lyrics": "Sentirá o nosso coração;"
+          },
+          {
+            "chords": "                        F ",
+            "lyrics": "Toda a tristeza_aqui se deixará,"
+          },
+          {
+            "chords": "G                       C",
+            "lyrics": "Todos os combates cessarão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

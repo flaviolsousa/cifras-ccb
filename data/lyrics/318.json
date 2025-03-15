@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Salvador, vem converter o pecador",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "           B",
-    "1. Ó bom Jesus! Ó Salvador!",
-    "      F#              B",
-    "O pecador pede compaixão,",
-    "                      E ",
-    "Pois só em Ti ele_achará",
-    "        B    C#  F#  B",
-    "A salvação e o   perdão.",
-    "",
-    "       F#             B",
-    "Ó Salvador, vem converter",
-    "      C#             F#  F#7... ",
-    "O pecador, por compaixão;",
-    "          B            E ",
-    "Com Teu falar, vem comover",
-    "          B       C#   F#    B",
-    "E transformar seu co – ra - ção.",
-    "",
-    "           B",
-    "2. Além de Ti, ó Rei dos reis,",
-    "          F#                B",
-    "Não há ninguém para dar perdão;",
-    "                   E ",
-    "Somente Tu, ó Salvador,",
-    "       B      C#   F#     B",
-    "És o Autor da re – den - ção.",
-    "",
-    "         B",
-    "3. O pecador vive_a sofrer",
-    "         F#               B",
-    "Sem salvação, sem o Teu favor.",
-    "                          E ",
-    "Mas, crendo_em Ti, alcançará",
-    "       B        C#   F#     B",
-    "Divina graça,_ó Re – den - tor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        B",
+            "lyrics": "Ó bom Jesus! Ó Salvador!"
+          },
+          {
+            "chords": "      F#              B",
+            "lyrics": "O pecador pede compaixão,"
+          },
+          {
+            "chords": "                      E ",
+            "lyrics": "Pois só em Ti ele_achará"
+          },
+          {
+            "chords": "        B    C#  F#  B",
+            "lyrics": "A salvação e o   perdão."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "       F#             B"
+          },
+          {
+            "chords": "Ó Salvador, vem converter",
+            "lyrics": "      C#             F#  F#7... "
+          },
+          {
+            "chords": "O pecador, por compaixão;",
+            "lyrics": "          B            E "
+          },
+          {
+            "chords": "Com Teu falar, vem comover",
+            "lyrics": "          B       C#   F#    B"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        B",
+            "lyrics": "Além de Ti, ó Rei dos reis,"
+          },
+          {
+            "chords": "          F#                B",
+            "lyrics": "Não há ninguém para dar perdão;"
+          },
+          {
+            "chords": "                   E ",
+            "lyrics": "Somente Tu, ó Salvador,"
+          },
+          {
+            "chords": "       B      C#   F#     B",
+            "lyrics": "És o Autor da re – den - ção."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      B",
+            "lyrics": "O pecador vive_a sofrer"
+          },
+          {
+            "chords": "         F#               B",
+            "lyrics": "Sem salvação, sem o Teu favor."
+          },
+          {
+            "chords": "                          E ",
+            "lyrics": "Mas, crendo_em Ti, alcançará"
+          },
+          {
+            "chords": "       B        C#   F#     B",
+            "lyrics": "Divina graça,_ó Re – den - tor!"
+          }
+        ]
+      }
+    ]
+  }
 }

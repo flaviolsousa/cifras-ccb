@@ -1,49 +1,116 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória a Jesus! Glória a Jesus!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                 D ",
-    "1. Sobre_o monte_e perante_os Seus",
-    "                G",
-    "Cristo transfigurou-Se,",
-    "            D ",
-    "E a voz do eterno Deus,",
-    "                   G",
-    "Da nuvem, fez-se_ouvir:",
-    "                     C    G                  A7    D ",
-    "“Este_é_o Meu Filho_ama - do; n´Ele Eu Me compra - zo.”",
-    "",
-    "D               G",
-    "Glória_a Jesus! Glória_a Jesus!",
-    "C         D      G",
-    "De Quem o Pai testificou;",
-    "C/E             D          G",
-    "Glória_a Jesus! Glória_a Jesus!",
-    "C         D    G",
-    "Que muito nos amou.",
-    "",
-    "   G              D ",
-    "2. O Seu rosto resplandeceu",
-    "                G",
-    "E como_o sol tornou-se;",
-    "                 D ",
-    "Seu vestido se_embranqueceu,",
-    "                  G",
-    "Brilhando como_a luz;",
-    "              C    G                       A7   D ",
-    "E os que isto vi - ram, grande_assombro senti - ram.",
-    "",
-    "   G             D ",
-    "3. A Jesus vamos escutar",
-    "               G",
-    "E ser_lhe consagrados;",
-    "               D ",
-    "Sua glória nos vai mostrar,",
-    "                G",
-    "Quando_Ele retornar;",
-    "                 C    G                 A7   D ",
-    "Foi por Deus exalta - do, nosso Mestre ama - do."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                 D ",
+            "lyrics": "Sobre_o monte_e perante_os Seus"
+          },
+          {
+            "chords": "                G",
+            "lyrics": "Cristo transfigurou-Se,"
+          },
+          {
+            "chords": "            D ",
+            "lyrics": "E a voz do eterno Deus,"
+          },
+          {
+            "chords": "                   G",
+            "lyrics": "Da nuvem, fez-se_ouvir:"
+          },
+          {
+            "chords": "                     C    G                  A7    D ",
+            "lyrics": "“Este_é_o Meu Filho_ama - do; n´Ele Eu Me compra - zo.”"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D               G",
+            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
+          },
+          {
+            "chords": "C         D      G",
+            "lyrics": "De Quem o Pai testificou;"
+          },
+          {
+            "chords": "C/E             D          G",
+            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
+          },
+          {
+            "chords": "C         D    G",
+            "lyrics": "Que muito nos amou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G              D ",
+            "lyrics": "O Seu rosto resplandeceu"
+          },
+          {
+            "chords": "                G",
+            "lyrics": "E como_o sol tornou-se;"
+          },
+          {
+            "chords": "                 D ",
+            "lyrics": "Seu vestido se_embranqueceu,"
+          },
+          {
+            "chords": "                  G",
+            "lyrics": "Brilhando como_a luz;"
+          },
+          {
+            "chords": "              C    G                       A7   D ",
+            "lyrics": "E os que isto vi - ram, grande_assombro senti - ram."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G             D ",
+            "lyrics": "A Jesus vamos escutar"
+          },
+          {
+            "chords": "               G",
+            "lyrics": "E ser_lhe consagrados;"
+          },
+          {
+            "chords": "               D ",
+            "lyrics": "Sua glória nos vai mostrar,"
+          },
+          {
+            "chords": "                G",
+            "lyrics": "Quando_Ele retornar;"
+          },
+          {
+            "chords": "                 C    G                 A7   D ",
+            "lyrics": "Foi por Deus exalta - do, nosso Mestre ama - do."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

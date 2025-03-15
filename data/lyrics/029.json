@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor Jesus, Tu és o meu Rochedo",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A",
-    "1. Senhor Jesus, Tu és o meu Rochedo,",
-    "      D         B7          E",
-    "Só em Ti desejo sempre confiar;",
-    "  A",
-    "Defende-me de todo_o mal e medo,",
-    "       E                    A",
-    "Pois somente Tu me podes ajudar.",
-    "",
-    "     E             A",
-    "Ó senhor, vem conduzir-me",
-    "       B7                   E",
-    "Pelo_Espírito à pátria eternal;",
-    "      A           D   D...",
-    "Da verdade vem cingir-me",
-    "     E                     A",
-    "E de toda_a armadura celestial.",
-    "",
-    "      A",
-    "2. Senhor Jesus, a Tua mão potente",
-    "     D           B7           E",
-    "Me fará vencer o mundo_enganador,",
-    "  A",
-    "Esteja Tua força_em mim presente",
-    "      E                     A",
-    "E Te glorificarei, ó meu Senhor.",
-    "",
-    "      A",
-    "3. Senhor Jesus, és minha Esperança,",
-    "       D           B7           E ",
-    "Meu Refúgio, meu Escudo_e Defensor;",
-    "   A",
-    "Ao coração dá firme confiança",
-    "     E                       A",
-    "Para sempre ser fiel e vencedor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A",
+            "lyrics": "Senhor Jesus, Tu és o meu Rochedo,"
+          },
+          {
+            "chords": "      D         B7          E",
+            "lyrics": "Só em Ti desejo sempre confiar;"
+          },
+          {
+            "chords": "  A",
+            "lyrics": "Defende-me de todo_o mal e medo,"
+          },
+          {
+            "chords": "       E                    A",
+            "lyrics": "Pois somente Tu me podes ajudar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     E             A",
+            "lyrics": "Ó senhor, vem conduzir-me"
+          },
+          {
+            "chords": "       B7                   E",
+            "lyrics": "Pelo_Espírito à pátria eternal;"
+          },
+          {
+            "chords": "      A           D   D...",
+            "lyrics": "Da verdade vem cingir-me"
+          },
+          {
+            "chords": "     E                     A",
+            "lyrics": "E de toda_a armadura celestial."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A",
+            "lyrics": "Senhor Jesus, a Tua mão potente"
+          },
+          {
+            "chords": "     D           B7           E",
+            "lyrics": "Me fará vencer o mundo_enganador,"
+          },
+          {
+            "chords": "  A",
+            "lyrics": "Esteja Tua força_em mim presente"
+          },
+          {
+            "chords": "      E                     A",
+            "lyrics": "E Te glorificarei, ó meu Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   A",
+            "lyrics": "Senhor Jesus, és minha Esperança,"
+          },
+          {
+            "chords": "       D           B7           E ",
+            "lyrics": "Meu Refúgio, meu Escudo_e Defensor;"
+          },
+          {
+            "chords": "   A",
+            "lyrics": "Ao coração dá firme confiança"
+          },
+          {
+            "chords": "     E                       A",
+            "lyrics": "Para sempre ser fiel e vencedor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

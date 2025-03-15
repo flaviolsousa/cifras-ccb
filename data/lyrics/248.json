@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Glória! Aleluia! Sinto Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                G        D",
-    "1. Glória!_Aleluia! Sinto Jesus,",
-    "       E                A ",
-    "Ele me guia na senda de luz;",
-    "D               G       D",
-    "Seu forte braço me susterá,",
-    "          G      A      D",
-    "De todo_o mal me defenderá.",
-    "",
-    "D                G        D",
-    "Glória!_Aleluia! Contemplarei",
-    "       G    E       A ",
-    "Face a face o meu Senhor,",
-    "A7        D     G     D",
-    "E_então igual a Ele serei",
-    "          G     A            D",
-    "No Seu glorioso lar de_esplendor.",
-    "",
-    "   D                G            D",
-    "2. Glória!_Aleluia! Santo_é_o Senhor,",
-    "           E                A ",
-    "Três vezes Santo e rico_em amor;",
-    "D           G        D",
-    "Vivo seguro em Seu poder,",
-    "       G     A        D",
-    "E este mundo posso vencer.",
-    "",
-    "   D                G         D",
-    "3. Glória!_Aleluia! Amo_ao Senhor;",
-    "         E                   A ",
-    "Quero servi-Lo com todo_o fervor;",
-    "D             G       D",
-    "Em Sua glória eu entrarei",
-    "             G       A     D",
-    "E, junto_aos santos, habitarei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                G        D",
+            "lyrics": "Glória!_Aleluia! Sinto Jesus,"
+          },
+          {
+            "chords": "       E                A ",
+            "lyrics": "Ele me guia na senda de luz;"
+          },
+          {
+            "chords": "D               G       D",
+            "lyrics": "Seu forte braço me susterá,"
+          },
+          {
+            "chords": "          G      A      D",
+            "lyrics": "De todo_o mal me defenderá."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D                G        D",
+            "lyrics": "Glória!_Aleluia! Contemplarei"
+          },
+          {
+            "chords": "       G    E       A ",
+            "lyrics": "Face a face o meu Senhor,"
+          },
+          {
+            "chords": "A7        D     G     D",
+            "lyrics": "E_então igual a Ele serei"
+          },
+          {
+            "chords": "          G     A            D",
+            "lyrics": "No Seu glorioso lar de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                G            D",
+            "lyrics": "Glória!_Aleluia! Santo_é_o Senhor,"
+          },
+          {
+            "chords": "           E                A ",
+            "lyrics": "Três vezes Santo e rico_em amor;"
+          },
+          {
+            "chords": "D           G        D",
+            "lyrics": "Vivo seguro em Seu poder,"
+          },
+          {
+            "chords": "       G     A        D",
+            "lyrics": "E este mundo posso vencer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                G         D",
+            "lyrics": "Glória!_Aleluia! Amo_ao Senhor;"
+          },
+          {
+            "chords": "         E                   A ",
+            "lyrics": "Quero servi-Lo com todo_o fervor;"
+          },
+          {
+            "chords": "D             G       D",
+            "lyrics": "Em Sua glória eu entrarei"
+          },
+          {
+            "chords": "             G       A     D",
+            "lyrics": "E, junto_aos santos, habitarei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

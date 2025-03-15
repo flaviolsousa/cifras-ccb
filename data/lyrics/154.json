@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Terá que renascer",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E                  A           E",
-    "1. O homem que busca a Cristo, o Senhor,",
-    "   B7            E",
-    "Querendo a vida eterna encontrar,",
-    "                    A        E",
-    "O Santo conselho do bom Redentor",
-    "    F#7       B7 ",
-    "Não deve rejeitar.",
-    "",
-    "  E            A  ",
-    "Terá que renascer,",
-    "  B7           E ",
-    "Terá que renascer.  ",
-    "              F#m       G#m       A ",
-    "Quem quer habitar nas moradas de Deus,",
-    "  E      B7    E ",
-    "Terá que renascer.",
-    "",
-    "      E                   A           E",
-    "2. Da água e do Espírito quem não nascer,",
-    "  B7                 E",
-    "Jamais poderá ver o reino dos céus,",
-    "                    A      E",
-    "E nem entrará nele para viver;",
-    "  F#7          B7 ",
-    "Jamais verá a Deus.”",
-    "",
-    "       E                 A        E",
-    "3. Só Cristo, unigênito Filho de Deus,",
-    "  B7                E",
-    "Liberta o homem da condenação,",
-    "                     A         E",
-    "A fim de levá-lo ao reino dos céus",
-    "  F#7           B7 ",
-    "E dar-lhe galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E                  A           E",
+            "lyrics": "O homem que busca a Cristo, o Senhor,"
+          },
+          {
+            "chords": "   B7            E",
+            "lyrics": "Querendo a vida eterna encontrar,"
+          },
+          {
+            "chords": "                    A        E",
+            "lyrics": "O Santo conselho do bom Redentor"
+          },
+          {
+            "chords": "    F#7       B7 ",
+            "lyrics": "Não deve rejeitar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  E            A  ",
+            "lyrics": "Terá que renascer,"
+          },
+          {
+            "chords": "  B7           E ",
+            "lyrics": "Terá que renascer.  "
+          },
+          {
+            "chords": "              F#m       G#m       A ",
+            "lyrics": "Quem quer habitar nas moradas de Deus,"
+          },
+          {
+            "chords": "  E      B7    E ",
+            "lyrics": "Terá que renascer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   E                   A           E",
+            "lyrics": "Da água e do Espírito quem não nascer,"
+          },
+          {
+            "chords": "  B7                 E",
+            "lyrics": "Jamais poderá ver o reino dos céus,"
+          },
+          {
+            "chords": "                    A      E",
+            "lyrics": "E nem entrará nele para viver;"
+          },
+          {
+            "chords": "  F#7          B7 ",
+            "lyrics": "Jamais verá a Deus.”"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    E                 A        E",
+            "lyrics": "Só Cristo, unigênito Filho de Deus,"
+          },
+          {
+            "chords": "  B7                E",
+            "lyrics": "Liberta o homem da condenação,"
+          },
+          {
+            "chords": "                     A         E",
+            "lyrics": "A fim de levá-lo ao reino dos céus"
+          },
+          {
+            "chords": "  F#7           B7 ",
+            "lyrics": "E dar-lhe galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

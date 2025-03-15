@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O divinal Cordeiro",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "     B          E        B           F# ",
-    "1. O divinal Cordeiro, puríssimo,_inocente,",
-    "  B             E       B      F#  B",
-    "Tomou os meus pecados e deu-me Sua fé;",
-    "    F#           B        E       F# ",
-    "Prostrar-me-ei humilde, a Ele reverente;",
-    "    B            E         B    F#     B",
-    "Por Seu precioso sangue eu alcancei mercê.",
-    "",
-    "     B         E         B            F# ",
-    "2. Estava no pecado, mas graça tenho_achado",
-    "   B              E       B      F#   B",
-    "Em Cristo, mui bondoso, Autor da salvação;",
-    " F#        B         E            F# ",
-    "Amável e humilde, ao Pai foi consagrado",
-    "  B           E          B     F#   B",
-    "A fim de libertar-me da_eterna perdição.",
-    "",
-    "      B          E        B           F# ",
-    "3. Ao divinal Cordeiro, Jesus, o Rei eterno,",
-    "    B            E      B  F#     B",
-    "Com toda_a minha alma entoarei louvor,",
-    "     F#       B         E             F# ",
-    "Pois Ele preparou-me um lar de_amor superno",
-    "   B           E        B    F#      B",
-    "No Seu celeste reino de vida e_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  B          E        B           F# ",
+            "lyrics": "O divinal Cordeiro, puríssimo,_inocente,"
+          },
+          {
+            "chords": "  B             E       B      F#  B",
+            "lyrics": "Tomou os meus pecados e deu-me Sua fé;"
+          },
+          {
+            "chords": "    F#           B        E       F# ",
+            "lyrics": "Prostrar-me-ei humilde, a Ele reverente;"
+          },
+          {
+            "chords": "    B            E         B    F#     B",
+            "lyrics": "Por Seu precioso sangue eu alcancei mercê."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  B         E         B            F# ",
+            "lyrics": "Estava no pecado, mas graça tenho_achado"
+          },
+          {
+            "chords": "   B              E       B      F#   B",
+            "lyrics": "Em Cristo, mui bondoso, Autor da salvação;"
+          },
+          {
+            "chords": " F#        B         E            F# ",
+            "lyrics": "Amável e humilde, ao Pai foi consagrado"
+          },
+          {
+            "chords": "  B           E          B     F#   B",
+            "lyrics": "A fim de libertar-me da_eterna perdição."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   B          E        B           F# ",
+            "lyrics": "Ao divinal Cordeiro, Jesus, o Rei eterno,"
+          },
+          {
+            "chords": "    B            E      B  F#     B",
+            "lyrics": "Com toda_a minha alma entoarei louvor,"
+          },
+          {
+            "chords": "     F#       B         E             F# ",
+            "lyrics": "Pois Ele preparou-me um lar de_amor superno"
+          },
+          {
+            "chords": "   B           E        B    F#      B",
+            "lyrics": "No Seu celeste reino de vida e_esplendor."
+          }
+        ]
+      }
+    ]
+  }
 }

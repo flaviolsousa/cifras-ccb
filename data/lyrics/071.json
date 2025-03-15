@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Senhor Jesus, eu recorro a Ti",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "        C",
-    "1. Ó Senhor Jesus, eu recorro_a Ti,",
-    "      Dm      G7        C",
-    "Teu poder manifesta em mim;",
-    "",
-    "Confiando_em Ti, sei que vencedor",
-    "     Dm          G7       C",
-    "Eu serei sobre_o vil tentador.",
-    "",
-    "    G          Am",
-    "Ó Jesus, meu Jesus,",
-    "       G7                  C  ",
-    "Faz-me sempre sentir Teu vigor;",
-    "    G           Am",
-    "Só assim, bom Jesus,",
-    "        G7                C",
-    "Sobre_o mal eu serei vencedor.",
-    "",
-    "        C",
-    "2. Ó Senhor Jesus, eu recorro_a Ti,",
-    "      Dm       G7       C",
-    "Forte Rocha Tu és para mim;",
-    "",
-    "Se, de coração, eu a Ti clamar,",
-    "    Dm          G7       C",
-    "Poderei sobre_o mal triunfar.",
-    "",
-    "        C",
-    "3. Ó Senhor Jesus, eu recorro_a Ti",
-    "     Dm       G7             C ",
-    "Para ter Teu amor sempre_em mim;",
-    "",
-    "Eu imploro_a Ti, queiras me guiar,",
-    "       Dm       G7       C",
-    "Para_o céu eu poder alcançar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     C",
+            "lyrics": "Ó Senhor Jesus, eu recorro_a Ti,"
+          },
+          {
+            "chords": "      Dm      G7        C",
+            "lyrics": "Teu poder manifesta em mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Confiando_em Ti, sei que vencedor"
+          },
+          {
+            "chords": "     Dm          G7       C",
+            "lyrics": "Eu serei sobre_o vil tentador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G          Am",
+            "lyrics": "Ó Jesus, meu Jesus,"
+          },
+          {
+            "chords": "       G7                  C  ",
+            "lyrics": "Faz-me sempre sentir Teu vigor;"
+          },
+          {
+            "chords": "    G           Am",
+            "lyrics": "Só assim, bom Jesus,"
+          },
+          {
+            "chords": "        G7                C",
+            "lyrics": "Sobre_o mal eu serei vencedor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     C",
+            "lyrics": "Ó Senhor Jesus, eu recorro_a Ti,"
+          },
+          {
+            "chords": "      Dm       G7       C",
+            "lyrics": "Forte Rocha Tu és para mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Se, de coração, eu a Ti clamar,"
+          },
+          {
+            "chords": "    Dm          G7       C",
+            "lyrics": "Poderei sobre_o mal triunfar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     C",
+            "lyrics": "Ó Senhor Jesus, eu recorro_a Ti"
+          },
+          {
+            "chords": "     Dm       G7             C ",
+            "lyrics": "Para ter Teu amor sempre_em mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Eu imploro_a Ti, queiras me guiar,"
+          },
+          {
+            "chords": "       Dm       G7       C",
+            "lyrics": "Para_o céu eu poder alcançar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

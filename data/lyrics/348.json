@@ -1,33 +1,84 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Em Cristo espera, sem vacilar",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "         C                      G7           C",
-    "1. Na jornada do_Evangelho, caminhamos com Jesus;",
-    "          F             C           G7       Am",
-    "Ele_é o_Autor de todo_o bem; a quem crê e obedece,",
-    "    F               C            G7             C",
-    "O Senhor sempre_enriquece com os dons que d´Ele vêm.",
-    "",
-    "C                 G7      C",
-    "Em Cristo_espera, sem vacilar;",
-    "F            G7   F            C...",
-    "Paz, fé e virtude tem para nos dar.",
-    "",
-    "         C                     G7        C",
-    "2. Se em mar tempestuoso nosso barco perigar,",
-    "          F          C           G7        Am",
-    "Em Cristo vamos confiar; perto_está e nos atende,",
-    "       F         C          G7           C",
-    "Sempre Sua mão estende para vir nos libertar.",
-    "",
-    "           C                        G7        C",
-    "3. Nem os grandes sofrimentos nos separam do amor",
-    "        F            C            G7          Am",
-    "Do Redentor, o bom Jesus, que, as lutas desta vida,",
-    "      F           C         G7        C",
-    "Aos fiéis dará guarida; Ele é a nossa Luz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      C                      G7           C",
+            "lyrics": "Na jornada do_Evangelho, caminhamos com Jesus;"
+          },
+          {
+            "chords": "          F             C           G7       Am",
+            "lyrics": "Ele_é o_Autor de todo_o bem; a quem crê e obedece,"
+          },
+          {
+            "chords": "    F               C            G7             C",
+            "lyrics": "O Senhor sempre_enriquece com os dons que d´Ele vêm."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                 G7      C",
+            "lyrics": "Em Cristo_espera, sem vacilar;"
+          },
+          {
+            "chords": "F            G7   F            C...",
+            "lyrics": "Paz, fé e virtude tem para nos dar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      C                     G7        C",
+            "lyrics": "Se em mar tempestuoso nosso barco perigar,"
+          },
+          {
+            "chords": "          F          C           G7        Am",
+            "lyrics": "Em Cristo vamos confiar; perto_está e nos atende,"
+          },
+          {
+            "chords": "       F         C          G7           C",
+            "lyrics": "Sempre Sua mão estende para vir nos libertar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        C                        G7        C",
+            "lyrics": "Nem os grandes sofrimentos nos separam do amor"
+          },
+          {
+            "chords": "        F            C            G7          Am",
+            "lyrics": "Do Redentor, o bom Jesus, que, as lutas desta vida,"
+          },
+          {
+            "chords": "      F           C         G7        C",
+            "lyrics": "Aos fiéis dará guarida; Ele é a nossa Luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

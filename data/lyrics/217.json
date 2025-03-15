@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos, unidos, a Deus louvar",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D               A ",
-    "1. Vamos unidos, a Deus louvar",
-    "                 D",
-    "E a Jesus, nosso Rei, cantar,",
-    "Bm               E ",
-    "Pelo_Evangelho assegurar",
-    "                  A    A7 ",
-    "Que Cristo vai voltar.",
-    "",
-    "D      G              A7     D",
-    "Vem, Jesus, os Teus fiéis buscar,",
-    "         D7        G        E    A    A7   D    D...",
-    "Pois desejamos, um dia, nos céus há – bi - tar.",
-    "",
-    "   D                A ",
-    "2. Vamos a todos testificar",
-    "                       D",
-    "Que Deus mandou Cristo a salvar;",
-    "Bm              E ",
-    "E quem a Ele se entregar,",
-    "              A    A7 ",
-    "No céu irá reinar.",
-    "",
-    "   D                     A ",
-    "3. Vamos, irmãos, a Deus celebrar,",
-    "                  D",
-    "E não cessemos de afirmar",
-    "Bm                     E ",
-    "Que, só por Cristo, se pode_entrar",
-    "                A    A7 ",
-    "No céu, eterno lar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D               A ",
+            "lyrics": "Vamos unidos, a Deus louvar"
+          },
+          {
+            "chords": "                 D",
+            "lyrics": "E a Jesus, nosso Rei, cantar,"
+          },
+          {
+            "chords": "Bm               E ",
+            "lyrics": "Pelo_Evangelho assegurar"
+          },
+          {
+            "chords": "                  A    A7 ",
+            "lyrics": "Que Cristo vai voltar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D      G              A7     D",
+            "lyrics": "Vem, Jesus, os Teus fiéis buscar,"
+          },
+          {
+            "chords": "         D7        G        E    A    A7   D    D...",
+            "lyrics": "Pois desejamos, um dia, nos céus há – bi - tar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                A ",
+            "lyrics": "Vamos a todos testificar"
+          },
+          {
+            "chords": "                       D",
+            "lyrics": "Que Deus mandou Cristo a salvar;"
+          },
+          {
+            "chords": "Bm              E ",
+            "lyrics": "E quem a Ele se entregar,"
+          },
+          {
+            "chords": "              A    A7 ",
+            "lyrics": "No céu irá reinar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                     A ",
+            "lyrics": "Vamos, irmãos, a Deus celebrar,"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "E não cessemos de afirmar"
+          },
+          {
+            "chords": "Bm                     E ",
+            "lyrics": "Que, só por Cristo, se pode_entrar"
+          },
+          {
+            "chords": "                A    A7 ",
+            "lyrics": "No céu, eterno lar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

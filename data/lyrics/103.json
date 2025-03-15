@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Bendize, ó minha alma",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                F  C      Am           G",
-    "1. Bendize,_ó minha al-ma, ao teu amado Senhor,",
-    "   C               F     F...     C        G          C",
-    "Bendize_o Nome do eterno Deus; é grande o bem que te faz;",
-    "G                 C         D              G",
-    "Nunca te esqueças do amor e do celestial favor;",
-    "  C                  F     F...   C        G        C",
-    "É Ele Quem perdoa_os erros teus e te dá conforto e paz.",
-    "",
-    "C               F  C",
-    "Ao Pai da_Eternida-de,",
-    "G7                 C",
-    "Grande_em benignidade,",
-    "         C7   F",
-    "Glória e majestade,",
-    "  C      G          C",
-    "Domínio, honra_e louvor!",
-    "",
-    "   C                 F  C     Am                 G",
-    "2. Todo_o meu ser bendi-ga ao Deus que dá perfeição;",
-    "  C                 F     F...     C         G       C",
-    "O bálsamo que me_alivia_a dor, do Seu santo trono provém;",
-    "G                 C            D                 G",
-    "Ele afastou, por Seu amor, de mim a grande maldição;",
-    "   C                    F     F...   C         G       C",
-    "E, aos que cumprem Sua_eterna lei, reserva no céu sumo bem.",
-    "",
-    "   C              F  C        Am                G",
-    "3. Oh! Bendizei-O sempre, vós todos, os santos Seus,",
-    "  C                    F    F...    C       G       C",
-    "E todos vós que sempre O servis, o Seu Nome engrandecei;",
-    "G             C              D                     G",
-    "Ele é fiel, é justo_e bom, e para todo_o sempre_é Deus;",
-    "    C                     F    F...    C     G       C",
-    "Vós todos que sois filhos do Senhor, a Ele somente temei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                F  C      Am           G",
+            "lyrics": "Bendize,_ó minha al-ma, ao teu amado Senhor,"
+          },
+          {
+            "chords": "   C               F     F...     C        G          C",
+            "lyrics": "Bendize_o Nome do eterno Deus; é grande o bem que te faz;"
+          },
+          {
+            "chords": "G                 C         D              G",
+            "lyrics": "Nunca te esqueças do amor e do celestial favor;"
+          },
+          {
+            "chords": "  C                  F     F...   C        G        C",
+            "lyrics": "É Ele Quem perdoa_os erros teus e te dá conforto e paz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C               F  C",
+            "lyrics": "Ao Pai da_Eternida-de,"
+          },
+          {
+            "chords": "G7                 C",
+            "lyrics": "Grande_em benignidade,"
+          },
+          {
+            "chords": "         C7   F",
+            "lyrics": "Glória e majestade,"
+          },
+          {
+            "chords": "  C      G          C",
+            "lyrics": "Domínio, honra_e louvor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                 F  C     Am                 G",
+            "lyrics": "Todo_o meu ser bendi-ga ao Deus que dá perfeição;"
+          },
+          {
+            "chords": "  C                 F     F...     C         G       C",
+            "lyrics": "O bálsamo que me_alivia_a dor, do Seu santo trono provém;"
+          },
+          {
+            "chords": "G                 C            D                 G",
+            "lyrics": "Ele afastou, por Seu amor, de mim a grande maldição;"
+          },
+          {
+            "chords": "   C                    F     F...   C         G       C",
+            "lyrics": "E, aos que cumprem Sua_eterna lei, reserva no céu sumo bem."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C              F  C        Am                G",
+            "lyrics": "Oh! Bendizei-O sempre, vós todos, os santos Seus,"
+          },
+          {
+            "chords": "  C                    F    F...    C       G       C",
+            "lyrics": "E todos vós que sempre O servis, o Seu Nome engrandecei;"
+          },
+          {
+            "chords": "G             C              D                     G",
+            "lyrics": "Ele é fiel, é justo_e bom, e para todo_o sempre_é Deus;"
+          },
+          {
+            "chords": "    C                     F    F...    C     G       C",
+            "lyrics": "Vós todos que sois filhos do Senhor, a Ele somente temei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

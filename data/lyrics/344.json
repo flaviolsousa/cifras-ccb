@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vou encontrar meu Deus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A",
-    "1. Para_a cidade eterna eu vou,",
-    "E                   A",
-    "Pois bem fundado em Cristo estou;",
-    "D                  A      A7",
-    "Tenho_a certeza de nela entrar",
-    "D       E      A",
-    "E com Jesus reinar.",
-    "",
-    "A",
-    "Vou encontrar meu Deus,",
-    "E                 B         E ",
-    "Com os remidos no reino de_amor;",
-    "A            D ",
-    "É meu desejo ir para_os céus",
-    "E                A",
-    "E_estar com o Senhor.",
-    "",
-    "   A",
-    "2. Por este mundo não tenho_atração;",
-    "E               A",
-    "Firme aguardo o meu galardão;",
-    "D                  A           A7",
-    "Para_alcançá-lo, Jesus, meu Pastor,",
-    "D       E    A",
-    "Me guia com amor.",
-    "",
-    "   A",
-    "3. Incomparável tesouro achei",
-    "E                  A",
-    "Em Jesus Cristo, o meu grande Rei;",
-    "D                  A         A7",
-    "Breve nos céus eu irei desfrutar",
-    "D          E       A",
-    "Glória que não tem par."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Para_a cidade eterna eu vou,"
+          },
+          {
+            "chords": "E                   A",
+            "lyrics": "Pois bem fundado em Cristo estou;"
+          },
+          {
+            "chords": "D                  A      A7",
+            "lyrics": "Tenho_a certeza de nela entrar"
+          },
+          {
+            "chords": "D       E      A",
+            "lyrics": "E com Jesus reinar."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "A"
+          },
+          {
+            "chords": "Vou encontrar meu Deus,",
+            "lyrics": "E                 B         E "
+          },
+          {
+            "chords": "Com os remidos no reino de_amor;",
+            "lyrics": "A            D "
+          },
+          {
+            "chords": "É meu desejo ir para_os céus",
+            "lyrics": "E                A"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Por este mundo não tenho_atração;"
+          },
+          {
+            "chords": "E               A",
+            "lyrics": "Firme aguardo o meu galardão;"
+          },
+          {
+            "chords": "D                  A           A7",
+            "lyrics": "Para_alcançá-lo, Jesus, meu Pastor,"
+          },
+          {
+            "chords": "D       E    A",
+            "lyrics": "Me guia com amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Incomparável tesouro achei"
+          },
+          {
+            "chords": "E                  A",
+            "lyrics": "Em Jesus Cristo, o meu grande Rei;"
+          },
+          {
+            "chords": "D                  A         A7",
+            "lyrics": "Breve nos céus eu irei desfrutar"
+          },
+          {
+            "chords": "D          E       A",
+            "lyrics": "Glória que não tem par."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A criança consagrada",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "        G",
-    "1. A criança consagrada ",
-    "     D     G    D",
-    "A Jesus, o Salvador,",
-    "G      D        G",
-    "É, por Ele, ensinada",
-    "     C      D   G",
-    "A servir ao Criador.",
-    "",
-    "           G",
-    "2. Cristo chama_os pequeninos",
-    "       D    G  D",
-    "Com ternura e amor;",
-    "G         D          G",
-    "Quando_a Deus entoam hinos",
-    "   C        D     G",
-    "É aceito_o seu louvor.",
-    "",
-    "          G",
-    "3. Cristo é a luz divina",
-    "    D   G       D",
-    "Enviada lá dos céus;",
-    "G   D              G",
-    "Ele trouxe_a sã doutrina",
-    "       C        D      G",
-    "Que conduz, por fé, a Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     G",
+            "lyrics": "A criança consagrada "
+          },
+          {
+            "chords": "     D     G    D",
+            "lyrics": "A Jesus, o Salvador,"
+          },
+          {
+            "chords": "G      D        G",
+            "lyrics": "É, por Ele, ensinada"
+          },
+          {
+            "chords": "     C      D   G",
+            "lyrics": "A servir ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        G",
+            "lyrics": "Cristo chama_os pequeninos"
+          },
+          {
+            "chords": "       D    G  D",
+            "lyrics": "Com ternura e amor;"
+          },
+          {
+            "chords": "G         D          G",
+            "lyrics": "Quando_a Deus entoam hinos"
+          },
+          {
+            "chords": "   C        D     G",
+            "lyrics": "É aceito_o seu louvor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       G",
+            "lyrics": "Cristo é a luz divina"
+          },
+          {
+            "chords": "    D   G       D",
+            "lyrics": "Enviada lá dos céus;"
+          },
+          {
+            "chords": "G   D              G",
+            "lyrics": "Ele trouxe_a sã doutrina"
+          },
+          {
+            "chords": "       C        D      G",
+            "lyrics": "Que conduz, por fé, a Deus."
+          }
+        ]
+      }
+    ]
+  }
 }

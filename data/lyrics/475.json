@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Se eu for aqui provado",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "         E                      B",
-    "1. Se_eu for aqui provado, clamarei a Ti, Senhor;",
-    "                         E",
-    "Tu és o meu Socorro e também meu Defensor;",
-    "                      A ",
-    "E só por Teu poder, farei o Teu querer",
-    "  B                           E   E...",
-    "E vencerei, por fé, o mundo_enganador.",
-    "",
-    "         E                      B",
-    "2. Se_eu for aqui provado, clamarei a Ti, Senhor;",
-    "                              E",
-    "Confiante que_ouvirás e_atenderás ao meu clamor;",
-    "                      A",
-    "Se junto_a Ti viver e Te obedecer,",
-    "    B                      E    E...",
-    "Por certo eu serei em tudo vencedor.",
-    "",
-    "         E                       B",
-    "3. Se_eu for aqui_oprimido, clamarei a Ti, Senhor;",
-    "                       E",
-    "O santo Evangelho me dará o Teu valor;",
-    "                   A",
-    "Com Tua proteção terei a salvação",
-    "   B                           E",
-    "E_exaltarei Teu grande Nome,_ó Salvador.",
-    "",
-    "   E                              B",
-    "Já desde_a minha_infância clamo_a Ti, Senhor,",
-    "                           E",
-    "De todo_o coração e com sincero_amor;",
-    "                        A ",
-    "E Tu, meu bom Jesus, és sempre_a minha Luz",
-    "  B                       E     E...",
-    "E me conduzirás ao lar de esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      E                      B",
+            "lyrics": "Se_eu for aqui provado, clamarei a Ti, Senhor;"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Tu és o meu Socorro e também meu Defensor;"
+          },
+          {
+            "chords": "                      A ",
+            "lyrics": "E só por Teu poder, farei o Teu querer"
+          },
+          {
+            "chords": "  B                           E   E...",
+            "lyrics": "E vencerei, por fé, o mundo_enganador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      E                      B",
+            "lyrics": "Se_eu for aqui provado, clamarei a Ti, Senhor;"
+          },
+          {
+            "chords": "                              E",
+            "lyrics": "Confiante que_ouvirás e_atenderás ao meu clamor;"
+          },
+          {
+            "chords": "                      A",
+            "lyrics": "Se junto_a Ti viver e Te obedecer,"
+          },
+          {
+            "chords": "    B                      E    E...",
+            "lyrics": "Por certo eu serei em tudo vencedor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      E                       B",
+            "lyrics": "Se_eu for aqui_oprimido, clamarei a Ti, Senhor;"
+          },
+          {
+            "chords": "                       E",
+            "lyrics": "O santo Evangelho me dará o Teu valor;"
+          },
+          {
+            "chords": "                   A",
+            "lyrics": "Com Tua proteção terei a salvação"
+          },
+          {
+            "chords": "   B                           E",
+            "lyrics": "E_exaltarei Teu grande Nome,_ó Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   E                              B",
+            "lyrics": "Já desde_a minha_infância clamo_a Ti, Senhor,"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "De todo_o coração e com sincero_amor;"
+          },
+          {
+            "chords": "                        A ",
+            "lyrics": "E Tu, meu bom Jesus, és sempre_a minha Luz"
+          },
+          {
+            "chords": "  B                       E     E...",
+            "lyrics": "E me conduzirás ao lar de esplendor."
+          }
+        ]
+      }
+    ]
+  }
 }

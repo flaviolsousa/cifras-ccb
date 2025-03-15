@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Graças dou a Ti, ó bom Deus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "    G           C          G",
-    "1. Graças dou a Ti, ó bom Deus,",
-    "              A7         D ",
-    "Pois mandaste vida, dos céus",
-    " G              C           G",
-    "Por Jesus, que trouxe o perdão",
-    "Em    Am         D    G",
-    "E redimiu-me da perdição.",
-    "",
-    "    G           C         G",
-    "2. Graças dou a Ti, Formador,",
-    "               A7         D ",
-    "Pelas bênçãos, por Teu favor;",
-    " G        C       G",
-    "Jubiloso agora estou,",
-    "Em          Am        D    G",
-    "Pois Jesus Cristo me resgatou.",
-    "",
-    "    G           C             G",
-    "3. Graças dou a Ti, Deus de amor,",
-    "              A7        D ",
-    "Pois Tu ouves o meu clamor;",
-    "G           C          G",
-    "Só a Ti minh’alma se atém;",
-    " Em       Am           D    G",
-    "Graças Te dou, Pai do sumo bem."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " G           C          G",
+            "lyrics": "Graças dou a Ti, ó bom Deus,"
+          },
+          {
+            "chords": "              A7         D ",
+            "lyrics": "Pois mandaste vida, dos céus"
+          },
+          {
+            "chords": " G              C           G",
+            "lyrics": "Por Jesus, que trouxe o perdão"
+          },
+          {
+            "chords": "Em    Am         D    G",
+            "lyrics": "E redimiu-me da perdição."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " G           C         G",
+            "lyrics": "Graças dou a Ti, Formador,"
+          },
+          {
+            "chords": "               A7         D ",
+            "lyrics": "Pelas bênçãos, por Teu favor;"
+          },
+          {
+            "chords": " G        C       G",
+            "lyrics": "Jubiloso agora estou,"
+          },
+          {
+            "chords": "Em          Am        D    G",
+            "lyrics": "Pois Jesus Cristo me resgatou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " G           C             G",
+            "lyrics": "Graças dou a Ti, Deus de amor,"
+          },
+          {
+            "chords": "              A7        D ",
+            "lyrics": "Pois Tu ouves o meu clamor;"
+          },
+          {
+            "chords": "G           C          G",
+            "lyrics": "Só a Ti minh’alma se atém;"
+          },
+          {
+            "chords": " Em       Am           D    G",
+            "lyrics": "Graças Te dou, Pai do sumo bem."
+          }
+        ]
+      }
+    ]
+  }
 }

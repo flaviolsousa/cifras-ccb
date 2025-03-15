@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eis que vem Jesus",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "           E",
-    "1. Eis que vem Jesus, o nosso_Esposo divinal;",
-    "                                  B   B... ",
-    "Com prudência, vamos todos juntos vigiar;",
-    "         E         E...",
-    "Oh! Que paz celestial",
-    "     E                    B    E",
-    "Sentirá quem preparado-se encontrar!",
-    "",
-    "E             B   E  ",
-    "Jesus Cristo, o Esposo,",
-    "                  B ",
-    "Para_as bodas levará os Seus.",
-    " E           B    E",
-    "Que encontro glorioso",
-    "                    B      E",
-    "Para_os santos do vivente Deus!",
-    "",
-    "       E",
-    "2. Estejamos bem atentos, pois Jesus virá;",
-    "                              B   B... ",
-    "Sobre_as nuvens, glorioso, aparecerá;",
-    "       E          E...",
-    "Seus fiéis recolherá",
-    "     E                  B   E",
-    "E à glória prometida os levará.",
-    "",
-    "       E",
-    "3. Tua lâmpada não deve se_apagar, irmão;",
-    "                         B       B... ",
-    "O azeite da Palavra descerá dos céus;",
-    "     E          E...",
-    "A Jesus se juntarão",
-    "      E                      B       E",
-    "Os prudentes que serviram ao grande Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        E",
+            "lyrics": "Eis que vem Jesus, o nosso_Esposo divinal;"
+          },
+          {
+            "chords": "                                  B   B... ",
+            "lyrics": "Com prudência, vamos todos juntos vigiar;"
+          },
+          {
+            "chords": "         E         E...",
+            "lyrics": "Oh! Que paz celestial"
+          },
+          {
+            "chords": "     E                    B    E",
+            "lyrics": "Sentirá quem preparado-se encontrar!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E             B   E  ",
+            "lyrics": "Jesus Cristo, o Esposo,"
+          },
+          {
+            "chords": "                  B ",
+            "lyrics": "Para_as bodas levará os Seus."
+          },
+          {
+            "chords": " E           B    E",
+            "lyrics": "Que encontro glorioso"
+          },
+          {
+            "chords": "                    B      E",
+            "lyrics": "Para_os santos do vivente Deus!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Estejamos bem atentos, pois Jesus virá;"
+          },
+          {
+            "chords": "                              B   B... ",
+            "lyrics": "Sobre_as nuvens, glorioso, aparecerá;"
+          },
+          {
+            "chords": "       E          E...",
+            "lyrics": "Seus fiéis recolherá"
+          },
+          {
+            "chords": "     E                  B   E",
+            "lyrics": "E à glória prometida os levará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Tua lâmpada não deve se_apagar, irmão;"
+          },
+          {
+            "chords": "                         B       B... ",
+            "lyrics": "O azeite da Palavra descerá dos céus;"
+          },
+          {
+            "chords": "     E          E...",
+            "lyrics": "A Jesus se juntarão"
+          },
+          {
+            "chords": "      E                      B       E",
+            "lyrics": "Os prudentes que serviram ao grande Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

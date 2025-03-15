@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Palavra do Senhor é Pão celestial",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                          G ",
-    "1. A Palavra do Senhor, para mim,",
-    "                            C",
-    "É_um tesouro de valor sem igual;",
-    "         G            F           C",
-    "Fala do amor de Deus, o amor que não tem fim,",
-    "                 F    G       C",
-    "O amor que livra do poder do mal.",
-    "",
-    "C                               G ",
-    "A Palavra do Senhor, Pão celestial,",
-    "                                       C",
-    "Faz-nos caminhar na luz, livra-nos do mal;",
-    "                          C7              F ",
-    "Deus nos enviou dos céus, Cristo,_o _Emanuel,",
-    "             C           G       C",
-    "Rocha viva de_onde mana leite_e mel.",
-    "",
-    "    C                            G ",
-    "2. Luz que guia nas veredas dos céus",
-    "                           C",
-    "E_ilumina quem em trevas está;",
-    "             G          F           C",
-    "É a luz que nos faz ver as riquezas do bom Deus",
-    "                F   G      C",
-    "E entendimento divinal nos dá.",
-    "",
-    "   C                              G ",
-    "3. É_um farol de celestial esplendor,",
-    "                           C",
-    "Que nos guia à cidade_eternal;",
-    "                G          F              C",
-    "Quem com Cristo caminhar, quem servir ao Criador,",
-    "                 F      G   C",
-    "Certo chegará à pátria divinal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                          G ",
+            "lyrics": "A Palavra do Senhor, para mim,"
+          },
+          {
+            "chords": "                            C",
+            "lyrics": "É_um tesouro de valor sem igual;"
+          },
+          {
+            "chords": "         G            F           C",
+            "lyrics": "Fala do amor de Deus, o amor que não tem fim,"
+          },
+          {
+            "chords": "                 F    G       C",
+            "lyrics": "O amor que livra do poder do mal."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                               G ",
+            "lyrics": "A Palavra do Senhor, Pão celestial,"
+          },
+          {
+            "chords": "                                       C",
+            "lyrics": "Faz-nos caminhar na luz, livra-nos do mal;"
+          },
+          {
+            "chords": "                          C7              F ",
+            "lyrics": "Deus nos enviou dos céus, Cristo,_o _Emanuel,"
+          },
+          {
+            "chords": "             C           G       C",
+            "lyrics": "Rocha viva de_onde mana leite_e mel."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " C                            G ",
+            "lyrics": "Luz que guia nas veredas dos céus"
+          },
+          {
+            "chords": "                           C",
+            "lyrics": "E_ilumina quem em trevas está;"
+          },
+          {
+            "chords": "             G          F           C",
+            "lyrics": "É a luz que nos faz ver as riquezas do bom Deus"
+          },
+          {
+            "chords": "                F   G      C",
+            "lyrics": "E entendimento divinal nos dá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                              G ",
+            "lyrics": "É_um farol de celestial esplendor,"
+          },
+          {
+            "chords": "                           C",
+            "lyrics": "Que nos guia à cidade_eternal;"
+          },
+          {
+            "chords": "                G          F              C",
+            "lyrics": "Quem com Cristo caminhar, quem servir ao Criador,"
+          },
+          {
+            "chords": "                 F      G   C",
+            "lyrics": "Certo chegará à pátria divinal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

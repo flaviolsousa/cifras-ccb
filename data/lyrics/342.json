@@ -1,49 +1,101 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sião celestial",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "     C",
-    "1. Sião celestial é repouso dos santos,",
-    "  F        D                   Em ",
-    "O Seu Arquiteto_é chamado_“o Senhor”;",
-    " C       G           C",
-    "Ali entrarão, com louvor e com cantos,",
-    " F           C       G       C",
-    "Aqueles que_adoram o bom Criador,",
-    "           F              C",
-    "De preciosidades está adornada por Deus,",
-    "  F       D                   G ",
-    "É indescritível, sem par, sua luz;",
-    "  C                           G            C",
-    "A sua grandeza,_o Senhor reservou para_os Seus;",
-    "  Am      G                  C",
-    "Reflete a glória de Cristo Jesus,",
-    "   G        C",
-    "De Cristo Jesus, de Cristo Jesus,",
-    "  Am      G                  C",
-    "Reflete a glória de Cristo Jesus.",
-    "",
-    "     C",
-    "2. Naquela morada há luz permanente,",
-    "  F         D                 Em ",
-    "A Lâmpada_é Cristo Jesus, o Senhor;",
-    "   C         G          C",
-    "Os seus fundamentos são pedras fulgentes;",
-    "  F        C      G         C",
-    "É mui majestoso o seu esplendor.",
-    "            F                  C",
-    "Os santos remidos, com hino de glória triunfal,",
-    "  F          D                G ",
-    "Caminham com Cristo e lá reinarão.",
-    "  C                              G         C",
-    "Será, para_os justos, o lar de repouso_eternal;",
-    "  Am      G               C",
-    "Sublime será nossa consolação;",
-    "  G       C",
-    "Sublime será, sublime será,",
-    "  Am      G               C",
-    "Sublime será nossa consolação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  C",
+            "lyrics": "Sião celestial é repouso dos santos,"
+          },
+          {
+            "chords": "  F        D                   Em ",
+            "lyrics": "O Seu Arquiteto_é chamado_“o Senhor”;"
+          },
+          {
+            "chords": " C       G           C",
+            "lyrics": "Ali entrarão, com louvor e com cantos,"
+          },
+          {
+            "chords": " F           C       G       C",
+            "lyrics": "Aqueles que_adoram o bom Criador,"
+          },
+          {
+            "chords": "           F              C",
+            "lyrics": "De preciosidades está adornada por Deus,"
+          },
+          {
+            "chords": "  F       D                   G ",
+            "lyrics": "É indescritível, sem par, sua luz;"
+          },
+          {
+            "chords": "  C                           G            C",
+            "lyrics": "A sua grandeza,_o Senhor reservou para_os Seus;"
+          },
+          {
+            "chords": "  Am      G                  C",
+            "lyrics": "Reflete a glória de Cristo Jesus,"
+          },
+          {
+            "chords": "   G        C",
+            "lyrics": "De Cristo Jesus, de Cristo Jesus,"
+          },
+          {
+            "chords": "  Am      G                  C",
+            "lyrics": "Reflete a glória de Cristo Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  C",
+            "lyrics": "Naquela morada há luz permanente,"
+          },
+          {
+            "chords": "  F         D                 Em ",
+            "lyrics": "A Lâmpada_é Cristo Jesus, o Senhor;"
+          },
+          {
+            "chords": "   C         G          C",
+            "lyrics": "Os seus fundamentos são pedras fulgentes;"
+          },
+          {
+            "chords": "  F        C      G         C",
+            "lyrics": "É mui majestoso o seu esplendor."
+          },
+          {
+            "chords": "            F                  C",
+            "lyrics": "Os santos remidos, com hino de glória triunfal,"
+          },
+          {
+            "chords": "  F          D                G ",
+            "lyrics": "Caminham com Cristo e lá reinarão."
+          },
+          {
+            "chords": "  C                              G         C",
+            "lyrics": "Será, para_os justos, o lar de repouso_eternal;"
+          },
+          {
+            "chords": "  Am      G               C",
+            "lyrics": "Sublime será nossa consolação;"
+          },
+          {
+            "chords": "  G       C",
+            "lyrics": "Sublime será, sublime será,"
+          },
+          {
+            "chords": "  Am      G               C",
+            "lyrics": "Sublime será nossa consolação."
+          }
+        ]
+      }
+    ]
+  }
 }

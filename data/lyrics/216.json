@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Irmãos, amemos ao Senhor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "     D          ",
-    "1. Irmãos, amemos ao Senhor,",
-    "      A            D",
-    "Pois grande é Seu amor;",
-    "                    G",
-    "Seu precioso sangue derramou",
-    "  A              D",
-    "E nossas almas lavou.",
-    "",
-    "    A7           D",
-    "Com toda_a nossa devoção,",
-    "    E                 A    A...",
-    "Com toda_a força_e fervor,",
-    "    D               G",
-    "Com toda_a alma e_entendimento,",
-    " A           D    D...",
-    "Amemos ao Senhor.",
-    "",
-    "     D",
-    "2. Irmãos, amemos ao Senhor,",
-    "  A          D",
-    "Divino Ensinador,",
-    "                 G",
-    "A perfeita Fonte do saber,",
-    "    A                D",
-    "Que faz na graça crescer.",
-    "",
-    "     D",
-    "3. Irmãos, amemos ao Senhor,",
-    "  A            D",
-    "Autor e Consumador",
-    "                   G",
-    "Desta fé, que dá a salvação",
-    "  A              D",
-    "E celestial galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  D          ",
+            "lyrics": "Irmãos, amemos ao Senhor,"
+          },
+          {
+            "chords": "      A            D",
+            "lyrics": "Pois grande é Seu amor;"
+          },
+          {
+            "chords": "                    G",
+            "lyrics": "Seu precioso sangue derramou"
+          },
+          {
+            "chords": "  A              D",
+            "lyrics": "E nossas almas lavou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    A7           D",
+            "lyrics": "Com toda_a nossa devoção,"
+          },
+          {
+            "chords": "    E                 A    A...",
+            "lyrics": "Com toda_a força_e fervor,"
+          },
+          {
+            "chords": "    D               G",
+            "lyrics": "Com toda_a alma e_entendimento,"
+          },
+          {
+            "chords": " A           D    D...",
+            "lyrics": "Amemos ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  D",
+            "lyrics": "Irmãos, amemos ao Senhor,"
+          },
+          {
+            "chords": "  A          D",
+            "lyrics": "Divino Ensinador,"
+          },
+          {
+            "chords": "                 G",
+            "lyrics": "A perfeita Fonte do saber,"
+          },
+          {
+            "chords": "    A                D",
+            "lyrics": "Que faz na graça crescer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  D",
+            "lyrics": "Irmãos, amemos ao Senhor,"
+          },
+          {
+            "chords": "  A            D",
+            "lyrics": "Autor e Consumador"
+          },
+          {
+            "chords": "                   G",
+            "lyrics": "Desta fé, que dá a salvação"
+          },
+          {
+            "chords": "  A              D",
+            "lyrics": "E celestial galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

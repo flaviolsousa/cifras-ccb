@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Deus nos guarde...",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C                      G      C",
-    "1. Deus nos guarde em Seu santo_amor.",
-    "F                 C",
-    "O Seu Nome louvaremos",
-    "G                   C",
-    "Onde quer que nos achemos.",
-    "                       G      C",
-    "Deus nos guarde em Seu santo_amor.",
-    "",
-    "      C              F ",
-    "Ao voltar Jesus, estaremos",
-    "       C                  G ",
-    "Livres de qualquer condenação;",
-    "          C               F ",
-    "Junto_aos santos nós reinaremos;",
-    "       C             G  C",
-    "Que perfeita_e santa união!",
-    "",
-    "   C                       G    C",
-    "2. Deus nos guarde_em santificação",
-    "F                   C",
-    "Nos perigos da jornada,",
-    "G                    C",
-    "Dentro_em breve terminada;",
-    "                        G    C",
-    "Deus nos guarde_em santificação.",
-    "",
-    "   C                     G    C",
-    "3. Deus nos guarde com a Sua paz",
-    "F                       C",
-    "Para,_em comunhão, vivermos",
-    "G                  C",
-    "E ao fim perfeitos sermos;",
-    "                      G    C",
-    "Deus nos guarde com a Sua paz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C                      G      C",
+            "lyrics": "Deus nos guarde em Seu santo_amor."
+          },
+          {
+            "chords": "F                 C",
+            "lyrics": "O Seu Nome louvaremos"
+          },
+          {
+            "chords": "G                   C",
+            "lyrics": "Onde quer que nos achemos."
+          },
+          {
+            "chords": "                       G      C",
+            "lyrics": "Deus nos guarde em Seu santo_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      C              F ",
+            "lyrics": "Ao voltar Jesus, estaremos"
+          },
+          {
+            "chords": "       C                  G ",
+            "lyrics": "Livres de qualquer condenação;"
+          },
+          {
+            "chords": "          C               F ",
+            "lyrics": "Junto_aos santos nós reinaremos;"
+          },
+          {
+            "chords": "       C             G  C",
+            "lyrics": "Que perfeita_e santa união!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                       G    C",
+            "lyrics": "Deus nos guarde_em santificação"
+          },
+          {
+            "chords": "F                   C",
+            "lyrics": "Nos perigos da jornada,"
+          },
+          {
+            "chords": "G                    C",
+            "lyrics": "Dentro_em breve terminada;"
+          },
+          {
+            "chords": "                        G    C",
+            "lyrics": "Deus nos guarde_em santificação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                     G    C",
+            "lyrics": "Deus nos guarde com a Sua paz"
+          },
+          {
+            "chords": "F                       C",
+            "lyrics": "Para,_em comunhão, vivermos"
+          },
+          {
+            "chords": "G                  C",
+            "lyrics": "E ao fim perfeitos sermos;"
+          },
+          {
+            "chords": "                      G    C",
+            "lyrics": "Deus nos guarde com a Sua paz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

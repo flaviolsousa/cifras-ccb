@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quero, ó Senhor, ir Contigo ao céu",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "                 G                D ",
-    "1. Tenho,_em meu coração, real certeza",
-    "           C                     G",
-    "De que, no céu, com Cristo_habitarei,",
-    "                            C ",
-    "Pois minha sorte, eternal riqueza,",
-    "        G              D7   G",
-    "Está no céu, onde_a desfrutarei.",
-    "",
-    "G                C ",
-    "Quero, ó Senhor, ir Contigo_ao céu",
-    "             G",
-    "E contemplar Teu esplendor;",
-    "Em                             B ",
-    "Sei que me darás, na eternal Sião,",
-    "C        G        A    D7  G...",
-    "Grande e avultado ga – lardão.",
-    "",
-    "            G               D ",
-    "2. Bom testemunho levarei comigo,",
-    "         C               G",
-    "Se neste mundo eu manifestar",
-    "                               C ",
-    "Que Jesus Cristo_é verdadeiro_Amigo,",
-    "           G           D7   G",
-    "Por Quem a paz eu pude encontrar.",
-    "",
-    "           G                  D ",
-    "3. Vivendo sempre_em doce esperança,",
-    "          C                G",
-    "Em Cristo sinto divinal prazer;",
-    "                           C ",
-    "Receberei no céu a minha_herança",
-    "          G              D7   G",
-    "Que Deus irá, na glória, conceder."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "              G                D ",
+            "lyrics": "Tenho,_em meu coração, real certeza"
+          },
+          {
+            "chords": "           C                     G",
+            "lyrics": "De que, no céu, com Cristo_habitarei,"
+          },
+          {
+            "chords": "                            C ",
+            "lyrics": "Pois minha sorte, eternal riqueza,"
+          },
+          {
+            "chords": "        G              D7   G",
+            "lyrics": "Está no céu, onde_a desfrutarei."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                C ",
+            "lyrics": "Quero, ó Senhor, ir Contigo_ao céu"
+          },
+          {
+            "chords": "             G",
+            "lyrics": "E contemplar Teu esplendor;"
+          },
+          {
+            "chords": "Em                             B ",
+            "lyrics": "Sei que me darás, na eternal Sião,"
+          },
+          {
+            "chords": "C        G        A    D7  G...",
+            "lyrics": "Grande e avultado ga – lardão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         G               D ",
+            "lyrics": "Bom testemunho levarei comigo,"
+          },
+          {
+            "chords": "         C               G",
+            "lyrics": "Se neste mundo eu manifestar"
+          },
+          {
+            "chords": "                               C ",
+            "lyrics": "Que Jesus Cristo_é verdadeiro_Amigo,"
+          },
+          {
+            "chords": "           G           D7   G",
+            "lyrics": "Por Quem a paz eu pude encontrar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        G                  D ",
+            "lyrics": "Vivendo sempre_em doce esperança,"
+          },
+          {
+            "chords": "          C                G",
+            "lyrics": "Em Cristo sinto divinal prazer;"
+          },
+          {
+            "chords": "                           C ",
+            "lyrics": "Receberei no céu a minha_herança"
+          },
+          {
+            "chords": "          G              D7   G",
+            "lyrics": "Que Deus irá, na glória, conceder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

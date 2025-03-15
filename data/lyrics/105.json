@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Volta ao teu lar Paternal!",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B",
-    "1. Ó irmão que deixaste a casa do Senhor,",
-    "F#7                  B",
-    "Não mais andes longe do teu Pai celestial;",
-    "",
-    "Ele quer perdoar-te, por Seu sublime_amor;",
-    "F#7                   B    B...",
-    "Volta ao teu lar Paternal!",
-    "",
-    "   B",
-    "2. Ao lar que desprezaste, oh! volta, sem tardar,",
-    "F#7                     B",
-    "Pois só nele_encontras paz e consolação;",
-    "",
-    "Tuas culpas confessa, sem nada ocultar,",
-    "F#7                       B    B...",
-    "Grandioso_é_o Deus do perdão.",
-    "",
-    "   B",
-    "3. O bom Pai te espera e quer te acolher,",
-    "F#7                   B",
-    "E, nos céus, os anjos se regozijarão;",
-    "",
-    "De virtude e luz o Senhor te quer prover",
-    "F#7                     B",
-    "E, ao fim, te dar salvação.",
-    "",
-    "B",
-    "Vai, ó pródigo, vai",
-    "   F#7              B",
-    "Do pão do céu te saciar;",
-    "                  E",
-    "Deus te quer perdoar",
-    "F°  B  F#7           B",
-    "E  teus    pecados lavar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "Ó irmão que deixaste a casa do Senhor,"
+          },
+          {
+            "chords": "F#7                  B",
+            "lyrics": "Não mais andes longe do teu Pai celestial;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Ele quer perdoar-te, por Seu sublime_amor;"
+          },
+          {
+            "chords": "F#7                   B    B...",
+            "lyrics": "Volta ao teu lar Paternal!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "Ao lar que desprezaste, oh! volta, sem tardar,"
+          },
+          {
+            "chords": "F#7                     B",
+            "lyrics": "Pois só nele_encontras paz e consolação;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Tuas culpas confessa, sem nada ocultar,"
+          },
+          {
+            "chords": "F#7                       B    B...",
+            "lyrics": "Grandioso_é_o Deus do perdão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "O bom Pai te espera e quer te acolher,"
+          },
+          {
+            "chords": "F#7                   B",
+            "lyrics": "E, nos céus, os anjos se regozijarão;"
+          },
+          {
+            "chords": "",
+            "lyrics": "De virtude e luz o Senhor te quer prover"
+          },
+          {
+            "chords": "F#7                     B",
+            "lyrics": "E, ao fim, te dar salvação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "Vai, ó pródigo, vai"
+          },
+          {
+            "chords": "   F#7              B",
+            "lyrics": "Do pão do céu te saciar;"
+          },
+          {
+            "chords": "                  E",
+            "lyrics": "Deus te quer perdoar"
+          },
+          {
+            "chords": "F°  B  F#7           B",
+            "lyrics": "E  teus    pecados lavar."
+          }
+        ]
+      }
+    ]
+  }
 }

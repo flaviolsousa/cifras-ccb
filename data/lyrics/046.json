@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grandioso é o nosso Deus",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A               D      A",
-    "1. A Fortaleza de todo o crente",
-    "            B7      E    E7 ",
-    "É Deus, que tudo criou;",
-    "A                 D         A",
-    "É, na angústia, Socorro presente,",
-    "F#m       E          A",
-    "É Quem do pó nos formou.",
-    "",
-    "      E        A",
-    "Grandioso_é_o nosso Deus,",
-    "B7                   E   E7... ",
-    "O Deus que sonda os corações;",
-    "A               D       A",
-    "Sobre a terra é Ele_exaltado",
-    "F#m       E      A",
-    "Entre as suas nações.",
-    "",
-    "    A                   D          A",
-    "2. Mesmo mudando-se_os montes e_a terra,",
-    "         B7       E    E7 ",
-    "Não sentiremos temor;",
-    " A                D          A",
-    "Tudo debaixo das mãos Deus encerra,",
-    "F#m        E        A",
-    "Pois é de tudo_o Senhor.",
-    "",
-    "    A                       D      A",
-    "3. Grande é_o Deus que nos tem agregado,",
-    "         B7      E    E7 ",
-    "Sempre conosco está;",
-    "  A                   D       A",
-    "\"Deus dos Exércitos\" Ele_é chamado,",
-    "F#m         E       A",
-    "Ele_é Quem vida nos dá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A               D      A",
+            "lyrics": "A Fortaleza de todo o crente"
+          },
+          {
+            "chords": "            B7      E    E7 ",
+            "lyrics": "É Deus, que tudo criou;"
+          },
+          {
+            "chords": "A                 D         A",
+            "lyrics": "É, na angústia, Socorro presente,"
+          },
+          {
+            "chords": "F#m       E          A",
+            "lyrics": "É Quem do pó nos formou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      E        A",
+            "lyrics": "Grandioso_é_o nosso Deus,"
+          },
+          {
+            "chords": "B7                   E   E7... ",
+            "lyrics": "O Deus que sonda os corações;"
+          },
+          {
+            "chords": "A               D       A",
+            "lyrics": "Sobre a terra é Ele_exaltado"
+          },
+          {
+            "chords": "F#m       E      A",
+            "lyrics": "Entre as suas nações."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " A                   D          A",
+            "lyrics": "Mesmo mudando-se_os montes e_a terra,"
+          },
+          {
+            "chords": "         B7       E    E7 ",
+            "lyrics": "Não sentiremos temor;"
+          },
+          {
+            "chords": " A                D          A",
+            "lyrics": "Tudo debaixo das mãos Deus encerra,"
+          },
+          {
+            "chords": "F#m        E        A",
+            "lyrics": "Pois é de tudo_o Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " A                       D      A",
+            "lyrics": "Grande é_o Deus que nos tem agregado,"
+          },
+          {
+            "chords": "         B7      E    E7 ",
+            "lyrics": "Sempre conosco está;"
+          },
+          {
+            "chords": "  A                   D       A",
+            "lyrics": "\"Deus dos Exércitos\" Ele_é chamado,"
+          },
+          {
+            "chords": "F#m         E       A",
+            "lyrics": "Ele_é Quem vida nos dá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

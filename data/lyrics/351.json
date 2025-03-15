@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, à Tua presença",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "      C             F ",
-    "1. Senhor, à Tua presença,",
-    "   G                 C",
-    "Em paz vamos nos prostrar,",
-    "",
-    "E, pelo_Espírito Santo,",
-    "    G7               C",
-    "Teu Nome celeste_invocar.",
-    "",
-    "      C                 F ",
-    "2. Senhor, és Tu que conheces",
-    "  G               C",
-    "O que sente_o coração;",
-    "",
-    "Humildes, Te suplicamos:",
-    " G7                C",
-    "Atende a nossa_oração.",
-    "",
-    "      C                 F ",
-    "3. Senhor, com fé nós rogamos:",
-    "   G               C",
-    "Concede-nos mais temor",
-    "",
-    "A fim de permanecermos",
-    "   G7             C",
-    "Em Tua justiça e_amor.",
-    "",
-    "      C             F ",
-    "4. Do trono da Tua graça,",
-    "  G           C",
-    "Envia consolação;",
-    "",
-    "As bênçãos nós esperamos;",
-    "   G7                C",
-    "Responde a nossa_oração."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   C             F ",
+            "lyrics": "Senhor, à Tua presença,"
+          },
+          {
+            "chords": "   G                 C",
+            "lyrics": "Em paz vamos nos prostrar,"
+          },
+          {
+            "chords": "",
+            "lyrics": "E, pelo_Espírito Santo,"
+          },
+          {
+            "chords": "    G7               C",
+            "lyrics": "Teu Nome celeste_invocar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   C                 F ",
+            "lyrics": "Senhor, és Tu que conheces"
+          },
+          {
+            "chords": "  G               C",
+            "lyrics": "O que sente_o coração;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Humildes, Te suplicamos:"
+          },
+          {
+            "chords": " G7                C",
+            "lyrics": "Atende a nossa_oração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   C                 F ",
+            "lyrics": "Senhor, com fé nós rogamos:"
+          },
+          {
+            "chords": "   G               C",
+            "lyrics": "Concede-nos mais temor"
+          },
+          {
+            "chords": "",
+            "lyrics": "A fim de permanecermos"
+          },
+          {
+            "chords": "   G7             C",
+            "lyrics": "Em Tua justiça e_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "   C             F ",
+            "lyrics": "Do trono da Tua graça,"
+          },
+          {
+            "chords": "  G           C",
+            "lyrics": "Envia consolação;"
+          },
+          {
+            "chords": "",
+            "lyrics": "As bênçãos nós esperamos;"
+          },
+          {
+            "chords": "   G7                C",
+            "lyrics": "Responde a nossa_oração."
+          }
+        ]
+      }
+    ]
+  }
 }

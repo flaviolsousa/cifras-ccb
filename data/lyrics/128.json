@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu filho sou, ó Criador",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B                          F# ",
-    "1. Ó Deus, meu Pai, graças Te dou",
-    "                      B",
-    "Por desfrutar da Tua luz;",
-    "            B7       E ",
-    "Prosperarei em Ti, Senhor,",
-    "      B     F#    B",
-    "Tua Palavra me conduz.",
-    "",
-    "B                    C#m ",
-    "Teu filho sou, ó Criador,",
-    "      F#          B",
-    "Me adotaste, em Jesus;",
-    "                       E ",
-    "Santo_e sublime_é Teu amor;",
-    "       B      F#   B",
-    "Vivo feliz em Tua luz.",
-    "",
-    "   B                       F# ",
-    "2. Faz-me, Senhor, um vaso Teu,",
-    "                  B",
-    "Cheio de fé e de amor,",
-    "           B7        E ",
-    "Para poder sempre honrar",
-    "          B     F#   B",
-    "Teu santo Nome, ó Senhor.",
-    "",
-    "   B                    F# ",
-    "3. A Ti, Senhor, recorrerei,",
-    "                  B",
-    "Para poder me abrigar",
-    "              B7     E ",
-    "De todo_o mal e tentação,",
-    "          B     F#   B",
-    "Enquanto_aqui peregrinar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B                          F# ",
+            "lyrics": "Ó Deus, meu Pai, graças Te dou"
+          },
+          {
+            "chords": "                      B",
+            "lyrics": "Por desfrutar da Tua luz;"
+          },
+          {
+            "chords": "            B7       E ",
+            "lyrics": "Prosperarei em Ti, Senhor,"
+          },
+          {
+            "chords": "      B     F#    B",
+            "lyrics": "Tua Palavra me conduz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B                    C#m ",
+            "lyrics": "Teu filho sou, ó Criador,"
+          },
+          {
+            "chords": "      F#          B",
+            "lyrics": "Me adotaste, em Jesus;"
+          },
+          {
+            "chords": "                       E ",
+            "lyrics": "Santo_e sublime_é Teu amor;"
+          },
+          {
+            "chords": "       B      F#   B",
+            "lyrics": "Vivo feliz em Tua luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                       F# ",
+            "lyrics": "Faz-me, Senhor, um vaso Teu,"
+          },
+          {
+            "chords": "                  B",
+            "lyrics": "Cheio de fé e de amor,"
+          },
+          {
+            "chords": "           B7        E ",
+            "lyrics": "Para poder sempre honrar"
+          },
+          {
+            "chords": "          B     F#   B",
+            "lyrics": "Teu santo Nome, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                    F# ",
+            "lyrics": "A Ti, Senhor, recorrerei,"
+          },
+          {
+            "chords": "                  B",
+            "lyrics": "Para poder me abrigar"
+          },
+          {
+            "chords": "              B7     E ",
+            "lyrics": "De todo_o mal e tentação,"
+          },
+          {
+            "chords": "          B     F#   B",
+            "lyrics": "Enquanto_aqui peregrinar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

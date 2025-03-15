@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Por Cristo, resgatado",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A               Bm       E ",
-    "1. Cristo Jesus, o santo Cordeiro,",
-    "A            Bm        E7 ",
-    "Deu Sua vida sobre_o madeiro,",
-    "C#        F#m    B       E ",
-    "Com o Seu sangue me resgatou,",
-    "F#m    B7    E   E7 ",
-    "D´Ele agora sou.",
-    "",
-    "A                Bm   E ",
-    "Por Cristo, resgata - do,",
-    "Bm       E   G#7  A",
-    "Sirvo ao grande  Deus",
-    "A7     F#7  D     D#° ",
-    "Para a Ele  pertencer,",
-    "A         E7      A",
-    "Junto aos santos Seus.",
-    "",
-    "   A            Bm       E ",
-    "2. Preso estava na_iniquidade,",
-    "A                Bm     E7 ",
-    "Cristo me trouxe a liberdade;",
-    "C#      F#m   B       E ",
-    "Por Sua graça me resgatou,",
-    "F#m    B7   E   E7 ",
-    "D´Ele agora sou.",
-    "",
-    "   A              Bm        E ",
-    "3. Tem minha alma grande_alegria,",
-    "A             Bm     E7 ",
-    "Sem esperança sempre vivia;",
-    "C#         F#m     B       E ",
-    "Glória_a Jesus que me resgatou,",
-    "F#m    B7   E   E7 ",
-    "D´Ele agora sou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A               Bm       E ",
+            "lyrics": "Cristo Jesus, o santo Cordeiro,"
+          },
+          {
+            "chords": "A            Bm        E7 ",
+            "lyrics": "Deu Sua vida sobre_o madeiro,"
+          },
+          {
+            "chords": "C#        F#m    B       E ",
+            "lyrics": "Com o Seu sangue me resgatou,"
+          },
+          {
+            "chords": "F#m    B7    E   E7 ",
+            "lyrics": "D´Ele agora sou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                Bm   E ",
+            "lyrics": "Por Cristo, resgata - do,"
+          },
+          {
+            "chords": "Bm       E   G#7  A",
+            "lyrics": "Sirvo ao grande  Deus"
+          },
+          {
+            "chords": "A7     F#7  D     D#° ",
+            "lyrics": "Para a Ele  pertencer,"
+          },
+          {
+            "chords": "A         E7      A",
+            "lyrics": "Junto aos santos Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A            Bm       E ",
+            "lyrics": "Preso estava na_iniquidade,"
+          },
+          {
+            "chords": "A                Bm     E7 ",
+            "lyrics": "Cristo me trouxe a liberdade;"
+          },
+          {
+            "chords": "C#      F#m   B       E ",
+            "lyrics": "Por Sua graça me resgatou,"
+          },
+          {
+            "chords": "F#m    B7   E   E7 ",
+            "lyrics": "D´Ele agora sou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A              Bm        E ",
+            "lyrics": "Tem minha alma grande_alegria,"
+          },
+          {
+            "chords": "A             Bm     E7 ",
+            "lyrics": "Sem esperança sempre vivia;"
+          },
+          {
+            "chords": "C#         F#m     B       E ",
+            "lyrics": "Glória_a Jesus que me resgatou,"
+          },
+          {
+            "chords": "F#m    B7   E   E7 ",
+            "lyrics": "D´Ele agora sou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

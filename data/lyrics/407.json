@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "És bendito eternamente!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G",
-    "1. Oh! Quanto amo Tua lei eterna_e divinal!",
-    "  C                    A7          D",
-    "E nela eu medito dia_e noite, ó Senhor;",
-    "    G",
-    "Por Teus conselhos ando na justiça celestial,",
-    "      C     D   G",
-    "Nas veredas de amor.",
-    "",
-    "G                        D",
-    "És bendito_eternamente, glorioso Criador!",
-    "G               C  Am  E   Am    D    G",
-    "Minha alma, reverente, Te adora, ó Senhor.",
-    "",
-    "        G",
-    "2. Teus santos testemunhos me alegram, ó Senhor,",
-    "   C                          A7          D",
-    "As Tuas sãs palavras são mais doces que o mel,",
-    "     G",
-    "Pois falam das riquezas do Teu reino de_esplendor,",
-    "     C     D    G",
-    "Preparadas ao fiel.",
-    "",
-    "       G",
-    "3. Por Teu celeste_Espírito ensina-me, ó Deus,",
-    "  C                      A7      D",
-    "E dá-me as virtudes para Te obedecer;",
-    "  G",
-    "Desejo_ardentemente contemplar-Te lá nos céus",
-    "      C       D     G",
-    "E, Contigo,_então viver."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Oh! Quanto amo Tua lei eterna_e divinal!"
+          },
+          {
+            "chords": "  C                    A7          D",
+            "lyrics": "E nela eu medito dia_e noite, ó Senhor;"
+          },
+          {
+            "chords": "    G",
+            "lyrics": "Por Teus conselhos ando na justiça celestial,"
+          },
+          {
+            "chords": "      C     D   G",
+            "lyrics": "Nas veredas de amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                        D",
+            "lyrics": "És bendito_eternamente, glorioso Criador!"
+          },
+          {
+            "chords": "G               C  Am  E   Am    D    G",
+            "lyrics": "Minha alma, reverente, Te adora, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     G",
+            "lyrics": "Teus santos testemunhos me alegram, ó Senhor,"
+          },
+          {
+            "chords": "   C                          A7          D",
+            "lyrics": "As Tuas sãs palavras são mais doces que o mel,"
+          },
+          {
+            "chords": "     G",
+            "lyrics": "Pois falam das riquezas do Teu reino de_esplendor,"
+          },
+          {
+            "chords": "     C     D    G",
+            "lyrics": "Preparadas ao fiel."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Por Teu celeste_Espírito ensina-me, ó Deus,"
+          },
+          {
+            "chords": "  C                      A7      D",
+            "lyrics": "E dá-me as virtudes para Te obedecer;"
+          },
+          {
+            "chords": "  G",
+            "lyrics": "Desejo_ardentemente contemplar-Te lá nos céus"
+          },
+          {
+            "chords": "      C       D     G",
+            "lyrics": "E, Contigo,_então viver."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

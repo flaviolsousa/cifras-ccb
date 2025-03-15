@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eu desejo, Senhor",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E                   B7        E",
-    "1. Eu desejo, Senhor, só em Ti descansar",
-    "    A       E       B7",
-    "E aqui caminhar em amor;",
-    "        E              B7         E",
-    "Se por tribulação eu tiver que passar,",
-    "      A       B7      E",
-    "Me protege, ó bom Criador.",
-    "",
-    "B7        E         C#7         F#m",
-    "Quero, ó Deus, consagrar-Te meu ser;",
-    "      B7     E           B7      E",
-    "Minha alma deseja em Teu reino viver.",
-    "",
-    "        E                    B7           E",
-    "2. Eu desejo, Senhor, com fervor sempre_estar",
-    "          A          E        B7",
-    "Aos Teus pés, em constante_oração;",
-    "        E               B7      E",
-    "Guarda meu coração para nunca pecar;",
-    "          A         B7      E",
-    "Faz-me_andar sempre na retidão.",
-    "",
-    "        E                    B7       E",
-    "3. Eu desejo, Senhor, por Ti sempre viver",
-    "     A        E       B7",
-    "E cingir a coroa nos céus;",
-    "         E                  B7        E",
-    "Seja_em lutas ou paz, quero sempre dizer:",
-    "        A       B7         E",
-    "Meu Descanso és Tu, ó meu Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E                   B7        E",
+            "lyrics": "Eu desejo, Senhor, só em Ti descansar"
+          },
+          {
+            "chords": "    A       E       B7",
+            "lyrics": "E aqui caminhar em amor;"
+          },
+          {
+            "chords": "        E              B7         E",
+            "lyrics": "Se por tribulação eu tiver que passar,"
+          },
+          {
+            "chords": "      A       B7      E",
+            "lyrics": "Me protege, ó bom Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B7        E         C#7         F#m",
+            "lyrics": "Quero, ó Deus, consagrar-Te meu ser;"
+          },
+          {
+            "chords": "      B7     E           B7      E",
+            "lyrics": "Minha alma deseja em Teu reino viver."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     E                    B7           E",
+            "lyrics": "Eu desejo, Senhor, com fervor sempre_estar"
+          },
+          {
+            "chords": "          A          E        B7",
+            "lyrics": "Aos Teus pés, em constante_oração;"
+          },
+          {
+            "chords": "        E               B7      E",
+            "lyrics": "Guarda meu coração para nunca pecar;"
+          },
+          {
+            "chords": "          A         B7      E",
+            "lyrics": "Faz-me_andar sempre na retidão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E                    B7       E",
+            "lyrics": "Eu desejo, Senhor, por Ti sempre viver"
+          },
+          {
+            "chords": "     A        E       B7",
+            "lyrics": "E cingir a coroa nos céus;"
+          },
+          {
+            "chords": "         E                  B7        E",
+            "lyrics": "Seja_em lutas ou paz, quero sempre dizer:"
+          },
+          {
+            "chords": "        A       B7         E",
+            "lyrics": "Meu Descanso és Tu, ó meu Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

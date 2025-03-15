@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Soa a trombeta",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A",
-    "1. Ouve-se_em toda_a parte_anunciar:",
-    "E              A         E ",
-    "Já é chagado_o reino de_amor;",
-    "A",
-    "Cristo_é potente para salvar",
-    "        F#m  E      A",
-    "E dar a vida ao pecador.",
-    "",
-    "D               E       F#m ",
-    "Soa_a trombeta; oh! escutai",
-    "D     A     D       E ",
-    "O Evangelho do Salvador;",
-    "A",
-    "Vossos ouvidos, oh! inclinai",
-    "         F#m    E      A   A...",
-    "Ás sãs palavras do Criador.",
-    "",
-    "   A",
-    "2. Os mensageiros do Redentor",
-    "E             A       E ",
-    "As boas novas fazem ouvir,",
-    "A",
-    "Novas de paz, de vida_e de_amor,",
-    "        F#m    E        A",
-    "De um feliz e_eterno porvir.",
-    "",
-    "   A",
-    "3. Nesta mensagem, vinda de Deus,",
-    "E           A      E ",
-    "É manifesto ao pecador",
-    "A",
-    "Que, para todos, há salvação;",
-    "          F#m   E       A",
-    "Vinde_aceitá-la do Salvador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Ouve-se_em toda_a parte_anunciar:"
+          },
+          {
+            "chords": "E              A         E ",
+            "lyrics": "Já é chagado_o reino de_amor;"
+          },
+          {
+            "chords": "A",
+            "lyrics": "Cristo_é potente para salvar"
+          },
+          {
+            "chords": "        F#m  E      A",
+            "lyrics": "E dar a vida ao pecador."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "D               E       F#m "
+          },
+          {
+            "chords": "Soa_a trombeta; oh! escutai",
+            "lyrics": "D     A     D       E "
+          },
+          {
+            "chords": "O Evangelho do Salvador;",
+            "lyrics": "A"
+          },
+          {
+            "chords": "Vossos ouvidos, oh! inclinai",
+            "lyrics": "         F#m    E      A   A..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Os mensageiros do Redentor"
+          },
+          {
+            "chords": "E             A       E ",
+            "lyrics": "As boas novas fazem ouvir,"
+          },
+          {
+            "chords": "A",
+            "lyrics": "Novas de paz, de vida_e de_amor,"
+          },
+          {
+            "chords": "        F#m    E        A",
+            "lyrics": "De um feliz e_eterno porvir."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Nesta mensagem, vinda de Deus,"
+          },
+          {
+            "chords": "E           A      E ",
+            "lyrics": "É manifesto ao pecador"
+          },
+          {
+            "chords": "A",
+            "lyrics": "Que, para todos, há salvação;"
+          },
+          {
+            "chords": "          F#m   E       A",
+            "lyrics": "Vinde_aceitá-la do Salvador."
+          }
+        ]
+      }
+    ]
+  }
 }

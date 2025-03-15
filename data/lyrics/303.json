@@ -1,51 +1,107 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Senhor não mudará",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "       C              G ",
-    "1. Não mudará o nosso Deus,",
-    "              C",
-    "Não falhará o Seu poder;",
-    "              E     F        F... ",
-    "Cumprir-se-ão os planos Seus;",
-    "",
-    "[sem acorde]  D7      G   G7 ",
-    "",
-    "Em Deus há    luz e saber.",
-    "",
-    "C            G ",
-    "O Senhor não mudará;",
-    "              C",
-    "Seus intentos cumprirá;",
-    "            E    F     F... ",
-    "Firmes permane - cerão,",
-    "",
-    "[sem acorde]  C    D7    G   C",
-    "",
-    "Pois há em    Deus per - feição.",
-    "",
-    "      C                  G ",
-    "2. Se formos nós fiéis a Deus,",
-    "               C",
-    "Também fiel Se mostrará;",
-    "           E    F         F...  ",
-    "Triunfarão os filhos Seus,",
-    "",
-    "[sem acorde]  D7        G  G7 ",
-    "",
-    "Deus Pai    jamais falhará.",
-    "",
-    "      C                    G ",
-    "3. Em breve_irão passar os céus,",
-    "               C",
-    "Também a terra passará;",
-    "          E       F       F...   ",
-    "Mas é eterno_o nosso Deus",
-    "",
-    "[sem acorde]  D7        G  G7 ",
-    "",
-    "E       vida_eterna nos dá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    C              G ",
+            "lyrics": "Não mudará o nosso Deus,"
+          },
+          {
+            "chords": "              C",
+            "lyrics": "Não falhará o Seu poder;"
+          },
+          {
+            "chords": "              E     F        F... ",
+            "lyrics": "Cumprir-se-ão os planos Seus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "[sem acorde]  D7      G   G7 "
+          },
+          {
+            "chords": "",
+            "lyrics": "Em Deus há    luz e saber."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "C            G "
+          },
+          {
+            "chords": "O Senhor não mudará;",
+            "lyrics": "              C"
+          },
+          {
+            "chords": "Seus intentos cumprirá;",
+            "lyrics": "            E    F     F... "
+          },
+          {
+            "chords": "Firmes permane - cerão,",
+            "lyrics": ""
+          },
+          {
+            "chords": "[sem acorde]  C    D7    G   C",
+            "lyrics": ""
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   C                  G ",
+            "lyrics": "Se formos nós fiéis a Deus,"
+          },
+          {
+            "chords": "               C",
+            "lyrics": "Também fiel Se mostrará;"
+          },
+          {
+            "chords": "           E    F         F...  ",
+            "lyrics": "Triunfarão os filhos Seus,"
+          },
+          {
+            "chords": "",
+            "lyrics": "[sem acorde]  D7        G  G7 "
+          },
+          {
+            "chords": "",
+            "lyrics": "Deus Pai    jamais falhará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   C                    G ",
+            "lyrics": "Em breve_irão passar os céus,"
+          },
+          {
+            "chords": "               C",
+            "lyrics": "Também a terra passará;"
+          },
+          {
+            "chords": "          E       F       F...   ",
+            "lyrics": "Mas é eterno_o nosso Deus"
+          },
+          {
+            "chords": "",
+            "lyrics": "[sem acorde]  D7        G  G7 "
+          },
+          {
+            "chords": "",
+            "lyrics": "E       vida_eterna nos dá."
+          }
+        ]
+      }
+    ]
+  }
 }

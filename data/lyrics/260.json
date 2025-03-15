@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sou servo inútil, ó Deus piedoso",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "    D                G         A ",
-    "1. Sou servo inútil, ó Deus piedoso,",
-    "Em                 G          A ",
-    "Sou sempre fraco, sinto-me faltoso;",
-    "D          G        E      A ",
-    "Nesta imprudência, rogo clemência;",
-    "D                   G      A      D",
-    "Lava a minha alma, clamo a Ti, Senhor.",
-    "",
-    "    D                 G          A ",
-    "2. Sou servo inútil, servo imperfeito;",
-    "Em            G         A ",
-    "Vivo ansioso para ser aceito;",
-    "D         G       E      A ",
-    "Podes limpar-me, justificar-me;",
-    "D                  G      A  D",
-    "Se Tu o quiseres, nada impedirá.",
-    "",
-    "    D                G      A ",
-    "3. Sou servo inútil neste caminho,",
-    "Em                G          A ",
-    "Sem Teu cuidado, que farei sozinho?",
-    "D         G     E     A ",
-    "Este Teu filho roga auxílio;",
-    "D                  G     A      D",
-    "Ouve meu pedido: \"Compaixão, Senhor!\""
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " D                G         A ",
+            "lyrics": "Sou servo inútil, ó Deus piedoso,"
+          },
+          {
+            "chords": "Em                 G          A ",
+            "lyrics": "Sou sempre fraco, sinto-me faltoso;"
+          },
+          {
+            "chords": "D          G        E      A ",
+            "lyrics": "Nesta imprudência, rogo clemência;"
+          },
+          {
+            "chords": "D                   G      A      D",
+            "lyrics": "Lava a minha alma, clamo a Ti, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D                 G          A ",
+            "lyrics": "Sou servo inútil, servo imperfeito;"
+          },
+          {
+            "chords": "Em            G         A ",
+            "lyrics": "Vivo ansioso para ser aceito;"
+          },
+          {
+            "chords": "D         G       E      A ",
+            "lyrics": "Podes limpar-me, justificar-me;"
+          },
+          {
+            "chords": "D                  G      A  D",
+            "lyrics": "Se Tu o quiseres, nada impedirá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " D                G      A ",
+            "lyrics": "Sou servo inútil neste caminho,"
+          },
+          {
+            "chords": "Em                G          A ",
+            "lyrics": "Sem Teu cuidado, que farei sozinho?"
+          },
+          {
+            "chords": "D         G     E     A ",
+            "lyrics": "Este Teu filho roga auxílio;"
+          },
+          {
+            "chords": "D                  G     A      D",
+            "lyrics": "Ouve meu pedido: \"Compaixão, Senhor!\""
+          }
+        ]
+      }
+    ]
+  }
 }

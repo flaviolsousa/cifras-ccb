@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Palavra do Senhor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "        B                                     F#",
-    "1. Na Palavra do Senhor, bons conselhos pode_achar,",
-    "      B            E   F°     F#7           B",
-    "Neste mundo,_o pecador que na glória quer entrar;",
-    "B7     E                   B          F#",
-    "Tem virtude, tem vigor a Palavra do Senhor,",
-    "    B         E...  F°   F#7       B",
-    "É a Guia do fiel    para ir ao Criador.",
-    "",
-    "    B",
-    "A Palavra do Senhor ",
-    "         F# ",
-    "Mostra_a todo_o pecador",
-    "          G#m             E...",
-    "Que Deus, por Seu grande_amor,",
-    "    F#7       B    B...",
-    "Enviou o Salvador.",
-    "",
-    "           B                                 F#",
-    "2. Quem procura_o Salvador, certamente_O achará",
-    "       B         E    F°    F#7           B",
-    "No_Evangelho de amor, que riqueza_a todos dá;",
-    "B7      E                     B            F#",
-    "Quem quiser de graça ter o perdão e_a salvação,",
-    "       B           E...  F°     F#7      B",
-    "Deve_a Cristo recorrer,  com sincero coração.",
-    "",
-    "          B                               F#",
-    "3. Quem a Cristo encontrar e virtude suplicar,",
-    "        B        E  F°      F#7          B",
-    "Transformado ficará para,_a Deus, glorificar;",
-    "B7   E                   B           F#",
-    "Provará o puro_amor de Jesus, o Salvador,",
-    "      B         E...  F°   F#7        B",
-    "Sustentado pela fé    no poder do Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     B                                     F#",
+            "lyrics": "Na Palavra do Senhor, bons conselhos pode_achar,"
+          },
+          {
+            "chords": "      B            E   F°     F#7           B",
+            "lyrics": "Neste mundo,_o pecador que na glória quer entrar;"
+          },
+          {
+            "chords": "B7     E                   B          F#",
+            "lyrics": "Tem virtude, tem vigor a Palavra do Senhor,"
+          },
+          {
+            "chords": "    B         E...  F°   F#7       B",
+            "lyrics": "É a Guia do fiel    para ir ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    B",
+            "lyrics": "A Palavra do Senhor "
+          },
+          {
+            "chords": "         F# ",
+            "lyrics": "Mostra_a todo_o pecador"
+          },
+          {
+            "chords": "          G#m             E...",
+            "lyrics": "Que Deus, por Seu grande_amor,"
+          },
+          {
+            "chords": "    F#7       B    B...",
+            "lyrics": "Enviou o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        B                                 F#",
+            "lyrics": "Quem procura_o Salvador, certamente_O achará"
+          },
+          {
+            "chords": "       B         E    F°    F#7           B",
+            "lyrics": "No_Evangelho de amor, que riqueza_a todos dá;"
+          },
+          {
+            "chords": "B7      E                     B            F#",
+            "lyrics": "Quem quiser de graça ter o perdão e_a salvação,"
+          },
+          {
+            "chords": "       B           E...  F°     F#7      B",
+            "lyrics": "Deve_a Cristo recorrer,  com sincero coração."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       B                               F#",
+            "lyrics": "Quem a Cristo encontrar e virtude suplicar,"
+          },
+          {
+            "chords": "        B        E  F°      F#7          B",
+            "lyrics": "Transformado ficará para,_a Deus, glorificar;"
+          },
+          {
+            "chords": "B7   E                   B           F#",
+            "lyrics": "Provará o puro_amor de Jesus, o Salvador,"
+          },
+          {
+            "chords": "      B         E...  F°   F#7        B",
+            "lyrics": "Sustentado pela fé    no poder do Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

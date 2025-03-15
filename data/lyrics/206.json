@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tu és o Amigo",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "E...  B7    E       C#7      F#m ",
-    "1. Tu és o Amigo sincero_e leal",
-    "F#7  B7                E",
-    "Dos  que Te adoram, Senhor;",
-    "   B7           E          C#7       F#m ",
-    "Tu sempre_os proteges e_os livras do mal,",
-    "    E     F#7       B7 ",
-    "Por Tua Palavra de_amor.",
-    "",
-    "E",
-    "Com Teu poder, Senhor,",
-    "B7     E",
-    "Sempre guardas",
-    "          F#m      E           A ",
-    "As nossas almas no Teu grande_amor,",
-    "B7            E",
-    "Ó Jesus, Redentor.",
-    "",
-    "E...  B7       E       C#7      F#m ",
-    "2. És sempre fiel, ó Jesus Salvador,",
-    "F#7  B7                   E",
-    "Do   céu nos trouxeste a luz;",
-    "  B7          E        C#7    F#m ",
-    "Sofreste, por nós, amargura e dor,",
-    "   E      F#7      B7 ",
-    "No duro madeiro da cruz.",
-    "",
-    "E...   B7      E          C#7      F#m ",
-    "3. Por Ti, ó Jesus, temos vida_eternal,",
-    "F#7   B7                E",
-    "Tam - bém as riquezas reais,",
-    "   B7          E          C#7        F#m ",
-    "As quais nos darás no Teu lar celestial,",
-    "   E          F#7     B7 ",
-    "Se formos, em tudo, leais."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": ".  B7    E       C#7      F#m ",
+            "lyrics": "Tu és o Amigo sincero_e leal"
+          },
+          {
+            "chords": "F#7  B7                E",
+            "lyrics": "Dos  que Te adoram, Senhor;"
+          },
+          {
+            "chords": "   B7           E          C#7       F#m ",
+            "lyrics": "Tu sempre_os proteges e_os livras do mal,"
+          },
+          {
+            "chords": "    E     F#7       B7 ",
+            "lyrics": "Por Tua Palavra de_amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E",
+            "lyrics": "Com Teu poder, Senhor,"
+          },
+          {
+            "chords": "B7     E",
+            "lyrics": "Sempre guardas"
+          },
+          {
+            "chords": "          F#m      E           A ",
+            "lyrics": "As nossas almas no Teu grande_amor,"
+          },
+          {
+            "chords": "B7            E",
+            "lyrics": "Ó Jesus, Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": ".  B7       E       C#7      F#m ",
+            "lyrics": "És sempre fiel, ó Jesus Salvador,"
+          },
+          {
+            "chords": "F#7  B7                   E",
+            "lyrics": "Do   céu nos trouxeste a luz;"
+          },
+          {
+            "chords": "  B7          E        C#7    F#m ",
+            "lyrics": "Sofreste, por nós, amargura e dor,"
+          },
+          {
+            "chords": "   E      F#7      B7 ",
+            "lyrics": "No duro madeiro da cruz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": ".   B7      E          C#7      F#m ",
+            "lyrics": "Por Ti, ó Jesus, temos vida_eternal,"
+          },
+          {
+            "chords": "F#7   B7                E",
+            "lyrics": "Tam - bém as riquezas reais,"
+          },
+          {
+            "chords": "   B7          E          C#7        F#m ",
+            "lyrics": "As quais nos darás no Teu lar celestial,"
+          },
+          {
+            "chords": "   E          F#7     B7 ",
+            "lyrics": "Se formos, em tudo, leais."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

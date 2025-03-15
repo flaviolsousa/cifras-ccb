@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A minha alma sente paz no Senhor",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "           C           G        C",
-    "1. A minha alma sente paz no Senhor,",
-    " G            C",
-    "Paz eternal, paz sem igual;",
-    "                     G         C",
-    "Por essa paz irei ao reino de_amor,",
-    "G            C    C...",
-    "Reino celestial.",
-    "",
-    "            C              G      C",
-    "2. Meu coração já sente_o grande amor",
-    " G                 C",
-    "Que vem dos céus, que vem dos céus;",
-    "                 G         C",
-    "Eternamente eu serei do Senhor;",
-    " G                  C    C...",
-    "Grande_é o_amor de Deus!",
-    "",
-    "            C             G       C",
-    "3. Por Seu amor Jesus tornou-me feliz,",
-    "G            C",
-    "Muito feliz, muito feliz.",
-    "                 G       C",
-    "Irei com Ele ao eterno país,",
-    "G           C    C...",
-    "Celestial país."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        C           G        C",
+            "lyrics": "A minha alma sente paz no Senhor,"
+          },
+          {
+            "chords": " G            C",
+            "lyrics": "Paz eternal, paz sem igual;"
+          },
+          {
+            "chords": "                     G         C",
+            "lyrics": "Por essa paz irei ao reino de_amor,"
+          },
+          {
+            "chords": "G            C    C...",
+            "lyrics": "Reino celestial."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "         C              G      C",
+            "lyrics": "Meu coração já sente_o grande amor"
+          },
+          {
+            "chords": " G                 C",
+            "lyrics": "Que vem dos céus, que vem dos céus;"
+          },
+          {
+            "chords": "                 G         C",
+            "lyrics": "Eternamente eu serei do Senhor;"
+          },
+          {
+            "chords": " G                  C    C...",
+            "lyrics": "Grande_é o_amor de Deus!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         C             G       C",
+            "lyrics": "Por Seu amor Jesus tornou-me feliz,"
+          },
+          {
+            "chords": "G            C",
+            "lyrics": "Muito feliz, muito feliz."
+          },
+          {
+            "chords": "                 G       C",
+            "lyrics": "Irei com Ele ao eterno país,"
+          },
+          {
+            "chords": "G           C    C...",
+            "lyrics": "Celestial país."
+          }
+        ]
+      }
+    ]
+  }
 }

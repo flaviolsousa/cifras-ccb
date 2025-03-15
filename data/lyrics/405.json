@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Só por Cristo temos salvação",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "        A                     D             A",
-    "1. Só o sangue de Jesus tem poder de nos livrar",
-    "                          E",
-    "E de toda_a mancha nos limpar;",
-    "        A                   D",
-    "Todo_o que lavado for nesse sangue_expiador,",
-    "      A          E   A",
-    "O perdão terá do Criador.",
-    "",
-    "       A      D           A",
-    "Só por Cristo temos salvação,",
-    "    E         A",
-    "Divinal redenção;",
-    "           D         A",
-    "Entraremos na Sião celeste,",
-    "       E             A",
-    "Reino_eterno do bom Deus.",
-    "",
-    "        A                     D             A",
-    "2. Só o sangue de Jesus tem poder de nos salvar",
-    "                       E",
-    "E da tentação nos libertar;",
-    "     A                          D",
-    "Esse sangue tem valor, pois é_o preço do amor",
-    "         A          E    A",
-    "Com que nos remiu o Salvador.",
-    "",
-    "        A                     D           A",
-    "3. Só o sangue de Jesus tem poder de resgatar",
-    "                           E",
-    "Toda_a alma que se quer salvar;",
-    "    A                        D",
-    "Vitupério_e grande dor foram preço do favor",
-    "         A            E    A",
-    "Que_alcançamos do bom Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     A                     D             A",
+            "lyrics": "Só o sangue de Jesus tem poder de nos livrar"
+          },
+          {
+            "chords": "                          E",
+            "lyrics": "E de toda_a mancha nos limpar;"
+          },
+          {
+            "chords": "        A                   D",
+            "lyrics": "Todo_o que lavado for nesse sangue_expiador,"
+          },
+          {
+            "chords": "      A          E   A",
+            "lyrics": "O perdão terá do Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       A      D           A",
+            "lyrics": "Só por Cristo temos salvação,"
+          },
+          {
+            "chords": "    E         A",
+            "lyrics": "Divinal redenção;"
+          },
+          {
+            "chords": "           D         A",
+            "lyrics": "Entraremos na Sião celeste,"
+          },
+          {
+            "chords": "       E             A",
+            "lyrics": "Reino_eterno do bom Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     A                     D             A",
+            "lyrics": "Só o sangue de Jesus tem poder de nos salvar"
+          },
+          {
+            "chords": "                       E",
+            "lyrics": "E da tentação nos libertar;"
+          },
+          {
+            "chords": "     A                          D",
+            "lyrics": "Esse sangue tem valor, pois é_o preço do amor"
+          },
+          {
+            "chords": "         A          E    A",
+            "lyrics": "Com que nos remiu o Salvador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A                     D           A",
+            "lyrics": "Só o sangue de Jesus tem poder de resgatar"
+          },
+          {
+            "chords": "                           E",
+            "lyrics": "Toda_a alma que se quer salvar;"
+          },
+          {
+            "chords": "    A                        D",
+            "lyrics": "Vitupério_e grande dor foram preço do favor"
+          },
+          {
+            "chords": "         A            E    A",
+            "lyrics": "Que_alcançamos do bom Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

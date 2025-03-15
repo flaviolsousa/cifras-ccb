@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tu és Oleiro",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    " E...     A  E           B7 ",
-    "1. Tu és Oleiro, ó meu Senhor,",
-    "                      E",
-    "Eu sou argila na Tua mão;",
-    "        A  E  E7      A ",
-    "Vaso de honra e de louvor",
-    "           E        B7     E",
-    "Faz-me, Senhor, com Tua unção.",
-    "",
-    " E...      A   E          B7 ",
-    "2. Vem modelar-me, ó Formador,",
-    "                      E",
-    "Pela Palavra do Teu poder;",
-    "          A  E  E7        A ",
-    "Humilde_e manso faz-me, Senhor,",
-    "          E       B7       E",
-    "Cumpre em mim Teu santo querer.",
-    "",
-    " E...         A  E           B7 ",
-    "3. Em Teus preceitos quero viver,",
-    "                        E",
-    "Para servir-Te e Te_agradar;",
-    "       A    E   E7      A ",
-    "Pela Pala - vra vem remover",
-    "           E    B7       E",
-    "O que me_impede de Te louvar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "..     A  E           B7 ",
+            "lyrics": "Tu és Oleiro, ó meu Senhor,"
+          },
+          {
+            "chords": "                      E",
+            "lyrics": "Eu sou argila na Tua mão;"
+          },
+          {
+            "chords": "        A  E  E7      A ",
+            "lyrics": "Vaso de honra e de louvor"
+          },
+          {
+            "chords": "           E        B7     E",
+            "lyrics": "Faz-me, Senhor, com Tua unção."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "..      A   E          B7 ",
+            "lyrics": "Vem modelar-me, ó Formador,"
+          },
+          {
+            "chords": "                      E",
+            "lyrics": "Pela Palavra do Teu poder;"
+          },
+          {
+            "chords": "          A  E  E7        A ",
+            "lyrics": "Humilde_e manso faz-me, Senhor,"
+          },
+          {
+            "chords": "          E       B7       E",
+            "lyrics": "Cumpre em mim Teu santo querer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "..         A  E           B7 ",
+            "lyrics": "Em Teus preceitos quero viver,"
+          },
+          {
+            "chords": "                        E",
+            "lyrics": "Para servir-Te e Te_agradar;"
+          },
+          {
+            "chords": "       A    E   E7      A ",
+            "lyrics": "Pela Pala - vra vem remover"
+          },
+          {
+            "chords": "           E    B7       E",
+            "lyrics": "O que me_impede de Te louvar."
+          }
+        ]
+      }
+    ]
+  }
 }

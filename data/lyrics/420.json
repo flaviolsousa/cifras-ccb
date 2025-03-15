@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Foi no Calvário...",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G",
-    "1. Foi no Calvário que Jesus",
-    "                      D",
-    "As nossas culpas cancelou;",
-    "  G",
-    "Sofrendo grande dor na cruz,",
-    "     D                G ",
-    "Com Deus nos reconciliou.",
-    "",
-    "     G                       D",
-    "Pela morte na cruz, nos resgatou",
-    "                            G",
-    "O Senhor, que a Deus nos adotou;",
-    "                  D",
-    "Os Seus dons veio dar",
-    "     G          D   G",
-    "Para O podermos exaltar.",
-    "",
-    "     G",
-    "2. Á destra de Deus Pai está",
-    "                    D",
-    "Jesus, fiel Intercessor,",
-    "    G",
-    "Que sempre nos defenderá,",
-    "     D                    G",
-    "Por Seu glorioso_e santo_amor.",
-    "",
-    "      G",
-    "3. Louvor e honra_ao Criador,",
-    "                       D",
-    "Por ter mandado_o Salvador",
-    "   G",
-    "Justificar o pecador",
-    "  D                        G",
-    "E dar-lhe_o reino de_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Foi no Calvário que Jesus"
+          },
+          {
+            "chords": "                      D",
+            "lyrics": "As nossas culpas cancelou;"
+          },
+          {
+            "chords": "  G",
+            "lyrics": "Sofrendo grande dor na cruz,"
+          },
+          {
+            "chords": "     D                G ",
+            "lyrics": "Com Deus nos reconciliou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     G                       D",
+            "lyrics": "Pela morte na cruz, nos resgatou"
+          },
+          {
+            "chords": "                            G",
+            "lyrics": "O Senhor, que a Deus nos adotou;"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "Os Seus dons veio dar"
+          },
+          {
+            "chords": "     G          D   G",
+            "lyrics": "Para O podermos exaltar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G",
+            "lyrics": "Á destra de Deus Pai está"
+          },
+          {
+            "chords": "                    D",
+            "lyrics": "Jesus, fiel Intercessor,"
+          },
+          {
+            "chords": "    G",
+            "lyrics": "Que sempre nos defenderá,"
+          },
+          {
+            "chords": "     D                    G",
+            "lyrics": "Por Seu glorioso_e santo_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G",
+            "lyrics": "Louvor e honra_ao Criador,"
+          },
+          {
+            "chords": "                       D",
+            "lyrics": "Por ter mandado_o Salvador"
+          },
+          {
+            "chords": "   G",
+            "lyrics": "Justificar o pecador"
+          },
+          {
+            "chords": "  D                        G",
+            "lyrics": "E dar-lhe_o reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

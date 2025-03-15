@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Senhor é sempiterno",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B               F#7                  B",
-    "1. O Senhor é sempiterno, Ele nunca mudará;",
-    "                  E            F#7         B",
-    "Todas as fiéis promessas a Seu tempo cumprirá;",
-    "F#7                 B     C#7            F#  F#7 ",
-    "Por Seu sangue_imaculado, trouxe regeneração;",
-    "B                E           F#7            B",
-    "Operou, em nossa mente, celestial transformação.",
-    "",
-    "   B                 F#7                     B",
-    "2. Somos reis e sacerdotes feitos para_o Criador,",
-    "             E           F#7     B",
-    "E a Ele serviremos em justiça e amor,",
-    "F#7                B     C#7                F#  F#7 ",
-    "Para que entrar possamos na presença do bom Deus",
-    "B             E            F#7            B",
-    "E viver eternamente com os santos lá nos céus.",
-    "",
-    "   B                F#7                      B",
-    "3. Não percamos a herança que nos veio por Jesus;",
-    "                 E        F#7          B",
-    "Breve vamos possuí-la no eterno lar de luz.",
-    "F#7              B     C#7            F#  F#7 ",
-    "Prossigamos no caminho da cidade do Senhor,",
-    "B                E           F#7        B",
-    "Onde juntos reinaremos com o nosso Redentor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B               F#7                  B",
+            "lyrics": "O Senhor é sempiterno, Ele nunca mudará;"
+          },
+          {
+            "chords": "                  E            F#7         B",
+            "lyrics": "Todas as fiéis promessas a Seu tempo cumprirá;"
+          },
+          {
+            "chords": "F#7                 B     C#7            F#  F#7 ",
+            "lyrics": "Por Seu sangue_imaculado, trouxe regeneração;"
+          },
+          {
+            "chords": "B                E           F#7            B",
+            "lyrics": "Operou, em nossa mente, celestial transformação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                 F#7                     B",
+            "lyrics": "Somos reis e sacerdotes feitos para_o Criador,"
+          },
+          {
+            "chords": "             E           F#7     B",
+            "lyrics": "E a Ele serviremos em justiça e amor,"
+          },
+          {
+            "chords": "F#7                B     C#7                F#  F#7 ",
+            "lyrics": "Para que entrar possamos na presença do bom Deus"
+          },
+          {
+            "chords": "B             E            F#7            B",
+            "lyrics": "E viver eternamente com os santos lá nos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                F#7                      B",
+            "lyrics": "Não percamos a herança que nos veio por Jesus;"
+          },
+          {
+            "chords": "                 E        F#7          B",
+            "lyrics": "Breve vamos possuí-la no eterno lar de luz."
+          },
+          {
+            "chords": "F#7              B     C#7            F#  F#7 ",
+            "lyrics": "Prossigamos no caminho da cidade do Senhor,"
+          },
+          {
+            "chords": "B                E           F#7        B",
+            "lyrics": "Onde juntos reinaremos com o nosso Redentor."
+          }
+        ]
+      }
+    ]
+  }
 }

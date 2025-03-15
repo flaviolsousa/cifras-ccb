@@ -1,41 +1,100 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Não me cansarei de cantar",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "       A                 E ",
-    "1. Não me cansarei de cantar",
-    "            E7      A",
-    "Louvores ao meu Criador;",
-    "                     C#7  D ",
-    "A paz que me faz exultar",
-    "  E     E7      A",
-    "É fruto do Seu amor.",
-    "",
-    "A       D  A   B7                 E  E7... ",
-    "Glória, glória dou a Jesus com fervor;",
-    "    A              D ",
-    "Por Ele serei vencedor;",
-    "    E                  A",
-    "Oh! Glória ao meu Redentor.",
-    "",
-    "      A                  E ",
-    "2. De quando Jesus me chamou,",
-    "             E7         A",
-    "Não cesso de dar-Lhe louvor;",
-    "                     C#7  D ",
-    "Foi Ele Quem me resgatou,",
-    "   E      E7           A",
-    "Bendito_é Cristo,_o Senhor!",
-    "",
-    "     A                 E ",
-    "3. A santa presença de Deus,",
-    "           E7          A",
-    "Meu cálice faz transbordar;",
-    "                   C#7  D ",
-    "Terei regozijo nos céus,",
-    "   E       E7         A",
-    "Glorioso,_eterno, sem par."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    A                 E ",
+            "lyrics": "Não me cansarei de cantar"
+          },
+          {
+            "chords": "            E7      A",
+            "lyrics": "Louvores ao meu Criador;"
+          },
+          {
+            "chords": "                     C#7  D ",
+            "lyrics": "A paz que me faz exultar"
+          },
+          {
+            "chords": "  E     E7      A",
+            "lyrics": "É fruto do Seu amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A       D  A   B7                 E  E7... ",
+            "lyrics": "Glória, glória dou a Jesus com fervor;"
+          },
+          {
+            "chords": "    A              D ",
+            "lyrics": "Por Ele serei vencedor;"
+          },
+          {
+            "chords": "    E                  A",
+            "lyrics": "Oh! Glória ao meu Redentor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A                  E ",
+            "lyrics": "De quando Jesus me chamou,"
+          },
+          {
+            "chords": "             E7         A",
+            "lyrics": "Não cesso de dar-Lhe louvor;"
+          },
+          {
+            "chords": "                     C#7  D ",
+            "lyrics": "Foi Ele Quem me resgatou,"
+          },
+          {
+            "chords": "   E      E7           A",
+            "lyrics": "Bendito_é Cristo,_o Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  A                 E ",
+            "lyrics": "A santa presença de Deus,"
+          },
+          {
+            "chords": "           E7          A",
+            "lyrics": "Meu cálice faz transbordar;"
+          },
+          {
+            "chords": "                   C#7  D ",
+            "lyrics": "Terei regozijo nos céus,"
+          },
+          {
+            "chords": "   E       E7         A",
+            "lyrics": "Glorioso,_eterno, sem par."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

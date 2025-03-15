@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Porfiemos, irmãos, por entrar nos céus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "         D         A        D",
-    "1. Jesus Cristo no céu preparou",
-    "",
-    "Um lugar de repouso_e_esplendor;",
-    "                           Bm       D",
-    "Breve nos fará entrar onde Ele já entrou:",
-    "                A         D",
-    "Nas moradas do_eterno Criador.",
-    "",
-    "     D       Bm          A            D",
-    "Porfiemos, irmãos, por entrar lá nos céus;",
-    "                              A                D",
-    "Se vencermos o mal, viveremos junto_ao grande Deus.",
-    "",
-    "         D       A          D",
-    "2. Nesta terra tesouros não há,",
-    "",
-    "Que nos possam aqui segurar;",
-    "                          Bm           D",
-    "Desejamos ir ao céu, onde Cristo nos dará",
-    "               A            D",
-    "Um tesouro que nunca vai findar.",
-    "",
-    "        D      A       D",
-    "3. Brevemente iremos entrar",
-    "",
-    "E reinar com os santos no céu;",
-    "                           Bm        D",
-    "Novo hino de louvor juntos vamos entoar",
-    "               A            D",
-    "A Jesus, que a salvação nos deu."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      D         A        D",
+            "lyrics": "Jesus Cristo no céu preparou"
+          },
+          {
+            "chords": "",
+            "lyrics": "Um lugar de repouso_e_esplendor;"
+          },
+          {
+            "chords": "                           Bm       D",
+            "lyrics": "Breve nos fará entrar onde Ele já entrou:"
+          },
+          {
+            "chords": "                A         D",
+            "lyrics": "Nas moradas do_eterno Criador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D       Bm          A            D",
+            "lyrics": "Porfiemos, irmãos, por entrar lá nos céus;"
+          },
+          {
+            "chords": "                              A                D",
+            "lyrics": "Se vencermos o mal, viveremos junto_ao grande Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      D       A          D",
+            "lyrics": "Nesta terra tesouros não há,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Que nos possam aqui segurar;"
+          },
+          {
+            "chords": "                          Bm           D",
+            "lyrics": "Desejamos ir ao céu, onde Cristo nos dará"
+          },
+          {
+            "chords": "               A            D",
+            "lyrics": "Um tesouro que nunca vai findar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D      A       D",
+            "lyrics": "Brevemente iremos entrar"
+          },
+          {
+            "chords": "",
+            "lyrics": "E reinar com os santos no céu;"
+          },
+          {
+            "chords": "                           Bm        D",
+            "lyrics": "Novo hino de louvor juntos vamos entoar"
+          },
+          {
+            "chords": "               A            D",
+            "lyrics": "A Jesus, que a salvação nos deu."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

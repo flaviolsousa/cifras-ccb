@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Tudo o que nos falta",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                                 A ",
-    "1. Tudo_o que nos falta, Cristo suprirá;",
-    "                    D°      D",
-    "Quando suplicarmos, Ele ouvirá;",
-    "                      G  ",
-    "De Seus dons celestes nos revestirá,",
-    "             D           A   D",
-    "Quando nós batermos, Ele abrirá.",
-    "",
-    "D",
-    "Glória ao bendito Salvador,",
-    "             A  ",
-    "Forte_e invencível Defensor!",
-    "D              G ",
-    "Árdua é a luta contra o pecado, ",
-    "A                      D",
-    "Mas resistiremos com valor.",
-    "",
-    "   D                                 A ",
-    "2. Tudo_o que nos falta, Cristo suprirá;",
-    "                 D°       D",
-    "Proteção divina, Ele proverá;",
-    "                       G ",
-    "Temos que_entregar-Lhe todo_o nosso ser,",
-    "            D           A      D",
-    "Para que possamos com valor vencer.",
-    "",
-    "   D                                 A ",
-    "3. Tudo_o que nos falta, Cristo suprirá;",
-    "                   D°         D",
-    "Firme_e fielmente, nos conduzirá",
-    "                G ",
-    "Nesta travessia que nos leva_aos céus,",
-    "            D          A       D",
-    "Onde_iremos ver a face do bom Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                                 A ",
+            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
+          },
+          {
+            "chords": "                    D°      D",
+            "lyrics": "Quando suplicarmos, Ele ouvirá;"
+          },
+          {
+            "chords": "                      G  ",
+            "lyrics": "De Seus dons celestes nos revestirá,"
+          },
+          {
+            "chords": "             D           A   D",
+            "lyrics": "Quando nós batermos, Ele abrirá."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D",
+            "lyrics": "Glória ao bendito Salvador,"
+          },
+          {
+            "chords": "             A  ",
+            "lyrics": "Forte_e invencível Defensor!"
+          },
+          {
+            "chords": "D              G ",
+            "lyrics": "Árdua é a luta contra o pecado, "
+          },
+          {
+            "chords": "A                      D",
+            "lyrics": "Mas resistiremos com valor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                                 A ",
+            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
+          },
+          {
+            "chords": "                 D°       D",
+            "lyrics": "Proteção divina, Ele proverá;"
+          },
+          {
+            "chords": "                       G ",
+            "lyrics": "Temos que_entregar-Lhe todo_o nosso ser,"
+          },
+          {
+            "chords": "            D           A      D",
+            "lyrics": "Para que possamos com valor vencer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                                 A ",
+            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
+          },
+          {
+            "chords": "                   D°         D",
+            "lyrics": "Firme_e fielmente, nos conduzirá"
+          },
+          {
+            "chords": "                G ",
+            "lyrics": "Nesta travessia que nos leva_aos céus,"
+          },
+          {
+            "chords": "            D          A       D",
+            "lyrics": "Onde_iremos ver a face do bom Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

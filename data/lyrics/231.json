@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Provemos, irmãos, do amor do Senhor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G        C         D7       G",
-    "1. Provemos, irmãos, do amor do Senhor;",
-    "                     A7       D ",
-    "Quem dele provar lutará com valor;",
-    "    D7      G       D7    G",
-    "Com força divina prevalecerá;",
-    "    C                  G       D... ",
-    "Por Cristo Jesus, triunfante será.",
-    "",
-    "    D7              G",
-    "Que grande amor, aleluia!,",
-    "   D7                G",
-    "Provamos em Cristo Jesus!",
-    "          D7     G       C... ",
-    "Amor sem igual, amor divinal,",
-    " G          D7         G ",
-    "Amor que ao céu nos conduz.",
-    "",
-    "      G       C       D7      G",
-    "2. Na hora da luta, o nosso Senhor",
-    "                    A7          D ",
-    "Virá ajudar-nos por Seu grande_amor;",
-    "  D7        G         D7         G",
-    "Fiéis, confiantes, marchemos aos céus;",
-    "  C              G         D... ",
-    "Rejubilaremos ao ver nosso Deus.",
-    "",
-    "     G        C        D7       G",
-    "3. O nosso_inimigo não nos vencerá,",
-    "                      A7     D ",
-    "O braço de Cristo nos auxiliará;",
-    "  D7      G         D7     G",
-    "Teremos vitória se, de coração,",
-    "  C                G         D... ",
-    "Ficarmos unidos ao bom Guardião."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G        C         D7       G",
+            "lyrics": "Provemos, irmãos, do amor do Senhor;"
+          },
+          {
+            "chords": "                     A7       D ",
+            "lyrics": "Quem dele provar lutará com valor;"
+          },
+          {
+            "chords": "    D7      G       D7    G",
+            "lyrics": "Com força divina prevalecerá;"
+          },
+          {
+            "chords": "    C                  G       D... ",
+            "lyrics": "Por Cristo Jesus, triunfante será."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    D7              G",
+            "lyrics": "Que grande amor, aleluia!,"
+          },
+          {
+            "chords": "   D7                G",
+            "lyrics": "Provamos em Cristo Jesus!"
+          },
+          {
+            "chords": "          D7     G       C... ",
+            "lyrics": "Amor sem igual, amor divinal,"
+          },
+          {
+            "chords": " G          D7         G ",
+            "lyrics": "Amor que ao céu nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G       C       D7      G",
+            "lyrics": "Na hora da luta, o nosso Senhor"
+          },
+          {
+            "chords": "                    A7          D ",
+            "lyrics": "Virá ajudar-nos por Seu grande_amor;"
+          },
+          {
+            "chords": "  D7        G         D7         G",
+            "lyrics": "Fiéis, confiantes, marchemos aos céus;"
+          },
+          {
+            "chords": "  C              G         D... ",
+            "lyrics": "Rejubilaremos ao ver nosso Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G        C        D7       G",
+            "lyrics": "O nosso_inimigo não nos vencerá,"
+          },
+          {
+            "chords": "                      A7     D ",
+            "lyrics": "O braço de Cristo nos auxiliará;"
+          },
+          {
+            "chords": "  D7      G         D7     G",
+            "lyrics": "Teremos vitória se, de coração,"
+          },
+          {
+            "chords": "  C                G         D... ",
+            "lyrics": "Ficarmos unidos ao bom Guardião."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

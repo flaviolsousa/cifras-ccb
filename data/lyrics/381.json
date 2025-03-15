@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Mui breve virá, mui breve virá",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                             A ",
-    "1. Breve virá Jesus Cristo,_o Cordeiro;",
-    "                D   ",
-    "Premiará com o Seu galardão",
-    "                 G     D",
-    "Todo_o fiel e sincero obreiro",
-    "E                          A... ",
-    "Que Lhe consagra o seu coração.",
-    "",
-    "    D               G       D",
-    "Mui breve virá, mui breve virá,",
-    "                               E       A ",
-    "Aquele que_exerce_o juízo, mui breve virá;",
-    "    D                        G            D",
-    "Aos santos dará_o paraíso, Jesus, Rei dos reis;",
-    "                                   A       D    D...",
-    "No tempo_esperado_e preciso, sim, Cristo virá.",
-    "",
-    "   D                           A ",
-    "2. Próximo_é_o dia da volta gloriosa",
-    "                   D",
-    "De Jesus Cristo, o Filho de Deus;",
-    "             G      D",
-    "Sua igreja está ansiosa",
-    "E                             A... ",
-    "Por encontrar-se com Ele nos céus.",
-    "",
-    "   D                               A ",
-    "3. Quem, suas vestes, no sangue precioso",
-    "                     D",
-    "De Jesus Cristo, por fé, branquear,",
-    "              G       D",
-    "Habitará no país glorioso",
-    "E                           A... ",
-    "E poderá, com os santos, reinar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                             A ",
+            "lyrics": "Breve virá Jesus Cristo,_o Cordeiro;"
+          },
+          {
+            "chords": "                D   ",
+            "lyrics": "Premiará com o Seu galardão"
+          },
+          {
+            "chords": "                 G     D",
+            "lyrics": "Todo_o fiel e sincero obreiro"
+          },
+          {
+            "chords": "E                          A... ",
+            "lyrics": "Que Lhe consagra o seu coração."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    D               G       D",
+            "lyrics": "Mui breve virá, mui breve virá,"
+          },
+          {
+            "chords": "                               E       A ",
+            "lyrics": "Aquele que_exerce_o juízo, mui breve virá;"
+          },
+          {
+            "chords": "    D                        G            D",
+            "lyrics": "Aos santos dará_o paraíso, Jesus, Rei dos reis;"
+          },
+          {
+            "chords": "                                   A       D    D...",
+            "lyrics": "No tempo_esperado_e preciso, sim, Cristo virá."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                           A ",
+            "lyrics": "Próximo_é_o dia da volta gloriosa"
+          },
+          {
+            "chords": "                   D",
+            "lyrics": "De Jesus Cristo, o Filho de Deus;"
+          },
+          {
+            "chords": "             G      D",
+            "lyrics": "Sua igreja está ansiosa"
+          },
+          {
+            "chords": "E                             A... ",
+            "lyrics": "Por encontrar-se com Ele nos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                               A ",
+            "lyrics": "Quem, suas vestes, no sangue precioso"
+          },
+          {
+            "chords": "                     D",
+            "lyrics": "De Jesus Cristo, por fé, branquear,"
+          },
+          {
+            "chords": "              G       D",
+            "lyrics": "Habitará no país glorioso"
+          },
+          {
+            "chords": "E                           A... ",
+            "lyrics": "E poderá, com os santos, reinar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

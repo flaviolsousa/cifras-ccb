@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus, ó Divinal Pastor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A         D              E                    A",
-    "1. Jesus, ó divinal Pastor, o Teu rebanho quer Te_ouvir;",
-    "                       D             E          A",
-    "Com Teu Espírito,_ó Senhor, vem este culto presidir.",
-    "    E                 A                             E",
-    "Nós somos todos cordeirinhos do Teu aprisco,_ó Redentor;",
-    "   A                   D             E        A",
-    "Só Tu nos tratas com carinho, ó glorioso Salvador.",
-    "",
-    "      A            D          E                A",
-    "2. Jesus, glorioso e fiel, em Ti está o nosso bem;",
-    "                   D                E            A",
-    "Tu és o nosso_Emanuel, és Quem, na graça, nos sustém.",
-    "  E             A                           E",
-    "Aqui estamos reunidos ao Teu redor, fiel Senhor,",
-    "      A                    D               E             A",
-    "Pois, onde_estão os Teus remidos, também estás, ó bom Pastor.",
-    "",
-    "       A            D              E               A",
-    "3. Nós Te seguimos, Redentor, pois conhecemos Tua voz,",
-    "                      D              E              A",
-    "Voz que nos fala com amor, dizendo: “Não vos deixo sós.”",
-    "  E                  A                            E",
-    "A pastos sempre verdejantes Tu nos conduzes, ó Senhor.",
-    "    A                 D                  E         A",
-    "Por isso_estamos confiantes, sentindo_a Tua paz e_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A         D              E                    A",
+            "lyrics": "Jesus, ó divinal Pastor, o Teu rebanho quer Te_ouvir;"
+          },
+          {
+            "chords": "                       D             E          A",
+            "lyrics": "Com Teu Espírito,_ó Senhor, vem este culto presidir."
+          },
+          {
+            "chords": "    E                 A                             E",
+            "lyrics": "Nós somos todos cordeirinhos do Teu aprisco,_ó Redentor;"
+          },
+          {
+            "chords": "   A                   D             E        A",
+            "lyrics": "Só Tu nos tratas com carinho, ó glorioso Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A            D          E                A",
+            "lyrics": "Jesus, glorioso e fiel, em Ti está o nosso bem;"
+          },
+          {
+            "chords": "                   D                E            A",
+            "lyrics": "Tu és o nosso_Emanuel, és Quem, na graça, nos sustém."
+          },
+          {
+            "chords": "  E             A                           E",
+            "lyrics": "Aqui estamos reunidos ao Teu redor, fiel Senhor,"
+          },
+          {
+            "chords": "      A                    D               E             A",
+            "lyrics": "Pois, onde_estão os Teus remidos, também estás, ó bom Pastor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A            D              E               A",
+            "lyrics": "Nós Te seguimos, Redentor, pois conhecemos Tua voz,"
+          },
+          {
+            "chords": "                      D              E              A",
+            "lyrics": "Voz que nos fala com amor, dizendo: “Não vos deixo sós.”"
+          },
+          {
+            "chords": "  E                  A                            E",
+            "lyrics": "A pastos sempre verdejantes Tu nos conduzes, ó Senhor."
+          },
+          {
+            "chords": "    A                 D                  E         A",
+            "lyrics": "Por isso_estamos confiantes, sentindo_a Tua paz e_amor."
+          }
+        ]
+      }
+    ]
+  }
 }

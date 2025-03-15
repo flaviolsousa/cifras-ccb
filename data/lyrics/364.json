@@ -1,44 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Os tempos já chegados são...",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "      C",
-    "1. Os tempos já chegados são,",
-    "   F    Dm         G",
-    "Os dias Deus abreviou;",
-    "    C",
-    "Bem perto_está_a consumação",
-    "       F          G          C",
-    "Das promessas que Deus anunciou.",
-    "",
-    "  C  E7  Am      D    G",
-    "O nosso  Rei não tardará!",
-    "  Am  G  C       D      G",
-    "Virá  do céu com resplendor;",
-    "  C  E7  Am        D            G",
-    "O po-vo  santo,_ao vê-Lo, Lhe dirá:",
-    "     Am    Dm   G     C",
-    "Sim, vem, ama - do Senhor!",
-    "",
-    "",
-    "      C",
-    "2. Os que servirem ao Senhor,",
-    "    F      Dm     G",
-    "Com glória aparecerão;",
-    "   C",
-    "No reino_eterno de amor,",
-    "       F        G          C",
-    "Como_o Sol eles resplandecerão.",
-    "",
-    "        C",
-    "3. Quem tem ouvidos para_ouvir,",
-    " F         Dm        G",
-    "Atenda_o_Espírito de Deus,",
-    "    C",
-    "Que fala do feliz porvir",
-    "     F        G              C",
-    "Preparado aos santos lá nos céus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   C",
+            "lyrics": "Os tempos já chegados são,"
+          },
+          {
+            "chords": "   F    Dm         G",
+            "lyrics": "Os dias Deus abreviou;"
+          },
+          {
+            "chords": "    C",
+            "lyrics": "Bem perto_está_a consumação"
+          },
+          {
+            "chords": "       F          G          C",
+            "lyrics": "Das promessas que Deus anunciou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  C  E7  Am      D    G",
+            "lyrics": "O nosso  Rei não tardará!"
+          },
+          {
+            "chords": "  Am  G  C       D      G",
+            "lyrics": "Virá  do céu com resplendor;"
+          },
+          {
+            "chords": "  C  E7  Am        D            G",
+            "lyrics": "O po-vo  santo,_ao vê-Lo, Lhe dirá:"
+          },
+          {
+            "chords": "     Am    Dm   G     C",
+            "lyrics": "Sim, vem, ama - do Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   C",
+            "lyrics": "Os que servirem ao Senhor,"
+          },
+          {
+            "chords": "    F      Dm     G",
+            "lyrics": "Com glória aparecerão;"
+          },
+          {
+            "chords": "   C",
+            "lyrics": "No reino_eterno de amor,"
+          },
+          {
+            "chords": "       F        G          C",
+            "lyrics": "Como_o Sol eles resplandecerão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     C",
+            "lyrics": "Quem tem ouvidos para_ouvir,"
+          },
+          {
+            "chords": " F         Dm        G",
+            "lyrics": "Atenda_o_Espírito de Deus,"
+          },
+          {
+            "chords": "    C",
+            "lyrics": "Que fala do feliz porvir"
+          },
+          {
+            "chords": "     F        G              C",
+            "lyrics": "Preparado aos santos lá nos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

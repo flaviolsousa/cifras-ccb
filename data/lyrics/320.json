@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Que prazer é andar com Cristo",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "          B                          E ",
-    "1. Que prazer é_andar com Cristo e a Sua voz ouvir,",
-    "    F#                          B            B...",
-    "Meditar em Seus conselhos que darão feliz porvir,",
-    "     B                         E ",
-    "Ó queridos, consagremos nossas vidas ao Senhor",
-    "     F#                      B             B...",
-    "Para termos a herança no Seu reino de_eplendor.",
-    "",
-    "      B            E ",
-    "Jesus Cristo é poderoso,",
-    "       F#             B",
-    "Forte, santo, mui valoroso,",
-    "                  E ",
-    "Sumo Sábio, maravilhoso,",
-    "      F#                      B",
-    "É_o Senhor de tudo_e Rei dos reis.",
-    "",
-    "          B                             E ",
-    "2. Que prazer é_andar com Cristo, desfrutar o Seu amor,",
-    "     F#                     B             B...",
-    "Combater a_iniquidade e, ao fim, ser vencedor;",
-    "      B                          E ",
-    "Neste mundo, o Senhor por nós morreu na dura cruz",
-    "     F#                         B         B...",
-    "Para dar-nos vida_e glória onde há eterna luz.",
-    "",
-    "          B                           E ",
-    "3. Que prazer é_andar com Cristo, o Caminho que conduz",
-    "     F#                       B          B...",
-    "Ás moradas sempiternas de resplandecente luz;",
-    "      B                        E ",
-    "Só em Cristo há verdade, vida, graça e perdão;",
-    "      F#                      B           B...",
-    "N´Ele temos a certeza de_alcançar a perfeição."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       B                          E ",
+            "lyrics": "Que prazer é_andar com Cristo e a Sua voz ouvir,"
+          },
+          {
+            "chords": "    F#                          B            B...",
+            "lyrics": "Meditar em Seus conselhos que darão feliz porvir,"
+          },
+          {
+            "chords": "     B                         E ",
+            "lyrics": "Ó queridos, consagremos nossas vidas ao Senhor"
+          },
+          {
+            "chords": "     F#                      B             B...",
+            "lyrics": "Para termos a herança no Seu reino de_eplendor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      B            E ",
+            "lyrics": "Jesus Cristo é poderoso,"
+          },
+          {
+            "chords": "       F#             B",
+            "lyrics": "Forte, santo, mui valoroso,"
+          },
+          {
+            "chords": "                  E ",
+            "lyrics": "Sumo Sábio, maravilhoso,"
+          },
+          {
+            "chords": "      F#                      B",
+            "lyrics": "É_o Senhor de tudo_e Rei dos reis."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       B                             E ",
+            "lyrics": "Que prazer é_andar com Cristo, desfrutar o Seu amor,"
+          },
+          {
+            "chords": "     F#                     B             B...",
+            "lyrics": "Combater a_iniquidade e, ao fim, ser vencedor;"
+          },
+          {
+            "chords": "      B                          E ",
+            "lyrics": "Neste mundo, o Senhor por nós morreu na dura cruz"
+          },
+          {
+            "chords": "     F#                         B         B...",
+            "lyrics": "Para dar-nos vida_e glória onde há eterna luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       B                           E ",
+            "lyrics": "Que prazer é_andar com Cristo, o Caminho que conduz"
+          },
+          {
+            "chords": "     F#                       B          B...",
+            "lyrics": "Ás moradas sempiternas de resplandecente luz;"
+          },
+          {
+            "chords": "      B                        E ",
+            "lyrics": "Só em Cristo há verdade, vida, graça e perdão;"
+          },
+          {
+            "chords": "      F#                      B           B...",
+            "lyrics": "N´Ele temos a certeza de_alcançar a perfeição."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

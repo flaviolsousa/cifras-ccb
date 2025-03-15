@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo, o Verbo",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E",
-    "1. O Verbo estava com Deus, Criador,",
-    "  B                 E",
-    "O Verbo também era Deus;",
-    "",
-    "Das alturas desceu para ser Redentor,",
-    "   B                    E",
-    "Trazendo_a justiça dos céus.",
-    "",
-    "E                A           E",
-    "Cristo, o Verbo, dos céus desceu,",
-    "                  F#7      B7 ",
-    "Foi feito carne e vida nos deu;",
-    "E               A         E",
-    "Veio ao mundo a fim de vencer,",
-    "                   B7       E",
-    "Cheio de graça, verdade_e poder.",
-    "",
-    "     E",
-    "2. O Verbo de Deus entre nós habitou;",
-    " B                  E",
-    "Aqui Sua glória se viu;",
-    "",
-    "O_unigênito Filho de Deus se mostrou;",
-    "  B                     E",
-    "Depois, para_a glória subiu.",
-    "",
-    "       E",
-    "3. Aos que receberam Jesus, o Senhor,",
-    "  B                  E",
-    "Estão reservados os céus;",
-    "",
-    "São herdeiros da glória com seu Redentor,",
-    "    B                  E",
-    "São todos nascidos de Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "O Verbo estava com Deus, Criador,"
+          },
+          {
+            "chords": "  B                 E",
+            "lyrics": "O Verbo também era Deus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Das alturas desceu para ser Redentor,"
+          },
+          {
+            "chords": "   B                    E",
+            "lyrics": "Trazendo_a justiça dos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E                A           E",
+            "lyrics": "Cristo, o Verbo, dos céus desceu,"
+          },
+          {
+            "chords": "                  F#7      B7 ",
+            "lyrics": "Foi feito carne e vida nos deu;"
+          },
+          {
+            "chords": "E               A         E",
+            "lyrics": "Veio ao mundo a fim de vencer,"
+          },
+          {
+            "chords": "                   B7       E",
+            "lyrics": "Cheio de graça, verdade_e poder."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  E",
+            "lyrics": "O Verbo de Deus entre nós habitou;"
+          },
+          {
+            "chords": " B                  E",
+            "lyrics": "Aqui Sua glória se viu;"
+          },
+          {
+            "chords": "",
+            "lyrics": "O_unigênito Filho de Deus se mostrou;"
+          },
+          {
+            "chords": "  B                     E",
+            "lyrics": "Depois, para_a glória subiu."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Aos que receberam Jesus, o Senhor,"
+          },
+          {
+            "chords": "  B                  E",
+            "lyrics": "Estão reservados os céus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "São herdeiros da glória com seu Redentor,"
+          },
+          {
+            "chords": "    B                  E",
+            "lyrics": "São todos nascidos de Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

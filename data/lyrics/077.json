@@ -1,27 +1,72 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos lançar a semente",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                      E              A",
-    "1. Vamos lançar a semente com alegria e_amor,",
-    "D                A   F#m       B7      E ",
-    "Nesta gloriosa seara do nosso_amado Senhor.",
-    "",
-    "A                             E ",
-    "Santa Semente é a Palavra de Deus;",
-    "A                       E                   A",
-    "Quem com amor semeá-La, prêmio terá lá nos céus.",
-    "",
-    "   A                     E                    A ",
-    "2. As boas novas levemos aos que em trevas estão,",
-    "D               A      F#m      B7       E ",
-    "Anunciando que Cristo, a todos, dá salvação.",
-    "",
-    "    A                          E                  A ",
-    "3. “As terras já estão brancas e prontas para ceifar”,",
-    "D                  A      F#m      B7          E ",
-    "Disse assim o bom Mestre; vamos, irmãos, trabalhar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                      E              A",
+            "lyrics": "Vamos lançar a semente com alegria e_amor,"
+          },
+          {
+            "chords": "D                A   F#m       B7      E ",
+            "lyrics": "Nesta gloriosa seara do nosso_amado Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                             E ",
+            "lyrics": "Santa Semente é a Palavra de Deus;"
+          },
+          {
+            "chords": "A                       E                   A",
+            "lyrics": "Quem com amor semeá-La, prêmio terá lá nos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                     E                    A ",
+            "lyrics": "As boas novas levemos aos que em trevas estão,"
+          },
+          {
+            "chords": "D               A      F#m      B7       E ",
+            "lyrics": "Anunciando que Cristo, a todos, dá salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " A                          E                  A ",
+            "lyrics": "“As terras já estão brancas e prontas para ceifar”,"
+          },
+          {
+            "chords": "D                  A      F#m      B7          E ",
+            "lyrics": "Disse assim o bom Mestre; vamos, irmãos, trabalhar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

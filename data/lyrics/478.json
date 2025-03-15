@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cedo retorna o Senhor",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E                          G°  B7",
-    "1. Cedo vem a fim de premiar os santos Seus,",
-    "                         E",
-    "Jesus Cristo, nosso Salvador;",
-    "                              A ",
-    "Recompensa para_os justos haverá nos céus,",
-    "E               B7  E",
-    "Reino de glória e  amor.",
-    "",
-    "E            B7",
-    "Cedo retorna o Senhor",
-    "                E",
-    "E traz o_eterno galardão.",
-    "                      A",
-    "Bem-aventurado quem O serve com amor",
-    "E             B7   E    E...",
-    "E com sincero coração.",
-    "",
-    "       E                         G°  B7",
-    "2. Mocidade, vamos todos nos purifi- car",
-    "                             E",
-    "Atendendo_a Cristo,_o bom Pastor.",
-    "                                A",
-    "Ele quer a todos os Seus santos coroar",
-    "E               B7       E",
-    "Com vida_eterna e_espelendor.",
-    "",
-    "         E                          G°  B7",
-    "3. Consagrados, poderemos, ó fiéis, di- zer:",
-    "                         E",
-    "Ora vem, Jesus, bom Redentor!",
-    "                             A",
-    "D´Ele sempre recebemos força e poder,",
-    "E             B7     E",
-    "Para servi-Lo com fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E                          G°  B7",
+            "lyrics": "Cedo vem a fim de premiar os santos Seus,"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Jesus Cristo, nosso Salvador;"
+          },
+          {
+            "chords": "                              A ",
+            "lyrics": "Recompensa para_os justos haverá nos céus,"
+          },
+          {
+            "chords": "E               B7  E",
+            "lyrics": "Reino de glória e  amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E            B7",
+            "lyrics": "Cedo retorna o Senhor"
+          },
+          {
+            "chords": "                E",
+            "lyrics": "E traz o_eterno galardão."
+          },
+          {
+            "chords": "                      A",
+            "lyrics": "Bem-aventurado quem O serve com amor"
+          },
+          {
+            "chords": "E             B7   E    E...",
+            "lyrics": "E com sincero coração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E                         G°  B7",
+            "lyrics": "Mocidade, vamos todos nos purifi- car"
+          },
+          {
+            "chords": "                             E",
+            "lyrics": "Atendendo_a Cristo,_o bom Pastor."
+          },
+          {
+            "chords": "                                A",
+            "lyrics": "Ele quer a todos os Seus santos coroar"
+          },
+          {
+            "chords": "E               B7       E",
+            "lyrics": "Com vida_eterna e_espelendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      E                          G°  B7",
+            "lyrics": "Consagrados, poderemos, ó fiéis, di- zer:"
+          },
+          {
+            "chords": "                         E",
+            "lyrics": "Ora vem, Jesus, bom Redentor!"
+          },
+          {
+            "chords": "                             A",
+            "lyrics": "D´Ele sempre recebemos força e poder,"
+          },
+          {
+            "chords": "E             B7     E",
+            "lyrics": "Para servi-Lo com fervor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,50 +1,101 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Arrebatado aos céus",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "     C                  G        C",
-    "1. O rijo clamor da trombeta_ouvirão",
-    "                          Dm7     G ",
-    "Os filhos de Deus, que ao céu subirão;",
-    "                   F        C",
-    "Vindo em nuvens, Jesus surgirá",
-    "  F         G        C",
-    "E visto por todos os homens será;",
-    "     D                  G  ",
-    "Seus anjos virão, deste mundo, levar",
-    "   D                 G   ",
-    "Os que, com Cristo, irão reinar.",
-    "    D             G ",
-    "Que dia de júbilo e_esplendor!",
-    "    D                    G   G... ",
-    "Oh! Glória_a Jesus, o Senhor!",
-    "",
-    "C                                     G ",
-    "Arrebato_aos céus, por Cristo,_eterno Rei,",
-    "                                            C",
-    "Lá eu verei o grande Deus; oh! quão feliz serei!",
-    "                                 F     Dm7 ",
-    "Cristo Jesus dará aos escolhidos Seus",
-    "G           C     F     G       C    C...",
-    "A eternal morada: Jerusalém de Deus.",
-    "",
-    "       C                 G       C",
-    "2. Aos Seus resgatados dirá o Senhor:",
-    "                           Dm7     G ",
-    "“Oh! Vinde, benditos”, com grande amor,",
-    "                  F         C",
-    "Um reino_eterno o Pai nos doou,",
-    "    F           G         C",
-    "Que desde_o princípio_Ele nos preparou.",
-    " D                 G ",
-    "Ainda um pouco_e Jesus voltará;",
-    "  D              G ",
-    "A Sua_igreja O_encontrará.",
-    "    D             G ",
-    "Que dia de júbilo e_esplendor!",
-    "    D                    G   G... ",
-    "Oh! Glória_a Jesus, o Senhor!"
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  C                  G        C",
+            "lyrics": "O rijo clamor da trombeta_ouvirão"
+          },
+          {
+            "chords": "                          Dm7     G ",
+            "lyrics": "Os filhos de Deus, que ao céu subirão;"
+          },
+          {
+            "chords": "                   F        C",
+            "lyrics": "Vindo em nuvens, Jesus surgirá"
+          },
+          {
+            "chords": "  F         G        C",
+            "lyrics": "E visto por todos os homens será;"
+          },
+          {
+            "chords": "     D                  G  ",
+            "lyrics": "Seus anjos virão, deste mundo, levar"
+          },
+          {
+            "chords": "   D                 G   ",
+            "lyrics": "Os que, com Cristo, irão reinar."
+          },
+          {
+            "chords": "    D             G ",
+            "lyrics": "Que dia de júbilo e_esplendor!"
+          },
+          {
+            "chords": "    D                    G   G... ",
+            "lyrics": "Oh! Glória_a Jesus, o Senhor!"
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "C                                     G "
+          },
+          {
+            "chords": "Arrebato_aos céus, por Cristo,_eterno Rei,",
+            "lyrics": "                                            C"
+          },
+          {
+            "chords": "Lá eu verei o grande Deus; oh! quão feliz serei!",
+            "lyrics": "                                 F     Dm7 "
+          },
+          {
+            "chords": "Cristo Jesus dará aos escolhidos Seus",
+            "lyrics": "G           C     F     G       C    C..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    C                 G       C",
+            "lyrics": "Aos Seus resgatados dirá o Senhor:"
+          },
+          {
+            "chords": "                           Dm7     G ",
+            "lyrics": "“Oh! Vinde, benditos”, com grande amor,"
+          },
+          {
+            "chords": "                  F         C",
+            "lyrics": "Um reino_eterno o Pai nos doou,"
+          },
+          {
+            "chords": "    F           G         C",
+            "lyrics": "Que desde_o princípio_Ele nos preparou."
+          },
+          {
+            "chords": " D                 G ",
+            "lyrics": "Ainda um pouco_e Jesus voltará;"
+          },
+          {
+            "chords": "  D              G ",
+            "lyrics": "A Sua_igreja O_encontrará."
+          },
+          {
+            "chords": "    D             G ",
+            "lyrics": "Que dia de júbilo e_esplendor!"
+          },
+          {
+            "chords": "    D                    G   G... ",
+            "lyrics": "Oh! Glória_a Jesus, o Senhor!"
+          }
+        ]
+      }
+    ]
+  }
 }

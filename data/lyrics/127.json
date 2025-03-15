@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Meu bom Jesus, Contigo almejo estar",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                 G             D",
-    "1. Meu bom Jesus, Contigo_almejo_estar",
-    "                          A ",
-    "E, só por Ti, viver e caminhar,",
-    "D             G           D",
-    "Para poder me proteger do mal",
-    "   A           D             A   D",
-    "E, ao final, viver na pátria eternal.",
-    "",
-    "D                         G           D",
-    "Vem, Jesus, Redentor, nas lutas me_ajudar;",
-    "   A           D          A    D",
-    "Em Ti desejo_inteiramente confiar.",
-    "",
-    "   D                G         D",
-    "2. Meu bom Jesus, ó Fonte de amor,",
-    "                          A ",
-    "Almejo_ouvir a Tua voz, Senhor;",
-    "D               G               D",
-    "Faz-me viver cumprindo_o Teu querer",
-    "  A            D              A      D",
-    "E rejeitando_o mundo_e todo_o seu prazer.",
-    "",
-    "   D                 G           D",
-    "3. Meu bom Jesus, sustém meu coração;",
-    "                          A ",
-    "Longe de Ti não há consolação;",
-    "D              G             D",
-    "Ó Salvador, Contigo_almejo_estar;",
-    "    A            D             A     D",
-    "Com toda_a alma, quero_a Ti me consagrar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                 G             D",
+            "lyrics": "Meu bom Jesus, Contigo_almejo_estar"
+          },
+          {
+            "chords": "                          A ",
+            "lyrics": "E, só por Ti, viver e caminhar,"
+          },
+          {
+            "chords": "D             G           D",
+            "lyrics": "Para poder me proteger do mal"
+          },
+          {
+            "chords": "   A           D             A   D",
+            "lyrics": "E, ao final, viver na pátria eternal."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D                         G           D",
+            "lyrics": "Vem, Jesus, Redentor, nas lutas me_ajudar;"
+          },
+          {
+            "chords": "   A           D          A    D",
+            "lyrics": "Em Ti desejo_inteiramente confiar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                G         D",
+            "lyrics": "Meu bom Jesus, ó Fonte de amor,"
+          },
+          {
+            "chords": "                          A ",
+            "lyrics": "Almejo_ouvir a Tua voz, Senhor;"
+          },
+          {
+            "chords": "D               G               D",
+            "lyrics": "Faz-me viver cumprindo_o Teu querer"
+          },
+          {
+            "chords": "  A            D              A      D",
+            "lyrics": "E rejeitando_o mundo_e todo_o seu prazer."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                 G           D",
+            "lyrics": "Meu bom Jesus, sustém meu coração;"
+          },
+          {
+            "chords": "                          A ",
+            "lyrics": "Longe de Ti não há consolação;"
+          },
+          {
+            "chords": "D              G             D",
+            "lyrics": "Ó Salvador, Contigo_almejo_estar;"
+          },
+          {
+            "chords": "    A            D             A     D",
+            "lyrics": "Com toda_a alma, quero_a Ti me consagrar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

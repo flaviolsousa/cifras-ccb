@@ -1,37 +1,92 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus é a Luz que veio ao mundo...",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G               D             G            D ",
-    "1. Jesus é_a Luz que veio ao mundo para me resgatar;",
-    "   G           D                  A7            D    D... ",
-    "Em trevas eu jamais andarei, pois Ele me faz brilhar.",
-    "",
-    "D       G",
-    "Se_eu andar nessa Luz,",
-    "                    D   ",
-    "Um dia eu verei o fiel, bom Jesus;",
-    "   A7           D ",
-    "Na casa de Deus Pai,",
-    "      G",
-    "Eu contemplarei todo_o esplendor",
-    "                        D ",
-    "Do meu Redentor. Que alegria!",
-    "       Em     C    G",
-    "Lá não há tristeza e nem mal,",
-    "C         D   G",
-    "Só o_amor perenal.",
-    "",
-    "     G             D              G               D ",
-    "2. Jesus, com Sua luz divinal, mostrou-me a salvação;",
-    "  G           D             A7               D    D... ",
-    "A minha mente esclareceu; livrou-me da perdição.",
-    "",
-    "     G               D            G             D ",
-    "3. Jesus, vem com a tua gloriosa luz para me guiar",
-    "   G         D             A7             D    D... ",
-    "No Evangelho santo, até findar meu peregrinar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G               D             G            D ",
+            "lyrics": "Jesus é_a Luz que veio ao mundo para me resgatar;"
+          },
+          {
+            "chords": "   G           D                  A7            D    D... ",
+            "lyrics": "Em trevas eu jamais andarei, pois Ele me faz brilhar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D       G",
+            "lyrics": "Se_eu andar nessa Luz,"
+          },
+          {
+            "chords": "                    D   ",
+            "lyrics": "Um dia eu verei o fiel, bom Jesus;"
+          },
+          {
+            "chords": "   A7           D ",
+            "lyrics": "Na casa de Deus Pai,"
+          },
+          {
+            "chords": "      G",
+            "lyrics": "Eu contemplarei todo_o esplendor"
+          },
+          {
+            "chords": "                        D ",
+            "lyrics": "Do meu Redentor. Que alegria!"
+          },
+          {
+            "chords": "       Em     C    G",
+            "lyrics": "Lá não há tristeza e nem mal,"
+          },
+          {
+            "chords": "C         D   G",
+            "lyrics": "Só o_amor perenal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G             D              G               D ",
+            "lyrics": "Jesus, com Sua luz divinal, mostrou-me a salvação;"
+          },
+          {
+            "chords": "  G           D             A7               D    D... ",
+            "lyrics": "A minha mente esclareceu; livrou-me da perdição."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G               D            G             D ",
+            "lyrics": "Jesus, vem com a tua gloriosa luz para me guiar"
+          },
+          {
+            "chords": "   G         D             A7             D    D... ",
+            "lyrics": "No Evangelho santo, até findar meu peregrinar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

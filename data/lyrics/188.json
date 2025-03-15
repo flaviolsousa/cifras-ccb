@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O Mestre habita em mim",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A",
-    "1. Conversão gloriosa_operou-se_em meu ser,",
-    "     D                A",
-    "Pois Cristo habita em mim;",
-    "",
-    "Sinto paz que outrora não pude haver;",
-    "  B7               E    E... ",
-    "O Mestre habita em mim.",
-    "",
-    "    A",
-    "Com Cristo em meu coração",
-    "   D                A",
-    "Eu sinto real salvação.",
-    "                               A...",
-    "Venturoso, aguardo a glória de Deus,",
-    "     E                   A",
-    "Pois Cristo me leva aos céus.",
-    "",
-    "       A",
-    "2. Separado da senda do mal eu estou,",
-    "     D                A",
-    "Pois Cristo habita em mim;",
-    "",
-    "Dos pecados passados Deus me perdoou;",
-    "  B7               E    E... ",
-    "O Mestre habita em mim.",
-    "",
-    "        A",
-    "3. Findarei os meus dias na graça de Deus,",
-    "     D                A",
-    "Pois Cristo habita em mim;",
-    "",
-    "Sentirei Sua paz, pois irei para_os céus;",
-    "  B7               E    E... ",
-    "O Mestre habita em mim."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A",
+            "lyrics": "Conversão gloriosa_operou-se_em meu ser,"
+          },
+          {
+            "chords": "     D                A",
+            "lyrics": "Pois Cristo habita em mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Sinto paz que outrora não pude haver;"
+          },
+          {
+            "chords": "  B7               E    E... ",
+            "lyrics": "O Mestre habita em mim."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    A",
+            "lyrics": "Com Cristo em meu coração"
+          },
+          {
+            "chords": "   D                A",
+            "lyrics": "Eu sinto real salvação."
+          },
+          {
+            "chords": "                               A...",
+            "lyrics": "Venturoso, aguardo a glória de Deus,"
+          },
+          {
+            "chords": "     E                   A",
+            "lyrics": "Pois Cristo me leva aos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    A",
+            "lyrics": "Separado da senda do mal eu estou,"
+          },
+          {
+            "chords": "     D                A",
+            "lyrics": "Pois Cristo habita em mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Dos pecados passados Deus me perdoou;"
+          },
+          {
+            "chords": "  B7               E    E... ",
+            "lyrics": "O Mestre habita em mim."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Findarei os meus dias na graça de Deus,"
+          },
+          {
+            "chords": "     D                A",
+            "lyrics": "Pois Cristo habita em mim;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Sentirei Sua paz, pois irei para_os céus;"
+          },
+          {
+            "chords": "  B7               E    E... ",
+            "lyrics": "O Mestre habita em mim."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

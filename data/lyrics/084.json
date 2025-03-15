@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Quão amável é a Tua casa",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E                         A9   B7        E",
-    "1. Quão amável é a Tua casa, ó   eterno Criador!",
-    "                                A9       B7         E",
-    "Nela sempre_encontrará conforto quem Te_adora, ó Senhor;",
-    "       A        E         B7          E",
-    "Os que amam Tua casa bem-aventurados são;",
-    "      A         E  C#m...     F#m  B7    E",
-    "De contínuo, ó Eterno,  o Teu Nome louvarão.",
-    "",
-    "   E                          A9     B7        E",
-    "2. Bem-aventurado todo_aquele que confia no Senhor",
-    "                               A9    B7         E",
-    "E que, no seu coração sincero, faz morada_o Criador.",
-    "       A           E         B7             E",
-    "Pois caminha na justiça e de força_em força vai",
-    "        A          E    C#m...      F#m     B7     E",
-    "Rumo_á glória prometi - da,  a_encontrar-se com o Pai.",
-    "",
-    "   E                          A9       B7           E",
-    "3. É melhor permanecer um dia nos Teus átrios, ó Senhor,",
-    "                                   A9    B7         E",
-    "Do que mil em qualquer outra parte longe do divino_amor.",
-    "        A          E           B7          E",
-    "Pois Tu és Sol e Escudo ao que anda_em retidão;",
-    "       A        E    C#m...    F#m  B7     E",
-    "Os que amam Tua ca - sa   bem-aventurados são."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E                         A9   B7        E",
+            "lyrics": "Quão amável é a Tua casa, ó   eterno Criador!"
+          },
+          {
+            "chords": "                                A9       B7         E",
+            "lyrics": "Nela sempre_encontrará conforto quem Te_adora, ó Senhor;"
+          },
+          {
+            "chords": "       A        E         B7          E",
+            "lyrics": "Os que amam Tua casa bem-aventurados são;"
+          },
+          {
+            "chords": "      A         E  C#m...     F#m  B7    E",
+            "lyrics": "De contínuo, ó Eterno,  o Teu Nome louvarão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E                          A9     B7        E",
+            "lyrics": "Bem-aventurado todo_aquele que confia no Senhor"
+          },
+          {
+            "chords": "                               A9    B7         E",
+            "lyrics": "E que, no seu coração sincero, faz morada_o Criador."
+          },
+          {
+            "chords": "       A           E         B7             E",
+            "lyrics": "Pois caminha na justiça e de força_em força vai"
+          },
+          {
+            "chords": "        A          E    C#m...      F#m     B7     E",
+            "lyrics": "Rumo_á glória prometi - da,  a_encontrar-se com o Pai."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E                          A9       B7           E",
+            "lyrics": "É melhor permanecer um dia nos Teus átrios, ó Senhor,"
+          },
+          {
+            "chords": "                                   A9    B7         E",
+            "lyrics": "Do que mil em qualquer outra parte longe do divino_amor."
+          },
+          {
+            "chords": "        A          E           B7          E",
+            "lyrics": "Pois Tu és Sol e Escudo ao que anda_em retidão;"
+          },
+          {
+            "chords": "       A        E    C#m...    F#m  B7     E",
+            "lyrics": "Os que amam Tua ca - sa   bem-aventurados são."
+          }
+        ]
+      }
+    ]
+  }
 }

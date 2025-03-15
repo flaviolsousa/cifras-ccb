@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"Vinde a Mim!\"",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "       D          G      A           D",
-    "1. Não há palavra doce igual à de Jesus,",
-    "              G         A              D",
-    "Palavra da verdade, que para_o céu conduz.",
-    "     Bm          F#        Bm          A ",
-    "Quando_estiveres triste, terás consolação",
-    "   D              G        A            D",
-    "Buscando_a Jesus Cristo, Autor da salvação.",
-    "",
-    "       D             G         A         D",
-    "2. Não andes mais distante do Salvador Jesus",
-    "                   G          A        D ",
-    "Que, com amor, te chama, pois é a tua Luz.",
-    "   Bm          F#     Bm           A ",
-    "Se fores desprezado e não tiveres paz,",
-    "    D         G          A         D",
-    "Vem logo entregar-te ao Salvador veraz.",
-    "",
-    "        D            G         A            D",
-    "3. Vem, sem tardar, unir-te a Quem te diz assim,",
-    "                  G          A               D",
-    "Com voz celeste_e doce: “Oh! Vem, sim, vem a Mim”.",
-    "    Bm         F#    Bm         A ",
-    "Por Sua mão guiado, aqui tu andarás",
-    "     D            G           A           D",
-    "Tranquilo_e bem seguro e,_um dia,_ao céu irás.",
-    "",
-    " D                         E ",
-    "“Vinde_a Mim, vós todos cansados e_oprimidos”,",
-    "   A           D          A           D",
-    "Falou o grande Mestre, Jesus, o Redentor;",
-    "                           E ",
-    "Pois Seu fardo_é leve, Seu jugo é suave,",
-    "   A         D          A         D",
-    "Só Ele traz alívio: perdão ao pecador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    D          G      A           D",
+            "lyrics": "Não há palavra doce igual à de Jesus,"
+          },
+          {
+            "chords": "              G         A              D",
+            "lyrics": "Palavra da verdade, que para_o céu conduz."
+          },
+          {
+            "chords": "     Bm          F#        Bm          A ",
+            "lyrics": "Quando_estiveres triste, terás consolação"
+          },
+          {
+            "chords": "   D              G        A            D",
+            "lyrics": "Buscando_a Jesus Cristo, Autor da salvação."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    D             G         A         D",
+            "lyrics": "Não andes mais distante do Salvador Jesus"
+          },
+          {
+            "chords": "                   G          A        D ",
+            "lyrics": "Que, com amor, te chama, pois é a tua Luz."
+          },
+          {
+            "chords": "   Bm          F#     Bm           A ",
+            "lyrics": "Se fores desprezado e não tiveres paz,"
+          },
+          {
+            "chords": "    D         G          A         D",
+            "lyrics": "Vem logo entregar-te ao Salvador veraz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D            G         A            D",
+            "lyrics": "Vem, sem tardar, unir-te a Quem te diz assim,"
+          },
+          {
+            "chords": "                  G          A               D",
+            "lyrics": "Com voz celeste_e doce: “Oh! Vem, sim, vem a Mim”."
+          },
+          {
+            "chords": "    Bm         F#    Bm         A ",
+            "lyrics": "Por Sua mão guiado, aqui tu andarás"
+          },
+          {
+            "chords": "     D            G           A           D",
+            "lyrics": "Tranquilo_e bem seguro e,_um dia,_ao céu irás."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " D                         E ",
+            "lyrics": "“Vinde_a Mim, vós todos cansados e_oprimidos”,"
+          },
+          {
+            "chords": "   A           D          A           D",
+            "lyrics": "Falou o grande Mestre, Jesus, o Redentor;"
+          },
+          {
+            "chords": "                           E ",
+            "lyrics": "Pois Seu fardo_é leve, Seu jugo é suave,"
+          },
+          {
+            "chords": "   A         D          A         D",
+            "lyrics": "Só Ele traz alívio: perdão ao pecador."
+          }
+        ]
+      }
+    ]
+  }
 }

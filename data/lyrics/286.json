@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Nome precioso para mim",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D         G   A    D",
-    "1. Um Nome precioso para mim,",
-    "              G    A   D",
-    "O Nome que_amarei até ofim,",
-    "       A                 D",
-    "Com sincero_amor, com sincero_ardor,",
-    "    E                A     A7... ",
-    "É_o Nome de Jesus, o Mestre.",
-    "",
-    "D         G   A    D",
-    "Nome precioso para mim",
-    "    A               D",
-    "É o de Jesus, minha Vida_e Luz;",
-    "                 G      A    D",
-    "Por fé eu quero_amá-Lo_até o fim;",
-    "  G           A              D",
-    "Jesus, o Redentor, habita_em mim!",
-    "",
-    "      D           G    A     D",
-    "2. Ao mencionar o Nome do Senhor,",
-    "              G    A   D",
-    "Meu coração jubila de amor;",
-    "        A                D",
-    "Oh! Que comunhão! Que consolação!",
-    "   E                A    A7... ",
-    "Eu sinto grande regozijo!",
-    "",
-    "      D           G      A   D",
-    "3. Perdão eu alcancei do Criador,",
-    "                 G    A   D",
-    "Por Cristo, meu amado Remidor,",
-    "       A                D",
-    "Que na cruz morreu, Sua vida deu;",
-    "  E                    A    A7... ",
-    "Pagou a Deus os meus pecados."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D         G   A    D",
+            "lyrics": "Um Nome precioso para mim,"
+          },
+          {
+            "chords": "              G    A   D",
+            "lyrics": "O Nome que_amarei até ofim,"
+          },
+          {
+            "chords": "       A                 D",
+            "lyrics": "Com sincero_amor, com sincero_ardor,"
+          },
+          {
+            "chords": "    E                A     A7... ",
+            "lyrics": "É_o Nome de Jesus, o Mestre."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D         G   A    D",
+            "lyrics": "Nome precioso para mim"
+          },
+          {
+            "chords": "    A               D",
+            "lyrics": "É o de Jesus, minha Vida_e Luz;"
+          },
+          {
+            "chords": "                 G      A    D",
+            "lyrics": "Por fé eu quero_amá-Lo_até o fim;"
+          },
+          {
+            "chords": "  G           A              D",
+            "lyrics": "Jesus, o Redentor, habita_em mim!"
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   D           G    A     D",
+            "lyrics": "Ao mencionar o Nome do Senhor,"
+          },
+          {
+            "chords": "              G    A   D",
+            "lyrics": "Meu coração jubila de amor;"
+          },
+          {
+            "chords": "        A                D",
+            "lyrics": "Oh! Que comunhão! Que consolação!"
+          },
+          {
+            "chords": "   E                A    A7... ",
+            "lyrics": "Eu sinto grande regozijo!"
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   D           G      A   D",
+            "lyrics": "Perdão eu alcancei do Criador,"
+          },
+          {
+            "chords": "                 G    A   D",
+            "lyrics": "Por Cristo, meu amado Remidor,"
+          },
+          {
+            "chords": "       A                D",
+            "lyrics": "Que na cruz morreu, Sua vida deu;"
+          },
+          {
+            "chords": "  E                    A    A7... ",
+            "lyrics": "Pagou a Deus os meus pecados."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

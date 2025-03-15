@@ -1,41 +1,92 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos produzir frutos de louvor",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D                                A ",
-    "1. Na doutrina santa dos céus, ensinou Jesus, Salvador:",
-    "D                               G       A    D",
-    "Eis que pelos campos lançou a semente_o semeador;",
-    "G                   D     G          E           A    A7 ",
-    "Parte da semente lançada, consumiram as aves do céu;",
-    " D                       G         A          D",
-    "Junto do caminho caiu e fruto, portanto, não deu.",
-    "",
-    "   D                               A  ",
-    "2. Outra parte logo cresceu, mas raiz em si não formou;",
-    "D                                 G     A       D",
-    "Entre pedregais foi cair, veio_o sol e logo murchou;",
-    "G                       D       G          E            A    A7 ",
-    "Outra, que caiu entre_espinhos, sufocada, não pôde crescer;",
-    " D                          G        A          D",
-    "Muito tempo não resistiu e veio, portanto,_a morrer.",
-    "",
-    "   D                            A ",
-    "3. Mas em boa terra caiu outra parte_e frutificou;",
-    "D                                      G     A      D",
-    "Os seus frutos deu, cem por um, para_aquele que semeou.",
-    "G               D      G          E           A    A7 ",
-    "A Palavra é a Semente que em nós opera com poder;",
-    " D                            G            A        D",
-    "Somos a lavoura de Deus, que quer os seus frutos colher.",
-    "",
-    "D          A                D ",
-    "Vamos produzir frutos de louvor,",
-    "                     G  ",
-    "Frutos para honra e glória",
-    "    A                     D",
-    "De Deus e de Cristo,_o Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D                                A ",
+            "lyrics": "Na doutrina santa dos céus, ensinou Jesus, Salvador:"
+          },
+          {
+            "chords": "D                               G       A    D",
+            "lyrics": "Eis que pelos campos lançou a semente_o semeador;"
+          },
+          {
+            "chords": "G                   D     G          E           A    A7 ",
+            "lyrics": "Parte da semente lançada, consumiram as aves do céu;"
+          },
+          {
+            "chords": " D                       G         A          D",
+            "lyrics": "Junto do caminho caiu e fruto, portanto, não deu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D                               A  ",
+            "lyrics": "Outra parte logo cresceu, mas raiz em si não formou;"
+          },
+          {
+            "chords": "D                                 G     A       D",
+            "lyrics": "Entre pedregais foi cair, veio_o sol e logo murchou;"
+          },
+          {
+            "chords": "G                       D       G          E            A    A7 ",
+            "lyrics": "Outra, que caiu entre_espinhos, sufocada, não pôde crescer;"
+          },
+          {
+            "chords": " D                          G        A          D",
+            "lyrics": "Muito tempo não resistiu e veio, portanto,_a morrer."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D                            A ",
+            "lyrics": "Mas em boa terra caiu outra parte_e frutificou;"
+          },
+          {
+            "chords": "D                                      G     A      D",
+            "lyrics": "Os seus frutos deu, cem por um, para_aquele que semeou."
+          },
+          {
+            "chords": "G               D      G          E           A    A7 ",
+            "lyrics": "A Palavra é a Semente que em nós opera com poder;"
+          },
+          {
+            "chords": " D                            G            A        D",
+            "lyrics": "Somos a lavoura de Deus, que quer os seus frutos colher."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D          A                D ",
+            "lyrics": "Vamos produzir frutos de louvor,"
+          },
+          {
+            "chords": "                     G  ",
+            "lyrics": "Frutos para honra e glória"
+          },
+          {
+            "chords": "    A                     D",
+            "lyrics": "De Deus e de Cristo,_o Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Anunciai o santo Evangelho",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                         E ",
-    "1. Ide,_anunciai o santo_Evangelho",
-    "                           A",
-    "Por todo_o mundo, disse Jesus,",
-    "                         D ",
-    "A todo_o homem, jovem ou velho,",
-    "          A     E         A",
-    "Para_alcançar o reino de luz.",
-    "",
-    "A          E              A",
-    "Todo_o que crer e for batizado",
-    "        D     E        A",
-    "Salvo será, falou o Senhor;",
-    "A            C#             F#m ",
-    "Mas quem não crer já é condenado, ",
-    "          E              A",
-    "Por desprezar o seu Salvador.",
-    "",
-    "   A                            E ",
-    "2. Não mais duvides, este_é_o caminho,",
-    "                            A",
-    "Nele_o primeiro passo vais dar;",
-    "                        D ",
-    "Com alegria, segue_o destino",
-    "            A     E      A",
-    "Que Cristo veio_a ti ofertar.",
-    "",
-    "   A                    E ",
-    "3. Pelo batismo és sepultado",
-    "                       A",
-    "Para, ao mundo, renunciar;",
-    "                         D ",
-    "Sendo, por Cristo, regenerado,",
-    "         A     E       A",
-    "Em Seu caminho podes andar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                         E ",
+            "lyrics": "Ide,_anunciai o santo_Evangelho"
+          },
+          {
+            "chords": "                           A",
+            "lyrics": "Por todo_o mundo, disse Jesus,"
+          },
+          {
+            "chords": "                         D ",
+            "lyrics": "A todo_o homem, jovem ou velho,"
+          },
+          {
+            "chords": "          A     E         A",
+            "lyrics": "Para_alcançar o reino de luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A          E              A",
+            "lyrics": "Todo_o que crer e for batizado"
+          },
+          {
+            "chords": "        D     E        A",
+            "lyrics": "Salvo será, falou o Senhor;"
+          },
+          {
+            "chords": "A            C#             F#m ",
+            "lyrics": "Mas quem não crer já é condenado, "
+          },
+          {
+            "chords": "          E              A",
+            "lyrics": "Por desprezar o seu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                            E ",
+            "lyrics": "Não mais duvides, este_é_o caminho,"
+          },
+          {
+            "chords": "                            A",
+            "lyrics": "Nele_o primeiro passo vais dar;"
+          },
+          {
+            "chords": "                        D ",
+            "lyrics": "Com alegria, segue_o destino"
+          },
+          {
+            "chords": "            A     E      A",
+            "lyrics": "Que Cristo veio_a ti ofertar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                    E ",
+            "lyrics": "Pelo batismo és sepultado"
+          },
+          {
+            "chords": "                       A",
+            "lyrics": "Para, ao mundo, renunciar;"
+          },
+          {
+            "chords": "                         D ",
+            "lyrics": "Sendo, por Cristo, regenerado,"
+          },
+          {
+            "chords": "         A     E       A",
+            "lyrics": "Em Seu caminho podes andar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

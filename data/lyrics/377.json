@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "No céu, Senhor, no céu",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "              A               E           A",
-    "1. No céu, Senhor, no céu, Contigo lá em glória,",
-    " D    E    A             E       B7   E    A ",
-    "   No Teu eterno reino,_alegres, cantare - mos",
-    "      F#        Bm     E         A    F#m ",
-    "   Um hino glorioso, o hino da vitó - ria;",
-    " D    E        A             D  Bm          E    A    A...",
-    "   Senhor, Teu esplendor no céu    contemplare - mos.",
-    "",
-    "              A              E          A",
-    "2. As portas, lá no céu, são pérolas preciosas",
-    " D     E     A           E    B7  E  A",
-    "   E_a praça da cidade_é ouro reluzente;",
-    "      F#         Bm      E           A   F#m ",
-    "   No céu é tudo puro; riquezas glorio - sas",
-    " D    E    A           D   Bm        E  A    A...",
-    "   Desfrutaremos com Jesus,    eternamente.",
-    "",
-    "          A          E          A",
-    "3. O peregrino que almeja, no futuro,",
-    " D    E   A            E     B7    E    A",
-    "   Ir habitar com o Senhor Jesus, ama - do,",
-    "      F#            Bm       E             A    F#m ",
-    "   Procura ser mais santo, deseja ser mais pu - ro",
-    " D   E     A             D   Bm            E  A    A...",
-    "   E busca ser a Deus, o Pai,    mais consagrado.",
-    "",
-    "             A            E          A",
-    "4. É glória_eterna para_o santo peregrino,",
-    " D   E     A          E        B7   E    A",
-    "   A celestial cidade por Deus prepara - da;",
-    "      F#         Bm       E           A    F#m ",
-    "   Em breve chegaremos ao triunfal desti - no,",
-    " D   E       A          D   Bm         E    A    A...",
-    "   Onde_há repouso do labor    e da jorna - da."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "           A               E           A",
+            "lyrics": "No céu, Senhor, no céu, Contigo lá em glória,"
+          },
+          {
+            "chords": " D    E    A             E       B7   E    A ",
+            "lyrics": "   No Teu eterno reino,_alegres, cantare - mos"
+          },
+          {
+            "chords": "      F#        Bm     E         A    F#m ",
+            "lyrics": "   Um hino glorioso, o hino da vitó - ria;"
+          },
+          {
+            "chords": " D    E        A             D  Bm          E    A    A...",
+            "lyrics": "   Senhor, Teu esplendor no céu    contemplare - mos."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "           A              E          A",
+            "lyrics": "As portas, lá no céu, são pérolas preciosas"
+          },
+          {
+            "chords": " D     E     A           E    B7  E  A",
+            "lyrics": "   E_a praça da cidade_é ouro reluzente;"
+          },
+          {
+            "chords": "      F#         Bm      E           A   F#m ",
+            "lyrics": "   No céu é tudo puro; riquezas glorio - sas"
+          },
+          {
+            "chords": " D    E    A           D   Bm        E  A    A...",
+            "lyrics": "   Desfrutaremos com Jesus,    eternamente."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       A          E          A",
+            "lyrics": "O peregrino que almeja, no futuro,"
+          },
+          {
+            "chords": " D    E   A            E     B7    E    A",
+            "lyrics": "   Ir habitar com o Senhor Jesus, ama - do,"
+          },
+          {
+            "chords": "      F#            Bm       E             A    F#m ",
+            "lyrics": "   Procura ser mais santo, deseja ser mais pu - ro"
+          },
+          {
+            "chords": " D   E     A             D   Bm            E  A    A...",
+            "lyrics": "   E busca ser a Deus, o Pai,    mais consagrado."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "          A            E          A",
+            "lyrics": "É glória_eterna para_o santo peregrino,"
+          },
+          {
+            "chords": " D   E     A          E        B7   E    A",
+            "lyrics": "   A celestial cidade por Deus prepara - da;"
+          },
+          {
+            "chords": "      F#         Bm       E           A    F#m ",
+            "lyrics": "   Em breve chegaremos ao triunfal desti - no,"
+          },
+          {
+            "chords": " D   E       A          D   Bm         E    A    A...",
+            "lyrics": "   Onde_há repouso do labor    e da jorna - da."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,46 +1,102 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A Justiça divina",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F",
-    "1. Deus quis ao mundo manifestar",
-    "               C7 ",
-    "A perfeita Caridade;",
-    "",
-    "Pelos profetas, fez anunciar",
-    "                 F",
-    "A Justiça e_a Verdade.",
-    "",
-    "Essa Justiça, que é Jesus,",
-    "D              D7    Gm ",
-    "Enviada foi ao mun - do,",
-    "G      C          G7  C ",
-    "Manifestando, por Sua luz,",
-    "G                    C ",
-    "O amor que_ao céu conduz.",
-    "",
-    "F           C    C7              F",
-    "A Justiça divina é Jesus, o Salvador;",
-    "F7        Bb    B°  F             C   F",
-    "Sua sá doutri - na  nos conduz ao Criador.",
-    "",
-    "   F",
-    "2. Essa Justiça nos libertou",
-    "                 C7 ",
-    "Da condenação vindoura;",
-    "",
-    "Deus, por Jesus, nos predestinou",
-    "                  F",
-    "Para_a glória duradoura.",
-    "",
-    "Somos, agora, remidos Seus,",
-    "D               D7   Gm ",
-    "Exaltemos o Seu No - me;",
-    "G       C       G7        C ",
-    "Ele nos fez cidadãos dos céus",
-    "G                   C ",
-    "E herdeiros do bom Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Deus quis ao mundo manifestar"
+          },
+          {
+            "chords": "               C7 ",
+            "lyrics": "A perfeita Caridade;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pelos profetas, fez anunciar"
+          },
+          {
+            "chords": "                 F",
+            "lyrics": "A Justiça e_a Verdade."
+          },
+          {
+            "chords": "",
+            "lyrics": "Essa Justiça, que é Jesus,"
+          },
+          {
+            "chords": "D              D7    Gm ",
+            "lyrics": "Enviada foi ao mun - do,"
+          },
+          {
+            "chords": "G      C          G7  C ",
+            "lyrics": "Manifestando, por Sua luz,"
+          },
+          {
+            "chords": "G                    C ",
+            "lyrics": "O amor que_ao céu conduz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F           C    C7              F",
+            "lyrics": "A Justiça divina é Jesus, o Salvador;"
+          },
+          {
+            "chords": "F7        Bb    B°  F             C   F",
+            "lyrics": "Sua sá doutri - na  nos conduz ao Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F",
+            "lyrics": "Essa Justiça nos libertou"
+          },
+          {
+            "chords": "                 C7 ",
+            "lyrics": "Da condenação vindoura;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Deus, por Jesus, nos predestinou"
+          },
+          {
+            "chords": "                  F",
+            "lyrics": "Para_a glória duradoura."
+          },
+          {
+            "chords": "",
+            "lyrics": "Somos, agora, remidos Seus,"
+          },
+          {
+            "chords": "D               D7   Gm ",
+            "lyrics": "Exaltemos o Seu No - me;"
+          },
+          {
+            "chords": "G       C       G7        C ",
+            "lyrics": "Ele nos fez cidadãos dos céus"
+          },
+          {
+            "chords": "G                   C ",
+            "lyrics": "E herdeiros do bom Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

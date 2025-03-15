@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Irmãos, avante, avante!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G              Em         G          D",
-    "1. Irmãos, avante,_avante! Com nosso Salvador,",
-    "  D7                                G",
-    "Seremos triunfantes, lutando com fervor;",
-    "          E    Am       D7         G",
-    "Vitória_alcançaremos, seguindo a Jesus,",
-    "    B7                     Em     C      B7    D... ",
-    "Que vai à nossa frente e_á glória nos conduz.",
-    "",
-    " G       D",
-    "Avante,_avante!",
-    " D7          G",
-    "Unidos ao Senhor;",
-    "   E     Am    D    G",
-    "Só Ele_é nosso Condutor;",
-    " C          G  Em  D     G",
-    "Avante! Marche-mos com valor.",
-    "",
-    "     G          Em      G            D",
-    "2. Lugares deleitosos Jesus nos preparou,",
-    "   D7                                G",
-    "De jugos mui penosos também nos libertou;",
-    "          E    Am       D7             G",
-    "A_herança prometida por Cristo,_o Salvador,",
-    "   B7                  Em      C    B7    D...",
-    "No céu é reservada por Deus, o Formador.",
-    "",
-    "       G           Em         G             D",
-    "3. Com nosso_amado Mestre, marchemos com fervor!",
-    "    D7                               G",
-    "Com fé, perseverantes, lutemos com vigor.",
-    "        E     Am        D7        G",
-    "Guiados nós seremos com força divinal;",
-    " B7                    Em    C    B7    D...",
-    "Avante! Prossigamos ao lar celestial."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G              Em         G          D",
+            "lyrics": "Irmãos, avante,_avante! Com nosso Salvador,"
+          },
+          {
+            "chords": "  D7                                G",
+            "lyrics": "Seremos triunfantes, lutando com fervor;"
+          },
+          {
+            "chords": "          E    Am       D7         G",
+            "lyrics": "Vitória_alcançaremos, seguindo a Jesus,"
+          },
+          {
+            "chords": "    B7                     Em     C      B7    D... ",
+            "lyrics": "Que vai à nossa frente e_á glória nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " G       D",
+            "lyrics": "Avante,_avante!"
+          },
+          {
+            "chords": " D7          G",
+            "lyrics": "Unidos ao Senhor;"
+          },
+          {
+            "chords": "   E     Am    D    G",
+            "lyrics": "Só Ele_é nosso Condutor;"
+          },
+          {
+            "chords": " C          G  Em  D     G",
+            "lyrics": "Avante! Marche-mos com valor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G          Em      G            D",
+            "lyrics": "Lugares deleitosos Jesus nos preparou,"
+          },
+          {
+            "chords": "   D7                                G",
+            "lyrics": "De jugos mui penosos também nos libertou;"
+          },
+          {
+            "chords": "          E    Am       D7             G",
+            "lyrics": "A_herança prometida por Cristo,_o Salvador,"
+          },
+          {
+            "chords": "   B7                  Em      C    B7    D...",
+            "lyrics": "No céu é reservada por Deus, o Formador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G           Em         G             D",
+            "lyrics": "Com nosso_amado Mestre, marchemos com fervor!"
+          },
+          {
+            "chords": "    D7                               G",
+            "lyrics": "Com fé, perseverantes, lutemos com vigor."
+          },
+          {
+            "chords": "        E     Am        D7        G",
+            "lyrics": "Guiados nós seremos com força divinal;"
+          },
+          {
+            "chords": " B7                    Em    C    B7    D...",
+            "lyrics": "Avante! Prossigamos ao lar celestial."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

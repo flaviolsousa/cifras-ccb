@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Quanto é bom o Redentor!",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "         B",
-    "1. O bom Deus, Criador, a Seu Filho_enviou,",
-    "  E                 B",
-    "A fim de nos dar a eterna redenção;",
-    "",
-    "Pelos nossos pecados Jesus suportou",
-    "E        B             F#            B",
-    "Morte de cruz, que nos trouxe_a salvação.",
-    "",
-    "    B                         E ",
-    "Oh! Quanto_é bom o nosso Redentor!",
-    "C#                           F# ",
-    "Sobre_a cruz, por nós a vida deu",
-    "B                     E ",
-    "E lavou-nos pelo Seu amor;",
-    "       B          F#            B",
-    "Justificou-nos no sangue que verteu.",
-    "",
-    "       B",
-    "2. O pecado, em todos, a morte gerou;",
-    "   E                   B",
-    "Ninguém desse mal se podia libertar;",
-    "",
-    "Sobre_a morte, o Filho de Deus triunfou",
-    "E       B        F#         B",
-    "E ressurgiu para nos justificar.",
-    "",
-    "          B",
-    "3. Cristo triunfalmente subiu para_os céus,",
-    "    E                B",
-    "E_assim voltará, Soberano e Senhor.",
-    "",
-    "Levará para_a glória os filhos de Deus",
-    "E        B        F#             B",
-    "E lhes dará o Seu reino de_esplendor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      B",
+            "lyrics": "O bom Deus, Criador, a Seu Filho_enviou,"
+          },
+          {
+            "chords": "  E                 B",
+            "lyrics": "A fim de nos dar a eterna redenção;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pelos nossos pecados Jesus suportou"
+          },
+          {
+            "chords": "E        B             F#            B",
+            "lyrics": "Morte de cruz, que nos trouxe_a salvação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    B                         E ",
+            "lyrics": "Oh! Quanto_é bom o nosso Redentor!"
+          },
+          {
+            "chords": "C#                           F# ",
+            "lyrics": "Sobre_a cruz, por nós a vida deu"
+          },
+          {
+            "chords": "B                     E ",
+            "lyrics": "E lavou-nos pelo Seu amor;"
+          },
+          {
+            "chords": "       B          F#            B",
+            "lyrics": "Justificou-nos no sangue que verteu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    B",
+            "lyrics": "O pecado, em todos, a morte gerou;"
+          },
+          {
+            "chords": "   E                   B",
+            "lyrics": "Ninguém desse mal se podia libertar;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Sobre_a morte, o Filho de Deus triunfou"
+          },
+          {
+            "chords": "E       B        F#         B",
+            "lyrics": "E ressurgiu para nos justificar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       B",
+            "lyrics": "Cristo triunfalmente subiu para_os céus,"
+          },
+          {
+            "chords": "    E                B",
+            "lyrics": "E_assim voltará, Soberano e Senhor."
+          },
+          {
+            "chords": "",
+            "lyrics": "Levará para_a glória os filhos de Deus"
+          },
+          {
+            "chords": "E        B        F#             B",
+            "lyrics": "E lhes dará o Seu reino de_esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

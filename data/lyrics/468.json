@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Toda a criança...",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "   F         C                   F",
-    "1. Toda a criança que, com fé e_amor,",
-    "                C                F",
-    "Serve_ao Deus vivente, santo Criador,",
-    "Bb           F    Bb        F",
-    "Cresce na justiça e na retidão,",
-    "Bb           F       C           F    F...",
-    "Com a lei de Cristo  em seu coração.",
-    "",
-    "   F         C              F",
-    "2. Toda a criança deve conhecer",
-    "              C                  F",
-    "Quanto_é glorioso junto_a Deus viver.",
-    "Bb         F   Bb          F",
-    "Grande alegria lhe dará Jesus;",
-    "Bb       F     C         F    F...",
-    "Ele a protege, Ele a conduz.",
-    "",
-    "   F            C                 F",
-    "3. Deus, o Pai eterno, ouve_a oração",
-    "              C                 F",
-    "Que toda_a criança faz com devoção.",
-    "Bb               F     Bb         F",
-    "Cristo, com Seu braço, firme a sustém,",
-    "Bb         F     C         F    F...",
-    "Para que alcance o eterno bem."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "F         C                   F",
+            "lyrics": "Toda a criança que, com fé e_amor,"
+          },
+          {
+            "chords": "                C                F",
+            "lyrics": "Serve_ao Deus vivente, santo Criador,"
+          },
+          {
+            "chords": "Bb           F    Bb        F",
+            "lyrics": "Cresce na justiça e na retidão,"
+          },
+          {
+            "chords": "Bb           F       C           F    F...",
+            "lyrics": "Com a lei de Cristo  em seu coração."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "F         C              F",
+            "lyrics": "Toda a criança deve conhecer"
+          },
+          {
+            "chords": "              C                  F",
+            "lyrics": "Quanto_é glorioso junto_a Deus viver."
+          },
+          {
+            "chords": "Bb         F   Bb          F",
+            "lyrics": "Grande alegria lhe dará Jesus;"
+          },
+          {
+            "chords": "Bb       F     C         F    F...",
+            "lyrics": "Ele a protege, Ele a conduz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "F            C                 F",
+            "lyrics": "Deus, o Pai eterno, ouve_a oração"
+          },
+          {
+            "chords": "              C                 F",
+            "lyrics": "Que toda_a criança faz com devoção."
+          },
+          {
+            "chords": "Bb               F     Bb         F",
+            "lyrics": "Cristo, com Seu braço, firme a sustém,"
+          },
+          {
+            "chords": "Bb         F     C         F    F...",
+            "lyrics": "Para que alcance o eterno bem."
+          }
+        ]
+      }
+    ]
+  }
 }

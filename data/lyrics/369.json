@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Sentes bater em teu coração?",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "   E       ",
-    "1. Cristo bate_e quer entrar,",
-    "          B             E",
-    "Quer te remir, por Seu amor,",
-    "          A    E",
-    "Para te reconciliar",
-    "A           E    B      E",
-    "Com Deus, o Pai, o Formador.",
-    "",
-    "B               E",
-    "Sentes bater em teu coração?",
-    "A                E     B ",
-    "Esse_é_o chamado do Senhor.",
-    "E         B      E     A ",
-    "Tens, por Ele,_a salvação",
-    "        E  B      E    E...",
-    "E o perdão do Criador.",
-    "",
-    "   E",
-    "2. Jesus Cristo,_o Rei da paz,",
-    "        B          E",
-    "A salvação veio te dar;",
-    "           A       E",
-    "Seu amor feliz te faz,",
-    "A             E   B          E",
-    "Pois quer, em Ti, sempre_habitar.",
-    "",
-    "   E",
-    "3. Vem a Cristo,_o Redentor,",
-    "            B            E",
-    "Dá-Lhe, por fé, teu coração;",
-    "            A    E",
-    "Reconhece_o Seu amor;",
-    "A          E    B       E",
-    "Tens, em Jesus, a redenção."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "E       ",
+            "lyrics": "Cristo bate_e quer entrar,"
+          },
+          {
+            "chords": "          B             E",
+            "lyrics": "Quer te remir, por Seu amor,"
+          },
+          {
+            "chords": "          A    E",
+            "lyrics": "Para te reconciliar"
+          },
+          {
+            "chords": "A           E    B      E",
+            "lyrics": "Com Deus, o Pai, o Formador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B               E",
+            "lyrics": "Sentes bater em teu coração?"
+          },
+          {
+            "chords": "A                E     B ",
+            "lyrics": "Esse_é_o chamado do Senhor."
+          },
+          {
+            "chords": "E         B      E     A ",
+            "lyrics": "Tens, por Ele,_a salvação"
+          },
+          {
+            "chords": "        E  B      E    E...",
+            "lyrics": "E o perdão do Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "E",
+            "lyrics": "Jesus Cristo,_o Rei da paz,"
+          },
+          {
+            "chords": "        B          E",
+            "lyrics": "A salvação veio te dar;"
+          },
+          {
+            "chords": "           A       E",
+            "lyrics": "Seu amor feliz te faz,"
+          },
+          {
+            "chords": "A             E   B          E",
+            "lyrics": "Pois quer, em Ti, sempre_habitar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E",
+            "lyrics": "Vem a Cristo,_o Redentor,"
+          },
+          {
+            "chords": "            B            E",
+            "lyrics": "Dá-Lhe, por fé, teu coração;"
+          },
+          {
+            "chords": "            A    E",
+            "lyrics": "Reconhece_o Seu amor;"
+          },
+          {
+            "chords": "A          E    B       E",
+            "lyrics": "Tens, em Jesus, a redenção."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

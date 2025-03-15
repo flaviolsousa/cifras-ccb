@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Foi por mim que morreste",
-  "difficulty": 3,
   "tone": "F",
-  "content": [
-    "            F                  Bb       F",
-    "1. Foi por mim que morreste, Jesus Redentor,",
-    "     C                  F",
-    "Por amor, para dar-me a fé;",
-    "                            Bb        F",
-    "Fé em Deus, que me livra do mal, ó Senhor,",
-    "     C                  F",
-    "E conserva-me sempre de pé.",
-    "",
-    "      F",
-    "Ao Cordeiro de Deus, sempre glória darei,",
-    "         G7                C    ",
-    "Pois, do céu, veio para salvar;",
-    "C7     F                   Bb    F",
-    "Ao meu bom Salvador sempre exaltarei;",
-    "       Bb          C        F",
-    "Santas bênçãos me faz desfrutar.",
-    "",
-    "         F                Bb      F",
-    "2. Pelo Teu sacrifício, Jesus Remidor,",
-    "    C                     F",
-    "Me abriste_o caminho dos céus;",
-    "                       Bb         F",
-    "Dos pecados lavaste minh´alma, Senhor,",
-    "     C                    F",
-    "Comunhão tenho_agora com Deus.",
-    "",
-    "          F                 Bb        F",
-    "3. Bom Jesus, por Teu ato sublime de_amor",
-    "       C                     F",
-    "Me trouxeste, de Deus, o perdão;",
-    "                      Bb           F",
-    "Levarás minha alma ao lar de_esplendor,",
-    "     C               F",
-    "Onde receberei galardão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "         F                  Bb       F",
+            "lyrics": "Foi por mim que morreste, Jesus Redentor,"
+          },
+          {
+            "chords": "     C                  F",
+            "lyrics": "Por amor, para dar-me a fé;"
+          },
+          {
+            "chords": "                            Bb        F",
+            "lyrics": "Fé em Deus, que me livra do mal, ó Senhor,"
+          },
+          {
+            "chords": "     C                  F",
+            "lyrics": "E conserva-me sempre de pé."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      F",
+            "lyrics": "Ao Cordeiro de Deus, sempre glória darei,"
+          },
+          {
+            "chords": "         G7                C    ",
+            "lyrics": "Pois, do céu, veio para salvar;"
+          },
+          {
+            "chords": "C7     F                   Bb    F",
+            "lyrics": "Ao meu bom Salvador sempre exaltarei;"
+          },
+          {
+            "chords": "       Bb          C        F",
+            "lyrics": "Santas bênçãos me faz desfrutar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      F                Bb      F",
+            "lyrics": "Pelo Teu sacrifício, Jesus Remidor,"
+          },
+          {
+            "chords": "    C                     F",
+            "lyrics": "Me abriste_o caminho dos céus;"
+          },
+          {
+            "chords": "                       Bb         F",
+            "lyrics": "Dos pecados lavaste minh´alma, Senhor,"
+          },
+          {
+            "chords": "     C                    F",
+            "lyrics": "Comunhão tenho_agora com Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       F                 Bb        F",
+            "lyrics": "Bom Jesus, por Teu ato sublime de_amor"
+          },
+          {
+            "chords": "       C                     F",
+            "lyrics": "Me trouxeste, de Deus, o perdão;"
+          },
+          {
+            "chords": "                      Bb           F",
+            "lyrics": "Levarás minha alma ao lar de_esplendor,"
+          },
+          {
+            "chords": "     C               F",
+            "lyrics": "Onde receberei galardão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

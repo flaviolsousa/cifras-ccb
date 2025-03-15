@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Louvemos sempre alegres",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "      E                      B",
-    "1. Louvemos sempre_alegres a Deus, três vezes Santo,",
-    "     E                   B  E     F#7  B",
-    "Que, por amar-nos tanto, mandou o Salvador.",
-    "  E            A  E                 B",
-    "Jesus, por Sua morte, pagou nossas ofensas;",
-    "  E                  E7  A     B    E",
-    "Sofrendo dor imensa, mostrou o Seu amor.",
-    "",
-    "     E                        B",
-    "2. Estão os nossos nomes, por Deus, no céu escritos;",
-    "   E                     B  E       F#7    B",
-    "Cheguemo-nos, contritos, ao Pai de_eterno_amor.",
-    "   E           A  E                B",
-    "Em paz, na Sua senda caminham os remidos,",
-    "  E                    E7  A     B   E",
-    "Lutando sempre_unidos, com força e valor.",
-    "",
-    "     E                       B ",
-    "3. Jesus virá, com glória, fazer o julgamento",
-    "   E                   B   E     F#7  B",
-    "De quem Seu mandamento não quis obede-cer;",
-    "  E              A  E                B",
-    "Porém, os Seus remi-dos já têm a esperança",
-    "    E               E7   A      B   E",
-    "E_a firme confiança de_o prêmio receber."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   E                      B",
+            "lyrics": "Louvemos sempre_alegres a Deus, três vezes Santo,"
+          },
+          {
+            "chords": "     E                   B  E     F#7  B",
+            "lyrics": "Que, por amar-nos tanto, mandou o Salvador."
+          },
+          {
+            "chords": "  E            A  E                 B",
+            "lyrics": "Jesus, por Sua morte, pagou nossas ofensas;"
+          },
+          {
+            "chords": "  E                  E7  A     B    E",
+            "lyrics": "Sofrendo dor imensa, mostrou o Seu amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  E                        B",
+            "lyrics": "Estão os nossos nomes, por Deus, no céu escritos;"
+          },
+          {
+            "chords": "   E                     B  E       F#7    B",
+            "lyrics": "Cheguemo-nos, contritos, ao Pai de_eterno_amor."
+          },
+          {
+            "chords": "   E           A  E                B",
+            "lyrics": "Em paz, na Sua senda caminham os remidos,"
+          },
+          {
+            "chords": "  E                    E7  A     B   E",
+            "lyrics": "Lutando sempre_unidos, com força e valor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  E                       B ",
+            "lyrics": "Jesus virá, com glória, fazer o julgamento"
+          },
+          {
+            "chords": "   E                   B   E     F#7  B",
+            "lyrics": "De quem Seu mandamento não quis obede-cer;"
+          },
+          {
+            "chords": "  E              A  E                B",
+            "lyrics": "Porém, os Seus remi-dos já têm a esperança"
+          },
+          {
+            "chords": "    E               E7   A      B   E",
+            "lyrics": "E_a firme confiança de_o prêmio receber."
+          }
+        ]
+      }
+    ]
+  }
 }

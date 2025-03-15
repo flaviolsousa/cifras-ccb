@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Mocidade! Vamos combater!",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A                                 E",
-    "1. Com valor, ó jovens, santos do Senhor,",
-    "                     A",
-    "Vamos proclamar que Cristo_é_o Salvador;",
-    "                                   D",
-    "Os que n´Ele crerem, certo_alcançarão",
-    "E                 A",
-    "Vida_eterna e perdão.",
-    "",
-    "A                    E",
-    "Mocidade! Vamos combater!",
-    "                       A",
-    "Valorosos somos por Jesus!",
-    "           A7         D",
-    "Venceremos pelo Seu poder,",
-    "Bm       E          A    A...",
-    "Manifestaremos Sua luz.",
-    "",
-    "   A                                     E",
-    "2. Sempre_avante,_ó jovens, vamos, com valor,",
-    "                      A",
-    "Combater, por fé, o_astuto tentador;",
-    "                                   D",
-    "Cristo, com Seu braço, nos sustentará",
-    "E               A",
-    "E vitória nos dará.",
-    "",
-    "   A                           E",
-    "3. Bem-aventurados somos no Senhor,",
-    "                     A",
-    "Temos alcançado_a_unção do Criador",
-    "                              D",
-    "Pela qual sentimos paz e comunhão,",
-    "E                 A",
-    "Para_eterna salvação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A                                 E",
+            "lyrics": "Com valor, ó jovens, santos do Senhor,"
+          },
+          {
+            "chords": "                     A",
+            "lyrics": "Vamos proclamar que Cristo_é_o Salvador;"
+          },
+          {
+            "chords": "                                   D",
+            "lyrics": "Os que n´Ele crerem, certo_alcançarão"
+          },
+          {
+            "chords": "E                 A",
+            "lyrics": "Vida_eterna e perdão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                    E",
+            "lyrics": "Mocidade! Vamos combater!"
+          },
+          {
+            "chords": "                       A",
+            "lyrics": "Valorosos somos por Jesus!"
+          },
+          {
+            "chords": "           A7         D",
+            "lyrics": "Venceremos pelo Seu poder,"
+          },
+          {
+            "chords": "Bm       E          A    A...",
+            "lyrics": "Manifestaremos Sua luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A                                     E",
+            "lyrics": "Sempre_avante,_ó jovens, vamos, com valor,"
+          },
+          {
+            "chords": "                      A",
+            "lyrics": "Combater, por fé, o_astuto tentador;"
+          },
+          {
+            "chords": "                                   D",
+            "lyrics": "Cristo, com Seu braço, nos sustentará"
+          },
+          {
+            "chords": "E               A",
+            "lyrics": "E vitória nos dará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A                           E",
+            "lyrics": "Bem-aventurados somos no Senhor,"
+          },
+          {
+            "chords": "                     A",
+            "lyrics": "Temos alcançado_a_unção do Criador"
+          },
+          {
+            "chords": "                              D",
+            "lyrics": "Pela qual sentimos paz e comunhão,"
+          },
+          {
+            "chords": "E                 A",
+            "lyrics": "Para_eterna salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Graça maravilhosa",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B           B°    B                        A#° ",
-    "1. Graça maravilho - sa de Cristo,_o Redentor!",
-    "G#m                    C#7          F#  F#7 ",
-    "Não há em mim palavras para a descrever!",
-    "B             B°    B            B7    E ",
-    "É dom mui excelen - te, grande é seu valor;",
-    "     F°            B  G#°  F#  F#7  B",
-    "Essa graça bendita sinto   em  meu  ser.",
-    "",
-    "B                   F#    F#7  B                   F#7 ",
-    "É maravilhosa e_excelen - te   a divina graça de Jesus,",
-    "       B      C#7      F#  F#7 ",
-    "Nada a ela se pode_igualar;",
-    "B                    F#   F#7  B                       E ",
-    "Ela apagou os meus peca - dos  e à gloria_eterna me conduz;",
-    "  F°               B    E      F#    F#7  B",
-    "Sublime é a graça que Jesus me vei - o   dar.",
-    "",
-    "   B           B°    B                      A#° ",
-    "2. Graça maravilho - sa que traz a salvação,",
-    "G#m                   C#7            F#  F#7 ",
-    "Por ela, dos pecados, Cristo me libertou;",
-    "B                B°   B            B7    E ",
-    "Ela se_estende_a to - dos, a todos dá perdão,",
-    "        F°                B    G#°   F#   F#7  B",
-    "Pois em Cristo Jesus, aos ho - mens, Deus a - mou.",
-    "",
-    "   B           B°    B                       A#° ",
-    "3. Graça maravilho - sa concede paz com Deus;",
-    "G#m               C#7              F#  F#7 ",
-    "Por sua eficácia, transforma_o coração;",
-    "B            B°    B         B7     E ",
-    "Essa bendita gra - ça me levará aos céus,",
-    "     F°               B  G#°  F#   F#7    B",
-    "Onde Cristo dará, aos santos, ga – lar - dão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B           B°    B                        A#° ",
+            "lyrics": "Graça maravilho - sa de Cristo,_o Redentor!"
+          },
+          {
+            "chords": "G#m                    C#7          F#  F#7 ",
+            "lyrics": "Não há em mim palavras para a descrever!"
+          },
+          {
+            "chords": "B             B°    B            B7    E ",
+            "lyrics": "É dom mui excelen - te, grande é seu valor;"
+          },
+          {
+            "chords": "     F°            B  G#°  F#  F#7  B",
+            "lyrics": "Essa graça bendita sinto   em  meu  ser."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B                   F#    F#7  B                   F#7 ",
+            "lyrics": "É maravilhosa e_excelen - te   a divina graça de Jesus,"
+          },
+          {
+            "chords": "       B      C#7      F#  F#7 ",
+            "lyrics": "Nada a ela se pode_igualar;"
+          },
+          {
+            "chords": "B                    F#   F#7  B                       E ",
+            "lyrics": "Ela apagou os meus peca - dos  e à gloria_eterna me conduz;"
+          },
+          {
+            "chords": "  F°               B    E      F#    F#7  B",
+            "lyrics": "Sublime é a graça que Jesus me vei - o   dar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B           B°    B                      A#° ",
+            "lyrics": "Graça maravilho - sa que traz a salvação,"
+          },
+          {
+            "chords": "G#m                   C#7            F#  F#7 ",
+            "lyrics": "Por ela, dos pecados, Cristo me libertou;"
+          },
+          {
+            "chords": "B                B°   B            B7    E ",
+            "lyrics": "Ela se_estende_a to - dos, a todos dá perdão,"
+          },
+          {
+            "chords": "        F°                B    G#°   F#   F#7  B",
+            "lyrics": "Pois em Cristo Jesus, aos ho - mens, Deus a - mou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B           B°    B                       A#° ",
+            "lyrics": "Graça maravilho - sa concede paz com Deus;"
+          },
+          {
+            "chords": "G#m               C#7              F#  F#7 ",
+            "lyrics": "Por sua eficácia, transforma_o coração;"
+          },
+          {
+            "chords": "B            B°    B         B7     E ",
+            "lyrics": "Essa bendita gra - ça me levará aos céus,"
+          },
+          {
+            "chords": "     F°               B  G#°  F#   F#7    B",
+            "lyrics": "Onde Cristo dará, aos santos, ga – lar - dão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

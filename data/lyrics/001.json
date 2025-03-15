@@ -1,51 +1,113 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Cristo, meu Mestre...",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "    E          B      A        E",
-    "1. Cristo, meu Mestre e meu Senhor,",
-    "A      E         F#7        B7",
-    "Eu Te adoro, por fé, com fervor;",
-    "E        B        A      B7",
-    "Rogo que guardes meu coração;",
-    "A        E         B      E",
-    "Vem protege-lo com Tua unção",
-    "A      E  C7...  B7        E",
-    "E defendê-lo,  ó meu Guardião.",
-    "",
-    "    E       B      A        E",
-    "2. Mestre divino, sempre senti",
-    " A       E       F#7      B7",
-    "Meu coração dependente de Ti;",
-    " E       B     A         B7",
-    "Bom fundamento dá-lhe, Senhor,",
-    "A         E        B       E",
-    "Dá-lhe firmeza, virtude, valor",
-    "A      E C7...  B7       E",
-    "E fortaleza,  ó meu Protetor.",
-    "",
-    "   E       B       A       E",
-    "3. Vale profundo, cheio de mal,",
-    "A       E       F#7     B7",
-    "É este mundo, ó Rei divinal.",
-    "E      B     A       B7",
-    "Só Tua força pode manter",
-    " A      E        B          E",
-    "Santo e puro, na graça, meu ser,",
-    " A       E C7...   B7     E",
-    "Sempre seguro, com fé e poder.",
-    "",
-    "    E        B      A       E",
-    "4. Mestre piedoso, com Tua mão,",
-    "A       E       F#7     B7",
-    "Faze perfeito o meu coração,",
-    " E         B    A        B7",
-    "Santo,_ardoroso em Te servir,",
-    " A        E        B          E",
-    "Sempre voltado aos bens do porvir;",
-    " A      E C7...  B7        E",
-    "Mestre amado,  desejo Te_ouvir."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " E          B      A        E",
+            "lyrics": "Cristo, meu Mestre e meu Senhor,"
+          },
+          {
+            "chords": "A      E         F#7        B7",
+            "lyrics": "Eu Te adoro, por fé, com fervor;"
+          },
+          {
+            "chords": "E        B        A      B7",
+            "lyrics": "Rogo que guardes meu coração;"
+          },
+          {
+            "chords": "A        E         B      E",
+            "lyrics": "Vem protege-lo com Tua unção"
+          },
+          {
+            "chords": "A      E  C7...  B7        E",
+            "lyrics": "E defendê-lo,  ó meu Guardião."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " E       B      A        E",
+            "lyrics": "Mestre divino, sempre senti"
+          },
+          {
+            "chords": " A       E       F#7      B7",
+            "lyrics": "Meu coração dependente de Ti;"
+          },
+          {
+            "chords": " E       B     A         B7",
+            "lyrics": "Bom fundamento dá-lhe, Senhor,"
+          },
+          {
+            "chords": "A         E        B       E",
+            "lyrics": "Dá-lhe firmeza, virtude, valor"
+          },
+          {
+            "chords": "A      E C7...  B7       E",
+            "lyrics": "E fortaleza,  ó meu Protetor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "E       B       A       E",
+            "lyrics": "Vale profundo, cheio de mal,"
+          },
+          {
+            "chords": "A       E       F#7     B7",
+            "lyrics": "É este mundo, ó Rei divinal."
+          },
+          {
+            "chords": "E      B     A       B7",
+            "lyrics": "Só Tua força pode manter"
+          },
+          {
+            "chords": " A      E        B          E",
+            "lyrics": "Santo e puro, na graça, meu ser,"
+          },
+          {
+            "chords": " A       E C7...   B7     E",
+            "lyrics": "Sempre seguro, com fé e poder."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": " E        B      A       E",
+            "lyrics": "Mestre piedoso, com Tua mão,"
+          },
+          {
+            "chords": "A       E       F#7     B7",
+            "lyrics": "Faze perfeito o meu coração,"
+          },
+          {
+            "chords": " E         B    A        B7",
+            "lyrics": "Santo,_ardoroso em Te servir,"
+          },
+          {
+            "chords": " A        E        B          E",
+            "lyrics": "Sempre voltado aos bens do porvir;"
+          },
+          {
+            "chords": " A      E C7...  B7        E",
+            "lyrics": "Mestre amado,  desejo Te_ouvir."
+          }
+        ]
+      }
+    ]
+  }
 }

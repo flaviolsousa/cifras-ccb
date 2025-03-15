@@ -1,47 +1,112 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jerusalém celestial!",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "     G",
-    "1. Jerusalém celestial,",
-    "  D  ",
-    "Cidade do eterno Deus!",
-    "    G",
-    "Mui breve_ali se_econtrarão",
-    "   D          G        G...",
-    "Os santos cidadãos dos céus.",
-    "",
-    "  D         G",
-    "Jerusalém celestial,",
-    "  D            G",
-    "Lugar de paz e de_esplendor!",
-    "    D   ",
-    "Por fé, podemos contemplar",
-    "  G",
-    "A terra que Deus nos vai dar;",
-    "  C            G",
-    "Então o_exílio findará,",
-    "  D          G    G...",
-    "O povo santo reinará.",
-    "",
-    "     G",
-    "2. Jerusalém celestial",
-    "  D ",
-    "É a cidade_onde_entrarão",
-    "   G",
-    "Os que amaram o Senhor",
-    "    D          G   G...",
-    "Com um sincero coração.",
-    "",
-    "     G",
-    "3. Jerusalém celestial,",
-    "    D ",
-    "De_icomparável esplendor,",
-    "  G",
-    "É adornada de amor",
-    "  D         G     G...",
-    "E majestade do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  G",
+            "lyrics": "Jerusalém celestial,"
+          },
+          {
+            "chords": "  D  ",
+            "lyrics": "Cidade do eterno Deus!"
+          },
+          {
+            "chords": "    G",
+            "lyrics": "Mui breve_ali se_econtrarão"
+          },
+          {
+            "chords": "   D          G        G...",
+            "lyrics": "Os santos cidadãos dos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  D         G",
+            "lyrics": "Jerusalém celestial,"
+          },
+          {
+            "chords": "  D            G",
+            "lyrics": "Lugar de paz e de_esplendor!"
+          },
+          {
+            "chords": "    D   ",
+            "lyrics": "Por fé, podemos contemplar"
+          },
+          {
+            "chords": "  G",
+            "lyrics": "A terra que Deus nos vai dar;"
+          },
+          {
+            "chords": "  C            G",
+            "lyrics": "Então o_exílio findará,"
+          },
+          {
+            "chords": "  D          G    G...",
+            "lyrics": "O povo santo reinará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G",
+            "lyrics": "Jerusalém celestial"
+          },
+          {
+            "chords": "  D ",
+            "lyrics": "É a cidade_onde_entrarão"
+          },
+          {
+            "chords": "   G",
+            "lyrics": "Os que amaram o Senhor"
+          },
+          {
+            "chords": "    D          G   G...",
+            "lyrics": "Com um sincero coração."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G",
+            "lyrics": "Jerusalém celestial,"
+          },
+          {
+            "chords": "    D ",
+            "lyrics": "De_icomparável esplendor,"
+          },
+          {
+            "chords": "  G",
+            "lyrics": "É adornada de amor"
+          },
+          {
+            "chords": "  D         G     G...",
+            "lyrics": "E majestade do Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

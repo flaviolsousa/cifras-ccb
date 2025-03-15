@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, a Tua igreja",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D                   A         D",
-    "1. Senhor, a Tua_igreja espera_alcançar",
-    "              E       A ",
-    "O reino de glória sem par;",
-    "   D                      G      A ",
-    "No mundo_ela_encontra tristeza e dor,",
-    "    D             A          D",
-    "Aflição, fadiga_e provas, Senhor.",
-    "",
-    "      D                     A        D",
-    "2. Senhor, a Tua_igreja Te quer encontrar",
-    "              E    A ",
-    "E sempre Contigo estar;",
-    "    D                    G           A ",
-    "Oh! Guia seus passos por Teu grande_amor;",
-    "        D            A          D",
-    "Vem lhe dar os Teus adornos, Senhor.",
-    "",
-    "      D                      A         D",
-    "3. Senhor, a Tua_igreja quer ver-Te voltar,",
-    "                   E   A  ",
-    "Também quer no céu habitar;",
-    "     D               G         A ",
-    "Quer ver Tua face, ó Rei celestial,",
-    "     D             A         D",
-    "E_adorar-Te no Teu reino_eternal."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D                   A         D",
+            "lyrics": "Senhor, a Tua_igreja espera_alcançar"
+          },
+          {
+            "chords": "              E       A ",
+            "lyrics": "O reino de glória sem par;"
+          },
+          {
+            "chords": "   D                      G      A ",
+            "lyrics": "No mundo_ela_encontra tristeza e dor,"
+          },
+          {
+            "chords": "    D             A          D",
+            "lyrics": "Aflição, fadiga_e provas, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   D                     A        D",
+            "lyrics": "Senhor, a Tua_igreja Te quer encontrar"
+          },
+          {
+            "chords": "              E    A ",
+            "lyrics": "E sempre Contigo estar;"
+          },
+          {
+            "chords": "    D                    G           A ",
+            "lyrics": "Oh! Guia seus passos por Teu grande_amor;"
+          },
+          {
+            "chords": "        D            A          D",
+            "lyrics": "Vem lhe dar os Teus adornos, Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   D                      A         D",
+            "lyrics": "Senhor, a Tua_igreja quer ver-Te voltar,"
+          },
+          {
+            "chords": "                   E   A  ",
+            "lyrics": "Também quer no céu habitar;"
+          },
+          {
+            "chords": "     D               G         A ",
+            "lyrics": "Quer ver Tua face, ó Rei celestial,"
+          },
+          {
+            "chords": "     D             A         D",
+            "lyrics": "E_adorar-Te no Teu reino_eternal."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Constantemente oremos a Deus",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "   C               G        C",
-    "1. Constantemente oremos a Deus,",
-    "                 D7       G7 ",
-    "Ao Pai celeste devemos clamar,",
-    "C                G         C",
-    "Ele trabalha por todos os Seus",
-    "G                  D7        G  G7... ",
-    "E os fará, sobre_o mal, triunfar.",
-    "",
-    "C      G7                 C",
-    "Oremos com fervor e sem desanimar,",
-    "         F        D7        G7 ",
-    "Nosso clamor chegará lá nos céus;",
-    "C         G7             C",
-    "Deus nos atenderá e nos ajudará;",
-    "            F        G7        C",
-    "Ele_é_a_Esperança de todos os Seus.",
-    "",
-    "   C                  G       C",
-    "2. Com paciência,_esperança e fé,",
-    "                  D7          G7 ",
-    "Firmes sejamos em Cristo,_o Senhor,",
-    "C                 G       C",
-    "Pois Sua volta já próxima é;",
-    "G               D7       G  G7... ",
-    "Terminará a tristeza e_a dor.",
-    "",
-    "   C                      G         C",
-    "3. Cristo_é_o Caminho que leva aos céus,",
-    "               D7      G7 ",
-    "Sempre a Ele devemos seguir;",
-    "C                    G          C",
-    "Quem for fiel aos preceitos de Deus,",
-    "G            D7      G  G7... ",
-    "Vida eterna irá possuir."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "C               G        C",
+            "lyrics": "Constantemente oremos a Deus,"
+          },
+          {
+            "chords": "                 D7       G7 ",
+            "lyrics": "Ao Pai celeste devemos clamar,"
+          },
+          {
+            "chords": "C                G         C",
+            "lyrics": "Ele trabalha por todos os Seus"
+          },
+          {
+            "chords": "G                  D7        G  G7... ",
+            "lyrics": "E os fará, sobre_o mal, triunfar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C      G7                 C",
+            "lyrics": "Oremos com fervor e sem desanimar,"
+          },
+          {
+            "chords": "         F        D7        G7 ",
+            "lyrics": "Nosso clamor chegará lá nos céus;"
+          },
+          {
+            "chords": "C         G7             C",
+            "lyrics": "Deus nos atenderá e nos ajudará;"
+          },
+          {
+            "chords": "            F        G7        C",
+            "lyrics": "Ele_é_a_Esperança de todos os Seus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "C                  G       C",
+            "lyrics": "Com paciência,_esperança e fé,"
+          },
+          {
+            "chords": "                  D7          G7 ",
+            "lyrics": "Firmes sejamos em Cristo,_o Senhor,"
+          },
+          {
+            "chords": "C                 G       C",
+            "lyrics": "Pois Sua volta já próxima é;"
+          },
+          {
+            "chords": "G               D7       G  G7... ",
+            "lyrics": "Terminará a tristeza e_a dor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "C                      G         C",
+            "lyrics": "Cristo_é_o Caminho que leva aos céus,"
+          },
+          {
+            "chords": "               D7      G7 ",
+            "lyrics": "Sempre a Ele devemos seguir;"
+          },
+          {
+            "chords": "C                    G          C",
+            "lyrics": "Quem for fiel aos preceitos de Deus,"
+          },
+          {
+            "chords": "G            D7      G  G7... ",
+            "lyrics": "Vida eterna irá possuir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

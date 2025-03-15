@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Foi o Senhor Jesus",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "   B                     E ",
-    "1. Para salvar-nos, quem veio do céu?",
-    "F#             B",
-    "Nosso Senhor Jesus.",
-    "                   E ",
-    "Ele,_ao poder do pecado venceu,",
-    "F#                B",
-    "Trouxe-nos vida_e luz.",
-    "",
-    "B       E      B",
-    "Foi o Senhor Jesus",
-    "              F# ",
-    "Que nos abençoou;",
-    "B             E        B",
-    "Da_escravidão nos libertou",
-    "        F#     B",
-    "Nosso Senhor Jesus.",
-    "",
-    "   B                      E ",
-    "2. Quem, nesta graça, nos pode guardar?",
-    "F#              B",
-    "Cristo, fiel Pastor.",
-    "                  E ",
-    "Suas palavras nos podem guiar",
-    "F#              B",
-    "Ao lar de esplendor.",
-    "",
-    "   B                 E ",
-    "3. Quem poderá novas forças nos dar?",
-    "F#                B",
-    "Cristo, o Rei dos reis.",
-    "                    E ",
-    "Ele nos faz glória_eterna_alcançar;",
-    "F#           B",
-    "É Guia dos fiéis."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "B                     E ",
+            "lyrics": "Para salvar-nos, quem veio do céu?"
+          },
+          {
+            "chords": "F#             B",
+            "lyrics": "Nosso Senhor Jesus."
+          },
+          {
+            "chords": "                   E ",
+            "lyrics": "Ele,_ao poder do pecado venceu,"
+          },
+          {
+            "chords": "F#                B",
+            "lyrics": "Trouxe-nos vida_e luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B       E      B",
+            "lyrics": "Foi o Senhor Jesus"
+          },
+          {
+            "chords": "              F# ",
+            "lyrics": "Que nos abençoou;"
+          },
+          {
+            "chords": "B             E        B",
+            "lyrics": "Da_escravidão nos libertou"
+          },
+          {
+            "chords": "        F#     B",
+            "lyrics": "Nosso Senhor Jesus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "B                      E ",
+            "lyrics": "Quem, nesta graça, nos pode guardar?"
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "Cristo, fiel Pastor."
+          },
+          {
+            "chords": "                  E ",
+            "lyrics": "Suas palavras nos podem guiar"
+          },
+          {
+            "chords": "F#              B",
+            "lyrics": "Ao lar de esplendor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "B                 E ",
+            "lyrics": "Quem poderá novas forças nos dar?"
+          },
+          {
+            "chords": "F#                B",
+            "lyrics": "Cristo, o Rei dos reis."
+          },
+          {
+            "chords": "                    E ",
+            "lyrics": "Ele nos faz glória_eterna_alcançar;"
+          },
+          {
+            "chords": "F#           B",
+            "lyrics": "É Guia dos fiéis."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

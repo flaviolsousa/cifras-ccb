@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu amor, ó Cordeiro divinal",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "       E                     A              B ",
-    "1. Que obra pode se_igualar àquela sobre_a cruz?",
-    "    E                     A     B7   E",
-    "Que morte pode resgatar senão a de Jesus?",
-    "",
-    "     E                   B ",
-    "Teu amor, Teu amor, ó Cordeiro divinal,",
-    "    B7                    E",
-    "Só agora é que posso_entender:",
-    "     A                  E",
-    "Tu pagaste a Deus meu pecado, meu mal,",
-    "    A       B7          E",
-    "E fizeste feliz o meu viver.",
-    "",
-    "       E                           A            B ",
-    "2. Por toda_a minha transgreção morreu Jesus, o Rei;",
-    "  E                      A      B7   E",
-    "A Sua_imensa compaixão jamais esquecerei.",
-    "",
-    "     E                           A          B ",
-    "3. Ó meu Jesus, que Te darei por todo esse_amor?",
-    "    E                      A       B7   E",
-    "Meu ser a Ti entregarei, serei Teu servidor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    E                     A              B ",
+            "lyrics": "Que obra pode se_igualar àquela sobre_a cruz?"
+          },
+          {
+            "chords": "    E                     A     B7   E",
+            "lyrics": "Que morte pode resgatar senão a de Jesus?"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     E                   B ",
+            "lyrics": "Teu amor, Teu amor, ó Cordeiro divinal,"
+          },
+          {
+            "chords": "    B7                    E",
+            "lyrics": "Só agora é que posso_entender:"
+          },
+          {
+            "chords": "     A                  E",
+            "lyrics": "Tu pagaste a Deus meu pecado, meu mal,"
+          },
+          {
+            "chords": "    A       B7          E",
+            "lyrics": "E fizeste feliz o meu viver."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    E                           A            B ",
+            "lyrics": "Por toda_a minha transgreção morreu Jesus, o Rei;"
+          },
+          {
+            "chords": "  E                      A      B7   E",
+            "lyrics": "A Sua_imensa compaixão jamais esquecerei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  E                           A          B ",
+            "lyrics": "Ó meu Jesus, que Te darei por todo esse_amor?"
+          },
+          {
+            "chords": "    E                      A       B7   E",
+            "lyrics": "Meu ser a Ti entregarei, serei Teu servidor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

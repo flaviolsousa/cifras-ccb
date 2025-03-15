@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Só Jesus Cristo, santo Cordeiro",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "            D       D°       D",
-    "1. Só Jesus Cristo, santo Cordeiro,",
-    "                           A",
-    "Reconciliou-nos com nosso Deus;",
-    "D               D°        D",
-    "Vertendo sangue sobre_o madeiro,",
-    "         E                 A    A7...",
-    "Nos preparou a glória dos céus.",
-    "",
-    "D        G                D",
-    "Pelo Seu sangue, certos estamos",
-    "            A                D",
-    "Que, nossas faltas, a Deus pagou;",
-    "        G              D",
-    "Com reverência nós exaltamos",
-    "         A                 D",
-    "A Jesus Cristo, que nos livrou.",
-    "",
-    "              D     D°     D",
-    "2. Cristo foi morto e sepultado,",
-    "                         A",
-    "Mas triunfante, ressuscitou;",
-    "D               D°     D",
-    "Fomos, por Ele, justificados,",
-    "         E                 A    A7...",
-    "Na obra que, na cruz, consumou.",
-    "",
-    "            D     D°        D",
-    "3. A Jesus Cristo sempre louvemos,",
-    "                            A",
-    "Pois, deste mundo, nos separou;",
-    "D             D°       D",
-    "Toda a glória Lhe tributemos,",
-    "         E               A    A7...",
-    "Da pena_eterna nos libertou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "         D       D°       D",
+            "lyrics": "Só Jesus Cristo, santo Cordeiro,"
+          },
+          {
+            "chords": "                           A",
+            "lyrics": "Reconciliou-nos com nosso Deus;"
+          },
+          {
+            "chords": "D               D°        D",
+            "lyrics": "Vertendo sangue sobre_o madeiro,"
+          },
+          {
+            "chords": "         E                 A    A7...",
+            "lyrics": "Nos preparou a glória dos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D        G                D",
+            "lyrics": "Pelo Seu sangue, certos estamos"
+          },
+          {
+            "chords": "            A                D",
+            "lyrics": "Que, nossas faltas, a Deus pagou;"
+          },
+          {
+            "chords": "        G              D",
+            "lyrics": "Com reverência nós exaltamos"
+          },
+          {
+            "chords": "         A                 D",
+            "lyrics": "A Jesus Cristo, que nos livrou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "           D     D°     D",
+            "lyrics": "Cristo foi morto e sepultado,"
+          },
+          {
+            "chords": "                         A",
+            "lyrics": "Mas triunfante, ressuscitou;"
+          },
+          {
+            "chords": "D               D°     D",
+            "lyrics": "Fomos, por Ele, justificados,"
+          },
+          {
+            "chords": "         E                 A    A7...",
+            "lyrics": "Na obra que, na cruz, consumou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         D     D°        D",
+            "lyrics": "A Jesus Cristo sempre louvemos,"
+          },
+          {
+            "chords": "                            A",
+            "lyrics": "Pois, deste mundo, nos separou;"
+          },
+          {
+            "chords": "D             D°       D",
+            "lyrics": "Toda a glória Lhe tributemos,"
+          },
+          {
+            "chords": "         E               A    A7...",
+            "lyrics": "Da pena_eterna nos libertou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

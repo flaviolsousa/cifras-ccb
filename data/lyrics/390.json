@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Eis que vem o Verdadeiro",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "           C                                 F     G     C",
-    "1. Eis que vem, por sobre_as nuvens, Cristo, nosso Rei potente;",
-    "                               D            G ",
-    "Todo_o olho há de vê-Lo em Seu grande esplendor,",
-    "                                  C            G ",
-    "Pois será como_o relâmpago que se mostra no_oriente,",
-    "   C                 F      G      C",
-    "E até no ocidente aparece_o seu fulgor.",
-    "",
-    "        C",
-    "Eis que vem o Verdadeiro,",
-    "    Am   F    E ",
-    "O Juiz e Conselheiro:",
-    "     F            C",
-    "Julgará o mundo_inteiro",
-    "       F      G    C",
-    "Com justiça_e retidão.",
-    "",
-    "          C                         F      G      C",
-    "2. Como_o sol é o Seu rosto, Seu vestido_é resplendente;",
-    "                                 D         G ",
-    "Flamejantes como_o fogo são Seus olhos divinais;",
-    "                               C         G ",
-    "Como_a voz de muitas águas é a Sua voz potente;",
-    "         C                          F     G    C",
-    "São mais alvos do que_a neve Seus cabelos celestiais.",
-    "",
-    "         C                      F      G      C ",
-    "3. Nesse dia glorioso, que se_encontra já bem perto,",
-    "                               D         G ",
-    "Quem de é, perante Cristo, poderá permanecer?",
-    "                                     C          G  ",
-    "Só os justos e fiéis a Deus, que guardaram o Concerto,",
-    "    C                          F     G   C",
-    "Subirão à_eterna glória para_o reino receber."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        C                                 F     G     C",
+            "lyrics": "Eis que vem, por sobre_as nuvens, Cristo, nosso Rei potente;"
+          },
+          {
+            "chords": "                               D            G ",
+            "lyrics": "Todo_o olho há de vê-Lo em Seu grande esplendor,"
+          },
+          {
+            "chords": "                                  C            G ",
+            "lyrics": "Pois será como_o relâmpago que se mostra no_oriente,"
+          },
+          {
+            "chords": "   C                 F      G      C",
+            "lyrics": "E até no ocidente aparece_o seu fulgor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        C",
+            "lyrics": "Eis que vem o Verdadeiro,"
+          },
+          {
+            "chords": "    Am   F    E ",
+            "lyrics": "O Juiz e Conselheiro:"
+          },
+          {
+            "chords": "     F            C",
+            "lyrics": "Julgará o mundo_inteiro"
+          },
+          {
+            "chords": "       F      G    C",
+            "lyrics": "Com justiça_e retidão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       C                         F      G      C",
+            "lyrics": "Como_o sol é o Seu rosto, Seu vestido_é resplendente;"
+          },
+          {
+            "chords": "                                 D         G ",
+            "lyrics": "Flamejantes como_o fogo são Seus olhos divinais;"
+          },
+          {
+            "chords": "                               C         G ",
+            "lyrics": "Como_a voz de muitas águas é a Sua voz potente;"
+          },
+          {
+            "chords": "         C                          F     G    C",
+            "lyrics": "São mais alvos do que_a neve Seus cabelos celestiais."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      C                      F      G      C ",
+            "lyrics": "Nesse dia glorioso, que se_encontra já bem perto,"
+          },
+          {
+            "chords": "                               D         G ",
+            "lyrics": "Quem de é, perante Cristo, poderá permanecer?"
+          },
+          {
+            "chords": "                                     C          G  ",
+            "lyrics": "Só os justos e fiéis a Deus, que guardaram o Concerto,"
+          },
+          {
+            "chords": "    C                          F     G   C",
+            "lyrics": "Subirão à_eterna glória para_o reino receber."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

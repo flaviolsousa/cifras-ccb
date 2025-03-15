@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Trabalhai! Trabalhai!",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E                      ",
-    "1. Trabalhemos, irmãos, somos servos de Deus,",
-    "     B                 E",
-    "As searas de Cristo já brancas estão;",
-    "",
-    "Recebendo as forças que vêm lá dos céus,",
-    "      B       F#                 B ",
-    "Cumpriremos, alegres, a nossa missão.",
-    "",
-    "     E          B ",
-    "Trabalhai, trabalhai,",
-    "    B7      E",
-    "Vigiai, vigiai",
-    "   E7         A     F#m ",
-    "E orai sem cessar,",
-    "     E       A      B7     E",
-    "Pois breve_o Mestre vai voltar.",
-    "",
-    "        E",
-    "2. Trabalhemos, irmãos, com afinco e_amor,",
-    "    B                         E",
-    "Anunciando_aos famintos que_o Pão celestial",
-    "",
-    "É Jesus, a Palavra de vida_e vigor;",
-    "    B      F#                   B ",
-    "Ela nos alimenta_e nos livra do mal.",
-    "",
-    "        E",
-    "3. Trabalhemos, irmãos, pois ungiu-nos o Pai",
-    "       B                    E",
-    "Para_a graça de Cristo, por fé, propagar;",
-    "",
-    "Os talentos, o Mestre nos diz: “Granjeai”.",
-    "        B         F#               B ",
-    "Sobre_o muito, no céu, nos irá colocar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E                      ",
+            "lyrics": "Trabalhemos, irmãos, somos servos de Deus,"
+          },
+          {
+            "chords": "     B                 E",
+            "lyrics": "As searas de Cristo já brancas estão;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Recebendo as forças que vêm lá dos céus,"
+          },
+          {
+            "chords": "      B       F#                 B ",
+            "lyrics": "Cumpriremos, alegres, a nossa missão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     E          B ",
+            "lyrics": "Trabalhai, trabalhai,"
+          },
+          {
+            "chords": "    B7      E",
+            "lyrics": "Vigiai, vigiai"
+          },
+          {
+            "chords": "   E7         A     F#m ",
+            "lyrics": "E orai sem cessar,"
+          },
+          {
+            "chords": "     E       A      B7     E",
+            "lyrics": "Pois breve_o Mestre vai voltar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     E",
+            "lyrics": "Trabalhemos, irmãos, com afinco e_amor,"
+          },
+          {
+            "chords": "    B                         E",
+            "lyrics": "Anunciando_aos famintos que_o Pão celestial"
+          },
+          {
+            "chords": "",
+            "lyrics": "É Jesus, a Palavra de vida_e vigor;"
+          },
+          {
+            "chords": "    B      F#                   B ",
+            "lyrics": "Ela nos alimenta_e nos livra do mal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     E",
+            "lyrics": "Trabalhemos, irmãos, pois ungiu-nos o Pai"
+          },
+          {
+            "chords": "       B                    E",
+            "lyrics": "Para_a graça de Cristo, por fé, propagar;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Os talentos, o Mestre nos diz: “Granjeai”."
+          },
+          {
+            "chords": "        B         F#               B ",
+            "lyrics": "Sobre_o muito, no céu, nos irá colocar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

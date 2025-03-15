@@ -1,49 +1,116 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Testemunhas verazes nós somos",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E        B7        E",
-    "1. Testemunhas verazes nós somos",
-    "                 E°     E",
-    "Do que Cristo_em nós operou;",
-    "     A       B7     E",
-    "Seus passos agora seguimos,",
-    "     C#m      F#      B7 ",
-    "Pois Cristo Jesus nos transformou,",
-    "     E       F#      B7 ",
-    "Sim, Ele nos transformou.",
-    "",
-    "           E                A ",
-    "Eis que_as trevas já são passadas,",
-    "       B7            E",
-    "Veio_o dia com esplendor;",
-    "   C#m      A        E      C#m ",
-    "Chegado_é_o reino de Deus a nós,",
-    "  E        B7     E ",
-    "O reino de luz e_amor.",
-    "",
-    "        E         B7        E",
-    "2. Esconder não devemos, do mundo,",
-    "            E°       E",
-    "Nossa fé em Cristo Jesus;",
-    " A        B7        E",
-    "Amor celestial e profundo",
-    "  C#m      F#       B7 ",
-    "O Justo mostrou por nós na cruz,",
-    "     E         F#      B7 ",
-    "Sim, Cristo mostrou na cruz.",
-    "",
-    "         E        B7      E",
-    "3. O_Evangelho da graça divina",
-    "                E°     E",
-    "Sobre_a terra_ouvido será;",
-    "    A     B7       E",
-    "Por Sua celeste doutrina,",
-    "   C#m       F#     B7 ",
-    "Os homens, Jesus converterá,",
-    "     E         F#   B7 ",
-    "Sim, Ele_os converterá."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E        B7        E",
+            "lyrics": "Testemunhas verazes nós somos"
+          },
+          {
+            "chords": "                 E°     E",
+            "lyrics": "Do que Cristo_em nós operou;"
+          },
+          {
+            "chords": "     A       B7     E",
+            "lyrics": "Seus passos agora seguimos,"
+          },
+          {
+            "chords": "     C#m      F#      B7 ",
+            "lyrics": "Pois Cristo Jesus nos transformou,"
+          },
+          {
+            "chords": "     E       F#      B7 ",
+            "lyrics": "Sim, Ele nos transformou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "           E                A ",
+            "lyrics": "Eis que_as trevas já são passadas,"
+          },
+          {
+            "chords": "       B7            E",
+            "lyrics": "Veio_o dia com esplendor;"
+          },
+          {
+            "chords": "   C#m      A        E      C#m ",
+            "lyrics": "Chegado_é_o reino de Deus a nós,"
+          },
+          {
+            "chords": "  E        B7     E ",
+            "lyrics": "O reino de luz e_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "     E         B7        E",
+            "lyrics": "Esconder não devemos, do mundo,"
+          },
+          {
+            "chords": "            E°       E",
+            "lyrics": "Nossa fé em Cristo Jesus;"
+          },
+          {
+            "chords": " A        B7        E",
+            "lyrics": "Amor celestial e profundo"
+          },
+          {
+            "chords": "  C#m      F#       B7 ",
+            "lyrics": "O Justo mostrou por nós na cruz,"
+          },
+          {
+            "chords": "     E         F#      B7 ",
+            "lyrics": "Sim, Cristo mostrou na cruz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "      E        B7      E",
+            "lyrics": "O_Evangelho da graça divina"
+          },
+          {
+            "chords": "                E°     E",
+            "lyrics": "Sobre_a terra_ouvido será;"
+          },
+          {
+            "chords": "    A     B7       E",
+            "lyrics": "Por Sua celeste doutrina,"
+          },
+          {
+            "chords": "   C#m       F#     B7 ",
+            "lyrics": "Os homens, Jesus converterá,"
+          },
+          {
+            "chords": "     E         F#   B7 ",
+            "lyrics": "Sim, Ele_os converterá."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,46 +1,99 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Jesus, quanto és piedoso!",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E       B7       E",
-    "1. Ó Jesus, quanto_és piedoso,",
-    "           B7   E",
-    "Infinito_é Teu amor!",
-    "       A           E",
-    "Com o Teu poder glorioso,",
-    "       B7           E",
-    "Faz de mim Teu servidor;",
-    "    A           E",
-    "Dedicado_e fervoroso,",
-    "               B7   E",
-    "Quero_amar-Te, ó Senhor.",
-    "",
-    "         E     B7     E",
-    "2. Neste mundo sou criança,",
-    "               B7      E",
-    "Só por mim não posso_andar,",
-    "       A          E",
-    "Mas eu tenho confiança",
-    "     B7           E",
-    "De poder no céu entrar;",
-    "     A          E",
-    "Tua voz suave_e mansa",
-    "              B7  E",
-    "Sempre vem me ensinar.",
-    "",
-    "            E     B7  E",
-    "3. Tenho_em mim a esperança",
-    "               B7   E",
-    "De_alcançar, ó Salvador,",
-    "     A               E",
-    "A sublime_e_eterna_herança",
-    "       B7             E",
-    "No Teu reino de_esplendor;",
-    "      A        E",
-    "Dá-me fé e segurança,",
-    "             B7  E",
-    "Luz, virtude e vigor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E       B7       E",
+            "lyrics": "Ó Jesus, quanto_és piedoso,"
+          },
+          {
+            "chords": "           B7   E",
+            "lyrics": "Infinito_é Teu amor!"
+          },
+          {
+            "chords": "       A           E",
+            "lyrics": "Com o Teu poder glorioso,"
+          },
+          {
+            "chords": "       B7           E",
+            "lyrics": "Faz de mim Teu servidor;"
+          },
+          {
+            "chords": "    A           E",
+            "lyrics": "Dedicado_e fervoroso,"
+          },
+          {
+            "chords": "               B7   E",
+            "lyrics": "Quero_amar-Te, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      E     B7     E",
+            "lyrics": "Neste mundo sou criança,"
+          },
+          {
+            "chords": "               B7      E",
+            "lyrics": "Só por mim não posso_andar,"
+          },
+          {
+            "chords": "       A          E",
+            "lyrics": "Mas eu tenho confiança"
+          },
+          {
+            "chords": "     B7           E",
+            "lyrics": "De poder no céu entrar;"
+          },
+          {
+            "chords": "     A          E",
+            "lyrics": "Tua voz suave_e mansa"
+          },
+          {
+            "chords": "              B7  E",
+            "lyrics": "Sempre vem me ensinar."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "         E     B7  E",
+            "lyrics": "Tenho_em mim a esperança"
+          },
+          {
+            "chords": "               B7   E",
+            "lyrics": "De_alcançar, ó Salvador,"
+          },
+          {
+            "chords": "     A               E",
+            "lyrics": "A sublime_e_eterna_herança"
+          },
+          {
+            "chords": "       B7             E",
+            "lyrics": "No Teu reino de_esplendor;"
+          },
+          {
+            "chords": "      A        E",
+            "lyrics": "Dá-me fé e segurança,"
+          },
+          {
+            "chords": "             B7  E",
+            "lyrics": "Luz, virtude e vigor."
+          }
+        ]
+      }
+    ]
+  }
 }

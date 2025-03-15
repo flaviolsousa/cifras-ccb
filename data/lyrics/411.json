@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O vitupério de Jesus",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "     E          B                         E",
-    "1. Ferido foi o Salvador, Jesus, o nosso Rei,",
-    "              B           B7               E",
-    "Foi tido como malfeitor e transgressor da lei;",
-    "  A          E               F#7       B",
-    "Levado foi à morte_atroz, de nada reclamou;",
-    "  B7            E         B            E",
-    "O santo_e justo Remidor pagou perante Deus",
-    "  C#m      A      E           A      B7      E    E...",
-    "A transgressão de todos nós, abrindo-nos os céus.",
-    "",
-    "      E           B                     E",
-    "2. Cruel martírio suportou o_amado Redentor;",
-    "                B           B7           E",
-    "Na morte_a alma derramou, o grande Benfeitor,",
-    "   A            E               F#7            B",
-    "E, para_o nosso Deus e Pai, com sangue nos comprou;",
-    "   B7            E           B          E",
-    "Salvou-se grande multidão na obra de Jesus;",
-    "   C#m  A      E               A   B7     E    E...",
-    "Bendito seja_o Rei da paz, que é a nossa Luz.",
-    "",
-    "      E           B                               E",
-    "3. Morreu o justo pelos maus, por grande_amor de Deus;",
-    "              B            B7            E",
-    "Saiu da morte com poder, é Mediador nos céus;",
-    "   A            E          F#7          B",
-    "O bom prazer do Criador em Cristo prosperou;",
-    "  B7              E            B          E",
-    "“Amai-vos como_Eu vos amei”, falou o Redentor;",
-    " C#m      A      E                A       B7   E    E...",
-    "Amou-nos Deus, o Pai dos céus, mandando_o Salvador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  E          B                         E",
+            "lyrics": "Ferido foi o Salvador, Jesus, o nosso Rei,"
+          },
+          {
+            "chords": "              B           B7               E",
+            "lyrics": "Foi tido como malfeitor e transgressor da lei;"
+          },
+          {
+            "chords": "  A          E               F#7       B",
+            "lyrics": "Levado foi à morte_atroz, de nada reclamou;"
+          },
+          {
+            "chords": "  B7            E         B            E",
+            "lyrics": "O santo_e justo Remidor pagou perante Deus"
+          },
+          {
+            "chords": "  C#m      A      E           A      B7      E    E...",
+            "lyrics": "A transgressão de todos nós, abrindo-nos os céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   E           B                     E",
+            "lyrics": "Cruel martírio suportou o_amado Redentor;"
+          },
+          {
+            "chords": "                B           B7           E",
+            "lyrics": "Na morte_a alma derramou, o grande Benfeitor,"
+          },
+          {
+            "chords": "   A            E               F#7            B",
+            "lyrics": "E, para_o nosso Deus e Pai, com sangue nos comprou;"
+          },
+          {
+            "chords": "   B7            E           B          E",
+            "lyrics": "Salvou-se grande multidão na obra de Jesus;"
+          },
+          {
+            "chords": "   C#m  A      E               A   B7     E    E...",
+            "lyrics": "Bendito seja_o Rei da paz, que é a nossa Luz."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   E           B                               E",
+            "lyrics": "Morreu o justo pelos maus, por grande_amor de Deus;"
+          },
+          {
+            "chords": "              B            B7            E",
+            "lyrics": "Saiu da morte com poder, é Mediador nos céus;"
+          },
+          {
+            "chords": "   A            E          F#7          B",
+            "lyrics": "O bom prazer do Criador em Cristo prosperou;"
+          },
+          {
+            "chords": "  B7              E            B          E",
+            "lyrics": "“Amai-vos como_Eu vos amei”, falou o Redentor;"
+          },
+          {
+            "chords": " C#m      A      E                A       B7   E    E...",
+            "lyrics": "Amou-nos Deus, o Pai dos céus, mandando_o Salvador."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, Tu és a minha Porção",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G            C        G",
-    "1. Senhor, Tu és a minha Porção,",
-    "   C           G",
-    "Em Ti me_alegrarei;",
-    "        G7       C  ",
-    "Em Ti está minha salvação,",
-    "   D               G",
-    "Senhor, meu grande Rei.",
-    "",
-    "G           D ",
-    "És minha Porção,",
-    "Em          B7 ",
-    "És meu Galardão;",
-    "C         G",
-    "Bem-aventurado sou,",
-    "   D           G",
-    "Tu és minha Porção.",
-    "",
-    "    G            C      G",
-    "2. Imenso_e puro é Teu amor,",
-    "    C           G",
-    "Meu Salvador, Jesus;",
-    "         G7      C ",
-    "Estás em meu coração, Senhor;",
-    "    D          G",
-    "Por Ti vivo na luz.",
-    "",
-    "     G           C       G",
-    "3. Sublime sorte coube a mim,",
-    "    C            G",
-    "Por Ti, ó meu Senhor,",
-    "           G7      C ",
-    "Pois vida_eterna terei, ao fim,",
-    "   D             G",
-    "No Teu reino de_amor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G            C        G",
+            "lyrics": "Senhor, Tu és a minha Porção,"
+          },
+          {
+            "chords": "   C           G",
+            "lyrics": "Em Ti me_alegrarei;"
+          },
+          {
+            "chords": "        G7       C  ",
+            "lyrics": "Em Ti está minha salvação,"
+          },
+          {
+            "chords": "   D               G",
+            "lyrics": "Senhor, meu grande Rei."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G           D ",
+            "lyrics": "És minha Porção,"
+          },
+          {
+            "chords": "Em          B7 ",
+            "lyrics": "És meu Galardão;"
+          },
+          {
+            "chords": "C         G",
+            "lyrics": "Bem-aventurado sou,"
+          },
+          {
+            "chords": "   D           G",
+            "lyrics": "Tu és minha Porção."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " G            C      G",
+            "lyrics": "Imenso_e puro é Teu amor,"
+          },
+          {
+            "chords": "    C           G",
+            "lyrics": "Meu Salvador, Jesus;"
+          },
+          {
+            "chords": "         G7      C ",
+            "lyrics": "Estás em meu coração, Senhor;"
+          },
+          {
+            "chords": "    D          G",
+            "lyrics": "Por Ti vivo na luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  G           C       G",
+            "lyrics": "Sublime sorte coube a mim,"
+          },
+          {
+            "chords": "    C            G",
+            "lyrics": "Por Ti, ó meu Senhor,"
+          },
+          {
+            "chords": "           G7      C ",
+            "lyrics": "Pois vida_eterna terei, ao fim,"
+          },
+          {
+            "chords": "   D             G",
+            "lyrics": "No Teu reino de_amor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

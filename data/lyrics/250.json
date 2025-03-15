@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Com meu Redentor viverei nos céus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D",
-    "1. No dia_em que Jesus vier",
-    "      A               D",
-    "Para, deste mundo, me recolher,",
-    "",
-    "Em Sua paz descansarei",
-    "    E          A        A... ",
-    "E a Sua volta aguardarei. ",
-    "",
-    "        A7           D",
-    "Com meu Redentor viverei nos céus",
-    "         A           D",
-    "Junto_ao Criador, o eterno Deus;",
-    "      A7               D",
-    "Por divino_amor, eu desfrutarei",
-    "    A                 D            D...",
-    "Da eterna_herança com Cristo,_o Rei.",
-    "",
-    "    D",
-    "2. Ecoará dos altos céus",
-    "      A               D",
-    "O som da trombeta do_eterno Deus;",
-    "",
-    "E, do meu sono,_acordarei",
-    "     E              A        A... ",
-    "Para encontrar o glorioso Rei.",
-    "",
-    "       D",
-    "3. Vou com Jesus me encontrar;",
-    "       A               D",
-    "Grande há de ser o meu jubilar,",
-    "",
-    "Pois transformado eu serei",
-    "    E            A        A... ",
-    "Na aparição do excelso Rei."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D",
+            "lyrics": "No dia_em que Jesus vier"
+          },
+          {
+            "chords": "      A               D",
+            "lyrics": "Para, deste mundo, me recolher,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Em Sua paz descansarei"
+          },
+          {
+            "chords": "    E          A        A... ",
+            "lyrics": "E a Sua volta aguardarei. "
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        A7           D",
+            "lyrics": "Com meu Redentor viverei nos céus"
+          },
+          {
+            "chords": "         A           D",
+            "lyrics": "Junto_ao Criador, o eterno Deus;"
+          },
+          {
+            "chords": "      A7               D",
+            "lyrics": "Por divino_amor, eu desfrutarei"
+          },
+          {
+            "chords": "    A                 D            D...",
+            "lyrics": "Da eterna_herança com Cristo,_o Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D",
+            "lyrics": "Ecoará dos altos céus"
+          },
+          {
+            "chords": "      A               D",
+            "lyrics": "O som da trombeta do_eterno Deus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "E, do meu sono,_acordarei"
+          },
+          {
+            "chords": "     E              A        A... ",
+            "lyrics": "Para encontrar o glorioso Rei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    D",
+            "lyrics": "Vou com Jesus me encontrar;"
+          },
+          {
+            "chords": "       A               D",
+            "lyrics": "Grande há de ser o meu jubilar,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Pois transformado eu serei"
+          },
+          {
+            "chords": "    E            A        A... ",
+            "lyrics": "Na aparição do excelso Rei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

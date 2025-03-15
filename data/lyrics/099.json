@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus Cristo é o Amigo celestial",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G                  E7      A7",
-    "1. Se nós fizermos tudo_o que nos manda",
-    "      D7            G",
-    "Jesus Cristo, nosso Redentor.",
-    "                     E7  A",
-    "Chamar-nos-á a todos de amigos;",
-    "Cm    G       A7    D7  G",
-    "Tão somente_andemos em amor.",
-    "",
-    "      D7            G",
-    "Jesus Cristo, Jesus Cristo",
-    "     D7        G",
-    "É_o Amigo celestial,",
-    "   Cm           G",
-    "Amoroso e compassivo;",
-    "     D7         G",
-    "É_o Amigo sem igual.",
-    "",
-    "     G                  E7  A7",
-    "2. É esse_Amigo que nos acompanha",
-    "      D7           G",
-    "Na jornada rumo_ao lar de Deus;",
-    "                   E7    A",
-    "É Ele que nos fala dos tesouros",
-    "Cm   G     A7    D7       G",
-    "Que iremos desfrutar nos céus.",
-    "",
-    "        G                  E7   A7",
-    "3. Seus sábios e gloriosos mandamentos,",
-    "      D7             G",
-    "Jesus Cristo vem nos ensinar;",
-    "                 E7     A",
-    "Um dia O veremos face_a face,",
-    "Cm  G     A7   D7     G",
-    "Ele mesmo prometeu voltar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G                  E7      A7",
+            "lyrics": "Se nós fizermos tudo_o que nos manda"
+          },
+          {
+            "chords": "      D7            G",
+            "lyrics": "Jesus Cristo, nosso Redentor."
+          },
+          {
+            "chords": "                     E7  A",
+            "lyrics": "Chamar-nos-á a todos de amigos;"
+          },
+          {
+            "chords": "Cm    G       A7    D7  G",
+            "lyrics": "Tão somente_andemos em amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      D7            G",
+            "lyrics": "Jesus Cristo, Jesus Cristo"
+          },
+          {
+            "chords": "     D7        G",
+            "lyrics": "É_o Amigo celestial,"
+          },
+          {
+            "chords": "   Cm           G",
+            "lyrics": "Amoroso e compassivo;"
+          },
+          {
+            "chords": "     D7         G",
+            "lyrics": "É_o Amigo sem igual."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  G                  E7  A7",
+            "lyrics": "É esse_Amigo que nos acompanha"
+          },
+          {
+            "chords": "      D7           G",
+            "lyrics": "Na jornada rumo_ao lar de Deus;"
+          },
+          {
+            "chords": "                   E7    A",
+            "lyrics": "É Ele que nos fala dos tesouros"
+          },
+          {
+            "chords": "Cm   G     A7    D7       G",
+            "lyrics": "Que iremos desfrutar nos céus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     G                  E7   A7",
+            "lyrics": "Seus sábios e gloriosos mandamentos,"
+          },
+          {
+            "chords": "      D7             G",
+            "lyrics": "Jesus Cristo vem nos ensinar;"
+          },
+          {
+            "chords": "                 E7     A",
+            "lyrics": "Um dia O veremos face_a face,"
+          },
+          {
+            "chords": "Cm  G     A7   D7     G",
+            "lyrics": "Ele mesmo prometeu voltar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

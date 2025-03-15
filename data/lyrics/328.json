@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Grande é o Teu poder, Senhor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "          B",
-    "1. Grande é o Teu poder, Senhor,",
-    "      F#          B",
-    "Quão imenso é, ó eterno Deus;",
-    "",
-    "Não há outro Deus dominador",
-    "        F#              C#7         F# ",
-    "Sobre_a terra, sobre_os mares e nos céus.",
-    "",
-    "       F#                B",
-    "Toda_a glória só a Ti pertence,",
-    "          F#                 B",
-    "Pois três vezes Santo és, Senhor;",
-    "      E    B",
-    "Reges tudo com o Teu poder,",
-    "  F#  B",
-    "Ó Criador.",
-    "",
-    "       B",
-    "2. Manifestam Teu poder, os céus,",
-    "     F#           B",
-    "Obra Tua é toda_a criação,",
-    "",
-    "São perfeitos os caminhos Teus;",
-    "   F#                 C#7         F# ",
-    "És também Quem dá, ao homem, salvação.",
-    "",
-    "      B",
-    "3. É eterno Teu poder, Senhor;",
-    "       F#             B",
-    "Passam gerações, tudo passará,",
-    "",
-    "Mas o Teu poder, ó Criador,",
-    "     F#           C#7      F# ",
-    "Para toda_a_eternidade durará."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       B",
+            "lyrics": "Grande é o Teu poder, Senhor,"
+          },
+          {
+            "chords": "      F#          B",
+            "lyrics": "Quão imenso é, ó eterno Deus;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Não há outro Deus dominador"
+          },
+          {
+            "chords": "        F#              C#7         F# ",
+            "lyrics": "Sobre_a terra, sobre_os mares e nos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       F#                B",
+            "lyrics": "Toda_a glória só a Ti pertence,"
+          },
+          {
+            "chords": "          F#                 B",
+            "lyrics": "Pois três vezes Santo és, Senhor;"
+          },
+          {
+            "chords": "      E    B",
+            "lyrics": "Reges tudo com o Teu poder,"
+          },
+          {
+            "chords": "  F#  B",
+            "lyrics": "Ó Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    B",
+            "lyrics": "Manifestam Teu poder, os céus,"
+          },
+          {
+            "chords": "     F#           B",
+            "lyrics": "Obra Tua é toda_a criação,"
+          },
+          {
+            "chords": "",
+            "lyrics": "São perfeitos os caminhos Teus;"
+          },
+          {
+            "chords": "   F#                 C#7         F# ",
+            "lyrics": "És também Quem dá, ao homem, salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   B",
+            "lyrics": "É eterno Teu poder, Senhor;"
+          },
+          {
+            "chords": "       F#             B",
+            "lyrics": "Passam gerações, tudo passará,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Mas o Teu poder, ó Criador,"
+          },
+          {
+            "chords": "     F#           C#7      F# ",
+            "lyrics": "Para toda_a_eternidade durará."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

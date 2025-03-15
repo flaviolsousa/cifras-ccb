@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vem, vem consolar-me",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A     E         A",
-    "1. Em Ti, Senhor, abrigado,",
-    "  D         B7      E ",
-    "Terei força na provação;",
-    "   A     C#       F#m  C# ",
-    "Também serei consola - do",
-    "   A           E  A",
-    "Na hora da aflição.",
-    "",
-    "A    E        A",
-    "Vem, vem consolar-me,",
-    "         E              A",
-    "Pai celestial, com Teu amor;",
-    "          E      A       D... ",
-    "Confio em Ti, ó Deus Criador,",
-    "    A        E     A",
-    "Poderoso_e fiel Senhor.",
-    "",
-    "      A    E          A",
-    "2. Ó Deus eterno,_enviaste,",
-    "    D         B7       E ",
-    "Por Cristo, veraz salvação;",
-    "   A      C#     F#m   C# ",
-    "Minh´alma justificas - te,",
-    "   A             E  A",
-    "Me concedeste perdão.",
-    "",
-    "       A     E         A ",
-    "3. Por Ti, ó Deus, eu existo,",
-    "  D        B7       E ",
-    "Caminho Contigo por fé;",
-    "   A      C#       F#m    C# ",
-    "A paz que sinto em Cris - to,",
-    "    A              E  A",
-    "Do Teu amor, fruto é."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A     E         A",
+            "lyrics": "Em Ti, Senhor, abrigado,"
+          },
+          {
+            "chords": "  D         B7      E ",
+            "lyrics": "Terei força na provação;"
+          },
+          {
+            "chords": "   A     C#       F#m  C# ",
+            "lyrics": "Também serei consola - do"
+          },
+          {
+            "chords": "   A           E  A",
+            "lyrics": "Na hora da aflição."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A    E        A",
+            "lyrics": "Vem, vem consolar-me,"
+          },
+          {
+            "chords": "         E              A",
+            "lyrics": "Pai celestial, com Teu amor;"
+          },
+          {
+            "chords": "          E      A       D... ",
+            "lyrics": "Confio em Ti, ó Deus Criador,"
+          },
+          {
+            "chords": "    A        E     A",
+            "lyrics": "Poderoso_e fiel Senhor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A    E          A",
+            "lyrics": "Ó Deus eterno,_enviaste,"
+          },
+          {
+            "chords": "    D         B7       E ",
+            "lyrics": "Por Cristo, veraz salvação;"
+          },
+          {
+            "chords": "   A      C#     F#m   C# ",
+            "lyrics": "Minh´alma justificas - te,"
+          },
+          {
+            "chords": "   A             E  A",
+            "lyrics": "Me concedeste perdão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    A     E         A ",
+            "lyrics": "Por Ti, ó Deus, eu existo,"
+          },
+          {
+            "chords": "  D        B7       E ",
+            "lyrics": "Caminho Contigo por fé;"
+          },
+          {
+            "chords": "   A      C#       F#m    C# ",
+            "lyrics": "A paz que sinto em Cris - to,"
+          },
+          {
+            "chords": "    A              E  A",
+            "lyrics": "Do Teu amor, fruto é."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

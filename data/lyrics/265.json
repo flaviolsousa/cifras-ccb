@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Bençãos dos céus prometidas",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    "    C                            F                C",
-    "1. Bênçãos dos céus prometidas, nós esperamos, Senhor,",
-    " G                  C       D7                  G    G7... ",
-    "Pois o Evangelho seguimos, fruto do Teu grande amor.",
-    "",
-    "C           F ",
-    "Ó Criador, bênçãos dos céus,",
-    "G                C     D7               G    G7 ",
-    "Os Teus amados esperam ansiosamente, Senhor;",
-    "C              C7  F        E ",
-    "Pai celestial,     ouve os Teus;",
-    "F                 C      G                   C",
-    "Bálsamo às nossas almas são Tuas bênçãos de amor.",
-    "",
-    "    C                            F               C",
-    "2. Nós, os Teus santos, pedimos humildemente, Senhor;",
-    " G               C     D7               G    G7... ",
-    "\"As Tuas mãos piedosas abre em nosso favor.\"",
-    "",
-    "    C                          F               C",
-    "3. Sela, Senhor, Teus remidos com o bom Consolador;",
-    " G                  C    D7                 G    G7... ",
-    "Vem conduzir-nos a todos para os céus, ó Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": " C                            F                C",
+            "lyrics": "Bênçãos dos céus prometidas, nós esperamos, Senhor,"
+          },
+          {
+            "chords": " G                  C       D7                  G    G7... ",
+            "lyrics": "Pois o Evangelho seguimos, fruto do Teu grande amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C           F ",
+            "lyrics": "Ó Criador, bênçãos dos céus,"
+          },
+          {
+            "chords": "G                C     D7               G    G7 ",
+            "lyrics": "Os Teus amados esperam ansiosamente, Senhor;"
+          },
+          {
+            "chords": "C              C7  F        E ",
+            "lyrics": "Pai celestial,     ouve os Teus;"
+          },
+          {
+            "chords": "F                 C      G                   C",
+            "lyrics": "Bálsamo às nossas almas são Tuas bênçãos de amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " C                            F               C",
+            "lyrics": "Nós, os Teus santos, pedimos humildemente, Senhor;"
+          },
+          {
+            "chords": " G               C     D7               G    G7... ",
+            "lyrics": "\"As Tuas mãos piedosas abre em nosso favor.\""
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": " C                          F               C",
+            "lyrics": "Sela, Senhor, Teus remidos com o bom Consolador;"
+          },
+          {
+            "chords": " G                  C    D7                 G    G7... ",
+            "lyrics": "Vem conduzir-nos a todos para os céus, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

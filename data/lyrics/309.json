@@ -1,43 +1,91 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Galardão nos espera",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "   A",
-    "1. Bem-aventurado quem aqui chorar,",
-    "E                               B    E7 ",
-    "Pois, de Deus, conforto certo_alcançará;",
-    "A                   C#7      F#m ",
-    "Quem aqui for manso e perseverar,",
-    "B         A             E   A",
-    "No eterno lar de Deus habitará.",
-    "",
-    "A         F#m      A          E ",
-    "Galardão, galardão nos espera lá nos céus,",
-    "D         Bm        E               A",
-    "Galardão, galardão, junto_ao nosso Deus;",
-    "                              D ",
-    "Glória indescritível na eternidade",
-    "E         A                E       A    A...",
-    "É o galardão de Cristo_aos santos Seus.",
-    "",
-    "   A",
-    "2. Bem-aventurado quem sedento_está",
-    "E                     B         E7 ",
-    "E tem fome da justiça que_é dos céus;",
-    "A                 C#7        F#m ",
-    "Farto_e consolado pelo Pai será;",
-    "B                A        E       A",
-    "Quem for limpo_e puro viverá com Deus.",
-    "",
-    "   A",
-    "3. Bem-aventurado quem seguir Jesus,",
-    "E                       B   E7 ",
-    "Sendo_aqui na terra pacificador;",
-    "A                   C#7          F#m ",
-    "Quem for desprezado por andar na Luz,",
-    "B          A          E     A",
-    "Alegrar-se-á na vinda do Senhor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Bem-aventurado quem aqui chorar,"
+          },
+          {
+            "chords": "E                               B    E7 ",
+            "lyrics": "Pois, de Deus, conforto certo_alcançará;"
+          },
+          {
+            "chords": "A                   C#7      F#m ",
+            "lyrics": "Quem aqui for manso e perseverar,"
+          },
+          {
+            "chords": "B         A             E   A",
+            "lyrics": "No eterno lar de Deus habitará."
+          },
+          {
+            "chords": "Coro: ",
+            "lyrics": "A         F#m      A          E "
+          },
+          {
+            "chords": "Galardão, galardão nos espera lá nos céus,",
+            "lyrics": "D         Bm        E               A"
+          },
+          {
+            "chords": "Galardão, galardão, junto_ao nosso Deus;",
+            "lyrics": "                              D "
+          },
+          {
+            "chords": "Glória indescritível na eternidade",
+            "lyrics": "E         A                E       A    A..."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Bem-aventurado quem sedento_está"
+          },
+          {
+            "chords": "E                     B         E7 ",
+            "lyrics": "E tem fome da justiça que_é dos céus;"
+          },
+          {
+            "chords": "A                 C#7        F#m ",
+            "lyrics": "Farto_e consolado pelo Pai será;"
+          },
+          {
+            "chords": "B                A        E       A",
+            "lyrics": "Quem for limpo_e puro viverá com Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Bem-aventurado quem seguir Jesus,"
+          },
+          {
+            "chords": "E                       B   E7 ",
+            "lyrics": "Sendo_aqui na terra pacificador;"
+          },
+          {
+            "chords": "A                   C#7          F#m ",
+            "lyrics": "Quem for desprezado por andar na Luz,"
+          },
+          {
+            "chords": "B          A          E     A",
+            "lyrics": "Alegrar-se-á na vinda do Senhor."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Senhor, estou disposto",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A      E7     A     D  E7           A",
-    "1. Senhor, estou disposto a  sempre Te seguir;",
-    "                  D     E7           A",
-    "No Teu caminho santo, terei feliz porvir;",
-    "     E7         A         E7            A",
-    "Quão bela é a_herança que me darás nos céus,",
-    "              D     E7        A",
-    "Desejo recebê-la, ó glorioso Deus.",
-    "",
-    "      A       E7      A      D  E7             A",
-    "2. Senhor, os Teus preceitos disponho-me_a cumprir",
-    "                    D        E7         A",
-    "E sigo_os Teus conselhos; ao céu desejo ir.",
-    " E7              A         E7         A",
-    "Unido_aos santos anjos, em glória viverei",
-    "                  D      E7               A",
-    "No Teu celeste reino com Cristo,_o grande Rei.",
-    "",
-    "      A      E7  A    D    E7          A",
-    "3. Senhor, a Tua face de - sejo contemplar",
-    "                   D      E7         A",
-    "Na glória_incomparável do Teu eterno lar.",
-    "   E7           A        E7          A",
-    "Eu sinto_a Tua graça, também o Teu vigor,",
-    "              D        E7            A",
-    "E nada me impede de_honrar-Te com fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A      E7     A     D  E7           A",
+            "lyrics": "Senhor, estou disposto a  sempre Te seguir;"
+          },
+          {
+            "chords": "                  D     E7           A",
+            "lyrics": "No Teu caminho santo, terei feliz porvir;"
+          },
+          {
+            "chords": "     E7         A         E7            A",
+            "lyrics": "Quão bela é a_herança que me darás nos céus,"
+          },
+          {
+            "chords": "              D     E7        A",
+            "lyrics": "Desejo recebê-la, ó glorioso Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A       E7      A      D  E7             A",
+            "lyrics": "Senhor, os Teus preceitos disponho-me_a cumprir"
+          },
+          {
+            "chords": "                    D        E7         A",
+            "lyrics": "E sigo_os Teus conselhos; ao céu desejo ir."
+          },
+          {
+            "chords": " E7              A         E7         A",
+            "lyrics": "Unido_aos santos anjos, em glória viverei"
+          },
+          {
+            "chords": "                  D      E7               A",
+            "lyrics": "No Teu celeste reino com Cristo,_o grande Rei."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   A      E7  A    D    E7          A",
+            "lyrics": "Senhor, a Tua face de - sejo contemplar"
+          },
+          {
+            "chords": "                   D      E7         A",
+            "lyrics": "Na glória_incomparável do Teu eterno lar."
+          },
+          {
+            "chords": "   E7           A        E7          A",
+            "lyrics": "Eu sinto_a Tua graça, também o Teu vigor,"
+          },
+          {
+            "chords": "              D        E7            A",
+            "lyrics": "E nada me impede de_honrar-Te com fervor."
+          }
+        ]
+      }
+    ]
+  }
 }

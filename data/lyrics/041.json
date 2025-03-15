@@ -1,43 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O teu coração vem a Cristo entregar",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "                 A                E",
-    "1. Quem seu coração a Jesus entregar,",
-    "                              A",
-    "Participará das promessas de Deus;",
-    "                             D",
-    "Veraz salvação n´Ele encontrará",
-    "        E4     E          A",
-    "E receberá a herança nos céus.",
-    "",
-    "               A                    E",
-    "2. A vida_eternal só em Cristo_acharás;",
-    "                              A",
-    "Há n´Ele poder concedido por Deus;",
-    "                               D",
-    "Os Seus ricos dons aqui receberás",
-    "         E4         E          A",
-    "E o galardão lá na glória dos céus.",
-    "",
-    "                A                     E",
-    "3. Aceita_o perdão que Jesus quer te dar,",
-    "                                   A",
-    "Confessa_ao Senhor os pecados que tens;",
-    "                                 D",
-    "O teu Redentor quer do mal te livrar",
-    "            E4       E            A",
-    "E te_enriquecer dos eternos Seus bens.",
-    "",
-    "           A                     E",
-    "O teu coração vem a Cristo_entregar,",
-    "                                 A",
-    "Rejeita o mal e, do mundo,_a_ilusão;",
-    "                               D",
-    "A paz e_o perdão só Jesus pode dar,",
-    "             E4       E       A",
-    "E_a vida_eternal na celeste Sião."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "              A                E",
+            "lyrics": "Quem seu coração a Jesus entregar,"
+          },
+          {
+            "chords": "                              A",
+            "lyrics": "Participará das promessas de Deus;"
+          },
+          {
+            "chords": "                             D",
+            "lyrics": "Veraz salvação n´Ele encontrará"
+          },
+          {
+            "chords": "        E4     E          A",
+            "lyrics": "E receberá a herança nos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "            A                    E",
+            "lyrics": "A vida_eternal só em Cristo_acharás;"
+          },
+          {
+            "chords": "                              A",
+            "lyrics": "Há n´Ele poder concedido por Deus;"
+          },
+          {
+            "chords": "                               D",
+            "lyrics": "Os Seus ricos dons aqui receberás"
+          },
+          {
+            "chords": "         E4         E          A",
+            "lyrics": "E o galardão lá na glória dos céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "             A                     E",
+            "lyrics": "Aceita_o perdão que Jesus quer te dar,"
+          },
+          {
+            "chords": "                                   A",
+            "lyrics": "Confessa_ao Senhor os pecados que tens;"
+          },
+          {
+            "chords": "                                 D",
+            "lyrics": "O teu Redentor quer do mal te livrar"
+          },
+          {
+            "chords": "            E4       E            A",
+            "lyrics": "E te_enriquecer dos eternos Seus bens."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "           A                     E",
+            "lyrics": "O teu coração vem a Cristo_entregar,"
+          },
+          {
+            "chords": "                                 A",
+            "lyrics": "Rejeita o mal e, do mundo,_a_ilusão;"
+          },
+          {
+            "chords": "                               D",
+            "lyrics": "A paz e_o perdão só Jesus pode dar,"
+          },
+          {
+            "chords": "             E4       E       A",
+            "lyrics": "E_a vida_eternal na celeste Sião."
+          }
+        ]
+      }
+    ]
+  }
 }

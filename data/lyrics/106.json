@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Em nome do nosso Redentor",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G             C    G",
-    "1. Em nome do nosso Redentor",
-    "                D    D7 ",
-    "Oramos a Ti, ó Deus;",
-    "     G            G7        C          G",
-    "Oh! Vem com Teu calor, com Teu divino amor;",
-    "  Em       Am    D   G",
-    "Visita-nos desde os céus.",
-    "",
-    "      G              C  G",
-    "2. Bendito és Tu, ó Criador,",
-    "                D    D7 ",
-    "Fiel e potente Deus;",
-    "  G         G7      C         G",
-    "Envia, ó Senhor, o Teu Consolador;",
-    "   Em       Am   D   G",
-    "Conforta os san-tos Teus.",
-    "",
-    "       G                  C    G",
-    "3. Com fé nos prostramos, ó Senhor,",
-    "               D    D7 ",
-    "Em santa adoração;",
-    "  G            G7      C               G",
-    "Aceita-nos, ó Deus; responde-nos, dos céus;",
-    "    Em         Am    D  G",
-    "Oh! Põe-nos em co - munhão."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G             C    G",
+            "lyrics": "Em nome do nosso Redentor"
+          },
+          {
+            "chords": "                D    D7 ",
+            "lyrics": "Oramos a Ti, ó Deus;"
+          },
+          {
+            "chords": "     G            G7        C          G",
+            "lyrics": "Oh! Vem com Teu calor, com Teu divino amor;"
+          },
+          {
+            "chords": "  Em       Am    D   G",
+            "lyrics": "Visita-nos desde os céus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G              C  G",
+            "lyrics": "Bendito és Tu, ó Criador,"
+          },
+          {
+            "chords": "                D    D7 ",
+            "lyrics": "Fiel e potente Deus;"
+          },
+          {
+            "chords": "  G         G7      C         G",
+            "lyrics": "Envia, ó Senhor, o Teu Consolador;"
+          },
+          {
+            "chords": "   Em       Am   D   G",
+            "lyrics": "Conforta os san-tos Teus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    G                  C    G",
+            "lyrics": "Com fé nos prostramos, ó Senhor,"
+          },
+          {
+            "chords": "               D    D7 ",
+            "lyrics": "Em santa adoração;"
+          },
+          {
+            "chords": "  G            G7      C               G",
+            "lyrics": "Aceita-nos, ó Deus; responde-nos, dos céus;"
+          },
+          {
+            "chords": "    Em         Am    D  G",
+            "lyrics": "Oh! Põe-nos em co - munhão."
+          }
+        ]
+      }
+    ]
+  }
 }

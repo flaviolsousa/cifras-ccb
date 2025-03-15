@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Vem a Jesus",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "      G                 D                           G",
-    "1. Rejeita o mal deste mundo e vem a Jesus te_entregar;",
-    "                    C  Am...   D                G",
-    "Seu santo amor é profundo;  Jesus quer te abençoar.",
-    "",
-    "    C        G",
-    "Oh! Vem a Jesus,",
-    "     A                      D ",
-    "Que por nós morreu sobre_a cruz;",
-    "     G                  C    Am... ",
-    "Seu sangue precioso_Ele derramou",
-    "   D                   G",
-    "E com Deus nos reconciliou.",
-    "",
-    "      G                  D                           G",
-    "2. Rejeita do mundo_a vaidade, pois ela te quer seduzir;",
-    "                   C    Am...   D               G",
-    "Da graça e da santida - de,  Jesus pode te revestir.",
-    "",
-    "      G                  D                        G",
-    "3. Propósito firme_e constante esteja em teu coração;",
-    "                            Am...   D               G",
-    "Jesus não te quer vacilan - te; há n´Ele real salvação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   G                 D                           G",
+            "lyrics": "Rejeita o mal deste mundo e vem a Jesus te_entregar;"
+          },
+          {
+            "chords": "                    C  Am...   D                G",
+            "lyrics": "Seu santo amor é profundo;  Jesus quer te abençoar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    C        G",
+            "lyrics": "Oh! Vem a Jesus,"
+          },
+          {
+            "chords": "     A                      D ",
+            "lyrics": "Que por nós morreu sobre_a cruz;"
+          },
+          {
+            "chords": "     G                  C    Am... ",
+            "lyrics": "Seu sangue precioso_Ele derramou"
+          },
+          {
+            "chords": "   D                   G",
+            "lyrics": "E com Deus nos reconciliou."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   G                  D                           G",
+            "lyrics": "Rejeita do mundo_a vaidade, pois ela te quer seduzir;"
+          },
+          {
+            "chords": "                   C    Am...   D               G",
+            "lyrics": "Da graça e da santida - de,  Jesus pode te revestir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "   G                  D                        G",
+            "lyrics": "Propósito firme_e constante esteja em teu coração;"
+          },
+          {
+            "chords": "                            Am...   D               G",
+            "lyrics": "Jesus não te quer vacilan - te; há n´Ele real salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

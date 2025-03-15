@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Granjeai, granjeai os talentos",
-  "difficulty": 3,
   "tone": "E",
-  "content": [
-    "        E",
-    "1. Os talentos Jesus nos tem dado,",
-    "       B7                 E",
-    "Dons celestes de grande valor;",
-    "",
-    "Nós devemos, com todo_o cuidado,",
-    "      B7                   E    E7",
-    "Granjeá-los servindo_ao Senhor.",
-    "",
-    "E7      A                 E",
-    "  Granjeai, granjeai os talentos;",
-    "          B7                   E    E7",
-    "  Sobre_o muito_o Senhor vos porá;",
-    "      A                  E",
-    "  Vigiai e estai sempre_atentos,",
-    "          B7            E",
-    "  Eis que Ele à porta está.",
-    "",
-    "         E",
-    "2. Se em tudo nós formos prudentes,",
-    "     B7                 E",
-    "Se fiéis o Senhor nos achar,",
-    "",
-    "Herdaremos Seus bens permanentes",
-    "     B7                  E    E7",
-    "No repouso da glória sem par.",
-    "",
-    "       E",
-    "3. Diligentes obreiros sejamos,",
-    "        B7                 E",
-    "Pois os frutos Jesus vai pedir;",
-    "",
-    "Os talentos, jamais escondamos,",
-    "      B7                 E   E7",
-    "Se quisermos a glória fruir."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "     E",
+            "lyrics": "Os talentos Jesus nos tem dado,"
+          },
+          {
+            "chords": "       B7                 E",
+            "lyrics": "Dons celestes de grande valor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Nós devemos, com todo_o cuidado,"
+          },
+          {
+            "chords": "      B7                   E    E7",
+            "lyrics": "Granjeá-los servindo_ao Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E7      A                 E",
+            "lyrics": "  Granjeai, granjeai os talentos;"
+          },
+          {
+            "chords": "          B7                   E    E7",
+            "lyrics": "  Sobre_o muito_o Senhor vos porá;"
+          },
+          {
+            "chords": "      A                  E",
+            "lyrics": "  Vigiai e estai sempre_atentos,"
+          },
+          {
+            "chords": "          B7            E",
+            "lyrics": "  Eis que Ele à porta está."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      E",
+            "lyrics": "Se em tudo nós formos prudentes,"
+          },
+          {
+            "chords": "     B7                 E",
+            "lyrics": "Se fiéis o Senhor nos achar,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Herdaremos Seus bens permanentes"
+          },
+          {
+            "chords": "     B7                  E    E7",
+            "lyrics": "No repouso da glória sem par."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    E",
+            "lyrics": "Diligentes obreiros sejamos,"
+          },
+          {
+            "chords": "        B7                 E",
+            "lyrics": "Pois os frutos Jesus vai pedir;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Os talentos, jamais escondamos,"
+          },
+          {
+            "chords": "      B7                 E   E7",
+            "lyrics": "Se quisermos a glória fruir."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,39 +1,96 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Oh! Quanto é bom louvarmos",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "   G                                        D",
-    "1. Oh! Quanto_é bom louvarmos a Deus, o Criador,",
-    "            C  G   A7            D",
-    "E nos regozijarmos em Sua_eterna luz!",
-    "G                      G7         E7  Am",
-    "Por graça fomos salvos do mundo_enganador,",
-    "                G  Em  A7         D    G",
-    "Fomos também comprados com sangue de Jesus.",
-    "",
-    " G                    D          G",
-    "Alegres serviremos ao nosso Formador,",
-    "        G7     C  G                 D       G",
-    "Cantado santos hi-nos a Deus, nosso bom Criador.",
-    "",
-    "   G                                   D",
-    "2. Em Deus confiaremos nas nossas provações,",
-    "           C  G    A7           D",
-    "A nada temere-mos, com Sua proteção;",
-    "G                    G7        E7  Am",
-    "O Seu conforto temos em nossas aflições,",
-    "              G  Em  A7      D     G",
-    "Sempre triunfare-mos com Sua forte mão.",
-    "",
-    "   G                                    D",
-    "3. Alegres caminhemos com o bom Pai de_amor,",
-    "                 C  G    A7                D",
-    "Seguindo-O, triunfantes, pois do mal nos livrou;",
-    "G                  G7        E7  Am",
-    "Nós fomos adotados filhos ao Criador,",
-    "              G  Em  A7         D    G",
-    "Pelo precioso sangue que Cristo derramou."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "G                                        D",
+            "lyrics": "Oh! Quanto_é bom louvarmos a Deus, o Criador,"
+          },
+          {
+            "chords": "            C  G   A7            D",
+            "lyrics": "E nos regozijarmos em Sua_eterna luz!"
+          },
+          {
+            "chords": "G                      G7         E7  Am",
+            "lyrics": "Por graça fomos salvos do mundo_enganador,"
+          },
+          {
+            "chords": "                G  Em  A7         D    G",
+            "lyrics": "Fomos também comprados com sangue de Jesus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": " G                    D          G",
+            "lyrics": "Alegres serviremos ao nosso Formador,"
+          },
+          {
+            "chords": "        G7     C  G                 D       G",
+            "lyrics": "Cantado santos hi-nos a Deus, nosso bom Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "G                                   D",
+            "lyrics": "Em Deus confiaremos nas nossas provações,"
+          },
+          {
+            "chords": "           C  G    A7           D",
+            "lyrics": "A nada temere-mos, com Sua proteção;"
+          },
+          {
+            "chords": "G                    G7        E7  Am",
+            "lyrics": "O Seu conforto temos em nossas aflições,"
+          },
+          {
+            "chords": "              G  Em  A7      D     G",
+            "lyrics": "Sempre triunfare-mos com Sua forte mão."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "G                                    D",
+            "lyrics": "Alegres caminhemos com o bom Pai de_amor,"
+          },
+          {
+            "chords": "                 C  G    A7                D",
+            "lyrics": "Seguindo-O, triunfantes, pois do mal nos livrou;"
+          },
+          {
+            "chords": "G                  G7        E7  Am",
+            "lyrics": "Nós fomos adotados filhos ao Criador,"
+          },
+          {
+            "chords": "              G  Em  A7         D    G",
+            "lyrics": "Pelo precioso sangue que Cristo derramou."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

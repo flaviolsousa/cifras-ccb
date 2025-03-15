@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Manda-nos Teu Poder",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "          A                      D              A",
-    "1. Manda, ó Senhor, do céu, fogo santo_ao povo Teu;",
-    "      E         A",
-    "Manda-nos Teu Poder;",
-    "                             D            A",
-    "Fogo que destrói o mal, fogo santo, celestial;",
-    "      E         A",
-    "Manda-nos Teu Poder.",
-    "",
-    "       A",
-    "Manda-nos o Teu Poder,",
-    "    E                    A",
-    "O Poder renovador, Pelo Teu imenso_amor;",
-    "",
-    "Vem, Senhor, selar Teu povo",
-    "       E         A",
-    "Com o bom Consolador.",
-    "",
-    "           A                         D             A",
-    "2. Vem as bênçãos derramar e,_os que dormem, despertar;",
-    "      E         A ",
-    "Manda-nos Teu Poder;",
-    "                            D         A",
-    "E das nossas vidas faz testemunho eficaz;",
-    "      E         A",
-    "Manda-nos Teu Poder.",
-    "",
-    "           A                   D             A",
-    "3. Vem nos dar as orações, visitando_os corações;",
-    "      E         A ",
-    "Manda-nos Teu Poder;",
-    "                           D            A",
-    "Em constante comunhão, esperamos Tua_unção;",
-    "      E         A",
-    "Manda-nos Teu Poder."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       A                      D              A",
+            "lyrics": "Manda, ó Senhor, do céu, fogo santo_ao povo Teu;"
+          },
+          {
+            "chords": "      E         A",
+            "lyrics": "Manda-nos Teu Poder;"
+          },
+          {
+            "chords": "                             D            A",
+            "lyrics": "Fogo que destrói o mal, fogo santo, celestial;"
+          },
+          {
+            "chords": "      E         A",
+            "lyrics": "Manda-nos Teu Poder."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       A",
+            "lyrics": "Manda-nos o Teu Poder,"
+          },
+          {
+            "chords": "    E                    A",
+            "lyrics": "O Poder renovador, Pelo Teu imenso_amor;"
+          },
+          {
+            "chords": "",
+            "lyrics": "Vem, Senhor, selar Teu povo"
+          },
+          {
+            "chords": "       E         A",
+            "lyrics": "Com o bom Consolador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        A                         D             A",
+            "lyrics": "Vem as bênçãos derramar e,_os que dormem, despertar;"
+          },
+          {
+            "chords": "      E         A ",
+            "lyrics": "Manda-nos Teu Poder;"
+          },
+          {
+            "chords": "                            D         A",
+            "lyrics": "E das nossas vidas faz testemunho eficaz;"
+          },
+          {
+            "chords": "      E         A",
+            "lyrics": "Manda-nos Teu Poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        A                   D             A",
+            "lyrics": "Vem nos dar as orações, visitando_os corações;"
+          },
+          {
+            "chords": "      E         A ",
+            "lyrics": "Manda-nos Teu Poder;"
+          },
+          {
+            "chords": "                           D            A",
+            "lyrics": "Em constante comunhão, esperamos Tua_unção;"
+          },
+          {
+            "chords": "      E         A",
+            "lyrics": "Manda-nos Teu Poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

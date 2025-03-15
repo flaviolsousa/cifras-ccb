@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "A fiel proteção",
-  "difficulty": 3,
   "tone": "G",
-  "content": [
-    "       G                   C",
-    "1. A fiel proteção do Teu manto de amor",
-    "    G         A7          D",
-    "Segurança me traz, bom Jesus;",
-    "    G                  C",
-    "Abrigado estou, tenho força e valor;",
-    "       G       D",
-    "Trilharei Tua senda de luz.",
-    "",
-    "       D                    G",
-    "O teu manto de amor sinto estar sobre mim; ",
-    "      A7                  D    D7",
-    "Minha vida Te entrego, Senhor;",
-    "     G                C",
-    "Viverei pela fé, protegido assim,",
-    "       G        D        G",
-    "Na presença de Deus, Criador.",
-    "",
-    "           G                   C",
-    "2. Meu destino de luz vejo ao longe, Senhor,",
-    "     G       A7        D",
-    "E jamais olharei para trás;",
-    "       G                  C",
-    "Minha crença em Ti guardarei, Redentor;",
-    "      G         D       G",
-    "Teu poder, virtuoso me faz.",
-    "",
-    "          G                     C",
-    "3. Teu intento, Senhor, vem em mim revelar;",
-    "     G        A7         D",
-    "Preciosos são os planos Teus;",
-    "     G                    C",
-    "De valor em valor quero aqui terminar",
-    "     G         D         G",
-    "A carreira proposta por Deus."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    G                   C",
+            "lyrics": "A fiel proteção do Teu manto de amor"
+          },
+          {
+            "chords": "    G         A7          D",
+            "lyrics": "Segurança me traz, bom Jesus;"
+          },
+          {
+            "chords": "    G                  C",
+            "lyrics": "Abrigado estou, tenho força e valor;"
+          },
+          {
+            "chords": "       G       D",
+            "lyrics": "Trilharei Tua senda de luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       D                    G",
+            "lyrics": "O teu manto de amor sinto estar sobre mim; "
+          },
+          {
+            "chords": "      A7                  D    D7",
+            "lyrics": "Minha vida Te entrego, Senhor;"
+          },
+          {
+            "chords": "     G                C",
+            "lyrics": "Viverei pela fé, protegido assim,"
+          },
+          {
+            "chords": "       G        D        G",
+            "lyrics": "Na presença de Deus, Criador."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        G                   C",
+            "lyrics": "Meu destino de luz vejo ao longe, Senhor,"
+          },
+          {
+            "chords": "     G       A7        D",
+            "lyrics": "E jamais olharei para trás;"
+          },
+          {
+            "chords": "       G                  C",
+            "lyrics": "Minha crença em Ti guardarei, Redentor;"
+          },
+          {
+            "chords": "      G         D       G",
+            "lyrics": "Teu poder, virtuoso me faz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "       G                     C",
+            "lyrics": "Teu intento, Senhor, vem em mim revelar;"
+          },
+          {
+            "chords": "     G        A7         D",
+            "lyrics": "Preciosos são os planos Teus;"
+          },
+          {
+            "chords": "     G                    C",
+            "lyrics": "De valor em valor quero aqui terminar"
+          },
+          {
+            "chords": "     G         D         G",
+            "lyrics": "A carreira proposta por Deus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

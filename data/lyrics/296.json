@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Teu Nome é soberano, ó Redentor",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "       B                            F#7 ",
-    "1. Teu Nome_é soberano, ó caro Redentor;",
-    "                 B         C#7          F#7 ",
-    "Teu Nome_é mui sublime, de grande esplendor;",
-    "     B           F#7             G°  G#m ",
-    "Em espírito_e verdade devemos adorar-Te;",
-    "  E          B      E  F#7         B",
-    "Devemos tributar-Te louvores, ó Senhor.",
-    "",
-    "B                 E ",
-    "Quão suave_e precioso",
-    "F#7                B",
-    "É Teu Nome,_ó Salvador;",
-    "                  E  ",
-    "Não há outro Nome pelo qual os homens",
-    "B           C#7   F#7  B",
-    "Chegarão ao Cri – a  - dor.",
-    "",
-    "       B                            F#7 ",
-    "2. Teu Nome bendiremos, eterno Salvador;",
-    "               B        C#7        F#7 ",
-    "Em todos os combates és nosso Defensor;",
-    "        B             F#7                  G°    G#m ",
-    "Deste_a todos os Teus santos fé viva e_esperan - ça",
-    "     E            B      E  F#7        B",
-    "De_entrar na Tua glória, ó  justo Redentor.",
-    "",
-    "       B                              F#7 ",
-    "3. Teu Nome respeitamos e_amamos, ó Senhor;",
-    "                   B         C#7        F#7 ",
-    "A paz com Deus nós temos por Ti, ó Redentor;",
-    "       B          F#7                 G°   G#m ",
-    "Nossas almas resgataste, a vida nos doas - te,",
-    "   E            B     E  F#7         B",
-    "Herdeiros nos fizeste de Deus, o Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "    B                            F#7 ",
+            "lyrics": "Teu Nome_é soberano, ó caro Redentor;"
+          },
+          {
+            "chords": "                 B         C#7          F#7 ",
+            "lyrics": "Teu Nome_é mui sublime, de grande esplendor;"
+          },
+          {
+            "chords": "     B           F#7             G°  G#m ",
+            "lyrics": "Em espírito_e verdade devemos adorar-Te;"
+          },
+          {
+            "chords": "  E          B      E  F#7         B",
+            "lyrics": "Devemos tributar-Te louvores, ó Senhor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B                 E ",
+            "lyrics": "Quão suave_e precioso"
+          },
+          {
+            "chords": "F#7                B",
+            "lyrics": "É Teu Nome,_ó Salvador;"
+          },
+          {
+            "chords": "                  E  ",
+            "lyrics": "Não há outro Nome pelo qual os homens"
+          },
+          {
+            "chords": "B           C#7   F#7  B",
+            "lyrics": "Chegarão ao Cri – a  - dor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    B                            F#7 ",
+            "lyrics": "Teu Nome bendiremos, eterno Salvador;"
+          },
+          {
+            "chords": "               B        C#7        F#7 ",
+            "lyrics": "Em todos os combates és nosso Defensor;"
+          },
+          {
+            "chords": "        B             F#7                  G°    G#m ",
+            "lyrics": "Deste_a todos os Teus santos fé viva e_esperan - ça"
+          },
+          {
+            "chords": "     E            B      E  F#7        B",
+            "lyrics": "De_entrar na Tua glória, ó  justo Redentor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "    B                              F#7 ",
+            "lyrics": "Teu Nome respeitamos e_amamos, ó Senhor;"
+          },
+          {
+            "chords": "                   B         C#7        F#7 ",
+            "lyrics": "A paz com Deus nós temos por Ti, ó Redentor;"
+          },
+          {
+            "chords": "       B          F#7                 G°   G#m ",
+            "lyrics": "Nossas almas resgataste, a vida nos doas - te,"
+          },
+          {
+            "chords": "   E            B     E  F#7         B",
+            "lyrics": "Herdeiros nos fizeste de Deus, o Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

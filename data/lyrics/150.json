@@ -1,34 +1,75 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus Cristo, meu Senhor",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "         A",
-    "1. Jesus Cristo, meu Senhor,",
-    "      E7          A",
-    "Me justificou por fé;",
-    "A7   D                A",
-    "Pela graça, pelo Seu amor,",
-    "F#   B7          E7   A",
-    "Alcancei de Deus   mercê.",
-    "",
-    "       A",
-    "2. Regozijo, paz e_amor,",
-    "   E7         A",
-    "Alegria sem igual,",
-    "A7    D                 A",
-    "Eu desfruto em meu Salvador,",
-    "F#   B7       E7  A",
-    "O Cordeiro di - vinal.",
-    "",
-    "        A",
-    "3. Vivo no Senhor Jesus;",
-    "    E7            A",
-    "Sua vida sinto_em mim;",
-    "A7  D                  A",
-    "Ele é, no mundo, minha Luz",
-    "F#   B7     E7    A",
-    "Para ir até    o fim."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "      A",
+            "lyrics": "Jesus Cristo, meu Senhor,"
+          },
+          {
+            "chords": "      E7          A",
+            "lyrics": "Me justificou por fé;"
+          },
+          {
+            "chords": "A7   D                A",
+            "lyrics": "Pela graça, pelo Seu amor,"
+          },
+          {
+            "chords": "F#   B7          E7   A",
+            "lyrics": "Alcancei de Deus   mercê."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "    A",
+            "lyrics": "Regozijo, paz e_amor,"
+          },
+          {
+            "chords": "   E7         A",
+            "lyrics": "Alegria sem igual,"
+          },
+          {
+            "chords": "A7    D                 A",
+            "lyrics": "Eu desfruto em meu Salvador,"
+          },
+          {
+            "chords": "F#   B7       E7  A",
+            "lyrics": "O Cordeiro di - vinal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A",
+            "lyrics": "Vivo no Senhor Jesus;"
+          },
+          {
+            "chords": "    E7            A",
+            "lyrics": "Sua vida sinto_em mim;"
+          },
+          {
+            "chords": "A7  D                  A",
+            "lyrics": "Ele é, no mundo, minha Luz"
+          },
+          {
+            "chords": "F#   B7     E7    A",
+            "lyrics": "Para ir até    o fim."
+          }
+        ]
+      }
+    ]
+  }
 }

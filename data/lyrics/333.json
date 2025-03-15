@@ -1,40 +1,87 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Peregrino sou no mundo",
-  "difficulty": 3,
   "tone": "C",
-  "content": [
-    " C...  G            C            G            C",
-    "1. Peregrino sou no mundo, meu desejo_é ir ao céu,",
-    "          G           C            G           C",
-    "Deus, por Seu amor profundo, santa pátria prometeu;",
-    "      F             C          F            C",
-    "Nas angústias desta vida, só Jesus me dá guarida;",
-    "                   F           C",
-    "Deste mundo nada_espero, o meu lar está no céu;",
-    "                        F          C      G     C   C...",
-    "Consagrar-me_a Deus eu quero, para ser herdeiro Seu.",
-    "",
-    " C...     G            C          G          C",
-    "2. Nada_impede_o meu caminho para habitar no céu;",
-    "      G               C             G           C",
-    "Jesus Cristo,_o Rei divino, graça_e paz me concedeu;",
-    "     F           C            F            C",
-    "Pela fé o céu contemplo, entrarei no santo templo,",
-    "                    F         C",
-    "Onde Deus, o Pai bondoso, Sua face mostrará",
-    "                F              C      G   C  C...",
-    "Ao Seu povo vitorioso que, com Ele,_habitará.",
-    "",
-    " C...      G             C          G           C",
-    "3. Não te_aflijas, minha alma, há repouso lá no céu,",
-    "      G           C           G            C",
-    "Onde_existe paz e calma que o mundo não te deu;",
-    "     F          C               F             C",
-    "De vitória em vitória, vais com Cristo_à Sua glória;",
-    "                   F             C",
-    "Segue_avante com o Mestre, d´Ele tens a proteção,",
-    "                   F           C   G     C   C...",
-    "Pois de força te reveste nesta peregrinação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "..  G            C            G            C",
+            "lyrics": "Peregrino sou no mundo, meu desejo_é ir ao céu,"
+          },
+          {
+            "chords": "          G           C            G           C",
+            "lyrics": "Deus, por Seu amor profundo, santa pátria prometeu;"
+          },
+          {
+            "chords": "      F             C          F            C",
+            "lyrics": "Nas angústias desta vida, só Jesus me dá guarida;"
+          },
+          {
+            "chords": "                   F           C",
+            "lyrics": "Deste mundo nada_espero, o meu lar está no céu;"
+          },
+          {
+            "chords": "                        F          C      G     C   C...",
+            "lyrics": "Consagrar-me_a Deus eu quero, para ser herdeiro Seu."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "..     G            C          G          C",
+            "lyrics": "Nada_impede_o meu caminho para habitar no céu;"
+          },
+          {
+            "chords": "      G               C             G           C",
+            "lyrics": "Jesus Cristo,_o Rei divino, graça_e paz me concedeu;"
+          },
+          {
+            "chords": "     F           C            F            C",
+            "lyrics": "Pela fé o céu contemplo, entrarei no santo templo,"
+          },
+          {
+            "chords": "                    F         C",
+            "lyrics": "Onde Deus, o Pai bondoso, Sua face mostrará"
+          },
+          {
+            "chords": "                F              C      G   C  C...",
+            "lyrics": "Ao Seu povo vitorioso que, com Ele,_habitará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "..      G             C          G           C",
+            "lyrics": "Não te_aflijas, minha alma, há repouso lá no céu,"
+          },
+          {
+            "chords": "      G           C           G            C",
+            "lyrics": "Onde_existe paz e calma que o mundo não te deu;"
+          },
+          {
+            "chords": "     F          C               F             C",
+            "lyrics": "De vitória em vitória, vais com Cristo_à Sua glória;"
+          },
+          {
+            "chords": "                   F             C",
+            "lyrics": "Segue_avante com o Mestre, d´Ele tens a proteção,"
+          },
+          {
+            "chords": "                   F           C   G     C   C...",
+            "lyrics": "Pois de força te reveste nesta peregrinação."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,31 +1,80 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Por fé, recebe o grande Mestre",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "      A                       D       E ",
-    "1. Na porta do teu coração, batendo_está o Redentor,",
-    "                                       A     D   A",
-    "Jesus, Autor da salvação, que traz perdão ao pecador.",
-    "",
-    "    F#m                 C# ",
-    "Por fé, recebe_o grande Mestre",
-    "    F#m          D   A",
-    "Que para Deus te levará.",
-    "                   D  ",
-    "O Dom precioso e celeste",
-    "      A    E    A",
-    "A tua alma provará.",
-    "",
-    "      A                     D     E ",
-    "2. Em vão batendo não está Aquele que morreu na cruz;",
-    "                                    A     D   A",
-    "Teu coração pulsando_está? Depressa abre, é Jesus.",
-    "",
-    "     A                         D         E ",
-    "3. A paz, a vida, o amor, por Cristo,_em ti habitarão;",
-    "                                 A     D     A",
-    "Por ti morreu o Remidor, para te dar a salvação."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   A                       D       E ",
+            "lyrics": "Na porta do teu coração, batendo_está o Redentor,"
+          },
+          {
+            "chords": "                                       A     D   A",
+            "lyrics": "Jesus, Autor da salvação, que traz perdão ao pecador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    F#m                 C# ",
+            "lyrics": "Por fé, recebe_o grande Mestre"
+          },
+          {
+            "chords": "    F#m          D   A",
+            "lyrics": "Que para Deus te levará."
+          },
+          {
+            "chords": "                   D  ",
+            "lyrics": "O Dom precioso e celeste"
+          },
+          {
+            "chords": "      A    E    A",
+            "lyrics": "A tua alma provará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "   A                     D     E ",
+            "lyrics": "Em vão batendo não está Aquele que morreu na cruz;"
+          },
+          {
+            "chords": "                                    A     D   A",
+            "lyrics": "Teu coração pulsando_está? Depressa abre, é Jesus."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  A                         D         E ",
+            "lyrics": "A paz, a vida, o amor, por Cristo,_em ti habitarão;"
+          },
+          {
+            "chords": "                                 A     D     A",
+            "lyrics": "Por ti morreu o Remidor, para te dar a salvação."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

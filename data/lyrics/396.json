@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Vamos, ó irmãos, marchar",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "          B                         E ",
-    "1. Vamos, ó irmãos, marchar sempre_avante para_o céu,",
-    "     F#7                     B",
-    "Confiantes, nas pisadas de Jesus,",
-    "                             E  ",
-    "Pois à frente Ele_está e por nós combaterá,",
-    "     F#7                     B",
-    "Desfará as trevas com a Sua luz.",
-    "",
-    "      F#7                       B",
-    "Com Jesus marchemos à_eternal Sião,",
-    "       E                      F#7 ",
-    "Bem cingidos de justiça_e retidão,",
-    "       B                                E ",
-    "Pois à frente Ele_está e ao céu nos levará,",
-    "      F#7                 B",
-    "Onde_iremos receber galardão.",
-    "",
-    "          B                       E ",
-    "2. Cristo nos conduz a Deus com a Sua forte mão,",
-    "    F#7                      B",
-    "Valorosos, caminhemos nessa luz,",
-    "                               E ",
-    "Pois à frente Ele_está, nossos passos guiará;",
-    "     F#7                       B",
-    "Confiemos em Jesus, que nos conduz.",
-    "",
-    "           B                    E ",
-    "3. Sempre_unidos, ó irmãos, em amor e comunhão,",
-    "      F#7                     B",
-    "Prossigamos nas pisadas de Jesus,",
-    "                            E ",
-    "Pois à frente Ele_está, a vitória nos dará,",
-    "     F#7                       B",
-    "Se andarmos, ó irmãos, em Sua luz."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "       B                         E ",
+            "lyrics": "Vamos, ó irmãos, marchar sempre_avante para_o céu,"
+          },
+          {
+            "chords": "     F#7                     B",
+            "lyrics": "Confiantes, nas pisadas de Jesus,"
+          },
+          {
+            "chords": "                             E  ",
+            "lyrics": "Pois à frente Ele_está e por nós combaterá,"
+          },
+          {
+            "chords": "     F#7                     B",
+            "lyrics": "Desfará as trevas com a Sua luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      F#7                       B",
+            "lyrics": "Com Jesus marchemos à_eternal Sião,"
+          },
+          {
+            "chords": "       E                      F#7 ",
+            "lyrics": "Bem cingidos de justiça_e retidão,"
+          },
+          {
+            "chords": "       B                                E ",
+            "lyrics": "Pois à frente Ele_está e ao céu nos levará,"
+          },
+          {
+            "chords": "      F#7                 B",
+            "lyrics": "Onde_iremos receber galardão."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "       B                       E ",
+            "lyrics": "Cristo nos conduz a Deus com a Sua forte mão,"
+          },
+          {
+            "chords": "    F#7                      B",
+            "lyrics": "Valorosos, caminhemos nessa luz,"
+          },
+          {
+            "chords": "                               E ",
+            "lyrics": "Pois à frente Ele_está, nossos passos guiará;"
+          },
+          {
+            "chords": "     F#7                       B",
+            "lyrics": "Confiemos em Jesus, que nos conduz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        B                    E ",
+            "lyrics": "Sempre_unidos, ó irmãos, em amor e comunhão,"
+          },
+          {
+            "chords": "      F#7                     B",
+            "lyrics": "Prossigamos nas pisadas de Jesus,"
+          },
+          {
+            "chords": "                            E ",
+            "lyrics": "Pois à frente Ele_está, a vitória nos dará,"
+          },
+          {
+            "chords": "     F#7                       B",
+            "lyrics": "Se andarmos, ó irmãos, em Sua luz."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

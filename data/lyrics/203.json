@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "O meu vero Amigo é Jesus",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "      D              A ",
-    "1. Jesus é meu vero Amigo",
-    "                 D",
-    "E jamais me deixará,",
-    "                          G ",
-    "Pois, quando estiver em perigo,",
-    "     A          D",
-    "Sua mão me livrará.",
-    "",
-    "   D",
-    "O meu vero Amigo é Jesus,",
-    "",
-    "Na senda de paz já me conduz;",
-    "      A                   D          Bm ",
-    "Nunca outro haverá que ofereça graça tal,",
-    "     Em   A    D",
-    "Preciosa, divinal.",
-    "",
-    "    D              A ",
-    "2. Amigo fiel e bondoso,",
-    "                  D",
-    "Em Jesus eu encontrei;",
-    "                       G ",
-    "Em Seu doce amor, glorioso,",
-    "       A          D",
-    "Sempre me deleitarei.",
-    "",
-    "        D                A ",
-    "3. Por Cristo estou protegido",
-    "                   D",
-    "Na angústia ou na dor;",
-    "                      G ",
-    "E, quando me sinto abatido,",
-    "     A         D",
-    "É veraz Consolador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "   D              A ",
+            "lyrics": "Jesus é meu vero Amigo"
+          },
+          {
+            "chords": "                 D",
+            "lyrics": "E jamais me deixará,"
+          },
+          {
+            "chords": "                          G ",
+            "lyrics": "Pois, quando estiver em perigo,"
+          },
+          {
+            "chords": "     A          D",
+            "lyrics": "Sua mão me livrará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   D",
+            "lyrics": "O meu vero Amigo é Jesus,"
+          },
+          {
+            "chords": "",
+            "lyrics": "Na senda de paz já me conduz;"
+          },
+          {
+            "chords": "      A                   D          Bm ",
+            "lyrics": "Nunca outro haverá que ofereça graça tal,"
+          },
+          {
+            "chords": "     Em   A    D",
+            "lyrics": "Preciosa, divinal."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": " D              A ",
+            "lyrics": "Amigo fiel e bondoso,"
+          },
+          {
+            "chords": "                  D",
+            "lyrics": "Em Jesus eu encontrei;"
+          },
+          {
+            "chords": "                       G ",
+            "lyrics": "Em Seu doce amor, glorioso,"
+          },
+          {
+            "chords": "       A          D",
+            "lyrics": "Sempre me deleitarei."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     D                A ",
+            "lyrics": "Por Cristo estou protegido"
+          },
+          {
+            "chords": "                   D",
+            "lyrics": "Na angústia ou na dor;"
+          },
+          {
+            "chords": "                      G ",
+            "lyrics": "E, quando me sinto abatido,"
+          },
+          {
+            "chords": "     A         D",
+            "lyrics": "É veraz Consolador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

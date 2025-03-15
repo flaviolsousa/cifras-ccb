@@ -1,43 +1,97 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Ó Salvador, que recebeste poder",
-  "difficulty": 3,
   "tone": "D",
-  "content": [
-    "   D  G  A7  D    G   B  Em   A   D",
-    "1. Ó  Salva -dor, que de Deus recebeste",
-    "Bm  A    E7  A   E7  F#7   Bm  E7      A    A7",
-    "To -do_o po -der so -bre_a ter-ra e_os céus,",
-    "D   A7  D  G     B  Em  A    G  D",
-    "Vem au -mentar a virtu -de celeste",
-    "Bm  A  G   D    G  B  Em  A7     D",
-    "Nes-te meu ser, pa-ra gló-ria de Deus.",
-    "",
-    "   D  G  A7  D    G   B  Em  A    D",
-    "2. Ó  Re-den-tor, que a -briste a porta",
-    "Bm  A  E7  A  E7  F#7  Bm  E7    A    A7",
-    "Do  santu -á -rio e  - ter-no de Deus,",
-    "D  A7  D   G     B  Em  A      G  D",
-    "Dá ao  Teu servo a  paz que conforta,",
-    "Bm  A  G  D  G  B  Em  A7     D",
-    "Que prome-teste a  to -dos os Teus.",
-    "",
-    "   D  G   A7  D     G  B  Em  A    D",
-    "3. Fi-lho de  Deus, Tu vences-te a morte",
-    "Bm  A  E7   A   E7  F#7  Bm  E7     A    A7",
-    "E   vi-vo_estás pa -ra   sem-pre, Senhor;",
-    "D  A7  D  G    B  Em  A    G  D",
-    "De Ti  es-pero também esta sorte:",
-    "Bm  A  G  D   G  B    Em  A7     D",
-    "Res-susci-tar pa-ra_o rei-no de_amor.",
-    "",
-    "   D  G    A7  D   G  B  Em  A       D",
-    "4. No transcor-rer desta mi -nha_existência,",
-    "Bm  A  E7  A   E7  F#7  Bm  E7   A    A7",
-    "Que-ro hon-rar-Te, ó    meu Redentor;",
-    "D  A7  D  G   B  Em  A     G  D",
-    "Quero  um dia es-tar na presença",
-    "Bm  A   G  D    G  B  Em  A7  D",
-    "Do  grande Deus e  fi-el  Criador."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "D  G  A7  D    G   B  Em   A   D",
+            "lyrics": "Ó  Salva -dor, que de Deus recebeste"
+          },
+          {
+            "chords": "Bm  A    E7  A   E7  F#7   Bm  E7      A    A7",
+            "lyrics": "To -do_o po -der so -bre_a ter-ra e_os céus,"
+          },
+          {
+            "chords": "D   A7  D  G     B  Em  A    G  D",
+            "lyrics": "Vem au -mentar a virtu -de celeste"
+          },
+          {
+            "chords": "Bm  A  G   D    G  B  Em  A7     D",
+            "lyrics": "Nes-te meu ser, pa-ra gló-ria de Deus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "D  G  A7  D    G   B  Em  A    D",
+            "lyrics": "Ó  Re-den-tor, que a -briste a porta"
+          },
+          {
+            "chords": "Bm  A  E7  A  E7  F#7  Bm  E7    A    A7",
+            "lyrics": "Do  santu -á -rio e  - ter-no de Deus,"
+          },
+          {
+            "chords": "D  A7  D   G     B  Em  A      G  D",
+            "lyrics": "Dá ao  Teu servo a  paz que conforta,"
+          },
+          {
+            "chords": "Bm  A  G  D  G  B  Em  A7     D",
+            "lyrics": "Que prome-teste a  to -dos os Teus."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "D  G   A7  D     G  B  Em  A    D",
+            "lyrics": "Fi-lho de  Deus, Tu vences-te a morte"
+          },
+          {
+            "chords": "Bm  A  E7   A   E7  F#7  Bm  E7     A    A7",
+            "lyrics": "E   vi-vo_estás pa -ra   sem-pre, Senhor;"
+          },
+          {
+            "chords": "D  A7  D  G    B  Em  A    G  D",
+            "lyrics": "De Ti  es-pero também esta sorte:"
+          },
+          {
+            "chords": "Bm  A  G  D   G  B    Em  A7     D",
+            "lyrics": "Res-susci-tar pa-ra_o rei-no de_amor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "4",
+        "verses": [
+          {
+            "chords": "D  G    A7  D   G  B  Em  A       D",
+            "lyrics": "No transcor-rer desta mi -nha_existência,"
+          },
+          {
+            "chords": "Bm  A  E7  A   E7  F#7  Bm  E7   A    A7",
+            "lyrics": "Que-ro hon-rar-Te, ó    meu Redentor;"
+          },
+          {
+            "chords": "D  A7  D  G   B  Em  A     G  D",
+            "lyrics": "Quero  um dia es-tar na presença"
+          },
+          {
+            "chords": "Bm  A   G  D    G  B  Em  A7  D",
+            "lyrics": "Do  grande Deus e  fi-el  Criador."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,45 +1,108 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "\"Não se turbe o vosso coração\"",
-  "difficulty": 3,
   "tone": "A",
-  "content": [
-    "           A             D   E7      A",
-    "1. “Não se turbe_o vosso coração”, assim falou Jesus,",
-    "                    B7            E    E7 ",
-    "Nosso Mestre, que à glória nos conduz.",
-    "     A           D     E7   A  ",
-    "Pela fé no Pai celeste caminhemos para_os céus,",
-    "      D              E7             A",
-    "Lar sublime,_indescritível, do bom Deus.",
-    "",
-    "    E7                 A",
-    "Mui breve Jesus retornará,",
-    "                           E    E7 ",
-    "Com glória, em nuvens voltará;",
-    "     A",
-    "Majestoso surgirá,",
-    "       D                       A",
-    "Para_o céu conduzirá os Seus fiéis",
-    "      E7         A",
-    "E_a coroa lhes dará.",
-    "",
-    "         A         D       E7     A",
-    "2. Não temamos, ó eleitos, pois o Pai se agradou",
-    "                   B7           E    E7 ",
-    "Em nos dar o reino que_Ele preparou;",
-    "       A        D     E7   A",
-    "Por bondade infinita, por afeto paternal,",
-    "       D        E7         A",
-    "Nos concederá o prêmio eternal.",
-    "",
-    "        A         D      E7    A",
-    "3. Aguardemos, ó amados, com real consagração,",
-    "                 B7       E    E7 ",
-    "De Jesus, a gloriosa_aparição;",
-    "      A        D     E7   A",
-    "Com a lâmpada acesa, Ele quer nos encontrar",
-    "         D                E7            A",
-    "Para,_ao reino_eterno,_em glória, nos levar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        A             D   E7      A",
+            "lyrics": "“Não se turbe_o vosso coração”, assim falou Jesus,"
+          },
+          {
+            "chords": "                    B7            E    E7 ",
+            "lyrics": "Nosso Mestre, que à glória nos conduz."
+          },
+          {
+            "chords": "     A           D     E7   A  ",
+            "lyrics": "Pela fé no Pai celeste caminhemos para_os céus,"
+          },
+          {
+            "chords": "      D              E7             A",
+            "lyrics": "Lar sublime,_indescritível, do bom Deus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    E7                 A",
+            "lyrics": "Mui breve Jesus retornará,"
+          },
+          {
+            "chords": "                           E    E7 ",
+            "lyrics": "Com glória, em nuvens voltará;"
+          },
+          {
+            "chords": "     A",
+            "lyrics": "Majestoso surgirá,"
+          },
+          {
+            "chords": "       D                       A",
+            "lyrics": "Para_o céu conduzirá os Seus fiéis"
+          },
+          {
+            "chords": "      E7         A",
+            "lyrics": "E_a coroa lhes dará."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "      A         D       E7     A",
+            "lyrics": "Não temamos, ó eleitos, pois o Pai se agradou"
+          },
+          {
+            "chords": "                   B7           E    E7 ",
+            "lyrics": "Em nos dar o reino que_Ele preparou;"
+          },
+          {
+            "chords": "       A        D     E7   A",
+            "lyrics": "Por bondade infinita, por afeto paternal,"
+          },
+          {
+            "chords": "       D        E7         A",
+            "lyrics": "Nos concederá o prêmio eternal."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "     A         D      E7    A",
+            "lyrics": "Aguardemos, ó amados, com real consagração,"
+          },
+          {
+            "chords": "                 B7       E    E7 ",
+            "lyrics": "De Jesus, a gloriosa_aparição;"
+          },
+          {
+            "chords": "      A        D     E7   A",
+            "lyrics": "Com a lâmpada acesa, Ele quer nos encontrar"
+          },
+          {
+            "chords": "         D                E7            A",
+            "lyrics": "Para,_ao reino_eterno,_em glória, nos levar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

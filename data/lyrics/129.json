@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Salvo estou por Jesus",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "           B                             E ",
-    "1. Certo_estou de que Cristo Jesus é meu Rei,",
-    "     F#               B",
-    "De minh´alma é o Protetor;",
-    "                               E ",
-    "Vou avante com fé, junto à Sua grei,",
-    "      F#                B",
-    "Com a força do meu Salvador.",
-    "",
-    "        B                    ",
-    "Salvo_estou por Jesus, o meu bom Salvador,",
-    "                      F#    F#... ",
-    "Cumprirá Sua obra de_amor,",
-    "     B                    E       E... ",
-    "Vou avante por graça, com fé no Senhor,",
-    "     B        F#      B",
-    "Meu amado_e divino Pastor.",
-    "",
-    "           B                              E ",
-    "2. Certo_estou de que Cristo,_o fiel Salvador,",
-    "      F#              B",
-    "Cumprirá Sua obra de_amor,",
-    "                                   E ",
-    "Obra_eterna, perfeita, de grande valor,",
-    "    F#                 B",
-    "Ordenada por Deus, Criador.",
-    "",
-    "           B                         E ",
-    "3. Certo_estou de que meu poderoso Jesus",
-    "       F#                 B",
-    "Dar-me-á sempre força_e valor,",
-    "                                         E ",
-    "E também mais virtude, mais graça_e mais luz;",
-    "    F#                  B",
-    "A Jesus servirei com fervor."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "        B                             E ",
+            "lyrics": "Certo_estou de que Cristo Jesus é meu Rei,"
+          },
+          {
+            "chords": "     F#               B",
+            "lyrics": "De minh´alma é o Protetor;"
+          },
+          {
+            "chords": "                               E ",
+            "lyrics": "Vou avante com fé, junto à Sua grei,"
+          },
+          {
+            "chords": "      F#                B",
+            "lyrics": "Com a força do meu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "        B                    ",
+            "lyrics": "Salvo_estou por Jesus, o meu bom Salvador,"
+          },
+          {
+            "chords": "                      F#    F#... ",
+            "lyrics": "Cumprirá Sua obra de_amor,"
+          },
+          {
+            "chords": "     B                    E       E... ",
+            "lyrics": "Vou avante por graça, com fé no Senhor,"
+          },
+          {
+            "chords": "     B        F#      B",
+            "lyrics": "Meu amado_e divino Pastor."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "        B                              E ",
+            "lyrics": "Certo_estou de que Cristo,_o fiel Salvador,"
+          },
+          {
+            "chords": "      F#              B",
+            "lyrics": "Cumprirá Sua obra de_amor,"
+          },
+          {
+            "chords": "                                   E ",
+            "lyrics": "Obra_eterna, perfeita, de grande valor,"
+          },
+          {
+            "chords": "    F#                 B",
+            "lyrics": "Ordenada por Deus, Criador."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "        B                         E ",
+            "lyrics": "Certo_estou de que meu poderoso Jesus"
+          },
+          {
+            "chords": "       F#                 B",
+            "lyrics": "Dar-me-á sempre força_e valor,"
+          },
+          {
+            "chords": "                                         E ",
+            "lyrics": "E também mais virtude, mais graça_e mais luz;"
+          },
+          {
+            "chords": "    F#                  B",
+            "lyrics": "A Jesus servirei com fervor."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }

@@ -1,43 +1,104 @@
 {
-  "version": "v1",
+  "version": "v2",
   "title": "Jesus é a nossa Rocha",
-  "difficulty": 3,
   "tone": "B",
-  "content": [
-    "     B                       E          B",
-    "1. Jesus é_a nossa Rocha de_eterna salvação,",
-    "                        C#7         F#7 ",
-    "Que pode abrigar-nos em toda_a tentação;",
-    "   B                    E             B",
-    "Se n´Ele confiarmos, ninguém nos vencerá,",
-    "                           F#7      B",
-    "Pois nossa fé constante em Cristo_está.",
-    "",
-    "  B                  E          B",
-    "É Cristo a Rocha de_eterna salvação,",
-    "                   F#7  ",
-    "Real Fundamento da nossa redenção;",
-    "  B                 E           B",
-    "É Cristo a Rocha, Autor do sumo bem,",
-    "                            F#7  B",
-    "Quem n´Ele firme_está, proteção  tem.",
-    "",
-    "     B               E          B",
-    "2. Seguro Alicerce é o Senhor Jesus,",
-    "                             C#7          F#7 ",
-    "Que nos tirou das trevas, mostrando-nos a luz,",
-    "  B                   E           B",
-    "Será esclarecido quem nessa Rocha crer,",
-    "                      F#7   B",
-    "Bem firme estará pelo Seu poder.",
-    "",
-    "     B                  E            B",
-    "3. A geração eleita nós somos, no Senhor,",
-    "                      C#7       F#7 ",
-    "E sacerdócio santo ao nosso Criador;",
-    "  B                     E           B",
-    "A graça, nós devemos ao mundo proclamar;",
-    "                             F#7  B",
-    "Quem crer no Seu poder há de triunfar."
-  ]
+  "score": {
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "verses": [
+          {
+            "chords": "  B                       E          B",
+            "lyrics": "Jesus é_a nossa Rocha de_eterna salvação,"
+          },
+          {
+            "chords": "                        C#7         F#7 ",
+            "lyrics": "Que pode abrigar-nos em toda_a tentação;"
+          },
+          {
+            "chords": "   B                    E             B",
+            "lyrics": "Se n´Ele confiarmos, ninguém nos vencerá,"
+          },
+          {
+            "chords": "                           F#7      B",
+            "lyrics": "Pois nossa fé constante em Cristo_está."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "  B                  E          B",
+            "lyrics": "É Cristo a Rocha de_eterna salvação,"
+          },
+          {
+            "chords": "                   F#7  ",
+            "lyrics": "Real Fundamento da nossa redenção;"
+          },
+          {
+            "chords": "  B                 E           B",
+            "lyrics": "É Cristo a Rocha, Autor do sumo bem,"
+          },
+          {
+            "chords": "                            F#7  B",
+            "lyrics": "Quem n´Ele firme_está, proteção  tem."
+          }
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "verses": [
+          {
+            "chords": "  B               E          B",
+            "lyrics": "Seguro Alicerce é o Senhor Jesus,"
+          },
+          {
+            "chords": "                             C#7          F#7 ",
+            "lyrics": "Que nos tirou das trevas, mostrando-nos a luz,"
+          },
+          {
+            "chords": "  B                   E           B",
+            "lyrics": "Será esclarecido quem nessa Rocha crer,"
+          },
+          {
+            "chords": "                      F#7   B",
+            "lyrics": "Bem firme estará pelo Seu poder."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "verses": [
+          {
+            "chords": "  B                  E            B",
+            "lyrics": "A geração eleita nós somos, no Senhor,"
+          },
+          {
+            "chords": "                      C#7       F#7 ",
+            "lyrics": "E sacerdócio santo ao nosso Criador;"
+          },
+          {
+            "chords": "  B                     E           B",
+            "lyrics": "A graça, nós devemos ao mundo proclamar;"
+          },
+          {
+            "chords": "                             F#7  B",
+            "lyrics": "Quem crer no Seu poder há de triunfar."
+          }
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
 }
