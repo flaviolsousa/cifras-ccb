@@ -23,6 +23,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-font"]
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "33d5c811-66f7-4be3-9e57-802dadd2673e"
+      }
+    }
   }
 }
