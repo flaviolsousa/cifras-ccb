@@ -1,6 +1,6 @@
 // src/screens/SplashScreen.tsx
 import React, { useEffect } from "react";
-import { View, Image, StyleSheet, Animated } from "react-native";
+import { Text, View, Image, StyleSheet, Animated } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/MainNavigator";
@@ -28,13 +28,13 @@ const Screen = () => {
         Animated.timing(opacity, {
           toValue: 1,
           duration: 800,
-          useNativeDriver: true,
+          useNativeDriver: false,
         }).start(() => {
           setTimeout(() => {
             Animated.timing(opacity, {
               toValue: 0,
               duration: 800,
-              useNativeDriver: true,
+              useNativeDriver: false,
             }).start(() => {
               navigation.replace("Home");
             });
@@ -49,6 +49,7 @@ const Screen = () => {
   return (
     <Animated.View style={[styles.container, { opacity }]}>
       <Image source={require("../../assets/splash-icon.png")} style={styles.image} resizeMode="contain" />
+      <Text>Splash-Screen</Text>
     </Animated.View>
   );
 };
