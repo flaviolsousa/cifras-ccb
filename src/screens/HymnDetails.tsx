@@ -1,7 +1,7 @@
 // src/screens/HymnDetails.tsx
-import React, { useState, useEffect } from "react";
-import { View, StyleSheet, ScrollView, Text, Platform, LayoutChangeEvent } from "react-native";
-import { useTheme, Appbar, IconButton, Menu, FAB } from "react-native-paper";
+import React, { useState, useEffect, useRef } from "react";
+import { Animated, View, StyleSheet, ScrollView, Text, Platform, LayoutChangeEvent } from "react-native";
+import { useTheme, Appbar, IconButton, Menu, FAB, Divider } from "react-native-paper";
 import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "../navigation/MainNavigator";
 import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
@@ -96,21 +96,84 @@ const HymnDetails = () => {
     setFontSizeDouble(Math.floor(fontSize * 2));
   }, [fontSize]);
 
+  const scrollY = useRef(new Animated.Value(0)).current;
+  const scrollYValue = useRef(0);
+  const lastScrollY = useRef(0);
+  const [headerVisible, setHeaderVisible] = useState(true);
+
+  const headerTranslateY = useRef(new Animated.Value(0)).current;
+
+  const showHeader = () => {
+    Animated.spring(headerTranslateY, {
+      toValue: 0,
+      useNativeDriver: true,
+      tension: 80,
+      friction: 8,
+    }).start();
+  };
+
+  const hideHeader = () => {
+    Animated.spring(headerTranslateY, {
+      toValue: -64,
+      useNativeDriver: true,
+      tension: 80,
+      friction: 8,
+    }).start();
+  };
+
+  const handleScroll = Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], {
+    useNativeDriver: true,
+    listener: (event) => {
+      const currentScrollY = event.nativeEvent.contentOffset.y;
+      const deltaY = currentScrollY - lastScrollY.current;
+
+      // Show header when scrolling up (deltaY < 0)
+      if (deltaY < 0 && !headerVisible) {
+        setHeaderVisible(true);
+        showHeader();
+      }
+      // Hide header when scrolling down (deltaY > 0)
+      else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
+        setHeaderVisible(false);
+        hideHeader();
+      }
+
+      lastScrollY.current = currentScrollY;
+    },
+  });
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
-        <Appbar.Header elevated={true}>
-          <Appbar.BackAction onPress={() => navigation.goBack()} />
-          <Appbar.Content title={title} />
-          <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
-            <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
-            <Menu.Item onPress={closeMenu} title="Fechar menu" />
-          </Menu>
-        </Appbar.Header>
+        <Animated.View
+          style={{
+            transform: [{ translateY: headerTranslateY }],
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: 1,
+            backgroundColor: theme.colors.background,
+          }}
+        >
+          <Appbar.Header elevated={true}>
+            <Appbar.BackAction onPress={() => navigation.goBack()} />
+            <Appbar.Content title={title} />
+            <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
+              <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
+              <Divider />
+              <Menu.Item onPress={closeMenu} title="Fechar menu" />
+            </Menu>
+          </Appbar.Header>
+        </Animated.View>
       )}
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
-        <ScrollView contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}>
+        <Animated.ScrollView
+          contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
+          onScroll={handleScroll}
+          scrollEventThrottle={16}
+        >
           <View style={[styles.score, { marginBottom: fontSizeQuarter }]}>
             {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
               <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
@@ -174,7 +237,7 @@ const HymnDetails = () => {
               </View>
             ))}
           </View>
-        </ScrollView>
+        </Animated.ScrollView>
       </PinchGestureHandler>
       <FAB.Group
         open={zoomControlVisible}
