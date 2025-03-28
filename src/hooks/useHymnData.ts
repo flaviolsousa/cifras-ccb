@@ -4,7 +4,11 @@ import HymnService from "../services/Hymn/HymnService";
 
 const adjustLyric = (chordStr: string, lyricStr: string) => {
   let adjustedLyric = lyricStr;
-
+  if (chordStr.length > lyricStr.length) {
+    for (let i = lyricStr.length; i < chordStr.length; i++) {
+      adjustedLyric += chordStr[i] === " " ? " " : "_";
+    }
+  }
   return adjustedLyric;
 };
 

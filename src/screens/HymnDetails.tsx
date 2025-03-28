@@ -29,6 +29,17 @@ const StyledChordText = ({ text, style }: { text: string; style: any }) => {
   );
 };
 
+const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; onLayout: any }) => {
+  const phrase = text.replace(/([_])+$/g, "");
+  const additional = "x".repeat(text.length - phrase.length);
+  return (
+    <Text style={style} onLayout={onLayout}>
+      <Text>{phrase}</Text>
+      <Text style={{ color: "transparent" }}>{additional}</Text>
+    </Text>
+  );
+};
+
 const HymnDetails = () => {
   const theme = useTheme();
   const FONT_SIZE_INITIAL = 16;
@@ -123,17 +134,14 @@ const HymnDetails = () => {
 
   const handleScroll = Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], {
     useNativeDriver: true,
-    listener: (event) => {
+    listener: (event: any) => {
       const currentScrollY = event.nativeEvent.contentOffset.y;
       const deltaY = currentScrollY - lastScrollY.current;
 
-      // Show header when scrolling up (deltaY < 0)
       if (deltaY < 0 && !headerVisible) {
         setHeaderVisible(true);
         showHeader();
-      }
-      // Hide header when scrolling down (deltaY > 0)
-      else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
+      } else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
         setHeaderVisible(false);
         hideHeader();
       }
@@ -174,7 +182,15 @@ const HymnDetails = () => {
           onScroll={handleScroll}
           scrollEventThrottle={16}
         >
-          <View style={[styles.score, { marginBottom: fontSizeQuarter }]}>
+          <View
+            style={[
+              styles.score,
+              {
+                marginBottom: fontSizeQuarter,
+                marginTop: shouldShowHeader ? 64 : 0,
+              },
+            ]}
+          >
             {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
               <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
                 <View key={`stanza-label-${stanzaIndex}`} style={[styles.stanzaLabelContainer]}>
@@ -216,7 +232,8 @@ const HymnDetails = () => {
                             },
                           ]}
                         />
-                        <Text
+                        <StyledLyricText
+                          text={verse.lyrics}
                           style={[
                             styles.lyric,
                             {
@@ -226,10 +243,8 @@ const HymnDetails = () => {
                               color: theme.colors.secondary,
                             },
                           ]}
-                          onLayout={(e) => onVerseLayout(e, stanzaIndex, verseIndex)}
-                        >
-                          {verse.lyrics}
-                        </Text>
+                          onLayout={(e: LayoutChangeEvent) => onVerseLayout(e, stanzaIndex, verseIndex)}
+                        />
                       </View>
                     );
                   })}
