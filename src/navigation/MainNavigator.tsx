@@ -10,13 +10,14 @@ import Bookmarks from "../screens/Bookmarks";
 import HymnDetails from "../screens/HymnDetails";
 import DrawerContent from "../screens/DrawerContent";
 import { Platform } from "react-native";
+import { HymnModel } from "../domain/HymnModel";
 
 export type RootStackParamList = {
   Splash: undefined;
   Home: undefined;
   Preferences: undefined;
   Bookmarks: undefined;
-  HymnDetails: { hymnCode: string };
+  HymnDetails: { hymnCode: string; hymnsCode: string[] };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();

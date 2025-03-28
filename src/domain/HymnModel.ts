@@ -1,31 +1,30 @@
-import { store } from "../store/index";
-interface KeySignature {
+export interface KeySignature {
   accidental: number;
 }
 
-interface TimeSignature {
+export interface TimeSignature {
   sigN: number;
   sigD: number;
 }
 
-interface Tempo {
+export interface Tempo {
   reference: number;
   text: string;
 }
 
-interface Verse {
+export interface Verse {
   chords: string;
   lyrics: string;
 }
 
-interface Stanza {
+export interface Stanza {
   type: string;
   code?: string;
   verses?: Verse[];
   ref?: string;
 }
 
-interface Score {
+export interface Score {
   stanzas: Stanza[];
 }
 

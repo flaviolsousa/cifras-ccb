@@ -36,13 +36,18 @@ const Home = () => {
         data={filteredHymns}
         keyExtractor={(item) => item.code}
         renderItem={({ item }) => (
-          <TouchableOpacity onPress={() => navigation.navigate("HymnDetails", { hymnCode: item.code })}>
+          <TouchableOpacity onPress={selectItemHandler(item, filteredHymns)}>
             <List.Item title={item.code + " - " + item.title} />
           </TouchableOpacity>
         )}
       />
     </View>
   );
+
+  function selectItemHandler(item: { code: string; title: string }, hymns: Array<{ code: string; title: string }>) {
+    const hymnsCode = hymns.map((hymn) => hymn.code);
+    return () => navigation.navigate("HymnDetails", { hymnCode: item.code, hymnsCode });
+  }
 };
 
 const styles = StyleSheet.create({

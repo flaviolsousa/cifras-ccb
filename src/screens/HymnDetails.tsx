@@ -35,7 +35,7 @@ const HymnDetails = () => {
 
   const route = useRoute<HymnDetailsRouteProp>();
   const navigation = useNavigation();
-  const { hymnCode } = route.params;
+  const { hymnCode, hymnsCode } = route.params;
 
   const { hymn, title } = useHymnData(hymnCode);
   const [fontSize, setFontSize] = useState(FONT_SIZE_INITIAL);
@@ -52,7 +52,6 @@ const HymnDetails = () => {
 
   // Zoom
   const [zoomControlVisible, setZoomControlVisible] = React.useState(false);
-  //const [zoomControlAction, setZoomControlAction] = React.useState("");
   let zoomControlAction = "";
   const increaseFontSize = () => {
     setFontSize((prev: number) => Math.min(prev + 2, 90));

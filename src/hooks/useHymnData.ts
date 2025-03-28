@@ -2,6 +2,12 @@ import { useState, useEffect } from "react";
 import { HymnModel, Stanza, Score } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
 
+const adjustLyric = (chordStr: string, lyricStr: string) => {
+  let adjustedLyric = lyricStr;
+
+  return adjustedLyric;
+};
+
 const adjustChord = (chordStr: string, lyricStr: string) => {
   let adjustedChord = "";
   lyricStr = lyricStr.padEnd(chordStr.length, " ");
@@ -39,9 +45,10 @@ const useHymnData = (hymnCode: string) => {
           if (stanza.type === "ref") {
             updateWithRef(score, stanza);
           }
-          if (stanza.type === "lyric") {
+          if (["lyric", "chorus"].indexOf(stanza.type) >= 0) {
             stanza.verses?.forEach((verse) => {
               verse.chords = adjustChord(verse.chords || "", verse.lyrics || "");
+              verse.lyrics = adjustLyric(verse.chords || "", verse.lyrics || "");
             });
           }
         });
