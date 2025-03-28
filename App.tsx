@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback, useEffect } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import * as SplashScreen from "expo-splash-screen";
 import { useFonts } from "expo-font";
 import { Provider as ReduxProvider } from "react-redux";
@@ -6,9 +6,8 @@ import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
-import { View } from "react-native";
 import { Provider as PaperProvider } from "react-native-paper";
-import { useColorScheme } from "react-native";
+import { useColorScheme, StatusBar, SafeAreaView } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
 import { THEME_DARK, THEME_SYSTEM } from "./src/config/values";
@@ -44,9 +43,12 @@ export default function App() {
       <ReduxProvider store={store}>
         <GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
           <PaperProvider theme={_theme}>
-            <NavigationContainer theme={_theme}>
-              <MainNavigator />
-            </NavigationContainer>
+            <SafeAreaView style={{ flex: 1 }}>
+              <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
+              <NavigationContainer theme={_theme}>
+                <MainNavigator />
+              </NavigationContainer>
+            </SafeAreaView>
           </PaperProvider>
         </GestureHandlerRootView>
       </ReduxProvider>
