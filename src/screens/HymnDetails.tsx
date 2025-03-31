@@ -7,6 +7,7 @@ import { RootStackParamList } from "../navigation/MainNavigator";
 import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
+import HymnNavigate from "../components/HymnNavigate";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -42,10 +43,10 @@ const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; 
 
 const HymnDetails = () => {
   const theme = useTheme();
-  const FONT_SIZE_INITIAL = 16;
+  const FONT_SIZE_INITIAL = 22;
 
   const route = useRoute<HymnDetailsRouteProp>();
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const { hymnCode, hymnsCode } = route.params;
 
   const { hymn, title } = useHymnData(hymnCode);
@@ -108,7 +109,7 @@ const HymnDetails = () => {
   }, [fontSize]);
 
   const scrollY = useRef(new Animated.Value(0)).current;
-  const scrollYValue = useRef(0);
+  //const scrollYValue = useRef(0);
   const lastScrollY = useRef(0);
   const [headerVisible, setHeaderVisible] = useState(true);
 
@@ -150,6 +151,12 @@ const HymnDetails = () => {
     },
   });
 
+  const [navigationVisible, setNavigationVisible] = useState(false);
+
+  const handleHymnNavigation = (newHymnCode: string) => {
+    navigation.setParams({ hymnCode: newHymnCode });
+  };
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
@@ -168,6 +175,13 @@ const HymnDetails = () => {
             <Appbar.BackAction onPress={() => navigation.goBack()} />
             <Appbar.Content title={title} />
             <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
+              <Menu.Item
+                onPress={() => {
+                  setNavigationVisible(true);
+                  closeMenu();
+                }}
+                title="Navegar Hinos"
+              />
               <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
               <Divider />
               <Menu.Item onPress={closeMenu} title="Fechar menu" />
@@ -254,6 +268,13 @@ const HymnDetails = () => {
           </View>
         </Animated.ScrollView>
       </PinchGestureHandler>
+      <HymnNavigate
+        visible={navigationVisible}
+        onClose={() => setNavigationVisible(false)}
+        hymnsCode={hymnsCode}
+        currentHymnCode={hymnCode}
+        onNavigate={handleHymnNavigation}
+      />
       <FAB.Group
         open={zoomControlVisible}
         visible={zoomControlVisible}
@@ -323,23 +344,23 @@ const styles = StyleSheet.create({
     //borderWidth: 1,
   },
   stanzaLabelContainer: {
-    color: "#000",
     width: 16,
     alignItems: "center",
-    marginRight: 4,
-    //justifyContent: "center",
+    marginRight: 7,
 
     //borderColor: "red",
     //borderWidth: 1,
   },
   stanzaLabel: {
-    padding: 0,
     textAlign: "center",
     borderRadius: 2,
     width: 50,
     marginTop: 25 - 5,
     position: "absolute",
     transform: [{ rotate: "-90deg" }],
+
+    //borderColor: "red",
+    //borderWidth: 1,
   },
   stanza: {
     //borderColor: "blue",

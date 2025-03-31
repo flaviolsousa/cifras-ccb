@@ -1,5 +1,29 @@
 # violao-ccb
 
+## Tasks
+
+### Home Screen
+
+- ☒ Filter hymns by title
+
+### Hymn Detail Screen
+
+- ☒ Display Hymn Detail screen
+- ☒ Implement zoom control via gestures
+- ☒ Implement zoom control via buttons
+- ☒ Ensure chords and lyrics break lines together
+- ☒ Implement header auto-hide on vertical scroll
+- ☒ Implement header auto-hide in horizontal mode
+- ☒ Add controls to navigate between neighboring hymns
+- ☐ Option to display rhythm
+- ☐ Implement auto-scroll feature
+- ☐ Integrate MIDI player functionality
+- ☐ Option to show/hide draw of chords
+- ☐ Option to display capo positioning
+- ☐ Implement tone selection feature
+- ☐ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
+- ☐ Provide option to select difficulty level
+
 ## Start
 
 ### Browser
