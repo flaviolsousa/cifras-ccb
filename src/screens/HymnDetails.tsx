@@ -187,6 +187,10 @@ const HymnDetails = () => {
     navigation.setParams({ hymnCode: newHymnCode });
   };
 
+  const handleCloseChordPanel = () => {
+    setSelectedChord(null);
+  };
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
@@ -338,7 +342,9 @@ const HymnDetails = () => {
           }
         }}
       />
-      {selectedChord && <ChordPanel selectedChord={selectedChord} allChords={allChords} onChordSelect={handleChordPress} />}
+      {selectedChord && (
+        <ChordPanel selectedChord={selectedChord} allChords={allChords} onChordSelect={handleChordPress} onClose={handleCloseChordPanel} />
+      )}
     </View>
   );
 };
