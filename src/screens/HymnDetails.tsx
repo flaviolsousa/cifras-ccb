@@ -9,10 +9,11 @@ import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
+import ChordPanel from "../components/ChordPanel";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
-const StyledChordText = ({ text, style }: { text: string; style: any }) => {
+const StyledChordText = ({ text, style, onChordPress }: { text: string; style: any; onChordPress?: (chord: string) => void }) => {
   const theme = useTheme();
   const parts = text.split(/([^_]+)/g).filter(Boolean);
 
@@ -22,7 +23,7 @@ const StyledChordText = ({ text, style }: { text: string; style: any }) => {
         part.includes("_") ? (
           <Text key={index}>{part}</Text>
         ) : (
-          <Text key={index} style={{ color: theme.colors.primary }}>
+          <Text key={index} style={{ color: theme.colors.primary }} onPress={() => onChordPress?.(part.trim())}>
             {part}
           </Text>
         ),
@@ -57,6 +58,30 @@ const HymnDetails = () => {
   const [fontSizeReference, setFontSizeReference] = useState(FONT_SIZE_INITIAL);
   const isPortrait = useOrientation();
   const [verseHeights, setVerseHeights] = useState<{ [key: string]: number }>({});
+
+  const [selectedChord, setSelectedChord] = useState<string | null>(null);
+  const [allChords, setAllChords] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (hymn?.score?.stanzas) {
+      const chordSet = new Set<string>();
+      hymn.score.stanzas.forEach((stanza) => {
+        if (stanza.verses)
+          stanza.verses.forEach((verse) => {
+            const chords = verse.chords
+              .split(/([^_]+)/g)
+              .filter((part) => !part.includes("_") && part.trim())
+              .map((chord) => chord.trim());
+            chords.forEach((chord) => chordSet.add(chord.replaceAll(/[.]/g, "")));
+          });
+      });
+      setAllChords(Array.from(chordSet));
+    }
+  }, [hymn]);
+
+  const handleChordPress = (chord: string) => {
+    setSelectedChord(chord);
+  };
 
   // Menu
   const [menuVisible, setMenuVisible] = useState(false);
@@ -250,6 +275,7 @@ const HymnDetails = () => {
                               lineHeight: fontSizeDouble,
                             },
                           ]}
+                          onChordPress={handleChordPress}
                         />
                         <StyledLyricText
                           text={verse.lyrics}
@@ -308,6 +334,7 @@ const HymnDetails = () => {
           }
         }}
       />
+      {selectedChord && <ChordPanel selectedChord={selectedChord} allChords={allChords} />}
     </View>
   );
 };

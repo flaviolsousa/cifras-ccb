@@ -1,0 +1,75 @@
+import React from "react";
+import { View, ScrollView, Text, StyleSheet } from "react-native";
+import { Surface, useTheme } from "react-native-paper";
+import GuitarChord from "./GuitarChord";
+
+interface ChordPanelProps {
+  selectedChord: string | null;
+  allChords: string[];
+}
+
+const ChordPanel = ({ selectedChord, allChords }: ChordPanelProps) => {
+  const theme = useTheme();
+
+  // Exemplo de dicionário de acordes - você precisará expandir isso
+  const chordDictionary: { [key: string]: { frets: number[]; fingers: number[] } } = {
+    C: { frets: [0, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
+    D: { frets: [2, 3, 2, 0, -1, -1], fingers: [2, 3, 1, 0, 0, 0] },
+    E: { frets: [0, 2, 2, 1, 0, 0], fingers: [0, 2, 3, 1, 0, 0] },
+    F: { frets: [1, 3, 3, 2, 1, 1], fingers: [1, 3, 4, 2, 1, 1] },
+    G: { frets: [3, 2, 0, 0, 0, 3], fingers: [2, 1, 0, 0, 0, 3] },
+    A: { frets: [0, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
+    B: { frets: [2, 2, 4, 4, 4, 2], fingers: [1, 1, 2, 3, 4, 1] },
+    Am: { frets: [0, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+    Em: { frets: [0, 2, 2, 0, 0, 0], fingers: [0, 2, 3, 0, 0, 0] },
+    Dm: { frets: [1, 3, 2, 0, -1, -1], fingers: [1, 3, 2, 0, 0, 0] },
+  };
+
+  return (
+    <Surface style={styles.container}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+        {allChords.map((chord, index) => {
+          const chordData = chordDictionary[chord] || { frets: [0, 0, 0, 0, 0, 0], fingers: [0, 0, 0, 0, 0, 0] };
+          return (
+            <View
+              key={index}
+              style={[
+                styles.chordContainer,
+                chord === selectedChord && {
+                  backgroundColor: theme.colors.primaryContainer,
+                  borderRadius: 8,
+                },
+              ]}
+            >
+              <Text style={[styles.chordName, { color: theme.colors.onSurface }]}>{chord}</Text>
+              <GuitarChord name={chord} frets={chordData.frets} fingers={chordData.fingers} size={80} />
+            </View>
+          );
+        })}
+      </ScrollView>
+    </Surface>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 140,
+    elevation: 4,
+    paddingVertical: 8,
+  },
+  chordContainer: {
+    padding: 8,
+    alignItems: "center",
+    width: 100,
+  },
+  chordName: {
+    fontSize: 16,
+    marginBottom: 4,
+  },
+});
+
+export default ChordPanel;
