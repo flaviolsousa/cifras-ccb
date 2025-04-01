@@ -57,14 +57,14 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: 140,
+    height: 160, // Increased height to accommodate larger chord diagrams
     elevation: 4,
     paddingVertical: 8,
   },
   chordContainer: {
     padding: 8,
     alignItems: "center",
-    width: 100,
+    width: 120, // Increased width for larger chord diagrams
   },
   chordName: {
     fontSize: 16,

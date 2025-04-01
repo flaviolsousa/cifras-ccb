@@ -4,103 +4,124 @@ import { useTheme } from "react-native-paper";
 
 interface GuitarChordProps {
   name: string;
-  frets?: number[];
-  fingers?: number[];
+  frets: number[];
+  fingers: number[];
   size?: number;
 }
 
-const GuitarChord = ({ name, frets = [0, 0, 0, 0, 0, 0], fingers = [0, 0, 0, 0, 0, 0], size = 50 }: GuitarChordProps) => {
+const GuitarChord: React.FC<GuitarChordProps> = ({ frets, fingers, size = 120 }) => {
   const theme = useTheme();
+  const stringCount = 6;
+  const fretCount = 5;
+
   const stringSpacing = size / 7;
-  const fretSpacing = size / 7;
+  const fretSpacing = size / 6;
+  const dotSize = stringSpacing * 0.8;
+
+  const styles = StyleSheet.create({
+    container: {
+      width: size,
+      height: size,
+      position: "relative",
+    },
+    fretboard: {
+      position: "absolute",
+      top: fretSpacing,
+      left: stringSpacing,
+      right: stringSpacing,
+      bottom: stringSpacing,
+    },
+    string: {
+      position: "absolute",
+      width: 1,
+      backgroundColor: theme.colors.onSurface,
+      top: 0,
+      bottom: 0,
+    },
+    fret: {
+      position: "absolute",
+      height: 1,
+      left: 0,
+      right: 0,
+      backgroundColor: theme.colors.onSurface,
+    },
+    dot: {
+      position: "absolute",
+      width: dotSize,
+      height: dotSize,
+      borderRadius: dotSize / 2,
+      backgroundColor: theme.colors.primary,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    finger: {
+      color: theme.colors.onPrimary,
+      fontSize: dotSize * 0.6,
+      fontWeight: "bold",
+    },
+    mute: {
+      position: "absolute",
+      color: theme.colors.error,
+      fontSize: dotSize * 0.8,
+      fontWeight: "bold",
+      top: -fretSpacing * 0.8,
+    },
+    open: {
+      position: "absolute",
+      color: theme.colors.primary,
+      fontSize: dotSize * 0.8,
+      fontWeight: "bold",
+      top: -fretSpacing * 0.8,
+    },
+  });
 
   return (
     <View style={styles.container}>
-      <View style={[styles.diagram, { width: size, height: size }]}>
+      <View style={styles.fretboard}>
         {/* Strings */}
-        {[0, 1, 2, 3, 4, 5].map((string) => (
-          <View
-            key={`string-${string}`}
-            style={[
-              styles.string,
-              {
-                left: string * stringSpacing + stringSpacing,
-                height: size - 10,
-                backgroundColor: theme.colors.onSurface,
-              },
-            ]}
-          />
+        {[...Array(stringCount)].map((_, i) => (
+          <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing }]} />
         ))}
 
         {/* Frets */}
-        {[0, 1, 2, 3, 4].map((fret) => (
-          <View
-            key={`fret-${fret}`}
-            style={[
-              styles.fret,
-              {
-                top: fret * fretSpacing + 5,
-                width: size - 10,
-                backgroundColor: theme.colors.onSurface,
-              },
-            ]}
-          />
+        {[...Array(fretCount)].map((_, i) => (
+          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing }]} />
         ))}
 
-        {/* Fingers/Dots */}
-        {frets.map((fret, string) => {
-          if (fret >= 0) {
+        {/* Dots and Markers */}
+        {frets.map((fret, i) => {
+          if (fret === -1) {
             return (
-              <View
-                key={`dot-${string}`}
-                style={[
-                  styles.dot,
-                  {
-                    left: string * stringSpacing + stringSpacing - 5,
-                    top: (fret === 0 ? 0 : fret * fretSpacing) + (fret === 0 ? 0 : 2),
-                    width: 10,
-                    height: 10,
-                    backgroundColor: fret === 0 ? "transparent" : theme.colors.primary,
-                    borderRadius: 5,
-                  },
-                ]}
-              >
-                {fret === 0 && <Text style={[styles.openString, { color: theme.colors.onSurface }]}>○</Text>}
-              </View>
+              <Text key={`mute-${i}`} style={[styles.mute, { left: i * stringSpacing - dotSize * 0.3 }]}>
+                ×
+              </Text>
             );
           }
-          return null;
+          if (fret === 0) {
+            return (
+              <Text key={`open-${i}`} style={[styles.open, { left: i * stringSpacing - dotSize * 0.3 }]}>
+                ○
+              </Text>
+            );
+          }
+          return (
+            <View
+              key={`dot-${i}`}
+              style={[
+                styles.dot,
+                {
+                  left: i * stringSpacing - dotSize / 2,
+                  top: (fret - 0.5) * fretSpacing - dotSize / 2,
+                },
+              ]}
+            >
+              <Text style={styles.finger}>{fingers[i] || ""}</Text>
+            </View>
+          );
         })}
       </View>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    alignItems: "center",
-  },
-  diagram: {
-    position: "relative",
-  },
-  string: {
-    position: "absolute",
-    width: 1,
-    top: 5,
-  },
-  fret: {
-    position: "absolute",
-    height: 1,
-    left: 5,
-  },
-  dot: {
-    position: "absolute",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  openString: {
-    fontSize: 12,
-  },
-});
 
 export default GuitarChord;

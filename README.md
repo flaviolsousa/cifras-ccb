@@ -88,3 +88,6 @@ npm i @react-native-community/slider --save
 - https://github.com/eneiasramos/ccb-hinario-5-do
 - https://medium.com/async/react-navigation-stacks-tabs-and-drawers-oh-my-92edd606e4db
 - https://cifrasccb.com.br
+- https://github.com/tombatossals/chords-db/tree/master
+- https://github.com/artutra/OpenChord?tab=readme-ov-file
+- https://www.npmjs.com/package/@tonaljs/progression
