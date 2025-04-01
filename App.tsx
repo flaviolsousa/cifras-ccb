@@ -20,6 +20,7 @@ export default function App() {
     HackRegular: require("./assets/fonts/hack-mono/Hack-Regular.ttf"),
     UbuntuMonoRegular: require("./assets/fonts/ubuntu/UbuntuMono-R.ttf"),
     UbuntuMonoBold: require("./assets/fonts/ubuntu/UbuntuMono-B.ttf"),
+    UbuntuMonoBoldItalic: require("./assets/fonts/ubuntu/UbuntuMono-BI.ttf"),
     UbuntuRegular: require("./assets/fonts/ubuntu/Ubuntu-R.ttf"),
   });
 

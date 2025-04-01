@@ -20,11 +20,13 @@ function cleanChordName(chord: string): string {
 const StyledChordText = ({
   text,
   style,
+  styleSelected,
   onChordPress,
   selectedChord,
 }: {
   text: string;
   style: any;
+  styleSelected: any;
   onChordPress?: (chord: string) => void;
   selectedChord?: string | null;
 }) => {
@@ -39,7 +41,7 @@ const StyledChordText = ({
         ) : (
           <Text
             key={index}
-            style={[{ color: theme.colors.primary }, cleanChordName(part.trim()) === selectedChord && styles.chordSelected]}
+            style={[{ color: theme.colors.primary }, cleanChordName(part.trim()) === selectedChord && styleSelected]}
             onPress={() => onChordPress?.(part.trim())}
           >
             {part}
@@ -79,6 +81,74 @@ const HymnDetails = () => {
 
   const [selectedChord, setSelectedChord] = useState<string | null>(null);
   const [allChords, setAllChords] = useState<string[]>([]);
+
+  const styles = StyleSheet.create({
+    content: {
+      // paddingHorizontal: 16,
+    },
+    hymnText: {
+      fontFamily: "UbuntuMonoRegular",
+    },
+    portrait: {},
+    landscape: {
+      alignSelf: "center",
+      width: "100%",
+    },
+
+    scoreDetail: {},
+    score: {},
+    verse: {
+      position: "relative",
+    },
+    chord: {
+      position: "absolute",
+      top: 0,
+      left: 0,
+      right: 0,
+      fontFamily: "UbuntuMonoRegular",
+      color: "transparent", // Make the underscores transparent
+      zIndex: 1,
+    },
+    chordSelected: {
+      fontFamily: "UbuntuMonoBold",
+      color: theme.colors.secondary,
+    },
+    lyric: {
+      position: "absolute",
+      left: 0,
+      right: 0,
+      fontFamily: "UbuntuMonoRegular",
+      color: theme.colors.secondary,
+    },
+    stanzaRow: {
+      //borderColor: "yellow",
+      //borderWidth: 1,
+    },
+    stanzaLabelContainer: {
+      width: 16,
+      alignItems: "center",
+      marginRight: 7,
+
+      //borderColor: "red",
+      //borderWidth: 1,
+    },
+    stanzaLabel: {
+      textAlign: "center",
+      borderRadius: 2,
+      width: 50,
+      marginTop: 25 - 5,
+      position: "absolute",
+      transform: [{ rotate: "-90deg" }],
+
+      //borderColor: "red",
+      //borderWidth: 1,
+    },
+    stanza: {
+      //borderColor: "blue",
+      //borderWidth: 1,
+      flex: 1,
+    },
+  });
 
   useEffect(() => {
     if (hymn?.score?.stanzas) {
@@ -297,6 +367,7 @@ const HymnDetails = () => {
                               lineHeight: fontSizeDouble,
                             },
                           ]}
+                          styleSelected={styles.chordSelected}
                           onChordPress={handleChordPress}
                           selectedChord={selectedChord}
                         />
@@ -308,7 +379,6 @@ const HymnDetails = () => {
                               top: fontSize,
                               fontSize: fontSize,
                               lineHeight: fontSizeDouble,
-                              color: theme.colors.secondary,
                             },
                           ]}
                           onLayout={(e: LayoutChangeEvent) => onVerseLayout(e, stanzaIndex, verseIndex)}
@@ -363,71 +433,5 @@ const HymnDetails = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  content: {
-    // paddingHorizontal: 16,
-  },
-  hymnText: {
-    fontFamily: "UbuntuMonoRegular",
-  },
-  portrait: {},
-  landscape: {
-    alignSelf: "center",
-    width: "100%",
-  },
-
-  scoreDetail: {},
-  score: {},
-  verse: {
-    position: "relative",
-  },
-  chord: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    right: 0,
-    fontFamily: "UbuntuMonoRegular",
-    color: "transparent", // Make the underscores transparent
-    zIndex: 1,
-  },
-  chordSelected: {
-    fontFamily: "UbuntuMonoBold",
-  },
-  lyric: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    fontFamily: "UbuntuMonoRegular",
-  },
-  stanzaRow: {
-    //borderColor: "yellow",
-    //borderWidth: 1,
-  },
-  stanzaLabelContainer: {
-    width: 16,
-    alignItems: "center",
-    marginRight: 7,
-
-    //borderColor: "red",
-    //borderWidth: 1,
-  },
-  stanzaLabel: {
-    textAlign: "center",
-    borderRadius: 2,
-    width: 50,
-    marginTop: 25 - 5,
-    position: "absolute",
-    transform: [{ rotate: "-90deg" }],
-
-    //borderColor: "red",
-    //borderWidth: 1,
-  },
-  stanza: {
-    //borderColor: "blue",
-    //borderWidth: 1,
-    flex: 1,
-  },
-});
 
 export default HymnDetails;
