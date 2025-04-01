@@ -34,6 +34,8 @@ export interface HymnModel {
   title: string;
   difficulty: number;
   tone: string;
+  toneOriginal: string;
+  rhythm: string;
   content?: string[];
   score: Score;
   keySig: KeySignature;

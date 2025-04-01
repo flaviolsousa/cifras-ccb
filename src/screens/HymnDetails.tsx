@@ -8,6 +8,7 @@ import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChang
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
+import ScoreDetails from "../components/ScoreDetails";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -160,34 +161,36 @@ const HymnDetails = () => {
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
-        <Animated.View
-          style={{
-            transform: [{ translateY: headerTranslateY }],
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 1,
-            backgroundColor: theme.colors.background,
-          }}
-        >
-          <Appbar.Header elevated={true}>
-            <Appbar.BackAction onPress={() => navigation.goBack()} />
-            <Appbar.Content title={title} />
-            <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
-              <Menu.Item
-                onPress={() => {
-                  setNavigationVisible(true);
-                  closeMenu();
-                }}
-                title="Navegar Hinos"
-              />
-              <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
-              <Divider />
-              <Menu.Item onPress={closeMenu} title="Fechar menu" />
-            </Menu>
-          </Appbar.Header>
-        </Animated.View>
+        <>
+          <Animated.View
+            style={{
+              transform: [{ translateY: headerTranslateY }],
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              zIndex: 1,
+              backgroundColor: theme.colors.background,
+            }}
+          >
+            <Appbar.Header elevated={true}>
+              <Appbar.BackAction onPress={() => navigation.goBack()} />
+              <Appbar.Content title={title} />
+              <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
+                <Menu.Item
+                  onPress={() => {
+                    setNavigationVisible(true);
+                    closeMenu();
+                  }}
+                  title="Navegar Hinos"
+                />
+                <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
+                <Divider />
+                <Menu.Item onPress={closeMenu} title="Fechar menu" />
+              </Menu>
+            </Appbar.Header>
+          </Animated.View>
+        </>
       )}
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
@@ -205,6 +208,8 @@ const HymnDetails = () => {
               },
             ]}
           >
+            {shouldShowHeader && hymn && <ScoreDetails rhythm={hymn.rhythm} tone={hymn.tone} toneOriginal={hymn.toneOriginal} capo={1} />}
+            <Divider />
             {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
               <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
                 <View key={`stanza-label-${stanzaIndex}`} style={[styles.stanzaLabelContainer]}>
@@ -320,6 +325,7 @@ const styles = StyleSheet.create({
     width: "100%",
   },
 
+  scoreDetail: {},
   score: {},
   verse: {
     position: "relative",
