@@ -19,6 +19,7 @@ export default function App() {
   const [fontsLoaded] = useFonts({
     HackRegular: require("./assets/fonts/hack-mono/Hack-Regular.ttf"),
     UbuntuMonoRegular: require("./assets/fonts/ubuntu/UbuntuMono-R.ttf"),
+    UbuntuMonoBold: require("./assets/fonts/ubuntu/UbuntuMono-B.ttf"),
     UbuntuRegular: require("./assets/fonts/ubuntu/Ubuntu-R.ttf"),
   });
 

@@ -17,7 +17,17 @@ function cleanChordName(chord: string): string {
   return chord.replaceAll(/[.]/g, "");
 }
 
-const StyledChordText = ({ text, style, onChordPress }: { text: string; style: any; onChordPress?: (chord: string) => void }) => {
+const StyledChordText = ({
+  text,
+  style,
+  onChordPress,
+  selectedChord,
+}: {
+  text: string;
+  style: any;
+  onChordPress?: (chord: string) => void;
+  selectedChord?: string | null;
+}) => {
   const theme = useTheme();
   const parts = text.split(/([^_]+)/g).filter(Boolean);
 
@@ -27,7 +37,11 @@ const StyledChordText = ({ text, style, onChordPress }: { text: string; style: a
         part.includes("_") ? (
           <Text key={index}>{part}</Text>
         ) : (
-          <Text key={index} style={{ color: theme.colors.primary }} onPress={() => onChordPress?.(part.trim())}>
+          <Text
+            key={index}
+            style={[{ color: theme.colors.primary }, cleanChordName(part.trim()) === selectedChord && styles.chordSelected]}
+            onPress={() => onChordPress?.(part.trim())}
+          >
             {part}
           </Text>
         ),
@@ -284,6 +298,7 @@ const HymnDetails = () => {
                             },
                           ]}
                           onChordPress={handleChordPress}
+                          selectedChord={selectedChord}
                         />
                         <StyledLyricText
                           text={verse.lyrics}
@@ -375,6 +390,9 @@ const styles = StyleSheet.create({
     fontFamily: "UbuntuMonoRegular",
     color: "transparent", // Make the underscores transparent
     zIndex: 1,
+  },
+  chordSelected: {
+    fontFamily: "UbuntuMonoBold",
   },
   lyric: {
     position: "absolute",
