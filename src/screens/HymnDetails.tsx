@@ -13,6 +13,10 @@ import ChordPanel from "../components/ChordPanel";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
+function cleanChordName(chord: string): string {
+  return chord.replaceAll(/[.]/g, "");
+}
+
 const StyledChordText = ({ text, style, onChordPress }: { text: string; style: any; onChordPress?: (chord: string) => void }) => {
   const theme = useTheme();
   const parts = text.split(/([^_]+)/g).filter(Boolean);
@@ -72,7 +76,7 @@ const HymnDetails = () => {
               .split(/([^_]+)/g)
               .filter((part) => !part.includes("_") && part.trim())
               .map((chord) => chord.trim());
-            chords.forEach((chord) => chordSet.add(chord.replaceAll(/[.]/g, "")));
+            chords.forEach((chord) => chordSet.add(cleanChordName(chord)));
           });
       });
       setAllChords(Array.from(chordSet));
@@ -80,7 +84,7 @@ const HymnDetails = () => {
   }, [hymn]);
 
   const handleChordPress = (chord: string) => {
-    setSelectedChord(chord);
+    setSelectedChord(cleanChordName(chord));
   };
 
   // Menu
@@ -334,7 +338,7 @@ const HymnDetails = () => {
           }
         }}
       />
-      {selectedChord && <ChordPanel selectedChord={selectedChord} allChords={allChords} />}
+      {selectedChord && <ChordPanel selectedChord={selectedChord} allChords={allChords} onChordSelect={handleChordPress} />}
     </View>
   );
 };

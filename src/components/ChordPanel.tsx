@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import { View, ScrollView, Text, StyleSheet } from "react-native";
 import { Surface, useTheme } from "react-native-paper";
 import GuitarChord from "./GuitarChord";
@@ -6,10 +6,25 @@ import GuitarChord from "./GuitarChord";
 interface ChordPanelProps {
   selectedChord: string | null;
   allChords: string[];
+  onChordSelect?: (chord: string) => void;
 }
 
-const ChordPanel = ({ selectedChord, allChords }: ChordPanelProps) => {
+const ChordPanel = ({ selectedChord, allChords, onChordSelect }: ChordPanelProps) => {
   const theme = useTheme();
+  const scrollViewRef = useRef<ScrollView>(null);
+
+  // Efeito para scrollar até o acorde selecionado
+  useEffect(() => {
+    if (selectedChord && scrollViewRef.current) {
+      const chordIndex = allChords.indexOf(selectedChord);
+      if (chordIndex !== -1) {
+        scrollViewRef.current.scrollTo({
+          x: chordIndex * 120, // width do chordContainer
+          animated: true,
+        });
+      }
+    }
+  }, [selectedChord]);
 
   // Exemplo de dicionário de acordes - você precisará expandir isso
   const chordDictionary: { [key: string]: { frets: number[]; fingers: number[] } } = {
@@ -27,7 +42,7 @@ const ChordPanel = ({ selectedChord, allChords }: ChordPanelProps) => {
 
   return (
     <Surface style={styles.container}>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      <ScrollView ref={scrollViewRef} horizontal showsHorizontalScrollIndicator={false}>
         {allChords.map((chord, index) => {
           const chordData = chordDictionary[chord] || { frets: [0, 0, 0, 0, 0, 0], fingers: [0, 0, 0, 0, 0, 0] };
           return (
@@ -40,6 +55,7 @@ const ChordPanel = ({ selectedChord, allChords }: ChordPanelProps) => {
                   borderRadius: 8,
                 },
               ]}
+              onTouchEnd={() => onChordSelect?.(chord)}
             >
               <Text style={[styles.chordName, { color: theme.colors.onSurface }]}>{chord}</Text>
               <GuitarChord name={chord} frets={chordData.frets} fingers={chordData.fingers} size={80} />
