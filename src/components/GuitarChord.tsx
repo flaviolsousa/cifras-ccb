@@ -111,6 +111,16 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
   return (
     <View style={styles.container}>
       <View style={styles.fretboard}>
+        {/* Strings */}
+        {[...Array(stringCount)].map((_, i) => (
+          <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing, width: 2 - (1.5 / fretCount) * i }]} />
+        ))}
+
+        {/* Frets */}
+        {[...Array(fretCount)].map((_, i) => (
+          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing, height: i == 0 ? 2 : 1 }]} />
+        ))}
+
         {/* Barras */}
         {findBars().map((bar, index) => (
           <View
@@ -124,16 +134,6 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
               },
             ]}
           />
-        ))}
-
-        {/* Strings */}
-        {[...Array(stringCount)].map((_, i) => (
-          <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing, width: 1.5 - (1 / fretCount) * i }]} />
-        ))}
-
-        {/* Frets */}
-        {[...Array(fretCount)].map((_, i) => (
-          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing }]} />
         ))}
 
         {/* Dots and Markers */}
