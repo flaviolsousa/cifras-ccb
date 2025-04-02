@@ -31,7 +31,7 @@ const StyledChordText = ({
   selectedChord?: string | null;
 }) => {
   const theme = useTheme();
-  const parts = text.split(/([^_]+)/g).filter(Boolean);
+  const parts = text.split(/([^_\s]+)/g).filter(Boolean);
 
   return (
     <Text style={style}>
