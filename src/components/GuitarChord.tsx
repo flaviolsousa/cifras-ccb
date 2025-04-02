@@ -21,11 +21,34 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
   const fretSpacing = size / 6;
   const dotSize = stringSpacing * 0.8;
 
+  // Função para encontrar barras
+  const findBars = () => {
+    const bars = [];
+    for (let fret = 1; fret <= fretCount; fret++) {
+      for (let finger = 1; finger <= 4; finger++) {
+        const positions = fingers
+          .map((f, i) => ({ finger: f, fret: frets[i], string: i }))
+          .filter((pos) => pos.finger === finger && pos.fret === fret);
+
+        if (positions.length > 1) {
+          const firstString = Math.min(...positions.map((p) => p.string));
+          const lastString = Math.max(...positions.map((p) => p.string));
+          if (lastString - firstString > 0) {
+            bars.push({ fret, finger, start: firstString, end: lastString });
+          }
+        }
+      }
+    }
+    return bars;
+  };
+
   const styles = StyleSheet.create({
     container: {
       width: size,
       height: size,
       position: "relative",
+      // borderColor: "yellow",
+      // borderWidth: 1,
     },
     fretboard: {
       position: "absolute",
@@ -76,11 +99,32 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
       fontWeight: "bold",
       top: -fretSpacing * 0.8,
     },
+    barContainer: {
+      position: "absolute",
+      height: dotSize,
+      backgroundColor: theme.colors.primary,
+      borderRadius: dotSize / 2,
+    },
   });
 
   return (
     <View style={styles.container}>
       <View style={styles.fretboard}>
+        {/* Barras */}
+        {findBars().map((bar, index) => (
+          <View
+            key={`bar-${index}`}
+            style={[
+              styles.barContainer,
+              {
+                left: bar.start * stringSpacing,
+                width: (bar.end - bar.start) * stringSpacing,
+                top: (bar.fret - 0.5) * fretSpacing - dotSize / 2,
+              },
+            ]}
+          />
+        ))}
+
         {/* Strings */}
         {[...Array(stringCount)].map((_, i) => (
           <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing, width: 1.5 - (1 / fretCount) * i }]} />

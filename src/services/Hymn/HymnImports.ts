@@ -1,4 +1,4 @@
-import { HymnModel } from "./HymnService";
+import { HymnModel } from "../../domain/HymnModel";
 
 import Hymns from "../../../data/Hymns.json";
 
@@ -275,7 +275,7 @@ const HymnModels: { [key: string]: HymnModel } = {
   "270": require("../../../data/lyrics/270.json"),
   "271": require("../../../data/lyrics/271.json"),
   "272": require("../../../data/lyrics/272.json"),
-  "273": require("../../../data/lyrics/273.json"),
+  //"273": require("../../../data/lyrics/273.json"),
   "274": require("../../../data/lyrics/274.json"),
   "275": require("../../../data/lyrics/275.json"),
   "276": require("../../../data/lyrics/276.json"),
