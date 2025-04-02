@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
     right: 0,
     height: 225, // Increased height to accommodate larger chord diagrams
     elevation: 4,
-    //marginTop: 50,
     paddingTop: 8, // Increased to accommodate floating close button
     paddingBottom: 8,
   },

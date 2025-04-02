@@ -96,6 +96,9 @@ const HymnDetails = () => {
     },
 
     scoreDetail: {},
+    scoreFooter: {
+      height: 220,
+    },
     score: {},
     verse: {
       position: "relative",
@@ -392,6 +395,8 @@ const HymnDetails = () => {
                 </View>
               </View>
             ))}
+            <Divider />
+            <View style={styles.scoreFooter}></View>
           </View>
         </Animated.ScrollView>
       </PinchGestureHandler>
