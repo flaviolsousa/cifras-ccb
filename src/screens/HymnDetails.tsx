@@ -173,7 +173,10 @@ const HymnDetails = () => {
 
   // Menu
   const [menuVisible, setMenuVisible] = useState(false);
-  const toggleMenu = () => setMenuVisible(!menuVisible);
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+    setSelectedChord(null);
+  };
   const closeMenu = () => setMenuVisible(false);
 
   // Zoom
