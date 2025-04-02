@@ -1,15 +1,18 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { useTheme } from "react-native-paper";
+import { getGuitarChordData } from "./GuitarChordDictionary";
 
 interface GuitarChordProps {
   name: string;
-  frets: number[];
-  fingers: number[];
+  frets?: number[];
+  fingers?: number[];
   size?: number;
 }
 
-const GuitarChord: React.FC<GuitarChordProps> = ({ frets, fingers, size = 120 }) => {
+const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fingers: customFingers, size = 120 }) => {
+  const chordData = customFrets && customFingers ? { frets: customFrets, fingers: customFingers } : getGuitarChordData(name);
+  const { frets, fingers } = chordData;
   const theme = useTheme();
   const stringCount = 6;
   const fretCount = 5;
@@ -80,7 +83,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ frets, fingers, size = 120 })
       <View style={styles.fretboard}>
         {/* Strings */}
         {[...Array(stringCount)].map((_, i) => (
-          <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing }]} />
+          <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing, width: 1.5 - (1 / fretCount) * i }]} />
         ))}
 
         {/* Frets */}

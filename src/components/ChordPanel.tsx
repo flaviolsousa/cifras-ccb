@@ -27,45 +27,28 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordP
     }
   }, [selectedChord]);
 
-  // Exemplo de dicionário de acordes - você precisará expandir isso
-  const chordDictionary: { [key: string]: { frets: number[]; fingers: number[] } } = {
-    C: { frets: [0, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
-    D: { frets: [2, 3, 2, 0, -1, -1], fingers: [2, 3, 1, 0, 0, 0] },
-    E: { frets: [0, 2, 2, 1, 0, 0], fingers: [0, 2, 3, 1, 0, 0] },
-    F: { frets: [1, 3, 3, 2, 1, 1], fingers: [1, 3, 4, 2, 1, 1] },
-    G: { frets: [3, 2, 0, 0, 0, 3], fingers: [2, 1, 0, 0, 0, 3] },
-    A: { frets: [0, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
-    B: { frets: [2, 2, 4, 4, 4, 2], fingers: [1, 1, 2, 3, 4, 1] },
-    Am: { frets: [0, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
-    Em: { frets: [0, 2, 2, 0, 0, 0], fingers: [0, 2, 3, 0, 0, 0] },
-    Dm: { frets: [1, 3, 2, 0, -1, -1], fingers: [1, 3, 2, 0, 0, 0] },
-  };
-
   return (
     <Surface style={styles.container}>
       <View style={styles.closeButtonContainer}>
         <IconButton icon="close-circle" size={32} style={styles.closeButton} onPress={onClose} />
       </View>
       <ScrollView ref={scrollViewRef} horizontal showsHorizontalScrollIndicator={false}>
-        {allChords.map((chord, index) => {
-          const chordData = chordDictionary[chord] || { frets: [0, 0, 0, 0, 0, 0], fingers: [0, 0, 0, 0, 0, 0] };
-          return (
-            <View
-              key={index}
-              style={[
-                styles.chordContainer,
-                chord === selectedChord && {
-                  backgroundColor: theme.colors.primaryContainer,
-                  borderRadius: 8,
-                },
-              ]}
-              onTouchEnd={() => onChordSelect?.(chord)}
-            >
-              <Text style={[styles.chordName, { color: theme.colors.onSurface }]}>{chord}</Text>
-              <GuitarChord name={chord} frets={chordData.frets} fingers={chordData.fingers} size={80} />
-            </View>
-          );
-        })}
+        {allChords.map((chord, index) => (
+          <View
+            key={index}
+            style={[
+              styles.chordContainer,
+              chord === selectedChord && {
+                backgroundColor: theme.colors.primaryContainer,
+                borderRadius: 8,
+              },
+            ]}
+            onTouchEnd={() => onChordSelect?.(chord)}
+          >
+            <Text style={[styles.chordName, { color: theme.colors.onSurface }]}>{chord}</Text>
+            <GuitarChord name={chord} size={80} />
+          </View>
+        ))}
       </ScrollView>
     </Surface>
   );
