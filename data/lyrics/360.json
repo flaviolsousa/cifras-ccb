@@ -23,22 +23,27 @@
           {
             "chords": "    E                      B   E",
             "lyrics": "Oh! Glória!_Aleluia! Vamos entoar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E",
+            "lyrics": "Firmes sejamos no Salvador,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "E"
+            "chords": "C#m            F#7   B ",
+            "lyrics": "Na santidade e no fervor!"
           },
           {
-            "chords": "Firmes sejamos no Salvador,",
-            "lyrics": "C#m            F#7   B "
+            "chords": "E               A ",
+            "lyrics": "Ele, o Forte, o Defensor,"
           },
           {
-            "chords": "Na santidade e no fervor!",
-            "lyrics": "E               A "
-          },
-          {
-            "chords": "Ele, o Forte, o Defensor,",
-            "lyrics": "  E              B  E   E..."
+            "chords": "  E              B  E   E...",
+            "lyrics": "Dará vitória._Aleluia!"
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Oh! Glória!_Aleluia! Grande_é Seu favor!"
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

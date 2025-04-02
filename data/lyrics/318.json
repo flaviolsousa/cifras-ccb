@@ -23,22 +23,27 @@
           {
             "chords": "        B    C#  F#  B",
             "lyrics": "A salvação e o   perdão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       F#             B",
+            "lyrics": "Ó Salvador, vem converter"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "       F#             B"
+            "chords": "      C#             F#  F#7... ",
+            "lyrics": "O pecador, por compaixão;"
           },
           {
-            "chords": "Ó Salvador, vem converter",
-            "lyrics": "      C#             F#  F#7... "
+            "chords": "          B            E ",
+            "lyrics": "Com Teu falar, vem comover"
           },
           {
-            "chords": "O pecador, por compaixão;",
-            "lyrics": "          B            E "
-          },
-          {
-            "chords": "Com Teu falar, vem comover",
-            "lyrics": "          B       C#   F#    B"
+            "chords": "          B       C#   F#    B",
+            "lyrics": "E transformar seu co – ra - ção."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Divina graça,_ó Re – den - tor!"
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

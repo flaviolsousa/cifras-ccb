@@ -23,22 +23,27 @@
           {
             "chords": "                    E  Am  F#°  G           C",
             "lyrics": "Nosso_Escudo, nosso Guia   é  Jesus, o Redentor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G         C",
+            "lyrics": "É Jesus a Esperança,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "    G         C"
+            "chords": "G             C",
+            "lyrics": "É o Justo e Fiel, "
           },
           {
-            "chords": "É Jesus a Esperança,",
-            "lyrics": "G             C"
+            "chords": "",
+            "lyrics": "É a nossa Confiança,"
           },
           {
-            "chords": "É o Justo e Fiel, ",
-            "lyrics": ""
-          },
-          {
-            "chords": "É a nossa Confiança,",
-            "lyrics": "F   G         C"
+            "chords": "F   G         C",
+            "lyrics": "Poderoso_Emanuel."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "E na glória, junto_a E - le, para sempre reinarei."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

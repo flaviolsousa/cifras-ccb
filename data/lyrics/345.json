@@ -23,22 +23,27 @@
           {
             "chords": "        Bb         C          F",
             "lyrics": "Sobre_a cruz, onde tudo consumou."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     F    ",
+            "lyrics": "Louvarei, louvarei,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "     F    "
+            "chords": "     G4         G             C   C7... ",
+            "lyrics": "Louvarei a Quem me deu a salvação!"
           },
           {
-            "chords": "Louvarei, louvarei,",
-            "lyrics": "     G4         G             C   C7... "
+            "chords": "     F",
+            "lyrics": "Cantarei, cantarei"
           },
           {
-            "chords": "Louvarei a Quem me deu a salvação!",
-            "lyrics": "     F"
-          },
-          {
-            "chords": "Cantarei, cantarei",
-            "lyrics": "           F...   C           F"
+            "chords": "           F...   C           F",
+            "lyrics": "A Jesus, Autor da minha redenção!"
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Com fervor louvarei ao meu Jesus."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

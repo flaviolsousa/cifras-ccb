@@ -23,14 +23,19 @@
           {
             "chords": "E                  A  A7 ",
             "lyrics": "Quem em Jesus não creu."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D                A                 D",
+            "lyrics": "Sempre brilhar devemos, irradiemos luz;"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "D                A                 D"
-          },
-          {
-            "chords": "Sempre brilhar devemos, irradiemos luz;",
-            "lyrics": "               F#  G         A     D"
+            "chords": "               F#  G         A     D",
+            "lyrics": "Neste mundo resplandeceremos por Jesus."
           }
         ]
       },
@@ -57,6 +62,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -77,6 +86,10 @@
             "lyrics": "Leva à perfeição."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

@@ -23,22 +23,27 @@
           {
             "chords": "             D         G",
             "lyrics": "Tudo tem eternal esplendor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      G           D ",
+            "lyrics": "É nos céus, é nos céus"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "      G           D "
+            "chords": "                          G",
+            "lyrics": "Essa pátria de vida_e de_amor;"
           },
           {
-            "chords": "É nos céus, é nos céus",
-            "lyrics": "                          G"
+            "chords": "         G7      C ",
+            "lyrics": "Nela_está  nosso Deus "
           },
           {
-            "chords": "Essa pátria de vida_e de_amor;",
-            "lyrics": "         G7      C "
-          },
-          {
-            "chords": "Nela_está  nosso Deus ",
-            "lyrics": "    G           D       G"
+            "chords": "    G           D       G",
+            "lyrics": "E Jesus, nosso_amado Senhor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Ante_o trono de Deus, Criador."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

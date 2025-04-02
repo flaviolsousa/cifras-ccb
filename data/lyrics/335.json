@@ -23,22 +23,27 @@
           {
             "chords": "                           E",
             "lyrics": "Paz e alegria lá vou desfrutar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E               B ",
+            "lyrics": "Eu almejo nessa pátria_entrar"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "E               B "
+            "chords": "                    E",
+            "lyrics": "E, na glória, com Jesus reinar;"
           },
           {
-            "chords": "Eu almejo nessa pátria_entrar",
-            "lyrics": "                    E"
+            "chords": "       A      B ",
+            "lyrics": "Com os santos eu entoarei"
           },
           {
-            "chords": "E, na glória, com Jesus reinar;",
-            "lyrics": "       A      B "
-          },
-          {
-            "chords": "Com os santos eu entoarei",
-            "lyrics": "E           A         B     E"
+            "chords": "E           A         B     E",
+            "lyrics": "Hinos de louvores ao eterno Rei."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "E eternamente,_a Deus, exaltarão."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

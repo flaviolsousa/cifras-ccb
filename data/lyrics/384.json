@@ -23,22 +23,27 @@
           {
             "chords": "       D   D...   A                  D",
             "lyrics": "Glória a Jesus, o Justo que nos resgatou!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    D          G     D",
+            "lyrics": "Nos resgatou e nos lavou"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "    D          G     D"
+            "chords": "                 G                 A ",
+            "lyrics": "Com Seu precioso sangue, Cristo,_o Redentor;"
           },
           {
-            "chords": "Nos resgatou e nos lavou",
-            "lyrics": "                 G                 A "
+            "chords": "    D          G      D",
+            "lyrics": "Nos libertou e nos salvou"
           },
           {
-            "chords": "Com Seu precioso sangue, Cristo,_o Redentor;",
-            "lyrics": "    D          G      D"
-          },
-          {
-            "chords": "Nos libertou e nos salvou",
-            "lyrics": "                G               A    D    D..."
+            "chords": "                G               A    D    D...",
+            "lyrics": "Do mundo_e do pecado, Cristo,_o Salvador."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Glória a Jesus, o Justo que nos resgatou!"
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

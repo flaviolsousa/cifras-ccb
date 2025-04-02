@@ -23,22 +23,27 @@
           {
             "chords": "B         A             E   A",
             "lyrics": "No eterno lar de Deus habitará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A         F#m      A          E ",
+            "lyrics": "Galardão, galardão nos espera lá nos céus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "A         F#m      A          E "
+            "chords": "D         Bm        E               A",
+            "lyrics": "Galardão, galardão, junto_ao nosso Deus;"
           },
           {
-            "chords": "Galardão, galardão nos espera lá nos céus,",
-            "lyrics": "D         Bm        E               A"
+            "chords": "                              D ",
+            "lyrics": "Glória indescritível na eternidade"
           },
           {
-            "chords": "Galardão, galardão, junto_ao nosso Deus;",
-            "lyrics": "                              D "
-          },
-          {
-            "chords": "Glória indescritível na eternidade",
-            "lyrics": "E         A                E       A    A..."
+            "chords": "E         A                E       A    A...",
+            "lyrics": "É o galardão de Cristo_aos santos Seus."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Alegrar-se-á na vinda do Senhor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

@@ -23,22 +23,27 @@
           {
             "chords": "           D          A       D",
             "lyrics": "Tudo_Ele_entende_e te pode_ajudar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D                   A ",
+            "lyrics": "Tudo entende_o Salvador:"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "D                   A "
+            "chords": "                       D",
+            "lyrics": "O teu sentir, tua_aflição;"
           },
           {
-            "chords": "Tudo entende_o Salvador:",
-            "lyrics": "                       D"
+            "chords": "                          G ",
+            "lyrics": "Tu provarás o Seu grande amor;"
           },
           {
-            "chords": "O teu sentir, tua_aflição;",
-            "lyrics": "                          G "
-          },
-          {
-            "chords": "Tu provarás o Seu grande amor;",
-            "lyrics": "       D    D...  A       D    D..."
+            "chords": "       D    D...  A       D    D...",
+            "lyrics": "Ele conhe - ce o teu coração."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Tudo entende o teu Salvador."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

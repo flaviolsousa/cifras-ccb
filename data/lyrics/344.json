@@ -23,22 +23,27 @@
           {
             "chords": "D       E      A",
             "lyrics": "E com Jesus reinar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A",
+            "lyrics": "Vou encontrar meu Deus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "A"
+            "chords": "E                 B         E ",
+            "lyrics": "Com os remidos no reino de_amor;"
           },
           {
-            "chords": "Vou encontrar meu Deus,",
-            "lyrics": "E                 B         E "
+            "chords": "A            D ",
+            "lyrics": "É meu desejo ir para_os céus"
           },
           {
-            "chords": "Com os remidos no reino de_amor;",
-            "lyrics": "A            D "
-          },
-          {
-            "chords": "É meu desejo ir para_os céus",
-            "lyrics": "E                A"
+            "chords": "E                A",
+            "lyrics": "E_estar com o Senhor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Glória que não tem par."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

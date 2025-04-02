@@ -23,22 +23,27 @@
           {
             "chords": "B7                           E   E7... ",
             "lyrics": "Glória sem par eu irei desfrutar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A                       E ",
+            "lyrics": "Glória sem par contemplarei,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "A                       E "
+            "chords": "                     A",
+            "lyrics": "Glória sem par receberei;"
           },
           {
-            "chords": "Glória sem par contemplarei,",
-            "lyrics": "                     A"
+            "chords": "                 D          C#... ",
+            "lyrics": "Grande tesouro Jesus vai me dar:"
           },
           {
-            "chords": "Glória sem par receberei;",
-            "lyrics": "                 D          C#... "
-          },
-          {
-            "chords": "Grande tesouro Jesus vai me dar:",
-            "lyrics": "D       A  A...  E          A    A..."
+            "chords": "D       A  A...  E          A    A...",
+            "lyrics": "Glória eterna, a glória sem par."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Quando_estiverem na glória sem par."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

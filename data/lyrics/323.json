@@ -23,22 +23,27 @@
           {
             "chords": "F#             B",
             "lyrics": "O veraz Consolador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "F#                B",
+            "lyrics": "Ao Senhor Jesus entrega"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "F#                B"
+            "chords": "E               F#7 ",
+            "lyrics": "Tua mente_e coração,"
           },
           {
-            "chords": "Ao Senhor Jesus entrega",
-            "lyrics": "E               F#7 "
+            "chords": "B",
+            "lyrics": "Pois o mundo só te leva"
           },
           {
-            "chords": "Tua mente_e coração,",
-            "lyrics": "B"
-          },
-          {
-            "chords": "Pois o mundo só te leva",
-            "lyrics": "E  F#          B"
+            "chords": "E  F#          B",
+            "lyrics": "À eterna perdição."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Serve_a Cristo, teu Senhor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

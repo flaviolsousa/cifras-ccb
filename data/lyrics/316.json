@@ -67,22 +67,27 @@
           {
             "chords": "     F°   B      F#         B  ",
             "lyrics": "Salvação eterna, salvação veraz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B           F#7                 B",
+            "lyrics": "Olha para_o alto, de_onde vem a luz,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "B           F#7                 B"
+            "chords": "E          B             C#7  F#7 ",
+            "lyrics": "E verás, então, a glória de Jesus;"
           },
           {
-            "chords": "Olha para_o alto, de_onde vem a luz,",
-            "lyrics": "E          B             C#7  F#7 "
+            "chords": "B     B°    B                E ",
+            "lyrics": "Que sublime obra consumou na cruz;"
           },
           {
-            "chords": "E verás, então, a glória de Jesus;",
-            "lyrics": "B     B°    B                E "
-          },
-          {
-            "chords": "Que sublime obra consumou na cruz;",
-            "lyrics": "     F°    B     F#7       B"
+            "chords": "     F°    B     F#7       B",
+            "lyrics": "Ao celeste reino Ele te conduz."
           }
         ]
       }

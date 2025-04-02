@@ -23,22 +23,27 @@
           {
             "chords": "    F              C           G          C",
             "lyrics": "Oh! Glória_a Jesus Cristo, que já me resgatou!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "   C",
+            "lyrics": "Do mal o Salvador veio me tirar,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "   C"
+            "chords": "    F         C      Am      D    G ",
+            "lyrics": "Com Sua forte mão ao céu vai me levar;"
           },
           {
-            "chords": "Do mal o Salvador veio me tirar,",
-            "lyrics": "    F         C      Am      D    G "
+            "chords": " C",
+            "lyrics": "Avante seguirei com o meu Senhor,"
           },
           {
-            "chords": "Com Sua forte mão ao céu vai me levar;",
-            "lyrics": " C"
-          },
-          {
-            "chords": "Avante seguirei com o meu Senhor,",
-            "lyrics": "  F           C             G   C   C..."
+            "chords": "  F           C             G   C   C...",
+            "lyrics": "E lá darei louvores a Deus, Criador."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "No céu, já me esperam riquezas de valor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

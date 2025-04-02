@@ -23,22 +23,27 @@
           {
             "chords": "                      D     G",
             "lyrics": "Não deves, nas lutas, desanimar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G",
+            "lyrics": "Com fé combate, sê fervoroso,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "G"
+            "chords": "D                 G",
+            "lyrics": "Tu vencerás com valor;"
           },
           {
-            "chords": "Com fé combate, sê fervoroso,",
-            "lyrics": "D                 G"
+            "chords": "",
+            "lyrics": "Cristo promete ao vitorioso,"
           },
           {
-            "chords": "Tu vencerás com valor;",
-            "lyrics": ""
-          },
-          {
-            "chords": "Cristo promete ao vitorioso,",
-            "lyrics": "C      D            G"
+            "chords": "C      D            G",
+            "lyrics": "O galardão de_esplendor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "O galardão do Senhor, nosso Rei."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

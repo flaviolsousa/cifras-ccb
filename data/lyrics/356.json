@@ -23,22 +23,27 @@
           {
             "chords": "  E                             A... ",
             "lyrics": "A fim de fazer-me na glória entrar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "          D               A ",
+            "lyrics": "Não têm valor a prata_e_o ouro"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "          D               A "
+            "chords": "                 D",
+            "lyrics": "Para dar a salvação;"
           },
           {
-            "chords": "Não têm valor a prata_e_o ouro",
-            "lyrics": "                 D"
+            "chords": "                          G  ",
+            "lyrics": "Não há, na terra,_algum tesouro"
           },
           {
-            "chords": "Para dar a salvação;",
-            "lyrics": "                          G  "
-          },
-          {
-            "chords": "Não há, na terra,_algum tesouro",
-            "lyrics": "       D      A      D"
+            "chords": "       D      A      D",
+            "lyrics": "Que resgate_e dê perdão."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Por ele conservo a vida dos céus."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

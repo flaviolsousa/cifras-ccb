@@ -23,22 +23,27 @@
           {
             "chords": "C      G               C",
             "lyrics": "De, um dia,_entrar nos céus!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      C",
+            "lyrics": "Lá no céu cantaremos,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "      C"
+            "chords": "                 D          G ",
+            "lyrics": "Todos juntos, louvores ao Senhor;"
           },
           {
-            "chords": "Lá no céu cantaremos,",
-            "lyrics": "                 D          G "
+            "chords": "       C  C7  F ",
+            "lyrics": "Lá no céu   veremos"
           },
           {
-            "chords": "Todos juntos, louvores ao Senhor;",
-            "lyrics": "       C  C7  F "
-          },
-          {
-            "chords": "Lá no céu   veremos",
-            "lyrics": "  C       G            C "
+            "chords": "  C       G            C ",
+            "lyrics": "Jesus, em grande esplendor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Na cidade do Senhor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

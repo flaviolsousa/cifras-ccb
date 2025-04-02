@@ -23,22 +23,27 @@
           {
             "chords": "                 E           A",
             "lyrics": "Pelo Teu amor e_imensa compaixão."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       A",
+            "lyrics": "Teus tesouros revelaste"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "       A"
+            "chords": "      E  ",
+            "lyrics": "Aos humildes que chamaste;"
           },
           {
-            "chords": "Teus tesouros revelaste",
-            "lyrics": "      E  "
+            "chords": "     A         D ",
+            "lyrics": "Para eles decretaste"
           },
           {
-            "chords": "Aos humildes que chamaste;",
-            "lyrics": "     A         D "
-          },
-          {
-            "chords": "Para eles decretaste",
-            "lyrics": "      A           E           A"
+            "chords": "      A           E           A",
+            "lyrics": "Vida_eterna com Jesus, o Salvador."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Nós teremos grande prêmio lá nos céus."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

@@ -27,26 +27,31 @@
           {
             "chords": "",
             "lyrics": "Em Deus há    luz e saber."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C            G ",
+            "lyrics": "O Senhor não mudará;"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "C            G "
+            "chords": "              C",
+            "lyrics": "Seus intentos cumprirá;"
           },
           {
-            "chords": "O Senhor não mudará;",
-            "lyrics": "              C"
+            "chords": "            E    F     F... ",
+            "lyrics": "Firmes permane - cerão,"
           },
           {
-            "chords": "Seus intentos cumprirá;",
-            "lyrics": "            E    F     F... "
+            "chords": "",
+            "lyrics": "[sem acorde]  C    D7    G   C"
           },
           {
-            "chords": "Firmes permane - cerão,",
-            "lyrics": ""
-          },
-          {
-            "chords": "[sem acorde]  C    D7    G   C",
-            "lyrics": ""
+            "chords": "",
+            "lyrics": "Pois há em    Deus per - feição."
           }
         ]
       },
@@ -77,6 +82,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -101,6 +110,10 @@
             "lyrics": "E       vida_eterna nos dá."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

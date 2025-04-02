@@ -23,22 +23,27 @@
           {
             "chords": "C  G     D      G",
             "lyrics": "No reino Seu de luz."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G7    C                 G",
+            "lyrics": "Sinto viva_esperança em mim,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "G7    C                 G"
+            "chords": "    D        A7       D   D... ",
+            "lyrics": "Esperança de ver o Senhor"
           },
           {
-            "chords": "Sinto viva_esperança em mim,",
-            "lyrics": "    D        A7       D   D... "
+            "chords": "     G               C ",
+            "lyrics": "E herdar as moradas eternas,"
           },
           {
-            "chords": "Esperança de ver o Senhor",
-            "lyrics": "     G               C "
-          },
-          {
-            "chords": "E herdar as moradas eternas,",
-            "lyrics": "       G    D     G"
+            "chords": "       G    D     G",
+            "lyrics": "Onde_é tudo esplendor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Pois tenho_a_eterna luz."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

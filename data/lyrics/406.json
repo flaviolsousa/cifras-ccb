@@ -19,22 +19,27 @@
           {
             "chords": "   Em    D   G",
             "lyrics": "Ao homem pecador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "G                      C     G",
+            "lyrics": "Glória_ao grande_e poderoso Deus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "G                      C     G"
+            "chords": "                  A7       D",
+            "lyrics": "Que mandou a redenção dos céus"
           },
           {
-            "chords": "Glória_ao grande_e poderoso Deus,",
-            "lyrics": "                  A7       D"
+            "chords": "G                 C      G",
+            "lyrics": "Em Jesus, a Fonte do perdão,"
           },
           {
-            "chords": "Que mandou a redenção dos céus",
-            "lyrics": "G                 C      G"
-          },
-          {
-            "chords": "Em Jesus, a Fonte do perdão,",
-            "lyrics": " D           G"
+            "chords": " D           G",
+            "lyrics": "Eterna Salvação."
           }
         ]
       },
@@ -57,6 +62,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -73,6 +82,10 @@
             "lyrics": "Provinda de Jesus."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

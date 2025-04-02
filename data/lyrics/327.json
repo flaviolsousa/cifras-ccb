@@ -23,22 +23,27 @@
           {
             "chords": "  C     D     G",
             "lyrics": "E nos fará vencer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     D         G",
+            "lyrics": "Galardão nos dará,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "     D         G"
+            "chords": "                   D ",
+            "lyrics": "Eternal! E_excelso bem;"
           },
           {
-            "chords": "Galardão nos dará,",
-            "lyrics": "                   D "
+            "chords": "   G",
+            "lyrics": "Ao terminar a luta, nos exaltará"
           },
           {
-            "chords": "Eternal! E_excelso bem;",
-            "lyrics": "   G"
-          },
-          {
-            "chords": "Ao terminar a luta, nos exaltará",
-            "lyrics": "       C     D   G"
+            "chords": "       C     D   G",
+            "lyrics": "Na_eternal Jerusalém."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Imenso_é Seu poder."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

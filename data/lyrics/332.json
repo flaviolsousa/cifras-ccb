@@ -23,22 +23,27 @@
           {
             "chords": "          F#     B",
             "lyrics": "Nunca te_abandonará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B",
+            "lyrics": "É Cristo Quem cuida de ti,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "B"
+            "chords": "F#  ",
+            "lyrics": "É Ele Quem zela por ti;"
           },
           {
-            "chords": "É Cristo Quem cuida de ti,",
-            "lyrics": "F#  "
+            "chords": "B               E         C#m... ",
+            "lyrics": "N´Ele descansa, n´Ele tem fé,"
           },
           {
-            "chords": "É Ele Quem zela por ti;",
-            "lyrics": "B               E         C#m... "
-          },
-          {
-            "chords": "N´Ele descansa, n´Ele tem fé,",
-            "lyrics": "B             F#  B  B..."
+            "chords": "B             F#  B  B...",
+            "lyrics": "Forte Refúgio Ele é."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Em teu socorro virá."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

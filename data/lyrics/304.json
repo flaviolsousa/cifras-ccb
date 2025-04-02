@@ -23,22 +23,27 @@
           {
             "chords": "              A       B               E",
             "lyrics": "A_esperança_é Cristo; n´Ele_a graça_está."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "E              B ",
+            "lyrics": "Cristo é a_Esperança,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "E              B "
+            "chords": "                  E",
+            "lyrics": "É do mundo_o Redentor;"
           },
           {
-            "chords": "Cristo é a_Esperança,",
-            "lyrics": "                  E"
+            "chords": "      C#      F#m ",
+            "lyrics": "N´Ele há confiança,"
           },
           {
-            "chords": "É do mundo_o Redentor;",
-            "lyrics": "      C#      F#m "
-          },
-          {
-            "chords": "N´Ele há confiança,",
-            "lyrics": "B            E"
+            "chords": "B            E",
+            "lyrics": "Vida, paz e_amor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "A_esperança_é Cristo, nossa Redenção."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

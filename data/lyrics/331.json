@@ -67,22 +67,27 @@
           {
             "chords": "      A               A...  E      A   ",
             "lyrics": "Vem a Cristo entregar-te    sem tardar."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       A                E ",
+            "lyrics": "Sem tardar, sem mais tardar,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "       A                E "
+            "chords": "    E7              A",
+            "lyrics": "A Jesus vem te_entregar;"
           },
           {
-            "chords": "Sem tardar, sem mais tardar,",
-            "lyrics": "    E7              A"
+            "chords": "                            D            D... ",
+            "lyrics": "Seu olhar tem sobre ti, Ele quer te perdoar,"
           },
           {
-            "chords": "A Jesus vem te_entregar;",
-            "lyrics": "                            D            D... "
-          },
-          {
-            "chords": "Seu olhar tem sobre ti, Ele quer te perdoar,",
-            "lyrics": "      A                   A...  E      A"
+            "chords": "      A                   A...  E      A",
+            "lyrics": "Vem depressa_a Quem te chama,   sem tardar."
           }
         ]
       }

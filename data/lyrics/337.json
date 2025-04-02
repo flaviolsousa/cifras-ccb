@@ -67,38 +67,43 @@
           {
             "chords": "  B              F#         B...",
             "lyrics": "Onde_é o lar do_Onipresente Deus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         B",
+            "lyrics": "Por fé seguimos ao Senhor"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "         B"
+            "chords": "                   F# ",
+            "lyrics": "No Seu caminho de amor,"
           },
           {
-            "chords": "Por fé seguimos ao Senhor",
-            "lyrics": "                   F# "
+            "chords": "",
+            "lyrics": "Amor que mostra a luz divina"
           },
           {
-            "chords": "No Seu caminho de amor,",
-            "lyrics": ""
+            "chords": "         F#7        B",
+            "lyrics": "E nos conduz ao Criador."
           },
           {
-            "chords": "Amor que mostra a luz divina",
-            "lyrics": "         F#7        B"
+            "chords": "",
+            "lyrics": "Feliz será quem o provar,"
           },
           {
-            "chords": "E nos conduz ao Criador.",
-            "lyrics": ""
+            "chords": "           B7              E ",
+            "lyrics": "Pois é_um amor que não tem par;"
           },
           {
-            "chords": "Feliz será quem o provar,",
-            "lyrics": "           B7              E "
+            "chords": "        F°            B",
+            "lyrics": "Amor glorioso, amor sublime,"
           },
           {
-            "chords": "Pois é_um amor que não tem par;",
-            "lyrics": "        F°            B"
-          },
-          {
-            "chords": "Amor glorioso, amor sublime,",
-            "lyrics": "        E      F#7    B"
+            "chords": "        E      F#7    B",
+            "lyrics": "Só em Jesus se pode_achar."
           }
         ]
       }

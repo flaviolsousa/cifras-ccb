@@ -23,22 +23,27 @@
           {
             "chords": "C#7              F#7 ",
             "lyrics": "Para viverem nos céus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "B        F#7 ",
+            "lyrics": "Cristo Jesus"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "B        F#7 "
+            "chords": "          B",
+            "lyrics": "Chama os Seus"
           },
           {
-            "chords": "Cristo Jesus",
-            "lyrics": "          B"
+            "chords": "B7      E ",
+            "lyrics": "Para a luz"
           },
           {
-            "chords": "Chama os Seus",
-            "lyrics": "B7      E "
-          },
-          {
-            "chords": "Para a luz",
-            "lyrics": "        B      F#7        B"
+            "chords": "        B      F#7        B",
+            "lyrics": "Que os guia ao reino dos céus."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Fazem que_amemos a Deus."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

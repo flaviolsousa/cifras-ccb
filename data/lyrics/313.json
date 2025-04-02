@@ -39,22 +39,27 @@
           {
             "chords": "    D                    G   G... ",
             "lyrics": "Oh! Glória_a Jesus, o Senhor!"
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "C                                     G ",
+            "lyrics": "Arrebato_aos céus, por Cristo,_eterno Rei,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "C                                     G "
+            "chords": "                                            C",
+            "lyrics": "Lá eu verei o grande Deus; oh! quão feliz serei!"
           },
           {
-            "chords": "Arrebato_aos céus, por Cristo,_eterno Rei,",
-            "lyrics": "                                            C"
+            "chords": "                                 F     Dm7 ",
+            "lyrics": "Cristo Jesus dará aos escolhidos Seus"
           },
           {
-            "chords": "Lá eu verei o grande Deus; oh! quão feliz serei!",
-            "lyrics": "                                 F     Dm7 "
-          },
-          {
-            "chords": "Cristo Jesus dará aos escolhidos Seus",
-            "lyrics": "G           C     F     G       C    C..."
+            "chords": "G           C     F     G       C    C...",
+            "lyrics": "A eternal morada: Jerusalém de Deus."
           }
         ]
       },
@@ -95,6 +100,10 @@
             "lyrics": "Oh! Glória_a Jesus, o Senhor!"
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

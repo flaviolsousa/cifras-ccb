@@ -23,22 +23,27 @@
           {
             "chords": "   G         A    D",
             "lyrics": "Também é meu Salvador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D              D°  D                A ",
+            "lyrics": "Eu subirei com Cristo à celestial Sião,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "D              D°  D                A "
+            "chords": "                   A7           D",
+            "lyrics": "É Ele Quem me guia na peregrinação;"
           },
           {
-            "chords": "Eu subirei com Cristo à celestial Sião,",
-            "lyrics": "                   A7           D"
+            "chords": "                     D°   D                G ",
+            "lyrics": "Quando_eu entrar na gló - ria do meu amado Rei,"
           },
           {
-            "chords": "É Ele Quem me guia na peregrinação;",
-            "lyrics": "                     D°   D                G "
-          },
-          {
-            "chords": "Quando_eu entrar na gló - ria do meu amado Rei,",
-            "lyrics": "                  D     G     A      D"
+            "chords": "                  D     G     A      D",
+            "lyrics": "Ao contemplar Sua face, regozijar-me-ei."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "O lar de justiça_e luz."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

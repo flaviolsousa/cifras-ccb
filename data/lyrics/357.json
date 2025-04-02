@@ -23,22 +23,27 @@
           {
             "chords": "            Bb     C7  F",
             "lyrics": "Pois vai em breve_aparecer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "         F        C7 ",
+            "lyrics": "E face_a face O verei;"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "         F        C7 "
+            "chords": "                        F",
+            "lyrics": "Contemplarei Jesus, meu Rei,"
           },
           {
-            "chords": "E face_a face O verei;",
-            "lyrics": "                        F"
+            "chords": "                     C7 ",
+            "lyrics": "Que para Deus me levará;"
           },
           {
-            "chords": "Contemplarei Jesus, meu Rei,",
-            "lyrics": "                     C7 "
-          },
-          {
-            "chords": "Que para Deus me levará;",
-            "lyrics": "           Bb    C7   F   F..."
+            "chords": "           Bb    C7   F   F...",
+            "lyrics": "A_herança_eterna me dará."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Sem que se_apague_a minha luz."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

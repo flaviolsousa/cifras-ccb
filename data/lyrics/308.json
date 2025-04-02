@@ -23,22 +23,27 @@
           {
             "chords": "        F#m  E      A",
             "lyrics": "E dar a vida ao pecador."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "D               E       F#m ",
+            "lyrics": "Soa_a trombeta; oh! escutai"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "D               E       F#m "
+            "chords": "D     A     D       E ",
+            "lyrics": "O Evangelho do Salvador;"
           },
           {
-            "chords": "Soa_a trombeta; oh! escutai",
-            "lyrics": "D     A     D       E "
+            "chords": "A",
+            "lyrics": "Vossos ouvidos, oh! inclinai"
           },
           {
-            "chords": "O Evangelho do Salvador;",
-            "lyrics": "A"
-          },
-          {
-            "chords": "Vossos ouvidos, oh! inclinai",
-            "lyrics": "         F#m    E      A   A..."
+            "chords": "         F#m    E      A   A...",
+            "lyrics": "Ás sãs palavras do Criador."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Vinde_aceitá-la do Salvador."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

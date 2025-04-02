@@ -23,22 +23,27 @@
           {
             "chords": "   B7               E   E7... ",
             "lyrics": "No céu, com o meu Jesus."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "      A",
+            "lyrics": "Lá no reino dos céus rejubilarei"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "      A"
+            "chords": "      D          Dm  A",
+            "lyrics": "Ao sentir o excelso_amor;"
           },
           {
-            "chords": "Lá no reino dos céus rejubilarei",
-            "lyrics": "      D          Dm  A"
+            "chords": "                              B7... ",
+            "lyrics": "Lá no reino dos céus contemplarei"
           },
           {
-            "chords": "Ao sentir o excelso_amor;",
-            "lyrics": "                              B7... "
-          },
-          {
-            "chords": "Lá no reino dos céus contemplarei",
-            "lyrics": "  A       E7     A"
+            "chords": "  A       E7     A",
+            "lyrics": "A face do meu Senhor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "O santo_e fiel Senhor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

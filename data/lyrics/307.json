@@ -23,22 +23,27 @@
           {
             "chords": "      B      F#  B ",
             "lyrics": "Sem jamais esmorecer."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "       E           A        E",
+            "lyrics": "Cristo nos dará da Sua plenitude,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "       E           A        E"
+            "chords": "      B                   E",
+            "lyrics": "Com a fé nos cingirá e em nós derramará,"
           },
           {
-            "chords": "Cristo nos dará da Sua plenitude,",
-            "lyrics": "      B                   E"
+            "chords": "     A                      E",
+            "lyrics": "Do Espírito,_o poder e a virtude;"
           },
           {
-            "chords": "Com a fé nos cingirá e em nós derramará,",
-            "lyrics": "     A                      E"
-          },
-          {
-            "chords": "Do Espírito,_o poder e a virtude;",
-            "lyrics": "          B     E"
+            "chords": "          B     E",
+            "lyrics": "Valorosos nos fará."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Oh! Sirvamos ao Senhor."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

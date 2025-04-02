@@ -23,22 +23,27 @@
           {
             "chords": "                           A",
             "lyrics": "De todo_o mal, por grande amor."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "          D                A",
+            "lyrics": "Breve, no céu, os santos remidos"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "          D                A"
+            "chords": "      E                 A",
+            "lyrics": "Receberão o reino_e_o poder;"
           },
           {
-            "chords": "Breve, no céu, os santos remidos",
-            "lyrics": "      E                 A"
+            "chords": "           D                 A",
+            "lyrics": "Breve_os fiéis, por Deus escolhidos,"
           },
           {
-            "chords": "Receberão o reino_e_o poder;",
-            "lyrics": "           D                 A"
-          },
-          {
-            "chords": "Breve_os fiéis, por Deus escolhidos,",
-            "lyrics": "           E             A    A..."
+            "chords": "           E             A    A...",
+            "lyrics": "Vão, com Jesus, resplandecer."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Junto a Deus, irei habitar."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

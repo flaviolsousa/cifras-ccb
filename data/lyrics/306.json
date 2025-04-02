@@ -23,26 +23,31 @@
           {
             "chords": "    C          G        D       G",
             "lyrics": "Seu cálix transborda de consolação."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "     G                          D ",
+            "lyrics": "Bendizei, bendizei ao Altíssimo Deus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "     G                          D "
+            "chords": "",
+            "lyrics": "Deus de_amor, Deus de paz,"
           },
           {
-            "chords": "Bendizei, bendizei ao Altíssimo Deus,",
-            "lyrics": ""
+            "chords": "       G",
+            "lyrics": "Que mandou lá dos céus"
           },
           {
-            "chords": "Deus de_amor, Deus de paz,",
-            "lyrics": "       G"
+            "chords": "                    D       G",
+            "lyrics": "O santo Cordeiro, fiel Redentor,"
           },
           {
-            "chords": "Que mandou lá dos céus",
-            "lyrics": "                    D       G"
-          },
-          {
-            "chords": "O santo Cordeiro, fiel Redentor,",
-            "lyrics": "  C        G       D         G   G..."
+            "chords": "  C        G       D         G   G...",
+            "lyrics": "A nossa Justiça, Jesus, o Senhor."
           }
         ]
       },
@@ -69,6 +74,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -89,6 +98,10 @@
             "lyrics": "Na volta de Cristo, em breve porvir."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

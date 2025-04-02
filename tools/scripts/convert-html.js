@@ -45,7 +45,7 @@ function linesToScore(lines) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
-    if (line === "Coro:") {
+    if (line.includes("Coro:")) {
       currentStanza = { type: "chorus", verses: [{ chords: lines[++i], lyrics: lines[++i] }] };
       score.stanzas.push(currentStanza);
       chorusStanzaRef = `score.stanzas[${score.stanzas.length - 1}]`;
@@ -85,7 +85,8 @@ const preTags = document.querySelectorAll("body pre");
 preTags.forEach((preTag) => {
   const id = preTag.id;
   if (id) {
-    // if (["005", "115"].indexOf(id) < 0) return;
+    if (["273"].indexOf(id) >= 0) return;
+    //if (["125"].indexOf(id) < 0) return;
 
     const titleEntry = titles.find((title) => title.id === id);
     if (titleEntry) {

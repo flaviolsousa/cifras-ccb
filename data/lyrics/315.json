@@ -23,22 +23,27 @@
           {
             "chords": "   Am           G       D       G",
             "lyrics": "Conduz-nos aos céus com o Teu poder."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "    G",
+            "lyrics": "Que volte do céu Teu Filho, ó Deus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "    G"
+            "chords": "D                G",
+            "lyrics": "Quão desejosos estamos, Senhor!"
           },
           {
-            "chords": "Que volte do céu Teu Filho, ó Deus,",
-            "lyrics": "D                G"
+            "chords": "  C     G        A        D ",
+            "lyrics": "Rejubilaremos ao vê-Lo voltar"
           },
           {
-            "chords": "Quão desejosos estamos, Senhor!",
-            "lyrics": "  C     G        A        D "
-          },
-          {
-            "chords": "Rejubilaremos ao vê-Lo voltar",
-            "lyrics": "                G"
+            "chords": "                G",
+            "lyrics": "Em grande_esplendor."
           }
         ]
       },
@@ -65,6 +70,10 @@
         ]
       },
       {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
         "type": "lyric",
         "code": "3",
         "verses": [
@@ -85,6 +94,10 @@
             "lyrics": "Virtude e fé vem nos dispensar."
           }
         ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
       }
     ]
   }

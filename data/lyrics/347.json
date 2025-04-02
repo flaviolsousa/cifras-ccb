@@ -67,22 +67,27 @@
           {
             "chords": "A                         D   E    A  ",
             "lyrics": "Coroado de glória_e honra Ele voltará."
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "verses": [
+          {
+            "chords": "A              D              A               E ",
+            "lyrics": "Ontem, hoje e_eternamente é_o mesmo, Cristo Jesus,"
           },
           {
-            "chords": "Coro: ",
-            "lyrics": "A              D              A               E "
+            "chords": "A                D                    E              A",
+            "lyrics": "Ele_é_o Verbo de Deus, que nos trouxe graça, vida_e luz;"
           },
           {
-            "chords": "Ontem, hoje e_eternamente é_o mesmo, Cristo Jesus,",
-            "lyrics": "A                D                    E              A"
+            "chords": "      D   A                E  E7 ",
+            "lyrics": "Santo e fiel é Jesus, Redentor!"
           },
           {
-            "chords": "Ele_é_o Verbo de Deus, que nos trouxe graça, vida_e luz;",
-            "lyrics": "      D   A                E  E7 "
-          },
-          {
-            "chords": "Santo e fiel é Jesus, Redentor!",
-            "lyrics": "A               D      D...  E         E7   A"
+            "chords": "A               D      D...  E         E7   A",
+            "lyrics": "Tudo passa, mas Cristo não;  glória_ao Salvador!"
           }
         ]
       }
