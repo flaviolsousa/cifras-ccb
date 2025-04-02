@@ -13,11 +13,12 @@ interface ChordPanelProps {
 const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordPanelProps) => {
   const theme = useTheme();
   const scrollViewRef = useRef<ScrollView>(null);
+  const sortedChords = [...allChords].sort();
 
   // Efeito para scrollar até o acorde selecionado
   useEffect(() => {
     if (selectedChord && scrollViewRef.current) {
-      const chordIndex = allChords.indexOf(selectedChord);
+      const chordIndex = sortedChords.indexOf(selectedChord);
       if (chordIndex !== -1) {
         scrollViewRef.current.scrollTo({
           x: chordIndex * 180, // width do chordContainer
@@ -25,7 +26,7 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordP
         });
       }
     }
-  }, [selectedChord]);
+  }, [selectedChord, sortedChords]);
 
   return (
     <Surface style={styles.container}>
@@ -33,7 +34,7 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordP
         <IconButton icon="close-circle" size={32} style={styles.closeButton} onPress={onClose} />
       </View>
       <ScrollView ref={scrollViewRef} horizontal showsHorizontalScrollIndicator={false}>
-        {allChords.map((chord, index) => (
+        {sortedChords.map((chord, index) => (
           <View
             key={index}
             style={[
