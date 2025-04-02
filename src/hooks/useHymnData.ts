@@ -65,7 +65,13 @@ const useHymnData = (hymnCode: string) => {
     fetchContent();
   }, [hymnCode]);
 
-  return { hymn, title };
+  const updateHymn = (updatedHymn: HymnModel) => {
+    console.log("updateHymn 1", updatedHymn);
+    setHymn(updatedHymn);
+    setTitle(`${updatedHymn.code} - ${updatedHymn.title}`);
+  };
+
+  return { hymn, title, updateHymn };
 };
 
 export default useHymnData;

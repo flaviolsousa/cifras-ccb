@@ -18,6 +18,7 @@
     "@react-navigation/native-stack": "^7.2.0",
     "@reduxjs/toolkit": "^2.5.1",
     "@tombatossals/react-chords": "^0.2.10",
+    "@tonaljs/tonal": "^4.10.0",
     "@types/lodash": "^4.17.15",
     "expo": "~52.0.30",
     "expo-font": "~13.0.3",
