@@ -16,26 +16,26 @@ const ScoreDetails = ({ rhythm, tone, toneOriginal, capo }: ScoreDetailsProps) =
     <View style={styles.container}>
       {rhythm && (
         <View style={styles.detail}>
-          <Text variant="labelSmall" style={{ color: theme.colors.secondary }}>
+          <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
             Ritmo:
           </Text>
-          <Text variant="bodyMedium">{rhythm}</Text>
+          <Text variant="bodyLarge">{rhythm}</Text>
         </View>
       )}
       {tone && (
         <View style={styles.detail}>
-          <Text variant="labelSmall" style={{ color: theme.colors.secondary }}>
+          <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
             Tom:
           </Text>
-          <Text variant="bodyMedium">{tone}</Text>
+          <Text variant="bodyLarge">{tone}</Text>
         </View>
       )}
-      {capo !== undefined && capo > 0 && (
+      {capo !== undefined && toneOriginal && capo > 0 && (
         <View style={styles.detail}>
-          <Text variant="labelSmall" style={{ color: theme.colors.secondary }}>
+          <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
             Capo:
           </Text>
-          <Text variant="bodyMedium">
+          <Text variant="bodyLarge">
             {capo}ª casa ({toneOriginal || ""})
           </Text>
         </View>

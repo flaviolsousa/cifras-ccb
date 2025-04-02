@@ -118,7 +118,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
 
         {/* Frets */}
         {[...Array(fretCount)].map((_, i) => (
-          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing, height: i == 0 ? 2 : 1 }]} />
+          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing, height: i == 0 ? 3 : 1 }]} />
         ))}
 
         {/* Barras */}
@@ -130,7 +130,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
               {
                 left: bar.start * stringSpacing,
                 width: (bar.end - bar.start) * stringSpacing,
-                top: (bar.fret - 0.5) * fretSpacing - dotSize / 2,
+                top: (bar.fret - 0.5) * fretSpacing - dotSize / 2 + 1,
               },
             ]}
           />
@@ -159,7 +159,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
                 styles.dot,
                 {
                   left: i * stringSpacing - dotSize / 2,
-                  top: (fret - 0.5) * fretSpacing - dotSize / 2,
+                  top: (fret - 0.5) * fretSpacing - dotSize / 2 + 1,
                 },
               ]}
             >

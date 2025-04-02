@@ -20,7 +20,7 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordP
       const chordIndex = allChords.indexOf(selectedChord);
       if (chordIndex !== -1) {
         scrollViewRef.current.scrollTo({
-          x: chordIndex * 120, // width do chordContainer
+          x: chordIndex * 180, // width do chordContainer
           animated: true,
         });
       }
@@ -46,7 +46,7 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordP
             onTouchEnd={() => onChordSelect?.(chord)}
           >
             <Text style={[styles.chordName, { color: theme.colors.onSurface }]}>{chord}</Text>
-            <GuitarChord name={chord} size={140} />
+            <GuitarChord name={chord} size={160} />
           </View>
         ))}
       </ScrollView>
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     left: 0,
     right: 0,
-    height: 200, // Increased height to accommodate larger chord diagrams
+    height: 225, // Increased height to accommodate larger chord diagrams
     elevation: 4,
     //marginTop: 50,
     paddingTop: 8, // Increased to accommodate floating close button
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
   chordContainer: {
     padding: 8,
     alignItems: "center",
-    width: 140, // Increased width for larger chord diagrams
+    width: 180, // Increased width for larger chord diagrams
   },
   chordName: {
     fontSize: 16,
