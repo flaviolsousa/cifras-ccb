@@ -157,7 +157,7 @@ const HymnDetails = () => {
         if (stanza.verses)
           stanza.verses.forEach((verse) => {
             const chords = verse.chords
-              .split(/([^_]+)/g)
+              .split(/([^_\s]+)/g)
               .filter((part) => !part.includes("_") && part.trim())
               .map((chord) => chord.trim());
             chords.forEach((chord) => chordSet.add(cleanChordName(chord)));

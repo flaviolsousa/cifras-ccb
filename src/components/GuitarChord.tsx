@@ -62,7 +62,9 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
       width: 1,
       backgroundColor: theme.colors.onSurface,
       top: 0,
-      bottom: 0,
+      bottom: 3,
+      // borderColor: "red",
+      // borderWidth: 1,
     },
     fret: {
       position: "absolute",
@@ -103,7 +105,6 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
       position: "absolute",
       height: dotSize,
       backgroundColor: theme.colors.primary,
-      borderRadius: dotSize / 2,
     },
   });
 
