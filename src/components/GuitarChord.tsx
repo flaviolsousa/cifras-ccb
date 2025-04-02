@@ -21,13 +21,30 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
   const fretSpacing = size / 6;
   const dotSize = stringSpacing * 0.8;
 
+  // Normaliza os frets para começar da primeira casa quando possível
+  const normalizeChordPosition = () => {
+    const nonZeroFrets = frets.filter((fret) => fret > 0);
+    if (nonZeroFrets.length === 0) return { normalizedFrets: frets, position: 0 };
+
+    const maxFret = Math.max(...nonZeroFrets);
+    if (maxFret <= fretCount - 1) return { normalizedFrets: frets, position: 0 };
+
+    const minFret = Math.min(...nonZeroFrets);
+    return {
+      normalizedFrets: frets.map((fret) => (fret <= 0 ? fret : fret - minFret + 1)),
+      position: minFret - 1,
+    };
+  };
+
+  const { normalizedFrets, position } = normalizeChordPosition();
+
   // Função para encontrar barras
   const findBars = () => {
     const bars = [];
     for (let fret = 1; fret <= fretCount; fret++) {
       for (let finger = 1; finger <= 4; finger++) {
         const positions = fingers
-          .map((f, i) => ({ finger: f, fret: frets[i], string: i }))
+          .map((f, i) => ({ finger: f, fret: normalizedFrets[i], string: i }))
           .filter((pos) => pos.finger === finger && pos.fret === fret);
 
         if (positions.length > 1) {
@@ -106,11 +123,23 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
       height: dotSize,
       backgroundColor: theme.colors.primary,
     },
+    positionLabel: {
+      position: "absolute",
+      left: -stringSpacing * 1.15,
+      top: fretSpacing * 0.25,
+      color: theme.colors.onSurface,
+      fontSize: dotSize * 0.7,
+      fontWeight: "bold",
+      fontStyle: "italic",
+    },
   });
 
   return (
     <View style={styles.container}>
       <View style={styles.fretboard}>
+        {/* Position Label */}
+        {position > 0 && <Text style={styles.positionLabel}>{position + 1}ª</Text>}
+
         {/* Strings */}
         {[...Array(stringCount)].map((_, i) => (
           <View key={`string-${i}`} style={[styles.string, { left: i * stringSpacing, width: 2 - (1.5 / fretCount) * i }]} />
@@ -118,7 +147,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
 
         {/* Frets */}
         {[...Array(fretCount)].map((_, i) => (
-          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing, height: i == 0 ? 3 : 1 }]} />
+          <View key={`fret-${i}`} style={[styles.fret, { top: i * fretSpacing, height: i === 0 && position === 0 ? 3 : 1 }]} />
         ))}
 
         {/* Barras */}
@@ -137,7 +166,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
         ))}
 
         {/* Dots and Markers */}
-        {frets.map((fret, i) => {
+        {normalizedFrets.map((fret, i) => {
           if (fret === -1) {
             return (
               <Text key={`mute-${i}`} style={[styles.mute, { left: i * stringSpacing - dotSize * 0.3 }]}>
