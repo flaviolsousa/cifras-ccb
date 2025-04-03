@@ -32,11 +32,11 @@ const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate
       backdropColor="rgba(255,255,255,0.2)"
       actions={[
         {
-          icon: "arrow-right",
+          icon: "chevron-right",
           onPress: handleNext,
         },
         {
-          icon: "arrow-left",
+          icon: "chevron-left",
           onPress: handlePrevious,
         },
       ]}

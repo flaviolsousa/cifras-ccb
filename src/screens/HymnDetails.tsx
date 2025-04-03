@@ -182,6 +182,9 @@ const HymnDetails = () => {
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
     setSelectedChord(null);
+    setZoomControlVisible(false);
+    setNavigationVisible(false);
+    setToneNavigationVisible(false);
   };
   const closeMenu = () => setMenuVisible(false);
 
@@ -345,17 +348,19 @@ const HymnDetails = () => {
                     closeMenu();
                   }}
                   title="Navegar Hinos"
+                  leadingIcon="page-next-outline"
                 />
-                <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
+                <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" leadingIcon="format-size" />
                 <Menu.Item
                   onPress={() => {
                     setToneNavigationVisible(true);
                     closeMenu();
                   }}
                   title="Mudar Tom"
+                  leadingIcon="pound"
                 />
                 <Divider />
-                <Menu.Item onPress={closeMenu} title="Fechar menu" />
+                <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
               </Menu>
             </Appbar.Header>
           </Animated.View>
@@ -378,7 +383,16 @@ const HymnDetails = () => {
             ]}
           >
             {shouldShowHeader && hymn && (
-              <ScoreDetails rhythm={hymn.rhythm} tone={hymn.tone} toneOriginal={hymn.toneOriginal} capo={1} onToneChange={handleToneChange} />
+              <ScoreDetails
+                rhythm={hymn.rhythm}
+                tone={hymn.tone}
+                toneOriginal={hymn.toneOriginal}
+                capo={1}
+                onToneChange={handleToneChange}
+                sigN={hymn.measures?.sigN}
+                sigD={hymn.measures?.sigD}
+                time={hymn.time?.text}
+              />
             )}
             <Divider />
             {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
@@ -470,11 +484,11 @@ const HymnDetails = () => {
         backdropColor="rgba(255,255,255,0.2)"
         actions={[
           {
-            icon: "magnify-plus",
+            icon: "format-font-size-increase",
             onPress: increaseFontSize,
           },
           {
-            icon: "magnify-minus",
+            icon: "format-font-size-decrease",
             onPress: decreaseFontSize,
           },
         ]}

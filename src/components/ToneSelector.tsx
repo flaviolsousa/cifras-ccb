@@ -14,6 +14,31 @@ interface ToneSelectorProps {
 const ToneSelector = ({ visible, currentTone, onSelect, onDismiss }: ToneSelectorProps) => {
   const theme = useTheme();
 
+  const styles = StyleSheet.create({
+    container: {
+      backgroundColor: theme.colors.surface,
+      padding: 20,
+      margin: 20,
+      paddingBottom: 30,
+      borderRadius: 8,
+    },
+    title: {
+      marginBottom: 16,
+      textAlign: "center",
+    },
+    grid: {
+      flexDirection: "row",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      gap: 12,
+    },
+    toneButton: {
+      width: 10,
+      flexBasis: 90,
+      marginHorizontal: 4,
+    },
+  });
+
   return (
     <Portal>
       <Modal visible={visible} onDismiss={onDismiss} contentContainerStyle={styles.container}>
@@ -31,27 +56,5 @@ const ToneSelector = ({ visible, currentTone, onSelect, onDismiss }: ToneSelecto
     </Portal>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "white",
-    padding: 20,
-    margin: 20,
-    borderRadius: 8,
-  },
-  title: {
-    marginBottom: 16,
-    textAlign: "center",
-  },
-  grid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    gap: 8,
-  },
-  toneButton: {
-    width: 56,
-  },
-});
 
 export default ToneSelector;

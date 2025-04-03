@@ -20,7 +20,7 @@
 - ☐ Integrate MIDI player functionality
 - ☒ Option to show/hide draw of chords
 - ☐ Option to display capo positioning
-- ☐ Implement tone selection feature
+- ☒ Implement tone selection feature
 - ☐ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
 - ☐ Provide option to select difficulty level
 

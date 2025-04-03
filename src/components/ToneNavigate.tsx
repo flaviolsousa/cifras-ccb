@@ -22,6 +22,7 @@ const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavig
       color: theme.colors.onSurface,
     },
   });
+
   const handleToneUp = () => {
     try {
       const newTone = transpose(currentTone).up(1).toString();
