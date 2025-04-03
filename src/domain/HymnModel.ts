@@ -42,3 +42,14 @@ export interface HymnModel {
   measures: TimeSignature;
   time: Tempo;
 }
+
+// Add helper functions for tone transposition
+export function normalizeHymnTone(hymn: HymnModel): HymnModel {
+  if (!hymn.toneOriginal) {
+    return {
+      ...hymn,
+      toneOriginal: hymn.tone,
+    };
+  }
+  return hymn;
+}

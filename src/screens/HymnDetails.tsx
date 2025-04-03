@@ -10,7 +10,7 @@ import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
 import ChordPanel from "../components/ChordPanel";
-import { Note, transpose, distance } from "@tonaljs/tonal";
+import { transpose } from "chord-transposer";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -154,6 +154,7 @@ const HymnDetails = () => {
     },
   });
 
+  // save distinct of chords to ChordPanel
   useEffect(() => {
     if (hymn?.score?.stanzas) {
       const chordSet = new Set<string>();
@@ -198,7 +199,6 @@ const HymnDetails = () => {
     setZoomControlVisible(true);
     closeMenu();
   };
-
   const onPinchEvent = (event: PinchGestureHandlerGestureEvent) => {
     if (event.nativeEvent.scale) {
       const fontMinSize = 10;
@@ -207,13 +207,11 @@ const HymnDetails = () => {
       setFontSize(fontSize);
     }
   };
-
   const onPinchStateEvent = (event: HandlerStateChangeEvent) => {
     if (event.nativeEvent.state === State.ACTIVE) {
       setFontSizeReference(fontSize);
     }
   };
-
   const onVerseLayout = (event: LayoutChangeEvent, stanzaIndex: number, verseIndex: number) => {
     const { height } = event.nativeEvent.layout;
     setVerseHeights((prev) => ({
@@ -230,7 +228,6 @@ const HymnDetails = () => {
   }, [fontSize]);
 
   const scrollY = useRef(new Animated.Value(0)).current;
-  //const scrollYValue = useRef(0);
   const lastScrollY = useRef(0);
   const [headerVisible, setHeaderVisible] = useState(true);
 
@@ -283,13 +280,8 @@ const HymnDetails = () => {
   };
 
   const handleToneChange = (newTone: string) => {
-    console.log("handleToneChange 1", newTone);
     if (!hymn) return;
-    console.log("handleToneChange 2", hymn);
 
-    const semitones = distance(hymn.toneOriginal || hymn.tone, newTone);
-
-    console.log("handleToneChange 3", semitones);
     const transposedHymn = {
       ...hymn,
       tone: newTone,
@@ -303,7 +295,19 @@ const HymnDetails = () => {
               .split(/([^_\s]+)/g)
               .map((part) => {
                 if (part.includes("_") || !part.trim()) return part;
-                return transpose(part.trim(), semitones) || part;
+                const match = part.trim().match(/([_.]*)(.*?)([_.]*$)/);
+                const chordPrefix = match?.[1] || "";
+                const chord = match?.[2] || part.trim();
+                const chordSuffix = match?.[3] || "";
+                try {
+                  const transposed = transpose(chord)
+                    .fromKey(hymn.toneOriginal || hymn.tone)
+                    .toKey(newTone);
+                  return `${chordPrefix}${transposed}${chordSuffix}`;
+                } catch (e: any) {
+                  console.error(e);
+                  return part + ":ERROR";
+                }
               })
               .join(""),
           })),
@@ -311,7 +315,6 @@ const HymnDetails = () => {
       },
     };
 
-    console.log("handleToneChange 3", transposedHymn);
     updateHymn(transposedHymn);
   };
 
