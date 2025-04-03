@@ -9,6 +9,7 @@ import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
+import ToneNavigate from "../components/ToneNavigate";
 import ChordPanel from "../components/ChordPanel";
 import { transpose } from "chord-transposer";
 
@@ -270,6 +271,7 @@ const HymnDetails = () => {
   });
 
   const [navigationVisible, setNavigationVisible] = useState(false);
+  const [toneNavigationVisible, setToneNavigationVisible] = useState(false);
 
   const handleHymnNavigation = (newHymnCode: string) => {
     navigation.setParams({ hymnCode: newHymnCode });
@@ -345,6 +347,13 @@ const HymnDetails = () => {
                   title="Navegar Hinos"
                 />
                 <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" />
+                <Menu.Item
+                  onPress={() => {
+                    setToneNavigationVisible(true);
+                    closeMenu();
+                  }}
+                  title="Mudar Tom"
+                />
                 <Divider />
                 <Menu.Item onPress={closeMenu} title="Fechar menu" />
               </Menu>
@@ -446,6 +455,14 @@ const HymnDetails = () => {
         currentHymnCode={hymnCode}
         onNavigate={handleHymnNavigation}
       />
+      {hymn && (
+        <ToneNavigate
+          visible={toneNavigationVisible}
+          onClose={() => setToneNavigationVisible(false)}
+          currentTone={hymn.tone}
+          onToneChange={handleToneChange}
+        />
+      )}
       <FAB.Group
         open={zoomControlVisible}
         visible={zoomControlVisible}
