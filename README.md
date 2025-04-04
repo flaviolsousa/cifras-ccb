@@ -91,3 +91,4 @@ npm i @react-native-community/slider --save
 - https://github.com/tombatossals/chords-db/tree/master
 - https://github.com/artutra/OpenChord?tab=readme-ov-file
 - https://www.npmjs.com/package/@tonaljs/progression
+- https://pictogrammers.com/library/mdi/

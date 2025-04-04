@@ -14,14 +14,7 @@ interface ToneNavigateProps {
 const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
   const theme = useTheme();
 
-  const styles = StyleSheet.create({
-    label: {
-      backgroundColor: theme.colors.background,
-      padding: 4,
-      borderRadius: 4,
-      color: theme.colors.onSurface,
-    },
-  });
+  // const styles = StyleSheet.create({});
 
   const handleToneUp = () => {
     try {
@@ -50,15 +43,11 @@ const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavig
       actions={[
         {
           icon: "plus",
-          label: "Tom acima",
           onPress: handleToneUp,
-          labelStyle: styles.label,
         },
         {
           icon: "minus",
-          label: "Tom abaixo",
           onPress: handleToneDown,
-          labelStyle: styles.label,
         },
       ]}
       onStateChange={({ open }) => {}}
