@@ -1,17 +1,19 @@
 // src/screens/HymnDetails.tsx
+import "react-native-reanimated";
 import React, { useState, useEffect, useRef } from "react";
-import { Animated, View, StyleSheet, ScrollView, Text, Platform, LayoutChangeEvent } from "react-native";
+import { Animated, View, StyleSheet, type ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
 import { useTheme, Appbar, IconButton, Menu, FAB, Divider } from "react-native-paper";
-import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
-import { RootStackParamList } from "../navigation/MainNavigator";
-import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
+import { type RouteProp, useRoute, useNavigation } from "@react-navigation/native";
+import { type RootStackParamList } from "../navigation/MainNavigator";
+import { PinchGestureHandler, type PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
+import { transpose } from "chord-transposer";
 import ToneNavigate from "../components/ToneNavigate";
 import ChordPanel from "../components/ChordPanel";
-import { transpose } from "chord-transposer";
+import AutoScrollControl from "../components/AutoScrollControl";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -174,17 +176,22 @@ const HymnDetails = () => {
   }, [hymn]);
 
   const handleChordPress = (chord: string) => {
+    closeAllTools();
     setSelectedChord(cleanChordName(chord));
+  };
+
+  const closeAllTools = () => {
+    setSelectedChord(null);
+    setZoomControlVisible(false);
+    setNavigationVisible(false);
+    setToneNavigationVisible(false);
   };
 
   // Menu
   const [menuVisible, setMenuVisible] = useState(false);
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
-    setSelectedChord(null);
-    setZoomControlVisible(false);
-    setNavigationVisible(false);
-    setToneNavigationVisible(false);
+    closeAllTools();
   };
   const closeMenu = () => setMenuVisible(false);
 
@@ -199,10 +206,7 @@ const HymnDetails = () => {
     setFontSize((prev: number) => Math.max(prev - 2, 10));
     zoomControlAction = "decreaseFontSize";
   };
-  const fontSizeMenu = () => {
-    setZoomControlVisible(true);
-    closeMenu();
-  };
+
   const onPinchEvent = (event: PinchGestureHandlerGestureEvent) => {
     if (event.nativeEvent.scale) {
       const fontMinSize = 10;
@@ -323,6 +327,34 @@ const HymnDetails = () => {
     updateHymn(transposedHymn);
   };
 
+  const scrollViewRef = useRef<ScrollView>(null);
+  const [autoScrollInterval, setAutoScrollInterval] = useState<NodeJS.Timeout | null>(null);
+
+  const handleStartScroll = (speed: number) => {
+    if (!scrollViewRef.current) return;
+
+    console.log("verseHeights:", verseHeights);
+    const scrollHeight = verseHeights[Object.keys(verseHeights).pop() || ""] || 0;
+    const scrollStep = speed / 60; // Pixels per frame (assuming 60 FPS)
+
+    setAutoScrollInterval(
+      setInterval(() => {
+        console.log("Scrolling...", scrollHeight);
+        scrollViewRef.current?.scrollTo({
+          y: scrollHeight,
+          animated: true,
+        });
+      }, 1000 / 60),
+    );
+  };
+
+  const handleStopScroll = () => {
+    if (autoScrollInterval) {
+      clearInterval(autoScrollInterval);
+      setAutoScrollInterval(null);
+    }
+  };
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
@@ -344,15 +376,25 @@ const HymnDetails = () => {
               <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
                 <Menu.Item
                   onPress={() => {
+                    closeMenu();
                     setNavigationVisible(true);
                     closeMenu();
                   }}
                   title="Navegar Hinos"
                   leadingIcon="page-next-outline"
                 />
-                <Menu.Item onPress={fontSizeMenu} title="Tamanho Fonte" leadingIcon="format-size" />
                 <Menu.Item
                   onPress={() => {
+                    closeAllTools();
+                    setZoomControlVisible(true);
+                    closeMenu();
+                  }}
+                  title="Tamanho Fonte"
+                  leadingIcon="format-size"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
                     setToneNavigationVisible(true);
                     closeMenu();
                   }}
@@ -369,6 +411,7 @@ const HymnDetails = () => {
 
       <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
         <Animated.ScrollView
+          ref={scrollViewRef}
           contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
           onScroll={handleScroll}
           scrollEventThrottle={16}
@@ -382,6 +425,12 @@ const HymnDetails = () => {
               },
             ]}
           >
+            <AutoScrollControl
+              onStartScroll={handleStartScroll}
+              onStopScroll={handleStopScroll}
+              maxHeight={verseHeights[Object.keys(verseHeights).pop() || ""] || 0}
+              timeReference={hymn?.time?.reference || 1}
+            />
             {shouldShowHeader && hymn && (
               <ScoreDetails
                 rhythm={hymn.rhythm}

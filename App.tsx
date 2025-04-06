@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useCallback } from "react";
+import "react-native-reanimated";
 import * as SplashScreen from "expo-splash-screen";
 import { useFonts } from "expo-font";
 import { Provider as ReduxProvider } from "react-redux";
@@ -12,7 +13,6 @@ import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
 import { THEME_DARK, THEME_SYSTEM } from "./src/config/values";
 
-// Keep the splash screen visible while we fetch resources
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
