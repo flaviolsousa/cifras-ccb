@@ -7,17 +7,12 @@ import _ from "lodash";
 interface AutoScrollControlProps {
   onStartScroll: (speed: number) => void;
   onStopScroll: () => void;
-  maxHeight: number;
-  timeReference: number;
 }
 
-const AutoScrollControl = ({ onStartScroll, onStopScroll, maxHeight, timeReference }: AutoScrollControlProps) => {
+const AutoScrollControl = ({ onStartScroll, onStopScroll }: AutoScrollControlProps) => {
   const theme = useTheme();
   const [isScrolling, setIsScrolling] = useState(false);
   const [speed, setSpeed] = useState(50); // Default slider value (50%)
-
-  const minSpeed = maxHeight / (timeReference * 2.5); // Slowest speed
-  const maxSpeed = maxHeight / (timeReference * 0.5); // Fastest speed
 
   const handleOnValueChange = _.debounce((value: number) => {
     setSpeed(value);
@@ -27,8 +22,7 @@ const AutoScrollControl = ({ onStartScroll, onStopScroll, maxHeight, timeReferen
     if (isScrolling) {
       onStopScroll();
     } else {
-      const calculatedSpeed = minSpeed + (speed / 100) * (maxSpeed - minSpeed);
-      onStartScroll(calculatedSpeed);
+      onStartScroll(speed / 100);
     }
     setIsScrolling(!isScrolling);
   };

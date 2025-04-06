@@ -1,7 +1,7 @@
 // src/screens/HymnDetails.tsx
 import "react-native-reanimated";
 import React, { useState, useEffect, useRef } from "react";
-import { Animated, View, StyleSheet, type ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
+import { Animated, Easing, View, StyleSheet, type ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
 import { useTheme, Appbar, IconButton, Menu, FAB, Divider } from "react-native-paper";
 import { type RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { type RootStackParamList } from "../navigation/MainNavigator";
@@ -70,6 +70,7 @@ const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; 
 const HymnDetails = () => {
   const theme = useTheme();
   const FONT_SIZE_INITIAL = 22;
+  const FOOT_HEIGHT = 220;
 
   const route = useRoute<HymnDetailsRouteProp>();
   const navigation = useNavigation<any>();
@@ -101,7 +102,7 @@ const HymnDetails = () => {
 
     scoreDetail: {},
     scoreFooter: {
-      height: 220,
+      height: FOOT_HEIGHT,
     },
     score: {},
     verse: {
@@ -241,6 +242,7 @@ const HymnDetails = () => {
 
   const headerTranslateY = useRef(new Animated.Value(0)).current;
 
+  // Show and hide header based on scroll position
   const showHeader = () => {
     Animated.spring(headerTranslateY, {
       toValue: 0,
@@ -249,7 +251,6 @@ const HymnDetails = () => {
       friction: 8,
     }).start();
   };
-
   const hideHeader = () => {
     Animated.spring(headerTranslateY, {
       toValue: -64,
@@ -258,7 +259,6 @@ const HymnDetails = () => {
       friction: 8,
     }).start();
   };
-
   const handleScroll = Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], {
     useNativeDriver: true,
     listener: (event: any) => {
@@ -328,31 +328,47 @@ const HymnDetails = () => {
   };
 
   const scrollViewRef = useRef<ScrollView>(null);
-  const [autoScrollInterval, setAutoScrollInterval] = useState<NodeJS.Timeout | null>(null);
+  const scrollViewAnimation = useRef(new Animated.Value(0)).current;
+  const [scrollViewHeight, setScrollViewHeight] = useState(0);
+  const [contentHeight, setContentHeight] = useState(0);
 
-  const handleStartScroll = (speed: number) => {
+  scrollViewAnimation.addListener((animation) => {
+    //console.log("scrollViewAnimation 1:", animation.value);
+    scrollViewRef.current?.scrollTo({ y: animation.value, animated: false });
+  });
+  //const [autoScrollInterval, setAutoScrollInterval] = useState<NodeJS.Timeout | null>(null);
+
+  const handleStartAutoScroll = (speed: number) => {
     if (!scrollViewRef.current) return;
+    const maxScroll = contentHeight - scrollViewHeight;
+    const numberVerses = Object.keys(verseHeights).length;
+    const scrollHeight = Object.values(verseHeights).reduce((sum, height) => sum + height, 0) + FOOT_HEIGHT;
+    const timeReference = hymn?.time?.reference || 1;
 
-    console.log("verseHeights:", verseHeights);
-    const scrollHeight = verseHeights[Object.keys(verseHeights).pop() || ""] || 0;
-    const scrollStep = speed / 60; // Pixels per frame (assuming 60 FPS)
+    console.log("---");
+    console.log("2 scrollHeight:", scrollHeight);
+    console.log("2 speed:", speed);
+    console.log("2 timeReference:", timeReference);
+    console.log("2 numberVerses:", numberVerses);
+    console.log("2 maxScroll:", maxScroll);
 
-    setAutoScrollInterval(
-      setInterval(() => {
-        console.log("Scrolling...", scrollHeight);
-        scrollViewRef.current?.scrollTo({
-          y: scrollHeight,
-          animated: true,
-        });
-      }, 1000 / 60),
-    );
+    // const scrollStep = speed / 60; // Pixels per frame (assuming 60 FPS)
+    Animated.timing(scrollViewAnimation, {
+      toValue: maxScroll,
+      duration: 50000, //150000,
+      delay: 500,
+      useNativeDriver: false,
+      easing: Easing.linear,
+    }).start((result) => {
+      if (result.finished) {
+        scrollViewAnimation?.stopAnimation();
+        scrollViewAnimation.setValue(0);
+      }
+    });
   };
-
-  const handleStopScroll = () => {
-    if (autoScrollInterval) {
-      clearInterval(autoScrollInterval);
-      setAutoScrollInterval(null);
-    }
+  const handleStopAutoScroll = () => {
+    scrollViewAnimation?.stopAnimation();
+    scrollViewAnimation.setValue(0);
   };
 
   return (
@@ -414,6 +430,8 @@ const HymnDetails = () => {
           ref={scrollViewRef}
           contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
           onScroll={handleScroll}
+          onLayout={(e: LayoutChangeEvent) => setScrollViewHeight(e.nativeEvent.layout.height)}
+          onContentSizeChange={(contentWidth: number, contentHeight: number) => setContentHeight(contentHeight)}
           scrollEventThrottle={16}
         >
           <View
@@ -425,12 +443,7 @@ const HymnDetails = () => {
               },
             ]}
           >
-            <AutoScrollControl
-              onStartScroll={handleStartScroll}
-              onStopScroll={handleStopScroll}
-              maxHeight={verseHeights[Object.keys(verseHeights).pop() || ""] || 0}
-              timeReference={hymn?.time?.reference || 1}
-            />
+            <AutoScrollControl onStartScroll={handleStartAutoScroll} onStopScroll={handleStopAutoScroll} />
             {shouldShowHeader && hymn && (
               <ScoreDetails
                 rhythm={hymn.rhythm}
