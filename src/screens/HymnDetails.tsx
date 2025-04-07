@@ -328,48 +328,8 @@ const HymnDetails = () => {
   };
 
   const scrollViewRef = useRef<ScrollView>(null);
-  const scrollViewAnimation = useRef(new Animated.Value(0)).current;
   const [scrollViewHeight, setScrollViewHeight] = useState(0);
   const [contentHeight, setContentHeight] = useState(0);
-
-  scrollViewAnimation.addListener((animation) => {
-    //console.log("scrollViewAnimation 1:", animation.value);
-    scrollViewRef.current?.scrollTo({ y: animation.value, animated: false });
-  });
-  //const [autoScrollInterval, setAutoScrollInterval] = useState<NodeJS.Timeout | null>(null);
-
-  const handleStartAutoScroll = (speed: number) => {
-    if (!scrollViewRef.current) return;
-    const maxScroll = contentHeight - scrollViewHeight;
-    const numberVerses = Object.keys(verseHeights).length;
-    const scrollHeight = Object.values(verseHeights).reduce((sum, height) => sum + height, 0) + FOOT_HEIGHT;
-    const timeReference = hymn?.time?.reference || 1;
-
-    console.log("---");
-    console.log("2 scrollHeight:", scrollHeight);
-    console.log("2 speed:", speed);
-    console.log("2 timeReference:", timeReference);
-    console.log("2 numberVerses:", numberVerses);
-    console.log("2 maxScroll:", maxScroll);
-
-    // const scrollStep = speed / 60; // Pixels per frame (assuming 60 FPS)
-    Animated.timing(scrollViewAnimation, {
-      toValue: maxScroll,
-      duration: 50000, //150000,
-      delay: 500,
-      useNativeDriver: false,
-      easing: Easing.linear,
-    }).start((result) => {
-      if (result.finished) {
-        scrollViewAnimation?.stopAnimation();
-        scrollViewAnimation.setValue(0);
-      }
-    });
-  };
-  const handleStopAutoScroll = () => {
-    scrollViewAnimation?.stopAnimation();
-    scrollViewAnimation.setValue(0);
-  };
 
   return (
     <View style={{ ...theme, flex: 1 }}>
@@ -443,7 +403,14 @@ const HymnDetails = () => {
               },
             ]}
           >
-            <AutoScrollControl onStartScroll={handleStartAutoScroll} onStopScroll={handleStopAutoScroll} />
+            <AutoScrollControl
+              scrollViewRef={scrollViewRef}
+              contentHeight={contentHeight}
+              viewportHeight={scrollViewHeight}
+              timeReference={hymn?.time?.reference || 1}
+              verseHeights={verseHeights}
+              footerHeight={FOOT_HEIGHT}
+            />
             {shouldShowHeader && hymn && (
               <ScoreDetails
                 rhythm={hymn.rhythm}
