@@ -86,6 +86,7 @@ const HymnDetails = () => {
 
   const [selectedChord, setSelectedChord] = useState<string | null>(null);
   const [allChords, setAllChords] = useState<string[]>([]);
+  const [autoScrollVisible, setAutoScrollVisible] = useState(false);
 
   const styles = StyleSheet.create({
     content: {
@@ -377,10 +378,32 @@ const HymnDetails = () => {
                   title="Mudar Tom"
                   leadingIcon="pound"
                 />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setAutoScrollVisible(!autoScrollVisible);
+                    closeMenu();
+                  }}
+                  title="Scroll Automático"
+                  leadingIcon="autorenew"
+                />
                 <Divider />
                 <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
               </Menu>
             </Appbar.Header>
+            <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
+              {autoScrollVisible && (
+                <AutoScrollControl
+                  scrollViewRef={scrollViewRef}
+                  contentHeight={contentHeight}
+                  viewportHeight={scrollViewHeight}
+                  timeReference={hymn?.time?.reference || 1}
+                  verseHeights={verseHeights}
+                  footerHeight={FOOT_HEIGHT}
+                  lastScrollYRef={lastScrollY}
+                />
+              )}
+            </View>
           </Animated.View>
         </>
       )}
@@ -399,19 +422,10 @@ const HymnDetails = () => {
               styles.score,
               {
                 marginBottom: fontSizeQuarter,
-                marginTop: shouldShowHeader ? 64 : 0,
+                marginTop: (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
               },
             ]}
           >
-            <AutoScrollControl
-              scrollViewRef={scrollViewRef}
-              contentHeight={contentHeight}
-              viewportHeight={scrollViewHeight}
-              timeReference={hymn?.time?.reference || 1}
-              verseHeights={verseHeights}
-              footerHeight={FOOT_HEIGHT}
-              lastScrollYRef={lastScrollY}
-            />
             {shouldShowHeader && hymn && (
               <ScoreDetails
                 rhythm={hymn.rhythm}

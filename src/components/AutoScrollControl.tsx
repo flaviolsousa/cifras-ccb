@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
 import { IconButton, useTheme } from "react-native-paper";
 import Slider from "@react-native-community/slider";
-import { set } from "lodash";
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView>;
@@ -106,8 +105,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 16,
-    marginBottom: 8,
+    paddingHorizontal: 8, // Reduced padding for compact layout in header
+    paddingStart: 0,
   },
   button: {
     marginRight: 8,
