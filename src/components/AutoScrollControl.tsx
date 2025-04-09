@@ -2,15 +2,16 @@ import React, { useState, useRef, useEffect } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
 import { IconButton, useTheme } from "react-native-paper";
 import Slider from "@react-native-community/slider";
+import _ from "lodash";
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView>;
   contentHeight: number;
   viewportHeight: number;
   timeReference: number;
-  verseHeights: { [key: string]: number };
-  footerHeight: number;
+  fontSize: number;
   lastScrollYRef: React.RefObject<number>;
+  onScrollingChange: (isScrolling: boolean) => void;
 }
 
 const AutoScrollControl = ({
@@ -18,14 +19,20 @@ const AutoScrollControl = ({
   contentHeight,
   viewportHeight,
   timeReference,
-  verseHeights,
-  footerHeight,
+  fontSize,
   lastScrollYRef,
+  onScrollingChange,
 }: AutoScrollControlProps) => {
   const theme = useTheme();
   const [isScrolling, setIsScrolling] = useState(false);
   const [speed, setSpeed] = useState(50);
   const scrollTimer = useRef<NodeJS.Timeout | null>(null);
+  const currentSpeedRef = useRef(speed);
+
+  // Atualiza a ref quando speed mudar
+  useEffect(() => {
+    currentSpeedRef.current = speed;
+  }, [speed]);
 
   // Cleanup timer on unmount
   useEffect(() => {
@@ -33,13 +40,15 @@ const AutoScrollControl = ({
       if (scrollTimer.current) {
         clearTimeout(scrollTimer.current);
       }
+      onScrollingChange(false);
     };
   }, []);
 
   const calculateStep = (speed: number) => {
-    // Base step is 1 pixel, adjusted by speed
-    const baseStep = 0.5;
-    return Math.max(1, baseStep * (speed / 50));
+    const min = 0.2;
+    const max = 1.5;
+    const step = Math.max(min, Math.min(max, (max - min) * (speed / 100) + min));
+    return step;
   };
 
   const scrollStep = () => {
@@ -47,10 +56,12 @@ const AutoScrollControl = ({
 
     const currentPos = lastScrollYRef.current || 0;
     const maxScroll = contentHeight - viewportHeight;
-    const step = calculateStep(speed);
+    const step = calculateStep(currentSpeedRef.current);
+    // console.log(`Current Position: ${currentPos}, Step: ${step}, Max Scroll: ${maxScroll}, Speed: ${currentSpeedRef.current}`);
 
     if (currentPos >= maxScroll) {
       setIsScrolling(false);
+      onScrollingChange(false);
       return;
     }
 
@@ -60,25 +71,24 @@ const AutoScrollControl = ({
     });
 
     // Schedule next step
-    scrollTimer.current = setTimeout(scrollStep, 16); // ~60fps
+    scrollTimer.current = setTimeout(scrollStep, 16); // ~30fps
   };
 
   const handlePlayPause = () => {
-    // setIsScrolling(!isScrolling);
-
     if (!isScrolling) {
       setIsScrolling(true);
-      // Starting scroll
+      onScrollingChange(true); // Notify parent
       scrollStep();
     } else {
-      // Stopping scroll
-      setIsScrolling(false);
       if (scrollTimer.current) {
         clearTimeout(scrollTimer.current);
+        setIsScrolling(false);
       }
+      onScrollingChange(false); // Notify parent
     }
   };
 
+  // Removido o debounce
   const handleSpeedChange = (value: number) => {
     setSpeed(value);
   };
@@ -105,7 +115,7 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
     alignItems: "center",
-    paddingHorizontal: 8, // Reduced padding for compact layout in header
+    paddingHorizontal: 8,
     paddingStart: 0,
   },
   button: {

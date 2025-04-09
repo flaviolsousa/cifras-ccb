@@ -87,6 +87,7 @@ const HymnDetails = () => {
   const [selectedChord, setSelectedChord] = useState<string | null>(null);
   const [allChords, setAllChords] = useState<string[]>([]);
   const [autoScrollVisible, setAutoScrollVisible] = useState(false);
+  const [isAutoScrolling, setIsAutoScrolling] = useState(false);
 
   const styles = StyleSheet.create({
     content: {
@@ -266,7 +267,7 @@ const HymnDetails = () => {
       const currentScrollY = event.nativeEvent.contentOffset.y;
       const deltaY = currentScrollY - lastScrollY.current;
 
-      if (deltaY < 0 && !headerVisible) {
+      if (deltaY < 0 && !headerVisible && !isAutoScrolling) {
         setHeaderVisible(true);
         showHeader();
       } else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
@@ -398,9 +399,9 @@ const HymnDetails = () => {
                   contentHeight={contentHeight}
                   viewportHeight={scrollViewHeight}
                   timeReference={hymn?.time?.reference || 1}
-                  verseHeights={verseHeights}
-                  footerHeight={FOOT_HEIGHT}
+                  fontSize={fontSize}
                   lastScrollYRef={lastScrollY}
+                  onScrollingChange={setIsAutoScrolling}
                 />
               )}
             </View>
