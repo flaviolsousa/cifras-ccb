@@ -410,6 +410,7 @@ const HymnDetails = () => {
               timeReference={hymn?.time?.reference || 1}
               verseHeights={verseHeights}
               footerHeight={FOOT_HEIGHT}
+              lastScrollYRef={lastScrollY}
             />
             {shouldShowHeader && hymn && (
               <ScoreDetails

@@ -1,8 +1,8 @@
-import React, { useState, useRef } from "react";
-import { View, StyleSheet, Animated, ScrollView, Easing } from "react-native";
+import React, { useState, useRef, useEffect } from "react";
+import { View, StyleSheet, ScrollView } from "react-native";
 import { IconButton, useTheme } from "react-native-paper";
 import Slider from "@react-native-community/slider";
-import _ from "lodash";
+import { set } from "lodash";
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView>;
@@ -11,66 +11,77 @@ interface AutoScrollControlProps {
   timeReference: number;
   verseHeights: { [key: string]: number };
   footerHeight: number;
+  lastScrollYRef: React.RefObject<number>;
 }
 
-const AutoScrollControl = ({ scrollViewRef, contentHeight, viewportHeight, timeReference, verseHeights, footerHeight }: AutoScrollControlProps) => {
+const AutoScrollControl = ({
+  scrollViewRef,
+  contentHeight,
+  viewportHeight,
+  timeReference,
+  verseHeights,
+  footerHeight,
+  lastScrollYRef,
+}: AutoScrollControlProps) => {
   const theme = useTheme();
   const [isScrolling, setIsScrolling] = useState(false);
   const [speed, setSpeed] = useState(50);
-  const [posY, setPosY] = useState(0);
-  const scrollAnimation = useRef(new Animated.Value(0)).current;
-  const animation = useRef<Animated.CompositeAnimation | null>(null);
+  const scrollTimer = useRef<NodeJS.Timeout | null>(null);
 
-  // Listen to scroll animation changes
-  scrollAnimation.addListener(({ value }) => {
-    scrollViewRef.current?.scrollTo({ y: value, animated: false });
-    setPosY(value);
-  });
-
-  const handleOnValueChange = _.debounce((value: number) => {
-    setSpeed(value);
-    if (isScrolling) {
-      // Restart animation with new speed while maintaining position
-      startScrollAnimation((scrollAnimation as any).__getValue());
-    }
-  }, 500);
-
-  const startScrollAnimation = (startPosition = 0) => {
-    const maxScroll = contentHeight - viewportHeight;
-    const duration = calculateDuration(maxScroll - startPosition, speed, timeReference);
-
-    animation.current?.stop();
-    scrollAnimation.setValue(startPosition);
-
-    animation.current = Animated.timing(scrollAnimation, {
-      toValue: maxScroll,
-      duration,
-      useNativeDriver: false,
-      easing: Easing.linear,
-    });
-
-    animation.current.start((result) => {
-      if (result.finished) {
-        scrollAnimation.setValue(0);
-        setIsScrolling(false);
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (scrollTimer.current) {
+        clearTimeout(scrollTimer.current);
       }
-    });
+    };
+  }, []);
+
+  const calculateStep = (speed: number) => {
+    // Base step is 1 pixel, adjusted by speed
+    const baseStep = 0.5;
+    return Math.max(1, baseStep * (speed / 50));
   };
 
-  const calculateDuration = (distance: number, speed: number, timeRef: number) => {
-    // Base duration calculation - adjust these values as needed
-    const baseSpeed = 50; // pixels per second at 50% speed
-    const speedFactor = speed / 50;
-    return (distance / (baseSpeed * speedFactor)) * 1000 * timeRef;
+  const scrollStep = () => {
+    if (!scrollViewRef.current) return;
+
+    const currentPos = lastScrollYRef.current || 0;
+    const maxScroll = contentHeight - viewportHeight;
+    const step = calculateStep(speed);
+
+    if (currentPos >= maxScroll) {
+      setIsScrolling(false);
+      return;
+    }
+
+    scrollViewRef.current?.scrollTo({
+      y: currentPos + step,
+      animated: false,
+    });
+
+    // Schedule next step
+    scrollTimer.current = setTimeout(scrollStep, 16); // ~60fps
   };
 
   const handlePlayPause = () => {
-    if (isScrolling) {
-      animation.current?.stop();
+    // setIsScrolling(!isScrolling);
+
+    if (!isScrolling) {
+      setIsScrolling(true);
+      // Starting scroll
+      scrollStep();
     } else {
-      startScrollAnimation(posY);
+      // Stopping scroll
+      setIsScrolling(false);
+      if (scrollTimer.current) {
+        clearTimeout(scrollTimer.current);
+      }
     }
-    setIsScrolling(!isScrolling);
+  };
+
+  const handleSpeedChange = (value: number) => {
+    setSpeed(value);
   };
 
   return (
@@ -78,7 +89,7 @@ const AutoScrollControl = ({ scrollViewRef, contentHeight, viewportHeight, timeR
       <IconButton icon={isScrolling ? "pause" : "play"} onPress={handlePlayPause} style={styles.button} iconColor={theme.colors.primary} />
       <Slider
         value={speed}
-        onValueChange={handleOnValueChange}
+        onValueChange={handleSpeedChange}
         minimumValue={0}
         maximumValue={100}
         step={1}
