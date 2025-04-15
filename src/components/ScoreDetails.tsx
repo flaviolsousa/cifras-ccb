@@ -17,7 +17,7 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
   const rhythm = hymn?.rhythm;
   const tone = hymn?.tone?.selected;
   const toneOriginal = hymn?.tone?.original;
-  const capo = hymn?.tone?.capo;
+  const capo = tone && toneOriginal ? HymnService.getCapoPosition(toneOriginal, tone) : 0;
   const sigN = hymn?.measures?.sigN;
   const sigD = hymn?.measures?.sigD;
   const time = hymn?.time?.text;
@@ -104,7 +104,7 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
             </Pressable>
           )}
 
-          {capo !== undefined && toneOriginal && capo > 0 && (
+          {capo > 0 && (
             <View style={styles.detail}>
               <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
                 Capo:

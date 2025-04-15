@@ -61,6 +61,35 @@ class HymnService {
     };
     return transposedHymn;
   }
+
+  /**
+   * Calcula a posição do capotraste (capo) para transformar o tom original no tom selecionado.
+   * Retorna o número de casas do capo (0 se não for possível ou não necessário).
+   */
+  static getCapoPosition(original: string, selected: string): number {
+    if (!original || !selected) return 0;
+    try {
+      // Lista de tons em ordem de semitons (usando sustenidos)
+      const chromatic = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+      // Normaliza para sustenido
+      const normalize = (tone: string) =>
+        tone.replace(/Db/g, "C#").replace(/Eb/g, "D#").replace(/Gb/g, "F#").replace(/Ab/g, "G#").replace(/Bb/g, "A#");
+
+      const orig = normalize(original);
+      const sel = normalize(selected);
+
+      const origIdx = chromatic.indexOf(orig);
+      const selIdx = chromatic.indexOf(sel);
+
+      if (origIdx === -1 || selIdx === -1) return 0;
+
+      let diff = selIdx - origIdx;
+      if (diff < 0) diff += 12;
+      return diff;
+    } catch {
+      return 0;
+    }
+  }
 }
 
 export default HymnService;
