@@ -1,16 +1,56 @@
 import React, { useState, useRef, useEffect } from "react";
-import { View, StyleSheet, ScrollView } from "react-native";
+import { Animated, Easing, View, StyleSheet, ScrollView } from "react-native";
 import { IconButton, useTheme } from "react-native-paper";
 import Slider from "@react-native-community/slider";
-import _ from "lodash";
+import _, { set } from "lodash";
+import { HymnModel } from "../domain/HymnModel";
+
+function getLettersAndVerses(hymn: HymnModel | null): { countLetters: number; countVerses: number; averageLetters: number } {
+  if (!hymn?.score?.stanzas) return { countLetters: 0, countVerses: 0, averageLetters: 0 };
+  const countLetters = hymn.score.stanzas.reduce((acc, stanza) => {
+    const sumVerses =
+      stanza?.verses?.reduce((vAcc, verse) => {
+        return vAcc + (verse?.lyrics?.length ?? 0);
+      }, 0) ?? 0;
+    return acc + sumVerses;
+  }, 0);
+  const countVerses = hymn.score.stanzas.reduce((acc, stanza) => {
+    return acc + (stanza?.verses?.length ?? 0);
+  }, 0);
+  const averageLetters = countVerses > 0 ? countLetters / countVerses : 0;
+  return { countLetters, countVerses, averageLetters };
+}
+
+function calculateScrollParams(hymn: HymnModel | null, speed: number, fontSize: number): number {
+  const BASE_STEP = 5;
+
+  const speedFactor = 0.5 + (speed / 100) * 1.5; // varia de 0.5 a 2.0
+
+  const timeReference = hymn?.time?.reference ?? 1;
+
+  const FONT_SIZE_REFERENCE = 22;
+  let fontFactor = 1 + (fontSize - FONT_SIZE_REFERENCE) * 0.25;
+
+  const { averageLetters } = getLettersAndVerses(hymn);
+
+  const REFERENCE_LETTERS = 30;
+  let lettersFactor = REFERENCE_LETTERS / Math.max(1, averageLetters);
+
+  const combinedFactor = timeReference * fontFactor * lettersFactor;
+
+  let step = BASE_STEP * combinedFactor * speedFactor;
+
+  return step;
+}
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView>;
   contentHeight: number;
   viewportHeight: number;
-  timeReference: number;
+  hymn: HymnModel | null;
   fontSize: number;
   lastScrollYRef: React.RefObject<number>;
+  scoreTouchingRef: React.RefObject<boolean>;
   onScrollingChange: (isScrolling: boolean) => void;
 }
 
@@ -18,80 +58,125 @@ const AutoScrollControl = ({
   scrollViewRef,
   contentHeight,
   viewportHeight,
-  timeReference,
+  hymn,
   fontSize,
   lastScrollYRef,
+  scoreTouchingRef,
   onScrollingChange,
 }: AutoScrollControlProps) => {
   const theme = useTheme();
+
   const [isScrolling, setIsScrolling] = useState(false);
-  const [speed, setSpeed] = useState(50);
+  const isScrollingRef = useRef(isScrolling);
+  const [speed, setSpeed] = useState(50); // 0..100
   const scrollTimer = useRef<NodeJS.Timeout | null>(null);
   const currentSpeedRef = useRef(speed);
 
-  // Atualiza a ref quando speed mudar
+  const animatedScrollY = useRef(new Animated.Value(0)).current;
+  const animatedListenerRef = useRef<any>(null);
+
   useEffect(() => {
     currentSpeedRef.current = speed;
   }, [speed]);
 
-  // Cleanup timer on unmount
+  useEffect(() => {
+    isScrollingRef.current = isScrolling;
+  }, [isScrolling]);
+
   useEffect(() => {
     return () => {
       if (scrollTimer.current) {
         clearTimeout(scrollTimer.current);
       }
+      if (animatedListenerRef.current) {
+        animatedScrollY.removeListener(animatedListenerRef.current);
+      }
+      isScrollingRef.current = false;
       onScrollingChange(false);
     };
   }, []);
-
-  const calculateStep = (speed: number) => {
-    const min = 0.2;
-    const max = 1.5;
-    const step = Math.max(min, Math.min(max, (max - min) * (speed / 100) + min));
-    return step;
-  };
 
   const scrollStep = () => {
     if (!scrollViewRef.current) return;
 
     const currentPos = lastScrollYRef.current || 0;
     const maxScroll = contentHeight - viewportHeight;
-    const step = calculateStep(currentSpeedRef.current);
-    // console.log(`Current Position: ${currentPos}, Step: ${step}, Max Scroll: ${maxScroll}, Speed: ${currentSpeedRef.current}`);
 
-    if (currentPos >= maxScroll) {
-      setIsScrolling(false);
-      onScrollingChange(false);
-      return;
+    const step = calculateScrollParams(hymn, currentSpeedRef.current, fontSize);
+
+    if (currentPos >= maxScroll) return pause();
+
+    if (animatedListenerRef.current) {
+      animatedScrollY.removeListener(animatedListenerRef.current);
     }
 
-    scrollViewRef.current?.scrollTo({
-      y: currentPos + step,
-      animated: false,
+    animatedScrollY.setValue(currentPos);
+
+    animatedListenerRef.current = animatedScrollY.addListener(({ value }) => {
+      if (scrollViewRef.current) {
+        if (!scoreTouchingRef.current) {
+          scrollViewRef.current?.scrollTo({ y: value, animated: false });
+        } else {
+          pause();
+          waitToUnpause();
+        }
+      }
     });
 
-    // Schedule next step
-    scrollTimer.current = setTimeout(scrollStep, 16); // ~30fps
+    Animated.timing(animatedScrollY, {
+      toValue: Math.min(currentPos + step, maxScroll),
+      duration: 1000,
+      easing: Easing.linear,
+      delay: 0,
+      useNativeDriver: false,
+    }).start(() => {
+      if (animatedListenerRef.current) {
+        animatedScrollY.removeListener(animatedListenerRef.current);
+        animatedListenerRef.current = null;
+      }
+      if (isScrollingRef.current) {
+        scrollTimer.current = setTimeout(scrollStep, 0);
+      }
+    });
+  };
+
+  const waitToUnpause = () => {
+    if (scoreTouchingRef.current) {
+      setTimeout(waitToUnpause, 200);
+    } else {
+      play();
+    }
+  };
+
+  const pause = () => {
+    if (scrollTimer.current) {
+      clearTimeout(scrollTimer.current);
+    }
+    if (animatedListenerRef.current) {
+      animatedScrollY.removeListener(animatedListenerRef.current);
+      animatedListenerRef.current = null;
+    }
+    setIsScrolling(false);
+    onScrollingChange(false);
+  };
+
+  const play = () => {
+    if (!isScrollingRef.current) {
+      setIsScrolling(true);
+      onScrollingChange(true);
+      scrollStep();
+    }
   };
 
   const handlePlayPause = () => {
-    if (!isScrolling) {
-      setIsScrolling(true);
-      onScrollingChange(true); // Notify parent
-      scrollStep();
+    if (!isScrollingRef.current) {
+      play();
     } else {
-      if (scrollTimer.current) {
-        clearTimeout(scrollTimer.current);
-        setIsScrolling(false);
-      }
-      onScrollingChange(false); // Notify parent
+      pause();
     }
   };
 
-  // Removido o debounce
-  const handleSpeedChange = (value: number) => {
-    setSpeed(value);
-  };
+  const handleSpeedChange = _.debounce((value: number) => setSpeed(value), 300);
 
   return (
     <View style={styles.container}>

@@ -5,7 +5,6 @@ import { Animated, Easing, View, StyleSheet, type ScrollView, Text, Platform, ty
 import { useTheme, Appbar, IconButton, Menu, FAB, Divider } from "react-native-paper";
 import { type RouteProp, useRoute, useNavigation } from "@react-navigation/native";
 import { type RootStackParamList } from "../navigation/MainNavigator";
-import { PinchGestureHandler, type PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
@@ -70,7 +69,7 @@ const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; 
 const HymnDetails = () => {
   const theme = useTheme();
   const FONT_SIZE_INITIAL = 22;
-  const FOOT_HEIGHT = 220;
+  const FOOT_HEIGHT = 300;
 
   const route = useRoute<HymnDetailsRouteProp>();
   const navigation = useNavigation<any>();
@@ -80,13 +79,13 @@ const HymnDetails = () => {
   const [fontSize, setFontSize] = useState(FONT_SIZE_INITIAL);
   const [fontSizeQuarter, setFontSizeQuarter] = useState(Math.floor(FONT_SIZE_INITIAL / 4));
   const [fontSizeDouble, setFontSizeDouble] = useState(Math.floor(FONT_SIZE_INITIAL * 2));
-  const [fontSizeReference, setFontSizeReference] = useState(FONT_SIZE_INITIAL);
+
   const isPortrait = useOrientation();
   const [verseHeights, setVerseHeights] = useState<{ [key: string]: number }>({});
 
   const [selectedChord, setSelectedChord] = useState<string | null>(null);
   const [allChords, setAllChords] = useState<string[]>([]);
-  const [autoScrollVisible, setAutoScrollVisible] = useState(false);
+  const [autoScrollVisible, setAutoScrollVisible] = useState(true);
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
 
   const styles = StyleSheet.create({
@@ -210,19 +209,6 @@ const HymnDetails = () => {
     zoomControlAction = "decreaseFontSize";
   };
 
-  const onPinchEvent = (event: PinchGestureHandlerGestureEvent) => {
-    if (event.nativeEvent.scale) {
-      const fontMinSize = 10;
-      const fontMaxSize = 90;
-      let fontSize = Math.floor(Math.max(fontMinSize, Math.min(fontMaxSize, fontSizeReference * event.nativeEvent.scale)));
-      setFontSize(fontSize);
-    }
-  };
-  const onPinchStateEvent = (event: HandlerStateChangeEvent) => {
-    if (event.nativeEvent.state === State.ACTIVE) {
-      setFontSizeReference(fontSize);
-    }
-  };
   const onVerseLayout = (event: LayoutChangeEvent, stanzaIndex: number, verseIndex: number) => {
     const { height } = event.nativeEvent.layout;
     setVerseHeights((prev) => ({
@@ -274,10 +260,13 @@ const HymnDetails = () => {
         setHeaderVisible(false);
         hideHeader();
       }
-
       lastScrollY.current = currentScrollY;
     },
   });
+
+  const scoreTouchingRef = useRef<boolean>(false);
+  const handleTouchStart = () => (scoreTouchingRef.current = true);
+  const handleTouchEnd = () => setTimeout(() => (scoreTouchingRef.current = false), 500);
 
   const [navigationVisible, setNavigationVisible] = useState(false);
   const [toneNavigationVisible, setToneNavigationVisible] = useState(false);
@@ -398,9 +387,10 @@ const HymnDetails = () => {
                   scrollViewRef={scrollViewRef}
                   contentHeight={contentHeight}
                   viewportHeight={scrollViewHeight}
-                  timeReference={hymn?.time?.reference || 1}
+                  hymn={hymn}
                   fontSize={fontSize}
                   lastScrollYRef={lastScrollY}
+                  scoreTouchingRef={scoreTouchingRef}
                   onScrollingChange={setIsAutoScrolling}
                 />
               )}
@@ -409,104 +399,106 @@ const HymnDetails = () => {
         </>
       )}
 
-      <PinchGestureHandler onGestureEvent={onPinchEvent} onHandlerStateChange={onPinchStateEvent}>
-        <Animated.ScrollView
-          ref={scrollViewRef}
-          contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
-          onScroll={handleScroll}
-          onLayout={(e: LayoutChangeEvent) => setScrollViewHeight(e.nativeEvent.layout.height)}
-          onContentSizeChange={(contentWidth: number, contentHeight: number) => setContentHeight(contentHeight)}
-          scrollEventThrottle={16}
+      <Animated.ScrollView
+        ref={scrollViewRef}
+        contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
+        onScroll={handleScroll}
+        onLayout={(e: LayoutChangeEvent) => setScrollViewHeight(e.nativeEvent.layout.height)}
+        onContentSizeChange={(contentWidth: number, contentHeight: number) => setContentHeight(contentHeight)}
+        scrollEventThrottle={1}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        onScrollBeginDrag={handleTouchStart}
+        onScrollEndDrag={handleTouchEnd}
+      >
+        <View
+          style={[
+            styles.score,
+            {
+              marginBottom: fontSizeQuarter,
+              marginTop: (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
+            },
+          ]}
         >
-          <View
-            style={[
-              styles.score,
-              {
-                marginBottom: fontSizeQuarter,
-                marginTop: (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
-              },
-            ]}
-          >
-            {shouldShowHeader && hymn && (
-              <ScoreDetails
-                rhythm={hymn.rhythm}
-                tone={hymn.tone}
-                toneOriginal={hymn.toneOriginal}
-                capo={1}
-                onToneChange={handleToneChange}
-                sigN={hymn.measures?.sigN}
-                sigD={hymn.measures?.sigD}
-                time={hymn.time?.text}
-              />
-            )}
-            <Divider />
-            {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
-              <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
-                <View key={`stanza-label-${stanzaIndex}`} style={[styles.stanzaLabelContainer]}>
-                  <Text
-                    style={[
-                      styles.stanzaLabel,
-                      {
-                        color: theme.colors.secondary,
-                        backgroundColor: theme.colors.elevation.level2,
-                      },
-                    ]}
-                  >
-                    {stanza.type == "chorus" ? "Coro" : stanza.code}
-                  </Text>
-                </View>
-                <View key={`${stanzaIndex}`} style={[styles.stanza, { marginBottom: fontSize, width: 100 }]}>
-                  {stanza.verses?.map((verse, verseIndex) => {
-                    const verseKey = `${stanzaIndex}-${verseIndex}`;
-                    const verseHeight = verseHeights[verseKey] || fontSizeDouble;
+          {shouldShowHeader && hymn && (
+            <ScoreDetails
+              rhythm={hymn.rhythm}
+              tone={hymn.tone}
+              toneOriginal={hymn.toneOriginal}
+              capo={1}
+              onToneChange={handleToneChange}
+              sigN={hymn.measures?.sigN}
+              sigD={hymn.measures?.sigD}
+              time={hymn.time?.text}
+            />
+          )}
+          <Divider />
+          {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
+            <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
+              <View key={`stanza-label-${stanzaIndex}`} style={[styles.stanzaLabelContainer]}>
+                <Text
+                  style={[
+                    styles.stanzaLabel,
+                    {
+                      color: theme.colors.secondary,
+                      backgroundColor: theme.colors.elevation.level2,
+                    },
+                  ]}
+                >
+                  {stanza.type == "chorus" ? "Coro" : stanza.code}
+                </Text>
+              </View>
+              <View key={`${stanzaIndex}`} style={[styles.stanza, { marginBottom: fontSize, width: 100 }]}>
+                {stanza.verses?.map((verse, verseIndex) => {
+                  const verseKey = `${stanzaIndex}-${verseIndex}`;
+                  const verseHeight = verseHeights[verseKey] || fontSizeDouble;
 
-                    return (
-                      <View
-                        key={verseKey}
+                  return (
+                    <View
+                      key={verseKey}
+                      style={[
+                        styles.verse,
+                        {
+                          height: verseHeight,
+                          marginBottom: fontSize,
+                        },
+                      ]}
+                    >
+                      <StyledChordText
+                        text={verse.chords}
                         style={[
-                          styles.verse,
+                          styles.chord,
                           {
-                            height: verseHeight,
-                            marginBottom: fontSize,
+                            fontSize: fontSize,
+                            lineHeight: fontSizeDouble,
                           },
                         ]}
-                      >
-                        <StyledChordText
-                          text={verse.chords}
-                          style={[
-                            styles.chord,
-                            {
-                              fontSize: fontSize,
-                              lineHeight: fontSizeDouble,
-                            },
-                          ]}
-                          styleSelected={styles.chordSelected}
-                          onChordPress={handleChordPress}
-                          selectedChord={selectedChord}
-                        />
-                        <StyledLyricText
-                          text={verse.lyrics}
-                          style={[
-                            styles.lyric,
-                            {
-                              top: fontSize,
-                              fontSize: fontSize,
-                              lineHeight: fontSizeDouble,
-                            },
-                          ]}
-                          onLayout={(e: LayoutChangeEvent) => onVerseLayout(e, stanzaIndex, verseIndex)}
-                        />
-                      </View>
-                    );
-                  })}
-                </View>
+                        styleSelected={styles.chordSelected}
+                        onChordPress={handleChordPress}
+                        selectedChord={selectedChord}
+                      />
+                      <StyledLyricText
+                        text={verse.lyrics}
+                        style={[
+                          styles.lyric,
+                          {
+                            top: fontSize,
+                            fontSize: fontSize,
+                            lineHeight: fontSizeDouble,
+                          },
+                        ]}
+                        onLayout={(e: LayoutChangeEvent) => onVerseLayout(e, stanzaIndex, verseIndex)}
+                      />
+                    </View>
+                  );
+                })}
               </View>
-            ))}
-            <Divider />
-            <View style={styles.scoreFooter}></View>
-          </View>
-        </Animated.ScrollView>
-      </PinchGestureHandler>
+            </View>
+          ))}
+          <Divider />
+          <View style={styles.scoreFooter}></View>
+        </View>
+      </Animated.ScrollView>
       <HymnNavigate
         visible={navigationVisible}
         onClose={() => setNavigationVisible(false)}
