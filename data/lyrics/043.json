@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Trema o céu, a terra, o mar",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nada jamais me faltará",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

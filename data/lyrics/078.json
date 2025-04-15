@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glória a Jesus! Glória a Jesus!",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

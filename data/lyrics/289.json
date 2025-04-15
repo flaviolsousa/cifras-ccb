@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Avante, sempre avante",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jesus é a Luz que veio ao mundo...",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

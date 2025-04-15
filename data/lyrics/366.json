@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Pela fé tereis vitória",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

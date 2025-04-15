@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vamos produzir frutos de louvor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

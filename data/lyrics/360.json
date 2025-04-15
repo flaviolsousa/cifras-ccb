@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Do mal apartados devemos estar",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

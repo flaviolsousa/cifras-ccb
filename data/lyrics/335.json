@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eu almejo nessa pátria entrar",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

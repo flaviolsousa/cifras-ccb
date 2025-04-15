@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Um tesouro glorioso achei",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

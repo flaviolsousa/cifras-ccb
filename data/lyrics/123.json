@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Jesus, és meu Guardião",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

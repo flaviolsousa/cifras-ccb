@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quão amável é a Tua casa",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

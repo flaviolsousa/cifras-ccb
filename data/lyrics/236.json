@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Há um lugar de eterna paz",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

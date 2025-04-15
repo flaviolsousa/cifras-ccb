@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sou servo inútil, ó Deus piedoso",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

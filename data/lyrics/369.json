@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sentes bater em teu coração?",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

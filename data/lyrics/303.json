@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Senhor não mudará",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

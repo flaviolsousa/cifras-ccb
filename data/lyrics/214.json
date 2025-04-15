@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Como foi para os céus, assim virá",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

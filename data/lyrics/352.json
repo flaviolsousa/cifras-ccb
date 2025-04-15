@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sinto viva esperança",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Mais grato a Ti",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

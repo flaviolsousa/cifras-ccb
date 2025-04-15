@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "chord-transposer": "^3.0.9",
     "jsdom": "^26.0.0"
   }
 }

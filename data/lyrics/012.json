@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sempre em Jesus confiarei",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

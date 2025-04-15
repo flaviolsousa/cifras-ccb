@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Granjeai, granjeai os talentos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

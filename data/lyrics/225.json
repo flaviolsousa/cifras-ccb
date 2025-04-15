@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Senhor, com Tua voz me chamas",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

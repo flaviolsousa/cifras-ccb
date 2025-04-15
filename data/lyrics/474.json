@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Glória! Bendito é o Senhor!",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

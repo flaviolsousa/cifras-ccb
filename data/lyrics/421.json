@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Recorda, por fé, minha alma",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

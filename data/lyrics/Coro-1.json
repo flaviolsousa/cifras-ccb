@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Aleluia! Aleluia!",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

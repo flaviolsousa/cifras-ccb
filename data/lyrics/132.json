@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eis-me, Senhor, aos Teus pés",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Se, de Cristo, o Nome amares",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

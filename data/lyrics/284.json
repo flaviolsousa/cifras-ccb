@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Louvor nos céus altíssimos",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

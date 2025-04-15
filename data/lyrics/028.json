@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Para o ceú marchemos",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

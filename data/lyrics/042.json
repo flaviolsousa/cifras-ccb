@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó minha alma, por que te abates?",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

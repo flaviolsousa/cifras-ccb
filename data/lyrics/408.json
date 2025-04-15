@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jesus Cristo é o Pão celeste",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

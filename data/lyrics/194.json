@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "\"Vós chorareis e vos lamentareis\"",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

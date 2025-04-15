@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glória! Aleluia! Sinto Jesus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

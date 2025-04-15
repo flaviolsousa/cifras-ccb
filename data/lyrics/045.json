@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Quanto nos amaste!",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

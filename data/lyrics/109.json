@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vem, ó Senhor, ajudar-me",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

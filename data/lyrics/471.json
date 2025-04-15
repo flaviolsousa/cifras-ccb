@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Que grande bem é andar com Cristo!",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

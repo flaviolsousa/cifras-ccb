@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O divinal Cordeiro",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

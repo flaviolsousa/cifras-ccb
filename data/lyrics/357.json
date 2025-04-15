@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Face a face O verei",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

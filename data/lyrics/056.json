@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Põe em Deus a confiança",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

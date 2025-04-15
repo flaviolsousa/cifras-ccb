@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sem tardar, vai a Cristo",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

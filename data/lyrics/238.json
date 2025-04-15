@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu servo ouve; fala, Senhor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

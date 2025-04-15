@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo salvou-me",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

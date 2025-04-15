@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cansado estás? Vem a Jesus",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

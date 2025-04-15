@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Senhor, és minha Vida",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

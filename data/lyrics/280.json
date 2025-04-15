@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "De Deus a armadura",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

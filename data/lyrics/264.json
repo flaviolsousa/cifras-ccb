@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Redentor celeste e santo",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo Jesus chama os Seus",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

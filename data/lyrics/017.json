@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Senhor, vem visitar-me",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Só em Cristo, só em Cristo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

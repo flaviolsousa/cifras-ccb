@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Regozijo-me em falar do Salvador",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

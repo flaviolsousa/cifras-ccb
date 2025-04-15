@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Se fores tentado",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

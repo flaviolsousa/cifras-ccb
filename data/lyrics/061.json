@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A minha alma deseja ver-Te",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

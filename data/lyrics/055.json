@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Paz seja em vós",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

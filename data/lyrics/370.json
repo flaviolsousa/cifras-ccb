@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Têm os santos do Senhor",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

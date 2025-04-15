@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Benignidade eterna é a de Deus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

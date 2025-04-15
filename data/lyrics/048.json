@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Creio no Senhor",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

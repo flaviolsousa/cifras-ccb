@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Teu poder supremo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

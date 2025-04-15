@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Salvo estou por Jesus",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

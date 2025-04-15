@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A Ti, Deus, eu consagrei-me",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

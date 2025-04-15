@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sempre a Cristo fiéis",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

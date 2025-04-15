@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Senhor seja louvado",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

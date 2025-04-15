@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Com fé espera no Senhor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

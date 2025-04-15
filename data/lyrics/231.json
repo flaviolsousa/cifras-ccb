@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Provemos, irmãos, do amor do Senhor",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

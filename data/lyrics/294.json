@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Avante! Coragem! Marchemos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

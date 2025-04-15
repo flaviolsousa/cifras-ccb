@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Brilha mais e mais",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

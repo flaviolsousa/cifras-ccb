@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Se vós baterdes, Ele vos abre",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

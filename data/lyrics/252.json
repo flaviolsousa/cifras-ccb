@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Exaltação ao Deus Onipotente!",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

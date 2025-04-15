@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Deus bendito",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

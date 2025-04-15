@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Peregrino sou no mundo",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

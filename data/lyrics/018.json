@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "É Jesus meu Refúgio",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

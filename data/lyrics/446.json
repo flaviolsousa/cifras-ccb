@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vós, ó jovens do Senhor",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

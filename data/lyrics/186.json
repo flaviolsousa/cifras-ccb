@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo, Luz do mundo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nós somos luz do mundo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

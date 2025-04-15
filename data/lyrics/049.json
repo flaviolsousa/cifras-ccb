@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Venho adorar-Te, santo Criador",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

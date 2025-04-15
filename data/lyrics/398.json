@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Não tardará a volta do Senhor",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

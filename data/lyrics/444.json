@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó meninos, exaltemos",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Só por Cristo temos salvação",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

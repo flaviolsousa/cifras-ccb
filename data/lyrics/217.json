@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vamos, unidos, a Deus louvar",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

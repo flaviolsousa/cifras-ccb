@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Que grande amor!",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

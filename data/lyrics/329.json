@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Com fé combate",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

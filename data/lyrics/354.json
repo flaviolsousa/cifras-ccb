@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jerusalém celestial!",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

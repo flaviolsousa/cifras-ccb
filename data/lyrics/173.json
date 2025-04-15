@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Para ouvir aqui estamos",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

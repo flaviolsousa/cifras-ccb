@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Volta ao teu lar Paternal!",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

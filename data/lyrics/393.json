@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó bom Jesus, meu caro Jesus",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

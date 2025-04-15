@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Irmãos amados",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

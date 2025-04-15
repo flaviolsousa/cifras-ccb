@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "De Deus veio a Luz",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

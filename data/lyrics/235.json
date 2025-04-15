@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Um amor imenso",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

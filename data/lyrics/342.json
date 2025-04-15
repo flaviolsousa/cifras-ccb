@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sião celestial",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

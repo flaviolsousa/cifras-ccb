@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Quanto é bom louvarmos",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

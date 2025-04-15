@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Por Ti vivo, ó Deus potente",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

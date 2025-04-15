@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quão fiel promessa Jesus nos fez",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

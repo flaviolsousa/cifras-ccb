@@ -28,13 +28,19 @@ export interface Score {
   stanzas: Stanza[];
 }
 
+export interface Tone {
+  original: string;
+  recommended: string;
+  selected: string;
+  capo: number;
+}
+
 export interface HymnModel {
   version: string;
   code: string;
   title: string;
   difficulty: number;
-  tone: string;
-  toneOriginal: string;
+  tone: Tone;
   rhythm: string;
   content?: string[];
   score: Score;
@@ -45,10 +51,14 @@ export interface HymnModel {
 
 // Add helper functions for tone transposition
 export function normalizeHymnTone(hymn: HymnModel): HymnModel {
-  if (!hymn.toneOriginal) {
+  if (!hymn.tone.original) {
     return {
       ...hymn,
-      toneOriginal: hymn.tone,
+      tone: {
+        ...hymn.tone,
+        original: hymn.tone.original || hymn.tone.recommended,
+        selected: hymn.tone.selected || hymn.tone.recommended,
+      },
     };
   }
   return hymn;

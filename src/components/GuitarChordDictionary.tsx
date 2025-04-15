@@ -3,7 +3,7 @@ import { ChordDictionary } from "../domain/ChordDictionary";
 export const chordDictionary: ChordDictionary = {
   // Acordes de A
   A: { frets: [0, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
-  "A#°": { frets: [1, 2, 3, 1, -1, -1], fingers: [1, 2, 3, 1, 0, 0] },
+  "A#°": { frets: [0, 1, 2, 0, 2, 0], fingers: [0, 1, 2, 0, 3, 0] },
   A7: { frets: [0, 0, 2, 0, 2, 0], fingers: [0, 0, 2, 0, 3, 0] },
   A9: { frets: [0, 0, 2, 4, 2, 0], fingers: [0, 0, 1, 3, 2, 0] },
   Am: { frets: [0, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },

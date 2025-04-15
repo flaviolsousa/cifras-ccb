@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Que prazer é andar com Cristo",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

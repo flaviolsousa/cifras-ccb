@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Água viva",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

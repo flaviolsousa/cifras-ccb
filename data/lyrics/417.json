@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Recordemo-nos sempre do Mestre",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

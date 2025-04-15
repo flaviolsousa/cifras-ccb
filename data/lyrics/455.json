@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quão ditoso é caminhar com Jesus!",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

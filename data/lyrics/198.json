@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nosso Pai celeste sabe e provê",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

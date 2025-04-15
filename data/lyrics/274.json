@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Na plenitude estarei",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

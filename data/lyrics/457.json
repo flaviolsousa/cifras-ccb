@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Comigo está Jesus",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

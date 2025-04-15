@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Irmãos, já resgatados",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

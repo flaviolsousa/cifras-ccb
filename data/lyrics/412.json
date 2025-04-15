@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Senhor, recordamos aqui...",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

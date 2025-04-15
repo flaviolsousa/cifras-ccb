@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eis que multidão mui grande",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

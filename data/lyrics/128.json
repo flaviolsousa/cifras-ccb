@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu filho sou, ó Criador",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

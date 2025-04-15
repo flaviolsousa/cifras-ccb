@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Do mal o Salvador veio me tirar",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

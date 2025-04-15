@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Amo ao Senhor",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

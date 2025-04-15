@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vivo na graça",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Pela fé uma vez...",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

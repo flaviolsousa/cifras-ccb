@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A Jesus eu cantarei louvor",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nossa Esperança é Jesus",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

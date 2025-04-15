@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu destino é a glória",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

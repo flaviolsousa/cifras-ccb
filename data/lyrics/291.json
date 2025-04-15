@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Irmãos, avante, avante!",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

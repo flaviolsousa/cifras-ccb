@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vamos com Jesus",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

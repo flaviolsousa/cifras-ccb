@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Divina Fonte é Jesus",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

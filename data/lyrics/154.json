@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Terá que renascer",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

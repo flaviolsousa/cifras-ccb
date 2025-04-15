@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A família de Jesus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Deste mundo mais nada esperarei",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

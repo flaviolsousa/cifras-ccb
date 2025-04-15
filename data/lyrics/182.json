@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Brevemente retornará Jesus Cristo",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

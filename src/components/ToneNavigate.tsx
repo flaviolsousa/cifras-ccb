@@ -1,17 +1,18 @@
 import React from "react";
-import { StyleSheet } from "react-native";
 import { useTheme, FAB } from "react-native-paper";
 import { transpose } from "chord-transposer";
-import themes from "../config/Theme/theme";
+import { HymnModel } from "../domain/HymnModel";
+import HymnService from "../services/Hymn/HymnService";
 
 interface ToneNavigateProps {
+  hymn: HymnModel;
   visible: boolean;
   onClose: () => void;
-  onToneChange: (newTone: string) => void;
+  onToneChange: (transposedHymn: HymnModel) => void;
   currentTone: string;
 }
 
-const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
+const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
   const theme = useTheme();
 
   // const styles = StyleSheet.create({});
@@ -19,7 +20,8 @@ const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavig
   const handleToneUp = () => {
     try {
       const newTone = transpose(currentTone).up(1).toString();
-      onToneChange(newTone);
+      const transposedHymn = HymnService.transposeHymn(hymn, newTone);
+      onToneChange(transposedHymn);
     } catch (e) {
       console.error(e);
     }
@@ -28,7 +30,8 @@ const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavig
   const handleToneDown = () => {
     try {
       const newTone = transpose(currentTone).down(1).toString();
-      onToneChange(newTone);
+      const transposedHymn = HymnService.transposeHymn(hymn, newTone);
+      onToneChange(transposedHymn);
     } catch (e) {
       console.error(e);
     }
@@ -39,7 +42,7 @@ const ToneNavigate = ({ visible, onClose, onToneChange, currentTone }: ToneNavig
       open={visible}
       visible={visible}
       icon="close"
-      backdropColor="rgba(255,255,255,0.2)"
+      backdropColor="rgba(255,255,255,0.35)"
       actions={[
         {
           icon: "plus",

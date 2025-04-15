@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Grandes promessas",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

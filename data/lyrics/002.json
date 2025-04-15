@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "De Deus tu és eleita",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

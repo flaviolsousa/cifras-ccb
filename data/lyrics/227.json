@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Procuras tu ao Salvador?",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Bendito seja o Deus vivente",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

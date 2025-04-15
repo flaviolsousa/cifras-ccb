@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Senhor, vem selar-nos",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Na cruz morreu o Cordeiro",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

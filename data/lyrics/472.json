@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glorificarei, glorificarei",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

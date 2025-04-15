@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo entrou nos céus primeiro",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

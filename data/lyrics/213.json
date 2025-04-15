@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quando vier do céu",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

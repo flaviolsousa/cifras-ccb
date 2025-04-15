@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vigiai, irmãos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

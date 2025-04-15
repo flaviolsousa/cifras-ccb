@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nome precioso para mim",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

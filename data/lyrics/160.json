@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "\"Sou o Caminho, a Verdade e a Vida\"",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

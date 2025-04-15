@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Um culto santo ao Senhor",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

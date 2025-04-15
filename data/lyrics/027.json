@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Senhor é minha Luz",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Em nome de Jesus",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

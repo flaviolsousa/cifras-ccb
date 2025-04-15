@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Faz-nos ouvir Tua voz",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

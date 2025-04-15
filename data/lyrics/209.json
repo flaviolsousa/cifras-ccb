@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Marchai, soldados",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

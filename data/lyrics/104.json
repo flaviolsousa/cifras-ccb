@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Santo, Santo és, Senhor",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

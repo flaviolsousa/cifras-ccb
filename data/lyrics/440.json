@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Lembra-te do teu Criador!",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

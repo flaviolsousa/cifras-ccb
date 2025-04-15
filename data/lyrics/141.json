@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo, o Verbo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Luz aos meus pés é a Tua Palavra",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

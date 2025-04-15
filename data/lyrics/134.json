@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu amor, ó Cordeiro divinal",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

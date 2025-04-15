@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vamos, ó irmãos, marchar",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

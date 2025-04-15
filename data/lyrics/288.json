@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó irmãos, com Cristo avante",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

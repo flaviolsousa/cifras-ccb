@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Alegrei-me quando me disseram...",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

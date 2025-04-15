@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vem, vem consolar-me",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

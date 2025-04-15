@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Santo! Santo! Santo!",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": []
   }

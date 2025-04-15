@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A Ti rendemos graças",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

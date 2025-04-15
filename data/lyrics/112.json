@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sigamos sempre ao Senhor",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jovens, amai o conselho",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

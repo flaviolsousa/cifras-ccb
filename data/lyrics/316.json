@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Tua vida é triste?",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

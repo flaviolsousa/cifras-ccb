@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nós Te louvamos, ó Rei dos reis",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

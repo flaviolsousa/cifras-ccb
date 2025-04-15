@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Toda a criança...",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

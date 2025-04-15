@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ontem, hoje e eternamente",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

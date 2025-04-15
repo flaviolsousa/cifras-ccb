@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Com Jesus, eternamente viverei",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

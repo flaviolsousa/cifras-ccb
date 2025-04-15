@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Tudo o que nos falta",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

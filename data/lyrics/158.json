@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Meu lar está no céu",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

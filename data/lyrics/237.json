@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Deus é por mim",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

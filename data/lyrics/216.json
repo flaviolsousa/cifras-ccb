@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Irmãos, amemos ao Senhor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

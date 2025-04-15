@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Grande é o Teu poder, Senhor",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

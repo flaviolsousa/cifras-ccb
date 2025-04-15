@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Senhor Jesus, Tu és o meu Rochedo",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

@@ -98,7 +98,7 @@ preTags.forEach((preTag) => {
       const lines = content.split("\n");
 
       const toneLineIndex = lines.findIndex((line) => line.startsWith("Tom: "));
-      const tone = lines[toneLineIndex].replace("Tom: ", "");
+      const tone = { recommended: lines[toneLineIndex].replace("Tom: ", "") };
       lines.splice(toneLineIndex, 1);
 
       enrichLines(lines);

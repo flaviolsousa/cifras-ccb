@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Amados, não temamos",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

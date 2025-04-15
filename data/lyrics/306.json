@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Bendizei ao Altíssimo Deus",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

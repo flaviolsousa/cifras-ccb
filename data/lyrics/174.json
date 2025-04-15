@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vem atender ao Seu chamado",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

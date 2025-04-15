@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu Nome é soberano, ó Redentor",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

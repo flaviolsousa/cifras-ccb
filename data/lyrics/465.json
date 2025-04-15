@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Deus tem por nós imenso amor",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

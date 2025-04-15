@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo é a Estrela",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

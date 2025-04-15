@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Galardão nos espera",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

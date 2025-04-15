@@ -29,7 +29,7 @@ const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate
       open={visible}
       visible={visible}
       icon="close"
-      backdropColor="rgba(255,255,255,0.2)"
+      backdropColor="rgba(255,255,255,0.35)"
       actions={[
         {
           icon: "chevron-right",

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Senhor Jesus te chama",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

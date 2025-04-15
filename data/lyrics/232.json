@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Seguro estou...",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

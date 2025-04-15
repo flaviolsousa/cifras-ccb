@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Bom é estarmos nós aqui",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

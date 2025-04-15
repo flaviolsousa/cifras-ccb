@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Prossegui vitoriosos em Cristo",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

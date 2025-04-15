@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo é fiel",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

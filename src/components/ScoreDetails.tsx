@@ -2,21 +2,25 @@ import React, { useState } from "react";
 import { View, StyleSheet, Pressable } from "react-native";
 import { Text, useTheme } from "react-native-paper";
 import ToneSelector from "./ToneSelector";
+import { HymnModel } from "../domain/HymnModel";
+import HymnService from "../services/Hymn/HymnService";
 
 interface ScoreDetailsProps {
-  rhythm: string;
-  tone: string;
-  toneOriginal: string;
-  capo: number;
-  onToneChange?: (newTone: string) => void;
-  sigN?: number;
-  sigD?: number;
-  time?: string;
+  hymn: HymnModel;
+  onToneChange: (transposedHymn: HymnModel) => void;
 }
 
-const ScoreDetails = ({ rhythm, tone, toneOriginal, capo, onToneChange, sigN, sigD, time }: ScoreDetailsProps) => {
+const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
   const theme = useTheme();
   const [toneSelectorVisible, setToneSelectorVisible] = useState(false);
+
+  const rhythm = hymn?.rhythm;
+  const tone = hymn?.tone?.selected;
+  const toneOriginal = hymn?.tone?.original;
+  const capo = hymn?.tone?.capo;
+  const sigN = hymn?.measures?.sigN;
+  const sigD = hymn?.measures?.sigD;
+  const time = hymn?.time?.text;
 
   const styles = StyleSheet.create({
     container: {
@@ -48,7 +52,8 @@ const ScoreDetails = ({ rhythm, tone, toneOriginal, capo, onToneChange, sigN, si
   });
 
   const handleToneSelect = (newTone: string) => {
-    onToneChange?.(newTone);
+    const transposedHymn = HymnService.transposeHymn(hymn, newTone);
+    onToneChange(transposedHymn);
     setToneSelectorVisible(false);
   };
 
@@ -98,6 +103,7 @@ const ScoreDetails = ({ rhythm, tone, toneOriginal, capo, onToneChange, sigN, si
               </View>
             </Pressable>
           )}
+
           {capo !== undefined && toneOriginal && capo > 0 && (
             <View style={styles.detail}>
               <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
@@ -110,7 +116,6 @@ const ScoreDetails = ({ rhythm, tone, toneOriginal, capo, onToneChange, sigN, si
           )}
         </View>
       </View>
-
       <ToneSelector visible={toneSelectorVisible} currentTone={tone} onSelect={handleToneSelect} onDismiss={() => setToneSelectorVisible(false)} />
     </>
   );

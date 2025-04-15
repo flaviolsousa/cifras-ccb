@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Minha alma engrandece...",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

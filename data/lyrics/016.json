@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Promessa excelente",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

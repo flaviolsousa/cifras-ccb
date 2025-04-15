@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glória e louvor a Jesus darei",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

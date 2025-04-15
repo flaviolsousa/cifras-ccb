@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Deus nos elegeu para Si",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

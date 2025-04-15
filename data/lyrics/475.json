@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Se eu for aqui provado",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

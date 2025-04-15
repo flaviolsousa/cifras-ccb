@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó meninos, estamos reunidos",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

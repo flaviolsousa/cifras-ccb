@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A descida do Espírito Santo",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

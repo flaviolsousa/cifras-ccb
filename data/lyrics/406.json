@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A voz de Cristo te convida: Vem!",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

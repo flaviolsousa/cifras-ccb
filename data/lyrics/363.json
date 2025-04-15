@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Aos Teus pés estou, Senhor",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

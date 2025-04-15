@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eis que vem o Verdadeiro",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

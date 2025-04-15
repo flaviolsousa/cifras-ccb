@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nos resgatou e nos lavou",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

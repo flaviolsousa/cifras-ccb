@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "A Palavra do Senhor é Pão celestial",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

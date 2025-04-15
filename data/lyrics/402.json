@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó irmãos, a Deus devemos...",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

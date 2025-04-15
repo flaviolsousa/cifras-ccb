@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó irmãos, por fé, louvemos a Jesus",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

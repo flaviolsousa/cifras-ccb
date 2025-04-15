@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Neste mundo de ilusão",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

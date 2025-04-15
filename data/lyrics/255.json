@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jesus é a nossa Rocha",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

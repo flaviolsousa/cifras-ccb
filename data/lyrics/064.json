@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Tu, que vives sem destino",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

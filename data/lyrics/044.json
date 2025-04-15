@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sol da justiça",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

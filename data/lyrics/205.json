@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Salvo por Seu poder",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

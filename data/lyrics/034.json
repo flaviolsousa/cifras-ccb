@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Mestre que desceu dos ceús",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

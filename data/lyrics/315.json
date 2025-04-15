@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Contempla do céu",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

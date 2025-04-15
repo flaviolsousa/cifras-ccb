@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Meu bom Jesus, Contigo almejo estar",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

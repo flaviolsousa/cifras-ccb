@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Não mais oprimidos seremos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

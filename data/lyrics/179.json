@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Trabalhai! Trabalhai!",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

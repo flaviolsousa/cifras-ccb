@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vinde às fileiras",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

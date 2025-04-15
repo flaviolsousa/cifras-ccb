@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Testemunhas verazes nós somos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

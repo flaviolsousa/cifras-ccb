@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó meninos, Deus vos convida",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

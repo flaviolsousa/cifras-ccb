@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sinto a voz divina do meu fiel Pastor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

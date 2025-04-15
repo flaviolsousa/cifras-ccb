@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Jesus, quanto és piedoso!",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

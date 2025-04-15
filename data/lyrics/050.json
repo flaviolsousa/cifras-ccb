@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glória a Jesus! Aleluia!",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

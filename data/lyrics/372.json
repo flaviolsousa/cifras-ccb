@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Da igreja, fiel Fundamento é Jesus",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

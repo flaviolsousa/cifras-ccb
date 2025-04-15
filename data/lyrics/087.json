@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eis que vem Jesus",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

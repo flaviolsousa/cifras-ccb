@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Aos Teus pés me apresento",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

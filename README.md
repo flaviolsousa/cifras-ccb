@@ -23,6 +23,8 @@
 - ☒ Implement tone selection feature
 - ☐ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
 - ☐ Provide option to select difficulty level
+- ☐ When changing the tone key, retain the original chord positions
+- ☐ In the Tone Key selection popup, highlight the easiest key when using a capo on lower frets
 
 ## Start
 

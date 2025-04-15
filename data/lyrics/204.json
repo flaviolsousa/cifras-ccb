@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Só Jesus é Amigo verdadeiro",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo nos dará da Sua plenitude",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

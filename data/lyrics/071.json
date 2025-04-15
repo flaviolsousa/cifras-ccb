@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Senhor Jesus, eu recorro a Ti",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

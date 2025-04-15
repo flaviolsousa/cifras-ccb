@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Com meu Redentor viverei nos céus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jesus habita em meu coração",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

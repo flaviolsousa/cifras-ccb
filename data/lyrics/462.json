@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Gloriosa é a história",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

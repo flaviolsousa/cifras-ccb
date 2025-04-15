@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Conserva a paz, ó minha alma",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

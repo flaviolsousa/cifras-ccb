@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó Senhor da glória",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

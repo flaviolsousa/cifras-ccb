@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quem sustenta a nossa vida",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

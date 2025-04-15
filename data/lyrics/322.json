@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vem, Rei eterno",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

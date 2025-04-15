@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo intercede por ti",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Dá-me graça, Senhor",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Anunciai o santo Evangelho",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

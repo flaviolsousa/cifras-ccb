@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vou encontrar meu Deus",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

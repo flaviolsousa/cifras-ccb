@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo Jesus Sua mão me dá",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

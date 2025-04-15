@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ressuscitados, por graça, fomos",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Éramos mortos nas obras más",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

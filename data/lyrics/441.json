@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Eu sou um cordeirinho",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

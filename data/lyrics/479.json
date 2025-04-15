@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Somos jovens consagrados",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

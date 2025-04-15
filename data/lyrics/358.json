@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Teu precioso sangue",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

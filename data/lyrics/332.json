@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "É Cristo Quem cuida de ti",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

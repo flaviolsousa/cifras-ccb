@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Nós Te louvamos, por fé, grande Deus",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

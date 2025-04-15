@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Avante, santos e fiéis de Deus",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

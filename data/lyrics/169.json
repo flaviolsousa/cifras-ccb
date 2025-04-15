@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Aos pés de Deus estamos",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

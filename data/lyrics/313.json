@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Arrebatado aos céus",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

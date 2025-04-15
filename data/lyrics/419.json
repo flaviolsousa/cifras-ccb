@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "\"Fazei isto em memória de Mim\"",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Alegria sinto em servir Jesus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

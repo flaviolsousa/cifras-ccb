@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Teu Espírito derrama",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

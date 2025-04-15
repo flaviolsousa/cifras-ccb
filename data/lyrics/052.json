@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Luz eternal é Jesus",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

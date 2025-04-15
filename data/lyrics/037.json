@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Se a nossa vida entregarmos a Jesus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

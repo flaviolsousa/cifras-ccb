@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Fiel Salvador é Jesus",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

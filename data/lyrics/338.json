@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O Senhor é sempiterno",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

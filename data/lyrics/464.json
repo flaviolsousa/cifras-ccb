@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Reunidos nós estamos",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

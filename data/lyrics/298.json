@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Avante sempre, sem temer!",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

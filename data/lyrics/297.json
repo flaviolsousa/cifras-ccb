@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Senhor, conforta meu coração",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Vinde, crianças",
-  "tone": "B",
+  "tone": {
+    "recommended": "B"
+  },
   "score": {
     "stanzas": [
       {

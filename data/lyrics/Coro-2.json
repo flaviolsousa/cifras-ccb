@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Toda a glória a Jesus",
-  "tone": "G",
+  "tone": {
+    "recommended": "G"
+  },
   "score": {
     "stanzas": [
       {

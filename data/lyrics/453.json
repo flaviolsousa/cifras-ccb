@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Consagrados sejamos a Deus",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

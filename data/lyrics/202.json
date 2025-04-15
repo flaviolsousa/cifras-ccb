@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Em Ti me alegro, Senhor",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

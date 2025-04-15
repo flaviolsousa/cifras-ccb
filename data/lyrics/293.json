@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Tu és Oleiro",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

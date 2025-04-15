@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Glória ao Justo, fiel Cordeiro!",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

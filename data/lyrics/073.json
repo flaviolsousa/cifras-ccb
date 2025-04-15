@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Semearei, semearei",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

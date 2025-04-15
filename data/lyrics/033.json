@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Jesus é o nosso Guia",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

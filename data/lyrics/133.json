@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quão bom e quão suave é...",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

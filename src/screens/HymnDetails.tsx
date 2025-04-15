@@ -9,10 +9,10 @@ import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
-import { transpose } from "chord-transposer";
 import ToneNavigate from "../components/ToneNavigate";
 import ChordPanel from "../components/ChordPanel";
 import AutoScrollControl from "../components/AutoScrollControl";
+import { HymnModel } from "../domain/HymnModel";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -279,42 +279,7 @@ const HymnDetails = () => {
     setSelectedChord(null);
   };
 
-  const handleToneChange = (newTone: string) => {
-    if (!hymn) return;
-
-    const transposedHymn = {
-      ...hymn,
-      tone: newTone,
-      score: {
-        ...hymn.score,
-        stanzas: hymn.score.stanzas.map((stanza) => ({
-          ...stanza,
-          verses: stanza.verses?.map((verse) => ({
-            ...verse,
-            chords: verse.chords
-              .split(/([^_\s]+)/g)
-              .map((part) => {
-                if (part.includes("_") || !part.trim()) return part;
-                const match = part.trim().match(/([_.]*)(.*?)([_.]*$)/);
-                const chordPrefix = match?.[1] || "";
-                const chord = match?.[2] || part.trim();
-                const chordSuffix = match?.[3] || "";
-                try {
-                  const transposed = transpose(chord)
-                    .fromKey(hymn.toneOriginal || hymn.tone)
-                    .toKey(newTone);
-                  return `${chordPrefix}${transposed}${chordSuffix}`;
-                } catch (e: any) {
-                  console.error(e);
-                  return part + ":ERROR";
-                }
-              })
-              .join(""),
-          })),
-        })),
-      },
-    };
-
+  const handleToneChange = (transposedHymn: HymnModel) => {
     updateHymn(transposedHymn);
   };
 
@@ -420,18 +385,7 @@ const HymnDetails = () => {
             },
           ]}
         >
-          {shouldShowHeader && hymn && (
-            <ScoreDetails
-              rhythm={hymn.rhythm}
-              tone={hymn.tone}
-              toneOriginal={hymn.toneOriginal}
-              capo={1}
-              onToneChange={handleToneChange}
-              sigN={hymn.measures?.sigN}
-              sigD={hymn.measures?.sigD}
-              time={hymn.time?.text}
-            />
-          )}
+          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
           <Divider />
           {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
             <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
@@ -508,9 +462,10 @@ const HymnDetails = () => {
       />
       {hymn && (
         <ToneNavigate
+          hymn={hymn}
           visible={toneNavigationVisible}
           onClose={() => setToneNavigationVisible(false)}
-          currentTone={hymn.tone}
+          currentTone={hymn.tone.selected}
           onToneChange={handleToneChange}
         />
       )}
@@ -518,7 +473,7 @@ const HymnDetails = () => {
         open={zoomControlVisible}
         visible={zoomControlVisible}
         icon={"close"}
-        backdropColor="rgba(255,255,255,0.2)"
+        backdropColor="rgba(255,255,255,0.35)"
         actions={[
           {
             icon: "format-font-size-increase",

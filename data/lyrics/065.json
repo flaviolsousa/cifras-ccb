@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Igual ao Mestre!",
-  "tone": "D",
+  "tone": {
+    "recommended": "D"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Cristo Jesus, nosso bom Pastor",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

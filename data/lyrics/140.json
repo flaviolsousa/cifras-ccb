@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Sou feliz",
-  "tone": "F",
+  "tone": {
+    "recommended": "F"
+  },
   "score": {
     "stanzas": [
       {

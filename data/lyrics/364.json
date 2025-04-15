@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Os tempos já chegados são...",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Quando em mim Tu operaste",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {

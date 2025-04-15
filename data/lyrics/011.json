@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Ó igreja de Deus, resplandece",
-  "tone": "C",
+  "tone": {
+    "recommended": "C"
+  },
   "score": {
     "stanzas": [
       {

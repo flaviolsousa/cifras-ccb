@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "Oh! Que amor celeste!",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

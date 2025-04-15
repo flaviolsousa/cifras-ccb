@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O santo Evangelho",
-  "tone": "E",
+  "tone": {
+    "recommended": "E"
+  },
   "score": {
     "stanzas": [
       {

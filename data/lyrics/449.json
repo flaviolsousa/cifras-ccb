@@ -1,7 +1,9 @@
 {
   "version": "v2",
   "title": "O meu nome no céu escreveste, Senhor",
-  "tone": "A",
+  "tone": {
+    "recommended": "A"
+  },
   "score": {
     "stanzas": [
       {
