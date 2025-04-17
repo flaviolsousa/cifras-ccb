@@ -5,8 +5,8 @@ import Slider from "@react-native-community/slider";
 import _, { set } from "lodash";
 import { HymnModel } from "../domain/HymnModel";
 
-function getLettersAndVerses(hymn: HymnModel | null): { countLetters: number; countVerses: number; averageLetters: number } {
-  if (!hymn?.score?.stanzas) return { countLetters: 0, countVerses: 0, averageLetters: 0 };
+function getLettersAndVerses(hymn: HymnModel): { countLetters: number; countVerses: number; averageLetters: number } {
+  if (!hymn.score?.stanzas) return { countLetters: 0, countVerses: 0, averageLetters: 0 };
   const countLetters = hymn.score.stanzas.reduce((acc, stanza) => {
     const sumVerses =
       stanza?.verses?.reduce((vAcc, verse) => {
@@ -21,12 +21,20 @@ function getLettersAndVerses(hymn: HymnModel | null): { countLetters: number; co
   return { countLetters, countVerses, averageLetters };
 }
 
-function calculateScrollParams(hymn: HymnModel | null, speed: number, fontSize: number): number {
+function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number): number {
   const BASE_STEP = 5;
 
-  const speedFactor = 0.5 + (speed / 100) * 1.5; // varia de 0.5 a 2.0
+  let speedFactor;
+  const MIN_SPEED_FACTOR = 0.25;
+  const AVG_SPEED_FACTOR = 1;
+  const MAX_SPEED_FACTOR = 10;
+  if (speed <= 50) {
+    speedFactor = ((AVG_SPEED_FACTOR - MIN_SPEED_FACTOR) * speed) / 50 + MIN_SPEED_FACTOR; // 0,25 <-> 1
+  } else {
+    speedFactor = (MAX_SPEED_FACTOR - AVG_SPEED_FACTOR) * Math.pow((speed - 50) / 50, 2.2) + AVG_SPEED_FACTOR; // 1 <-> 10 in curve
+  }
 
-  const timeReference = hymn?.time?.reference ?? 1;
+  const timeReference = hymn.time?.reference ?? 1;
 
   const FONT_SIZE_REFERENCE = 22;
   let fontFactor = 1 + (fontSize - FONT_SIZE_REFERENCE) * 0.25;
@@ -95,6 +103,8 @@ const AutoScrollControl = ({
       onScrollingChange(false);
     };
   }, []);
+
+  if (!hymn) return null;
 
   const scrollStep = () => {
     if (!scrollViewRef.current) return;

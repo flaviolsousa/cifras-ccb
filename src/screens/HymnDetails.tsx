@@ -115,7 +115,7 @@ const HymnDetails = () => {
       left: 0,
       right: 0,
       fontFamily: "UbuntuMonoRegular",
-      color: "transparent", // Make the underscores transparent
+      color: "transparent",
       zIndex: 1,
     },
     chordSelected: {

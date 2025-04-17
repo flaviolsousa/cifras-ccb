@@ -16,15 +16,16 @@
 - ☒ Implement header auto-hide in horizontal mode
 - ☒ Add controls to navigate between neighboring hymns
 - ☐ Option to display rhythm
-- ☐ Implement auto-scroll feature
+- ☒ Implement auto-scroll feature
 - ☐ Integrate MIDI player functionality
 - ☒ Option to show/hide draw of chords
-- ☐ Option to display capo positioning
+- ☒ Option to display capo positioning
 - ☒ Implement tone selection feature
 - ☐ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
 - ☐ Provide option to select difficulty level
-- ☐ When changing the tone key, retain the original chord positions
+- ☒ When changing the tone key, retain the original chord positions
 - ☐ In the Tone Key selection popup, highlight the easiest key when using a capo on lower frets
+- ☐ In the Tone Key selection popup, show capo and new chords
 
 ## Start
 
