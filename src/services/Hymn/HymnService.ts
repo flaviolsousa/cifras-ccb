@@ -7,13 +7,10 @@ async function readFile(file: string): Promise<HymnModel | null> {
 }
 
 function transposeChordsLine(chordsLine: string, fromKey: string, toKey: string): string {
-  console.log("----------");
-  console.log("chordsLines", chordsLine);
   const parts = chordsLine.split(/([^_\s]+)/g);
   let result = "";
   let i = 0;
   let amountToFix = 0;
-  console.log("parts", parts);
   while (i < parts.length) {
     const part = parts[i];
     if (part.includes("_")) {
