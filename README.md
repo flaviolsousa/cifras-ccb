@@ -26,6 +26,7 @@
 - ☒ When changing the tone key, retain the original chord positions
 - ☐ In the Tone Key selection popup, highlight the easiest key when using a capo on lower frets
 - ☐ In the Tone Key selection popup, show capo and new chords
+- ☐ Pin chords in sequence to the top of the HymnDetail Screen
 
 ## Start
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, StyleSheet, Pressable } from "react-native";
 import { Text, useTheme } from "react-native-paper";
 import ToneSelector from "./ToneSelector";
+import RhythmDisplay from "./RhythmDisplay";
 import { HymnModel } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
 
@@ -13,6 +14,7 @@ interface ScoreDetailsProps {
 const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
   const theme = useTheme();
   const [toneSelectorVisible, setToneSelectorVisible] = useState(false);
+  const [rhythmPopupVisible, setRhythmPopupVisible] = useState(false);
 
   const rhythm = hymn?.rhythm;
   const tone = hymn?.tone?.selected;
@@ -49,6 +51,14 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
     toneText: {
       fontWeight: "bold",
     },
+    rhythmSelector: {
+      backgroundColor: theme.colors.elevation.level2,
+      padding: 8,
+      borderRadius: 8,
+    },
+    rhythmSelectorPressed: {
+      backgroundColor: theme.colors.elevation.level5,
+    },
   });
 
   const handleToneSelect = (newTone: string) => {
@@ -60,15 +70,25 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
   return (
     <>
       <View style={styles.container}>
+        {/* First row - Rhythm only */}
         <View style={styles.row}>
           {rhythm && (
-            <View style={styles.detail}>
-              <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
-                Ritmo:
-              </Text>
-              <Text variant="bodyLarge">{rhythm}</Text>
-            </View>
+            <Pressable
+              style={({ pressed }) => [styles.rhythmSelector, pressed && styles.rhythmSelectorPressed]}
+              onPress={() => setRhythmPopupVisible(true)}
+            >
+              <View style={styles.detail}>
+                <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
+                  Ritmo:
+                </Text>
+                <RhythmDisplay rhythmType={rhythm} showPopup={rhythmPopupVisible} onDismiss={() => setRhythmPopupVisible(false)} />
+              </View>
+            </Pressable>
           )}
+        </View>
+
+        {/* Second row - Division and Time */}
+        <View style={styles.row}>
           {sigN && sigD && (
             <View style={styles.detail}>
               <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
@@ -87,6 +107,7 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
           )}
         </View>
 
+        {/* Third row - Tone and Capo */}
         <View style={styles.row}>
           {tone && (
             <Pressable
