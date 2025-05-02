@@ -10,7 +10,8 @@
       "sigD": 4
     },
     "time": {
-      "reference": 0.933333,
+      "reference": 1.45,
+      "original": 0.933333,
       "text": "56 - 66"
     }
   },
@@ -25,7 +26,8 @@
       "sigD": 4
     },
     "time": {
-      "reference": 1,
+      "reference": 1.55,
+      "original": 1,
       "text": "60 - 80"
     }
   },
@@ -40,7 +42,8 @@
       "sigD": 4
     },
     "time": {
-      "reference": 1,
+      "reference": 1.7,
+      "original": 1,
       "text": "60 - 76"
     }
   },
@@ -55,7 +58,8 @@
       "sigD": 4
     },
     "time": {
-      "reference": 1.86667,
+      "reference": 2.1,
+      "original": 1.86667,
       "text": "112 - 138"
     }
   },
@@ -70,7 +74,8 @@
       "sigD": 8
     },
     "time": {
-      "reference": 0.933333,
+      "reference": 1.5,
+      "original": 0.933333,
       "text": "112 - 144"
     }
   },

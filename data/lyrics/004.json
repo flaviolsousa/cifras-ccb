@@ -1,22 +1,27 @@
 {
   "version": "v2",
   "title": "Ouve a nossa oração",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "recommended": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "Am", "D7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "verses": [
           {
-            "chords": "A      Am    A                              B7 E",
-            "lyrics": "Nossos olhos para_os céus, ó Deus, nós levanta-mos;"
+            "chords": "G                                           Am   D7",
+            "lyrics": "Nossos olhos para os céus, ó Deus, nós levanta...mos;"
           },
           {
-            "chords": "                         A           E E...",
-            "lyrics": "Confiando_em Teu amor, a nossa voz alçamos."
+            "chords": "Am E         Am    D     G     Em    D7",
+            "lyrics": "Confiando em Teu amor, a nossa voz alçamos."
           }
         ]
       },
@@ -24,20 +29,20 @@
         "type": "chorus",
         "verses": [
           {
-            "chords": "A            B7",
-            "lyrics": "Ouve_a nossa oração"
+            "chords": "G            A7",
+            "lyrics": "Ouve a nossa oração"
           },
           {
-            "chords": "E             A",
-            "lyrics": "Desde_a Tua habitação;"
+            "chords": "D7            G",
+            "lyrics": "Desde a Tua habitação;"
           },
           {
-            "chords": "                    D...",
+            "chords": "                    C",
             "lyrics": "Tua bênção, Teu perdão,"
           },
           {
-            "chords": "E                  A",
-            "lyrics": "Manda,_ó Deus piedoso."
+            "chords": "G        D    D7   G",
+            "lyrics": "Manda, ó Deus piedoso."
           }
         ]
       },
@@ -46,12 +51,12 @@
         "code": "2",
         "verses": [
           {
-            "chords": "A    Am    A                      B7 E",
+            "chords": "G                              Am    D7",
             "lyrics": "Refrigério celestial e bálsamo precioso"
           },
           {
-            "chords": "                              A           E E...",
-            "lyrics": "É sentir-Te_em nosso ser, Pai santo, glorio-so."
+            "chords": "Am E            Am    D        G      Em    D7",
+            "lyrics": "É  sentir-Te em nosso ser, Pai santo, glorioso."
           }
         ]
       },
@@ -64,12 +69,12 @@
         "code": "3",
         "verses": [
           {
-            "chords": "A      Am     A                      B7 E",
-            "lyrics": "No Teu trono, ó Senhor, recebe nesta ho-ra"
+            "chords": "G                                    Am   D7",
+            "lyrics": "No Teu trono, ó Senhor, recebe nesta ho...ra"
           },
           {
-            "chords": "                    A            E E...",
-            "lyrics": "A humilde oração do povo que Te_adora."
+            "chords": "Am  E     Am  D     G    Em      D7",
+            "lyrics": "A humilde oração do povo que Te adora."
           }
         ]
       },

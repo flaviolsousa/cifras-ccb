@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, StyleSheet } from "react-native";
 import { Text, useTheme, Modal, Portal } from "react-native-paper";
 
@@ -8,6 +8,12 @@ interface RhythmPattern {
   fingers: string[];
   arrowStyles?: ("sup" | "sub" | "normal")[];
 }
+
+const FINGERS_ICON_MAP: Record<string, string> = {
+  p: "👍",
+  i: "👆",
+  t: "✋",
+};
 
 const RHYTHM_PATTERNS: Record<string, RhythmPattern> = {
   Canção: {
@@ -25,7 +31,7 @@ const RHYTHM_PATTERNS: Record<string, RhythmPattern> = {
   Guarânia: {
     slim: ["↓", "↑", "↓", "↑", "↓"],
     arrows: ["↓", "↑", "↓", "↑", "↓"],
-    fingers: ["p", "i", "p", "i", "t"],
+    fingers: ["i", "p", "i", "p", "t"],
     arrowStyles: ["normal", "sub", "sub", "sub", "sub"],
   },
 };
@@ -102,6 +108,9 @@ function RenderArrow({ arrow, style, primaryColor }: { arrow: string; style: "su
 const RhythmDisplay: React.FC<RhythmDisplayProps> = ({ rhythmType, showPopup = false, onDismiss }) => {
   const theme = useTheme();
   const pattern = RHYTHM_PATTERNS[rhythmType];
+
+  // Adiciona estado para alternar entre letras e ícones
+  const [showIcons, setShowIcons] = useState(false);
 
   const styles = StyleSheet.create({
     compactContainer: {
@@ -198,10 +207,15 @@ const RhythmDisplay: React.FC<RhythmDisplayProps> = ({ rhythmType, showPopup = f
             </View>
           ))}
         </View>
-        <View style={styles.expandedFingersContainer}>
+        {/* Linha dos dedos com toggle ao tocar */}
+        <View
+          style={styles.expandedFingersContainer}
+          // Alterna entre letras e ícones ao tocar
+          onTouchEnd={() => setShowIcons((prev) => !prev)}
+        >
           {pattern.fingers.map((finger, index) => (
             <View key={`column-fingers-${index}`} style={styles.rhythmColumn}>
-              <Text style={styles.expandedFinger}>{finger}</Text>
+              <Text style={styles.expandedFinger}>{showIcons ? FINGERS_ICON_MAP[finger] || finger : finger}</Text>
             </View>
           ))}
         </View>

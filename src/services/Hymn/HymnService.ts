@@ -53,23 +53,6 @@ function transposeChordsLine(chordsLine: string, fromKey: string, toKey: string)
     i++;
   }
   return result;
-  /* return chordsLine
-    .split(/([^_\s]+)/g)
-    .map((part) => {
-      if (part.includes("_") || !part.trim()) return part;
-      const match = part.trim().match(/([_.]*)(.*?)([_.°º()-]*$)/);
-      const chordPrefix = match?.[1] || "";
-      const chord = match?.[2] || part.trim();
-      const chordSuffix = match?.[3] || "";
-      try {
-        const transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
-        return `${chordPrefix}${transposed}${chordSuffix}`;
-      } catch (e: any) {
-        console.error(e);
-        return part + ":ERROR";
-      }
-    })
-    .join("");*/
 }
 
 class HymnService {
@@ -81,10 +64,12 @@ class HymnService {
 
     const hymnMetaData = Hymns.find((hymn) => hymn.code === hymnCode);
     if (hymnMetaData) {
-      const hymn = {
-        ...hymnMetaData,
-        ...hymnData,
-      };
+      const hymn = JSON.parse(
+        JSON.stringify({
+          ...hymnMetaData,
+          ...hymnData,
+        }),
+      );
       hymn.tone.selected = hymn.tone.selected || hymn.tone.recommended;
       return hymn;
     }
@@ -110,6 +95,27 @@ class HymnService {
       },
     };
     return transposedHymn;
+  }
+
+  static async logTranspose(hymnCode: string, newTone: string) {
+    const hymn: HymnModel | null = await readFile(hymnCode);
+    if (!hymn) return null;
+
+    console.log(`TODO: Disable in production: Transposing hymn ${hymnCode} from ${hymn?.tone?.original} to ${newTone}`);
+
+    if (hymn) {
+      const transposedHymn = HymnService.transposeHymn(hymn, newTone);
+      console.log("--");
+      transposedHymn.score.stanzas.forEach((stanza) => {
+        stanza?.verses?.forEach((verse) => {
+          verse.chords = verse.chords.replace(/_/g, " ");
+        });
+      });
+      console.log(JSON.stringify(transposedHymn, null, 2));
+      console.log("--");
+    } else {
+      console.error(`Hino ${hymnCode} não encontrado.`);
+    }
   }
 
   static getCapoPosition(original: string, selected: string): number {

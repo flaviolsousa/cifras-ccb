@@ -63,6 +63,9 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
 
   const handleToneSelect = (newTone: string) => {
     const transposedHymn = HymnService.transposeHymn(hymn, newTone);
+
+    HymnService.logTranspose(hymn.code, newTone);
+
     onToneChange(transposedHymn);
     setToneSelectorVisible(false);
   };

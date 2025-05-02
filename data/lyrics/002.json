@@ -1,30 +1,35 @@
 {
   "version": "v2",
   "title": "De Deus tu és eleita",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "recommended": "E",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "verses": [
           {
-            "chords": "   E           B        A    B    E",
+            "chords": "   D           A        G    A7    D",
             "lyrics": "De Deus tu és eleita, igreja de Jesus,"
           },
           {
-            "chords": "        G#7  A        F#m    E     B",
+            "chords": "  F#m        G        Em     D     A",
             "lyrics": "O teu divino Mestre à glória te conduz;"
           },
           {
-            "chords": "   E             A   E      C#m   C#7  F#m",
+            "chords": "   D             G   D      Bm    B7   Em",
             "lyrics": "Prepara-te, pois E - le mui breve voltará;"
           },
           {
-            "chords": "   E              A        B          E",
-            "lyrics": "A glória que te_espera já preparada_está."
+            "chords": "   D              G        A   A7     D",
+            "lyrics": "A glória que te espera já preparada está."
           }
         ]
       },
@@ -33,19 +38,19 @@
         "code": "2",
         "verses": [
           {
-            "chords": "    E           B        A       B     E",
-            "lyrics": "Com celestiais adornos espera_o teu Senhor,"
+            "chords": "    D           A        G      A7     D",
+            "lyrics": "Com celestiais adornos espera o teu Senhor,"
           },
           {
-            "chords": "        G#7   A      F#m  E     B",
-            "lyrics": "Vestida de justiça e do divino_amor;"
+            "chords": "   F#m        G      Em   D     A",
+            "lyrics": "Vestida de justiça e do divino amor;"
           },
           {
-            "chords": "  E           A  E       C#m  C#7  F#m",
+            "chords": "  D           G  D       Bm   B7   Em",
             "lyrics": "Dileta és de Cristo, que vida te doou;"
           },
           {
-            "chords": "  E            A          B           E",
+            "chords": "  D            G          A      A7   D",
             "lyrics": "A fim de resgatar-te, Seu sangue derramou."
           }
         ]
@@ -55,20 +60,20 @@
         "code": "3",
         "verses": [
           {
-            "chords": "   E          B        A    B    E",
+            "chords": "   D          A        G    A7    D",
             "lyrics": "É grande tua glória, igreja de Jesus;"
           },
           {
-            "chords": "         G#7  A      F#m      E    B",
-            "lyrics": "Consagra-te a Ele, andando_em Sua luz;"
+            "chords": "   F#m        G      Em       D    A",
+            "lyrics": "Consagra-te a Ele, andando em Sua luz;"
           },
           {
-            "chords": "   E             A  E      C#m   C#7  F#m",
+            "chords": "   D             G  D      Bm    B7   Em",
             "lyrics": "Em breve, no Seu reino, gloriosa entrarás,"
           },
           {
-            "chords": "    E         A         B            E",
-            "lyrics": "E_a face do Esposo, no céu, contemplarás."
+            "chords": "    D         G         A      A7    D",
+            "lyrics": "E a face do Esposo, no céu, contemplarás."
           }
         ]
       }
