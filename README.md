@@ -53,6 +53,7 @@ npx expo start
 
 ```sh
 npx expo start --tunnel
+npx expo start --tunnel -c
 ```
 
 5. Press `a` on keyboard
@@ -62,24 +63,31 @@ npx expo start --tunnel
 ```sh
 npm install -g expo-cli
 npx create-expo-app violao-ccb --template expo-template-blank-typescript
+
 cd violao-ccb
+npm i
+
 npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install --fix
 
-npm install @reduxjs/toolkit react-redux
+npx expo install @reduxjs/toolkit react-redux  
 
-npm install @react-navigation/native
-npx expo install react-native-screens react-native-safe-area-context
-npm install @react-navigation/native-stack
+npx expo install @react-navigation/native
+# npx expo install react-native-screens react-native-safe-area-context
+npx expo install @react-navigation/native-stack
 
-npm install @react-navigation/drawer
-npm install react-native-paper
-npm install --save-dev eslint
+npx expo install @react-navigation/drawer
+npx expo install react-native-paper
+npx expo install eslint -- --save-dev 
 npx expo install expo-font
-expo install expo-app-loading
+npx expo install SplashScreen
 
-npx expo install react-native-gesture-handler
+# npx expo install expo-app-loading
 
-npm i @react-native-community/slider --save
+# npx expo install react-native-gesture-handler
+
+npx expo install @react-native-community/slider
+npx expo install expo-screen-orientation  
 
 ```
 

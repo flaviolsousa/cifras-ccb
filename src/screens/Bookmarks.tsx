@@ -1,12 +1,8 @@
 // src/screens/HymnDetails.tsx
-import React, { useState } from "react";
+import React from "react";
 import { View, StyleSheet, ScrollView, Text } from "react-native";
 import { useTheme, Appbar, IconButton } from "react-native-paper";
-import { RouteProp, useRoute, useNavigation } from "@react-navigation/native";
-import { RootStackParamList } from "../navigation/MainNavigator";
-import { PinchGestureHandler, PinchGestureHandlerGestureEvent, HandlerStateChangeEvent, State } from "react-native-gesture-handler";
-
-type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
+import { useNavigation } from "@react-navigation/native";
 
 const HymnDetails = () => {
   const theme = useTheme();

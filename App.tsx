@@ -43,16 +43,14 @@ export default function App() {
   return (
     <ThemeContext.Provider value={themePreferences}>
       <ReduxProvider store={store}>
-        <GestureHandlerRootView style={{ flex: 1 }} onLayout={onLayoutRootView}>
-          <PaperProvider theme={_theme}>
-            <SafeAreaView style={{ flex: 1 }}>
-              <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
-              <NavigationContainer theme={_theme}>
-                <MainNavigator />
-              </NavigationContainer>
-            </SafeAreaView>
-          </PaperProvider>
-        </GestureHandlerRootView>
+        <PaperProvider theme={_theme}>
+          <SafeAreaView style={{ flex: 1 }}>
+            <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
+            <NavigationContainer theme={_theme}>
+              <MainNavigator />
+            </NavigationContainer>
+          </SafeAreaView>
+        </PaperProvider>
       </ReduxProvider>
     </ThemeContext.Provider>
   );
