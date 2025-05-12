@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { View, StyleSheet, Animated } from "react-native";
+import { View, StyleSheet, Animated, AppState } from "react-native";
 import { FAB, useTheme } from "react-native-paper";
 import { createAudioPlayer } from "expo-audio";
 import type { AudioPlayer } from "expo-audio/build/AudioModule.types";
@@ -71,6 +71,56 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       await playAudio();
     }
   };
+
+  // Parar o áudio ao sair da tela ou minimizar o app
+  useEffect(() => {
+    const stopAudio = () => {
+      if (playerRef.current) {
+        playerRef.current.pause();
+        playerRef.current.seekTo(0);
+        setIsPlaying(false);
+      }
+    };
+
+    // Parar ao minimizar/app background (mobile)
+    const handleAppStateChange = (state: string) => {
+      if (state !== "active") {
+        stopAudio();
+      }
+    };
+    let appStateListener: any;
+    if (typeof AppState !== "undefined") {
+      appStateListener = AppState.addEventListener("change", handleAppStateChange);
+    }
+
+    // Parar ao desmontar
+    return () => {
+      // Ao desmontar, só para, não reinicia
+      if (playerRef.current) {
+        playerRef.current.pause();
+        setIsPlaying(false);
+      }
+      if (appStateListener && appStateListener.remove) appStateListener.remove();
+    };
+  }, []);
+
+  // Evitar autoplay ao voltar do background
+  useEffect(() => {
+    const handleAppStateChange = (state: string) => {
+      if (state === "active" && playerRef.current) {
+        // Garante que não toca automaticamente ao voltar
+        playerRef.current.pause();
+        setIsPlaying(false);
+      }
+    };
+    let appStateListener: any;
+    if (typeof AppState !== "undefined") {
+      appStateListener = AppState.addEventListener("change", handleAppStateChange);
+    }
+    return () => {
+      if (appStateListener && appStateListener.remove) appStateListener.remove();
+    };
+  }, []);
 
   if (!visible) return null;
 
