@@ -72,6 +72,19 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     }
   };
 
+  // Avançar e retroceder 5 segundos
+  const seekBy = async (seconds: number) => {
+    if (playerRef.current) {
+      const status = playerRef.current.currentStatus;
+      if (status && status.isLoaded) {
+        let newTime = (status.currentTime || 0) + seconds;
+        if (newTime < 0) newTime = 0;
+        if (status.duration && newTime > status.duration) newTime = status.duration;
+        await playerRef.current.seekTo(newTime);
+      }
+    }
+  };
+
   // Parar o áudio ao sair da tela ou minimizar o app
   useEffect(() => {
     const stopAudio = () => {
@@ -130,8 +143,8 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         styles.fabContainer,
         {
           bottom: (insets.bottom || 0) + 24,
-          left: 24, // Alinha à esquerda
-          right: undefined, // Remove alinhamento à direita
+          left: 24,
+          right: undefined,
         },
       ]}
       pointerEvents="box-none"
@@ -154,6 +167,26 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           testID="audio-restart"
         />
       )}
+      {showRestart && (
+        <FAB
+          icon="rewind"
+          onPress={() => seekBy(-5)}
+          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+          color={theme.colors.onSecondary}
+          small
+          testID="audio-rewind"
+        />
+      )}
+      {showRestart && (
+        <FAB
+          icon="fast-forward"
+          onPress={() => seekBy(5)}
+          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+          color={theme.colors.onSecondary}
+          small
+          testID="audio-forward"
+        />
+      )}
     </Animated.View>
   );
 };
@@ -171,6 +204,9 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   fabRestart: {
+    marginLeft: 0,
+  },
+  fabSeek: {
     marginLeft: 0,
   },
 });
