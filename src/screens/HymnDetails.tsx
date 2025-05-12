@@ -12,6 +12,7 @@ import ScoreDetails from "../components/ScoreDetails";
 import ToneNavigate from "../components/ToneNavigate";
 import ChordPanel from "../components/ChordPanel";
 import AutoScrollControl from "../components/AutoScrollControl";
+import HymnAudioPlayer from "../components/HymnAudioPlayer";
 import { HymnModel } from "../domain/HymnModel";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
@@ -87,6 +88,7 @@ const HymnDetails = () => {
   const [allChords, setAllChords] = useState<string[]>([]);
   const [autoScrollVisible, setAutoScrollVisible] = useState(true);
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
+  const [audioPlayerVisible, setAudioPlayerVisible] = useState(true);
 
   const styles = StyleSheet.create({
     content: {
@@ -342,6 +344,15 @@ const HymnDetails = () => {
                   title="Scroll Automático"
                   leadingIcon="autorenew"
                 />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setAudioPlayerVisible((v) => !v);
+                    closeMenu();
+                  }}
+                  title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
+                  leadingIcon="music"
+                />
                 <Divider />
                 <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
               </Menu>
@@ -500,6 +511,7 @@ const HymnDetails = () => {
       {selectedChord && (
         <ChordPanel selectedChord={selectedChord} allChords={allChords} onChordSelect={handleChordPress} onClose={handleCloseChordPanel} />
       )}
+      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} />
     </View>
   );
 };

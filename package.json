@@ -27,7 +27,8 @@
     "react-native": "0.79.2",
     "react-native-paper": "^5.14.0",
     "react-native-web": "^0.20.0",
-    "react-redux": "^9.2.0"
+    "react-redux": "^9.2.0",
+    "expo-audio": "~0.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
