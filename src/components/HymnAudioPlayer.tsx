@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { View, StyleSheet, Animated, AppState } from "react-native";
-import { FAB, useTheme } from "react-native-paper";
+import { FAB, useTheme, Text } from "react-native-paper";
 import { createAudioPlayer } from "expo-audio";
 import type { AudioPlayer } from "expo-audio/build/AudioModule.types";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -90,6 +90,13 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
   const [loopStart, setLoopStart] = useState<number | null>(null);
   const [loopEnd, setLoopEnd] = useState<number | null>(null);
 
+  // Alerta temporário para feedback do loop
+  const [loopAlert, setLoopAlert] = useState<string | null>(null);
+  const showLoopAlert = (msg: string) => {
+    setLoopAlert(msg);
+    setTimeout(() => setLoopAlert(null), 3000);
+  };
+
   // Atualiza o loop ao tocar o botão
   const handleLoopPress = async () => {
     if (loopState === 0) {
@@ -100,6 +107,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           setLoopStart(status.currentTime);
           setLoopEnd(null);
           setLoopState(1);
+          showLoopAlert("Início de Loop marcado");
         }
       }
     } else if (loopState === 1) {
@@ -109,6 +117,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         if (status && status.isLoaded && loopStart !== null && status.currentTime > loopStart) {
           setLoopEnd(status.currentTime);
           setLoopState(2);
+          showLoopAlert("Loop Iniciado");
         }
       }
     } else {
@@ -116,6 +125,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       setLoopStart(null);
       setLoopEnd(null);
       setLoopState(0);
+      showLoopAlert("Loop Cancelado");
     }
   };
 
@@ -188,66 +198,92 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
   if (!visible) return null;
 
   return (
-    <Animated.View
-      style={[
-        styles.fabContainer,
-        {
-          bottom: (insets.bottom || 0) + 24,
-          left: 24,
-          right: undefined,
-        },
-      ]}
-      pointerEvents="box-none"
-    >
-      <FAB
-        icon={isPlaying ? "pause" : "play"}
-        loading={loading}
-        onPress={isPlaying ? pauseAudio : playAudio}
-        style={[styles.fab, { backgroundColor: theme.colors.primary }]}
-        color={theme.colors.onPrimary}
-        testID="audio-play-pause"
-      />
-      {showRestart && (
+    <>
+      <Animated.View
+        style={[
+          styles.fabContainer,
+          {
+            bottom: (insets.bottom || 0) + 24,
+            left: 24,
+            right: undefined,
+          },
+        ]}
+        pointerEvents="box-none"
+      >
         <FAB
-          icon="restart"
-          onPress={restartAudio}
-          style={[styles.fab, styles.fabRestart, { backgroundColor: theme.colors.secondary }]}
-          color={theme.colors.onSecondary}
-          small
-          testID="audio-restart"
+          icon={isPlaying ? "pause" : "play"}
+          loading={loading}
+          onPress={isPlaying ? pauseAudio : playAudio}
+          style={[styles.fab, { backgroundColor: theme.colors.primary }]}
+          color={theme.colors.onPrimary}
+          testID="audio-play-pause"
         />
+        {showRestart && (
+          <FAB
+            icon="restart"
+            onPress={restartAudio}
+            style={[styles.fab, styles.fabRestart, { backgroundColor: theme.colors.secondary }]}
+            color={theme.colors.onSecondary}
+            small
+            testID="audio-restart"
+          />
+        )}
+        {showRestart && (
+          <FAB
+            icon="rewind"
+            onPress={() => seekBy(-5)}
+            style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+            color={theme.colors.onSecondary}
+            small
+            testID="audio-rewind"
+          />
+        )}
+        {showRestart && (
+          <FAB
+            icon="fast-forward"
+            onPress={() => seekBy(5)}
+            style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+            color={theme.colors.onSecondary}
+            small
+            testID="audio-forward"
+          />
+        )}
+        {showRestart && (
+          <FAB
+            icon={loopState === 0 ? "arrow-left-thin-circle-outline" : loopState === 1 ? "diameter-outline" : "record-circle-outline"}
+            onPress={handleLoopPress}
+            style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+            color={theme.colors.onSecondary}
+            small
+            testID="audio-loop"
+          />
+        )}
+      </Animated.View>
+      {loopAlert && (
+        <View
+          style={{
+            width: "100%",
+            position: "relative",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <View
+            style={{
+              position: "absolute",
+              bottom: (insets.bottom || 0) + 90,
+              backgroundColor: theme.colors.secondary,
+              borderRadius: 8,
+              paddingHorizontal: 16,
+              paddingVertical: 8,
+              zIndex: 200,
+            }}
+          >
+            <Animated.Text style={{ color: theme.colors.onSecondary, fontWeight: "bold" }}>{loopAlert}</Animated.Text>
+          </View>
+        </View>
       )}
-      {showRestart && (
-        <FAB
-          icon="rewind"
-          onPress={() => seekBy(-5)}
-          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
-          color={theme.colors.onSecondary}
-          small
-          testID="audio-rewind"
-        />
-      )}
-      {showRestart && (
-        <FAB
-          icon="fast-forward"
-          onPress={() => seekBy(5)}
-          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
-          color={theme.colors.onSecondary}
-          small
-          testID="audio-forward"
-        />
-      )}
-      {showRestart && (
-        <FAB
-          icon={loopState === 0 ? "arrow-left-thin-circle-outline" : loopState === 1 ? "diameter-outline" : "record-circle-outline"}
-          onPress={handleLoopPress}
-          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
-          color={theme.colors.onSecondary}
-          small
-          testID="audio-loop"
-        />
-      )}
-    </Animated.View>
+    </>
   );
 };
 
