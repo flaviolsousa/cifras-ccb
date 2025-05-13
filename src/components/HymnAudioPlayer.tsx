@@ -85,6 +85,56 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     }
   };
 
+  // Controle de loop
+  const [loopState, setLoopState] = useState<0 | 1 | 2>(0); // 0: off, 1: set start, 2: set end
+  const [loopStart, setLoopStart] = useState<number | null>(null);
+  const [loopEnd, setLoopEnd] = useState<number | null>(null);
+
+  // Atualiza o loop ao tocar o botão
+  const handleLoopPress = async () => {
+    if (loopState === 0) {
+      // Definir início
+      if (playerRef.current) {
+        const status = playerRef.current.currentStatus;
+        if (status && status.isLoaded) {
+          setLoopStart(status.currentTime);
+          setLoopEnd(null);
+          setLoopState(1);
+        }
+      }
+    } else if (loopState === 1) {
+      // Definir fim
+      if (playerRef.current) {
+        const status = playerRef.current.currentStatus;
+        if (status && status.isLoaded && loopStart !== null && status.currentTime > loopStart) {
+          setLoopEnd(status.currentTime);
+          setLoopState(2);
+        }
+      }
+    } else {
+      // Resetar loop
+      setLoopStart(null);
+      setLoopEnd(null);
+      setLoopState(0);
+    }
+  };
+
+  // Listener para manter o loop
+  useEffect(() => {
+    if (!playerRef.current) return;
+    if (loopState !== 2 || loopStart === null || loopEnd === null) return;
+    const player = playerRef.current;
+    const listener = (status: any) => {
+      if (status.isLoaded && status.currentTime >= loopEnd) {
+        player.seekTo(loopStart);
+      }
+    };
+    player.addListener("playbackStatusUpdate", listener);
+    return () => {
+      player.removeAllListeners && player.removeAllListeners("playbackStatusUpdate");
+    };
+  }, [loopState, loopStart, loopEnd]);
+
   // Parar o áudio ao sair da tela ou minimizar o app
   useEffect(() => {
     const stopAudio = () => {
@@ -185,6 +235,16 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           color={theme.colors.onSecondary}
           small
           testID="audio-forward"
+        />
+      )}
+      {showRestart && (
+        <FAB
+          icon={loopState === 0 ? "arrow-left-thin-circle-outline" : loopState === 1 ? "diameter-outline" : "record-circle-outline"}
+          onPress={handleLoopPress}
+          style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
+          color={theme.colors.onSecondary}
+          small
+          testID="audio-loop"
         />
       )}
     </Animated.View>
