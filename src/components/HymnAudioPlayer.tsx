@@ -10,7 +10,8 @@ interface HymnAudioPlayerProps {
   visible?: boolean;
 }
 
-const AUDIO_BASE_URL = "https://github.com/flaviolsousa/violao-ccb-assets/raw/refs/heads/main/mp3/";
+//const AUDIO_BASE_URL = "https://github.com/flaviolsousa/violao-ccb-assets/raw/refs/heads/main/mp3/";
+const AUDIO_BASE_URL = "https://flaviolsousa.github.io/violao-ccb-assets/mp3/";
 
 const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true }) => {
   const theme = useTheme();
@@ -67,6 +68,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       await playerRef.current.seekTo(0);
       playerRef.current.play();
       setIsPlaying(true);
+      showLoopAlert("Reiniciando o áudio", 3000);
     } else {
       await playAudio();
     }
@@ -81,6 +83,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         if (newTime < 0) newTime = 0;
         if (status.duration && newTime > status.duration) newTime = status.duration;
         await playerRef.current.seekTo(newTime);
+        showLoopAlert(`${seconds > 0 ? "Avançando" : "Rebobinando"} ${Math.abs(seconds)} segundos o áudio`, 3000);
       }
     }
   };
@@ -92,9 +95,11 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
 
   // Alerta temporário para feedback do loop
   const [loopAlert, setLoopAlert] = useState<string | null>(null);
-  const showLoopAlert = (msg: string) => {
+  const loopAlertTimer = useRef<NodeJS.Timeout | null>(null);
+  const showLoopAlert = (msg: string, time: number = 10000) => {
     setLoopAlert(msg);
-    setTimeout(() => setLoopAlert(null), 3000);
+    if (loopAlertTimer.current) clearTimeout(loopAlertTimer.current);
+    loopAlertTimer.current = setTimeout(() => setLoopAlert(null), time);
   };
 
   // Atualiza o loop ao tocar o botão
@@ -107,7 +112,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           setLoopStart(status.currentTime);
           setLoopEnd(null);
           setLoopState(1);
-          showLoopAlert("Início de Loop marcado");
+          showLoopAlert("Início de Loop marcado\n\nAgora defina o fim do loop");
         }
       }
     } else if (loopState === 1) {
@@ -117,7 +122,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         if (status && status.isLoaded && loopStart !== null && status.currentTime > loopStart) {
           setLoopEnd(status.currentTime);
           setLoopState(2);
-          showLoopAlert("Loop Iniciado");
+          showLoopAlert("Audio em Looping\n\nToque novamente para cancelar");
         }
       }
     } else {
@@ -125,7 +130,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       setLoopStart(null);
       setLoopEnd(null);
       setLoopState(0);
-      showLoopAlert("Loop Cancelado");
+      showLoopAlert("Loop Cancelado\n\nAgora pode reiniciar a configuração");
     }
   };
 
@@ -203,7 +208,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         style={[
           styles.fabContainer,
           {
-            bottom: (insets.bottom || 0) + 24,
+            bottom: 24,
             left: 24,
             right: undefined,
           },
@@ -224,7 +229,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
             onPress={restartAudio}
             style={[styles.fab, styles.fabRestart, { backgroundColor: theme.colors.secondary }]}
             color={theme.colors.onSecondary}
-            small
             testID="audio-restart"
           />
         )}
@@ -234,7 +238,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
             onPress={() => seekBy(-5)}
             style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
             color={theme.colors.onSecondary}
-            small
             testID="audio-rewind"
           />
         )}
@@ -244,7 +247,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
             onPress={() => seekBy(5)}
             style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
             color={theme.colors.onSecondary}
-            small
             testID="audio-forward"
           />
         )}
@@ -254,7 +256,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
             onPress={handleLoopPress}
             style={[styles.fab, styles.fabSeek, { backgroundColor: theme.colors.secondary }]}
             color={theme.colors.onSecondary}
-            small
             testID="audio-loop"
           />
         )}
@@ -271,7 +272,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           <View
             style={{
               position: "absolute",
-              bottom: (insets.bottom || 0) + 90,
+              bottom: 90,
               backgroundColor: theme.colors.secondary,
               borderRadius: 8,
               paddingHorizontal: 16,

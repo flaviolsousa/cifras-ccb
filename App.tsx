@@ -8,10 +8,11 @@ import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
 import { Provider as PaperProvider } from "react-native-paper";
-import { useColorScheme, StatusBar, SafeAreaView } from "react-native";
+import { useColorScheme, StatusBar } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
 import { THEME_DARK, THEME_SYSTEM } from "./src/config/values";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -44,12 +45,14 @@ export default function App() {
     <ThemeContext.Provider value={themePreferences}>
       <ReduxProvider store={store}>
         <PaperProvider theme={_theme}>
-          <SafeAreaView style={{ flex: 1 }}>
-            <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
-            <NavigationContainer theme={_theme}>
-              <MainNavigator />
-            </NavigationContainer>
-          </SafeAreaView>
+          <SafeAreaProvider>
+            <SafeAreaView style={{ flex: 1 }} edges={["left", "right", "bottom"]}>
+              <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
+              <NavigationContainer theme={_theme}>
+                <MainNavigator />
+              </NavigationContainer>
+            </SafeAreaView>
+          </SafeAreaProvider>
         </PaperProvider>
       </ReduxProvider>
     </ThemeContext.Provider>

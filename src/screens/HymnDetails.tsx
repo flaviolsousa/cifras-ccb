@@ -14,6 +14,7 @@ import ChordPanel from "../components/ChordPanel";
 import AutoScrollControl from "../components/AutoScrollControl";
 import HymnAudioPlayer from "../components/HymnAudioPlayer";
 import { HymnModel } from "../domain/HymnModel";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -69,6 +70,7 @@ const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; 
 
 const HymnDetails = () => {
   const theme = useTheme();
+  const insets = useSafeAreaInsets();
   const FONT_SIZE_INITIAL = 22;
   const FOOT_HEIGHT = 300;
 
@@ -307,7 +309,12 @@ const HymnDetails = () => {
             <Appbar.Header elevated={true}>
               <Appbar.BackAction onPress={() => navigation.goBack()} />
               <Appbar.Content title={title} />
-              <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
+              <Menu
+                visible={menuVisible}
+                style={{ flex: 1, position: "absolute", top: "10%", right: "10%", left: "10%" }}
+                onDismiss={closeMenu}
+                anchor={<IconButton icon="menu" onPress={toggleMenu} />}
+              >
                 <Menu.Item
                   onPress={() => {
                     closeMenu();
@@ -341,7 +348,7 @@ const HymnDetails = () => {
                     setAutoScrollVisible(!autoScrollVisible);
                     closeMenu();
                   }}
-                  title="Scroll Automático"
+                  title="Rolagem Automática"
                   leadingIcon="autorenew"
                 />
                 <Menu.Item
@@ -392,7 +399,7 @@ const HymnDetails = () => {
             styles.score,
             {
               marginBottom: fontSizeQuarter,
-              marginTop: (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
+              marginTop: insets.top + (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
             },
           ]}
         >
