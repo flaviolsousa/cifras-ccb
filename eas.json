@@ -12,10 +12,8 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
-    },
-    "android": {
-      "workflow": "managed",
+      "distribution": "store",
+      "autoIncrement": true,
       "releaseChannel": "default"
     }
   },
