@@ -9,9 +9,15 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "extends": "production",
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
     "production": {
+      "node": "v22.15.0",
+      "extends": "production",
       "distribution": "store",
       "autoIncrement": true,
       "releaseChannel": "default"
