@@ -11,7 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "platforms": ["android"],
+    "platforms": ["android", "web"],
     "ios": {
       "supportsTablet": true
     },

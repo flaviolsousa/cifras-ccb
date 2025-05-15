@@ -94,8 +94,9 @@ npx expo install SplashScreen
 # npx expo install react-native-gesture-handler
 
 npx expo install @react-native-community/slider
-npx expo install expo-screen-orientation  
+npx expo install expo-screen-orientation
 
+npx expo-doctor
 ```
 
 ## References

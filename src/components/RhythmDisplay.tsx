@@ -166,7 +166,7 @@ const RhythmDisplay: React.FC<RhythmDisplayProps> = ({ rhythmType, showPopup = f
       color: theme.colors.primary,
     },
     modalContainer: {
-      backgroundColor: "white",
+      backgroundColor: theme.colors.surface,
       padding: 24,
       margin: 20,
       borderRadius: 8,

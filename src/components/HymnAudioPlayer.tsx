@@ -112,7 +112,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           setLoopStart(status.currentTime);
           setLoopEnd(null);
           setLoopState(1);
-          showLoopAlert("Início de Loop marcado\n\nAgora defina o fim do loop");
+          showLoopAlert("Início de Loop marcado\n\nToque novamente para definir o fim do loop");
         }
       }
     } else if (loopState === 1) {
@@ -130,7 +130,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       setLoopStart(null);
       setLoopEnd(null);
       setLoopState(0);
-      showLoopAlert("Loop Cancelado\n\nAgora pode reiniciar a configuração");
+      showLoopAlert("Loop Cancelado\n\nToque novamente para parar o Loop\ne reiniciar a configuração");
     }
   };
 
