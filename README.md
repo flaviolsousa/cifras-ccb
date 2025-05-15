@@ -58,6 +58,13 @@ npx expo start --tunnel -c
 
 5. Press `a` on keyboard
 
+## Build Android
+
+```sh
+# Generate .apk without signature for tests
+eas build --platform android --profile preview
+```
+
 ## Reference to new project configuration
 
 ```sh
