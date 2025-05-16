@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useCallback } from "react";
+import { LogBox } from "react-native";
 import "react-native-reanimated";
 import * as SplashScreen from "expo-splash-screen";
 import { useFonts } from "expo-font";
@@ -13,9 +14,14 @@ import { ThemeContext } from "./src/config/Theme/Context";
 import { THEME_DARK, THEME_SYSTEM } from "./src/config/values";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
+// Log para verificar inicialização
+console.log("[Expo] Initializing app...");
+LogBox.ignoreLogs(["Warning: ..."]); // Opcional: ignorar warnings específicos
+
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
+  console.log("[Expo] Loading fonts...");
   const [fontsLoaded] = useFonts({
     HackRegular: require("./assets/fonts/hack-mono/Hack-Regular.ttf"),
     UbuntuMonoRegular: require("./assets/fonts/ubuntu/UbuntuMono-R.ttf"),
@@ -32,6 +38,7 @@ export default function App() {
 
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
+      console.log("[Expo] App fully loaded");
       await SplashScreen.hideAsync();
     }
   }, [fontsLoaded]);

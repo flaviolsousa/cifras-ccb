@@ -23,10 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "softwareKeyboardLayoutMode": "pan",
-      "enableProguardInReleaseBuilds": false,
-      "enableHermes": true,
-      "permissions": ["INTERNET"],
-      "jsEngine": "hermes"
+      "permissions": ["INTERNET"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
