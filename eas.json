@@ -6,18 +6,22 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "node": "22.15.0"
     },
     "preview": {
       "extends": "production",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      }
+      },
+      "node": "22.15.0"
     },
     "production": {
-      "node": "v22.15.0",
-      "extends": "production",
+      "node": "22.15.0",
       "distribution": "store",
       "autoIncrement": true,
       "releaseChannel": "default"

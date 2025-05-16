@@ -3,7 +3,6 @@ import "react-native-reanimated";
 import * as SplashScreen from "expo-splash-screen";
 import { useFonts } from "expo-font";
 import { Provider as ReduxProvider } from "react-redux";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
@@ -31,7 +30,7 @@ export default function App() {
   const selectedTheme = themeName === THEME_SYSTEM ? colorScheme : themeName;
   const _theme = selectedTheme === THEME_DARK ? theme.dark : theme.light;
 
-  const onLayoutRootView = useCallback(async () => {
+  useCallback(async () => {
     if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
