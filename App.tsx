@@ -30,7 +30,7 @@ export default function App() {
   const selectedTheme = themeName === THEME_SYSTEM ? colorScheme : themeName;
   const _theme = selectedTheme === THEME_DARK ? theme.dark : theme.light;
 
-  useCallback(async () => {
+  const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
       await SplashScreen.hideAsync();
     }
@@ -45,7 +45,7 @@ export default function App() {
       <ReduxProvider store={store}>
         <PaperProvider theme={_theme}>
           <SafeAreaProvider>
-            <SafeAreaView style={{ flex: 1 }} edges={["left", "right", "bottom"]}>
+            <SafeAreaView style={{ flex: 1 }} edges={["left", "right", "bottom"]} onLayout={onLayoutRootView}>
               <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
               <NavigationContainer theme={_theme}>
                 <MainNavigator />

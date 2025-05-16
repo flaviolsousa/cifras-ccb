@@ -24,7 +24,9 @@
       },
       "softwareKeyboardLayoutMode": "pan",
       "enableProguardInReleaseBuilds": false,
-      "enableHermes": true
+      "enableHermes": true,
+      "permissions": ["INTERNET"],
+      "jsEngine": "hermes"
     },
     "web": {
       "favicon": "./assets/favicon.png"

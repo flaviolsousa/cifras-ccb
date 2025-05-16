@@ -45,6 +45,7 @@
       "reactNativeDirectoryCheck": {
         "listUnknownPackages": false
       }
-    }
+    },
+    "jsEngine": "hermes"
   }
 }
