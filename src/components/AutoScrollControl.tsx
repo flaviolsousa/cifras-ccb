@@ -21,34 +21,23 @@ function getLettersAndVerses(hymn: HymnModel): { countLetters: number; countVers
   return { countLetters, countVerses, averageLetters };
 }
 
-function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number, maxScroll: number): number {
+function calculateScrollParams(hymn: HymnModel, speed: number, maxScroll: number): number {
   const BASE_STEP = 5;
 
+  if (!hymn.time) return BASE_STEP;
+
   let speedFactor;
-  const MIN_SPEED_FACTOR = 0.25;
+  const MIN_SPEED_FACTOR = 0.2;
   const AVG_SPEED_FACTOR = 1;
-  const MAX_SPEED_FACTOR = 10;
+  const MAX_SPEED_FACTOR = 7;
   if (speed <= 50) {
     speedFactor = ((AVG_SPEED_FACTOR - MIN_SPEED_FACTOR) * speed) / 50 + MIN_SPEED_FACTOR; // 0,25 <-> 1
   } else {
     speedFactor = (MAX_SPEED_FACTOR - AVG_SPEED_FACTOR) * Math.pow((speed - 50) / 50, 2.2) + AVG_SPEED_FACTOR; // 1 <-> 10 in curve
   }
 
-  console.log("Duration: ", hymn.time?.duration, "maxScroll: ", maxScroll);
-
-  const timeReference = hymn.time?.reference ?? 1;
-
-  const FONT_SIZE_REFERENCE = 22;
-  let fontFactor = 1 + (fontSize - FONT_SIZE_REFERENCE) * 0.25;
-
-  const { averageLetters } = getLettersAndVerses(hymn);
-
-  const REFERENCE_LETTERS = 30;
-  let lettersFactor = REFERENCE_LETTERS / Math.max(1, averageLetters);
-
-  const combinedFactor = timeReference * fontFactor * lettersFactor;
-
-  let step = BASE_STEP * combinedFactor * speedFactor;
+  const normalStep = maxScroll / (hymn.time.duration - hymn.time.introDuration);
+  let step = normalStep * speedFactor;
 
   return step;
 }
@@ -114,7 +103,7 @@ const AutoScrollControl = ({
     const currentPos = lastScrollYRef.current || 0;
     const maxScroll = contentHeight - viewportHeight;
 
-    const step = calculateScrollParams(hymn, currentSpeedRef.current, fontSize, maxScroll);
+    const step = calculateScrollParams(hymn, currentSpeedRef.current, maxScroll);
 
     if (currentPos >= maxScroll) return pause();
 
