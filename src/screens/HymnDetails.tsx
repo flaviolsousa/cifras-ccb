@@ -245,7 +245,7 @@ const HymnDetails = () => {
   };
   const hideHeader = () => {
     Animated.spring(headerTranslateY, {
-      toValue: -64,
+      toValue: -200, // -64 to perfect hide the header
       useNativeDriver: true,
       tension: 80,
       friction: 8,

@@ -21,7 +21,7 @@ function getLettersAndVerses(hymn: HymnModel): { countLetters: number; countVers
   return { countLetters, countVerses, averageLetters };
 }
 
-function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number): number {
+function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number, maxScroll: number): number {
   const BASE_STEP = 5;
 
   let speedFactor;
@@ -33,6 +33,8 @@ function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number)
   } else {
     speedFactor = (MAX_SPEED_FACTOR - AVG_SPEED_FACTOR) * Math.pow((speed - 50) / 50, 2.2) + AVG_SPEED_FACTOR; // 1 <-> 10 in curve
   }
+
+  console.log("Duration: ", hymn.time?.duration, "maxScroll: ", maxScroll);
 
   const timeReference = hymn.time?.reference ?? 1;
 
@@ -52,7 +54,7 @@ function calculateScrollParams(hymn: HymnModel, speed: number, fontSize: number)
 }
 
 interface AutoScrollControlProps {
-  scrollViewRef: React.RefObject<ScrollView>;
+  scrollViewRef: React.RefObject<ScrollView | null>;
   contentHeight: number;
   viewportHeight: number;
   hymn: HymnModel | null;
@@ -112,7 +114,7 @@ const AutoScrollControl = ({
     const currentPos = lastScrollYRef.current || 0;
     const maxScroll = contentHeight - viewportHeight;
 
-    const step = calculateScrollParams(hymn, currentSpeedRef.current, fontSize);
+    const step = calculateScrollParams(hymn, currentSpeedRef.current, fontSize, maxScroll);
 
     if (currentPos >= maxScroll) return pause();
 

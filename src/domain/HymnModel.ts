@@ -10,6 +10,8 @@ export interface TimeSignature {
 export interface Tempo {
   reference: number;
   text: string;
+  duration: number;
+  introDuration: number;
 }
 
 export interface Verse {
