@@ -1,25 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Animated, Easing, View, StyleSheet, ScrollView } from "react-native";
-import { IconButton, useTheme } from "react-native-paper";
 import Slider from "@react-native-community/slider";
-import _, { set } from "lodash";
+import _ from "lodash";
+import React, { useEffect, useRef, useState } from "react";
+import { Animated, Easing, ScrollView, StyleSheet, View } from "react-native";
+import { IconButton, useTheme } from "react-native-paper";
 import { HymnModel } from "../domain/HymnModel";
-
-function getLettersAndVerses(hymn: HymnModel): { countLetters: number; countVerses: number; averageLetters: number } {
-  if (!hymn.score?.stanzas) return { countLetters: 0, countVerses: 0, averageLetters: 0 };
-  const countLetters = hymn.score.stanzas.reduce((acc, stanza) => {
-    const sumVerses =
-      stanza?.verses?.reduce((vAcc, verse) => {
-        return vAcc + (verse?.lyrics?.length ?? 0);
-      }, 0) ?? 0;
-    return acc + sumVerses;
-  }, 0);
-  const countVerses = hymn.score.stanzas.reduce((acc, stanza) => {
-    return acc + (stanza?.verses?.length ?? 0);
-  }, 0);
-  const averageLetters = countVerses > 0 ? countLetters / countVerses : 0;
-  return { countLetters, countVerses, averageLetters };
-}
 
 function calculateScrollParams(hymn: HymnModel, speed: number, maxScroll: number): number {
   const BASE_STEP = 5;
@@ -33,7 +17,7 @@ function calculateScrollParams(hymn: HymnModel, speed: number, maxScroll: number
   if (speed <= 50) {
     speedFactor = ((AVG_SPEED_FACTOR - MIN_SPEED_FACTOR) * speed) / 50 + MIN_SPEED_FACTOR; // 0,25 <-> 1
   } else {
-    speedFactor = (MAX_SPEED_FACTOR - AVG_SPEED_FACTOR) * Math.pow((speed - 50) / 50, 2.2) + AVG_SPEED_FACTOR; // 1 <-> 10 in curve
+    speedFactor = (MAX_SPEED_FACTOR - AVG_SPEED_FACTOR) * Math.pow((speed - 50) / 50, 2.2) + AVG_SPEED_FACTOR; // 1 <-> 7 in curve
   }
 
   const normalStep = maxScroll / (hymn.time.duration - hymn.time.introDuration);

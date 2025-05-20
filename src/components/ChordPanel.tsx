@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from "react";
-import { View, ScrollView, Text, StyleSheet } from "react-native";
-import { Surface, useTheme, IconButton } from "react-native-paper";
+import React, { useEffect, useRef } from "react";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { IconButton, Surface, useTheme } from "react-native-paper";
 import GuitarChord from "./GuitarChord";
 
 interface ChordPanelProps {
@@ -8,25 +8,28 @@ interface ChordPanelProps {
   allChords: string[];
   onChordSelect?: (chord: string) => void;
   onClose?: () => void;
+  visible?: boolean;
 }
 
-const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose }: ChordPanelProps) => {
+const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose, visible = true }: ChordPanelProps) => {
   const theme = useTheme();
   const scrollViewRef = useRef<ScrollView>(null);
   const sortedChords = [...allChords].sort();
 
-  // Efeito para scrollar até o acorde selecionado
+  // Effect to scroll to the selected chord
   useEffect(() => {
     if (selectedChord && scrollViewRef.current) {
       const chordIndex = sortedChords.indexOf(selectedChord);
       if (chordIndex !== -1) {
         scrollViewRef.current.scrollTo({
-          x: chordIndex * 180, // width do chordContainer
+          x: chordIndex * 180, // width of chordContainer
           animated: true,
         });
       }
     }
   }, [selectedChord, sortedChords]);
+
+  if (!visible) return null;
 
   return (
     <Surface style={styles.container}>
@@ -65,6 +68,7 @@ const styles = StyleSheet.create({
     elevation: 4,
     paddingTop: 8, // Increased to accommodate floating close button
     paddingBottom: 8,
+    zIndex: 4,
   },
   closeButtonContainer: {
     position: "absolute",
@@ -72,7 +76,7 @@ const styles = StyleSheet.create({
     right: 0,
     top: -50,
     alignItems: "center",
-    zIndex: 1,
+    zIndex: 5,
   },
   closeButton: {
     backgroundColor: "white",

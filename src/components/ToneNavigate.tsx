@@ -15,8 +15,6 @@ interface ToneNavigateProps {
 const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
   const theme = useTheme();
 
-  // const styles = StyleSheet.create({});
-
   const handleToneUp = () => {
     try {
       const newTone = transpose(currentTone).up(1).toString();

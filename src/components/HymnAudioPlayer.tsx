@@ -59,6 +59,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
   const pauseAudio = async () => {
     if (playerRef.current) {
       playerRef.current.pause();
+      setShowRestart(false);
       setIsPlaying(false);
     }
   };
@@ -74,7 +75,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     }
   };
 
-  // Avançar e retroceder 5 segundos
+  // Fast forward and rewind 5 seconds
   const seekBy = async (seconds: number) => {
     if (playerRef.current) {
       const status = playerRef.current.currentStatus;
@@ -88,12 +89,12 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     }
   };
 
-  // Controle de loop
+  // Loop control
   const [loopState, setLoopState] = useState<0 | 1 | 2>(0); // 0: off, 1: set start, 2: set end
   const [loopStart, setLoopStart] = useState<number | null>(null);
   const [loopEnd, setLoopEnd] = useState<number | null>(null);
 
-  // Alerta temporário para feedback do loop
+  // Temporary alert for loop feedback
   const [loopAlert, setLoopAlert] = useState<string | null>(null);
   const loopAlertTimer = useRef<NodeJS.Timeout | null>(null);
   const showLoopAlert = (msg: string, time: number = 10000) => {
@@ -102,10 +103,10 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     loopAlertTimer.current = setTimeout(() => setLoopAlert(null), time);
   };
 
-  // Atualiza o loop ao tocar o botão
+  // Update loop when pressing the button
   const handleLoopPress = async () => {
     if (loopState === 0) {
-      // Definir início
+      // Set start
       if (playerRef.current) {
         const status = playerRef.current.currentStatus;
         if (status && status.isLoaded) {
@@ -116,7 +117,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         }
       }
     } else if (loopState === 1) {
-      // Definir fim
+      // Set end
       if (playerRef.current) {
         const status = playerRef.current.currentStatus;
         if (status && status.isLoaded && loopStart !== null && status.currentTime > loopStart) {
@@ -126,7 +127,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         }
       }
     } else {
-      // Resetar loop
+      // Reset loop
       setLoopStart(null);
       setLoopEnd(null);
       setLoopState(0);
@@ -134,7 +135,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     }
   };
 
-  // Listener para manter o loop
+  // Listener to maintain the loop
   useEffect(() => {
     if (!playerRef.current) return;
     if (loopState !== 2 || loopStart === null || loopEnd === null) return;
@@ -150,7 +151,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     };
   }, [loopState, loopStart, loopEnd]);
 
-  // Parar o áudio ao sair da tela ou minimizar o app
+  // Stop audio when leaving the screen or minimizing the app
   useEffect(() => {
     const stopAudio = () => {
       if (playerRef.current) {
@@ -160,7 +161,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       }
     };
 
-    // Parar ao minimizar/app background (mobile)
+    // Stop when minimizing/app background (mobile)
     const handleAppStateChange = (state: string) => {
       if (state !== "active") {
         stopAudio();
@@ -171,9 +172,9 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       appStateListener = AppState.addEventListener("change", handleAppStateChange);
     }
 
-    // Parar ao desmontar
+    // Stop when unmounting
     return () => {
-      // Ao desmontar, só para, não reinicia
+      // When unmounting, just stop, don't restart
       if (playerRef.current) {
         playerRef.current.pause();
         setIsPlaying(false);
@@ -182,11 +183,11 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     };
   }, []);
 
-  // Evitar autoplay ao voltar do background
+  // Prevent autoplay when returning from background
   useEffect(() => {
     const handleAppStateChange = (state: string) => {
       if (state === "active" && playerRef.current) {
-        // Garante que não toca automaticamente ao voltar
+        // Ensure it doesn't play automatically when returning
         playerRef.current.pause();
         setIsPlaying(false);
       }
@@ -295,7 +296,7 @@ const styles = StyleSheet.create({
     right: 24,
     flexDirection: "row",
     alignItems: "center",
-    zIndex: 100,
+    zIndex: 1,
   },
   fab: {
     marginRight: 8,

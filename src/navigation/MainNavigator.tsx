@@ -1,16 +1,14 @@
-// src/navigation/MainNavigator.tsx
-import React from "react";
-import * as ScreenOrientation from "expo-screen-orientation";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import SplashScreen from "../screens/SplashScreen";
-import Home from "../screens/Home";
-import Preferences from "../screens/Preferences";
-import Bookmarks from "../screens/Bookmarks";
-import HymnDetails from "../screens/HymnDetails";
-import DrawerContent from "../screens/DrawerContent";
+import * as ScreenOrientation from "expo-screen-orientation";
+import React from "react";
 import { Platform } from "react-native";
-import { HymnModel } from "../domain/HymnModel";
+import Bookmarks from "../screens/Bookmarks";
+import DrawerContent from "../screens/DrawerContent";
+import Home from "../screens/Home";
+import HymnDetails from "../screens/HymnDetails";
+import Preferences from "../screens/Preferences";
+import SplashScreen from "../screens/SplashScreen";
 
 export type RootStackParamList = {
   Splash: undefined;

@@ -42,7 +42,7 @@ interface RhythmDisplayProps {
   onDismiss?: () => void;
 }
 
-// Função utilitária para desenhar a seta customizada
+// Utility function to draw the custom arrow
 function RenderArrow({ arrow, style, primaryColor }: { arrow: string; style: "sup" | "sub" | "normal"; primaryColor: string }) {
   const isDown = arrow === "↓";
   const baseWidth = 36;
@@ -84,7 +84,7 @@ function RenderArrow({ arrow, style, primaryColor }: { arrow: string; style: "su
     />
   );
 
-  // Define a ordem dos elementos conforme o estilo
+  // Defines the order of elements according to the style
   let elements: React.ReactNode[] = [];
   if (style === "normal") {
     elements = isDown ? [Shaft, Shaft, Triangle] : [Triangle, Shaft, Shaft];
@@ -109,7 +109,7 @@ const RhythmDisplay: React.FC<RhythmDisplayProps> = ({ rhythmType, showPopup = f
   const theme = useTheme();
   const pattern = RHYTHM_PATTERNS[rhythmType];
 
-  // Adiciona estado para alternar entre letras e ícones
+  // Adds state to toggle between letters and icons
   const [showIcons, setShowIcons] = useState(false);
 
   const styles = StyleSheet.create({
@@ -207,12 +207,7 @@ const RhythmDisplay: React.FC<RhythmDisplayProps> = ({ rhythmType, showPopup = f
             </View>
           ))}
         </View>
-        {/* Linha dos dedos com toggle ao tocar */}
-        <View
-          style={styles.expandedFingersContainer}
-          // Alterna entre letras e ícones ao tocar
-          onTouchEnd={() => setShowIcons((prev) => !prev)}
-        >
+        <View style={styles.expandedFingersContainer} onTouchEnd={() => setShowIcons((prev) => !prev)}>
           {pattern.fingers.map((finger, index) => (
             <View key={`column-fingers-${index}`} style={styles.rhythmColumn}>
               <Text style={styles.expandedFinger}>{showIcons ? FINGERS_ICON_MAP[finger] || finger : finger}</Text>

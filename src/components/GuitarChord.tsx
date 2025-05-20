@@ -2,13 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import { useTheme } from "react-native-paper";
 import { getGuitarChordData } from "./GuitarChordDictionary";
-
-interface GuitarChordProps {
-  name: string;
-  frets?: number[];
-  fingers?: number[];
-  size?: number;
-}
+import { type GuitarChordProps, type Bar } from "../domain/ChordDictionary";
 
 const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fingers: customFingers, size = 120 }) => {
   const chordData = customFrets && customFingers ? { frets: customFrets, fingers: customFingers } : getGuitarChordData(name);
@@ -21,7 +15,7 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
   const fretSpacing = size / 6;
   const dotSize = stringSpacing * 0.8;
 
-  // Normaliza os frets para começar da primeira casa quando possível
+  // Normalize frets to start from the first fret when possible
   const normalizeChordPosition = () => {
     const nonZeroFrets = frets.filter((fret) => fret > 0);
     if (nonZeroFrets.length === 0) return { normalizedFrets: frets, position: 0 };
@@ -38,9 +32,9 @@ const GuitarChord: React.FC<GuitarChordProps> = ({ name, frets: customFrets, fin
 
   const { normalizedFrets, position } = normalizeChordPosition();
 
-  // Função para encontrar barras
-  const findBars = () => {
-    const bars = [];
+  // Function to find bars
+  const findBars = (): Bar[] => {
+    const bars: Bar[] = [];
     for (let fret = 1; fret <= fretCount; fret++) {
       for (let finger = 1; finger <= 4; finger++) {
         const positions = fingers

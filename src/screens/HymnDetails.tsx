@@ -1,20 +1,20 @@
 // src/screens/HymnDetails.tsx
+import { useNavigation, useRoute, type RouteProp } from "@react-navigation/native";
+import React, { useEffect, useRef, useState } from "react";
+import { Animated, Platform, StyleSheet, Text, View, type LayoutChangeEvent, type ScrollView } from "react-native";
+import { Appbar, Divider, FAB, IconButton, Menu, useTheme } from "react-native-paper";
 import "react-native-reanimated";
-import React, { useState, useEffect, useRef } from "react";
-import { Animated, Easing, View, StyleSheet, type ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
-import { useTheme, Appbar, IconButton, Menu, FAB, Divider } from "react-native-paper";
-import { type RouteProp, useRoute, useNavigation } from "@react-navigation/native";
-import { type RootStackParamList } from "../navigation/MainNavigator";
-import useHymnData from "../hooks/useHymnData";
-import useOrientation from "../hooks/useOrientation";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import AutoScrollControl from "../components/AutoScrollControl";
+import ChordPanel from "../components/ChordPanel";
+import HymnAudioPlayer from "../components/HymnAudioPlayer";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
 import ToneNavigate from "../components/ToneNavigate";
-import ChordPanel from "../components/ChordPanel";
-import AutoScrollControl from "../components/AutoScrollControl";
-import HymnAudioPlayer from "../components/HymnAudioPlayer";
-import { HymnModel } from "../domain/HymnModel";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { type HymnModel } from "../domain/HymnModel";
+import useHymnData from "../hooks/useHymnData";
+import useOrientation from "../hooks/useOrientation";
+import { type RootStackParamList } from "../navigation/MainNavigator";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -515,10 +515,15 @@ const HymnDetails = () => {
           }
         }}
       />
-      {selectedChord && (
-        <ChordPanel selectedChord={selectedChord} allChords={allChords} onChordSelect={handleChordPress} onClose={handleCloseChordPanel} />
-      )}
       <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} />
+
+      <ChordPanel
+        selectedChord={selectedChord}
+        allChords={allChords}
+        onChordSelect={handleChordPress}
+        onClose={handleCloseChordPanel}
+        visible={!!selectedChord}
+      />
     </View>
   );
 };

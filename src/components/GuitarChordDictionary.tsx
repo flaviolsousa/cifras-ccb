@@ -1,7 +1,7 @@
-import { ChordDictionary } from "../domain/ChordDictionary";
+import { type ChordDictionary } from "../domain/ChordDictionary";
 
 export const chordDictionary: ChordDictionary = {
-  // Acordes de A
+  // Chords of A
   A: { frets: [0, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
   "A#°": { frets: [0, 1, 2, 0, 2, 0], fingers: [0, 1, 2, 0, 3, 0] },
   A7: { frets: [0, 0, 2, 0, 2, 0], fingers: [0, 0, 2, 0, 3, 0] },
@@ -9,7 +9,7 @@ export const chordDictionary: ChordDictionary = {
   Am: { frets: [0, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
   "A°": { frets: [0, 0, 1, 2, 1, -1], fingers: [0, 0, 1, 3, 2, 0] },
 
-  // Acordes de B
+  // Chords of B
   B: { frets: [2, 2, 4, 4, 4, 2], fingers: [1, 1, 2, 3, 4, 1] },
   B7: { frets: [2, 2, 4, 2, 4, 2], fingers: [1, 1, 3, 1, 4, 1] },
   Bb: { frets: [1, 1, 3, 3, 3, 1], fingers: [1, 1, 2, 3, 4, 1] },
@@ -19,7 +19,7 @@ export const chordDictionary: ChordDictionary = {
   "Bm7(5-)": { frets: [2, 2, 3, 2, 3, 2], fingers: [1, 1, 3, 1, 4, 1] },
   "B°": { frets: [2, 0, 2, 3, 2, -1], fingers: [1, 0, 2, 4, 3, 0] },
 
-  // Acordes de C
+  // Chords of C
   C: { frets: [0, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
   "C#": { frets: [-1, 4, 3, 1, 2, 1], fingers: [0, 4, 3, 1, 2, 1] },
   "C#7": { frets: [-1, 4, 3, 4, 2, -1], fingers: [0, 3, 2, 4, 1, 0] },
@@ -34,7 +34,7 @@ export const chordDictionary: ChordDictionary = {
   Cm: { frets: [-1, 3, 1, 0, 1, -1], fingers: [0, 3, 1, 0, 2, 0] },
   "C°": { frets: [-1, 3, 4, 2, 4, 2], fingers: [0, 2, 3, 1, 4, 1] },
 
-  // Acordes de D
+  // Chords of D
   D: { frets: [-1, -1, 0, 2, 3, 2], fingers: [0, 0, 0, 2, 3, 1] },
   "D#": { frets: [-1, -1, 1, 3, 4, 3], fingers: [0, 0, 1, 2, 4, 3] },
   "D#7": { frets: [-1, -1, 1, 3, 2, 3], fingers: [0, 0, 1, 3, 2, 4] },
@@ -46,7 +46,7 @@ export const chordDictionary: ChordDictionary = {
   Dm: { frets: [-1, -1, 0, 2, 3, 1], fingers: [0, 0, 0, 2, 3, 1] },
   "D°": { frets: [-1, -1, 0, 1, 0, 1], fingers: [0, 0, 0, 1, 0, 2] },
 
-  // Acordes de E
+  // Chords of E
   E: { frets: [0, 2, 2, 1, 0, 0], fingers: [0, 2, 3, 1, 0, 0] },
   E4: { frets: [0, 2, 2, 2, 0, 0], fingers: [0, 2, 3, 4, 0, 0] },
   E7: { frets: [0, 2, 0, 1, 0, 0], fingers: [0, 2, 0, 1, 0, 0] },
@@ -54,7 +54,7 @@ export const chordDictionary: ChordDictionary = {
   Em7: { frets: [0, 2, 0, 0, 0, 0], fingers: [0, 1, 0, 0, 0, 0] },
   "E°": { frets: [0, 1, 2, 0, 2, 0], fingers: [0, 1, 3, 0, 4, 0] },
 
-  // Acordes de F
+  // Chords of F
   F: { frets: [1, 3, 3, 2, 1, 1], fingers: [1, 3, 4, 2, 1, 1] },
   "F#": { frets: [2, 4, 4, 3, 2, 2], fingers: [1, 3, 4, 2, 1, 1] },
   "F#7": { frets: [2, 4, 2, 3, 2, 2], fingers: [1, 4, 1, 3, 1, 1] },
@@ -65,7 +65,7 @@ export const chordDictionary: ChordDictionary = {
   Fm: { frets: [1, 3, 3, 1, 1, 1], fingers: [1, 3, 4, 1, 1, 1] },
   "F°": { frets: [1, 2, 3, 1, -1, -1], fingers: [1, 2, 3, 1, 0, 0] },
 
-  // Acordes de G
+  // Chords of G
   G: { frets: [3, 2, 0, 0, 0, 3], fingers: [2, 1, 0, 0, 0, 3] },
   "G#": { frets: [4, 6, 6, 5, 4, 4], fingers: [1, 3, 4, 2, 1, 1] },
   "G#7": { frets: [4, 6, 4, 5, 4, 4], fingers: [1, 3, 1, 2, 1, 1] },
