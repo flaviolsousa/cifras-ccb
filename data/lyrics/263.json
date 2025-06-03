@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo é Luz resplandecente",
   "tone": {
     "recommended": "D"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                           G     D     E   A ",
-            "lyrics": "Cristo_é Luz resplandecente ao contrito pecador,"
-          },
-          {
-            "chords": "D                                 A     D",
-            "lyrics": "Que, cansado e aflito, paz espera do Senhor."
-          }
+        "text": [
+          "[D]Cristo_é Luz resplandecente [G]ao con[D]trito [E]peca[A]dor,",
+          "[D]Que, cansado e aflito, paz espera [A]do Sen[D]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D          A  A7           D",
-            "lyrics": "Salvação terá   todo_o pecador"
-          },
-          {
-            "chords": "                        A           D",
-            "lyrics": "Que se converter ao Evangelho do Senhor."
-          }
+        "text": [
+          "[D]Salvação te[A]rá [A7]  todo_o peca[D]dor",
+          "Que se converter ao Evan[A]gelho do Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                       G      D     E   A ",
-            "lyrics": "Cristo_é Senda gloriosa que preserva no amor"
-          },
-          {
-            "chords": "D                                 A     D",
-            "lyrics": "Todo_aquele que_obedece à vontade do Senhor. "
-          }
+        "text": [
+          "[D]Cristo_é Senda gloriosa [G]que pre[D]serva [E]no a[A]mor",
+          "[D]Todo_aquele que_obedece à vontade [A]do Sen[D]hor. "
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                     G        D       E   A ",
-            "lyrics": "É a celestial Verdade que transforma_o pecador,"
-          },
-          {
-            "chords": "D                                        A     D",
-            "lyrics": "E, quem d´Ela se reveste, filho_eleito_é do Senhor."
-          }
+        "text": [
+          "[D]É a celestial Verdade [G]que trans[D]forma_o [E]peca[A]dor,",
+          "[D]E, quem d´Ela se reveste, filho_eleito_é [A]do Sen[D]hor."
         ]
       },
       {

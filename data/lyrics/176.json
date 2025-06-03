@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Por Ti vivo, ó Deus potente",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Viver desejo só por Ti, Senhor,"
-          },
-          {
-            "chords": "                        B ",
-            "lyrics": "Cumprindo sempre Teu querer,"
-          },
-          {
-            "chords": "   E",
-            "lyrics": "Mostrando_a luz ao mundo_enganador"
-          },
-          {
-            "chords": "  B    B7              E",
-            "lyrics": "E consagrando_a Ti meu ser."
-          }
+        "text": [
+          "Vi[E]ver desejo só por Ti, Senhor,",
+          "Cumprindo sempre Teu que[B]rer,",
+          "Mos[E]trando_a luz ao mundo_enganador",
+          "E [B]consa[B7]grando_a Ti meu [E]ser."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E7     A              E",
-            "lyrics": "Por Ti vivo, ó Deus potente;"
-          },
-          {
-            "chords": "          B7               E",
-            "lyrics": "Por Ti, Senhor, sempre viverei;"
-          },
-          {
-            "chords": "E7    A                E",
-            "lyrics": "Com minh´alma, mui reverente,"
-          },
-          {
-            "chords": "      B7        E",
-            "lyrics": "O Teu Nome bendirei."
-          }
+        "text": [
+          "[E7]Por Ti [A]vivo, ó Deus po[E]tente;",
+          "Por Ti, Se[B7]nhor, sempre vive[E]rei;",
+          "[E7]Com mi[A]nh´alma, mui reve[E]rente,",
+          "O Teu [B7]Nome bendi[E]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Viver por Ti, Senhor, honroso é,"
-          },
-          {
-            "chords": "                         B ",
-            "lyrics": "Oh! Faz-me_andar em Teu amor;"
-          },
-          {
-            "chords": "   E",
-            "lyrics": "Em paz prosseguirei de fé em fé"
-          },
-          {
-            "chords": "  B    B7         E",
-            "lyrics": "E vencerei o tentador."
-          }
+        "text": [
+          "Vi[E]ver por Ti, Senhor, honroso é,",
+          "Oh! Faz-me_andar em Teu a[B]mor;",
+          "Em [E]paz prosseguirei de fé em fé",
+          "E [B]vence[B7]rei o tenta[E]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Viver desejo,_ó Deus, em retidão,"
-          },
-          {
-            "chords": "                     B ",
-            "lyrics": "Com as virtudes celestiais;"
-          },
-          {
-            "chords": "   E",
-            "lyrics": "De Ti receberei o galardão"
-          },
-          {
-            "chords": "  B    B7         E",
-            "lyrics": "E as riquezas eternais."
-          }
+        "text": [
+          "Vi[E]ver desejo,_ó Deus, em retidão,",
+          "Com as virtudes celes[B]tiais;",
+          "De [E]Ti receberei o galardão",
+          "E [B]as ri[B7]quezas eter[E]nais."
         ]
       },
       {

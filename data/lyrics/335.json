@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eu almejo nessa pátria entrar",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E                         B ",
-            "lyrics": "Sei que, ao findar aqui o meu labor,"
-          },
-          {
-            "chords": "                            E",
-            "lyrics": "Reinarei no lar de glória_e de_esplendor,"
-          },
-          {
-            "chords": "                      B ",
-            "lyrics": "Onde a tristeza não terá lugar;"
-          },
-          {
-            "chords": "                           E",
-            "lyrics": "Paz e alegria lá vou desfrutar."
-          }
+        "text": [
+          "[E]Sei que, ao findar aqui o [B]meu labor,",
+          "Reinarei no lar de glória_e [E]de_esplendor,",
+          "Onde a tristeza não te[B]rá lugar;",
+          "Paz e alegria lá vou desfru[E]tar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E               B ",
-            "lyrics": "Eu almejo nessa pátria_entrar"
-          },
-          {
-            "chords": "                    E",
-            "lyrics": "E, na glória, com Jesus reinar;"
-          },
-          {
-            "chords": "       A      B ",
-            "lyrics": "Com os santos eu entoarei"
-          },
-          {
-            "chords": "E           A         B     E",
-            "lyrics": "Hinos de louvores ao eterno Rei."
-          }
+        "text": [
+          "[E]Eu almejo nessa [B]pátria_entrar",
+          "E, na glória, com Je[E]sus reinar;",
+          "Com os [A]santos [B]eu entoarei",
+          "[E]Hinos de lou[A]vores ao e[B]terno [E]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E                         B ",
-            "lyrics": "Sei que, ao findar a luta contra_o mal,"
-          },
-          {
-            "chords": "                           E",
-            "lyrics": "Viverei com Deus na pátria celestial;"
-          },
-          {
-            "chords": "                       B ",
-            "lyrics": "Lá existe paz, justiça e amor,"
-          },
-          {
-            "chords": "                            E",
-            "lyrics": "E os salvos louvarão ao Criador."
-          }
+        "text": [
+          "[E]Sei que, ao findar a luta [B]contra_o mal,",
+          "Viverei com Deus na pátria [E]celestial;",
+          "Lá existe paz, justiça [B]e amor,",
+          "E os salvos louvarão ao Cria[E]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E                          B ",
-            "lyrics": "Sei que, ao findar o meu peregrinar,"
-          },
-          {
-            "chords": "                         E",
-            "lyrics": "Entrarei com Cristo no celeste lar,"
-          },
-          {
-            "chords": "                     B ",
-            "lyrics": "Onde os remidos se encontrarão"
-          },
-          {
-            "chords": "                             E",
-            "lyrics": "E eternamente,_a Deus, exaltarão."
-          }
+        "text": [
+          "[E]Sei que, ao findar o meu pe[B]regrinar,",
+          "Entrarei com Cristo no ce[E]leste lar,",
+          "Onde os remidos se en[B]contrarão",
+          "E eternamente,_a Deus, exalta[E]rão."
         ]
       },
       {

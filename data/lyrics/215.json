@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Em breve ao céu irei",
   "tone": {
     "recommended": "C"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "            C",
-            "lyrics": "Em breve_ao céu irei e lá contemplarei"
-          },
-          {
-            "chords": "         G                   C",
-            "lyrics": "A glória do bom Pai e_a face do meu Rei;"
-          },
-          {
-            "chords": "                              F",
-            "lyrics": "Oh Quão feliz serei na pátria divinal,"
-          },
-          {
-            "chords": "       G4      G7             C    C...",
-            "lyrics": "Ao receber, de Deus, vida_eternal."
-          }
+        "text": [
+          "Em breve_ao [C]céu irei e lá contemplarei",
+          "A glória [G]do bom Pai e_a face [C]do meu Rei;",
+          "Oh Quão feliz serei na pátria [F]divinal,",
+          "Ao rece[G4]ber, de [G7]Deus, vida_eter[C]nal.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "           C",
-            "lyrics": "Somente_ao meu Jesus sempre pertencerei,"
-          },
-          {
-            "chords": "            G            C",
-            "lyrics": "No sangue_expiador refugiar-me-ei;"
-          },
-          {
-            "chords": "                                  F",
-            "lyrics": "Glória sublime, Deus, por Cristo, prometeu,"
-          },
-          {
-            "chords": "       G4  G7           C   C...",
-            "lyrics": "E vida perenal ao povo Seu."
-          }
+        "text": [
+          "Somente_ao [C]meu Jesus sempre pertencerei,",
+          "No sangue_ex[G]piador refugi[C]ar-me-ei;",
+          "Glória sublime, Deus, por Cristo, [F]prometeu,",
+          "E vida [G4]pere[G7]nal ao povo S[C]eu.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "          C",
-            "lyrics": "Com todos os fiéis jubilarei nos céus,"
-          },
-          {
-            "chords": "       G                  C",
-            "lyrics": "Onde terei lugar junto do grande Deus;"
-          },
-          {
-            "chords": "                         F",
-            "lyrics": "Hinos celestiais a Ele_entoarei,"
-          },
-          {
-            "chords": "       G4    G7          C",
-            "lyrics": "Incomparável paz desfrutarei."
-          }
+        "text": [
+          "Com todos [C]os fiéis jubilarei nos céus,",
+          "Onde te[G]rei lugar junto do [C]grande Deus;",
+          "Hinos celestiais a Ele_en[F]toarei,",
+          "Incompa[G4]rável [G7]paz desfruta[C]rei."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          G7            C",
-            "lyrics": "Com meu Senhor logo_estarei;"
-          },
-          {
-            "chords": "A7        Dm  G7         C",
-            "lyrics": "Seu esplendor   contemplarei;"
-          },
-          {
-            "chords": "G         C   C7    F",
-            "lyrics": "Corpo_eternal receberei"
-          },
-          {
-            "chords": "F#°    G4      G7            C    C...",
-            "lyrics": "Para viver com Deus, excelso Rei."
-          }
+        "text": [
+          "Com meu Se[G7]nhor logo_esta[C]rei;",
+          "[A7]Seu esplen[Dm]dor [G7]  contempla[C]rei;",
+          "[G]Corpo_eter[C]nal [C7]recebe[F]rei",
+          "[F#°]Para vi[G4]ver com [G7]Deus, excelso [C]Rei.[C...]"
         ]
       }
     ]

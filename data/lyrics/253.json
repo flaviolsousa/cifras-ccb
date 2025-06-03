@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Foi alegre, ditoso o dia",
   "tone": {
     "recommended": "G"
@@ -9,82 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G               D ",
-            "lyrics": "Eu estava morto no pecado,"
-          },
-          {
-            "chords": "      D7           G",
-            "lyrics": "Mas Jesus, com Sua voz, me despertou;"
-          },
-          {
-            "chords": "                 C  ",
-            "lyrics": "Era, pelo mal, escravizado"
-          },
-          {
-            "chords": "   G      D7      G",
-            "lyrics": "E agora liberto_estou."
-          }
+        "text": [
+          "Eu es[G]tava morto no pe[D]cado,",
+          "Mas Je[D7]sus, com Sua [G]voz, me despertou;",
+          "Era, pelo mal, es[C]cravizado",
+          "E a[G]gora li[D7]berto_es[G]tou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G               A7 ",
-            "lyrics": "Foi alegre, ditoso_o dia"
-          },
-          {
-            "chords": "       D              G°    G",
-            "lyrics": "Em que Cristo, o Verdadei - ro,"
-          },
-          {
-            "chords": "                    D  ",
-            "lyrics": "Trouxe_a luz divina ao meu coração"
-          },
-          {
-            "chords": "     D7           G",
-            "lyrics": "E vestiu-me de justiça_e salvação;"
-          },
-          {
-            "chords": "                      A7 ",
-            "lyrics": "Grande glória, oh! aleluia!,"
-          },
-          {
-            "chords": "       D             G",
-            "lyrics": "No Seu reino desfrutarei;"
-          },
-          {
-            "chords": "                  G7       C ",
-            "lyrics": "Lá eu cantarei louvores ao justo,"
-          },
-          {
-            "chords": "     G      D7     G",
-            "lyrics": "Majestoso e grande Rei."
-          }
+        "text": [
+          "Foi a[G]legre, ditoso_o [A7]dia",
+          "Em que [D]Cristo, o Verda[G°]dei - [G]ro,",
+          "Trouxe_a luz divina [D]ao meu coração",
+          "E ves[D7]tiu-me de jus[G]tiça_e salvação;",
+          "Grande glória, oh! ale[A7]luia!,",
+          "No Seu [D]reino desfruta[G]rei;",
+          "Lá eu cantarei lou[G7]vores ao [C]justo,",
+          "Majes[G]toso e [D7]grande [G]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       G                D ",
-            "lyrics": "Eu não servirei à_iniquidade,"
-          },
-          {
-            "chords": "       D7             G",
-            "lyrics": "Pois retenho_em mim a fé no Salvador;"
-          },
-          {
-            "chords": "                 C ",
-            "lyrics": "Entrarei na celestial cidade"
-          },
-          {
-            "chords": "       G         D7     G",
-            "lyrics": "Para_estar com o meu Senhor."
-          }
+        "text": [
+          "Eu não [G]servirei à_iniqui[D]dade,",
+          "Pois re[D7]tenho_em mim a [G]fé no Salvador;",
+          "Entrarei na celes[C]tial cidade",
+          "Para_es[G]tar com o [D7]meu Sen[G]hor."
         ]
       },
       {
@@ -94,23 +46,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G               D ",
-            "lyrics": "Com eterna bem-aventurança,"
-          },
-          {
-            "chords": "        D7           G",
-            "lyrics": "Os Seus santos, o Senhor coroará;"
-          },
-          {
-            "chords": "                  C ",
-            "lyrics": "Eu prossigo com a esperança"
-          },
-          {
-            "chords": "     G          D7      G",
-            "lyrics": "Da vitória, que perto_está."
-          }
+        "text": [
+          "Com e[G]terna bem-aventu[D]rança,",
+          "Os Seus [D7]santos, o Sen[G]hor coroará;",
+          "Eu prossigo com a [C]esperança",
+          "Da vi[G]tória, que [D7]perto_es[G]tá."
         ]
       },
       {

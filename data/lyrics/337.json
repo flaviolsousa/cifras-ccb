@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Por fé seguimos ao Senhor",
   "tone": {
     "recommended": "B"
@@ -9,104 +9,44 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  B                 ",
-            "lyrics": "Fiéis irmãos, mostremos sempre o amor"
-          },
-          {
-            "chords": "   F#          C#         F# ",
-            "lyrics": "Do bom Jesus a todo_o pecador;"
-          },
-          {
-            "chords": "    B              E ",
-            "lyrics": "Não há ninguém que poderá nos impedir"
-          },
-          {
-            "chords": "   B           F#           B  B...",
-            "lyrics": "De afirmar que Cristo há de vir."
-          }
+        "text": [
+          "Fi[B]éis irmãos, mostremos sempre o amor",
+          "Do [F#]bom Jesus a [C#]todo_o peca[F#]dor;",
+          "Não [B]há ninguém que [E]poderá nos impedir",
+          "De [B]afirmar que [F#]Cristo há de [B]vir[B...]."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  B",
-            "lyrics": "Fiéis irmãos, eleitos fomos do Senhor"
-          },
-          {
-            "chords": "  F#          C#          F# ",
-            "lyrics": "A proclamar o Seu eterno_amor;"
-          },
-          {
-            "chords": "  B          E ",
-            "lyrics": "Embora nós tenhamos que aqui sofrer"
-          },
-          {
-            "chords": "    B            F#             B  B...",
-            "lyrics": "Por esse_amor, Jesus nos faz vencer."
-          }
+        "text": [
+          "Fi[B]éis irmãos, eleitos fomos do Senhor",
+          "A [F#]proclamar o [C#]Seu eterno_a[F#]mor;",
+          "Em[B]bora nós te[E]nhamos que aqui sofrer",
+          "Por [B]esse_amor, Je[F#]sus nos faz ven[B]cer[B...]."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  B",
-            "lyrics": "Fiéis irmãos, andemos sempre nesse_amor,"
-          },
-          {
-            "chords": "  F#            C#         F# ",
-            "lyrics": "Sublime_amor do nosso Redentor;"
-          },
-          {
-            "chords": "  B          E ",
-            "lyrics": "O galardão receberemos lá nos céus,"
-          },
-          {
-            "chords": "  B              F#         B...",
-            "lyrics": "Onde_é o lar do_Onipresente Deus."
-          }
+        "text": [
+          "Fi[B]éis irmãos, andemos sempre nesse_amor,",
+          "Su[F#]blime_amor do [C#]nosso Reden[F#]tor;",
+          "O [B]galardão re[E]ceberemos lá nos céus,",
+          "On[B]de_é o lar do_O[F#]nipresente [B...]Deus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "         B",
-            "lyrics": "Por fé seguimos ao Senhor"
-          },
-          {
-            "chords": "                   F# ",
-            "lyrics": "No Seu caminho de amor,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Amor que mostra a luz divina"
-          },
-          {
-            "chords": "         F#7        B",
-            "lyrics": "E nos conduz ao Criador."
-          },
-          {
-            "chords": "",
-            "lyrics": "Feliz será quem o provar,"
-          },
-          {
-            "chords": "           B7              E ",
-            "lyrics": "Pois é_um amor que não tem par;"
-          },
-          {
-            "chords": "        F°            B",
-            "lyrics": "Amor glorioso, amor sublime,"
-          },
-          {
-            "chords": "        E      F#7    B",
-            "lyrics": "Só em Jesus se pode_achar."
-          }
+        "text": [
+          "Por fé se[B]guimos ao Senhor",
+          "No Seu caminho de a[F#]mor,",
+          "Amor que mostra a luz divina",
+          "E nos con[F#7]duz ao Cria[B]dor.",
+          "Feliz será quem o provar,",
+          "Pois é_um a[B7]mor que não tem [E]par;",
+          "Amor glo[F°]rioso, amor su[B]blime,",
+          "Só em Je[E]sus se [F#7]pode_ac[B]har."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Seguro estou...",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "          G            D           G",
-            "lyrics": "Seguro estou de que Jesus, me ajudará"
-          },
-          {
-            "chords": "                         D          G",
-            "lyrics": "E, lá do céu, de força e fé me proverá;"
-          },
-          {
-            "chords": "     C                 D7          G",
-            "lyrics": "Se a ele eu servir e a Sua lei cumprir,"
-          },
-          {
-            "chords": "                          D          G",
-            "lyrics": "Bem certo estou de que Jesus me ajudará."
-          }
+        "text": [
+          "Seguro est[G]ou de que Jes[D]us, me ajuda[G]rá",
+          "E, lá do céu, de força e [D]fé me prove[G]rá;",
+          "Se a [C]ele eu servir e a [D7]Sua lei cump[G]rir,",
+          "Bem certo estou de que Jes[D]us me ajuda[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         G          D        G",
-            "lyrics": "Não deixará a minha fé se abalar;"
-          },
-          {
-            "chords": "                      D           G",
-            "lyrics": "Eu seguirei ao meu Senhor sem duvidar;"
-          },
-          {
-            "chords": "     C                   D7            G",
-            "lyrics": "Com afeto guardarei a doutrina do meu Rei"
-          },
-          {
-            "chords": "                         D           G",
-            "lyrics": "Que, neste mundo, orientará meu caminhar."
-          }
+        "text": [
+          "Não deixa[G]rá a minha [D]fé se aba[G]lar;",
+          "Eu seguirei ao meu Sen[D]hor sem duvi[G]dar;",
+          "Com a[C]feto guardarei a dou[D7]trina do meu R[G]ei",
+          "Que, neste mundo, orienta[D]rá meu camin[G]har."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         G          D          G",
-            "lyrics": "Meu coração está firmado no Senhor,"
-          },
-          {
-            "chords": "                 D         G             ",
-            "lyrics": "Alicerçado nessa Rocha de amor;"
-          },
-          {
-            "chords": "        C                        D7           G",
-            "lyrics": "Cristo irá me receber quando, em glória, aparecer;"
-          },
-          {
-            "chords": "                        D         G",
-            "lyrics": "Firmado estou no meu bendito Redentor."
-          }
+        "text": [
+          "Meu coraç[G]ão está fir[D]mado no Sen[G]hor,",
+          "Alicerçado nessa [D]Rocha de a[G]mor;",
+          "Cristo i[C]rá me receber quando, em [D7]glória, apare[G]cer;",
+          "Firmado estou no meu ben[D]dito Reden[G]tor."
         ]
       }
     ]

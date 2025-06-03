@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Deus nos elegeu para Si",
   "tone": {
     "recommended": "G"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G              D           C   G    C   D    G",
-            "lyrics": "Não duvidemos, Deus nos elegeu para Si, em Jesus;"
-          },
-          {
-            "chords": "             D          C   G     C    D       G",
-            "lyrics": "Confirmará a nossa salvação com poder, graça_e luz."
-          },
-          {
-            "chords": "                        D",
-            "lyrics": "Salvo não será quem não combater."
-          },
-          {
-            "chords": "         G            D",
-            "lyrics": "Quem, na caminhada, esmorecer;"
-          },
-          {
-            "chords": "   G                         C    D   G    G...",
-            "lyrics": "Os vitoriosos reinarão e com Deus viverão."
-          }
+        "text": [
+          "[G]Não duvidemos, [D]Deus nos ele[C]geu [G]para [C]Si, [D]em Je[G]sus;",
+          "Confirmará a [D]nossa salva[C]ção [G]com po[C]der, [D]graça_e [G]luz.",
+          "Salvo não será quem não [D]combater.",
+          "Quem, na [G]caminhada, es[D]morecer;",
+          "Os [G]vitoriosos reinarão e com [C]Deus [D]vive[G]rão.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G              D         C     G    C   D  G",
-            "lyrics": "Tem proteção o povo do Senhor, proteção eficaz;"
-          },
-          {
-            "chords": "                 D              C    G       C  D      G",
-            "lyrics": "Seu fundamento_é Cristo,_o Salvador, que lhe dá vida_e paz;"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Por Seu verdadeiro adorador,"
-          },
-          {
-            "chords": "        G               D",
-            "lyrics": "Deus, o Criador, tem profundo_amor;"
-          },
-          {
-            "chords": "    G                           C   D    G    G...",
-            "lyrics": "Bem perto_está e cuidará, guardará, salvará."
-          }
+        "text": [
+          "[G]Tem proteção o [D]povo do Se[C]nhor, [G]prote[C]ção [D]efi[G]caz;",
+          "Seu fundamento_é [D]Cristo,_o Salva[C]dor, [G]que lhe [C]dá [D]vida_e [G]paz;",
+          "Por Seu verdadeiro a[D]dorador,",
+          "Deus, o [G]Criador, tem pro[D]fundo_amor;",
+          "Bem [G]perto_está e cuidará, guarda[C]rá, [D]salva[G]rá.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                 D            C    G    C    D    G",
-            "lyrics": "Se Deus, o Pai, estando nós no mal, nos amou, perdoou,"
-          },
-          {
-            "chords": "                 D         C    G    C   D      G",
-            "lyrics": "E, por Jesus, Cordeiro divinal, salvação nos mandou,"
-          },
-          {
-            "chords": "                   D",
-            "lyrics": "Como não dará aos eleitos Seus"
-          },
-          {
-            "chords": "      G             D",
-            "lyrics": "Graça e poder de chegar aos céus?"
-          },
-          {
-            "chords": "    G                      C    D   G    G...",
-            "lyrics": "Que inefável afeição, celestial eleição!"
-          }
+        "text": [
+          "[G]Se Deus, o Pai, es[D]tando nós no [C]mal, [G]nos a[C]mou, [D]perdo[G]ou,",
+          "E, por Jesus, Cor[D]deiro divi[C]nal, [G]salva[C]ção [D]nos man[G]dou,",
+          "Como não dará aos e[D]leitos Seus",
+          "Graça [G]e poder de che[D]gar aos céus?",
+          "Que [G]inefável afeição, celes[C]tial [D]elei[G]ção![G...]"
         ]
       }
     ]

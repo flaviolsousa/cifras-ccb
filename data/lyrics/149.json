@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó irmãos, por fé, louvemos a Jesus",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                    D                       G",
-            "lyrics": "Ó irmãos, por fé, louvemos a Jesus, o Rei da glória;"
-          },
-          {
-            "chords": "Em             C    G    A7                  D ",
-            "lyrics": "Pela Sua graça te - mos, nos combates, a vitória;"
-          },
-          {
-            "chords": "G              D                           G",
-            "lyrics": "O Consolador divino traz celeste_e santo_ensino;"
-          },
-          {
-            "chords": "Em                          C        E   Am  D    G",
-            "lyrics": "Glória_a Deus que, desde_os céus, mandou o   Salvador."
-          }
+        "text": [
+          "[G]Ó irmãos, por fé, lou[D]vemos a Jesus, o Rei da [G]glória;",
+          "[Em]Pela Sua graça [C]te - [G]mos, [A7]nos combates, a vitó[D]ria;",
+          "[G]O Consolador di[D]vino traz celeste_e santo_en[G]sino;",
+          "[Em]Glória_a Deus que, desde_os [C]céus, man[E]dou [Am]o   [D]Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G               D                    G",
-            "lyrics": "Ó irmãos, já adotados, entoemos doce canto"
-          },
-          {
-            "chords": "Em                C    G   A7                      D ",
-            "lyrics": "A Jesus, por nós ama - do, e a Deus, três vezes Santo;"
-          },
-          {
-            "chords": "G              D                         G",
-            "lyrics": "O Seu Nome exaltemos e Seus feitos proclamemos;"
-          },
-          {
-            "chords": "Em                     C     E   Am   D   G",
-            "lyrics": "Glória_a Quem nos libertou e nos pu - rificou."
-          }
+        "text": [
+          "[G]Ó irmãos, já ado[D]tados, entoemos doce [G]canto",
+          "[Em]A Jesus, por nós a[C]ma - [G]do, [A7]e a Deus, três vezes San[D]to;",
+          "[G]O Seu Nome exal[D]temos e Seus feitos procla[G]memos;",
+          "[Em]Glória_a Quem nos liber[C]tou e [E]nos [Am]pu - [D]rifi[G]cou."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                     D                             G",
-            "lyrics": "Ó irmãos, por Cristo, somos, no Seu santo_amor, guardados;"
-          },
-          {
-            "chords": "Em                 C    G    A7                     D ",
-            "lyrics": "Do pecado_escravos fo - mos, mas, por graça, libertados;"
-          },
-          {
-            "chords": "G               D                         G",
-            "lyrics": "Consolados, jubilemos, paz com Deus agora temos;"
-          },
-          {
-            "chords": "Em                 C       E   Am  D    G",
-            "lyrics": "Santo, Santo é_o Senhor, Autor da  salvação."
-          }
+        "text": [
+          "[G]Ó irmãos, por Cristo, [D]somos, no Seu santo_amor, guar[G]dados;",
+          "[Em]Do pecado_escravos [C]fo - [G]mos, [A7]mas, por graça, liberta[D]dos;",
+          "[G]Consolados, jubi[D]lemos, paz com Deus agora [G]temos;",
+          "[Em]Santo, Santo é_o Se[C]nhor, Au[E]tor [Am]da  [D]salva[G]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G                      D ",
-            "lyrics": "Meus irmãos, a Deus louvemos"
-          },
-          {
-            "chords": "               G",
-            "lyrics": "E a Cristo exaltemos;"
-          },
-          {
-            "chords": "    C         G         E ",
-            "lyrics": "O Espírito da graça nos traz"
-          },
-          {
-            "chords": "Am  D    G",
-            "lyrics": "O   Seu amor."
-          }
+        "text": [
+          "[G]Meus irmãos, a Deus lou[D]vemos",
+          "E a Cristo exal[G]temos;",
+          "O Es[C]pírito da [G]graça nos [E]traz",
+          "[Am]O   [D]Seu a[G]mor."
         ]
       }
     ]

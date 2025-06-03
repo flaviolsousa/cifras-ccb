@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos produzir frutos de louvor",
   "tone": {
     "recommended": "D"
@@ -9,84 +9,39 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                                A ",
-            "lyrics": "Na doutrina santa dos céus, ensinou Jesus, Salvador:"
-          },
-          {
-            "chords": "D                               G       A    D",
-            "lyrics": "Eis que pelos campos lançou a semente_o semeador;"
-          },
-          {
-            "chords": "G                   D     G          E           A    A7 ",
-            "lyrics": "Parte da semente lançada, consumiram as aves do céu;"
-          },
-          {
-            "chords": " D                       G         A          D",
-            "lyrics": "Junto do caminho caiu e fruto, portanto, não deu."
-          }
+        "text": [
+          "[D]Na doutrina santa dos céus, ensin[A]ou Jesus, Salvador:",
+          "[D]Eis que pelos campos lançou a se[G]mente_o [A]semea[D]dor;",
+          "[G]Parte da semente lan[D]çada, [G]consumiram [E]as aves do c[A]éu;[A7]",
+          "J[D]unto do caminho caiu e f[G]ruto, port[A]anto, não d[D]eu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                               A  ",
-            "lyrics": "Outra parte logo cresceu, mas raiz em si não formou;"
-          },
-          {
-            "chords": "D                                 G     A       D",
-            "lyrics": "Entre pedregais foi cair, veio_o sol e logo murchou;"
-          },
-          {
-            "chords": "G                       D       G          E            A    A7 ",
-            "lyrics": "Outra, que caiu entre_espinhos, sufocada, não pôde crescer;"
-          },
-          {
-            "chords": " D                          G        A          D",
-            "lyrics": "Muito tempo não resistiu e veio, portanto,_a morrer."
-          }
+        "text": [
+          "[D]Outra parte logo cresceu, mas ra[A]iz em si não formou;",
+          "[D]Entre pedregais foi cair, veio_o s[G]ol e l[A]ogo murc[D]hou;",
+          "[G]Outra, que caiu entre_es[D]pinhos, [G]sufocada, n[E]ão pôde cresc[A]er;[A7]",
+          "M[D]uito tempo não resistiu e v[G]eio, port[A]anto,_a mor[D]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                            A ",
-            "lyrics": "Mas em boa terra caiu outra parte_e frutificou;"
-          },
-          {
-            "chords": "D                                      G     A      D",
-            "lyrics": "Os seus frutos deu, cem por um, para_aquele que semeou."
-          },
-          {
-            "chords": "G               D      G          E           A    A7 ",
-            "lyrics": "A Palavra é a Semente que em nós opera com poder;"
-          },
-          {
-            "chords": " D                            G            A        D",
-            "lyrics": "Somos a lavoura de Deus, que quer os seus frutos colher."
-          }
+        "text": [
+          "[D]Mas em boa terra caiu outra p[A]arte_e frutificou;",
+          "[D]Os seus frutos deu, cem por um, para_aq[G]uele q[A]ue seme[D]ou.",
+          "[G]A Palavra é a Se[D]mente q[G]ue em nós o[E]pera com pod[A]er;[A7]",
+          "S[D]omos a lavoura de Deus, que q[G]uer os seus f[A]rutos col[D]her."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D          A                D ",
-            "lyrics": "Vamos produzir frutos de louvor,"
-          },
-          {
-            "chords": "                     G  ",
-            "lyrics": "Frutos para honra e glória"
-          },
-          {
-            "chords": "    A                     D",
-            "lyrics": "De Deus e de Cristo,_o Senhor."
-          }
+        "text": [
+          "[D]Vamos produ[A]zir frutos de lou[D]vor,",
+          "Frutos para honra e g[G]lória",
+          "De D[A]eus e de Cristo,_o Sen[D]hor."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Consagrados sejamos a Deus",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Se quisermos, irmãos, do Senhor receber"
-          },
-          {
-            "chords": "      C                 F",
-            "lyrics": "As virtudes da vida_eternal,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Seja_a nossa_afeição e o nosso prazer"
-          },
-          {
-            "chords": "      C                 F",
-            "lyrics": "Em Jesus e na lei celestial."
-          }
+        "text": [
+          "Se qui[F]sermos, irmãos, do Senhor receber",
+          "As vir[C]tudes da vida_eter[F]nal,",
+          "Seja_a nossa_afeição e o nosso prazer",
+          "Em Jes[C]us e na lei celest[F]ial."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     Bb                F",
-            "lyrics": "Consagrados sejamos a Deus, Criador,"
-          },
-          {
-            "chords": "  Bb       G        C   C7...",
-            "lyrics": "E Ele, de nós, Se agradará;"
-          },
-          {
-            "chords": "    F",
-            "lyrics": "Abrirá Sua mão e, com grande amor,"
-          },
-          {
-            "chords": "     C                F",
-            "lyrics": "Boas dádivas nos mandará."
-          }
+        "text": [
+          "Consa[Bb]grados sejamos a D[F]eus, Criador,",
+          "E [Bb]Ele, de n[G]ós, Se ag[C]rada[C7...]rá;",
+          "Abri[F]rá Sua mão e, com grande amor,",
+          "Boas [C]dádivas nos manda[F]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Se quisermos, irmãos, ser benditos de Deus,"
-          },
-          {
-            "chords": "   C                F",
-            "lyrics": "Adoremo-Lo com devoção;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Seus preceitos de_amor Ele_envia dos céus;"
-          },
-          {
-            "chords": "     C               F",
-            "lyrics": "Seja Ele a nossa Porção."
-          }
+        "text": [
+          "Se qui[F]sermos, irmãos, ser benditos de Deus,",
+          "Ado[C]remo-Lo com devoç[F]ão;",
+          "Seus preceitos de_amor Ele_envia dos céus;",
+          "Seja [C]Ele a nossa Porç[F]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Se honrarmos a Deus, Ele nos honrará"
-          },
-          {
-            "chords": "      C                     F",
-            "lyrics": "Nesta terra_e na pátria_eternal;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Um diadema, nos céus, Ele concederá,"
-          },
-          {
-            "chords": "      C                 F",
-            "lyrics": "Ao entrarmos no lar divinal."
-          }
+        "text": [
+          "Se hon[F]rarmos a Deus, Ele nos honrará",
+          "Nesta [C]terra_e na pátria_eter[F]nal;",
+          "Um diadema, nos céus, Ele concederá,",
+          "Ao ent[C]rarmos no lar divi[F]nal."
         ]
       },
       {

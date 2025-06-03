@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Prossegui vitoriosos em Cristo",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Prossegui vitoriosos em Cristo,"
-          },
-          {
-            "chords": "        E           A          B7   E",
-            "lyrics": "Ele,_em breve, dos céus vai voltar;"
-          },
-          {
-            "chords": "     A       D",
-            "lyrics": "Mandará recolher Seus remidos"
-          },
-          {
-            "chords": "         E                  A",
-            "lyrics": "Para,_à glória eterna,_os levar."
-          }
+        "text": [
+          "Prosseg[A]ui vitoriosos em Cristo,",
+          "Ele,_em [E]breve, dos c[A]éus vai vol[B7]tar;[E]",
+          "Manda[A]rá recol[D]her Seus remidos",
+          "Para,_à g[E]lória eterna,_os le[A]var."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     E                A",
-            "lyrics": "Certamente_exaltado será"
-          },
-          {
-            "chords": "               B7           E",
-            "lyrics": "Quem o Nome de Cristo não negar;"
-          },
-          {
-            "chords": "    A         D           A",
-            "lyrics": "Exaltado com glória celestial,"
-          },
-          {
-            "chords": "     E                A",
-            "lyrics": "Herdará a riqueza_eternal."
-          }
+        "text": [
+          "Certa[E]mente_exaltado se[A]rá",
+          "Quem o Nome de [B7]Cristo não ne[E]gar;",
+          "Exal[A]tado com g[D]lória celest[A]ial,",
+          "Herda[E]rá a riqueza_eter[A]nal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       A               ",
-            "lyrics": "Prossegui, rejeitando_o pecado,"
-          },
-          {
-            "chords": "       E         A        B7   E",
-            "lyrics": "Pois ireis encontrar o Senhor;"
-          },
-          {
-            "chords": "      A       D",
-            "lyrics": "Para vós, Ele tem preparado"
-          },
-          {
-            "chords": "     E                    A",
-            "lyrics": "Um lugar no Seu reino de_amor."
-          }
+        "text": [
+          "Prosseg[A]ui, rejeitando_o pecado,",
+          "Pois ir[E]eis encont[A]rar o Sen[B7]hor;[E]",
+          "Para v[A]ós, Ele [D]tem preparado",
+          "Um lu[E]gar no Seu reino de_a[A]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Prossegui nesta fé gloriosa,"
-          },
-          {
-            "chords": "     E        A      B7   E",
-            "lyrics": "O_inimigo de vós fugirá;"
-          },
-          {
-            "chords": "    A         D",
-            "lyrics": "Vigiai na_oração, no cuidado,"
-          },
-          {
-            "chords": "     E               A",
-            "lyrics": "E convosco Jesus estará."
-          }
+        "text": [
+          "Prosseg[A]ui nesta fé gloriosa,",
+          "O_ini[E]migo de v[A]ós fugi[B7]rá;[E]",
+          "Vigi[A]ai na_oraç[D]ão, no cuidado,",
+          "E con[E]vosco Jesus esta[A]rá."
         ]
       },
       {

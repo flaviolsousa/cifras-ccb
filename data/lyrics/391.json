@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Um peregrino sou aqui",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        A          D ",
-            "lyrics": "Um peregrino sou aqui,"
-          },
-          {
-            "chords": "           A             E ",
-            "lyrics": "Pois o meu lar está nos céus;"
-          },
-          {
-            "chords": "           A A7       D ",
-            "lyrics": "Em breve_irei  viver ali,"
-          },
-          {
-            "chords": "       A    E       A",
-            "lyrics": "Unido aos fiéis de Deus."
-          }
+        "text": [
+          "Um pereg[A]rino sou aq[D]ui,",
+          "Pois o meu [A]lar está nos c[E]éus;",
+          "Em breve_ir[A]ei[A7]  viver a[D]li,",
+          "Unido a[A]os fi[E]éis de D[A]eus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        A         E ",
-            "lyrics": "Que alegria sem igual"
-          },
-          {
-            "chords": "                      A",
-            "lyrics": "Há de sentir meu coração!"
-          },
-          {
-            "chords": "        A7         D ",
-            "lyrics": "Terei repouso eternal"
-          },
-          {
-            "chords": "          A    E    A",
-            "lyrics": "No fim da peregrinação."
-          }
+        "text": [
+          "Que aleg[A]ria sem ig[E]ual",
+          "Há de sentir meu coraç[A]ão!",
+          "Terei re[A7]pouso etern[D]al",
+          "No fim da [A]pereg[E]rinaç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A           D ",
-            "lyrics": "Inigualável galardão"
-          },
-          {
-            "chords": "           A         E ",
-            "lyrics": "Espero_em breve alcançar;"
-          },
-          {
-            "chords": "        A A7        D ",
-            "lyrics": "Da divinal  consolação,"
-          },
-          {
-            "chords": "            A        E     A",
-            "lyrics": "Junto_aos fiéis vou desfrutar."
-          }
+        "text": [
+          "Inigua[A]lável galard[D]ão",
+          "Espero_em b[A]reve alcan[E]çar;",
+          "Da divin[A]al[A7]  consolaç[D]ão,",
+          "Junto_aos fi[A]éis vou d[E]esfrut[A]ar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "            A          D ",
-            "lyrics": "Findando_o meu peregrinar,"
-          },
-          {
-            "chords": "        A          E ",
-            "lyrics": "Irei à pátria eternal;"
-          },
-          {
-            "chords": "         A  A7           D ",
-            "lyrics": "Darei louvo - res sem cessar"
-          },
-          {
-            "chords": "           A    E    A",
-            "lyrics": "A Deus, o Pai celestial."
-          }
+        "text": [
+          "Findando_o m[A]eu peregrin[D]ar,",
+          "Irei à p[A]átria etern[E]al;",
+          "Darei lou[A]vo [A7]- res sem ces[D]sar",
+          "A Deus, o P[A]ai ce[E]lesti[A]al."
         ]
       },
       {

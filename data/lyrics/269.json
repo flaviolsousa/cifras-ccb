@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ressuscitados, por graça, fomos",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        G                 C ",
-            "lyrics": "Ressuscitados, por graça, fomos"
-          },
-          {
-            "chords": "D                        G",
-            "lyrics": "Com Jesus Cristo, o Redentor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Filhos eleitos de Deus já somos,"
-          },
-          {
-            "chords": "C       G      D       G",
-            "lyrics": "E co-herdeiros do Salvador."
-          }
+        "text": [
+          "Ressusci[G]tados, por graça, [C]fomos",
+          "[D]Com Jesus Cristo, o Reden[G]tor;",
+          "Filhos eleitos de Deus já somos,",
+          "[C]E co-her[G]deiros [D]do Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         G            C ",
-            "lyrics": "Nós buscaremos a santidade,"
-          },
-          {
-            "chords": "D                      G",
-            "lyrics": "A paz, a graça, todo o bem,"
-          },
-          {
-            "chords": "",
-            "lyrics": "A sã doutrina, a Caridade:"
-          },
-          {
-            "chords": "C        G     D       G",
-            "lyrics": "Do Deus eterno tudo provém."
-          }
+        "text": [
+          "Nós busca[G]remos a santi[C]dade,",
+          "[D]A paz, a graça, todo o [G]bem,",
+          "A sã doutrina, a Caridade:",
+          "[C]Do Deus e[G]terno [D]tudo pro[G]vém."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "           G                C ",
-            "lyrics": "Bênçãos gloriosas descem do alto"
-          },
-          {
-            "chords": "D                 G",
-            "lyrics": "Onde habita o Criador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Se rejeitarmos o mundo_ingrato,"
-          },
-          {
-            "chords": "C        G     D        G",
-            "lyrics": "Salvos seremos por Seu amor."
-          }
+        "text": [
+          "Bênçãos glo[G]riosas descem do [C]alto",
+          "[D]Onde habita o Cria[G]dor;",
+          "Se rejeitarmos o mundo_ingrato,",
+          "[C]Salvos se[G]remos [D]por Seu a[G]mor."
         ]
       }
     ]

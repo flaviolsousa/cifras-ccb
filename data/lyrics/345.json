@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Regozijo-me em falar do Salvador",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    F            F4          F",
-            "lyrics": "Regozijo-me_em falar do Salvador,"
-          },
-          {
-            "chords": "                         C ",
-            "lyrics": "Que me concedeu imenso favor;"
-          },
-          {
-            "chords": "                              F",
-            "lyrics": "O Seu sangue derramou, meus pecados perdoou"
-          },
-          {
-            "chords": "        Bb         C          F",
-            "lyrics": "Sobre_a cruz, onde tudo consumou."
-          }
+        "text": [
+          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Que me concedeu imenso fa[C]vor;",
+          "O Seu sangue derramou, meus pe[F]cados perdoou",
+          "Sobre_a [Bb]cruz, onde [C]tudo consum[F]ou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     F    ",
-            "lyrics": "Louvarei, louvarei,"
-          },
-          {
-            "chords": "     G4         G             C   C7... ",
-            "lyrics": "Louvarei a Quem me deu a salvação!"
-          },
-          {
-            "chords": "     F",
-            "lyrics": "Cantarei, cantarei"
-          },
-          {
-            "chords": "           F...   C           F",
-            "lyrics": "A Jesus, Autor da minha redenção!"
-          }
+        "text": [
+          "Louva[F]rei, louvarei,",
+          "Louva[G4]rei a Quem [G]me deu a salva[C]ção![C7...]",
+          "Canta[F]rei, cantarei",
+          "A Jesus, Au[F...]tor da [C]minha redenç[F]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    F            F4          F",
-            "lyrics": "Regozijo-me_em falar do Salvador,"
-          },
-          {
-            "chords": "                     C ",
-            "lyrics": "Meu amado e fiel Remidor,"
-          },
-          {
-            "chords": "                           F",
-            "lyrics": "Que me deu a salvação pela Sua compaixão."
-          },
-          {
-            "chords": "   Bb       C             F",
-            "lyrics": "Aleluia! Eu sinto Seu perdão."
-          }
+        "text": [
+          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Meu amado e fiel Remi[C]dor,",
+          "Que me deu a salvação pela [F]Sua compaixão.",
+          "Ale[Bb]luia! Eu [C]sinto Seu perd[F]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    F            F4          F",
-            "lyrics": "Regozijo-me_em falar do Salvador,"
-          },
-          {
-            "chords": "                               C ",
-            "lyrics": "Pois das trevas me tirou, por amor;"
-          },
-          {
-            "chords": "                         F",
-            "lyrics": "Me chamou à Sua luz e à glória me conduz;"
-          },
-          {
-            "chords": "       Bb       C             F",
-            "lyrics": "Com fervor louvarei ao meu Jesus."
-          }
+        "text": [
+          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Pois das trevas me tirou, por a[C]mor;",
+          "Me chamou à Sua luz e à g[F]lória me conduz;",
+          "Com fer[Bb]vor louva[C]rei ao meu Jes[F]us."
         ]
       },
       {

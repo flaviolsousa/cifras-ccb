@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sigamos sempre ao Senhor",
   "tone": {
     "recommended": "E"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  E                             B            E",
-            "lyrics": "Irmãos, avante com nosso Rei, o santo Libertador;"
-          },
-          {
-            "chords": "                           B                 E",
-            "lyrics": "Permaneçamos na Sua lei, sigamos sempre_ao Senhor."
-          }
+        "text": [
+          "Ir[E]mãos, avante com nosso Rei, o [B]santo Liberta[E]dor;",
+          "Permaneçamos na Sua lei, si[B]gamos sempre_ao Se[E]nhor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  E ",
-            "lyrics": "Jesus nos conduzirá aos céus,"
-          },
-          {
-            "chords": "  A     E           B ",
-            "lyrics": "Sigamos sempre_ao Senhor;"
-          },
-          {
-            "chords": "  E",
-            "lyrics": "Habitaremos com nosso Deus "
-          },
-          {
-            "chords": "   A     B        E",
-            "lyrics": "No reino de esplendor."
-          }
+        "text": [
+          "Je[E]sus nos conduzirá aos céus,",
+          "Si[A]gamos [E]sempre_ao Se[B]nhor;",
+          "Ha[E]bitaremos com nosso Deus ",
+          "No [A]reino [B]de esplen[E]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E                        B              E ",
-            "lyrics": "O Evangelho nos conduziu a Cristo, o Redentor,"
-          },
-          {
-            "chords": "                                    B                 E",
-            "lyrics": "Que, nossas almas, do mal remiu; sirvamos sempre_ao Senhor."
-          }
+        "text": [
+          "O [E]Evangelho nos conduziu a [B]Cristo, o Reden[E]tor,",
+          "Que, nossas almas, do mal remiu; sir[B]vamos sempre_ao Se[E]nhor."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E                         B                  E",
-            "lyrics": "Devemos sempre obedecer aos Seus preceitos de_amor"
-          },
-          {
-            "chords": "                                B                 E",
-            "lyrics": "E Seus conselhos em nós reter; amemos sempre_ao Senhor."
-          }
+        "text": [
+          "De[E]vemos sempre obedecer aos [B]Seus preceitos de_a[E]mor",
+          "E Seus conselhos em nós reter; a[B]memos sempre_ao Se[E]nhor."
         ]
       },
       {

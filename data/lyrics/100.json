@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Todos juntos, jubilemos",
   "tone": {
     "recommended": "B"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     B                     B7              E",
-            "lyrics": "Para esta vocação celeste, Deus nos tem chamado,"
-          },
-          {
-            "chords": "       F#7                B",
-            "lyrics": "Glória e louvor nós damos ao Senhor!"
-          },
-          {
-            "chords": "                                  B7     E      D#7   C#m...",
-            "lyrics": "Dentre_os povos e as tribos fomos nós comprados por Jesus,"
-          },
-          {
-            "chords": "   F#7             B",
-            "lyrics": "Louvemos nosso Remidor!"
-          }
+        "text": [
+          "Para [B]esta vocação celeste, [B7]Deus nos tem cha[E]mado,",
+          "Glória [F#7]e louvor nós damos [B]ao Senhor!",
+          "Dentre_os povos e as tribos fomos [B7]nós com[E]prados [D#7]por Je[C#m...]sus,",
+          "Lou[F#7]vemos nosso Remi[B]dor!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      F#7                     B",
-            "lyrics": "Todos juntos, jubilemos de um coração sincero,"
-          },
-          {
-            "chords": "      E       G#7       C#7        F#7",
-            "lyrics": "Dando honra_e glória_ao nosso Redentor;"
-          },
-          {
-            "chords": "      B",
-            "lyrics": "O seu sangue precioso"
-          },
-          {
-            "chords": "    B7   E       D#7   C#m...",
-            "lyrics": "Ele derramou por nós a cruz;"
-          },
-          {
-            "chords": "  F#7               B",
-            "lyrics": "Remidos somos do Senhor."
-          }
+        "text": [
+          "Todos [F#7]juntos, jubilemos de um [B]coração sincero,",
+          "Dando [E]honra_e [G#7]glória_ao [C#7]nosso Reden[F#7]tor;",
+          "O seu [B]sangue precioso",
+          "Ele [B7]derra[E]mou por [D#7]nós a [C#m...]cruz;",
+          "Re[F#7]midos somos do Sen[B]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      B                            B7             E",
-            "lyrics": "Jesus Cristo, nosso Mestre, é_o Primeiro_e_o Derradeiro,"
-          },
-          {
-            "chords": "    F#7                    B",
-            "lyrics": "É o Rei dos reis, de todos é Senhor;"
-          },
-          {
-            "chords": "                            B7    E     D#7    C#m...",
-            "lyrics": "Ele nos conserva_unidos o caminho de justiça_e paz;"
-          },
-          {
-            "chords": "   F#7              B",
-            "lyrics": "Bendito seja_o Redentor!"
-          }
+        "text": [
+          "Jesus [B]Cristo, nosso Mestre, é_o Pri[B7]meiro_e_o Derra[E]deiro,",
+          "É o [F#7]Rei dos reis, de todos [B]é Senhor;",
+          "Ele nos conserva_unidos o ca[B7]minho [E]de jus[D#7]tiça_e [C#m...]paz;",
+          "Ben[F#7]dito seja_o Reden[B]tor!"
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       B                        B7          E",
-            "lyrics": "Com Jesus, celeste_Esposo, para sempre reinaremos"
-          },
-          {
-            "chords": "       F#7                   B",
-            "lyrics": "No Seu lar de_amor, lugar de esplendor;"
-          },
-          {
-            "chords": "                             B7    E   D#7    C#m...",
-            "lyrics": "Como Ele nós seremos, no Seu reino eternal de luz;"
-          },
-          {
-            "chords": "    F#7                  B",
-            "lyrics": "Oh! Glória_ao nosso Salvador!"
-          }
+        "text": [
+          "Com Jes[B]us, celeste_Esposo, para [B7]sempre reina[E]remos",
+          "No Seu [F#7]lar de_amor, lugar de [B]esplendor;",
+          "Como Ele nós seremos, no Seu [B7]reino [E]eter[D#7]nal de [C#m...]luz;",
+          "Oh! [F#7]Glória_ao nosso Salva[B]dor!"
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sem Deus Pai",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                            F# ",
-            "lyrics": "Sem Deus Pai somos frágeis humanos,"
-          },
-          {
-            "chords": "                            B",
-            "lyrics": "Sem Deus, não há em nós esperança;"
-          },
-          {
-            "chords": "                          F# ",
-            "lyrics": "Neste mundo_em que peregrinamos,"
-          },
-          {
-            "chords": "                       B",
-            "lyrics": "Só por Ele nos vem segurança."
-          }
+        "text": [
+          "[B]Sem Deus Pai somos frágeis hu[F#]manos,",
+          "Sem Deus, não há em nós espe[B]rança;",
+          "Neste mundo_em que peregri[F#]namos,",
+          "Só por Ele nos vem segu[B]rança."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G#m                        D# ",
-            "lyrics": "É Jesus Cristo Quem nos convida"
-          },
-          {
-            "chords": "G#m              E         D#... ",
-            "lyrics": "Ao Seu reino de glória nos céus;"
-          },
-          {
-            "chords": "B                         F# ",
-            "lyrics": "Ele nos dá poder, graça_e vida,"
-          },
-          {
-            "chords": "                          B",
-            "lyrics": "E as santas promessas de Deus."
-          }
+        "text": [
+          "[G#m]É Jesus Cristo Quem nos con[D#]vida",
+          "[G#m]Ao Seu reino de g[E]lória nos [D#...]céus;",
+          "[B]Ele nos dá poder, graça_e [F#]vida,",
+          "E as santas promessas de D[B]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                          F# ",
-            "lyrics": "Sem Jesus Cristo não temos vida,"
-          },
-          {
-            "chords": "                             B",
-            "lyrics": "Sem Jesus, santo_amor não provamos;"
-          },
-          {
-            "chords": "                          F# ",
-            "lyrics": "Ele, por graça, nos dá guarida"
-          },
-          {
-            "chords": "                          B",
-            "lyrics": "Nos perigos que_aqui encontramos."
-          }
+        "text": [
+          "[B]Sem Jesus Cristo não temos [F#]vida,",
+          "Sem Jesus, santo_amor não pro[B]vamos;",
+          "Ele, por graça, nos dá gua[F#]rida",
+          "Nos perigos que_aqui encon[B]tramos."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                        F# ",
-            "lyrics": "Sem o_Espírito Santo não vemos,"
-          },
-          {
-            "chords": "                          B",
-            "lyrics": "Sem o_Espírito,_andamos errantes;"
-          },
-          {
-            "chords": "                          F# ",
-            "lyrics": "Só por Ele_a Palavra_entendemos"
-          },
-          {
-            "chords": "                       B",
-            "lyrics": "E seremos, então, triunfantes."
-          }
+        "text": [
+          "[B]Sem o_Espírito Santo não [F#]vemos,",
+          "Sem o_Espírito,_andamos er[B]rantes;",
+          "Só por Ele_a Palavra_enten[F#]demos",
+          "E seremos, então, triun[B]fantes."
         ]
       },
       {

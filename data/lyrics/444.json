@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó meninos, exaltemos",
   "tone": {
     "recommended": "D"
@@ -9,45 +9,21 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     D         A          D     A7   D",
-            "lyrics": "Ó meninos, exaltemos a Jesus, o Salvador;"
-          },
-          {
-            "chords": "                     A         D      A7     D",
-            "lyrics": "Sempre alegres, seguiremos ao amado e bom Pastor,"
-          },
-          {
-            "chords": "                               Bm    E    A ",
-            "lyrics": "Pois na boca das crianças é perfeito o louvor"
-          },
-          {
-            "chords": "A7   D             G  D        G       A  D",
-            "lyrics": "A Jesus, nossa Esperança, e a Deus, o Criador."
-          }
+        "text": [
+          "Ó men[D]inos, exal[A]temos a Jes[D]us, o [A7]Salva[D]dor;",
+          "Sempre alegres, segui[A]remos ao a[D]mado e [A7]bom Pas[D]tor,",
+          "Pois na boca das crianças é per[Bm]feito [E]o lou[A]vor",
+          "[A7]A Jes[D]us, nossa Espe[G]ran[D]ça, e a D[G]eus, o C[A]ria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       D           A           D       A7  D",
-            "lyrics": "Nesta terra proclamemos que Jesus é o Salvador;"
-          },
-          {
-            "chords": "                   A            D       A7     D",
-            "lyrics": "Com fervor, manifestemos Seu sublime e grande amor;"
-          },
-          {
-            "chords": "                              Bm   E        A ",
-            "lyrics": "Quando juntos estivermos na cidade de esplendor,"
-          },
-          {
-            "chords": "A7     D           G  D         G    A    D",
-            "lyrics": "Todos nós contemplaremos nosso amado Redentor."
-          }
+        "text": [
+          "Nesta t[D]erra proclam[A]emos que Jes[D]us é o S[A7]alva[D]dor;",
+          "Com fervor, manifes[A]temos Seu sub[D]lime e g[A7]rande a[D]mor;",
+          "Quando juntos estivermos na ci[Bm]dade [E]de esplen[A]dor,",
+          "[A7]Todos n[D]ós contempla[G]rem[D]os nosso a[G]mado [A]Reden[D]tor."
         ]
       }
     ]

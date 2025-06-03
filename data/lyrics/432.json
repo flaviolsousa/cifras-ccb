@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem, ó divino Mestre",
   "tone": {
     "recommended": "A"
@@ -9,46 +9,25 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A              E                     A",
-            "lyrics": "Senhor Jesus, bom Redentor, envia Teu poder;"
-          },
-          {
-            "chords": "                   B                         E",
-            "lyrics": "Reveste_os santos Teus, Senhor, de força e saber."
-          }
+        "text": [
+          "Sen[A]hor Jesus, bom [E]Redentor, envia Teu po[A]der;",
+          "Reveste_os santos T[B]eus, Senhor, de força e sa[E]ber."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Vem, ó divino Mestre,"
-          },
-          {
-            "chords": "A7   D           A",
-            "lyrics": "Dá - nos saber celeste;"
-          },
-          {
-            "chords": "    D          A   A...  D      E4  E      A",
-            "lyrics": "Nós somos pequeni-nos,   mas Tu és  nosso Rei."
-          }
+        "text": [
+          "Vem, [A]ó divino Mestre,",
+          "[A7]Dá - [D]nos saber ce[A]leste;",
+          "Nós [D]somos peque[A]ni-n[A...]os,   [D]mas Tu [E4]és  [E]nosso R[A]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A            E                      A",
-            "lyrics": "Jesus, Cordeiro divinal, imenso_é Teu amor;"
-          },
-          {
-            "chords": "               B                     E",
-            "lyrics": "E nesse_amor celestial vivemos, ó Senhor."
-          }
+        "text": [
+          "Jes[A]us, Cordeiro [E]divinal, imenso_é Teu a[A]mor;",
+          "E nesse_amor ce[B]lestial vivemos, ó Sen[E]hor."
         ]
       },
       {
@@ -58,15 +37,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    A            E                            A",
-            "lyrics": "Nas nuvens, ó Senhor Jesus, queremos Te_encontrar"
-          },
-          {
-            "chords": "                B                      E",
-            "lyrics": "E, no glorioso lar de luz, Contigo habitar."
-          }
+        "text": [
+          "Nas [A]nuvens, ó Sen[E]hor Jesus, queremos Te_encont[A]rar",
+          "E, no glorioso l[B]ar de luz, Contigo habi[E]tar."
         ]
       },
       {

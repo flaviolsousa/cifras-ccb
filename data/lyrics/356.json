@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Por preço elevado Jesus resgatou-me",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    D               A ",
-            "lyrics": "Por preço_elevado Jesus resgatou-me,"
-          },
-          {
-            "chords": "                D",
-            "lyrics": "Por preço que_o ouro não pode pagar;"
-          },
-          {
-            "chords": "                         G          D",
-            "lyrics": "Com Seu próprio sangue o Mestre comprou-me"
-          },
-          {
-            "chords": "  E                             A... ",
-            "lyrics": "A fim de fazer-me na glória entrar."
-          }
+        "text": [
+          "Por [D]preço_elevado Je[A]sus resgatou-me,",
+          "Por preço que_o [D]ouro não pode pagar;",
+          "Com Seu próprio sangue o [G]Mestre comp[D]rou-me",
+          "A [E]fim de fazer-me na glória entr[A...]ar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          D               A ",
-            "lyrics": "Não têm valor a prata_e_o ouro"
-          },
-          {
-            "chords": "                 D",
-            "lyrics": "Para dar a salvação;"
-          },
-          {
-            "chords": "                          G  ",
-            "lyrics": "Não há, na terra,_algum tesouro"
-          },
-          {
-            "chords": "       D      A      D",
-            "lyrics": "Que resgate_e dê perdão."
-          }
+        "text": [
+          "Não têm va[D]lor a prata_e_o [A]ouro",
+          "Para dar a salvaç[D]ão;",
+          "Não há, na terra,_algum te[G]souro",
+          "Que res[D]gate_e [A]dê perd[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                  A ",
-            "lyrics": "O ouro não dá remissão do pecado,"
-          },
-          {
-            "chords": "            D",
-            "lyrics": "A prata não leva ao reino dos céus;"
-          },
-          {
-            "chords": "                     G         D",
-            "lyrics": "Somente o sangue, na cruz derramado,"
-          },
-          {
-            "chords": "  E                               A... ",
-            "lyrics": "Livrou-me da morte, por graça de Deus."
-          }
+        "text": [
+          "[D]O ouro não dá remis[A]são do pecado,",
+          "A prata não [D]leva ao reino dos céus;",
+          "Somente o sangue, na [G]cruz derra[D]mado,",
+          "Li[E]vrou-me da morte, por graça de D[A...]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  D                 A ",
-            "lyrics": "O sangue precioso e imaculado"
-          },
-          {
-            "chords": "            D",
-            "lyrics": "De Cristo Jesus conduziu-me a Deus;"
-          },
-          {
-            "chords": "                    G       D",
-            "lyrics": "É nele que sempre estou abrigado,"
-          },
-          {
-            "chords": "    E                        A... ",
-            "lyrics": "Por ele conservo a vida dos céus."
-          }
+        "text": [
+          "O [D]sangue precioso e [A]imaculado",
+          "De Cristo Je[D]sus conduziu-me a Deus;",
+          "É nele que sempre es[G]tou abri[D]gado,",
+          "Por [E]ele conservo a vida dos c[A...]éus."
         ]
       },
       {

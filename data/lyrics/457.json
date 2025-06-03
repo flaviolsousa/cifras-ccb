@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Comigo está Jesus",
   "tone": {
     "recommended": "C"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  C                        F             C",
-            "lyrics": "Comigo_está Jesus, meu bom Mestre_e Salvador,"
-          },
-          {
-            "chords": "                   Am    D          G",
-            "lyrics": "Me guia com a luz, pelo Seu imenso_amor;"
-          },
-          {
-            "chords": "          G7            C",
-            "lyrics": "Mistérios celestiais Jesus revelará;"
-          },
-          {
-            "chords": "    F        C       G        C    C...",
-            "lyrics": "No Seu bom caminho andar me fará."
-          }
+        "text": [
+          "Co[C]migo_está Jesus, meu bom [F]Mestre_e Salva[C]dor,",
+          "Me guia com a luz, [Am]pelo S[D]eu imenso_a[G]mor;",
+          "Mistérios [G7]celestiais Jes[C]us revelará;",
+          "No S[F]eu bom ca[C]minho an[G]dar me fa[C]rá.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     C                 F             C",
-            "lyrics": "Quem me separará do sublime_amor de Deus?"
-          },
-          {
-            "chords": "                   Am      D              G",
-            "lyrics": "Quem me condenará? Pois Jesus defende_os Seus."
-          },
-          {
-            "chords": "      G7            C",
-            "lyrics": "Unido ao Senhor por celestial amor,"
-          },
-          {
-            "chords": "  F      C         G      C    C...",
-            "lyrics": "Caminho avante com fé e valor."
-          }
+        "text": [
+          "Quem [C]me separará do sub[F]lime_amor de D[C]eus?",
+          "Quem me condenará? [Am]Pois Jes[D]us defende_os S[G]eus.",
+          "Unido [G7]ao Senhor por [C]celestial amor,",
+          "Ca[F]minho a[C]vante com [G]fé e va[C]lor.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C                        F         C",
-            "lyrics": "Das sendas celestiais eu não me afastarei,"
-          },
-          {
-            "chords": "                     Am    D            G",
-            "lyrics": "Pois amo sempre mais a doutrina do meu Rei;"
-          },
-          {
-            "chords": "         G7       C",
-            "lyrics": "Jesus me guiará e forças me dará."
-          },
-          {
-            "chords": "  F       C      G      C ",
-            "lyrics": "O Mestre amado comigo está."
-          }
+        "text": [
+          "Das [C]sendas celestiais eu não [F]me afastar[C]ei,",
+          "Pois amo sempre mais [Am]a dout[D]rina do meu R[G]ei;",
+          "Jesus me [G7]guiará e [C]forças me dará.",
+          "O [F]Mestre a[C]mado co[G]migo es[C]tá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  C                                 G7",
-            "lyrics": "Estou com Jesus, meu Senhor: vou vencer!"
-          },
-          {
-            "chords": "                                                 C",
-            "lyrics": "Jesus ama_os Seus e_as coisas de Deus lhes faz saber."
-          },
-          {
-            "chords": "                                 F",
-            "lyrics": "A nada aqui temerei, pois eu bem sei"
-          },
-          {
-            "chords": "                     C      G       C",
-            "lyrics": "Que tudo está sob as ordens do meu Rei."
-          }
+        "text": [
+          "Es[C]tou com Jesus, meu Senhor: vou ven[G7]cer!",
+          "Jesus ama_os Seus e_as coisas de Deus lhes faz sa[C]ber.",
+          "A nada aqui temerei, pois eu bem [F]sei",
+          "Que tudo está sob as [C]ordens [G]do meu R[C]ei."
         ]
       }
     ]

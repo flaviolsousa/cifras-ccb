@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Quando vier do céu",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E                  B7       E",
-            "lyrics": "Quando vier do céu Cristo Jesus, o Rei,"
-          },
-          {
-            "chords": "              C#m     E    B7   E",
-            "lyrics": "O mundo de_ilusão, vencido eu terei;"
-          },
-          {
-            "chords": "B7      E         A      E   B7 ",
-            "lyrics": "Repouso celestial e vida eternal"
-          },
-          {
-            "chords": "E            C#m     E       B7    E",
-            "lyrics": "Receberei de Deus, a Quem me consagrei."
-          }
+        "text": [
+          "[E]Quando vier do céu [B7]Cristo Je[E]sus, o Rei,",
+          "O mundo de_ilu[C#m]são, ven[E]cido [B7]eu te[E]rei;",
+          "[B7]Repouso [E]celestial [A]e vida [E]eter[B7]nal",
+          "[E]Receberei de [C#m]Deus, a [E]Quem me [B7]consag[E]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E                    B7     E",
-            "lyrics": "Consiste_o meu viver em agradar a Deus,"
-          },
-          {
-            "chords": "                C#m    E    B7      E",
-            "lyrics": "Em revestir-me_aqui da vida lá dos céus;"
-          },
-          {
-            "chords": "B7    E        A         E       B7 ",
-            "lyrics": "Unido eu estou a Cristo, que me_amou;"
-          },
-          {
-            "chords": "E              C#m   E      B7     E",
-            "lyrics": "Com sangue remidor pagou os erros meus."
-          }
+        "text": [
+          "[E]Consiste_o meu viver [B7]em agra[E]dar a Deus,",
+          "Em revestir-me_a[C#m]qui da [E]vida [B7]lá dos c[E]éus;",
+          "[B7]Unido [E]eu estou [A]a Cristo, [E]que me_a[B7]mou;",
+          "[E]Com sangue remi[C#m]dor pa[E]gou os [B7]erros m[E]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E                   B7       E",
-            "lyrics": "Bendito é_o Senhor, meu Redentor, Jesus,"
-          },
-          {
-            "chords": "               C#m     E     B7    E ",
-            "lyrics": "Que, pelo Seu amor, à glória me conduz;"
-          },
-          {
-            "chords": "B7       E        A       E      B7 ",
-            "lyrics": "O santo Seu poder aqui me faz vencer."
-          },
-          {
-            "chords": "E             C#m       E   B7    E",
-            "lyrics": "Bendito é_o Senhor, que é a minha Luz."
-          }
+        "text": [
+          "[E]Bendito é_o Senhor, [B7]meu Reden[E]tor, Jesus,",
+          "Que, pelo Seu a[C#m]mor, à g[E]lória [B7]me con[E]duz;",
+          "[B7]O santo S[E]eu poder [A]aqui me [E]faz ven[B7]cer.",
+          "[E]Bendito é_o Se[C#m]nhor, que [E]é a [B7]minha [E]Luz."
         ]
       }
     ]

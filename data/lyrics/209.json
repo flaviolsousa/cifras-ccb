@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Marchai, soldados",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
-          },
-          {
-            "chords": "C     G        A           D ",
-            "lyrics": "Vós deveis com fé aqui marchar;"
-          },
-          {
-            "chords": "G                       C ",
-            "lyrics": "Em justiça vós deveis andar"
-          },
-          {
-            "chords": "      G           D     G",
-            "lyrics": "Até entrardes no eterno lar."
-          }
+        "text": [
+          "[G]Oh! Marchai, soldados, sois de Cristo!",
+          "[C]Vós de[G]veis com [A]fé aqui marc[D]har;",
+          "[G]Em justiça vós deveis an[C]dar",
+          "Até en[G]trardes no e[D]terno [G]lar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       G",
-            "lyrics": "Oh! Marchai com valor,"
-          },
-          {
-            "chords": "  A                 D ",
-            "lyrics": "Olhai a Cristo, o Senhor,"
-          },
-          {
-            "chords": "        G                C ",
-            "lyrics": "Pois só d´Ele vos virá coragem"
-          },
-          {
-            "chords": "         G            D    G",
-            "lyrics": "Para avançardes com o Redentor."
-          }
+        "text": [
+          "Oh! Mar[G]chai com valor,",
+          "Ol[A]hai a Cristo, o Se[D]nhor,",
+          "Pois só [G]d´Ele vos virá co[C]ragem",
+          "Para avan[G]çardes com o [D]Reden[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
-          },
-          {
-            "chords": "C    G     A                D ",
-            "lyrics": "A tormenta tendes que_enfrentar,"
-          },
-          {
-            "chords": "G                         C ",
-            "lyrics": "Mas, bem firmes e sem duvidar,"
-          },
-          {
-            "chords": "       G              D   G",
-            "lyrics": "Resistireis sem nunca vacilar."
-          }
+        "text": [
+          "[G]Oh! Marchai, soldados, sois de Cristo!",
+          "[C]A tor[G]menta [A]tendes que_enfren[D]tar,",
+          "[G]Mas, bem firmes e sem duvi[C]dar,",
+          "Resisti[G]reis sem nunca [D]vaci[G]lar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Oh! Marchai, soldados, sois de Cristo!"
-          },
-          {
-            "chords": "C   G     A            D ",
-            "lyrics": "A vitória vós ireis cantar;"
-          },
-          {
-            "chords": "G                      C ",
-            "lyrics": "As primícias do eterno lar,"
-          },
-          {
-            "chords": "         G             D      G",
-            "lyrics": "Jesus, o Salvador, vos faz provar."
-          }
+        "text": [
+          "[G]Oh! Marchai, soldados, sois de Cristo!",
+          "[C]A vi[G]tória [A]vós ireis can[D]tar;",
+          "[G]As primícias do eterno [C]lar,",
+          "Jesus, o [G]Salvador, vos [D]faz pro[G]var."
         ]
       },
       {

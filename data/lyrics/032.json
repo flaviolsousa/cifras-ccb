@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eu me escondo em Ti, Senhor",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                            E",
-            "lyrics": "Eu me escondo_em Ti, Senhor eterno,"
-          },
-          {
-            "chords": "                 B7         E    E7",
-            "lyrics": "Em Ti me_abrigo, ó meu Salvador;"
-          },
-          {
-            "chords": "A                         E",
-            "lyrics": "Sinto em mim o Teu amor superno;"
-          },
-          {
-            "chords": "A      D     E            A",
-            "lyrics": "Vivo seguro; és meu Defensor."
-          }
+        "text": [
+          "[A]Eu me escondo_em Ti, Senhor e[E]terno,",
+          "Em Ti me_abrigo, [B7]ó meu Salva[E]dor;[E7]",
+          "[A]Sinto em mim o Teu amor su[E]perno;",
+          "[A]Vivo se[D]guro; [E]és meu Defens[A]or."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " A                       E",
-            "lyrics": "Busco de Ti a proteção celeste"
-          },
-          {
-            "chords": "                B7         E    E7",
-            "lyrics": "Quando estou cercado pelo mal,"
-          },
-          {
-            "chords": " A                           E",
-            "lyrics": "Pois Tu, Jesus, és meu amado Mestre;"
-          },
-          {
-            "chords": " A         D       E        A",
-            "lyrics": "Cuidas de mim com zelo divinal."
-          }
+        "text": [
+          "B[A]usco de Ti a proteção ce[E]leste",
+          "Quando estou cer[B7]cado pelo m[E]al,[E7]",
+          "P[A]ois Tu, Jesus, és meu amado [E]Mestre;",
+          "C[A]uidas de m[D]im com z[E]elo divin[A]al."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " A                      E",
-            "lyrics": "Quando aqui estou atribulado,"
-          },
-          {
-            "chords": "                B7           E    E7",
-            "lyrics": "Quando está sem paz meu coração,"
-          },
-          {
-            "chords": " A                        E",
-            "lyrics": "Clamo a Ti, meu Redentor amado;"
-          },
-          {
-            "chords": "A       D    E         A ",
-            "lyrics": "De Ti espero a libertação."
-          }
+        "text": [
+          "Q[A]uando aqui estou atribu[E]lado,",
+          "Quando está sem [B7]paz meu coraç[E]ão,[E7]",
+          "C[A]lamo a Ti, meu Redentor a[E]mado;",
+          "[A]De Ti es[D]pero [E]a libertaç[A]ão."
         ]
       }
     ]

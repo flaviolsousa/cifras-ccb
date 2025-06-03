@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Foi o Senhor Jesus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                     E ",
-            "lyrics": "Para salvar-nos, quem veio do céu?"
-          },
-          {
-            "chords": "F#             B",
-            "lyrics": "Nosso Senhor Jesus."
-          },
-          {
-            "chords": "                   E ",
-            "lyrics": "Ele,_ao poder do pecado venceu,"
-          },
-          {
-            "chords": "F#                B",
-            "lyrics": "Trouxe-nos vida_e luz."
-          }
+        "text": [
+          "[B]Para salvar-nos, quem [E]veio do céu?",
+          "[F#]Nosso Senhor Je[B]sus.",
+          "Ele,_ao poder do pe[E]cado venceu,",
+          "[F#]Trouxe-nos vida_e [B]luz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B       E      B",
-            "lyrics": "Foi o Senhor Jesus"
-          },
-          {
-            "chords": "              F# ",
-            "lyrics": "Que nos abençoou;"
-          },
-          {
-            "chords": "B             E        B",
-            "lyrics": "Da_escravidão nos libertou"
-          },
-          {
-            "chords": "        F#     B",
-            "lyrics": "Nosso Senhor Jesus."
-          }
+        "text": [
+          "[B]Foi o Se[E]nhor Je[B]sus",
+          "Que nos abenço[F#]ou;",
+          "[B]Da_escravidão [E]nos liber[B]tou",
+          "Nosso Se[F#]nhor Je[B]sus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                      E ",
-            "lyrics": "Quem, nesta graça, nos pode guardar?"
-          },
-          {
-            "chords": "F#              B",
-            "lyrics": "Cristo, fiel Pastor."
-          },
-          {
-            "chords": "                  E ",
-            "lyrics": "Suas palavras nos podem guiar"
-          },
-          {
-            "chords": "F#              B",
-            "lyrics": "Ao lar de esplendor."
-          }
+        "text": [
+          "[B]Quem, nesta graça, nos [E]pode guardar?",
+          "[F#]Cristo, fiel Pas[B]tor.",
+          "Suas palavras nos [E]podem guiar",
+          "[F#]Ao lar de esplen[B]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                 E ",
-            "lyrics": "Quem poderá novas forças nos dar?"
-          },
-          {
-            "chords": "F#                B",
-            "lyrics": "Cristo, o Rei dos reis."
-          },
-          {
-            "chords": "                    E ",
-            "lyrics": "Ele nos faz glória_eterna_alcançar;"
-          },
-          {
-            "chords": "F#           B",
-            "lyrics": "É Guia dos fiéis."
-          }
+        "text": [
+          "[B]Quem poderá novas [E]forças nos dar?",
+          "[F#]Cristo, o Rei dos [B]reis.",
+          "Ele nos faz glória_e[E]terna_alcançar;",
+          "[F#]É Guia dos fi[B]éis."
         ]
       },
       {

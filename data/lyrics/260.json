@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sou servo inútil, ó Deus piedoso",
   "tone": {
     "recommended": "D"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " D                G         A ",
-            "lyrics": "Sou servo inútil, ó Deus piedoso,"
-          },
-          {
-            "chords": "Em                 G          A ",
-            "lyrics": "Sou sempre fraco, sinto-me faltoso;"
-          },
-          {
-            "chords": "D          G        E      A ",
-            "lyrics": "Nesta imprudência, rogo clemência;"
-          },
-          {
-            "chords": "D                   G      A      D",
-            "lyrics": "Lava a minha alma, clamo a Ti, Senhor."
-          }
+        "text": [
+          "S[D]ou servo inútil, [G]ó Deus pie[A]doso,",
+          "[Em]Sou sempre fraco, s[G]into-me fal[A]toso;",
+          "[D]Nesta impru[G]dência, r[E]ogo cle[A]mência;",
+          "[D]Lava a minha alma, c[G]lamo a [A]Ti, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D                 G          A ",
-            "lyrics": "Sou servo inútil, servo imperfeito;"
-          },
-          {
-            "chords": "Em            G         A ",
-            "lyrics": "Vivo ansioso para ser aceito;"
-          },
-          {
-            "chords": "D         G       E      A ",
-            "lyrics": "Podes limpar-me, justificar-me;"
-          },
-          {
-            "chords": "D                  G      A  D",
-            "lyrics": "Se Tu o quiseres, nada impedirá."
-          }
+        "text": [
+          "S[D]ou servo inútil, s[G]ervo imperf[A]eito;",
+          "[Em]Vivo ansioso p[G]ara ser ac[A]eito;",
+          "[D]Podes limp[G]ar-me, j[E]ustific[A]ar-me;",
+          "[D]Se Tu o quiseres, n[G]ada imp[A]edi[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " D                G      A ",
-            "lyrics": "Sou servo inútil neste caminho,"
-          },
-          {
-            "chords": "Em                G          A ",
-            "lyrics": "Sem Teu cuidado, que farei sozinho?"
-          },
-          {
-            "chords": "D         G     E     A ",
-            "lyrics": "Este Teu filho roga auxílio;"
-          },
-          {
-            "chords": "D                  G     A      D",
-            "lyrics": "Ouve meu pedido: \"Compaixão, Senhor!\""
-          }
+        "text": [
+          "S[D]ou servo inútil n[G]este ca[A]minho,",
+          "[Em]Sem Teu cuidado, q[G]ue farei so[A]zinho?",
+          "[D]Este Teu f[G]ilho r[E]oga au[A]xílio;",
+          "[D]Ouve meu pedido: \"C[G]ompaix[A]ão, Sen[D]hor!\""
         ]
       }
     ]

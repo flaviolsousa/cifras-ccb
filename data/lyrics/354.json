@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jerusalém celestial!",
   "tone": {
     "recommended": "G"
@@ -9,74 +9,32 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G",
-            "lyrics": "Jerusalém celestial,"
-          },
-          {
-            "chords": "  D  ",
-            "lyrics": "Cidade do eterno Deus!"
-          },
-          {
-            "chords": "    G",
-            "lyrics": "Mui breve_ali se_econtrarão"
-          },
-          {
-            "chords": "   D          G        G...",
-            "lyrics": "Os santos cidadãos dos céus."
-          }
+        "text": [
+          "Je[G]rusalém celestial,",
+          "Ci[D]dade do eterno Deus!",
+          "Mui [G]breve_ali se_econtrarão",
+          "Os [D]santos cida[G]dãos dos [G...]céus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  D         G",
-            "lyrics": "Jerusalém celestial,"
-          },
-          {
-            "chords": "  D            G",
-            "lyrics": "Lugar de paz e de_esplendor!"
-          },
-          {
-            "chords": "    D   ",
-            "lyrics": "Por fé, podemos contemplar"
-          },
-          {
-            "chords": "  G",
-            "lyrics": "A terra que Deus nos vai dar;"
-          },
-          {
-            "chords": "  C            G",
-            "lyrics": "Então o_exílio findará,"
-          },
-          {
-            "chords": "  D          G    G...",
-            "lyrics": "O povo santo reinará."
-          }
+        "text": [
+          "Je[D]rusalém ce[G]lestial,",
+          "Lu[D]gar de paz e [G]de_esplendor!",
+          "Por [D]fé, podemos contemplar",
+          "A [G]terra que Deus nos vai dar;",
+          "En[C]tão o_exílio [G]findará,",
+          "O [D]povo santo [G]reina[G...]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G",
-            "lyrics": "Jerusalém celestial"
-          },
-          {
-            "chords": "  D ",
-            "lyrics": "É a cidade_onde_entrarão"
-          },
-          {
-            "chords": "   G",
-            "lyrics": "Os que amaram o Senhor"
-          },
-          {
-            "chords": "    D          G   G...",
-            "lyrics": "Com um sincero coração."
-          }
+        "text": [
+          "Je[G]rusalém celestial",
+          "É [D]a cidade_onde_entrarão",
+          "Os [G]que amaram o Senhor",
+          "Com [D]um sincero [G]cora[G...]ção."
         ]
       },
       {
@@ -86,23 +44,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  G",
-            "lyrics": "Jerusalém celestial,"
-          },
-          {
-            "chords": "    D ",
-            "lyrics": "De_icomparável esplendor,"
-          },
-          {
-            "chords": "  G",
-            "lyrics": "É adornada de amor"
-          },
-          {
-            "chords": "  D         G     G...",
-            "lyrics": "E majestade do Senhor."
-          }
+        "text": [
+          "Je[G]rusalém celestial,",
+          "De_i[D]comparável esplendor,",
+          "É [G]adornada de amor",
+          "E [D]majestade [G]do Sen[G...]hor."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O meu socorro vem do Senhor",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        E              B ",
-            "lyrics": "O meu socorro vem do Senhor,"
-          },
-          {
-            "chords": "             B7           E",
-            "lyrics": "Que_é, do_universo, o Criador;"
-          },
-          {
-            "chords": "                       A ",
-            "lyrics": "Tudo se move por Seu poder,"
-          },
-          {
-            "chords": "            B              E",
-            "lyrics": "Sempre, por Ele, hei de vencer."
-          }
+        "text": [
+          "O meu so[E]corro vem do Se[B]nhor,",
+          "Que_é, do_uni[B7]verso, o Cria[E]dor;",
+          "Tudo se move por Seu po[A]der,",
+          "Sempre, por [B]Ele, hei de ven[E]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "            E",
-            "lyrics": "É Deus Quem guarda a Sua_igreja,"
-          },
-          {
-            "chords": "              F#7       B ",
-            "lyrics": "Não adormece, nem tosqueneja;"
-          },
-          {
-            "chords": "E                      A ",
-            "lyrics": "Não deixará teu pé vacilar"
-          },
-          {
-            "chords": "          B                 E ",
-            "lyrics": "Nas lutas que tens de enfrentar."
-          }
+        "text": [
+          "É Deus Quem [E]guarda a Sua_igreja,",
+          "Não adormece, [F#7]nem tosque[B]neja;",
+          "[E]Não deixará teu pé vaci[A]lar",
+          "Nas lutas [B]que tens de enfren[E]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "          E              B ",
-            "lyrics": "Em todo_o tempo ando com Deus,"
-          },
-          {
-            "chords": "          B7             E",
-            "lyrics": "Que me promete vida nos céus;"
-          },
-          {
-            "chords": "                           A ",
-            "lyrics": "Se_eu for humilde me guardará,"
-          },
-          {
-            "chords": "       B             E",
-            "lyrics": "Para a glória me levará."
-          }
+        "text": [
+          "Em todo_o [E]tempo ando com [B]Deus,",
+          "Que me pro[B7]mete vida nos c[E]éus;",
+          "Se_eu for humilde me guarda[A]rá,",
+          "Para a [B]glória me leva[E]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        E           B ",
-            "lyrics": "Eu glorifico ao Criador,"
-          },
-          {
-            "chords": "           B7          E",
-            "lyrics": "Por ter mandado o Salvador"
-          },
-          {
-            "chords": "                          A ",
-            "lyrics": "Para me dar fé, vida_e perdão,"
-          },
-          {
-            "chords": "          B             E",
-            "lyrics": "E, no Seu reino, o galardão."
-          }
+        "text": [
+          "Eu glori[E]fico ao Cria[B]dor,",
+          "Por ter man[B7]dado o Salva[E]dor",
+          "Para me dar fé, vida_e per[A]dão,",
+          "E, no Seu [B]reino, o galar[E]dão."
         ]
       },
       {

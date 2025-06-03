@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É bom louvar ao Criador",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G                        C               G",
-            "lyrics": "É bom louvar ao Criador, alçar a voz em louvor,"
-          },
-          {
-            "chords": "   D           G                           D ",
-            "lyrics": "Contar as Suas obras e lembrar Seu grande amor,"
-          },
-          {
-            "chords": "           D7     G        Em        B7 ",
-            "lyrics": "Render-Lhe santo culto, sincera adoração;"
-          },
-          {
-            "chords": "   C            G     D           G",
-            "lyrics": "É bom, perante Ele, andar em retidão."
-          }
+        "text": [
+          "É [G]bom louvar ao Criador, al[C]çar a voz em lou[G]vor,",
+          "Con[D]tar as Suas [G]obras e lembrar Seu grande a[D]mor,",
+          "Render-Lhe [D7]santo c[G]ulto, sin[Em]cera adora[B7]ção;",
+          "É b[C]om, perante E[G]le, an[D]dar em retid[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  D        G",
-            "lyrics": "Fiéis adoradores,"
-          },
-          {
-            "chords": "   C             G",
-            "lyrics": "Louvai ao Deus vivente;"
-          },
-          {
-            "chords": "                   C ",
-            "lyrics": "Por Seus imensos favores,"
-          },
-          {
-            "chords": "   D          G",
-            "lyrics": "Louvai ao Criador!"
-          }
+        "text": [
+          "Fi[D]éis adora[G]dores,",
+          "Lou[C]vai ao Deus vi[G]vente;",
+          "Por Seus imensos fa[C]vores,",
+          "Lou[D]vai ao Cria[G]dor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G                    C             G",
-            "lyrics": "Sinceramente exaltai o santo Nome de Deus,"
-          },
-          {
-            "chords": "   D          G                              D ",
-            "lyrics": "Cantai alegremente ao Senhor que habita nos céus,"
-          },
-          {
-            "chords": "      D7       G       Em             B7 ",
-            "lyrics": "O coração e a mente ao grande Deus elevai;"
-          },
-          {
-            "chords": "   C          G         D          G",
-            "lyrics": "Ó filhos do Eterno, ao Pai glorificai."
-          }
+        "text": [
+          "Sin[G]ceramente exaltai o s[C]anto Nome de D[G]eus,",
+          "Can[D]tai alegrem[G]ente ao Senhor que habita nos c[D]éus,",
+          "O cora[D7]ção e a m[G]ente ao [Em]grande Deus ele[B7]vai;",
+          "Ó f[C]ilhos do Et[G]erno, ao P[D]ai glorific[G]ai."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G                      C               G",
-            "lyrics": "Com humildade, ó irmãos, apresentai-vos a Deus,"
-          },
-          {
-            "chords": "  D           G                           D ",
-            "lyrics": "Andai na santidade que convém a todos os Seus,"
-          },
-          {
-            "chords": "           D7     G      Em              B7 ",
-            "lyrics": "Com toda a vossa vida honrai a Quem vos amou,"
-          },
-          {
-            "chords": "  C             G       D           G",
-            "lyrics": "Aquele que, do alto, a salvação mandou."
-          }
+        "text": [
+          "Com [G]humildade, ó irmãos, ap[C]resentai-vos a D[G]eus,",
+          "An[D]dai na santi[G]dade que convém a todos os S[D]eus,",
+          "Com toda a [D7]vossa v[G]ida hon[Em]rai a Quem vos a[B7]mou,",
+          "Aq[C]uele que, do a[G]lto, a s[D]alvação mand[G]ou."
         ]
       },
       {

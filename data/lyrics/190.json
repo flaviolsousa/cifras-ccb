@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Amados, não temamos",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   B                     E           B",
-            "lyrics": "Mantendo nossa vida consagrada ao Senhor,"
-          },
-          {
-            "chords": "                                C#7        F# ",
-            "lyrics": "Do céu virão as bênçãos, pois fiel é_o Criador;"
-          },
-          {
-            "chords": "  B                       E          B",
-            "lyrics": "A graça retenhamos, sem jamais esmorecer;"
-          },
-          {
-            "chords": "  E            B             F#        B...",
-            "lyrics": "Jesus venceu o mundo_e nos fará prevalecer."
-          }
+        "text": [
+          "Man[B]tendo nossa vida consa[E]grada ao Sen[B]hor,",
+          "Do céu virão as bênçãos, pois fi[C#7]el é_o Cria[F#]dor;",
+          "A [B]graça retenhamos, sem ja[E]mais esmore[B]cer;",
+          "Je[E]sus venceu o [B]mundo_e nos fa[F#]rá prevale[B...]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " B            E ",
-            "lyrics": "Amados, não temamos"
-          },
-          {
-            "chords": "   C#7            F# ",
-            "lyrics": "Na marcha para_os céus;"
-          },
-          {
-            "chords": "  B           E ",
-            "lyrics": "A Cristo_obedeçamos,"
-          },
-          {
-            "chords": "F°       B    F#   B",
-            "lyrics": "Pois nos leva para Deus."
-          }
+        "text": [
+          "A[B]mados, não te[E]mamos",
+          "Na [C#7]marcha para_os [F#]céus;",
+          "A [B]Cristo_obede[E]çamos,",
+          "[F°]Pois nos [B]leva [F#]para [B]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   B                     E          B",
-            "lyrics": "Na fé fortalecidos, revestidos de poder"
-          },
-          {
-            "chords": "                             C#7        F# ",
-            "lyrics": "Seremos pelo Mestre, que nos dá o Seu saber;"
-          },
-          {
-            "chords": " B                       E         B",
-            "lyrics": "Avante, esforcemo-nos em obras divinais;"
-          },
-          {
-            "chords": "  E              B           F#         B...",
-            "lyrics": "O prêmio_é vida_eterna nas moradas celestiais."
-          }
+        "text": [
+          "Na [B]fé fortalecidos, reves[E]tidos de po[B]der",
+          "Seremos pelo Mestre, que nos [C#7]dá o Seu sa[F#]ber;",
+          "A[B]vante, esforcemo-nos em [E]obras divi[B]nais;",
+          "O [E]prêmio_é vida_e[B]terna nas mo[F#]radas celes[B...]tiais."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   B                        E              B",
-            "lyrics": "Lembremo-nos de todos os conselhos que nos deu"
-          },
-          {
-            "chords": "                           C#7         F# ",
-            "lyrics": "Jesus, o Verdadeiro, que a glória prometeu;"
-          },
-          {
-            "chords": " B                       E         B",
-            "lyrics": "Avante, com propósito em nosso coração"
-          },
-          {
-            "chords": "   E                B              F#          B...",
-            "lyrics": "De sempre_a Deus servir e_assim chegar à perfeição."
-          }
+        "text": [
+          "Lem[B]bremo-nos de todos os con[E]selhos que nos [B]deu",
+          "Jesus, o Verdadeiro, que a [C#7]glória prome[F#]teu;",
+          "A[B]vante, com propósito em [E]nosso cora[B]ção",
+          "De [E]sempre_a Deus ser[B]vir e_assim che[F#]gar à perfei[B...]ção."
         ]
       },
       {

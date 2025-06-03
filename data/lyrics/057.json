@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É estreia a porta para a Salvação",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                   A ",
-            "lyrics": "É estreita_a porta para_a salvação,"
-          },
-          {
-            "chords": "A7                  D",
-            "lyrics": "Disse_o nosso Redentor;"
-          },
-          {
-            "chords": "                D7           G ",
-            "lyrics": "O caminho largo leva_à perdição,"
-          },
-          {
-            "chords": "A               D",
-            "lyrics": "Ensinou o Salvador."
-          }
+        "text": [
+          "[D]É estreita_a porta p[A]ara_a salvação,",
+          "[A7]Disse_o nosso Redent[D]or;",
+          "O caminho largo [D7]leva_à perdiç[G]ão,",
+          "[A]Ensinou o Salvad[D]or."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D               A ",
-            "lyrics": "Porfiemos por andar"
-          },
-          {
-            "chords": "A7                 D",
-            "lyrics": "Nos caminhos do Senhor"
-          },
-          {
-            "chords": "         D7     G ",
-            "lyrics": "E alcançaremos vida eternal"
-          },
-          {
-            "chords": "A                   D",
-            "lyrics": "Com Deus Pai, o Criador."
-          }
+        "text": [
+          "[D]Porfiemos por an[A]dar",
+          "[A7]Nos caminhos do Sen[D]hor",
+          "E alcança[D7]remos v[G]ida eternal",
+          "[A]Com Deus Pai, o Cria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                   A ",
-            "lyrics": "Ó irmãos queridos, Cristo,_o Salvador,"
-          },
-          {
-            "chords": "A7            D",
-            "lyrics": "Todo-Poderoso é;"
-          },
-          {
-            "chords": "                  D7            G ",
-            "lyrics": "Tão somente nós devemos nos dispor"
-          },
-          {
-            "chords": "A                D",
-            "lyrics": "A segui-Lo pela fé."
-          }
+        "text": [
+          "[D]Ó irmãos queridos, C[A]risto,_o Salvador,",
+          "[A7]Todo-Poderoso [D]é;",
+          "Tão somente nós de[D7]vemos nos disp[G]or",
+          "[A]A segui-Lo pela f[D]é."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " D                 A ",
-            "lyrics": "Aos desejos nossos vamos renunciar,"
-          },
-          {
-            "chords": "A7              D",
-            "lyrics": "Agrademos ao Senhor;"
-          },
-          {
-            "chords": "                  D7          G ",
-            "lyrics": "Toda_a nossa vida vamos consagrar"
-          },
-          {
-            "chords": "A               D",
-            "lyrics": "Ao divino Redentor."
-          }
+        "text": [
+          "A[D]os desejos nossos [A]vamos renunciar,",
+          "[A7]Agrademos ao Sen[D]hor;",
+          "Toda_a nossa vida [D7]vamos consag[G]rar",
+          "[A]Ao divino Redent[D]or."
         ]
       },
       {

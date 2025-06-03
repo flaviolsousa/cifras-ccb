@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sou crente em Jesus",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D           G ",
-            "lyrics": "Jesus me guia com amor,"
-          },
-          {
-            "chords": "   D                A    A... ",
-            "lyrics": "Na fé, na paz e no Seu temor;"
-          },
-          {
-            "chords": "     D           G    G... ",
-            "lyrics": "Meu ser, desejo consagrar"
-          },
-          {
-            "chords": "     D                 A     D...",
-            "lyrics": "A Jesus, que veio para me salvar."
-          }
+        "text": [
+          "Jes[D]us me guia c[G]om amor,",
+          "Na [D]fé, na paz e no S[A]eu te[A...]mor;",
+          "Meu s[D]er, desejo c[G]onsag[G...]rar",
+          "A Jes[D]us, que veio para [A]me sal[D...]var."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     D     A     G          D",
-            "lyrics": "Sou crente em Jesus, meu Senhor,"
-          },
-          {
-            "chords": "                    A... ",
-            "lyrics": "A Ele sempre obedecerei;"
-          },
-          {
-            "chords": "   D      A       G     D",
-            "lyrics": "Terei em mim Seu santo amor"
-          },
-          {
-            "chords": "                          A   D...",
-            "lyrics": "E,_ao fim, reinar com Ele poderei."
-          }
+        "text": [
+          "Sou c[D]rente [A]em Jes[G]us, meu Sen[D]hor,",
+          "A Ele sempre obedece[A...]rei;",
+          "Ter[D]ei em m[A]im Seu s[G]anto a[D]mor",
+          "E,_ao fim, reinar com Ele [A]pode[D...]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   D           G ",
-            "lyrics": "Só a Jesus me_apegarei"
-          },
-          {
-            "chords": "   D               A  A... ",
-            "lyrics": "E mal nenhum eu recearei;"
-          },
-          {
-            "chords": "    D             G    G... ",
-            "lyrics": "Confio sempre_em Seu poder,"
-          },
-          {
-            "chords": "      D               A   D...",
-            "lyrics": "Nada poderá jamais me abater."
-          }
+        "text": [
+          "Só [D]a Jesus me_a[G]pegarei",
+          "E m[D]al nenhum eu rec[A]ear[A...]ei;",
+          "Conf[D]io sempre_em S[G]eu po[G...]der,",
+          "Nada p[D]oderá jamais me [A]abat[D...]er."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    D            G ",
-            "lyrics": "Ao fim do meu peregrinar,"
-          },
-          {
-            "chords": "  D                A     A... ",
-            "lyrics": "Irei com Cristo Jesus reinar;"
-          },
-          {
-            "chords": "   D           G     G... ",
-            "lyrics": "Serei ditoso, mui feliz,"
-          },
-          {
-            "chords": "      D                   A     D...",
-            "lyrics": "No glorioso, santo, celestial país."
-          }
+        "text": [
+          "Ao f[D]im do meu per[G]egrinar,",
+          "Ir[D]ei com Cristo Jes[A]us rei[A...]nar;",
+          "Ser[D]ei ditoso, m[G]ui fel[G...]iz,",
+          "No glo[D]rioso, santo, celest[A]ial pa[D...]ís."
         ]
       },
       {

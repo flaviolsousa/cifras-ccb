@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Meu bom Jesus, Contigo almejo estar",
   "tone": {
     "recommended": "D"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                 G             D",
-            "lyrics": "Meu bom Jesus, Contigo_almejo_estar"
-          },
-          {
-            "chords": "                          A ",
-            "lyrics": "E, só por Ti, viver e caminhar,"
-          },
-          {
-            "chords": "D             G           D",
-            "lyrics": "Para poder me proteger do mal"
-          },
-          {
-            "chords": "   A           D             A   D",
-            "lyrics": "E, ao final, viver na pátria eternal."
-          }
+        "text": [
+          "[D]Meu bom Jesus, Con[G]tigo_almejo_es[D]tar",
+          "E, só por Ti, viver e cami[A]nhar,",
+          "[D]Para poder me [G]proteger do [D]mal",
+          "E, [A]ao final, vi[D]ver na pátria [A]eter[D]nal."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                         G           D",
-            "lyrics": "Vem, Jesus, Redentor, nas lutas me_ajudar;"
-          },
-          {
-            "chords": "   A           D          A    D",
-            "lyrics": "Em Ti desejo_inteiramente confiar."
-          }
+        "text": [
+          "[D]Vem, Jesus, Redentor, nas [G]lutas me_aju[D]dar;",
+          "Em [A]Ti desejo_in[D]teiramente [A]confi[D]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                G         D",
-            "lyrics": "Meu bom Jesus, ó Fonte de amor,"
-          },
-          {
-            "chords": "                          A ",
-            "lyrics": "Almejo_ouvir a Tua voz, Senhor;"
-          },
-          {
-            "chords": "D               G               D",
-            "lyrics": "Faz-me viver cumprindo_o Teu querer"
-          },
-          {
-            "chords": "  A            D              A      D",
-            "lyrics": "E rejeitando_o mundo_e todo_o seu prazer."
-          }
+        "text": [
+          "[D]Meu bom Jesus, ó [G]Fonte de a[D]mor,",
+          "Almejo_ouvir a Tua voz, Se[A]nhor;",
+          "[D]Faz-me viver cum[G]prindo_o Teu que[D]rer",
+          "E [A]rejeitando_o [D]mundo_e todo_o [A]seu pra[D]zer."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                 G           D",
-            "lyrics": "Meu bom Jesus, sustém meu coração;"
-          },
-          {
-            "chords": "                          A ",
-            "lyrics": "Longe de Ti não há consolação;"
-          },
-          {
-            "chords": "D              G             D",
-            "lyrics": "Ó Salvador, Contigo_almejo_estar;"
-          },
-          {
-            "chords": "    A            D             A     D",
-            "lyrics": "Com toda_a alma, quero_a Ti me consagrar."
-          }
+        "text": [
+          "[D]Meu bom Jesus, sus[G]tém meu cora[D]ção;",
+          "Longe de Ti não há consola[A]ção;",
+          "[D]Ó Salvador, Con[G]tigo_almejo_es[D]tar;",
+          "Com [A]toda_a alma, [D]quero_a Ti me [A]consag[D]rar."
         ]
       },
       {

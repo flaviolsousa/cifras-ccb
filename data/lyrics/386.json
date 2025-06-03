@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Pela morte de Jesus",
   "tone": {
     "recommended": "C"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C             D#°  G7                      C",
-            "lyrics": "Pela morte de Je - sus, deu-nos vida_o Criador,"
-          },
-          {
-            "chords": "             F           C        G7        C",
-            "lyrics": "Trouxe paz e trouxe luz, nosso bendito Salvador."
-          }
+        "text": [
+          "[C]Pela morte de [D#°]Je - [G7]sus, deu-nos vida_o Cria[C]dor,",
+          "Trouxe paz e [F]trouxe luz, [C]nosso ben[G7]dito Salva[C]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                    G7",
-            "lyrics": "Não foi com ouro que Cristo nos comprou,"
-          },
-          {
-            "chords": "                      C",
-            "lyrics": "Mas com Seu sangue preciso_e remidor,"
-          },
-          {
-            "chords": "                  F ",
-            "lyrics": "E, por Sua graça, nos vivificou;"
-          },
-          {
-            "chords": "D7          C         G7   C",
-            "lyrics": "Somos co-herdeiros do Redentor."
-          }
+        "text": [
+          "[C]Não foi com ouro que [G7]Cristo nos comprou,",
+          "Mas com Seu sangue pre[C]ciso_e remidor,",
+          "E, por Sua graça, [F]nos vivificou;",
+          "[D7]Somos co-her[C]deiros do [G7]Reden[C]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C             D#°  G7                     C",
-            "lyrics": "Sua graça nos do - ou, Jesus Cristo, o Senhor;"
-          },
-          {
-            "chords": "            F          C        G7           C",
-            "lyrics": "Dos pecados nos lavou; vamos servi-Lo com fervor."
-          }
+        "text": [
+          "[C]Sua graça nos [D#°]do - [G7]ou, Jesus Cristo, o Sen[C]hor;",
+          "Dos pecados [F]nos lavou; [C]vamos ser[G7]vi-Lo com fer[C]vor."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                 D#°  G7                      C",
-            "lyrics": "Honra_e glória ao Se - nhor, o Autor de todo_o bem,"
-          },
-          {
-            "chords": "                F        C     G7        C",
-            "lyrics": "Que nos guia_ao Criador, à eternal Jerusalém."
-          }
+        "text": [
+          "[C]Honra_e glória ao [D#°]Se - [G7]nhor, o Autor de todo_o [C]bem,",
+          "Que nos guia_ao [F]Criador, [C]à eter[G7]nal Jerusa[C]lém."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Vinde, ó benditos de Meu Pai\"",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        A    E            A         D       A             E ",
-            "lyrics": "“Vinde, ó benditos de Meu Pai”, ouvirão de Cristo,_o Redentor,"
-          },
-          {
-            "chords": "      A      E            A          D      E         A",
-            "lyrics": "Todos os que amam ao bom Deus e_entrarão no reino de_amor."
-          },
-          {
-            "chords": "    D                  A               E            A",
-            "lyrics": "Oh! Que esplendor! Que consolação nos aguarda no porvir:"
-          },
-          {
-            "chords": "E          A                                    E        A",
-            "lyrics": "Juntos do eterno Criador, os bens celestes nós iremos fruir!"
-          }
+        "text": [
+          "“Vinde, [A]ó ben[E]ditos de Meu [A]Pai”, ouvi[D]rão de C[A]risto,_o Reden[E]tor,",
+          "Todos [A]os que [E]amam ao bom D[A]eus e_entra[D]rão no [E]reino de_a[A]mor.",
+          "Oh! [D]Que esplendor! Que [A]consolação nos a[E]guarda no por[A]vir:",
+          "[E]Juntos do e[A]terno Criador, os bens celestes nós i[E]remos fru[A]ir!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     A     E           A        D      A           E ",
-            "lyrics": "Majestoso, Cristo voltará com poder e grande esplendor;"
-          },
-          {
-            "chords": "     A     E          A        D      E         A",
-            "lyrics": "Mandará os anjos recolher os fiéis ao reino de_amor;"
-          },
-          {
-            "chords": "   D                A                 E          A",
-            "lyrics": "No céu surgirá com grande sinal, todo_o olho O verá;"
-          },
-          {
-            "chords": "E              A                                        E       A",
-            "lyrics": "Grande_espanto para_o pecador, mas grande glória para_o justo será."
-          }
+        "text": [
+          "Majes[A]toso, [E]Cristo volta[A]rá com po[D]der e g[A]rande esplen[E]dor;",
+          "Manda[A]rá os [E]anjos recol[A]her os fi[D]éis ao [E]reino de_a[A]mor;",
+          "No [D]céu surgirá com g[A]rande sinal, todo_[E]o olho O ve[A]rá;",
+          "[E]Grande_espanto [A]para_o pecador, mas grande glória para_o [E]justo se[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A     E           A            D    A          E ",
-            "lyrics": "Para_o alto_olhemos, ó fiéis, perto_está a nossa redenção;"
-          },
-          {
-            "chords": "      A     E          A        D      E       A",
-            "lyrics": "Conservemos a paz e o_amor, caminhemos em retidão;"
-          },
-          {
-            "chords": "  D                  A                   E            A",
-            "lyrics": "A vida_eternal, com glória no céu, Jesus Cristo nos dará;"
-          },
-          {
-            "chords": "E          A                              E        A",
-            "lyrics": "Deus enxugará as lágrimas e toda a tribulação cessará."
-          }
+        "text": [
+          "Para_o [A]alto_o[E]lhemos, ó fi[A]éis, perto_es[D]tá a [A]nossa reden[E]ção;",
+          "Conser[A]vemos [E]a paz e o_a[A]mor, cami[D]nhemos [E]em retid[A]ão;",
+          "A [D]vida_eternal, com g[A]lória no céu, Jesus [E]Cristo nos da[A]rá;",
+          "[E]Deus enxuga[A]rá as lágrimas e toda a tribula[E]ção cessa[A]rá."
         ]
       }
     ]

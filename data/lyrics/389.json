@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Jesus chama os Seus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Cristo Jesus, o divino Pastor,"
-          },
-          {
-            "chords": "F#7            B",
-            "lyrics": "Com doce voz, chama os Seus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Quer conduzi-los a Deus, Criador,"
-          },
-          {
-            "chords": "C#7              F#7 ",
-            "lyrics": "Para viverem nos céus."
-          }
+        "text": [
+          "[B]Cristo Jesus, o divino Pastor,",
+          "[F#7]Com doce voz, c[B]hama os Seus;",
+          "Quer conduzi-los a Deus, Criador,",
+          "[C#7]Para viverem nos [F#7]céus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B        F#7 ",
-            "lyrics": "Cristo Jesus"
-          },
-          {
-            "chords": "          B",
-            "lyrics": "Chama os Seus"
-          },
-          {
-            "chords": "B7      E ",
-            "lyrics": "Para a luz"
-          },
-          {
-            "chords": "        B      F#7        B",
-            "lyrics": "Que os guia ao reino dos céus."
-          }
+        "text": [
+          "[B]Cristo Je[F#7]sus",
+          "Chama os S[B]eus",
+          "[B7]Para a l[E]uz",
+          "Que os g[B]uia ao [F#7]reino dos c[B]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Para lhes dar a herança_eternal,"
-          },
-          {
-            "chords": "F#7           B",
-            "lyrics": "Cristo Jesus chama os Seus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele_é o_Amigo que não tem igual,"
-          },
-          {
-            "chords": "C#7              F#7 ",
-            "lyrics": "Ele_é o Filho de Deus."
-          }
+        "text": [
+          "[B]Para lhes dar a herança_eternal,",
+          "[F#7]Cristo Jesus c[B]hama os Seus;",
+          "Ele_é o_Amigo que não tem igual,",
+          "[C#7]Ele_é o Filho de [F#7]Deus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Cristo Jesus, Sumo Sábio_e Fiel,"
-          },
-          {
-            "chords": "F#7               B",
-            "lyrics": "Com voz de_amor, chama os Seus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Suas palavras, mais doces que_o mel,"
-          },
-          {
-            "chords": "C#7                F#7 ",
-            "lyrics": "Fazem que_amemos a Deus."
-          }
+        "text": [
+          "[B]Cristo Jesus, Sumo Sábio_e Fiel,",
+          "[F#7]Com voz de_amor, c[B]hama os Seus;",
+          "Suas palavras, mais doces que_o mel,",
+          "[C#7]Fazem que_amemos a [F#7]Deus."
         ]
       },
       {

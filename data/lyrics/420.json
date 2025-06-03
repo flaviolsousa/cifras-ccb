@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Foi no Calvário...",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G",
-            "lyrics": "Foi no Calvário que Jesus"
-          },
-          {
-            "chords": "                      D",
-            "lyrics": "As nossas culpas cancelou;"
-          },
-          {
-            "chords": "  G",
-            "lyrics": "Sofrendo grande dor na cruz,"
-          },
-          {
-            "chords": "     D                G ",
-            "lyrics": "Com Deus nos reconciliou."
-          }
+        "text": [
+          "Foi [G]no Calvário que Jesus",
+          "As nossas culpas cance[D]lou;",
+          "So[G]frendo grande dor na cruz,",
+          "Com D[D]eus nos reconcili[G]ou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G                       D",
-            "lyrics": "Pela morte na cruz, nos resgatou"
-          },
-          {
-            "chords": "                            G",
-            "lyrics": "O Senhor, que a Deus nos adotou;"
-          },
-          {
-            "chords": "                  D",
-            "lyrics": "Os Seus dons veio dar"
-          },
-          {
-            "chords": "     G          D   G",
-            "lyrics": "Para O podermos exaltar."
-          }
+        "text": [
+          "Pela [G]morte na cruz, nos resga[D]tou",
+          "O Senhor, que a Deus nos ado[G]tou;",
+          "Os Seus dons veio [D]dar",
+          "Para [G]O podermos [D]exal[G]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G",
-            "lyrics": "Á destra de Deus Pai está"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Jesus, fiel Intercessor,"
-          },
-          {
-            "chords": "    G",
-            "lyrics": "Que sempre nos defenderá,"
-          },
-          {
-            "chords": "     D                    G",
-            "lyrics": "Por Seu glorioso_e santo_amor."
-          }
+        "text": [
+          "Á [G]destra de Deus Pai está",
+          "Jesus, fiel Interces[D]sor,",
+          "Que [G]sempre nos defenderá,",
+          "Por S[D]eu glorioso_e santo_a[G]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Louvor e honra_ao Criador,"
-          },
-          {
-            "chords": "                       D",
-            "lyrics": "Por ter mandado_o Salvador"
-          },
-          {
-            "chords": "   G",
-            "lyrics": "Justificar o pecador"
-          },
-          {
-            "chords": "  D                        G",
-            "lyrics": "E dar-lhe_o reino de_esplendor."
-          }
+        "text": [
+          "Lou[G]vor e honra_ao Criador,",
+          "Por ter mandado_o Salva[D]dor",
+          "Jus[G]tificar o pecador",
+          "E [D]dar-lhe_o reino de_esplen[G]dor."
         ]
       },
       {

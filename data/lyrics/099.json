@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus Cristo é o Amigo celestial",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G                  E7      A7",
-            "lyrics": "Se nós fizermos tudo_o que nos manda"
-          },
-          {
-            "chords": "      D7            G",
-            "lyrics": "Jesus Cristo, nosso Redentor."
-          },
-          {
-            "chords": "                     E7  A",
-            "lyrics": "Chamar-nos-á a todos de amigos;"
-          },
-          {
-            "chords": "Cm    G       A7    D7  G",
-            "lyrics": "Tão somente_andemos em amor."
-          }
+        "text": [
+          "Se n[G]ós fizermos tudo_o [E7]que nos [A7]manda",
+          "Jesus [D7]Cristo, nosso [G]Redentor.",
+          "Chamar-nos-á a todos [E7]de a[A]migos;",
+          "[Cm]Tão so[G]mente_an[A7]demos [D7]em a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      D7            G",
-            "lyrics": "Jesus Cristo, Jesus Cristo"
-          },
-          {
-            "chords": "     D7        G",
-            "lyrics": "É_o Amigo celestial,"
-          },
-          {
-            "chords": "   Cm           G",
-            "lyrics": "Amoroso e compassivo;"
-          },
-          {
-            "chords": "     D7         G",
-            "lyrics": "É_o Amigo sem igual."
-          }
+        "text": [
+          "Jesus [D7]Cristo, Jesus [G]Cristo",
+          "É_o A[D7]migo celes[G]tial,",
+          "Amo[Cm]roso e compas[G]sivo;",
+          "É_o A[D7]migo sem ig[G]ual."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G                  E7  A7",
-            "lyrics": "É esse_Amigo que nos acompanha"
-          },
-          {
-            "chords": "      D7           G",
-            "lyrics": "Na jornada rumo_ao lar de Deus;"
-          },
-          {
-            "chords": "                   E7    A",
-            "lyrics": "É Ele que nos fala dos tesouros"
-          },
-          {
-            "chords": "Cm   G     A7    D7       G",
-            "lyrics": "Que iremos desfrutar nos céus."
-          }
+        "text": [
+          "É [G]esse_Amigo que nos [E7]acom[A7]panha",
+          "Na jor[D7]nada rumo_ao [G]lar de Deus;",
+          "É Ele que nos fala [E7]dos te[A]souros",
+          "[Cm]Que i[G]remos [A7]desfru[D7]tar nos c[G]éus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G                  E7   A7",
-            "lyrics": "Seus sábios e gloriosos mandamentos,"
-          },
-          {
-            "chords": "      D7             G",
-            "lyrics": "Jesus Cristo vem nos ensinar;"
-          },
-          {
-            "chords": "                 E7     A",
-            "lyrics": "Um dia O veremos face_a face,"
-          },
-          {
-            "chords": "Cm  G     A7   D7     G",
-            "lyrics": "Ele mesmo prometeu voltar."
-          }
+        "text": [
+          "Seus [G]sábios e gloriosos [E7]manda[A7]mentos,",
+          "Jesus [D7]Cristo vem nos [G]ensinar;",
+          "Um dia O veremos [E7]face_a [A]face,",
+          "[Cm]Ele [G]mesmo [A7]prome[D7]teu vol[G]tar."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Salvo por Seu poder",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G   B7  Em      D     G",
-            "lyrics": "Fiel  A - migo eu encontrei"
-          },
-          {
-            "chords": "    C             G   D ",
-            "lyrics": "Em Cristo, o Salvador;"
-          },
-          {
-            "chords": " G B7 Em        D   G",
-            "lyrics": "Alegremente eu cantarei"
-          },
-          {
-            "chords": "   C     G       A7     D ",
-            "lyrics": "O Seu sublime e grande amor!"
-          }
+        "text": [
+          "Fi[G]el  [B7]A - [Em]migo eu [D]encont[G]rei",
+          "Em C[C]risto, o Salva[G]dor;[D]",
+          "A[G]le[B7]gre[Em]mente eu c[D]anta[G]rei",
+          "O S[C]eu sub[G]lime e g[A7]rande a[D]mor!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " G         D ",
-            "lyrics": "Salvo por Seu poder,"
-          },
-          {
-            "chords": "D7         G",
-            "lyrics": "Salvo por Seu amor,"
-          },
-          {
-            "chords": "                  C ",
-            "lyrics": "Sinto em meu coração"
-          },
-          {
-            "chords": "             D7   G",
-            "lyrics": "A virtude do Salvador."
-          }
+        "text": [
+          "S[G]alvo por S[D]eu poder,",
+          "[D7]Salvo por S[G]eu amor,",
+          "Sinto em meu coraç[C]ão",
+          "A virtude do [D7]Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G   B7 Em      D      G",
-            "lyrics": "Retido estava em todo o mal"
-          },
-          {
-            "chords": "    C          G  D ",
-            "lyrics": "Que me escravizou;"
-          },
-          {
-            "chords": "     G    B7 Em     D    G",
-            "lyrics": "Mas Cristo, Amigo celestial,"
-          },
-          {
-            "chords": "     C    G      A7    D ",
-            "lyrics": "Com Seu poder me libertou."
-          }
+        "text": [
+          "Re[G]tido[B7] es[Em]tava em [D]todo o [G]mal",
+          "Que [C]me escraviz[G]ou;[D]",
+          "Mas C[G]risto[B7], A[Em]migo ce[D]lesti[G]al,",
+          "Com S[C]eu po[G]der me [A7]libert[D]ou."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G  B7   Em       D     G",
-            "lyrics": "Bem longe estava do meu Senhor,"
-          },
-          {
-            "chords": "     C             G  D ",
-            "lyrics": "Sem paz, sem salvação,"
-          },
-          {
-            "chords": "    G    B7 Em     D     G",
-            "lyrics": "Mas sinto  agora o doce amor"
-          },
-          {
-            "chords": "    C      G      A7   D ",
-            "lyrics": "De Cristo, em meu coração."
-          }
+        "text": [
+          "Bem [G]lon[B7]ge es[Em]tava do m[D]eu Sen[G]hor,",
+          "Sem p[C]az, sem salvaç[G]ão,[D]",
+          "Mas [G]sinto[B7]  a[Em]gora o [D]doce a[G]mor",
+          "De C[C]risto, [G]em meu [A7]coraç[D]ão."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Grande Deus",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                   G#m     F#    B",
-            "lyrics": "Oh! Grande Deus, se cumprem as promessas"
-          },
-          {
-            "chords": "    F#      G#m        F#   C#7  F#",
-            "lyrics": "Que Tu tens feito no Senhor Je - sus;"
-          },
-          {
-            "chords": "             B        F#            B",
-            "lyrics": "Pelos Teus sinais, já vemos que Te_apressas"
-          },
-          {
-            "chords": "             F#7              B",
-            "lyrics": "Em mostrar a todos Tua_eterna luz."
-          }
+        "text": [
+          "[B]Oh! Grande Deus, se [G#m]cumprem [F#]as pro[B]messas",
+          "Que [F#]Tu tens [G#m]feito no Se[F#]nhor [C#7]Je - [F#]sus;",
+          "Pelos Teus si[B]nais, já [F#]vemos que Te_a[B]pressas",
+          "Em mostrar a [F#7]todos Tua_eterna [B]luz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B               G#m     F#      B",
-            "lyrics": "Pai eternal, do céu nos tens mandado"
-          },
-          {
-            "chords": "    F#    G#m       F#   C#7  F#",
-            "lyrics": "Teu santo Filho, o Ema - nu - el,"
-          },
-          {
-            "chords": "               B        F#          B",
-            "lyrics": "Que, da_escravidão, nos tem já libertado"
-          },
-          {
-            "chords": "              F#7            B",
-            "lyrics": "E nos fez Seu povo santo e fiel."
-          }
+        "text": [
+          "[B]Pai eternal, do [G#m]céu nos [F#]tens man[B]dado",
+          "Teu [F#]santo [G#m]Filho, o E[F#]ma - [C#7]nu - [F#]el,",
+          "Que, da_escravi[B]dão, nos [F#]tem já liber[B]tado",
+          "E nos fez Seu [F#7]povo santo e fi[B]el."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                G#m     F#  B",
-            "lyrics": "Deus Criador, também nos enviaste"
-          },
-          {
-            "chords": "    F#      G#m       F#   C#7  F#",
-            "lyrics": "Teu Santo_Espírito Conso – la - dor;"
-          },
-          {
-            "chords": "            B    F#          B",
-            "lyrics": "Para_a redenção eterna nos selaste"
-          },
-          {
-            "chords": "            F#7                B",
-            "lyrics": "E, por esse Dom, sentimos Teu amor."
-          }
+        "text": [
+          "[B]Deus Criador, tam[G#m]bém nos [F#]envi[B]aste",
+          "Teu [F#]Santo_Es[G#m]pírito Con[F#]so – [C#7]la - [F#]dor;",
+          "Para_a reden[B]ção e[F#]terna nos se[B]laste",
+          "E, por esse [F#7]Dom, sentimos Teu a[B]mor."
         ]
       }
     ]

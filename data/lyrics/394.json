@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Nas moradas do Senhor",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       D",
-            "lyrics": "Nas moradas do Senhor não há pranto, não há dor,"
-          },
-          {
-            "chords": "      A7                      D",
-            "lyrics": "Todos lá desfrutarão o bem superno;"
-          },
-          {
-            "chords": "      Bm           F#7      G         D",
-            "lyrics": "Lá também desejo estar e a Cristo entoar,"
-          },
-          {
-            "chords": "                                A7 D",
-            "lyrics": "Com os santos, hinos de louvor eterno."
-          }
+        "text": [
+          "Nas mor[D]adas do Senhor não há pranto, não há dor,",
+          "Todos [A7]lá desfrutarão o bem sup[D]erno;",
+          "Lá tam[Bm]bém desejo es[F#7]tar e a C[G]risto ento[D]ar,",
+          "Com os santos, hinos de louvor e[A7]ter[D]no."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      D",
-            "lyrics": "Lá no céu cantarei"
-          },
-          {
-            "chords": "      G          D           A7 ",
-            "lyrics": "Novos hinos a Jesus, fiel Cordeiro."
-          },
-          {
-            "chords": "                 D                      G ",
-            "lyrics": "Todo pranto findará, toda angústia cessará."
-          },
-          {
-            "chords": "          D             A7                D",
-            "lyrics": "Glória a Deus que, por amor, me fez herdeiro!"
-          }
+        "text": [
+          "Lá no [D]céu cantarei",
+          "Novos [G]hinos a Jes[D]us, fiel Cor[A7]deiro.",
+          "Todo pranto finda[D]rá, toda angústia cessa[G]rá.",
+          "Glória a D[D]eus que, por a[A7]mor, me fez herdei[D]ro!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        D",
-            "lyrics": "Meu prazer será sem par lá no céu, ao contemplar,"
-          },
-          {
-            "chords": "      A7                     D",
-            "lyrics": "De Jesus, a santa face, gloriosa;"
-          },
-          {
-            "chords": "      Bm           F#7           G              D",
-            "lyrics": "Sinto júbilo em pensar que, com Cristo, irei morar,"
-          },
-          {
-            "chords": "                                 A7  D",
-            "lyrics": "Pois terei no céu a herança precio - sa."
-          }
+        "text": [
+          "Meu praz[D]er será sem par lá no céu, ao contemplar,",
+          "De Jes[A7]us, a santa face, glori[D]osa;",
+          "Sinto [Bm]júbilo em pen[F#7]sar que, com C[G]risto, irei mor[D]ar,",
+          "Pois terei no céu a herança preci[A7]o - [D]sa."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        D",
-            "lyrics": "Na eternal Jerusalém, onde existe só o bem,"
-          },
-          {
-            "chords": "     A7                           D",
-            "lyrics": "Entrarei com Jesus Cristo, alegremente;"
-          },
-          {
-            "chords": "          Bm          F#7           G             D",
-            "lyrics": "Junto aos santos cantarei; Glória! Glória ao meu Rei!"
-          },
-          {
-            "chords": "                        A7 D",
-            "lyrics": "Regozijo sentirei eternamente."
-          }
+        "text": [
+          "Na etern[D]al Jerusalém, onde existe só o bem,",
+          "Entra[A7]rei com Jesus Cristo, alegrem[D]ente;",
+          "Junto aos [Bm]santos canta[F#7]rei; Glória! G[G]lória ao meu R[D]ei!",
+          "Regozijo sentirei eterna[A7]men[D]te."
         ]
       },
       {

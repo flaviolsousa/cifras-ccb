@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Julga-me, Senhor",
   "tone": {
     "recommended": "A"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " A                     D        A",
-            "lyrics": "Julga-me, Senhor, pois amo Tua lei,"
-          },
-          {
-            "chords": "E",
-            "lyrics": "Confiando_em Ti, jamais vacilarei;"
-          },
-          {
-            "chords": "A                      D    B7               E",
-            "lyrics": "Vem, ó Deus, com Teu falar, minha alma sustentar,"
-          },
-          {
-            "chords": "              E...  E           A",
-            "lyrics": "Quero em justiça    sempre caminhar."
-          }
+        "text": [
+          "J[A]ulga-me, Senhor, pois [D]amo Tua l[A]ei,",
+          "[E]Confiando_em Ti, jamais vacilarei;",
+          "[A]Vem, ó Deus, com Teu fa[D]lar, [B7]minha alma susten[E]tar,",
+          "Quero em justi[E...]ça    [E]sempre camin[A]har."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Teu Espírito,_ó Senhor,"
-          },
-          {
-            "chords": "E    B7          E",
-            "lyrics": "Tudo pode_investigar;"
-          },
-          {
-            "chords": "A                 D",
-            "lyrics": "Nada posso Te_ocultar,"
-          },
-          {
-            "chords": "B7                    E",
-            "lyrics": "Pois, com Teu divino_olhar,"
-          },
-          {
-            "chords": "                  E...  E         A",
-            "lyrics": "Vês os céus e_a terra,  sábio Criador."
-          }
+        "text": [
+          "[A]Teu Espírito,_ó Senhor,",
+          "[E]Tudo [B7]pode_investi[E]gar;",
+          "[A]Nada posso Te_ocul[D]tar,",
+          "[B7]Pois, com Teu divino_o[E]lhar,",
+          "Vês os céus e_a te[E...]rra,  [E]sábio Cria[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                      D          A",
-            "lyrics": "Diante dos meus olhos Teu favor está:"
-          },
-          {
-            "chords": " E ",
-            "lyrics": "Bem-aventurança que igual não há;"
-          },
-          {
-            "chords": " A                    D    B7               E",
-            "lyrics": "Quero,_ó Deus, Te agradar  e Teu reino alcançar;"
-          },
-          {
-            "chords": "               E...  E         A",
-            "lyrics": "Vem, com a Palavra,  me purificar."
-          }
+        "text": [
+          "[A]Diante dos meus olhos T[D]eu favor es[A]tá:",
+          "B[E]em-aventurança que igual não há;",
+          "Q[A]uero,_ó Deus, Te agra[D]dar  [B7]e Teu reino alcan[E]çar;",
+          "Vem, com a Pala[E...]vra,  [E]me purific[A]ar."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                D              A",
-            "lyrics": "Em caminho plano os meus pés estão,"
-          },
-          {
-            "chords": "E ",
-            "lyrics": "No caminho que conduz à salvação;"
-          },
-          {
-            "chords": " A                   D    B7                  E",
-            "lyrics": "Nas congregações, ó Deus, contarei os feitos Teus,"
-          },
-          {
-            "chords": "                E...  E           A",
-            "lyrics": "Pois Tu cancelaste    os pecados meus."
-          }
+        "text": [
+          "[A]Em caminho plano [D]os meus pés est[A]ão,",
+          "[E]No caminho que conduz à salvação;",
+          "N[A]as congregações, ó D[D]eus, [B7]contarei os feitos T[E]eus,",
+          "Pois Tu cancelas[E...]te    [E]os pecados m[A]eus."
         ]
       },
       {

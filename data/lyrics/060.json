@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Vem a Jesus",
   "tone": {
     "recommended": "G"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                 D                           G",
-            "lyrics": "Rejeita o mal deste mundo e vem a Jesus te_entregar;"
-          },
-          {
-            "chords": "                    C  Am...   D                G",
-            "lyrics": "Seu santo amor é profundo;  Jesus quer te abençoar."
-          }
+        "text": [
+          "Rej[G]eita o mal deste m[D]undo e vem a Jesus te_entreg[G]ar;",
+          "Seu santo amor é pro[C]fun[Am...]do;  Jes[D]us quer te abenço[G]ar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    C        G",
-            "lyrics": "Oh! Vem a Jesus,"
-          },
-          {
-            "chords": "     A                      D ",
-            "lyrics": "Que por nós morreu sobre_a cruz;"
-          },
-          {
-            "chords": "     G                  C    Am... ",
-            "lyrics": "Seu sangue precioso_Ele derramou"
-          },
-          {
-            "chords": "   D                   G",
-            "lyrics": "E com Deus nos reconciliou."
-          }
+        "text": [
+          "Oh! [C]Vem a Jes[G]us,",
+          "Que p[A]or nós morreu sobre_a c[D]ruz;",
+          "Seu s[G]angue precioso_Ele [C]derra[Am...]mou",
+          "E c[D]om Deus nos reconcil[G]iou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G                  D                           G",
-            "lyrics": "Rejeita do mundo_a vaidade, pois ela te quer seduzir;"
-          },
-          {
-            "chords": "                   C    Am...   D               G",
-            "lyrics": "Da graça e da santida - de,  Jesus pode te revestir."
-          }
+        "text": [
+          "Rej[G]eita do mundo_a vai[D]dade, pois ela te quer seduz[G]ir;",
+          "Da graça e da santi[C]da - [Am...]de,  Jes[D]us pode te reves[G]tir."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G                  D                        G",
-            "lyrics": "Propósito firme_e constante esteja em teu coração;"
-          },
-          {
-            "chords": "                            Am...   D               G",
-            "lyrics": "Jesus não te quer vacilan - te; há n´Ele real salvação."
-          }
+        "text": [
+          "Pro[G]pósito firme_e cons[D]tante esteja em teu coraç[G]ão;",
+          "Jesus não te quer vacilan - [Am...]te; há n[D]´Ele real salvaç[G]ão."
         ]
       },
       {

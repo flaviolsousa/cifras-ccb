@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Vem, sim, vem",
   "tone": {
     "recommended": "B"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B             F#7                B",
-            "lyrics": "Nesta terrena vida, ó justo Redentor,"
-          },
-          {
-            "chords": "                        E          C#7  F#7   B",
-            "lyrics": "São grandes os combates aos Teus fiéis, Se - nhor."
-          }
+        "text": [
+          "[B]Nesta terrena [F#7]vida, ó justo Reden[B]tor,",
+          "São grandes os combates [E]aos Teus fi[C#7]éis, [F#7]Se - n[B]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B        E        F#7             B",
-            "lyrics": "Oh! Vem, sim, vem nos alegrar, Senhor;"
-          },
-          {
-            "chords": "                   E       C#7  F#7   B",
-            "lyrics": "És nossa Esperança e nosso De – fen - sor."
-          }
+        "text": [
+          "[B]Oh! Vem, [E]sim, vem [F#7]nos alegrar, Sen[B]hor;",
+          "És nossa Esperança [E]e nosso [C#7]De – [F#7]fen - [B]sor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B              F#7                    B",
-            "lyrics": "No mundo há vaidade, muita tristeza_e dor,"
-          },
-          {
-            "chords": "                        E     C#7  F#7   B",
-            "lyrics": "Mas Teus remidos sentem a Tua paz  e_a - mor."
-          }
+        "text": [
+          "[B]No mundo há vai[F#7]dade, muita tristeza_e [B]dor,",
+          "Mas Teus remidos sentem [E]a Tua [C#7]paz  [F#7]e_a - [B]mor."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B             F#7                     B",
-            "lyrics": "Do céu Te esperamos, glorioso,_eterno Rei;"
-          },
-          {
-            "chords": "                     E         C#7  F#7  B",
-            "lyrics": "Tu és veraz Pastor e nós somos Tu - a   grei."
-          }
+        "text": [
+          "[B]Do céu Te espe[F#7]ramos, glorioso,_eterno [B]Rei;",
+          "Tu és veraz Pastor e [E]nós somos [C#7]Tu - [F#7]a   g[B]rei."
         ]
       },
       {

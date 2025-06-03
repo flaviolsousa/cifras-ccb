@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sem Deus Pai, vivi no mundo",
   "tone": {
     "recommended": "G"
@@ -9,55 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G               D                 C    D     G",
-            "lyrics": "Sem Deus Pai, vivi no mundo, à vaidade eu servi;"
-          },
-          {
-            "chords": "             D                       C       D    G",
-            "lyrics": "Em tristezas me_encontrava quando,_a Cristo, conheci;"
-          },
-          {
-            "chords": "                                   D   G",
-            "lyrics": "Seu perdão, Seu amor, em minh´alma recebi."
-          }
+        "text": [
+          "[G]Sem Deus Pai, vi[D]vi no mundo, à vai[C]dade [D]eu ser[G]vi;",
+          "Em tristezas [D]me_encontrava quando,_a [C]Cristo, [D]conhe[G]ci;",
+          "Seu perdão, Seu amor, em minh´alma [D]rece[G]bi."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G            D                C     D     G",
-            "lyrics": "Eu jamais compreenderia o_Evangelho do Senhor,"
-          },
-          {
-            "chords": "             D               C     D      G",
-            "lyrics": "Se não fosse Sua graça, Seu amor, imenso_amor,"
-          },
-          {
-            "chords": "                                   D   G",
-            "lyrics": "Que do mal me livrou, me unindo_ao Criador."
-          }
+        "text": [
+          "[G]Eu jamais com[D]preenderia o_Evan[C]gelho [D]do Sen[G]hor,",
+          "Se não fosse [D]Sua graça, Seu a[C]mor, i[D]menso_a[G]mor,",
+          "Que do mal me livrou, me unindo_ao [D]Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G           D                C   D        G",
-            "lyrics": "No meu ser agora sinto Teu Espírito,_ó Senhor,"
-          },
-          {
-            "chords": "            D               C       D       G",
-            "lyrics": "Que me guia na verdade e me leva_ao lar de_amor;"
-          },
-          {
-            "chords": "                                 D    G ",
-            "lyrics": "Nesse lar viverei com Jesus, meu Redentor."
-          }
+        "text": [
+          "[G]No meu ser a[D]gora sinto Teu Es[C]píri[D]to,_ó Sen[G]hor,",
+          "Que me guia [D]na verdade e me [C]leva_ao [D]lar de_a[G]mor;",
+          "Nesse lar viverei com Jesus, meu [D]Reden[G]tor."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Grandioso és Tu",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "             A                    D ",
-            "lyrics": "Grandioso és Tu, Jesus, Rei da verdade,"
-          },
-          {
-            "chords": "         A     E          A",
-            "lyrics": "Nenhuma força pode Te vencer;"
-          },
-          {
-            "chords": "                         D ",
-            "lyrics": "Aniquilaste o jugo da maldade"
-          },
-          {
-            "chords": "           A       E          A",
-            "lyrics": "E Te assentaste à destra do Poder."
-          }
+        "text": [
+          "Grandioso és [A]Tu, Jesus, Rei da ver[D]dade,",
+          "Nenhuma f[A]orça p[E]ode Te venc[A]er;",
+          "Aniquilaste o jugo da mal[D]dade",
+          "E Te assent[A]aste à d[E]estra do Po[A]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       A      D          A    F#m ",
-            "lyrics": "A Ti devemos nossa gratidão;"
-          },
-          {
-            "chords": "             Bm  E           A",
-            "lyrics": "Grandioso és Tu,   Senhor Jesus;"
-          },
-          {
-            "chords": "               D          A    F#m ",
-            "lyrics": "Tu nos tiraste da escravidão;"
-          },
-          {
-            "chords": "             Bm     E      A",
-            "lyrics": "Grandioso és Tu, Senhor Jesus."
-          }
+        "text": [
+          "A Ti de[A]vemos n[D]ossa gratid[A]ão;[F#m]",
+          "Grandioso és [Bm]Tu, [E]  Senhor Jes[A]us;",
+          "Tu nos tiraste [D]da escravid[A]ão;[F#m]",
+          "Grandioso és [Bm]Tu, Sen[E]hor Jes[A]us."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "             A                    D ",
-            "lyrics": "Grandioso és Tu, Jesus, ó Rei da glória,"
-          },
-          {
-            "chords": "        A     E         A",
-            "lyrics": "De majestade coroado estás;"
-          },
-          {
-            "chords": "                            D ",
-            "lyrics": "Em tudo o Pai Te concedeu vitória,"
-          },
-          {
-            "chords": "       A         E            A",
-            "lyrics": "E a vitória aos Teus fiéis darás."
-          }
+        "text": [
+          "Grandioso és [A]Tu, Jesus, ó Rei da g[D]lória,",
+          "De majes[A]tade c[E]oroado est[A]ás;",
+          "Em tudo o Pai Te concedeu vi[D]tória,",
+          "E a vit[A]ória aos T[E]eus fiéis dar[A]ás."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "             A                D ",
-            "lyrics": "Grandioso és Tu, ó divinal Cordeiro,"
-          },
-          {
-            "chords": "           A     E           A",
-            "lyrics": "Teu Nome, todos hão de confessar;"
-          },
-          {
-            "chords": "                          D ",
-            "lyrics": "Perante Ti,ó Santo e Verdadeiro,"
-          },
-          {
-            "chords": "         A    E           A",
-            "lyrics": "Todo o joelho há de se dobrar."
-          }
+        "text": [
+          "Grandioso és [A]Tu, ó divinal Cor[D]deiro,",
+          "Teu Nome, t[A]odos h[E]ão de confes[A]sar;",
+          "Perante Ti,ó Santo e Verda[D]deiro,",
+          "Todo o jo[A]elho [E]há de se dob[A]rar."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Supremo",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " D",
-            "lyrics": "Cristo Supremo, do céu veio_ao mundo"
-          },
-          {
-            "chords": "A                          D",
-            "lyrics": "E trouxe graça, virtude e paz;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Deu vida_aos mortos, curou os enfermos,"
-          },
-          {
-            "chords": " E                     A    A7 ",
-            "lyrics": "Manifestando poder eficaz."
-          }
+        "text": [
+          "C[D]risto Supremo, do céu veio_ao mundo",
+          "[A]E trouxe graça, virtude e p[D]az;",
+          "Deu vida_aos mortos, curou os enfermos,",
+          "M[E]anifestando poder efic[A]az.[A7]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D            A          D",
-            "lyrics": "Foi sempre_humilde e obediente         "
-          },
-          {
-            "chords": "      E                  A    A7 ",
-            "lyrics": "Até a morte, Jesus, o Senhor;"
-          },
-          {
-            "chords": "D       A                 D",
-            "lyrics": "Ressuscitou por justiça divina"
-          },
-          {
-            "chords": "E                A7      D",
-            "lyrics": "E é, no céu, o fiel Mediador."
-          }
+        "text": [
+          "[D]Foi sempre_hu[A]milde e obe[D]diente         ",
+          "Até a [E]morte, Jesus, o Sen[A]hor;[A7]",
+          "[D]Ressusci[A]tou por justiça di[D]vina",
+          "[E]E é, no céu, o fi[A7]el Media[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D",
-            "lyrics": "Era_inocente, mas foi condenado"
-          },
-          {
-            "chords": "A                           D",
-            "lyrics": "Ao sacrifício da cruz e da dor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Não defendeu-Se, manteve-Se_humilde;"
-          },
-          {
-            "chords": " E                        A    A7 ",
-            "lyrics": "Cálice_amargo provou o Senhor."
-          }
+        "text": [
+          "E[D]ra_inocente, mas foi condenado",
+          "[A]Ao sacrifício da cruz e da d[D]or;",
+          "Não defendeu-Se, manteve-Se_humilde;",
+          "C[E]álice_amargo provou o Sen[A]hor.[A7]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Já despontava o dia terceiro,"
-          },
-          {
-            "chords": " A                         D",
-            "lyrics": "Quando o Mestre à vida voltou."
-          },
-          {
-            "chords": "",
-            "lyrics": "Apresentou-Se aos Seus seguidores,"
-          },
-          {
-            "chords": " E                        A    A7 ",
-            "lyrics": "Deu-lhes a paz e os abençoou."
-          }
+        "text": [
+          "[D]Já despontava o dia terceiro,",
+          "Q[A]uando o Mestre à vida volt[D]ou.",
+          "Apresentou-Se aos Seus seguidores,",
+          "D[E]eu-lhes a paz e os abenço[A]ou.[A7]"
         ]
       },
       {
@@ -103,23 +55,11 @@
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D      A           D",
-            "lyrics": "Foi elevado o Rei eterno"
-          },
-          {
-            "chords": "       E                   A    A7 ",
-            "lyrics": "E assentou-Se à destra de Deus;"
-          },
-          {
-            "chords": "D           A                D",
-            "lyrics": "Com grande glória será Seu retorno"
-          },
-          {
-            "chords": "E              A7          D",
-            "lyrics": "Para levar os eleitos aos céus."
-          }
+        "text": [
+          "[D]Foi ele[A]vado o Rei e[D]terno",
+          "E assen[E]tou-Se à destra de D[A]eus;[A7]",
+          "[D]Com grande g[A]lória será Seu re[D]torno",
+          "[E]Para levar os e[A7]leitos aos c[D]éus."
         ]
       }
     ]

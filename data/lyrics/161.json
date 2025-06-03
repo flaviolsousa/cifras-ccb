@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo quer salvar",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  A         D         A",
-            "lyrics": "O Evangelho vamos anunciar,"
-          },
-          {
-            "chords": "     E                     A",
-            "lyrics": "Pois Cristo quer salvar e quer justificar;"
-          },
-          {
-            "chords": "                   D           A",
-            "lyrics": "Verteu na cruz Seu sangue_expiador"
-          },
-          {
-            "chords": "  D     E    A",
-            "lyrics": "O justo Redentor."
-          }
+        "text": [
+          "O [A]Evangelho [D]vamos anun[A]ciar,",
+          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
+          "Verteu na cruz Seu [D]sangue_expia[A]dor",
+          "O [D]justo [E]Reden[A]tor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   E                  A",
-            "lyrics": "Em Cristo há perdão, eterna salvação,"
-          },
-          {
-            "chords": "  B7            E7 ",
-            "lyrics": "É Ele a celeste Luz;"
-          },
-          {
-            "chords": "A             D          A",
-            "lyrics": "É, do mundo,_eterna Redenção;"
-          },
-          {
-            "chords": "   D      E      A",
-            "lyrics": "Só Ele_ao céu conduz."
-          }
+        "text": [
+          "Em [E]Cristo há perdão, e[A]terna salvação,",
+          "É [B7]Ele a celeste [E7]Luz;",
+          "[A]É, do mundo,_e[D]terna Reden[A]ção;",
+          "Só [D]Ele_ao [E]céu con[A]duz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  A         D           A",
-            "lyrics": "O Evangelho vamos proclamar,"
-          },
-          {
-            "chords": "     E                     A",
-            "lyrics": "Pois Cristo quer salvar e quer justificar;"
-          },
-          {
-            "chords": "                      D        A",
-            "lyrics": "Mui breve,_em nuvens, Ele voltará"
-          },
-          {
-            "chords": "    D      E     A",
-            "lyrics": "E_o prêmio nos dará."
-          }
+        "text": [
+          "O [A]Evangelho [D]vamos procla[A]mar,",
+          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
+          "Mui breve,_em nuvens, [D]Ele volta[A]rá",
+          "E_o [D]prêmio [E]nos da[A]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   A         D           A",
-            "lyrics": "Do Evangelho temos que falar,"
-          },
-          {
-            "chords": "     E                     A",
-            "lyrics": "Pois Cristo quer salvar e quer justificar;"
-          },
-          {
-            "chords": "                D          A",
-            "lyrics": "Por essa graça, damos o louvor"
-          },
-          {
-            "chords": "  D       E   A",
-            "lyrics": "A Deus, o Criador."
-          }
+        "text": [
+          "Do [A]Evangelho [D]temos que fa[A]lar,",
+          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
+          "Por essa graça, [D]damos o lou[A]vor",
+          "A [D]Deus, o [E]Cria[A]dor."
         ]
       },
       {

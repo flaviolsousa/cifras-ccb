@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó meninos, estamos reunidos",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    C            F  C",
-            "lyrics": "Ó meninos, nós esta-mos"
-          },
-          {
-            "chords": "                       G",
-            "lyrics": "Reunidos ante_o bom Pastor;"
-          },
-          {
-            "chords": "    C         F  C",
-            "lyrics": "Ansiosos, espera-mos"
-          },
-          {
-            "chords": "               G   C",
-            "lyrics": "Seus conselhos de amor."
-          }
+        "text": [
+          "Ó me[C]ninos, nós es[F]ta-[C]mos",
+          "Reunidos ante_o bom Pas[G]tor;",
+          "Ansi[C]osos, espe[F]ra-[C]mos",
+          "Seus conselhos [G]de a[C]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      C     C7    F",
-            "lyrics": "Nós estamos na presença"
-          },
-          {
-            "chords": "     C                  G",
-            "lyrics": "Do veraz, fiel e bom Pastor,"
-          },
-          {
-            "chords": "      C          F   C",
-            "lyrics": "Desfrutando Suas bênçãos"
-          },
-          {
-            "chords": "              G    C",
-            "lyrics": "Que provêm do Seu amor."
-          }
+        "text": [
+          "Nós es[C]tamos [C7]na pre[F]sença",
+          "Do ve[C]raz, fiel e bom Pas[G]tor,",
+          "Desfru[C]tando Suas [F]bênç[C]ãos",
+          "Que provêm do [G]Seu a[C]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    C          F  C",
-            "lyrics": "Ó meninos, atenda-mos"
-          },
-          {
-            "chords": "                     G",
-            "lyrics": "A Jesus, divino Salvador,"
-          },
-          {
-            "chords": "        C            F  C",
-            "lyrics": "Pois é d´Ele que_espera-mos"
-          },
-          {
-            "chords": "            G   C",
-            "lyrics": "A virtude_e o vigor."
-          }
+        "text": [
+          "Ó me[C]ninos, aten[F]da-[C]mos",
+          "A Jesus, divino Salva[G]dor,",
+          "Pois é d[C]´Ele que_espe[F]ra-[C]mos",
+          "A virtude_e [G]o vi[C]gor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C             F  C",
-            "lyrics": "Ó meninos, com firme-za"
-          },
-          {
-            "chords": "                        G",
-            "lyrics": "Nós devemos sempre caminhar;"
-          },
-          {
-            "chords": "   C          F  C",
-            "lyrics": "É eterna a rique-za"
-          },
-          {
-            "chords": "              G    C",
-            "lyrics": "Que Jesus nos veio dar."
-          }
+        "text": [
+          "Ó me[C]ninos, com fir[F]me-[C]za",
+          "Nós devemos sempre camin[G]har;",
+          "É e[C]terna a riq[F]ue-[C]za",
+          "Que Jesus nos [G]veio [C]dar."
         ]
       },
       {

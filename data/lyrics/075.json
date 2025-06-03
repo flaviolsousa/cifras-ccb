@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem a Jesus, ó alma errante",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A              E      A",
-            "lyrics": "Vem a Jesus, ó alma errante,"
-          },
-          {
-            "chords": "F#m     B7      E ",
-            "lyrics": "Ele_é_o Sumo Pastor;"
-          },
-          {
-            "chords": "E7         A    F#7       B7 ",
-            "lyrics": "N´Ele_acharás a graça_abundante,"
-          },
-          {
-            "chords": "  E        A",
-            "lyrics": "A vida, o_amor."
-          }
+        "text": [
+          "[A]Vem a Jesus, ó [E]alma er[A]rante,",
+          "[F#m]Ele_é_o [B7]Sumo Pas[E]tor;",
+          "[E7]N´Ele_achar[A]ás a [F#7]graça_abun[B7]dante,",
+          "A [E]vida, o_a[A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A              E       A",
-            "lyrics": "Vem a Jesus, ó alma cansada"
-          },
-          {
-            "chords": "F#m  B7         E ",
-            "lyrics": "Do pecado_e da dor;"
-          },
-          {
-            "chords": "E7        A      F#7     B7 ",
-            "lyrics": "Sempre serás por Ele_amparada,"
-          },
-          {
-            "chords": "     E        A",
-            "lyrics": "Oh! Vem ao Senhor."
-          }
+        "text": [
+          "[A]Vem a Jesus, ó [E]alma can[A]sada",
+          "[F#m]Do pe[B7]cado_e da d[E]or;",
+          "[E7]Sempre ser[A]ás por [F#7]Ele_ampa[B7]rada,",
+          "Oh! V[E]em ao Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A              E      A",
-            "lyrics": "Vem a Jesus, ó alma aflita,"
-          },
-          {
-            "chords": "F#m     B7        E ",
-            "lyrics": "Vem aos pés do Senhor;"
-          },
-          {
-            "chords": "E7     A    F#7     B7 ",
-            "lyrics": "Receberás a paz infinita"
-          },
-          {
-            "chords": "    E         A",
-            "lyrics": "De Deus, Criador."
-          }
+        "text": [
+          "[A]Vem a Jesus, ó [E]alma af[A]lita,",
+          "[F#m]Vem aos [B7]pés do Sen[E]hor;",
+          "[E7]Receber[A]ás a [F#7]paz infi[B7]nita",
+          "De D[E]eus, Criad[A]or."
         ]
       }
     ]

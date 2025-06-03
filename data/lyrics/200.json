@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Não se turbe o vosso coração\"",
   "tone": {
     "recommended": "A"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        A             D   E7      A",
-            "lyrics": "“Não se turbe_o vosso coração”, assim falou Jesus,"
-          },
-          {
-            "chords": "                    B7            E    E7 ",
-            "lyrics": "Nosso Mestre, que à glória nos conduz."
-          },
-          {
-            "chords": "     A           D     E7   A  ",
-            "lyrics": "Pela fé no Pai celeste caminhemos para_os céus,"
-          },
-          {
-            "chords": "      D              E7             A",
-            "lyrics": "Lar sublime,_indescritível, do bom Deus."
-          }
+        "text": [
+          "“Não se [A]turbe_o vosso [D]cora[E7]ção”, as[A]sim falou Jesus,",
+          "Nosso Mestre, que à [B7]glória nos con[E]duz.[E7]",
+          "Pela [A]fé no Pai ce[D]leste [E7]camin[A]hemos para_os céus,",
+          "Lar su[D]blime,_indescri[E7]tível, do bom D[A]eus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    E7                 A",
-            "lyrics": "Mui breve Jesus retornará,"
-          },
-          {
-            "chords": "                           E    E7 ",
-            "lyrics": "Com glória, em nuvens voltará;"
-          },
-          {
-            "chords": "     A",
-            "lyrics": "Majestoso surgirá,"
-          },
-          {
-            "chords": "       D                       A",
-            "lyrics": "Para_o céu conduzirá os Seus fiéis"
-          },
-          {
-            "chords": "      E7         A",
-            "lyrics": "E_a coroa lhes dará."
-          }
+        "text": [
+          "Mui [E7]breve Jesus retorna[A]rá,",
+          "Com glória, em nuvens volta[E]rá;[E7]",
+          "Majes[A]toso surgirá,",
+          "Para_o [D]céu conduzirá os Seus fi[A]éis",
+          "E_a co[E7]roa lhes da[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A         D       E7     A",
-            "lyrics": "Não temamos, ó eleitos, pois o Pai se agradou"
-          },
-          {
-            "chords": "                   B7           E    E7 ",
-            "lyrics": "Em nos dar o reino que_Ele preparou;"
-          },
-          {
-            "chords": "       A        D     E7   A",
-            "lyrics": "Por bondade infinita, por afeto paternal,"
-          },
-          {
-            "chords": "       D        E7         A",
-            "lyrics": "Nos concederá o prêmio eternal."
-          }
+        "text": [
+          "Não te[A]mamos, ó e[D]leitos, [E7]pois o [A]Pai se agradou",
+          "Em nos dar o reino [B7]que_Ele prepa[E]rou;[E7]",
+          "Por bon[A]dade infi[D]nita, [E7]por a[A]feto paternal,",
+          "Nos con[D]cederá o [E7]prêmio eter[A]nal."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A         D      E7    A",
-            "lyrics": "Aguardemos, ó amados, com real consagração,"
-          },
-          {
-            "chords": "                 B7       E    E7 ",
-            "lyrics": "De Jesus, a gloriosa_aparição;"
-          },
-          {
-            "chords": "      A        D     E7   A",
-            "lyrics": "Com a lâmpada acesa, Ele quer nos encontrar"
-          },
-          {
-            "chords": "         D                E7            A",
-            "lyrics": "Para,_ao reino_eterno,_em glória, nos levar."
-          }
+        "text": [
+          "Aguar[A]demos, ó a[D]mados, [E7]com re[A]al consagração,",
+          "De Jesus, a glori[B7]osa_apari[E]ção;[E7]",
+          "Com a [A]lâmpada a[D]cesa, [E7]Ele q[A]uer nos encontrar",
+          "Para,_ao [D]reino_eterno,_em [E7]glória, nos le[A]var."
         ]
       },
       {

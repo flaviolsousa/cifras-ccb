@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Quanto é bom o Redentor!",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      B",
-            "lyrics": "O bom Deus, Criador, a Seu Filho_enviou,"
-          },
-          {
-            "chords": "  E                 B",
-            "lyrics": "A fim de nos dar a eterna redenção;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pelos nossos pecados Jesus suportou"
-          },
-          {
-            "chords": "E        B             F#            B",
-            "lyrics": "Morte de cruz, que nos trouxe_a salvação."
-          }
+        "text": [
+          "O bom [B]Deus, Criador, a Seu Filho_enviou,",
+          "A [E]fim de nos dar a e[B]terna redenção;",
+          "Pelos nossos pecados Jesus suportou",
+          "[E]Morte de [B]cruz, que nos [F#]trouxe_a salva[B]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    B                         E ",
-            "lyrics": "Oh! Quanto_é bom o nosso Redentor!"
-          },
-          {
-            "chords": "C#                           F# ",
-            "lyrics": "Sobre_a cruz, por nós a vida deu"
-          },
-          {
-            "chords": "B                     E ",
-            "lyrics": "E lavou-nos pelo Seu amor;"
-          },
-          {
-            "chords": "       B          F#            B",
-            "lyrics": "Justificou-nos no sangue que verteu."
-          }
+        "text": [
+          "Oh! [B]Quanto_é bom o nosso Reden[E]tor!",
+          "[C#]Sobre_a cruz, por nós a vida [F#]deu",
+          "[B]E lavou-nos pelo Seu a[E]mor;",
+          "Justifi[B]cou-nos no [F#]sangue que ver[B]teu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    B",
-            "lyrics": "O pecado, em todos, a morte gerou;"
-          },
-          {
-            "chords": "   E                   B",
-            "lyrics": "Ninguém desse mal se podia libertar;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Sobre_a morte, o Filho de Deus triunfou"
-          },
-          {
-            "chords": "E       B        F#         B",
-            "lyrics": "E ressurgiu para nos justificar."
-          }
+        "text": [
+          "O pe[B]cado, em todos, a morte gerou;",
+          "Nin[E]guém desse mal se po[B]dia libertar;",
+          "Sobre_a morte, o Filho de Deus triunfou",
+          "[E]E ressur[B]giu para [F#]nos justifi[B]car."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       B",
-            "lyrics": "Cristo triunfalmente subiu para_os céus,"
-          },
-          {
-            "chords": "    E                B",
-            "lyrics": "E_assim voltará, Soberano e Senhor."
-          },
-          {
-            "chords": "",
-            "lyrics": "Levará para_a glória os filhos de Deus"
-          },
-          {
-            "chords": "E        B        F#             B",
-            "lyrics": "E lhes dará o Seu reino de_esplendor."
-          }
+        "text": [
+          "Cristo [B]triunfalmente subiu para_os céus,",
+          "E_as[E]sim voltará, Sobe[B]rano e Senhor.",
+          "Levará para_a glória os filhos de Deus",
+          "[E]E lhes da[B]rá o Seu [F#]reino de_esplen[B]dor."
         ]
       },
       {

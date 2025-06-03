@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Senhor é o meu Pastor",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G             D     G    C         G        D",
-            "lyrics": "O Senhor é_o meu Pastor, nada deixará me faltar;"
-          },
-          {
-            "chords": "G          C        G                 D        G",
-            "lyrics": "Com a Sua mansidão, em verdes pastos faz-me_andar;"
-          },
-          {
-            "chords": "            D        B7    Em    A      D",
-            "lyrics": "Refrigério, fé e paz minha alma n´Ele_achou;"
-          },
-          {
-            "chords": "G     D     G    C      G       D                G",
-            "lyrics": "Nas veredas celestiais, os meus passos Jesus firmou."
-          }
+        "text": [
+          "[G]O Senhor é_o m[D]eu Pas[G]tor, [C]nada deixa[G]rá me fal[D]tar;",
+          "[G]Com a Sua m[C]ansidão, [G]em verdes pastos f[D]az-me_and[G]ar;",
+          "Refrigério, [D]fé e paz [B7]minha [Em]alma n[A]´Ele_ac[D]hou;",
+          "[G]Nas ve[D]redas [G]celes[C]tiais, [G]os meus [D]passos Jesus firm[G]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G              D    G   C         G            D",
-            "lyrics": "Se_eu tivesse que andar pelo vale da morte,_ó Deus,"
-          },
-          {
-            "chords": "G          C           G                   D      G",
-            "lyrics": "Eu não temeria_o mal, porquanto_estou nos braços Teus;"
-          },
-          {
-            "chords": "          D         B7    Em       A    D",
-            "lyrics": "Tua vara, ó Senhor, me conserva_em retidão,"
-          },
-          {
-            "chords": " G    D    G   C    G       D              G",
-            "lyrics": "Teu cajado divinal traz conforto_e consolação."
-          }
+        "text": [
+          "[G]Se_eu tivesse q[D]ue an[G]dar [C]pelo vale [G]da morte,_ó D[D]eus,",
+          "[G]Eu não teme[C]ria_o mal, p[G]orquanto_estou nos b[D]raços T[G]eus;",
+          "Tua vara, [D]ó Senhor, [B7]me con[Em]serva_em [A]retid[D]ão,",
+          "T[G]eu ca[D]jado [G]divi[C]nal t[G]raz conf[D]orto_e consolaç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G         D    G   C             G         D ",
-            "lyrics": "Uma mesa para mim, ó Senhor, Tu vens preparar;"
-          },
-          {
-            "chords": " G            C             G                D      G",
-            "lyrics": "Com Teu óleo vens me_ungir, fazes meu cálix transbordar;"
-          },
-          {
-            "chords": "           D       B7    Em     A     D",
-            "lyrics": "A bondade, a mercê sobre mim contemplarei;"
-          },
-          {
-            "chords": "G     D     G       C    G    D            G",
-            "lyrics": "Nas moradas do meu Deus para sempre habitarei."
-          }
+        "text": [
+          "[G]Uma mesa p[D]ara m[G]im, [C]ó Senhor, Tu v[G]ens prepar[D]ar;",
+          "C[G]om Teu óleo v[C]ens me_ungir, [G]fazes meu cálix t[D]ransbor[G]dar;",
+          "A bondade, [D]a mercê [B7]sobre [Em]mim con[A]templa[D]rei;",
+          "[G]Nas mo[D]radas [G]do meu D[C]eus p[G]ara s[D]empre habitar[G]ei."
         ]
       }
     ]

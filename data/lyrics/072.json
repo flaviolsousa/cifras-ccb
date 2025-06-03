@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Nome glorioso, o de Jesus!",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " A               D     A",
-            "lyrics": "Nome glorioso, o de Jesus,"
-          },
-          {
-            "chords": "                          E",
-            "lyrics": "Nome precioso, de_imenso_amor,"
-          },
-          {
-            "chords": " A               D    A",
-            "lyrics": "Nome perfeito e sem igual,"
-          },
-          {
-            "chords": "    E4          A",
-            "lyrics": "Que salva_o pecador!"
-          }
+        "text": [
+          "N[A]ome glorioso, o [D]de Jes[A]us,",
+          "Nome precioso, de_imenso_a[E]mor,",
+          "N[A]ome perfeito e s[D]em ig[A]ual,",
+          "Que [E4]salva_o peca[A]dor!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   D          A",
-            "lyrics": "Ao Nome do Senhor Jesus,"
-          },
-          {
-            "chords": "   F#m        E ",
-            "lyrics": "Ao Nome santo de Jesus,"
-          },
-          {
-            "chords": " A               D    A",
-            "lyrics": "Todo_o joelho se dobrará"
-          },
-          {
-            "chords": "  E4  E   A",
-            "lyrics": "E O  adorará."
-          }
+        "text": [
+          "Ao [D]Nome do Sen[A]hor Jesus,",
+          "Ao [F#m]Nome santo [E]de Jesus,",
+          "T[A]odo_o joelho se [D]dobra[A]rá",
+          "E [E4]O  a[E]dora[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " A              D     A",
-            "lyrics": "Nome sublime, o de Jesus,"
-          },
-          {
-            "chords": "                    E",
-            "lyrics": "Fonte de vida e de amor;"
-          },
-          {
-            "chords": "A                 D    A",
-            "lyrics": "Outro não há para resgatar"
-          },
-          {
-            "chords": "   E4    E   A",
-            "lyrics": "Ao homem pecador."
-          }
+        "text": [
+          "N[A]ome sublime, o [D]de Jes[A]us,",
+          "Fonte de vida e de a[E]mor;",
+          "[A]Outro não há para [D]resga[A]tar",
+          "Ao [E4]homem [E]peca[A]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " A                D     A",
-            "lyrics": "Nome grandioso, o de Jesus,"
-          },
-          {
-            "chords": "                       E",
-            "lyrics": "Forte, potente, libertador;"
-          },
-          {
-            "chords": "A                   D      A",
-            "lyrics": "Por esse Nome, que não tem par,"
-          },
-          {
-            "chords": "     E4      E   A",
-            "lyrics": "Deus salva_o pecador."
-          }
+        "text": [
+          "N[A]ome grandioso, o [D]de Jes[A]us,",
+          "Forte, potente, liberta[E]dor;",
+          "[A]Por esse Nome, que n[D]ão tem [A]par,",
+          "Deus [E4]salva_o [E]peca[A]dor."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Firme nas mãos de Cristo",
   "tone": {
     "recommended": "G"
@@ -9,80 +9,38 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                                       D ",
-            "lyrics": "Firme nas mãos de Cristo, firme no Salvador,"
-          },
-          {
-            "chords": "G                    G7  C           D    G",
-            "lyrics": "Minh´alma já se_encontra abrigada_em Seu amor."
-          },
-          {
-            "chords": "D                  A7                  D    ",
-            "lyrics": "Sinto a voz divina de Cristo,_o Rei da glória;"
-          },
-          {
-            "chords": "              G       A7           D    D7...  ",
-            "lyrics": "Em todas as batalhas, alcançarei vitó - ria."
-          }
+        "text": [
+          "[G]Firme nas mãos de Cristo, firme no Salva[D]dor,",
+          "[G]Minh´alma já se_encon[G7]tra [C]abrigada_em [D]Seu a[G]mor.",
+          "[D]Sinto a voz divina [A7]de Cristo,_o Rei da [D]glória;",
+          "Em todas as ba[G]talhas, [A7]alcançarei vi[D]tó - [D7...]ria."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                                            D ",
-            "lyrics": "Firme nas mãos de Cristo, em paz minh´alma_está;"
-          },
-          {
-            "chords": "G            G7  C           D   G",
-            "lyrics": "Sobre o inimigo, pela fé, triunfará."
-          },
-          {
-            "chords": "D                    A7             D     ",
-            "lyrics": "Forte serei na luta, na dor e na tormenta,"
-          },
-          {
-            "chords": "                    G       A7                D     D7... ",
-            "lyrics": "Prossigo_avante,_em glória, pois Cristo me susten - ta."
-          }
+        "text": [
+          "[G]Firme nas mãos de Cristo, em paz minh´alma_es[D]tá;",
+          "[G]Sobre o inimi[G7]go, [C]pela fé, tri[D]unfa[G]rá.",
+          "[D]Forte serei na luta, [A7]na dor e na tor[D]menta,",
+          "Prossigo_avante,_em [G]glória, [A7]pois Cristo me sus[D]ten - [D7...]ta."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                                         D ",
-            "lyrics": "Firme nas mãos de Cristo, que padeceu por mim,"
-          },
-          {
-            "chords": "G                     G7   C           D      G",
-            "lyrics": "Sigo, por fé, Seus passos, glória eu terei ao fim;"
-          },
-          {
-            "chords": "D                     A7                D     ",
-            "lyrics": "Espero com paciência, pois não é tempo_ainda;"
-          },
-          {
-            "chords": "                 G       A7             D     D7 ",
-            "lyrics": "Breve verei, nas nuvens, Cristo, em Sua vin - da."
-          }
+        "text": [
+          "[G]Firme nas mãos de Cristo, que padeceu por [D]mim,",
+          "[G]Sigo, por fé, Seus pas[G7]sos, [C]glória eu te[D]rei ao [G]fim;",
+          "[D]Espero com paciência, [A7]pois não é tempo_a[D]inda;",
+          "Breve verei, nas [G]nuvens, [A7]Cristo, em Sua [D]vin - [D7]da."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G                                       D ",
-            "lyrics": "Firme nas mãos de Cristo, firme no Salvador,"
-          },
-          {
-            "chords": "G                    G7   C           D    G",
-            "lyrics": "Minh´alma já se_encontra, abrigada_em Seu amor."
-          }
+        "text": [
+          "[G]Firme nas mãos de Cristo, firme no Salva[D]dor,",
+          "[G]Minh´alma já se_encon[G7]tra, [C]abrigada_em [D]Seu a[G]mor."
         ]
       }
     ]

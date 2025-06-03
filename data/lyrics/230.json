@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Ti rendemos graças",
   "tone": {
     "recommended": "G"
@@ -9,55 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G           D7                    G",
-            "lyrics": "A Ti rendemos graças, majestoso Criador,"
-          },
-          {
-            "chords": "                                    D  Em   A    D",
-            "lyrics": "Findando este culto de louvor a Ti, ó  Deus Formador;"
-          },
-          {
-            "chords": "   G             D7              G   C   D          G",
-            "lyrics": "As nossas forças foram renovadas por Teu bom Consolador."
-          }
+        "text": [
+          "A [G]Ti rendemos [D7]graças, majestoso Cria[G]dor,",
+          "Findando este culto de louvor a Ti, [D]ó  [Em]Deus [A]Forma[D]dor;",
+          "As [G]nossas forças [D7]foram renovadas [G]por [C]Teu [D]bom Consola[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G             D7                  G",
-            "lyrics": "Senhor, com Tua_ajuda, desejamos atender"
-          },
-          {
-            "chords": "                                      D  Em  A    D",
-            "lyrics": "A tudo_o que, por Tua sã Palavra, nos fi-zes-te saber,"
-          },
-          {
-            "chords": "     G             D7                G  C   D             G",
-            "lyrics": "Pois nós queremos, sobre esta terra, sempre mais resplandecer."
-          }
+        "text": [
+          "Sen[G]hor, com Tua_a[D7]juda, desejamos aten[G]der",
+          "A tudo_o que, por Tua sã Palavra, nos [D]fi-[Em]zes-[A]te sa[D]ber,",
+          "Pois [G]nós queremos, [D7]sobre esta terra, [G]sem[C]pre [D]mais resplande[G]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G          D7                    G",
-            "lyrics": "Despede-os em paz da Tua casa, ó Senhor,"
-          },
-          {
-            "chords": "                                         D   Em  A   D",
-            "lyrics": "Levando_em nossos corações as bênçãos do Teu grande amor;"
-          },
-          {
-            "chords": " G          D7                G  C   D           G",
-            "lyrics": "Agradecido, nós Te tributamos honra, glória e louvor."
-          }
+        "text": [
+          "Des[G]pede-os em [D7]paz da Tua casa, ó Sen[G]hor,",
+          "Levando_em nossos corações as bênçãos do [D]Teu [Em]gran[A]de a[D]mor;",
+          "A[G]gradecido, [D7]nós Te tributamos [G]hon[C]ra, [D]glória e lou[G]vor."
         ]
       }
     ]

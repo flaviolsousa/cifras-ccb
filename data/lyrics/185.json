@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Deus mandou Sua Luz",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                        D ",
-            "lyrics": "Deus mandou ao mundo Sua Luz brilhar"
-          },
-          {
-            "chords": "                      G",
-            "lyrics": "E as trevas do pecado dissipar,"
-          },
-          {
-            "chords": "                    C ",
-            "lyrics": "Anunciando a eterna salvação,"
-          },
-          {
-            "chords": "G          D     G",
-            "lyrics": "Paz divina e perdão."
-          }
+        "text": [
+          "[G]Deus mandou ao mundo Sua [D]Luz brilhar",
+          "E as trevas do pecado [G]dissipar,",
+          "Anunciando a eterna [C]salvação,",
+          "[G]Paz divina [D]e perd[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                    D ",
-            "lyrics": "O Sol da justiça Sua luz raiou,"
-          },
-          {
-            "chords": "                          G",
-            "lyrics": "E o ermo_em terra fértil transformou;"
-          },
-          {
-            "chords": "                          C ",
-            "lyrics": "Todo_aquele que_aceitar a Luz dos céus,"
-          },
-          {
-            "chords": "G          D      G",
-            "lyrics": "O perdão terá de Deus."
-          }
+        "text": [
+          "[G]O Sol da justiça Sua [D]luz raiou,",
+          "E o ermo_em terra fértil t[G]ransformou;",
+          "Todo_aquele que_aceitar a [C]Luz dos céus,",
+          "[G]O perdão te[D]rá de D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                        D ",
-            "lyrics": "Temos em Jesus a luz que não tem par,"
-          },
-          {
-            "chords": "                             G",
-            "lyrics": "Luz que brilha sem jamais se apagar,"
-          },
-          {
-            "chords": "                          C ",
-            "lyrics": "Sol que nunca cessa de resplandecer"
-          },
-          {
-            "chords": "G             D       G",
-            "lyrics": "Sobre quem em Cristo crer."
-          }
+        "text": [
+          "[G]Temos em Jesus a luz que [D]não tem par,",
+          "Luz que brilha sem jamais se [G]apagar,",
+          "Sol que nunca cessa de res[C]plandecer",
+          "[G]Sobre quem em [D]Cristo c[G]rer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G                  D ",
-            "lyrics": "Brilha essa Luz em mim,"
-          },
-          {
-            "chords": "                    G",
-            "lyrics": "Desde que_aceitei Jesus;"
-          },
-          {
-            "chords": "                    C  ",
-            "lyrics": "Essa Luz iluminou o meu viver"
-          },
-          {
-            "chords": "G           D     G",
-            "lyrics": "E me faz resplandecer."
-          }
+        "text": [
+          "[G]Brilha essa Luz em [D]mim,",
+          "Desde que_aceitei Je[G]sus;",
+          "Essa Luz iluminou o [C]meu viver",
+          "[G]E me faz res[D]plande[G]cer."
         ]
       }
     ]

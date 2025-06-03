@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Na cidade santa",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                   F ",
-            "lyrics": "Na cidade santa do eterno Deus,"
-          },
-          {
-            "chords": "G                     C",
-            "lyrics": "Pecador não poderá entrar;"
-          },
-          {
-            "chords": "                       F ",
-            "lyrics": "Lá só entrarão os escolhidos Seus"
-          },
-          {
-            "chords": "G                          C",
-            "lyrics": "Para_os bens eternos desfrutar."
-          }
+        "text": [
+          "[C]Na cidade santa do e[F]terno Deus,",
+          "[G]Pecador não poderá ent[C]rar;",
+          "Lá só entrarão os escol[F]hidos Seus",
+          "[G]Para_os bens eternos desfru[C]tar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                         F    D7 ",
-            "lyrics": "Na cidade santa, por Deus preparada,"
-          },
-          {
-            "chords": "G                     C ",
-            "lyrics": "Um repouso_eterno o fiel terá;"
-          },
-          {
-            "chords": "                           F   D7 ",
-            "lyrics": "De_eternais riquezas ela_é adornada"
-          },
-          {
-            "chords": "G                        C",
-            "lyrics": "E seu brilho não se_apagará."
-          }
+        "text": [
+          "[C]Na cidade santa, por Deus [F]prepa[D7]rada,",
+          "[G]Um repouso_eterno o fi[C]el terá;",
+          "De_eternais riquezas ela_é [F]ador[D7]nada",
+          "[G]E seu brilho não se_apaga[C]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                  F ",
-            "lyrics": "A cidade santa do eterno Rei"
-          },
-          {
-            "chords": "G                       C",
-            "lyrics": "É de_incomparável esplendor;"
-          },
-          {
-            "chords": "                        F ",
-            "lyrics": "Nela_habitará quem caminhar na lei,"
-          },
-          {
-            "chords": "G                       C",
-            "lyrics": "Na perfeita lei do Redentor."
-          }
+        "text": [
+          "[C]A cidade santa do e[F]terno Rei",
+          "[G]É de_incomparável esplen[C]dor;",
+          "Nela_habitará quem camin[F]har na lei,",
+          "[G]Na perfeita lei do Reden[C]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " C                    F ",
-            "lyrics": "Grande alegria, ao entrarmos lá,"
-          },
-          {
-            "chords": "G                    C",
-            "lyrics": "Sentirá o nosso coração;"
-          },
-          {
-            "chords": "                        F ",
-            "lyrics": "Toda a tristeza_aqui se deixará,"
-          },
-          {
-            "chords": "G                       C",
-            "lyrics": "Todos os combates cessarão."
-          }
+        "text": [
+          "G[C]rande alegria, ao ent[F]rarmos lá,",
+          "[G]Sentirá o nosso coraç[C]ão;",
+          "Toda a tristeza_aqui se [F]deixará,",
+          "[G]Todos os combates cessar[C]ão."
         ]
       },
       {

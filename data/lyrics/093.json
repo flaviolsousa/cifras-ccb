@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Aceitando ao Senhor...",
   "tone": {
     "recommended": "A"
@@ -9,55 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A                          E            A",
-            "lyrics": "O Senhor Jesus te chama, só por Ele tens perdão;"
-          },
-          {
-            "chords": "      E            A            E          A",
-            "lyrics": "Quer doar-te nova vida, dar-te paz ao coração;"
-          },
-          {
-            "chords": "                             E        A",
-            "lyrics": "Aceitando ao Senhor, tem perdão o pecador."
-          }
+        "text": [
+          "O Sen[A]hor Jesus te chama, só por [E]Ele tens perd[A]ão;",
+          "Quer d[E]oar-te nova v[A]ida, dar-te p[E]az ao coraç[A]ão;",
+          "Aceitando ao Senhor, tem perd[E]ão o peca[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A                       E         A",
-            "lyrics": "O pecado não impede que te chame com amor;"
-          },
-          {
-            "chords": "      E           A            E           A",
-            "lyrics": "Esquecer o teu passado quer Jesus, o Redentor;"
-          },
-          {
-            "chords": "                            E        A",
-            "lyrics": "Aceitando ao Senhor, tem favor o pecador."
-          }
+        "text": [
+          "O pe[A]cado não impede que te c[E]hame com a[A]mor;",
+          "Esquec[E]er o teu pas[A]sado quer Jes[E]us, o Redent[A]or;",
+          "Aceitando ao Senhor, tem fav[E]or o peca[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A                       E          A",
-            "lyrics": "Tudo está já preparado, só te resta obedecer;"
-          },
-          {
-            "chords": "       E          A           E            A",
-            "lyrics": "Não rejeites o chamado que Jesus vem te fazer;"
-          },
-          {
-            "chords": "                            E         A",
-            "lyrics": "Aceitando ao Senhor, tem a vida o pecador."
-          }
+        "text": [
+          "Tudo es[A]tá já preparado, só te r[E]esta obedec[A]er;",
+          "Não rej[E]eites o cha[A]mado que Jes[E]us vem te faz[A]er;",
+          "Aceitando ao Senhor, tem a v[E]ida o peca[A]dor."
         ]
       }
     ]

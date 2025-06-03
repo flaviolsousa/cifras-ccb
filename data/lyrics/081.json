@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A vida deu por ti",
   "tone": {
     "recommended": "C"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  C            F            C      G   C",
-            "lyrics": "A vida deu por ti Cristo Jesus, o Salvador;"
-          },
-          {
-            "chords": "                   F                G         C",
-            "lyrics": "Verteu por ti, na cruz, sangue precioso, expiador;"
-          },
-          {
-            "chords": "    G               C             G               C",
-            "lyrics": "Por ti, por ti, Sua vida deu; oh! dá-Lhe teu coração;"
-          },
-          {
-            "chords": "    G               C          G             C",
-            "lyrics": "Por ti, por ti, Sua vida deu e te dará salvação."
-          }
+        "text": [
+          "A [C]vida deu por [F]ti Cristo Jes[C]us, o S[G]alva[C]dor;",
+          "Verteu por ti, na c[F]ruz, sangue preci[G]oso, expia[C]dor;",
+          "Por [G]ti, por ti, Sua [C]vida deu; oh! [G]dá-Lhe teu coraç[C]ão;",
+          "Por [G]ti, por ti, Sua [C]vida deu e [G]te dará salvaç[C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  C          F            C      G     C",
-            "lyrics": "Coroa tão cruel, grande escárnio suportou;"
-          },
-          {
-            "chords": "               F               G                 C",
-            "lyrics": "Os cravos e o fel, por ti, na cruz, o Mestre provou;"
-          },
-          {
-            "chords": "   G              C              G             C",
-            "lyrics": "Tomou o cálix da dor por ti; as tuas culpas pagou;"
-          },
-          {
-            "chords": "   G              C              G             C",
-            "lyrics": "Tomou o cálix da dor por ti; da perdição te livrou."
-          }
+        "text": [
+          "Co[C]roa tão cru[F]el, grande es[C]cárnio [G]suport[C]ou;",
+          "Os cravos e o f[F]el, por ti, na c[G]ruz, o Mestre prov[C]ou;",
+          "Tom[G]ou o cálix da d[C]or por ti; as t[G]uas culpas pag[C]ou;",
+          "Tom[G]ou o cálix da d[C]or por ti; da p[G]erdição te liv[C]rou."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  C         F          C    G    C",
-            "lyrics": "À ordem divinal o Salvador obedeceu;"
-          },
-          {
-            "chords": "              F         G            C",
-            "lyrics": "Injúria sem igual e vitupério Ele sofreu;"
-          },
-          {
-            "chords": "    G                 C              G              C",
-            "lyrics": "Desceu da glória dos céus por ti; em Cristo há redenção."
-          },
-          {
-            "chords": "    G                 C               G                  C",
-            "lyrics": "Desceu da glória dos céus por ti; só n´Ele encontras perdão."
-          }
+        "text": [
+          "À [C]ordem divi[F]nal o Salva[C]dor o[G]bedec[C]eu;",
+          "Injúria sem ig[F]ual e vitu[G]pério Ele sof[C]reu;",
+          "Desc[G]eu da glória dos c[C]éus por ti; em [G]Cristo há reden[C]ção.",
+          "Desc[G]eu da glória dos c[C]éus por ti; só n[G]´Ele encontras perd[C]ão."
         ]
       }
     ]

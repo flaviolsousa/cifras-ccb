@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Aleluia! Aleluia!",
   "tone": {
     "recommended": "A"
@@ -9,39 +9,15 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A                 D        Bm",
-            "lyrics": "Aleluia!_Aleluia!_Aleluia!_Aleluia!"
-          },
-          {
-            "chords": "E4        E    A",
-            "lyrics": "Glória_ao Redentor!"
-          },
-          {
-            "chords": "                     D        Bm",
-            "lyrics": "Aleluia!_Aleluia!_Aleluia!_Aleluia!"
-          },
-          {
-            "chords": "E4        E    A",
-            "lyrics": "Glória_ao Redentor!"
-          },
-          {
-            "chords": "               E ",
-            "lyrics": "Glória_ao Redentor! Aleluia!"
-          },
-          {
-            "chords": "E7        A",
-            "lyrics": "Santo Remidor! Aleluia!"
-          },
-          {
-            "chords": "           D       Bm ",
-            "lyrics": "Nosso Salvador! Aleluia!"
-          },
-          {
-            "chords": "E4  E        A    A...",
-            "lyrics": "Glóaria_a Jesus!"
-          }
+        "text": [
+          "Ale[A]luia!_Aleluia!_Ale[D]luia!_Ale[Bm]luia!",
+          "[E4]Glória_ao [E]Reden[A]tor!",
+          "Aleluia!_Aleluia!_Ale[D]luia!_Ale[Bm]luia!",
+          "[E4]Glória_ao [E]Reden[A]tor!",
+          "Glória_ao Reden[E]tor! Aleluia!",
+          "[E7]Santo Remi[A]dor! Aleluia!",
+          "Nosso Salva[D]dor! Ale[Bm]luia!",
+          "[E4]Glóa[E]ria_a Jes[A]us![A...]"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Senhor Jesus te chama",
   "tone": {
     "recommended": "C"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                 G                            C",
-            "lyrics": "O Senhor Jesus te chama, com sublime_e grande amor;"
-          },
-          {
-            "chords": "                      G                       C",
-            "lyrics": "Nâo desprezes Quem te ama e quer ser teu Salvador."
-          }
+        "text": [
+          "[C]O Senhor Jesus te [G]chama, com sublime_e grande a[C]mor;",
+          "Nâo desprezes Quem te [G]ama e quer ser teu Salva[C]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                      G ",
-            "lyrics": "Deixa Cristo,_o Rei da glória,"
-          },
-          {
-            "chords": "                 C",
-            "lyrics": "Possuir teu coração,"
-          },
-          {
-            "chords": "E          F     C",
-            "lyrics": "Se desejas ter vitória"
-          },
-          {
-            "chords": "   G          C",
-            "lyrics": "E eterna salvação."
-          }
+        "text": [
+          "[C]Deixa Cristo,_o Rei da [G]glória,",
+          "Possuir teu coraç[C]ão,",
+          "[E]Se desejas [F]ter vi[C]tória",
+          "E e[G]terna salva[C]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                 G                     C",
-            "lyrics": "O prazer bem cedo finda neste mundo sedutor;"
-          },
-          {
-            "chords": "                    G                              C",
-            "lyrics": "Cristo quer, em Sua vinda, dar-te_o reino de_esplendor."
-          }
+        "text": [
+          "[C]O prazer bem cedo [G]finda neste mundo sedu[C]tor;",
+          "Cristo quer, em Sua [G]vinda, dar-te_o reino de_esplen[C]dor."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C              G                       C",
-            "lyrics": "Hoje_é dia aceitável, hoje_é dia de perdão;"
-          },
-          {
-            "chords": "               G                       C",
-            "lyrics": "Com amor inigualável, Cristo dá a salvação."
-          }
+        "text": [
+          "[C]Hoje_é dia acei[G]tável, hoje_é dia de per[C]dão;",
+          "Com amor inigua[G]lável, Cristo dá a salva[C]ção."
         ]
       },
       {

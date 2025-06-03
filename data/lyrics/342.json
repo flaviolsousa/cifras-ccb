@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sião celestial",
   "tone": {
     "recommended": "C"
@@ -9,93 +9,33 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  C",
-            "lyrics": "Sião celestial é repouso dos santos,"
-          },
-          {
-            "chords": "  F        D                   Em ",
-            "lyrics": "O Seu Arquiteto_é chamado_“o Senhor”;"
-          },
-          {
-            "chords": " C       G           C",
-            "lyrics": "Ali entrarão, com louvor e com cantos,"
-          },
-          {
-            "chords": " F           C       G       C",
-            "lyrics": "Aqueles que_adoram o bom Criador,"
-          },
-          {
-            "chords": "           F              C",
-            "lyrics": "De preciosidades está adornada por Deus,"
-          },
-          {
-            "chords": "  F       D                   G ",
-            "lyrics": "É indescritível, sem par, sua luz;"
-          },
-          {
-            "chords": "  C                           G            C",
-            "lyrics": "A sua grandeza,_o Senhor reservou para_os Seus;"
-          },
-          {
-            "chords": "  Am      G                  C",
-            "lyrics": "Reflete a glória de Cristo Jesus,"
-          },
-          {
-            "chords": "   G        C",
-            "lyrics": "De Cristo Jesus, de Cristo Jesus,"
-          },
-          {
-            "chords": "  Am      G                  C",
-            "lyrics": "Reflete a glória de Cristo Jesus."
-          }
+        "text": [
+          "Si[C]ão celestial é repouso dos santos,",
+          "O [F]Seu Arqui[D]teto_é chamado_“o Se[Em]nhor”;",
+          "A[C]li entra[G]rão, com lou[C]vor e com cantos,",
+          "A[F]queles que_a[C]doram o [G]bom Cria[C]dor,",
+          "De preciosi[F]dades está ador[C]nada por Deus,",
+          "É [F]indescri[D]tível, sem par, sua [G]luz;",
+          "A [C]sua grandeza,_o Senhor reser[G]vou para_os S[C]eus;",
+          "Re[Am]flete a [G]glória de Cristo Je[C]sus,",
+          "De [G]Cristo Je[C]sus, de Cristo Jesus,",
+          "Re[Am]flete a [G]glória de Cristo Je[C]sus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  C",
-            "lyrics": "Naquela morada há luz permanente,"
-          },
-          {
-            "chords": "  F         D                 Em ",
-            "lyrics": "A Lâmpada_é Cristo Jesus, o Senhor;"
-          },
-          {
-            "chords": "   C         G          C",
-            "lyrics": "Os seus fundamentos são pedras fulgentes;"
-          },
-          {
-            "chords": "  F        C      G         C",
-            "lyrics": "É mui majestoso o seu esplendor."
-          },
-          {
-            "chords": "            F                  C",
-            "lyrics": "Os santos remidos, com hino de glória triunfal,"
-          },
-          {
-            "chords": "  F          D                G ",
-            "lyrics": "Caminham com Cristo e lá reinarão."
-          },
-          {
-            "chords": "  C                              G         C",
-            "lyrics": "Será, para_os justos, o lar de repouso_eternal;"
-          },
-          {
-            "chords": "  Am      G               C",
-            "lyrics": "Sublime será nossa consolação;"
-          },
-          {
-            "chords": "  G       C",
-            "lyrics": "Sublime será, sublime será,"
-          },
-          {
-            "chords": "  Am      G               C",
-            "lyrics": "Sublime será nossa consolação."
-          }
+        "text": [
+          "Na[C]quela morada há luz permanente,",
+          "A [F]Lâmpada_é [D]Cristo Jesus, o Se[Em]nhor;",
+          "Os [C]seus funda[G]mentos são [C]pedras fulgentes;",
+          "É [F]mui majes[C]toso o [G]seu esplen[C]dor.",
+          "Os santos re[F]midos, com hino de [C]glória triunfal,",
+          "Ca[F]minham com [D]Cristo e lá reina[G]rão.",
+          "Se[C]rá, para_os justos, o lar de re[G]pouso_eter[C]nal;",
+          "Su[Am]blime se[G]rá nossa consola[C]ção;",
+          "Su[G]blime se[C]rá, sublime será,",
+          "Su[Am]blime se[G]rá nossa consola[C]ção."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Creio nas fiéis promessas do meu Deus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Creio nas fiéis promessas do meu Deus,"
-          },
-          {
-            "chords": "E                         B",
-            "lyrics": "Que se cumprirão na terra e nos céus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Glória ao Altíssimo darão os Seus;"
-          },
-          {
-            "chords": "             F#7          B",
-            "lyrics": "Creio nas promessas do Senhor."
-          }
+        "text": [
+          "[B]Creio nas fiéis promessas do meu Deus,",
+          "[E]Que se cumprirão na terra [B]e nos céus;",
+          "Glória ao Altíssimo darão os Seus;",
+          "Creio nas pro[F#7]messas do Sen[B]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B      E ",
-            "lyrics": "Creio, creio"
-          },
-          {
-            "chords": "F#                     B",
-            "lyrics": "No eterno Deus e em Jesus, eu creio;"
-          },
-          {
-            "chords": "        E   E... ",
-            "lyrics": "Creio, creio,"
-          },
-          {
-            "chords": "  B             F#7          B",
-            "lyrics": "Fiéis são as promessas do Senhor."
-          }
+        "text": [
+          "[B]Creio, [E]creio",
+          "[F#]No eterno Deus e em Jes[B]us, eu creio;",
+          "Creio, c[E]reio[E...],",
+          "Fi[B]éis são as pro[F#7]messas do Sen[B]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Creio no Senhor que já me resgatou,"
-          },
-          {
-            "chords": "E                          B",
-            "lyrics": "Pela fé em Cristo, para_o céu eu vou;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Todos meus pecados Ele cancelou;"
-          },
-          {
-            "chords": "             F#7          B",
-            "lyrics": "Creio nas promessas do Senhor."
-          }
+        "text": [
+          "[B]Creio no Senhor que já me resgatou,",
+          "[E]Pela fé em Cristo, para_o c[B]éu eu vou;",
+          "Todos meus pecados Ele cancelou;",
+          "Creio nas pro[F#7]messas do Sen[B]hor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Sei que a Palavra do meu Criador"
-          },
-          {
-            "chords": "E                       B",
-            "lyrics": "Cumpre-Se comigo, creio com fervor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele não me deixa, grande_é Seu amor;"
-          },
-          {
-            "chords": "             F#7          B",
-            "lyrics": "Creio nas promessas do Senhor."
-          }
+        "text": [
+          "[B]Sei que a Palavra do meu Criador",
+          "[E]Cumpre-Se comigo, creio [B]com fervor;",
+          "Ele não me deixa, grande_é Seu amor;",
+          "Creio nas pro[F#7]messas do Sen[B]hor."
         ]
       },
       {

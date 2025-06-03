@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A graça inefável de Deus",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                    D ",
-            "lyrics": "Se muitos soubessem que paz sem igual"
-          },
-          {
-            "chords": "                       G",
-            "lyrics": "Tem quem o perdão alcançou;"
-          },
-          {
-            "chords": "            G7     C ",
-            "lyrics": "Por fé buscariam a graça_eternal;"
-          },
-          {
-            "chords": " D                     G",
-            "lyrics": "Iriam a Deus, quem_os amou."
-          }
+        "text": [
+          "Se [G]muitos soubessem que [D]paz sem igual",
+          "Tem quem o perdão alcan[G]çou;",
+          "Por fé busca[G7]riam a [C]graça_eternal;",
+          "I[D]riam a Deus, quem_os a[G]mou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  G                 D ",
-            "lyrics": "A graça_inefável de Deus,"
-          },
-          {
-            "chords": "                      G",
-            "lyrics": "Que veio por Cristo Jesus,"
-          },
-          {
-            "chords": "          G7        C ",
-            "lyrics": "É dom excelente que leva aos céus,"
-          },
-          {
-            "chords": "   D                 G",
-            "lyrics": "Ao reino de glória e luz."
-          }
+        "text": [
+          "A [G]graça_inefável de [D]Deus,",
+          "Que veio por Cristo Je[G]sus,",
+          "É dom exce[G7]lente que [C]leva aos céus,",
+          "Ao [D]reino de glória e [G]luz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G                    D ",
-            "lyrics": "Se muitos soubessem que grande amor"
-          },
-          {
-            "chords": "                       G",
-            "lyrics": "Desfrutam os santos de Deus,"
-          },
-          {
-            "chords": "        G7       C ",
-            "lyrics": "Iriam a Cristo Jesus, o Senhor,"
-          },
-          {
-            "chords": "  D                G",
-            "lyrics": "Teriam herança nos céus."
-          }
+        "text": [
+          "Se [G]muitos soubessem que [D]grande amor",
+          "Desfrutam os santos de [G]Deus,",
+          "Iriam a [G7]Cristo Je[C]sus, o Senhor,",
+          "Te[D]riam herança nos [G]céus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G                  D ",
-            "lyrics": "Se muitos soubessem a glória que há"
-          },
-          {
-            "chords": "                      G",
-            "lyrics": "No reino que vamos herdar,"
-          },
-          {
-            "chords": "           G7          C ",
-            "lyrics": "Creriam em Cristo, que vida nos dá,"
-          },
-          {
-            "chords": " D               G",
-            "lyrics": "Iriam o mal rejeitar."
-          }
+        "text": [
+          "Se [G]muitos soubessem a [D]glória que há",
+          "No reino que vamos her[G]dar,",
+          "Creriam em [G7]Cristo, que [C]vida nos dá,",
+          "I[D]riam o mal rejei[G]tar."
         ]
       },
       {

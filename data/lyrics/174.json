@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem atender ao Seu chamado",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A                      D ",
-            "lyrics": "Ao amado Jesus Cristo dá ouvidos,"
-          },
-          {
-            "chords": "    E7          A",
-            "lyrics": "Ele diz: “Vem a Mim”;"
-          },
-          {
-            "chords": "                             D ",
-            "lyrics": "E serão os teus pecados esquecidos;"
-          },
-          {
-            "chords": "       B7          E7 ",
-            "lyrics": "Cristo diz: “Vem a Mim”."
-          }
+        "text": [
+          "Ao a[A]mado Jesus Cristo dá ou[D]vidos,",
+          "Ele [E7]diz: “Vem a [A]Mim”;",
+          "E serão os teus pecados esque[D]cidos;",
+          "Cristo [B7]diz: “Vem a [E7]Mim”."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    E7                A",
-            "lyrics": "Vem atender ao Seu chamado;"
-          },
-          {
-            "chords": "  E7                    C#  E7... ",
-            "lyrics": "Serás, por Cristo, perdoa - do"
-          },
-          {
-            "chords": "    A                     D ",
-            "lyrics": "E fará de ti um bem-aventurado."
-          },
-          {
-            "chords": "      E7    B7  E7  A",
-            "lyrics": "Diz Jesus: “Vem a   Mim”."
-          }
+        "text": [
+          "Vem [E7]atender ao Seu cha[A]mado;",
+          "Se[E7]rás, por Cristo, perdo[C#]a - [E7...]do",
+          "E fa[A]rá de ti um bem-aventu[D]rado.",
+          "Diz Je[E7]sus: “[B7]Vem [E7]a   [A]Mim”."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     A                       D ",
-            "lyrics": "Só Jesus tem força para libertar-te;"
-          },
-          {
-            "chords": "       E7       A",
-            "lyrics": "Crê no teu Redentor;"
-          },
-          {
-            "chords": "                                 D ",
-            "lyrics": "Ele que, com Deus, o Pai, reconciliar-te;"
-          },
-          {
-            "chords": "       B7       E7 ",
-            "lyrics": "Crê no teu Salvador."
-          }
+        "text": [
+          "Só Je[A]sus tem força para liber[D]tar-te;",
+          "Crê no [E7]teu Reden[A]tor;",
+          "Ele que, com Deus, o Pai, reconci[D]liar-te;",
+          "Crê no [B7]teu Salva[E7]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A                            D ",
-            "lyrics": "Sobre_amarga cruz, por ti, provou a morte;"
-          },
-          {
-            "chords": "       E7        A",
-            "lyrics": "Ouve_a voz do Senhor;"
-          },
-          {
-            "chords": "                                   D ",
-            "lyrics": "Não rejeites tão preciosa_e grande sorte;"
-          },
-          {
-            "chords": "       B7       E7 ",
-            "lyrics": "Vem provar Seu amor."
-          }
+        "text": [
+          "Sobre_a[A]marga cruz, por ti, provou a [D]morte;",
+          "Ouve_a [E7]voz do Sen[A]hor;",
+          "Não rejeites tão preciosa_e grande [D]sorte;",
+          "Vem pro[B7]var Seu a[E7]mor."
         ]
       },
       {

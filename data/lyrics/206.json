@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tu és o Amigo",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": ".  B7    E       C#7      F#m ",
-            "lyrics": "Tu és o Amigo sincero_e leal"
-          },
-          {
-            "chords": "F#7  B7                E",
-            "lyrics": "Dos  que Te adoram, Senhor;"
-          },
-          {
-            "chords": "   B7           E          C#7       F#m ",
-            "lyrics": "Tu sempre_os proteges e_os livras do mal,"
-          },
-          {
-            "chords": "    E     F#7       B7 ",
-            "lyrics": "Por Tua Palavra de_amor."
-          }
+        "text": [
+          "[.]Tu [B7]és o A[E]migo sin[C#7]cero_e le[F#m]al",
+          "[F#7]Dos  [B7]que Te adoram, Sen[E]hor;",
+          "Tu [B7]sempre_os pro[E]teges e_os [C#7]livras do [F#m]mal,",
+          "Por [E]Tua Pa[F#7]lavra de_a[B7]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Com Teu poder, Senhor,"
-          },
-          {
-            "chords": "B7     E",
-            "lyrics": "Sempre guardas"
-          },
-          {
-            "chords": "          F#m      E           A ",
-            "lyrics": "As nossas almas no Teu grande_amor,"
-          },
-          {
-            "chords": "B7            E",
-            "lyrics": "Ó Jesus, Redentor."
-          }
+        "text": [
+          "[E]Com Teu poder, Senhor,",
+          "[B7]Sempre [E]guardas",
+          "As nossas [F#m]almas no [E]Teu grande_a[A]mor,",
+          "[B7]Ó Jesus, Reden[E]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": ".  B7       E       C#7      F#m ",
-            "lyrics": "És sempre fiel, ó Jesus Salvador,"
-          },
-          {
-            "chords": "F#7  B7                   E",
-            "lyrics": "Do   céu nos trouxeste a luz;"
-          },
-          {
-            "chords": "  B7          E        C#7    F#m ",
-            "lyrics": "Sofreste, por nós, amargura e dor,"
-          },
-          {
-            "chords": "   E      F#7      B7 ",
-            "lyrics": "No duro madeiro da cruz."
-          }
+        "text": [
+          "[.]És [B7]sempre fi[E]el, ó Je[C#7]sus Salva[F#m]dor,",
+          "[F#7]Do   [B7]céu nos trouxeste a l[E]uz;",
+          "So[B7]freste, por [E]nós, amar[C#7]gura e [F#m]dor,",
+          "No [E]duro ma[F#7]deiro da [B7]cruz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": ".   B7      E          C#7      F#m ",
-            "lyrics": "Por Ti, ó Jesus, temos vida_eternal,"
-          },
-          {
-            "chords": "F#7   B7                E",
-            "lyrics": "Tam - bém as riquezas reais,"
-          },
-          {
-            "chords": "   B7          E          C#7        F#m ",
-            "lyrics": "As quais nos darás no Teu lar celestial,"
-          },
-          {
-            "chords": "   E          F#7     B7 ",
-            "lyrics": "Se formos, em tudo, leais."
-          }
+        "text": [
+          "[.]Por [B7]Ti, ó Je[E]sus, temos [C#7]vida_eter[F#m]nal,",
+          "[F#7]Tam - [B7]bém as riquezas re[E]ais,",
+          "As [B7]quais nos da[E]rás no Teu [C#7]lar celesti[F#m]al,",
+          "Se [E]formos, em [F#7]tudo, le[B7]ais."
         ]
       },
       {

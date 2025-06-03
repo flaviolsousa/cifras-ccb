@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Face a face O verei",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "..        F     C7    F",
-            "lyrics": "Aguardo_a vinda do Senhor"
-          },
-          {
-            "chords": "        Bb     G      C ",
-            "lyrics": "Que revelou-Se em meu ser;"
-          },
-          {
-            "chords": " F                C7   F",
-            "lyrics": "Aguardo Cristo,_o Redentor,"
-          },
-          {
-            "chords": "            Bb     C7  F",
-            "lyrics": "Pois vai em breve_aparecer."
-          }
+        "text": [
+          "[..]Aguardo_a [F]vinda [C7]do Sen[F]hor",
+          "Que reve[Bb]lou-Se [G]em meu [C]ser;",
+          "A[F]guardo Cristo,_o [C7]Reden[F]tor,",
+          "Pois vai em [Bb]breve_a[C7]pare[F]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "         F        C7 ",
-            "lyrics": "E face_a face O verei;"
-          },
-          {
-            "chords": "                        F",
-            "lyrics": "Contemplarei Jesus, meu Rei,"
-          },
-          {
-            "chords": "                     C7 ",
-            "lyrics": "Que para Deus me levará;"
-          },
-          {
-            "chords": "           Bb    C7   F   F...",
-            "lyrics": "A_herança_eterna me dará."
-          }
+        "text": [
+          "E face_a [F]face O ve[C7]rei;",
+          "Contemplarei Jesus, meu [F]Rei,",
+          "Que para Deus me leva[C7]rá;",
+          "A_herança_e[Bb]terna [C7]me da[F]rá.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "..        F    C7   F",
-            "lyrics": "Jesus, o_amado Redentor,"
-          },
-          {
-            "chords": "             Bb     G     C ",
-            "lyrics": "Com voz de_Arcanjo_irá surgir;"
-          },
-          {
-            "chords": "  F            C7    F",
-            "lyrics": "Como_escolhido do Senhor,"
-          },
-          {
-            "chords": "        Bb      C7      F",
-            "lyrics": "Irei os bens de Deus fruir."
-          }
+        "text": [
+          "[..]Jesus, o_a[F]mado [C7]Reden[F]tor,",
+          "Com voz de_Ar[Bb]canjo_i[G]rá sur[C]gir;",
+          "Co[F]mo_escolhido [C7]do Sen[F]hor,",
+          "Irei os [Bb]bens de [C7]Deus fru[F]ir."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "..     F     C7   F",
-            "lyrics": "O céu aberto eu verei,"
-          },
-          {
-            "chords": "          Bb      G     C ",
-            "lyrics": "Nele_entrarei com meu Jesus."
-          },
-          {
-            "chords": " F               C7  F",
-            "lyrics": "Até que venha,_esperarei"
-          },
-          {
-            "chords": "            Bb      C7     F",
-            "lyrics": "Sem que se_apague_a minha luz."
-          }
+        "text": [
+          "[..]O céu a[F]berto [C7]eu ve[F]rei,",
+          "Nele_entra[Bb]rei com [G]meu Je[C]sus.",
+          "A[F]té que venha,_es[C7]pera[F]rei",
+          "Sem que se_a[Bb]pague_a [C7]minha l[F]uz."
         ]
       },
       {

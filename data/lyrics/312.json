@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tributos de louvor",
   "tone": {
     "recommended": "D"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D           Bm    G              A ",
-            "lyrics": "Tributos de louvor darei ao grande Deus,"
-          },
-          {
-            "chords": "   D             E                   A ",
-            "lyrics": "Ao Deus que escreveu me nome lá nos céus;"
-          },
-          {
-            "chords": "    G   A   D",
-            "lyrics": "Que grande_amor!"
-          },
-          {
-            "chords": "   G                          A      D   D...",
-            "lyrics": "Bendito seja sempre_o Deus do meu louvor!"
-          }
+        "text": [
+          "Tri[D]butos de lou[Bm]vor da[G]rei ao grande D[A]eus,",
+          "Ao [D]Deus que escre[E]veu me nome lá nos c[A]éus;",
+          "Que [G]gran[A]de_a[D]mor!",
+          "Ben[G]dito seja sempre_o Deus do [A]meu lou[D]vor![D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  D           Bm     G         A ",
-            "lyrics": "Perante_o Criador eu me inclinarei;"
-          },
-          {
-            "chords": "    D             E                  A ",
-            "lyrics": "Prostrado aos Seu pés, Seu Nome bendirei;"
-          },
-          {
-            "chords": "  G  A  D",
-            "lyrics": "Fiel é  Deus!"
-          },
-          {
-            "chords": "   G                         A       D   D...",
-            "lyrics": "Do Seu lugar excelso ouve_os santos Seus."
-          }
+        "text": [
+          "Pe[D]rante_o Cria[Bm]dor eu [G]me inclina[A]rei;",
+          "Pros[D]trado aos Seu [E]pés, Seu Nome bendi[A]rei;",
+          "Fi[G]el [A]é  [D]Deus!",
+          "Do [G]Seu lugar excelso ouve_os [A]santos S[D]eus.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   D              Bm    G          A ",
-            "lyrics": "No trono_eterno_está o_Onipotente Deus,"
-          },
-          {
-            "chords": "   D         E                  A ",
-            "lyrics": "Cercado por exércitos de anjos Seus;"
-          },
-          {
-            "chords": "    G    A   D",
-            "lyrics": "Que es - plendor!"
-          },
-          {
-            "chords": " G                            A   D   D...",
-            "lyrics": "Eterna glória_a Deus, o santo Criador!"
-          }
+        "text": [
+          "No [D]trono_eterno_es[Bm]tá o_O[G]nipotente D[A]eus,",
+          "Cer[D]cado por e[E]xércitos de anjos S[A]eus;",
+          "Que [G]es - [A]plen[D]dor!",
+          "E[G]terna glória_a Deus, o santo [A]Cria[D]dor![D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "    D            Bm     G          A ",
-            "lyrics": "Meu Deus me contará com todos os fiéis;"
-          },
-          {
-            "chords": "  D          E                         A ",
-            "lyrics": "Herança me dará com Cristo,_o Rei dos reis;"
-          },
-          {
-            "chords": " G    A    D",
-            "lyrics": "Ele – va - rei"
-          },
-          {
-            "chords": "  G                       A        D   D...",
-            "lyrics": "O meu louvor a Deus e a Jesus, meu Rei."
-          }
+        "text": [
+          "Meu [D]Deus me conta[Bm]rá com [G]todos os fi[A]éis;",
+          "He[D]rança me da[E]rá com Cristo,_o Rei dos r[A]eis;",
+          "E[G]le – [A]va - [D]rei",
+          "O [G]meu louvor a Deus e a Je[A]sus, meu [D]Rei.[D...]"
         ]
       }
     ]

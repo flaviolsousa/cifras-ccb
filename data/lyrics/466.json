@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A criança consagrada",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G",
-            "lyrics": "A criança consagrada "
-          },
-          {
-            "chords": "     D     G    D",
-            "lyrics": "A Jesus, o Salvador,"
-          },
-          {
-            "chords": "G      D        G",
-            "lyrics": "É, por Ele, ensinada"
-          },
-          {
-            "chords": "     C      D   G",
-            "lyrics": "A servir ao Criador."
-          }
+        "text": [
+          "A cri[G]ança consagrada ",
+          "A Jes[D]us, o [G]Salva[D]dor,",
+          "[G]É, por [D]Ele, ensi[G]nada",
+          "A ser[C]vir ao [D]Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        G",
-            "lyrics": "Cristo chama_os pequeninos"
-          },
-          {
-            "chords": "       D    G  D",
-            "lyrics": "Com ternura e amor;"
-          },
-          {
-            "chords": "G         D          G",
-            "lyrics": "Quando_a Deus entoam hinos"
-          },
-          {
-            "chords": "   C        D     G",
-            "lyrics": "É aceito_o seu louvor."
-          }
+        "text": [
+          "Cristo c[G]hama_os pequeninos",
+          "Com ter[D]nura [G]e a[D]mor;",
+          "[G]Quando_a D[D]eus entoam [G]hinos",
+          "É a[C]ceito_o s[D]eu lou[G]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       G",
-            "lyrics": "Cristo é a luz divina"
-          },
-          {
-            "chords": "    D   G       D",
-            "lyrics": "Enviada lá dos céus;"
-          },
-          {
-            "chords": "G   D              G",
-            "lyrics": "Ele trouxe_a sã doutrina"
-          },
-          {
-            "chords": "       C        D      G",
-            "lyrics": "Que conduz, por fé, a Deus."
-          }
+        "text": [
+          "Cristo [G]é a luz divina",
+          "Envi[D]ada [G]lá dos c[D]éus;",
+          "[G]Ele [D]trouxe_a sã dou[G]trina",
+          "Que con[C]duz, por [D]fé, a D[G]eus."
         ]
       }
     ]

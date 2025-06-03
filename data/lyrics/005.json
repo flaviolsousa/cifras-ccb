@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Rocha celestial",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Sábio_e prudente será o varão"
-          },
-          {
-            "chords": "      E                A",
-            "lyrics": "Que_a casa na rocha erguer;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Sempre terá eficaz proteção,"
-          },
-          {
-            "chords": "     B7             E",
-            "lyrics": "Pois nada a pode_abater."
-          }
+        "text": [
+          "[A]Sábio_e prudente será o varão",
+          "Que_a [E]casa na rocha erg[A]uer;",
+          "Sempre terá eficaz proteção,",
+          "Pois [B7]nada a pode_aba[E]ter."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "A Rocha celestial"
-          },
-          {
-            "chords": "            B7       E",
-            "lyrics": "É Cristo,_o Filho de Deus,"
-          },
-          {
-            "chords": "A  A7   D         C#",
-            "lyrics": "O  Fundamento_eternal"
-          },
-          {
-            "chords": "Bm  E                       A",
-            "lyrics": "De  quem busca_o reino dos céus."
-          }
+        "text": [
+          "[A]A Rocha celestial",
+          "É Cristo,_o [B7]Filho de [E]Deus,",
+          "[A]O  [A7]Funda[D]mento_eter[C#]nal",
+          "[Bm]De  [E]quem busca_o reino dos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Quem sobre_a_areia quiser construir,"
-          },
-          {
-            "chords": "   E                A",
-            "lyrics": "Em vão trabalhado terá,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois sua casa virá a cair;"
-          },
-          {
-            "chords": "   B7                 E",
-            "lyrics": "Em falso_alicerce_estará."
-          }
+        "text": [
+          "[A]Quem sobre_a_areia quiser construir,",
+          "Em [E]vão trabalhado te[A]rá,",
+          "Pois sua casa virá a cair;",
+          "Em [B7]falso_alicerce_esta[E]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "As tempestades e_os ventos virão"
-          },
-          {
-            "chords": "  E                   A",
-            "lyrics": "A todos, com grande furor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Mas os que sobre a Rocha estão,"
-          },
-          {
-            "chords": "   B7                E",
-            "lyrics": "Firmeza terão nos Senhor."
-          }
+        "text": [
+          "[A]As tempestades e_os ventos virão",
+          "A [E]todos, com grande fu[A]ror;",
+          "Mas os que sobre a Rocha estão,",
+          "Fir[B7]meza terão nos Sen[E]hor."
         ]
       },
       {

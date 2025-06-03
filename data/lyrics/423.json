@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só o sangue precioso e expiador",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "Só o sangue precioso_e_expiador,"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "Que Jesus derramou sobre_a cruz,"
-          },
-          {
-            "chords": "    A                D ",
-            "lyrics": "É aceito pelo nosso Criador"
-          },
-          {
-            "chords": "      E                    A ",
-            "lyrics": "Para nos conceder graça_e luz."
-          }
+        "text": [
+          "Só o s[A]angue precioso_e_expiador,",
+          "Que Jesus derramou sobre_a c[E]ruz,",
+          "É ac[A]eito pelo nosso C[D]riador",
+          "Para n[E]os conceder graça_e l[A]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      A         D ",
-            "lyrics": "O perdão, salvação,"
-          },
-          {
-            "chords": "       A                  E ",
-            "lyrics": "Não se pode com ouro_alcançar;"
-          },
-          {
-            "chords": "      A                  D ",
-            "lyrics": "Só no sangue de Jesus há remissão;"
-          },
-          {
-            "chords": "     E                   A",
-            "lyrics": "Só Jesus pode_a todos salvar."
-          }
+        "text": [
+          "O perd[A]ão, salvaç[D]ão,",
+          "Não se [A]pode com ouro_alcan[E]çar;",
+          "Só no [A]sangue de Jesus há [D]remissão;",
+          "Só Je[E]sus pode_a todos sal[A]var."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "Pelo sangue precioso de Jesus,"
-          },
-          {
-            "chords": "                       E ",
-            "lyrics": "Achegar-nos podemos a Deus"
-          },
-          {
-            "chords": "       A                D ",
-            "lyrics": "E_habitar no reino da divina luz,"
-          },
-          {
-            "chords": "     E                 A",
-            "lyrics": "Eternal santuário dos céus."
-          }
+        "text": [
+          "Pelo s[A]angue precioso de Jesus,",
+          "Achegar-nos podemos a D[E]eus",
+          "E_habit[A]ar no reino da di[D]vina luz,",
+          "Etern[E]al santuário dos c[A]éus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        A",
-            "lyrics": "Ouro_e prata não concedem salvação;"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "Só o sangue de Cristo,_o Senhor,"
-          },
-          {
-            "chords": "     A                 D ",
-            "lyrics": "É o preço do resgate_e do perdão"
-          },
-          {
-            "chords": "     E                    A",
-            "lyrics": "Concedidos por Deus, Criador."
-          }
+        "text": [
+          "Ouro_e p[A]rata não concedem salvação;",
+          "Só o sangue de Cristo,_o Sen[E]hor,",
+          "É o p[A]reço do resgate_e [D]do perdão",
+          "Conce[E]didos por Deus, Criad[A]or."
         ]
       },
       {

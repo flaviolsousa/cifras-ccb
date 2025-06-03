@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, por Teu poder",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   F",
-            "lyrics": "Senhor, por Teu poder, vem nos conceder"
-          },
-          {
-            "chords": "                         C ",
-            "lyrics": "Celestial ciência, ó Criador;"
-          },
-          {
-            "chords": "  F          ",
-            "lyrics": "Aqui nos encontramos para_aprender"
-          },
-          {
-            "chords": "                   Bb    C   F",
-            "lyrics": "A Tua sã doutrina, cheia de_amor."
-          }
+        "text": [
+          "Sen[F]hor, por Teu poder, vem nos conceder",
+          "Celestial ciência, ó Cria[C]dor;",
+          "Aq[F]ui nos encontramos para_aprender",
+          "A Tua sã doutrina, [Bb]cheia [C]de_a[F]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  C             F",
-            "lyrics": "A Tua igreja Te roga, ó Deus:"
-          },
-          {
-            "chords": "  C                 F",
-            "lyrics": "Envia, do alto, Teu Consolador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Em nossos corações desperta_o fervor,"
-          },
-          {
-            "chords": "                   Bb   C    F",
-            "lyrics": "Assim caminharemos rumo aos céus."
-          }
+        "text": [
+          "A [C]Tua igreja Te [F]roga, ó Deus:",
+          "En[C]via, do alto, Teu [F]Consolador;",
+          "Em nossos corações desperta_o fervor,",
+          "Assim caminharemos [Bb]rumo [C]aos c[F]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   F",
-            "lyrics": "Os nossos corações conheces, ó Deus;"
-          },
-          {
-            "chords": "                                C ",
-            "lyrics": "Em comunhão Contigo_estamos, Senhor;"
-          },
-          {
-            "chords": "   F",
-            "lyrics": "Tu prometeste, para todos os Teus,"
-          },
-          {
-            "chords": "                     Bb   C    F",
-            "lyrics": "O Teu divino_e santo Consola - dor."
-          }
+        "text": [
+          "Os [F]nossos corações conheces, ó Deus;",
+          "Em comunhão Contigo_estamos, Sen[C]hor;",
+          "Tu [F]prometeste, para todos os Teus,",
+          "O Teu divino_e santo [Bb]Conso[C]la - [F]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    F",
-            "lyrics": "Com Teus conselhos santos vem ensinar"
-          },
-          {
-            "chords": "                                C ",
-            "lyrics": "Teus filhos muito_amados, ó Criador;"
-          },
-          {
-            "chords": "  F",
-            "lyrics": "O nosso_entendimento vem renovar"
-          },
-          {
-            "chords": "                     Bb      C   F",
-            "lyrics": "E faz-nos meditar no Teu grande_amor."
-          }
+        "text": [
+          "Com [F]Teus conselhos santos vem ensinar",
+          "Teus filhos muito_amados, ó Cria[C]dor;",
+          "O [F]nosso_entendimento vem renovar",
+          "E faz-nos meditar no [Bb]Teu gran[C]de_a[F]mor."
         ]
       },
       {

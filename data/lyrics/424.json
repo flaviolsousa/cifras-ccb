@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Jesus, por nós morreste",
   "tone": {
     "recommended": "F"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     F              C       F      Bb      C      F",
-            "lyrics": "Ó Jesus, por nós morreste, com Teu sangue nos compraste,"
-          },
-          {
-            "chords": "                 G7     C            G7   C",
-            "lyrics": "Do pecado nos salvaste, dentre povos e nações."
-          },
-          {
-            "chords": "F                 C     F              C",
-            "lyrics": "Somos reis e sacerdotes ao Autor do universo;"
-          },
-          {
-            "chords": "Bb            Gm          C       F ",
-            "lyrics": "Tu trouxeste_amor excelso para os nossos corações,"
-          },
-          {
-            "chords": "Bb     D            Gm    C       F      C    F    F...",
-            "lyrics": "Tu trouxeste_amor excelso para os nossos corações."
-          }
+        "text": [
+          "Ó Jes[F]us, por nós mor[C]reste, c[F]om Teu [Bb]sangue n[C]os comp[F]raste,",
+          "Do pecado nos sal[G7]vaste, [C]dentre povos [G7]e naç[C]ões.",
+          "[F]Somos reis e sacer[C]dotes [F]ao Autor do uni[C]verso;",
+          "[Bb]Tu trouxeste_a[Gm]mor excelso [C]para os [F]nossos corações,",
+          "[Bb]Tu trou[D]xeste_amor ex[Gm]celso [C]para os [F]nossos [C]coraç[F]ões.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     F           C      F  Bb       C      F",
-            "lyrics": "Ó Jesus, Tu és o Forte, aboliste_a própria morte;"
-          },
-          {
-            "chords": "                    G7     C              G7  C",
-            "lyrics": "Preparaste_a grande sorte aos Teus santos e fiéis;"
-          },
-          {
-            "chords": "F                  C     F                 C",
-            "lyrics": "Voltarás, com majestade, triunfante_e glorioso;"
-          },
-          {
-            "chords": "Bb          Gm            C       F",
-            "lyrics": "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis,"
-          },
-          {
-            "chords": "Bb   D              Gm    C       F       C       F    F...",
-            "lyrics": "Voltarás, celeste_Esposo, Tu voltarás, ó Rei dos reis."
-          }
+        "text": [
+          "Ó Jes[F]us, Tu és o [C]Forte, [F]abo[Bb]liste_a p[C]rópria [F]morte;",
+          "Preparaste_a grande [G7]sorte a[C]os Teus santos [G7]e fi[C]éis;",
+          "[F]Voltarás, com majes[C]tade, [F]triunfante_e glori[C]oso;",
+          "[Bb]Voltarás, ce[Gm]leste_Esposo, [C]Tu volta[F]rás, ó Rei dos reis,",
+          "[Bb]Volta[D]rás, celeste_Es[Gm]poso, [C]Tu volta[F]rás, ó R[C]ei dos r[F]eis.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     F               C       F    Bb    C     F",
-            "lyrics": "Voltarás com grande glória, aos fiéis darás vitória,"
-          },
-          {
-            "chords": "                  G7    C            G7   C",
-            "lyrics": "Pois honraram a memória do Teu Nome, ó Senhor."
-          },
-          {
-            "chords": "F                   C      F                 C",
-            "lyrics": "Já se cumprem as promessas do fiel Concerto_eterno;"
-          },
-          {
-            "chords": "Bb             Gm          C         F",
-            "lyrics": "Glória! Glória ao Superno! Glória a Deus, o Criador!"
-          },
-          {
-            "chords": "Bb      D           Gm     C         F       C  F    F...",
-            "lyrics": "Glória! Glória ao Superno! Glória a Deus, o Criador!"
-          }
+        "text": [
+          "Volta[F]rás com grande g[C]lória, a[F]os fi[Bb]éis da[C]rás vi[F]tória,",
+          "Pois honraram a me[G7]mória [C]do Teu Nome, [G7]ó Sen[C]hor.",
+          "[F]Já se cumprem as pro[C]messas [F]do fiel Concerto_e[C]terno;",
+          "[Bb]Glória! Glória [Gm]ao Superno! [C]Glória a D[F]eus, o Criador!",
+          "[Bb]Glória! [D]Glória ao Su[Gm]perno! [C]Glória a D[F]eus, o C[C]ria[F]dor![F...]"
         ]
       }
     ]

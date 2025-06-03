@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Pela fé uma vez...",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     C",
-            "lyrics": "Pela fé uma vez por Jesus dada_aos santos,"
-          },
-          {
-            "chords": "      G7                         C",
-            "lyrics": "Fé perfeita que fez vitoriosos a tantos,"
-          },
-          {
-            "chords": "                           G7  ",
-            "lyrics": "Não temeram horrores nem espantos"
-          },
-          {
-            "chords": "                            C",
-            "lyrics": "Os fiéis que seguiram ao Senhor."
-          }
+        "text": [
+          "Pela [C]fé uma vez por Jesus dada_aos santos,",
+          "Fé per[G7]feita que fez vitoriosos a [C]tantos,",
+          "Não temeram horrores nem es[G7]pantos",
+          "Os fiéis que seguiram ao Sen[C]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        C",
-            "lyrics": "Nas tristezas, nas lutas e dor,"
-          },
-          {
-            "chords": "             D     G7 ",
-            "lyrics": "Recorriam a Cristo Jesus,"
-          },
-          {
-            "chords": "         Am      F        C",
-            "lyrics": "Que lhes dava virtude_e valor,"
-          },
-          {
-            "chords": "     G7                   C",
-            "lyrics": "Pela fé que_os guiava na luz."
-          }
+        "text": [
+          "Nas tris[C]tezas, nas lutas e dor,",
+          "Recorriam a C[D]risto [G7]Jesus,",
+          "Que lhes [Am]dava vir[F]tude_e va[C]lor,",
+          "Pela [G7]fé que_os guiava na l[C]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       C",
-            "lyrics": "Os cristãos foram, nos tribunais, condenados,"
-          },
-          {
-            "chords": "       G7                             C",
-            "lyrics": "Nas prisões eles foram, sem culpa, lançados,"
-          },
-          {
-            "chords": "                                 G7 ",
-            "lyrics": "E, de seus bens terrestres, despojados;"
-          },
-          {
-            "chords": "                        C",
-            "lyrics": "Tudo isso sofreram pela fé."
-          }
+        "text": [
+          "Os cris[C]tãos foram, nos tribunais, condenados,",
+          "Nas pri[G7]sões eles foram, sem culpa, lan[C]çados,",
+          "E, de seus bens terrestres, despo[G7]jados;",
+          "Tudo isso sofreram pela [C]fé."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      C",
-            "lyrics": "Nessa fé é que nós, crentes, sempre devemos"
-          },
-          {
-            "chords": "    G7                              C",
-            "lyrics": "Caminhar bem firmados, e_assim venceremos;"
-          },
-          {
-            "chords": "                          G7 ",
-            "lyrics": "E um dia, no céu, encontraremos"
-          },
-          {
-            "chords": "                          C",
-            "lyrics": "Os fiéis que amaram ao Senhor."
-          }
+        "text": [
+          "Nessa [C]fé é que nós, crentes, sempre devemos",
+          "Cami[G7]nhar bem firmados, e_assim vence[C]remos;",
+          "E um dia, no céu, encontra[G7]remos",
+          "Os fiéis que amaram ao Sen[C]hor."
         ]
       },
       {
@@ -103,23 +55,11 @@
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       C",
-            "lyrics": "Lá no céu não teremos mais dor"
-          },
-          {
-            "chords": "              D        G7 ",
-            "lyrics": "E o pranto também cessará,"
-          },
-          {
-            "chords": "       Am     F       C",
-            "lyrics": "Pois o nosso amado Senhor,"
-          },
-          {
-            "chords": "       G7              C",
-            "lyrics": "Nossas lágrimas, enxugará."
-          }
+        "text": [
+          "Lá no c[C]éu não teremos mais dor",
+          "E o pranto tam[D]bém cessa[G7]rá,",
+          "Pois o [Am]nosso a[F]mado Sen[C]hor,",
+          "Nossas [G7]lágrimas, enxuga[C]rá."
         ]
       }
     ]

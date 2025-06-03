@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tu és Oleiro",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "..     A  E           B7 ",
-            "lyrics": "Tu és Oleiro, ó meu Senhor,"
-          },
-          {
-            "chords": "                      E",
-            "lyrics": "Eu sou argila na Tua mão;"
-          },
-          {
-            "chords": "        A  E  E7      A ",
-            "lyrics": "Vaso de honra e de louvor"
-          },
-          {
-            "chords": "           E        B7     E",
-            "lyrics": "Faz-me, Senhor, com Tua unção."
-          }
+        "text": [
+          "[..]Tu és O[A]lei[E]ro, ó meu Se[B7]nhor,",
+          "Eu sou argila na Tua m[E]ão;",
+          "Vaso de [A]hon[E]ra [E7]e de lou[A]vor",
+          "Faz-me, Sen[E]hor, com [B7]Tua unç[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "..      A   E          B7 ",
-            "lyrics": "Vem modelar-me, ó Formador,"
-          },
-          {
-            "chords": "                      E",
-            "lyrics": "Pela Palavra do Teu poder;"
-          },
-          {
-            "chords": "          A  E  E7        A ",
-            "lyrics": "Humilde_e manso faz-me, Senhor,"
-          },
-          {
-            "chords": "          E       B7       E",
-            "lyrics": "Cumpre em mim Teu santo querer."
-          }
+        "text": [
+          "[..]Vem mode[A]lar-[E]me, ó Forma[B7]dor,",
+          "Pela Palavra do Teu po[E]der;",
+          "Humilde_e [A]man[E]so [E7]faz-me, Se[A]nhor,",
+          "Cumpre em [E]mim Teu [B7]santo que[E]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "..         A  E           B7 ",
-            "lyrics": "Em Teus preceitos quero viver,"
-          },
-          {
-            "chords": "                        E",
-            "lyrics": "Para servir-Te e Te_agradar;"
-          },
-          {
-            "chords": "       A    E   E7      A ",
-            "lyrics": "Pela Pala - vra vem remover"
-          },
-          {
-            "chords": "           E    B7       E",
-            "lyrics": "O que me_impede de Te louvar."
-          }
+        "text": [
+          "[..]Em Teus pre[A]cei[E]tos quero vi[B7]ver,",
+          "Para servir-Te e Te_agra[E]dar;",
+          "Pela Pa[A]la - [E]vra [E7]vem remo[A]ver",
+          "O que me_im[E]pede [B7]de Te lou[E]var."
         ]
       }
     ]

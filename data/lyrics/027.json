@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Senhor é minha Luz",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E      A    E                       B7",
-            "lyrics": "O Senhor é minha Luz e minha_eterna Salvação. "
-          },
-          {
-            "chords": "     E    A    E             B7               E",
-            "lyrics": "Nada devo eu temer, pois Ele é meu fiel Guardião."
-          },
-          {
-            "chords": "           D#°   C#m         F#7      B7 ",
-            "lyrics": "O Senhor é o meu Deus, nada aqui recearei;"
-          },
-          {
-            "chords": "     E       A    E         B7                   E",
-            "lyrics": "Para sempre sentirei a providência do meu grande Rei."
-          }
+        "text": [
+          "O Sen[E]hor é m[A]inha [E]Luz e minha_eterna Salva[B7]ção. ",
+          "Nada [E]devo [A]eu te[E]mer, pois Ele [B7]é meu fiel Guardi[E]ão.",
+          "O Senhor é [D#°]o meu [C#m]Deus, nada a[F#7]qui recea[B7]rei;",
+          "Para [E]sempre s[A]entir[E]ei a provi[B7]dência do meu grande [E]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E      A    E                      B7",
-            "lyrics": "Se vier me circundar todo_o exército do mal,"
-          },
-          {
-            "chords": "     E     A  E              B7             E",
-            "lyrics": "O Senhor enviará Seu grande_exército celestial."
-          },
-          {
-            "chords": "          D#°    C#m           F#7       B7 ",
-            "lyrics": "Com o coração em paz, sirvo ao santo Criador;"
-          },
-          {
-            "chords": "     E       A     E             B7                   E",
-            "lyrics": "Pequenino_e fraco sou, mas meu Refúgio é Deus, meu Senhor."
-          }
+        "text": [
+          "Se vi[E]er me c[A]ircun[E]dar todo_o exército do [B7]mal,",
+          "O Sen[E]hor en[A]via[E]rá Seu grande_e[B7]xército celesti[E]al.",
+          "Com o cora[D#°]ção em [C#m]paz, sirvo ao [F#7]santo Cria[B7]dor;",
+          "Peque[E]nino_e f[A]raco s[E]ou, mas meu Re[B7]fúgio é Deus, meu Sen[E]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      E    A   E                        B7",
-            "lyrics": "Meu desejo é morar, sempre na casa do Senhor."
-          },
-          {
-            "chords": "       E       A     E         B7              E",
-            "lyrics": "Pois assim contemplarei a formosura do meu Criador."
-          },
-          {
-            "chords": "         D#°  C#m         F#7       B7 ",
-            "lyrics": "Ele me esconderá quando vier a tentação;"
-          },
-          {
-            "chords": "     E    A   E            B7                E",
-            "lyrics": "Protegido estarei sempre debaixo do Seu pavilhão."
-          }
+        "text": [
+          "Meu de[E]sejo [A]é mo[E]rar, sempre na casa do Se[B7]nhor.",
+          "Pois as[E]sim cont[A]emplar[E]ei a formo[B7]sura do meu Cria[E]dor.",
+          "Ele me es[D#°]conde[C#m]rá quando vi[F#7]er a tenta[B7]ção;",
+          "Prote[E]gido [A]esta[E]rei sempre de[B7]baixo do Seu pavil[E]hão."
         ]
       }
     ]

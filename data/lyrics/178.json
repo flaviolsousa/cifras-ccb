@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Palavra preciosa",
   "tone": {
     "recommended": "B"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    B           E             C#7        F#7 ",
-            "lyrics": "A Palavra da verdade, de Deus Pai, o Criador,"
-          },
-          {
-            "chords": "         B           E          F#7         B",
-            "lyrics": "Traz dos céus a santidade aos remidos do Senhor."
-          }
+        "text": [
+          "A Pa[B]lavra da ver[E]dade, de Deus [C#7]Pai, o Cria[F#7]dor,",
+          "Traz dos [B]céus a santi[E]dade aos re[F#7]midos do Sen[B]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    E          B",
-            "lyrics": "A Palavra preciosa"
-          },
-          {
-            "chords": "     C#7         F#7 ",
-            "lyrics": "Do fiel, vivente Deus,"
-          },
-          {
-            "chords": "    B        E ",
-            "lyrics": "É Espada poderosa,"
-          },
-          {
-            "chords": "      F#7              B",
-            "lyrics": "Que defende_os santos Seus."
-          }
+        "text": [
+          "A Pa[E]lavra preci[B]osa",
+          "Do fi[C#7]el, vivente [F#7]Deus,",
+          "É Es[B]pada pode[E]rosa,",
+          "Que de[F#7]fende_os santos S[B]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    B         E              C#7          F#7 ",
-            "lyrics": "A Palavra criadora trouxe_ao mundo grande luz"
-          },
-          {
-            "chords": "     B         E         F#7        B",
-            "lyrics": "Pela obra redentora consumada por Jesus."
-          }
+        "text": [
+          "A Pa[B]lavra cria[E]dora trouxe_ao [C#7]mundo grande [F#7]luz",
+          "Pela [B]obra reden[E]tora consu[F#7]mada por Je[B]sus."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     B           E        C#7       F#7 ",
-            "lyrics": "Para sempre permanece a Palavra divinal;"
-          },
-          {
-            "chords": "       B          E         F#7         B",
-            "lyrics": "Nossas almas fortalece e protege-nos do mal."
-          }
+        "text": [
+          "Para [B]sempre perma[E]nece a Pa[C#7]lavra divi[F#7]nal;",
+          "Nossas [B]almas forta[E]lece e pro[F#7]tege-nos do [B]mal."
         ]
       },
       {

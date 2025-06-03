@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Manda os Teus dons celestes",
   "tone": {
     "recommended": "F"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                                     C           ",
-            "lyrics": "Os Teus fiéis, reunidos ante a Tua presença,"
-          },
-          {
-            "chords": "                                 F",
-            "lyrics": "O santo Consolador esperam, ó Senhor."
-          },
-          {
-            "chords": "                                            C",
-            "lyrics": "Todos, contritos, clamamos com fé e com reverência;"
-          },
-          {
-            "chords": "                                        F",
-            "lyrics": "Cumpre em nós a promessa de Deus, o Criador."
-          }
+        "text": [
+          "[F]Os Teus fiéis, reunidos ante a Tua pre[C]sença,",
+          "O santo Consolador esperam, ó Sen[F]hor.",
+          "Todos, contritos, clamamos com fé e com reve[C]rência;",
+          "Cumpre em nós a promessa de Deus, o Cria[F]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F                    C                    F",
-            "lyrics": "Manda os Teus dons celestes pelo Espírito Santo;"
-          },
-          {
-            "chords": "                     Bb    C             F",
-            "lyrics": "Cobre os fiéis com o manto do teu Consolador."
-          }
+        "text": [
+          "[F]Manda os Teus dons ce[C]lestes pelo Espírito [F]Santo;",
+          "Cobre os fiéis com o [Bb]manto [C]do teu Consola[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                                              C",
-            "lyrics": "Os Teus fiéis, reunidos, buscam os Teus dons celestes;"
-          },
-          {
-            "chords": "                                       F",
-            "lyrics": "Clamam com todo o fervor: atende, ó Senhor!"
-          },
-          {
-            "chords": "                                           C  ",
-            "lyrics": "Esperançosos, aguardam, crendo no que prometeste;"
-          },
-          {
-            "chords": "                                     F",
-            "lyrics": "Faze que todos sintamos o Teu Consolador."
-          }
+        "text": [
+          "[F]Os Teus fiéis, reunidos, buscam os Teus dons ce[C]lestes;",
+          "Clamam com todo o fervor: atende, ó Sen[F]hor!",
+          "Esperançosos, aguardam, crendo no que prome[C]teste;",
+          "Faze que todos sintamos o Teu Consola[F]dor."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F                                          C      ",
-            "lyrics": "Os Teus fiéis, reunidos, constantemente clamando,"
-          },
-          {
-            "chords": "                                     F",
-            "lyrics": "Sentem, ó bom Redentor, celestial fervor;"
-          },
-          {
-            "chords": "                                              C  ",
-            "lyrics": "Pacientemente esperamos, sempre, com fé, implorando:"
-          },
-          {
-            "chords": "                                          F",
-            "lyrics": "Vem, ó Senhor, confirmar-nos com o Consolador!"
-          }
+        "text": [
+          "[F]Os Teus fiéis, reunidos, constantemente cla[C]mando,",
+          "Sentem, ó bom Redentor, celestial fer[F]vor;",
+          "Pacientemente esperamos, sempre, com fé, implo[C]rando:",
+          "Vem, ó Senhor, confirmar-nos com o Consola[F]dor!"
         ]
       },
       {

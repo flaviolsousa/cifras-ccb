@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Mestre habita em mim",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "Conversão gloriosa_operou-se_em meu ser,"
-          },
-          {
-            "chords": "     D                A",
-            "lyrics": "Pois Cristo habita em mim;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Sinto paz que outrora não pude haver;"
-          },
-          {
-            "chords": "  B7               E    E... ",
-            "lyrics": "O Mestre habita em mim."
-          }
+        "text": [
+          "Conver[A]são gloriosa_operou-se_em meu ser,",
+          "Pois [D]Cristo habita em [A]mim;",
+          "Sinto paz que outrora não pude haver;",
+          "O [B7]Mestre habita em [E]mim.[E...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    A",
-            "lyrics": "Com Cristo em meu coração"
-          },
-          {
-            "chords": "   D                A",
-            "lyrics": "Eu sinto real salvação."
-          },
-          {
-            "chords": "                               A...",
-            "lyrics": "Venturoso, aguardo a glória de Deus,"
-          },
-          {
-            "chords": "     E                   A",
-            "lyrics": "Pois Cristo me leva aos céus."
-          }
+        "text": [
+          "Com [A]Cristo em meu coração",
+          "Eu [D]sinto real salvaç[A]ão.",
+          "Venturoso, aguardo a glória de [A...]Deus,",
+          "Pois [E]Cristo me leva aos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A",
-            "lyrics": "Separado da senda do mal eu estou,"
-          },
-          {
-            "chords": "     D                A",
-            "lyrics": "Pois Cristo habita em mim;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Dos pecados passados Deus me perdoou;"
-          },
-          {
-            "chords": "  B7               E    E... ",
-            "lyrics": "O Mestre habita em mim."
-          }
+        "text": [
+          "Sepa[A]rado da senda do mal eu estou,",
+          "Pois [D]Cristo habita em [A]mim;",
+          "Dos pecados passados Deus me perdoou;",
+          "O [B7]Mestre habita em [E]mim.[E...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Findarei os meus dias na graça de Deus,"
-          },
-          {
-            "chords": "     D                A",
-            "lyrics": "Pois Cristo habita em mim;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Sentirei Sua paz, pois irei para_os céus;"
-          },
-          {
-            "chords": "  B7               E    E... ",
-            "lyrics": "O Mestre habita em mim."
-          }
+        "text": [
+          "Finda[A]rei os meus dias na graça de Deus,",
+          "Pois [D]Cristo habita em [A]mim;",
+          "Sentirei Sua paz, pois irei para_os céus;",
+          "O [B7]Mestre habita em [E]mim.[E...]"
         ]
       },
       {

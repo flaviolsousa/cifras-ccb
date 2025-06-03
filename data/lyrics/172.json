@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Um culto santo ao Senhor",
   "tone": {
     "recommended": "C"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         C           G ",
-            "lyrics": "Um culto santo ao Senhor"
-          },
-          {
-            "chords": "                   C",
-            "lyrics": "Foi celebrado com amor;"
-          },
-          {
-            "chords": "             C7      F ",
-            "lyrics": "Foi recebido lá nos céus"
-          },
-          {
-            "chords": "          C   G     C",
-            "lyrics": "Por nosso poderoso Deus."
-          }
+        "text": [
+          "Um culto [C]santo ao Sen[G]hor",
+          "Foi celebrado com a[C]mor;",
+          "Foi recebido [C7]lá nos c[F]éus",
+          "Por nosso [C]pode[G]roso D[C]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         C           G ",
-            "lyrics": "Um novo_alento há em nós,"
-          },
-          {
-            "chords": "                        C",
-            "lyrics": "Pois Deus ouviu a nossa voz;"
-          },
-          {
-            "chords": "             C7     F ",
-            "lyrics": "A sã Palavra nos mandou"
-          },
-          {
-            "chords": "         C      G   C",
-            "lyrics": "E nossas forças renovou."
-          }
+        "text": [
+          "Um novo_a[C]lento há em [G]nós,",
+          "Pois Deus ouviu a nossa [C]voz;",
+          "A sã Palavra [C7]nos man[F]dou",
+          "E nossas [C]forças [G]reno[C]vou."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         C         G ",
-            "lyrics": "Com o conselho divinal"
-          },
-          {
-            "chords": "                     C",
-            "lyrics": "Suplantaremos todo_o mal;"
-          },
-          {
-            "chords": "                C7      F ",
-            "lyrics": "E, face_a face, lá nos céus,"
-          },
-          {
-            "chords": "        C     G       C",
-            "lyrics": "Veremos nosso grande Deus."
-          }
+        "text": [
+          "Com o con[C]selho divi[G]nal",
+          "Suplantaremos todo_o [C]mal;",
+          "E, face_a face, [C7]lá nos c[F]éus,",
+          "Veremos [C]nosso [G]grande D[C]eus."
         ]
       }
     ]

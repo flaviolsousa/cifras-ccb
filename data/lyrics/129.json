@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Salvo estou por Jesus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        B                             E ",
-            "lyrics": "Certo_estou de que Cristo Jesus é meu Rei,"
-          },
-          {
-            "chords": "     F#               B",
-            "lyrics": "De minh´alma é o Protetor;"
-          },
-          {
-            "chords": "                               E ",
-            "lyrics": "Vou avante com fé, junto à Sua grei,"
-          },
-          {
-            "chords": "      F#                B",
-            "lyrics": "Com a força do meu Salvador."
-          }
+        "text": [
+          "Certo_es[B]tou de que Cristo Jesus é meu [E]Rei,",
+          "De mi[F#]nh´alma é o Prote[B]tor;",
+          "Vou avante com fé, junto à Sua [E]grei,",
+          "Com a [F#]força do meu Salva[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        B                    ",
-            "lyrics": "Salvo_estou por Jesus, o meu bom Salvador,"
-          },
-          {
-            "chords": "                      F#    F#... ",
-            "lyrics": "Cumprirá Sua obra de_amor,"
-          },
-          {
-            "chords": "     B                    E       E... ",
-            "lyrics": "Vou avante por graça, com fé no Senhor,"
-          },
-          {
-            "chords": "     B        F#      B",
-            "lyrics": "Meu amado_e divino Pastor."
-          }
+        "text": [
+          "Salvo_es[B]tou por Jesus, o meu bom Salvador,",
+          "Cumprirá Sua obra de_a[F#]mor,[F#...]",
+          "Vou a[B]vante por graça, com [E]fé no Se[E...]nhor,",
+          "Meu a[B]mado_e di[F#]vino Pas[B]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        B                              E ",
-            "lyrics": "Certo_estou de que Cristo,_o fiel Salvador,"
-          },
-          {
-            "chords": "      F#              B",
-            "lyrics": "Cumprirá Sua obra de_amor,"
-          },
-          {
-            "chords": "                                   E ",
-            "lyrics": "Obra_eterna, perfeita, de grande valor,"
-          },
-          {
-            "chords": "    F#                 B",
-            "lyrics": "Ordenada por Deus, Criador."
-          }
+        "text": [
+          "Certo_es[B]tou de que Cristo,_o fiel Salva[E]dor,",
+          "Cumpri[F#]rá Sua obra de_a[B]mor,",
+          "Obra_eterna, perfeita, de grande va[E]lor,",
+          "Orde[F#]nada por Deus, Cria[B]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        B                         E ",
-            "lyrics": "Certo_estou de que meu poderoso Jesus"
-          },
-          {
-            "chords": "       F#                 B",
-            "lyrics": "Dar-me-á sempre força_e valor,"
-          },
-          {
-            "chords": "                                         E ",
-            "lyrics": "E também mais virtude, mais graça_e mais luz;"
-          },
-          {
-            "chords": "    F#                  B",
-            "lyrics": "A Jesus servirei com fervor."
-          }
+        "text": [
+          "Certo_es[B]tou de que meu poderoso Je[E]sus",
+          "Dar-me-[F#]á sempre força_e va[B]lor,",
+          "E também mais virtude, mais graça_e mais [E]luz;",
+          "A Je[F#]sus servirei com fer[B]vor."
         ]
       },
       {

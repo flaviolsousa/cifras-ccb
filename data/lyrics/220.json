@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo voltará",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                  C7        F ",
-            "lyrics": "Com poder e glória e total vitória,"
-          },
-          {
-            "chords": "C                        G ",
-            "lyrics": "Cristo, sobre_as nuvens, breve voltará;"
-          },
-          {
-            "chords": "C                   C7         F ",
-            "lyrics": "Oh! Que grande dia! Oh! Que alegria!"
-          },
-          {
-            "chords": "C               G           C",
-            "lyrics": "Para os fiéis o pranto findará."
-          }
+        "text": [
+          "[C]Com poder e glória [C7]e total vi[F]tória,",
+          "[C]Cristo, sobre_as nuvens, [G]breve voltará;",
+          "[C]Oh! Que grande dia! [C7]Oh! Que ale[F]gria!",
+          "[C]Para os fiéis o [G]pranto finda[C]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C               F           C",
-            "lyrics": "Cristo voltará, Cristo voltará,"
-          },
-          {
-            "chords": "               G ",
-            "lyrics": "E a Sua_igreja arrebatará;"
-          },
-          {
-            "chords": "C                F      C",
-            "lyrics": "E, então, no céu a coroará"
-          },
-          {
-            "chords": "                    G             C",
-            "lyrics": "Com a glória_eterna que_Ele lhe dará."
-          }
+        "text": [
+          "[C]Cristo voltará, [F]Cristo volta[C]rá,",
+          "E a Sua_igreja [G]arrebatará;",
+          "[C]E, então, no céu [F]a coroa[C]rá",
+          "Com a glória_eterna [G]que_Ele lhe da[C]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                  C7        F ",
-            "lyrics": "Eis que se apressa a fiel promessa"
-          },
-          {
-            "chords": "C                    G ",
-            "lyrics": "Do Senhor Jesus, que breve_há de voltar;"
-          },
-          {
-            "chords": "C                C7          F ",
-            "lyrics": "Quero nesse dia, cheio de_alegria,"
-          },
-          {
-            "chords": "C                      G           C",
-            "lyrics": "Juntamente_aos salvos, Cristo encontrar."
-          }
+        "text": [
+          "[C]Eis que se apressa [C7]a fiel pro[F]messa",
+          "[C]Do Senhor Jesus, que [G]breve_há de voltar;",
+          "[C]Quero nesse dia, [C7]cheio de_ale[F]gria,",
+          "[C]Juntamente_aos salvos, [G]Cristo encon[C]trar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                C7             F ",
-            "lyrics": "Sempre vigiando, contra_o mal lutando,"
-          },
-          {
-            "chords": "C                G ",
-            "lyrics": "Vamos aguardar a volta do Senhor;"
-          },
-          {
-            "chords": "C                C7            F ",
-            "lyrics": "O que for achado servindo_ao pecado,"
-          },
-          {
-            "chords": "C                  G         C",
-            "lyrics": "Não terá lugar nas bodas de amor."
-          }
+        "text": [
+          "[C]Sempre vigiando, [C7]contra_o mal lu[F]tando,",
+          "[C]Vamos aguardar a [G]volta do Senhor;",
+          "[C]O que for achado [C7]servindo_ao pe[F]cado,",
+          "[C]Não terá lugar nas [G]bodas de a[C]mor."
         ]
       },
       {

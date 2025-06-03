@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Breve voltará Jesus Cristo",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G          D                   G",
-            "lyrics": "Que júbilo sem par haveremos de sentir,"
-          },
-          {
-            "chords": "                               D      D...",
-            "lyrics": "Quando, sobre_as nuvens, nosso Rei surgir!"
-          },
-          {
-            "chords": "  G       D                     G",
-            "lyrics": "A Si atrairá os eleitos do bom Deus"
-          },
-          {
-            "chords": "         C          G          D        G",
-            "lyrics": "Que, com grande regozijo, entrarão nos céus."
-          }
+        "text": [
+          "Que [G]júbilo sem [D]par haveremos de sen[G]tir,",
+          "Quando, sobre_as nuvens, nosso [D]Rei sur[D...]gir!",
+          "A [G]Si atrai[D]rá os eleitos do bom D[G]eus",
+          "Que, com [C]grande rego[G]zijo, entra[D]rão nos c[G]éus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B          Em        B          Em",
-            "lyrics": "Breve voltará Jesus Cristo, o Senhor,"
-          },
-          {
-            "chords": "D          G          D           G",
-            "lyrics": "Breve voltará em Seu grande esplendor,"
-          },
-          {
-            "chords": "              D      Em         B",
-            "lyrics": "Com os santos anjos, que recolherão"
-          },
-          {
-            "chords": "C            G             D     G ",
-            "lyrics": "Os que já inscritos lá no céu estão."
-          }
+        "text": [
+          "[B]Breve volta[Em]rá Jesus C[B]risto, o Se[Em]nhor,",
+          "[D]Breve volta[G]rá em Seu g[D]rande esplen[G]dor,",
+          "Com os santos [D]anjos, [Em]que recolhe[B]rão",
+          "[C]Os que já ins[G]critos lá no c[D]éu est[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G          D                    G",
-            "lyrics": "Do mundo_a ilusão não nos deve seduzir,"
-          },
-          {
-            "chords": "                          D     D...",
-            "lyrics": "Pois herança_eterna temos no porvir;"
-          },
-          {
-            "chords": "   G         D                    G",
-            "lyrics": "A glória perenal que iremos desfrutar,"
-          },
-          {
-            "chords": "       C          G             D    G",
-            "lyrics": "Todo_o ouro deste mundo não nos pode dar."
-          }
+        "text": [
+          "Do [G]mundo_a ilu[D]são não nos deve sedu[G]zir,",
+          "Pois herança_eterna temos [D]no por[D...]vir;",
+          "A g[G]lória pere[D]nal que iremos desfru[G]tar,",
+          "Todo_o [C]ouro deste [G]mundo não nos [D]pode [G]dar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G           D                 G",
-            "lyrics": "Com glória, entrarão na cidade eternal"
-          },
-          {
-            "chords": "                      D   D...",
-            "lyrics": "Os amados do Cordeiro divinal;"
-          },
-          {
-            "chords": "    G              D                    G",
-            "lyrics": "Ao que vencer, por fé, este mundo_enganador,"
-          },
-          {
-            "chords": "     C          G            D    G",
-            "lyrics": "Novo nome lhe dará no céu, o Redentor."
-          }
+        "text": [
+          "Com g[G]lória, entra[D]rão na cidade eter[G]nal",
+          "Os amados do Cordeiro [D]divi[D...]nal;",
+          "Ao q[G]ue vencer, por [D]fé, este mundo_engana[G]dor,",
+          "Novo [C]nome lhe da[G]rá no céu, o [D]Reden[G]tor."
         ]
       },
       {

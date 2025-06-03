@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Arrebatado aos céus",
   "tone": {
     "recommended": "C"
@@ -9,98 +9,38 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  C                  G        C",
-            "lyrics": "O rijo clamor da trombeta_ouvirão"
-          },
-          {
-            "chords": "                          Dm7     G ",
-            "lyrics": "Os filhos de Deus, que ao céu subirão;"
-          },
-          {
-            "chords": "                   F        C",
-            "lyrics": "Vindo em nuvens, Jesus surgirá"
-          },
-          {
-            "chords": "  F         G        C",
-            "lyrics": "E visto por todos os homens será;"
-          },
-          {
-            "chords": "     D                  G  ",
-            "lyrics": "Seus anjos virão, deste mundo, levar"
-          },
-          {
-            "chords": "   D                 G   ",
-            "lyrics": "Os que, com Cristo, irão reinar."
-          },
-          {
-            "chords": "    D             G ",
-            "lyrics": "Que dia de júbilo e_esplendor!"
-          },
-          {
-            "chords": "    D                    G   G... ",
-            "lyrics": "Oh! Glória_a Jesus, o Senhor!"
-          }
+        "text": [
+          "O [C]rijo clamor da trom[G]beta_ouvi[C]rão",
+          "Os filhos de Deus, que ao [Dm7]céu subi[G]rão;",
+          "Vindo em nuvens, Je[F]sus surgi[C]rá",
+          "E [F]visto por [G]todos os [C]homens será;",
+          "Seus [D]anjos virão, deste [G]mundo, levar",
+          "Os [D]que, com Cristo, i[G]rão reinar.",
+          "Que [D]dia de júbilo [G]e_esplendor!",
+          "Oh! [D]Glória_a Jesus, o Sen[G]hor![G...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                                     G ",
-            "lyrics": "Arrebato_aos céus, por Cristo,_eterno Rei,"
-          },
-          {
-            "chords": "                                            C",
-            "lyrics": "Lá eu verei o grande Deus; oh! quão feliz serei!"
-          },
-          {
-            "chords": "                                 F     Dm7 ",
-            "lyrics": "Cristo Jesus dará aos escolhidos Seus"
-          },
-          {
-            "chords": "G           C     F     G       C    C...",
-            "lyrics": "A eternal morada: Jerusalém de Deus."
-          }
+        "text": [
+          "[C]Arrebato_aos céus, por Cristo,_eterno [G]Rei,",
+          "Lá eu verei o grande Deus; oh! quão feliz se[C]rei!",
+          "Cristo Jesus dará aos escolhidos [F]Seus[Dm7]",
+          "[G]A eternal mo[C]rada: [F]Jerusa[G]lém de D[C]eus.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    C                 G       C",
-            "lyrics": "Aos Seus resgatados dirá o Senhor:"
-          },
-          {
-            "chords": "                           Dm7     G ",
-            "lyrics": "“Oh! Vinde, benditos”, com grande amor,"
-          },
-          {
-            "chords": "                  F         C",
-            "lyrics": "Um reino_eterno o Pai nos doou,"
-          },
-          {
-            "chords": "    F           G         C",
-            "lyrics": "Que desde_o princípio_Ele nos preparou."
-          },
-          {
-            "chords": " D                 G ",
-            "lyrics": "Ainda um pouco_e Jesus voltará;"
-          },
-          {
-            "chords": "  D              G ",
-            "lyrics": "A Sua_igreja O_encontrará."
-          },
-          {
-            "chords": "    D             G ",
-            "lyrics": "Que dia de júbilo e_esplendor!"
-          },
-          {
-            "chords": "    D                    G   G... ",
-            "lyrics": "Oh! Glória_a Jesus, o Senhor!"
-          }
+        "text": [
+          "Aos [C]Seus resgatados di[G]rá o Sen[C]hor:",
+          "“Oh! Vinde, benditos”, com [Dm7]grande a[G]mor,",
+          "Um reino_eterno o [F]Pai nos do[C]ou,",
+          "Que [F]desde_o prin[G]cípio_Ele [C]nos preparou.",
+          "A[D]inda um pouco_e Je[G]sus voltará;",
+          "A [D]Sua_igreja O_en[G]contrará.",
+          "Que [D]dia de júbilo [G]e_esplendor!",
+          "Oh! [D]Glória_a Jesus, o Sen[G]hor![G...]"
         ]
       },
       {

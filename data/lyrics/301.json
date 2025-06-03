@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Nossa Esperança é Jesus",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E               B ",
-            "lyrics": "Nossa Esperança é Jesus;"
-          },
-          {
-            "chords": "                  E",
-            "lyrics": "Ele, nesta graça, nos conduz"
-          },
-          {
-            "chords": "                 A  ",
-            "lyrics": "Bem alegres pela comunhão"
-          },
-          {
-            "chords": "B                   E",
-            "lyrics": "Que nos traz consolação."
-          }
+        "text": [
+          "[E]Nossa Esperança [B]é Jesus;",
+          "Ele, nesta graça, [E]nos conduz",
+          "Bem alegres pela [A]comunhão",
+          "[B]Que nos traz consola[E]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B                 E",
-            "lyrics": "Só a Jesus Cristo seguiremos,"
-          },
-          {
-            "chords": "B             E",
-            "lyrics": "Ele é o nosso bom Pastor;"
-          },
-          {
-            "chords": "                   A ",
-            "lyrics": "E, ao fim, com Ele reinaremos"
-          },
-          {
-            "chords": "B                  E",
-            "lyrics": "Na cidade de_esplendor."
-          }
+        "text": [
+          "[B]Só a Jesus Cristo [E]seguiremos,",
+          "[B]Ele é o nosso [E]bom Pastor;",
+          "E, ao fim, com Ele [A]reinaremos",
+          "[B]Na cidade de_esplen[E]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E                        B ",
-            "lyrics": "Cristo,_o Rei dos reis e Salvador,"
-          },
-          {
-            "chords": "                    E",
-            "lyrics": "Faz-nos caminhar em Seu amor;"
-          },
-          {
-            "chords": "               A ",
-            "lyrics": "Do pecado veio nos remir,"
-          },
-          {
-            "chords": "B                E",
-            "lyrics": "Para um feliz porvir."
-          }
+        "text": [
+          "[E]Cristo,_o Rei dos reis e [B]Salvador,",
+          "Faz-nos caminhar em [E]Seu amor;",
+          "Do pecado veio [A]nos remir,",
+          "[B]Para um feliz por[E]vir."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E                 B ",
-            "lyrics": "Neste mundo cheio de_ilusão"
-          },
-          {
-            "chords": "                    E",
-            "lyrics": "Só em Cristo_existe salvação;"
-          },
-          {
-            "chords": "                A ",
-            "lyrics": "Ele nos concede graça_e luz"
-          },
-          {
-            "chords": "B                 E",
-            "lyrics": "E à glória nos conduz."
-          }
+        "text": [
+          "[E]Neste mundo cheio [B]de_ilusão",
+          "Só em Cristo_existe [E]salvação;",
+          "Ele nos concede [A]graça_e luz",
+          "[B]E à glória nos con[E]duz."
         ]
       },
       {

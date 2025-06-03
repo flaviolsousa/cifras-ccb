@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Nosso Pai celeste sabe e provê",
   "tone": {
     "recommended": "D"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      D           Em ",
-            "lyrics": "Nosso Pai celeste sabe_e provê"
-          },
-          {
-            "chords": "      A           D",
-            "lyrics": "O que temos de mister;"
-          },
-          {
-            "chords": "          B7    Em ",
-            "lyrics": "Nada deixará faltar ao que crê,"
-          },
-          {
-            "chords": "     A              D",
-            "lyrics": "Pois grande é Seu poder."
-          }
+        "text": [
+          "Nosso [D]Pai celeste [Em]sabe_e provê",
+          "O que [A]temos de mis[D]ter;",
+          "Nada deixa[B7]rá fal[Em]tar ao que crê,",
+          "Pois [A]grande é Seu po[D]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D  A    D                             A ",
-            "lyrics": "Sempre, com fé, procuremos agradar a Deus;"
-          },
-          {
-            "chords": "                                         D",
-            "lyrics": "Sempre, por fé, aceitemos o que vem dos céus;"
-          },
-          {
-            "chords": "     A    D             D7                G ",
-            "lyrics": "Deus tem, por nós, o cuidado santo_e paternal;"
-          },
-          {
-            "chords": "        G#°         D     B7 ",
-            "lyrics": "Glória, sempiterna glória ao Deus vivo,"
-          },
-          {
-            "chords": "Em          A    D",
-            "lyrics": "Nosso Pai celestial!"
-          }
+        "text": [
+          "[D]Sem[A]pre, [D]com fé, procuremos agradar a D[A]eus;",
+          "Sempre, por fé, aceitemos o que vem dos c[D]éus;",
+          "Deus [A]tem, [D]por nós, o cui[D7]dado santo_e pater[G]nal;",
+          "Glória, [G#°]sempiterna g[D]lória [B7]ao Deus vivo,",
+          "[Em]Nosso Pai ce[A]lesti[D]al!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    D           Em ",
-            "lyrics": "Duvidosos não devemos estar,"
-          },
-          {
-            "chords": "          A         D",
-            "lyrics": "Pois Deus tudo proverá;"
-          },
-          {
-            "chords": "           B7      Em ",
-            "lyrics": "Caminhemos firmes, sem vacilar,"
-          },
-          {
-            "chords": " A               D",
-            "lyrics": "Ajuda dos céus virá."
-          }
+        "text": [
+          "Duvi[D]dosos não de[Em]vemos estar,",
+          "Pois Deus [A]tudo prove[D]rá;",
+          "Caminhemos [B7]firmes, [Em]sem vacilar,",
+          "A[A]juda dos céus vi[D]rá."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       D            Em ",
-            "lyrics": "Que cuidado tem das aves dos céus"
-          },
-          {
-            "chords": "      A          D",
-            "lyrics": "Nosso Pai celestial!"
-          },
-          {
-            "chords": "             B7    Em ",
-            "lyrics": "Muita mais terá cuidado dos Seus,"
-          },
-          {
-            "chords": "    A             D",
-            "lyrics": "Com Seu zelo paternal."
-          }
+        "text": [
+          "Que cui[D]dado tem das [Em]aves dos céus",
+          "Nosso [A]Pai celesti[D]al!",
+          "Muita mais te[B7]rá cui[Em]dado dos Seus,",
+          "Com [A]Seu zelo pater[D]nal."
         ]
       },
       {

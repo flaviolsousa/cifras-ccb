@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Pródigo filho, vai!",
   "tone": {
     "recommended": "D"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                   A                   D",
-            "lyrics": "Deus, no Seu lar, espera o filho que perdera"
-          },
-          {
-            "chords": "            B7  Em  A              D",
-            "lyrics": "E que amado e - ra; pródigo filho, vai!"
-          }
+        "text": [
+          "[D]Deus, no Seu lar, es[A]pera o filho que per[D]dera",
+          "E que amado [B7]e - [Em]ra; [A]pródigo filho, [D]vai!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                Em    A7               D",
-            "lyrics": "Oh! Vai a Deus e cla - ma; o Criador te ama;"
-          },
-          {
-            "chords": "B7             E7                    A7     ",
-            "lyrics": "O Seu perdão implora; pródigo filho, vai a Deus!"
-          },
-          {
-            "chords": "D            Em   A7                     D",
-            "lyrics": "Ele mercê conce - de, Cristo por ti_intercede;"
-          },
-          {
-            "chords": "             B7   Em   A7                 D ",
-            "lyrics": "Se te arrepende - res, bens te dará, dos céus."
-          }
+        "text": [
+          "[D]Oh! Vai a Deus e [Em]cla - [A7]ma; o Criador te [D]ama;",
+          "[B7]O Seu perdão im[E7]plora; pródigo filho, [A7]vai a Deus!",
+          "[D]Ele mercê con[Em]ce - [A7]de, Cristo por ti_inter[D]cede;",
+          "Se te arrepen[B7]de - [Em]res, [A7]bens te dará, dos c[D]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                  A                D",
-            "lyrics": "Seu filho, Deus perdoa, muito o abençoa,"
-          },
-          {
-            "chords": "               B7   Em   A              D",
-            "lyrics": "De bênçãos o coro - a;   pródigo filho, vai!"
-          }
+        "text": [
+          "[D]Seu filho, Deus per[A]doa, muito o aben[D]çoa,",
+          "De bênçãos o co[B7]ro - [Em]a;   [A]pródigo filho, [D]vai!"
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D            A                 D",
-            "lyrics": "Deixa a incerteza e toda a tristeza;"
-          },
-          {
-            "chords": "                 B7    Em  A              D",
-            "lyrics": "Com Deus terás rique - za; pródigo filho, vai!"
-          }
+        "text": [
+          "[D]Deixa a incer[A]teza e toda a tris[D]teza;",
+          "Com Deus terás ri[B7]que - [Em]za; [A]pródigo filho, [D]vai!"
         ]
       },
       {

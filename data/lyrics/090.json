@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu destino é a glória",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Pela fé, irmão querido,"
-          },
-          {
-            "chords": "        B         E7   A",
-            "lyrics": "Serve_a Cristo,_o Redentor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Não te deixes ser vencido,"
-          },
-          {
-            "chords": "        B7       E7     A",
-            "lyrics": "Vence_o mal, com teu Senhor."
-          }
+        "text": [
+          "Pela [A]fé, irmão querido,",
+          "Serve_a [B]Cristo,_o [E7]Reden[A]tor;",
+          "Não te deixes ser vencido,",
+          "Vence_o [B7]mal, com [E7]teu Sen[A]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A      E7        A",
-            "lyrics": "Teu destino é a glória,"
-          },
-          {
-            "chords": "    B7          E ",
-            "lyrics": "A herança dos fiéis;"
-          },
-          {
-            "chords": "    A",
-            "lyrics": "É segura a vitória"
-          },
-          {
-            "chords": "      B7   E7      A",
-            "lyrics": "Que dará o Rei dos reis."
-          }
+        "text": [
+          "[A]Teu des[E7]tino é a g[A]lória,",
+          "A he[B7]rança dos fi[E]éis;",
+          "É se[A]gura a vitória",
+          "Que da[B7]rá o [E7]Rei dos [A]reis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "Oh! Levanta_as mãos cansadas"
-          },
-          {
-            "chords": "      B     E7    A",
-            "lyrics": "E não olhes para trás,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois serão fortificadas"
-          },
-          {
-            "chords": "     B7    E7     A",
-            "lyrics": "Pelo Príncipe da paz."
-          }
+        "text": [
+          "Oh! Le[A]vanta_as mãos cansadas",
+          "E não [B]olhes [E7]para t[A]rás,",
+          "Pois serão fortificadas",
+          "Pelo [B7]Prínci[E7]pe da p[A]az."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         A",
-            "lyrics": "Segue_as obras do teu Mestre,"
-          },
-          {
-            "chords": "       B     E7      A",
-            "lyrics": "Marcha firme para_o céu;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele é a Luz celeste,"
-          },
-          {
-            "chords": "       B7      E7      A",
-            "lyrics": "Que ilumina_os passos teus."
-          }
+        "text": [
+          "Segue_as [A]obras do teu Mestre,",
+          "Marcha [B]firme [E7]para_o c[A]éu;",
+          "Ele é a Luz celeste,",
+          "Que ilu[B7]mina_os [E7]passos t[A]eus."
         ]
       },
       {
@@ -104,23 +56,11 @@
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "    A",
-            "lyrics": "A Palavra da verdade,"
-          },
-          {
-            "chords": "    B    E7  A",
-            "lyrics": "A Espada divinal,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Te conserva_em santidade"
-          },
-          {
-            "chords": "       B7    E7   A",
-            "lyrics": "Para_o reino eternal."
-          }
+        "text": [
+          "A Pa[A]lavra da verdade,",
+          "A Es[B]pada [E7]divi[A]nal,",
+          "Te conserva_em santidade",
+          "Para_o [B7]reino [E7]etern[A]al."
         ]
       },
       {

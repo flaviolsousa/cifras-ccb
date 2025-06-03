@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó bom Jesus, meu caro Jesus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                F#      B",
-            "lyrics": "Ó bom Jesus, Teu santo falar"
-          },
-          {
-            "chords": "E        B    C#7     F# ",
-            "lyrics": "Sempre comove meu coração;"
-          },
-          {
-            "chords": "B              F#         B",
-            "lyrics": "Faz-me um vaso para Te_honrar;"
-          },
-          {
-            "chords": "          E      F#     B",
-            "lyrics": "Dá-me, Senhor, a Tua unção."
-          }
+        "text": [
+          "[B]Ó bom Jesus, Teu [F#]santo fa[B]lar",
+          "[E]Sempre co[B]move [C#7]meu cora[F#]ção;",
+          "[B]Faz-me um vaso [F#]para Te_hon[B]rar;",
+          "Dá-me, Sen[E]hor, a [F#]Tua unç[B]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B       E               B",
-            "lyrics": "Ó bom Jesus, meu caro Jesus,"
-          },
-          {
-            "chords": "          C#7          F# ",
-            "lyrics": "Faz deste vaso, ó Redentor,"
-          },
-          {
-            "chords": "B       E              B",
-            "lyrics": "Vaso de honra, graça e luz,"
-          },
-          {
-            "chords": "        E       F#       B    B...",
-            "lyrics": "Para louvar-Te, ó meu Senhor."
-          }
+        "text": [
+          "[B]Ó bom Je[E]sus, meu caro Je[B]sus,",
+          "Faz deste [C#7]vaso, ó Reden[F#]tor,",
+          "[B]Vaso de [E]honra, graça e [B]luz,",
+          "Para lou[E]var-Te, [F#]ó meu Sen[B]hor.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B              F#     B",
-            "lyrics": "Neste deserto, caro Jesus,"
-          },
-          {
-            "chords": "E       B      C#7      F# ",
-            "lyrics": "Sou peregrino, por Teu amor;"
-          },
-          {
-            "chords": "B              F#      B",
-            "lyrics": "Vem dirigir-me com Tua luz,"
-          },
-          {
-            "chords": "        E      F#       B",
-            "lyrics": "Sê, ó Jesus, o meu Condutor."
-          }
+        "text": [
+          "[B]Neste deserto, [F#]caro Je[B]sus,",
+          "[E]Sou pere[B]grino, [C#7]por Teu a[F#]mor;",
+          "[B]Vem dirigir-me [F#]com Tua [B]luz,",
+          "Sê, ó Je[E]sus, o [F#]meu Condu[B]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B             F#      B",
-            "lyrics": "Pela Palavra, vem revelar"
-          },
-          {
-            "chords": "E      B    C#7       F# ",
-            "lyrics": "Tua vontade, o Teu querer,"
-          },
-          {
-            "chords": "B              F#       B",
-            "lyrics": "Pois eu desejo no céu entrar"
-          },
-          {
-            "chords": "         E       F#     B",
-            "lyrics": "Para, ao fim, Contigo viver."
-          }
+        "text": [
+          "[B]Pela Palavra, [F#]vem reve[B]lar",
+          "[E]Tua von[B]tade,[C#7] o Teu que[F#]rer,",
+          "[B]Pois eu desejo [F#]no céu en[B]trar",
+          "Para, ao [E]fim, Con[F#]tigo vi[B]ver."
         ]
       },
       {

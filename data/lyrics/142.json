@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Pai celestial",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  F                  C       F",
-            "lyrics": "Ó Pai celestial, de amor eternal,"
-          },
-          {
-            "chords": "  Bb                   F",
-            "lyrics": "Imploro com todo_o meu ser:"
-          },
-          {
-            "chords": "                       Bb       F",
-            "lyrics": "Vem me fortificar e também consolar"
-          },
-          {
-            "chords": "               C     F",
-            "lyrics": "Com o Teu glorioso poder."
-          }
+        "text": [
+          "Ó [F]Pai celestial, de a[C]mor eter[F]nal,",
+          "Im[Bb]ploro com todo_o meu [F]ser:",
+          "Vem me fortificar e tam[Bb]bém conso[F]lar",
+          "Com o Teu glori[C]oso po[F]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     F                    C ",
-            "lyrics": "Eu imploro com todo_o meu ser:"
-          },
-          {
-            "chords": "                        F",
-            "lyrics": "Pai, vem sempre me socorrer;"
-          },
-          {
-            "chords": "                F7        Bb       Gm... ",
-            "lyrics": "Com Teu santo vigor, eu serei vencedor"
-          },
-          {
-            "chords": "    C                  F",
-            "lyrics": "E verei Tua glória, Senhor."
-          }
+        "text": [
+          "Eu im[F]ploro com todo_o meu [C]ser:",
+          "Pai, vem sempre me socor[F]rer;",
+          "Com Teu santo vi[F7]gor, eu se[Bb]rei vence[Gm...]dor",
+          "E ve[C]rei Tua glória, Sen[F]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  F                    C          F",
-            "lyrics": "Fiel e bom Deus, dá-me graça dos céus"
-          },
-          {
-            "chords": "   Bb               F",
-            "lyrics": "De resistir ao tentador,"
-          },
-          {
-            "chords": "                      Bb       F",
-            "lyrics": "Que furioso está e tormento me dá"
-          },
-          {
-            "chords": "               C       F",
-            "lyrics": "Neste mundo de lutas e dor."
-          }
+        "text": [
+          "Fi[F]el e bom Deus, dá-me [C]graça dos c[F]éus",
+          "De [Bb]resistir ao tenta[F]dor,",
+          "Que furioso está e tor[Bb]mento me [F]dá",
+          "Neste mundo de [C]lutas e [F]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  F                      C      F",
-            "lyrics": "Ó Pai, vem me dar forças para lutar"
-          },
-          {
-            "chords": "  Bb                F",
-            "lyrics": "A fim de em tudo vencer;"
-          },
-          {
-            "chords": "                        Bb        F",
-            "lyrics": "Acrescenta-me_a fé e sustém-me de pé,"
-          },
-          {
-            "chords": "              C        F",
-            "lyrics": "Revestindo-me do Teu poder."
-          }
+        "text": [
+          "Ó [F]Pai, vem me dar forças [C]para lu[F]tar",
+          "A [Bb]fim de em tudo ven[F]cer;",
+          "Acrescenta-me_a fé e sus[Bb]tém-me de [F]pé,",
+          "Revestindo-me [C]do Teu po[F]der."
         ]
       },
       {

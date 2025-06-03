@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Que preciosa paz",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                B7 ",
-            "lyrics": "Oh! Que preciosa paz provém"
-          },
-          {
-            "chords": "E                A  E ",
-            "lyrics": "De Jesus, o Salvador!"
-          },
-          {
-            "chords": "A                  B7 ",
-            "lyrics": "Os fiéis desfrutam desse bem:"
-          },
-          {
-            "chords": "E                  A",
-            "lyrics": "Paz de Deus, o Criador."
-          }
+        "text": [
+          "[A]Oh! Que preciosa [B7]paz provém",
+          "[E]De Jesus, o Salva[A]dor[E]!",
+          "[A]Os fiéis desfrutam [B7]desse bem:",
+          "[E]Paz de Deus, o Cria[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A            Bm  E ",
-            "lyrics": "Oh! Que precio - sa"
-          },
-          {
-            "chords": "            A",
-            "lyrics": "É a paz de Deus!"
-          },
-          {
-            "chords": "            Bm ",
-            "lyrics": "Bênção gloriosa"
-          },
-          {
-            "chords": "E                    A",
-            "lyrics": "Que somente vem dos céus!"
-          }
+        "text": [
+          "[A]Oh! Que preci[Bm]o - [E]sa",
+          "É a paz de D[A]eus!",
+          "Bênção glori[Bm]osa",
+          "[E]Que somente vem dos c[A]éus!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                  B7 ",
-            "lyrics": "Para essa paz Deus nos chamou,"
-          },
-          {
-            "chords": "E                 A  E ",
-            "lyrics": "Por Jesus, o_Emanuel;"
-          },
-          {
-            "chords": "A                B7 ",
-            "lyrics": "Abundantemente_a derramou"
-          },
-          {
-            "chords": "E                 A",
-            "lyrics": "Sobre_o justo e fiel."
-          }
+        "text": [
+          "[A]Para essa paz Deus [B7]nos chamou,",
+          "[E]Por Jesus, o_Emanu[A]el;[E]",
+          "[A]Abundantemente_a [B7]derramou",
+          "[E]Sobre_o justo e fi[A]el."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                   B7 ",
-            "lyrics": "Só a paz de Deus protegerá"
-          },
-          {
-            "chords": "E                  A  E ",
-            "lyrics": "Nossa mente_e coração;"
-          },
-          {
-            "chords": "A                      B7 ",
-            "lyrics": "E, de transgredir, nos livrará,"
-          },
-          {
-            "chords": "E                   A",
-            "lyrics": "Vindo_a nós a tentação."
-          }
+        "text": [
+          "[A]Só a paz de Deus pro[B7]tegerá",
+          "[E]Nossa mente_e coraç[A]ão;[E]",
+          "[A]E, de transgredir, nos [B7]livrará,",
+          "[E]Vindo_a nós a tentaç[A]ão."
         ]
       },
       {

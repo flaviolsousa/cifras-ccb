@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Amo ao Senhor",
   "tone": {
     "recommended": "C"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                             G        C",
-            "lyrics": "Amo_ao Senhor, pois ouviu-me quando clamei;"
-          },
-          {
-            "chords": "                      A7   D      G",
-            "lyrics": "Ele_inclinou Seus ouvidos quando orei;"
-          },
-          {
-            "chords": "         C     C7       A7  Dm",
-            "lyrics": "Tive tristeza, tive_aflição,"
-          },
-          {
-            "chords": "G7          Am  D#°  G7      C",
-            "lyrics": "Mas Deus mandou-me   consolação."
-          }
+        "text": [
+          "[C]Amo_ao Senhor, pois ouviu-me q[G]uando cla[C]mei;",
+          "Ele_inclinou Seus ouvi[A7]dos q[D]uando o[G]rei;",
+          "Tive tris[C]teza, [C7]tive_afli[A7]ção,[Dm]",
+          "[G7]Mas Deus man[Am]dou-[D#°]me   [G7]consolaç[C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                    G        C",
-            "lyrics": "É piedoso_e sublime, o justo Deus;"
-          },
-          {
-            "chords": "                 A7  D           G",
-            "lyrics": "Ele tem misericórdia dos santos Seus."
-          },
-          {
-            "chords": "          C       C7      A7  Dm",
-            "lyrics": "Volta, minh´alma, a descansar,"
-          },
-          {
-            "chords": "G7        Am  D#°  G7          C",
-            "lyrics": "Bênção precio-sas  Deus vai te dar."
-          }
+        "text": [
+          "[C]É piedoso_e sublime, [G]o justo D[C]eus;",
+          "Ele tem misericór[A7]dia [D]dos santos S[G]eus.",
+          "Volta, min[C]h´alma, [C7]a descan[A7]sar,[Dm]",
+          "[G7]Bênção pre[Am]cio-[D#°]sas  [G7]Deus vai te [C]dar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                           G        C",
-            "lyrics": "Meus pés livraste da queda, ó meu Senhor,"
-          },
-          {
-            "chords": "                     A7  D       G",
-            "lyrics": "E preservaste do pranto Teu servidor."
-          },
-          {
-            "chords": "          C      C7       A7  Dm",
-            "lyrics": "Que posso dar-Te por esse bem,"
-          },
-          {
-            "chords": "G7        Am  D#°  G7       C",
-            "lyrics": "Que tão somen-te   de Ti provém?!"
-          }
+        "text": [
+          "[C]Meus pés livraste da queda, [G]ó meu Sen[C]hor,",
+          "E preservaste do pran[A7]to T[D]eu servi[G]dor.",
+          "Que posso [C]dar-Te [C7]por esse [A7]bem,[Dm]",
+          "[G7]Que tão so[Am]men-[D#°]te   [G7]de Ti pro[C]vém?!"
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "C                      G        C",
-            "lyrics": "Elevarei meus louvores a Ti, ó Deus,"
-          },
-          {
-            "chords": "                       A7   D          G",
-            "lyrics": "Diante de todo_o Teu povo, nos átrios Teus."
-          },
-          {
-            "chords": "          C    C7    A7  Dm",
-            "lyrics": "Teu santo Nome invocarei;"
-          },
-          {
-            "chords": "G7        Am   D#°  G7      C",
-            "lyrics": "Com minha vi - da   Te servirei."
-          }
+        "text": [
+          "[C]Elevarei meus louvores [G]a Ti, ó D[C]eus,",
+          "Diante de todo_o Teu po[A7]vo, n[D]os átrios T[G]eus.",
+          "Teu santo [C]Nome [C7]invoca[A7]rei;[Dm]",
+          "[G7]Com minha [Am]vi - [D#°]da   [G7]Te servi[C]rei."
         ]
       }
     ]

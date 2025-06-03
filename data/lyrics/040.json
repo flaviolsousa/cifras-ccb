@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Quando em mim Tu operaste",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "           A        D",
-            "lyrics": "Quanto_em mim Tu operaste"
-          },
-          {
-            "chords": "      E          A",
-            "lyrics": "Pelo Teu imenso_amor!"
-          },
-          {
-            "chords": "                  D",
-            "lyrics": "Graça_e força enviaste"
-          },
-          {
-            "chords": "     E             A",
-            "lyrics": "À minha´alma, ó Senhor."
-          }
+        "text": [
+          "Quanto_em m[A]im Tu ope[D]raste",
+          "Pelo T[E]eu imenso_a[A]mor!",
+          "Graça_e força envi[D]aste",
+          "À min[E]ha´alma, ó Sen[A]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E7                 A",
-            "lyrics": "Vem, Senhor Jesus, com virtude_e fé,"
-          },
-          {
-            "chords": "       D            C#",
-            "lyrics": "E com graça, fortificar"
-          },
-          {
-            "chords": "      D                A",
-            "lyrics": "O meu coração, que Teu templo é;"
-          },
-          {
-            "chords": "      B         E7  A",
-            "lyrics": "Quero sempre Te exaltar."
-          }
+        "text": [
+          "Vem, Se[E7]nhor Jesus, com vir[A]tude_e fé,",
+          "E com g[D]raça, fortifi[C#]car",
+          "O meu [D]coração, que Teu [A]templo é;",
+          "Quero [B]sempre Te [E7]exal[A]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A          D",
-            "lyrics": "O Espírito da graça,"
-          },
-          {
-            "chords": "       E             A",
-            "lyrics": "Que provém de Ti, Senhor,"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Sempre mais fiel me faça,"
-          },
-          {
-            "chords": "     E            A",
-            "lyrics": "Ó Jesus, meu Redentor."
-          }
+        "text": [
+          "O Es[A]pírito da g[D]raça,",
+          "Que pro[E]vém de Ti, Sen[A]hor,",
+          "Sempre mais fiel me [D]faça,",
+          "Ó Jes[E]us, meu Reden[A]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    A             D",
-            "lyrics": "Da eterna_e sã verdade"
-          },
-          {
-            "chords": "       E           A",
-            "lyrics": "Faz-me sempre seguidor,"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Quero_andar em santidade,"
-          },
-          {
-            "chords": "   E              A",
-            "lyrics": "Imitando_a Ti, Senhor."
-          }
+        "text": [
+          "Da e[A]terna_e sã ver[D]dade",
+          "Faz-me [E]sempre segui[A]dor,",
+          "Quero_andar em santi[D]dade,",
+          "Imi[E]tando_a Ti, Sen[A]hor."
         ]
       },
       {

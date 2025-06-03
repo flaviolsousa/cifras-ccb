@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Na cruz morreu o Cordeiro",
   "tone": {
     "recommended": "C"
@@ -9,115 +9,43 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Na cruz morreu o Cordeiro_inocente,"
-          },
-          {
-            "chords": "G                             C",
-            "lyrics": "Por meus pecados verteu o Seu sangue;"
-          },
-          {
-            "chords": "                 F       C",
-            "lyrics": "O Filho_amado do Onipotente,"
-          },
-          {
-            "chords": "G         C        G      C",
-            "lyrics": "Por mim sofreu amargura e dor."
-          },
-          {
-            "chords": "               G          C",
-            "lyrics": "Agonizando, bradou a Seu Pai,"
-          },
-          {
-            "chords": "G                   D7         G    G7",
-            "lyrics": "Com forte voz fez ouvir Seu clamor;"
-          },
-          {
-            "chords": "C                        Dm",
-            "lyrics": "Chegou a hora de tudo cumprir"
-          },
-          {
-            "chords": "F        G           C",
-            "lyrics": "Para dar vida ao pecador."
-          }
+        "text": [
+          "[C]Na cruz morreu o Cordeiro_inocente,",
+          "[G]Por meus pecados verteu o Seu [C]sangue;",
+          "O Filho_amado do [F]Onipoten[C]te,",
+          "[G]Por mim so[C]freu amar[G]gura e [C]dor.",
+          "Agonizando, bra[G]dou a Seu P[C]ai,",
+          "[G]Com forte voz fez ou[D7]vir Seu cla[G]mor;[G7]",
+          "[C]Chegou a hora de tudo cum[Dm]prir",
+          "[F]Para dar [G]vida ao peca[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Sinto um grande pesar em minh´alma"
-          },
-          {
-            "chords": "G                          C",
-            "lyrics": "Ao recordar-me do Seu sofrimento;"
-          },
-          {
-            "chords": "                      F              C",
-            "lyrics": "Cristo,_o Cordeiro, sofreu, tendo calma,"
-          },
-          {
-            "chords": "G          C       G       C",
-            "lyrics": "Para que_o homem pudesse viver."
-          },
-          {
-            "chords": "              G         C",
-            "lyrics": "Como oferta levada_ao altar,"
-          },
-          {
-            "chords": "G                   D7   G    G7",
-            "lyrics": "Foi Jesus Cristo Se oferecer"
-          },
-          {
-            "chords": "C                             Dm",
-            "lyrics": "Em sacrifício a Deus, Pai de_amor,"
-          },
-          {
-            "chords": "F       G                  C",
-            "lyrics": "Para cumprir todo_o Seu querer."
-          }
+        "text": [
+          "[C]Sinto um grande pesar em minh´alma",
+          "[G]Ao recordar-me do Seu sofri[C]mento;",
+          "Cristo,_o Cordeiro, so[F]freu, tendo cal[C]ma,",
+          "[G]Para que_o [C]homem pu[G]desse vi[C]ver.",
+          "Como oferta le[G]vada_ao al[C]tar,",
+          "[G]Foi Jesus Cristo Se [D7]ofere[G]cer[G7]",
+          "[C]Em sacrifício a Deus, Pai de_a[Dm]mor,",
+          "[F]Para cum[G]prir todo_o Seu que[C]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Cristo Jesus expirou no madeiro,"
-          },
-          {
-            "chords": "G                        C",
-            "lyrics": "Foi o Seu corpo levado à terra;"
-          },
-          {
-            "chords": "                    F        C",
-            "lyrics": "Mas, despontando o dia terceiro,"
-          },
-          {
-            "chords": "G          C       G      C",
-            "lyrics": "Não mais a morte O pôde reter."
-          },
-          {
-            "chords": "                 G          C",
-            "lyrics": "Tendo descido um anjo, dos céus,"
-          },
-          {
-            "chords": "G                 D7         G    G7",
-            "lyrics": "Não se puderam os guardas suster."
-          },
-          {
-            "chords": "C                           Dm",
-            "lyrics": "Aparecendo Jesus Cristo_aos Seus,"
-          },
-          {
-            "chords": "F            G             C",
-            "lyrics": "Disse: “Me_é dado todo_o poder.”"
-          }
+        "text": [
+          "[C]Cristo Jesus expirou no madeiro,",
+          "[G]Foi o Seu corpo levado à [C]terra;",
+          "Mas, despontando o d[F]ia tercei[C]ro,",
+          "[G]Não mais a [C]morte O [G]pôde re[C]ter.",
+          "Tendo descido um [G]anjo, dos c[C]éus,",
+          "[G]Não se puderam os [D7]guardas sus[G]ter.[G7]",
+          "[C]Aparecendo Jesus Cristo_aos [Dm]Seus,",
+          "[F]Disse: “Me_é [G]dado todo_o po[C]der.”"
         ]
       }
     ]

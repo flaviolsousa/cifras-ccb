@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus Cristo é o Pão celeste",
   "tone": {
     "recommended": "A"
@@ -9,45 +9,21 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       A                                               E ",
-            "lyrics": "Jesus Cristo_é_o Pão celeste que, por nós, desceu dos céus"
-          },
-          {
-            "chords": "       A                           E             A",
-            "lyrics": "E, de bênçãos, nos reveste, nos concede paz com Deus."
-          },
-          {
-            "chords": "                                               E ",
-            "lyrics": "Este pão nos traz lembrança da bondade do Salvador,"
-          },
-          {
-            "chords": "      A                       E           A",
-            "lyrics": "Nossa Bem-aventurança, nossa Paz e nosso_Amor."
-          }
+        "text": [
+          "Jesus C[A]risto_é_o Pão celeste que, por nós, desceu dos c[E]éus",
+          "E, de b[A]ênçãos, nos reveste, nos con[E]cede paz com D[A]eus.",
+          "Este pão nos traz lembrança da bondade do Salva[E]dor,",
+          "Nossa [A]Bem-aventurança, nossa P[E]az e nosso_A[A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     A                                       E ",
-            "lyrics": "Comunhão há neste cálix, no Seus sangue_expiador"
-          },
-          {
-            "chords": "          A                          E               A",
-            "lyrics": "Que, por nós, foi derramado sobre_a cruz, com grande dor;"
-          },
-          {
-            "chords": "                                                 E ",
-            "lyrics": "Anunciemos, pois, a morte do Cordeiro do_eterno Deus,"
-          },
-          {
-            "chords": "      A                     E              A",
-            "lyrics": "Que tomou a dura sorte para nos levar aos céus."
-          }
+        "text": [
+          "Comun[A]hão há neste cálix, no Seus sangue_expia[E]dor",
+          "Que, por n[A]ós, foi derramado sobre_a c[E]ruz, com grande [A]dor;",
+          "Anunciemos, pois, a morte do Cordeiro do_eterno D[E]eus,",
+          "Que to[A]mou a dura sorte para [E]nos levar aos c[A]éus."
         ]
       }
     ]

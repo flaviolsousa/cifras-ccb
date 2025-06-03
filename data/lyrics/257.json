@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Remiu-nos por graça",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  F                      Bb     F",
-            "lyrics": "Remiu-nos por graça_o bondoso Jesus,"
-          },
-          {
-            "chords": "             G7          C   C7 ",
-            "lyrics": "Morrendo por nós sobre_a cruz,"
-          },
-          {
-            "chords": "  F                Bb     F",
-            "lyrics": "Pagou nossa dívida ao Criador,"
-          },
-          {
-            "chords": "    Bb     C7     F",
-            "lyrics": "Por Seu inefável amor."
-          }
+        "text": [
+          "Re[F]miu-nos por graça_o bon[Bb]doso Je[F]sus,",
+          "Morrendo por [G7]nós sobre_a [C]cruz[C7],",
+          "Pa[F]gou nossa dívida [Bb]ao Cria[F]dor,",
+          "Por [Bb]Seu ine[C7]fável a[F]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   F                             C ",
-            "lyrics": "Busquemos a Cristo com todo_o fervor,"
-          },
-          {
-            "chords": "                F         G7     C ",
-            "lyrics": "Na paz, na_humildade, com fé e temor;"
-          },
-          {
-            "chords": "  F                           Gm ",
-            "lyrics": "Divina mercê quer Jesus dispensar"
-          },
-          {
-            "chords": "  A          Dm      C7     F",
-            "lyrics": "A quem, confiante, a Ele clamar."
-          }
+        "text": [
+          "Bus[F]quemos a Cristo com todo_o fer[C]vor,",
+          "Na paz, na_humil[F]dade, com [G7]fé e te[C]mor;",
+          "Di[F]vina mercê quer Jesus dispen[Gm]sar",
+          "A [A]quem, confi[Dm]ante, a [C7]Ele cla[F]mar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   F                Bb        F",
-            "lyrics": "Ninguém merecia_o favor do Senhor,"
-          },
-          {
-            "chords": "             G7      C  C7 ",
-            "lyrics": "Mas Ele, por grande amor,"
-          },
-          {
-            "chords": "  F               Bb       F",
-            "lyrics": "A todos promete real salvação;"
-          },
-          {
-            "chords": "     Bb       C7           F",
-            "lyrics": "Quem crê em Jesus, tem perdão."
-          }
+        "text": [
+          "Nin[F]guém merecia_o fa[Bb]vor do Sen[F]hor,",
+          "Mas Ele, por [G7]grande a[C]mor[C7],",
+          "A [F]todos promete re[Bb]al salvaç[F]ão;",
+          "Quem [Bb]crê em Je[C7]sus, tem perd[F]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   F                 Bb        F",
-            "lyrics": "Só em Cristo temos veraz salvação,"
-          },
-          {
-            "chords": "             G7       C  C7 ",
-            "lyrics": "Por Ele_alcançamos perdão;"
-          },
-          {
-            "chords": "  F                  Bb         F",
-            "lyrics": "Jesus veio com Seu poder nos salvar"
-          },
-          {
-            "chords": "  Bb         C7        F",
-            "lyrics": "E Seus fiéis ao céu guiar."
-          }
+        "text": [
+          "Só [F]em Cristo temos ve[Bb]raz salvaç[F]ão,",
+          "Por Ele_alcan[G7]çamos per[C]dão[C7];",
+          "Je[F]sus veio com Seu po[Bb]der nos sal[F]var",
+          "E [Bb]Seus fiéis [C7]ao céu gui[F]ar."
         ]
       },
       {

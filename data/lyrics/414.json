@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu sangue imaculado",
   "tone": {
     "recommended": "D"
@@ -9,73 +9,37 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D               A                  D",
-            "lyrics": "Teu sangue_imaculado, bendito Redentor,"
-          },
-          {
-            "chords": "Bm            Em   E            A ",
-            "lyrics": "Dá plena confiança de ir ao Criador;"
-          },
-          {
-            "chords": "Bm           Em     E          A    D",
-            "lyrics": "É um refúgio forte Teu sangue, ó Senhor."
-          }
+        "text": [
+          "[D]Teu sangue_imacu[A]lado, bendito Reden[D]tor,",
+          "[Bm]Dá plena confi[Em]ança [E]de ir ao Cria[A]dor;",
+          "[Bm]É um refúgio [Em]forte T[E]eu sangue, [A]ó Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D             A               D",
-            "lyrics": "Nele eu fui lavado e nada temerei,"
-          },
-          {
-            "chords": "Bm           Em     E                 A",
-            "lyrics": "Sempre agradecido, por ele,_a Deus serei;"
-          },
-          {
-            "chords": "Bm              Em     E         A     D",
-            "lyrics": "No sangue do Concerto, socorro_encontrarei."
-          }
+        "text": [
+          "[D]Nele eu fui la[A]vado e nada teme[D]rei,",
+          "[Bm]Sempre agrade[Em]cido, p[E]or ele,_a Deus ser[A]ei;",
+          "[Bm]No sangue do Con[Em]certo, [E]socorro_en[A]contra[D]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D             A                      D",
-            "lyrics": "Eu fui justificado no sangue Teu, Senhor,"
-          },
-          {
-            "chords": "Bm            Em        E              A",
-            "lyrics": "Com ele vem cobrir-me, por Teu imenso_amor;"
-          },
-          {
-            "chords": "Bm             Em   E         A    D",
-            "lyrics": "Por ele, nesta vida posso ser vencedor."
-          }
+        "text": [
+          "[D]Eu fui justifi[A]cado no sangue Teu, Sen[D]hor,",
+          "[Bm]Com ele vem co[Em]brir-me, p[E]or Teu imenso_a[A]mor;",
+          "[Bm]Por ele, nesta [Em]vida [E]posso ser [A]vence[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "D              A                       D",
-            "lyrics": "Sob o precioso sangue de Cristo,_o Remidor,"
-          },
-          {
-            "chords": "Bm           Em   E             A ",
-            "lyrics": "Eu vivo protegido e não terei pavor;"
-          },
-          {
-            "chords": "Bm          Em     E        A    D",
-            "lyrics": "Caminharei avante, firme no Salvador."
-          }
+        "text": [
+          "[D]Sob o precioso [A]sangue de Cristo,_o Remi[D]dor,",
+          "[Bm]Eu vivo prote[Em]gido [E]e não terei pa[A]vor;",
+          "[Bm]Caminharei a[Em]vante, [E]firme no [A]Salva[D]dor."
         ]
       }
     ]

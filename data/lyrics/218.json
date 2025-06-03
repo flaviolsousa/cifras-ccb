@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Jubilemos, devotos de Cristo",
   "tone": {
     "recommended": "A"
@@ -9,91 +9,37 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                D        A",
-            "lyrics": "Oh! Jubilemos, devotos de Cristo,"
-          },
-          {
-            "chords": "      D      E      A",
-            "lyrics": "E entoemos a Ele louvor;"
-          },
-          {
-            "chords": "                  D  E       A",
-            "lyrics": "Ressuscitado, por muitos foi visto;"
-          },
-          {
-            "chords": "                    E          ",
-            "lyrics": "Sobre o mal foi, na cruz, vencedor;"
-          },
-          {
-            "chords": "A                  D        A",
-            "lyrics": "Deus exaltou o Seu Filho benquisto,"
-          },
-          {
-            "chords": "          D       E       A",
-            "lyrics": "Que lá no céu é fiel Mediador."
-          }
+        "text": [
+          "[A]Oh! Jubilemos, de[D]votos de [A]Cristo,",
+          "E ento[D]emos a [E]Ele lou[A]vor;",
+          "Ressuscitado, por [D]mui[E]tos foi [A]visto;",
+          "Sobre o mal foi, na [E]cruz, vencedor;",
+          "[A]Deus exaltou o Seu [D]Filho ben[A]quisto,",
+          "Que lá no [D]céu é fi[E]el Media[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                D           A",
-            "lyrics": "Oh! Jubilemos em Cristo,_o Vivente,"
-          },
-          {
-            "chords": "             D          E       A",
-            "lyrics": "Que, sobre_a cruz, por amor padeceu."
-          },
-          {
-            "chords": "               D   E   A ",
-            "lyrics": "Ele, o Forte e O - nipotente,"
-          },
-          {
-            "chords": "                   E      ",
-            "lyrics": "Todas as forças do mal abateu"
-          },
-          {
-            "chords": "A               D        A",
-            "lyrics": "Para podermos dizer livremente:"
-          },
-          {
-            "chords": "          D         E          A",
-            "lyrics": "Nós fomos feitos herdeiros do céu."
-          }
+        "text": [
+          "[A]Oh! Jubilemos em [D]Cristo,_o Vi[A]vente,",
+          "Que, sobre_a [D]cruz, por a[E]mor pade[A]ceu.",
+          "Ele, o Forte e [D]O - [E]nipo[A]tente,",
+          "Todas as forças do [E]mal abateu",
+          "[A]Para podermos di[D]zer livre[A]mente:",
+          "Nós fomos [D]feitos her[E]deiros do c[A]éu."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                D        A",
-            "lyrics": "Oh! Jubilemos, remidos do Santo,"
-          },
-          {
-            "chords": "         D       E          A",
-            "lyrics": "Que prometeu Sua glória nos dar;"
-          },
-          {
-            "chords": "                     D  E    A",
-            "lyrics": "Lá no Seu reino, com um novo canto,"
-          },
-          {
-            "chords": "                E         ",
-            "lyrics": "Nós poderemos a Deus exaltar;"
-          },
-          {
-            "chords": "A            D           A",
-            "lyrics": "O regozijo será, no céu, tanto, "
-          },
-          {
-            "chords": "           D     E        A",
-            "lyrics": "Que não se pode aqui_imaginar."
-          }
+        "text": [
+          "[A]Oh! Jubilemos, re[D]midos do [A]Santo,",
+          "Que prome[D]teu Sua [E]glória nos [A]dar;",
+          "Lá no Seu reino, com [D]um [E]novo [A]canto,",
+          "Nós poderemos a [E]Deus exaltar;",
+          "[A]O regozijo se[D]rá, no céu, [A]tanto, ",
+          "Que não se [D]pode a[E]qui_imagi[A]nar."
         ]
       }
     ]

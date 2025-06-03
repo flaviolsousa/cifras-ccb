@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Galardão nos espera",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Bem-aventurado quem aqui chorar,"
-          },
-          {
-            "chords": "E                               B    E7 ",
-            "lyrics": "Pois, de Deus, conforto certo_alcançará;"
-          },
-          {
-            "chords": "A                   C#7      F#m ",
-            "lyrics": "Quem aqui for manso e perseverar,"
-          },
-          {
-            "chords": "B         A             E   A",
-            "lyrics": "No eterno lar de Deus habitará."
-          }
+        "text": [
+          "[A]Bem-aventurado quem aqui chorar,",
+          "[E]Pois, de Deus, conforto certo_al[B]cança[E7]rá;",
+          "[A]Quem aqui for manso [C#7]e perseve[F#m]rar,",
+          "[B]No eterno [A]lar de Deus ha[E]bita[A]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A         F#m      A          E ",
-            "lyrics": "Galardão, galardão nos espera lá nos céus,"
-          },
-          {
-            "chords": "D         Bm        E               A",
-            "lyrics": "Galardão, galardão, junto_ao nosso Deus;"
-          },
-          {
-            "chords": "                              D ",
-            "lyrics": "Glória indescritível na eternidade"
-          },
-          {
-            "chords": "E         A                E       A    A...",
-            "lyrics": "É o galardão de Cristo_aos santos Seus."
-          }
+        "text": [
+          "[A]Galardão, [F#m]galardão [A]nos espera [E]lá nos céus,",
+          "[D]Galardão, [Bm]galardão, [E]junto_ao nosso D[A]eus;",
+          "Glória indescritível na eterni[D]dade",
+          "[E]É o galard[A]ão de Cristo_aos [E]santos S[A]eus.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Bem-aventurado quem sedento_está"
-          },
-          {
-            "chords": "E                     B         E7 ",
-            "lyrics": "E tem fome da justiça que_é dos céus;"
-          },
-          {
-            "chords": "A                 C#7        F#m ",
-            "lyrics": "Farto_e consolado pelo Pai será;"
-          },
-          {
-            "chords": "B                A        E       A",
-            "lyrics": "Quem for limpo_e puro viverá com Deus."
-          }
+        "text": [
+          "[A]Bem-aventurado quem sedento_está",
+          "[E]E tem fome da justiça [B]que_é dos [E7]céus;",
+          "[A]Farto_e consolado [C#7]pelo Pai se[F#m]rá;",
+          "[B]Quem for limpo_e [A]puro vive[E]rá com D[A]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Bem-aventurado quem seguir Jesus,"
-          },
-          {
-            "chords": "E                       B   E7 ",
-            "lyrics": "Sendo_aqui na terra pacificador;"
-          },
-          {
-            "chords": "A                   C#7          F#m ",
-            "lyrics": "Quem for desprezado por andar na Luz,"
-          },
-          {
-            "chords": "B          A          E     A",
-            "lyrics": "Alegrar-se-á na vinda do Senhor."
-          }
+        "text": [
+          "[A]Bem-aventurado quem seguir Jesus,",
+          "[E]Sendo_aqui na terra paci[B]fica[E7]dor;",
+          "[A]Quem for desprezado [C#7]por andar na [F#m]Luz,",
+          "[B]Alegrar-se-[A]á na vinda [E]do Sen[A]hor."
         ]
       },
       {

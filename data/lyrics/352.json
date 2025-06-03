@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sinto viva esperança",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Ao Seu banquete de perdão"
-          },
-          {
-            "chords": "C  G    D     G",
-            "lyrics": "Me convidou Jesus;"
-          },
-          {
-            "chords": "                         G...",
-            "lyrics": "Por graça, deu-me_introdução"
-          },
-          {
-            "chords": "C  G     D      G",
-            "lyrics": "No reino Seu de luz."
-          }
+        "text": [
+          "Ao [G]Seu banquete de perdão",
+          "[C]Me [G]convi[D]dou Je[G]sus;",
+          "Por graça, deu-me_introdu[G...]ção",
+          "[C]No [G]reino [D]Seu de [G]luz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G7    C                 G",
-            "lyrics": "Sinto viva_esperança em mim,"
-          },
-          {
-            "chords": "    D        A7       D   D... ",
-            "lyrics": "Esperança de ver o Senhor"
-          },
-          {
-            "chords": "     G               C ",
-            "lyrics": "E herdar as moradas eternas,"
-          },
-          {
-            "chords": "       G    D     G",
-            "lyrics": "Onde_é tudo esplendor."
-          }
+        "text": [
+          "[G7]Sinto [C]viva_esperança em [G]mim,",
+          "Espe[D]rança de [A7]ver o Sen[D]hor[D...]",
+          "E her[G]dar as moradas e[C]ternas,",
+          "Onde_é [G]tudo [D]esplen[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Do mundo nada temerei,"
-          },
-          {
-            "chords": "C    G    D     G",
-            "lyrics": "Pois vivo com Jesus,"
-          },
-          {
-            "chords": "                   G...",
-            "lyrics": "E confundido não serei,"
-          },
-          {
-            "chords": "C  G        D   G",
-            "lyrics": "An-dando_em Sua luz."
-          }
+        "text": [
+          "Do [G]mundo nada temerei,",
+          "[C]Pois [G]vivo [D]com Je[G]sus,",
+          "E confundido não se[G...]rei,",
+          "[C]An-[G]dando_em [D]Sua [G]luz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Na vida devo combater"
-          },
-          {
-            "chords": "C   G     D     G",
-            "lyrics": "Com fé em meu Jesus;"
-          },
-          {
-            "chords": "                    G...",
-            "lyrics": "Não temerei o mau poder,"
-          },
-          {
-            "chords": "C    G        D     G",
-            "lyrics": "Pois tenho_a_eterna luz."
-          }
+        "text": [
+          "Na [G]vida devo combater",
+          "[C]Com [G]fé em [D]meu Je[G]sus;",
+          "Não temerei o mau po[G...]der,",
+          "[C]Pois [G]tenho_a_e[D]terna [G]luz."
         ]
       },
       {

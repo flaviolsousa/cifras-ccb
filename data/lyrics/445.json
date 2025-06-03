@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ajuntemos um tesouro eterno",
   "tone": {
     "recommended": "B"
@@ -9,46 +9,25 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                                 F#",
-            "lyrics": "Ajuntemos, ó meninos, nosso bom tesouro lá nos céus de_amor,"
-          },
-          {
-            "chords": "B                                        E     F#  B",
-            "lyrics": "Onde_habita nosso Mestre e o Pai eterno, nosso Criador."
-          }
+        "text": [
+          "[B]Ajuntemos, ó meninos, nosso bom te[F#]souro lá nos céus de_amor,",
+          "[B]Onde_habita nosso Mestre e o Pai eterno, [E]nosso [F#]Cria[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Ajuntemos um tesouro_eterno"
-          },
-          {
-            "chords": "F#                       B",
-            "lyrics": "Onde_habita nosso Deus superno."
-          },
-          {
-            "chords": "E    F#     B               F#   B",
-            "lyrics": "Nos céus os bens jamais se acabarão."
-          }
+        "text": [
+          "[B]Ajuntemos um tesouro_eterno",
+          "[F#]Onde_habita nosso Deus su[B]perno.",
+          "[E]Nos c[F#]éus os [B]bens jamais se a[F#]cabar[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                                      F#",
-            "lyrics": "Ricos das eternas bênçãos e dos dons celestes que nos vêm de Deus,"
-          },
-          {
-            "chords": "B                                          E      F#        B",
-            "lyrics": "Caminhemos nas veredas da justiça_eterna, que nos leva_aos céus."
-          }
+        "text": [
+          "[B]Ricos das eternas bênçãos e dos dons ce[F#]lestes que nos vêm de Deus,",
+          "[B]Caminhemos nas veredas da justiça_eterna, q[E]ue nos [F#]leva_aos c[B]éus."
         ]
       },
       {
@@ -58,15 +37,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                                 F#",
-            "lyrics": "Ao sairmos deste mundo, tudo deixaremos, tudo findará;"
-          },
-          {
-            "chords": "B                                   E      F#  B",
-            "lyrics": "O tesouro ajuntado na eterna glória sempre durará."
-          }
+        "text": [
+          "[B]Ao sairmos deste mundo, tudo deixa[F#]remos, tudo findará;",
+          "[B]O tesouro ajuntado na eterna glória [E]sempre [F#]dura[B]rá."
         ]
       },
       {

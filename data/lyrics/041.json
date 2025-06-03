@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O teu coração vem a Cristo entregar",
   "tone": {
     "recommended": "A"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "              A                E",
-            "lyrics": "Quem seu coração a Jesus entregar,"
-          },
-          {
-            "chords": "                              A",
-            "lyrics": "Participará das promessas de Deus;"
-          },
-          {
-            "chords": "                             D",
-            "lyrics": "Veraz salvação n´Ele encontrará"
-          },
-          {
-            "chords": "        E4     E          A",
-            "lyrics": "E receberá a herança nos céus."
-          }
+        "text": [
+          "Quem seu coraç[A]ão a Jesus entreg[E]ar,",
+          "Participará das promessas de D[A]eus;",
+          "Veraz salvação n´Ele encontra[D]rá",
+          "E recebe[E4]rá a he[E]rança nos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "            A                    E",
-            "lyrics": "A vida_eternal só em Cristo_acharás;"
-          },
-          {
-            "chords": "                              A",
-            "lyrics": "Há n´Ele poder concedido por Deus;"
-          },
-          {
-            "chords": "                               D",
-            "lyrics": "Os Seus ricos dons aqui receberás"
-          },
-          {
-            "chords": "         E4         E          A",
-            "lyrics": "E o galardão lá na glória dos céus."
-          }
+        "text": [
+          "A vida_etern[A]al só em Cristo_achar[E]ás;",
+          "Há n´Ele poder concedido por D[A]eus;",
+          "Os Seus ricos dons aqui receber[D]ás",
+          "E o galar[E4]dão lá na g[E]lória dos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "             A                     E",
-            "lyrics": "Aceita_o perdão que Jesus quer te dar,"
-          },
-          {
-            "chords": "                                   A",
-            "lyrics": "Confessa_ao Senhor os pecados que tens;"
-          },
-          {
-            "chords": "                                 D",
-            "lyrics": "O teu Redentor quer do mal te livrar"
-          },
-          {
-            "chords": "            E4       E            A",
-            "lyrics": "E te_enriquecer dos eternos Seus bens."
-          }
+        "text": [
+          "Aceita_o perd[A]ão que Jesus quer te d[E]ar,",
+          "Confessa_ao Senhor os pecados que t[A]ens;",
+          "O teu Redentor quer do mal te liv[D]rar",
+          "E te_enrique[E4]cer dos e[E]ternos Seus b[A]ens."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "           A                     E",
-            "lyrics": "O teu coração vem a Cristo_entregar,"
-          },
-          {
-            "chords": "                                 A",
-            "lyrics": "Rejeita o mal e, do mundo,_a_ilusão;"
-          },
-          {
-            "chords": "                               D",
-            "lyrics": "A paz e_o perdão só Jesus pode dar,"
-          },
-          {
-            "chords": "             E4       E       A",
-            "lyrics": "E_a vida_eternal na celeste Sião."
-          }
+        "text": [
+          "O teu coraç[A]ão vem a Cristo_entreg[E]ar,",
+          "Rejeita o mal e, do mundo,_a_ilus[A]ão;",
+          "A paz e_o perdão só Jesus pode [D]dar,",
+          "E_a vida_eter[E4]nal na ce[E]leste Si[A]ão."
         ]
       }
     ]

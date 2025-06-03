@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Avante, santos e fiéis de Deus",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C...  G7                C",
-            "lyrics": "A  -  vante, santos e fiéis de Deus,"
-          },
-          {
-            "chords": "      G           C",
-            "lyrics": "Até o fim, até vencer,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois Ele_as forças mandará dos céus;"
-          },
-          {
-            "chords": "  D                  G ",
-            "lyrics": "É sem limite_o Seu poder."
-          }
+        "text": [
+          "[C...]A  -  [G7]vante, santos e fi[C]éis de Deus,",
+          "Até o [G]fim, até ven[C]cer,",
+          "Pois Ele_as forças mandará dos céus;",
+          "É [D]sem limite_o Seu po[G]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "         C",
-            "lyrics": "Vamos marchar por fé, vamos seguir Jesus,"
-          },
-          {
-            "chords": "       G                   C",
-            "lyrics": "Pois à frente Ele_está e à glória nos conduz;"
-          },
-          {
-            "chords": "                  C7           F       C",
-            "lyrics": "Junto a Deus, nos céus, o galardão sem par"
-          },
-          {
-            "chords": "             G     C",
-            "lyrics": "Breve_iremos desfrutar."
-          }
+        "text": [
+          "Vamos mar[C]char por fé, vamos seguir Jesus,",
+          "Pois à [G]frente Ele_está e à [C]glória nos conduz;",
+          "Junto a Deus, nos [C7]céus, o galar[F]dão sem [C]par",
+          "Breve_iremos [G]desfru[C]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C...  G7               C",
-            "lyrics": "A  -  vante com celestial valor;"
-          },
-          {
-            "chords": "           G             C",
-            "lyrics": "Os dons de Deus não faltarão;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Em nós se manifestará_o Senhor"
-          },
-          {
-            "chords": "  D                G ",
-            "lyrics": "Durante_a peregrinação."
-          }
+        "text": [
+          "[C...]A  -  [G7]vante com celesti[C]al valor;",
+          "Os dons de [G]Deus não falta[C]rão;",
+          "Em nós se manifestará_o Senhor",
+          "Du[D]rante_a peregrina[G]ção."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C...  G7                C",
-            "lyrics": "Com   fé em Deus e no Senhor Jesus,"
-          },
-          {
-            "chords": "           G           C",
-            "lyrics": "Sinais dos céus iremos ver;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Tomando cada dia_a nossa cruz,"
-          },
-          {
-            "chords": "  D                     G ",
-            "lyrics": "Sigamos Quem nos faz vencer."
-          }
+        "text": [
+          "[C...]Com   [G7]fé em Deus e no Se[C]nhor Jesus,",
+          "Sinais dos [G]céus iremos [C]ver;",
+          "Tomando cada dia_a nossa cruz,",
+          "Si[D]gamos Quem nos faz ven[G]cer."
         ]
       },
       {

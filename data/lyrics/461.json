@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Abrigado em Jesus",
   "tone": {
     "recommended": "C"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    C                                  G",
-            "lyrics": "Abrigado em Jesus, lutas não mais temerei;"
-          },
-          {
-            "chords": "    C                   F   G    C",
-            "lyrics": "Ele é a minha Luz e por Ela andarei."
-          }
+        "text": [
+          "Abri[C]gado em Jesus, lutas não mais temer[G]ei;",
+          "Ele [C]é a minha Luz e por [F]Ela [G]andar[C]ei."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     C                     F          C",
-            "lyrics": "A Jesus, meu Senhor, minha vida consagrei;"
-          },
-          {
-            "chords": "                            F     G     C    C...",
-            "lyrics": "Em meu bom Redentor, forte_abrigo encontrei."
-          }
+        "text": [
+          "A Jes[C]us, meu Senhor, minha [F]vida consag[C]rei;",
+          "Em meu bom Redentor, forte_a[F]brigo [G]encont[C]rei.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    C                                G",
-            "lyrics": "Abrigado em Jesus, posso sempre caminhar"
-          },
-          {
-            "chords": "     C                     F       G      C",
-            "lyrics": "Pela senda que conduz ao sublime,_eterno lar."
-          }
+        "text": [
+          "Abri[C]gado em Jesus, posso sempre camin[G]har",
+          "Pela [C]senda que conduz ao su[F]blime,_e[G]terno l[C]ar."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C                                   G",
-            "lyrics": "Abrigado em Jesus, mesmo quando_em aflição,"
-          },
-          {
-            "chords": "          C                    F      G    C",
-            "lyrics": "Sinto_em mim a Sua luz, que_ilumina_o coração."
-          }
+        "text": [
+          "Abri[C]gado em Jesus, mesmo quando_em afliç[G]ão,",
+          "Sinto_em m[C]im a Sua luz, que_ilu[F]mina_o [G]coraç[C]ão."
         ]
       },
       {

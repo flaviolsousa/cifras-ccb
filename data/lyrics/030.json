@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Confiarei sempre no Senhor",
   "tone": {
     "recommended": "G"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                           D",
-            "lyrics": "Confiarei sempre no Senhor, no Seu sublime amor;"
-          },
-          {
-            "chords": "G                      A7                D",
-            "lyrics": "Nunca serei confundido na aflição ou na dor."
-          }
+        "text": [
+          "[G]Confiarei sempre no Senhor, [D]no Seu sublime amor;",
+          "[G]Nunca serei confundido [A7]na aflição ou na d[D]or."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                 G      D               G",
-            "lyrics": "Cristo é bom e clemente, bálsamo a toda dor;"
-          },
-          {
-            "chords": "                         D        G",
-            "lyrics": "Paz divinal e_excelente vem do Senhor."
-          }
+        "text": [
+          "[D]Cristo é bom e cle[G]mente, [D]bálsamo a toda d[G]or;",
+          "Paz divinal e_excelente v[D]em do Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                            D",
-            "lyrics": "Em Jesus Cristo eu tenho fé, só n´Ele esperarei;"
-          },
-          {
-            "chords": "G                           A7             D",
-            "lyrics": "Mesmo estando_em angústia, n´Ele eu confiarei."
-          }
+        "text": [
+          "[G]Em Jesus Cristo eu tenho fé, [D]só n´Ele esperarei;",
+          "[G]Mesmo estando_em angústia, n[A7]´Ele eu confiar[D]ei."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                            D",
-            "lyrics": "Nas minhas provas, confiarei em Cristo, Libertador;"
-          },
-          {
-            "chords": " G                       A7               D",
-            "lyrics": "N´Ele eu tenho firmeza, pois é fiel Protetor."
-          }
+        "text": [
+          "[G]Nas minhas provas, confiarei [D]em Cristo, Libertador;",
+          "N[G]´Ele eu tenho firmeza, p[A7]ois é fiel Protet[D]or."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Vós chorareis e vos lamentareis\"",
   "tone": {
     "recommended": "D"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      D           Em7       A             D",
-            "lyrics": "“Vós, na verdade, chorareis e vos lamentareis;"
-          },
-          {
-            "chords": "            Em7        A               D",
-            "lyrics": "O mundo se alegrará”, disse o Rei dos reis;"
-          },
-          {
-            "chords": "     G                 D      A            D    D7",
-            "lyrics": "Mas eis que, muito_em breve, Cristo retornará"
-          },
-          {
-            "chords": "   G        D   Bm  Em       A   D",
-            "lyrics": "E nossa alegri - a  nunca terminará."
-          }
+        "text": [
+          "“Vós, [D]na verdade, [Em7]chorareis [A]e vos lamentar[D]eis;",
+          "O mundo se a[Em7]legrará”, d[A]isse o Rei dos r[D]eis;",
+          "Mas e[G]is que, muito_em b[D]reve, C[A]risto retorna[D]rá[D7]",
+          "E n[G]ossa aleg[D]ri -[Bm] a  [Em]nunca ter[A]mina[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D             Em7        A             D",
-            "lyrics": "Orando_em nome de Jesus, Deus nos atenderá;"
-          },
-          {
-            "chords": "                  Em7       A             D",
-            "lyrics": "Por Seus fiéis, o Redentor intercedendo_está;"
-          },
-          {
-            "chords": "     G            D       A               D    D7",
-            "lyrics": "Por grande_amor paterno, Deus ouve_as orações"
-          },
-          {
-            "chords": "   G            D    Bm  Em          A    D",
-            "lyrics": "E forças nos conce - de  nas nossas provações."
-          }
+        "text": [
+          "O[D]rando_em nome [Em7]de Jesus, D[A]eus nos atende[D]rá;",
+          "Por Seus fiéis, o [Em7]Redentor i[A]ntercedendo_es[D]tá;",
+          "Por g[G]rande_amor pa[D]terno, D[A]eus ouve_as oraç[D]ões[D7]",
+          "E f[G]orças nos con[D]ce - [Bm]de  [Em]nas nossas p[A]rovaç[D]ões."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    D          Em7       A            D",
-            "lyrics": "Nós sofreremos aflições como Jesus sofreu;"
-          },
-          {
-            "chords": "            Em7         A                 D ",
-            "lyrics": "Bom ânimo devemos ter, pois Cristo já venceu;"
-          },
-          {
-            "chords": "   G            D    A               D    D7",
-            "lyrics": "O reino Lhe pertence na terra e nos céus;"
-          },
-          {
-            "chords": "     G       D    Bm   Em         A      D",
-            "lyrics": "Com Ele reinare - mos  junto aos santos Seus."
-          }
+        "text": [
+          "Nós [D]sofreremos [Em7]aflições c[A]omo Jesus sof[D]reu;",
+          "Bom ânimo de[Em7]vemos ter, p[A]ois Cristo já venc[D]eu;",
+          "O r[G]eino Lhe pert[D]ence [A]na terra e nos c[D]éus;[D7]",
+          "Com E[G]le reina[D]re - [Bm]mos  [Em]junto aos s[A]antos S[D]eus."
         ]
       }
     ]

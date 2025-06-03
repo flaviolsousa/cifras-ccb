@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Quão bom e quão suave é...",
   "tone": {
     "recommended": "F"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     F                Gm   C      F",
-            "lyrics": "Quão bom e quão suave é, perante Deus,"
-          },
-          {
-            "chords": "                       Bb   Gm   A ",
-            "lyrics": "Que vivam os irmãos em doce uni- ão;"
-          },
-          {
-            "chords": "  F7           Bb        Gm            F",
-            "lyrics": "É como_orvalho santo que desce lá dos céus,"
-          },
-          {
-            "chords": "             A    Gm   C    F",
-            "lyrics": "Trazendo regozijo e consolação."
-          }
+        "text": [
+          "Quão [F]bom e quão suave [Gm]é, pe[C]rante D[F]eus,",
+          "Que vivam os irmãos em [Bb]doce [Gm]uni- [A]ão;",
+          "É [F7]como_orvalho [Bb]santo que [Gm]desce lá dos c[F]éus,",
+          "Trazendo rego[A]zijo [Gm]e con[C]solaç[F]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  F                 Gm     C        F",
-            "lyrics": "É o celeste_orvalho que as bênçãos traz"
-          },
-          {
-            "chords": "                    Bb    Gm   A ",
-            "lyrics": "E vivifica sempre_o nosso coração,"
-          },
-          {
-            "chords": "   F7             Bb     Gm        F",
-            "lyrics": "Porque_o Senhor ordena a vida e a paz."
-          },
-          {
-            "chords": "                A       Gm    C      F",
-            "lyrics": "O santo_amor de Deus conduz à perfeição."
-          }
+        "text": [
+          "É [F]o celeste_orvalho [Gm]que as [C]bênçãos t[F]raz",
+          "E vivifica sempre_o [Bb]nosso [Gm]coraç[A]ão,",
+          "Por[F7]que_o Senhor or[Bb]dena a [Gm]vida e a p[F]az.",
+          "O santo_amor de [A]Deus con[Gm]duz à [C]perfeiç[F]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   F               Gm   C     F",
-            "lyrics": "Fundados estejamos no divino_amor"
-          },
-          {
-            "chords": "                        Bb      Gm    A ",
-            "lyrics": "A fim de compreendermos quão profundo é"
-          },
-          {
-            "chords": "   F7           Bb        Gm          F",
-            "lyrics": "O_amor do nosso Mestre, Jesus, o Redentor."
-          },
-          {
-            "chords": "                     A     Gm   C   F",
-            "lyrics": "Que trouxe_às nossas almas preciosa fé."
-          }
+        "text": [
+          "Fun[F]dados estejamos [Gm]no di[C]vino_a[F]mor",
+          "A fim de compreendermos [Bb]quão pro[Gm]fundo [A]é",
+          "O_a[F7]mor do nosso [Bb]Mestre, Je[Gm]sus, o Reden[F]tor.",
+          "Que trouxe_às nossas [A]almas [Gm]preci[C]osa [F]fé."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "    F               Gm  C      F",
-            "lyrics": "Nós somos a herança do eterno Deus;"
-          },
-          {
-            "chords": "                     Bb  Gm    A ",
-            "lyrics": "Jesus, o Verdadeiro, é a nossa Paz;"
-          },
-          {
-            "chords": "  F7              Bb         Gm            F",
-            "lyrics": "“Amai-vos uns aos outros”, ensina para_os Seus;"
-          },
-          {
-            "chords": "             A     Gm  C     F",
-            "lyrics": "O Seu amor sublime regozijo traz."
-          }
+        "text": [
+          "Nós [F]somos a herança [Gm]do e[C]terno D[F]eus;",
+          "Jesus, o Verdadeiro, [Bb]é a [Gm]nossa [A]Paz;",
+          "“A[F7]mai-vos uns aos [Bb]outros”, en[Gm]sina para_os S[F]eus;",
+          "O Seu amor su[A]blime [Gm]rego[C]zijo t[F]raz."
         ]
       }
     ]

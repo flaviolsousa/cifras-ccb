@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "No Calvário...",
   "tone": {
     "recommended": "E"
@@ -9,57 +9,33 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " E        B7     E       A          B7 ",
-            "lyrics": "Jesus por nós sofreu, morreu crucificado,"
-          },
-          {
-            "chords": "C#m          G#m  A        E   C#m       A   B7   E",
-            "lyrics": "Foi grande_a dor  do Salvador, Cristo Jesus, o Senhor."
-          }
+        "text": [
+          "J[E]esus por [B7]nós sof[E]reu, mor[A]reu crucifi[B7]cado,",
+          "[C#m]Foi grande_a [G#m]dor  [A]do Salvad[E]or, [C#m]Cristo Jes[A]us, [B7]o Sen[E]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E       B7     E       A         B7 ",
-            "lyrics": "No Calvário morreu, cravado no madeiro;"
-          },
-          {
-            "chords": "C#m      G#m  A       E   C#m         A  B7   E",
-            "lyrics": "Cálix de fel, de amargor, por nós provou o Senhor."
-          }
+        "text": [
+          "[E]No Calvá[B7]rio mor[E]reu, cra[A]vado no ma[B7]deiro;",
+          "[C#m]Cálix de [G#m]fel, [A]de amarg[E]or, [C#m]por nós prov[A]ou [B7]o Sen[E]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E      B7      E       A            B7 ",
-            "lyrics": "\"Perdoa-lhes, ó Pai\", Jesus morreu, dizendo."
-          },
-          {
-            "chords": "C#m     G#m  A      E   C#m        A   B7   E",
-            "lyrics": "Grande amor Ele mostrou quando na cruz expirou."
-          }
+        "text": [
+          "\"P[E]erdoa-l[B7]hes, ó P[E]ai\", Jes[A]us morreu, di[B7]zendo.",
+          "[C#m]Grande a[G#m]mor E[A]le most[E]rou [C#m]quando na c[A]ruz [B7]expir[E]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " E        B7  E      A             B7 ",
-            "lyrics": "Jesus ressuscitou, poder Lhe foi doado;"
-          },
-          {
-            "chords": "C#m        G#m   A       E   C#m       A  B7  E",
-            "lyrics": "Reina, nos céus, o Redentor,  à destra do Criador."
-          }
+        "text": [
+          "J[E]esus ress[B7]usci[E]tou, po[A]der Lhe foi do[B7]ado;",
+          "[C#m]Reina, nos [G#m]céus, [A]o Redent[E]or, [C#m] à destra [A]do [B7]Cria[E]dor."
         ]
       }
     ]

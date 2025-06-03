@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sempre bilhar devemos",
   "tone": {
     "recommended": "D"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                G      D",
-            "lyrics": "Resplandecer por Cristo vamos,"
-          },
-          {
-            "chords": "         A      D",
-            "lyrics": "Qual luminar no céu;"
-          },
-          {
-            "chords": "A             D",
-            "lyrics": "Esclarecer, irmãos, devemos"
-          },
-          {
-            "chords": "E                  A  A7 ",
-            "lyrics": "Quem em Jesus não creu."
-          }
+        "text": [
+          "[D]Resplandecer por [G]Cristo [D]vamos,",
+          "Qual lumi[A]nar no [D]céu;",
+          "[A]Esclarecer, ir[D]mãos, devemos",
+          "[E]Quem em Jesus não c[A]reu[A7]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                A                 D",
-            "lyrics": "Sempre brilhar devemos, irradiemos luz;"
-          },
-          {
-            "chords": "               F#  G         A     D",
-            "lyrics": "Neste mundo resplandeceremos por Jesus."
-          }
+        "text": [
+          "[D]Sempre brilhar de[A]vemos, irradiemos [D]luz;",
+          "Neste mundo res[F#]plan[G]deceremos [A]por Je[D]sus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                  G       D",
-            "lyrics": "Cristo_é a Luz que veio_ao mundo"
-          },
-          {
-            "chords": "        A   D",
-            "lyrics": "Para o_iluminar"
-          },
-          {
-            "chords": "A            D",
-            "lyrics": "E, pelo Seu amor profundo,"
-          },
-          {
-            "chords": "E               A  A7 ",
-            "lyrics": "Do sono_o despertar."
-          }
+        "text": [
+          "[D]Cristo_é a Luz que [G]veio_ao [D]mundo",
+          "Para o_i[A]lumi[D]nar",
+          "[A]E, pelo Seu a[D]mor profundo,",
+          "[E]Do sono_o desper[A]tar[A7]."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D             G      D",
-            "lyrics": "Pela Palavra, que_ilumina,"
-          },
-          {
-            "chords": "        A    D",
-            "lyrics": "Todos entenderão"
-          },
-          {
-            "chords": "A                D",
-            "lyrics": "Que só de Cristo a doutrina"
-          },
-          {
-            "chords": "E            A  A7 ",
-            "lyrics": "Leva à perfeição."
-          }
+        "text": [
+          "[D]Pela Palavra, [G]que_ilu[D]mina,",
+          "Todos en[A]tende[D]rão",
+          "[A]Que só de Cristo [D]a doutrina",
+          "[E]Leva à perfei[A]ção[A7]."
         ]
       },
       {

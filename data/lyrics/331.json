@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem a Cristo sem tardar",
   "tone": {
     "recommended": "A"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A                      D             A",
-            "lyrics": "Vem a Cristo sem tardar, Sua graça quer te dar;"
-          },
-          {
-            "chords": "        D          B7        E ",
-            "lyrics": "Vem, contrito, receber a Sua luz;"
-          },
-          {
-            "chords": "     A                      D   ",
-            "lyrics": "Seu olhar tem sobre ti, Ele quer te perdoar;"
-          },
-          {
-            "chords": "      A               A...  E      A   A...",
-            "lyrics": "Vem a Cristo entregar-te    sem tardar."
-          }
+        "text": [
+          "Vem a [A]Cristo sem tardar, Sua [D]graça quer te [A]dar;",
+          "Vem, con[D]trito, rece[B7]ber a Sua [E]luz;",
+          "Seu o[A]lhar tem sobre ti, Ele [D]quer te perdoar;",
+          "Vem a [A]Cristo entregar-[A...]te    [E]sem tar[A]dar.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A                        D            A",
-            "lyrics": "Vem a Cristo sem tardar, paz e vida quer te dar,"
-          },
-          {
-            "chords": "        D           B7          E ",
-            "lyrics": "Deixa_a senda que à morte te conduz;"
-          },
-          {
-            "chords": "     A                       D ",
-            "lyrics": "Ele quer te transformar, Ele pode te salvar;"
-          },
-          {
-            "chords": "      A               A...  E      A   A...",
-            "lyrics": "Vem a Cristo entregar-te    sem tardar."
-          }
+        "text": [
+          "Vem a [A]Cristo sem tardar, paz e [D]vida quer te [A]dar,",
+          "Deixa_a [D]senda que à [B7]morte te con[E]duz;",
+          "Ele q[A]uer te transformar, Ele [D]pode te salvar;",
+          "Vem a [A]Cristo entregar-[A...]te    [E]sem tar[A]dar.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      A                          D             A",
-            "lyrics": "Vem a Cristo sem tardar, pois no céu te quer doar"
-          },
-          {
-            "chords": "     D             B7           E ",
-            "lyrics": "Um tesouro que, no mundo, não terás;"
-          },
-          {
-            "chords": "       A                   D ",
-            "lyrics": "Tu não deves rejeitar esta graça, que_é sem par;"
-          },
-          {
-            "chords": "      A               A...  E      A   ",
-            "lyrics": "Vem a Cristo entregar-te    sem tardar."
-          }
+        "text": [
+          "Vem a [A]Cristo sem tardar, pois no [D]céu te quer do[A]ar",
+          "Um te[D]souro que, no [B7]mundo, não te[E]rás;",
+          "Tu não [A]deves rejeitar esta [D]graça, que_é sem par;",
+          "Vem a [A]Cristo entregar-[A...]te    [E]sem tar[A]dar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       A                E ",
-            "lyrics": "Sem tardar, sem mais tardar,"
-          },
-          {
-            "chords": "    E7              A",
-            "lyrics": "A Jesus vem te_entregar;"
-          },
-          {
-            "chords": "                            D            D... ",
-            "lyrics": "Seu olhar tem sobre ti, Ele quer te perdoar,"
-          },
-          {
-            "chords": "      A                   A...  E      A",
-            "lyrics": "Vem depressa_a Quem te chama,   sem tardar."
-          }
+        "text": [
+          "Sem tar[A]dar, sem mais tar[E]dar,",
+          "A Je[E7]sus vem te_entre[A]gar;",
+          "Seu olhar tem sobre ti, Ele [D]quer te perdo[D...]ar,",
+          "Vem de[A]pressa_a Quem te cha[A...]ma,   [E]sem tar[A]dar."
         ]
       }
     ]

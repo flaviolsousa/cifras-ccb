@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vigiai, irmãos",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Vigiai, irmãos, em todo_o tempo,"
-          },
-          {
-            "chords": "       B         E",
-            "lyrics": "Como_ensina o Senhor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "E, orando, achareis sustento,"
-          },
-          {
-            "chords": "     B            E",
-            "lyrics": "Sentireis maior vigor."
-          }
+        "text": [
+          "Vigi[E]ai, irmãos, em todo_o tempo,",
+          "Como_en[B]sina o Sen[E]hor;",
+          "E, orando, achareis sustento,",
+          "Senti[B]reis maior vi[E]gor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        E ",
-            "lyrics": "Oh! Vigiai em todo_o tempo"
-          },
-          {
-            "chords": "     B          E",
-            "lyrics": "Para que o coração"
-          },
-          {
-            "chords": "",
-            "lyrics": "Sinta vigor, também alento,"
-          },
-          {
-            "chords": "     B               E    E...",
-            "lyrics": "E de Deus a santa_unção."
-          }
+        "text": [
+          "Oh! Vigi[E]ai em todo_o tempo",
+          "Para [B]que o coraç[E]ão",
+          "Sinta vigor, também alento,",
+          "E de [B]Deus a santa_unç[E]ão.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Vigiai, pois não sabeis a hora"
-          },
-          {
-            "chords": "       B          E",
-            "lyrics": "Em que o Senhor virá;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele diz, também_a nós agora,"
-          },
-          {
-            "chords": "        B          E",
-            "lyrics": "Que mui breve voltará."
-          }
+        "text": [
+          "Vigi[E]ai, pois não sabeis a hora",
+          "Em que [B]o Senhor vi[E]rá;",
+          "Ele diz, também_a nós agora,",
+          "Que mui [B]breve volta[E]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Vigiando,_atentos, aguardemos"
-          },
-          {
-            "chords": "       B         E",
-            "lyrics": "Nosso_amado Salvador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Nossas vestes brancas conservemos;"
-          },
-          {
-            "chords": "    B           E",
-            "lyrics": "Vigiemos com fervor."
-          }
+        "text": [
+          "Vigi[E]ando,_atentos, aguardemos",
+          "Nosso_a[B]mado Salva[E]dor;",
+          "Nossas vestes brancas conservemos;",
+          "Vigi[B]emos com fer[E]vor."
         ]
       },
       {

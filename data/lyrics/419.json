@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Fazei isto em memória de Mim\"",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G               D      G        D      G      A     D",
-            "lyrics": "Sempre lembremo-nos da morte do nosso_amado_e bom Jesus;"
-          },
-          {
-            "chords": "G           D   G           D    G     A        D",
-            "lyrics": "Sua memória celebremos, Seu sacrifício sobre_a cruz."
-          },
-          {
-            "chords": "  A  D      Em   D  G        D     Em   A     D",
-            "lyrics": "Toma-remos, co – mo-vidos, a Santa Ceia do Senhor;"
-          },
-          {
-            "chords": "G             D      G         Em   Am  D       G   D   G    G...",
-            "lyrics": "Somos, agora, Seus remidos por Su - a   obra de grande_amor."
-          }
+        "text": [
+          "[G]Sempre lembremo-[D]nos da [G]morte do [D]nosso_a[G]mado_e [A]bom Je[D]sus;",
+          "[G]Sua memória [D]cele[G]bremos, Seu [D]sacri[G]fício [A]sobre_a c[D]ruz.",
+          "To[A]ma-[D]remos, [Em]co – [D]mo-[G]vidos, a [D]Santa [Em]Ceia [A]do Sen[D]hor;",
+          "[G]Somos, agora, [D]Seus re[G]midos por [Em]Su - [Am]a   [D]obra de [G]gran[D]de_a[G]mor.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                D     G        D    G     A    D",
-            "lyrics": "Neste momento_o pão partimos, como Jesus determinou,"
-          },
-          {
-            "chords": "G             D       G         D    G       A   D",
-            "lyrics": "E, nesta comunhão, sentimos quanto o Mestre nos amou;"
-          },
-          {
-            "chords": "   A  D      Em  D  G          D    Em    A     D",
-            "lyrics": "Ao be-bermos des-te cálix, por mandamento do Senhor"
-          },
-          {
-            "chords": "G           D  G      Em  Am  D       G  D  G    G...",
-            "lyrics": "Anunciamos Sua morte até  que venha o Re-dentor."
-          }
+        "text": [
+          "[G]Neste momento_o p[D]ão par[G]timos, co[D]mo Je[G]sus de[A]termi[D]nou,",
+          "[G]E, nesta comun[D]hão, sen[G]timos quan[D]to o [G]Mestre n[A]os a[D]mou;",
+          "Ao [A]be-[D]bermos [Em]des-[D]te [G]cálix, por [D]manda[Em]mento [A]do Sen[D]hor",
+          "[G]Anunciamos S[D]ua [G]morte a[Em]té  [Am]que [D]venha o [G]Re-[D]den[G]tor.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G           D    G          D    G         A  D",
-            "lyrics": "Rememoremos o martírio, a_humilhação que suportou;"
-          },
-          {
-            "chords": "G                  D    G          D     G      A     D",
-            "lyrics": "Sendo, de Deus, o_amado Filho, do céu desceu e nos salvou."
-          },
-          {
-            "chords": "  A  D      Em  D   G          D         Em    A    D",
-            "lyrics": "Retornou ao Pai e - terno, mas dentro_em breve voltará"
-          },
-          {
-            "chords": "G               D      G        Em  Am  D       G  D    G    G...",
-            "lyrics": "Para nos dar perpétua glória no rei-no que prepara-do_está."
-          }
+        "text": [
+          "[G]Rememoremos [D]o mar[G]tírio, a_hu[D]milha[G]ção que su[A]por[D]tou;",
+          "[G]Sendo, de Deus, o_a[D]mado [G]Filho, do c[D]éu des[G]ceu e n[A]os sal[D]vou.",
+          "Re[A]tor[D]nou ao [Em]Pai [D]e - [G]terno, mas [D]dentro_em [Em]breve [A]volta[D]rá",
+          "[G]Para nos dar per[D]pétua g[G]lória no [Em]rei-[Am]no q[D]ue prepa[G]ra-[D]do_es[G]tá.[G...]"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Vinde a Mim!\"",
   "tone": {
     "recommended": "D"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    D          G      A           D",
-            "lyrics": "Não há palavra doce igual à de Jesus,"
-          },
-          {
-            "chords": "              G         A              D",
-            "lyrics": "Palavra da verdade, que para_o céu conduz."
-          },
-          {
-            "chords": "     Bm          F#        Bm          A ",
-            "lyrics": "Quando_estiveres triste, terás consolação"
-          },
-          {
-            "chords": "   D              G        A            D",
-            "lyrics": "Buscando_a Jesus Cristo, Autor da salvação."
-          }
+        "text": [
+          "Não [D]há palavra [G]doce ig[A]ual à de Jes[D]us,",
+          "Palavra da ver[G]dade, que [A]para_o céu cond[D]uz.",
+          "Quand[Bm]o_estiveres [F#]triste, te[Bm]rás consolaç[A]ão",
+          "Bus[D]cando_a Jesus C[G]risto, Au[A]tor da salvaç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    D             G         A         D",
-            "lyrics": "Não andes mais distante do Salvador Jesus"
-          },
-          {
-            "chords": "                   G          A        D ",
-            "lyrics": "Que, com amor, te chama, pois é a tua Luz."
-          },
-          {
-            "chords": "   Bm          F#     Bm           A ",
-            "lyrics": "Se fores desprezado e não tiveres paz,"
-          },
-          {
-            "chords": "    D         G          A         D",
-            "lyrics": "Vem logo entregar-te ao Salvador veraz."
-          }
+        "text": [
+          "Não [D]andes mais dis[G]tante do S[A]alvador Je[D]sus",
+          "Que, com amor, te c[G]hama, pois [A]é a tua L[D]uz.",
+          "Se [Bm]fores despre[F#]zado e [Bm]não tiveres p[A]az,",
+          "Vem [D]logo entre[G]gar-te ao S[A]alvador ve[D]raz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     D            G         A            D",
-            "lyrics": "Vem, sem tardar, unir-te a Quem te diz assim,"
-          },
-          {
-            "chords": "                  G          A               D",
-            "lyrics": "Com voz celeste_e doce: “Oh! Vem, sim, vem a Mim”."
-          },
-          {
-            "chords": "    Bm         F#    Bm         A ",
-            "lyrics": "Por Sua mão guiado, aqui tu andarás"
-          },
-          {
-            "chords": "     D            G           A           D",
-            "lyrics": "Tranquilo_e bem seguro e,_um dia,_ao céu irás."
-          }
+        "text": [
+          "Vem, [D]sem tardar, u[G]nir-te a Q[A]uem te diz as[D]sim,",
+          "Com voz celeste_e [G]doce: “Oh! [A]Vem, sim, vem a [D]Mim”.",
+          "Por [Bm]Sua mão gui[F#]ado, a[Bm]qui tu anda[A]rás",
+          "Tranq[D]uilo_e bem se[G]guro e,_um d[A]ia,_ao céu i[D]rás."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " D                         E ",
-            "lyrics": "“Vinde_a Mim, vós todos cansados e_oprimidos”,"
-          },
-          {
-            "chords": "   A           D          A           D",
-            "lyrics": "Falou o grande Mestre, Jesus, o Redentor;"
-          },
-          {
-            "chords": "                           E ",
-            "lyrics": "Pois Seu fardo_é leve, Seu jugo é suave,"
-          },
-          {
-            "chords": "   A         D          A         D",
-            "lyrics": "Só Ele traz alívio: perdão ao pecador."
-          }
+        "text": [
+          "“[D]Vinde_a Mim, vós todos can[E]sados e_oprimidos”,",
+          "Fal[A]ou o grande [D]Mestre, Jes[A]us, o Redent[D]or;",
+          "Pois Seu fardo_é leve, Seu [E]jugo é suave,",
+          "Só [A]Ele traz a[D]lívio: perd[A]ão ao peca[D]dor."
         ]
       }
     ]

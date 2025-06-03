@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Teu precioso sangue",
   "tone": {
     "recommended": "C"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C              F       C            G ",
-            "lyrics": "O Teu precioso sangue, ó divinal Cordeiro,"
-          },
-          {
-            "chords": "C             F           C    G7     C",
-            "lyrics": "Do mundo resgatou-me, por Teu imenso_amor;"
-          },
-          {
-            "chords": "G                 D  D7           G ",
-            "lyrics": "Faz que em Ti esteja a minha confiança,"
-          },
-          {
-            "chords": "C            F       C     G7   C",
-            "lyrics": "Dá-me perseverança e fé, ó Redentor."
-          }
+        "text": [
+          "[C]O Teu precioso [F]sangue, [C]ó divinal Cor[G]deiro,",
+          "[C]Do mundo resga[F]tou-me, por [C]Teu i[G7]menso_a[C]mor;",
+          "[G]Faz que em Ti este[D]ja [D7]a minha confi[G]ança,",
+          "[C]Dá-me perseve[F]rança e [C]fé, ó [G7]Reden[C]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                F      C                G ",
-            "lyrics": "Fraco eu sou, no mundo, para_enfrentar a lida,"
-          },
-          {
-            "chords": "C                F        C       G7  C",
-            "lyrics": "Mas, com celeste força, o mal não temerei;"
-          },
-          {
-            "chords": "G            D  D7                G ",
-            "lyrics": "Vindo o inimigo para_enlaçar-me_a vida,"
-          },
-          {
-            "chords": "C                F       C       G7     C",
-            "lyrics": "Sei que terei guarida em Ti, meu grande Rei."
-          }
+        "text": [
+          "[C]Fraco eu sou, no [F]mundo, [C]para_enfrentar a [G]lida,",
+          "[C]Mas, com celeste [F]força, o [C]mal não [G7]teme[C]rei;",
+          "[G]Vindo o inimi[D]go [D7]para_enlaçar-me_a [G]vida,",
+          "[C]Sei que terei gua[F]rida em [C]Ti, meu [G7]grande [C]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C               F     C             G ",
-            "lyrics": "Estando sempre_atento à celestial Palavra,"
-          },
-          {
-            "chords": "C              F       C      G7     C",
-            "lyrics": "Nunca serei vencido do mal, ó meu Senhor."
-          },
-          {
-            "chords": "G               D  D7            G ",
-            "lyrics": "O Teu falar divino confortará minha´alma,"
-          },
-          {
-            "chords": "C               F         C    G7   C",
-            "lyrics": "Dando-lhe paz e calma, firmeza e fervor."
-          }
+        "text": [
+          "[C]Estando sempre_a[F]tento [C]à celestial Pa[G]lavra,",
+          "[C]Nunca serei ven[F]cido do [C]mal, ó [G7]meu Sen[C]hor.",
+          "[G]O Teu falar divi[D]no [D7]confortará min[G]ha´alma,",
+          "[C]Dando-lhe paz e [F]calma, fir[C]meza [G7]e fer[C]vor."
         ]
       }
     ]

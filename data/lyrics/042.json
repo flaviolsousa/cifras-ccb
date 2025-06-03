@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó minha alma, por que te abates?",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        G",
-            "lyrics": "Ó minha alma, por que te abates?"
-          },
-          {
-            "chords": "          Am   D             G",
-            "lyrics": "Em Deus espera   nos teus combates;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Se entre males tu te debates,"
-          },
-          {
-            "chords": "           Am   D         G",
-            "lyrics": "Em Deus confia,   Ele é fiel."
-          }
+        "text": [
+          "Ó minha [G]alma, por que te abates?",
+          "Em Deus es[Am]pera [D]  nos teus com[G]bates;",
+          "Se entre males tu te debates,",
+          "Em Deus con[Am]fia, [D]  Ele é fi[G]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "             G",
-            "lyrics": "Por que, minh´alma, estás aflita?"
-          },
-          {
-            "chords": "           Am    D       G",
-            "lyrics": "Deus te consola,   te edifica;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Só Ele guarda e santifica;"
-          },
-          {
-            "chords": "          Am    D         G",
-            "lyrics": "Sê firme n´Ele,   que é fiel."
-          }
+        "text": [
+          "Por que, minh[G]´alma, estás aflita?",
+          "Deus te con[Am]sola, [D]  te edi[G]fica;",
+          "Só Ele guarda e santifica;",
+          "Sê firme n[Am]´Ele, [D]  que é fi[G]el."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         G",
-            "lyrics": "Vigor e graça só Deus concede,"
-          },
-          {
-            "chords": "         Am     D        G",
-            "lyrics": "Com fé suplica,   a Ele pede;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Jesus, o Justo, por ti intercede;"
-          },
-          {
-            "chords": "          Am    D           G",
-            "lyrics": "Sê, minha alma,   a Deus, fiel."
-          }
+        "text": [
+          "Vigor e g[G]raça só Deus concede,",
+          "Com fé su[Am]plica, [D]  a Ele p[G]ede;",
+          "Jesus, o Justo, por ti intercede;",
+          "Sê, minha [Am]alma, [D]  a Deus, fi[G]el."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "            Am    D          G",
-            "lyrics": "Deus é o Sustento   da minha vida,"
-          },
-          {
-            "chords": "        Am    D           G    G7",
-            "lyrics": "Dará conforto   em toda a lida;"
-          },
-          {
-            "chords": "          C     D            G    Em",
-            "lyrics": "Ao Seu descanso   Deus te convida;"
-          },
-          {
-            "chords": "        Am    D            G                           ",
-            "lyrics": "Ó minha alma,   confia em Deus."
-          }
+        "text": [
+          "Deus é o Sus[Am]tento [D]  da minha [G]vida,",
+          "Dará con[Am]forto [D]  em toda a [G]lida;[G7]",
+          "Ao Seu des[C]canso [D]  Deus te con[G]vida;[Em]",
+          "Ó minha [Am]alma, [D]  confia em D[G]eus."
         ]
       }
     ]

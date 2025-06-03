@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Recordemo-nos sempre do Mestre",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     D         G         D  ",
-            "lyrics": "Recordemo-nos sempre do Mestre,"
-          },
-          {
-            "chords": "          A7                  D",
-            "lyrics": "Que, sem culpa, o martírio sofreu;"
-          },
-          {
-            "chords": "                G           D",
-            "lyrics": "Sendo Filho de Deus, Pai celeste,"
-          },
-          {
-            "chords": "       E7               A7 ",
-            "lyrics": "Pelos nossos pecados morreu."
-          }
+        "text": [
+          "Recor[D]demo-nos s[G]empre do M[D]estre,",
+          "Que, sem c[A7]ulpa, o martírio sof[D]reu;",
+          "Sendo Filho de D[G]eus, Pai cel[D]este,",
+          "Pelos n[E7]ossos pecados mor[A7]reu."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    A7                  D ",
-            "lyrics": "Comovidos por Seu sofrimento atroz"
-          },
-          {
-            "chords": "    A7                D ",
-            "lyrics": "Exaltemos o Filho de Deus;"
-          },
-          {
-            "chords": "               D7          G        G... ",
-            "lyrics": "Relembrando o amor que Ele teve por nós,"
-          },
-          {
-            "chords": "    A7                D",
-            "lyrics": "Orações elevemos aos céus."
-          }
+        "text": [
+          "Como[A7]vidos por Seu sofrim[D]ento atroz",
+          "Exal[A7]temos o Filho de D[D]eus;",
+          "Relembrando o a[D7]mor que Ele [G]teve por [G...]nós,",
+          "Oraç[A7]ões elevemos aos c[D]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       D       G       D ",
-            "lyrics": "Jesus Cristo orou reverente,"
-          },
-          {
-            "chords": "     A7                 D ",
-            "lyrics": "A missão já chegava ao fim;"
-          },
-          {
-            "chords": "                    G         D",
-            "lyrics": " “Se possível”, clamou tristemente,"
-          },
-          {
-            "chords": "        E7                 A7 ",
-            "lyrics": "“Faz passar este cálix de mim.”"
-          }
+        "text": [
+          "Jesus C[D]risto or[G]ou rever[D]ente,",
+          "A mis[A7]são já chegava ao f[D]im;",
+          " “Se possível”, clam[G]ou tristem[D]ente,",
+          "“Faz pas[E7]sar este cálix de m[A7]im.”"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     D         G            D ",
-            "lyrics": "A angústia, então, foi mui grande,"
-          },
-          {
-            "chords": "          A7                 D ",
-            "lyrics": "Que, por nós, o Senhor suportou;"
-          },
-          {
-            "chords": "                  G         D",
-            "lyrics": "Seu suor transformou-se em sangue,"
-          },
-          {
-            "chords": "     E7               A7 ",
-            "lyrics": "A vontade do Pai aceitou."
-          }
+        "text": [
+          "A ang[D]ústia, ent[G]ão, foi mui g[D]rande,",
+          "Que, por n[A7]ós, o Senhor suport[D]ou;",
+          "Seu suor transform[G]ou-se em s[D]angue,",
+          "A von[E7]tade do Pai aceit[A7]ou."
         ]
       },
       {

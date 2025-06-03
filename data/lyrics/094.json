@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Quem sustenta a nossa vida",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        C                        G7 ",
-            "lyrics": "Quem sustenta_a nossa vida é_a Palavra do Senhor,"
-          },
-          {
-            "chords": "                                     C",
-            "lyrics": "Que anima, edifica e nos traz consolação,"
-          },
-          {
-            "chords": "                             C7          F ",
-            "lyrics": "E que une_a alma_humilde ao amor do Redentor;"
-          },
-          {
-            "chords": "                C            G            C",
-            "lyrics": "É_a Palavra poderosa que faz crer na salvação."
-          }
+        "text": [
+          "Quem sus[C]tenta_a nossa vida é_a Pa[G7]lavra do Senhor,",
+          "Que anima, edifica e nos traz consola[C]ção,",
+          "E que une_a alma_humilde ao a[C7]mor do Reden[F]tor;",
+          "É_a Palavra pode[C]rosa que faz [G]crer na salva[C]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G7           C           G7        C",
-            "lyrics": "A Palavra do bom Criador é a Guia do remido"
-          },
-          {
-            "chords": "      G7       C           D7         G ",
-            "lyrics": "Na jornada a caminho das moradas do Fiel;"
-          },
-          {
-            "chords": "    C           F           G          C",
-            "lyrics": "É Palavra de virtude, que levanta o_abatido;"
-          },
-          {
-            "chords": "                 F          G           C",
-            "lyrics": "É Espada de dois gumes, é o Verbo,_Emanuel."
-          }
+        "text": [
+          "A Pa[G7]lavra do bom [C]Criador é a [G7]Guia do re[C]mido",
+          "Na jor[G7]nada a ca[C]minho das mo[D7]radas do Fi[G]el;",
+          "É Pa[C]lavra de vir[F]tude, que le[G]vanta o_aba[C]tido;",
+          "É Espada de dois [F]gumes, é o [G]Verbo,_Emanu[C]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      C                        G7 ",
-            "lyrics": "Proclamemos que Jesus não tardará em retornar,"
-          },
-          {
-            "chords": "                                        C",
-            "lyrics": "Vamos sempre_obedecê-Lo e de coração O_amar;"
-          },
-          {
-            "chords": "                          C7             F ",
-            "lyrics": "Estejamos vigilantes, esperando_o Seu voltar,"
-          },
-          {
-            "chords": "                    C          G         C",
-            "lyrics": "Pois em breve a trombeta todos vamos escutar."
-          }
+        "text": [
+          "Procla[C]memos que Jesus não tarda[G7]rá em retornar,",
+          "Vamos sempre_obedecê-Lo e de coração O_a[C]mar;",
+          "Estejamos vigilantes, espe[C7]rando_o Seu vol[F]tar,",
+          "Pois em breve a trom[C]beta todos [G]vamos escu[C]tar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      C                   G7 ",
-            "lyrics": "Não sejamos ociosos em servir o grande Rei,"
-          },
-          {
-            "chords": "                                         C",
-            "lyrics": "Mas sejamos fervorosos para sempre_O atender;"
-          },
-          {
-            "chords": "                               C7        F ",
-            "lyrics": "Com as divinais virtudes cumpriremos Sua lei,"
-          },
-          {
-            "chords": "                  C              G         C",
-            "lyrics": "Subiremos para_a glória, lar do_Onipotente Ser."
-          }
+        "text": [
+          "Não se[C]jamos ociosos em ser[G7]vir o grande Rei,",
+          "Mas sejamos fervorosos para sempre_O aten[C]der;",
+          "Com as divinais virtudes cumpri[C7]remos Sua [F]lei,",
+          "Subiremos para_a g[C]lória, lar do_O[G]nipotente [C]Ser."
         ]
       },
       {

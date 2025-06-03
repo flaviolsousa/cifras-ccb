@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Deixai a Mim vir os pequeninos...\"",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         B          F#7",
-            "lyrics": "Crianças eram encaminhadas"
-          },
-          {
-            "chords": "                             B",
-            "lyrics": "Aos pés do bom Jesus, o Redentor,"
-          },
-          {
-            "chords": "                     E    F°",
-            "lyrics": "A fim de serem abençoadas"
-          },
-          {
-            "chords": "       B     F#7       B    B...",
-            "lyrics": "E conhecerem    o Seu amor."
-          }
+        "text": [
+          "Crianças [B]eram encami[F#7]nhadas",
+          "Aos pés do bom Jesus, o Reden[B]tor,",
+          "A fim de serem abenço[E]adas[F°]",
+          "E conhe[B]cerem [F#7]   o Seu a[B]mor.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "          B               F#7",
-            "lyrics": "“Deixai a Mim vir os pequeninos"
-          },
-          {
-            "chords": "                             B",
-            "lyrics": "E não os impeçais”, falou Jesus;"
-          },
-          {
-            "chords": "                           E    F°",
-            "lyrics": "Quem não se torna também menino"
-          },
-          {
-            "chords": "           B    F#7          B    B...",
-            "lyrics": "Não tem entrada    o lar de luz."
-          }
+        "text": [
+          "“Deixai a [B]Mim vir os peque[F#7]ninos",
+          "E não os impeçais”, falou Jes[B]us;",
+          "Quem não se torna também me[E]nino[F°]",
+          "Não tem ent[B]rada [F#7]   o lar de l[B]uz.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         B           F#7",
-            "lyrics": "Doutrina santa e excelente"
-          },
-          {
-            "chords": "                             B",
-            "lyrics": "Ensina_o Redentor aos Seus fiéis."
-          },
-          {
-            "chords": "                       E     F°",
-            "lyrics": "A Deus sirvamos humildemente,"
-          },
-          {
-            "chords": "           B     F#7           B    B...",
-            "lyrics": "Pois foi humilde    o Rei dos reis."
-          }
+        "text": [
+          "Doutrina [B]santa e exce[F#7]lente",
+          "Ensina_o Redentor aos Seus fi[B]éis.",
+          "A Deus sirvamos humilde[E]mente,[F°]",
+          "Pois foi hu[B]milde [F#7]   o Rei dos r[B]eis.[B...]"
         ]
       }
     ]

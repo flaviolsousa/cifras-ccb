@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Que gloriosa Esperança é Jesus!",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       C         G                     C",
-            "lyrics": "Que gloriosa Esperança é Jesus, o Salvador,"
-          },
-          {
-            "chords": "                G  C   F      G        C",
-            "lyrics": "Nossa Bem-aventurança, nosso_amado Remidor!"
-          },
-          {
-            "chords": "               G                   C",
-            "lyrics": "Nossa Luz e Alegria, poderoso Defensor,"
-          },
-          {
-            "chords": "                    E  Am  F#°  G           C",
-            "lyrics": "Nosso_Escudo, nosso Guia   é  Jesus, o Redentor."
-          }
+        "text": [
+          "Que glo[C]riosa Espe[G]rança é Jesus, o Salva[C]dor,",
+          "Nossa Bem-aventu[G]ran[C]ça, [F]nosso_a[G]mado Remi[C]dor!",
+          "Nossa Luz e Ale[G]gria, poderoso Defen[C]sor,",
+          "Nosso_Escudo, nosso [E]Gui[Am]a   [F#°]é  Je[G]sus, o Reden[C]tor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G         C",
-            "lyrics": "É Jesus a Esperança,"
-          },
-          {
-            "chords": "G             C",
-            "lyrics": "É o Justo e Fiel, "
-          },
-          {
-            "chords": "",
-            "lyrics": "É a nossa Confiança,"
-          },
-          {
-            "chords": "F   G         C",
-            "lyrics": "Poderoso_Emanuel."
-          }
+        "text": [
+          "É Je[G]sus a Espe[C]rança,",
+          "[G]É o Justo e Fi[C]el, ",
+          "É a nossa Confiança,",
+          "[F]Pode[G]roso_Emanu[C]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      C        G                         C",
-            "lyrics": "Nossa Vida e Riqueza, nosso_Apoio é_o Senhor,"
-          },
-          {
-            "chords": "                 G  C  F      G            C",
-            "lyrics": "É o Pão de vida_eterna que sustenta_e dá vigor;"
-          },
-          {
-            "chords": "                     G                             C",
-            "lyrics": "Glória, glória nas alturas, glória, glória_ao Redentor,"
-          },
-          {
-            "chords": "                    E  Am  F#°  G            C",
-            "lyrics": "Que nos dá paz sempiterna  e o  Seu sublime_amor!"
-          }
+        "text": [
+          "Nossa [C]Vida e Ri[G]queza, nosso_Apoio é_o Sen[C]hor,",
+          "É o Pão de vida_e[G]ter[C]na [F]que sus[G]tenta_e dá vi[C]gor;",
+          "Glória, glória nas al[G]turas, glória, glória_ao Reden[C]tor,",
+          "Que nos dá paz sempi[E]ter[Am]na  [F#°]e o  [G]Seu sublime_a[C]mor!"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C           G                         C",
-            "lyrics": "A Jesus, o Verdadeiro, Invencível, grande Rei,"
-          },
-          {
-            "chords": "                G  C   F    G        C",
-            "lyrics": "O meu coração entrego, só a Ele servirei;"
-          },
-          {
-            "chords": "                       G                     C",
-            "lyrics": "Certo_estou de que_a vitória almejada_alcançarei;"
-          },
-          {
-            "chords": "                     E   Am  F#°  G           C",
-            "lyrics": "E na glória, junto_a E - le, para sempre reinarei."
-          }
+        "text": [
+          "A Je[C]sus, o Verda[G]deiro, Invencível, grande [C]Rei,",
+          "O meu coração en[G]tre[C]go, [F]só a [G]Ele servi[C]rei;",
+          "Certo_estou de que_a vi[G]tória almejada_alcança[C]rei;",
+          "E na glória, junto_a [E]E - [Am]le, [F#°]para [G]sempre reina[C]rei."
         ]
       },
       {

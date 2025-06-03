@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Nome precioso para mim",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D         G   A    D",
-            "lyrics": "Um Nome precioso para mim,"
-          },
-          {
-            "chords": "              G    A   D",
-            "lyrics": "O Nome que_amarei até ofim,"
-          },
-          {
-            "chords": "       A                 D",
-            "lyrics": "Com sincero_amor, com sincero_ardor,"
-          },
-          {
-            "chords": "    E                A     A7... ",
-            "lyrics": "É_o Nome de Jesus, o Mestre."
-          }
+        "text": [
+          "Um [D]Nome preci[G]oso [A]para [D]mim,",
+          "O Nome que_ama[G]rei a[A]té o[D]fim,",
+          "Com sin[A]cero_amor, com sin[D]cero_ardor,",
+          "É_o [E]Nome de Jesus, o [A]Mestre[A7...]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D         G   A    D",
-            "lyrics": "Nome precioso para mim"
-          },
-          {
-            "chords": "    A               D",
-            "lyrics": "É o de Jesus, minha Vida_e Luz;"
-          },
-          {
-            "chords": "                 G      A    D",
-            "lyrics": "Por fé eu quero_amá-Lo_até o fim;"
-          },
-          {
-            "chords": "  G           A              D",
-            "lyrics": "Jesus, o Redentor, habita_em mim!"
-          }
+        "text": [
+          "[D]Nome preci[G]oso [A]para [D]mim",
+          "É o [A]de Jesus, minha [D]Vida_e Luz;",
+          "Por fé eu quero_a[G]má-Lo_a[A]té o [D]fim;",
+          "Je[G]sus, o Reden[A]tor, habita_em [D]mim!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   D           G    A     D",
-            "lyrics": "Ao mencionar o Nome do Senhor,"
-          },
-          {
-            "chords": "              G    A   D",
-            "lyrics": "Meu coração jubila de amor;"
-          },
-          {
-            "chords": "        A                D",
-            "lyrics": "Oh! Que comunhão! Que consolação!"
-          },
-          {
-            "chords": "   E                A    A7... ",
-            "lyrics": "Eu sinto grande regozijo!"
-          }
+        "text": [
+          "Ao [D]mencionar o [G]Nome [A]do Sen[D]hor,",
+          "Meu coração ju[G]bila [A]de a[D]mor;",
+          "Oh! Que [A]comunhão! Que con[D]solação!",
+          "Eu [E]sinto grande rego[A]zijo![A7...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   D           G      A   D",
-            "lyrics": "Perdão eu alcancei do Criador,"
-          },
-          {
-            "chords": "                 G    A   D",
-            "lyrics": "Por Cristo, meu amado Remidor,"
-          },
-          {
-            "chords": "       A                D",
-            "lyrics": "Que na cruz morreu, Sua vida deu;"
-          },
-          {
-            "chords": "  E                    A    A7... ",
-            "lyrics": "Pagou a Deus os meus pecados."
-          }
+        "text": [
+          "Per[D]dão eu alcan[G]cei do [A]Cria[D]dor,",
+          "Por Cristo, meu a[G]mado [A]Remi[D]dor,",
+          "Que na [A]cruz morreu, Sua [D]vida deu;",
+          "Pa[E]gou a Deus os meus pe[A]cados[A7...]."
         ]
       },
       {

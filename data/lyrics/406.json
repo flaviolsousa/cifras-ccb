@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A voz de Cristo te convida: Vem!",
   "tone": {
     "recommended": "G"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G                   C     G                      D",
-            "lyrics": "A voz de Cristo te convida: Vem! Sedento,_a Cristo vem!"
-          },
-          {
-            "chords": "   G                C    G",
-            "lyrics": "Chamando continua_o Salvador,"
-          },
-          {
-            "chords": "   Em    D   G",
-            "lyrics": "Ao homem pecador."
-          }
+        "text": [
+          "A [G]voz de Cristo te con[C]vida: [G]Vem! Sedento,_a Cristo [D]vem!",
+          "Cha[G]mando continua_o [C]Salva[G]dor,",
+          "Ao [Em]homem [D]peca[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G                      C     G",
-            "lyrics": "Glória_ao grande_e poderoso Deus,"
-          },
-          {
-            "chords": "                  A7       D",
-            "lyrics": "Que mandou a redenção dos céus"
-          },
-          {
-            "chords": "G                 C      G",
-            "lyrics": "Em Jesus, a Fonte do perdão,"
-          },
-          {
-            "chords": " D           G",
-            "lyrics": "Eterna Salvação."
-          }
+        "text": [
+          "[G]Glória_ao grande_e pode[C]roso D[G]eus,",
+          "Que mandou a reden[A7]ção dos c[D]éus",
+          "[G]Em Jesus, a Fonte [C]do perd[G]ão,",
+          "E[D]terna Salvaç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G                  C    G              D",
-            "lyrics": "Sedentos, vinde ao Manancial de vida eternal;"
-          },
-          {
-            "chords": "     G                 C   G",
-            "lyrics": "Quem ao convite não se recusar,"
-          },
-          {
-            "chords": "    Em      D     G",
-            "lyrics": "Com Cristo_irá reinar."
-          }
+        "text": [
+          "Se[G]dentos, vinde ao Ma[C]nanci[G]al de vida eter[D]nal;",
+          "Quem [G]ao convite não se [C]recu[G]sar,",
+          "Com [Em]Cristo_i[D]rá rei[G]nar."
         ]
       },
       {
@@ -70,19 +40,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      G                   C    G                   D",
-            "lyrics": "Quem quer à glória ir com o Senhor e ver Seu esplendor,"
-          },
-          {
-            "chords": "   G               C     G ",
-            "lyrics": "Contrito, deve receber a luz"
-          },
-          {
-            "chords": "   Em    D     G",
-            "lyrics": "Provinda de Jesus."
-          }
+        "text": [
+          "Quem q[G]uer à glória ir com [C]o Sen[G]hor e ver Seu esplen[D]dor,",
+          "Con[G]trito, deve rece[C]ber a [G]luz",
+          "Pro[Em]vinda [D]de Jes[G]us."
         ]
       },
       {

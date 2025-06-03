@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo é a Esperança",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E    B                               E",
-            "lyrics": "Tu - do_é vaidade neste mundo de_ilusão;"
-          },
-          {
-            "chords": "E7    A       B                 E",
-            "lyrics": "Gló - rias terrenas breve findarão."
-          },
-          {
-            "chords": "             A     F#     B        E",
-            "lyrics": "É_um vapor a vida, que se desvanecerá;"
-          },
-          {
-            "chords": "              A       B               E",
-            "lyrics": "A_esperança_é Cristo; n´Ele_a graça_está."
-          }
+        "text": [
+          "[E]Tu - [B]do_é vaidade neste mundo de_ilus[E]ão;",
+          "[E7]Gló - [A]rias ter[B]renas breve findar[E]ão.",
+          "É_um vapor a [A]vida, [F#]que se [B]desvanece[E]rá;",
+          "A_esperança_é [A]Cristo; [B]n´Ele_a graça_es[E]tá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E              B ",
-            "lyrics": "Cristo é a_Esperança,"
-          },
-          {
-            "chords": "                  E",
-            "lyrics": "É do mundo_o Redentor;"
-          },
-          {
-            "chords": "      C#      F#m ",
-            "lyrics": "N´Ele há confiança,"
-          },
-          {
-            "chords": "B            E",
-            "lyrics": "Vida, paz e_amor."
-          }
+        "text": [
+          "[E]Cristo é a_Espe[B]rança,",
+          "É do mundo_o Reden[E]tor;",
+          "N´Ele [C#]há confi[F#m]ança,",
+          "[B]Vida, paz e_a[E]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E    B                                 E",
-            "lyrics": "So - bre a terra há tristeza,_inquietação,"
-          },
-          {
-            "chords": "E7   A      B               E",
-            "lyrics": "Do - res, enfado e perturbação;"
-          },
-          {
-            "chords": "              A      F#    B           E",
-            "lyrics": "Não há paz no mundo, neste mundo_enganador;"
-          },
-          {
-            "chords": "              A       B           E",
-            "lyrics": "A_esperança_é Cristo, nosso Benfeitor."
-          }
+        "text": [
+          "[E]So - [B]bre a terra há tristeza,_inquietaç[E]ão,",
+          "[E7]Do - [A]res, en[B]fado e perturbaç[E]ão;",
+          "Não há paz no [A]mundo, [F#]neste [B]mundo_engana[E]dor;",
+          "A_esperança_é [A]Cristo, [B]nosso Benfei[E]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E  B                             E",
-            "lyrics": "De Deus a ira sobre_a terra descerá"
-          },
-          {
-            "chords": "E7  A     B              E",
-            "lyrics": "E,  nesse dia, tudo findará;"
-          },
-          {
-            "chords": "            A      F#   B           E",
-            "lyrics": "Nada, deste mundo, pode dar a salvação;"
-          },
-          {
-            "chords": "              A       B           E",
-            "lyrics": "A_esperança_é Cristo, nossa Redenção."
-          }
+        "text": [
+          "[E]De [B]Deus a ira sobre_a terra desce[E]rá",
+          "[E7]E,  [A]nesse [B]dia, tudo finda[E]rá;",
+          "Nada, deste [A]mundo, [F#]pode [B]dar a salvaç[E]ão;",
+          "A_esperança_é [A]Cristo, [B]nossa Redenç[E]ão."
         ]
       },
       {

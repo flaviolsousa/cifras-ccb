@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu amor, ó Cordeiro divinal",
   "tone": {
     "recommended": "E"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    E                     A              B ",
-            "lyrics": "Que obra pode se_igualar àquela sobre_a cruz?"
-          },
-          {
-            "chords": "    E                     A     B7   E",
-            "lyrics": "Que morte pode resgatar senão a de Jesus?"
-          }
+        "text": [
+          "Que [E]obra pode se_igualar à[A]quela sobre_a c[B]ruz?",
+          "Que [E]morte pode resgatar se[A]não a [B7]de Je[E]sus?"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     E                   B ",
-            "lyrics": "Teu amor, Teu amor, ó Cordeiro divinal,"
-          },
-          {
-            "chords": "    B7                    E",
-            "lyrics": "Só agora é que posso_entender:"
-          },
-          {
-            "chords": "     A                  E",
-            "lyrics": "Tu pagaste a Deus meu pecado, meu mal,"
-          },
-          {
-            "chords": "    A       B7          E",
-            "lyrics": "E fizeste feliz o meu viver."
-          }
+        "text": [
+          "Teu a[E]mor, Teu amor, ó Cor[B]deiro divinal,",
+          "Só a[B7]gora é que posso_enten[E]der:",
+          "Tu pa[A]gaste a Deus meu pe[E]cado, meu mal,",
+          "E fi[A]zeste fe[B7]liz o meu vi[E]ver."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    E                           A            B ",
-            "lyrics": "Por toda_a minha transgreção morreu Jesus, o Rei;"
-          },
-          {
-            "chords": "  E                      A      B7   E",
-            "lyrics": "A Sua_imensa compaixão jamais esquecerei."
-          }
+        "text": [
+          "Por [E]toda_a minha transgreção mor[A]reu Jesus, o [B]Rei;",
+          "A [E]Sua_imensa compaixão ja[A]mais es[B7]quece[E]rei."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E                           A          B ",
-            "lyrics": "Ó meu Jesus, que Te darei por todo esse_amor?"
-          },
-          {
-            "chords": "    E                      A       B7   E",
-            "lyrics": "Meu ser a Ti entregarei, serei Teu servidor."
-          }
+        "text": [
+          "Ó [E]meu Jesus, que Te darei por [A]todo esse_a[B]mor?",
+          "Meu [E]ser a Ti entregarei, se[A]rei Teu [B7]servi[E]dor."
         ]
       },
       {

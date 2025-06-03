@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É Cristo Quem cuida de ti",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Cristo Jesus, o Pastor divinal,"
-          },
-          {
-            "chords": "          F#      B",
-            "lyrics": "Sempre de ti cuidará;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele, que fala de vida_eternal,"
-          },
-          {
-            "chords": "          F#     B",
-            "lyrics": "Nunca te_abandonará."
-          }
+        "text": [
+          "[B]Cristo Jesus, o Pastor divinal,",
+          "Sempre de [F#]ti cuida[B]rá;",
+          "Ele, que fala de vida_eternal,",
+          "Nunca te_a[F#]bandona[B]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "É Cristo Quem cuida de ti,"
-          },
-          {
-            "chords": "F#  ",
-            "lyrics": "É Ele Quem zela por ti;"
-          },
-          {
-            "chords": "B               E         C#m... ",
-            "lyrics": "N´Ele descansa, n´Ele tem fé,"
-          },
-          {
-            "chords": "B             F#  B  B...",
-            "lyrics": "Forte Refúgio Ele é."
-          }
+        "text": [
+          "[B]É Cristo Quem cuida de ti,",
+          "[F#]É Ele Quem zela por ti;",
+          "[B]N´Ele descansa, [E]n´Ele tem [C#m...]fé,",
+          "[B]Forte Refúgio [F#]Ele [B]é.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Em toda_a prova, irmão, o Senhor,"
-          },
-          {
-            "chords": "          F#       B",
-            "lyrics": "Forças do céu te dará;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Cristo te salva, te faz vencedor;"
-          },
-          {
-            "chords": "      F#        B",
-            "lyrics": "Ele jamais falhará."
-          }
+        "text": [
+          "[B]Em toda_a prova, irmão, o Senhor,",
+          "Forças do [F#]céu te da[B]rá;",
+          "Cristo te salva, te faz vencedor;",
+          "Ele ja[F#]mais falha[B]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Em Sua graça, irmão, o Senhor"
-          },
-          {
-            "chords": "          F#      B",
-            "lyrics": "Sempre te conservará;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Cristo, teu Guia, também teu Valor,"
-          },
-          {
-            "chords": "         F#      B",
-            "lyrics": "Em teu socorro virá."
-          }
+        "text": [
+          "[B]Em Sua graça, irmão, o Senhor",
+          "Sempre te [F#]conserva[B]rá;",
+          "Cristo, teu Guia, também teu Valor,",
+          "Em teu so[F#]corro vi[B]rá."
         ]
       },
       {

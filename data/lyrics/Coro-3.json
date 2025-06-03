@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ação de graças darei",
   "tone": {
     "recommended": "G"
@@ -9,23 +9,11 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G        A7    D",
-            "lyrics": "Ação de graças darei"
-          },
-          {
-            "chords": "G        D7           G   D",
-            "lyrics": "A Jesus, meu Pastor, meu Rei;"
-          },
-          {
-            "chords": "    G   D     G",
-            "lyrics": "As Suas obras contarei,"
-          },
-          {
-            "chords": "    C     D7    G",
-            "lyrics": "Seu Nome exaltarei!"
-          }
+        "text": [
+          "Aç[G]ão de gra[A7]ças da[D]rei",
+          "[G]A Jesus, [D7]meu Pastor, m[G]eu R[D]ei;",
+          "As S[G]uas [D]obras [G]contarei,",
+          "Seu [C]Nome e[D7]xaltar[G]ei!"
         ]
       }
     ]

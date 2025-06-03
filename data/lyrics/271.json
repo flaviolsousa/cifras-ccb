@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Graças dou a Ti, ó bom Deus",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " G           C          G",
-            "lyrics": "Graças dou a Ti, ó bom Deus,"
-          },
-          {
-            "chords": "              A7         D ",
-            "lyrics": "Pois mandaste vida, dos céus"
-          },
-          {
-            "chords": " G              C           G",
-            "lyrics": "Por Jesus, que trouxe o perdão"
-          },
-          {
-            "chords": "Em    Am         D    G",
-            "lyrics": "E redimiu-me da perdição."
-          }
+        "text": [
+          "G[G]raças dou a [C]Ti, ó bom D[G]eus,",
+          "Pois mandaste [A7]vida, dos c[D]éus",
+          "P[G]or Jesus, que t[C]rouxe o perd[G]ão",
+          "[Em]E redi[Am]miu-me da p[D]erdiç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " G           C         G",
-            "lyrics": "Graças dou a Ti, Formador,"
-          },
-          {
-            "chords": "               A7         D ",
-            "lyrics": "Pelas bênçãos, por Teu favor;"
-          },
-          {
-            "chords": " G        C       G",
-            "lyrics": "Jubiloso agora estou,"
-          },
-          {
-            "chords": "Em          Am        D    G",
-            "lyrics": "Pois Jesus Cristo me resgatou."
-          }
+        "text": [
+          "G[G]raças dou a [C]Ti, Formad[G]or,",
+          "Pelas bênçãos, [A7]por Teu fav[D]or;",
+          "J[G]ubiloso a[C]gora est[G]ou,",
+          "[Em]Pois Jesus C[Am]risto me r[D]esgat[G]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " G           C             G",
-            "lyrics": "Graças dou a Ti, Deus de amor,"
-          },
-          {
-            "chords": "              A7        D ",
-            "lyrics": "Pois Tu ouves o meu clamor;"
-          },
-          {
-            "chords": "G           C          G",
-            "lyrics": "Só a Ti minh’alma se atém;"
-          },
-          {
-            "chords": " Em       Am           D    G",
-            "lyrics": "Graças Te dou, Pai do sumo bem."
-          }
+        "text": [
+          "G[G]raças dou a [C]Ti, Deus de am[G]or,",
+          "Pois Tu ouves [A7]o meu clam[D]or;",
+          "[G]Só a Ti minh[C]’alma se at[G]ém;",
+          "G[Em]raças Te [Am]dou, Pai do s[D]umo b[G]em."
         ]
       }
     ]

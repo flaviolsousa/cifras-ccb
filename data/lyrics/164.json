@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvemos sempre alegres",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   E                      B",
-            "lyrics": "Louvemos sempre_alegres a Deus, três vezes Santo,"
-          },
-          {
-            "chords": "     E                   B  E     F#7  B",
-            "lyrics": "Que, por amar-nos tanto, mandou o Salvador."
-          },
-          {
-            "chords": "  E            A  E                 B",
-            "lyrics": "Jesus, por Sua morte, pagou nossas ofensas;"
-          },
-          {
-            "chords": "  E                  E7  A     B    E",
-            "lyrics": "Sofrendo dor imensa, mostrou o Seu amor."
-          }
+        "text": [
+          "Lou[E]vemos sempre_alegres a [B]Deus, três vezes Santo,",
+          "Que, [E]por amar-nos tanto, [B]man[E]dou o [F#7]Salva[B]dor.",
+          "Je[E]sus, por Sua [A]mor[E]te, pagou nossas o[B]fensas;",
+          "So[E]frendo dor imensa, [E7]most[A]rou o [B]Seu a[E]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E                        B",
-            "lyrics": "Estão os nossos nomes, por Deus, no céu escritos;"
-          },
-          {
-            "chords": "   E                     B  E       F#7    B",
-            "lyrics": "Cheguemo-nos, contritos, ao Pai de_eterno_amor."
-          },
-          {
-            "chords": "   E           A  E                B",
-            "lyrics": "Em paz, na Sua senda caminham os remidos,"
-          },
-          {
-            "chords": "  E                    E7  A     B   E",
-            "lyrics": "Lutando sempre_unidos, com força e valor."
-          }
+        "text": [
+          "Es[E]tão os nossos nomes, por [B]Deus, no céu escritos;",
+          "Che[E]guemo-nos, contritos, [B]ao [E]Pai de_e[F#7]terno_a[B]mor.",
+          "Em [E]paz, na Sua [A]sen[E]da caminham os re[B]midos,",
+          "Lu[E]tando sempre_unidos, [E7]com [A]força [B]e va[E]lor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E                       B ",
-            "lyrics": "Jesus virá, com glória, fazer o julgamento"
-          },
-          {
-            "chords": "   E                   B   E     F#7  B",
-            "lyrics": "De quem Seu mandamento não quis obede-cer;"
-          },
-          {
-            "chords": "  E              A  E                B",
-            "lyrics": "Porém, os Seus remi-dos já têm a esperança"
-          },
-          {
-            "chords": "    E               E7   A      B   E",
-            "lyrics": "E_a firme confiança de_o prêmio receber."
-          }
+        "text": [
+          "Je[E]sus virá, com glória, fa[B]zer o julgamento",
+          "De [E]quem Seu mandamento [B]não [E]quis o[F#7]bede-[B]cer;",
+          "Po[E]rém, os Seus re[A]mi-[E]dos já têm a espe[B]rança",
+          "E_a [E]firme confiança [E7]de_o [A]prêmio [B]rece[E]ber."
         ]
       }
     ]

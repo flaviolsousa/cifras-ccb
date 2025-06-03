@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Não tardará a volta do Senhor",
   "tone": {
     "recommended": "B"
@@ -9,90 +9,36 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   B                    B°            B",
-            "lyrics": "Marchemos, irmãos, pela senda da verdade!"
-          },
-          {
-            "chords": "    F# ",
-            "lyrics": "O fiel Salvador nos dará, do céu, a proteção,"
-          },
-          {
-            "chords": "   B                 B°           B",
-            "lyrics": "Fervor e valor, e também a santidade;"
-          },
-          {
-            "chords": "     F#                     C#7        F#",
-            "lyrics": "Do Senhor, nosso Deus, alcançamos o perdão."
-          },
-          {
-            "chords": "         B                     B°             B",
-            "lyrics": "Jesus morreu sobre_a cruz para dar-nos liberdade"
-          },
-          {
-            "chords": "     C#7                        F#",
-            "lyrics": "De_andar e_O servir em santificação."
-          }
+        "text": [
+          "Mar[B]chemos, irmãos, pela [B°]senda da verda[B]de!",
+          "O fi[F#]el Salvador nos dará, do céu, a proteção,",
+          "Fer[B]vor e valor, e tam[B°]bém a santida[B]de;",
+          "Do Se[F#]nhor, nosso Deus, alcan[C#7]çamos o per[F#]dão.",
+          "Jesus mor[B]reu sobre_a cruz para [B°]dar-nos liberda[B]de",
+          "De_an[C#7]dar e_O servir em santifica[F#]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "         B  E  B          E      F#",
-            "lyrics": "Não tardará a  volta do Senhor Jesus!"
-          },
-          {
-            "chords": "                                       F#7...",
-            "lyrics": "Virá, irmãos, premiar os Seus com galardão;"
-          },
-          {
-            "chords": "     B  E   B          E   F#",
-            "lyrics": "Mas, os que rejeitarem Sua luz,"
-          },
-          {
-            "chords": "   G#m  G7   F#7           B",
-            "lyrics": "Condena-ção eterna_encontrarão."
-          },
-          {
-            "chords": "",
-            "lyrics": "Andai, irmãos,"
-          },
-          {
-            "chords": "                   B...    F#  F#7  B    B...",
-            "lyrics": "Na fé, na paz, no_amor  do Rei dos  reis."
-          }
+        "text": [
+          "Não tarda[B]rá [E]a  [B]volta do Se[E]nhor Je[F#]sus!",
+          "Virá, irmãos, premiar os Seus com galar[F#7...]dão;",
+          "Mas, [B]os [E]que [B]rejeitarem [E]Sua [F#]luz,",
+          "Con[G#m]dena-[G7]ção e[F#7]terna_encontra[B]rão.",
+          "Andai, irmãos,",
+          "Na fé, na paz, no_a[B...]mor  do [F#]Rei [F#7]dos  [B]reis.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  B                   B°           B",
-            "lyrics": "Irmãos, em amor, bem unidos caminhemos"
-          },
-          {
-            "chords": "      F#",
-            "lyrics": "Com Jesus, Salvador, que dará o galardão final."
-          },
-          {
-            "chords": "   B               B°             B",
-            "lyrics": "Louvor perenal e veraz Lhe tributemos"
-          },
-          {
-            "chords": "     F#                   C#7        F#",
-            "lyrics": "Pelo bem que os fez nosso Rei celestial;"
-          },
-          {
-            "chords": "         B               B°           B",
-            "lyrics": "Por esse bem divinal de amor, receberemos"
-          },
-          {
-            "chords": "   C#7                          F#",
-            "lyrics": "No céu, nosso lar, a glória eternal."
-          }
+        "text": [
+          "Ir[B]mãos, em amor, bem u[B°]nidos caminhe[B]mos",
+          "Com Je[F#]sus, Salvador, que dará o galardão final.",
+          "Lou[B]vor perenal e ve[B°]raz Lhe tribute[B]mos",
+          "Pelo [F#]bem que os fez nosso [C#7]Rei celesti[F#]al;",
+          "Por esse [B]bem divinal de a[B°]mor, recebere[B]mos",
+          "No [C#7]céu, nosso lar, a glória eter[F#]nal."
         ]
       },
       {

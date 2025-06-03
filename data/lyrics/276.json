@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Senhor da glória",
   "tone": {
     "recommended": "E"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E              B ",
-            "lyrics": "Ó Senhor da glória, "
-          },
-          {
-            "chords": "           E",
-            "lyrics": "Rei celestial,"
-          },
-          {
-            "chords": "              A     E    A ",
-            "lyrics": "Sempre tens total vitó - ria"
-          },
-          {
-            "chords": "E     B7     E",
-            "lyrics": "Sobre todo_o mal."
-          }
+        "text": [
+          "[E]Ó Senhor da gló[B]ria, ",
+          "Rei celesti[E]al,",
+          "Sempre tens to[A]tal vi[E]tó - [A]ria",
+          "[E]Sobre [B7]todo_o [E]mal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E             B ",
-            "lyrics": "Redentor celeste,"
-          },
-          {
-            "chords": "           E",
-            "lyrics": "Fonte do saber,"
-          },
-          {
-            "chords": "           A      E    A ",
-            "lyrics": "Para nos remir, vies - te"
-          },
-          {
-            "chords": "E       B7      E",
-            "lyrics": "Sobre_a cruz morrer."
-          }
+        "text": [
+          "[E]Redentor celes[B]te,",
+          "Fonte do sa[E]ber,",
+          "Para nos re[A]mir, vi[E]es - [A]te",
+          "[E]Sobre_a [B7]cruz mor[E]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E              B ",
-            "lyrics": "Tu nos libertaste"
-          },
-          {
-            "chords": "           E",
-            "lyrics": "Da escravidão;"
-          },
-          {
-            "chords": "               A    E  A ",
-            "lyrics": "Com Teu sangue Tu pagaste"
-          },
-          {
-            "chords": "E     B7       E",
-            "lyrics": "Nossa transgressão."
-          }
+        "text": [
+          "[E]Tu nos libertas[B]te",
+          "Da escravid[E]ão;",
+          "Com Teu sangue [A]Tu pa[E]gas[A]te",
+          "[E]Nossa [B7]transgres[E]são."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "E            B ",
-            "lyrics": "Nossa Fortaleza,"
-          },
-          {
-            "chords": "            E",
-            "lyrics": "Nossa Paz e Luz,"
-          },
-          {
-            "chords": "             A   E  A ",
-            "lyrics": "Nossa Glória e Riqueza"
-          },
-          {
-            "chords": "E     B7      E",
-            "lyrics": "És, Senhor Jesus."
-          }
+        "text": [
+          "[E]Nossa Fortale[B]za,",
+          "Nossa Paz e [E]Luz,",
+          "Nossa Glória [A]e Ri[E]que[A]za",
+          "[E]És, Se[B7]nhor Jes[E]us."
         ]
       }
     ]

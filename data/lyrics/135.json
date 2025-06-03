@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bendito o Rei que veio do céu!",
   "tone": {
     "recommended": "F"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                 Bb    F",
-            "lyrics": "Bendito_o Rei que vei - o em nome do Eterno!"
-          },
-          {
-            "chords": "              Bb   F                C    F",
-            "lyrics": "“Hosana nas altu - ras!”, clamava_a multidão;"
-          },
-          {
-            "chords": "C                     F            G7    C ",
-            "lyrics": "Bendito_o Rei divino, manso, fiel, fra - terno,"
-          },
-          {
-            "chords": "F            Bb  F            C    F",
-            "lyrics": "Dócil e glorio - so, Autor da salvação!"
-          }
+        "text": [
+          "[F]Bendito_o Rei que [Bb]vei - [F]o em nome do Eterno!",
+          "“Hosana nas al[Bb]tu - [F]ras!”, clamava_a [C]multi[F]dão;",
+          "[C]Bendito_o Rei divino, [F]manso, fiel, [G7]fra - [C]terno,",
+          "[F]Dócil e glori[Bb]o - [F]so, Autor da [C]salva[F]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                 Bb    F",
-            "lyrics": "Bendito_o Rei que vei - o para vencer a morte"
-          },
-          {
-            "chords": "               Bb   F             C      F",
-            "lyrics": "E dar-nos liberda - de para_em justiça_andar."
-          },
-          {
-            "chords": "C                    F            G7   C ",
-            "lyrics": "Bendito seja sempre, dos fortes o mais Forte!"
-          },
-          {
-            "chords": "F           Bb    F            C      F",
-            "lyrics": "Todos se alegra - vam ao ver Jesus passar."
-          }
+        "text": [
+          "[F]Bendito_o Rei que [Bb]vei - [F]o para vencer a morte",
+          "E dar-nos liber[Bb]da - [F]de para_em jus[C]tiça_an[F]dar.",
+          "[C]Bendito seja sempre, [F]dos fortes o [G7]mais [C]Forte!",
+          "[F]Todos se ale[Bb]gra - [F]vam ao ver Je[C]sus pas[F]sar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F             Bb   F",
-            "lyrics": "A multidão louva - va a Cristo,_o Rei eterno,"
-          },
-          {
-            "chords": "           Bb   F            C   F",
-            "lyrics": "E se regozija - va de todo_o coração;"
-          },
-          {
-            "chords": "C                      F             G7   C ",
-            "lyrics": "Disse_o divino Mestre, cheio do_amor su - perno:"
-          },
-          {
-            "chords": " F             Bb   F              C    F",
-            "lyrics": "“Se estes se cala - rem, as pedras clamarão.”"
-          }
+        "text": [
+          "[F]A multidão lou[Bb]va - [F]va a Cristo,_o Rei eterno,",
+          "E se regozi[Bb]ja - [F]va de todo_o [C]cora[F]ção;",
+          "[C]Disse_o divino Mestre, [F]cheio do_amor [G7]su - [C]perno:",
+          "“[F]Se estes se ca[Bb]la - [F]rem, as pedras [C]clama[F]rão.”"
         ]
       }
     ]

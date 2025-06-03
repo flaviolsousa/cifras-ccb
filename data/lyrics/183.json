@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Jesus é a Porta dos céus",
   "tone": {
     "recommended": "E"
@@ -9,82 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Cristo Jesus é a Porta dos céus,"
-          },
-          {
-            "chords": "B            E",
-            "lyrics": "N´Ele há paz n´Ele há luz;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Reconcilia o homem com Deus;"
-          },
-          {
-            "chords": "B                  E",
-            "lyrics": "Só Ele_à glória conduz."
-          }
+        "text": [
+          "[E]Cristo Jesus é a Porta dos céus,",
+          "[B]N´Ele há paz [E]n´Ele há luz;",
+          "Reconcilia o homem com Deus;",
+          "[B]Só Ele_à glória con[E]duz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Por essa Porta devemos entrar"
-          },
-          {
-            "chords": "B           E",
-            "lyrics": "E caminhar, sem hesitar;"
-          },
-          {
-            "chords": "E",
-            "lyrics": "Salvar-se-á quem por Ela passar,"
-          },
-          {
-            "chords": "F#7               B    B7 ",
-            "lyrics": "N`Ela também confiar;"
-          },
-          {
-            "chords": "E",
-            "lyrics": "Não mais duvides, não deves tardar"
-          },
-          {
-            "chords": "B            E",
-            "lyrics": "Para entrar, sem vacilar;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Breve, Jesus voltará para_os Seus"
-          },
-          {
-            "chords": "B                E",
-            "lyrics": "E vai leva-los a Deus."
-          }
+        "text": [
+          "[E]Por essa Porta devemos entrar",
+          "[B]E caminhar, [E]sem hesitar;",
+          "[E]Salvar-se-á quem por Ela passar,",
+          "[F#7]N`Ela também confi[B]ar;[B7]",
+          "[E]Não mais duvides, não deves tardar",
+          "[B]Para entrar, [E]sem vacilar;",
+          "Breve, Jesus voltará para_os Seus",
+          "[B]E vai leva-los a [E]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Cristo_é a Porta, e outra não há,"
-          },
-          {
-            "chords": "B              E",
-            "lyrics": "Que traz o bem celestial;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Vida com glória aos justos dará,"
-          },
-          {
-            "chords": "B                 E",
-            "lyrics": "Paz e repouso_eternal."
-          }
+        "text": [
+          "[E]Cristo_é a Porta, e outra não há,",
+          "[B]Que traz o bem [E]celestial;",
+          "Vida com glória aos justos dará,",
+          "[B]Paz e repouso_eter[E]nal."
         ]
       },
       {
@@ -94,23 +46,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Cristo, Autor de_eternal redenção,"
-          },
-          {
-            "chords": "B             E",
-            "lyrics": "Veio de Deus, leva a Deus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Por essa Porta, os santos serão"
-          },
-          {
-            "chords": "B                E",
-            "lyrics": "Glorificados nos céus."
-          }
+        "text": [
+          "[E]Cristo, Autor de_eternal redenção,",
+          "[B]Veio de Deus, [E]leva a Deus;",
+          "Por essa Porta, os santos serão",
+          "[B]Glorificados nos [E]céus."
         ]
       },
       {

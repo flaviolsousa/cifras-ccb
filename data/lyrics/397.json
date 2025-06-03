@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Paz, sublime paz",
   "tone": {
     "recommended": "A"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A            A#°     B ",
-            "lyrics": "Paz, sublime paz, sentimos"
-          },
-          {
-            "chords": "     E7  ",
-            "lyrics": "Nós, povo do Senhor,"
-          },
-          {
-            "chords": "  A",
-            "lyrics": "Remidos por amor."
-          },
-          {
-            "chords": "             A#°     Bm   Bm7(5-) ",
-            "lyrics": "Por Jesus, a Quem servi - mos,"
-          },
-          {
-            "chords": "A            E7  A",
-            "lyrics": "Temos paz do Criador."
-          }
+        "text": [
+          "[A]Paz, sublime [A#°]paz, sen[B]timos",
+          "Nós, [E7]povo do Senhor,",
+          "Re[A]midos por amor.",
+          "Por Jesus, a [A#°]Quem ser[Bm]vi - [Bm7(5-)]mos,",
+          "[A]Temos paz do [E7]Cria[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A            A#°    B ",
-            "lyrics": "Filhos dessa paz gloriosa"
-          },
-          {
-            "chords": "    E7 ",
-            "lyrics": "Nos fez o Criador,"
-          },
-          {
-            "chords": "    A",
-            "lyrics": "Por Cristo,_o Redentor;"
-          },
-          {
-            "chords": "           A#°    Bm    Bm7(5-) ",
-            "lyrics": "Para nós é paz precio - sa,"
-          },
-          {
-            "chords": "A             E7    A",
-            "lyrics": "Pois é bênção do Senhor."
-          }
+        "text": [
+          "[A]Filhos dessa [A#°]paz glo[B]riosa",
+          "Nos [E7]fez o Criador,",
+          "Por [A]Cristo,_o Redentor;",
+          "Para nós é [A#°]paz pre[Bm]cio - [Bm7(5-)]sa,",
+          "[A]Pois é bênção [E7]do Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A              A#°   B ",
-            "lyrics": "Para excelsa_encontraremos"
-          },
-          {
-            "chords": "   E7 ",
-            "lyrics": "No reino divinal,"
-          },
-          {
-            "chords": "    A",
-            "lyrics": "Na glória eternal;"
-          },
-          {
-            "chords": "            A#°  Bm   Bm7(5-) ",
-            "lyrics": "Face_a face lá vere - mos"
-          },
-          {
-            "chords": "A             E7   A",
-            "lyrics": "Deus, o Pai celestial."
-          }
+        "text": [
+          "[A]Para excelsa_en[A#°]contra[B]remos",
+          "No [E7]reino divinal,",
+          "Na g[A]lória eternal;",
+          "Face_a face [A#°]lá ve[Bm]re - [Bm7(5-)]mos",
+          "[A]Deus, o Pai ce[E7]lesti[A]al."
         ]
       }
     ]

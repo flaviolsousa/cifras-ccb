@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vós, ó jovens do Senhor",
   "tone": {
     "recommended": "G"
@@ -9,74 +9,32 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       G                         C          G",
-            "lyrics": "Vós, ó jovens do Senhor, dai-Lhe honra e louvor,"
-          },
-          {
-            "chords": "                                    D    D7",
-            "lyrics": "Esforçai-vos por servir ao Rei dos reis;"
-          },
-          {
-            "chords": "     G                        C           G",
-            "lyrics": "Revesti-vos, pois, de fé e do Seu imenso_amor;"
-          },
-          {
-            "chords": "       C         D             G",
-            "lyrics": "O que d´Ele precisardes vós tereis."
-          }
+        "text": [
+          "Vós, ó [G]jovens do Senhor, dai-Lhe [C]honra e lou[G]vor,",
+          "Esforçai-vos por servir ao Rei dos r[D]eis;[D7]",
+          "Reves[G]ti-vos, pois, de fé e do [C]Seu imenso_a[G]mor;",
+          "O que d[C]´Ele preci[D]sardes vós ter[G]eis."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       G                                   D",
-            "lyrics": "Vós, ó jovens do Senhor, oh! amai-O com fervor,"
-          },
-          {
-            "chords": "                           G",
-            "lyrics": "O que Ele vos mandar, procurai executar;"
-          },
-          {
-            "chords": "    A7                D   ",
-            "lyrics": "Morareis com Deus em Seu lar;"
-          },
-          {
-            "chords": "    G                                   D",
-            "lyrics": "Diligentes sede vós, Ele não vos deixa sós,"
-          },
-          {
-            "chords": "                         G",
-            "lyrics": "Mas convosco estará e as forças vos dará,"
-          },
-          {
-            "chords": "       C      D      G",
-            "lyrics": "Pois a graça n´Ele_está."
-          }
+        "text": [
+          "Vós, ó [G]jovens do Senhor, oh! amai-O com fer[D]vor,",
+          "O que Ele vos mandar, procu[G]rai executar;",
+          "Mora[A7]reis com Deus em S[D]eu lar;",
+          "Dili[G]gentes sede vós, Ele não vos deixa s[D]ós,",
+          "Mas convosco estará e as [G]forças vos dará,",
+          "Pois a [C]graça n[D]´Ele_es[G]tá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       G                      C          G",
-            "lyrics": "Sois remidos, ó irmãos, sois amados de Jesus"
-          },
-          {
-            "chords": "                                D    D7",
-            "lyrics": "E sois fortes para suplantar o mal;"
-          },
-          {
-            "chords": "     G                    C               G",
-            "lyrics": "Pelo bom Consolador vós tereis virtude_e luz;"
-          },
-          {
-            "chords": "         C          D        G",
-            "lyrics": "Sim, crescei na estatura divinal."
-          }
+        "text": [
+          "Sois re[G]midos, ó irmãos, sois a[C]mados de Je[G]sus",
+          "E sois fortes para suplantar o m[D]al;[D7]",
+          "Pelo [G]bom Consolador vós te[C]reis virtude_e l[G]uz;",
+          "Sim, cres[C]cei na esta[D]tura divi[G]nal."
         ]
       },
       {
@@ -86,23 +44,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G                  C             G",
-            "lyrics": "Se vier o tentador com ofertas vos tentar,"
-          },
-          {
-            "chords": "                          D    D7",
-            "lyrics": "Incitando-vos a males cometer,"
-          },
-          {
-            "chords": "     G                     C         G",
-            "lyrics": "Recorrei ao Salvador, Ele vos virá livrar;"
-          },
-          {
-            "chords": "       C             D             G",
-            "lyrics": "Vós, ó jovens, não deveis jamais ceder."
-          }
+        "text": [
+          "Se vi[G]er o tentador com o[C]fertas vos ten[G]tar,",
+          "Incitando-vos a males come[D]ter,[D7]",
+          "Recor[G]rei ao Salvador, Ele v[C]os virá li[G]vrar;",
+          "Vós, ó [C]jovens, não de[D]veis jamais ce[G]der."
         ]
       },
       {

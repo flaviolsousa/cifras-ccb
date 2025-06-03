@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo nos dará da Sua plenitude",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Ó irmãos, apresentemo-nos ao nosso Redentor,"
-          },
-          {
-            "chords": "                   B ",
-            "lyrics": "Prontos para O_atender;"
-          },
-          {
-            "chords": "                            E",
-            "lyrics": "Ao que Ele nos disser, obedeçamos com amor,"
-          },
-          {
-            "chords": "      B      F#  B ",
-            "lyrics": "Sem jamais esmorecer."
-          }
+        "text": [
+          "Ó ir[E]mãos, apresentemo-nos ao nosso Redentor,",
+          "Prontos para O_aten[B]der;",
+          "Ao que Ele nos disser, obede[E]çamos com amor,",
+          "Sem ja[B]mais es[F#]more[B]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E           A        E",
-            "lyrics": "Cristo nos dará da Sua plenitude,"
-          },
-          {
-            "chords": "      B                   E",
-            "lyrics": "Com a fé nos cingirá e em nós derramará,"
-          },
-          {
-            "chords": "     A                      E",
-            "lyrics": "Do Espírito,_o poder e a virtude;"
-          },
-          {
-            "chords": "          B     E",
-            "lyrics": "Valorosos nos fará."
-          }
+        "text": [
+          "Cristo [E]nos dará da [A]Sua pleni[E]tude,",
+          "Com a [B]fé nos cingirá e em [E]nós derramará,",
+          "Do Es[A]pírito,_o poder e a vir[E]tude;",
+          "Valorosos [B]nos fa[E]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   E",
-            "lyrics": "Ó amados, aceitemos do Senhor a correção,"
-          },
-          {
-            "chords": "                         B ",
-            "lyrics": "Pois corrige_a quem quer bem;"
-          },
-          {
-            "chords": "                                 E",
-            "lyrics": "Os Seus santos mandamentos leves para nós serão,"
-          },
-          {
-            "chords": "        B      F#     B ",
-            "lyrics": "Seus conselhos nos convêm."
-          }
+        "text": [
+          "Ó a[E]mados, aceitemos do Senhor a correção,",
+          "Pois corrige_a quem quer [B]bem;",
+          "Os Seus santos mandamentos leves [E]para nós serão,",
+          "Seus con[B]selhos [F#]nos con[B]vêm."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       E",
-            "lyrics": "Pelo_Espírito da graça poderemos compreender"
-          },
-          {
-            "chords": "                B ",
-            "lyrics": "Toda_a obra de amor;"
-          },
-          {
-            "chords": "                             E",
-            "lyrics": "Saberemos, ó eleitos, como_a nosso Deus temer;"
-          },
-          {
-            "chords": "       B     F#    B ",
-            "lyrics": "Oh! Sirvamos ao Senhor."
-          }
+        "text": [
+          "Pelo_Es[E]pírito da graça poderemos compreender",
+          "Toda_a obra de a[B]mor;",
+          "Saberemos, ó eleitos, como_a [E]nosso Deus temer;",
+          "Oh! Sir[B]vamos [F#]ao Sen[B]hor."
         ]
       },
       {

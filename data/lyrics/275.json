@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Avante eu vou",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Deus enviou do céu, Jesus, o Salvador,"
-          },
-          {
-            "chords": "  D             A        E ",
-            "lyrics": "A fim de, neste mundo, remir o pecador;"
-          },
-          {
-            "chords": "  A",
-            "lyrics": "A Cristo vou ouvir e pela fé andar,"
-          },
-          {
-            "chords": "    D             A         E             A",
-            "lyrics": "E_a glória,_eternamente, no céu vou desfrutar."
-          }
+        "text": [
+          "Deus [A]enviou do céu, Jesus, o Salvador,",
+          "A [D]fim de, neste [A]mundo, re[E]mir o pecador;",
+          "A [A]Cristo vou ouvir e pela fé andar,",
+          "E_a [D]glória,_eterna[A]mente, no [E]céu vou desfru[A]tar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          E                  A",
-            "lyrics": "Avante_eu vou, com Cristo_eu vou,"
-          },
-          {
-            "chords": "                                     E ",
-            "lyrics": "Para_entrar no_eterno reino de_esplendor;"
-          },
-          {
-            "chords": "      A                    D           A",
-            "lyrics": "Sigo, pela graça_e fé, a Jesus, o Salvador;"
-          },
-          {
-            "chords": "                 E                 A",
-            "lyrics": "Nada quero deste mundo,_avante_eu vou."
-          }
+        "text": [
+          "Avante_eu [E]vou, com Cristo_eu [A]vou,",
+          "Para_entrar no_eterno reino de_esplen[E]dor;",
+          "Sigo, [A]pela graça_e fé, a Je[D]sus, o Salva[A]dor;",
+          "Nada quero deste [E]mundo,_avante_eu v[A]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A",
-            "lyrics": "No dia do Senhor, os anjos tocarão"
-          },
-          {
-            "chords": "  D             A        E ",
-            "lyrics": "A celestial trombeta que todos ouvirão;"
-          },
-          {
-            "chords": "  A",
-            "lyrics": "Retornará Jesus, o nosso Redentor,"
-          },
-          {
-            "chords": "   D                A          E             A",
-            "lyrics": "Em glória, sobre_as nuvens, cercado de_esplendor."
-          }
+        "text": [
+          "No [A]dia do Senhor, os anjos tocarão",
+          "A [D]celestial trom[A]beta que [E]todos ouvirão;",
+          "Re[A]tornará Jesus, o nosso Redentor,",
+          "Em [D]glória, sobre_as [A]nuvens, cer[E]cado de_esplen[A]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A   ",
-            "lyrics": "Jesus, o Salvador, ao céu me levará;"
-          },
-          {
-            "chords": "  D           A         E ",
-            "lyrics": "Receberei a_herança que preparada_está;"
-          },
-          {
-            "chords": "  A",
-            "lyrics": "A Deus, o Pai, verei, com Cristo estarei"
-          },
-          {
-            "chords": "  D          A         E             A",
-            "lyrics": "E todos os remidos, no céu, contemplarei."
-          }
+        "text": [
+          "Je[A]sus, o Salvador, ao céu me levará;",
+          "Re[D]ceberei a_he[A]rança que [E]preparada_está;",
+          "A [A]Deus, o Pai, verei, com Cristo estarei",
+          "E [D]todos os re[A]midos, no [E]céu, contempla[A]rei."
         ]
       },
       {

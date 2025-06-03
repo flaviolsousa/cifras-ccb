@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo, o Verbo",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "O Verbo estava com Deus, Criador,"
-          },
-          {
-            "chords": "  B                 E",
-            "lyrics": "O Verbo também era Deus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Das alturas desceu para ser Redentor,"
-          },
-          {
-            "chords": "   B                    E",
-            "lyrics": "Trazendo_a justiça dos céus."
-          }
+        "text": [
+          "O [E]Verbo estava com Deus, Criador,",
+          "O [B]Verbo também era D[E]eus;",
+          "Das alturas desceu para ser Redentor,",
+          "Tra[B]zendo_a justiça dos c[E]éus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E                A           E",
-            "lyrics": "Cristo, o Verbo, dos céus desceu,"
-          },
-          {
-            "chords": "                  F#7      B7 ",
-            "lyrics": "Foi feito carne e vida nos deu;"
-          },
-          {
-            "chords": "E               A         E",
-            "lyrics": "Veio ao mundo a fim de vencer,"
-          },
-          {
-            "chords": "                   B7       E",
-            "lyrics": "Cheio de graça, verdade_e poder."
-          }
+        "text": [
+          "[E]Cristo, o Verbo, [A]dos céus des[E]ceu,",
+          "Foi feito carne e [F#7]vida nos [B7]deu;",
+          "[E]Veio ao mundo a [A]fim de ven[E]cer,",
+          "Cheio de graça, ver[B7]dade_e po[E]der."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "O Verbo de Deus entre nós habitou;"
-          },
-          {
-            "chords": " B                  E",
-            "lyrics": "Aqui Sua glória se viu;"
-          },
-          {
-            "chords": "",
-            "lyrics": "O_unigênito Filho de Deus se mostrou;"
-          },
-          {
-            "chords": "  B                     E",
-            "lyrics": "Depois, para_a glória subiu."
-          }
+        "text": [
+          "O [E]Verbo de Deus entre nós habitou;",
+          "A[B]qui Sua glória se v[E]iu;",
+          "O_unigênito Filho de Deus se mostrou;",
+          "De[B]pois, para_a glória su[E]biu."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Aos que receberam Jesus, o Senhor,"
-          },
-          {
-            "chords": "  B                  E",
-            "lyrics": "Estão reservados os céus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "São herdeiros da glória com seu Redentor,"
-          },
-          {
-            "chords": "    B                  E",
-            "lyrics": "São todos nascidos de Deus."
-          }
+        "text": [
+          "Aos [E]que receberam Jesus, o Senhor,",
+          "Es[B]tão reservados os c[E]éus;",
+          "São herdeiros da glória com seu Redentor,",
+          "São [B]todos nascidos de D[E]eus."
         ]
       },
       {

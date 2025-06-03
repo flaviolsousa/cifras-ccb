@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Que bela herança!",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "           A               E ",
-            "lyrics": "Que bela_herança Deus me reserva"
-          },
-          {
-            "chords": "                          A",
-            "lyrics": "Junto_a Jesus, o bom Redentor!"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "Para_alcançá-la, Deus me preserva"
-          },
-          {
-            "chords": "                           A",
-            "lyrics": "De todo_o mal, por grande amor."
-          }
+        "text": [
+          "Que bela_he[A]rança Deus me re[E]serva",
+          "Junto_a Jesus, o bom Reden[A]tor!",
+          "Para_alcançá-la, Deus me pre[E]serva",
+          "De todo_o mal, por grande a[A]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          D                A",
-            "lyrics": "Breve, no céu, os santos remidos"
-          },
-          {
-            "chords": "      E                 A",
-            "lyrics": "Receberão o reino_e_o poder;"
-          },
-          {
-            "chords": "           D                 A",
-            "lyrics": "Breve_os fiéis, por Deus escolhidos,"
-          },
-          {
-            "chords": "           E             A    A...",
-            "lyrics": "Vão, com Jesus, resplandecer."
-          }
+        "text": [
+          "Breve, no [D]céu, os santos re[A]midos",
+          "Recebe[E]rão o reino_e_o po[A]der;",
+          "Breve_os fi[D]éis, por Deus esco[A]lhidos,",
+          "Vão, com Je[E]sus, resplande[A]cer.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "            A           E ",
-            "lyrics": "Próximo_é_o dia tão esperado"
-          },
-          {
-            "chords": "                         A",
-            "lyrics": "Em que Jesus do céu voltará;"
-          },
-          {
-            "chords": "                         E ",
-            "lyrics": "Oh! Que encontro tão desejado!"
-          },
-          {
-            "chords": "                          A",
-            "lyrics": "Quem for fiel, a Deus subirá."
-          }
+        "text": [
+          "Próximo_é_o [A]dia tão espe[E]rado",
+          "Em que Jesus do céu volta[A]rá;",
+          "Oh! Que encontro tão dese[E]jado!",
+          "Quem for fiel, a Deus subi[A]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A                 E ",
-            "lyrics": "É inefável, grande_e superno"
-          },
-          {
-            "chords": "                         A",
-            "lyrics": "O galardão que vou desfrutar;"
-          },
-          {
-            "chords": "                           E ",
-            "lyrics": "Com Jesus Cristo no reino_eterno"
-          },
-          {
-            "chords": "                       A",
-            "lyrics": "Junto a Deus, irei habitar."
-          }
+        "text": [
+          "É ine[A]fável, grande_e su[E]perno",
+          "O galardão que vou desfru[A]tar;",
+          "Com Jesus Cristo no reino_e[E]terno",
+          "Junto a Deus, irei habi[A]tar."
         ]
       },
       {

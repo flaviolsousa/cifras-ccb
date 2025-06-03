@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sem tardar, vai a Cristo",
   "tone": {
     "recommended": "D"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A          D            A           D",
-            "lyrics": "Se, cansado e aflito, tu procuras salvação,"
-          },
-          {
-            "chords": "      A             D             A          D",
-            "lyrics": "Não demores, vai a Cristo, que concede redenção."
-          }
+        "text": [
+          "Se, [A]cansado e a[D]flito, tu pro[A]curas salvaç[D]ão,",
+          "Não de[A]mores, vai a C[D]risto, que con[A]cede redenç[D]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       G           D",
-            "lyrics": "Sem tardar, sem tardar,"
-          },
-          {
-            "chords": "       A             D ",
-            "lyrics": "Vai a Cristo,_o Salvador;"
-          },
-          {
-            "chords": "     G         D",
-            "lyrics": "Ele quer te salvar,"
-          },
-          {
-            "chords": "        A          D",
-            "lyrics": "Segue_a Ele com fervor."
-          }
+        "text": [
+          "Sem tar[G]dar, sem tar[D]dar,",
+          "Vai a C[A]risto,_o Salva[D]dor;",
+          "Ele q[G]uer te sal[D]var,",
+          "Segue_a [A]Ele com fer[D]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A           D         A          D",
-            "lyrics": "Dá um passo para Cristo e receberás perdão;"
-          },
-          {
-            "chords": "        A              D            A           D",
-            "lyrics": "E, por Deus, serás benquisto, sendo um fiel Cristão."
-          }
+        "text": [
+          "Dá um [A]passo para C[D]risto e re[A]ceberás per[D]dão;",
+          "E, por D[A]eus, serás benq[D]uisto, sendo [A]um fiel Cris[D]tão."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      A          D         A        D",
-            "lyrics": "Não recuses o chamado do divino Remidor"
-          },
-          {
-            "chords": "    A          D         A           D",
-            "lyrics": "E serás justificado ante Deus, o Criador."
-          }
+        "text": [
+          "Não re[A]cuses o cha[D]mado do di[A]vino Remi[D]dor",
+          "E se[A]rás justifi[D]cado ante [A]Deus, o Cria[D]dor."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vivo por Cristo",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F        C         Bb       F",
-            "lyrics": "Vivo por Cristo, o bom Salvador;"
-          },
-          {
-            "chords": "C       F        G           C ",
-            "lyrics": "Vivo provando do Seu grande_amor."
-          },
-          {
-            "chords": "F         C          Bb       A ",
-            "lyrics": "Cristo, o Mestre, na cruz expirou;"
-          },
-          {
-            "chords": "Bb      F         C7       F",
-            "lyrics": "Por Sua morte, perdão me doou."
-          }
+        "text": [
+          "[F]Vivo por [C]Cristo, o [Bb]bom Salva[F]dor;",
+          "[C]Vivo pro[F]vando do [G]Seu grande_a[C]mor.",
+          "[F]Cristo, o [C]Mestre, na [Bb]cruz expi[A]rou;",
+          "[Bb]Por Sua [F]morte, per[C7]dão me do[F]ou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  F                     Gm ",
-            "lyrics": "Jesus, Pastor divino, entrego_a Ti meu ser,"
-          },
-          {
-            "chords": "      C7           F        G          C ",
-            "lyrics": "Pois, com Teu sacrifício, fizeste-me viver;"
-          },
-          {
-            "chords": " F                      F7             Bb ",
-            "lyrics": "Amor celeste_e santo mostraste sobre_a cruz;"
-          },
-          {
-            "chords": "                 F     D7...  G7   C7     F",
-            "lyrics": "Glorioso_é pertencer a Ti, ó  Salvador Jesus!"
-          }
+        "text": [
+          "Je[F]sus, Pastor divino, en[Gm]trego_a Ti meu ser,",
+          "Pois, [C7]com Teu sacri[F]fício, fi[G]zeste-me vi[C]ver;",
+          "A[F]mor celeste_e santo mos[F7]traste sobre_a [Bb]cruz;",
+          "Glorioso_é perten[F]cer a [D7...]Ti, ó  [G7]Salva[C7]dor Jes[F]us!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F      C        Bb       F",
-            "lyrics": "É um tesouro de grande valor"
-          },
-          {
-            "chords": "C      F          G        C ",
-            "lyrics": "A salvação que me deu o Senhor;"
-          },
-          {
-            "chords": "F         C          Bb           A ",
-            "lyrics": "Tenho_esperança de_entrar lá nos céus"
-          },
-          {
-            "chords": "Bb       F         C7           F",
-            "lyrics": "E, com o Mestre, estar junto_a Deus."
-          }
+        "text": [
+          "[F]É um te[C]souro de [Bb]grande va[F]lor",
+          "[C]A salva[F]ção que me [G]deu o Sen[C]hor;",
+          "[F]Tenho_espe[C]rança de_en[Bb]trar lá nos c[A]éus",
+          "[Bb]E, com o [F]Mestre, es[C7]tar junto_a D[F]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F      C        Bb    F",
-            "lyrics": "Humildemente eu atenderei"
-          },
-          {
-            "chords": "C           F         G           C ",
-            "lyrics": "Aos bons conselhos de Cristo, meu Rei;"
-          },
-          {
-            "chords": "F          C       Bb       A ",
-            "lyrics": "Em grande_apreço terei Seu amor;"
-          },
-          {
-            "chords": "Bb       F       C7           F",
-            "lyrics": "Glória e honra a Cristo,_o Senhor!"
-          }
+        "text": [
+          "[F]Humilde[C]mente eu [Bb]atende[F]rei",
+          "[C]Aos bons con[F]selhos de [G]Cristo, meu [C]Rei;",
+          "[F]Em grande_a[C]preço te[Bb]rei Seu a[A]mor;",
+          "[Bb]Glória e [F]honra a [C7]Cristo,_o Sen[F]hor!"
         ]
       },
       {

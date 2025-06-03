@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Santo, Santo és, Senhor",
   "tone": {
     "recommended": "F"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  F",
-            "lyrics": "A Ti, ó Senhor, tributamos louvor,"
-          },
-          {
-            "chords": "                             C  G  C",
-            "lyrics": "Honra_e glória por Teu infinito fa-vor."
-          }
+        "text": [
+          "A [F]Ti, ó Senhor, tributamos louvor,",
+          "Honra_e glória por Teu infini[C]to [G]fa-[C]vor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F                                        C",
-            "lyrics": "Santo, Santo és, Senhor; Santo, Santo és Tu;"
-          },
-          {
-            "chords": "F                        Bb  C      F    F...",
-            "lyrics": "Só a Ti todo_o louvor perten-ce, Senhor."
-          }
+        "text": [
+          "[F]Santo, Santo és, Senhor; Santo, Santo és [C]Tu;",
+          "[F]Só a Ti todo_o louvor per[Bb]ten-[C]ce, Sen[F]hor.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " F",
-            "lyrics": "Amado Jesus, celestial Rei dos reis,"
-          },
-          {
-            "chords": "                                 C   G  C",
-            "lyrics": "Brevemente_estarão, junto_a Ti, Teus fi-éis."
-          }
+        "text": [
+          "A[F]mado Jesus, celestial Rei dos reis,",
+          "Brevemente_estarão, junto_a Ti, T[C]eus [G]fi-[C]éis."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   F",
-            "lyrics": "Em breve no céus, Teus remidos, Senhor,"
-          },
-          {
-            "chords": "                          C  G   C",
-            "lyrics": "Viverão para sempre no reino de_amor."
-          }
+        "text": [
+          "Em [F]breve no céus, Teus remidos, Senhor,",
+          "Viverão para sempre no rei[C]no [G]de_a[C]mor."
         ]
       },
       {

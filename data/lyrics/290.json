@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sempre avante!",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                  D        A",
-            "lyrics": "Com Jesus, irmãos, sim, marchemos,"
-          },
-          {
-            "chords": "E              B7     E ",
-            "lyrics": "Ninguém poderá nos abater;"
-          },
-          {
-            "chords": "A               D    A",
-            "lyrics": "Força celestial provaremos"
-          },
-          {
-            "chords": "   F#m          E      A",
-            "lyrics": "E iremos todo_o mal vencer."
-          }
+        "text": [
+          "[A]Com Jesus, irmãos, [D]sim, marc[A]hemos,",
+          "[E]Ninguém poderá [B7]nos aba[E]ter;",
+          "[A]Força celestial [D]prova[A]remos",
+          "E i[F#m]remos todo_o [E]mal ven[A]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A              E         A",
-            "lyrics": "Sempre_avante, com o Valoroso!"
-          },
-          {
-            "chords": "C#7   F#m    B7             E ",
-            "lyrics": "Todos juntos nos convém marchar;"
-          },
-          {
-            "chords": "A          E           A",
-            "lyrics": "Somos povo do Deus poderoso, "
-          },
-          {
-            "chords": "     F#m          E     A   A...",
-            "lyrics": "O_inimigo não nos faz parar."
-          }
+        "text": [
+          "[A]Sempre_avante, [E]com o Valo[A]roso!",
+          "[C#7]Todos [F#m]juntos [B7]nos convém marc[E]har;",
+          "[A]Somos povo [E]do Deus pode[A]roso, ",
+          "O_ini[F#m]migo não nos [E]faz pa[A]rar.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                  D     A",
-            "lyrics": "Com Jesus, irmãos, prossigamos,"
-          },
-          {
-            "chords": "E                  B7        E ",
-            "lyrics": "Pois Deus nos dará força_e vigor;"
-          },
-          {
-            "chords": "A                D    A",
-            "lyrics": "Ao mal, pela fé, resistamos."
-          },
-          {
-            "chords": "        F#m             E     A",
-            "lyrics": "Sempre_avante,_em nomde do Senhor!"
-          }
+        "text": [
+          "[A]Com Jesus, irmãos, [D]prossi[A]gamos,",
+          "[E]Pois Deus nos dará [B7]força_e vi[E]gor;",
+          "[A]Ao mal, pela fé, [D]resis[A]tamos.",
+          "Sempre_a[F#m]vante,_em nomde [E]do Sen[A]hor!"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                  D    A",
-            "lyrics": "Com Jesus, irmãos, entraremos"
-          },
-          {
-            "chords": "E              B7         E ",
-            "lyrics": "Todos os fiéis no lar de_amor;"
-          },
-          {
-            "chords": "A              D    A",
-            "lyrics": "Regozijo_e paz sentiremos"
-          },
-          {
-            "chords": "    F#m             E   A",
-            "lyrics": "E daremos glória_ao Criador."
-          }
+        "text": [
+          "[A]Com Jesus, irmãos, [D]entra[A]remos",
+          "[E]Todos os fiéis [B7]no lar de_a[E]mor;",
+          "[A]Regozijo_e paz [D]senti[A]remos",
+          "E da[F#m]remos glória_ao [E]Cria[A]dor."
         ]
       },
       {

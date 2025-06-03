@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus é a Luz que veio ao mundo...",
   "tone": {
     "recommended": "G"
@@ -9,62 +9,29 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G               D             G            D ",
-            "lyrics": "Jesus é_a Luz que veio ao mundo para me resgatar;"
-          },
-          {
-            "chords": "   G           D                  A7            D    D... ",
-            "lyrics": "Em trevas eu jamais andarei, pois Ele me faz brilhar."
-          }
+        "text": [
+          "Je[G]sus é_a Luz que [D]veio ao mundo [G]para me resga[D]tar;",
+          "Em [G]trevas eu ja[D]mais andarei, pois [A7]Ele me faz bri[D]lhar.[D...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D       G",
-            "lyrics": "Se_eu andar nessa Luz,"
-          },
-          {
-            "chords": "                    D   ",
-            "lyrics": "Um dia eu verei o fiel, bom Jesus;"
-          },
-          {
-            "chords": "   A7           D ",
-            "lyrics": "Na casa de Deus Pai,"
-          },
-          {
-            "chords": "      G",
-            "lyrics": "Eu contemplarei todo_o esplendor"
-          },
-          {
-            "chords": "                        D ",
-            "lyrics": "Do meu Redentor. Que alegria!"
-          },
-          {
-            "chords": "       Em     C    G",
-            "lyrics": "Lá não há tristeza e nem mal,"
-          },
-          {
-            "chords": "C         D   G",
-            "lyrics": "Só o_amor perenal."
-          }
+        "text": [
+          "[D]Se_eu an[G]dar nessa Luz,",
+          "Um dia eu verei o fi[D]el, bom Jesus;",
+          "Na [A7]casa de Deus [D]Pai,",
+          "Eu con[G]templarei todo_o esplendor",
+          "Do meu Redentor. Que ale[D]gria!",
+          "Lá não [Em]há tris[C]teza [G]e nem mal,",
+          "[C]Só o_amor [D]pere[G]nal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G             D              G               D ",
-            "lyrics": "Jesus, com Sua luz divinal, mostrou-me a salvação;"
-          },
-          {
-            "chords": "  G           D             A7               D    D... ",
-            "lyrics": "A minha mente esclareceu; livrou-me da perdição."
-          }
+        "text": [
+          "Je[G]sus, com Sua l[D]uz divinal, mos[G]trou-me a salvaç[D]ão;",
+          "A [G]minha mente [D]esclareceu; li[A7]vrou-me da perdiç[D]ão.[D...]"
         ]
       },
       {
@@ -74,15 +41,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  G               D            G             D ",
-            "lyrics": "Jesus, vem com a tua gloriosa luz para me guiar"
-          },
-          {
-            "chords": "   G         D             A7             D    D... ",
-            "lyrics": "No Evangelho santo, até findar meu peregrinar."
-          }
+        "text": [
+          "Je[G]sus, vem com a t[D]ua gloriosa l[G]uz para me gui[D]ar",
+          "No [G]Evangelho [D]santo, até fin[A7]dar meu peregri[D]nar.[D...]"
         ]
       },
       {

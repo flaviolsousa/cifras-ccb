@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É Jesus meu Refúgio",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       G      D                 G",
-            "lyrics": "Grande é a tormenta e a tribulação,"
-          },
-          {
-            "chords": "                                        D",
-            "lyrics": "Muitos são os combates, grande, a tentação;"
-          },
-          {
-            "chords": "       G          D                 G",
-            "lyrics": "Mas Jesus, meu Rochedo e fiel Guardião,"
-          },
-          {
-            "chords": "  C      G...     D        G",
-            "lyrics": "É a Fortaleza que dá proteção."
-          }
+        "text": [
+          "Grande [G]é a tor[D]menta e a tribulaç[G]ão,",
+          "Muitos são os combates, grande, a tentaç[D]ão;",
+          "Mas Jes[G]us, meu Roc[D]hedo e fiel Guardi[G]ão,",
+          "É [C]a Forta[G...]leza que [D]dá proteç[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G                     C        G",
-            "lyrics": "É Jesus meu Refúgio, meu fiel Protetor,"
-          },
-          {
-            "chords": "   C        G      A7         D",
-            "lyrics": "E n´Ele abrigado terei Seu vigor;"
-          },
-          {
-            "chords": "      G                    C        G",
-            "lyrics": "Cada dia que passa, sinto mais Seu amor"
-          },
-          {
-            "chords": "     C     G...      D       G",
-            "lyrics": "E_a vida celeste do meu Salvador."
-          }
+        "text": [
+          "É Jes[G]us meu Refúgio, meu fi[C]el Protet[G]or,",
+          "E n[C]´Ele abri[G]gado te[A7]rei Seu vig[D]or;",
+          "Cada d[G]ia que passa, sinto m[C]ais Seu a[G]mor",
+          "E_a v[C]ida ce[G...]leste do m[D]eu Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      G          D                G",
-            "lyrics": "Ao Senhor, mais unido eu almejo viver"
-          },
-          {
-            "chords": "                                         D",
-            "lyrics": "E cumprir, neste mundo, Seu glorioso querer;"
-          },
-          {
-            "chords": "         G        D                  G",
-            "lyrics": "Os Seus passos seguindo, eu irei receber"
-          },
-          {
-            "chords": "      C        G...     D         G",
-            "lyrics": "Mais força_e coragem, a fim de vencer."
-          }
+        "text": [
+          "Ao Sen[G]hor, mais u[D]nido eu almejo vi[G]ver",
+          "E cumprir, neste mundo, Seu glorioso quer[D]er;",
+          "Os Seus p[G]assos seg[D]uindo, eu irei rece[G]ber",
+          "Mais f[C]orça_e co[G...]ragem, a [D]fim de ven[G]cer."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         G          D                        G",
-            "lyrics": "Vou, com fé no meu Mestre, a tormenta_enfrentar,"
-          },
-          {
-            "chords": "                                  D",
-            "lyrics": "Mesmo que fortemente ela se levantar;"
-          },
-          {
-            "chords": "       G       D                   G",
-            "lyrics": "Com Jesus, a vitória eu irei alcançar,"
-          },
-          {
-            "chords": "      C      G...        D       G",
-            "lyrics": "Pois Suas promessas não podem falhar."
-          }
+        "text": [
+          "Vou, com [G]fé no meu M[D]estre, a tormenta_enfrent[G]ar,",
+          "Mesmo que fortemente ela se levant[D]ar;",
+          "Com Jes[G]us, a vi[D]tória eu irei alcanç[G]ar,",
+          "Pois S[C]uas pro[G...]messas não p[D]odem fal[G]har."
         ]
       },
       {

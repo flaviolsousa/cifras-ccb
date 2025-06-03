@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvor a Deus, o Criador",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A             D              A          E ",
-            "lyrics": "Louvor a Deus, o Criador, do universo, Regedor;"
-          },
-          {
-            "chords": "  A          D                    A     E     A",
-            "lyrics": "É infinito_o Seu poder, é d´Ele_a força e_o saber."
-          },
-          {
-            "chords": "     D           A                             E ",
-            "lyrics": "Deus é perfeito, é Amor, está cercado de_esplendor;"
-          },
-          {
-            "chords": "   A              D                   A       E      A",
-            "lyrics": "Os céus nos falam do Seu Ser, tudo_obedece_ao Seu querer."
-          }
+        "text": [
+          "Lou[A]vor a Deus, o [D]Criador, do uni[A]verso, Rege[E]dor;",
+          "É [A]infinito_o [D]Seu poder, é d´Ele_a [A]força [E]e_o sa[A]ber.",
+          "Deus [D]é perfeito, [A]é Amor, está cercado de_esplen[E]dor;",
+          "Os [A]céus nos falam [D]do Seu Ser, tudo_obe[A]dece_ao [E]Seu que[A]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A             D                   A           E ",
-            "lyrics": "Louvor a Deus, o Criador, por ter mandado_o Redentor;"
-          },
-          {
-            "chords": "  A           D                A         E      A",
-            "lyrics": "O Seu favor sublime é em Jesus Cristo,_Autor da fé;"
-          },
-          {
-            "chords": "      D             A                         E ",
-            "lyrics": "Quem, neste mundo_enganador, obedecer ao Salvador,"
-          },
-          {
-            "chords": "  A          D                       A      E   A",
-            "lyrics": "Receberá, de Deus, perdão, virtude_e paz no coração."
-          }
+        "text": [
+          "Lou[A]vor a Deus, o [D]Criador, por ter man[A]dado_o Reden[E]tor;",
+          "O [A]Seu favor su[D]blime é em Jesus [A]Cristo,_Au[E]tor da [A]fé;",
+          "Quem, [D]neste mundo_en[A]ganador, obedecer ao Salva[E]dor,",
+          "Re[A]ceberá, de [D]Deus, perdão, virtude_e [A]paz no [E]cora[A]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   A             D                   A             E ",
-            "lyrics": "Louvor a Deus, o Criador, das sãs promessas, Cumpridor;"
-          },
-          {
-            "chords": "    A            D                 A     E    A",
-            "lyrics": "Por todos nós honrado é e_em nós habita, pela fé;"
-          },
-          {
-            "chords": "   D             A                                  E ",
-            "lyrics": "Ninguém impede_o Criador, com Cristo_e_o bom Consolador,"
-          },
-          {
-            "chords": "   A        D                    A        E     A",
-            "lyrics": "De operar a Seu prazer, pois infinito_é_o Seu poder."
-          }
+        "text": [
+          "Lou[A]vor a Deus, o [D]Criador, das sãs pro[A]messas, Cumpri[E]dor;",
+          "Por [A]todos nós hon[D]rado é e_em nós ha[A]bita, [E]pela [A]fé;",
+          "Nin[D]guém impede_o [A]Criador, com Cristo_e_o bom Consola[E]dor,",
+          "De [A]operar a [D]Seu prazer, pois infi[A]nito_é_o [E]Seu po[A]der."
         ]
       }
     ]

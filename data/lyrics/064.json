@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tu, que vives sem destino",
   "tone": {
     "recommended": "G"
@@ -9,57 +9,33 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G        D    D7     G          Am        G    D ",
-            "lyrics": "Tu, que vives sem destino neste mundo de perdição,"
-          },
-          {
-            "chords": " G     D          D7    G         Am        D         G",
-            "lyrics": "Vem a Cristo, que te concede salvação, verdadeiro perdão."
-          }
+        "text": [
+          "[G]Tu, que v[D]ives [D7]sem des[G]tino neste [Am]mundo de p[G]erdiç[D]ão,",
+          "V[G]em a C[D]risto, que [D7]te con[G]cede salva[Am]ção, verda[D]deiro perd[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G          D      D7  G           Am       G      D ",
-            "lyrics": "Tu, que_estás sem esperança neste mundo cruel de dor,"
-          },
-          {
-            "chords": " G     D       D7     G             Am         D      G",
-            "lyrics": "Vem a Cristo e não vaciles, pois te chama com grande amor."
-          }
+        "text": [
+          "[G]Tu, que_est[D]ás sem [D7]espe[G]rança neste [Am]mundo cru[G]el de d[D]or,",
+          "V[G]em a C[D]risto e [D7]não vac[G]iles, pois te [Am]chama com g[D]rande a[G]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " G     D     D7   G               Am      G    D ",
-            "lyrics": "Deixa Cristo conduzir-te, segue_a Ele com devoção;"
-          },
-          {
-            "chords": "G     D      D7   G            Am          D        G",
-            "lyrics": "É só Ele_o real Caminho, é o_Autor da_eternal redenção."
-          }
+        "text": [
+          "D[G]eixa C[D]risto [D7]condu[G]zir-te, segue_a [Am]Ele com [G]devoç[D]ão;",
+          "[G]É só E[D]le_o re[D7]al Ca[G]minho, é o_Au[Am]tor da_etern[D]al redenç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " G  D     D7     G           Am        G     D ",
-            "lyrics": "Pecadores fomos todos, mas Jesus veio nos salvar"
-          },
-          {
-            "chords": " G        D      D7   G          Am      D        G",
-            "lyrics": "Para,_um dia, na Sua glória, a coroa da vida nos dar."
-          }
+        "text": [
+          "P[G]eca[D]dores [D7]fomos t[G]odos, mas Je[Am]sus veio n[G]os sal[D]var",
+          "P[G]ara,_um d[D]ia, na [D7]Sua g[G]lória, a co[Am]roa da v[D]ida nos d[G]ar."
         ]
       }
     ]

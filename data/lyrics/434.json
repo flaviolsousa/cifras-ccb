@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A minha alma sente paz no Senhor",
   "tone": {
     "recommended": "C"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        C           G        C",
-            "lyrics": "A minha alma sente paz no Senhor,"
-          },
-          {
-            "chords": " G            C",
-            "lyrics": "Paz eternal, paz sem igual;"
-          },
-          {
-            "chords": "                     G         C",
-            "lyrics": "Por essa paz irei ao reino de_amor,"
-          },
-          {
-            "chords": "G            C    C...",
-            "lyrics": "Reino celestial."
-          }
+        "text": [
+          "A minha [C]alma sente p[G]az no Sen[C]hor,",
+          "P[G]az eternal, p[C]az sem igual;",
+          "Por essa paz irei ao [G]reino de_a[C]mor,",
+          "[G]Reino celesti[C]al.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         C              G      C",
-            "lyrics": "Meu coração já sente_o grande amor"
-          },
-          {
-            "chords": " G                 C",
-            "lyrics": "Que vem dos céus, que vem dos céus;"
-          },
-          {
-            "chords": "                 G         C",
-            "lyrics": "Eternamente eu serei do Senhor;"
-          },
-          {
-            "chords": " G                  C    C...",
-            "lyrics": "Grande_é o_amor de Deus!"
-          }
+        "text": [
+          "Meu coraç[C]ão já sente_o g[G]rande a[C]mor",
+          "Q[G]ue vem dos céus, q[C]ue vem dos céus;",
+          "Eternamente eu se[G]rei do Sen[C]hor;",
+          "G[G]rande_é o_amor de D[C]eus![C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         C             G       C",
-            "lyrics": "Por Seu amor Jesus tornou-me feliz,"
-          },
-          {
-            "chords": "G            C",
-            "lyrics": "Muito feliz, muito feliz."
-          },
-          {
-            "chords": "                 G       C",
-            "lyrics": "Irei com Ele ao eterno país,"
-          },
-          {
-            "chords": "G           C    C...",
-            "lyrics": "Celestial país."
-          }
+        "text": [
+          "Por Seu a[C]mor Jesus torn[G]ou-me fe[C]liz,",
+          "[G]Muito feliz, [C]muito feliz.",
+          "Irei com Ele ao e[G]terno pa[C]ís,",
+          "[G]Celestial pa[C]ís.[C...]"
         ]
       }
     ]

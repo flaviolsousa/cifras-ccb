@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Manda-nos Teu Poder",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       A                      D              A",
-            "lyrics": "Manda, ó Senhor, do céu, fogo santo_ao povo Teu;"
-          },
-          {
-            "chords": "      E         A",
-            "lyrics": "Manda-nos Teu Poder;"
-          },
-          {
-            "chords": "                             D            A",
-            "lyrics": "Fogo que destrói o mal, fogo santo, celestial;"
-          },
-          {
-            "chords": "      E         A",
-            "lyrics": "Manda-nos Teu Poder."
-          }
+        "text": [
+          "Manda, [A]ó Senhor, do céu, fogo [D]santo_ao povo T[A]eu;",
+          "Manda-[E]nos Teu Po[A]der;",
+          "Fogo que destrói o mal, fogo [D]santo, celest[A]ial;",
+          "Manda-[E]nos Teu Po[A]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Manda-nos o Teu Poder,"
-          },
-          {
-            "chords": "    E                    A",
-            "lyrics": "O Poder renovador, Pelo Teu imenso_amor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Vem, Senhor, selar Teu povo"
-          },
-          {
-            "chords": "       E         A",
-            "lyrics": "Com o bom Consolador."
-          }
+        "text": [
+          "Manda-n[A]os o Teu Poder,",
+          "O Po[E]der renovador, Pelo T[A]eu imenso_amor;",
+          "Vem, Senhor, selar Teu povo",
+          "Com o b[E]om Consola[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        A                         D             A",
-            "lyrics": "Vem as bênçãos derramar e,_os que dormem, despertar;"
-          },
-          {
-            "chords": "      E         A ",
-            "lyrics": "Manda-nos Teu Poder;"
-          },
-          {
-            "chords": "                            D         A",
-            "lyrics": "E das nossas vidas faz testemunho eficaz;"
-          },
-          {
-            "chords": "      E         A",
-            "lyrics": "Manda-nos Teu Poder."
-          }
+        "text": [
+          "Vem as b[A]ênçãos derramar e,_os que [D]dormem, desper[A]tar;",
+          "Manda-[E]nos Teu Po[A]der;",
+          "E das nossas vidas faz teste[D]munho efic[A]az;",
+          "Manda-[E]nos Teu Po[A]der."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        A                   D             A",
-            "lyrics": "Vem nos dar as orações, visitando_os corações;"
-          },
-          {
-            "chords": "      E         A ",
-            "lyrics": "Manda-nos Teu Poder;"
-          },
-          {
-            "chords": "                           D            A",
-            "lyrics": "Em constante comunhão, esperamos Tua_unção;"
-          },
-          {
-            "chords": "      E         A",
-            "lyrics": "Manda-nos Teu Poder."
-          }
+        "text": [
+          "Vem nos [A]dar as orações, visi[D]tando_os coraç[A]ões;",
+          "Manda-[E]nos Teu Po[A]der;",
+          "Em constante comunhão, espe[D]ramos Tua_unç[A]ão;",
+          "Manda-[E]nos Teu Po[A]der."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Justiça divina",
   "tone": {
     "recommended": "F"
@@ -9,90 +9,36 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Deus quis ao mundo manifestar"
-          },
-          {
-            "chords": "               C7 ",
-            "lyrics": "A perfeita Caridade;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pelos profetas, fez anunciar"
-          },
-          {
-            "chords": "                 F",
-            "lyrics": "A Justiça e_a Verdade."
-          },
-          {
-            "chords": "",
-            "lyrics": "Essa Justiça, que é Jesus,"
-          },
-          {
-            "chords": "D              D7    Gm ",
-            "lyrics": "Enviada foi ao mun - do,"
-          },
-          {
-            "chords": "G      C          G7  C ",
-            "lyrics": "Manifestando, por Sua luz,"
-          },
-          {
-            "chords": "G                    C ",
-            "lyrics": "O amor que_ao céu conduz."
-          }
+        "text": [
+          "[F]Deus quis ao mundo manifestar",
+          "A perfeita Cari[C7]dade;",
+          "Pelos profetas, fez anunciar",
+          "A Justiça e_a Ver[F]dade.",
+          "Essa Justiça, que é Jesus,",
+          "[D]Enviada foi ao [D7]mun - [Gm]do,",
+          "[G]Manifes[C]tando, por [G7]Sua [C]luz,",
+          "[G]O amor que_ao céu con[C]duz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F           C    C7              F",
-            "lyrics": "A Justiça divina é Jesus, o Salvador;"
-          },
-          {
-            "chords": "F7        Bb    B°  F             C   F",
-            "lyrics": "Sua sá doutri - na  nos conduz ao Criador."
-          }
+        "text": [
+          "[F]A Justiça di[C]vina [C7]é Jesus, o Salva[F]dor;",
+          "[F7]Sua sá dou[Bb]tri - [B°]na  [F]nos conduz ao [C]Cria[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Essa Justiça nos libertou"
-          },
-          {
-            "chords": "                 C7 ",
-            "lyrics": "Da condenação vindoura;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Deus, por Jesus, nos predestinou"
-          },
-          {
-            "chords": "                  F",
-            "lyrics": "Para_a glória duradoura."
-          },
-          {
-            "chords": "",
-            "lyrics": "Somos, agora, remidos Seus,"
-          },
-          {
-            "chords": "D               D7   Gm ",
-            "lyrics": "Exaltemos o Seu No - me;"
-          },
-          {
-            "chords": "G       C       G7        C ",
-            "lyrics": "Ele nos fez cidadãos dos céus"
-          },
-          {
-            "chords": "G                   C ",
-            "lyrics": "E herdeiros do bom Deus."
-          }
+        "text": [
+          "[F]Essa Justiça nos libertou",
+          "Da condenação vin[C7]doura;",
+          "Deus, por Jesus, nos predestinou",
+          "Para_a glória dura[F]doura.",
+          "Somos, agora, remidos Seus,",
+          "[D]Exaltemos o Seu [D7]No - [Gm]me;",
+          "[G]Ele nos [C]fez cida[G7]dãos dos c[C]éus",
+          "[G]E herdeiros do bom D[C]eus."
         ]
       },
       {

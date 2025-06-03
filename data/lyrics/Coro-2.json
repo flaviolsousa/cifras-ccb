@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Toda a glória a Jesus",
   "tone": {
     "recommended": "G"
@@ -9,23 +9,11 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                  D",
-            "lyrics": "Toda a glória a Jesus!"
-          },
-          {
-            "chords": "C      G     A    D",
-            "lyrics": "Toda a honra a Jesus!"
-          },
-          {
-            "chords": "G                   Bm",
-            "lyrics": "Juntos louvemos a Jesus!"
-          },
-          {
-            "chords": " C        G          D   G    G...",
-            "lyrics": "Seu santo Nome vamos exaltar."
-          }
+        "text": [
+          "[G]Toda a glória a Jes[D]us!",
+          "[C]Toda a [G]honra [A]a Jes[D]us!",
+          "[G]Juntos louvemos a Je[Bm]sus!",
+          "S[C]eu santo [G]Nome vamos [D]exal[G]tar.[G...]"
         ]
       }
     ]

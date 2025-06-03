@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Soldados valorosos nós somos",
   "tone": {
     "recommended": "F"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                                    C7",
-            "lyrics": "O Rei dos reis nos fez soldados celestiais,"
-          },
-          {
-            "chords": "                               F",
-            "lyrics": "Nos revestiu de fé e armas divinais;"
-          },
-          {
-            "chords": "                        D          Gm",
-            "lyrics": "A guerra se levanta com ímpeto_e furor,"
-          },
-          {
-            "chords": "    G#°        F             G               C7",
-            "lyrics": "Mas nós resistiremos, pois à frente_está_o Senhor."
-          }
+        "text": [
+          "[F]O Rei dos reis nos fez soldados celes[C7]tiais,",
+          "Nos revestiu de fé e armas divi[F]nais;",
+          "A guerra se levanta com [D]ímpeto_e fu[Gm]ror,",
+          "Mas [G#°]nós resisti[F]remos, pois à [G]frente_está_o Se[C7]nhor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F                                         C7",
-            "lyrics": "Soldados valorosos nós somos de Cristo,_o Rei;"
-          },
-          {
-            "chords": "                                     F",
-            "lyrics": "Soldados da verdade, que amam a Sua lei;"
-          },
-          {
-            "chords": "                        Gm      F7   Bb",
-            "lyrics": "Vitória_alcançaremos em nome do Redentor,"
-          },
-          {
-            "chords": "B°    F    B°     F",
-            "lyrics": "Com valor, com fervor,"
-          },
-          {
-            "chords": "B°    F            C7          F",
-            "lyrics": "Com a fé em Deus, eterno Dominador."
-          }
+        "text": [
+          "[F]Soldados valorosos nós somos de Cristo,_o [C7]Rei;",
+          "Soldados da verdade, que amam a Sua l[F]ei;",
+          "Vitória_alcançaremos em [Gm]nome do [F7]Reden[Bb]tor,",
+          "[B°]Com va[F]lor, [B°]com fer[F]vor,",
+          "[B°]Com a [F]fé em Deus, e[C7]terno Domina[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                                   C7",
-            "lyrics": "Conosco_está Jesus, não há porque temer,"
-          },
-          {
-            "chords": "                                          F",
-            "lyrics": "Pois, quando_o mal vier, Deus nos fará vencer."
-          },
-          {
-            "chords": "                    D              Gm",
-            "lyrics": "Tenhamos lealdade a Cristo,_o Salvador;"
-          },
-          {
-            "chords": "  G#°        F           G          C7",
-            "lyrics": "É d´Ele esta guerra; atendamos ao Senhor."
-          }
+        "text": [
+          "[F]Conosco_está Jesus, não há porque te[C7]mer,",
+          "Pois, quando_o mal vier, Deus nos fará ven[F]cer.",
+          "Tenhamos lealdade a [D]Cristo,_o Salva[Gm]dor;",
+          "É [G#°]d´Ele esta [F]guerra; aten[G]damos ao Se[C7]nhor."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F                                    C7",
-            "lyrics": "Quem fraco estiver não deve_atrás voltar,"
-          },
-          {
-            "chords": "                                  F",
-            "lyrics": "Pois Deus dará poder a fim de batalhar;"
-          },
-          {
-            "chords": "                         D             Gm",
-            "lyrics": "Ninguém se espavente nem venha_a_esmorecer;"
-          },
-          {
-            "chords": "  G#°          F             G          C7",
-            "lyrics": "Tenhamos fé em Cristo, que virá nos socorrer."
-          }
+        "text": [
+          "[F]Quem fraco estiver não deve_atrás vol[C7]tar,",
+          "Pois Deus dará poder a fim de bata[F]lhar;",
+          "Ninguém se espavente nem [D]venha_a_esmore[Gm]cer;",
+          "Te[G#°]nhamos fé em [F]Cristo, que vi[G]rá nos soco[C7]rrer."
         ]
       },
       {

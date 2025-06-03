@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sol da justiça",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "           G               D                                                         ",
-            "lyrics": "Do Pai das luzes, o Deus vivente,"
-          },
-          {
-            "chords": "G                         D    D7",
-            "lyrics": "Veio com glória Cristo Jesus;"
-          },
-          {
-            "chords": "G                     D",
-            "lyrics": "O santo Filho do_Onipotente"
-          },
-          {
-            "chords": "G                D       G",
-            "lyrics": "É, para_o mundo, Vida e Luz."
-          }
+        "text": [
+          "Do Pai das [G]luzes, o Deus vi[D]vente,",
+          "[G]Veio com glória Cristo Jes[D]us;[D7]",
+          "[G]O santo Filho do_Onipo[D]tente",
+          "[G]É, para_o mundo, [D]Vida e L[G]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          C               G",
-            "lyrics": "Sol da justiça, Sol da justiça,"
-          },
-          {
-            "chords": "             A         D",
-            "lyrics": "Temos agora Teu resplendor;"
-          },
-          {
-            "chords": "G                       D",
-            "lyrics": "Graça trouxeste do Pai Eterno,"
-          },
-          {
-            "chords": "G            D      G",
-            "lyrics": "Misericórdia ao pecador."
-          }
+        "text": [
+          "Sol da jus[C]tiça, Sol da jus[G]tiça,",
+          "Temos agora T[A]eu resplen[D]dor;",
+          "[G]Graça trouxeste do Pai E[D]terno,",
+          "[G]Misericórdia [D]ao peca[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       G           D  ",
-            "lyrics": "O povo santo, iluminado,"
-          },
-          {
-            "chords": "G                    D    D7",
-            "lyrics": "É dirigido por essa Luz,"
-          },
-          {
-            "chords": "G                          D ",
-            "lyrics": "Pois, do Seu trono, o Rei amado"
-          },
-          {
-            "chords": "G            D      G",
-            "lyrics": "Vigia sempre e o conduz."
-          }
+        "text": [
+          "O povo [G]santo, ilumi[D]nado,",
+          "[G]É dirigido por essa L[D]uz,[D7]",
+          "[G]Pois, do Seu trono, o Rei a[D]mado",
+          "[G]Vigia sempre [D]e o con[G]duz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "           G             D  ",
-            "lyrics": "Do mal, a força se enfraquece,"
-          },
-          {
-            "chords": "G                   D    D7",
-            "lyrics": "É dissipado o seu poder,"
-          },
-          {
-            "chords": "G                          D ",
-            "lyrics": "Pois é só Cristo Quem prevalece;"
-          },
-          {
-            "chords": "G                D       G",
-            "lyrics": "Seu reino_avança para vencer."
-          }
+        "text": [
+          "Do mal, a f[G]orça se enfraq[D]uece,",
+          "[G]É dissipado o seu po[D]der,[D7]",
+          "[G]Pois é só Cristo Quem preva[D]lece;",
+          "[G]Seu reino_avança [D]para ven[G]cer."
         ]
       },
       {

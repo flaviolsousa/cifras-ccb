@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvemos ao nosso Senhor",
   "tone": {
     "recommended": "B"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   B    E      F#       B",
-            "lyrics": "Louve - mos ao nosso Senhor,"
-          },
-          {
-            "chords": "    E         F#7   B",
-            "lyrics": "Exaltemos Seu Nome eterno,"
-          },
-          {
-            "chords": "      E    F#    G°     G#m ",
-            "lyrics": "Pois Ele é Fon - te de_amor"
-          },
-          {
-            "chords": "    B  E     F#7       B",
-            "lyrics": "E é digno de todo_o louvor."
-          }
+        "text": [
+          "Lou[B]ve - [E]mos ao [F#]nosso Sen[B]hor,",
+          "Exal[E]temos Seu [F#7]Nome e[B]terno,",
+          "Pois E[E]le é [F#]Fon - [G°]te de_a[G#m]mor",
+          "E é [B]dig[E]no de [F#7]todo_o lou[B]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    B    E      F#       B",
-            "lyrics": "Oh! Va - mos louvores cantar,"
-          },
-          {
-            "chords": "    E         F#7      B",
-            "lyrics": "Agradáveis louvores ao bom Deus,"
-          },
-          {
-            "chords": "    E      F#    G°      G#m ",
-            "lyrics": "E hinos de gló - ria_entoar;"
-          },
-          {
-            "chords": "      B  E    F#7     B",
-            "lyrics": "Vamos no Seu amor jubilar!"
-          }
+        "text": [
+          "Oh! [B]Va - [E]mos lou[F#]vores can[B]tar,",
+          "Agra[E]dáveis lou[F#7]vores ao [B]bom Deus,",
+          "E hi[E]nos de [F#]gló - [G°]ria_ento[G#m]ar;",
+          "Vamos [B]no [E]Seu a[F#7]mor jubi[B]lar!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    B    E        F#        B",
-            "lyrics": "Oh! Va - mos, com fé, ao Senhor;"
-          },
-          {
-            "chords": "     E        F#7     B",
-            "lyrics": "Assentemo-nos todos à mesa,"
-          },
-          {
-            "chords": "         E    F#  G°   G#m ",
-            "lyrics": "Pois nos servirá  com amor,"
-          },
-          {
-            "chords": "       B    E    F#7    B",
-            "lyrics": "Pelo_Espí - rito Consolador."
-          }
+        "text": [
+          "Oh! [B]Va - [E]mos, com [F#]fé, ao Sen[B]hor;",
+          "Assen[E]temo-nos [F#7]todos à [B]mesa,",
+          "Pois nos [E]servi[F#]rá  [G°]com a[G#m]mor,",
+          "Pelo_Es[B]pí - [E]rito [F#7]Consola[B]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " B   E    F#         B",
-            "lyrics": "Aqui nos achamos, Senhor,"
-          },
-          {
-            "chords": "    E        F#7       B",
-            "lyrics": "Ofertando tributos de glória;"
-          },
-          {
-            "chords": "      E      F#   G°    G#m ",
-            "lyrics": "Só Tu és, do bem, Doa - dor,"
-          },
-          {
-            "chords": "   B  E      F#7     B",
-            "lyrics": "Ó eterno, bondoso Senhor."
-          }
+        "text": [
+          "A[B]qui [E]nos a[F#]chamos, Sen[B]hor,",
+          "Ofer[E]tando tri[F#7]butos de g[B]lória;",
+          "Só Tu [E]és, do [F#]bem, [G°]Doa - [G#m]dor,",
+          "Ó e[B]ter[E]no, bon[F#7]doso Sen[B]hor."
         ]
       }
     ]

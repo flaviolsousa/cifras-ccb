@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, recordamos aqui...",
   "tone": {
     "recommended": "F"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   F         C       F",
-            "lyrics": "Senhor, recordamos aqui"
-          },
-          {
-            "chords": "  Bb       F       C",
-            "lyrics": "O Teu sacrifício atroz;"
-          },
-          {
-            "chords": "            F         C         F",
-            "lyrics": "Partindo o pão nos lembramos de Ti;"
-          },
-          {
-            "chords": "           C           F    F...",
-            "lyrics": "Martírio sofreste por nós."
-          }
+        "text": [
+          "Sen[F]hor, recor[C]damos aq[F]ui",
+          "O [Bb]Teu sacri[F]fício at[C]roz;",
+          "Partindo o p[F]ão nos lem[C]bramos de [F]Ti;",
+          "Martírio so[C]freste por n[F]ós.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  F      C          F",
-            "lyrics": "O cálix nos dá comunhão"
-          },
-          {
-            "chords": "   Bb          F         C",
-            "lyrics": "Do Teu sangue, Cristo Jesus;"
-          },
-          {
-            "chords": "           F       C        F",
-            "lyrics": "Somente em Ti há real salvação,"
-          },
-          {
-            "chords": "               C          F    F...",
-            "lyrics": "Tu és Quem ao céu nos conduz."
-          }
+        "text": [
+          "O [F]cálix n[C]os dá comun[F]hão",
+          "Do [Bb]Teu sangue, [F]Cristo Jes[C]us;",
+          "Somente em [F]Ti há re[C]al salvaç[F]ão,",
+          "Tu és Quem ao c[C]éu nos cond[F]uz.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    F           C      F",
-            "lyrics": "Faz-nos dignos, ó Redentor,"
-          },
-          {
-            "chords": "   Bb     F       C",
-            "lyrics": "Da celestial comunhão"
-          },
-          {
-            "chords": "               F         C         F",
-            "lyrics": "Do Teu corpo_e sangue precioso, Senhor;"
-          },
-          {
-            "chords": "             C        F    F...",
-            "lyrics": "Conserva-nos nesta_união."
-          }
+        "text": [
+          "Faz-[F]nos dignos, [C]ó Reden[F]tor,",
+          "Da [Bb]celesti[F]al comun[C]hão",
+          "Do Teu corpo_e [F]sangue pre[C]cioso, Sen[F]hor;",
+          "Conserva-nos [C]nesta_uni[F]ão.[F...]"
         ]
       }
     ]

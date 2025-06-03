@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A fiel proteção",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G                   C",
-            "lyrics": "A fiel proteção do Teu manto de amor"
-          },
-          {
-            "chords": "    G         A7          D",
-            "lyrics": "Segurança me traz, bom Jesus;"
-          },
-          {
-            "chords": "    G                  C",
-            "lyrics": "Abrigado estou, tenho força e valor;"
-          },
-          {
-            "chords": "       G       D",
-            "lyrics": "Trilharei Tua senda de luz."
-          }
+        "text": [
+          "A fi[G]el proteção do Teu m[C]anto de amor",
+          "Segu[G]rança me t[A7]raz, bom Jes[D]us;",
+          "Abri[G]gado estou, tenho f[C]orça e valor;",
+          "Trilhar[G]ei Tua s[D]enda de luz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       D                    G",
-            "lyrics": "O teu manto de amor sinto estar sobre mim; "
-          },
-          {
-            "chords": "      A7                  D    D7",
-            "lyrics": "Minha vida Te entrego, Senhor;"
-          },
-          {
-            "chords": "     G                C",
-            "lyrics": "Viverei pela fé, protegido assim,"
-          },
-          {
-            "chords": "       G        D        G",
-            "lyrics": "Na presença de Deus, Criador."
-          }
+        "text": [
+          "O teu m[D]anto de amor sinto es[G]tar sobre mim; ",
+          "Minha [A7]vida Te entrego, Sen[D]hor;[D7]",
+          "Viver[G]ei pela fé, prote[C]gido assim,",
+          "Na pres[G]ença de D[D]eus, Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        G                   C",
-            "lyrics": "Meu destino de luz vejo ao longe, Senhor,"
-          },
-          {
-            "chords": "     G       A7        D",
-            "lyrics": "E jamais olharei para trás;"
-          },
-          {
-            "chords": "       G                  C",
-            "lyrics": "Minha crença em Ti guardarei, Redentor;"
-          },
-          {
-            "chords": "      G         D       G",
-            "lyrics": "Teu poder, virtuoso me faz."
-          }
+        "text": [
+          "Meu dest[G]ino de luz vejo ao l[C]onge, Senhor,",
+          "E jam[G]ais olha[A7]rei para t[D]rás;",
+          "Minha c[G]rença em Ti guardar[C]ei, Redentor;",
+          "Teu po[G]der, virtu[D]oso me f[G]az."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       G                     C",
-            "lyrics": "Teu intento, Senhor, vem em mim revelar;"
-          },
-          {
-            "chords": "     G        A7         D",
-            "lyrics": "Preciosos são os planos Teus;"
-          },
-          {
-            "chords": "     G                    C",
-            "lyrics": "De valor em valor quero aqui terminar"
-          },
-          {
-            "chords": "     G         D         G",
-            "lyrics": "A carreira proposta por Deus."
-          }
+        "text": [
+          "Teu int[G]ento, Senhor, vem em m[C]im revelar;",
+          "Preci[G]osos são [A7]os planos T[D]eus;",
+          "De va[G]lor em valor quero aq[C]ui terminar",
+          "A car[G]reira prop[D]osta por D[G]eus."
         ]
       },
       {

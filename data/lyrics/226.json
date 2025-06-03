@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A história do Evangelho",
   "tone": {
     "recommended": "D"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       D                          G         D",
-            "lyrics": "É a_história do_Evangelho que nos fala de Jesus,"
-          },
-          {
-            "chords": "       A7       D          E7          A... ",
-            "lyrics": "Que ao Pai obedeceu e veio ser a nossa Luz."
-          },
-          {
-            "chords": "     D                         G          A ",
-            "lyrics": "Para dar-nos vida_eterna, dura morte suportou;"
-          },
-          {
-            "chords": "     D                D...      A7         D...",
-            "lyrics": "Pela glória que_antevia, ao Seu Pai se humilhou."
-          }
+        "text": [
+          "É a_his[D]tória do_Evangelho que nos [G]fala de Je[D]sus,",
+          "Que ao [A7]Pai obede[D]ceu e veio [E7]ser a nossa [A...]Luz.",
+          "Para [D]dar-nos vida_eterna, dura [G]morte supor[A]tou;",
+          "Pela [D]glória que_antevi[D...]a, ao Seu [A7]Pai se humi[D...]lhou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       D                       G          D",
-            "lyrics": "Transpassado com a lança foi o corpo do Senhor,"
-          },
-          {
-            "chords": "        A7            D          E7         A... ",
-            "lyrics": "Sobre_a cruz foi derramado o Seu sangue remidor;"
-          },
-          {
-            "chords": "       D                    G          A ",
-            "lyrics": "E, por esse sacrifício, recebemos salvação;"
-          },
-          {
-            "chords": "      D              D...       A7           D...",
-            "lyrics": "O_Evangelho nos declara: “Só em Cristo há perdão.”"
-          }
+        "text": [
+          "Transpa[D]ssado com a lança foi o [G]corpo do Se[D]nhor,",
+          "Sobre_a [A7]cruz foi derra[D]mado o Seu [E7]sangue remi[A...]dor;",
+          "E, por [D]esse sacrifício, rece[G]bemos salva[A]ção;",
+          "O_Evan[D]gelho nos decla[D...]ra: “Só em [A7]Cristo há per[D...]dão.”"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    D                         G          D",
-            "lyrics": "Comovente é ouvir contar a_história de Jesus;"
-          },
-          {
-            "chords": "       A7         D          E7        A... ",
-            "lyrics": "Quem, atento, escutá-la participará da luz;"
-          },
-          {
-            "chords": "      D                         G           A ",
-            "lyrics": "Ela_ensina que_o castigo foi trocado por perdão;"
-          },
-          {
-            "chords": "          D             D...      A7         D...",
-            "lyrics": "Glória_ao divinal Cordeiro, todos os fiéis darão."
-          }
+        "text": [
+          "Como[D]vente é ouvir contar a_his[G]tória de Je[D]sus;",
+          "Quem, a[A7]tento, escu[D]tá-la parti[E7]cipará da [A...]luz;",
+          "Ela_en[D]sina que_o castigo foi tro[G]cado por per[A]dão;",
+          "Glória_ao [D]divinal Cordei[D...]ro, todos [A7]os fiéis da[D...]rão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     A                            D",
-            "lyrics": "Não existe outra_história que se_iguale_à do Senhor,"
-          },
-          {
-            "chords": "   A                       D",
-            "lyrics": "Alegria dá aos mansos e converte_o pecador;"
-          },
-          {
-            "chords": "                     D...    G        A ",
-            "lyrics": "Essa_história manifesta a verdade e a luz"
-          },
-          {
-            "chords": "       D             G    G...      A7         D",
-            "lyrics": "Que restauram nossas vi - das e nos guiam a Jesus."
-          }
+        "text": [
+          "Não e[A]xiste outra_história que se_i[D]guale_à do Senhor,",
+          "Ale[A]gria dá aos mansos e con[D]verte_o pecador;",
+          "Essa_história manifes[D...]ta a ver[G]dade e a [A]luz",
+          "Que res[D]tauram nossas [G]vi - [G...]das e nos [A7]guiam a Jes[D]us."
         ]
       }
     ]

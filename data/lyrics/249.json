@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Caridade",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A                        D         A",
-            "lyrics": "Esperança e fé sustêm nossa vida no Senhor,"
-          },
-          {
-            "chords": "      E           A",
-            "lyrics": "Na firmeza e santidade;"
-          },
-          {
-            "chords": "                                 D         A",
-            "lyrics": "Esses dons que vêm dos céus levarão ao Criador"
-          },
-          {
-            "chords": "         D          E          A",
-            "lyrics": "Os que andarem na divina Caridade."
-          }
+        "text": [
+          "Espe[A]rança e fé sustêm nossa v[D]ida no Sen[A]hor,",
+          "Na fir[E]meza e santi[A]dade;",
+          "Esses dons que vêm dos céus levar[D]ão ao Cria[A]dor",
+          "Os que an[D]darem na di[E]vina Carida[A]de."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  A             D ",
-            "lyrics": "A Caridade é a perfeição"
-          },
-          {
-            "chords": "    A               E ",
-            "lyrics": "Que permanece eternamente;"
-          },
-          {
-            "chords": "   A                  D                   A",
-            "lyrics": "O fiel a Deus, que em si a possuir, receberá"
-          },
-          {
-            "chords": "             E  A",
-            "lyrics": "Galardão excelente."
-          }
+        "text": [
+          "A [A]Caridade é a p[D]erfeição",
+          "Que [A]permanece eterna[E]mente;",
+          "O f[A]iel a Deus, que em [D]si a possuir, recebe[A]rá",
+          "Galardão exce[E]len[A]te."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A                      D           A",
-            "lyrics": "Se falarmos, ó irmãos, a linguagem celestial"
-          },
-          {
-            "chords": "        E             A",
-            "lyrics": "E a dos homens, em verdade."
-          },
-          {
-            "chords": "                      D           A",
-            "lyrics": "Isso não nos levará à cidade eternal,"
-          },
-          {
-            "chords": "       D           E          A",
-            "lyrics": "Se em nós não estiver a Caridade."
-          }
+        "text": [
+          "Se fal[A]armos, ó irmãos, a ling[D]uagem celest[A]ial",
+          "E a dos [E]homens, em ver[A]dade.",
+          "Isso não nos levará à [D]cidade etern[A]al,",
+          "Se em n[D]ós não estiv[E]er a Carida[A]de."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         A                     D          A",
-            "lyrics": "Para os santos do Senhor, é virtude sem igual"
-          },
-          {
-            "chords": "      E          A",
-            "lyrics": "A excelente Caridade;"
-          },
-          {
-            "chords": "                           D             A",
-            "lyrics": "Revestidos desse bem, venceremos todo o mal"
-          },
-          {
-            "chords": "    D              E             A",
-            "lyrics": "E veremos Deus, o Pai da eternidade."
-          }
+        "text": [
+          "Para os s[A]antos do Senhor, é vir[D]tude sem ig[A]ual",
+          "A exce[E]lente Carid[A]ade;",
+          "Revestidos desse bem, vence[D]remos todo o m[A]al",
+          "E ve[D]remos Deus, o P[E]ai da eternida[A]de."
         ]
       },
       {

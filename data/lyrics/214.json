@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Como foi para os céus, assim virá",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G",
-            "lyrics": "Ao subir Jesus a Deus, vieram anjos lá dos céus"
-          },
-          {
-            "chords": "                             D           D... ",
-            "lyrics": "Declarando que o Mestre voltaria para_os Seus;"
-          },
-          {
-            "chords": "     G                        C           G",
-            "lyrics": "A resplandecente_Estrela da Manhã ressurgirá."
-          },
-          {
-            "chords": "              C    D          G",
-            "lyrics": "Que_alegria_o povo santo sentirá!"
-          }
+        "text": [
+          "Ao su[G]bir Jesus a Deus, vieram anjos lá dos céus",
+          "Declarando que o Mestre volta[D]ria para_os [D...]Seus;",
+          "A res[G]plandecente_Estrela da Ma[C]nhã ressurgi[G]rá.",
+          "Que_alegria_o [C]povo [D]santo senti[G]rá!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       G",
-            "lyrics": "Cristo voltará em nuvens quando_o tempo se cumprir,"
-          },
-          {
-            "chords": "                                 D          D... ",
-            "lyrics": "Para,_à glória prometida, Seus remidos conduzir;"
-          },
-          {
-            "chords": "     G                      C           G",
-            "lyrics": "Bem-aventurados todos que O servem com amor,"
-          },
-          {
-            "chords": "        C      D        G",
-            "lyrics": "A coroa lhes dará o Criador."
-          }
+        "text": [
+          "Cristo [G]voltará em nuvens quando_o tempo se cumprir,",
+          "Para,_à glória prometida, Seus re[D]midos condu[D...]zir;",
+          "Bem-a[G]venturados todos que O [C]servem com a[G]mor,",
+          "A coroa [C]lhes da[D]rá o Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G",
-            "lyrics": "A Palavra do Senhor no mundo se cumprindo_está,"
-          },
-          {
-            "chords": "                                         D           D... ",
-            "lyrics": "Os sinais dos tempos mostram que_Ele,_em breve, voltará;"
-          },
-          {
-            "chords": "        G                      C          G",
-            "lyrics": "Oh! Que glorioso “vinde” Seus eleitos ouvirão"
-          },
-          {
-            "chords": "             C    D        G",
-            "lyrics": "De Jesus, na gloriosa_aparição."
-          }
+        "text": [
+          "A Pa[G]lavra do Senhor no mundo se cumprindo_está,",
+          "Os sinais dos tempos mostram que_Ele,_em [D]breve, volta[D...]rá;",
+          "Oh! Que [G]glorioso “vinde” Seus e[C]leitos ouvi[G]rão",
+          "De Jesus, na [C]glori[D]osa_apari[G]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G                            C  G",
-            "lyrics": "Como foi para_os céus, assim virá"
-          },
-          {
-            "chords": "                            D    A  D...  ",
-            "lyrics": "O Senhor, com celeste esplendor;"
-          },
-          {
-            "chords": "     G                       C            G",
-            "lyrics": "A promessa preciosa que Deus fez se cumprirá:"
-          },
-          {
-            "chords": "           C    D           G",
-            "lyrics": "Breve voltará Jesus, o Redentor."
-          }
+        "text": [
+          "Como [G]foi para_os céus, assim virá[C][G]",
+          "O Senhor, com celeste esplen[D]dor;[A][D...]",
+          "A pro[G]messa preciosa que Deus [C]fez se cumpri[G]rá:",
+          "Breve volta[C]rá Je[D]sus, o Reden[G]tor."
         ]
       }
     ]

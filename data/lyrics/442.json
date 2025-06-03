@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bênçãos, bênçãos Deus derramará",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                 D",
-            "lyrics": "Bênção como chuva se derramarão"
-          },
-          {
-            "chords": "E                          A",
-            "lyrics": "Sobre_aquele que a Deus servir,"
-          },
-          {
-            "chords": "                        D ",
-            "lyrics": "E, dos céus, as portas não se fecharão,"
-          },
-          {
-            "chords": "E                       A",
-            "lyrics": "Bens celestes poderá fruir."
-          }
+        "text": [
+          "[A]Bênção como chuva [D]se derramarão",
+          "[E]Sobre_aquele que a Deus ser[A]vir,",
+          "E, dos céus, as portas n[D]ão se fecharão,",
+          "[E]Bens celestes poderá fru[A]ir."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A        E              F#m  C#",
-            "lyrics": "Bênçãos, bênçãos Deus derramará,"
-          },
-          {
-            "chords": "D       B7                        E",
-            "lyrics": "Bênçãos que, no mundo,_iguais não há;"
-          },
-          {
-            "chords": "A                   D",
-            "lyrics": "Ele,_aqui, te dá as bênçãos temporais"
-          },
-          {
-            "chords": "E                           A",
-            "lyrics": "E, por fim, no céu, as eternais."
-          }
+        "text": [
+          "[A]Bênçãos, [E]bênçãos Deus de[F#m]rrama[C#]rá,",
+          "[D]Bênçãos [B7]que, no mundo,_iguais não [E]há;",
+          "[A]Ele,_aqui, te dá as [D]bênçãos temporais",
+          "[E]E, por fim, no céu, as etern[A]ais."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A             D",
-            "lyrics": "Se obedeceres ao teu Criador,"
-          },
-          {
-            "chords": "E                      A",
-            "lyrics": "Tu serás bendito do Senhor;"
-          },
-          {
-            "chords": "                  D",
-            "lyrics": "O Seu forte braço Ele_estenderá"
-          },
-          {
-            "chords": "E                      A",
-            "lyrics": "E em teu favor trabalhará."
-          }
+        "text": [
+          "[A]Se obedeceres [D]ao teu Criador,",
+          "[E]Tu serás bendito do Sen[A]hor;",
+          "O Seu forte braço [D]Ele_estenderá",
+          "[E]E em teu favor trabalha[A]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                   D",
-            "lyrics": "O que Deus te pede, deves tu fazer"
-          },
-          {
-            "chords": "E                    A",
-            "lyrics": "E somente_a Ele_obedecer,"
-          },
-          {
-            "chords": "                     D",
-            "lyrics": "Pois Deus é contigo, te ajudará"
-          },
-          {
-            "chords": "E                    A",
-            "lyrics": "E dos céus te abençoará."
-          }
+        "text": [
+          "[A]O que Deus te pede, [D]deves tu fazer",
+          "[E]E somente_a Ele_obede[A]cer,",
+          "Pois Deus é contigo, [D]te ajudará",
+          "[E]E dos céus te abençoa[A]rá."
         ]
       },
       {

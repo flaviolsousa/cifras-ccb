@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Senhor, vem visitar-me",
   "tone": {
     "recommended": "G"
@@ -9,54 +9,27 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G                         D           G",
-            "lyrics": "Ó Senhor, vem visitar-me e_alentar a minha fé;"
-          },
-          {
-            "chords": "                              A       A7     D",
-            "lyrics": "Eu desejo consagrar-me e_alcançar, de Ti, mercê."
-          }
+        "text": [
+          "Ó Sen[G]hor, vem visitar-me e_alen[D]tar a minha [G]fé;",
+          "Eu desejo consagrar-me e_alcan[A]çar, de [A7]Ti, mer[D]cê."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        C        Am",
-            "lyrics": "Com o_Espírito divino"
-          },
-          {
-            "chords": "        D          G",
-            "lyrics": "Vem, Jesus, me batizar;"
-          },
-          {
-            "chords": "                     C   G",
-            "lyrics": "Aos Teus pés eu me incli-no"
-          },
-          {
-            "chords": "",
-            "lyrics": "E te rogo sem cessar:"
-          },
-          {
-            "chords": "     C      G     D                  G",
-            "lyrics": "Oh! Vem, Senhor, com Teu Dom me consolar."
-          }
+        "text": [
+          "Com o_Es[C]pírito di[Am]vino",
+          "Vem, Jes[D]us, me bati[G]zar;",
+          "Aos Teus pés eu me in[C]cli-[G]no",
+          "E te rogo sem cessar:",
+          "Oh! V[C]em, Sen[G]hor, c[D]om Teu Dom me conso[G]lar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     G                        D           G",
-            "lyrics": "Ó Jesus, és minha Sorte, és a minha Salvação;"
-          },
-          {
-            "chords": "                                 A  A7       D",
-            "lyrics": "Faz-me firme, faz-me forte pela Tua santa_unção."
-          }
+        "text": [
+          "Ó Jes[G]us, és minha Sorte, és a [D]minha Salvaç[G]ão;",
+          "Faz-me firme, faz-me forte pela T[A]ua [A7]santa_unç[D]ão."
         ]
       },
       {
@@ -66,15 +39,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      G                        D         G",
-            "lyrics": "E ao fim serei ditoso, pois Contigo estarei;"
-          },
-          {
-            "chords": "                               A   A7    D",
-            "lyrics": "No Teu reino glorioso, face_a face Te verei."
-          }
+        "text": [
+          "E ao f[G]im serei ditoso, pois Con[D]tigo estar[G]ei;",
+          "No Teu reino glorioso, face_a f[A]ace [A7]Te ver[D]ei."
         ]
       },
       {

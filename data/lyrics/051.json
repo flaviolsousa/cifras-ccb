@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Palavra do Senhor é Pão celestial",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                          G ",
-            "lyrics": "A Palavra do Senhor, para mim,"
-          },
-          {
-            "chords": "                            C",
-            "lyrics": "É_um tesouro de valor sem igual;"
-          },
-          {
-            "chords": "         G            F           C",
-            "lyrics": "Fala do amor de Deus, o amor que não tem fim,"
-          },
-          {
-            "chords": "                 F    G       C",
-            "lyrics": "O amor que livra do poder do mal."
-          }
+        "text": [
+          "[C]A Palavra do Senhor, para m[G]im,",
+          "É_um tesouro de valor sem ig[C]ual;",
+          "Fala do a[G]mor de Deus, [F]o amor que n[C]ão tem fim,",
+          "O amor que livra [F]do po[G]der do m[C]al."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                               G ",
-            "lyrics": "A Palavra do Senhor, Pão celestial,"
-          },
-          {
-            "chords": "                                       C",
-            "lyrics": "Faz-nos caminhar na luz, livra-nos do mal;"
-          },
-          {
-            "chords": "                          C7              F ",
-            "lyrics": "Deus nos enviou dos céus, Cristo,_o _Emanuel,"
-          },
-          {
-            "chords": "             C           G       C",
-            "lyrics": "Rocha viva de_onde mana leite_e mel."
-          }
+        "text": [
+          "[C]A Palavra do Senhor, Pão celesti[G]al,",
+          "Faz-nos caminhar na luz, livra-nos do m[C]al;",
+          "Deus nos enviou dos céus, [C7]Cristo,_o _Emanu[F]el,",
+          "Rocha viva de[C]_onde mana l[G]eite_e m[C]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " C                            G ",
-            "lyrics": "Luz que guia nas veredas dos céus"
-          },
-          {
-            "chords": "                           C",
-            "lyrics": "E_ilumina quem em trevas está;"
-          },
-          {
-            "chords": "             G          F           C",
-            "lyrics": "É a luz que nos faz ver as riquezas do bom Deus"
-          },
-          {
-            "chords": "                F   G      C",
-            "lyrics": "E entendimento divinal nos dá."
-          }
+        "text": [
+          "L[C]uz que guia nas veredas dos c[G]éus",
+          "E_ilumina quem em trevas es[C]tá;",
+          "É a luz que n[G]os faz ver [F]as riquezas [C]do bom Deus",
+          "E entendimento d[F]ivin[G]al nos [C]dá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                              G ",
-            "lyrics": "É_um farol de celestial esplendor,"
-          },
-          {
-            "chords": "                           C",
-            "lyrics": "Que nos guia à cidade_eternal;"
-          },
-          {
-            "chords": "                G          F              C",
-            "lyrics": "Quem com Cristo caminhar, quem servir ao Criador,"
-          },
-          {
-            "chords": "                 F      G   C",
-            "lyrics": "Certo chegará à pátria divinal."
-          }
+        "text": [
+          "[C]É_um farol de celestial esplend[G]or,",
+          "Que nos guia à cidade_etern[C]al;",
+          "Quem com Cristo [G]caminhar, q[F]uem servir ao C[C]riador,",
+          "Certo chegará à p[F]átria d[G]ivin[C]al."
         ]
       },
       {

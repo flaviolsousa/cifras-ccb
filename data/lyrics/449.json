@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O meu nome no céu escreveste, Senhor",
   "tone": {
     "recommended": "A"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A                   D        A",
-            "lyrics": "As riquezas celestes eu almejo, Senhor,"
-          },
-          {
-            "chords": "                           B7      E7",
-            "lyrics": "Os tesouros da terra têm pequeno valor."
-          },
-          {
-            "chords": "       A                  D           A",
-            "lyrics": "Com fervor eu Te rogo, ó eterno Deus meu,"
-          },
-          {
-            "chords": "                 D          E7       A",
-            "lyrics": "Que conserves escrito o meu nome no céu."
-          }
+        "text": [
+          "As riq[A]uezas celestes eu al[D]mejo, Sen[A]hor,",
+          "Os tesouros da terra têm pe[B7]queno va[E7]lor.",
+          "Com fer[A]vor eu Te rogo, ó e[D]terno Deus m[A]eu,",
+          "Que conserves esc[D]rito o meu [E7]nome no c[A]éu."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      A                          E",
-            "lyrics": "O meu nome no céu escreveste, Senhor,"
-          },
-          {
-            "chords": "       A        D             E7      A    A...",
-            "lyrics": "No Teu livro da vida, por Teu grande amor."
-          }
+        "text": [
+          "O meu [A]nome no céu escreveste, Sen[E]hor,",
+          "No Teu [A]livro da [D]vida, por Teu [E7]grande a[A]mor.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       A                   D          A",
-            "lyrics": "Que ventura sublime! Que tesouro sem par!"
-          },
-          {
-            "chords": "                              B7        E7",
-            "lyrics": "Pois verei Teu semblante, ouvirei Teu falar;"
-          },
-          {
-            "chords": "       A                      D        A",
-            "lyrics": "O meu nome não risques, eu imploro, Senhor;"
-          },
-          {
-            "chords": "                  D              E7       A",
-            "lyrics": "Entre_os Teus escolhidos quero_estar, Criador."
-          }
+        "text": [
+          "Que ven[A]tura sublime! Que te[D]souro sem p[A]ar!",
+          "Pois verei Teu semblante, ouvi[B7]rei Teu fa[E7]lar;",
+          "O meu n[A]ome não risques, eu imp[D]loro, Sen[A]hor;",
+          "Entre_os Teus esco[D]lhidos quero_es[E7]tar, Cria[A]dor."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A                  D         A",
-            "lyrics": "Tu me predestinaste para ser filho Teu,"
-          },
-          {
-            "chords": "                              B7          E7",
-            "lyrics": "Para ser Teu herdeiro, com os santos, no céu;"
-          },
-          {
-            "chords": "      A                   D        A",
-            "lyrics": "Como posso pagar-Te essa grande mercê?"
-          },
-          {
-            "chords": "                D           E7        A",
-            "lyrics": "Pois em mim colocaste a_esperança e_a fé."
-          }
+        "text": [
+          "Tu me p[A]redestinaste para s[D]er filho T[A]eu,",
+          "Para ser Teu herdeiro, com os [B7]santos, no c[E7]éu;",
+          "Como p[A]osso pagar-Te essa g[D]rande mer[A]cê?",
+          "Pois em mim colo[D]caste a_espe[E7]rança e_a [A]fé."
         ]
       },
       {

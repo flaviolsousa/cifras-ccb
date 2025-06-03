@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Que fundamento",
   "tone": {
     "recommended": "A"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A       E        A              E ",
-            "lyrics": "Oh! Que fundamento em Jesus Cristo temos,"
-          },
-          {
-            "chords": "  F#m       E         B        E ",
-            "lyrics": "É Ele_a_Esperança do eterno porvir;"
-          },
-          {
-            "chords": "    A      E  A    E      F#m  E ",
-            "lyrics": "As Suas promessas eternas alcançamos;"
-          },
-          {
-            "chords": "   A                                     E ",
-            "lyrics": "Em Seu amor, unidos, a Deus vamos servir,"
-          },
-          {
-            "chords": "                F#m    E        A",
-            "lyrics": "Em Seu amor, unidos, O vamos servir."
-          }
+        "text": [
+          "Oh! Q[A]ue funda[E]mento em [A]Jesus Cristo te[E]mos,",
+          "É [F#m]Ele_a_Espe[E]rança do e[B]terno por[E]vir;",
+          "As S[A]uas pro[E]mes[A]sas e[E]ternas [F#m]alcan[E]çamos;",
+          "Em [A]Seu amor, unidos, a Deus vamos servir,[E]",
+          "Em Seu amor, uni[F#m]dos, O [E]vamos ser[A]vir."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A      E         A              E ",
-            "lyrics": "Se, peregrinando, combates nós tivermos;"
-          },
-          {
-            "chords": "  F#m      E                B        E ",
-            "lyrics": "A mão do Senhor, por graça, nos livrará;"
-          },
-          {
-            "chords": "  A        E  A     E       F#m    E ",
-            "lyrics": "E contra a força do mal nós luta - remos;"
-          },
-          {
-            "chords": "   A                                     E ",
-            "lyrics": "Servindo_a Deus com zelo, ajuda nos dará,"
-          },
-          {
-            "chords": "                      F#m  E      A",
-            "lyrics": "Servindo_a Deus com zelo, ajuda dará."
-          }
+        "text": [
+          "Se, [A]peregri[E]nando, com[A]bates nós tiver[E]mos;",
+          "A [F#m]mão do Se[E]nhor, por graça, [B]nos livra[E]rá;",
+          "E [A]contra a [E]for[A]ça do [E]mal nós [F#m]luta - [E]remos;",
+          "Ser[A]vindo_a Deus com zelo, ajuda nos dará,[E]",
+          "Servindo_a Deus com ze[F#m]lo, a[E]juda da[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A      E        A            E ",
-            "lyrics": "Ó Rocha eterna e_eterna Fortaleza,"
-          },
-          {
-            "chords": "    F#m      E            B       E ",
-            "lyrics": "Por fé nós vivemos no Teu grande amor;"
-          },
-          {
-            "chords": "  A         E  A      E    F#m    E ",
-            "lyrics": "Fizeste-nos dignos da celestial riqueza,"
-          },
-          {
-            "chords": "     A                                      E ",
-            "lyrics": "Pois todo_o nosso bem vem de Ti, ó Redentor,"
-          },
-          {
-            "chords": "                      F#m    E        A",
-            "lyrics": "Pois todo_o nosso bem vem de Ti, Redentor."
-          }
+        "text": [
+          "Ó [A]Rocha e[E]terna e_e[A]terna Fortale[E]za,",
+          "Por [F#m]fé nós vi[E]vemos no Teu [B]grande a[E]mor;",
+          "Fi[A]zeste-nos [E]dig[A]nos da [E]celes[F#m]tial ri[E]queza,",
+          "Pois [A]todo_o nosso bem vem de Ti, ó Redentor,[E]",
+          "Pois todo_o nosso bem [F#m]vem de [E]Ti, Reden[A]tor."
         ]
       }
     ]

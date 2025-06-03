@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Com Jesus, eternamente viverei",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     D                       G ",
-            "lyrics": "Eu espero, firmemente, com Jesus ir descansar"
-          },
-          {
-            "chords": "       A                   D ",
-            "lyrics": "Lá no céu, alegremente, Aleluia!"
-          },
-          {
-            "chords": "                               G  ",
-            "lyrics": "Doce paz minh´alma sente tão somente em pensar:"
-          },
-          {
-            "chords": "     A                         D",
-            "lyrics": "Que glória lá no céu vou desfrutar!"
-          }
+        "text": [
+          "Eu es[D]pero, firmemente, com Je[G]sus ir descansar",
+          "Lá no c[A]éu, alegremente, Ale[D]luia!",
+          "Doce paz minh´alma sente tão so[G]mente em pensar:",
+          "Que g[A]lória lá no céu vou desfru[D]tar!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      D",
-            "lyrics": "Com Jesus, eternamente viverei"
-          },
-          {
-            "chords": "   G                     A ",
-            "lyrics": "No repouso onde Ele já entrou;"
-          },
-          {
-            "chords": "      D                  G ",
-            "lyrics": "Santa paz e alegria sem igual desfrutarei;"
-          },
-          {
-            "chords": "   A                      D    D...",
-            "lyrics": "Na pátria dos fiéis habitarei."
-          }
+        "text": [
+          "Com Je[D]sus, eternamente viverei",
+          "No [G]repouso onde Ele já en[A]trou;",
+          "Santa [D]paz e alegria sem i[G]gual desfrutarei;",
+          "Na [A]pátria dos fiéis habita[D]rei.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      D                        G ",
-            "lyrics": "De Jesus, o rosto santo, eu no céu vou contemplar,"
-          },
-          {
-            "chords": "      A                        D",
-            "lyrics": "Onde não há dor nem pranto. Aleluia!"
-          },
-          {
-            "chords": "                               G ",
-            "lyrics": "Um sublime_e novo canto vão os santos entoar;"
-          },
-          {
-            "chords": "     A                         D",
-            "lyrics": "Que glória lá no céu vou desfrutar!"
-          }
+        "text": [
+          "De Jes[D]us, o rosto santo, eu no [G]céu vou contemplar,",
+          "Onde n[A]ão há dor nem pranto. Ale[D]luia!",
+          "Um sublime_e novo canto vão os [G]santos entoar;",
+          "Que g[A]lória lá no céu vou desfru[D]tar!"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        D                    G ",
-            "lyrics": "Quando, no céu desejado, vitorioso eu entrar,"
-          },
-          {
-            "chords": "      A                      D",
-            "lyrics": "Lá verei Cristo_exaltado. Aleluia!"
-          },
-          {
-            "chords": "                           G ",
-            "lyrics": "Para sempre consolado, ouvirei o Seu falar;"
-          },
-          {
-            "chords": "     A                         D",
-            "lyrics": "Que glória lá no céu vou desfrutar!"
-          }
+        "text": [
+          "Quando, [D]no céu desejado, vito[G]rioso eu entrar,",
+          "Lá ver[A]ei Cristo_exaltado. Ale[D]luia!",
+          "Para sempre consolado, ouvi[G]rei o Seu falar;",
+          "Que g[A]lória lá no céu vou desfru[D]tar!"
         ]
       },
       {

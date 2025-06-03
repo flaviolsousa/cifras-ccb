@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, Tu és a minha Esperança",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "           G",
-            "lyrics": "Senhor, Tu és a minha Esperança,"
-          },
-          {
-            "chords": "          D                G",
-            "lyrics": "Seguir-Te-ei de todo o meu coração;"
-          },
-          {
-            "chords": "             G7         C ",
-            "lyrics": "Em Ti está a minha confiança"
-          },
-          {
-            "chords": "       D                    G",
-            "lyrics": "De receber, no céu, o galardão."
-          }
+        "text": [
+          "Senhor, Tu [G]és a minha Esperança,",
+          "Seguir-Te-[D]ei de todo o meu [G]coração;",
+          "Em Ti está a [G7]minha confi[C]ança",
+          "De rece[D]ber, no céu, o galard[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G         C ",
-            "lyrics": "Ao céu desejo ir"
-          },
-          {
-            "chords": "   D          G",
-            "lyrics": "Contigo, ó Senhor;"
-          },
-          {
-            "chords": " G7         C ",
-            "lyrics": "Ali irei fruir"
-          },
-          {
-            "chords": "         D                  G",
-            "lyrics": "Os bens eternos, ó bom Salvador."
-          }
+        "text": [
+          "Ao c[G]éu desejo [C]ir",
+          "Con[D]tigo, ó Sen[G]hor;",
+          "A[G7]li irei fru[C]ir",
+          "Os bens e[D]ternos, ó bom Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "           G",
-            "lyrics": "Senhor, Tu és a minha Fortaleza,"
-          },
-          {
-            "chords": "        D                 G",
-            "lyrics": "E és também o meu potente Salvador;"
-          },
-          {
-            "chords": "               G7         C ",
-            "lyrics": "Tu removeste_a minha incerteza,"
-          },
-          {
-            "chords": "           D                   G",
-            "lyrics": "A vida_e_a fé me deste,_ó Redentor."
-          }
+        "text": [
+          "Senhor, Tu [G]és a minha Fortaleza,",
+          "E és tam[D]bém o meu potente [G]Salvador;",
+          "Tu removeste_a [G7]minha incer[C]teza,",
+          "A vida_e_a [D]fé me deste,_ó Reden[G]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      G",
-            "lyrics": "Agora tenho Tua alegria,"
-          },
-          {
-            "chords": "         D                   G",
-            "lyrics": "Viva_esperança, paz, vigor, amor e luz;"
-          },
-          {
-            "chords": "                 G7           C ",
-            "lyrics": "Tu és meu Guarda e também meu Guia,"
-          },
-          {
-            "chords": "        D                 G",
-            "lyrics": "És tudo para mim, ó bom Jesus."
-          }
+        "text": [
+          "Agora [G]tenho Tua alegria,",
+          "Viva_espe[D]rança, paz, vigor, a[G]mor e luz;",
+          "Tu és meu Guarda [G7]e também meu [C]Guia,",
+          "És tudo [D]para mim, ó bom Je[G]sus."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bendize, ó minha alma",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                F  C      Am           G",
-            "lyrics": "Bendize,_ó minha al-ma, ao teu amado Senhor,"
-          },
-          {
-            "chords": "   C               F     F...     C        G          C",
-            "lyrics": "Bendize_o Nome do eterno Deus; é grande o bem que te faz;"
-          },
-          {
-            "chords": "G                 C         D              G",
-            "lyrics": "Nunca te esqueças do amor e do celestial favor;"
-          },
-          {
-            "chords": "  C                  F     F...   C        G        C",
-            "lyrics": "É Ele Quem perdoa_os erros teus e te dá conforto e paz."
-          }
+        "text": [
+          "[C]Bendize,_ó minha [F]al-[C]ma, ao [Am]teu amado Sen[G]hor,",
+          "Ben[C]dize_o Nome do e[F]terno [F...]Deus; é g[C]rande o b[G]em que te f[C]az;",
+          "[G]Nunca te esqueças [C]do amor e [D]do celestial fa[G]vor;",
+          "É [C]Ele Quem perdoa_os [F]erros [F...]teus e [C]te dá con[G]forto e p[C]az."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C               F  C",
-            "lyrics": "Ao Pai da_Eternida-de,"
-          },
-          {
-            "chords": "G7                 C",
-            "lyrics": "Grande_em benignidade,"
-          },
-          {
-            "chords": "         C7   F",
-            "lyrics": "Glória e majestade,"
-          },
-          {
-            "chords": "  C      G          C",
-            "lyrics": "Domínio, honra_e louvor!"
-          }
+        "text": [
+          "[C]Ao Pai da_Eterni[F]da-[C]de,",
+          "[G7]Grande_em benignida[C]de,",
+          "Glória e [C7]majes[F]tade,",
+          "Do[C]mínio, [G]honra_e lou[C]vor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                 F  C     Am                 G",
-            "lyrics": "Todo_o meu ser bendi-ga ao Deus que dá perfeição;"
-          },
-          {
-            "chords": "  C                 F     F...     C         G       C",
-            "lyrics": "O bálsamo que me_alivia_a dor, do Seu santo trono provém;"
-          },
-          {
-            "chords": "G                 C            D                 G",
-            "lyrics": "Ele afastou, por Seu amor, de mim a grande maldição;"
-          },
-          {
-            "chords": "   C                    F     F...   C         G       C",
-            "lyrics": "E, aos que cumprem Sua_eterna lei, reserva no céu sumo bem."
-          }
+        "text": [
+          "[C]Todo_o meu ser ben[F]di-[C]ga ao [Am]Deus que dá perfeiç[G]ão;",
+          "O [C]bálsamo que me_ali[F]via_a [F...]dor, do S[C]eu santo t[G]rono pro[C]vém;",
+          "[G]Ele afastou, por S[C]eu amor, de m[D]im a grande maldiç[G]ão;",
+          "E, [C]aos que cumprem Sua_e[F]terna [F...]lei, re[C]serva no c[G]éu sumo [C]bem."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C              F  C        Am                G",
-            "lyrics": "Oh! Bendizei-O sempre, vós todos, os santos Seus,"
-          },
-          {
-            "chords": "  C                    F    F...    C       G       C",
-            "lyrics": "E todos vós que sempre O servis, o Seu Nome engrandecei;"
-          },
-          {
-            "chords": "G             C              D                     G",
-            "lyrics": "Ele é fiel, é justo_e bom, e para todo_o sempre_é Deus;"
-          },
-          {
-            "chords": "    C                     F    F...    C     G       C",
-            "lyrics": "Vós todos que sois filhos do Senhor, a Ele somente temei."
-          }
+        "text": [
+          "[C]Oh! Bendizei-O [F]sem[C]pre, vós [Am]todos, os santos S[G]eus,",
+          "E [C]todos vós que sempre [F]O ser[F...]vis, o S[C]eu Nome [G]engrande[C]cei;",
+          "[G]Ele é fiel, é [C]justo_e bom, e [D]para todo_o sempre_é D[G]eus;",
+          "Vós [C]todos que sois filhos [F]do Se[F...]nhor, a [C]Ele so[G]mente te[C]mei."
         ]
       },
       {

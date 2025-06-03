@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Deste mundo mais nada esperarei",
   "tone": {
     "recommended": "E"
@@ -9,82 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      E                 B ",
-            "lyrics": "Deste mundo mais nada_esperarei,"
-          },
-          {
-            "chords": "     B7               E",
-            "lyrics": "Em Jesus, salvação já encontrei;"
-          },
-          {
-            "chords": "                       B  ",
-            "lyrics": "N´Ele sempre eu hei de confiar"
-          },
-          {
-            "chords": "          F#7     B  B7 ",
-            "lyrics": "E, de coração, O_amar."
-          }
+        "text": [
+          "Deste [E]mundo mais nada_es[B]perarei,",
+          "Em Je[B7]sus, salvação já [E]encontrei;",
+          "N´Ele sempre eu hei de [B]confiar",
+          "E, de cora[F#7]ção, O_a[B]mar[B7]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      E",
-            "lyrics": "Outro bem não procurarei,"
-          },
-          {
-            "chords": "                      B ",
-            "lyrics": "Outro bem não encontrarei;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Em Jesus, meu Senhor,"
-          },
-          {
-            "chords": "       B7        E",
-            "lyrics": "Sempre devo confiar;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois quem pode me proteger"
-          },
-          {
-            "chords": "      C#m     G#7   A ",
-            "lyrics": "Neste mundo_engan - dor?"
-          },
-          {
-            "chords": "B    E        A        E    F#m ",
-            "lyrics": "Só Jesus, meu Mestre e Salvador,"
-          },
-          {
-            "chords": "G°  E         B7     E",
-            "lyrics": "Meu Rei e_eternal Pastor."
-          }
+        "text": [
+          "Outro [E]bem não procurarei,",
+          "Outro bem não encontra[B]rei;",
+          "Em Jesus, meu Senhor,",
+          "Sempre [B7]devo confi[E]ar;",
+          "Pois quem pode me proteger",
+          "Neste [C#m]mundo_en[G#7]gan - [A]dor?",
+          "[B]Só Je[E]sus, meu [A]Mestre e [E]Salva[F#m]dor,",
+          "[G°]Meu [E]Rei e_eter[B7]nal Pas[E]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E             B ",
-            "lyrics": "É vaidade o que no mundo há,"
-          },
-          {
-            "chords": "        B7            E",
-            "lyrics": "Tudo_em breve aqui se findará;"
-          },
-          {
-            "chords": "                    B ",
-            "lyrics": "Viverei para sempre com Jesus,"
-          },
-          {
-            "chords": "            F#7  B  B7 ",
-            "lyrics": "Se andar em Sua luz."
-          }
+        "text": [
+          "É vai[E]dade o que no [B]mundo há,",
+          "Tudo_em [B7]breve aqui se [E]findará;",
+          "Viverei para sempre [B]com Jesus,",
+          "Se andar em [F#7]Sua l[B]uz.[B7]"
         ]
       },
       {
@@ -94,23 +46,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      E               B ",
-            "lyrics": "Neste mundo mais nada me seduz,"
-          },
-          {
-            "chords": "      B7               E",
-            "lyrics": "Minha glória_e riqueza é Jesus;"
-          },
-          {
-            "chords": "                   B ",
-            "lyrics": "Receber eu desejo, lá no céu,"
-          },
-          {
-            "chords": "              F#7  B  B7 ",
-            "lyrics": "Tudo_o que me prometeu."
-          }
+        "text": [
+          "Neste [E]mundo mais nada [B]me seduz,",
+          "Minha [B7]glória_e riqueza [E]é Jesus;",
+          "Receber eu desejo, [B]lá no céu,",
+          "Tudo_o que me [F#7]prome[B]teu[B7]."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus habita em meu coração",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A",
-            "lyrics": "Ao Salvador vivente eu sirvo com amor,"
-          },
-          {
-            "chords": "        C#   F#m     B7        E7 ",
-            "lyrics": "Por Sua vida tenho real consolação;"
-          },
-          {
-            "chords": "    A",
-            "lyrics": "Que vive, é bem certo, Jesus, o Redentor,"
-          },
-          {
-            "chords": "     B7                      E ",
-            "lyrics": "Pois Sua voz eu sinto no coração."
-          }
+        "text": [
+          "Ao [A]Salvador vivente eu sirvo com amor,",
+          "Por Sua [C#]vida [F#m]tenho re[B7]al consola[E7]ção;",
+          "Que [A]vive, é bem certo, Jesus, o Redentor,",
+          "Pois [B7]Sua voz eu sinto no cora[E]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  A      A7    D               A",
-            "lyrics": "Jesus, Jesus habita_em meu coração;"
-          },
-          {
-            "chords": "  E               A                B7              E7 ",
-            "lyrics": "Andar com Ele_e_ouvir-Lhe_a voz é, para mim, um prazer."
-          },
-          {
-            "chords": "  A      A7     D           C# ",
-            "lyrics": "Jesus, Jesus, Autor da salvação,"
-          },
-          {
-            "chords": "    F#7          B7   B7...    E           A   ",
-            "lyrics": "É_a Fonte_eterna do saber, é_a Vida do meu ser."
-          }
+        "text": [
+          "Je[A]sus, Je[A7]sus ha[D]bita_em meu cora[A]ção;",
+          "An[E]dar com Ele_e_ou[A]vir-Lhe_a voz é, [B7]para mim, um pra[E7]zer.",
+          "Je[A]sus, Je[A7]sus, Au[D]tor da salva[C#]ção,",
+          "É_a [F#7]Fonte_eterna [B7]do sa[B7...]ber, é_a [E]Vida do meu [A]ser."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A",
-            "lyrics": "Em mim se manifesta a vida de Jesus,"
-          },
-          {
-            "chords": "         C#   F#m     B7         E7 ",
-            "lyrics": "Por fé estou unido ao Pai celestial,"
-          },
-          {
-            "chords": "  A",
-            "lyrics": "E nada deste mundo agora me seduz,"
-          },
-          {
-            "chords": "     B7                         E ",
-            "lyrics": "Pois Cristo me separa de todo_o mal."
-          }
+        "text": [
+          "Em [A]mim se manifesta a vida de Jesus,",
+          "Por fé es[C#]tou u[F#m]nido ao [B7]Pai celesti[E7]al,",
+          "E [A]nada deste mundo agora me seduz,",
+          "Pois [B7]Cristo me separa de todo_o [E]mal."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A",
-            "lyrics": "Jubila, sim, jubila e canta, ó cristão,"
-          },
-          {
-            "chords": "      C#     F#m     B7              E7 ",
-            "lyrics": "Alegremente_exalta a Cristo,_excelso Rei;"
-          },
-          {
-            "chords": "    A",
-            "lyrics": "Bem perto já se_encontra a tua redenção,"
-          },
-          {
-            "chords": "   B7                   E ",
-            "lyrics": "Conserva-te unido à Sua grei."
-          }
+        "text": [
+          "Ju[A]bila, sim, jubila e canta, ó cristão,",
+          "Alegre[C#]mente_e[F#m]xalta a [B7]Cristo,_excelso [E7]Rei;",
+          "Bem [A]perto já se_encontra a tua redenção,",
+          "Con[B7]serva-te unido à Sua [E]grei."
         ]
       },
       {

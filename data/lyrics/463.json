@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Mocidade! Vamos combater!",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                                 E",
-            "lyrics": "Com valor, ó jovens, santos do Senhor,"
-          },
-          {
-            "chords": "                     A",
-            "lyrics": "Vamos proclamar que Cristo_é_o Salvador;"
-          },
-          {
-            "chords": "                                   D",
-            "lyrics": "Os que n´Ele crerem, certo_alcançarão"
-          },
-          {
-            "chords": "E                 A",
-            "lyrics": "Vida_eterna e perdão."
-          }
+        "text": [
+          "[A]Com valor, ó jovens, santos do Sen[E]hor,",
+          "Vamos proclamar que C[A]risto_é_o Salvador;",
+          "Os que n´Ele crerem, certo_alcançar[D]ão",
+          "[E]Vida_eterna e perd[A]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                    E",
-            "lyrics": "Mocidade! Vamos combater!"
-          },
-          {
-            "chords": "                       A",
-            "lyrics": "Valorosos somos por Jesus!"
-          },
-          {
-            "chords": "           A7         D",
-            "lyrics": "Venceremos pelo Seu poder,"
-          },
-          {
-            "chords": "Bm       E          A    A...",
-            "lyrics": "Manifestaremos Sua luz."
-          }
+        "text": [
+          "[A]Mocidade! Vamos comba[E]ter!",
+          "Valorosos somos por Jes[A]us!",
+          "Venceremos [A7]pelo Seu po[D]der,",
+          "[Bm]Manifesta[E]remos Sua l[A]uz.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                                     E",
-            "lyrics": "Sempre_avante,_ó jovens, vamos, com valor,"
-          },
-          {
-            "chords": "                      A",
-            "lyrics": "Combater, por fé, o_astuto tentador;"
-          },
-          {
-            "chords": "                                   D",
-            "lyrics": "Cristo, com Seu braço, nos sustentará"
-          },
-          {
-            "chords": "E               A",
-            "lyrics": "E vitória nos dará."
-          }
+        "text": [
+          "[A]Sempre_avante,_ó jovens, vamos, com va[E]lor,",
+          "Combater, por fé, o_as[A]tuto tentador;",
+          "Cristo, com Seu braço, nos sustenta[D]rá",
+          "[E]E vitória nos da[A]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                           E",
-            "lyrics": "Bem-aventurados somos no Senhor,"
-          },
-          {
-            "chords": "                     A",
-            "lyrics": "Temos alcançado_a_unção do Criador"
-          },
-          {
-            "chords": "                              D",
-            "lyrics": "Pela qual sentimos paz e comunhão,"
-          },
-          {
-            "chords": "E                 A",
-            "lyrics": "Para_eterna salvação."
-          }
+        "text": [
+          "[A]Bem-aventurados somos no Sen[E]hor,",
+          "Temos alcançado_a_unç[A]ão do Criador",
+          "Pela qual sentimos paz e comun[D]hão,",
+          "[E]Para_eterna salvaç[A]ão."
         ]
       },
       {

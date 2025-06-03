@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Somos jovens consagrados",
   "tone": {
     "recommended": "B"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      B                      F#7         B",
-            "lyrics": "Somos jovens consagrados a Jesus, o Redentor,"
-          },
-          {
-            "chords": "                           F#7        B",
-            "lyrics": "E, por Ele, ensinados a servir ao Criador."
-          }
+        "text": [
+          "Somos [B]jovens consagrados a Je[F#7]sus, o Reden[B]tor,",
+          "E, por Ele, ensinados a ser[F#7]vir ao Cria[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       B",
-            "lyrics": "Que_alegria encontramos"
-          },
-          {
-            "chords": "      F#7        B",
-            "lyrics": "Em servir ao Criador!"
-          },
-          {
-            "chords": "",
-            "lyrics": "Nós, Seus filhos, O amamos,"
-          },
-          {
-            "chords": "       F#7          B",
-            "lyrics": "Com sincero_e puro_amor."
-          }
+        "text": [
+          "Que_ale[B]gria encontramos",
+          "Em ser[F#7]vir ao Cria[B]dor!",
+          "Nós, Seus filhos, O amamos,",
+          "Com sin[F#7]cero_e puro_a[B]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      B                     F#7         B",
-            "lyrics": "Somos jovens obedientes a Jesus, o Salvador,"
-          },
-          {
-            "chords": "                           F#7         B",
-            "lyrics": "Atendemos, reverentes, à Palavra do Senhor."
-          }
+        "text": [
+          "Somos [B]jovens obedientes a Je[F#7]sus, o Salva[B]dor,",
+          "Atendemos, reverentes, à Pa[F#7]lavra do Sen[B]hor."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      B                      F#7        B",
-            "lyrics": "Somos jovens dedicados nesta obra do Senhor,"
-          },
-          {
-            "chords": "                               F#7         B",
-            "lyrics": "Fomos todos resgatados por Seu sangue_expiador."
-          }
+        "text": [
+          "Somos [B]jovens dedicados nesta [F#7]obra do Sen[B]hor,",
+          "Fomos todos resgatados por Seu [F#7]sangue_expia[B]dor."
         ]
       },
       {

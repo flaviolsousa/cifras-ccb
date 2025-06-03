@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Em nome de Jesus",
   "tone": {
     "recommended": "B"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                ",
-            "lyrics": "Em nome de Jesus, eis-nos reunidos"
-          },
-          {
-            "chords": "F#        B          F#   C#  F# ",
-            "lyrics": "Para_aprender Teu querer, ó Senhor;"
-          },
-          {
-            "chords": "B",
-            "lyrics": "Conserva-nos, ó Deus, sempre unidos,"
-          },
-          {
-            "chords": "F#        B        E   F#  B",
-            "lyrics": "Pois dependemos de Ti, Criador."
-          }
+        "text": [
+          "[B]Em nome de Jesus, eis-nos reunidos",
+          "[F#]Para_apren[B]der Teu que[F#]rer, [C#]ó Se[F#]nhor;",
+          "[B]Conserva-nos, ó Deus, sempre unidos,",
+          "[F#]Pois depen[B]demos de [E]Ti, [F#]Cria[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F#      B           F#    B",
-            "lyrics": "Com reverência_e fé Te adoramos,"
-          },
-          {
-            "chords": "E    B           E   F#  B   B...",
-            "lyrics": "Onipotente Deus, Pai de amor."
-          }
+        "text": [
+          "[F#]Com reve[B]rência_e fé [F#]Te ado[B]ramos,",
+          "[E]Onipo[B]tente Deus, [E]Pai [F#]de a[B]mor.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Dá-nos, Senhor, do Teu conhecimento"
-          },
-          {
-            "chords": "F#         B         F#   C#     F# ",
-            "lyrics": "Para que_assim Te possa - mos honrar;"
-          },
-          {
-            "chords": "B",
-            "lyrics": "Tua Palavra dá entendimento"
-          },
-          {
-            "chords": "F#      B        E   F#   B",
-            "lyrics": "E em justiça nos faz caminhar."
-          }
+        "text": [
+          "[B]Dá-nos, Senhor, do Teu conhecimento",
+          "[F#]Para que_as[B]sim Te pos[F#]sa - [C#]mos hon[F#]rar;",
+          "[B]Tua Palavra dá entendimento",
+          "[F#]E em jus[B]tiça nos [E]faz [F#]camin[B]har."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Habita_em Ti, ó Deus, sabedoria,"
-          },
-          {
-            "chords": "F#     B         F#    C#   F# ",
-            "lyrics": "Toda ciência, glorio - so Senhor;"
-          },
-          {
-            "chords": "B",
-            "lyrics": "Tua eterna luz sempre nos guia"
-          },
-          {
-            "chords": "F#       B      E   F#  B",
-            "lyrics": "Na sã verdade, amor e temor."
-          }
+        "text": [
+          "[B]Habita_em Ti, ó Deus, sabedoria,",
+          "[F#]Toda ci[B]ência, glo[F#]rio - [C#]so Se[F#]nhor;",
+          "[B]Tua eterna luz sempre nos guia",
+          "[F#]Na sã ver[B]dade, a[E]mor [F#]e te[B]mor."
         ]
       },
       {

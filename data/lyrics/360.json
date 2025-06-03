@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Do mal apartados devemos estar",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   E",
-            "lyrics": "Do mal apartados devemos estar"
-          },
-          {
-            "chords": "    A        E        B ",
-            "lyrics": "E_a todo_o momento em Cristo pensar;"
-          },
-          {
-            "chords": " E             A ",
-            "lyrics": "Unidos a Ele devemos andar;"
-          },
-          {
-            "chords": "    E                      B   E",
-            "lyrics": "Oh! Glória!_Aleluia! Vamos entoar."
-          }
+        "text": [
+          "Do [E]mal apartados devemos estar",
+          "E_a [A]todo_o mo[E]mento em [B]Cristo pensar;",
+          "U[E]nidos a Ele de[A]vemos andar;",
+          "Oh! [E]Glória!_Aleluia! Vamos [B]ento[E]ar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Firmes sejamos no Salvador,"
-          },
-          {
-            "chords": "C#m            F#7   B ",
-            "lyrics": "Na santidade e no fervor!"
-          },
-          {
-            "chords": "E               A ",
-            "lyrics": "Ele, o Forte, o Defensor,"
-          },
-          {
-            "chords": "  E              B  E   E...",
-            "lyrics": "Dará vitória._Aleluia!"
-          }
+        "text": [
+          "[E]Firmes sejamos no Salvador,",
+          "[C#m]Na santidade e [F#7]no fer[B]vor!",
+          "[E]Ele, o Forte, o [A]Defensor,",
+          "Da[E]rá vitória._Ale[B]lui[E]a![E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Jesus nos amou, para Deus nos comprou,"
-          },
-          {
-            "chords": "  A       E      B ",
-            "lyrics": "O Santo Espírito nos enviou;"
-          },
-          {
-            "chords": "  E                  A ",
-            "lyrics": "Lugar nesta graça também preparou;"
-          },
-          {
-            "chords": "    E                       B      E",
-            "lyrics": "Oh! Glória!_Aleluia! Cristo nos salvou."
-          }
+        "text": [
+          "Je[E]sus nos amou, para Deus nos comprou,",
+          "O [A]Santo Es[E]pírito [B]nos enviou;",
+          "Lu[E]gar nesta graça tam[A]bém preparou;",
+          "Oh! [E]Glória!_Aleluia! Cristo [B]nos sal[E]vou."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Está perto_o dia em que o Senhor"
-          },
-          {
-            "chords": "  A          E         B ",
-            "lyrics": "Virá, como_Esposo, com grande_esplendor,"
-          },
-          {
-            "chords": "  E                   A ",
-            "lyrics": "A todos que buscam virtude e_amor;"
-          },
-          {
-            "chords": "    E                         B     E",
-            "lyrics": "Oh! Glória!_Aleluia! Grande_é Seu favor!"
-          }
+        "text": [
+          "Es[E]tá perto_o dia em que o Senhor",
+          "Vi[A]rá, como_Es[E]poso, com [B]grande_esplendor,",
+          "A [E]todos que buscam vir[A]tude e_amor;",
+          "Oh! [E]Glória!_Aleluia! Grande_é [B]Seu fa[E]vor!"
         ]
       },
       {

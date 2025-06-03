@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Novos céus nós aguardamos",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                                         F# ",
-            "lyrics": "Novos céus nós aguardamos e nova terra também;"
-          },
-          {
-            "chords": "                           F#7              B",
-            "lyrics": "Neles nós sempre pensamos, neles está nosso bem;"
-          },
-          {
-            "chords": "           F#       F#7   B                E ",
-            "lyrics": "Por isso_estamos servin - do a Deus, o Criador;"
-          },
-          {
-            "chords": "F°             B       C#7               F#   F#7 ",
-            "lyrics": "Sua vontade cumprindo, veremos Seu esplendor."
-          }
+        "text": [
+          "[B]Novos céus nós aguardamos e nova terra tam[F#]bém;",
+          "Neles nós sempre pensamos, [F#7]neles está nosso [B]bem;",
+          "Por isso_es[F#]tamos ser[F#7]vin - [B]do a Deus, o Cria[E]dor;",
+          "[F°]Sua vontade cum[B]prindo, [C#7]veremos Seu esplen[F#]dor.[F#7]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B    B°  B                            F# ",
-            "lyrics": "No - vos céus Deus, aos Seus fiéis, dará;"
-          },
-          {
-            "chords": "F#7                          B",
-            "lyrics": "Nova terra, onde_a justiça_está;"
-          },
-          {
-            "chords": "         F#7     B             B7     E ",
-            "lyrics": "Em breve volta o Rei, Cristo Jesus, Senhor;"
-          },
-          {
-            "chords": "F°                B                F#7      B",
-            "lyrics": "Firmes na graça sejamos, firmes na fé e no_amor."
-          }
+        "text": [
+          "[B]No - [B°]vos [B]céus Deus, aos Seus fiéis, da[F#]rá;",
+          "[F#7]Nova terra, onde_a justiça_es[B]tá;",
+          "Em breve [F#7]volta o [B]Rei, Cristo Je[B7]sus, Se[E]nhor;",
+          "[F°]Firmes na graça se[B]jamos, firmes na [F#7]fé e no_a[B]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                                          F# ",
-            "lyrics": "Pelo Espírito_andemos dentro da lei do bom Deus;"
-          },
-          {
-            "chords": "                     F#7                B",
-            "lyrics": "O coração inclinemos para as coisas dos céus;"
-          },
-          {
-            "chords": "         F#        F#7  B               E ",
-            "lyrics": "Do mundo toda_a vaida - de devemos rejeitar;"
-          },
-          {
-            "chords": "F°                   B    C#7                  F#   F#7 ",
-            "lyrics": "Temos de Deus uma_herdade: a terra que nos vai dar."
-          }
+        "text": [
+          "[B]Pelo Espírito_andemos dentro da lei do bom [F#]Deus;",
+          "O coração inclinemos [F#7]para as coisas dos [B]céus;",
+          "Do mundo [F#]toda_a vai[F#7]da - [B]de devemos rejei[E]tar;",
+          "[F°]Temos de Deus uma_her[B]dade:[C#7] a terra que nos vai [F#]dar.[F#7]"
         ]
       },
       {

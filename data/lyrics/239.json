@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eis que a noite é passada",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "          F          C                       F",
-            "lyrics": "Eis que_a noite é passada, para mim surgiu o dia;"
-          },
-          {
-            "chords": "     Bb                    G7         C ",
-            "lyrics": "De Jesus estou mais perto; oh! que alegria!"
-          },
-          {
-            "chords": "       F               C                        F",
-            "lyrics": "Sempre mais eu vou crescendo nas virtudes do Senhor"
-          },
-          {
-            "chords": "         Bb   D°     C#7   C7         F",
-            "lyrics": "Para,_um dia, ser perfeito no divino_amor."
-          }
+        "text": [
+          "Eis que_a [F]noite é pas[C]sada, para mim surgiu o [F]dia;",
+          "De Je[Bb]sus estou mais perto; [G7]oh! que ale[C]gria!",
+          "Sempre [F]mais eu vou cres[C]cendo nas virtudes do Sen[F]hor",
+          "Para,_um [Bb]dia, [D°]ser per[C#7]feito [C7]no divino_a[F]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    F            C ",
-            "lyrics": "Ó Jesus, por Tua graça,"
-          },
-          {
-            "chords": "       C7          F",
-            "lyrics": "Glória sempre Te darei;"
-          },
-          {
-            "chords": "     F7           Bb ",
-            "lyrics": "Resgatado por Teu sangue,"
-          },
-          {
-            "chords": "     C7      F",
-            "lyrics": "Só a Ti servirei."
-          }
+        "text": [
+          "Ó Je[F]sus, por Tua [C]graça,",
+          "Glória [C7]sempre Te da[F]rei;",
+          "Resga[F7]tado por Teu [Bb]sangue,",
+          "Só a [C7]Ti servi[F]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "          F          C                       F",
-            "lyrics": "Eis que_a noite é passada, já surgiu a Luz divina;"
-          },
-          {
-            "chords": "     Bb                  G7        C ",
-            "lyrics": "Essa Luz é Jesus Cristo, que me ilumina."
-          },
-          {
-            "chords": "       F          C                      F",
-            "lyrics": "Bem cingido de justiça e das armas do Senhor,"
-          },
-          {
-            "chords": "     Bb    D°   C#7   C7          F",
-            "lyrics": "Eu espero, confiante, ser um vencedor."
-          }
+        "text": [
+          "Eis que_a [F]noite é pas[C]sada, já surgiu a Luz di[F]vina;",
+          "Essa [Bb]Luz é Jesus Cristo, [G7]que me ilu[C]mina.",
+          "Bem cin[F]gido de jus[C]tiça e das armas do Sen[F]hor,",
+          "Eu es[Bb]pero, [D°]confi[C#7]ante, [C7]ser um vence[F]dor."
         ]
       },
       {

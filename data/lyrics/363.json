@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Aos Teus pés estou, Senhor",
   "tone": {
     "recommended": "G"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         G     D       G",
-            "lyrics": "Aos Teus pés estou, Senhor,"
-          },
-          {
-            "chords": "                  D ",
-            "lyrics": "Elevando_o meu clamor;"
-          },
-          {
-            "chords": "       G    D   G",
-            "lyrics": "Faz raiar a Tua luz"
-          },
-          {
-            "chords": "C     D            G    G...",
-            "lyrics": "Em minha´alma, Criador."
-          }
+        "text": [
+          "Aos Teus [G]pés es[D]tou, Sen[G]hor,",
+          "Elevando_o meu cla[D]mor;",
+          "Faz rai[G]ar a [D]Tua [G]luz",
+          "[C]Em min[D]ha´alma, Cria[G]dor.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        G     D    G",
-            "lyrics": "Junto_a Ti, ó Formador,"
-          },
-          {
-            "chords": "                   D ",
-            "lyrics": "Dá-me graça para_estar;"
-          },
-          {
-            "chords": "       G     D     G",
-            "lyrics": "Quero, com temor e fé,"
-          },
-          {
-            "chords": "C       D          G    G...",
-            "lyrics": "Teus conselhos escutar."
-          }
+        "text": [
+          "Junto_a [G]Ti, ó [D]Forma[G]dor,",
+          "Dá-me graça para_es[D]tar;",
+          "Quero, [G]com te[D]mor e [G]fé,",
+          "[C]Teus con[D]selhos escu[G]tar.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G     D      G",
-            "lyrics": "Adorando-Te, Senhor,"
-          },
-          {
-            "chords": "              D ",
-            "lyrics": "Eu espero receber"
-          },
-          {
-            "chords": "       G    D     G",
-            "lyrics": "Forças para Te servir"
-          },
-          {
-            "chords": "C     D            G    G...",
-            "lyrics": "E, em retidão, crescer."
-          }
+        "text": [
+          "Ado[G]rando-[D]Te, Sen[G]hor,",
+          "Eu espero rece[D]ber",
+          "Forças [G]para [D]Te ser[G]vir",
+          "[C]E, em [D]retidão, cres[G]cer.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "      G     D       G",
-            "lyrics": "O meu cálix transbordar"
-          },
-          {
-            "chords": "                    D ",
-            "lyrics": "Faz por graça, ó Senhor;"
-          },
-          {
-            "chords": "     G    D   G",
-            "lyrics": "Eu desejo atender"
-          },
-          {
-            "chords": "C       D          G    G...",
-            "lyrics": "Teus conselhos de amor."
-          }
+        "text": [
+          "O meu [G]cálix [D]transbor[G]dar",
+          "Faz por graça, ó Sen[D]hor;",
+          "Eu de[G]sejo [D]aten[G]der",
+          "[C]Teus con[D]selhos de a[G]mor.[G...]"
         ]
       }
     ]

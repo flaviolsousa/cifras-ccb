@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Há uma pátria perfeita...",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       G         C          G",
-            "lyrics": "Há_uma pátria perfeita_em beleza,"
-          },
-          {
-            "chords": "                            D ",
-            "lyrics": "Pátria_eterna, sublime, de_amor;"
-          },
-          {
-            "chords": "      G           C       G",
-            "lyrics": "Nessa pátria de_infinda riqueza,"
-          },
-          {
-            "chords": "             D         G",
-            "lyrics": "Tudo tem eternal esplendor."
-          }
+        "text": [
+          "Há_uma [G]pátria per[C]feita_em be[G]leza,",
+          "Pátria_eterna, sublime, de_a[D]mor;",
+          "Nessa [G]pátria de_in[C]finda ri[G]queza,",
+          "Tudo tem eter[D]nal esplen[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      G           D ",
-            "lyrics": "É nos céus, é nos céus"
-          },
-          {
-            "chords": "                          G",
-            "lyrics": "Essa pátria de vida_e de_amor;"
-          },
-          {
-            "chords": "         G7      C ",
-            "lyrics": "Nela_está  nosso Deus "
-          },
-          {
-            "chords": "    G           D       G",
-            "lyrics": "E Jesus, nosso_amado Senhor."
-          }
+        "text": [
+          "É nos [G]céus, é nos [D]céus",
+          "Essa pátria de vida_e de_a[G]mor;",
+          "Nela_está[G7]  nosso [C]Deus ",
+          "E Je[G]sus, nosso_a[D]mado Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       G        C        G",
-            "lyrics": "A Deus Pai o louvor tributemos,"
-          },
-          {
-            "chords": "                      D ",
-            "lyrics": "E a Cristo, o Rei divinal,"
-          },
-          {
-            "chords": "      G       C       G",
-            "lyrics": "E, um dia, ao céu subiremos;"
-          },
-          {
-            "chords": "             D          G",
-            "lyrics": "Viveremos na glória_eternal."
-          }
+        "text": [
+          "A Deus [G]Pai o lou[C]vor tribu[G]temos,",
+          "E a Cristo, o Rei divi[D]nal,",
+          "E, um [G]dia, ao [C]céu subi[G]remos;",
+          "Viveremos na [D]glória_eter[G]nal."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      G        C         G",
-            "lyrics": "Ao Cordeiro de Deus cantaremos,"
-          },
-          {
-            "chords": "                        D ",
-            "lyrics": "Nessa pátria, divino louvor;"
-          },
-          {
-            "chords": "      G      C      G",
-            "lyrics": "Congregados ali estaremos"
-          },
-          {
-            "chords": "                D         G",
-            "lyrics": "Ante_o trono de Deus, Criador."
-          }
+        "text": [
+          "Ao Cor[G]deiro de [C]Deus canta[G]remos,",
+          "Nessa pátria, divino lou[D]vor;",
+          "Congre[G]gados a[C]li esta[G]remos",
+          "Ante_o trono de [D]Deus, Cria[G]dor."
         ]
       },
       {

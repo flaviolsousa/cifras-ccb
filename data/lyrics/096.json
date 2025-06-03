@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vinde, adoremos a Deus",
   "tone": {
     "recommended": "G"
@@ -9,103 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G         C  D      G",
-            "lyrics": "Vinde,_adore-mos a Deus,"
-          },
-          {
-            "chords": "          D         G    D",
-            "lyrics": "Santo_e sublime Rei dos céus;"
-          },
-          {
-            "chords": "G         D",
-            "lyrics": "Vinde com fé;"
-          },
-          {
-            "chords": "           G",
-            "lyrics": "O Deus que dá saber,"
-          },
-          {
-            "chords": "D         G    Em",
-            "lyrics": "Grandioso em poder,"
-          },
-          {
-            "chords": "       G  D   G",
-            "lyrics": "Que_em breve_iremos ver,"
-          },
-          {
-            "chords": "C   D     G",
-            "lyrics": "E - terno é."
-          }
+        "text": [
+          "[G]Vinde,_ado[C]re-[D]mos a D[G]eus,",
+          "Santo_e su[D]blime Rei [G]dos c[D]éus;",
+          "[G]Vinde com [D]fé;",
+          "O Deus que [G]dá saber,",
+          "[D]Grandioso [G]em po[Em]der,",
+          "Que_em [G]bre[D]ve_i[G]remos ver,",
+          "[C]E - [D]terno [G]é."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G        C   D     G",
-            "lyrics": "Vinde servir ao Senhor"
-          },
-          {
-            "chords": "           D       G  D",
-            "lyrics": "Que nos mandou o Redentor;"
-          },
-          {
-            "chords": "G        D",
-            "lyrics": "Cristo Jesus,"
-          },
-          {
-            "chords": "         G",
-            "lyrics": "Santo Pastor, veraz,"
-          },
-          {
-            "chords": "D         G      Em",
-            "lyrics": "Rei de justiça_e paz,"
-          },
-          {
-            "chords": "       G  D   G",
-            "lyrics": "Que_às nossas almas traz"
-          },
-          {
-            "chords": "C  D     G",
-            "lyrics": "Vi-da e luz."
-          }
+        "text": [
+          "[G]Vinde ser[C]vir [D]ao Sen[G]hor",
+          "Que nos man[D]dou o Re[G]den[D]tor;",
+          "[G]Cristo Je[D]sus,",
+          "Santo Pas[G]tor, veraz,",
+          "[D]Rei de jus[G]tiça_e [Em]paz,",
+          "Que_às [G]nos[D]sas [G]almas traz",
+          "[C]Vi-[D]da e l[G]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G          C  D      G",
-            "lyrics": "Deus, Pai eterno_e fiel,"
-          },
-          {
-            "chords": "         D        G    D",
-            "lyrics": "Vos fartará de leite_e mel"
-          },
-          {
-            "chords": "G     D",
-            "lyrics": "E vivereis"
-          },
-          {
-            "chords": "        G",
-            "lyrics": "Vida de paz com Deus,"
-          },
-          {
-            "chords": "D        G     Em",
-            "lyrics": "Com os remidos Seus"
-          },
-          {
-            "chords": "   G  D    G",
-            "lyrics": "E, juntos, lá nos céus"
-          },
-          {
-            "chords": "C   D    G",
-            "lyrics": "E - xultareis."
-          }
+        "text": [
+          "[G]Deus, Pai e[C]ter[D]no_e fi[G]el,",
+          "Vos farta[D]rá de lei[G]te_e [D]mel",
+          "[G]E vive[D]reis",
+          "Vida de [G]paz com Deus,",
+          "[D]Com os re[G]midos [Em]Seus",
+          "E, [G]jun[D]tos, [G]lá nos céus",
+          "[C]E - [D]xulta[G]reis."
         ]
       }
     ]

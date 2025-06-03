@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Forasteiro sou no mundo",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E            A",
-            "lyrics": "Forasteiro sou no mundo,"
-          },
-          {
-            "chords": "      E            B",
-            "lyrics": "Neste mundo de_ilusão;"
-          },
-          {
-            "chords": "        E           A",
-            "lyrics": "Para_o céu vou caminhando,"
-          },
-          {
-            "chords": "     B              E",
-            "lyrics": "Onde os fiéis entrarão."
-          }
+        "text": [
+          "Foras[E]teiro sou no [A]mundo,",
+          "Neste [E]mundo de_ilus[B]ão;",
+          "Para_o c[E]éu vou camin[A]hando,",
+          "Onde [B]os fiéis entrar[E]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Viverei com os fiéis"
-          },
-          {
-            "chords": "                   B",
-            "lyrics": "Para sempre lá nos céus,"
-          },
-          {
-            "chords": "         E          A",
-            "lyrics": "Pois, no número dos santos,"
-          },
-          {
-            "chords": "     B                E    E...",
-            "lyrics": "Eu serei contado por Deus."
-          }
+        "text": [
+          "Vive[E]rei com os fiéis",
+          "Para sempre lá nos [B]céus,",
+          "Pois, no [E]número dos [A]santos,",
+          "Eu se[B]rei contado por D[E]eus.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    E        A",
-            "lyrics": "Ansioso eu espero"
-          },
-          {
-            "chords": "      E          B",
-            "lyrics": "Ver a face do Senhor,"
-          },
-          {
-            "chords": "       E          A",
-            "lyrics": "Contemplar a formosura"
-          },
-          {
-            "chords": "     B             E",
-            "lyrics": "E a glória do Redentor."
-          }
+        "text": [
+          "Ansi[E]oso eu es[A]pero",
+          "Ver a [E]face do Sen[B]hor,",
+          "Contemp[E]lar a formo[A]sura",
+          "E a g[B]lória do Reden[E]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      E           A",
-            "lyrics": "Com a multidão cantando"
-          },
-          {
-            "chords": "     E           B",
-            "lyrics": "E louvando ao Senhor,"
-          },
-          {
-            "chords": "     E            A",
-            "lyrics": "Entrarei, com regozijo,"
-          },
-          {
-            "chords": "     B                  E",
-            "lyrics": "No celeste lar de_esplendor."
-          }
+        "text": [
+          "Com a [E]multidão can[A]tando",
+          "E lou[E]vando ao Sen[B]hor,",
+          "Entra[E]rei, com rego[A]zijo,",
+          "No ce[B]leste lar de_esplen[E]dor."
         ]
       },
       {

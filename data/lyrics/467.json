@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos com Jesus",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  E",
-            "lyrics": "Sigamos, com fervor, Jesus, o Salvador,"
-          },
-          {
-            "chords": "                                  B",
-            "lyrics": "Que por amor nos livrou da condenação;"
-          },
-          {
-            "chords": "  E",
-            "lyrics": "É Ele_o nosso Rei, nós somos Sua grei,"
-          },
-          {
-            "chords": "     C#m         E         B            E",
-            "lyrics": "Que_irá, no céu, receber o grande galardão."
-          }
+        "text": [
+          "Si[E]gamos, com fervor, Jesus, o Salvador,",
+          "Que por amor nos livrou da condena[B]ção;",
+          "É [E]Ele_o nosso Rei, nós somos Sua grei,",
+          "Que_i[C#m]rá, no céu, [E]receber o [B]grande galard[E]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                E",
-            "lyrics": "Vamos com Jesus, Ele nos conduz"
-          },
-          {
-            "chords": "F#7              B    B...",
-            "lyrics": "Ao Seu reino de amor;"
-          },
-          {
-            "chords": "    E",
-            "lyrics": "Marchemos com valor à pátria celestial,"
-          },
-          {
-            "chords": "  A         B                     E    E...",
-            "lyrics": "O nosso Rei nos dará a glória eternal."
-          }
+        "text": [
+          "[A]Vamos com Jesus, [E]Ele nos conduz",
+          "[F#7]Ao Seu reino de a[B]mor;[B...]",
+          "Marc[E]hemos com valor à pátria celestial,",
+          "O [A]nosso Rei [B]nos dará a glória eter[E]nal.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Oh! Vamos combater e, pela fé, vencer"
-          },
-          {
-            "chords": "                                    B",
-            "lyrics": "O tentador que os quer para_o mal levar;"
-          },
-          {
-            "chords": "  E",
-            "lyrics": "Sigamos ao Senhor com todo o fervor;"
-          },
-          {
-            "chords": "   C#m     E            B          E",
-            "lyrics": "Só Ele tem armas que os fazem triunfar."
-          }
+        "text": [
+          "Oh! [E]Vamos combater e, pela fé, vencer",
+          "O tentador que os quer para_o mal le[B]var;",
+          "Si[E]gamos ao Senhor com todo o fervor;",
+          "Só [C#m]Ele tem [E]armas que os [B]fazem triun[E]far."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   E",
-            "lyrics": "Mistérios celestiais, riquezas eternais,"
-          },
-          {
-            "chords": "                                   B",
-            "lyrics": "Jesus, o Rei, por amor nos desvendará;"
-          },
-          {
-            "chords": "  E",
-            "lyrics": "Felizes, pois, nos céus seremos junto_a Deus;"
-          },
-          {
-            "chords": "  C#m       E         B         E",
-            "lyrics": "Naquele lar nosso coração jubilará."
-          }
+        "text": [
+          "Mis[E]térios celestiais, riquezas eternais,",
+          "Jesus, o Rei, por amor nos desvenda[B]rá;",
+          "Fe[E]lizes, pois, nos céus seremos junto_a Deus;",
+          "Na[C#m]quele lar [E]nosso cora[B]ção jubila[E]rá."
         ]
       },
       {

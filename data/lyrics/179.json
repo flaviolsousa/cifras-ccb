@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Trabalhai! Trabalhai!",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E                      ",
-            "lyrics": "Trabalhemos, irmãos, somos servos de Deus,"
-          },
-          {
-            "chords": "     B                 E",
-            "lyrics": "As searas de Cristo já brancas estão;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Recebendo as forças que vêm lá dos céus,"
-          },
-          {
-            "chords": "      B       F#                 B ",
-            "lyrics": "Cumpriremos, alegres, a nossa missão."
-          }
+        "text": [
+          "Traba[E]lhemos, irmãos, somos servos de Deus,",
+          "As se[B]aras de Cristo já [E]brancas estão;",
+          "Recebendo as forças que vêm lá dos céus,",
+          "Cumpri[B]remos, a[F#]legres, a nossa mis[B]são."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     E          B ",
-            "lyrics": "Trabalhai, trabalhai,"
-          },
-          {
-            "chords": "    B7      E",
-            "lyrics": "Vigiai, vigiai"
-          },
-          {
-            "chords": "   E7         A     F#m ",
-            "lyrics": "E orai sem cessar,"
-          },
-          {
-            "chords": "     E       A      B7     E",
-            "lyrics": "Pois breve_o Mestre vai voltar."
-          }
+        "text": [
+          "Traba[E]lhai, traba[B]lhai,",
+          "Vigi[B7]ai, vigi[E]ai",
+          "E o[E7]rai sem ces[A]sar,[F#m]",
+          "Pois [E]breve_o [A]Mestre [B7]vai vol[E]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E",
-            "lyrics": "Trabalhemos, irmãos, com afinco e_amor,"
-          },
-          {
-            "chords": "    B                         E",
-            "lyrics": "Anunciando_aos famintos que_o Pão celestial"
-          },
-          {
-            "chords": "",
-            "lyrics": "É Jesus, a Palavra de vida_e vigor;"
-          },
-          {
-            "chords": "    B      F#                   B ",
-            "lyrics": "Ela nos alimenta_e nos livra do mal."
-          }
+        "text": [
+          "Traba[E]lhemos, irmãos, com afinco e_amor,",
+          "Anun[B]ciando_aos famintos que_o [E]Pão celestial",
+          "É Jesus, a Palavra de vida_e vigor;",
+          "Ela [B]nos ali[F#]menta_e nos livra do [B]mal."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     E",
-            "lyrics": "Trabalhemos, irmãos, pois ungiu-nos o Pai"
-          },
-          {
-            "chords": "       B                    E",
-            "lyrics": "Para_a graça de Cristo, por fé, propagar;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Os talentos, o Mestre nos diz: “Granjeai”."
-          },
-          {
-            "chords": "        B         F#               B ",
-            "lyrics": "Sobre_o muito, no céu, nos irá colocar."
-          }
+        "text": [
+          "Traba[E]lhemos, irmãos, pois ungiu-nos o Pai",
+          "Para_a [B]graça de Cristo, por [E]fé, propagar;",
+          "Os talentos, o Mestre nos diz: “Granjeai”.",
+          "Sobre_o [B]muito, no [F#]céu, nos irá colo[B]car."
         ]
       },
       {

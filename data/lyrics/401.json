@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Revela Teu querer",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  C                 F ",
-            "lyrics": "Revela, Criador, ao nosso coração,"
-          },
-          {
-            "chords": "  C                   Am  D7    G ",
-            "lyrics": "O santo Teu querer, a Tua intenção;"
-          },
-          {
-            "chords": "  C                  F  ",
-            "lyrics": "Riquezas perenais de divinal fulgor,"
-          },
-          {
-            "chords": "   C    G7      C",
-            "lyrics": "Concede-nos, Senhor."
-          }
+        "text": [
+          "Re[C]vela, Criador, ao [F]nosso coração,",
+          "O [C]santo Teu querer, a [Am]Tua [D7]intenç[G]ão;",
+          "Ri[C]quezas perenais de [F]divinal fulgor,",
+          "Con[C]cede-[G7]nos, Sen[C]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  C                  F ",
-            "lyrics": "Revela, ó bom Pai, rogamos com fervor,"
-          },
-          {
-            "chords": "      C                   Am     D7  G ",
-            "lyrics": "Teus planos eternais, por Teu Consolador."
-          },
-          {
-            "chords": "   C                    F ",
-            "lyrics": "Precioso, para nós, é_o santo Teu saber"
-          },
-          {
-            "chords": "    C     G7    C",
-            "lyrics": "Que nos fará vencer."
-          }
+        "text": [
+          "Re[C]vela, ó bom Pai, ro[F]gamos com fervor,",
+          "Teus p[C]lanos eternais, por [Am]Teu Con[D7]sola[G]dor.",
+          "Pre[C]cioso, para nós, é_o [F]santo Teu saber",
+          "Que [C]nos fa[G7]rá ven[C]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    C                    F ",
-            "lyrics": "Oh! Faze-nos crescer na_imagem de Jesus;"
-          },
-          {
-            "chords": "   C                  Am    D7    G ",
-            "lyrics": "Queremos prosperar na graça e na luz."
-          },
-          {
-            "chords": "   C                   F ",
-            "lyrics": "Desvenda, ó Senhor, mistérios lá dos céus"
-          },
-          {
-            "chords": "  C    G7      C",
-            "lyrics": "E pensamentos Teus."
-          }
+        "text": [
+          "Oh! [C]Faze-nos crescer na_i[F]magem de Jesus;",
+          "Que[C]remos prosperar na [Am]graça [D7]e na l[G]uz.",
+          "Des[C]venda, ó Senhor, mis[F]térios lá dos céus",
+          "E [C]pensa[G7]mentos T[C]eus."
         ]
       },
       {

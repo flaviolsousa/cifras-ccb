@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó irmãos, de Deus diletos",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    D",
-            "lyrics": "Ó irmãos, de Deus diletos,"
-          },
-          {
-            "chords": "      A             D",
-            "lyrics": "Fomos já por graça_eleitos;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Cristo nos fará perfeitos"
-          },
-          {
-            "chords": "        A           D",
-            "lyrics": "Se_O servirmos pela fé."
-          }
+        "text": [
+          "Ó ir[D]mãos, de Deus diletos,",
+          "Fomos [A]já por graça_e[D]leitos;",
+          "Cristo nos fará perfeitos",
+          "Se_O ser[A]virmos pela [D]fé."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        G                D",
-            "lyrics": "A nosso Deus cantemos louvor,"
-          },
-          {
-            "chords": "         A               D",
-            "lyrics": "Por Seu amor, por Sua mercê;"
-          },
-          {
-            "chords": "         G              D",
-            "lyrics": "Vamos servir ao bom Criador"
-          },
-          {
-            "chords": "      G      A      D",
-            "lyrics": "E_a Jesus, Autor da fé."
-          }
+        "text": [
+          "A nosso [G]Deus cantemos lou[D]vor,",
+          "Por Seu a[A]mor, por Sua mer[D]cê;",
+          "Vamos ser[G]vir ao bom Cria[D]dor",
+          "E_a Je[G]sus, Au[A]tor da [D]fé."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      D",
-            "lyrics": "Nosso Deus nos tem amado"
-          },
-          {
-            "chords": "      A          D",
-            "lyrics": "E nos tem justificado"
-          },
-          {
-            "chords": "",
-            "lyrics": "Por Jesus, o Consagrado,"
-          },
-          {
-            "chords": "     A         D",
-            "lyrics": "O Cordeiro remidor."
-          }
+        "text": [
+          "Nosso [D]Deus nos tem amado",
+          "E nos [A]tem justifi[D]cado",
+          "Por Jesus, o Consagrado,",
+          "O Cor[A]deiro remi[D]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        D",
-            "lyrics": "Deus, o Pai, regenerou-nos,"
-          },
-          {
-            "chords": "     A           D",
-            "lyrics": "Em Jesus predestinou-nos;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Seu Espírito_enviou-nos,"
-          },
-          {
-            "chords": "        A           D",
-            "lyrics": "Para_a_eterna redenção."
-          }
+        "text": [
+          "Deus, o [D]Pai, regenerou-nos,",
+          "Em Je[A]sus predesti[D]nou-nos;",
+          "Seu Espírito_enviou-nos,",
+          "Para_a_e[A]terna redenç[D]ão."
         ]
       },
       {

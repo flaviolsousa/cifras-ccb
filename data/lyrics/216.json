@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Irmãos, amemos ao Senhor",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  D          ",
-            "lyrics": "Irmãos, amemos ao Senhor,"
-          },
-          {
-            "chords": "      A            D",
-            "lyrics": "Pois grande é Seu amor;"
-          },
-          {
-            "chords": "                    G",
-            "lyrics": "Seu precioso sangue derramou"
-          },
-          {
-            "chords": "  A              D",
-            "lyrics": "E nossas almas lavou."
-          }
+        "text": [
+          "Ir[D]mãos, amemos ao Senhor,",
+          "Pois g[A]rande é Seu a[D]mor;",
+          "Seu precioso sangue [G]derramou",
+          "E [A]nossas almas la[D]vou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    A7           D",
-            "lyrics": "Com toda_a nossa devoção,"
-          },
-          {
-            "chords": "    E                 A    A...",
-            "lyrics": "Com toda_a força_e fervor,"
-          },
-          {
-            "chords": "    D               G",
-            "lyrics": "Com toda_a alma e_entendimento,"
-          },
-          {
-            "chords": " A           D    D...",
-            "lyrics": "Amemos ao Senhor."
-          }
+        "text": [
+          "Com [A7]toda_a nossa [D]devoção,",
+          "Com [E]toda_a força_e fer[A]vor,[A...]",
+          "Com [D]toda_a alma e_en[G]tendimento,",
+          "A[A]memos ao Sen[D]hor.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  D",
-            "lyrics": "Irmãos, amemos ao Senhor,"
-          },
-          {
-            "chords": "  A          D",
-            "lyrics": "Divino Ensinador,"
-          },
-          {
-            "chords": "                 G",
-            "lyrics": "A perfeita Fonte do saber,"
-          },
-          {
-            "chords": "    A                D",
-            "lyrics": "Que faz na graça crescer."
-          }
+        "text": [
+          "Ir[D]mãos, amemos ao Senhor,",
+          "Di[A]vino Ensina[D]dor,",
+          "A perfeita Fonte [G]do saber,",
+          "Que [A]faz na graça cres[D]cer."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  D",
-            "lyrics": "Irmãos, amemos ao Senhor,"
-          },
-          {
-            "chords": "  A            D",
-            "lyrics": "Autor e Consumador"
-          },
-          {
-            "chords": "                   G",
-            "lyrics": "Desta fé, que dá a salvação"
-          },
-          {
-            "chords": "  A              D",
-            "lyrics": "E celestial galardão."
-          }
+        "text": [
+          "Ir[D]mãos, amemos ao Senhor,",
+          "Au[A]tor e Consuma[D]dor",
+          "Desta fé, que dá a [G]salvação",
+          "E [A]celestial galar[D]dão."
         ]
       },
       {

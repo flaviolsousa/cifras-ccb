@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Um grande bem, precioso bem",
   "tone": {
     "recommended": "G"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "           G                        D         G",
-            "lyrics": "Um grande bem, precioso bem, eu recebi do Criador"
-          },
-          {
-            "chords": "                                    D           G",
-            "lyrics": "Que me chamou e revelou, por compaixão, o Redentor;"
-          },
-          {
-            "chords": "                                 D            G",
-            "lyrics": "O Seu querer eu compreendi e pecador eu me senti;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Meu coração se quebrantou, todo_o meu ser se transformou;"
-          },
-          {
-            "chords": "                                        D           G",
-            "lyrics": "Eu sou feliz, bendigo_a Deus; com salvação me_agraciou."
-          }
+        "text": [
+          "Um grande b[G]em, precioso bem, eu rece[D]bi do Cria[G]dor",
+          "Que me chamou e revelou, por compaix[D]ão, o Redent[G]or;",
+          "O Seu querer eu compreendi e peca[D]dor eu me sen[G]ti;",
+          "Meu coração se quebrantou, todo_o meu ser se transformou;",
+          "Eu sou feliz, bendigo_a Deus; com salvaç[D]ão me_agraci[G]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "            G                             D            G",
-            "lyrics": "Que grande bem, precioso bem! Eu sirvo_a Deus, o Formador,"
-          },
-          {
-            "chords": "                                D           G",
-            "lyrics": "Que para Si me separou; remido sou do Salvador;"
-          },
-          {
-            "chords": "                               D             G",
-            "lyrics": "Purificou meu coração, me concedeu o Seu perdão;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Até o fim do meu viver, Seu santo_amor anunciarei;"
-          },
-          {
-            "chords": "                                   D            G",
-            "lyrics": "Com a unção do Criador, de todo_o mal me_afastarei."
-          }
+        "text": [
+          "Que grande b[G]em, precioso bem! Eu sirvo_a D[D]eus, o Formad[G]or,",
+          "Que para Si me separou; remido s[D]ou do Salvad[G]or;",
+          "Purificou meu coração, me conce[D]deu o Seu perd[G]ão;",
+          "Até o fim do meu viver, Seu santo_amor anunciarei;",
+          "Com a unção do Criador, de todo_o m[D]al me_afastar[G]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "          G                          D                G",
-            "lyrics": "É grande bem, precioso bem, viver na fé, ter paz com Deus,"
-          },
-          {
-            "chords": "                                   D             G",
-            "lyrics": "Participar, com os fiéis, dos eternais tesouros Seus;"
-          },
-          {
-            "chords": "                                        D                   G",
-            "lyrics": "Sou mui feliz, pois alcancei lugar nos céus, por Cristo,_o Rei;"
-          },
-          {
-            "chords": "",
-            "lyrics": "A Deus, o Pai, e a Jesus exaltarei com todo_o_amor;"
-          },
-          {
-            "chords": "                                 D           G",
-            "lyrics": "O galardão receberei das santas mãos do Redentor."
-          }
+        "text": [
+          "É grande b[G]em, precioso bem, viver na [D]fé, ter paz com D[G]eus,",
+          "Participar, com os fiéis, dos etern[D]ais tesouros S[G]eus;",
+          "Sou mui feliz, pois alcancei lugar nos c[D]éus, por Cristo,_o R[G]ei;",
+          "A Deus, o Pai, e a Jesus exaltarei com todo_o_amor;",
+          "O galardão receberei das santas m[D]ãos do Reden[G]tor."
         ]
       }
     ]

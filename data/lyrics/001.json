@@ -1,10 +1,9 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo, meu Mestre...",
   "level": 2,
   "tone": {
     "original": "Eb",
-    "recommended": "E",
     "selected": "D"
   },
   "rhythm": "Canção",
@@ -14,105 +13,45 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D           A      G        D",
-            "lyrics": "Cristo, meu Mestre e meu Senhor,"
-          },
-          {
-            "chords": "G      D         E7          A",
-            "lyrics": "Eu Te adoro, por fé, com fervor;"
-          },
-          {
-            "chords": "D        A        G      A",
-            "lyrics": "Rogo que guardes meu coração;"
-          },
-          {
-            "chords": "G        D         A      D ",
-            "lyrics": "Vem protege-lo com Tua unção"
-          },
-          {
-            "chords": "G      D         A7     D",
-            "lyrics": "E defendê-lo, ó meu Guardião."
-          }
+        "text": [
+          "[D]Cristo, meu [A]Mestre [G]e meu Sen[D]hor,",
+          "[G]Eu Te a[D]doro, por [E7]fé, com ferv[A]or;",
+          "[D]Rogo que [A]guardes m[G]eu cora[A]ção;",
+          "[G]Vem prote[D]ge-lo com [A]Tua unç[D]ão",
+          "[G]E defen[D]dê-lo, ó m[A7]eu Guar[D]dião."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D      A       G         D",
-            "lyrics": "Mestre divino, sempre senti"
-          },
-          {
-            "chords": " G       D       E7       A",
-            "lyrics": "Meu coração dependente de Ti;"
-          },
-          {
-            "chords": " D       A     G         A",
-            "lyrics": "Bom fundamento dá-lhe, Senhor,"
-          },
-          {
-            "chords": "G         D        A       D",
-            "lyrics": "Dá-lhe firmeza, virtude, valor"
-          },
-          {
-            "chords": "G      D       A7       D",
-            "lyrics": "E fortaleza, ó meu Protetor."
-          }
+        "text": [
+          "[D]Mestre [A]divino, [G]sempre sen[D]ti",
+          "M[G]eu coraç[D]ão depen[E7]dente de [A]Ti;",
+          "B[D]om funda[A]mento [G]dá-lhe, Se[A]nhor,",
+          "[G]Dá-lhe fir[D]meza, vir[A]tude, va[D]lor",
+          "[G]E forta[D]leza, ó [A7]meu Prote[D]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D       A       G       D",
-            "lyrics": "Vale profundo, cheio de mal,"
-          },
-          {
-            "chords": "G       D       E7      A",
-            "lyrics": "É este mundo, ó Rei divinal."
-          },
-          {
-            "chords": "D      A     G       A",
-            "lyrics": "Só Tua força pode manter"
-          },
-          {
-            "chords": " G      D        A          D",
-            "lyrics": "Santo e puro, na graça, meu ser,"
-          },
-          {
-            "chords": " G       D         A7     D",
-            "lyrics": "Sempre seguro, com fé e poder."
-          }
+        "text": [
+          "[D]Vale pro[A]fundo, c[G]heio de [D]mal,",
+          "[G]É este m[D]undo, ó [E7]Rei divi[A]nal.",
+          "[D]Só Tua [A]força [G]pode man[A]ter",
+          "S[G]anto e [D]puro, na [A]graça, meu [D]ser,",
+          "S[G]empre se[D]guro, com [A7]fé e po[D]der."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " D        A      G       D",
-            "lyrics": "Mestre piedoso, com Tua mão,"
-          },
-          {
-            "chords": "G       D       E7      A",
-            "lyrics": "Faze perfeito o meu coração,"
-          },
-          {
-            "chords": " D         A    G        A",
-            "lyrics": "Santo, ardoroso em Te servir,"
-          },
-          {
-            "chords": " G        D        A          D",
-            "lyrics": "Sempre voltado aos bens do porvir;"
-          },
-          {
-            "chords": " G      D       A7        D",
-            "lyrics": "Mestre amado, desejo Te ouvir."
-          }
+        "text": [
+          "M[D]estre pie[A]doso, c[G]om Tua m[D]ão,",
+          "[G]Faze per[D]feito o [E7]meu cora[A]ção,",
+          "S[D]anto, ardo[A]roso [G]em Te ser[A]vir,",
+          "S[G]empre vol[D]tado aos [A]bens do por[D]vir;",
+          "M[G]estre a[D]mado, de[A7]sejo Te ou[D]vir."
         ]
       }
     ]

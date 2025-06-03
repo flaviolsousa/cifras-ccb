@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Majestoso é Cristo Jesus!",
   "tone": {
     "recommended": "B"
@@ -9,23 +9,11 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     B                E",
-            "lyrics": "Majestoso é Cristo Jesus, o Senhor,"
-          },
-          {
-            "chords": "     F#7              B",
-            "lyrics": "Majestoso é Cristo Jesus;"
-          },
-          {
-            "chords": "                              E",
-            "lyrics": "O poder Deus Lhe deu, quer na terra, quer no céu,"
-          },
-          {
-            "chords": "     F#7              B",
-            "lyrics": "Majestoso é Cristo Jesus!"
-          }
+        "text": [
+          "Majes[B]toso é Cristo Jes[E]us, o Senhor,",
+          "Majes[F#7]toso é Cristo Jes[B]us;",
+          "O poder Deus Lhe deu, quer na [E]terra, quer no céu,",
+          "Majes[F#7]toso é Cristo Jes[B]us!"
         ]
       }
     ]

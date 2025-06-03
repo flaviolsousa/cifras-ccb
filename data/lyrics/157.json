@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ouve a voz que te convida...",
   "tone": {
     "recommended": "A"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A               D  A       E7       A",
-            "lyrics": "Vendo Deus que, neste mundo, o pecado imperou,"
-          },
-          {
-            "chords": "E7   A           D     A         E7        A",
-            "lyrics": "Por amor santo_e profundo, a Seu Filho enviou"
-          },
-          {
-            "chords": "     E7         A               F#m ",
-            "lyrics": "Para vencer o pecado e nos libertar."
-          },
-          {
-            "chords": "E7    A                                        D  A",
-            "lyrics": "Tu também podes ser salvo, por Jesus podes ser salvo;"
-          },
-          {
-            "chords": "      D          A           E7            A",
-            "lyrics": "Vai a Ele sem tardar, vai ao Mestre sem tardar."
-          }
+        "text": [
+          "Vendo [A]Deus que, neste [D]mun[A]do, o pe[E7]cado impe[A]rou,",
+          "[E7]Por a[A]mor santo_e [D]profun[A]do, a Seu [E7]Filho envi[A]ou",
+          "Para [E7]vencer o pe[A]cado e nos liber[F#m]tar.",
+          "[E7]Tu tam[A]bém podes ser salvo, por Jesus podes ser [D]sal[A]vo;",
+          "Vai a [D]Ele sem tar[A]dar, vai ao [E7]Mestre sem tar[A]dar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A            D    A          E7           A",
-            "lyrics": "Da prisão do teu peca - do, Cristo quer te libertar;"
-          },
-          {
-            "chords": "E7  A          D    A       E7       A",
-            "lyrics": "Ele foi crucifica - do para te regenerar."
-          },
-          {
-            "chords": "         E7        A                  F#m ",
-            "lyrics": "Crê em Jesus, o Cordeiro, que te salvará."
-          },
-          {
-            "chords": "E7    A                                      D    A",
-            "lyrics": "Servo és do teu pecado, morto_estás no teu peca - do;"
-          },
-          {
-            "chords": "      D           A         E7         A",
-            "lyrics": "Crê somente_e viverás, para Cristo viverás."
-          }
+        "text": [
+          "Da pri[A]são do teu pe[D]ca - [A]do, Cristo [E7]quer te liber[A]tar;",
+          "[E7]Ele [A]foi crucifi[D]ca - [A]do para [E7]te regene[A]rar.",
+          "Crê em Je[E7]sus, o Cor[A]deiro, que te salva[F#m]rá.",
+          "[E7]Servo [A]és do teu pecado, morto_estás no teu pe[D]ca - [A]do;",
+          "Crê so[D]mente_e vive[A]rás, para [E7]Cristo vive[A]rás."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A             D    A        E7            A",
-            "lyrics": "Ouve_a voz que te convi - da, dá ouvidos ao teu Deus,"
-          },
-          {
-            "chords": "E7  A          D    A           E7             A",
-            "lyrics": "E terás a nova vi - da que, por graça, têm os Seus;"
-          },
-          {
-            "chords": "          E7        A                 F#m ",
-            "lyrics": "Quer-te remir Jesus Cristo e te dar a paz;"
-          },
-          {
-            "chords": "E7   A                                       D  A",
-            "lyrics": "E ao fim, na Sua glória, no_esplendor da Sua glória,"
-          },
-          {
-            "chords": "      D            A         E7         A",
-            "lyrics": "Vida_eterna_alcançarás, galardão alcançarás."
-          }
+        "text": [
+          "Ouve_a [A]voz que te con[D]vi - [A]da, dá ou[E7]vidos ao teu D[A]eus,",
+          "[E7]E te[A]rás a nova [D]vi - [A]da que, por [E7]graça, têm os S[A]eus;",
+          "Quer-te re[E7]mir Jesus [A]Cristo e te dar a [F#m]paz;",
+          "[E7]E ao [A]fim, na Sua glória, no_esplendor da Sua [D]gló[A]ria,",
+          "Vida_e[D]terna_alcança[A]rás, galar[E7]dão alcança[A]rás."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O fim de tudo chegará",
   "tone": {
     "recommended": "F"
@@ -9,91 +9,37 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   F                     Gm  C   F",
-            "lyrics": "O fim de tudo chegará, ouvi, pecadores,"
-          },
-          {
-            "chords": "                         Gm    C    F",
-            "lyrics": "Só Cristo vos perdoará e vida vos dará;"
-          },
-          {
-            "chords": "                          Gm  C        F",
-            "lyrics": "O fim está bem perto, bem per-to, bem perto,"
-          },
-          {
-            "chords": "                         Gm        C       F",
-            "lyrics": "Fazei então concerto com Quem vos quer salvar;"
-          },
-          {
-            "chords": "     C         F       C              F",
-            "lyrics": "Ó vinde, contritos, depressa, sem tardar,"
-          },
-          {
-            "chords": "      C       F         Gm      C        F",
-            "lyrics": "A Cristo piedoso, que a glória vos quer dar."
-          }
+        "text": [
+          "O f[F]im de tudo chegará, ou[Gm]vi, [C]peca[F]dores,",
+          "Só Cristo vos perdoará e [Gm]vida v[C]os da[F]rá;",
+          "O fim está bem perto, bem [Gm]per-[C]to, bem p[F]erto,",
+          "Fazei então concerto com [Gm]Quem vos q[C]uer salv[F]ar;",
+          "Ó vin[C]de, contri[F]tos, dep[C]ressa, sem tard[F]ar,",
+          "A Cris[C]to piedo[F]so, que a [Gm]glória v[C]os quer d[F]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  F                        Gm  C        F",
-            "lyrics": "Arrependei-vos e aceitai a Cristo, o Cordeiro;"
-          },
-          {
-            "chords": "                              Gm    C     F",
-            "lyrics": "A Ele as culpas confessai e o mundo rejeitai;"
-          },
-          {
-            "chords": "                             Gm     C       F",
-            "lyrics": "Não desprezeis a sorte, pois grande é essa sorte"
-          },
-          {
-            "chords": "                       Gm   C       F",
-            "lyrics": "Que livrará da morte e do eterno ardor;"
-          },
-          {
-            "chords": "    C        F       C            F",
-            "lyrics": "Da ira vindoura vos livra o redentor;"
-          },
-          {
-            "chords": "      C       F    Gm         C    F",
-            "lyrics": "Perfeito refúgio é Cristo, o Salvador."
-          }
+        "text": [
+          "Ar[F]rependei-vos e aceitai a [Gm]Cris[C]to, o Cor[F]deiro;",
+          "A Ele as culpas confessai e o [Gm]mundo [C]rejeit[F]ai;",
+          "Não desprezeis a sorte, pois [Gm]grande [C]é essa s[F]orte",
+          "Que livrará da morte e [Gm]do et[C]erno ard[F]or;",
+          "Da i[C]ra vindou[F]ra vos l[C]ivra o redent[F]or;",
+          "Perfei[C]to refúg[F]io é [Gm]Cristo, o S[C]alvad[F]or."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   F                       Gm   C      F",
-            "lyrics": "Ó vinde já vos entregar, Jesus vos convida"
-          },
-          {
-            "chords": "                             Gm     C     F",
-            "lyrics": "E quer a Deus vos adotar, também herança dar;"
-          },
-          {
-            "chords": "                      Gm   C    F",
-            "lyrics": "É grande Seu afeto, divi - no afeto,"
-          },
-          {
-            "chords": "                          Gm    C     F",
-            "lyrics": "É o Seu amor, perfeito, potente a salvar;"
-          },
-          {
-            "chords": "     C         F       C             F",
-            "lyrics": "Ó vinde, depressa, as bênçãos desfrutar,"
-          },
-          {
-            "chords": "        C      F   Gm       C      F",
-            "lyrics": "Com glória eterna ireis no céu reinar."
-          }
+        "text": [
+          "Ó v[F]inde já vos entregar, Je[Gm]sus v[C]os conv[F]ida",
+          "E quer a Deus vos adotar, tam[Gm]bém her[C]ança d[F]ar;",
+          "É grande Seu afeto, di[Gm]vi - [C]no af[F]eto,",
+          "É o Seu amor, perfeito, po[Gm]tente [C]a salv[F]ar;",
+          "Ó vin[C]de, depres[F]sa, as b[C]ênçãos desfrut[F]ar,",
+          "Com glór[C]ia eter[F]na i[Gm]reis no c[C]éu rein[F]ar."
         ]
       }
     ]

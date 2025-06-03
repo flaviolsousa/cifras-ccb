@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Clama ao Mestre, Cristo Jesus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B            E        B",
-            "lyrics": "Quando te sentires abatido,"
-          },
-          {
-            "chords": "F#7               B",
-            "lyrics": "Cristo te_estende a Sua mão;"
-          },
-          {
-            "chords": "                E           B",
-            "lyrics": "Ele_é_o santo_e verdadeiro_Amigo,"
-          },
-          {
-            "chords": "F#7            B",
-            "lyrics": "Ele_é a tua Porção."
-          }
+        "text": [
+          "[B]Quando te sen[E]tires aba[B]tido,",
+          "[F#7]Cristo te_estende [B]a Sua mão;",
+          "Ele_é_o santo_e [E]verdadeiro_A[B]migo,",
+          "[F#7]Ele_é a tua Por[B]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F#7              B",
-            "lyrics": "Clama ao Mestre, Cristo Jesus;"
-          },
-          {
-            "chords": "E         B        F#7 ",
-            "lyrics": "D´Ele_o poder sentirás;"
-          },
-          {
-            "chords": "B           E                B",
-            "lyrics": "Ele disse: “Eis que_estou convosco”;"
-          },
-          {
-            "chords": "F#7                 B",
-            "lyrics": "Cristo é Quem te conduz."
-          }
+        "text": [
+          "[F#7]Clama ao Mestre, [B]Cristo Jesus;",
+          "[E]D´Ele_o po[B]der senti[F#7]rás;",
+          "[B]Ele disse: “[E]Eis que_estou con[B]vosco”;",
+          "[F#7]Cristo é Quem te con[B]duz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B          E           B",
-            "lyrics": "Quando estiveres perturbado,"
-          },
-          {
-            "chords": "F#7             B",
-            "lyrics": "Busca de Cristo paz e vigor;"
-          },
-          {
-            "chords": "            E        B",
-            "lyrics": "Não te deixará desanimado"
-          },
-          {
-            "chords": "F#7             B",
-            "lyrics": "O teu fiel Salvador."
-          }
+        "text": [
+          "[B]Quando esti[E]veres pertur[B]bado,",
+          "[F#7]Busca de Cristo [B]paz e vigor;",
+          "Não te deixa[E]rá desani[B]mado",
+          "[F#7]O teu fiel Salva[B]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B           E          B",
-            "lyrics": "Vindo sobre ti ardente prova,"
-          },
-          {
-            "chords": "F#7          B",
-            "lyrics": "Bate à porta do Criador"
-          },
-          {
-            "chords": "                    E           B",
-            "lyrics": "Que, por Cristo,_as forças te renova"
-          },
-          {
-            "chords": "F#7            B",
-            "lyrics": "E te fará vencedor."
-          }
+        "text": [
+          "[B]Vindo sobre [E]ti ardente [B]prova,",
+          "[F#7]Bate à porta [B]do Criador",
+          "Que, por Cristo,_as [E]forças te re[B]nova",
+          "[F#7]E te fará vence[B]dor."
         ]
       },
       {

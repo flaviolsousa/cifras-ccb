@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Pai nosso, que estás nos céus",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A       D             A",
-            "lyrics": "Ó Pai nosso, que estás nos céus,"
-          },
-          {
-            "chords": "    E         A",
-            "lyrics": "Infinito em poder,"
-          },
-          {
-            "chords": "            D               A",
-            "lyrics": "Santo é Teu Nome,_ó grande Deus,"
-          },
-          {
-            "chords": "      B7           E",
-            "lyrics": "Sem limite_é Teu saber."
-          }
+        "text": [
+          "Ó Pai [A]nosso, q[D]ue estás nos c[A]éus,",
+          "Infi[E]nito em po[A]der,",
+          "Santo é Teu [D]Nome,_ó grande D[A]eus,",
+          "Sem li[B7]mite_é Teu sa[E]ber."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "         A       D      A",
-            "lyrics": "Glória, glória, glória eterna"
-          },
-          {
-            "chords": "                            E",
-            "lyrics": "Te daremos, ó Deus, Pai de_amor!"
-          },
-          {
-            "chords": "        A      A7    D           A",
-            "lyrics": "Pois herdeiros nos fizeste, ó Senhor,"
-          },
-          {
-            "chords": "       E              A",
-            "lyrics": "Do Teu reino de_esplendor."
-          }
+        "text": [
+          "Glória, g[A]lória, g[D]lória e[A]terna",
+          "Te daremos, ó Deus, Pai de_a[E]mor!",
+          "Pois her[A]deiros [A7]nos fi[D]zeste, ó Sen[A]hor,",
+          "Do Teu [E]reino de_esplen[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         A      D                A",
-            "lyrics": "Venha_a nós Teu reino,_ó grande Deus,"
-          },
-          {
-            "chords": "     E              A",
-            "lyrics": "Seja feito_o Teu querer"
-          },
-          {
-            "chords": "             D           A",
-            "lyrics": "Nesta terra, como é nos céus,"
-          },
-          {
-            "chords": "      B7          E",
-            "lyrics": "Pelo_imenso Teu poder."
-          }
+        "text": [
+          "Venha_a n[A]ós Teu [D]reino,_ó grande D[A]eus,",
+          "Seja [E]feito_o Teu que[A]rer",
+          "Nesta terra, [D]como é nos c[A]éus,",
+          "Pelo_i[B7]menso Teu po[E]der."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      A  D             A",
-            "lyrics": "Cada dia dá-nos nosso pão"
-          },
-          {
-            "chords": "     E          A",
-            "lyrics": "E perdoa nosso mal;"
-          },
-          {
-            "chords": "           D           A",
-            "lyrics": "Ofendidos, damos o perdão"
-          },
-          {
-            "chords": "      B7          E",
-            "lyrics": "Com carinho fraternal."
-          }
+        "text": [
+          "Cada d[A]ia [D]dá-nos nosso p[A]ão",
+          "E per[E]doa nosso m[A]al;",
+          "Ofendidos, [D]damos o perd[A]ão",
+          "Com ca[B7]rinho frater[E]nal."
         ]
       },
       {
@@ -104,23 +56,11 @@
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "     A       D             A",
-            "lyrics": "Ó Senhor, preserva-nos do mal"
-          },
-          {
-            "chords": "     E           A",
-            "lyrics": "E da tentação também,"
-          },
-          {
-            "chords": "             D         A",
-            "lyrics": "Pois é Teu o reino eternal,"
-          },
-          {
-            "chords": "       B7        E",
-            "lyrics": "Glória e poder. Amém!"
-          }
+        "text": [
+          "Ó Sen[A]hor, pre[D]serva-nos do m[A]al",
+          "E da [E]tentação tam[A]bém,",
+          "Pois é Teu o [D]reino eter[A]nal,",
+          "Glória [B7]e poder. A[E]mém!"
         ]
       },
       {

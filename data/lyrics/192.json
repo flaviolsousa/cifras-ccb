@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Quão fiel promessa Jesus nos fez",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A          ",
-            "lyrics": "Jesus, o Senhor, preparou"
-          },
-          {
-            "chords": "    D                  A",
-            "lyrics": "O lugar aos filhos de Deus;"
-          },
-          {
-            "chords": "    E              A",
-            "lyrics": "No eterno lar onde Ele entrou"
-          },
-          {
-            "chords": "  B7           E      E... ",
-            "lyrics": "Fará entrar os santos Seus."
-          }
+        "text": [
+          "Jes[A]us, o Senhor, preparou",
+          "O lu[D]gar aos filhos de D[A]eus;",
+          "No e[E]terno lar onde [A]Ele entrou",
+          "Fa[B7]rá entrar os [E]santos [E...]Seus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E...   A             E ",
-            "lyrics": "Quão fiel promessa Jesus nos fez:"
-          },
-          {
-            "chords": "                     A",
-            "lyrics": "“Convosco sempre_estarei!”;"
-          },
-          {
-            "chords": "              C#7      F#m  D... ",
-            "lyrics": "Brevemente_em nuvens retornará"
-          },
-          {
-            "chords": "  A     E      A",
-            "lyrics": "O nosso grande Rei."
-          }
+        "text": [
+          "[E...]Quão fi[A]el promessa Je[E]sus nos fez:",
+          "“Convosco sempre_esta[A]rei!”;",
+          "Brevemente_em [C#7]nuvens re[F#m]torna[D...]rá",
+          "O [A]nosso [E]grande [A]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  A",
-            "lyrics": "Jesus, órfãos não nos deixou;"
-          },
-          {
-            "chords": "    D           A",
-            "lyrics": "Enviou o Consolador;"
-          },
-          {
-            "chords": "     E                A",
-            "lyrics": "Por imenso_amor, nos abençoou"
-          },
-          {
-            "chords": "    B7          E       E... ",
-            "lyrics": "Com vida_eterna e_esplendor."
-          }
+        "text": [
+          "Je[A]sus, órfãos não nos deixou;",
+          "Envi[D]ou o Consola[A]dor;",
+          "Por i[E]menso_amor, nos a[A]bençoou",
+          "Com [B7]vida_eterna [E]e_esplen[E...]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Quão doce_é saber que Jesus"
-          },
-          {
-            "chords": "        D             A",
-            "lyrics": "Nos deu fé a fim de andar"
-          },
-          {
-            "chords": "     E            A",
-            "lyrics": "Pela Sua senda de paz e luz,"
-          },
-          {
-            "chords": " B7         E      E... ",
-            "lyrics": "Até o breve Seu voltar."
-          }
+        "text": [
+          "Quão [A]doce_é saber que Jesus",
+          "Nos deu [D]fé a fim de an[A]dar",
+          "Pela [E]Sua senda de [A]paz e luz,",
+          "A[B7]té o breve [E]Seu vol[E...]tar."
         ]
       },
       {

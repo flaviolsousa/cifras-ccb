@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Mui breve virá, mui breve virá",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                             A ",
-            "lyrics": "Breve virá Jesus Cristo,_o Cordeiro;"
-          },
-          {
-            "chords": "                D   ",
-            "lyrics": "Premiará com o Seu galardão"
-          },
-          {
-            "chords": "                 G     D",
-            "lyrics": "Todo_o fiel e sincero obreiro"
-          },
-          {
-            "chords": "E                          A... ",
-            "lyrics": "Que Lhe consagra o seu coração."
-          }
+        "text": [
+          "[D]Breve virá Jesus Cristo,_o Cor[A]deiro;",
+          "Premiará com o S[D]eu galardão",
+          "Todo_o fiel e sin[G]cero o[D]breiro",
+          "[E]Que Lhe consagra o seu cora[A...]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    D               G       D",
-            "lyrics": "Mui breve virá, mui breve virá,"
-          },
-          {
-            "chords": "                               E       A ",
-            "lyrics": "Aquele que_exerce_o juízo, mui breve virá;"
-          },
-          {
-            "chords": "    D                        G            D",
-            "lyrics": "Aos santos dará_o paraíso, Jesus, Rei dos reis;"
-          },
-          {
-            "chords": "                                   A       D    D...",
-            "lyrics": "No tempo_esperado_e preciso, sim, Cristo virá."
-          }
+        "text": [
+          "Mui [D]breve virá, mui [G]breve vi[D]rá,",
+          "Aquele que_exerce_o juízo, mui [E]breve vi[A]rá;",
+          "Aos [D]santos dará_o paraíso, Je[G]sus, Rei dos [D]reis;",
+          "No tempo_esperado_e preciso, sim, C[A]risto vi[D]rá.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                           A ",
-            "lyrics": "Próximo_é_o dia da volta gloriosa"
-          },
-          {
-            "chords": "                   D",
-            "lyrics": "De Jesus Cristo, o Filho de Deus;"
-          },
-          {
-            "chords": "             G      D",
-            "lyrics": "Sua igreja está ansiosa"
-          },
-          {
-            "chords": "E                             A... ",
-            "lyrics": "Por encontrar-se com Ele nos céus."
-          }
+        "text": [
+          "[D]Próximo_é_o dia da volta glo[A]riosa",
+          "De Jesus Cristo, o [D]Filho de Deus;",
+          "Sua igreja es[G]tá ansi[D]osa",
+          "[E]Por encontrar-se com Ele nos c[A...]éus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                               A ",
-            "lyrics": "Quem, suas vestes, no sangue precioso"
-          },
-          {
-            "chords": "                     D",
-            "lyrics": "De Jesus Cristo, por fé, branquear,"
-          },
-          {
-            "chords": "              G       D",
-            "lyrics": "Habitará no país glorioso"
-          },
-          {
-            "chords": "E                           A... ",
-            "lyrics": "E poderá, com os santos, reinar."
-          }
+        "text": [
+          "[D]Quem, suas vestes, no sangue pre[A]cioso",
+          "De Jesus Cristo, por [D]fé, branquear,",
+          "Habitará no pa[G]ís glori[D]oso",
+          "[E]E poderá, com os santos, rei[A...]nar."
         ]
       },
       {

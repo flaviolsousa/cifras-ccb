@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Contrito, venho a Ti",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  A                D         A",
-            "lyrics": "Ó Pai celestial, vivente Criador,"
-          },
-          {
-            "chords": "   E              A       B7             E ",
-            "lyrics": "Contrito, venho_a Ti, por Cristo,_o Redentor;"
-          },
-          {
-            "chords": "    A      E                 F#m ",
-            "lyrics": "Por Tua piedade, Deus de caridade,"
-          },
-          {
-            "chords": "   D           A      D     E        A    A...",
-            "lyrics": "Perdoa os meus erros, su - plico, Senhor."
-          }
+        "text": [
+          "Ó [A]Pai celestial, vi[D]vente Cria[A]dor,",
+          "Con[E]trito, venho_a [A]Ti, por [B7]Cristo,_o Reden[E]tor;",
+          "Por [A]Tua pie[E]dade, Deus de cari[F#m]dade,",
+          "Per[D]doa os meus [A]erros, [D]su - p[E]lico, Sen[A]hor.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A                   D              A",
-            "lyrics": "Confesso-Te, Senhor, a minha_imperfeição;"
-          },
-          {
-            "chords": "  E         A       B7        E ",
-            "lyrics": "Desejo aprender por Tua correção;"
-          },
-          {
-            "chords": "  A           E                F#m ",
-            "lyrics": "Aguardo, Pai amado, ser justificado;"
-          },
-          {
-            "chords": "    D        A     D  E        A    A...",
-            "lyrics": "Com arrependimento eu rogo perdão."
-          }
+        "text": [
+          "Con[A]fesso-Te, Senhor, a [D]minha_imperfeiç[A]ão;",
+          "De[E]sejo apren[A]der por [B7]Tua correç[E]ão;",
+          "Ag[A]uardo, Pai a[E]mado, ser justifi[F#m]cado;",
+          "Com [D]arrependi[A]mento [D]eu [E]rogo perd[A]ão.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A                   D            A",
-            "lyrics": "É vão o meu viver sem Teu sublime_amor;"
-          },
-          {
-            "chords": "    E         A      B7          E ",
-            "lyrics": "Com zelo paternal conduze-me, Senhor;"
-          },
-          {
-            "chords": "   A             E                F#m ",
-            "lyrics": "De Ti, ó Deus bendito, sempre necessito;"
-          },
-          {
-            "chords": "  D             A      D   E         A    A...",
-            "lyrics": "Seguir-Te-ei de perto, com todo_o fervor."
-          }
+        "text": [
+          "É [A]vão o meu viver sem [D]Teu sublime_a[A]mor;",
+          "Com [E]zelo pater[A]nal con[B7]duze-me, Sen[E]hor;",
+          "De [A]Ti, ó Deus ben[E]dito, sempre nece[F#m]ssito;",
+          "Se[D]guir-Te-ei de [A]perto, [D]com [E]todo_o fer[A]vor.[A...]"
         ]
       }
     ]

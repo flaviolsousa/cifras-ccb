@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Jesus tudo pode",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                  E7",
-            "lyrics": "Tudo_entreguemos a Cristo Jesus,"
-          },
-          {
-            "chords": "                 A",
-            "lyrics": "Nosso clamor Ele pode_atender;"
-          },
-          {
-            "chords": "                  B7        E",
-            "lyrics": "Somente_andemos a senda de luz"
-          },
-          {
-            "chords": "B7                   E    E7...",
-            "lyrics": "E confiante iremos viver."
-          }
+        "text": [
+          "[A]Tudo_entreguemos a [E7]Cristo Jesus,",
+          "Nosso clamor Ele [A]pode_atender;",
+          "Somente_andemos a [B7]senda de l[E]uz",
+          "[B7]E confiante iremos vi[E]ver.[E7...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A         D       A",
-            "lyrics": "Cristo Jesus tudo pode;"
-          },
-          {
-            "chords": "E7            A",
-            "lyrics": "Conosco_está, bênçãos dará;"
-          },
-          {
-            "chords": "        D        A  A7...",
-            "lyrics": "Ele do céu nos socorre"
-          },
-          {
-            "chords": "D      E7       A",
-            "lyrics": "E nada nos faltará."
-          }
+        "text": [
+          "[A]Cristo Jes[D]us tudo [A]pode;",
+          "[E7]Conosco_está, [A]bênçãos dará;",
+          "Ele do c[D]éu nos so[A]cor[A7...]re",
+          "[D]E nada [E7]nos falta[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                E7",
-            "lyrics": "Nosso conforto está em Jesus;"
-          },
-          {
-            "chords": "                 A",
-            "lyrics": "Paz e_alegria só Ele nos dá;"
-          },
-          {
-            "chords": "              B7          E",
-            "lyrics": "Somente Ele é Quem nos conduz;"
-          },
-          {
-            "chords": "B7                        E    E7...",
-            "lyrics": "O Redentor nunca nos deixará."
-          }
+        "text": [
+          "[A]Nosso conforto es[E7]tá em Jesus;",
+          "Paz e_alegria só [A]Ele nos dá;",
+          "Somente Ele é [B7]Quem nos con[E]duz;",
+          "[B7]O Redentor nunca nos deixa[E]rá.[E7...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                   E7",
-            "lyrics": "Sem o Senhor, não podemos andar"
-          },
-          {
-            "chords": "                  A",
-            "lyrics": "Em Seu caminho de vida_e de_amor;"
-          },
-          {
-            "chords": "                 B7           E",
-            "lyrics": "Por Sua graça, Jesus quer nos dar"
-          },
-          {
-            "chords": "B7                        E    E7...",
-            "lyrics": "Fé e virtude, firmeza_e valor."
-          }
+        "text": [
+          "[A]Sem o Senhor, não po[E7]demos andar",
+          "Em Seu caminho de [A]vida_e de_amor;",
+          "Por Sua graça, Je[B7]sus quer nos [E]dar",
+          "[B7]Fé e virtude, firmeza_e va[E]lor.[E7...]"
         ]
       },
       {

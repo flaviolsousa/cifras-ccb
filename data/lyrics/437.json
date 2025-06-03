@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Os meninos viram Jesus passar",
   "tone": {
     "recommended": "G"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                   D ",
-            "lyrics": "Os meninos viram Jesus passar;"
-          },
-          {
-            "chords": "                 G",
-            "lyrics": "Logo O seguiram para proclamar:"
-          },
-          {
-            "chords": "                      C9         G",
-            "lyrics": "Glória ao que veio_em nome do Senhor!"
-          },
-          {
-            "chords": "                   D    G",
-            "lyrics": "Foi engrandecido o Redentor."
-          }
+        "text": [
+          "[G]Os meninos viram Jes[D]us passar;",
+          "Logo O seguiram p[G]ara proclamar:",
+          "Glória ao que veio_em [C9]nome do Sen[G]hor!",
+          "Foi engrandecido o [D]Reden[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " G                 D ",
-            "lyrics": "Vamos exaltar a Jesus, então,"
-          },
-          {
-            "chords": "                     G",
-            "lyrics": "Com os nossos lábios e o coração;"
-          },
-          {
-            "chords": "                 C9           G",
-            "lyrics": "Ó meninos, vamos ao Senhor servir"
-          },
-          {
-            "chords": "                     D       G",
-            "lyrics": "E a lei perfeita de Deus cumprir."
-          }
+        "text": [
+          "V[G]amos exaltar a Jes[D]us, então,",
+          "Com os nossos lábios [G]e o coração;",
+          "Ó meninos, vamos [C9]ao Senhor ser[G]vir",
+          "E a lei perfeita de D[D]eus cump[G]rir."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " G                         D ",
-            "lyrics": "Eis que, entre nós, Jesus Cristo_está;"
-          },
-          {
-            "chords": "                     G",
-            "lyrics": "Ele, que nos vê, nos abençoará;"
-          },
-          {
-            "chords": "                   C9            G",
-            "lyrics": "As virtudes santas quer nos conceder,"
-          },
-          {
-            "chords": "                     D     G ",
-            "lyrics": "Para que possamos o mal vencer."
-          }
+        "text": [
+          "E[G]is que, entre nós, Jesus C[D]risto_está;",
+          "Ele, que nos vê, nos [G]abençoará;",
+          "As virtudes santas [C9]quer nos conce[G]der,",
+          "Para que possamos o m[D]al ven[G]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "G                      D ",
-            "lyrics": "Em silêncio_ouçamos o que dirá"
-          },
-          {
-            "chords": "                         G",
-            "lyrics": "Cristo,_o nosso Mestre, que ensinará"
-          },
-          {
-            "chords": "                 C9              G",
-            "lyrics": "A doutrina santa que conduz aos céus;"
-          },
-          {
-            "chords": "                  D      G ",
-            "lyrics": "Ó meninos, vamos amar a Deus."
-          }
+        "text": [
+          "[G]Em silêncio_ouçamos o q[D]ue dirá",
+          "Cristo,_o nosso Mestre, q[G]ue ensinará",
+          "A doutrina santa [C9]que conduz aos c[G]éus;",
+          "Ó meninos, vamos a[D]mar a D[G]eus."
         ]
       }
     ]

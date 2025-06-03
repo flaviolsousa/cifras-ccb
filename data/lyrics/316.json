@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tua vida é triste?",
   "tone": {
     "recommended": "B"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B   B°     B                     F#7 ",
-            "lyrics": "Tua vida_é triste? Tens profunda dor?"
-          },
-          {
-            "chords": "F#                           B",
-            "lyrics": "Queres um auxílio, um libertador?"
-          },
-          {
-            "chords": "    B°      B                 E ",
-            "lyrics": "Aceitando_a Cristo, paz receberás,"
-          },
-          {
-            "chords": "      F°   B    F#           B   B...",
-            "lyrics": "Força e_alegria d´Ele_alcançarás."
-          }
+        "text": [
+          "[B]Tua [B°]vida_é [B]triste? Tens profunda [F#7]dor?",
+          "[F#]Queres um auxílio, um liberta[B]dor?",
+          "Acei[B°]tando_a [B]Cristo, paz recebe[E]rás,",
+          "Força [F°]e_ale[B]gria [F#]d´Ele_alcança[B]rás.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B     B°   B                 F#7 ",
-            "lyrics": "Fardo de pecado carregando_estás?"
-          },
-          {
-            "chords": "F#                         B",
-            "lyrics": "Jugo de justiça de Jesus terás;"
-          },
-          {
-            "chords": "     B°   B                 E ",
-            "lyrics": "Ouve a mensagem de amor sem par"
-          },
-          {
-            "chords": "     F°       B       F#          B   B...",
-            "lyrics": "Para que, com Cristo, possas caminhar."
-          }
+        "text": [
+          "[B]Fardo [B°]de pe[B]cado carregando_es[F#7]tás?",
+          "[F#]Jugo de justiça de Jesus te[B]rás;",
+          "Ouve [B°]a men[B]sagem de amor sem [E]par",
+          "Para [F°]que, com [B]Cristo, [F#]possas camin[B]har.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B     B°    B                   F#7 ",
-            "lyrics": "Por caminho largo andas sem ter paz?"
-          },
-          {
-            "chords": "F#                            B",
-            "lyrics": "Cristo é a Senda que feliz te faz;"
-          },
-          {
-            "chords": "     B°   B                 E ",
-            "lyrics": "Confiando n´Ele, tu encontrarás"
-          },
-          {
-            "chords": "     F°   B      F#         B  ",
-            "lyrics": "Salvação eterna, salvação veraz."
-          }
+        "text": [
+          "[B]Por ca[B°]minho [B]largo andas sem ter [F#7]paz?",
+          "[F#]Cristo é a Senda que feliz te [B]faz;",
+          "Confi[B°]ando [B]n´Ele, tu encontra[E]rás",
+          "Salva[F°]ção e[B]terna, [F#]salvação ve[B]raz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B           F#7                 B",
-            "lyrics": "Olha para_o alto, de_onde vem a luz,"
-          },
-          {
-            "chords": "E          B             C#7  F#7 ",
-            "lyrics": "E verás, então, a glória de Jesus;"
-          },
-          {
-            "chords": "B     B°    B                E ",
-            "lyrics": "Que sublime obra consumou na cruz;"
-          },
-          {
-            "chords": "     F°    B     F#7       B",
-            "lyrics": "Ao celeste reino Ele te conduz."
-          }
+        "text": [
+          "[B]Olha para_o [F#7]alto, de_onde vem a [B]luz,",
+          "[E]E verás, en[B]tão, a glória [C#7]de Je[F#7]sus;",
+          "[B]Que su[B°]blime [B]obra consumou na [E]cruz;",
+          "Ao ce[F°]leste [B]reino [F#7]Ele te con[B]duz."
         ]
       }
     ]

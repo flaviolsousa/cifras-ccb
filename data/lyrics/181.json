@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só em Cristo, só em Cristo",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         E           B7          E",
-            "lyrics": "Vós, que procurais a água que da vida,"
-          },
-          {
-            "chords": "        A                   E",
-            "lyrics": "Vinde_a Cristo, Fonte do perdão;"
-          },
-          {
-            "chords": "                    B7        E",
-            "lyrics": "Toda_a  alma contristada e_abatida,"
-          },
-          {
-            "chords": "     F#7                   B7 ",
-            "lyrics": "Em Jesus encontrará a salvação."
-          }
+        "text": [
+          "Vós, que [E]procurais a [B7]água que da [E]vida,",
+          "Vinde_a [A]Cristo, Fonte do per[E]dão;",
+          "Toda_a  alma contris[B7]tada e_aba[E]tida,",
+          "Em Je[F#7]sus encontrará a salva[B7]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      E             A ",
-            "lyrics": "Só em Cristo, só em Cristo,"
-          },
-          {
-            "chords": "     E          B7         E",
-            "lyrics": "Água viva todos podem encontrar;"
-          },
-          {
-            "chords": "                    A      F#m ",
-            "lyrics": "Só em Cristo, só em Cristo,"
-          },
-          {
-            "chords": "       E           B7           E",
-            "lyrics": "Vós, sedentos, podereis vos saciar."
-          }
+        "text": [
+          "Só em [E]Cristo, só em [A]Cristo,",
+          "Água [E]viva todos [B7]podem encon[E]trar;",
+          "Só em Cristo, só em [A]Cristo,[F#m]",
+          "Vós, se[E]dentos, pode[B7]reis vos saci[E]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      E            B7           E",
-            "lyrics": "Nesta Fonte tão preciosa,_inesgotável,"
-          },
-          {
-            "chords": "     A               E",
-            "lyrics": "Refrigério todos acharão;"
-          },
-          {
-            "chords": "               B7           E",
-            "lyrics": "Recorrendo a Jesus, Pastor amável,"
-          },
-          {
-            "chords": "     F#7                       B7 ",
-            "lyrics": "Os sedentos não mais sede sentirão."
-          }
+        "text": [
+          "Nesta [E]Fonte tão pre[B7]ciosa,_inesgo[E]tável,",
+          "Refri[A]gério todos acha[E]rão;",
+          "Recorrendo a Je[B7]sus, Pastor a[E]mável,",
+          "Os se[F#7]dentos não mais sede senti[B7]rão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       E          B7         E",
-            "lyrics": "Cristo é_o Manancial que purifica"
-          },
-          {
-            "chords": "     A                E",
-            "lyrics": "E_enobrece todo_o coração;"
-          },
-          {
-            "chords": "                 B7         E",
-            "lyrics": "Seu Espírito_encoraja, santifica"
-          },
-          {
-            "chords": "    F#7                 B7 ",
-            "lyrics": "E ensina a viver em retidão."
-          }
+        "text": [
+          "Cristo [E]é_o Mananci[B7]al que puri[E]fica",
+          "E_eno[A]brece todo_o cora[E]ção;",
+          "Seu Espírito_enco[B7]raja, santi[E]fica",
+          "E en[F#7]sina a viver em reti[B7]dão."
         ]
       },
       {

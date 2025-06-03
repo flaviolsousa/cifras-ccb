@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Deus bendito",
   "tone": {
     "recommended": "F"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Ó Deus bendito, ó Pai da_eternidade,"
-          },
-          {
-            "chords": "Bb  F   Bb    F      G7        C  C7 ",
-            "lyrics": "Em  Tua som - bra me quero_abrigar;"
-          },
-          {
-            "chords": "F",
-            "lyrics": "Forças contrárias à Tua santidade"
-          },
-          {
-            "chords": "Bb    F       Bb  C7            F",
-            "lyrics": "Que - rem, da fé, me fazer desviar."
-          }
+        "text": [
+          "[F]Ó Deus bendito, ó Pai da_eternidade,",
+          "[Bb]Em  [F]Tua [Bb]som - [F]bra me [G7]quero_abri[C]gar[C7];",
+          "[F]Forças contrárias à Tua santidade",
+          "[Bb]Que - [F]rem, da [Bb]fé, [C7]me fazer desvi[F]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Quanto é frágil a minha estrutura!"
-          },
-          {
-            "chords": "Bb  F      Bb    F      G7       C  C7 ",
-            "lyrics": "Os  meus recei - os, dissipa, Senhor;"
-          },
-          {
-            "chords": "F",
-            "lyrics": "Dá ao Teu servo divina armadura;"
-          },
-          {
-            "chords": "Bb   F     Bb    C7                F",
-            "lyrics": "Ou - ve, ó Deus, minha voz, meu clamor."
-          }
+        "text": [
+          "[F]Quanto é frágil a minha estrutura!",
+          "[Bb]Os  [F]meus re[Bb]cei - [F]os, dis[G7]sipa, Sen[C]hor[C7];",
+          "[F]Dá ao Teu servo divina armadura;",
+          "[Bb]Ou - [F]ve, ó [Bb]Deus, [C7]minha voz, meu cla[F]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "A minha alma, por Ti, foi resgatada,"
-          },
-          {
-            "chords": "Bb  F    Bb   F      G7          C  C7 ",
-            "lyrics": "Foi envolvi - da por Teu grande_amor,"
-          },
-          {
-            "chords": "F",
-            "lyrics": "E, das ruínas, também foi levantada;"
-          },
-          {
-            "chords": "Bb  F    Bb  C7              F",
-            "lyrics": "Em  Ti está  minha sorte, Senhor."
-          }
+        "text": [
+          "[F]A minha alma, por Ti, foi resgatada,",
+          "[Bb]Foi [F]envol[Bb]vi - [F]da por [G7]Teu grande_a[C]mor[C7],",
+          "[F]E, das ruínas, também foi levantada;",
+          "[Bb]Em  [F]Ti es[Bb]tá  [C7]minha sorte, Sen[F]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Ó Deus bendito, Pai de bondade,"
-          },
-          {
-            "chords": "Bb  B°     F        G7      C  C7 ",
-            "lyrics": "Tu  -  a Palavra me pode livrar;"
-          },
-          {
-            "chords": "F",
-            "lyrics": "Neste deserto de_iniquidade, "
-          },
-          {
-            "chords": "Bb  B°       F        C         F",
-            "lyrics": "Tu  -  as virtudes me podem guardar."
-          }
+        "text": [
+          "[F]Ó Deus bendito, Pai de bondade,",
+          "[Bb]Tu  [B°]-  a Pa[F]lavra me [G7]pode liv[C]rar[C7];",
+          "[F]Neste deserto de_iniquidade, ",
+          "[Bb]Tu  [B°]-  as vir[F]tudes me [C]podem guar[F]dar."
         ]
       }
     ]

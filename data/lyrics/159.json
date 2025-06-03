@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Deus amou o mundo",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                            D ",
-            "lyrics": "Deus amou o mundo e_enviou Jesus,"
-          },
-          {
-            "chords": "                               G",
-            "lyrics": "O Autor da graça, que nos resgatou;"
-          },
-          {
-            "chords": "                 G7          C ",
-            "lyrics": "Grande vitupério suportou na cruz;"
-          },
-          {
-            "chords": "Am       G               D    G",
-            "lyrics": "Pela Sua morte,_ao homem perdoou."
-          }
+        "text": [
+          "[G]Deus amou o mundo e_enviou Je[D]sus,",
+          "O Autor da graça, que nos resga[G]tou;",
+          "Grande vitupério [G7]suportou na [C]cruz;",
+          "[Am]Pela Sua [G]morte,_ao homem [D]perdo[G]ou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Que glorioso_amor, que sublime_amor"
-          },
-          {
-            "chords": "C           G       Em          D ",
-            "lyrics": "Deus manifestou, salvando_o pecador!"
-          },
-          {
-            "chords": "G                B7          Em ",
-            "lyrics": "Que divino_amor, que imenso_amor"
-          },
-          {
-            "chords": "C            G                D    G",
-            "lyrics": "Deus nos revelou em Cristo,_o Salvador!"
-          }
+        "text": [
+          "[G]Que glorioso_amor, que sublime_amor",
+          "[C]Deus manifes[G]tou, sal[Em]vando_o peca[D]dor!",
+          "[G]Que divino_amor, [B7]que imenso_a[Em]mor",
+          "[C]Deus nos reve[G]lou em Cristo,_o [D]Salva[G]dor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                         D ",
-            "lyrics": "O decreto santo do eterno Deus"
-          },
-          {
-            "chords": "                                 G",
-            "lyrics": "Foi, na cruz, cumprido pelo Redentor;"
-          },
-          {
-            "chords": "                 G7           C ",
-            "lyrics": "O Seu sacrifício nos abriu os céus,"
-          },
-          {
-            "chords": "Am           G           D   G",
-            "lyrics": "Trouxe luz e vida para_o pecador."
-          }
+        "text": [
+          "[G]O decreto santo do eterno [D]Deus",
+          "Foi, na cruz, cumprido pelo Reden[G]tor;",
+          "O Seu sacrifício [G7]nos abriu os [C]céus,",
+          "[Am]Trouxe luz e [G]vida para_o [D]peca[G]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                                D ",
-            "lyrics": "Por amor profundo, Deus mandou Jesus;"
-          },
-          {
-            "chords": "                                G",
-            "lyrics": "Todo_o que crer n´Ele não perecerá,"
-          },
-          {
-            "chords": "                   G7            C ",
-            "lyrics": "Mas a vida_eterna, em Seu lar de luz,"
-          },
-          {
-            "chords": "Am          G               D       G",
-            "lyrics": "Com superna glória, junto_a Deus, terá."
-          }
+        "text": [
+          "[G]Por amor profundo, Deus mandou Je[D]sus;",
+          "Todo_o que crer n´Ele não perece[G]rá,",
+          "Mas a vida_eterna, [G7]em Seu lar de [C]luz,",
+          "[Am]Com superna [G]glória, junto_a [D]Deus, te[G]rá."
         ]
       },
       {

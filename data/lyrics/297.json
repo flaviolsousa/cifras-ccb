@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, conforta meu coração",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                 C ",
-            "lyrics": "Senhor, conforta meu coração"
-          },
-          {
-            "chords": "E7  A                D ",
-            "lyrics": "E   vem livrar-me da aflição;"
-          },
-          {
-            "chords": "  G              C   Am... ",
-            "lyrics": "A minha súplica, ó Senhor,"
-          },
-          {
-            "chords": "  G     D           G",
-            "lyrics": "Recebe, por grande_amor."
-          }
+        "text": [
+          "Sen[G]hor, conforta meu [C]coração",
+          "[E7]E   [A]vem livrar-me da [D]aflição;",
+          "A [G]minha súplica, [C]ó Se[Am...]nhor,",
+          "Re[G]cebe, [D]por grande_a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Vem, Jesus, meu Consolador,"
-          },
-          {
-            "chords": "                  D ",
-            "lyrics": "Nas angústias, também na dor,"
-          },
-          {
-            "chords": "    G           C     Am... ",
-            "lyrics": "Com Teu amor me confortar;"
-          },
-          {
-            "chords": "G                   D    G   G...",
-            "lyrics": "Vem, nas provas, me libertar."
-          }
+        "text": [
+          "[G]Vem, Jesus, meu Consolador,",
+          "Nas angústias, tam[D]bém na dor,",
+          "Com [G]Teu amor me [C]confor[Am...]tar;",
+          "[G]Vem, nas provas, me [D]liber[G]tar.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G                 C ",
-            "lyrics": "Senhor, conforta meu coração,"
-          },
-          {
-            "chords": "E7  A            D ",
-            "lyrics": "Com Tua paz e consolação;"
-          },
-          {
-            "chords": " G             C   Am... ",
-            "lyrics": "Alegremente eu viverei;"
-          },
-          {
-            "chords": "   G     D       G",
-            "lyrics": "Louvor a Ti cantarei."
-          }
+        "text": [
+          "Sen[G]hor, conforta meu [C]coração,",
+          "[E7]Com [A]Tua paz e con[D]solação;",
+          "A[G]legremente eu [C]vive[Am...]rei;",
+          "Lou[G]vor a [D]Ti canta[G]rei."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G                 C ",
-            "lyrics": "Senhor, conforta meu coração,"
-          },
-          {
-            "chords": "E7  A            D ",
-            "lyrics": "Com Teu amor e celeste_unção;"
-          },
-          {
-            "chords": "    G             C    Am... ",
-            "lyrics": "Teu refrigério eu sentirei,"
-          },
-          {
-            "chords": "  G     D          G",
-            "lyrics": "Ó meu Senhor e meu Rei."
-          }
+        "text": [
+          "Sen[G]hor, conforta meu [C]coração,",
+          "[E7]Com [A]Teu amor e ce[D]leste_unção;",
+          "Teu [G]refrigério eu [C]senti[Am...]rei,",
+          "Ó [G]meu Se[D]nhor e meu [G]Rei."
         ]
       },
       {

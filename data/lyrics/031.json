@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Forte Rocha",
   "tone": {
     "recommended": "D"
@@ -9,103 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D             F#m       E  A",
-            "lyrics": "Forte Rocha é Deus Sempiterno;"
-          },
-          {
-            "chords": "Bm    F#m   G   D/F#  Em7      A  D",
-            "lyrics": "Nos - sa    fé  só    n´Ele se funda;"
-          },
-          {
-            "chords": "              F#m      E  A",
-            "lyrics": "Seu amor celestial e paterno,"
-          },
-          {
-            "chords": "Bm   F#m   G   D/F#  Em7        A  D",
-            "lyrics": "Na   tri - bu – la - ção nos circunda."
-          },
-          {
-            "chords": "          E    A   D           G   Bm           E A",
-            "lyrics": "Do_astuto tentador nos livra_o Criador e nos protege;"
-          },
-          {
-            "chords": "G    B7      Em   F#",
-            "lyrics": "Nada nós temere - mos,"
-          },
-          {
-            "chords": "Bm   F#m   G    D/F#  Em7       A D",
-            "lyrics": "Pois  o    In - vem - cível nós temos."
-          }
+        "text": [
+          "[D]Forte Rocha é [F#m]Deus Sempi[E]ter[A]no;",
+          "[Bm]Nos - [F#m]sa    [G]fé  [D/F#]só    [Em7]n´Ele se [A]fun[D]da;",
+          "Seu amor celes[F#m]tial e pa[E]ter[A]no,",
+          "[Bm]Na   [F#m]tri - [G]bu –[D/F#] la - [Em7]ção nos cir[A]cun[D]da.",
+          "Do_astuto [E]tenta[A]dor [D]nos livra_o [G]Cria[Bm]dor e nos pro[E]te[A]ge;",
+          "[G]Nada [B7]nós teme[Em]re - [F#]mos,",
+          "[Bm]Pois [F#m] o    [G]In - [D/F#]vem - [Em7]cível nós [A]te[D]mos."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D           F#m       E  A",
-            "lyrics": "Estará para sempre perdi-do"
-          },
-          {
-            "chords": "Bm   F#m   G   D/F#   Em7      A    D",
-            "lyrics": "Quem em    si  so  -  mente confi - a,"
-          },
-          {
-            "chords": "               F#m     E  A",
-            "lyrics": "Mas será lá do céu socorrido,"
-          },
-          {
-            "chords": "Bm     F#m   G   D/F#   Em7         A    D",
-            "lyrics": "Cren - do    em   Je  - sus, nosso Gui - a."
-          },
-          {
-            "chords": "        E       A   D      G       Bm              E  A",
-            "lyrics": "O Filho do bom Deus é Defensor dos Seus, é Rei da glória;"
-          },
-          {
-            "chords": " G    B7      Em   F#",
-            "lyrics": "D´Ele virtude te - mos,"
-          },
-          {
-            "chords": "Bm   F#m  G    D/F#  Em7    A  D",
-            "lyrics": "E    vi - tó - ria   alcançaremos."
-          }
+        "text": [
+          "[D]Estará para [F#m]sempre per[E]di-[A]do",
+          "[Bm]Quem [F#m]em    [G]si  [D/F#]so  -  [Em7]mente con[A]fi - [D]a,",
+          "Mas será lá do [F#m]céu soco[E]rri[A]do,",
+          "[Bm]Cren - [F#m]do    [G]em  [D/F#] Je  - [Em7]sus, nosso G[A]ui - [D]a.",
+          "O Filho [E]do bom D[A]eus [D]é Defen[G]sor dos [Bm]Seus, é Rei da g[E]lór[A]ia;",
+          "D[G]´Ele [B7]virtude [Em]te - [F#]mos,",
+          "[Bm]E    [F#m]vi - [G]tó - [D/F#]ria   [Em7]alcança[A]rem[D]os."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D             F#m      E  A",
-            "lyrics": "A Palavra, que é nossa Vi-da,"
-          },
-          {
-            "chords": "Bm   F#m   G   D/F#   Em7     A    D",
-            "lyrics": "De - ve   ser  por    nós exalta - da;"
-          },
-          {
-            "chords": "                 F#m      E  A",
-            "lyrics": "É, também, nossa firme Guari-da"
-          },
-          {
-            "chords": "Bm   F#m   G   D/F#   Em7    A    D",
-            "lyrics": "Que  não   po - de   ser abala - da."
-          },
-          {
-            "chords": "        E      A   D        G    Bm          E   A",
-            "lyrics": "O mal virá tentar  a fim de despojar os resgata-dos, "
-          },
-          {
-            "chords": "G     B7      Em   F#",
-            "lyrics": "Mas teremos vitó - ria, "
-          },
-          {
-            "chords": "Bm   F#m  G     D/F#  Em7        A  D",
-            "lyrics": "Pois  é   nos - so_o  reino e_a glória."
-          }
+        "text": [
+          "[D]A Palavra, que[F#m] é nossa [E]Vi-[A]da,",
+          "[Bm]De - [F#m]ve   s[G]er  [D/F#]por    [Em7]nós exal[A]ta - [D]da;",
+          "É, também, nossa [F#m]firme Gua[E]ri-[A]da",
+          "[Bm]Que  [F#m]não   [G]po -[D/F#] de   s[Em7]er abal[A]a - d[D]a.",
+          "O mal vi[E]rá tent[A]ar  [D]a fim de [G]despo[Bm]jar os resga[E]ta-d[A]os, ",
+          "[G]Mas te[B7]remos vi[Em]tó - [F#]ria, ",
+          "[Bm]Pois [F#m] é   [G]nos - [D/F#]so_o  [Em7]reino e_a g[A]lór[D]ia."
         ]
       }
     ]

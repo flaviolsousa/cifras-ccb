@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cidadão dos céus",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G         C9     G       D ",
-            "lyrics": "Ó Deus bendito, sou pequenino,"
-          },
-          {
-            "chords": " G       C9     D           G",
-            "lyrics": "Mas já caminho pelo Teu ensino;"
-          },
-          {
-            "chords": "                        D ",
-            "lyrics": "Sou neste mundo um peregrino;"
-          },
-          {
-            "chords": "G       C9     D           G",
-            "lyrics": "Já me fizeste cidadão dos céus."
-          }
+        "text": [
+          "[G]Ó Deus ben[C9]dito, s[G]ou peque[D]nino,",
+          "M[G]as já ca[C9]minho p[D]elo Teu ensi[G]no;",
+          "Sou neste mundo um pereg[D]rino;",
+          "[G]Já me fi[C9]zeste c[D]idadão dos c[G]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G     C9     G          D ",
-            "lyrics": "Vivo alegre, em paz Te sigo,"
-          },
-          {
-            "chords": " G     C9     D              G",
-            "lyrics": "Nada receio, pois estou Contigo;"
-          },
-          {
-            "chords": "                          D ",
-            "lyrics": "Neste deserto, em Ti me_abrigo;"
-          },
-          {
-            "chords": "G       C9     D           G",
-            "lyrics": "Já me fizeste cidadão dos céus."
-          }
+        "text": [
+          "[G]Vivo a[C9]legre, [G]em paz Te s[D]igo,",
+          "N[G]ada re[C9]ceio, p[D]ois estou Conti[G]go;",
+          "Neste deserto, em Ti me_ab[D]rigo;",
+          "[G]Já me fi[C9]zeste c[D]idadão dos c[G]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G        C9    G      D ",
-            "lyrics": "És minha Força e Segurança,"
-          },
-          {
-            "chords": "G       C9     D         G",
-            "lyrics": "És meu Apoio, minha Esperança,"
-          },
-          {
-            "chords": "                     D ",
-            "lyrics": "És minha Vida e Confiança;"
-          },
-          {
-            "chords": "G       C9     D           G",
-            "lyrics": "Já me fizeste cidadão dos céus."
-          }
+        "text": [
+          "[G]És minha [C9]Força [G]e Segur[D]ança,",
+          "[G]És meu A[C9]poio, m[D]inha Esper[G]ança,",
+          "És minha Vida e Confi[D]ança;",
+          "[G]Já me fi[C9]zeste c[D]idadão dos c[G]éus."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O meu vero Amigo é Jesus",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D              A ",
-            "lyrics": "Jesus é meu vero Amigo"
-          },
-          {
-            "chords": "                 D",
-            "lyrics": "E jamais me deixará,"
-          },
-          {
-            "chords": "                          G ",
-            "lyrics": "Pois, quando estiver em perigo,"
-          },
-          {
-            "chords": "     A          D",
-            "lyrics": "Sua mão me livrará."
-          }
+        "text": [
+          "Jes[D]us é meu vero A[A]migo",
+          "E jamais me deixa[D]rá,",
+          "Pois, quando estiver em pe[G]rigo,",
+          "Sua m[A]ão me livra[D]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   D",
-            "lyrics": "O meu vero Amigo é Jesus,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Na senda de paz já me conduz;"
-          },
-          {
-            "chords": "      A                   D          Bm ",
-            "lyrics": "Nunca outro haverá que ofereça graça tal,"
-          },
-          {
-            "chords": "     Em   A    D",
-            "lyrics": "Preciosa, divinal."
-          }
+        "text": [
+          "O m[D]eu vero Amigo é Jesus,",
+          "Na senda de paz já me conduz;",
+          "Nunca [A]outro haverá que ofe[D]reça graça [Bm]tal,",
+          "Preci[Em]osa, [A]divin[D]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D              A ",
-            "lyrics": "Amigo fiel e bondoso,"
-          },
-          {
-            "chords": "                  D",
-            "lyrics": "Em Jesus eu encontrei;"
-          },
-          {
-            "chords": "                       G ",
-            "lyrics": "Em Seu doce amor, glorioso,"
-          },
-          {
-            "chords": "       A          D",
-            "lyrics": "Sempre me deleitarei."
-          }
+        "text": [
+          "A[D]migo fiel e bon[A]doso,",
+          "Em Jesus eu encont[D]rei;",
+          "Em Seu doce amor, glori[G]oso,",
+          "Sempre [A]me deleitar[D]ei."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     D                A ",
-            "lyrics": "Por Cristo estou protegido"
-          },
-          {
-            "chords": "                   D",
-            "lyrics": "Na angústia ou na dor;"
-          },
-          {
-            "chords": "                      G ",
-            "lyrics": "E, quando me sinto abatido,"
-          },
-          {
-            "chords": "     A         D",
-            "lyrics": "É veraz Consolador."
-          }
+        "text": [
+          "Por C[D]risto estou prote[A]gido",
+          "Na angústia ou na d[D]or;",
+          "E, quando me sinto aba[G]tido,",
+          "É ver[A]az Consola[D]dor."
         ]
       },
       {

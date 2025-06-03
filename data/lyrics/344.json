@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vou encontrar meu Deus",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Para_a cidade eterna eu vou,"
-          },
-          {
-            "chords": "E                   A",
-            "lyrics": "Pois bem fundado em Cristo estou;"
-          },
-          {
-            "chords": "D                  A      A7",
-            "lyrics": "Tenho_a certeza de nela entrar"
-          },
-          {
-            "chords": "D       E      A",
-            "lyrics": "E com Jesus reinar."
-          }
+        "text": [
+          "[A]Para_a cidade eterna eu vou,",
+          "[E]Pois bem fundado em [A]Cristo estou;",
+          "[D]Tenho_a certeza de [A]nela en[A7]trar",
+          "[D]E com Je[E]sus rei[A]nar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Vou encontrar meu Deus,"
-          },
-          {
-            "chords": "E                 B         E ",
-            "lyrics": "Com os remidos no reino de_amor;"
-          },
-          {
-            "chords": "A            D ",
-            "lyrics": "É meu desejo ir para_os céus"
-          },
-          {
-            "chords": "E                A",
-            "lyrics": "E_estar com o Senhor."
-          }
+        "text": [
+          "[A]Vou encontrar meu Deus,",
+          "[E]Com os remidos no [B]reino de_a[E]mor;",
+          "[A]É meu desejo [D]ir para_os céus",
+          "[E]E_estar com o Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Por este mundo não tenho_atração;"
-          },
-          {
-            "chords": "E               A",
-            "lyrics": "Firme aguardo o meu galardão;"
-          },
-          {
-            "chords": "D                  A           A7",
-            "lyrics": "Para_alcançá-lo, Jesus, meu Pastor,"
-          },
-          {
-            "chords": "D       E    A",
-            "lyrics": "Me guia com amor."
-          }
+        "text": [
+          "[A]Por este mundo não tenho_atração;",
+          "[E]Firme aguardo o [A]meu galardão;",
+          "[D]Para_alcançá-lo, Je[A]sus, meu Pas[A7]tor,",
+          "[D]Me guia [E]com a[A]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Incomparável tesouro achei"
-          },
-          {
-            "chords": "E                  A",
-            "lyrics": "Em Jesus Cristo, o meu grande Rei;"
-          },
-          {
-            "chords": "D                  A         A7",
-            "lyrics": "Breve nos céus eu irei desfrutar"
-          },
-          {
-            "chords": "D          E       A",
-            "lyrics": "Glória que não tem par."
-          }
+        "text": [
+          "[A]Incomparável tesouro achei",
+          "[E]Em Jesus Cristo, o [A]meu grande Rei;",
+          "[D]Breve nos céus eu i[A]rei desfru[A7]tar",
+          "[D]Glória que [E]não tem [A]par."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eis-me, Senhor, aos Teus pés",
   "tone": {
     "recommended": "B"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                            F#         B",
-            "lyrics": "Eis-me, Senhor, aos Teus pés para Te adorar;"
-          },
-          {
-            "chords": "              E    C#7           F# ",
-            "lyrics": "De coração sincero quero me consagrar."
-          }
+        "text": [
+          "[B]Eis-me, Senhor, aos Teus pés [F#]para Te ado[B]rar;",
+          "De coração sin[E]cero [C#7]quero me consa[F#]grar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F#               B    G#7    D#  G#m ",
-            "lyrics": "Eis que estou disposto a Te obedecer,"
-          },
-          {
-            "chords": "E                B     F#            B",
-            "lyrics": "Mas só com Teu auxílio eu poderei vencer."
-          }
+        "text": [
+          "[F#]Eis que estou dis[B]posto[G#7] a Te o[D#]bede[G#m]cer,",
+          "[E]Mas só com Teu au[B]xílio [F#]eu poderei ven[B]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                      F#             B",
-            "lyrics": "Com Teu poder somente, Teu servidor serei;"
-          },
-          {
-            "chords": "                E      C#7             F# ",
-            "lyrics": "A paz que Tu me deste, ao mundo_anunciarei."
-          }
+        "text": [
+          "[B]Com Teu poder somente, [F#]Teu servidor se[B]rei;",
+          "A paz que Tu me [E]deste, [C#7]ao mundo_anuncia[F#]rei."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                    F#           B",
-            "lyrics": "Humildemente_aguardo Teu santo operar;"
-          },
-          {
-            "chords": "            E     C#7             F# ",
-            "lyrics": "Em Tua sã Palavra vou sempre confiar."
-          }
+        "text": [
+          "[B]Humildemente_aguardo [F#]Teu santo ope[B]rar;",
+          "Em Tua sã Pa[E]lavra [C#7]vou sempre confi[F#]ar."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vinde às fileiras",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B          E  B               F#7 ",
-            "lyrics": "Vinde às fileiras do bom Salvador,"
-          },
-          {
-            "chords": "             B      E     C#   F# ",
-            "lyrics": "Que vos cingirá com armas de valor,"
-          },
-          {
-            "chords": "B         F#7                B",
-            "lyrics": "Para combaterdes em nenhum temor"
-          },
-          {
-            "chords": "E      F#7  B     E     F#7    B",
-            "lyrics": "Contra o  pecado, com todo_o vigor."
-          }
+        "text": [
+          "[B]Vinde às fi[E]lei[B]ras do bom Salva[F#7]dor,",
+          "Que vos cingi[B]rá com [E]armas [C#]de va[F#]lor,",
+          "[B]Para comba[F#7]terdes em nenhum te[B]mor",
+          "[E]Contra [F#7]o  pe[B]cado, [E]com to[F#7]do_o vi[B]gor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B               E  B              F#7 ",
-            "lyrics": "Cristo, sobre_a morte, foi o Vencedor,"
-          },
-          {
-            "chords": "            B       E   C#    F# ",
-            "lyrics": "Sendo, do sepulcro, o Suplantador;"
-          },
-          {
-            "chords": "B           F#7                    B",
-            "lyrics": "Sem nenhuma culpa, sobre_a cruz morreu,"
-          },
-          {
-            "chords": "E      F#7    B    E    F#7    B",
-            "lyrics": "Mas, vitori - oso, retornou ao céu."
-          }
+        "text": [
+          "[B]Cristo, sobre_a [E]mor[B]te, foi o Vence[F#7]dor,",
+          "Sendo, do se[B]pulcro, [E]o Su[C#]planta[F#]dor;",
+          "[B]Sem nenhuma [F#7]culpa, sobre_a cruz mor[B]reu,",
+          "[E]Mas, vi[F#7]tori - [B]oso, [E]retor[F#7]nou ao [B]céu."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B             E  B              F#7 ",
-            "lyrics": "Cristo, nosso Mestre, Guia celestial,"
-          },
-          {
-            "chords": "             B     E    C#     F# ",
-            "lyrics": "É Quem nos defende do poder do mal;"
-          },
-          {
-            "chords": "B             F#7            B",
-            "lyrics": "Sempre resplandece com a Sua luz,"
-          },
-          {
-            "chords": "E     F#7   B     E      F#7    B",
-            "lyrics": "Na gloriosa senda que ao céu conduz."
-          }
+        "text": [
+          "[B]Cristo, nosso [E]Mes[B]tre, Guia celes[F#7]tial,",
+          "É Quem nos de[B]fende [E]do po[C#]der do [F#]mal;",
+          "[B]Sempre resplan[F#7]dece com a Sua [B]luz,",
+          "[E]Na glo[F#7]riosa [B]senda [E]que ao [F#7]céu con[B]duz."
         ]
       }
     ]

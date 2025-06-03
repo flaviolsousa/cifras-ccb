@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bendizei ao Altíssimo Deus",
   "tone": {
     "recommended": "G"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                D         G",
-            "lyrics": "Na alma do justo há voz de louvor"
-          },
-          {
-            "chords": "  C        G         A      D ",
-            "lyrics": "A Deus e a Cristo, fiel Remidor;"
-          },
-          {
-            "chords": "   G                  D      G",
-            "lyrics": "Há voz de_alegria, há exaltação;"
-          },
-          {
-            "chords": "    C          G        D       G",
-            "lyrics": "Seu cálix transborda de consolação."
-          }
+        "text": [
+          "Na [G]alma do justo há [D]voz de lou[G]vor",
+          "A [C]Deus e a [G]Cristo, fi[A]el Remi[D]dor;",
+          "Há [G]voz de_alegria, há [D]exaltaç[G]ão;",
+          "Seu [C]cálix trans[G]borda de [D]consolaç[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G                          D ",
-            "lyrics": "Bendizei, bendizei ao Altíssimo Deus,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Deus de_amor, Deus de paz,"
-          },
-          {
-            "chords": "       G",
-            "lyrics": "Que mandou lá dos céus"
-          },
-          {
-            "chords": "                    D       G",
-            "lyrics": "O santo Cordeiro, fiel Redentor,"
-          },
-          {
-            "chords": "  C        G       D         G   G...",
-            "lyrics": "A nossa Justiça, Jesus, o Senhor."
-          }
+        "text": [
+          "Bendi[G]zei, bendizei ao Altíssimo [D]Deus,",
+          "Deus de_amor, Deus de paz,",
+          "Que man[G]dou lá dos céus",
+          "O santo Cordeiro, fi[D]el Reden[G]tor,",
+          "A [C]nossa Jus[G]tiça, Je[D]sus, o Sen[G]hor.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G                   D         G",
-            "lyrics": "A Deus toda_a honra e glória_etenal,"
-          },
-          {
-            "chords": "     C    G      A          D ",
-            "lyrics": "Pois é piedoso o Pai celestial;"
-          },
-          {
-            "chords": "    G                     D        G",
-            "lyrics": "Por Seu Filho_amado, Deus reconciliou"
-          },
-          {
-            "chords": "   C         G      D       G",
-            "lyrics": "Os homens Consigo e os resgatou."
-          }
+        "text": [
+          "A [G]Deus toda_a honra e [D]glória_ete[G]nal,",
+          "Pois [C]é pie[G]doso o [A]Pai celesti[D]al;",
+          "Por [G]Seu Filho_amado, Deus [D]reconcili[G]ou",
+          "Os [C]homens Con[G]sigo e [D]os resga[G]tou."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G              D         G",
-            "lyrics": "Por boa vontade de Deus, Criador,"
-          },
-          {
-            "chords": "   C       G         A        D ",
-            "lyrics": "Do novo Concerto_é Jesus Mediador;"
-          },
-          {
-            "chords": "   G                 D         G",
-            "lyrics": "Preciosas promessas irão se cumprir"
-          },
-          {
-            "chords": "   C        G          D        G",
-            "lyrics": "Na volta de Cristo, em breve porvir."
-          }
+        "text": [
+          "Por [G]boa vontade de [D]Deus, Cria[G]dor,",
+          "Do [C]novo Con[G]certo_é Je[A]sus Media[D]dor;",
+          "Pre[G]ciosas promessas i[D]rão se cum[G]prir",
+          "Na [C]volta de [G]Cristo, em [D]breve por[G]vir."
         ]
       },
       {

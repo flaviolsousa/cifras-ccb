@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, Tu és a minha Porção",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G            C        G",
-            "lyrics": "Senhor, Tu és a minha Porção,"
-          },
-          {
-            "chords": "   C           G",
-            "lyrics": "Em Ti me_alegrarei;"
-          },
-          {
-            "chords": "        G7       C  ",
-            "lyrics": "Em Ti está minha salvação,"
-          },
-          {
-            "chords": "   D               G",
-            "lyrics": "Senhor, meu grande Rei."
-          }
+        "text": [
+          "Sen[G]hor, Tu és a [C]minha Por[G]ção,",
+          "Em [C]Ti me_alegra[G]rei;",
+          "Em Ti es[G7]tá minha [C]salvação,",
+          "Sen[D]hor, meu grande [G]Rei."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G           D ",
-            "lyrics": "És minha Porção,"
-          },
-          {
-            "chords": "Em          B7 ",
-            "lyrics": "És meu Galardão;"
-          },
-          {
-            "chords": "C         G",
-            "lyrics": "Bem-aventurado sou,"
-          },
-          {
-            "chords": "   D           G",
-            "lyrics": "Tu és minha Porção."
-          }
+        "text": [
+          "[G]És minha Por[D]ção,",
+          "[Em]És meu Galar[B7]dão;",
+          "[C]Bem-aventu[G]rado sou,",
+          "Tu [D]és minha Por[G]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " G            C      G",
-            "lyrics": "Imenso_e puro é Teu amor,"
-          },
-          {
-            "chords": "    C           G",
-            "lyrics": "Meu Salvador, Jesus;"
-          },
-          {
-            "chords": "         G7      C ",
-            "lyrics": "Estás em meu coração, Senhor;"
-          },
-          {
-            "chords": "    D          G",
-            "lyrics": "Por Ti vivo na luz."
-          }
+        "text": [
+          "I[G]menso_e puro [C]é Teu a[G]mor,",
+          "Meu [C]Salvador, Je[G]sus;",
+          "Estás em [G7]meu cora[C]ção, Senhor;",
+          "Por [D]Ti vivo na [G]luz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  G           C       G",
-            "lyrics": "Sublime sorte coube a mim,"
-          },
-          {
-            "chords": "    C            G",
-            "lyrics": "Por Ti, ó meu Senhor,"
-          },
-          {
-            "chords": "           G7      C ",
-            "lyrics": "Pois vida_eterna terei, ao fim,"
-          },
-          {
-            "chords": "   D             G",
-            "lyrics": "No Teu reino de_amor."
-          }
+        "text": [
+          "Su[G]blime sorte [C]coube a [G]mim,",
+          "Por [C]Ti, ó meu Sen[G]hor,",
+          "Pois vida_e[G7]terna te[C]rei, ao fim,",
+          "No [D]Teu reino de_a[G]mor."
         ]
       },
       {

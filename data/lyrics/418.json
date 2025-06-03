@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só Jesus Cristo, santo Cordeiro",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         D       D°       D",
-            "lyrics": "Só Jesus Cristo, santo Cordeiro,"
-          },
-          {
-            "chords": "                           A",
-            "lyrics": "Reconciliou-nos com nosso Deus;"
-          },
-          {
-            "chords": "D               D°        D",
-            "lyrics": "Vertendo sangue sobre_o madeiro,"
-          },
-          {
-            "chords": "         E                 A    A7...",
-            "lyrics": "Nos preparou a glória dos céus."
-          }
+        "text": [
+          "Só Jesus [D]Cristo, [D°]santo Cor[D]deiro,",
+          "Reconciliou-nos com nosso D[A]eus;",
+          "[D]Vertendo sangue [D°]sobre_o ma[D]deiro,",
+          "Nos prepa[E]rou a glória dos c[A]éus.[A7...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D        G                D",
-            "lyrics": "Pelo Seu sangue, certos estamos"
-          },
-          {
-            "chords": "            A                D",
-            "lyrics": "Que, nossas faltas, a Deus pagou;"
-          },
-          {
-            "chords": "        G              D",
-            "lyrics": "Com reverência nós exaltamos"
-          },
-          {
-            "chords": "         A                 D",
-            "lyrics": "A Jesus Cristo, que nos livrou."
-          }
+        "text": [
+          "[D]Pelo Seu [G]sangue, certos es[D]tamos",
+          "Que, nossas [A]faltas, a Deus pa[D]gou;",
+          "Com reve[G]rência nós exal[D]tamos",
+          "A Jesus C[A]risto, que nos liv[D]rou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "           D     D°     D",
-            "lyrics": "Cristo foi morto e sepultado,"
-          },
-          {
-            "chords": "                         A",
-            "lyrics": "Mas triunfante, ressuscitou;"
-          },
-          {
-            "chords": "D               D°     D",
-            "lyrics": "Fomos, por Ele, justificados,"
-          },
-          {
-            "chords": "         E                 A    A7...",
-            "lyrics": "Na obra que, na cruz, consumou."
-          }
+        "text": [
+          "Cristo foi [D]morto [D°]e sepul[D]tado,",
+          "Mas triunfante, ressuscit[A]ou;",
+          "[D]Fomos, por Ele, [D°]justifi[D]cados,",
+          "Na obra q[E]ue, na cruz, consu[A]mou.[A7...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         D     D°        D",
-            "lyrics": "A Jesus Cristo sempre louvemos,"
-          },
-          {
-            "chords": "                            A",
-            "lyrics": "Pois, deste mundo, nos separou;"
-          },
-          {
-            "chords": "D             D°       D",
-            "lyrics": "Toda a glória Lhe tributemos,"
-          },
-          {
-            "chords": "         E               A    A7...",
-            "lyrics": "Da pena_eterna nos libertou."
-          }
+        "text": [
+          "A Jesus C[D]risto [D°]sempre lou[D]vemos,",
+          "Pois, deste mundo, nos separ[A]ou;",
+          "[D]Toda a glória [D°]Lhe tribu[D]temos,",
+          "Da pena_e[E]terna nos libert[A]ou.[A7...]"
         ]
       },
       {

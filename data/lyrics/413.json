@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Foi por mim que morreste",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         F                  Bb       F",
-            "lyrics": "Foi por mim que morreste, Jesus Redentor,"
-          },
-          {
-            "chords": "     C                  F",
-            "lyrics": "Por amor, para dar-me a fé;"
-          },
-          {
-            "chords": "                            Bb        F",
-            "lyrics": "Fé em Deus, que me livra do mal, ó Senhor,"
-          },
-          {
-            "chords": "     C                  F",
-            "lyrics": "E conserva-me sempre de pé."
-          }
+        "text": [
+          "Foi por m[F]im que morreste, Je[Bb]sus Reden[F]tor,",
+          "Por a[C]mor, para dar-me a [F]fé;",
+          "Fé em Deus, que me livra do [Bb]mal, ó Sen[F]hor,",
+          "E con[C]serva-me sempre de [F]pé."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Ao Cordeiro de Deus, sempre glória darei,"
-          },
-          {
-            "chords": "         G7                C    ",
-            "lyrics": "Pois, do céu, veio para salvar;"
-          },
-          {
-            "chords": "C7     F                   Bb    F",
-            "lyrics": "Ao meu bom Salvador sempre exaltarei;"
-          },
-          {
-            "chords": "       Bb          C        F",
-            "lyrics": "Santas bênçãos me faz desfrutar."
-          }
+        "text": [
+          "Ao Cor[F]deiro de Deus, sempre glória darei,",
+          "Pois, do [G7]céu, veio para sal[C]var;",
+          "[C7]Ao meu [F]bom Salvador sempre [Bb]exalta[F]rei;",
+          "Santas [Bb]bênçãos me f[C]az desfru[F]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      F                Bb      F",
-            "lyrics": "Pelo Teu sacrifício, Jesus Remidor,"
-          },
-          {
-            "chords": "    C                     F",
-            "lyrics": "Me abriste_o caminho dos céus;"
-          },
-          {
-            "chords": "                       Bb         F",
-            "lyrics": "Dos pecados lavaste minh´alma, Senhor,"
-          },
-          {
-            "chords": "     C                    F",
-            "lyrics": "Comunhão tenho_agora com Deus."
-          }
+        "text": [
+          "Pelo T[F]eu sacrifício, Je[Bb]sus Remi[F]dor,",
+          "Me a[C]briste_o caminho dos c[F]éus;",
+          "Dos pecados lavaste min[Bb]h´alma, Sen[F]hor,",
+          "Comun[C]hão tenho_agora com D[F]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       F                 Bb        F",
-            "lyrics": "Bom Jesus, por Teu ato sublime de_amor"
-          },
-          {
-            "chords": "       C                     F",
-            "lyrics": "Me trouxeste, de Deus, o perdão;"
-          },
-          {
-            "chords": "                      Bb           F",
-            "lyrics": "Levarás minha alma ao lar de_esplendor,"
-          },
-          {
-            "chords": "     C               F",
-            "lyrics": "Onde receberei galardão."
-          }
+        "text": [
+          "Bom Jes[F]us, por Teu ato su[Bb]blime de_a[F]mor",
+          "Me trou[C]xeste, de Deus, o perd[F]ão;",
+          "Levarás minha alma ao [Bb]lar de_esplen[F]dor,",
+          "Onde [C]receberei galard[F]ão."
         ]
       },
       {

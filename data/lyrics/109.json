@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem, ó Senhor, ajudar-me",
   "tone": {
     "recommended": "B"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                 F#7                      B",
-            "lyrics": "Vem, ó Senhor, ajudar-me nas minhas tribulações."
-          },
-          {
-            "chords": "                      F#7         B",
-            "lyrics": "Eu, confiante,_espero Tuas libertações."
-          }
+        "text": [
+          "[B]Vem, ó Senhor, aju[F#7]dar-me nas minhas tribula[B]ções.",
+          "Eu, confiante,_espero [F#7]Tuas liberta[B]ções."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B             F#7                  B",
-            "lyrics": "Vem ajudar-me sempre, ó forte Defensor,"
-          },
-          {
-            "chords": "               E    F#7            B",
-            "lyrics": "Para que nesta vida possa ser vencedor."
-          }
+        "text": [
+          "[B]Vem ajudar-me [F#7]sempre, ó forte Defen[B]sor,",
+          "Para que nesta [E]vida [F#7]possa ser vence[B]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                 F#7                     B",
-            "lyrics": "Vem, ó Senhor, ajudar-me neste meu peregrinar;"
-          },
-          {
-            "chords": "                      F#7          B",
-            "lyrics": "Nas provações e lutas podes me abrigar."
-          }
+        "text": [
+          "[B]Vem, ó Senhor, aju[F#7]dar-me neste meu peregri[B]nar;",
+          "Nas provações e lutas [F#7]podes me abri[B]gar."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                 F#7                   B",
-            "lyrics": "Vem, ó Senhor, ajudar-me para poder batalhar;"
-          },
-          {
-            "chords": "                    F#7          B",
-            "lyrics": "Reveste-me de força para não vacilar."
-          }
+        "text": [
+          "[B]Vem, ó Senhor, aju[F#7]dar-me para poder bata[B]lhar;",
+          "Reveste-me de força [F#7]para não vaci[B]lar."
         ]
       },
       {

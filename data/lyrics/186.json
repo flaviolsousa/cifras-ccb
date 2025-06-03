@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo, Luz do mundo",
   "tone": {
     "recommended": "E"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E                  A           E",
-            "lyrics": "Onde_havia pranto, júbilo se_ouviu;"
-          },
-          {
-            "chords": "B7                             E",
-            "lyrics": "Em lugar de dor, eterna paz surgiu;"
-          },
-          {
-            "chords": "                      E7    A ",
-            "lyrics": "Onde dominou completa sequidão,"
-          },
-          {
-            "chords": "         E                 B7   E",
-            "lyrics": "Águas brotaram e trouxeram salvação."
-          }
+        "text": [
+          "[E]Onde_havia pranto, [A]júbilo se_ou[E]viu;",
+          "[B7]Em lugar de dor, eterna paz sur[E]giu;",
+          "Onde dominou completa [E7]sequid[A]ão,",
+          "Águas bro[E]taram e trouxeram [B7]salva[E]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B7             E",
-            "lyrics": "Cristo, Luz do mundo,"
-          },
-          {
-            "chords": "A     E                   B7    E",
-            "lyrics": "É o Autor de tão preciosa redenção."
-          }
+        "text": [
+          "[B7]Cristo, Luz do [E]mundo,",
+          "[A]É o Au[E]tor de tão preciosa [B7]redenç[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E                       A          E",
-            "lyrics": "Cristo,_Estrela d´Alva, Luz celestial,"
-          },
-          {
-            "chords": "B7                           E",
-            "lyrics": "Que resplandeceu a todo o mortal,"
-          },
-          {
-            "chords": "                          E7    A ",
-            "lyrics": "Veio_anunciar que_a noite já passou"
-          },
-          {
-            "chords": "        E              B7    E",
-            "lyrics": "E que o dia da justiça já chegou."
-          }
+        "text": [
+          "[E]Cristo,_Estrela d´Alva, [A]Luz celesti[E]al,",
+          "[B7]Que resplandeceu a todo o mor[E]tal,",
+          "Veio_anunciar que_a noite [E7]já pas[A]sou",
+          "E que o [E]dia da justiça [B7]já che[E]gou."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E                    A           E",
-            "lyrics": "Cristo, Conselheiro, Príncipe da paz,"
-          },
-          {
-            "chords": "B7                                 E",
-            "lyrics": "Pão que vem do céu e vida_a todos traz,"
-          },
-          {
-            "chords": "                        E7     A ",
-            "lyrics": "Reino divinal que sobre nós desceu,"
-          },
-          {
-            "chords": "         E                     B7   E",
-            "lyrics": "É_o Salvador que Deus ao homem prometeu."
-          }
+        "text": [
+          "[E]Cristo, Conselheiro, [A]Príncipe da [E]paz,",
+          "[B7]Pão que vem do céu e vida_a todos t[E]raz,",
+          "Reino divinal que sobre [E7]nós des[A]ceu,",
+          "É_o Salva[E]dor que Deus ao homem [B7]prome[E]teu."
         ]
       },
       {

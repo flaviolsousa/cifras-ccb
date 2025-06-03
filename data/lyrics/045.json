@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Quanto nos amaste!",
   "tone": {
     "recommended": "C"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                            F",
-            "lyrics": "Manda-nos, ó Senhor, bênçãos lá dos céus,"
-          },
-          {
-            "chords": "C/E    F         G              C",
-            "lyrics": "Que conforto nos dão, ó eterno Deus,"
-          },
-          {
-            "chords": "     Dm                E",
-            "lyrics": "Para Teus feitos anunciar"
-          },
-          {
-            "chords": "Am  A7        Dm      G ",
-            "lyrics": "E o Teu santo Nome louvar."
-          }
+        "text": [
+          "[C]Manda-nos, ó Senhor, bênçãos [F]lá dos céus,",
+          "[C/E]Que con[F]forto nos [G]dão, ó eterno D[C]eus,",
+          "Para [Dm]Teus feitos anunci[E]ar",
+          "[Am]E o [A7]Teu santo [Dm]Nome lou[G]var."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C               G                  C",
-            "lyrics": "Oh! Quanto nos amaste, bondoso Criador!"
-          },
-          {
-            "chords": "C/E    F           G             C",
-            "lyrics": "Dá-nos mais do Teu santo e puro_amor."
-          }
+        "text": [
+          "[C]Oh! Quanto nos a[G]maste, bondoso Cria[C]dor!",
+          "[C/E]Dá-nos [F]mais do Teu [G]santo e puro_a[C]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                    F",
-            "lyrics": "Manda Tua Palavra, ó Formador,"
-          },
-          {
-            "chords": "C/E    F      G            C",
-            "lyrics": "Pelo_Espírito Santo Consolador;"
-          },
-          {
-            "chords": "    Dm                   E",
-            "lyrics": "Desejamos melhor compreender"
-          },
-          {
-            "chords": "Am    A7     Dm       G",
-            "lyrics": "Teu divino e santo querer."
-          }
+        "text": [
+          "[C]Manda Tua Palavra, ó [F]Formador,",
+          "[C/E]Pelo_Es[F]pírito [G]Santo Consola[C]dor;",
+          "Dese[Dm]jamos melhor compreen[E]der",
+          "[Am]Teu di[A7]vino e [Dm]santo que[G]rer."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                       F",
-            "lyrics": "Continua, Senhor, a nos ensinar;"
-          },
-          {
-            "chords": "C/E    F         G          C",
-            "lyrics": "Nossas mentes Tu podes iluminar"
-          },
-          {
-            "chords": "     Dm                  E",
-            "lyrics": "Para que nós possamos vencer"
-          },
-          {
-            "chords": "Am    A7        Dm      G",
-            "lyrics": "E, ao fim, galardão receber."
-          }
+        "text": [
+          "[C]Continua, Senhor, a nos [F]ensinar;",
+          "[C/E]Nossas [F]mentes Tu [G]podes ilumi[C]nar",
+          "Para [Dm]que nós possamos ven[E]cer",
+          "[Am]E, ao [A7]fim, galar[Dm]dão rece[G]ber."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Vinde após Mim\"",
   "tone": {
     "recommended": "D"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "“Vinde_após Mim”, falou o Senhor;"
-          },
-          {
-            "chords": "B7       Em       A7      D",
-            "lyrics": "Quem O seguir, na luz andará;"
-          },
-          {
-            "chords": "Dm         Am     E7     A",
-            "lyrics": "Grandes mistérios do Criador;"
-          },
-          {
-            "chords": "A7       D   E7  A7    D    D...",
-            "lyrics": "Cristo Jesus lhe mostrará."
-          }
+        "text": [
+          "[D]“Vinde_após Mim”, falou o Senhor;",
+          "[B7]Quem O se[Em]guir, na [A7]luz anda[D]rá;",
+          "[Dm]Grandes mis[Am]térios [E7]do Cria[A]dor;",
+          "[A7]Cristo Je[D]sus [E7]lhe [A7]mostra[D]rá.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "“Vinde_após Mim”, convida Jesus,"
-          },
-          {
-            "chords": "B7     Em    A7     D",
-            "lyrics": "O Salvador, Amigo leal,"
-          },
-          {
-            "chords": "Dm        Am    E7    A",
-            "lyrics": "Que, ao fiel, envia a luz"
-          },
-          {
-            "chords": "A7       D    E7  A7     D    D...",
-            "lyrics": "Para_o livrar de  todo_o mal."
-          }
+        "text": [
+          "[D]“Vinde_após Mim”, convida Jesus,",
+          "[B7]O Salva[Em]dor, A[A7]migo le[D]al,",
+          "[Dm]Que, ao fi[Am]el, en[E7]via a [A]luz",
+          "[A7]Para_o li[D]vrar [E7]de  [A7]todo_o [D]mal.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Encontrará a senda do bem"
-          },
-          {
-            "chords": "B7       Em     A7       D",
-            "lyrics": "Quem atender ao Filho de Deus;"
-          },
-          {
-            "chords": "Dm      Am    E7       A",
-            "lyrics": "Preciosidades o Mestre tem"
-          },
-          {
-            "chords": "A7     D  E7  A7     D    D...",
-            "lyrics": "Para doar aos santos Seus."
-          }
+        "text": [
+          "[D]Encontrará a senda do bem",
+          "[B7]Quem aten[Em]der ao [A7]Filho de [D]Deus;",
+          "[Dm]Preciosi[Am]dades [E7]o Mestre [A]tem",
+          "[A7]Para do[D]ar [E7]aos [A7]santos [D]Seus.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Nobres na fé por Cristo, serão"
-          },
-          {
-            "chords": "B7        Em     A7         D",
-            "lyrics": "Os Seus fiéis herdeiros dos céus,"
-          },
-          {
-            "chords": "Dm        Am      E7    A",
-            "lyrics": "Que, para sempre, exultarão,"
-          },
-          {
-            "chords": "A7       D   E7  A7     D    D...",
-            "lyrics": "Contemplarão o   grande Deus."
-          }
+        "text": [
+          "[D]Nobres na fé por Cristo, serão",
+          "[B7]Os Seus fi[Em]éis her[A7]deiros dos [D]céus,",
+          "[Dm]Que, para [Am]sempre, [E7]exulta[A]rão,",
+          "[A7]Contempla[D]rão [E7]o   [A7]grande [D]Deus.[D...]"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Constantemente oremos a Deus",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C               G        C",
-            "lyrics": "Constantemente oremos a Deus,"
-          },
-          {
-            "chords": "                 D7       G7 ",
-            "lyrics": "Ao Pai celeste devemos clamar,"
-          },
-          {
-            "chords": "C                G         C",
-            "lyrics": "Ele trabalha por todos os Seus"
-          },
-          {
-            "chords": "G                  D7        G  G7... ",
-            "lyrics": "E os fará, sobre_o mal, triunfar."
-          }
+        "text": [
+          "[C]Constantemente o[G]remos a D[C]eus,",
+          "Ao Pai celeste de[D7]vemos cla[G7]mar,",
+          "[C]Ele trabalha por [G]todos os S[C]eus",
+          "[G]E os fará, sobre_o [D7]mal, triun[G]far[G7...]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C      G7                 C",
-            "lyrics": "Oremos com fervor e sem desanimar,"
-          },
-          {
-            "chords": "         F        D7        G7 ",
-            "lyrics": "Nosso clamor chegará lá nos céus;"
-          },
-          {
-            "chords": "C         G7             C",
-            "lyrics": "Deus nos atenderá e nos ajudará;"
-          },
-          {
-            "chords": "            F        G7        C",
-            "lyrics": "Ele_é_a_Esperança de todos os Seus."
-          }
+        "text": [
+          "[C]Oremos [G7]com fervor e sem de[C]sanimar,",
+          "Nosso cla[F]mor chega[D7]rá lá nos [G7]céus;",
+          "[C]Deus nos a[G7]tenderá e nos a[C]judará;",
+          "Ele_é_a_Espe[F]rança de [G7]todos os S[C]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                  G       C",
-            "lyrics": "Com paciência,_esperança e fé,"
-          },
-          {
-            "chords": "                  D7          G7 ",
-            "lyrics": "Firmes sejamos em Cristo,_o Senhor,"
-          },
-          {
-            "chords": "C                 G       C",
-            "lyrics": "Pois Sua volta já próxima é;"
-          },
-          {
-            "chords": "G               D7       G  G7... ",
-            "lyrics": "Terminará a tristeza e_a dor."
-          }
+        "text": [
+          "[C]Com paciência,_espe[G]rança e [C]fé,",
+          "Firmes sejamos em [D7]Cristo,_o Se[G7]nhor,",
+          "[C]Pois Sua volta já [G]próxima [C]é;",
+          "[G]Terminará a tris[D7]teza e_a [G]dor[G7...]."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                      G         C",
-            "lyrics": "Cristo_é_o Caminho que leva aos céus,"
-          },
-          {
-            "chords": "               D7      G7 ",
-            "lyrics": "Sempre a Ele devemos seguir;"
-          },
-          {
-            "chords": "C                    G          C",
-            "lyrics": "Quem for fiel aos preceitos de Deus,"
-          },
-          {
-            "chords": "G            D7      G  G7... ",
-            "lyrics": "Vida eterna irá possuir."
-          }
+        "text": [
+          "[C]Cristo_é_o Caminho que [G]leva aos c[C]éus,",
+          "Sempre a Ele de[D7]vemos se[G7]guir;",
+          "[C]Quem for fiel aos pre[G]ceitos de D[C]eus,",
+          "[G]Vida eterna i[D7]rá possu[G]ir.[G7...]"
         ]
       },
       {

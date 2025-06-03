@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O sangue precioso",
   "tone": {
     "recommended": "G"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  G                              D",
-            "lyrics": "O sangue precioso, vertido do Senhor,"
-          },
-          {
-            "chords": "  G                      D           G",
-            "lyrics": "Redime_e justifica quem crer no Salvador."
-          }
+        "text": [
+          "O [G]sangue precioso, vertido do Sen[D]hor,",
+          "Re[G]dime_e justifica quem c[D]rer no Salva[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        G       C            D     G",
-            "lyrics": "Com Seu sangue, Cristo nos lavou e nos purificou;"
-          },
-          {
-            "chords": "                   D         G    G...",
-            "lyrics": "Na cruz, as nossas dívidas pagou."
-          }
+        "text": [
+          "Com Seu [G]sangue, [C]Cristo nos la[D]vou e [G]nos purificou;",
+          "Na cruz, as nossas [D]dívidas pa[G]gou.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G                                     D",
-            "lyrics": "Sejamos sempre gratos, Seu sangue nos lavou;"
-          },
-          {
-            "chords": "   G                    D               G",
-            "lyrics": "Em comunhão, louvemos Jesus, que nos salvou."
-          }
+        "text": [
+          "Se[G]jamos sempre gratos, Seu sangue nos la[D]vou;",
+          "Em [G]comunhão, louvemos Je[D]sus, que nos sal[G]vou."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G                                  D",
-            "lyrics": "Em breve nós veremos, em grande esplendor,"
-          },
-          {
-            "chords": "    G                D          G",
-            "lyrics": "De glória coroado, Jesus, o Remidor."
-          }
+        "text": [
+          "Em [G]breve nós veremos, em grande esplen[D]dor,",
+          "De g[G]lória coroado, Je[D]sus, o Remi[G]dor."
         ]
       },
       {

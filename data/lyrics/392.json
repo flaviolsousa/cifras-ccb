@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Com Jesus, a Esperança",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Com Jesus, a Esperança, caminhemos com fervor,"
-          },
-          {
-            "chords": "                                E ",
-            "lyrics": "Todos firmes, jubilando_em Seu amor;"
-          },
-          {
-            "chords": "      A                         D              A",
-            "lyrics": "Com o dom da fé iremos, junto_a Cristo,_o Redentor,"
-          },
-          {
-            "chords": "      D     E   A",
-            "lyrics": "À_eternal Jerusalém."
-          }
+        "text": [
+          "Com Jes[A]us, a Esperança, caminhemos com fervor,",
+          "Todos firmes, jubilando_em Seu a[E]mor;",
+          "Com o [A]dom da fé iremos, junto_a [D]Cristo,_o Reden[A]tor,",
+          "À_eter[D]nal Je[E]rusa[A]lém."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     D                     A ",
-            "lyrics": "Novo hino cantaremos ao Cordeiro divinal"
-          },
-          {
-            "chords": "     E                  F#m  ",
-            "lyrics": "No sublime lar, pátria eternal;"
-          },
-          {
-            "chords": "    D                     A",
-            "lyrics": "Sua face lá veremos e Seu brilho sem igual,"
-          },
-          {
-            "chords": "            E       A",
-            "lyrics": "Na_eternal    Jerusalém."
-          }
+        "text": [
+          "Novo [D]hino cantaremos ao Cor[A]deiro divinal",
+          "No su[E]blime lar, pátria e[F#m]ternal;",
+          "Sua [D]face lá veremos e Seu [A]brilho sem igual,",
+          "Na_eternal  [E]  Jerusa[A]lém."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Com Jesus, fiel Guerreiro, pelejemos com valor,"
-          },
-          {
-            "chords": "                          E ",
-            "lyrics": "Resistindo ao astuto tentador;"
-          },
-          {
-            "chords": "      A                      D          A",
-            "lyrics": "Sustentados pela fé, sigamos nosso Redentor"
-          },
-          {
-            "chords": "      D     E   A",
-            "lyrics": "À_eternal Jerusalém."
-          }
+        "text": [
+          "Com Jes[A]us, fiel Guerreiro, pelejemos com valor,",
+          "Resistindo ao astuto tenta[E]dor;",
+          "Susten[A]tados pela fé, sigamos [D]nosso Reden[A]tor",
+          "À_eter[D]nal Je[E]rusa[A]lém."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A",
-            "lyrics": "Com Jesus, a nossa Força, lutaremos sem temor,"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "Venceremos este mundo_enganador;"
-          },
-          {
-            "chords": "      A                         D          A",
-            "lyrics": "Temos viva esperança, Quem nos guia é_o Senhor"
-          },
-          {
-            "chords": "     D     E   A",
-            "lyrics": "À_etenal Jerusalém."
-          }
+        "text": [
+          "Com Jes[A]us, a nossa Força, lutaremos sem temor,",
+          "Venceremos este mundo_engana[E]dor;",
+          "Temos [A]viva esperança, Quem nos g[D]uia é_o Sen[A]hor",
+          "À_ete[D]nal Je[E]rusa[A]lém."
         ]
       },
       {

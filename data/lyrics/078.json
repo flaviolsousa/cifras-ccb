@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Glória a Jesus! Glória a Jesus!",
   "tone": {
     "recommended": "G"
@@ -9,74 +9,32 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                 D ",
-            "lyrics": "Sobre_o monte_e perante_os Seus"
-          },
-          {
-            "chords": "                G",
-            "lyrics": "Cristo transfigurou-Se,"
-          },
-          {
-            "chords": "            D ",
-            "lyrics": "E a voz do eterno Deus,"
-          },
-          {
-            "chords": "                   G",
-            "lyrics": "Da nuvem, fez-se_ouvir:"
-          },
-          {
-            "chords": "                     C    G                  A7    D ",
-            "lyrics": "“Este_é_o Meu Filho_ama - do; n´Ele Eu Me compra - zo.”"
-          }
+        "text": [
+          "[G]Sobre_o monte_e pe[D]rante_os Seus",
+          "Cristo transfigu[G]rou-Se,",
+          "E a voz do e[D]terno Deus,",
+          "Da nuvem, fez-se_ou[G]vir:",
+          "“Este_é_o Meu Filho_a[C]ma - [G]do; n´Ele Eu Me com[A7]pra - [D]zo.”"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D               G",
-            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
-          },
-          {
-            "chords": "C         D      G",
-            "lyrics": "De Quem o Pai testificou;"
-          },
-          {
-            "chords": "C/E             D          G",
-            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
-          },
-          {
-            "chords": "C         D    G",
-            "lyrics": "Que muito nos amou."
-          }
+        "text": [
+          "[D]Glória_a Jesus! [G]Glória_a Jesus!",
+          "[C]De Quem o [D]Pai tes[G]tificou;",
+          "[C/E]Glória_a Jesus! [D]Glória_a Je[G]sus!",
+          "[C]Que muito [D]nos a[G]mou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G              D ",
-            "lyrics": "O Seu rosto resplandeceu"
-          },
-          {
-            "chords": "                G",
-            "lyrics": "E como_o sol tornou-se;"
-          },
-          {
-            "chords": "                 D ",
-            "lyrics": "Seu vestido se_embranqueceu,"
-          },
-          {
-            "chords": "                  G",
-            "lyrics": "Brilhando como_a luz;"
-          },
-          {
-            "chords": "              C    G                       A7   D ",
-            "lyrics": "E os que isto vi - ram, grande_assombro senti - ram."
-          }
+        "text": [
+          "[G]O Seu rosto res[D]plandeceu",
+          "E como_o sol tor[G]nou-se;",
+          "Seu vestido se_em[D]branqueceu,",
+          "Brilhando como_a l[G]uz;",
+          "E os que isto [C]vi - [G]ram, grande_assombro sen[A7]ti - [D]ram."
         ]
       },
       {
@@ -86,27 +44,12 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G             D ",
-            "lyrics": "A Jesus vamos escutar"
-          },
-          {
-            "chords": "               G",
-            "lyrics": "E ser_lhe consagrados;"
-          },
-          {
-            "chords": "               D ",
-            "lyrics": "Sua glória nos vai mostrar,"
-          },
-          {
-            "chords": "                G",
-            "lyrics": "Quando_Ele retornar;"
-          },
-          {
-            "chords": "                 C    G                 A7   D ",
-            "lyrics": "Foi por Deus exalta - do, nosso Mestre ama - do."
-          }
+        "text": [
+          "[G]A Jesus vamos [D]escutar",
+          "E ser_lhe consa[G]grados;",
+          "Sua glória nos [D]vai mostrar,",
+          "Quando_Ele retor[G]nar;",
+          "Foi por Deus exal[C]ta - [G]do, nosso Mestre a[A7]ma - [D]do."
         ]
       },
       {

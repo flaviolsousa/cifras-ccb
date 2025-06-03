@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Glória a Jesus! Aleluia!",
   "tone": {
     "recommended": "C"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " C                                         G ",
-            "lyrics": "Glória_a Jesus! Aleluia! Glória ao grande Rei!"
-          },
-          {
-            "chords": "                                        C",
-            "lyrics": "Glória por todo o sempre a Cristo eu darei;"
-          },
-          {
-            "chords": "                      C7             F ",
-            "lyrics": "Ele me tem conduzido, com fé e com amor,"
-          },
-          {
-            "chords": "        Fm       C      G                C",
-            "lyrics": "Neste caminho de vida; glória ao bom Pastor!"
-          }
+        "text": [
+          "G[C]lória_a Jesus! Aleluia! Glória ao grande R[G]ei!",
+          "Glória por todo o sempre a Cristo eu dar[C]ei;",
+          "Ele me tem conduzido, [C7]com fé e com am[F]or,",
+          "Neste ca[Fm]minho de [C]vida; g[G]lória ao bom Past[C]or!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " C                                       G ",
-            "lyrics": "Glória_a Jesus! Aleluia! Eu sempre cantarei,"
-          },
-          {
-            "chords": "                                        C",
-            "lyrics": "Glória_a Jesus! Aleluia! N´Ele prosperarei;"
-          },
-          {
-            "chords": "                        C7               F ",
-            "lyrics": "Receberei sempre forças do meu bom Salvador"
-          },
-          {
-            "chords": "         Fm        C      G               C",
-            "lyrics": "Para, em todo_o momento, Lhe tributar louvor."
-          }
+        "text": [
+          "G[C]lória_a Jesus! Aleluia! Eu sempre cantar[G]ei,",
+          "Glória_a Jesus! Aleluia! N´Ele prosperar[C]ei;",
+          "Receberei sempre forças [C7]do meu bom Salvad[F]or",
+          "Para, em [Fm]todo_o mom[C]ento, L[G]he tributar louv[C]or."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " C                                       G ",
-            "lyrics": "Glória_a Jesus! Aleluia! Por minha salvação,"
-          },
-          {
-            "chords": "                                       C ",
-            "lyrics": "Glória e honra Lhe devo, e minha gratidão;"
-          },
-          {
-            "chords": "                       C7             F ",
-            "lyrics": "Merecedor é meu Mestre de receber louvor,"
-          },
-          {
-            "chords": "          Fm     C       G               C",
-            "lyrics": "Pois me dará a vitória, por Seu imenso_amor."
-          }
+        "text": [
+          "G[C]lória_a Jesus! Aleluia! Por minha salvaç[G]ão,",
+          "Glória e honra Lhe devo, e minha gratid[C]ão;",
+          "Merecedor é meu Mestre [C7]de receber louv[F]or,",
+          "Pois me da[Fm]rá a vi[C]tória, p[G]or Seu imenso_am[C]or."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                                      G ",
-            "lyrics": "Glória, glória_a Jesus, o meu Pastor fiel!"
-          },
-          {
-            "chords": "                                 C",
-            "lyrics": "Glória ao Salvador, Cristo, Emanuel; "
-          },
-          {
-            "chords": "                    C7              F ",
-            "lyrics": "Glória não cessarei de dar ao Redentor;"
-          },
-          {
-            "chords": "      Fm         C                G     C",
-            "lyrics": "Minha alma_engrandece_ao meu eternal Senhor!"
-          }
+        "text": [
+          "[C]Glória, glória_a Jesus, o meu Pastor fi[G]el!",
+          "Glória ao Salvador, Cristo, Emanu[C]el; ",
+          "Glória não cessarei [C7]de dar ao Redent[F]or;",
+          "Minha [Fm]alma_engran[C]dece_ao meu etern[G]al Sen[C]hor!"
         ]
       }
     ]

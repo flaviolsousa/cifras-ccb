@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Do mal o Salvador veio me tirar",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   C",
-            "lyrics": "Do mundo do pecado, veio me tirar"
-          },
-          {
-            "chords": "  F          C                   G ",
-            "lyrics": "Jesus, o Poderoso, que me fará entrar"
-          },
-          {
-            "chords": "   C",
-            "lyrics": "Na terra da promessa, pois herdeiro sou."
-          },
-          {
-            "chords": "    F              C           G          C",
-            "lyrics": "Oh! Glória_a Jesus Cristo, que já me resgatou!"
-          }
+        "text": [
+          "Do [C]mundo do pecado, veio me tirar",
+          "Je[F]sus, o Pode[C]roso, que me fará en[G]trar",
+          "Na [C]terra da promessa, pois herdeiro sou.",
+          "Oh! [F]Glória_a Jesus [C]Cristo, que [G]já me resga[C]tou!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   C",
-            "lyrics": "Do mal o Salvador veio me tirar,"
-          },
-          {
-            "chords": "    F         C      Am      D    G ",
-            "lyrics": "Com Sua forte mão ao céu vai me levar;"
-          },
-          {
-            "chords": " C",
-            "lyrics": "Avante seguirei com o meu Senhor,"
-          },
-          {
-            "chords": "  F           C             G   C   C...",
-            "lyrics": "E lá darei louvores a Deus, Criador."
-          }
+        "text": [
+          "Do [C]mal o Salvador veio me tirar,",
+          "Com [F]Sua forte [C]mão ao [Am]céu vai [D]me le[G]var;",
+          "A[C]vante seguirei com o meu Senhor,",
+          "E [F]lá darei lou[C]vores a Deus, [G]Cria[C]dor.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  C",
-            "lyrics": "Fiel é a promessa do eterno Rei:"
-          },
-          {
-            "chords": "   F          C                 G ",
-            "lyrics": "Na terra gloriosa um galardão terei;"
-          },
-          {
-            "chords": "    C",
-            "lyrics": "Meu Salvador me guia com saber e luz."
-          },
-          {
-            "chords": "   F         C         G         C",
-            "lyrics": "Louvores ao Eterno! Louvores a Jesus!"
-          }
+        "text": [
+          "Fi[C]el é a promessa do eterno Rei:",
+          "Na [F]terra glori[C]osa um galardão te[G]rei;",
+          "Meu [C]Salvador me guia com saber e luz.",
+          "Lou[F]vores ao E[C]terno! Lou[G]vores a Je[C]sus!"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C",
-            "lyrics": "Não volto ao pecado, sigo meu Senhor;"
-          },
-          {
-            "chords": "    F           C                    G ",
-            "lyrics": "Por fé eu já desfruto as bênçãos de amor"
-          },
-          {
-            "chords": "    C",
-            "lyrics": "Que foram prometidas pelo Criador;"
-          },
-          {
-            "chords": "   F            C       G           C",
-            "lyrics": "No céu, já me esperam riquezas de valor."
-          }
+        "text": [
+          "Não [C]volto ao pecado, sigo meu Senhor;",
+          "Por [F]fé eu já des[C]fruto as bênçãos de a[G]mor",
+          "Que [C]foram prometidas pelo Criador;",
+          "No [F]céu, já me es[C]peram ri[G]quezas de va[C]lor."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sublime é o perdão!",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                    D            G",
-            "lyrics": "“Setenta vezes sete ao teu irmão perdoa”,"
-          },
-          {
-            "chords": "  C            D                   G",
-            "lyrics": "Assim falou o Mestre ao ser interrogado;"
-          },
-          {
-            "chords": "                      D        G",
-            "lyrics": "Se tu o perdoares, serás abençoado"
-          },
-          {
-            "chords": "   C        D                     G",
-            "lyrics": "E bem-aventurado. Sublime é_o perdão!"
-          }
+        "text": [
+          "“Se[G]tenta vezes sete ao t[D]eu irmão perd[G]oa”,",
+          "As[C]sim falou o M[D]estre ao ser interro[G]gado;",
+          "Se tu o perdoares, ser[D]ás abenço[G]ado",
+          "E b[C]em-aventu[D]rado. Sublime é_o perd[G]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G                     D              G",
-            "lyrics": "Medita,_irmão amado, no grande_amor de Cristo"
-          },
-          {
-            "chords": "   C           D                G ",
-            "lyrics": "E busca_a excelente, eterna Caridade;"
-          },
-          {
-            "chords": "                        D           G",
-            "lyrics": "Caminha na justiça, na paz, na santidade,"
-          },
-          {
-            "chords": "    C        D                     G",
-            "lyrics": "Em toda humildade. Sublime é_o perdão!"
-          }
+        "text": [
+          "Med[G]ita,_irmão amado, no g[D]rande_amor de C[G]risto",
+          "E b[C]usca_a excel[D]ente, eterna Cari[G]dade;",
+          "Caminha na justiça, na p[D]az, na santi[G]dade,",
+          "Em t[C]oda humil[D]dade. Sublime é_o perd[G]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G                      D         G",
-            "lyrics": "Se teu irmão amares de_um coração sincero,"
-          },
-          {
-            "chords": "  C            D                   G ",
-            "lyrics": "Terás a vida_eterna na celestial cidade;"
-          },
-          {
-            "chords": "                   D             G",
-            "lyrics": "Embora ofendido, suporta com piedade,"
-          },
-          {
-            "chords": "    C            D                    G",
-            "lyrics": "Conserva_a santidade. Sublime é_o perdão!"
-          }
+        "text": [
+          "Se t[G]eu irmão amares de_um c[D]oração sin[G]cero,",
+          "Te[C]rás a vida_et[D]erna na celestial ci[G]dade;",
+          "Embora ofendido, su[D]porta com pied[G]ade,",
+          "Cons[C]erva_a santid[D]ade. Sublime é_o perd[G]ão!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    D                           G",
-            "lyrics": "Perdoa teu irmão de todo_o coração,"
-          },
-          {
-            "chords": "  C             D                 G",
-            "lyrics": "Assim terás cumprido o santo mandamento;"
-          },
-          {
-            "chords": "   D                              G",
-            "lyrics": "Também terás perdão e paz no coração;"
-          },
-          {
-            "chords": "     C             D                      G",
-            "lyrics": "Por Deus serás benquisto. Sublime é_o perdão!"
-          }
+        "text": [
+          "Perd[D]oa teu irmão de todo_o coraç[G]ão,",
+          "As[C]sim terás cump[D]rido o santo manda[G]mento;",
+          "Tam[D]bém terás perdão e paz no coraç[G]ão;",
+          "Por D[C]eus serás benq[D]uisto. Sublime é_o perd[G]ão!"
         ]
       }
     ]

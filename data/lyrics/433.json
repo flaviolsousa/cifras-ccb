@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Na santa escola",
   "tone": {
     "recommended": "B"
@@ -9,73 +9,37 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  B          F#          B",
-            "lyrics": "Estamos, ó meninos, na_escola do Senhor;"
-          },
-          {
-            "chords": "   E            B        E          B",
-            "lyrics": "Cantemos santos hinos a Deus, o Criador."
-          },
-          {
-            "chords": "                           G#m            C#m  F#  B    B...",
-            "lyrics": "Na santa_escola do Mestre_eterno há bem super  -   no."
-          }
+        "text": [
+          "Es[B]tamos, ó me[F#]ninos, na_es[B]cola do Senhor;",
+          "Can[E]temos santos [B]hinos a D[E]eus, o Cria[B]dor.",
+          "Na santa_escola do Mestre_e[G#m]terno há bem su[C#m]per  [F#]-   [B]no.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   B           F#        B",
-            "lyrics": "Jesus, o nosso Mestre, ensina com amor"
-          },
-          {
-            "chords": "   E           B          E           B",
-            "lyrics": "A_eterna lei celeste, que leva_ao Criador."
-          },
-          {
-            "chords": "                          G#m       C#m  F#  B    B...",
-            "lyrics": "Na santa_escola o Mestre_amado é adora   -   do."
-          }
+        "text": [
+          "Jes[B]us, o nosso [F#]Mestre, en[B]sina com amor",
+          "A_e[E]terna lei ce[B]leste, que [E]leva_ao Cria[B]dor.",
+          "Na santa_escola o Mestre_a[G#m]mado é ado[C#m]ra   [F#]-   [B]do.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  B         F#      B",
-            "lyrics": "O santo Evangelho viemos aprender;"
-          },
-          {
-            "chords": "   E           B        E         B",
-            "lyrics": "De Cristo o conselho queremos atender."
-          },
-          {
-            "chords": "                           G#m          C#m  F#  B    B...",
-            "lyrics": "Na santa_escola o Mestre_ensina a sã doutri  -   na."
-          }
+        "text": [
+          "O [B]santo Evan[F#]gelho vi[B]emos aprender;",
+          "De [E]Cristo o con[B]selho que[E]remos aten[B]der.",
+          "Na santa_escola o Mestre_en[G#m]sina a sã dou[C#m]tri  [F#]-   [B]na.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "  B          F#       B",
-            "lyrics": "Ó jovens e meninos, devemos conservar"
-          },
-          {
-            "chords": "   E          B       E          B",
-            "lyrics": "Os divinais ensinos e neles caminhar."
-          },
-          {
-            "chords": "                            G#m          C#m  F#  B    B...",
-            "lyrics": "Na santa_escola ao Mestre_ouvimos e O servi   -  mos."
-          }
+        "text": [
+          "Ó [B]jovens e me[F#]ninos, de[B]vemos conservar",
+          "Os [E]divinais en[B]sinos e [E]neles camin[B]har.",
+          "Na santa_escola ao Mestre_ou[G#m]vimos e O ser[C#m]vi   [F#]-  m[B]os.[B...]"
         ]
       }
     ]

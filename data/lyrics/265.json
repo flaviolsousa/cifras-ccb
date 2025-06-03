@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bençãos dos céus prometidas",
   "tone": {
     "recommended": "C"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " C                            F                C",
-            "lyrics": "Bênçãos dos céus prometidas, nós esperamos, Senhor,"
-          },
-          {
-            "chords": " G                  C       D7                  G    G7... ",
-            "lyrics": "Pois o Evangelho seguimos, fruto do Teu grande amor."
-          }
+        "text": [
+          "B[C]ênçãos dos céus prometidas, n[F]ós esperamos, Sen[C]hor,",
+          "P[G]ois o Evangelho seg[C]uimos, f[D7]ruto do Teu grande a[G]mor.[G7...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C           F ",
-            "lyrics": "Ó Criador, bênçãos dos céus,"
-          },
-          {
-            "chords": "G                C     D7               G    G7 ",
-            "lyrics": "Os Teus amados esperam ansiosamente, Senhor;"
-          },
-          {
-            "chords": "C              C7  F        E ",
-            "lyrics": "Pai celestial,     ouve os Teus;"
-          },
-          {
-            "chords": "F                 C      G                   C",
-            "lyrics": "Bálsamo às nossas almas são Tuas bênçãos de amor."
-          }
+        "text": [
+          "[C]Ó Criador, b[F]ênçãos dos céus,",
+          "[G]Os Teus amados es[C]peram [D7]ansiosamente, Sen[G]hor;[G7]",
+          "[C]Pai celestial, [C7]    [F]ouve os T[E]eus;",
+          "[F]Bálsamo às nossas [C]almas s[G]ão Tuas bênçãos de a[C]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " C                            F               C",
-            "lyrics": "Nós, os Teus santos, pedimos humildemente, Senhor;"
-          },
-          {
-            "chords": " G               C     D7               G    G7... ",
-            "lyrics": "\"As Tuas mãos piedosas abre em nosso favor.\""
-          }
+        "text": [
+          "N[C]ós, os Teus santos, pedimos h[F]umildemente, Sen[C]hor;",
+          "\"[G]As Tuas mãos pie[C]dosas [D7]abre em nosso fav[G]or.\"[G7...]"
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " C                          F               C",
-            "lyrics": "Sela, Senhor, Teus remidos com o bom Consolador;"
-          },
-          {
-            "chords": " G                  C    D7                 G    G7... ",
-            "lyrics": "Vem conduzir-nos a todos para os céus, ó Senhor."
-          }
+        "text": [
+          "S[C]ela, Senhor, Teus remidos c[F]om o bom Consola[C]dor;",
+          "V[G]em conduzir-nos a t[C]odos [D7]para os céus, ó Sen[G]hor.[G7...]"
         ]
       },
       {

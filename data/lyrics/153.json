@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O divinal Cordeiro",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  B          E        B           F# ",
-            "lyrics": "O divinal Cordeiro, puríssimo,_inocente,"
-          },
-          {
-            "chords": "  B             E       B      F#  B",
-            "lyrics": "Tomou os meus pecados e deu-me Sua fé;"
-          },
-          {
-            "chords": "    F#           B        E       F# ",
-            "lyrics": "Prostrar-me-ei humilde, a Ele reverente;"
-          },
-          {
-            "chords": "    B            E         B    F#     B",
-            "lyrics": "Por Seu precioso sangue eu alcancei mercê."
-          }
+        "text": [
+          "O [B]divinal Cor[E]deiro, pu[B]ríssimo,_ino[F#]cente,",
+          "To[B]mou os meus pe[E]cados e [B]deu-me [F#]Sua [B]fé;",
+          "Pros[F#]trar-me-ei hu[B]milde, a [E]Ele reve[F#]rente;",
+          "Por [B]Seu precioso [E]sangue eu [B]alcan[F#]cei mer[B]cê."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  B         E         B            F# ",
-            "lyrics": "Estava no pecado, mas graça tenho_achado"
-          },
-          {
-            "chords": "   B              E       B      F#   B",
-            "lyrics": "Em Cristo, mui bondoso, Autor da salvação;"
-          },
-          {
-            "chords": " F#        B         E            F# ",
-            "lyrics": "Amável e humilde, ao Pai foi consagrado"
-          },
-          {
-            "chords": "  B           E          B     F#   B",
-            "lyrics": "A fim de libertar-me da_eterna perdição."
-          }
+        "text": [
+          "Es[B]tava no pe[E]cado, mas [B]graça tenho_a[F#]chado",
+          "Em [B]Cristo, mui bon[E]doso, Au[B]tor da [F#]salva[B]ção;",
+          "A[F#]mável e hu[B]milde, ao [E]Pai foi consa[F#]grado",
+          "A [B]fim de liber[E]tar-me da_e[B]terna [F#]perdi[B]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   B          E        B           F# ",
-            "lyrics": "Ao divinal Cordeiro, Jesus, o Rei eterno,"
-          },
-          {
-            "chords": "    B            E      B  F#     B",
-            "lyrics": "Com toda_a minha alma entoarei louvor,"
-          },
-          {
-            "chords": "     F#       B         E             F# ",
-            "lyrics": "Pois Ele preparou-me um lar de_amor superno"
-          },
-          {
-            "chords": "   B           E        B    F#      B",
-            "lyrics": "No Seu celeste reino de vida e_esplendor."
-          }
+        "text": [
+          "Ao [B]divinal Cor[E]deiro, Je[B]sus, o Rei e[F#]terno,",
+          "Com [B]toda_a minha [E]alma en[B]toa[F#]rei lou[B]vor,",
+          "Pois [F#]Ele prepa[B]rou-me um [E]lar de_amor su[F#]perno",
+          "No [B]Seu celeste [E]reino de [B]vida [F#]e_esplen[B]dor."
         ]
       }
     ]

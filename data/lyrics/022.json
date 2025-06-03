@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Guia-me, ó Senhor",
   "tone": {
     "recommended": "A"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " A                 E              A",
-            "lyrics": "Guia-me, ó Senhor, na fulgurante luz;"
-          },
-          {
-            "chords": "                     E                  A",
-            "lyrics": "Dá-me mais do amor, que_á glória me conduz."
-          }
+        "text": [
+          "G[A]uia-me, ó Senhor, [E]na fulgurante l[A]uz;",
+          "Dá-me mais do amor, q[E]ue_á glória me cond[A]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " A        D       A              E",
-            "lyrics": "Guia-me, guia-me com Tua mão, Senhor;"
-          },
-          {
-            "chords": " A          D        E               A",
-            "lyrics": "Guarda-me, guarda-me do mundo_enganador."
-          }
+        "text": [
+          "G[A]uia-me, g[D]uia-me c[A]om Tua mão, Sen[E]hor;",
+          "G[A]uarda-me, g[D]uarda-me [E]do mundo_enganad[A]or."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " A                   E             A",
-            "lyrics": "Guia-me, bom Jesus, descanso eu terei;"
-          },
-          {
-            "chords": "                  E                  A",
-            "lyrics": "Rege-me pela luz que vem de Ti, meu Rei."
-          }
+        "text": [
+          "G[A]uia-me, bom Jesus, d[E]escanso eu ter[A]ei;",
+          "Rege-me pela luz q[E]ue vem de Ti, meu R[A]ei."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " A                 E             A",
-            "lyrics": "Guia-me, Salvador, na Tua santa lei;"
-          },
-          {
-            "chords": "                    E             A",
-            "lyrics": "Guarda-me em amor, Teu Nome bendirei."
-          }
+        "text": [
+          "G[A]uia-me, Salvador, [E]na Tua santa l[A]ei;",
+          "Guarda-me em amor, T[E]eu Nome bendir[A]ei."
         ]
       },
       {

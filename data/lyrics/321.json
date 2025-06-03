@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bendito seja o Deus vivente",
   "tone": {
     "recommended": "A"
@@ -9,105 +9,45 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A                  E ",
-            "lyrics": "Bendito seja_o Deus vivente"
-          },
-          {
-            "chords": "    E7  ",
-            "lyrics": "Que nos gerou de novo_em Cristo,"
-          },
-          {
-            "chords": "   A    C#        F#m ",
-            "lyrics": "E, pela graça excelente,"
-          },
-          {
-            "chords": "    B                  E ",
-            "lyrics": "Nos deu herança lá nos céus,"
-          },
-          {
-            "chords": "      E7      A",
-            "lyrics": "Habitação de Deus."
-          }
+        "text": [
+          "Ben[A]dito seja_o Deus vi[E]vente",
+          "Que [E7]nos gerou de novo_em Cristo,",
+          "E, [A]pela [C#]graça exce[F#m]lente,",
+          "Nos [B]deu herança lá nos [E]céus,",
+          "Habita[E7]ção de D[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  A                  E ",
-            "lyrics": "A nossa fé é mais preciosa"
-          },
-          {
-            "chords": "   E7 ",
-            "lyrics": "Do que o ouro perecível;"
-          },
-          {
-            "chords": "  A       C#          F#m ",
-            "lyrics": "O fim é_a salvação gloriosa,"
-          },
-          {
-            "chords": "  B                E ",
-            "lyrics": "Incorruptível galardão,"
-          },
-          {
-            "chords": "       E7    A",
-            "lyrics": "Eterna redenção."
-          }
+        "text": [
+          "A [A]nossa fé é mais pre[E]ciosa",
+          "Do [E7]que o ouro perecível;",
+          "O [A]fim é_a [C#]salvação glo[F#m]riosa,",
+          "In[B]corruptível galar[E]dão,",
+          "Eterna [E7]redenç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A                E ",
-            "lyrics": "A sã Palavra da verdade,"
-          },
-          {
-            "chords": "    E7 ",
-            "lyrics": "Que para sempre permanece,"
-          },
-          {
-            "chords": "    A       C#           F#m ",
-            "lyrics": "Nos leva_ao Pai da_eternidade;"
-          },
-          {
-            "chords": "   B               E ",
-            "lyrics": "Também seremos eternais,"
-          },
-          {
-            "chords": "           E7    A",
-            "lyrics": "Com corpos celestiais."
-          }
+        "text": [
+          "A [A]sã Palavra da ver[E]dade,",
+          "Que [E7]para sempre permanece,",
+          "Nos [A]leva_ao [C#]Pai da_eterni[F#m]dade;",
+          "Tam[B]bém seremos eter[E]nais,",
+          "Com corpos [E7]celest[A]iais."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "  A                   E ",
-            "lyrics": "Perece_o homem como_a erva"
-          },
-          {
-            "chords": "  E7 ",
-            "lyrics": "E sua glória_aqui termina,"
-          },
-          {
-            "chords": "    A         C#            F#m ",
-            "lyrics": "Mas Deus, aos Seus fiéis, reserva"
-          },
-          {
-            "chords": "  B                   E ",
-            "lyrics": "A glória que não findará:"
-          },
-          {
-            "chords": "         E7   A",
-            "lyrics": "Seu povo reinará."
-          }
+        "text": [
+          "Pe[A]rece_o homem como_a [E]erva",
+          "E [E7]sua glória_aqui termina,",
+          "Mas [A]Deus, aos [C#]Seus fiéis, re[F#m]serva",
+          "A [B]glória que não finda[E]rá:",
+          "Seu povo [E7]reina[A]rá."
         ]
       }
     ]

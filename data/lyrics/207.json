@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo é fiel",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G             D ",
-            "lyrics": "Fortes ventos soprarão"
-          },
-          {
-            "chords": "                    G",
-            "lyrics": "Contra_o crente_em Deus;"
-          },
-          {
-            "chords": "            D    ",
-            "lyrics": "Temporais sobrevirão"
-          },
-          {
-            "chords": "A          D ",
-            "lyrics": "Aos amados Seus."
-          }
+        "text": [
+          "[G]Fortes ventos [D]soprarão",
+          "Contra_o crente_em D[G]eus;",
+          "Temporais so[D]brevirão",
+          "[A]Aos amados [D]Seus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G      E   Am ",
-            "lyrics": "Cristo é fiel,"
-          },
-          {
-            "chords": "D          G",
-            "lyrics": "Nunca falhará;"
-          },
-          {
-            "chords": "C             G    E... ",
-            "lyrics": "Ao Seu servo_aju - rá"
-          },
-          {
-            "chords": "Am  D            G",
-            "lyrics": "E   forças lhe dará."
-          }
+        "text": [
+          "[G]Cristo [E]é fi[Am]el,",
+          "[D]Nunca falha[G]rá;",
+          "[C]Ao Seu servo_a[G]ju - [E...]rá",
+          "[Am]E   [D]forças lhe da[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G          D ",
-            "lyrics": "Incertezas surgirão"
-          },
-          {
-            "chords": "           G",
-            "lyrics": "Para te_abater,"
-          },
-          {
-            "chords": "             D ",
-            "lyrics": "Mas não prevalecerão,"
-          },
-          {
-            "chords": "A            D ",
-            "lyrics": "Vais vitória ter."
-          }
+        "text": [
+          "[G]Incertezas [D]surgirão",
+          "Para te_aba[G]ter,",
+          "Mas não preva[D]lecerão,",
+          "[A]Vais vitória [D]ter."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G            D ",
-            "lyrics": "Horas de_amargor cruel"
-          },
-          {
-            "chords": "           G",
-            "lyrics": "Os remidos têm,"
-          },
-          {
-            "chords": "            D ",
-            "lyrics": "Mas o Guardião fiel"
-          },
-          {
-            "chords": "A           D ",
-            "lyrics": "Socorrê-los vem."
-          }
+        "text": [
+          "[G]Horas de_amar[D]gor cruel",
+          "Os remidos [G]têm,",
+          "Mas o Guardi[D]ão fiel",
+          "[A]Socorrê-los [D]vem."
         ]
       },
       {

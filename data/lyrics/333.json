@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Peregrino sou no mundo",
   "tone": {
     "recommended": "C"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "..  G            C            G            C",
-            "lyrics": "Peregrino sou no mundo, meu desejo_é ir ao céu,"
-          },
-          {
-            "chords": "          G           C            G           C",
-            "lyrics": "Deus, por Seu amor profundo, santa pátria prometeu;"
-          },
-          {
-            "chords": "      F             C          F            C",
-            "lyrics": "Nas angústias desta vida, só Jesus me dá guarida;"
-          },
-          {
-            "chords": "                   F           C",
-            "lyrics": "Deste mundo nada_espero, o meu lar está no céu;"
-          },
-          {
-            "chords": "                        F          C      G     C   C...",
-            "lyrics": "Consagrar-me_a Deus eu quero, para ser herdeiro Seu."
-          }
+        "text": [
+          "[..]Pere[G]grino sou no [C]mundo, meu de[G]sejo_é ir ao [C]céu,",
+          "Deus, por [G]Seu amor pro[C]fundo, santa [G]pátria prome[C]teu;",
+          "Nas an[F]gústias desta [C]vida, só Je[F]sus me dá gua[C]rida;",
+          "Deste mundo nada_es[F]pero, o meu [C]lar está no céu;",
+          "Consagrar-me_a Deus eu q[F]uero, para [C]ser her[G]deiro [C]Seu.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "..     G            C          G          C",
-            "lyrics": "Nada_impede_o meu caminho para habitar no céu;"
-          },
-          {
-            "chords": "      G               C             G           C",
-            "lyrics": "Jesus Cristo,_o Rei divino, graça_e paz me concedeu;"
-          },
-          {
-            "chords": "     F           C            F            C",
-            "lyrics": "Pela fé o céu contemplo, entrarei no santo templo,"
-          },
-          {
-            "chords": "                    F         C",
-            "lyrics": "Onde Deus, o Pai bondoso, Sua face mostrará"
-          },
-          {
-            "chords": "                F              C      G   C  C...",
-            "lyrics": "Ao Seu povo vitorioso que, com Ele,_habitará."
-          }
+        "text": [
+          "[..]Nada_im[G]pede_o meu ca[C]minho para [G]habitar no [C]céu;",
+          "Jesus [G]Cristo,_o Rei di[C]vino, graça_e [G]paz me conce[C]deu;",
+          "Pela [F]fé o céu con[C]templo, entra[F]rei no santo [C]templo,",
+          "Onde Deus, o Pai bon[F]doso, Sua [C]face mostrará",
+          "Ao Seu povo vito[F]rioso que, com [C]Ele,_ha[G]bita[C]rá.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "..      G             C          G           C",
-            "lyrics": "Não te_aflijas, minha alma, há repouso lá no céu,"
-          },
-          {
-            "chords": "      G           C           G            C",
-            "lyrics": "Onde_existe paz e calma que o mundo não te deu;"
-          },
-          {
-            "chords": "     F          C               F             C",
-            "lyrics": "De vitória em vitória, vais com Cristo_à Sua glória;"
-          },
-          {
-            "chords": "                   F             C",
-            "lyrics": "Segue_avante com o Mestre, d´Ele tens a proteção,"
-          },
-          {
-            "chords": "                   F           C   G     C   C...",
-            "lyrics": "Pois de força te reveste nesta peregrinação."
-          }
+        "text": [
+          "[..]Não te_a[G]flijas, minha [C]alma, há re[G]pouso lá no [C]céu,",
+          "Onde_e[G]xiste paz e [C]calma que o [G]mundo não te [C]deu;",
+          "De vi[F]tória em vi[C]tória, vais com [F]Cristo_à Sua g[C]lória;",
+          "Segue_avante com o [F]Mestre, d´Ele [C]tens a proteção,",
+          "Pois de força te re[F]veste nesta [C]pere[G]grinaç[C]ão.[C...]"
         ]
       }
     ]

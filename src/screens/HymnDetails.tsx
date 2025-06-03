@@ -11,7 +11,7 @@ import HymnAudioPlayer from "../components/HymnAudioPlayer";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
 import ToneNavigate from "../components/ToneNavigate";
-import { type HymnModel } from "../domain/HymnModel";
+import { type HymnModel, Stanza } from "../domain/HymnModel";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
@@ -36,34 +36,37 @@ const StyledChordText = ({
   selectedChord?: string | null;
 }) => {
   const theme = useTheme();
-  const parts = text.split(/([^_\s]+)/g).filter(Boolean);
+  const parts = text.split(/(\[[^\]]+\])/g);
+  let lastChord: string = "";
 
   return (
     <Text style={style}>
-      {parts.map((part, index) =>
-        part.includes("_") ? (
-          <Text key={index}>{part}</Text>
-        ) : (
-          <Text
-            key={index}
-            style={[{ color: theme.colors.primary }, cleanChordName(part.trim()) === selectedChord && styleSelected]}
-            onPress={() => onChordPress?.(part.trim())}
-          >
-            {part}
-          </Text>
-        ),
-      )}
+      {parts.map((part, index) => {
+        if (part.startsWith("[") && part.endsWith("]")) {
+          lastChord = part.slice(1, -1);
+          return (
+            <Text
+              key={index}
+              style={[{ color: theme.colors.primary }, cleanChordName(lastChord) === selectedChord && styleSelected]}
+              onPress={() => onChordPress?.(lastChord)}
+            >
+              {lastChord}
+            </Text>
+          );
+        } else {
+          return <Text key={index}>{part.substring(lastChord.length)}</Text>;
+        }
+      })}
     </Text>
   );
 };
 
 const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; onLayout: any }) => {
-  const phrase = text.replace(/([_])+$/g, "");
-  const additional = "x".repeat(text.length - phrase.length);
+  // Remove chord markers for lyrics display
+  const lyrics = text.replace(/\[[^\]]+\]/g, "");
   return (
     <Text style={style} onLayout={onLayout}>
-      <Text>{phrase}</Text>
-      <Text style={{ color: "transparent" }}>{additional}</Text>
+      {lyrics}
     </Text>
   );
 };
@@ -134,16 +137,16 @@ const HymnDetails = () => {
       color: theme.colors.secondary,
     },
     stanzaRow: {
-      //borderColor: "yellow",
-      //borderWidth: 1,
+      // borderColor: "yellow",
+      // borderWidth: 1,
+    },
+    stanzaDivider: {
+      marginVertical: fontSize,
     },
     stanzaLabelContainer: {
       width: 16,
       alignItems: "center",
       marginRight: 7,
-
-      //borderColor: "red",
-      //borderWidth: 1,
     },
     stanzaLabel: {
       textAlign: "center",
@@ -168,13 +171,15 @@ const HymnDetails = () => {
     if (hymn?.score?.stanzas) {
       const chordSet = new Set<string>();
       hymn.score.stanzas.forEach((stanza) => {
-        if (stanza.verses)
-          stanza.verses.forEach((verse) => {
-            const chords = verse.chords
-              .split(/([^_\s]+)/g)
-              .filter((part) => !part.includes("_") && part.trim())
-              .map((chord) => chord.trim());
-            chords.forEach((chord) => chordSet.add(cleanChordName(chord)));
+        if (stanza.text)
+          stanza.text.forEach((line) => {
+            const matches = line.match(/\[([^\]]+)\]/g);
+            if (matches) {
+              matches.forEach((match) => {
+                const chord = match.slice(1, -1);
+                chordSet.add(cleanChordName(chord));
+              });
+            }
           });
       });
       setAllChords(Array.from(chordSet));
@@ -365,18 +370,16 @@ const HymnDetails = () => {
               </Menu>
             </Appbar.Header>
             <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
-              {autoScrollVisible && (
-                <AutoScrollControl
-                  scrollViewRef={scrollViewRef}
-                  contentHeight={contentHeight}
-                  viewportHeight={scrollViewHeight}
-                  hymn={hymn}
-                  fontSize={fontSize}
-                  lastScrollYRef={lastScrollY}
-                  scoreTouchingRef={scoreTouchingRef}
-                  onScrollingChange={setIsAutoScrolling}
-                />
-              )}
+              <AutoScrollControl
+                scrollViewRef={scrollViewRef}
+                contentHeight={contentHeight}
+                viewportHeight={scrollViewHeight}
+                hymn={hymn}
+                lastScrollYRef={lastScrollY}
+                scoreTouchingRef={scoreTouchingRef}
+                visible={!!autoScrollVisible}
+                onScrollingChange={setIsAutoScrolling}
+              />
             </View>
           </Animated.View>
         </>
@@ -404,70 +407,73 @@ const HymnDetails = () => {
           ]}
         >
           {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
+
           <Divider />
           {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
-            <View key={`stanza-row-${stanzaIndex}`} style={[styles.stanzaRow, { flexDirection: "row" }]}>
-              <View key={`stanza-label-${stanzaIndex}`} style={[styles.stanzaLabelContainer]}>
-                <Text
-                  style={[
-                    styles.stanzaLabel,
-                    {
-                      color: theme.colors.secondary,
-                      backgroundColor: theme.colors.elevation.level2,
-                    },
-                  ]}
-                >
-                  {stanza.type == "chorus" ? "Coro" : stanza.code}
-                </Text>
-              </View>
-              <View key={`${stanzaIndex}`} style={[styles.stanza, { marginBottom: fontSize, width: 100 }]}>
-                {stanza.verses?.map((verse, verseIndex) => {
-                  const verseKey = `${stanzaIndex}-${verseIndex}`;
-                  const verseHeight = verseHeights[verseKey] || fontSizeDouble;
-
-                  return (
-                    <View
-                      key={verseKey}
-                      style={[
-                        styles.verse,
-                        {
-                          height: verseHeight,
-                          marginBottom: fontSize,
-                        },
-                      ]}
-                    >
-                      <StyledChordText
-                        text={verse.chords}
+            <View key={stanzaIndex} style={styles.stanzaRow}>
+              <View style={{ flexDirection: "row" }}>
+                <View style={styles.stanzaLabelContainer}>
+                  <Text
+                    style={[
+                      styles.stanzaLabel,
+                      {
+                        color: theme.colors.secondary,
+                        backgroundColor: theme.colors.elevation.level2,
+                      },
+                    ]}
+                  >
+                    {stanza.type == "chorus" ? "Coro" : stanza.code}
+                  </Text>
+                </View>
+                <View style={styles.stanza}>
+                  {stanza.text?.map((line, verseIndex) => {
+                    const verseKey = `${stanzaIndex}-${verseIndex}`;
+                    const verseHeight = verseHeights[verseKey] || fontSizeDouble;
+                    return (
+                      <View
+                        key={verseKey}
                         style={[
-                          styles.chord,
+                          styles.verse,
                           {
-                            fontSize: fontSize,
-                            lineHeight: fontSizeDouble,
+                            height: verseHeight,
+                            marginBottom: fontSize,
                           },
                         ]}
-                        styleSelected={styles.chordSelected}
-                        onChordPress={handleChordPress}
-                        selectedChord={selectedChord}
-                      />
-                      <StyledLyricText
-                        text={verse.lyrics}
-                        style={[
-                          styles.lyric,
-                          {
-                            top: fontSize,
-                            fontSize: fontSize,
-                            lineHeight: fontSizeDouble,
-                          },
-                        ]}
-                        onLayout={(e: LayoutChangeEvent) => onVerseLayout(e, stanzaIndex, verseIndex)}
-                      />
-                    </View>
-                  );
-                })}
+                      >
+                        <StyledChordText
+                          text={line}
+                          style={[
+                            styles.chord,
+                            {
+                              fontSize: fontSize,
+                              lineHeight: fontSizeDouble,
+                            },
+                          ]}
+                          styleSelected={styles.chordSelected}
+                          onChordPress={handleChordPress}
+                          selectedChord={selectedChord}
+                        />
+                        <StyledLyricText
+                          text={line}
+                          style={[
+                            styles.lyric,
+                            {
+                              top: fontSize,
+                              fontSize: fontSize,
+                              lineHeight: fontSizeDouble,
+                            },
+                          ]}
+                          onLayout={(event: LayoutChangeEvent) => onVerseLayout(event, stanzaIndex, verseIndex)}
+                        />
+                      </View>
+                    );
+                  })}
+                </View>
               </View>
+              {stanzaIndex < hymn.score.stanzas.length - 1 && <Divider style={styles.stanzaDivider} />}
             </View>
           ))}
-          <Divider />
+          <Divider style={styles.stanzaDivider} />
           <View style={styles.scoreFooter}></View>
         </View>
       </Animated.ScrollView>

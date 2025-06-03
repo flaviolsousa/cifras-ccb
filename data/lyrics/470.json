@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus Cristo, Seus fiéis, ensina",
   "tone": {
     "recommended": "D"
@@ -9,53 +9,23 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                                             A      E    A",
-            "lyrics": "Jesus Cristo, Seus fiéis, ensina; vamos todos juntos aprender;"
-          },
-          {
-            "chords": "D                                     E          A",
-            "lyrics": "Com a Sua celestial doutrina Ele os reveste de saber;"
-          },
-          {
-            "chords": "            D           A             D ",
-            "lyrics": "Ele guia os pequeninos com carinho e com amor;"
-          },
-          {
-            "chords": "                             A                G      D",
-            "lyrics": "Somos d´Ele_os cordeirinhos, Jesus Cristo_é_o bom Pastor."
-          },
-          {
-            "chords": "                          D7   G    A    D    D... ",
-            "lyrics": "São mui sábios os ensinos do divino Redentor."
-          }
+        "text": [
+          "[D]Jesus Cristo, Seus fiéis, ensina; vamos todos [A]juntos [E]apren[A]der;",
+          "[D]Com a Sua celestial doutrina Ele os re[E]veste de sa[A]ber;",
+          "Ele guia os [D]pequeninos c[A]om carinho e c[D]om amor;",
+          "Somos d´Ele_os cordeirinhos, [A]Jesus Cristo_é_o [G]bom Pas[D]tor.",
+          "São mui sábios os ensinos [D7]do di[G]vino [A]Reden[D]tor.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                                                  A   E    A",
-            "lyrics": "Jesus Cristo para_o céu nos leva; vamos, pois, com Ele caminhar;"
-          },
-          {
-            "chords": "D                                            E       A",
-            "lyrics": "Nesta graça, Seu poder conserva quem irá com Ele habitar."
-          },
-          {
-            "chords": "                 D              A              D",
-            "lyrics": "No Seu reino de grande glória, nas moradas do_eterno Deus,"
-          },
-          {
-            "chords": "                     A           G      D",
-            "lyrics": "Cantaremos a vitória junto aos remidos Seus."
-          },
-          {
-            "chords": "                        D7    G     A       D    D...",
-            "lyrics": "Quão suprema é a glória que teremos lá nos céus!"
-          }
+        "text": [
+          "[D]Jesus Cristo para_o céu nos leva; vamos, pois, com [A]Ele [E]camin[A]har;",
+          "[D]Nesta graça, Seu poder conserva quem irá com [E]Ele habi[A]tar.",
+          "No Seu reino de g[D]rande glória, n[A]as moradas do_e[D]terno Deus,",
+          "Cantaremos a vitória [A]junto aos re[G]midos S[D]eus.",
+          "Quão suprema é a glória [D7]que te[G]remos [A]lá nos c[D]éus![D...]"
         ]
       }
     ]

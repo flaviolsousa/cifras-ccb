@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus, ó Divinal Pastor",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A         D              E                    A",
-            "lyrics": "Jesus, ó divinal Pastor, o Teu rebanho quer Te_ouvir;"
-          },
-          {
-            "chords": "                       D             E          A",
-            "lyrics": "Com Teu Espírito,_ó Senhor, vem este culto presidir."
-          },
-          {
-            "chords": "    E                 A                             E",
-            "lyrics": "Nós somos todos cordeirinhos do Teu aprisco,_ó Redentor;"
-          },
-          {
-            "chords": "   A                   D             E        A",
-            "lyrics": "Só Tu nos tratas com carinho, ó glorioso Salvador."
-          }
+        "text": [
+          "Jes[A]us, ó divi[D]nal Pastor, o T[E]eu rebanho quer Te_ou[A]vir;",
+          "Com Teu Espírito,_ó Sen[D]hor, vem este [E]culto presi[A]dir.",
+          "Nós [E]somos todos cordei[A]rinhos do Teu aprisco,_ó Reden[E]tor;",
+          "Só [A]Tu nos tratas com ca[D]rinho, ó glori[E]oso Salva[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A            D          E                A",
-            "lyrics": "Jesus, glorioso e fiel, em Ti está o nosso bem;"
-          },
-          {
-            "chords": "                   D                E            A",
-            "lyrics": "Tu és o nosso_Emanuel, és Quem, na graça, nos sustém."
-          },
-          {
-            "chords": "  E             A                           E",
-            "lyrics": "Aqui estamos reunidos ao Teu redor, fiel Senhor,"
-          },
-          {
-            "chords": "      A                    D               E             A",
-            "lyrics": "Pois, onde_estão os Teus remidos, também estás, ó bom Pastor."
-          }
+        "text": [
+          "Jes[A]us, glorioso [D]e fiel, em [E]Ti está o nosso b[A]em;",
+          "Tu és o nosso_Emanu[D]el, és Quem, na g[E]raça, nos sus[A]tém.",
+          "Aq[E]ui estamos reu[A]nidos ao Teu redor, fiel Sen[E]hor,",
+          "Pois, [A]onde_estão os Teus re[D]midos, também es[E]tás, ó bom Pas[A]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    A            D              E               A",
-            "lyrics": "Nós Te seguimos, Redentor, pois conhecemos Tua voz,"
-          },
-          {
-            "chords": "                      D              E              A",
-            "lyrics": "Voz que nos fala com amor, dizendo: “Não vos deixo sós.”"
-          },
-          {
-            "chords": "  E                  A                            E",
-            "lyrics": "A pastos sempre verdejantes Tu nos conduzes, ó Senhor."
-          },
-          {
-            "chords": "    A                 D                  E         A",
-            "lyrics": "Por isso_estamos confiantes, sentindo_a Tua paz e_amor."
-          }
+        "text": [
+          "Nós [A]Te seguimos, [D]Redentor, pois [E]conhecemos Tua v[A]oz,",
+          "Voz que nos fala com a[D]mor, dizendo: “[E]Não vos deixo s[A]ós.”",
+          "A [E]pastos sempre verde[A]jantes Tu nos conduzes, ó Sen[E]hor.",
+          "Por [A]isso_estamos confi[D]antes, sentindo_a T[E]ua paz e_a[A]mor."
         ]
       }
     ]

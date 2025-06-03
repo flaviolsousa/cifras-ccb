@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Que grande bem é andar com Cristo!",
   "tone": {
     "recommended": "C"
@@ -9,62 +9,29 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "            C                        Dm ",
-            "lyrics": "Que grande bem é andar com Cristo, o Mestre!"
-          },
-          {
-            "chords": "          G                C",
-            "lyrics": "Que privilégio é servir a Deus!"
-          },
-          {
-            "chords": "               Em         D ",
-            "lyrics": "Sublime bênção é a paz celeste,"
-          },
-          {
-            "chords": "           G      D       G ",
-            "lyrics": "A paz que Cristo deu aos Seus."
-          }
+        "text": [
+          "Que grande b[C]em é andar com Cristo, o [Dm]Mestre!",
+          "Que privil[G]égio é servir a D[C]eus!",
+          "Sublime bênção [Em]é a paz cel[D]este,",
+          "A paz que C[G]risto d[D]eu aos S[G]eus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "           C",
-            "lyrics": "Que grande bem,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Eterno bem,"
-          },
-          {
-            "chords": "    G         C",
-            "lyrics": "Recebemos de Deus!"
-          }
+        "text": [
+          "Que grande [C]bem,",
+          "Eterno bem,",
+          "Rece[G]bemos de D[C]eus!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         C                Dm ",
-            "lyrics": "É mui feliz aquele que procura,"
-          },
-          {
-            "chords": "         G                C",
-            "lyrics": "Aqui no mundo, agradar a Deus;"
-          },
-          {
-            "chords": "           Em         D ",
-            "lyrics": "Obedecendo à Palavra pura,"
-          },
-          {
-            "chords": "        G    D       G ",
-            "lyrics": "Será honrado lá nos céus."
-          }
+        "text": [
+          "É mui fel[C]iz aquele que pro[Dm]cura,",
+          "Aqui no m[G]undo, agradar a D[C]eus;",
+          "Obedecendo [Em]à Palavra p[D]ura,",
+          "Será hon[G]rado [D]lá nos c[G]éus."
         ]
       },
       {
@@ -74,23 +41,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "           C              Dm ",
-            "lyrics": "Deus nos dará a bem-aventurança,"
-          },
-          {
-            "chords": "       G                   C",
-            "lyrics": "Inexplicável é tão grande amor!"
-          },
-          {
-            "chords": "                 Em           D ",
-            "lyrics": "Seu reino eterno é a nossa herança,"
-          },
-          {
-            "chords": "         G      D  G ",
-            "lyrics": "Bendito seja o Criador!"
-          }
+        "text": [
+          "Deus nos da[C]rá a bem-aventu[Dm]rança,",
+          "Inexpli[G]cável é tão grande a[C]mor!",
+          "Seu reino eterno [Em]é a nossa her[D]ança,",
+          "Bendito s[G]eja o C[D]ria[G]dor!"
         ]
       },
       {

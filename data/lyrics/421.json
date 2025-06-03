@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Recorda, por fé, minha alma",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   E         F#m      G#m   E",
-            "lyrics": "Recorda, por fé, minha al - ma,"
-          },
-          {
-            "chords": "    B7                  E",
-            "lyrics": "A_angústia do teu Redentor;"
-          },
-          {
-            "chords": "   E        F#m     G#m  E",
-            "lyrics": "Recorda que muito te a - ma;"
-          },
-          {
-            "chords": "    B7              E",
-            "lyrics": "Por ti padeceu o Senhor."
-          }
+        "text": [
+          "Rec[E]orda, por [F#m]fé, minha[G#m] al - [E]ma,",
+          "A_an[B7]gústia do teu Redent[E]or;",
+          "Rec[E]orda que [F#m]muito te[G#m] a - [E]ma;",
+          "Por [B7]ti padeceu o Sen[E]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   A                  E",
-            "lyrics": "Louvemos a Deus, Pai eterno,"
-          },
-          {
-            "chords": "    B7                  E",
-            "lyrics": "Que Suas promessas nos deu;"
-          },
-          {
-            "chords": "   A                E",
-            "lyrics": "Louvemos Jesus Sempiterno,"
-          },
-          {
-            "chords": "    B7                     E ",
-            "lyrics": "O Senhor do_universo_e do céu."
-          }
+        "text": [
+          "Lou[A]vemos a Deus, Pai e[E]terno,",
+          "Que [B7]Suas promessas nos d[E]eu;",
+          "Lou[A]vemos Jesus Sempi[E]terno,",
+          "O Se[B7]nhor do_universo_e do c[E]éu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " E       F#m    G#m   E",
-            "lyrics": "Orando, elevo ao al - to,"
-          },
-          {
-            "chords": "    B7               E",
-            "lyrics": "Ao trono do bom Redentor,"
-          },
-          {
-            "chords": "   E      F#m          G#m   E",
-            "lyrics": "O meu coração que, mui gra - to,"
-          },
-          {
-            "chords": "  B7                   E",
-            "lyrics": "Jubila por Seu grande_amor."
-          }
+        "text": [
+          "O[E]rando, e[F#m]levo ao[G#m] al - [E]to,",
+          "Ao t[B7]rono do bom Reden[E]tor,",
+          "O m[E]eu cora[F#m]ção que, mui [G#m]gra - [E]to,",
+          "Ju[B7]bila por Seu grande_a[E]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     E       F#m        G#m   E",
-            "lyrics": "Oh! Glória a Deus nas altu - ras,"
-          },
-          {
-            "chords": "     B7              E",
-            "lyrics": "Pois nos enviou o Senhor,"
-          },
-          {
-            "chords": "   E       F#m     G#m    E",
-            "lyrics": "A fim de sofrer amargu - ras"
-          },
-          {
-            "chords": "  B7                    E",
-            "lyrics": "E dar-nos Seu reino de_amor."
-          }
+        "text": [
+          "Oh! G[E]lória a [F#m]Deus nas al[G#m]tu - r[E]as,",
+          "Pois [B7]nos enviou o Sen[E]hor,",
+          "A f[E]im de so[F#m]frer ama[G#m]rgu - r[E]as",
+          "E [B7]dar-nos Seu reino de_a[E]mor."
         ]
       },
       {

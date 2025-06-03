@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Não me cansarei de cantar",
   "tone": {
     "recommended": "A"
@@ -9,62 +9,29 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A                 E ",
-            "lyrics": "Não me cansarei de cantar"
-          },
-          {
-            "chords": "            E7      A",
-            "lyrics": "Louvores ao meu Criador;"
-          },
-          {
-            "chords": "                     C#7  D ",
-            "lyrics": "A paz que me faz exultar"
-          },
-          {
-            "chords": "  E     E7      A",
-            "lyrics": "É fruto do Seu amor."
-          }
+        "text": [
+          "Não [A]me cansarei de can[E]tar",
+          "Louvores ao [E7]meu Cria[A]dor;",
+          "A paz que me faz exul[C#7]tar[D]",
+          "É [E]fruto [E7]do Seu a[A]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A       D  A   B7                 E  E7... ",
-            "lyrics": "Glória, glória dou a Jesus com fervor;"
-          },
-          {
-            "chords": "    A              D ",
-            "lyrics": "Por Ele serei vencedor;"
-          },
-          {
-            "chords": "    E                  A",
-            "lyrics": "Oh! Glória ao meu Redentor."
-          }
+        "text": [
+          "[A]Glória, [D]gló[A]ria [B7]dou a Jesus com fer[E]vor[E7...];",
+          "Por [A]Ele serei vence[D]dor;",
+          "Oh! [E]Glória ao meu Reden[A]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A                  E ",
-            "lyrics": "De quando Jesus me chamou,"
-          },
-          {
-            "chords": "             E7         A",
-            "lyrics": "Não cesso de dar-Lhe louvor;"
-          },
-          {
-            "chords": "                     C#7  D ",
-            "lyrics": "Foi Ele Quem me resgatou,"
-          },
-          {
-            "chords": "   E      E7           A",
-            "lyrics": "Bendito_é Cristo,_o Senhor!"
-          }
+        "text": [
+          "De [A]quando Jesus me cha[E]mou,",
+          "Não cesso de [E7]dar-Lhe lou[A]vor;",
+          "Foi Ele Quem me resga[C#7]tou,[D]",
+          "Ben[E]dito_é [E7]Cristo,_o Sen[A]hor!"
         ]
       },
       {
@@ -74,23 +41,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A                 E ",
-            "lyrics": "A santa presença de Deus,"
-          },
-          {
-            "chords": "           E7          A",
-            "lyrics": "Meu cálice faz transbordar;"
-          },
-          {
-            "chords": "                   C#7  D ",
-            "lyrics": "Terei regozijo nos céus,"
-          },
-          {
-            "chords": "   E       E7         A",
-            "lyrics": "Glorioso,_eterno, sem par."
-          }
+        "text": [
+          "A [A]santa presença de [E]Deus,",
+          "Meu cálice [E7]faz transbor[A]dar;",
+          "Terei regozijo nos [C#7]céus,[D]",
+          "Glo[E]rioso,_e[E7]terno, sem [A]par."
         ]
       },
       {

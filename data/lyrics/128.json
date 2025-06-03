@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu filho sou, ó Criador",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                          F# ",
-            "lyrics": "Ó Deus, meu Pai, graças Te dou"
-          },
-          {
-            "chords": "                      B",
-            "lyrics": "Por desfrutar da Tua luz;"
-          },
-          {
-            "chords": "            B7       E ",
-            "lyrics": "Prosperarei em Ti, Senhor,"
-          },
-          {
-            "chords": "      B     F#    B",
-            "lyrics": "Tua Palavra me conduz."
-          }
+        "text": [
+          "[B]Ó Deus, meu Pai, graças Te [F#]dou",
+          "Por desfrutar da Tua l[B]uz;",
+          "Prosperarei [B7]em Ti, Se[E]nhor,",
+          "Tua Pa[B]lavra [F#]me con[B]duz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B                    C#m ",
-            "lyrics": "Teu filho sou, ó Criador,"
-          },
-          {
-            "chords": "      F#          B",
-            "lyrics": "Me adotaste, em Jesus;"
-          },
-          {
-            "chords": "                       E ",
-            "lyrics": "Santo_e sublime_é Teu amor;"
-          },
-          {
-            "chords": "       B      F#   B",
-            "lyrics": "Vivo feliz em Tua luz."
-          }
+        "text": [
+          "[B]Teu filho sou, ó Cria[C#m]dor,",
+          "Me ado[F#]taste, em Je[B]sus;",
+          "Santo_e sublime_é Teu a[E]mor;",
+          "Vivo fe[B]liz em [F#]Tua l[B]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                       F# ",
-            "lyrics": "Faz-me, Senhor, um vaso Teu,"
-          },
-          {
-            "chords": "                  B",
-            "lyrics": "Cheio de fé e de amor,"
-          },
-          {
-            "chords": "           B7        E ",
-            "lyrics": "Para poder sempre honrar"
-          },
-          {
-            "chords": "          B     F#   B",
-            "lyrics": "Teu santo Nome, ó Senhor."
-          }
+        "text": [
+          "[B]Faz-me, Senhor, um vaso [F#]Teu,",
+          "Cheio de fé e de a[B]mor,",
+          "Para poder [B7]sempre hon[E]rar",
+          "Teu santo [B]Nome, [F#]ó Sen[B]hor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                    F# ",
-            "lyrics": "A Ti, Senhor, recorrerei,"
-          },
-          {
-            "chords": "                  B",
-            "lyrics": "Para poder me abrigar"
-          },
-          {
-            "chords": "              B7     E ",
-            "lyrics": "De todo_o mal e tentação,"
-          },
-          {
-            "chords": "          B     F#   B",
-            "lyrics": "Enquanto_aqui peregrinar."
-          }
+        "text": [
+          "[B]A Ti, Senhor, recorre[F#]rei,",
+          "Para poder me abri[B]gar",
+          "De todo_o mal [B7]e tenta[E]ção,",
+          "Enquanto_a[B]qui pe[F#]regri[B]nar."
         ]
       },
       {

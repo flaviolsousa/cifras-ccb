@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Que prazer é andar com Cristo",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       B                          E ",
-            "lyrics": "Que prazer é_andar com Cristo e a Sua voz ouvir,"
-          },
-          {
-            "chords": "    F#                          B            B...",
-            "lyrics": "Meditar em Seus conselhos que darão feliz porvir,"
-          },
-          {
-            "chords": "     B                         E ",
-            "lyrics": "Ó queridos, consagremos nossas vidas ao Senhor"
-          },
-          {
-            "chords": "     F#                      B             B...",
-            "lyrics": "Para termos a herança no Seu reino de_eplendor."
-          }
+        "text": [
+          "Que pra[B]zer é_andar com Cristo e a [E]Sua voz ouvir,",
+          "Medi[F#]tar em Seus conselhos que da[B]rão feliz por[B...]vir,",
+          "Ó que[B]ridos, consagremos nossas [E]vidas ao Senhor",
+          "Para [F#]termos a herança no Seu [B]reino de_eplen[B...]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      B            E ",
-            "lyrics": "Jesus Cristo é poderoso,"
-          },
-          {
-            "chords": "       F#             B",
-            "lyrics": "Forte, santo, mui valoroso,"
-          },
-          {
-            "chords": "                  E ",
-            "lyrics": "Sumo Sábio, maravilhoso,"
-          },
-          {
-            "chords": "      F#                      B",
-            "lyrics": "É_o Senhor de tudo_e Rei dos reis."
-          }
+        "text": [
+          "Jesus [B]Cristo é pode[E]roso,",
+          "Forte, [F#]santo, mui valo[B]roso,",
+          "Sumo Sábio, maravi[E]lhoso,",
+          "É_o Se[F#]nhor de tudo_e Rei dos r[B]eis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       B                             E ",
-            "lyrics": "Que prazer é_andar com Cristo, desfrutar o Seu amor,"
-          },
-          {
-            "chords": "     F#                     B             B...",
-            "lyrics": "Combater a_iniquidade e, ao fim, ser vencedor;"
-          },
-          {
-            "chords": "      B                          E ",
-            "lyrics": "Neste mundo, o Senhor por nós morreu na dura cruz"
-          },
-          {
-            "chords": "     F#                         B         B...",
-            "lyrics": "Para dar-nos vida_e glória onde há eterna luz."
-          }
+        "text": [
+          "Que pra[B]zer é_andar com Cristo, desfru[E]tar o Seu amor,",
+          "Comba[F#]ter a_iniquidade e, ao [B]fim, ser vence[B...]dor;",
+          "Neste [B]mundo, o Senhor por nós mor[E]reu na dura cruz",
+          "Para [F#]dar-nos vida_e glória onde [B]há eterna [B...]luz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       B                           E ",
-            "lyrics": "Que prazer é_andar com Cristo, o Caminho que conduz"
-          },
-          {
-            "chords": "     F#                       B          B...",
-            "lyrics": "Ás moradas sempiternas de resplandecente luz;"
-          },
-          {
-            "chords": "      B                        E ",
-            "lyrics": "Só em Cristo há verdade, vida, graça e perdão;"
-          },
-          {
-            "chords": "      F#                      B           B...",
-            "lyrics": "N´Ele temos a certeza de_alcançar a perfeição."
-          }
+        "text": [
+          "Que pra[B]zer é_andar com Cristo, o Ca[E]minho que conduz",
+          "Ás mo[F#]radas sempiternas de resp[B]landecente [B...]luz;",
+          "Só em [B]Cristo há verdade, vida, [E]graça e perdão;",
+          "N´Ele [F#]temos a certeza de_alcan[B]çar a perfei[B...]ção."
         ]
       },
       {

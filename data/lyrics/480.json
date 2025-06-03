@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jovens, amai o conselho",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Jovens, amai o conselho,"
-          },
-          {
-            "chords": "    E                 B",
-            "lyrics": "O_ensino de Cristo Jesus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele_é o vosso Modelo"
-          },
-          {
-            "chords": "   C#m      F#7     B",
-            "lyrics": "De vida, justiça e luz."
-          }
+        "text": [
+          "[B]Jovens, amai o conselho,",
+          "O_en[E]sino de Cristo Jes[B]us;",
+          "Ele_é o vosso Modelo",
+          "De [C#m]vida, jus[F#7]tiça e l[B]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   B                    E    C#m",
-            "lyrics": "A Deus e_a Cristo,_o Senhor,"
-          },
-          {
-            "chords": "  B             F#7",
-            "lyrics": "Devemos consagração,"
-          },
-          {
-            "chords": "   B                E      C#...",
-            "lyrics": "Respeito, honra, profundo_amor"
-          },
-          {
-            "chords": "   F#7          B",
-            "lyrics": "E_eterna veneração."
-          }
+        "text": [
+          "A D[B]eus e_a Cristo,_o Sen[E]hor,[C#m]",
+          "De[B]vemos consagra[F#7]ção,",
+          "Res[B]peito, honra, pro[E]fundo_a[C#...]mor",
+          "E_e[F#7]terna veneraç[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Vasos, por Cristo,_escolhidos"
-          },
-          {
-            "chords": "  E                     B",
-            "lyrics": "Sereis, para glória de Deus;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Cristo vos quer revestidos"
-          },
-          {
-            "chords": "    C#m       F#7        B",
-            "lyrics": "Das santas virtudes dos céus."
-          }
+        "text": [
+          "[B]Vasos, por Cristo,_escolhidos",
+          "Se[E]reis, para glória de D[B]eus;",
+          "Cristo vos quer revestidos",
+          "Das [C#m]santas vir[F#7]tudes dos c[B]éus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Jovens que seguem o Mestre,"
-          },
-          {
-            "chords": "   E                 B",
-            "lyrics": "Em sua_existência terão"
-          },
-          {
-            "chords": "",
-            "lyrics": "A providência celeste"
-          },
-          {
-            "chords": "  C#m       F#7      B",
-            "lyrics": "E prósperos n´Ele serão."
-          }
+        "text": [
+          "[B]Jovens que seguem o Mestre,",
+          "Em [E]sua_existência ter[B]ão",
+          "A providência celeste",
+          "E [C#m]prósperos [F#7]n´Ele ser[B]ão."
         ]
       },
       {

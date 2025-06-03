@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "No esconderijo do Onipotente",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                      A ",
-            "lyrics": "No_esconderijo do Onipotente,"
-          },
-          {
-            "chords": "                             D",
-            "lyrics": "Sempre do mal preservado_estarás"
-          },
-          {
-            "chords": "                G       D",
-            "lyrics": "E, sobrevindo a prova ardente,"
-          },
-          {
-            "chords": "G       D        A       D",
-            "lyrics": "Com Sua sombra coberto serás."
-          }
+        "text": [
+          "[D]No_esconderijo do Onipo[A]tente,",
+          "Sempre do mal preservado_esta[D]rás",
+          "E, sobrevindo a [G]prova ar[D]dente,",
+          "[G]Com Sua [D]sombra co[A]berto se[D]rás."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D         A         D",
-            "lyrics": "O Criador te_esconderá"
-          },
-          {
-            "chords": "               A ",
-            "lyrics": "Em Seu seguro abrigo;"
-          },
-          {
-            "chords": "D               G     D",
-            "lyrics": "Ao teu redor Se acampará,"
-          },
-          {
-            "chords": "G       D        A  D",
-            "lyrics": "Não temerás o_inimi-go."
-          }
+        "text": [
+          "[D]O Criador [A]te_esconde[D]rá",
+          "Em Seu seguro a[A]brigo;",
+          "[D]Ao teu redor Se [G]acampa[D]rá,",
+          "[G]Não teme[D]rás o_ini[A]mi-[D]go."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                          A ",
-            "lyrics": "Florescerás como toda_a palmeira"
-          },
-          {
-            "chords": "                             D",
-            "lyrics": "E, como_o cedro, assim crescerás;"
-          },
-          {
-            "chords": "                     G     D",
-            "lyrics": "Nada_embargar pode_a tua carreira"
-          },
-          {
-            "chords": "G       D       A       D",
-            "lyrics": "E desta graça jamais cairás."
-          }
+        "text": [
+          "[D]Florescerás como toda_a pal[A]meira",
+          "E, como_o cedro, assim cresce[D]rás;",
+          "Nada_embargar pode_a [G]tua ca[D]rreira",
+          "[G]E desta [D]graça ja[A]mais cai[D]rás."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                         A ",
-            "lyrics": "Não temerás a braveza dos mares"
-          },
-          {
-            "chords": "                           D",
-            "lyrics": "E nem, da noite, espanto terás;"
-          },
-          {
-            "chords": "                G       D",
-            "lyrics": "Se do escudo da fé te armares,"
-          },
-          {
-            "chords": "G      D        A       D",
-            "lyrics": "Teu inimigo por terra verás."
-          }
+        "text": [
+          "[D]Não temerás a braveza dos [A]mares",
+          "E nem, da noite, espanto te[D]rás;",
+          "Se do escudo da [G]fé te ar[D]mares,",
+          "[G]Teu ini[D]migo por [A]terra ve[D]rás."
         ]
       },
       {

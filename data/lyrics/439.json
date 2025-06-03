@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Somos jovens",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      B",
-            "lyrics": "Somos jovens, mas devemos sempre_andar"
-          },
-          {
-            "chords": "     F#         B",
-            "lyrics": "No temor do Criador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "O Modelo santo vamos imitar:"
-          },
-          {
-            "chords": "      C#7            F#",
-            "lyrics": "Jesus Cristo,_o Salvador."
-          }
+        "text": [
+          "Somos [B]jovens, mas devemos sempre_andar",
+          "No te[F#]mor do Cria[B]dor;",
+          "O Modelo santo vamos imitar:",
+          "Jesus [C#7]Cristo,_o Salva[F#]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    F#         B",
-            "lyrics": "Em amor, com vigor,"
-          },
-          {
-            "chords": "     E       B          F#",
-            "lyrics": "Nós, jovens, vamos caminhar!"
-          },
-          {
-            "chords": "    B              E",
-            "lyrics": "Mostrando_a luz do Salvador"
-          },
-          {
-            "chords": "B    F#           B",
-            "lyrics": "E honrando_ao Criador."
-          }
+        "text": [
+          "Em a[F#]mor, com vi[B]gor,",
+          "Nós, [E]jovens, [B]vamos camin[F#]har!",
+          "Most[B]rando_a luz do [E]Salvador",
+          "[B]E hon[F#]rando_ao Cria[B]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       B",
-            "lyrics": "Cristo é a Luz divina para nós,"
-          },
-          {
-            "chords": "      F#             B",
-            "lyrics": "Vemos n´Ele_a perfeição;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ouviremos, sempre_atentos, Sua voz,"
-          },
-          {
-            "chords": "       C#7        F#",
-            "lyrics": "Que consola_o coração."
-          }
+        "text": [
+          "Cristo [B]é a Luz divina para nós,",
+          "Vemos [F#]n´Ele_a perfeiç[B]ão;",
+          "Ouviremos, sempre_atentos, Sua voz,",
+          "Que con[C#7]sola_o cora[F#]ção."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      B",
-            "lyrics": "Se seguirmos sempre firmes ao Senhor,"
-          },
-          {
-            "chords": "       F#        B",
-            "lyrics": "Com sincero coração,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele nos dará, no reino de_esplendor,"
-          },
-          {
-            "chords": "     C#7         F#",
-            "lyrics": "O glorioso garlardão."
-          }
+        "text": [
+          "Se seg[B]uirmos sempre firmes ao Senhor,",
+          "Com sin[F#]cero coraç[B]ão,",
+          "Ele nos dará, no reino de_esplendor,",
+          "O glo[C#7]rioso garlar[F#]dão."
         ]
       },
       {

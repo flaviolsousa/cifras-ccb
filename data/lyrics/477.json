@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vinde, crianças",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B                           E",
-            "lyrics": "Vinde, crianças, vinde_a Jesus,"
-          },
-          {
-            "chords": "F#7            B ",
-            "lyrics": "Ele vos chama com voz de_amor"
-          },
-          {
-            "chords": "                        E",
-            "lyrics": "Para guiar-vos com Sua luz"
-          },
-          {
-            "chords": "F#7               B",
-            "lyrics": "Ao reino de_esplendor."
-          }
+        "text": [
+          "[B]Vinde, crianças, vinde_a Jes[E]us,",
+          "[F#7]Ele vos chama c[B]om voz de_amor",
+          "Para guiar-vos com Sua l[E]uz",
+          "[F#7]Ao reino de_esplen[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B              E",
-            "lyrics": "Grande tesouro revelou Jesus"
-          },
-          {
-            "chords": "F#7              G#m       F#7",
-            "lyrics": "Aos que caminham na divina luz;"
-          },
-          {
-            "chords": "B                      E",
-            "lyrics": "Esse tesouro Deus prometeu"
-          },
-          {
-            "chords": "F#7               B",
-            "lyrics": "Dar aos fiéis no céu."
-          }
+        "text": [
+          "[B]Grande tesouro [E]revelou Jesus",
+          "[F#7]Aos que caminham [G#m]na divina [F#7]luz;",
+          "[B]Esse tesouro Deus prome[E]teu",
+          "[F#7]Dar aos fiéis no c[B]éu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                   E",
-            "lyrics": "Sede prudente e esperai"
-          },
-          {
-            "chords": "F#7              B",
-            "lyrics": "Os ricos bens do lar de_espendor,"
-          },
-          {
-            "chords": "                        E",
-            "lyrics": "Onde habita Deus, nosso Pai,"
-          },
-          {
-            "chords": "F#7              B",
-            "lyrics": "E Cristo,_o Salvador."
-          }
+        "text": [
+          "[B]Sede prudente e espe[E]rai",
+          "[F#7]Os ricos bens do [B]lar de_espendor,",
+          "Onde habita Deus, nosso [E]Pai,",
+          "[F#7]E Cristo,_o Salva[B]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                         E",
-            "lyrics": "Vós, neste mundo, encontrareis"
-          },
-          {
-            "chords": "F#7            B",
-            "lyrics": "Muita vaidade, muita_ilusão;"
-          },
-          {
-            "chords": "                        E",
-            "lyrics": "Santificai-vos e_alcançareis,"
-          },
-          {
-            "chords": "F#7             B",
-            "lyrics": "No céu, o galardão."
-          }
+        "text": [
+          "[B]Vós, neste mundo, encontra[E]reis",
+          "[F#7]Muita vaidade, [B]muita_ilusão;",
+          "Santificai-vos e_alcança[E]reis,",
+          "[F#7]No céu, o galard[B]ão."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Luz eternal é Jesus",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " C",
-            "lyrics": "Luz eternal que vem de Deus"
-          },
-          {
-            "chords": "G          Am    C",
-            "lyrics": "É Jesus, o Redentor;"
-          },
-          {
-            "chords": "              F ",
-            "lyrics": "É Ele_a Vida que, dos céus,"
-          },
-          {
-            "chords": "          C    G       C",
-            "lyrics": "Veio por graça do Criador;"
-          },
-          {
-            "chords": " F         C        G          C",
-            "lyrics": "Glória ao Pai, por Seu grande_amor."
-          }
+        "text": [
+          "L[C]uz eternal que vem de Deus",
+          "[G]É Jesus, o [Am]Redent[C]or;",
+          "É Ele_a Vida q[F]ue, dos céus,",
+          "Veio por g[C]raça [G]do Criad[C]or;",
+          "G[F]lória ao P[C]ai, por S[G]eu grande_a[C]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " C               G  C     G             Am     G ",
-            "lyrics": "“Vós sois luz do mundo”, disse_o grande Mes - tre."
-          },
-          {
-            "chords": "C           F       G                  C",
-            "lyrics": "Com a luz celeste podemos, a Deus, agradar."
-          }
+        "text": [
+          "“[C]Vós sois luz do [G]mun[C]do”, d[G]isse_o grande [Am]Mes - t[G]re.",
+          "[C]Com a luz ce[F]leste po[G]demos, a Deus, agra[C]dar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " C",
-            "lyrics": "Deus fez, em nós, surgir a luz,"
-          },
-          {
-            "chords": " G            Am    C",
-            "lyrics": "Nossa mente_esclareceu;"
-          },
-          {
-            "chords": "                F ",
-            "lyrics": "Sua Palavra_em nós produz"
-          },
-          {
-            "chords": "       C      G           C",
-            "lyrics": "Entendimento que vem dos céus,"
-          },
-          {
-            "chords": " F        C    G          C",
-            "lyrics": "Que nos revela os planos Seus."
-          }
+        "text": [
+          "D[C]eus fez, em nós, surgir a luz,",
+          "N[G]ossa mente_es[Am]clarec[C]eu;",
+          "Sua Palavra_em n[F]ós produz",
+          "Entendi[C]mento q[G]ue vem dos c[C]éus,",
+          "Q[F]ue nos re[C]vela [G]os planos S[C]eus."
         ]
       },
       {
@@ -78,27 +42,12 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " C",
-            "lyrics": "Nós caminhamos nessa luz"
-          },
-          {
-            "chords": " G          Am   C",
-            "lyrics": "Para termos comunhão"
-          },
-          {
-            "chords": "                      F ",
-            "lyrics": "Com Deus, o Pai, e_o bom Jesus,"
-          },
-          {
-            "chords": "       C      G       C",
-            "lyrics": "E alcançarmos a salvação,"
-          },
-          {
-            "chords": " F     C    G       C",
-            "lyrics": "Vida eterna e galardão."
-          }
+        "text": [
+          "N[C]ós caminhamos nessa luz",
+          "P[G]ara termos [Am]comun[C]hão",
+          "Com Deus, o Pai, e_o b[F]om Jesus,",
+          "E alcan[C]çarmos [G]a salvaç[C]ão,",
+          "V[F]ida et[C]erna [G]e galard[C]ão."
         ]
       },
       {

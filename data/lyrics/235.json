@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Um amor imenso",
   "tone": {
     "recommended": "F"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F   C7   F              Bb   C ",
-            "lyrics": "Um amor imenso, santo_e celestial,"
-          },
-          {
-            "chords": "Bb     F       Bb  Gm  Dm     C7  F",
-            "lyrics": "Sinto_agora_em Cristo, Mestre divinal;"
-          },
-          {
-            "chords": "        Gm     F#°  D7  Gm      Bb      C ",
-            "lyrics": "Deus, o Pai bendi - to, transformou meu ser;"
-          },
-          {
-            "chords": "Gm  C        F  Dm  Bb   C7    F",
-            "lyrics": "Revelou-me_a graça, pelo Seu poder."
-          }
+        "text": [
+          "[F]Um a[C7]mor i[F]menso, santo_e [Bb]celes[C]tial,",
+          "[Bb]Sinto_a[F]gora_em [Bb]Cris[Gm]to, [Dm]Mestre [C7]divi[F]nal;",
+          "Deus, o [Gm]Pai ben[F#°]di - [D7]to, [Gm]transfor[Bb]mou meu [C]ser;",
+          "[Gm]Reve[C]lou-me_a [F]gra[Dm]ça, [Bb]pelo [C7]Seu po[F]der."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F    C7   F         Bb    C ",
-            "lyrics": "Nada me separa do divino_amor"
-          },
-          {
-            "chords": "Bb     F     Bb  Gm  Dm    C7   F",
-            "lyrics": "Que me une_a Cristo, o meu Salvador;"
-          },
-          {
-            "chords": "     Gm     F#°   D7  Gm    Bb    C ",
-            "lyrics": "O fervor glorio - so  de servir a Deus"
-          },
-          {
-            "chords": "Gm    C    F  Dm  Bb      C7      F",
-            "lyrics": "Me conduz avante  rumo_ao céu dos céus."
-          }
+        "text": [
+          "[F]Nada [C7]me se[F]para do di[Bb]vino_a[C]mor",
+          "[Bb]Que me [F]une_a [Bb]Cris[Gm]to, [Dm]o meu [C7]Salva[F]dor;",
+          "O fer[Gm]vor glo[F#°]rio - [D7]so  [Gm]de ser[Bb]vir a [C]Deus",
+          "[Gm]Me con[C]duz a[F]van[Dm]te  [Bb]rumo_ao [C7]céu dos [F]céus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F     C7    F           Bb    C ",
-            "lyrics": "Paz e vida_eterna tenho por Jesus,"
-          },
-          {
-            "chords": "Bb   F    Bb    Gm  Dm  C7     F",
-            "lyrics": "Bem-aventuran - ça, regozijo_e luz;"
-          },
-          {
-            "chords": "      Gm      F#°    D7  Gm    Bb    C ",
-            "lyrics": "Meu Tesouro_é Cris - to, Ele_é meu Viver;"
-          },
-          {
-            "chords": "Gm        C       F    Dm  Bb      C7  F",
-            "lyrics": "Quero,_ao Mestre_ama - do, sempre_obedecer."
-          }
+        "text": [
+          "[F]Paz e [C7]vida_e[F]terna tenho [Bb]por Je[C]sus,",
+          "[Bb]Bem-a[F]ventu[Bb]ran - [Gm]ça, [Dm]rego[C7]zijo_e [F]luz;",
+          "Meu Te[Gm]souro_é [F#°]Cris - [D7]to, [Gm]Ele_é [Bb]meu Vi[C]ver;",
+          "[Gm]Quero,_ao [C]Mestre_a[F]ma - [Dm]do, [Bb]sempre_o[C7]bede[F]cer."
         ]
       }
     ]

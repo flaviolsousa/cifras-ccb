@@ -1,10 +1,9 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ouve a nossa oração",
   "level": 3,
   "tone": {
     "original": "Ab",
-    "recommended": "G",
     "selected": "G"
   },
   "rhythm": "Valsa",
@@ -14,51 +13,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                                           Am   D7",
-            "lyrics": "Nossos olhos para os céus, ó Deus, nós levanta...mos;"
-          },
-          {
-            "chords": "Am E         Am    D     G     Em    D7",
-            "lyrics": "Confiando em Teu amor, a nossa voz alçamos."
-          }
+        "text": [
+          "[G]Nossos olhos para os céus, ó Deus, nós levan[Am]ta...[D7]mos;",
+          "[Am]Con[E]fiando em [Am]Teu am[D]or, a [G]nossa [Em]voz al[D7]çamos."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G            A7",
-            "lyrics": "Ouve a nossa oração"
-          },
-          {
-            "chords": "D7            G",
-            "lyrics": "Desde a Tua habitação;"
-          },
-          {
-            "chords": "                    C",
-            "lyrics": "Tua bênção, Teu perdão,"
-          },
-          {
-            "chords": "G        D    D7   G",
-            "lyrics": "Manda, ó Deus piedoso."
-          }
+        "text": [
+          "[G]Ouve a nossa [A7]oração",
+          "[D7]Desde a Tua ha[G]bitação;",
+          "Tua bênção, [G7]Teu perd[C]ão,",
+          "[G]Manda, ó [D]Deus [D7]piedo[G]so."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                              Am    D7",
-            "lyrics": "Refrigério celestial e bálsamo precioso"
-          },
-          {
-            "chords": "Am E            Am    D        G      Em    D7",
-            "lyrics": "É  sentir-Te em nosso ser, Pai santo, glorioso."
-          }
-        ]
+        "text": ["[G]Refrigério celestial e bálsamo [Am]precio[D7]so", "[Am]É  [E]sentir-Te em [Am]nosso [D]ser, Pai [G]santo, [Em]glorio[D7]so."]
       },
       {
         "type": "ref",
@@ -67,16 +39,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                                    Am   D7",
-            "lyrics": "No Teu trono, ó Senhor, recebe nesta ho...ra"
-          },
-          {
-            "chords": "Am  E     Am  D     G    Em      D7",
-            "lyrics": "A humilde oração do povo que Te adora."
-          }
-        ]
+        "text": ["[G]No Teu trono, ó Senhor, recebe nesta [Am]ho...[D7]ra", "[Am]A hu[E]milde [Am]oraç[D]ão do [G]povo [Em]que Te a[D7]dora."]
       },
       {
         "type": "ref",

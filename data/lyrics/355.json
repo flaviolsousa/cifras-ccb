@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Ti, Deus, eu consagrei-me",
   "tone": {
     "recommended": "E"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E              B7        E  B7                E",
-            "lyrics": "A Ti, Deus, eu consagrei-me para sempre Te servir;"
-          },
-          {
-            "chords": "                 A    E       B7                  E",
-            "lyrics": "De Teus dons vem revestir-me, e de_amor também cingir."
-          },
-          {
-            "chords": "              A      E  E7  A      B7           E ",
-            "lyrics": "Vem manter-me sempre firme, bem disposto_a Te ouvir."
-          }
+        "text": [
+          "[E]A Ti, Deus, eu [B7]consagrei-[E]me [B7]para sempre Te ser[E]vir;",
+          "De Teus dons vem [A]reves[E]tir-me, [B7]e de_amor também cin[E]gir.",
+          "Vem manter-me [A]sempre [E]fir[E7]me, [A]bem dis[B7]posto_a Te ou[E]vir."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B7                  E",
-            "lyrics": "Ao bom Pai, o Deus eterno,"
-          },
-          {
-            "chords": "B7                E",
-            "lyrics": "Consagrei meu coração;"
-          },
-          {
-            "chords": "             E7    A ",
-            "lyrics": "Com sublime_amor superno"
-          },
-          {
-            "chords": "   B7               E",
-            "lyrics": "Me prometeu o galardão."
-          }
+        "text": [
+          "[B7]Ao bom Pai, o Deus e[E]terno,",
+          "[B7]Consagrei meu cora[E]ção;",
+          "Com sublime_a[E7]mor su[A]perno",
+          "Me [B7]prometeu o galard[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E           B7    E  B7              E",
-            "lyrics": "Nesta graça preciosa sou ditoso em viver;"
-          },
-          {
-            "chords": "            A    E   B7                E",
-            "lyrics": "Que herança gloriosa do Senhor vou receber!"
-          },
-          {
-            "chords": "          A   E  E7  A     B7              E",
-            "lyrics": "Esta fé maravilhosa  quero sempre_em mim reter."
-          }
+        "text": [
+          "[E]Nesta graça [B7]precio[E]sa [B7]sou ditoso em vi[E]ver;",
+          "Que herança [A]glori[E]osa [B7]do Senhor vou rece[E]ber!",
+          "Esta fé ma[A]ravi[E]lho[E7]sa  [A]quero [B7]sempre_em mim re[E]ter."
         ]
       },
       {
@@ -70,19 +40,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E         B7        E  B7                 E",
-            "lyrics": "Um futuro mui glorioso eu achei em Ti, Senhor;"
-          },
-          {
-            "chords": "              A      E     B7                E",
-            "lyrics": "Ó bom Deus, fiel, piedoso, revestiste-me de_amor."
-          },
-          {
-            "chords": "            A   E   E7  A       B7           E",
-            "lyrics": "Eu aguardo, ansio - so, ver Teu rosto,_ó Criador."
-          }
+        "text": [
+          "[E]Um futuro [B7]mui glorio[E]so [B7]eu achei em Ti, Sen[E]hor;",
+          "Ó bom Deus, fi[A]el, pie[E]doso, [B7]revestiste-me de_a[E]mor.",
+          "Eu aguardo, [A]ansi[E]o - [E7]so, [A]ver Teu [B7]rosto,_ó Cria[E]dor."
         ]
       },
       {

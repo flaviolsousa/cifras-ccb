@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos todos juntos cantar",
   "tone": {
     "recommended": "F"
@@ -9,103 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Vamos todos juntos cantar:"
-          },
-          {
-            "chords": "C               F",
-            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
-          },
-          {
-            "chords": "",
-            "lyrics": "Vamos todos juntos louvar"
-          },
-          {
-            "chords": "C7    F   C7  F",
-            "lyrics": "Ao Senhor Je-sus!"
-          },
-          {
-            "chords": "           F°  F            Bb     F",
-            "lyrics": "Ele_é_a nossa  Paz, Ele_é_a nossa Luz;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Exaltemos, com devoção,"
-          },
-          {
-            "chords": "C7    F   C7  F",
-            "lyrics": "Ao Senhor Je-sus!"
-          }
+        "text": [
+          "[F]Vamos todos juntos cantar:",
+          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "Vamos todos juntos louvar",
+          "[C7]Ao Sen[F]hor [C7]Je-s[F]us!",
+          "Ele_é_a nos[F°]sa  [F]Paz, Ele_é_a [Bb]nossa L[F]uz;",
+          "Exaltemos, com devoção,",
+          "[C7]Ao Sen[F]hor [C7]Je-s[F]us!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Somos salvos por Seu amor;"
-          },
-          {
-            "chords": "C               F",
-            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
-          },
-          {
-            "chords": "",
-            "lyrics": "Suportou, por nós, grande dor"
-          },
-          {
-            "chords": "C7   F   C7  F",
-            "lyrics": "O Senhor Je-sus."
-          },
-          {
-            "chords": "            F°  F           Bb      F",
-            "lyrics": "Quem nos dá perdão, Quem ao céu conduz"
-          },
-          {
-            "chords": "",
-            "lyrics": "É o santo Filho de Deus,"
-          },
-          {
-            "chords": "C7   F   C7  F",
-            "lyrics": "O Senhor Je-sus."
-          }
+        "text": [
+          "[F]Somos salvos por Seu amor;",
+          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "Suportou, por nós, grande dor",
+          "[C7]O Sen[F]hor [C7]Je-s[F]us.",
+          "Quem nos dá [F°]perd[F]ão, Quem ao [Bb]céu cond[F]uz",
+          "É o santo Filho de Deus,",
+          "[C7]O Sen[F]hor [C7]Je-s[F]us."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Mui felizes somos então;"
-          },
-          {
-            "chords": "C               F",
-            "lyrics": "Glória_a Jesus! Glória_a Jesus!"
-          },
-          {
-            "chords": "",
-            "lyrics": "Recebemos consolação"
-          },
-          {
-            "chords": "C7    F   C7  F",
-            "lyrics": "Do Senhor Je-sus."
-          },
-          {
-            "chords": "            F°  F          Bb      F",
-            "lyrics": "No Seu lar de_amor, no Seu lar de luz,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Novo hino vamos cantar"
-          },
-          {
-            "chords": "C7    F   C7  F",
-            "lyrics": "Ao Senhor Je-sus."
-          }
+        "text": [
+          "[F]Mui felizes somos então;",
+          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "Recebemos consolação",
+          "[C7]Do Sen[F]hor [C7]Je-s[F]us.",
+          "No Seu lar d[F°]e_am[F]or, no Seu [Bb]lar de l[F]uz,",
+          "Novo hino vamos cantar",
+          "[C7]Ao Sen[F]hor [C7]Je-s[F]us."
         ]
       }
     ]

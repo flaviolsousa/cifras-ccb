@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Se a nossa vida entregarmos a Jesus",
   "tone": {
     "recommended": "D"
@@ -9,115 +9,43 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D          A         D",
-            "lyrics": "Se a nossa vida entregarmos a Jesus,"
-          },
-          {
-            "chords": " G           D      E    A7",
-            "lyrics": "Mal nenhum devemos nós temer;"
-          },
-          {
-            "chords": "D          A            D",
-            "lyrics": "Nunca pereceu quem a Jesus se entregou"
-          },
-          {
-            "chords": "E              A7   ",
-            "lyrics": "De sincero coração;"
-          },
-          {
-            "chords": "D                 A    A7",
-            "lyrics": "Celestial amor provou"
-          },
-          {
-            "chords": "                          D    D7",
-            "lyrics": "Quem sentiu, de Deus, perdão;"
-          },
-          {
-            "chords": " G                  D",
-            "lyrics": "Juntos caminhemos, firmes e constantes,"
-          },
-          {
-            "chords": "Em           A7    D",
-            "lyrics": "Rumo à celestial Sião."
-          }
+        "text": [
+          "[D]Se a nossa [A]vida entre[D]garmos a Jesus,",
+          "M[G]al nenhum de[D]vemos n[E]ós te[A7]mer;",
+          "[D]Nunca perec[A]eu quem a Jes[D]us se entregou",
+          "[E]De sincero cora[A7]ção;",
+          "[D]Celestial amor pro[A]vou[A7]",
+          "Quem sentiu, de Deus, perd[D]ão;[D7]",
+          "J[G]untos caminhemos, f[D]irmes e constantes,",
+          "[Em]Rumo à celest[A7]ial Si[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D          A         D",
-            "lyrics": "Se a nossa vida entregarmos a Jesus,"
-          },
-          {
-            "chords": " G       D      E   A7",
-            "lyrics": "Tudo poderemos suportar;"
-          },
-          {
-            "chords": " D         A          D",
-            "lyrics": "N´Ele confiemos e esperemos pela fé,"
-          },
-          {
-            "chords": " E                   A7   ",
-            "lyrics": "Pois bem perto Ele está;"
-          },
-          {
-            "chords": " D               A    A7",
-            "lyrics": "Pelo Seu imenso amor,"
-          },
-          {
-            "chords": "             D    D7",
-            "lyrics": "Ao fiel ajudará."
-          },
-          {
-            "chords": "G                       D",
-            "lyrics": "Se, nas nossas provas, nós O invocarmos,"
-          },
-          {
-            "chords": "Em        A7    D",
-            "lyrics": "A vitória nos dará."
-          }
+        "text": [
+          "[D]Se a nossa [A]vida entre[D]garmos a Jesus,",
+          "T[G]udo pode[D]remos s[E]upor[A7]tar;",
+          "N[D]´Ele confi[A]emos e espe[D]remos pela fé,",
+          "P[E]ois bem perto Ele es[A7]tá;",
+          "P[D]elo Seu imenso a[A]mor,[A7]",
+          "Ao fiel ajuda[D]rá.[D7]",
+          "[G]Se, nas nossas provas, n[D]ós O invocarmos,",
+          "[Em]A vitória [A7]nos da[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " D         A           D",
-            "lyrics": "Nossa vida já pertence ao Senhor Jesus,"
-          },
-          {
-            "chords": " G           D      E     A7",
-            "lyrics": "Proclamemos todos; d´Ele sou!"
-          },
-          {
-            "chords": "D           A          D",
-            "lyrics": "Ó irmãos, devemos caminhar em Seu temor,"
-          },
-          {
-            "chords": " E                    A7   ",
-            "lyrics": "Pois Seu sangue nos lavou;"
-          },
-          {
-            "chords": " D                   A    A7",
-            "lyrics": "Glória ao nosso Redentor,"
-          },
-          {
-            "chords": "                     D    D7",
-            "lyrics": "Que do mal nos libertou;"
-          },
-          {
-            "chords": " G                       D ",
-            "lyrics": "Sobre a cruz foi morto, mas voltou à vida;"
-          },
-          {
-            "chords": "Em           A7   D",
-            "lyrics": "Do sepulcro triunfou!"
-          }
+        "text": [
+          "N[D]ossa vida [A]já pertence [D]ao Senhor Jesus,",
+          "P[G]roclamemos t[D]odos; d[E]´Ele s[A7]ou!",
+          "[D]Ó irmãos, de[A]vemos camin[D]har em Seu temor,",
+          "P[E]ois Seu sangue nos la[A7]vou;",
+          "G[D]lória ao nosso Reden[A]tor,[A7]",
+          "Que do mal nos libert[D]ou;[D7]",
+          "S[G]obre a cruz foi morto, m[D]as voltou à vida;",
+          "[Em]Do sepulcro t[A7]riunf[D]ou!"
         ]
       }
     ]

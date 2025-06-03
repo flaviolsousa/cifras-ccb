@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É Jesus o nosso Intercessor",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G",
-            "lyrics": "Sumo Sacerdote santo, eternal,"
-          },
-          {
-            "chords": "    D         G",
-            "lyrics": "É Jesus, o Senhor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Intercede junto_ao Pai celestial,"
-          },
-          {
-            "chords": "      D         G",
-            "lyrics": "Nosso Deus, Criador."
-          }
+        "text": [
+          "Sumo [G]Sacerdote santo, eternal,",
+          "É Je[D]sus, o Sen[G]hor;",
+          "Intercede junto_ao Pai celestial,",
+          "Nosso [D]Deus, Cria[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G ",
-            "lyrics": "É Jesus o nosso_Intercessor"
-          },
-          {
-            "chords": "        D            G",
-            "lyrics": "Junto_a Deus, o Formador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Em Seu Nome,_a nossa oração"
-          },
-          {
-            "chords": "     D         G",
-            "lyrics": "Chegará ao Criador."
-          }
+        "text": [
+          "É Je[G]sus o nosso_Intercessor",
+          "Junto_a [D]Deus, o Forma[G]dor;",
+          "Em Seu Nome,_a nossa oração",
+          "Chega[D]rá ao Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     G",
-            "lyrics": "Sacerdote compassivo é_o Senhor;"
-          },
-          {
-            "chords": "    D        G",
-            "lyrics": "Ele nos resgatou;"
-          },
-          {
-            "chords": "",
-            "lyrics": "É piedoso para com o transgressor,"
-          },
-          {
-            "chords": "        D          G",
-            "lyrics": "Pois na cruz os salvou."
-          }
+        "text": [
+          "Sacer[G]dote compassivo é_o Senhor;",
+          "Ele [D]nos resga[G]tou;",
+          "É piedoso para com o transgressor,",
+          "Pois na [D]cruz os sal[G]vou."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       G",
-            "lyrics": "Foi tentado_em tudo o Senhor Jesus,"
-          },
-          {
-            "chords": "     D         G",
-            "lyrics": "Resistiu com valor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Com Seu braço forte Ele nos conduz;"
-          },
-          {
-            "chords": "        D           G",
-            "lyrics": "Tem por nós grande_amor."
-          }
+        "text": [
+          "Foi ten[G]tado_em tudo o Senhor Jesus,",
+          "Resis[D]tiu com va[G]lor;",
+          "Com Seu braço forte Ele nos conduz;",
+          "Tem por [D]nós grande_a[G]mor."
         ]
       },
       {

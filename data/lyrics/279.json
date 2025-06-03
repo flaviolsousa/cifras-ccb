@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Não temas, igreja de Jesus",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        A                E ",
-            "lyrics": "Oh! Não temas tu, igreja de Jesus,"
-          },
-          {
-            "chords": "                           A",
-            "lyrics": "Com justiça Ele te confirmará;"
-          },
-          {
-            "chords": "                         E ",
-            "lyrics": "O lugar da tua tenda_e_habitação"
-          },
-          {
-            "chords": "B7             E ",
-            "lyrics": "O Senhor ampliará."
-          }
+        "text": [
+          "Oh! Não [A]temas tu, igreja [E]de Jesus,",
+          "Com justiça Ele te confirma[A]rá;",
+          "O lugar da tua tenda_e_ha[E]bitação",
+          "[B7]O Senhor amplia[E]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E                  A",
-            "lyrics": "Toda_a arma contra ti"
-          },
-          {
-            "chords": "C#7               F#m  A7",
-            "lyrics": "Prosperar não poderá;"
-          },
-          {
-            "chords": "D                       A",
-            "lyrics": "Quando_o inimigo contra ti se levantar,"
-          },
-          {
-            "chords": "E                A",
-            "lyrics": "Cristo te defenderá."
-          }
+        "text": [
+          "[E]Toda_a arma contra [A]ti",
+          "[C#7]Prosperar não pode[F#m]rá;[A7]",
+          "[D]Quando_o inimigo contra [A]ti se levantar,",
+          "[E]Cristo te defende[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       A              E ",
-            "lyrics": "Toda_a arma preparada contra ti"
-          },
-          {
-            "chords": "                               A",
-            "lyrics": "Te combate, mas jamais te vencerá,"
-          },
-          {
-            "chords": "                        E ",
-            "lyrics": "Pois Jesus, o teu amado Redentor,"
-          },
-          {
-            "chords": "B7             E",
-            "lyrics": "A vitória te dará."
-          }
+        "text": [
+          "Toda_a [A]arma preparada [E]contra ti",
+          "Te combate, mas jamais te vence[A]rá,",
+          "Pois Jesus, o teu amado [E]Redentor,",
+          "[B7]A vitória te da[E]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    A                    E ",
-            "lyrics": "Na eterna glória, não te lembrarás"
-          },
-          {
-            "chords": "                                A",
-            "lyrics": "Das angústias deste mundo_enganador,"
-          },
-          {
-            "chords": "                     E ",
-            "lyrics": "Pois ali eternamente estarás"
-          },
-          {
-            "chords": "B7                E ",
-            "lyrics": "Com Jesus, o Vencedor."
-          }
+        "text": [
+          "Na e[A]terna glória, não te [E]lembrarás",
+          "Das angústias deste mundo_engana[A]dor,",
+          "Pois ali eternamente [E]estarás",
+          "[B7]Com Jesus, o Vence[E]dor."
         ]
       },
       {

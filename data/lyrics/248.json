@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Glória! Aleluia! Sinto Jesus",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                G        D",
-            "lyrics": "Glória!_Aleluia! Sinto Jesus,"
-          },
-          {
-            "chords": "       E                A ",
-            "lyrics": "Ele me guia na senda de luz;"
-          },
-          {
-            "chords": "D               G       D",
-            "lyrics": "Seu forte braço me susterá,"
-          },
-          {
-            "chords": "          G      A      D",
-            "lyrics": "De todo_o mal me defenderá."
-          }
+        "text": [
+          "[D]Glória!_Aleluia! [G]Sinto Jes[D]us,",
+          "Ele me [E]guia na senda de [A]luz;",
+          "[D]Seu forte braço [G]me suste[D]rá,",
+          "De todo_o [G]mal me [A]defende[D]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                G        D",
-            "lyrics": "Glória!_Aleluia! Contemplarei"
-          },
-          {
-            "chords": "       G    E       A ",
-            "lyrics": "Face a face o meu Senhor,"
-          },
-          {
-            "chords": "A7        D     G     D",
-            "lyrics": "E_então igual a Ele serei"
-          },
-          {
-            "chords": "          G     A            D",
-            "lyrics": "No Seu glorioso lar de_esplendor."
-          }
+        "text": [
+          "[D]Glória!_Aleluia! [G]Contempla[D]rei",
+          "Face a [G]face [E]o meu Se[A]nhor,",
+          "[A7]E_então ig[D]ual a [G]Ele se[D]rei",
+          "No Seu glo[G]rioso [A]lar de_esplen[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                G            D",
-            "lyrics": "Glória!_Aleluia! Santo_é_o Senhor,"
-          },
-          {
-            "chords": "           E                A ",
-            "lyrics": "Três vezes Santo e rico_em amor;"
-          },
-          {
-            "chords": "D           G        D",
-            "lyrics": "Vivo seguro em Seu poder,"
-          },
-          {
-            "chords": "       G     A        D",
-            "lyrics": "E este mundo posso vencer."
-          }
+        "text": [
+          "[D]Glória!_Aleluia! [G]Santo_é_o Sen[D]hor,",
+          "Três vezes [E]Santo e rico_em a[A]mor;",
+          "[D]Vivo seguro [G]em Seu po[D]der,",
+          "E este [G]mundo [A]posso ven[D]cer."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                G         D",
-            "lyrics": "Glória!_Aleluia! Amo_ao Senhor;"
-          },
-          {
-            "chords": "         E                   A ",
-            "lyrics": "Quero servi-Lo com todo_o fervor;"
-          },
-          {
-            "chords": "D             G       D",
-            "lyrics": "Em Sua glória eu entrarei"
-          },
-          {
-            "chords": "             G       A     D",
-            "lyrics": "E, junto_aos santos, habitarei."
-          }
+        "text": [
+          "[D]Glória!_Aleluia! [G]Amo_ao Sen[D]hor;",
+          "Quero ser[E]vi-Lo com todo_o fer[A]vor;",
+          "[D]Em Sua glória [G]eu entra[D]rei",
+          "E, junto_aos [G]santos, [A]habita[D]rei."
         ]
       },
       {

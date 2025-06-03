@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Confiemos em Deus",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A           E                       A",
-            "lyrics": "Ó amados, venceremos este mundo_enganador;"
-          },
-          {
-            "chords": "     C#7        F#m         B7         E",
-            "lyrics": "Pela fé nós lutaremos, confiando no Senhor."
-          }
+        "text": [
+          "Ó a[A]mados, vence[E]remos este mundo_enganad[A]or;",
+          "Pela [C#7]fé nós luta[F#m]remos, confi[B7]ando no Sen[E]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Confiemos em Deus,"
-          },
-          {
-            "chords": "              E",
-            "lyrics": "Ele é o nosso Pai;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele ouve os Seus"
-          },
-          {
-            "chords": "                     A",
-            "lyrics": "E, ao céu, levá-los vai."
-          },
-          {
-            "chords": "                 D",
-            "lyrics": "Pelo Seu imenso_amor"
-          },
-          {
-            "chords": "       B7        E",
-            "lyrics": "Nos protege o Senhor;"
-          },
-          {
-            "chords": "     A              D",
-            "lyrics": "Oh! Oremos, com fervor,"
-          },
-          {
-            "chords": "          E          A",
-            "lyrics": "Ao grande Deus, Formador."
-          }
+        "text": [
+          "Confi[A]emos em Deus,",
+          "Ele é o nosso [E]Pai;",
+          "Ele ouve os Seus",
+          "E, ao céu, levá-los v[A]ai.",
+          "Pelo Seu imenso_a[D]mor",
+          "Nos pro[B7]tege o Sen[E]hor;",
+          "Oh! O[A]remos, com ferv[D]or,",
+          "Ao grande [E]Deus, Forma[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        A         E                      A ",
-            "lyrics": "Do Seu trono glorioso nos contempla o Senhor;"
-          },
-          {
-            "chords": "        C#7      F#m          B7        E",
-            "lyrics": "Deus, o Todo_poderoso, nos conserva em amor."
-          }
+        "text": [
+          "Do Seu t[A]rono glori[E]oso nos contempla o Sen[A]hor;",
+          "Deus, o [C#7]Todo_pode[F#m]roso, nos con[B7]serva em a[E]mor."
         ]
       },
       {

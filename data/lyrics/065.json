@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Igual ao Mestre!",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D               A ",
-            "lyrics": "Igual ao Mestre eu desejo ser,"
-          },
-          {
-            "chords": "               D",
-            "lyrics": "Em humildade_e mansidão viver,"
-          },
-          {
-            "chords": "                     G ",
-            "lyrics": "Sempre, com zelo, em santidade_andar"
-          },
-          {
-            "chords": "E       A      E         A    A7 ",
-            "lyrics": "E minha vida a Ele consagrar."
-          }
+        "text": [
+          "[D]Igual ao Mestre [A]eu desejo ser,",
+          "Em humildade_e [D]mansidão viver,",
+          "Sempre, com zelo, em [G]santidade_andar",
+          "[E]E minha [A]vida a [E]Ele consag[A]rar.[A7]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                         A7 ",
-            "lyrics": "Meu coração é todo Teu, Senhor,"
-          },
-          {
-            "chords": "                              D  ",
-            "lyrics": "Ele_é o um templo para Teu louvor,"
-          },
-          {
-            "chords": "                    B7         Em ",
-            "lyrics": "Guarda-o do mal, ao vir a tentação;"
-          },
-          {
-            "chords": " E        A  D...  A        D",
-            "lyrics": "Sou Teu remi-do,   divino Redentor."
-          }
+        "text": [
+          "[D]Meu coração é todo Teu, Se[A7]nhor,",
+          "Ele_é o um templo para Teu lou[D]vor,",
+          "Guarda-o do mal, ao [B7]vir a tenta[Em]ção;",
+          "S[E]ou Teu re[A]mi-[D...]do,   [A]divino Re[D]dentor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D                A ",
-            "lyrics": "Cristo, o Mestre, Sua cruz levou"
-          },
-          {
-            "chords": "               D ",
-            "lyrics": "E_o Pai eterno O glorificou;"
-          },
-          {
-            "chords": "                G ",
-            "lyrics": "Também desejo a minha cruz levar"
-          },
-          {
-            "chords": "E       A           E       A    A7 ",
-            "lyrics": "E, para sempre, com Ele habitar."
-          }
+        "text": [
+          "C[D]risto, o Mestre, [A]Sua cruz levou",
+          "E_o Pai eterno [D]O glorificou;",
+          "Também desejo a [G]minha cruz levar",
+          "[E]E, para [A]sempre, com [E]Ele habi[A]tar.[A7]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " D               A ",
-            "lyrics": "Como_é o Mestre, no céu, O verei;"
-          },
-          {
-            "chords": "             D ",
-            "lyrics": "À semelhança d´Ele eu serei,"
-          },
-          {
-            "chords": "                    G ",
-            "lyrics": "Num corpo santo, glorioso_e imortal,"
-          },
-          {
-            "chords": "E      A       E         A    A7 ",
-            "lyrics": "Habitarei na cidade eternal."
-          }
+        "text": [
+          "C[D]omo_é o Mestre, [A]no céu, O verei;",
+          "À semelhança [D]d´Ele eu serei,",
+          "Num corpo santo, glo[G]rioso_e imortal,",
+          "[E]Habitar[A]ei na ci[E]dade etern[A]al.[A7]"
         ]
       },
       {

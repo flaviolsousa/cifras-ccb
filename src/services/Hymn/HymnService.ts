@@ -6,52 +6,26 @@ async function readFile(file: string): Promise<HymnModel | null> {
   return HymnModels[file] || null;
 }
 
-function transposeChordsLine(chordsLine: string, fromKey: string, toKey: string): string {
-  const parts = chordsLine.split(/([^_\s]+)/g);
+function transposeChordsLine(line: string, fromKey: string, toKey: string): string {
+  const parts = line.split(/(\[[^\]]+\])/g);
   let result = "";
-  let i = 0;
-  let amountToFix = 0;
-  while (i < parts.length) {
-    const part = parts[i];
-    if (part.includes("_")) {
-      if (amountToFix > 0) {
-        const correctPartSize = part.slice(amountToFix);
-        result += correctPartSize;
-        amountToFix = 0;
-      } else if (amountToFix < 0) {
-        const correctPartSize = " ".repeat(amountToFix * -1) + part;
-        result += correctPartSize;
-        amountToFix = 0;
-      } else {
-        result += part;
+
+  parts.forEach((part) => {
+    if (part.startsWith("[") && part.endsWith("]")) {
+      // Extract chord from brackets
+      const chord = part.slice(1, -1);
+      try {
+        const transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
+        result += `[${transposed}]`;
+      } catch (e: any) {
+        console.error(e);
+        result += `${part}:ERROR`;
       }
-      i++;
-      continue;
-    }
-
-    const match = part.match(/^([_.]*)(.*?)([_.°º()-]*$)/);
-    if (!match) {
+    } else {
       result += part;
-      i++;
-      continue;
     }
+  });
 
-    const chordPrefix = match[1] || "";
-    const chord = match[2] || part.trim();
-    const chordSuffix = match[3] || "";
-
-    try {
-      const transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
-      const transposedPart = `${chordPrefix}${transposed}${chordSuffix}`;
-      amountToFix = transposedPart.length - part.length;
-
-      result += transposedPart;
-    } catch (e: any) {
-      console.error(e);
-      result += part + ":ERROR";
-    }
-    i++;
-  }
   return result;
 }
 
@@ -70,7 +44,8 @@ class HymnService {
           ...hymnData,
         }),
       );
-      hymn.tone.selected = hymn.tone.selected || hymn.tone.recommended;
+      hymn.tone.selected = hymn.tone.selected ?? hymn.tone.recommended;
+      hymn.tone.recommended = hymn.tone.recommended ?? hymn.tone.selected;
       return hymn;
     }
     return null;
@@ -87,10 +62,7 @@ class HymnService {
         ...hymn.score,
         stanzas: hymn.score.stanzas.map((stanza) => ({
           ...stanza,
-          verses: stanza.verses?.map((verse) => ({
-            ...verse,
-            chords: transposeChordsLine(verse.chords, hymn.tone.selected, newTone),
-          })),
+          text: stanza.text?.map((line) => transposeChordsLine(line, hymn.tone.selected, newTone)),
         })),
       },
     };
@@ -106,11 +78,6 @@ class HymnService {
     if (hymn) {
       const transposedHymn = HymnService.transposeHymn(hymn, newTone);
       console.log("--");
-      transposedHymn.score.stanzas.forEach((stanza) => {
-        stanza?.verses?.forEach((verse) => {
-          verse.chords = verse.chords.replace(/_/g, " ");
-        });
-      });
       console.log(JSON.stringify(transposedHymn, null, 2));
       console.log("--");
     } else {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo intercede por ti",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Quando te faltam forças contra_o mal,"
-          },
-          {
-            "chords": "                    C ",
-            "lyrics": "Tens o socorro dos céus;"
-          },
-          {
-            "chords": "F",
-            "lyrics": "Cristo Jesus, Cordeiro divinal,"
-          },
-          {
-            "chords": "C                      F",
-            "lyrics": "É_Intercessor junto_a Deus."
-          }
+        "text": [
+          "[F]Quando te faltam forças contra_o mal,",
+          "Tens o socorro dos c[C]éus;",
+          "[F]Cristo Jesus, Cordeiro divinal,",
+          "[C]É_Intercessor junto_a D[F]eus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F                    C    ",
-            "lyrics": "Cristo_intercede por ti"
-          },
-          {
-            "chords": "                         F",
-            "lyrics": "Junto_a Deus, o Pai celestial;"
-          },
-          {
-            "chords": "F7                Bb ",
-            "lyrics": "Cristo_é_o Modelo santo_e perfeito,"
-          },
-          {
-            "chords": "F           C      F",
-            "lyrics": "Cristo_é_o Amigo leal."
-          }
+        "text": [
+          "[F]Cristo_intercede por [C]ti",
+          "Junto_a Deus, o Pai celes[F]tial;",
+          "[F7]Cristo_é_o Modelo [Bb]santo_e perfeito,",
+          "[F]Cristo_é_o A[C]migo le[F]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Quando_o_inimigo te vier tentar,"
-          },
-          {
-            "chords": "                    C ",
-            "lyrics": "Clama_a Jesus, Redentor;"
-          },
-          {
-            "chords": "F",
-            "lyrics": "Forças, por certo, Ele_irá te dar"
-          },
-          {
-            "chords": "C              F",
-            "lyrics": "E te fará vencedor."
-          }
+        "text": [
+          "[F]Quando_o_inimigo te vier tentar,",
+          "Clama_a Jesus, Reden[C]tor;",
+          "[F]Forças, por certo, Ele_irá te dar",
+          "[C]E te fará vence[F]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F",
-            "lyrics": "Quando_estiveres em tribulação,"
-          },
-          {
-            "chords": "                   C ",
-            "lyrics": "Clama ao Filho de Deus,"
-          },
-          {
-            "chords": "F",
-            "lyrics": "E certamente te socorrerão"
-          },
-          {
-            "chords": "C                   F",
-            "lyrics": "Anjos mandados dos céus."
-          }
+        "text": [
+          "[F]Quando_estiveres em tribulação,",
+          "Clama ao Filho de D[C]eus,",
+          "[F]E certamente te socorrerão",
+          "[C]Anjos mandados dos c[F]éus."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus é a nossa Rocha",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  B                       E          B",
-            "lyrics": "Jesus é_a nossa Rocha de_eterna salvação,"
-          },
-          {
-            "chords": "                        C#7         F#7 ",
-            "lyrics": "Que pode abrigar-nos em toda_a tentação;"
-          },
-          {
-            "chords": "   B                    E             B",
-            "lyrics": "Se n´Ele confiarmos, ninguém nos vencerá,"
-          },
-          {
-            "chords": "                           F#7      B",
-            "lyrics": "Pois nossa fé constante em Cristo_está."
-          }
+        "text": [
+          "Je[B]sus é_a nossa Rocha de_e[E]terna salva[B]ção,",
+          "Que pode abrigar-nos em [C#7]toda_a tenta[F#7]ção;",
+          "Se [B]n´Ele confiarmos, nin[E]guém nos vence[B]rá,",
+          "Pois nossa fé constante em [F#7]Cristo_es[B]tá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  B                  E          B",
-            "lyrics": "É Cristo a Rocha de_eterna salvação,"
-          },
-          {
-            "chords": "                   F#7  ",
-            "lyrics": "Real Fundamento da nossa redenção;"
-          },
-          {
-            "chords": "  B                 E           B",
-            "lyrics": "É Cristo a Rocha, Autor do sumo bem,"
-          },
-          {
-            "chords": "                            F#7  B",
-            "lyrics": "Quem n´Ele firme_está, proteção  tem."
-          }
+        "text": [
+          "É [B]Cristo a Rocha de_e[E]terna salva[B]ção,",
+          "Real Fundamento da [F#7]nossa redenção;",
+          "É [B]Cristo a Rocha, Au[E]tor do sumo [B]bem,",
+          "Quem n´Ele firme_está, prote[F#7]ção  [B]tem."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  B               E          B",
-            "lyrics": "Seguro Alicerce é o Senhor Jesus,"
-          },
-          {
-            "chords": "                             C#7          F#7 ",
-            "lyrics": "Que nos tirou das trevas, mostrando-nos a luz,"
-          },
-          {
-            "chords": "  B                   E           B",
-            "lyrics": "Será esclarecido quem nessa Rocha crer,"
-          },
-          {
-            "chords": "                      F#7   B",
-            "lyrics": "Bem firme estará pelo Seu poder."
-          }
+        "text": [
+          "Se[B]guro Alicerce é [E]o Senhor Je[B]sus,",
+          "Que nos tirou das trevas, mos[C#7]trando-nos a [F#7]luz,",
+          "Se[B]rá esclarecido quem [E]nessa Rocha [B]crer,",
+          "Bem firme estará pelo [F#7]Seu po[B]der."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  B                  E            B",
-            "lyrics": "A geração eleita nós somos, no Senhor,"
-          },
-          {
-            "chords": "                      C#7       F#7 ",
-            "lyrics": "E sacerdócio santo ao nosso Criador;"
-          },
-          {
-            "chords": "  B                     E           B",
-            "lyrics": "A graça, nós devemos ao mundo proclamar;"
-          },
-          {
-            "chords": "                             F#7  B",
-            "lyrics": "Quem crer no Seu poder há de triunfar."
-          }
+        "text": [
+          "A [B]geração eleita nós [E]somos, no Sen[B]hor,",
+          "E sacerdócio santo ao [C#7]nosso Cria[F#7]dor;",
+          "A [B]graça, nós devemos ao [E]mundo procla[B]mar;",
+          "Quem crer no Seu poder há de [F#7]triun[B]far."
         ]
       },
       {

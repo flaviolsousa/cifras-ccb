@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Reunidos nós estamos",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   E           B               A      B  E",
-            "lyrics": "Reunidos nós estamos aos Teus pés, ó Criador,"
-          },
-          {
-            "chords": "             B          A         B     E",
-            "lyrics": "Ansiosos esperamos Tuas bênçãos, Teu favor;"
-          },
-          {
-            "chords": "            A        E                  A    E",
-            "lyrics": "Glorificado seja sempre Teu santo Nome, ó Senhor,"
-          },
-          {
-            "chords": "      C#m         B        A      B   E    E...",
-            "lyrics": "E Teu reino_anunciado para todo_o pecador."
-          }
+        "text": [
+          "Reu[E]nidos nós es[B]tamos aos Teus p[A]és, ó C[B]ria[E]dor,",
+          "Ansiosos espe[B]ramos Tuas [A]bênçãos, T[B]eu fav[E]or;",
+          "Glorificado [A]seja semp[E]re Teu santo Nome, [A]ó Sen[E]hor,",
+          "E Teu [C#m]reino_anunci[B]ado para [A]todo_o [B]peca[E]dor.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E             B           A       B    E",
-            "lyrics": "Ó Senhor, só Tu conheces nossa mente_e coração,"
-          },
-          {
-            "chords": "                 B            A    B    E",
-            "lyrics": "Elevamos nossas preces com sincera devoção."
-          },
-          {
-            "chords": "              A       E              A     E",
-            "lyrics": "Nós invocamos o Teu Nome e desejamos Te honrar;"
-          },
-          {
-            "chords": "       C#m         B           A     B   E    E...",
-            "lyrics": "Dá-nos força, Pai eterno, para Te glorificar."
-          }
+        "text": [
+          "Ó Sen[E]hor, só Tu con[B]heces nossa [A]mente_e [B]coraç[E]ão,",
+          "Elevamos nossas p[B]reces com sin[A]cera [B]devoç[E]ão.",
+          "Nós invocamos [A]o Teu No[E]me e desejamos [A]Te hon[E]rar;",
+          "Dá-nos [C#m]força, Pai e[B]terno, para [A]Te glo[B]rifi[E]car.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         E         B            A       B       E",
-            "lyrics": "Faz que nós consideremos que presente_estás, ó Deus,"
-          },
-          {
-            "chords": "                 B           A      B       E",
-            "lyrics": "Para que nos alegremos nos fiéis conselhos Teus;"
-          },
-          {
-            "chords": "            A       E                 A    E",
-            "lyrics": "Tua Palavra de virtude nós esperamos, ó Senhor,"
-          },
-          {
-            "chords": "        C#m       B           A        B      E    E...",
-            "lyrics": "N´Ela_está a plenitude do Teu santo_e_imenso_amor."
-          }
+        "text": [
+          "Faz que n[E]ós conside[B]remos que pre[A]sente_es[B]tás, ó D[E]eus,",
+          "Para que nos aleg[B]remos nos fi[A]éis con[B]selhos T[E]eus;",
+          "Tua Palavra [A]de virtu[E]de nós esperamos, [A]ó Sen[E]hor,",
+          "N´Ela_es[C#m]tá a pleni[B]tude do Teu [A]santo_e_i[B]menso_a[E]mor.[E...]"
         ]
       }
     ]

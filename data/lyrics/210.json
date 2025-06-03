@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Grandes promessas",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E               B          E             B    E",
-            "lyrics": "Quão grandes promessas fez Cristo, nosso Redentor;"
-          },
-          {
-            "chords": "A            E              B         E         B",
-            "lyrics": "Crendo, participarei com os santos no reino de_amor;"
-          },
-          {
-            "chords": "E          B           E           E7    A",
-            "lyrics": "Temos em Jesus, o Rei, santo e_eternal poder"
-          },
-          {
-            "chords": "            E                 B             E",
-            "lyrics": "Para que os Seus fiéis possam todo_o mal vencer."
-          }
+        "text": [
+          "[E]Quão grandes pro[B]messas fez [E]Cristo, nosso [B]Reden[E]tor;",
+          "[A]Crendo, parti[E]ciparei com os [B]santos no [E]reino de_a[B]mor;",
+          "[E]Temos em Je[B]sus, o Rei, [E]santo e_eter[E7]nal po[A]der",
+          "Para que os [E]Seus fiéis possam [B]todo_o mal ven[E]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E             B        E        B        E",
-            "lyrics": "Cristo nos promete dar vida eternal nos céus"
-          },
-          {
-            "chords": "A        E                 B        E          B",
-            "lyrics": "E galardoar, ao fim, todos os fiéis servos de Deus."
-          },
-          {
-            "chords": "E            B         E         E7   A",
-            "lyrics": "Creio no meu Salvador, justo e fiel Juiz."
-          },
-          {
-            "chords": "         E                 B            E",
-            "lyrics": "Ele me fará, no céu, mui ditoso_e mui feliz."
-          }
+        "text": [
+          "[E]Cristo nos pro[B]mete dar [E]vida eter[B]nal nos c[E]éus",
+          "[A]E galardo[E]ar, ao fim, todos [B]os fiéis [E]servos de D[B]eus.",
+          "[E]Creio no meu [B]Salvador, [E]justo e fi[E7]el Ju[A]iz.",
+          "Ele me fa[E]rá, no céu, mui di[B]toso_e mui fe[E]liz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E         B        E           B    E",
-            "lyrics": "Modelo perfeito é, o santo_e fiel Jesus;"
-          },
-          {
-            "chords": "A         E            B         E        B",
-            "lyrics": "Vida que imitarei, caminhando na senda de luz;"
-          },
-          {
-            "chords": "E            B            E           E7  A",
-            "lyrics": "Tenho, por Jesus, no céu, parte com o Criador"
-          },
-          {
-            "chords": "             E            B              E",
-            "lyrics": "E,_em santa adoração, estarei com meu Senhor."
-          }
+        "text": [
+          "[E]Modelo per[B]feito é, [E]o santo_e fi[B]el Je[E]sus;",
+          "[A]Vida que i[E]mitarei, cami[B]nhando na [E]senda de [B]luz;",
+          "[E]Tenho, por Je[B]sus, no céu, [E]parte com o [E7]Cria[A]dor",
+          "E,_em santa a[E]doração, esta[B]rei com meu Sen[E]hor."
         ]
       }
     ]

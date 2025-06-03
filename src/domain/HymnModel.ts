@@ -14,19 +14,15 @@ export interface Tempo {
   introDuration: number;
 }
 
-export interface Verse {
-  chords: string;
-  lyrics: string;
-}
-
 export interface Stanza {
   type: string;
   code?: string;
-  verses?: Verse[];
+  text?: string[];
   ref?: string;
 }
 
 export interface Score {
+  introduction: string[];
   stanzas: Stanza[];
 }
 

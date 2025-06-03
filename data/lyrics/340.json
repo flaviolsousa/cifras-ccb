@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "No mundo sou peregrino",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "No mundo sou peregrino,"
-          },
-          {
-            "chords": "                  A ",
-            "lyrics": "É Cristo meu Condutor;"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Ele_é_o Caminho que leva ao céu,"
-          },
-          {
-            "chords": "   G         A    D",
-            "lyrics": "Também é meu Salvador."
-          }
+        "text": [
+          "[D]No mundo sou peregrino,",
+          "É Cristo meu Condu[A]tor;",
+          "Ele_é_o Caminho que [D]leva ao céu,",
+          "Tam[G]bém é meu [A]Salva[D]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D              D°  D                A ",
-            "lyrics": "Eu subirei com Cristo à celestial Sião,"
-          },
-          {
-            "chords": "                   A7           D",
-            "lyrics": "É Ele Quem me guia na peregrinação;"
-          },
-          {
-            "chords": "                     D°   D                G ",
-            "lyrics": "Quando_eu entrar na gló - ria do meu amado Rei,"
-          },
-          {
-            "chords": "                  D     G     A      D",
-            "lyrics": "Ao contemplar Sua face, regozijar-me-ei."
-          }
+        "text": [
+          "[D]Eu subirei com [D°]Cris[D]to à celestial Si[A]ão,",
+          "É Ele Quem me guia [A7]na peregrinaç[D]ão;",
+          "Quando_eu entrar na g[D°]ló - [D]ria do meu amado [G]Rei,",
+          "Ao contemplar Sua [D]face, [G]regozi[A]jar-me-[D]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "No mundo sou peregrino,"
-          },
-          {
-            "chords": "                     A ",
-            "lyrics": "Quem pode_aqui me_ajudar?"
-          },
-          {
-            "chords": "                      D",
-            "lyrics": "Só Cristo,_a Porta do reino dos céus,"
-          },
-          {
-            "chords": "    G        A     D",
-            "lyrics": "Por Quem poderei entrar."
-          }
+        "text": [
+          "[D]No mundo sou peregrino,",
+          "Quem pode_aqui me_aju[A]dar?",
+          "Só Cristo,_a Porta do [D]reino dos céus,",
+          "Por [G]Quem pode[A]rei en[D]trar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "No mundo sou peregrino,"
-          },
-          {
-            "chords": "                A ",
-            "lyrics": "Ando aqui com Jesus;"
-          },
-          {
-            "chords": "                    D",
-            "lyrics": "Busco_as moradas do Pai celestial,"
-          },
-          {
-            "chords": "  G         A       D",
-            "lyrics": "O lar de justiça_e luz."
-          }
+        "text": [
+          "[D]No mundo sou peregrino,",
+          "Ando aqui com Je[A]sus;",
+          "Busco_as moradas do [D]Pai celestial,",
+          "O [G]lar de jus[A]tiça_e l[D]uz."
         ]
       },
       {

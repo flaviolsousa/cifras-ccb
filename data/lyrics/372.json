@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Da igreja, fiel Fundamento é Jesus",
   "tone": {
     "recommended": "C"
@@ -9,98 +9,38 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    C        C#°     G ",
-            "lyrics": "Da igreja, fiel Fundamento"
-          },
-          {
-            "chords": "                       C",
-            "lyrics": "É Jesus, Alicerce sem par;"
-          },
-          {
-            "chords": "             C#°     G ",
-            "lyrics": "A tormenta e o forte vento"
-          },
-          {
-            "chords": "      G7                C",
-            "lyrics": "Não a podem jamais derribar."
-          },
-          {
-            "chords": "               C#°         Dm ",
-            "lyrics": "Pela_igreja, Jesus veio_ao mundo"
-          },
-          {
-            "chords": "     G                    C",
-            "lyrics": "E morreu para_a vida lhe dar;"
-          },
-          {
-            "chords": "                C#°        Dm ",
-            "lyrics": "Com amor tão precioso_e profundo,"
-          },
-          {
-            "chords": "       C             G7        C    C...",
-            "lyrics": "Ele_a quer, desde_os céus, adornar."
-          }
+        "text": [
+          "Da i[C]greja, fi[C#°]el Funda[G]mento",
+          "É Jesus, Alicerce sem p[C]ar;",
+          "A tormenta e [C#°]o forte [G]vento",
+          "Não a [G7]podem jamais derri[C]bar.",
+          "Pela_igreja, Je[C#°]sus veio_ao [Dm]mundo",
+          "E mor[G]reu para_a vida lhe d[C]ar;",
+          "Com amor tão pre[C#°]cioso_e pro[Dm]fundo,",
+          "Ele_a q[C]uer, desde_os [G7]céus, ador[C]nar.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   C       C#°       G ",
-            "lyrics": "A igreja é sempre formosa"
-          },
-          {
-            "chords": "                          C",
-            "lyrics": "Para Cristo, seu Rei e Senhor;"
-          },
-          {
-            "chords": "             C#°   G ",
-            "lyrics": "É chamada “a Sua esposa”,"
-          },
-          {
-            "chords": "     G7               C",
-            "lyrics": "Revestida de graça e_amor;"
-          },
-          {
-            "chords": "              C#°    Dm ",
-            "lyrics": "Combatida por seu inimigo,"
-          },
-          {
-            "chords": "      G                C",
-            "lyrics": "Nesta terra a_igreja será,"
-          },
-          {
-            "chords": "                C#°      Dm ",
-            "lyrics": "Mas, em tudo, Jesus é consigo,"
-          },
-          {
-            "chords": "    C       G7     C    ",
-            "lyrics": "Vitoriosa daqui sairá."
-          }
+        "text": [
+          "A i[C]greja é [C#°]sempre for[G]mosa",
+          "Para Cristo, seu Rei e Sen[C]hor;",
+          "É chamada “a [C#°]Sua es[G]posa”,",
+          "Reves[G7]tida de graça e_a[C]mor;",
+          "Combatida por [C#°]seu ini[Dm]migo,",
+          "Nesta [G]terra a_igreja se[C]rá,",
+          "Mas, em tudo, Je[C#°]sus é con[Dm]sigo,",
+          "Vito[C]riosa da[G7]qui sai[C]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     C        C#°     G ",
-            "lyrics": "Sempiterno, fiel Fundamento"
-          },
-          {
-            "chords": "                     C",
-            "lyrics": "Da igreja é Cristo Jesus,"
-          },
-          {
-            "chords": "                   C#°      Dm ",
-            "lyrics": "N´Ele,_os santos encontram alento,"
-          },
-          {
-            "chords": "      C        G       C",
-            "lyrics": "Fé e graça, virtude e luz."
-          }
+        "text": [
+          "Sempi[C]terno, fi[C#°]el Funda[G]mento",
+          "Da igreja é Cristo Je[C]sus,",
+          "N´Ele,_os santos en[C#°]contram a[Dm]lento,",
+          "Fé e g[C]raça, vir[G]tude e l[C]uz."
         ]
       }
     ]

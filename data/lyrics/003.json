@@ -1,6 +1,7 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Faz-nos ouvir Tua voz",
+  "level": 2,
   "tone": {
     "recommended": "G",
     "selected": "G"
@@ -12,62 +13,29 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G         Em      D        G",
-            "lyrics": "Faz-nos ouvir Tua voz gloriosa,"
-          },
-          {
-            "chords": "C       G         D7      G",
-            "lyrics": "Ó nosso Mestre, fiel Redentor;"
-          },
-          {
-            "chords": "G     Em        D      G",
-            "lyrics": "A Tua igreja, dileta esposa,"
-          },
-          {
-            "chords": "C         G     D7     G",
-            "lyrics": "Sente por Ti inefável amor."
-          }
+        "text": [
+          "[G]Faz-nos ou[Em]vir Tua [D]voz glori[G]osa,",
+          "[C]Ó nosso [G]Mestre, fi[D7]el Reden[G]tor;",
+          "[G]A Tua [Em]igreja, di[D]leta es[G]posa,",
+          "[C]Sente por [G]Ti ine[D7]fável a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D      G         D     G",
-            "lyrics": "Ó caro Salvador, a Tua voz de amor"
-          },
-          {
-            "chords": "C        G            Am       B7",
-            "lyrics": "Nos guia para o céus, glorioso lar;"
-          },
-          {
-            "chords": "C      G         D        G",
-            "lyrics": "Pela Palavra vem nos consolar."
-          }
+        "text": [
+          "[D]Ó caro [G]Salvador, [D]a Tua [G]voz de amor",
+          "[C]Nos guia [G]para o céus, [Am]glorioso [B7]lar;",
+          "[C]Pela Pa[G]lavra vem [D]nos conso[G]lar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G       Em        D       G",
-            "lyrics": "Ó Jesus Cristo, celeste Esposo,"
-          },
-          {
-            "chords": "C        G            D7          G",
-            "lyrics": "Vem conduzir-nos, por Teu grande amor;"
-          },
-          {
-            "chords": "G      Em       D        G",
-            "lyrics": "Já antevemos, ó Rei majestoso,"
-          },
-          {
-            "chords": "C         G        D7        G",
-            "lyrics": "A glória eterna do Teu esplendor."
-          }
+        "text": [
+          "[G]Ó Jesus [Em]Cristo, ce[D]leste Es[G]poso,",
+          "[C]Vem condu[G]zir-nos, por [D7]Teu grande a[G]mor;",
+          "[G]Já ante[Em]vemos, ó [D]Rei majes[G]toso,",
+          "[C]A glória e[G]terna do [D7]Teu esplen[G]dor."
         ]
       },
       {
@@ -77,23 +45,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G      Em      D         G",
-            "lyrics": "A Tua igreja está se adornando"
-          },
-          {
-            "chords": "C         G          D7        G",
-            "lyrics": "Para encontrar-se Contigo, ó Jesus;"
-          },
-          {
-            "chords": "G          Em        D       G",
-            "lyrics": "Com santas vestes, está aguardando"
-          },
-          {
-            "chords": "C       G       D7       G",
-            "lyrics": "Ver Tua face no reino de luz."
-          }
+        "text": [
+          "[G]A Tua i[Em]greja es[D]tá se ador[G]nando",
+          "[C]Para encon[G]trar-se Con[D7]tigo, ó Je[G]sus;",
+          "[G]Com santas [Em]vestes, es[D]tá aguar[G]dando",
+          "[C]Ver Tua [G]face no [D7]reino de [G]luz."
         ]
       },
       {

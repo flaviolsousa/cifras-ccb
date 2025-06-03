@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sinto o Senhor, por fé, em mim",
   "tone": {
     "recommended": "A"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                   E      A          E    A",
-            "lyrics": "Sinto_o Senhor, por fé, em mim, e Sua comunhão;"
-          },
-          {
-            "chords": "    E              A              B            E   E7 ",
-            "lyrics": "Por graça, paz, virtude_e_amor, jubila meu coração."
-          }
+        "text": [
+          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, e Sua [E]comun[A]hão;",
+          "Por [E]graça, paz, vir[A]tude_e_amor, ju[B]bila meu cora[E]ção.[E7]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Sempre unido_a meu Jesus,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Forças terei, também valor;"
-          },
-          {
-            "chords": "F#m     F   A             A...",
-            "lyrics": "Ele_é a Luz que_ao céu conduz,"
-          },
-          {
-            "chords": "    E   A",
-            "lyrics": "Com a - mor."
-          }
+        "text": [
+          "[A]Sempre unido_a meu Jesus,",
+          "Forças terei, também valor;",
+          "[F#m]Ele_é a [F]Luz [A]que_ao céu con[A...]duz,",
+          "Com [E]a - [A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                   E      A              E      A",
-            "lyrics": "Sinto_o Senhor, por fé, em mim, liberto_estou do mal;"
-          },
-          {
-            "chords": "   E          A            B           E  E7 ",
-            "lyrics": "Desfruto já o Seu amor e_a vida celestial."
-          }
+        "text": [
+          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, liberto_es[E]tou do [A]mal;",
+          "Des[E]fruto já o [A]Seu amor e_a [B]vida celesti[E]al.[E7]"
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                   E      A              E    A",
-            "lyrics": "Sinto_o Senhor, por fé, em mim, tranquilo eu estou,"
-          },
-          {
-            "chords": "   E              A              B                E   E7 ",
-            "lyrics": "Sentindo_a paz, o Seu perdão e_a graça que me_ofertou"
-          }
+        "text": [
+          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, tranquilo [E]eu es[A]tou,",
+          "Sen[E]tindo_a paz, o [A]Seu perdão e_a [B]graça que me_ofer[E]tou[E7]"
         ]
       },
       {

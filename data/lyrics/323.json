@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Não busques, ansioso",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Oh! Não busques, ansioso,"
-          },
-          {
-            "chords": "F#                 B",
-            "lyrics": "Paz no mundo_enganador,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois é só Jesus, bondoso,"
-          },
-          {
-            "chords": "F#             B",
-            "lyrics": "O veraz Consolador."
-          }
+        "text": [
+          "[B]Oh! Não busques, ansioso,",
+          "[F#]Paz no mundo_engana[B]dor,",
+          "Pois é só Jesus, bondoso,",
+          "[F#]O veraz Consola[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F#                B",
-            "lyrics": "Ao Senhor Jesus entrega"
-          },
-          {
-            "chords": "E               F#7 ",
-            "lyrics": "Tua mente_e coração,"
-          },
-          {
-            "chords": "B",
-            "lyrics": "Pois o mundo só te leva"
-          },
-          {
-            "chords": "E  F#          B",
-            "lyrics": "À eterna perdição."
-          }
+        "text": [
+          "[F#]Ao Senhor Jesus en[B]trega",
+          "[E]Tua mente_e cora[F#7]ção,",
+          "[B]Pois o mundo só te leva",
+          "[E]À e[F#]terna perdiç[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Ouve bem, Jesus te chama"
-          },
-          {
-            "chords": "F#            B",
-            "lyrics": "Para te regenerar;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Com celeste_amor te ama"
-          },
-          {
-            "chords": "F#             B",
-            "lyrics": "E deseja te salvar."
-          }
+        "text": [
+          "[B]Ouve bem, Jesus te chama",
+          "[F#]Para te regene[B]rar;",
+          "Com celeste_amor te ama",
+          "[F#]E deseja te sal[B]var."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B",
-            "lyrics": "Pelo mundo tens andado"
-          },
-          {
-            "chords": "F#                B",
-            "lyrics": "Longe do teu Redentor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Não mais sirvas ao pecado,"
-          },
-          {
-            "chords": "F#                     B",
-            "lyrics": "Serve_a Cristo, teu Senhor."
-          }
+        "text": [
+          "[B]Pelo mundo tens andado",
+          "[F#]Longe do teu Reden[B]tor;",
+          "Não mais sirvas ao pecado,",
+          "[F#]Serve_a Cristo, teu Sen[B]hor."
         ]
       },
       {

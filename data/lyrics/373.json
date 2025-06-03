@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Jesus, o Redentor",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A        D      Bm   E  A",
-            "lyrics": "Cristo Jesus, o Re - dentor,"
-          },
-          {
-            "chords": "             B7    E ",
-            "lyrics": "Trouxe-me salva - ção;"
-          },
-          {
-            "chords": "Bm      F#7  Bm    B7    E  B7  E    E7 ",
-            "lyrics": "Por Seu su – bli - me_e grande_amor,"
-          },
-          {
-            "chords": "A          E     A",
-            "lyrics": "Tenho consola - ção."
-          }
+        "text": [
+          "[A]Cristo Je[D]sus, o [Bm]Re - [E]den[A]tor,",
+          "Trouxe-me sal[B7]va - ç[E]ão;",
+          "[Bm]Por Seu [F#7]su – [Bm]bli - [B7]me_e g[E]ran[B7]de_a[E]mor,[E7]",
+          "[A]Tenho conso[E]la - ç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A       D       Bm   E    A",
-            "lyrics": "Quero a Cristo_obe – de - cer,"
-          },
-          {
-            "chords": "            B7  E ",
-            "lyrics": "Tudo_o amor Lhe dar;"
-          },
-          {
-            "chords": "Bm      F#7   Bm  B7  E  B7  E    E7 ",
-            "lyrics": "Quero_entre - gar-Lhe o  meu ser,"
-          },
-          {
-            "chords": "A            E    A",
-            "lyrics": "Honra Lhe tribu - tar."
-          }
+        "text": [
+          "[A]Quero a [D]Cristo_o[Bm]be – [E]de - [A]cer,",
+          "Tudo_o amor [B7]Lhe [E]dar;",
+          "[Bm]Quero_en[F#7]tre - [Bm]gar-[B7]Lhe [E]o  [B7]meu [E]ser,[E7]",
+          "[A]Honra Lhe tri[E]bu - [A]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A         D     Bm  E    A",
-            "lyrics": "Quando findar o meu la - bor,"
-          },
-          {
-            "chords": "           B7   E  ",
-            "lyrics": "Certo irei ou - vir"
-          },
-          {
-            "chords": "Bm     F#7   Bm  B7  E   B7  E    E7 ",
-            "lyrics": "Cristo cha - mar-me  com a - mor"
-          },
-          {
-            "chords": "A                 E  A",
-            "lyrics": "Para_os Seus bens fruir."
-          }
+        "text": [
+          "[A]Quando fin[D]dar o [Bm]meu [E]la - [A]bor,",
+          "Certo irei [B7]ou - [E]vir",
+          "[Bm]Cristo [F#7]cha - [Bm]mar-[B7]me  [E]com [B7]a - [E]mor[E7]",
+          "[A]Para_os Seus bens [E]fru[A]ir."
         ]
       }
     ]

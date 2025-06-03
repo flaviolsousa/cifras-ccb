@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos, unidos, a Deus louvar",
   "tone": {
     "recommended": "D"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D               A ",
-            "lyrics": "Vamos unidos, a Deus louvar"
-          },
-          {
-            "chords": "                 D",
-            "lyrics": "E a Jesus, nosso Rei, cantar,"
-          },
-          {
-            "chords": "Bm               E ",
-            "lyrics": "Pelo_Evangelho assegurar"
-          },
-          {
-            "chords": "                  A    A7 ",
-            "lyrics": "Que Cristo vai voltar."
-          }
+        "text": [
+          "[D]Vamos unidos, a [A]Deus louvar",
+          "E a Jesus, nosso [D]Rei, cantar,",
+          "[Bm]Pelo_Evangelho as[E]segurar",
+          "Que Cristo vai vol[A]tar.[A7]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D      G              A7     D",
-            "lyrics": "Vem, Jesus, os Teus fiéis buscar,"
-          },
-          {
-            "chords": "         D7        G        E    A    A7   D    D...",
-            "lyrics": "Pois desejamos, um dia, nos céus há – bi - tar."
-          }
+        "text": [
+          "[D]Vem, Je[G]sus, os Teus fi[A7]éis bus[D]car,",
+          "Pois dese[D7]jamos, um [G]dia, nos [E]céus [A]há – [A7]bi - [D]tar.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                A ",
-            "lyrics": "Vamos a todos testificar"
-          },
-          {
-            "chords": "                       D",
-            "lyrics": "Que Deus mandou Cristo a salvar;"
-          },
-          {
-            "chords": "Bm              E ",
-            "lyrics": "E quem a Ele se entregar,"
-          },
-          {
-            "chords": "              A    A7 ",
-            "lyrics": "No céu irá reinar."
-          }
+        "text": [
+          "[D]Vamos a todos tes[A]tificar",
+          "Que Deus mandou Cristo [D]a salvar;",
+          "[Bm]E quem a Ele se [E]entregar,",
+          "No céu irá rei[A]nar.[A7]"
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                     A ",
-            "lyrics": "Vamos, irmãos, a Deus celebrar,"
-          },
-          {
-            "chords": "                  D",
-            "lyrics": "E não cessemos de afirmar"
-          },
-          {
-            "chords": "Bm                     E ",
-            "lyrics": "Que, só por Cristo, se pode_entrar"
-          },
-          {
-            "chords": "                A    A7 ",
-            "lyrics": "No céu, eterno lar."
-          }
+        "text": [
+          "[D]Vamos, irmãos, a Deus [A]celebrar,",
+          "E não cessemos de [D]afirmar",
+          "[Bm]Que, só por Cristo, se [E]pode_entrar",
+          "No céu, eterno l[A]ar.[A7]"
         ]
       },
       {

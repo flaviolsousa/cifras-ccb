@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Deus nos guarde...",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                      G      C",
-            "lyrics": "Deus nos guarde em Seu santo_amor."
-          },
-          {
-            "chords": "F                 C",
-            "lyrics": "O Seu Nome louvaremos"
-          },
-          {
-            "chords": "G                   C",
-            "lyrics": "Onde quer que nos achemos."
-          },
-          {
-            "chords": "                       G      C",
-            "lyrics": "Deus nos guarde em Seu santo_amor."
-          }
+        "text": [
+          "[C]Deus nos guarde em Seu [G]santo_a[C]mor.",
+          "[F]O Seu Nome louvare[C]mos",
+          "[G]Onde quer que nos ac[C]hemos.",
+          "Deus nos guarde em Seu [G]santo_a[C]mor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      C              F ",
-            "lyrics": "Ao voltar Jesus, estaremos"
-          },
-          {
-            "chords": "       C                  G ",
-            "lyrics": "Livres de qualquer condenação;"
-          },
-          {
-            "chords": "          C               F ",
-            "lyrics": "Junto_aos santos nós reinaremos;"
-          },
-          {
-            "chords": "       C             G  C",
-            "lyrics": "Que perfeita_e santa união!"
-          }
+        "text": [
+          "Ao vol[C]tar Jesus, esta[F]remos",
+          "Livres [C]de qualquer condena[G]ção;",
+          "Junto_aos [C]santos nós reina[F]remos;",
+          "Que per[C]feita_e santa [G]uni[C]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                       G    C",
-            "lyrics": "Deus nos guarde_em santificação"
-          },
-          {
-            "chords": "F                   C",
-            "lyrics": "Nos perigos da jornada,"
-          },
-          {
-            "chords": "G                    C",
-            "lyrics": "Dentro_em breve terminada;"
-          },
-          {
-            "chords": "                        G    C",
-            "lyrics": "Deus nos guarde_em santificação."
-          }
+        "text": [
+          "[C]Deus nos guarde_em santi[G]ficaç[C]ão",
+          "[F]Nos perigos da jorna[C]da,",
+          "[G]Dentro_em breve termi[C]nada;",
+          "Deus nos guarde_em santi[G]ficaç[C]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                     G    C",
-            "lyrics": "Deus nos guarde com a Sua paz"
-          },
-          {
-            "chords": "F                       C",
-            "lyrics": "Para,_em comunhão, vivermos"
-          },
-          {
-            "chords": "G                  C",
-            "lyrics": "E ao fim perfeitos sermos;"
-          },
-          {
-            "chords": "                      G    C",
-            "lyrics": "Deus nos guarde com a Sua paz."
-          }
+        "text": [
+          "[C]Deus nos guarde com a [G]Sua p[C]az",
+          "[F]Para,_em comunhão, viver[C]mos",
+          "[G]E ao fim perfeitos [C]sermos;",
+          "Deus nos guarde com a [G]Sua p[C]az."
         ]
       },
       {

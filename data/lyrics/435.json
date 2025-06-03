@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Jesus, quanto és piedoso!",
   "tone": {
     "recommended": "E"
@@ -9,91 +9,37 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E       B7       E",
-            "lyrics": "Ó Jesus, quanto_és piedoso,"
-          },
-          {
-            "chords": "           B7   E",
-            "lyrics": "Infinito_é Teu amor!"
-          },
-          {
-            "chords": "       A           E",
-            "lyrics": "Com o Teu poder glorioso,"
-          },
-          {
-            "chords": "       B7           E",
-            "lyrics": "Faz de mim Teu servidor;"
-          },
-          {
-            "chords": "    A           E",
-            "lyrics": "Dedicado_e fervoroso,"
-          },
-          {
-            "chords": "               B7   E",
-            "lyrics": "Quero_amar-Te, ó Senhor."
-          }
+        "text": [
+          "Ó Jes[E]us, quan[B7]to_és pie[E]doso,",
+          "Infinito_é [B7]Teu a[E]mor!",
+          "Com o T[A]eu poder glo[E]rioso,",
+          "Faz de [B7]mim Teu servi[E]dor;",
+          "Dedi[A]cado_e fervo[E]roso,",
+          "Quero_amar-Te, [B7]ó Sen[E]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      E     B7     E",
-            "lyrics": "Neste mundo sou criança,"
-          },
-          {
-            "chords": "               B7      E",
-            "lyrics": "Só por mim não posso_andar,"
-          },
-          {
-            "chords": "       A          E",
-            "lyrics": "Mas eu tenho confiança"
-          },
-          {
-            "chords": "     B7           E",
-            "lyrics": "De poder no céu entrar;"
-          },
-          {
-            "chords": "     A          E",
-            "lyrics": "Tua voz suave_e mansa"
-          },
-          {
-            "chords": "              B7  E",
-            "lyrics": "Sempre vem me ensinar."
-          }
+        "text": [
+          "Neste [E]mundo [B7]sou cri[E]ança,",
+          "Só por mim não [B7]posso_an[E]dar,",
+          "Mas eu [A]tenho confi[E]ança",
+          "De po[B7]der no céu en[E]trar;",
+          "Tua v[A]oz suave_e [E]mansa",
+          "Sempre vem me [B7]ensi[E]nar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         E     B7  E",
-            "lyrics": "Tenho_em mim a esperança"
-          },
-          {
-            "chords": "               B7   E",
-            "lyrics": "De_alcançar, ó Salvador,"
-          },
-          {
-            "chords": "     A               E",
-            "lyrics": "A sublime_e_eterna_herança"
-          },
-          {
-            "chords": "       B7             E",
-            "lyrics": "No Teu reino de_esplendor;"
-          },
-          {
-            "chords": "      A        E",
-            "lyrics": "Dá-me fé e segurança,"
-          },
-          {
-            "chords": "             B7  E",
-            "lyrics": "Luz, virtude e vigor."
-          }
+        "text": [
+          "Tenho_em [E]mim a [B7]espe[E]rança",
+          "De_alcançar, ó [B7]Salva[E]dor,",
+          "A sub[A]lime_e_eterna_he[E]rança",
+          "No Teu [B7]reino de_esplen[E]dor;",
+          "Dá-me [A]fé e segu[E]rança,",
+          "Luz, virtude [B7]e vi[E]gor."
         ]
       }
     ]

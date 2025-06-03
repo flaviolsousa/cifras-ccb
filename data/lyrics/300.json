@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tudo o que nos falta",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D                                 A ",
-            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
-          },
-          {
-            "chords": "                    D°      D",
-            "lyrics": "Quando suplicarmos, Ele ouvirá;"
-          },
-          {
-            "chords": "                      G  ",
-            "lyrics": "De Seus dons celestes nos revestirá,"
-          },
-          {
-            "chords": "             D           A   D",
-            "lyrics": "Quando nós batermos, Ele abrirá."
-          }
+        "text": [
+          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
+          "Quando suplicarmos, [D°]Ele ouvi[D]rá;",
+          "De Seus dons celestes [G]nos revestirá,",
+          "Quando nós ba[D]termos, Ele [A]abri[D]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Glória ao bendito Salvador,"
-          },
-          {
-            "chords": "             A  ",
-            "lyrics": "Forte_e invencível Defensor!"
-          },
-          {
-            "chords": "D              G ",
-            "lyrics": "Árdua é a luta contra o pecado, "
-          },
-          {
-            "chords": "A                      D",
-            "lyrics": "Mas resistiremos com valor."
-          }
+        "text": [
+          "[D]Glória ao bendito Salvador,",
+          "Forte_e inven[A]cível Defensor!",
+          "[D]Árdua é a luta [G]contra o pecado, ",
+          "[A]Mas resistiremos com va[D]lor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                                 A ",
-            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
-          },
-          {
-            "chords": "                 D°       D",
-            "lyrics": "Proteção divina, Ele proverá;"
-          },
-          {
-            "chords": "                       G ",
-            "lyrics": "Temos que_entregar-Lhe todo_o nosso ser,"
-          },
-          {
-            "chords": "            D           A      D",
-            "lyrics": "Para que possamos com valor vencer."
-          }
+        "text": [
+          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
+          "Proteção divina, [D°]Ele prove[D]rá;",
+          "Temos que_entregar-Lhe [G]todo_o nosso ser,",
+          "Para que pos[D]samos com va[A]lor ven[D]cer."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D                                 A ",
-            "lyrics": "Tudo_o que nos falta, Cristo suprirá;"
-          },
-          {
-            "chords": "                   D°         D",
-            "lyrics": "Firme_e fielmente, nos conduzirá"
-          },
-          {
-            "chords": "                G ",
-            "lyrics": "Nesta travessia que nos leva_aos céus,"
-          },
-          {
-            "chords": "            D          A       D",
-            "lyrics": "Onde_iremos ver a face do bom Deus."
-          }
+        "text": [
+          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
+          "Firme_e fielmente, [D°]nos conduzi[D]rá",
+          "Nesta travessia [G]que nos leva_aos céus,",
+          "Onde_iremos [D]ver a face [A]do bom D[D]eus."
         ]
       },
       {

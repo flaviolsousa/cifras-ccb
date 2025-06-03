@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus Cristo habita em nós",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      D",
-            "lyrics": "O que hoje é mistério para_os santos do Senhor,"
-          },
-          {
-            "chords": "    G                        E          A ",
-            "lyrics": "Revelado lhes será por Seu Espírito de_amor,"
-          },
-          {
-            "chords": "       D                         G        E... ",
-            "lyrics": "Pois está em Jesus Cristo_a plenitude divinal"
-          },
-          {
-            "chords": "     A                      D          D...",
-            "lyrics": "E os justos participam do segredo celestial."
-          }
+        "text": [
+          "O que [D]hoje é mistério para_os santos do Senhor,",
+          "Reve[G]lado lhes será por Seu Es[E]pírito de_a[A]mor,",
+          "Pois es[D]tá em Jesus Cristo_a pleni[G]tude divi[E...]nal",
+          "E os [A]justos participam do se[D]gredo celes[D...]tial."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      D",
-            "lyrics": "Jesus Cristo_habita_em nós,"
-          },
-          {
-            "chords": "     G  E            A ",
-            "lyrics": "Sua luz   habita_em nós;"
-          },
-          {
-            "chords": "      D                      G          E... ",
-            "lyrics": "Nesta graça preciosa não nos sentiremos sós;"
-          },
-          {
-            "chords": "         A                     D                D...",
-            "lyrics": "Glória! Glória! Aleluia! Jesus Cristo_habita_em nós!"
-          }
+        "text": [
+          "Jesus [D]Cristo_habita_em nós,",
+          "Sua l[G]uz [E]  habita_em n[A]ós;",
+          "Nesta [D]graça preciosa não nos [G]sentiremos [E...]sós;",
+          "Glória! G[A]lória! Aleluia! Jesus [D]Cristo_habita_em [D...]nós!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        D",
-            "lyrics": "Nos nem tudo entendemos, pois o Pai o quer assim,"
-          },
-          {
-            "chords": "         G                         E            A ",
-            "lyrics": "Mas, de luz em luz, iremos sempre_avante_até o fim;"
-          },
-          {
-            "chords": "       D                        G             E... ",
-            "lyrics": "Nossos olhos, desvendados por Jesus, contemplarão"
-          },
-          {
-            "chords": "      A                        D           D...",
-            "lyrics": "Os mistérios eternais, que revelados nos serão."
-          }
+        "text": [
+          "Nos nem [D]tudo entendemos, pois o Pai o quer assim,",
+          "Mas, de l[G]uz em luz, iremos sempre_a[E]vante_até o f[A]im;",
+          "Nossos [D]olhos, desvendados por Je[G]sus, contempla[E...]rão",
+          "Os mis[A]térios eternais, que reve[D]lados nos se[D...]rão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     D",
-            "lyrics": "Hoje fala, pelo_Espírito da graça, o Senhor,"
-          },
-          {
-            "chords": "      G                       E              A ",
-            "lyrics": "E nos mostra o caminho para_o reino de_esplendor,"
-          },
-          {
-            "chords": "        D                       G         E... ",
-            "lyrics": "Mas, em breve, face_a face, ouviremos Sua voz."
-          },
-          {
-            "chords": "        A                         D                D...",
-            "lyrics": "Glória_eterna_alcançaremos, Jesus Cristo_habita_em nós!"
-          }
+        "text": [
+          "Hoje [D]fala, pelo_Espírito da graça, o Senhor,",
+          "E nos [G]mostra o caminho para_o [E]reino de_esplen[A]dor,",
+          "Mas, em [D]breve, face_a face, ouvi[G]remos Sua [E...]voz.",
+          "Glória_e[A]terna_alcançaremos, Jesus [D]Cristo_habita_em [D...]nós!"
         ]
       },
       {

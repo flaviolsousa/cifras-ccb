@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só por Cristo temos salvação",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A                     D             A",
-            "lyrics": "Só o sangue de Jesus tem poder de nos livrar"
-          },
-          {
-            "chords": "                          E",
-            "lyrics": "E de toda_a mancha nos limpar;"
-          },
-          {
-            "chords": "        A                   D",
-            "lyrics": "Todo_o que lavado for nesse sangue_expiador,"
-          },
-          {
-            "chords": "      A          E   A",
-            "lyrics": "O perdão terá do Criador."
-          }
+        "text": [
+          "Só o [A]sangue de Jesus tem po[D]der de nos liv[A]rar",
+          "E de toda_a mancha nos lim[E]par;",
+          "Todo_o q[A]ue lavado for nesse [D]sangue_expiador,",
+          "O perd[A]ão terá do [E]Cria[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       A      D           A",
-            "lyrics": "Só por Cristo temos salvação,"
-          },
-          {
-            "chords": "    E         A",
-            "lyrics": "Divinal redenção;"
-          },
-          {
-            "chords": "           D         A",
-            "lyrics": "Entraremos na Sião celeste,"
-          },
-          {
-            "chords": "       E             A",
-            "lyrics": "Reino_eterno do bom Deus."
-          }
+        "text": [
+          "Só por [A]Cristo [D]temos salvaç[A]ão,",
+          "Divi[E]nal redenç[A]ão;",
+          "Entraremos [D]na Sião ce[A]leste,",
+          "Reino_e[E]terno do bom D[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     A                     D             A",
-            "lyrics": "Só o sangue de Jesus tem poder de nos salvar"
-          },
-          {
-            "chords": "                       E",
-            "lyrics": "E da tentação nos libertar;"
-          },
-          {
-            "chords": "     A                          D",
-            "lyrics": "Esse sangue tem valor, pois é_o preço do amor"
-          },
-          {
-            "chords": "         A          E    A",
-            "lyrics": "Com que nos remiu o Salvador."
-          }
+        "text": [
+          "Só o [A]sangue de Jesus tem po[D]der de nos sal[A]var",
+          "E da tentação nos liber[E]tar;",
+          "Esse [A]sangue tem valor, pois é_o [D]preço do amor",
+          "Com que n[A]os remiu o [E]Salva[A]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A                     D           A",
-            "lyrics": "Só o sangue de Jesus tem poder de resgatar"
-          },
-          {
-            "chords": "                           E",
-            "lyrics": "Toda_a alma que se quer salvar;"
-          },
-          {
-            "chords": "    A                        D",
-            "lyrics": "Vitupério_e grande dor foram preço do favor"
-          },
-          {
-            "chords": "         A            E    A",
-            "lyrics": "Que_alcançamos do bom Redentor."
-          }
+        "text": [
+          "Só o [A]sangue de Jesus tem po[D]der de resga[A]tar",
+          "Toda_a alma que se quer sal[E]var;",
+          "Vitu[A]pério_e grande dor foram [D]preço do favor",
+          "Que_alcan[A]çamos do bom [E]Reden[A]tor."
         ]
       },
       {

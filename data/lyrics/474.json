@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Glória! Bendito é o Senhor!",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B             E        B",
-            "lyrics": "Com alegria devemos servir"
-          },
-          {
-            "chords": "  F#            B ",
-            "lyrics": "A Cristo Jesus, o Salvador,"
-          },
-          {
-            "chords": "                   E         B",
-            "lyrics": "Que nos fará bens eternos fruir;"
-          },
-          {
-            "chords": "    F#                     B",
-            "lyrics": "Oh! Glória! Bendito_é_o Senhor!"
-          }
+        "text": [
+          "[B]Com alegria de[E]vemos ser[B]vir",
+          "A [F#]Cristo Jesus, [B]o Salvador,",
+          "Que nos fará bens e[E]ternos fru[B]ir;",
+          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      B     E            B",
-            "lyrics": "Vida_eterna certo_alcançarão"
-          },
-          {
-            "chords": "     F#        B",
-            "lyrics": "Lá o céu, os fiéis;"
-          },
-          {
-            "chords": "          E         B",
-            "lyrics": "Coroados, eles bendirão"
-          },
-          {
-            "chords": "    F#              B",
-            "lyrics": "A Jesus, o Rei dos reis."
-          }
+        "text": [
+          "Vida_e[B]terna [E]certo_alcança[B]rão",
+          "Lá o [F#]céu, os fi[B]éis;",
+          "Coroados, [E]eles bendi[B]rão",
+          "A Je[F#]sus, o Rei dos r[B]eis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                 E      B",
-            "lyrics": "Com toda_a alma devemos amar"
-          },
-          {
-            "chords": "  F#            B",
-            "lyrics": "A Cristo Jesus, o Salvador;"
-          },
-          {
-            "chords": "                      E       B",
-            "lyrics": "Ele, nas provas, nos faz triunfar;"
-          },
-          {
-            "chords": "    F#                     B",
-            "lyrics": "Oh! Glória! Bendito_é_o Senhor!"
-          }
+        "text": [
+          "[B]Com toda_a alma de[E]vemos a[B]mar",
+          "A [F#]Cristo Jesus, [B]o Salvador;",
+          "Ele, nas provas, nos f[E]az triun[B]far;",
+          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                    E       B",
-            "lyrics": "Quando_estivermos no lar divinal,"
-          },
-          {
-            "chords": "    F#            B",
-            "lyrics": "Com Cristo Jesus, o Salvador,"
-          },
-          {
-            "chords": "                E        B",
-            "lyrics": "Desfrutaremos o bem celestial;"
-          },
-          {
-            "chords": "    F#                     B",
-            "lyrics": "Oh! Glória! Bendito_é_o Senhor!"
-          }
+        "text": [
+          "[B]Quando_estivermos no [E]lar divi[B]nal,",
+          "Com [F#]Cristo Jesus, [B]o Salvador,",
+          "Desfrutaremos o [E]bem celes[B]tial;",
+          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
         ]
       },
       {

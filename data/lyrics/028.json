@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Para o ceú marchemos",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                                   G",
-            "lyrics": "Para_o céu marchemos, firmes, sem temer;"
-          },
-          {
-            "chords": "                  C",
-            "lyrics": "Nada nesta marcha pode nos deter;"
-          },
-          {
-            "chords": "              F       D         G",
-            "lyrics": "Com valor marchemos, quem impedirá?"
-          },
-          {
-            "chords": "C             F            G         C",
-            "lyrics": "Cristo, nossa Força, Seu poder nos dará."
-          }
+        "text": [
+          "[C]Para_o céu marchemos, firmes, sem te[G]mer;",
+          "Nada nesta marcha [C]pode nos deter;",
+          "Com valor marc[F]hemos, q[D]uem impedi[G]rá?",
+          "[C]Cristo, nossa [F]Força, Seu po[G]der nos da[C]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   C                    F",
-            "lyrics": "Marchemos para_o céu, morada do Senhor,"
-          },
-          {
-            "chords": " G                         C",
-            "lyrics": "Olhando bem atentos para_o Redentor;"
-          },
-          {
-            "chords": "                      F",
-            "lyrics": "Marchemos com valor à pátria celestial;"
-          },
-          {
-            "chords": "G          C          G   C",
-            "lyrics": "Lá desfrutaremos vida eternal."
-          }
+        "text": [
+          "Mar[C]chemos para_o céu, mo[F]rada do Senhor,",
+          "O[G]lhando bem atentos para_o [C]Redentor;",
+          "Marchemos com valor à [F]pátria celestial;",
+          "[G]Lá desfruta[C]remos vida [G]eter[C]nal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                                G",
-            "lyrics": "Para_o céu marchemos, cheios de amor,"
-          },
-          {
-            "chords": "                   C",
-            "lyrics": "Do amor de Cristo, nosso Condutor;"
-          },
-          {
-            "chords": "            F      D            G",
-            "lyrics": "Com valor andemos, sempre_em união,"
-          },
-          {
-            "chords": "C              F          G       C",
-            "lyrics": "Para_a_eterna glória, a celeste Sião."
-          }
+        "text": [
+          "[C]Para_o céu marchemos, cheios de a[G]mor,",
+          "Do amor de Cristo, [C]nosso Condutor;",
+          "Com valor an[F]demos, [D]sempre_em uni[G]ão,",
+          "[C]Para_a_eterna g[F]lória, a ce[G]leste Si[C]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                                G",
-            "lyrics": "Para_o céu marchemos, sem esmorecer;"
-          },
-          {
-            "chords": "                 C",
-            "lyrics": "Pela fé, podemos todo_o mal vencer;"
-          },
-          {
-            "chords": "            F    D          G",
-            "lyrics": "Cristo fortalece nosso coração;"
-          },
-          {
-            "chords": "C            F           G        C",
-            "lyrics": "No_eternal repouso nos dará galardão."
-          }
+        "text": [
+          "[C]Para_o céu marchemos, sem esmorec[G]er;",
+          "Pela fé, podemos [C]todo_o mal vencer;",
+          "Cristo forta[F]lece [D]nosso coraç[G]ão;",
+          "[C]No_eternal re[F]pouso nos da[G]rá galard[C]ão."
         ]
       },
       {

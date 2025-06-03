@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Éramos mortos nas obras más",
   "tone": {
     "recommended": "G"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G             Em  D      G",
-            "lyrics": "Éramos mortos nas obras más;"
-          },
-          {
-            "chords": "               D       G",
-            "lyrics": "Jamais tivemos divina paz;"
-          },
-          {
-            "chords": "C9         G         D         G",
-            "lyrics": "Glória ao bom Jesus, já temos Sua luz;"
-          },
-          {
-            "chords": "Em         D    G    D       G",
-            "lyrics": "D’Ele nos vem poder para vencer."
-          }
+        "text": [
+          "[G]Éramos mortos [Em]nas [D]obras m[G]ás;",
+          "Jamais tivemos [D]divina p[G]az;",
+          "[C9]Glória ao b[G]om Jesus, [D]já temos S[G]ua luz;",
+          "[Em]D’Ele nos v[D]em po[G]der p[D]ara venc[G]er."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " G                Em  D        G",
-            "lyrics": "Nós fomos feitos, do mundo, a luz"
-          },
-          {
-            "chords": "                   D        G",
-            "lyrics": "Por nosso Mestre, Cristo Jesus;"
-          },
-          {
-            "chords": "C9       G           D        G",
-            "lyrics": "Firmes devemos ser, nunca ao mal ceder;"
-          },
-          {
-            "chords": "Em      D       G     D          G",
-            "lyrics": "Avante para os céus, lar do bom Deus."
-          }
+        "text": [
+          "N[G]ós fomos feitos, [Em]do m[D]undo, a l[G]uz",
+          "Por nosso Mestre, C[D]risto Jes[G]us;",
+          "[C9]Firmes de[G]vemos ser, n[D]unca ao m[G]al ceder;",
+          "[Em]Avante p[D]ara os c[G]éus, l[D]ar do bom D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " G             Em   D     G",
-            "lyrics": "Já deste mundo não somos mais;"
-          },
-          {
-            "chords": "               D     G",
-            "lyrics": "Temos moradas celestiais."
-          },
-          {
-            "chords": "C9          G           D       G",
-            "lyrics": "Templos do grande Deus são os eleitos Seus;"
-          },
-          {
-            "chords": "Em      D    G   D       G",
-            "lyrics": "Vivamos no temor do Salvador."
-          }
+        "text": [
+          "J[G]á deste mundo [Em]não s[D]omos m[G]ais;",
+          "Temos moradas c[D]elesti[G]ais.",
+          "[C9]Templos do g[G]rande Deus s[D]ão os el[G]eitos Seus;",
+          "[Em]Vivamos [D]no te[G]mor [D]do Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " G            Em   D     G",
-            "lyrics": "Todos unidos quer-nos Jesus;"
-          },
-          {
-            "chords": "                D          G",
-            "lyrics": "Os Seus remidos ao céu conduz;"
-          },
-          {
-            "chords": "C9       G            D        G",
-            "lyrics": "É bom viver no amor, aos olhos do Senhor,"
-          },
-          {
-            "chords": "Em       D    G  D           G",
-            "lyrics": "Humildes e fieis ao Rei dos reis."
-          }
+        "text": [
+          "T[G]odos unidos q[Em]uer-n[D]os Jes[G]us;",
+          "Os Seus remidos [D]ao céu cond[G]uz;",
+          "[C9]É bom viv[G]er no amor, a[D]os olhos [G]do Senhor,",
+          "[Em]Humildes [D]e fie[G]is [D]ao Rei dos r[G]eis."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eu sou um cordeirinho",
   "tone": {
     "recommended": "D"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    D                    A7              D",
-            "lyrics": "Eu sou um cordeirinho, Jesus é o meu Pastor;"
-          },
-          {
-            "chords": "                       A7           D    D7",
-            "lyrics": "Desfruto Seu carinho e Seu sublime amor;"
-          },
-          {
-            "chords": "   G                       A7        D",
-            "lyrics": "Nasci no Seu rebanho, por graça divinal;"
-          },
-          {
-            "chords": "    Bm7             Em         A7         D",
-            "lyrics": "Não sigo a voz do estranho, ma só a Paternal."
-          }
+        "text": [
+          "Eu s[D]ou um cordeirinho, Je[A7]sus é o meu Past[D]or;",
+          "Desfruto Seu carinho e [A7]Seu sublime a[D]mor;[D7]",
+          "Nas[G]ci no Seu rebanho, por g[A7]raça divin[D]al;",
+          "Não [Bm7]sigo a voz do es[Em]tranho, ma [A7]só a Patern[D]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    D                    A7              D",
-            "lyrics": "Eu sou um cordeirinho, Jesus é o meu Pastor;"
-          },
-          {
-            "chords": "                         A7          D    D7",
-            "lyrics": "Sou um feliz menino nos braços do Senhor;"
-          },
-          {
-            "chords": "   G                  A7            D",
-            "lyrics": "A Sua voz conheço, também o Seu querer;"
-          },
-          {
-            "chords": "  Bm7    Em       A7              D",
-            "lyrics": "A Ele obedeço, disposto e com prazer."
-          }
+        "text": [
+          "Eu s[D]ou um cordeirinho, Je[A7]sus é o meu Past[D]or;",
+          "Sou um feliz menino nos b[A7]raços do Sen[D]hor;[D7]",
+          "A S[G]ua voz conheço, tam[A7]bém o Seu quer[D]er;",
+          "A [Bm7]Ele obe[Em]deço, dis[A7]posto e com praz[D]er."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  D                    A7             D",
-            "lyrics": "Sozinho no deserto, jamais eu posso andar;"
-          },
-          {
-            "chords": "                       A7            D    D7",
-            "lyrics": "Jesus está bem perto a fim de me guardar;"
-          },
-          {
-            "chords": "   G                   A7           D",
-            "lyrics": "É grande o cuidado que Ele tem por mim;"
-          },
-          {
-            "chords": "  Bm7         Em       A7         D",
-            "lyrics": "O meu Pastor amado me guia até o fim."
-          }
+        "text": [
+          "So[D]zinho no deserto, jam[A7]ais eu posso an[D]dar;",
+          "Jesus está bem perto a [A7]fim de me guar[D]dar;[D7]",
+          "É g[G]rande o cuidado que [A7]Ele tem por m[D]im;",
+          "O [Bm7]meu Pastor a[Em]mado me g[A7]uia até o f[D]im."
         ]
       }
     ]

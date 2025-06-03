@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vida eterna! Vida eterna!",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A                        D            A",
-            "lyrics": "As moradas preparadas para_os santos do Senhor"
-          },
-          {
-            "chords": "                 B7        E7 ",
-            "lyrics": "São ornadas de beleza sem igual;"
-          },
-          {
-            "chords": "      A                     D ",
-            "lyrics": "Nelas nós habitaremos com Jesus, o Redentor,"
-          },
-          {
-            "chords": "      A       C°    E7         A",
-            "lyrics": "E com Deus, o nosso Pai celestial."
-          }
+        "text": [
+          "As mo[A]radas preparadas para_os [D]santos do Sen[A]hor",
+          "São ornadas de be[B7]leza sem i[E7]gual;",
+          "Nelas [A]nós habitaremos com Je[D]sus, o Redentor,",
+          "E com [A]Deus, o [C°]nosso [E7]Pai celesti[A]al."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      Bm7   E7       A",
-            "lyrics": "Vida_eterna,   vida_eterna"
-          },
-          {
-            "chords": "      D              A     E7 ",
-            "lyrics": "Nós teremos junto_ao nosso Deus;"
-          },
-          {
-            "chords": "    A                  D  D#° ",
-            "lyrics": "Regozijo, alegria sempiterna,"
-          },
-          {
-            "chords": "    A           E7      A",
-            "lyrics": "É o prêmio dos eleitos Seus."
-          }
+        "text": [
+          "Vida_e[Bm7]terna,[E7]   vida_e[A]terna",
+          "Nós te[D]remos junto_ao [A]nosso [E7]Deus;",
+          "Rego[A]zijo, alegria sempi[D]ter[D#°]na,",
+          "É o [A]prêmio dos e[E7]leitos S[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     A                  D         A",
-            "lyrics": "É de ouro a cidade gloriosa do Senhor,"
-          },
-          {
-            "chords": "                 B7         E7 ",
-            "lyrics": "Resplandece para sempre sua luz;"
-          },
-          {
-            "chords": "       A                          D ",
-            "lyrics": "Não há nela sol nem lua, pois tem luz do Criador"
-          },
-          {
-            "chords": "     A     C°  E7          A",
-            "lyrics": "E também a sua Lâmpada_é Jesus."
-          }
+        "text": [
+          "É de [A]ouro a cidade glori[D]osa do Sen[A]hor,",
+          "Resplandece para [B7]sempre sua [E7]luz;",
+          "Não há [A]nela sol nem lua, pois tem [D]luz do Criador",
+          "E tam[A]bém a [C°]sua [E7]Lâmpada_é Je[A]sus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A                         D           A",
-            "lyrics": "Com as vestes brancas e_entoando hinos de louvor"
-          },
-          {
-            "chords": "                  B7           E7 ",
-            "lyrics": "Triunfantes, entraremos lá nos céus;"
-          },
-          {
-            "chords": "     A                         D ",
-            "lyrics": "Lá veremos todos quantos já dormiram no Senhor,"
-          },
-          {
-            "chords": "     A      C°     E7           A",
-            "lyrics": "Lá veremos, face_a face, nosso Deus."
-          }
+        "text": [
+          "Com as [A]vestes brancas e_entoando [D]hinos de lou[A]vor",
+          "Triunfantes, entra[B7]remos lá nos [E7]céus;",
+          "Lá ve[A]remos todos quantos já dor[D]miram no Senhor,",
+          "Lá ve[A]remos, [C°]face_a [E7]face, nosso D[A]eus."
         ]
       },
       {

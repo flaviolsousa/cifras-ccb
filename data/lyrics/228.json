@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Salvação! Salvação!",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       G                              D ",
-            "lyrics": "Vem do céu alegre som: Salvação! Salvação!"
-          },
-          {
-            "chords": "      G                      D         G",
-            "lyrics": "Só em Cristo há perdão. Salvação! Salvação!"
-          },
-          {
-            "chords": "      C                      G           D ",
-            "lyrics": "Paz e graça proclamar vão os servos do Senhor"
-          },
-          {
-            "chords": "     G               C    G    D         G",
-            "lyrics": "Pelo ar, por terra_e mar. Salvação! Salvação!"
-          }
+        "text": [
+          "Vem do [G]céu alegre som: Salvação! Salva[D]ção!",
+          "Só em [G]Cristo há perdão. Salva[D]ção! Salva[G]ção!",
+          "Paz e [C]graça proclamar vão os [G]servos do Se[D]nhor",
+          "Pelo [G]ar, por terra_e [C]mar. [G]Salva[D]ção! Salva[G]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    G                                 D ",
-            "lyrics": "Anunciemos sem cessar: Salvação! Salvação!"
-          },
-          {
-            "chords": "       G                    D         G",
-            "lyrics": "Que_alegria em pensar! Salvação! Salvação!"
-          },
-          {
-            "chords": "      C                      G            D ",
-            "lyrics": "Só no sangue do Senhor, derramado sobre_a cruz,"
-          },
-          {
-            "chords": "       G          C    G    D         G",
-            "lyrics": "Tem resgate_o pecador. Salvação! Salvação!"
-          }
+        "text": [
+          "Anun[G]ciemos sem cessar: Salvação! Salva[D]ção!",
+          "Que_ale[G]gria em pensar! Salva[D]ção! Salva[G]ção!",
+          "Só no [C]sangue do Senhor, derra[G]mado sobre_a [D]cruz,",
+          "Tem res[G]gate_o peca[C]dor. [G]Salva[D]ção! Salva[G]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G                                     D ",
-            "lyrics": "Do pecado_e maldição, salvo_estou, salvo_estou!"
-          },
-          {
-            "chords": "    G                            D            G",
-            "lyrics": "Recebi, de Deus, perdão. Salvo_estou! Salvo_estou!"
-          },
-          {
-            "chords": "        C                     G          D ",
-            "lyrics": "Mesmo_à hora de_expirar, sentirei a salvação,"
-          },
-          {
-            "chords": "        G           C    G       D            G",
-            "lyrics": "Pois no céu vou habitar, Salvo_estou! Salvo_estou!"
-          }
+        "text": [
+          "Do pe[G]cado_e maldição, salvo_estou, salvo_es[D]tou!",
+          "Rece[G]bi, de Deus, perdão. Salvo_es[D]tou! Salvo_es[G]tou!",
+          "Mesmo_à [C]hora de_expirar, senti[G]rei a salva[D]ção,",
+          "Pois no [G]céu vou habi[C]tar, [G]Salvo_es[D]tou! Salvo_es[G]tou!"
         ]
       }
     ]

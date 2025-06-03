@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Glorificarei, glorificarei",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                 F          C",
-            "lyrics": "Desde pequenino, Deus, o Criador,"
-          },
-          {
-            "chords": "                   G    ",
-            "lyrics": "Fez-me conhecer a Cristo,_o Salvador;"
-          },
-          {
-            "chords": "C                   F         C",
-            "lyrics": "Tem manifestado_em mim o Seu amor,"
-          },
-          {
-            "chords": "G               C",
-            "lyrics": "Pelo bom Consolador."
-          }
+        "text": [
+          "[C]Desde pequenino, D[F]eus, o Cria[C]dor,",
+          "Fez-me conhecer a C[G]risto,_o Salvador;",
+          "[C]Tem manifestado_em m[F]im o Seu a[C]mor,",
+          "[G]Pelo bom Consola[C]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G              C",
-            "lyrics": "Glorificarei, glorificarei"
-          },
-          {
-            "chords": "            F               D   G",
-            "lyrics": "Ao Senhor Jesus e_a Deus, o Criador;"
-          },
-          {
-            "chords": "C                 F",
-            "lyrics": "Sendo eu pequeno, separado_estou,"
-          },
-          {
-            "chords": "G                 C",
-            "lyrics": "Para glória do Senhor."
-          }
+        "text": [
+          "[G]Glorificarei, g[C]lorificarei",
+          "Ao Senhor Je[F]sus e_a Deus, o [D]Cria[G]dor;",
+          "[C]Sendo eu pequeno, [F]separado_estou,",
+          "[G]Para glória do Sen[C]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                 F          C",
-            "lyrics": "Com perseverança clamo ao Senhor,"
-          },
-          {
-            "chords": "                G",
-            "lyrics": "Esperando d´Ele força e fervor;"
-          },
-          {
-            "chords": "C                 F           C",
-            "lyrics": "Nas tribulações serei um vencedor,"
-          },
-          {
-            "chords": "G                       C",
-            "lyrics": "Pois Deus ouve_o meu clamor."
-          }
+        "text": [
+          "[C]Com perseverança c[F]lamo ao Sen[C]hor,",
+          "Esperando d´Ele [G]força e fervor;",
+          "[C]Nas tribulações se[F]rei um vence[C]dor,",
+          "[G]Pois Deus ouve_o meu cla[C]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                 F           C",
-            "lyrics": "A gloriosa pátria hei de alcançar,"
-          },
-          {
-            "chords": "                    G",
-            "lyrics": "Se seguir a Cristo sem desanimar;"
-          },
-          {
-            "chords": "C                F           C",
-            "lyrics": "Nada neste mundo pode se_igualar"
-          },
-          {
-            "chords": "G                 C",
-            "lyrics": "Com aquele_eterno lar."
-          }
+        "text": [
+          "[C]A gloriosa pátria [F]hei de alcan[C]çar,",
+          "Se seguir a Cristo s[G]em desanimar;",
+          "[C]Nada neste mundo [F]pode se_igua[C]lar",
+          "[G]Com aquele_eterno [C]lar."
         ]
       },
       {

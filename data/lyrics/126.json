@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Levemos a mensagem de amor",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  A                    E ",
-            "lyrics": "Levemos a mensagem de amor"
-          },
-          {
-            "chords": "                              A",
-            "lyrics": "Aos que não têm a graça do Senhor;"
-          },
-          {
-            "chords": "                          D ",
-            "lyrics": "Anunciando o perdão e_a divina salvação"
-          },
-          {
-            "chords": "     E           A",
-            "lyrics": "De Jesus, o Redentor."
-          }
+        "text": [
+          "Le[A]vemos a mensagem de a[E]mor",
+          "Aos que não têm a graça do Sen[A]hor;",
+          "Anunciando o perdão e_a di[D]vina salvação",
+          "De Je[E]sus, o Reden[A]tor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "De Jesus, Sua luz"
-          },
-          {
-            "chords": "                                 E ",
-            "lyrics": "Levaremos aos que_estão na_escuridão;"
-          },
-          {
-            "chords": "    A                      D ",
-            "lyrics": "Anunciemos, irmãos, que em Cristo,_o Salvador,"
-          },
-          {
-            "chords": "       E         A",
-            "lyrics": "Tem perdão o pecador."
-          }
+        "text": [
+          "De Jes[A]us, Sua luz",
+          "Levaremos aos que_estão na_escuri[E]dão;",
+          "Anun[A]ciemos, irmãos, que em [D]Cristo,_o Salvador,",
+          "Tem per[E]dão o peca[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A                     E ",
-            "lyrics": "Por terra, pelo ar e pelo mar,"
-          },
-          {
-            "chords": "                        A",
-            "lyrics": "O Evangelho vamos proclamar;"
-          },
-          {
-            "chords": "                       D ",
-            "lyrics": "Falaremos do amor de Jesus, o Salvador,"
-          },
-          {
-            "chords": "      E          A",
-            "lyrics": "Que redime_o pecador."
-          }
+        "text": [
+          "Por [A]terra, pelo ar e pelo [E]mar,",
+          "O Evangelho vamos procla[A]mar;",
+          "Falaremos do amor de Je[D]sus, o Salvador,",
+          "Que re[E]dime_o peca[A]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " A                         E ",
-            "lyrics": "Ainda muitos, no pecado,_estão,"
-          },
-          {
-            "chords": "                              A",
-            "lyrics": "Sem conhecer tão grande salvação;"
-          },
-          {
-            "chords": "                               D ",
-            "lyrics": "Anunciemos-lhes a luz que se_encontra em Jesus,"
-          },
-          {
-            "chords": "        E           A",
-            "lyrics": "Luz que salva_o pecador."
-          }
+        "text": [
+          "A[A]inda muitos, no pecado,_es[E]tão,",
+          "Sem conhecer tão grande salvaç[A]ão;",
+          "Anunciemos-lhes a luz que se_en[D]contra em Jesus,",
+          "Luz que [E]salva_o peca[A]dor."
         ]
       },
       {

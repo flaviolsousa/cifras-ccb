@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Promessa excelente",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                 C         G",
-            "lyrics": "Promessa_excelente fizeste, ó Deus,"
-          },
-          {
-            "chords": "  D                  G       D...",
-            "lyrics": "Fiel cumprimento_a Palavra terá;"
-          },
-          {
-            "chords": "   G                           C...",
-            "lyrics": "Sentir Teu Espírito querem os Teus;"
-          },
-          {
-            "chords": "     D              G",
-            "lyrics": "Teu povo clamando está."
-          }
+        "text": [
+          "Pro[G]messa_excelente fi[C]zeste, ó D[G]eus,",
+          "Fi[D]el cumprimento_a Pa[G]lavra te[D...]rá;",
+          "Sen[G]tir Teu Espírito querem os T[C...]eus;",
+          "Teu p[D]ovo clamando es[G]tá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  G               ",
-            "lyrics": "Envia, ó Deus por amor,"
-          },
-          {
-            "chords": "      D               G",
-            "lyrics": "Teus dons pelo Consolador."
-          },
-          {
-            "chords": "                      C       C...",
-            "lyrics": "Vem nos revestir de poder divinal;"
-          },
-          {
-            "chords": "  D                  G",
-            "lyrics": "Visita-nos, Pai eternal."
-          }
+        "text": [
+          "En[G]via, ó Deus por amor,",
+          "Teus d[D]ons pelo Consola[G]dor.",
+          "Vem nos revestir de po[C]der divi[C...]nal;",
+          "Vi[D]sita-nos, Pai etern[G]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     G                  C       G",
-            "lyrics": "Oh! Vem despertar-nos, amado Senhor;"
-          },
-          {
-            "chords": "    D              G        D...",
-            "lyrics": "O_Espírito Santo envia dos céus;"
-          },
-          {
-            "chords": "    G                      C...",
-            "lyrics": "Com fé aguardamos o Consolador,"
-          },
-          {
-            "chords": "     D                G",
-            "lyrics": "Que faz virtuosos os Teus."
-          }
+        "text": [
+          "Oh! V[G]em despertar-nos, a[C]mado Sen[G]hor;",
+          "O_Es[D]pírito Santo en[G]via dos c[D...]éus;",
+          "Com [G]fé aguardamos o Consola[C...]dor,",
+          "Que f[D]az virtuosos os T[G]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G                  C      G",
-            "lyrics": "O Teu Santo_Espírito nos guiará"
-          },
-          {
-            "chords": "    D               G        D...",
-            "lyrics": "Em toda verdade, justiça e_amor;"
-          },
-          {
-            "chords": "    G                       C...",
-            "lyrics": "Por Ele Teu povo_ensinado será;"
-          },
-          {
-            "chords": "    D                  G",
-            "lyrics": "Teu Dom aguardamos, Senhor."
-          }
+        "text": [
+          "O T[G]eu Santo_Espírito n[C]os guia[G]rá",
+          "Em t[D]oda verdade, jus[G]tiça e_am[D...]or;",
+          "Por [G]Ele Teu povo_ensinado se[C...]rá;",
+          "Teu [D]Dom aguardamos, Sen[G]hor."
         ]
       },
       {

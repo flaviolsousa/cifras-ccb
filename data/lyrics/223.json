@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Muitos, por fé, aceitaram Jesus",
   "tone": {
     "recommended": "F"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                   Bb      F",
-            "lyrics": "Muitos, por fé, aceitaram Jesus"
-          },
-          {
-            "chords": "C7           F",
-            "lyrics": "E_alcançaram salvação;"
-          },
-          {
-            "chords": "                Bb     F",
-            "lyrics": "O pecador que recebe a Luz"
-          },
-          {
-            "chords": "C ",
-            "lyrics": "Tem perdão."
-          }
+        "text": [
+          "[F]Muitos, por fé, acei[Bb]taram Je[F]sus",
+          "[C7]E_alcançaram [F]salvação;",
+          "O pecador que re[Bb]cebe a [F]Luz",
+          "[C]Tem perdão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C7                 F",
-            "lyrics": "Muitos já sentem o grande amor"
-          },
-          {
-            "chords": "C7                F",
-            "lyrics": "De Jesus Cristo, Amigo sem par;"
-          },
-          {
-            "chords": "C7                 F",
-            "lyrics": "Oh! Não rejeites o bom Redentor"
-          },
-          {
-            "chords": "Dm     C       F",
-            "lyrics": "Que te quer salvar."
-          }
+        "text": [
+          "[C7]Muitos já sentem o [F]grande amor",
+          "[C7]De Jesus Cristo, A[F]migo sem par;",
+          "[C7]Oh! Não rejeites o [F]bom Redentor",
+          "[Dm]Que te [C]quer sal[F]var."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                   Bb       F",
-            "lyrics": "Muitos já trilham a senda do bem;"
-          },
-          {
-            "chords": "C7              F",
-            "lyrics": "Sobre_o mal vão triunfar;"
-          },
-          {
-            "chords": "                  Bb      F",
-            "lyrics": "Deves juntar-te a eles também"
-          },
-          {
-            "chords": "C ",
-            "lyrics": "Sem tardar."
-          }
+        "text": [
+          "[F]Muitos já trilham a [Bb]senda do [F]bem;",
+          "[C7]Sobre_o mal vão [F]triunfar;",
+          "Deves juntar-te a [Bb]eles tam[F]bém",
+          "[C]Sem tardar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F                 Bb       F",
-            "lyrics": "Muitos aguardam a vida_eternal"
-          },
-          {
-            "chords": "C7         F",
-            "lyrics": "Para descansar nos céus;"
-          },
-          {
-            "chords": "                 Bb     F",
-            "lyrics": "Crê em Jesus, o Amigo leal;"
-          },
-          {
-            "chords": "C ",
-            "lyrics": "Crê em Deus."
-          }
+        "text": [
+          "[F]Muitos aguardam a [Bb]vida_eter[F]nal",
+          "[C7]Para descan[F]sar nos céus;",
+          "Crê em Jesus, o A[Bb]migo le[F]al;",
+          "[C]Crê em Deus."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Soldados somos do Senhor",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Soldados somos do Senhor,"
-          },
-          {
-            "chords": " D           G",
-            "lyrics": "Avante sem temer!"
-          },
-          {
-            "chords": "",
-            "lyrics": "Deus nos dá força e valor"
-          },
-          {
-            "chords": "  C     D     G",
-            "lyrics": "E nos fará vencer."
-          }
+        "text": [
+          "Sol[G]dados somos do Senhor,",
+          "A[D]vante sem te[G]mer!",
+          "Deus nos dá força e valor",
+          "E [C]nos fa[D]rá ven[G]cer."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     D         G",
-            "lyrics": "Galardão nos dará,"
-          },
-          {
-            "chords": "                   D ",
-            "lyrics": "Eternal! E_excelso bem;"
-          },
-          {
-            "chords": "   G",
-            "lyrics": "Ao terminar a luta, nos exaltará"
-          },
-          {
-            "chords": "       C     D   G",
-            "lyrics": "Na_eternal Jerusalém."
-          }
+        "text": [
+          "Galar[D]dão nos da[G]rá,",
+          "Eternal! E_excelso [D]bem;",
+          "Ao [G]terminar a luta, nos exaltará",
+          "Na_eter[C]nal Je[D]rusa[G]lém."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G",
-            "lyrics": "Lutemos firmes, sem cessar,"
-          },
-          {
-            "chords": "     D              G",
-            "lyrics": "Pois Cristo,_o Vencedor,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Nos auxilia_a enfrentar"
-          },
-          {
-            "chords": "    C    D    G",
-            "lyrics": "O_astuto tentador."
-          }
+        "text": [
+          "Lu[G]temos firmes, sem cessar,",
+          "Pois [D]Cristo,_o Vence[G]dor,",
+          "Nos auxilia_a enfrentar",
+          "O_as[C]tuto [D]tenta[G]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Se forte a peleja for,"
-          },
-          {
-            "chords": "  D           G",
-            "lyrics": "Lutemos sem temer,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Pois é mais forte o Senhor;"
-          },
-          {
-            "chords": " C       D     G",
-            "lyrics": "Imenso_é Seu poder."
-          }
+        "text": [
+          "Se [G]forte a peleja for,",
+          "Lu[D]temos sem te[G]mer,",
+          "Pois é mais forte o Senhor;",
+          "I[C]menso_é [D]Seu po[G]der."
         ]
       },
       {

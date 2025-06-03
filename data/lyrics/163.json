@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Neste mundo de ilusão",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E           B7    E   F#         B7 ",
-            "lyrics": "Neste mundo de_ilusão não há felidade;"
-          },
-          {
-            "chords": "E               B7   C#m  A        B7       E",
-            "lyrics": "Só em Cristo_há salvação, pois Ele é a Verdade;"
-          },
-          {
-            "chords": "B7            E        B7           E",
-            "lyrics": "Ei-Lo_à porta a bater, vida quer te conceder;"
-          },
-          {
-            "chords": "             A          E                 B7  E",
-            "lyrics": "De ninguém a podes ter, só do Cordeiro de Deus."
-          }
+        "text": [
+          "[E]Neste mundo [B7]de_ilu[E]são [F#]não há feli[B7]dade;",
+          "[E]Só em Cristo_há [B7]salva[C#m]ção, [A]pois Ele [B7]é a Verda[E]de;",
+          "[B7]Ei-Lo_à porta [E]a bater, [B7]vida quer te [E]conceder;",
+          "De ninguém a [A]podes ter, [E]só do Cordeiro de [B7]Deus[E]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Queres felicidade?"
-          },
-          {
-            "chords": "B7              E",
-            "lyrics": "Crê no Senhor Jesus,"
-          },
-          {
-            "chords": "                A  ",
-            "lyrics": "Que, por ti, desceu dos céus;"
-          },
-          {
-            "chords": "E                  B7  E",
-            "lyrics": "Crê no Cordeiro de Deus!"
-          }
+        "text": [
+          "[E]Queres felicidade?",
+          "[B7]Crê no Senhor Je[E]sus,",
+          "Que, por ti, des[A]ceu dos céus;",
+          "[E]Crê no Cordeiro de [B7]Deus[E]!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E              B7  E   F#             B7 ",
-            "lyrics": "Por ti, Cristo padeceu dando apropria vida;"
-          },
-          {
-            "chords": "E          B7    C#m   A        B7       E",
-            "lyrics": "Pela morte que sofreu, graça te é concedida;"
-          },
-          {
-            "chords": "B7           E       B7           E",
-            "lyrics": "Por ti, Ele_agonizou e Seu sangue derramou;"
-          },
-          {
-            "chords": "         A           E                     B7  E",
-            "lyrics": "Sua vida não poupou, Cristo,_o Cordeiro de Deus."
-          }
+        "text": [
+          "[E]Por ti, Cristo [B7]pade[E]ceu [F#]dando apropria [B7]vida;",
+          "[E]Pela morte [B7]que so[C#m]freu, [A]graça te [B7]é concedi[E]da;",
+          "[B7]Por ti, Ele_a[E]gonizou [B7]e Seu sangue [E]derramou;",
+          "Sua vida [A]não poupou, [E]Cristo,_o Cordeiro de [B7]Deus[E]."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E           B7    E   F#                B7 ",
-            "lyrics": "Sem a Luz e sem a Paz andas, no mundo,_aflito;"
-          },
-          {
-            "chords": "E            B7     C#m  A         B7         E",
-            "lyrics": "Cristo mui feliz te faz, oh! Vem a Ele, contrito;"
-          },
-          {
-            "chords": "B7               E          B7        E",
-            "lyrics": "Vem, sim, vem ao bom Jesus, receber a Sua luz,"
-          },
-          {
-            "chords": "             A          E                  B7  E",
-            "lyrics": "Que à gloria te conduz, Vem ao Cordeiro de Deus!"
-          }
+        "text": [
+          "[E]Sem a Luz e [B7]sem a [E]Paz [F#]andas, no mundo,_a[B7]flito;",
+          "[E]Cristo mui fe[B7]liz te [C#m]faz, [A]oh! Vem a [B7]Ele, contri[E]to;",
+          "[B7]Vem, sim, vem ao [E]bom Jesus, [B7]receber a [E]Sua luz,",
+          "Que à gloria [A]te conduz, [E]Vem ao Cordeiro de [B7]Deus[E]!"
         ]
       },
       {

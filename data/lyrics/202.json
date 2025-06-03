@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Em Ti me alegro, Senhor",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D                     A ",
-            "lyrics": "Eu sinto, por fé, em meu coração"
-          },
-          {
-            "chords": "                   D",
-            "lyrics": "A Tua presença, Senhor Jesus;"
-          },
-          {
-            "chords": "                   G ",
-            "lyrics": "Por ela eu vivo em comunhão,"
-          },
-          {
-            "chords": "           D     A     D    D...",
-            "lyrics": "Guiado por Tua divina luz."
-          }
+        "text": [
+          "Eu [D]sinto, por fé, em meu [A]coração",
+          "A Tua presença, Sen[D]hor Jesus;",
+          "Por ela eu vivo em [G]comunhão,",
+          "Guiado por [D]Tua di[A]vina l[D]uz.[D...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   D",
-            "lyrics": "Em Ti me alegro, Senhor,"
-          },
-          {
-            "chords": "   A              D",
-            "lyrics": "Tu és o fiel Salvador;"
-          },
-          {
-            "chords": "                       G       D",
-            "lyrics": "Reinar lá no céu, onde tudo é luz,"
-          },
-          {
-            "chords": "   G     A          D",
-            "lyrics": "Contigo irei, meu Jesus."
-          }
+        "text": [
+          "Em [D]Ti me alegro, Senhor,",
+          "Tu [A]és o fiel Salva[D]dor;",
+          "Reinar lá no céu, onde [G]tudo é l[D]uz,",
+          "Con[G]tigo i[A]rei, meu Je[D]sus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   D                 A ",
-            "lyrics": "As Tuas promessas, ó Salvador,"
-          },
-          {
-            "chords": "                     D",
-            "lyrics": "Em meu coração quero conservar;"
-          },
-          {
-            "chords": "                     G ",
-            "lyrics": "Por elas desfruto do Teu amor,"
-          },
-          {
-            "chords": "            D       A    D    D...",
-            "lyrics": "Enquanto na terra peregrinar."
-          }
+        "text": [
+          "As [D]Tuas promessas, ó [A]Salvador,",
+          "Em meu coração quero [D]conservar;",
+          "Por elas desfruto do [G]Teu amor,",
+          "Enquanto na [D]terra pe[A]regri[D]nar.[D...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     D                    A ",
-            "lyrics": "Transborda de bênçãos meu coração,"
-          },
-          {
-            "chords": "                   D",
-            "lyrics": "Alegre me sinto em Te louvar;"
-          },
-          {
-            "chords": "                      G ",
-            "lyrics": "Em prova, angústia ou aflição,"
-          },
-          {
-            "chords": "         D         A      D    D...",
-            "lyrics": "A Tua presença vem me_alegrar."
-          }
+        "text": [
+          "Trans[D]borda de bênçãos meu [A]coração,",
+          "Alegre me sinto em [D]Te louvar;",
+          "Em prova, angústia ou [G]aflição,",
+          "A Tua pre[D]sença vem [A]me_aleg[D]rar.[D...]"
         ]
       },
       {

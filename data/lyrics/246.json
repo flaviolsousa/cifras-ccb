@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Irmãos, já resgatados",
   "tone": {
     "recommended": "A"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  A                      E            A ",
-            "lyrics": "Irmãos, já resgatados no sangue de Jesus,"
-          },
-          {
-            "chords": "                     E ",
-            "lyrics": "Agora_iluminados, mostremos Sua luz;"
-          },
-          {
-            "chords": "              A        D       A     E    A",
-            "lyrics": "Do mundo, separados, o Mestre nos condu...uz."
-          }
+        "text": [
+          "Ir[A]mãos, já resgatados no [E]sangue de Jes[A]us,",
+          "Agora_iluminados, mos[E]tremos Sua luz;",
+          "Do mundo, sepa[A]rados, o [D]Mestre n[A]os con[E]du...[A]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Resgatados fomos,"
-          },
-          {
-            "chords": "E ",
-            "lyrics": "Perdoados somos;"
-          },
-          {
-            "chords": "A            D ",
-            "lyrics": "Salvos nós seremos,"
-          },
-          {
-            "chords": "E              A",
-            "lyrics": "Sendo_a Deus fiéis."
-          }
+        "text": [
+          "[A]Resgatados fomos,",
+          "[E]Perdoados somos;",
+          "[A]Salvos nós se[D]remos,",
+          "[E]Sendo_a Deus fi[A]éis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    A                     E           A",
-            "lyrics": "Com todo_o povo_eleito servimos ao Senhor;"
-          },
-          {
-            "chords": "                           E ",
-            "lyrics": "Herdeiros nos tem feito do reino de_esplendor,"
-          },
-          {
-            "chords": "             A        D     A   E    A",
-            "lyrics": "Eterno e perfeito, um reino de amo...or."
-          }
+        "text": [
+          "Com [A]todo_o povo_eleito ser[E]vimos ao Sen[A]hor;",
+          "Herdeiros nos tem feito do [E]reino de_esplendor,",
+          "Eterno e perf[A]eito, um [D]reino [A]de a[E]mo...[A]or."
         ]
       },
       {
@@ -70,19 +40,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   A                   E             A",
-            "lyrics": "No número dos santos estamos, por Jesus,"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "E, com vestidos brancos, honramos Sua luz;"
-          },
-          {
-            "chords": "                 A        D        A    E    A",
-            "lyrics": "Cobertos com Seu manto, o mal não nos sedu...uz."
-          }
+        "text": [
+          "No [A]número dos santos es[E]tamos, por Jes[A]us,",
+          "E, com vestidos brancos, hon[E]ramos Sua luz;",
+          "Cobertos com Seu [A]manto, o [D]mal não n[A]os se[E]du...[A]uz."
         ]
       },
       {

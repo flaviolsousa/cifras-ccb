@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu Nome é soberano, ó Redentor",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    B                            F#7 ",
-            "lyrics": "Teu Nome_é soberano, ó caro Redentor;"
-          },
-          {
-            "chords": "                 B         C#7          F#7 ",
-            "lyrics": "Teu Nome_é mui sublime, de grande esplendor;"
-          },
-          {
-            "chords": "     B           F#7             G°  G#m ",
-            "lyrics": "Em espírito_e verdade devemos adorar-Te;"
-          },
-          {
-            "chords": "  E          B      E  F#7         B",
-            "lyrics": "Devemos tributar-Te louvores, ó Senhor."
-          }
+        "text": [
+          "Teu [B]Nome_é soberano, ó caro Reden[F#7]tor;",
+          "Teu Nome_é mui su[B]blime, de [C#7]grande esplen[F#7]dor;",
+          "Em es[B]pírito_e ver[F#7]dade devemos ado[G°]rar-[G#m]Te;",
+          "De[E]vemos tribu[B]tar-Te [E]lou[F#7]vores, ó Sen[B]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B                 E ",
-            "lyrics": "Quão suave_e precioso"
-          },
-          {
-            "chords": "F#7                B",
-            "lyrics": "É Teu Nome,_ó Salvador;"
-          },
-          {
-            "chords": "                  E  ",
-            "lyrics": "Não há outro Nome pelo qual os homens"
-          },
-          {
-            "chords": "B           C#7   F#7  B",
-            "lyrics": "Chegarão ao Cri – a  - dor."
-          }
+        "text": [
+          "[B]Quão suave_e preci[E]oso",
+          "[F#7]É Teu Nome,_ó Salva[B]dor;",
+          "Não há outro Nome [E]pelo qual os homens",
+          "[B]Chegarão ao [C#7]Cri – [F#7]a  - [B]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    B                            F#7 ",
-            "lyrics": "Teu Nome bendiremos, eterno Salvador;"
-          },
-          {
-            "chords": "               B        C#7        F#7 ",
-            "lyrics": "Em todos os combates és nosso Defensor;"
-          },
-          {
-            "chords": "        B             F#7                  G°    G#m ",
-            "lyrics": "Deste_a todos os Teus santos fé viva e_esperan - ça"
-          },
-          {
-            "chords": "     E            B      E  F#7        B",
-            "lyrics": "De_entrar na Tua glória, ó  justo Redentor."
-          }
+        "text": [
+          "Teu [B]Nome bendiremos, eterno Salva[F#7]dor;",
+          "Em todos os com[B]bates és [C#7]nosso Defen[F#7]sor;",
+          "Deste_a [B]todos os Teus [F#7]santos fé viva e_espe[G°]ran - [G#m]ça",
+          "De_en[E]trar na Tua g[B]lória, [E]ó  [F#7]justo Reden[B]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    B                              F#7 ",
-            "lyrics": "Teu Nome respeitamos e_amamos, ó Senhor;"
-          },
-          {
-            "chords": "                   B         C#7        F#7 ",
-            "lyrics": "A paz com Deus nós temos por Ti, ó Redentor;"
-          },
-          {
-            "chords": "       B          F#7                 G°   G#m ",
-            "lyrics": "Nossas almas resgataste, a vida nos doas - te,"
-          },
-          {
-            "chords": "   E            B     E  F#7         B",
-            "lyrics": "Herdeiros nos fizeste de Deus, o Criador."
-          }
+        "text": [
+          "Teu [B]Nome respeitamos e_amamos, ó Se[F#7]nhor;",
+          "A paz com Deus nós [B]temos por [C#7]Ti, ó Reden[F#7]tor;",
+          "Nossas [B]almas resga[F#7]taste, a vida nos do[G°]as - [G#m]te,",
+          "Her[E]deiros nos fi[B]zeste [E]de [F#7]Deus, o Cria[B]dor."
         ]
       },
       {

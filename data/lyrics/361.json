@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Tudo entende o Salvador",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Atribulado te_encontras, irmão?"
-          },
-          {
-            "chords": "A                      D",
-            "lyrics": "Quer o desânimo te dominar?"
-          },
-          {
-            "chords": "                        G ",
-            "lyrics": "Abre a Cristo o teu coração,"
-          },
-          {
-            "chords": "           D          A       D",
-            "lyrics": "Tudo_Ele_entende_e te pode_ajudar."
-          }
+        "text": [
+          "[D]Atribulado te_encontras, irmão?",
+          "[A]Quer o desânimo te domi[D]nar?",
+          "Abre a Cristo o teu cora[G]ção,",
+          "Tudo_Ele_en[D]tende_e te [A]pode_aju[D]dar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "D                   A ",
-            "lyrics": "Tudo entende_o Salvador:"
-          },
-          {
-            "chords": "                       D",
-            "lyrics": "O teu sentir, tua_aflição;"
-          },
-          {
-            "chords": "                          G ",
-            "lyrics": "Tu provarás o Seu grande amor;"
-          },
-          {
-            "chords": "       D    D...  A       D    D...",
-            "lyrics": "Ele conhe - ce o teu coração."
-          }
+        "text": [
+          "[D]Tudo entende_o Salva[A]dor:",
+          "O teu sentir, tua_afliç[D]ão;",
+          "Tu provarás o Seu grande a[G]mor;",
+          "Ele con[D]he - [D...]ce o t[A]eu coraç[D]ão.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Não desanimes, pois o Redentor"
-          },
-          {
-            "chords": "A                      D",
-            "lyrics": "É Atalaia de todos os Seus;"
-          },
-          {
-            "chords": "                           G ",
-            "lyrics": "Ele, do céu, ouvirá teu clamor;"
-          },
-          {
-            "chords": "       D       A         D",
-            "lyrics": "Tudo entende o Filho de Deus."
-          }
+        "text": [
+          "[D]Não desanimes, pois o Redentor",
+          "[A]É Atalaia de todos os S[D]eus;",
+          "Ele, do céu, ouvirá teu cla[G]mor;",
+          "Tudo en[D]tende o [A]Filho de D[D]eus."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D",
-            "lyrics": "Obra perfeita procura fazer,"
-          },
-          {
-            "chords": "A                          D",
-            "lyrics": "Tem paciência na luta_e na dor;"
-          },
-          {
-            "chords": "                               G ",
-            "lyrics": "Cristo_é contigo e d´Ele_é_o poder;"
-          },
-          {
-            "chords": "       D       A        D",
-            "lyrics": "Tudo entende o teu Salvador."
-          }
+        "text": [
+          "[D]Obra perfeita procura fazer,",
+          "[A]Tem paciência na luta_e na [D]dor;",
+          "Cristo_é contigo e d´Ele_é_o po[G]der;",
+          "Tudo en[D]tende o [A]teu Salva[D]dor."
         ]
       },
       {

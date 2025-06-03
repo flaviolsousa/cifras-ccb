@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvemos ao Rei dos reis",
   "tone": {
     "recommended": "G"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G     D           G                       D ",
-            "lyrics": "Louvemos ao Rei dos reis com todo_o nosso fervor;"
-          },
-          {
-            "chords": "    G    C     A7            D           G",
-            "lyrics": "Num só espírito,_ó fiéis, cantemos hinos de louvor;"
-          },
-          {
-            "chords": "           D      G    C     D           G",
-            "lyrics": "Por graça, temos paz e vida eterna no Senhor."
-          }
+        "text": [
+          "Lou[G]vemos [D]ao Rei dos r[G]eis com todo_o nosso fer[D]vor;",
+          "Num [G]só es[C]pírito[A7],_ó fiéis, can[D]temos hinos [G]de louvor;",
+          "Por graça, [D]temos p[G]az e [C]vida e[D]terna no Sen[G]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G",
-            "lyrics": "Que grande tesouro"
-          },
-          {
-            "chords": "                D ",
-            "lyrics": "Alcançaremos em glória!"
-          },
-          {
-            "chords": "    G               C ",
-            "lyrics": "Nem ouro_ou prata será,"
-          },
-          {
-            "chords": "          D           G",
-            "lyrics": "Mas vida que não findará."
-          }
+        "text": [
+          "Que [G]grande tesouro",
+          "Alcançaremos em [D]glória!",
+          "Nem [G]ouro_ou prata se[C]rá,",
+          "Mas vida q[D]ue não finda[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G     D     G                     D ",
-            "lyrics": "O santo, puro amor somente vem de Jesus,"
-          },
-          {
-            "chords": "     G      C     A7          D         G",
-            "lyrics": "Por Quem sentimos o vigor de suportar a nossa cruz"
-          },
-          {
-            "chords": "           D        G      C     D           G",
-            "lyrics": "Com fé, paciência_e calma, irradiando sempre luz."
-          }
+        "text": [
+          "O s[G]anto, [D]puro a[G]mor somente vem de Jes[D]us,",
+          "Por Q[G]uem sen[C]timos [A7]o vigor de s[D]uportar a [G]nossa cruz",
+          "Com fé, pac[D]iência_e [G]calma, [C]irradi[D]ando sempre [G]luz."
         ]
       },
       {
@@ -70,19 +40,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     G      D       G                      D ",
-            "lyrics": "Por Cristo, Sumo Pastor, fruímos o grande bem"
-          },
-          {
-            "chords": "    G      C     A7               D             G",
-            "lyrics": "De sermos filhos do bom Deus, que já nos faz provar também"
-          },
-          {
-            "chords": "        D        G      C       D         G",
-            "lyrics": "As celestiais primícias da eternal Jerusalém."
-          }
+        "text": [
+          "Por C[G]risto, [D]Sumo Pas[G]tor, fruímos o grande b[D]em",
+          "De s[G]ermos f[C]ilhos [A7]do bom Deus, que [D]já nos faz pro[G]var também",
+          "As celes[D]tiais pri[G]mícias [C]da etern[D]al Jerusal[G]ém."
         ]
       },
       {

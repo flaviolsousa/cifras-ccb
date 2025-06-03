@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó igreja de Deus, resplandece",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    C                      G",
-            "lyrics": "Ó igreja de Deus, resplandece"
-          },
-          {
-            "chords": "                    C    C7",
-            "lyrics": "E alegra-te de coração,"
-          },
-          {
-            "chords": "     F                 C   ",
-            "lyrics": "Espalhando a semente celeste,"
-          },
-          {
-            "chords": "      G                  C",
-            "lyrics": "Anunciando a veraz salvação."
-          }
+        "text": [
+          "Ó ig[C]reja de Deus, resplande[G]ce",
+          "E alegra-te de coraç[C]ão,[C7]",
+          "Espal[F]hando a semente ce[C]leste,",
+          "Anunci[G]ando a veraz salvaç[C]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C  G   C                               G",
-            "lyrics": "Tu és  a Igreja de Jesus Cristo, o Cordeiro,"
-          },
-          {
-            "chords": "                         C    C7",
-            "lyrics": "Que tem o Seu trono nos céus;"
-          },
-          {
-            "chords": "       F                C  ",
-            "lyrics": "Ele, o Justo, Fiel, Verdadeiro,"
-          },
-          {
-            "chords": "     G                   C",
-            "lyrics": "Te dará as promessas de Deus."
-          }
+        "text": [
+          "[C]Tu [G]és  [C]a Igreja de Jesus Cristo, o Cord[G]eiro,",
+          "Que tem o Seu trono nos c[C]éus;[C7]",
+          "Ele, o [F]Justo, Fiel, Verd[C]adeiro,",
+          "Te da[G]rá as promessas de D[C]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     C                 G",
-            "lyrics": "ès igreja formosa e amada"
-          },
-          {
-            "chords": "                       C    C7",
-            "lyrics": "Por Cristo, o teu Salvador,"
-          },
-          {
-            "chords": "        F                   C",
-            "lyrics": "Que te quer sempre mais adornada"
-          },
-          {
-            "chords": "      G               C",
-            "lyrics": "De justiça e sublime amor."
-          }
+        "text": [
+          "ès ig[C]reja formosa e ama[G]da",
+          "Por Cristo, o teu Salva[C]dor,[C7]",
+          "Que te q[F]uer sempre mais ador[C]nada",
+          "De jus[G]tiça e sublime a[C]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       C                 G",
-            "lyrics": "À gloriosa e celeste cidade"
-          },
-          {
-            "chords": "                      C    C7",
-            "lyrics": "Irás, com Jesus, Salvador;"
-          },
-          {
-            "chords": "       F                     C",
-            "lyrics": "Lá há paz, grande amor, santidade;"
-          },
-          {
-            "chords": "     G              C",
-            "lyrics": "Lá verás o fiel Criador."
-          }
+        "text": [
+          "À glori[C]osa e celeste cida[G]de",
+          "Irás, com Jesus, Salva[C]dor;[C7]",
+          "Lá há p[F]az, grande amor, santi[C]dade;",
+          "Lá ve[G]rás o fiel Cria[C]dor."
         ]
       },
       {

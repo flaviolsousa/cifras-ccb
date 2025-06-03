@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Procuras tu ao Salvador?",
   "tone": {
     "recommended": "G"
@@ -9,103 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "         G",
-            "lyrics": "Procuras tu ao Salvador,"
-          },
-          {
-            "chords": "                   D  G",
-            "lyrics": "Que dá a bem-aventurança?"
-          },
-          {
-            "chords": "         D   G",
-            "lyrics": "Qual é a tua confiança"
-          },
-          {
-            "chords": "        D           G",
-            "lyrics": "Aqui no mundo_enagnador?"
-          },
-          {
-            "chords": "                 D            G           D ",
-            "lyrics": "Em Cristo tens a vida, tens a força e_o favor."
-          },
-          {
-            "chords": "  G",
-            "lyrics": "O santo Redentor"
-          },
-          {
-            "chords": "               D  G",
-            "lyrics": "Será a tua Segurança."
-          }
+        "text": [
+          "Procuras [G]tu ao Salvador,",
+          "Que dá a bem-aventu[D]ran[G]ça?",
+          "Qual é a [D]tua [G]confiança",
+          "Aqui no [D]mundo_enagna[G]dor?",
+          "Em Cristo tens a [D]vida, tens a [G]força e_o fa[D]vor.",
+          "O [G]santo Redentor",
+          "Será a tua Segu[D]ran[G]ça."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         G",
-            "lyrics": "A Cristo vem, sem duvidar,"
-          },
-          {
-            "chords": "                          D  G",
-            "lyrics": "Vem dar os teus primeiros passos;"
-          },
-          {
-            "chords": "        D       G",
-            "lyrics": "Jesus remove_os embaraços,"
-          },
-          {
-            "chords": "         D            G",
-            "lyrics": "Perdão e vida quer te dar,"
-          },
-          {
-            "chords": "                 D             G          D ",
-            "lyrics": "É Cristo Quem te salva, faz de ti um vencedor."
-          },
-          {
-            "chords": "  G",
-            "lyrics": "Deseja,_o Redentor,"
-          },
-          {
-            "chords": "                       D    G",
-            "lyrics": "Manter contigo_eternos la - ços."
-          }
+        "text": [
+          "A Cristo [G]vem, sem duvidar,",
+          "Vem dar os teus primeiros [D]pas[G]sos;",
+          "Jesus re[D]move_os [G]embaraços,",
+          "Perdão e [D]vida quer te [G]dar,",
+          "É Cristo Quem te [D]salva, faz de [G]ti um vence[D]dor.",
+          "De[G]seja,_o Redentor,",
+          "Manter contigo_eternos [D]la - [G]ços."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "          G",
-            "lyrics": "Findano_a peregrinação,"
-          },
-          {
-            "chords": "                     D    G",
-            "lyrics": "Terás com Ele_eterna vi - da;"
-          },
-          {
-            "chords": "       D      G",
-            "lyrics": "Jesus aqui te dá guarida"
-          },
-          {
-            "chords": "        D          G",
-            "lyrics": "E lá no céu o galardão."
-          },
-          {
-            "chords": "                D           G         D ",
-            "lyrics": "É Cristo Fonte_eterna de virtude e de fé."
-          },
-          {
-            "chords": "  G",
-            "lyrics": "Potente Ele é"
-          },
-          {
-            "chords": "                       D    G",
-            "lyrics": "E te socorre_em toda_a li - da."
-          }
+        "text": [
+          "Findano_a [G]peregrinação,",
+          "Terás com Ele_eterna [D]vi - [G]da;",
+          "Jesus a[D]qui te [G]dá guarida",
+          "E lá no [D]céu o galar[G]dão.",
+          "É Cristo Fonte_e[D]terna de vir[G]tude e de [D]fé.",
+          "Po[G]tente Ele é",
+          "E te socorre_em toda_a [D]li - [G]da."
         ]
       }
     ]

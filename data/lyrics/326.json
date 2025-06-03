@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sempre a Cristo fiéis",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "          E                 B7 ",
-            "lyrics": "Sempre_a Cristo fiéis nós seremos,"
-          },
-          {
-            "chords": "                        E",
-            "lyrics": "Sempre firmes devemos lutar;"
-          },
-          {
-            "chords": "               E7      A ",
-            "lyrics": "Pela graça que nós recebemos,"
-          },
-          {
-            "chords": "    B7                    E",
-            "lyrics": "Poderemos bons frutos Lhe dar."
-          }
+        "text": [
+          "Sempre_a C[E]risto fiéis nós se[B7]remos,",
+          "Sempre firmes devemos lu[E]tar;",
+          "Pela graça que [E7]nós rece[A]bemos,",
+          "Pode[B7]remos bons frutos Lhe [E]dar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E                    F#m ",
-            "lyrics": "Sempre fiéis, de valor em valor,"
-          },
-          {
-            "chords": "     B7               E",
-            "lyrics": "Seguiremos o nosso Pastor;"
-          },
-          {
-            "chords": "              E7       A ",
-            "lyrics": "Entraremos no lar glorioso"
-          },
-          {
-            "chords": "    B7               E",
-            "lyrics": "E veremos o nosso Senhor."
-          }
+        "text": [
+          "Sempre [E]fiéis, de valor em va[F#m]lor,",
+          "Segui[B7]remos o nosso Pas[E]tor;",
+          "Entraremos no [E7]lar glori[A]oso",
+          "E ve[B7]remos o nosso Sen[E]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E                     B7 ",
-            "lyrics": "Vestiremos, de Deus, a_armadura"
-          },
-          {
-            "chords": "                           E",
-            "lyrics": "Para_o nosso_inimigo_enfrentar;"
-          },
-          {
-            "chords": "             E7            A ",
-            "lyrics": "A Palavra de Deus, santa_e pura,"
-          },
-          {
-            "chords": "    B7                  E",
-            "lyrics": "Nos fará a vitória_alcançar."
-          }
+        "text": [
+          "Vesti[E]remos, de Deus, a_arma[B7]dura",
+          "Para_o nosso_inimigo_enfren[E]tar;",
+          "A Palavra de [E7]Deus, santa_e [A]pura,",
+          "Nos [B7]fará a vitória_alcan[E]çar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     E               B7 ",
-            "lyrics": "Finalmente diremos, unidos:"
-          },
-          {
-            "chords": "                         E",
-            "lyrics": "\"Combatemos, guardamos a fé\";"
-          },
-          {
-            "chords": "               E7       A ",
-            "lyrics": "Na presença de Deus, reunidos,"
-          },
-          {
-            "chords": "    B7                 E",
-            "lyrics": "O veremos tal como_Ele é."
-          }
+        "text": [
+          "Final[E]mente diremos, u[B7]nidos:",
+          "\"Combatemos, guardamos a [E]fé\";",
+          "Na presença de [E7]Deus, reu[A]nidos,",
+          "O ve[B7]remos tal como_Ele [E]é."
         ]
       },
       {

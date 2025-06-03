@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu Espírito derrama",
   "tone": {
     "recommended": "F"
@@ -9,58 +9,28 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Teu Espírito derrama"
-          },
-          {
-            "chords": "      C              F",
-            "lyrics": "Sobre Teus fiéis, Senhor,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Que, humildes e contritos,"
-          },
-          {
-            "chords": "       C        F",
-            "lyrics": "Buscam o Consolador."
-          }
+        "text": [
+          "Teu Es[F]pírito derrama",
+          "Sobre [C]Teus fiéis, Sen[F]hor,",
+          "Que, humildes e contritos,",
+          "Buscam [C]o Consola[F]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F                           C          F",
-            "lyrics": "Vem com Teu Poder, Senhor, Teu povo fortificar;"
-          },
-          {
-            "chords": "                           C           F",
-            "lyrics": "Com o bom Consolador, vem, oh! vem batizar."
-          }
+        "text": [
+          "[F]Vem com Teu Poder, Senhor, T[C]eu povo for[F]tificar;",
+          "Com o bom Consolador, vem, [C]oh! vem bati[F]zar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Teu Espírito derrama,"
-          },
-          {
-            "chords": "     C                F",
-            "lyrics": "A promessa cumpre,_ó Deus,"
-          },
-          {
-            "chords": "",
-            "lyrics": "Enviando aos Teu filhos"
-          },
-          {
-            "chords": "      C             F",
-            "lyrics": "As virtudes lá dos céus."
-          }
+        "text": [
+          "Teu Es[F]pírito derrama,",
+          "A pro[C]messa cumpre,_ó D[F]eus,",
+          "Enviando aos Teu filhos",
+          "As vir[C]tudes lá dos c[F]éus."
         ]
       },
       {
@@ -70,23 +40,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      F",
-            "lyrics": "Teu Espírito derrama,"
-          },
-          {
-            "chords": "     C             F",
-            "lyrics": "Revestindo-nos de_amor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Dos Teus dons maravilhosos,"
-          },
-          {
-            "chords": "     C            F",
-            "lyrics": "Enriquece-nos, Senhor."
-          }
+        "text": [
+          "Teu Es[F]pírito derrama,",
+          "Reves[C]tindo-nos de_a[F]mor;",
+          "Dos Teus dons maravilhosos,",
+          "Enriq[C]uece-nos, Sen[F]hor."
         ]
       },
       {

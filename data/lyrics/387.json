@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Salvador, que recebeste poder",
   "tone": {
     "recommended": "D"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D  G  A7  D    G   B  Em   A   D",
-            "lyrics": "Ó  Salva -dor, que de Deus recebeste"
-          },
-          {
-            "chords": "Bm  A    E7  A   E7  F#7   Bm  E7      A    A7",
-            "lyrics": "To -do_o po -der so -bre_a ter-ra e_os céus,"
-          },
-          {
-            "chords": "D   A7  D  G     B  Em  A    G  D",
-            "lyrics": "Vem au -mentar a virtu -de celeste"
-          },
-          {
-            "chords": "Bm  A  G   D    G  B  Em  A7     D",
-            "lyrics": "Nes-te meu ser, pa-ra gló-ria de Deus."
-          }
+        "text": [
+          "[D]Ó  [G]Sal[A7]va -[D]dor, [G]que [B]de [Em]Deus [A]rece[D]beste",
+          "[Bm]To -[A]do_o [E7]po -[A]der [E7]so -[F#7]bre_a [Bm]ter-[E7]ra e_os [A]céus,[A7]",
+          "[D]Vem [A7]au -[D]men[G]tar a [B]vir[Em]tu -[A]de ce[G]les[D]te",
+          "[Bm]Nes-[A]te [G]meu [D]ser, [G]pa-[B]ra [Em]gló-[A7]ria de [D]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D  G  A7  D    G   B  Em  A    D",
-            "lyrics": "Ó  Re-den-tor, que a -briste a porta"
-          },
-          {
-            "chords": "Bm  A  E7  A  E7  F#7  Bm  E7    A    A7",
-            "lyrics": "Do  santu -á -rio e  - ter-no de Deus,"
-          },
-          {
-            "chords": "D  A7  D   G     B  Em  A      G  D",
-            "lyrics": "Dá ao  Teu servo a  paz que conforta,"
-          },
-          {
-            "chords": "Bm  A  G  D  G  B  Em  A7     D",
-            "lyrics": "Que prome-teste a  to -dos os Teus."
-          }
+        "text": [
+          "[D]Ó  [G]Re-[A7]den-[D]tor, [G]que [B]a -[Em]bris[A]te a [D]porta",
+          "[Bm]Do  [A]san[E7]tu -[A]á -[E7]rio [F#7]e  - [Bm]ter-[E7]no de [A]Deus,[A7]",
+          "[D]Dá [A7]ao  [D]Teu [G]servo [B]a  [Em]paz [A]que con[G]for[D]ta,",
+          "[Bm]Que [A]pro[G]me-[D]tes[G]te [B]a  [Em]to -[A7]dos os [D]Teus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D  G   A7  D     G  B  Em  A    D",
-            "lyrics": "Fi-lho de  Deus, Tu vences-te a morte"
-          },
-          {
-            "chords": "Bm  A  E7   A   E7  F#7  Bm  E7     A    A7",
-            "lyrics": "E   vi-vo_estás pa -ra   sem-pre, Senhor;"
-          },
-          {
-            "chords": "D  A7  D  G    B  Em  A    G  D",
-            "lyrics": "De Ti  es-pero também esta sorte:"
-          },
-          {
-            "chords": "Bm  A  G  D   G  B    Em  A7     D",
-            "lyrics": "Res-susci-tar pa-ra_o rei-no de_amor."
-          }
+        "text": [
+          "[D]Fi-[G]lho [A7]de  [D]Deus, [G]Tu [B]ven[Em]ces-[A]te a [D]morte",
+          "[Bm]E   [A]vi-[E7]vo_es[A]tás [E7]pa -[F#7]ra   [Bm]sem-[E7]pre, Se[A]nhor;[A7]",
+          "[D]De [A7]Ti  [D]es-[G]pero [B]tam[Em]bém [A]esta [G]sor[D]te:",
+          "[Bm]Res-[A]sus[G]ci-[D]tar [G]pa-[B]ra_o [Em]rei-[A7]no de_a[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "D  G    A7  D   G  B  Em  A       D",
-            "lyrics": "No transcor-rer desta mi -nha_existência,"
-          },
-          {
-            "chords": "Bm  A  E7  A   E7  F#7  Bm  E7   A    A7",
-            "lyrics": "Que-ro hon-rar-Te, ó    meu Redentor;"
-          },
-          {
-            "chords": "D  A7  D  G   B  Em  A     G  D",
-            "lyrics": "Quero  um dia es-tar na presença"
-          },
-          {
-            "chords": "Bm  A   G  D    G  B  Em  A7  D",
-            "lyrics": "Do  grande Deus e  fi-el  Criador."
-          }
+        "text": [
+          "[D]No [G]trans[A7]cor-[D]rer [G]des[B]ta [Em]mi -[A]nha_exis[D]tência,",
+          "[Bm]Que-[A]ro [E7]hon-[A]rar-[E7]Te, [F#7]ó    [Bm]meu [E7]Reden[A]tor;[A7]",
+          "[D]Que[A7]ro  [D]um [G]dia [B]es-[Em]tar [A]na pre[G]sen[D]ça",
+          "[Bm]Do  [A]gran[G]de [D]Deus [G]e  [B]fi-[Em]el  [A7]Cria[D]dor."
         ]
       }
     ]

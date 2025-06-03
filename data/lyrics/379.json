@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Grande festa haverá nos céus",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        A  E             A",
-            "lyrics": "Perto_está o porto da salvação,"
-          },
-          {
-            "chords": "        D            A",
-            "lyrics": "Perto_está o lar eternal;"
-          },
-          {
-            "chords": "        E                    A",
-            "lyrics": "Brevemente_os filhos de Deus verão"
-          },
-          {
-            "chords": "    D    E    A",
-            "lyrics": "A Sião celestial."
-          }
+        "text": [
+          "Perto_es[A]tá [E]o porto da sal[A]vação,",
+          "Perto_es[D]tá o lar eter[A]nal;",
+          "Brevemen[E]te_os filhos de Deus [A]verão",
+          "A Si[D]ão ce[E]lesti[A]al."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        A    D           A",
-            "lyrics": "Grande festa haverá nos céus"
-          },
-          {
-            "chords": "        D            E  ",
-            "lyrics": "Para_os santos do Senhor;"
-          },
-          {
-            "chords": "    A             D              D... ",
-            "lyrics": "Aleluia! Glória, glória_ao nosso Deus!"
-          },
-          {
-            "chords": "          A      E    A",
-            "lyrics": "Quanto_é grande Seu favor!"
-          }
+        "text": [
+          "Grande f[A]esta [D]haverá nos c[A]éus",
+          "Para_os [D]santos do Sen[E]hor;",
+          "Alel[A]uia! Glória, g[D]lória_ao nosso [D...]Deus!",
+          "Quanto_é g[A]rande S[E]eu fa[A]vor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         A    E                A",
-            "lyrics": "Sobre_as á - guas Cristo Jesus virá,"
-          },
-          {
-            "chords": "         D             A",
-            "lyrics": "Quando_o mar se embravecer;"
-          },
-          {
-            "chords": "        E            A",
-            "lyrics": "O furor do vento aplacará"
-          },
-          {
-            "chords": "      D     E     A",
-            "lyrics": "Pelo_imenso Seu poder."
-          }
+        "text": [
+          "Sobre_as [A]á - g[E]uas Cristo Jesus [A]virá,",
+          "Quando_o [D]mar se embrave[A]cer;",
+          "O furor [E]do vento apla[A]cará",
+          "Pelo_i[D]menso [E]Seu po[A]der."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        A   E             A",
-            "lyrics": "Cristo, no Seu reino, exaltará"
-          },
-          {
-            "chords": "       D              A",
-            "lyrics": "Quem viver com fé e valor;"
-          },
-          {
-            "chords": "         E              A",
-            "lyrics": "E com glória_eterna coroará"
-          },
-          {
-            "chords": "    D    E    A",
-            "lyrics": "O fiel e vencedor."
-          }
+        "text": [
+          "Cristo, [A]no S[E]eu reino, exal[A]tará",
+          "Quem vi[D]ver com fé e va[A]lor;",
+          "E com gló[E]ria_eterna coro[A]ará",
+          "O fi[D]el e [E]vence[A]dor."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Por fé, recebe o grande Mestre",
   "tone": {
     "recommended": "A"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A                       D       E ",
-            "lyrics": "Na porta do teu coração, batendo_está o Redentor,"
-          },
-          {
-            "chords": "                                       A     D   A",
-            "lyrics": "Jesus, Autor da salvação, que traz perdão ao pecador."
-          }
+        "text": [
+          "Na [A]porta do teu coração, ba[D]tendo_es[E]tá o Redentor,",
+          "Jesus, Autor da salvação, que traz perd[A]ão ao [D]peca[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    F#m                 C# ",
-            "lyrics": "Por fé, recebe_o grande Mestre"
-          },
-          {
-            "chords": "    F#m          D   A",
-            "lyrics": "Que para Deus te levará."
-          },
-          {
-            "chords": "                   D  ",
-            "lyrics": "O Dom precioso e celeste"
-          },
-          {
-            "chords": "      A    E    A",
-            "lyrics": "A tua alma provará."
-          }
+        "text": [
+          "Por [F#m]fé, recebe_o grande [C#]Mestre",
+          "Que [F#m]para Deus te [D]leva[A]rá.",
+          "O Dom precioso e ce[D]leste",
+          "A tua [A]alma [E]prova[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A                     D     E ",
-            "lyrics": "Em vão batendo não está Aquele que morreu na cruz;"
-          },
-          {
-            "chords": "                                    A     D   A",
-            "lyrics": "Teu coração pulsando_está? Depressa abre, é Jesus."
-          }
+        "text": [
+          "Em [A]vão batendo não está A[D]quele [E]que morreu na cruz;",
+          "Teu coração pulsando_está? Depressa [A]abre, [D]é Je[A]sus."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A                         D         E ",
-            "lyrics": "A paz, a vida, o amor, por Cristo,_em ti habitarão;"
-          },
-          {
-            "chords": "                                 A     D     A",
-            "lyrics": "Por ti morreu o Remidor, para te dar a salvação."
-          }
+        "text": [
+          "A [A]paz, a vida, o amor, por C[D]risto,_em [E]ti habitarão;",
+          "Por ti morreu o Remidor, para te [A]dar a [D]salvaç[A]ão."
         ]
       },
       {

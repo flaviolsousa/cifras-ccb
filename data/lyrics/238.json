@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Teu servo ouve; fala, Senhor",
   "tone": {
     "recommended": "D"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       D             A ",
-            "lyrics": "Para ouvir-Te, ó Criador,"
-          },
-          {
-            "chords": "       A7              D",
-            "lyrics": "Me apresento diante de Ti;"
-          },
-          {
-            "chords": "            D7        G ",
-            "lyrics": "Tua Palavra manda, Senhor;"
-          },
-          {
-            "chords": "       D      A       D",
-            "lyrics": "Para ouvi-La, eis-me aqui."
-          }
+        "text": [
+          "Para ou[D]vir-Te, ó Cria[A]dor,",
+          "Me apre[A7]sento diante de [D]Ti;",
+          "Tua Palavra [D7]manda, Sen[G]hor;",
+          "Para ou[D]vi-La, [A]eis-me a[D]qui."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         D            A ",
-            "lyrics": "Ao meu desejo renunciarei"
-          },
-          {
-            "chords": "        A7              D",
-            "lyrics": "Para servir-Te e Te_agradar;"
-          },
-          {
-            "chords": "               D7     G ",
-            "lyrics": "E os preceitos da Tua lei"
-          },
-          {
-            "chords": "          D      A    D",
-            "lyrics": "Quero, contente, executar."
-          }
+        "text": [
+          "Ao meu de[D]sejo renuncia[A]rei",
+          "Para ser[A7]vir-Te e Te_agra[D]dar;",
+          "E os preceitos [D7]da Tua [G]lei",
+          "Quero, con[D]tente, [A]execu[D]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "         D               A ",
-            "lyrics": "Serve-Te deste meu fraco ser"
-          },
-          {
-            "chords": "           A7              D",
-            "lyrics": "Como_instrumento ao Teu louvor;"
-          },
-          {
-            "chords": "                D7      G ",
-            "lyrics": "E, Te servindo, quero dizer:"
-          },
-          {
-            "chords": "       D     A         D",
-            "lyrics": "“Sevo inútil sou, ó Senhor.”"
-          }
+        "text": [
+          "Serve-Te [D]deste meu fraco [A]ser",
+          "Como_instru[A7]mento ao Teu lou[D]vor;",
+          "E, Te servindo, [D7]quero di[G]zer:",
+          "“Sevo i[D]nútil [A]sou, ó Sen[D]hor.”"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "          D              A ",
-            "lyrics": "Teu servo ouve; fala, Senhor,"
-          },
-          {
-            "chords": "      A7               D",
-            "lyrics": "O que requeres de mim, ó Deus?"
-          },
-          {
-            "chords": "              D7          G ",
-            "lyrics": "A voz divina, que vem dos céus,"
-          },
-          {
-            "chords": "          D     A        D",
-            "lyrics": "Teu servo ouve; fala, Senhor."
-          }
+        "text": [
+          "Teu servo [D]ouve; fala, Sen[A]hor,",
+          "O que [A7]requeres de mim, [D]ó Deus?",
+          "A voz divina, [D7]que vem dos [G]céus,",
+          "Teu servo [D]ouve; [A]fala, Sen[D]hor."
         ]
       }
     ]

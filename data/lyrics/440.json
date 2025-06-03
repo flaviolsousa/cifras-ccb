@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Lembra-te do teu Criador!",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                   Am ",
-            "lyrics": "Nos dias da tua peregrinação,"
-          },
-          {
-            "chords": "D7                         G",
-            "lyrics": "Usa_o tempo servindo_ao Senhor"
-          },
-          {
-            "chords": "                       Am ",
-            "lyrics": "E, com alegria, cumpre a missão;"
-          },
-          {
-            "chords": "D7                G",
-            "lyrics": "Lembra-te do Criador!"
-          }
+        "text": [
+          "[G]Nos dias da tua pere[Am]grinação,",
+          "[D7]Usa_o tempo servindo_ao Sen[G]hor",
+          "E, com alegria, cumpre [Am]a missão;",
+          "[D7]Lembra-te do Criad[G]or!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        G      E7           A7 ",
-            "lyrics": "Debaixo do sol    tudo_é vaidade,"
-          },
-          {
-            "chords": "          D7           G  ",
-            "lyrics": "Recorre_a Deus, o Formador;"
-          },
-          {
-            "chords": "                E7        A7 ",
-            "lyrics": "Nos breves dias    da mocidade,"
-          },
-          {
-            "chords": "         D7           G",
-            "lyrics": "Não te esqueças do Senhor!"
-          }
+        "text": [
+          "Debaixo [G]do sol [E7]   tudo_é vai[A7]dade,",
+          "Recorre_a [D7]Deus, o Forma[G]dor;",
+          "Nos breves dias [E7]   da moci[A7]dade,",
+          "Não te es[D7]queças do Sen[G]hor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                     Am ",
-            "lyrics": "Os preditos dias logo hão de vir,"
-          },
-          {
-            "chords": "D7                          G",
-            "lyrics": "Serve, pois, a Deus, o Formador;"
-          },
-          {
-            "chords": "                         Am ",
-            "lyrics": "“Vinde, ó benditos”, tu irás ouvir"
-          },
-          {
-            "chords": "D7                 G",
-            "lyrics": "De Jesus, teu Redentor."
-          }
+        "text": [
+          "[G]Os preditos dias logo [Am]hão de vir,",
+          "[D7]Serve, pois, a Deus, o Forma[G]dor;",
+          "“Vinde, ó benditos”, tu i[Am]rás ouvir",
+          "[D7]De Jesus, teu Reden[G]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                         Am ",
-            "lyrics": "Mesmo tendo, neste mundo, muitos bens"
-          },
-          {
-            "chords": "D7                  G",
-            "lyrics": "E a vida cheia de vigor,"
-          },
-          {
-            "chords": "                          Am ",
-            "lyrics": "É maior a_herança que, na glória, tens"
-          },
-          {
-            "chords": "D7              G",
-            "lyrics": "Com o santo Criador."
-          }
+        "text": [
+          "[G]Mesmo tendo, neste mundo, [Am]muitos bens",
+          "[D7]E a vida cheia de vi[G]gor,",
+          "É maior a_herança que, na [Am]glória, tens",
+          "[D7]Com o santo Cria[G]dor."
         ]
       },
       {

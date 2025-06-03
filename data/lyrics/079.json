@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Bom é estarmos nós aqui",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        E                     A         E",
-            "lyrics": "Bom é_estarmos nós aqui na presença de Deus,"
-          },
-          {
-            "chords": "                        F#7        B7 ",
-            "lyrics": "Recebendo conselhos que vêm lá dos céus;"
-          },
-          {
-            "chords": "    E                         A        E",
-            "lyrics": "Meditando no Senhor, que nos quer para Si,"
-          },
-          {
-            "chords": "      A         E    E...         B7          E",
-            "lyrics": "Todos juntos cante - mos: bom é_estarmos nós aqui."
-          }
+        "text": [
+          "Bom é_es[E]tarmos nós aqui na pre[A]sença de D[E]eus,",
+          "Recebendo conselhos que [F#7]vêm lá dos [B7]céus;",
+          "Medi[E]tando no Senhor, que nos q[A]uer para [E]Si,",
+          "Todos [A]juntos can[E]te - [E...]mos: bom é_es[B7]tarmos nós a[E]qui."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      B7    E",
-            "lyrics": "Entre nós está"
-          },
-          {
-            "chords": "         A         E",
-            "lyrics": "Quem nos quer para Si."
-          },
-          {
-            "chords": "    A         E    E...",
-            "lyrics": "Jubilosos, cante - mos:"
-          },
-          {
-            "chords": "        B7          E",
-            "lyrics": "Bom é_estarmos nós aqui."
-          }
+        "text": [
+          "Entre [B7]nós es[E]tá",
+          "Quem nos [A]quer para [E]Si.",
+          "Jubi[A]losos, can[E]te - [E...]mos:",
+          "Bom é_es[B7]tarmos nós a[E]qui."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        E                   A       E",
-            "lyrics": "Bom é_estarmos nós aqui entoando louvor,"
-          },
-          {
-            "chords": "                           F#7         B7 ",
-            "lyrics": "Desfrutando, por graça, as bênçãos de_amor;"
-          },
-          {
-            "chords": "     E                    A        E",
-            "lyrics": "Cada um de nós dirá: do Senhor recebi"
-          },
-          {
-            "chords": "     A          E     E...         B7          E",
-            "lyrics": "Suas bênçãos glorio - sas: bom é_estarmos nós aqui."
-          }
+        "text": [
+          "Bom é_es[E]tarmos nós aqui ento[A]ando lou[E]vor,",
+          "Desfrutando, por graça, as [F#7]bênçãos de_a[B7]mor;",
+          "Cada [E]um de nós dirá: do Se[A]nhor rece[E]bi",
+          "Suas [A]bênçãos glo[E]rio - [E...]sas: bom é_es[B7]tarmos nós a[E]qui."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        E                   A           E",
-            "lyrics": "Bom é_estarmos nós aqui invocando_ao Senhor,"
-          },
-          {
-            "chords": "                    F#7        B7 ",
-            "lyrics": "Elevando a nossa_oração com fervor;"
-          },
-          {
-            "chords": "      E                        A         E",
-            "lyrics": "Breve vamos para_o céu, para_o reino de luz,"
-          },
-          {
-            "chords": "        A       E    E...         B7         E",
-            "lyrics": "Grande glória tere - mos, vendo_a Deus e a Jesus."
-          }
+        "text": [
+          "Bom é_es[E]tarmos nós aqui invo[A]cando_ao Sen[E]hor,",
+          "Elevando a nossa_ora[F#7]ção com fer[B7]vor;",
+          "Breve [E]vamos para_o céu, para_o [A]reino de l[E]uz,",
+          "Grande g[A]lória te[E]re - [E...]mos, vendo_a [B7]Deus e a Je[E]sus."
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo me ama",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Sou amado por Jesus,"
-          },
-          {
-            "chords": "A           E",
-            "lyrics": "A Palavra_assim me diz;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele é a minha Luz"
-          },
-          {
-            "chords": "A    E       B7    E",
-            "lyrics": "E me leva_ao Seu país."
-          }
+        "text": [
+          "S[E]ou amado por Jesus,",
+          "[A]A Palavra_as[E]sim me diz;",
+          "Ele é a minha Luz",
+          "[A]E me [E]leva_ao [B7]Seu pa[E]ís."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E         A",
-            "lyrics": "Cristo me ama,"
-          },
-          {
-            "chords": "E          B7",
-            "lyrics": "Sei que me ama,"
-          },
-          {
-            "chords": "E        A...",
-            "lyrics": "Muito me ama,"
-          },
-          {
-            "chords": "   E      B7    E    E...",
-            "lyrics": "Em Cristo sou feliz."
-          }
+        "text": [
+          "[E]Cristo me [A]ama,",
+          "[E]Sei que me [B7]ama,",
+          "[E]Muito me [A...]ama,",
+          "Em [E]Cristo [B7]sou fe[E]liz.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Sou amado por Jesus,"
-          },
-          {
-            "chords": " A                 E",
-            "lyrics": "Pois, por mim, na cruz morreu;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Ele_agora me conduz"
-          },
-          {
-            "chords": "A       E      B7    E",
-            "lyrics": "Para_o lar que prometeu."
-          }
+        "text": [
+          "S[E]ou amado por Jesus,",
+          "P[A]ois, por mim, na c[E]ruz morreu;",
+          "Ele_agora me conduz",
+          "[A]Para_o l[E]ar que [B7]promet[E]eu."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Sou amado por Jesus,"
-          },
-          {
-            "chords": " A          E",
-            "lyrics": "Pois comigo sempre_está;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Seu conselho_em mim produz"
-          },
-          {
-            "chords": "A       E     B7   E",
-            "lyrics": "Força, que me susterá."
-          }
+        "text": [
+          "S[E]ou amado por Jesus,",
+          "P[A]ois comigo [E]sempre_está;",
+          "Seu conselho_em mim produz",
+          "[A]Força, q[E]ue me [B7]suste[E]rá."
         ]
       },
       {

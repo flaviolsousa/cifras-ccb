@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus Cristo, fiel Cordeiro",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      E               B7",
-            "lyrics": "Jesus Cristo, fiel Cordeiro,"
-          },
-          {
-            "chords": "                     E",
-            "lyrics": "Por amor, desceu do céu;"
-          },
-          {
-            "chords": "                   B7",
-            "lyrics": "Santo, Puro e Verdadeiro,"
-          },
-          {
-            "chords": "                      E    E...",
-            "lyrics": "Para nos resgatar, morreu."
-          }
+        "text": [
+          "Jesus [E]Cristo, fiel Cor[B7]deiro,",
+          "Por amor, desceu do c[E]éu;",
+          "Santo, Puro e Verda[B7]deiro,",
+          "Para nos resgatar, mor[E]reu.[E...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    E               B7",
-            "lyrics": "Humilhou-Se assim Jesus,"
-          },
-          {
-            "chords": "                       E",
-            "lyrics": "Vitupério, por nós, sofreu;"
-          },
-          {
-            "chords": "               E7    A    E...",
-            "lyrics": "Pelos nossos pecados padeceu;"
-          },
-          {
-            "chords": "      E        B7        E",
-            "lyrics": "Vida, ao ressurgir, nos deu."
-          }
+        "text": [
+          "Humi[E]lhou-Se assim Je[B7]sus,",
+          "Vitupério, por nós, sof[E]reu;",
+          "Pelos nossos pe[E7]cados [A]padec[E...]eu;",
+          "Vida, [E]ao ressur[B7]gir, nos d[E]eu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      E               B7",
-            "lyrics": "Jesus Cristo, fiel Cordeiro,"
-          },
-          {
-            "chords": "                     E",
-            "lyrics": "Padeceu na cruz por nós;"
-          },
-          {
-            "chords": "                     B7",
-            "lyrics": "Maldição se fez no madeiro,"
-          },
-          {
-            "chords": "                      E    E...",
-            "lyrics": "Onde teve_uma morte_atroz."
-          }
+        "text": [
+          "Jesus [E]Cristo, fiel Cor[B7]deiro,",
+          "Padeceu na cruz por n[E]ós;",
+          "Maldição se fez no ma[B7]deiro,",
+          "Onde teve_uma morte_at[E]roz.[E...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      E               B7",
-            "lyrics": "Jesus Cristo, fiel Cordeiro,"
-          },
-          {
-            "chords": "                    E",
-            "lyrics": "Sobre_a morte triunfou;"
-          },
-          {
-            "chords": "                 B7",
-            "lyrics": "Unigênito_e Verdadeiro,"
-          },
-          {
-            "chords": "                       E    E...",
-            "lyrics": "O poder, Deus Lhe outorgou."
-          }
+        "text": [
+          "Jesus [E]Cristo, fiel Cor[B7]deiro,",
+          "Sobre_a morte triunf[E]ou;",
+          "Unigênito_e Verda[B7]deiro,",
+          "O poder, Deus Lhe outor[E]gou.[E...]"
         ]
       },
       {

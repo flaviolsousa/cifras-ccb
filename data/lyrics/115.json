@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Minha alma engrandece...",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                C                G                     D ",
-            "lyrics": "Minha alma_engrandece_ao meu Salvador, que para mim atentou;"
-          },
-          {
-            "chords": "G            C               G                   D    G",
-            "lyrics": "Meu espírito sente_o grande amor de Deus, que me perdoou."
-          },
-          {
-            "chords": "         D                G                       D ",
-            "lyrics": "Redimida por Seu grande favor, minha alma louva a Deus."
-          },
-          {
-            "chords": "G                 C             G              D     G",
-            "lyrics": "Com Seu sangue precioso, o Redentor pagou os pecados meus."
-          }
+        "text": [
+          "[G]Minha alma_engran[C]dece_ao meu Salva[G]dor, que para mim aten[D]tou;",
+          "[G]Meu espírito [C]sente_o grande a[G]mor de Deus, que me [D]perdo[G]ou.",
+          "Redimida [D]por Seu grande fa[G]vor, minha alma louva a [D]Deus.",
+          "[G]Com Seu sangue pre[C]cioso, o Reden[G]tor pagou os pe[D]cados [G]meus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                C             G                     D  ",
-            "lyrics": "Sorte entre_os remidos me concedeu Jesus, o meu Salvador;"
-          },
-          {
-            "chords": "G             C            G                 D     G ",
-            "lyrics": "Deu-me a liberdade para servir a Deus com sincero_amor;"
-          },
-          {
-            "chords": "             D             G                      D ",
-            "lyrics": "Cristo converteu o meu coração com o Seu eterno poder"
-          },
-          {
-            "chords": "G              C               G             D     G ",
-            "lyrics": "E as trevas do mal também dissipou; agora eu posso ver."
-          }
+        "text": [
+          "[G]Sorte entre_os re[C]midos me conce[G]deu Jesus, o meu Salva[D]dor;",
+          "[G]Deu-me a liber[C]dade para ser[G]vir a Deus com sin[D]cero_a[G]mor;",
+          "Cristo conver[D]teu o meu cora[G]ção com o Seu eterno po[D]der",
+          "[G]E as trevas do [C]mal também dissi[G]pou; agora eu [D]posso [G]ver."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G             C               G                         D  ",
-            "lyrics": "Pela luz da Palavra sinto_o Senhor que, com amor, me conduz;"
-          },
-          {
-            "chords": "G            C               G             D      G ",
-            "lyrics": "Forças receberei, virtude, saber e fé no Senhor Jesus;"
-          },
-          {
-            "chords": "           D              G                      D ",
-            "lyrics": "Finalmente entrarei lá no céu para ver a face de Deus;"
-          },
-          {
-            "chords": "G             C              G                 D       G",
-            "lyrics": "Oh! Que felicidade Cristo me deu, pois vou habitar nos céus."
-          }
+        "text": [
+          "[G]Pela luz da Pa[C]lavra sinto_o Se[G]nhor que, com amor, me con[D]duz;",
+          "[G]Forças recebe[C]rei, virtude, sa[G]ber e fé no Se[D]nhor Je[G]sus;",
+          "Finalmente [D]entrarei lá no [G]céu para ver a face de [D]Deus;",
+          "[G]Oh! Que felici[C]dade Cristo me [G]deu, pois vou habi[D]tar nos [G]céus."
         ]
       }
     ]

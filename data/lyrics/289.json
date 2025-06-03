@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Avante, sempre avante",
   "tone": {
     "recommended": "E"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Avante, sempre_avante, vamos todos anunciar"
-          },
-          {
-            "chords": "  A         E       F#        B7 ",
-            "lyrics": "O santo Evangelho e n´Ele caminhar."
-          }
+        "text": [
+          "A[E]vante, sempre_avante, vamos todos anunciar",
+          "O [A]santo Evan[E]gelho e [F#]n´Ele cami[B7]nhar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E         B7 ",
-            "lyrics": "A vitória Cristo nos dará,"
-          },
-          {
-            "chords": "           E",
-            "lyrics": "Sua glória nos concederá;"
-          },
-          {
-            "chords": "                 B7  ",
-            "lyrics": "Pela fé seguimos nosso Redentor;"
-          },
-          {
-            "chords": "E                      B7   E",
-            "lyrics": "A vitória nos dará por Seu amor."
-          }
+        "text": [
+          "[E]A vitória [B7]Cristo nos dará,",
+          "Sua glória [E]nos concederá;",
+          "Pela fé seguimos [B7]nosso Redentor;",
+          "[E]A vitória nos dará por [B7]Seu a[E]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Avante, não neguemos nosso_amado Salvador;"
-          },
-          {
-            "chords": "    A        E        F#           B7 ",
-            "lyrics": "Com Ele venceremos, lutemos com fervor."
-          }
+        "text": [
+          "A[E]vante, não neguemos nosso_amado Salvador;",
+          "Com [A]Ele vence[E]remos, lu[F#]temos com fer[B7]vor."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " E",
-            "lyrics": "Avante, confiantes, sem jamais retroceder,"
-          },
-          {
-            "chords": "  A         E      F#        B7 ",
-            "lyrics": "A bem-aventurança iremos receber."
-          }
+        "text": [
+          "A[E]vante, confiantes, sem jamais retroceder,",
+          "A [A]bem-aventu[E]rança i[F#]remos rece[B7]ber."
         ]
       },
       {

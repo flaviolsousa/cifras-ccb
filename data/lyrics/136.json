@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Benignidade eterna é a de Deus",
   "tone": {
     "recommended": "D"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "D            A7                     D",
-            "lyrics": "Benignidade eterna é a de Deus, Criador,"
-          },
-          {
-            "chords": "                    A     E7                   A ",
-            "lyrics": "Que escreveu nossos nomes no céu, a pátria de_amor;"
-          },
-          {
-            "chords": "D              A7     D       A7         D",
-            "lyrics": "Regozijemo-nos de coração, cantemos-Lhe glória;"
-          },
-          {
-            "chords": "                     A7         D     A7      D",
-            "lyrics": "Ele, por Seu grande_amor, nos dará completa vitória."
-          }
+        "text": [
+          "[D]Benignidade e[A7]terna é a de Deus, Cria[D]dor,",
+          "Que escreveu nossos [A]nomes [E7]no céu, a pátria de_a[A]mor;",
+          "[D]Regozijemo-nos [A7]de cora[D]ção, can[A7]temos-Lhe g[D]lória;",
+          "Ele, por Seu grande_a[A7]mor, nos da[D]rá com[A7]pleta vi[D]tória."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "D                A7                       D",
-            "lyrics": "Que grande felicidade nos preparou o bom Deus!"
-          },
-          {
-            "chords": "                   A   E7               A ",
-            "lyrics": "Pois moraremos com Ele eternamente nos céus."
-          },
-          {
-            "chords": "D            A7       D        A7        D",
-            "lyrics": "A Sua face veremos, então. Que grande ventura!"
-          },
-          {
-            "chords": "                   A7     D       A7       D",
-            "lyrics": "Todos os santos se deleitarão com tal formosura."
-          }
+        "text": [
+          "[D]Que grande felici[A7]dade nos preparou o bom D[D]eus!",
+          "Pois moraremos com [A]Ele [E7]eternamente nos c[A]éus.",
+          "[D]A Sua face ve[A7]remos, en[D]tão. Que [A7]grande ven[D]tura!",
+          "Todos os santos se [A7]deleita[D]rão com [A7]tal formo[D]sura."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D              A7                         D",
-            "lyrics": "Na esperança vivemos, sempre pensando em Deus,"
-          },
-          {
-            "chords": "             A    E7                  A ",
-            "lyrics": "Obedecendo a tudo o que nos fala dos céus;"
-          },
-          {
-            "chords": "D                 A7        D          A7     D",
-            "lyrics": "Suas promessas se hão de cumprir; Deus é verdadeiro;"
-          },
-          {
-            "chords": "                    A7        D    A7        D",
-            "lyrics": "No tempo certo, dos céus voltará Jesus, o Cordeiro."
-          }
+        "text": [
+          "[D]Na esperança vi[A7]vemos, sempre pensando em D[D]eus,",
+          "Obedecendo a [A]tudo [E7]o que nos fala dos c[A]éus;",
+          "[D]Suas promessas se [A7]hão de cum[D]prir; Deus [A7]é verda[D]deiro;",
+          "No tempo certo, dos [A7]céus volta[D]rá Je[A7]sus, o Cor[D]deiro."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "D                 A7                            D",
-            "lyrics": "Por Sua grande bondade, Deus, nosso Pai, nos chamou;"
-          },
-          {
-            "chords": "             A     E7              A ",
-            "lyrics": "Para a vida eterna Ele nos predestinou;"
-          },
-          {
-            "chords": "D              A7      D       A7   D",
-            "lyrics": "Seja bendito o Nome de Deus, o Onipotente;"
-          },
-          {
-            "chords": "                 A7       D     A7       D",
-            "lyrics": "Nome que é, para todo_o fiel, socorro presente."
-          }
+        "text": [
+          "[D]Por Sua grande bon[A7]dade, Deus, nosso Pai, nos cha[D]mou;",
+          "Para a vida e[A]terna [E7]Ele nos predesti[A]nou;",
+          "[D]Seja bendito o [A7]Nome de [D]Deus, o [A7]Onipo[D]tente;",
+          "Nome que é, para [A7]todo_o fi[D]el, so[A7]corro pre[D]sente."
         ]
       }
     ]

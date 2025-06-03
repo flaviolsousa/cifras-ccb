@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eis que vem Jesus",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "        E",
-            "lyrics": "Eis que vem Jesus, o nosso_Esposo divinal;"
-          },
-          {
-            "chords": "                                  B   B... ",
-            "lyrics": "Com prudência, vamos todos juntos vigiar;"
-          },
-          {
-            "chords": "         E         E...",
-            "lyrics": "Oh! Que paz celestial"
-          },
-          {
-            "chords": "     E                    B    E",
-            "lyrics": "Sentirá quem preparado-se encontrar!"
-          }
+        "text": [
+          "Eis que [E]vem Jesus, o nosso_Esposo divinal;",
+          "Com prudência, vamos todos juntos [B]vigi[B...]ar;",
+          "Oh! Que p[E]az celesti[E...]al",
+          "Senti[E]rá quem preparado-se [B]encon[E]trar!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E             B   E  ",
-            "lyrics": "Jesus Cristo, o Esposo,"
-          },
-          {
-            "chords": "                  B ",
-            "lyrics": "Para_as bodas levará os Seus."
-          },
-          {
-            "chords": " E           B    E",
-            "lyrics": "Que encontro glorioso"
-          },
-          {
-            "chords": "                    B      E",
-            "lyrics": "Para_os santos do vivente Deus!"
-          }
+        "text": [
+          "[E]Jesus Cristo, [B]o Es[E]poso,",
+          "Para_as bodas leva[B]rá os Seus.",
+          "Q[E]ue encontro [B]glori[E]oso",
+          "Para_os santos do vi[B]vente D[E]eus!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Estejamos bem atentos, pois Jesus virá;"
-          },
-          {
-            "chords": "                              B   B... ",
-            "lyrics": "Sobre_as nuvens, glorioso, aparecerá;"
-          },
-          {
-            "chords": "       E          E...",
-            "lyrics": "Seus fiéis recolherá"
-          },
-          {
-            "chords": "     E                  B   E",
-            "lyrics": "E à glória prometida os levará."
-          }
+        "text": [
+          "Este[E]jamos bem atentos, pois Jesus virá;",
+          "Sobre_as nuvens, glorioso, apa[B]rece[B...]rá;",
+          "Seus fi[E]éis recolhe[E...]rá",
+          "E à g[E]lória prometida os [B]leva[E]rá."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Tua lâmpada não deve se_apagar, irmão;"
-          },
-          {
-            "chords": "                         B       B... ",
-            "lyrics": "O azeite da Palavra descerá dos céus;"
-          },
-          {
-            "chords": "     E          E...",
-            "lyrics": "A Jesus se juntarão"
-          },
-          {
-            "chords": "      E                      B       E",
-            "lyrics": "Os prudentes que serviram ao grande Deus."
-          }
+        "text": [
+          "Tua [E]lâmpada não deve se_apagar, irmão;",
+          "O azeite da Palavra desce[B]rá dos c[B...]éus;",
+          "A Jes[E]us se junta[E...]rão",
+          "Os pru[E]dentes que serviram ao [B]grande D[E]eus."
         ]
       },
       {

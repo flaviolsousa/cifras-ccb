@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Em nome do nosso Redentor",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G             C    G",
-            "lyrics": "Em nome do nosso Redentor"
-          },
-          {
-            "chords": "                D    D7 ",
-            "lyrics": "Oramos a Ti, ó Deus;"
-          },
-          {
-            "chords": "     G            G7        C          G",
-            "lyrics": "Oh! Vem com Teu calor, com Teu divino amor;"
-          },
-          {
-            "chords": "  Em       Am    D   G",
-            "lyrics": "Visita-nos desde os céus."
-          }
+        "text": [
+          "Em n[G]ome do nosso R[C]edent[G]or",
+          "Oramos a Ti, ó D[D]eus;[D7]",
+          "Oh! V[G]em com Teu ca[G7]lor, com T[C]eu divino a[G]mor;",
+          "Vi[Em]sita-nos [Am]desde [D]os c[G]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   G              C  G",
-            "lyrics": "Bendito és Tu, ó Criador,"
-          },
-          {
-            "chords": "                D    D7 ",
-            "lyrics": "Fiel e potente Deus;"
-          },
-          {
-            "chords": "  G         G7      C         G",
-            "lyrics": "Envia, ó Senhor, o Teu Consolador;"
-          },
-          {
-            "chords": "   Em       Am   D   G",
-            "lyrics": "Conforta os san-tos Teus."
-          }
+        "text": [
+          "Ben[G]dito és Tu, ó C[C]ria[G]dor,",
+          "Fiel e potente D[D]eus;[D7]",
+          "En[G]via, ó Sen[G7]hor, o T[C]eu Consola[G]dor;",
+          "Con[Em]forta os [Am]san-t[D]os T[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G                  C    G",
-            "lyrics": "Com fé nos prostramos, ó Senhor,"
-          },
-          {
-            "chords": "               D    D7 ",
-            "lyrics": "Em santa adoração;"
-          },
-          {
-            "chords": "  G            G7      C               G",
-            "lyrics": "Aceita-nos, ó Deus; responde-nos, dos céus;"
-          },
-          {
-            "chords": "    Em         Am    D  G",
-            "lyrics": "Oh! Põe-nos em co - munhão."
-          }
+        "text": [
+          "Com [G]fé nos prostramos, [C]ó Sen[G]hor,",
+          "Em santa adoraç[D]ão;[D7]",
+          "Ac[G]eita-nos, ó D[G7]eus; res[C]ponde-nos, dos c[G]éus;",
+          "Oh! [Em]Põe-nos em [Am]co - m[D]unh[G]ão."
         ]
       }
     ]

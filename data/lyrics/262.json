@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, a Tua igreja",
   "tone": {
     "recommended": "D"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   D                   A         D",
-            "lyrics": "Senhor, a Tua_igreja espera_alcançar"
-          },
-          {
-            "chords": "              E       A ",
-            "lyrics": "O reino de glória sem par;"
-          },
-          {
-            "chords": "   D                      G      A ",
-            "lyrics": "No mundo_ela_encontra tristeza e dor,"
-          },
-          {
-            "chords": "    D             A          D",
-            "lyrics": "Aflição, fadiga_e provas, Senhor."
-          }
+        "text": [
+          "Sen[D]hor, a Tua_igreja es[A]pera_alcan[D]çar",
+          "O reino de gló[E]ria sem [A]par;",
+          "No [D]mundo_ela_encontra tris[G]teza e [A]dor,",
+          "Afli[D]ção, fadiga_e [A]provas, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   D                     A        D",
-            "lyrics": "Senhor, a Tua_igreja Te quer encontrar"
-          },
-          {
-            "chords": "              E    A ",
-            "lyrics": "E sempre Contigo estar;"
-          },
-          {
-            "chords": "    D                    G           A ",
-            "lyrics": "Oh! Guia seus passos por Teu grande_amor;"
-          },
-          {
-            "chords": "        D            A          D",
-            "lyrics": "Vem lhe dar os Teus adornos, Senhor."
-          }
+        "text": [
+          "Sen[D]hor, a Tua_igreja Te q[A]uer encon[D]trar",
+          "E sempre Conti[E]go es[A]tar;",
+          "Oh! [D]Guia seus passos por [G]Teu grande_a[A]mor;",
+          "Vem lhe [D]dar os Teus a[A]dornos, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   D                      A         D",
-            "lyrics": "Senhor, a Tua_igreja quer ver-Te voltar,"
-          },
-          {
-            "chords": "                   E   A  ",
-            "lyrics": "Também quer no céu habitar;"
-          },
-          {
-            "chords": "     D               G         A ",
-            "lyrics": "Quer ver Tua face, ó Rei celestial,"
-          },
-          {
-            "chords": "     D             A         D",
-            "lyrics": "E_adorar-Te no Teu reino_eternal."
-          }
+        "text": [
+          "Sen[D]hor, a Tua_igreja quer [A]ver-Te vol[D]tar,",
+          "Também quer no céu [E]habi[A]tar;",
+          "Quer [D]ver Tua face, ó [G]Rei celest[A]ial,",
+          "E_ado[D]rar-Te no Teu [A]reino_eter[D]nal."
         ]
       }
     ]

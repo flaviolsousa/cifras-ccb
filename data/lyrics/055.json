@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Paz seja em vós",
   "tone": {
     "recommended": "C"
@@ -9,90 +9,36 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " C                  F        G                C",
-            "lyrics": "Foi grande a tempestade que, no mar, se levantou,"
-          },
-          {
-            "chords": "                 F         G              C",
-            "lyrics": "Ondas cobriam o barco e_a todos temor causou;"
-          },
-          {
-            "chords": "           E7      Am    E7   Am        D        G    G7 ",
-            "lyrics": "O Mestre_estava dormin - do,  foi despertado,_então,"
-          },
-          {
-            "chords": " C                 F       G            C",
-            "lyrics": "Pelos que_a Ele pediram socorro e salvação."
-          }
+        "text": [
+          "F[C]oi grande a tempest[F]ade que, [G]no mar, se levant[C]ou,",
+          "Ondas cobriam o b[F]arco e_a t[G]odos temor caus[C]ou;",
+          "O Mestre_es[E7]tava dor[Am]min - [E7]do,  [Am]foi desper[D]tado,_ent[G]ão,[G7]",
+          "P[C]elos que_a Ele ped[F]iram soc[G]orro e salvaç[C]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "C                       G",
-            "lyrics": "Ao Seu mandar santo_e divinal,"
-          },
-          {
-            "chords": "             C",
-            "lyrics": "Paz seja_em vós;"
-          },
-          {
-            "chords": "                   G",
-            "lyrics": "Ventos e mares se_aquietarão,"
-          },
-          {
-            "chords": "C7           F ",
-            "lyrics": "Paz seja_em vós;"
-          },
-          {
-            "chords": "   G      E7      Am ",
-            "lyrics": "Convosco está o Senhor do mar,"
-          },
-          {
-            "chords": "   G                    C      C...",
-            "lyrics": "Portanto, com fé, vós deveis remar,"
-          },
-          {
-            "chords": "      C",
-            "lyrics": "Pois Ele_está pronto_a vos salvar,"
-          },
-          {
-            "chords": "G          C",
-            "lyrics": "Tende paz, tende paz;"
-          },
-          {
-            "chords": "",
-            "lyrics": "As ondas cessam de_encapelar,"
-          },
-          {
-            "chords": "G            C",
-            "lyrics": "Paz seja_em vós."
-          }
+        "text": [
+          "[C]Ao Seu mandar santo_e di[G]vinal,",
+          "Paz seja_em v[C]ós;",
+          "Ventos e mares se_a[G]quietarão,",
+          "[C7]Paz seja_em v[F]ós;",
+          "Con[G]vosco e[E7]stá o Se[Am]nhor do mar,",
+          "Por[G]tanto, com fé, vós de[C]veis re[C...]mar,",
+          "Pois E[C]le_está pronto_a vos salvar,",
+          "[G]Tende paz, [C]tende paz;",
+          "As ondas cessam de_encapelar,",
+          "[G]Paz seja_em v[C]ós."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " C              F        G              C",
-            "lyrics": "Repreendendo o vento, Jesus aquietou o mar,"
-          },
-          {
-            "chords": "                 F       G               C",
-            "lyrics": "E houve grande bonança diante do Seu mandar."
-          },
-          {
-            "chords": "           E7       Am    E7    Am      D       G    G7 ",
-            "lyrics": "Nas provas e nas tormen - tas, n´Ele deveis ter fé;"
-          },
-          {
-            "chords": " C                F           G           C",
-            "lyrics": "Perto está vosso Mestre, que dono de tudo é."
-          }
+        "text": [
+          "R[C]epreendendo o v[F]ento, Jes[G]us aquietou o m[C]ar,",
+          "E houve grande bo[F]nança di[G]ante do Seu mand[C]ar.",
+          "Nas provas [E7]e nas tor[Am]men - [E7]tas, n[Am]´Ele dev[D]eis ter [G]fé;[G7]",
+          "P[C]erto está vosso M[F]estre, que d[G]ono de tudo [C]é."
         ]
       },
       {

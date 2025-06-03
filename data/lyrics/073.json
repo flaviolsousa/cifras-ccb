@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Semearei, semearei",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     C",
-            "lyrics": "Semearei a preciosa semente"
-          },
-          {
-            "chords": "       G                 C",
-            "lyrics": "Do_Evangelho de Cristo Jesus;     "
-          },
-          {
-            "chords": "",
-            "lyrics": "Semearei a Palavra potente"
-          },
-          {
-            "chords": "          G        D7       G ",
-            "lyrics": "Que bons frutos da graça produz."
-          }
+        "text": [
+          "Semea[C]rei a preciosa semente",
+          "Do_Evan[G]gelho de Cristo Je[C]sus;     ",
+          "Semearei a Palavra potente",
+          "Que bons f[G]rutos da [D7]graça pro[G]duz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     G         C",
-            "lyrics": "Semearei, semearei,"
-          },
-          {
-            "chords": "       F      D7        G ",
-            "lyrics": "Pelo_Espírito Santo de Deus;"
-          },
-          {
-            "chords": "     C         F ",
-            "lyrics": "Ceifarei, ceifarei"
-          },
-          {
-            "chords": "      C           G           C",
-            "lyrics": "Vida_eterna, com glória, nos céus."
-          }
+        "text": [
+          "Semea[G]rei, semea[C]rei,",
+          "Pelo_Es[F]pírito [D7]Santo de D[G]eus;",
+          "Ceifa[C]rei, ceifa[F]rei",
+          "Vida_e[C]terna, com g[G]lória, nos c[C]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     C",
-            "lyrics": "Semearei a justiça divina"
-          },
-          {
-            "chords": "      G                C ",
-            "lyrics": "Neste mundo de lutas e dor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "E, na paz, semearei a doutrina,"
-          },
-          {
-            "chords": "       G       D7       G  ",
-            "lyrics": "Sã doutrina do meu Redentor."
-          }
+        "text": [
+          "Semea[C]rei a justiça divina",
+          "Neste [G]mundo de lutas e [C]dor;",
+          "E, na paz, semearei a doutrina,",
+          "Sã dout[G]rina do [D7]meu Reden[G]tor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    C",
-            "lyrics": "A semente eterna, celeste,"
-          },
-          {
-            "chords": "     G                  C ",
-            "lyrics": "Gera filhos a Deus, Criador;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Da imagem de Cristo_os reveste"
-          },
-          {
-            "chords": "     G         D7      G  ",
-            "lyrics": "E perfeitos os faz em amor."
-          }
+        "text": [
+          "A se[C]mente eterna, celeste,",
+          "Gera [G]filhos a Deus, Cria[C]dor;",
+          "Da imagem de Cristo_os reveste",
+          "E per[G]feitos os [D7]faz em a[G]mor."
         ]
       },
       {

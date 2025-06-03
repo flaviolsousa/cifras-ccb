@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo salvou-me",
   "tone": {
     "recommended": "G"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                 D        G",
-            "lyrics": "Cristo salvou-me, tenho certeza,"
-          },
-          {
-            "chords": "        Am   D       G",
-            "lyrics": "Por Sua obra de redenção;"
-          },
-          {
-            "chords": "             G7      C ",
-            "lyrics": "Fui perdoado por Sua graça,"
-          },
-          {
-            "chords": "D           D7    G",
-            "lyrics": "Sinto agora Sua unção."
-          }
+        "text": [
+          "[G]Cristo salvou-me, [D]tenho cer[G]teza,",
+          "Por Sua [Am]obra [D]de reden[G]ção;",
+          "Fui perdoado [G7]por Sua [C]graça,",
+          "[D]Sinto agora [D7]Sua un[G]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                 D      G",
-            "lyrics": "Cristo salvou-me; que alegria"
-          },
-          {
-            "chords": "        Am      D       G",
-            "lyrics": "Sente minh´alma em Seu amor;"
-          },
-          {
-            "chords": "              G7     C ",
-            "lyrics": "Fui resgatado e libertado"
-          },
-          {
-            "chords": "D              D7       G",
-            "lyrics": "Para viver com o meu Senhor."
-          }
+        "text": [
+          "[G]Cristo salvou-me; [D]que ale[G]gria",
+          "Sente mi[Am]nh´alma [D]em Seu a[G]mor;",
+          "Fui resgatado [G7]e liber[C]tado",
+          "[D]Para viver com [D7]o meu Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                 D        G",
-            "lyrics": "Cristo salvou-me; sigo, portanto,"
-          },
-          {
-            "chords": "           Am     D      G",
-            "lyrics": "Os bons conselhos do Criador;"
-          },
-          {
-            "chords": "                G7       C ",
-            "lyrics": "Ando, por eles, no bom caminho"
-          },
-          {
-            "chords": "D                D7           G",
-            "lyrics": "Que me conduz ao lar de_esplendor."
-          }
+        "text": [
+          "[G]Cristo salvou-me; [D]sigo, por[G]tanto,",
+          "Os bons con[Am]selhos [D]do Cria[G]dor;",
+          "Ando, por eles, [G7]no bom ca[C]minho",
+          "[D]Que me conduz ao [D7]lar de_esplen[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G         D                G",
-            "lyrics": "Oh! Que doçura, sinto_a virtude"
-          },
-          {
-            "chords": "         D              G",
-            "lyrics": "Que tão alegre me faz viver;"
-          },
-          {
-            "chords": "            D              G",
-            "lyrics": "Sei que, de Cristo, a plenitude"
-          },
-          {
-            "chords": "       D             G",
-            "lyrics": "Da Sua graça vou receber."
-          }
+        "text": [
+          "[G]Oh! Que do[D]çura, sinto_a vir[G]tude",
+          "Que tão a[D]legre me faz vi[G]ver;",
+          "Sei que, de [D]Cristo, a pleni[G]tude",
+          "Da Sua [D]graça vou rece[G]ber."
         ]
       }
     ]

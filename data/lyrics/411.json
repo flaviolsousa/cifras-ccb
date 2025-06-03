@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O vitupério de Jesus",
   "tone": {
     "recommended": "E"
@@ -9,79 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "  E          B                         E",
-            "lyrics": "Ferido foi o Salvador, Jesus, o nosso Rei,"
-          },
-          {
-            "chords": "              B           B7               E",
-            "lyrics": "Foi tido como malfeitor e transgressor da lei;"
-          },
-          {
-            "chords": "  A          E               F#7       B",
-            "lyrics": "Levado foi à morte_atroz, de nada reclamou;"
-          },
-          {
-            "chords": "  B7            E         B            E",
-            "lyrics": "O santo_e justo Remidor pagou perante Deus"
-          },
-          {
-            "chords": "  C#m      A      E           A      B7      E    E...",
-            "lyrics": "A transgressão de todos nós, abrindo-nos os céus."
-          }
+        "text": [
+          "Fe[E]rido foi o [B]Salvador, Jesus, o nosso R[E]ei,",
+          "Foi tido como [B]malfeitor e [B7]transgressor da l[E]ei;",
+          "Le[A]vado foi à [E]morte_atroz, de [F#7]nada recla[B]mou;",
+          "O [B7]santo_e justo [E]Remidor pa[B]gou perante D[E]eus",
+          "A [C#m]transgres[A]são de [E]todos nós, a[A]brindo-[B7]nos os c[E]éus.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   E           B                     E",
-            "lyrics": "Cruel martírio suportou o_amado Redentor;"
-          },
-          {
-            "chords": "                B           B7           E",
-            "lyrics": "Na morte_a alma derramou, o grande Benfeitor,"
-          },
-          {
-            "chords": "   A            E               F#7            B",
-            "lyrics": "E, para_o nosso Deus e Pai, com sangue nos comprou;"
-          },
-          {
-            "chords": "   B7            E           B          E",
-            "lyrics": "Salvou-se grande multidão na obra de Jesus;"
-          },
-          {
-            "chords": "   C#m  A      E               A   B7     E    E...",
-            "lyrics": "Bendito seja_o Rei da paz, que é a nossa Luz."
-          }
+        "text": [
+          "Cru[E]el martírio [B]suportou o_amado Reden[E]tor;",
+          "Na morte_a alma [B]derramou, o [B7]grande Benfei[E]tor,",
+          "E, [A]para_o nosso [E]Deus e Pai, com [F#7]sangue nos comp[B]rou;",
+          "Sal[B7]vou-se grande [E]multidão na [B]obra de Jes[E]us;",
+          "Ben[C#m]dito [A]seja_o [E]Rei da paz, que [A]é a [B7]nossa L[E]uz.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   E           B                               E",
-            "lyrics": "Morreu o justo pelos maus, por grande_amor de Deus;"
-          },
-          {
-            "chords": "              B            B7            E",
-            "lyrics": "Saiu da morte com poder, é Mediador nos céus;"
-          },
-          {
-            "chords": "   A            E          F#7          B",
-            "lyrics": "O bom prazer do Criador em Cristo prosperou;"
-          },
-          {
-            "chords": "  B7              E            B          E",
-            "lyrics": "“Amai-vos como_Eu vos amei”, falou o Redentor;"
-          },
-          {
-            "chords": " C#m      A      E                A       B7   E    E...",
-            "lyrics": "Amou-nos Deus, o Pai dos céus, mandando_o Salvador."
-          }
+        "text": [
+          "Mor[E]reu o justo [B]pelos maus, por grande_amor de D[E]eus;",
+          "Saiu da morte [B]com poder, é [B7]Mediador nos c[E]éus;",
+          "O b[A]om prazer do [E]Criador em [F#7]Cristo prospe[B]rou;",
+          "“A[B7]mai-vos como_Eu [E]vos amei”, fa[B]lou o Reden[E]tor;",
+          "A[C#m]mou-nos D[A]eus, o [E]Pai dos céus, man[A]dando_o [B7]Salva[E]dor.[E...]"
         ]
       }
     ]

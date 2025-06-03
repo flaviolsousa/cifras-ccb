@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvor nos céus altíssimos",
   "tone": {
     "recommended": "F"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   F              Dm          Bb      C        F",
-            "lyrics": "Louvor nos céus altíssimos, hosana_ao Rei vivente,"
-          },
-          {
-            "chords": "               Dm        Bb   C7   F",
-            "lyrics": "Ao Forte,_Onipotente, bendito Redentor."
-          },
-          {
-            "chords": "                        C                       F",
-            "lyrics": "Glória, glória_ao Verbo santo, ao Autor da fé potente;"
-          },
-          {
-            "chords": "          F7      Bb  Gm      F      C    F",
-            "lyrics": "Tem vida_eterna_o crente em Jesus, o Salvador."
-          }
+        "text": [
+          "Lou[F]vor nos céus al[Dm]tíssimos, ho[Bb]sana_ao [C]Rei viven[F]te,",
+          "Ao Forte,_Onipo[Dm]tente, ben[Bb]dito [C7]Reden[F]tor.",
+          "Glória, glória_ao Verbo [C]santo, ao Autor da fé po[F]tente;",
+          "Tem vida_e[F7]terna_o [Bb]cren[Gm]te em Je[F]sus, o [C]Salva[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  F            Dm          Bb       C        F",
-            "lyrics": "O Justo_e Potentíssimo, do céu, nos foi mandado;"
-          },
-          {
-            "chords": "               Dm        Bb   C7   F",
-            "lyrics": "Em forma de um servo, ao Pai obedeceu;"
-          },
-          {
-            "chords": "                  C                           F",
-            "lyrics": "Humilhou-Se_até a morte, foi por Deus ressuscitado."
-          },
-          {
-            "chords": "           F7   Bb   Gm         F       C    F",
-            "lyrics": "Jesus, por nós ama - do, vida_e paz nos concedeu."
-          }
+        "text": [
+          "O [F]Justo_e Poten[Dm]tíssimo, do [Bb]céu, nos [C]foi manda[F]do;",
+          "Em forma de um [Dm]servo, ao [Bb]Pai o[C7]bedec[F]eu;",
+          "Humilhou-Se_até a [C]morte, foi por Deus ressusci[F]tado.",
+          "Jesus, por [F7]nós a[Bb]ma - [Gm]do, vida_e [F]paz nos [C]conce[F]deu."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  F           Dm          Bb    C        F",
-            "lyrics": "Aqui no mundo de labor, Jesus é nossa Glória,"
-          },
-          {
-            "chords": "             Dm      Bb    C7   F",
-            "lyrics": "É firme Fortaleza, é nosso Salvador;"
-          },
-          {
-            "chords": "                  C                     F",
-            "lyrics": "Só por Ele nós vencemos, Ele alcançou vitória;"
-          },
-          {
-            "chords": "         F7     Bb    Gm       F    C   F",
-            "lyrics": "Cantemos sempre gló - ria ao divino Remidor!"
-          }
+        "text": [
+          "Aq[F]ui no mundo [Dm]de labor, Je[Bb]sus é [C]nossa Gló[F]ria,",
+          "É firme Forta[Dm]leza, é [Bb]nosso [C7]Salva[F]dor;",
+          "Só por Ele nós ven[C]cemos, Ele alcançou vi[F]tória;",
+          "Cantemos [F7]sempre [Bb]gló - [Gm]ria ao di[F]vino [C]Remi[F]dor!"
         ]
       }
     ]

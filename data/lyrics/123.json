@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Jesus, és meu Guardião",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B               F#7   B",
-            "lyrics": "Ó Jesus, és meu Guardião,"
-          },
-          {
-            "chords": "G#m             C#7    F#7",
-            "lyrics": "Tu me livras de todo_o mal;"
-          },
-          {
-            "chords": "B                   D#7  G#m",
-            "lyrics": "Mesmo_em prova_e tribula-ção,"
-          },
-          {
-            "chords": "F°       B       F#7  B",
-            "lyrics": "És meu Refúgio celestial."
-          }
+        "text": [
+          "[B]Ó Jesus, és meu [F#7]Guardi[B]ão,",
+          "[G#m]Tu me livras de [C#7]todo_o [F#7]mal;",
+          "[B]Mesmo_em prova_e tri[D#7]bula-[G#m]ção,",
+          "[F°]És meu Re[B]fúgio ce[F#7]lesti[B]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B              F#7    B",
-            "lyrics": "Meu tesouro és Tu, Jesus,"
-          },
-          {
-            "chords": "G#m             C#7  F#7",
-            "lyrics": "Minha Vida, meu Galardão."
-          },
-          {
-            "chords": "B              D#7   G#m",
-            "lyrics": "Neste mundo és minha Luz"
-          },
-          {
-            "chords": "F°      B         F#7  B",
-            "lyrics": "E me conduzes com Tua mão."
-          }
+        "text": [
+          "[B]Meu tesouro és [F#7]Tu, Jes[B]us,",
+          "[G#m]Minha Vida, meu [C#7]Galar[F#7]dão.",
+          "[B]Neste mundo és [D#7]minha [G#m]Luz",
+          "[F°]E me con[B]duzes com [F#7]Tua m[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B             F#7  B",
-            "lyrics": "Pela fé e por Teu amor,"
-          },
-          {
-            "chords": "G#m            C#7   F#7",
-            "lyrics": "Vou seguindo a Ti, Jesus,"
-          },
-          {
-            "chords": "B             D#7  G#m",
-            "lyrics": "Pela senda do Cria-dor;"
-          },
-          {
-            "chords": "F°        B          F#7     B",
-            "lyrics": "Breve_estarei no Teu lar de luz."
-          }
+        "text": [
+          "[B]Pela fé e por [F#7]Teu a[B]mor,",
+          "[G#m]Vou seguindo a [C#7]Ti, Je[F#7]sus,",
+          "[B]Pela senda do [D#7]Cria-[G#m]dor;",
+          "[F°]Breve_esta[B]rei no Teu [F#7]lar de l[B]uz."
         ]
       }
     ]

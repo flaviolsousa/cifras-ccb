@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "O Senhor é sempiterno",
   "tone": {
     "recommended": "B"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "B               F#7                  B",
-            "lyrics": "O Senhor é sempiterno, Ele nunca mudará;"
-          },
-          {
-            "chords": "                  E            F#7         B",
-            "lyrics": "Todas as fiéis promessas a Seu tempo cumprirá;"
-          },
-          {
-            "chords": "F#7                 B     C#7            F#  F#7 ",
-            "lyrics": "Por Seu sangue_imaculado, trouxe regeneração;"
-          },
-          {
-            "chords": "B                E           F#7            B",
-            "lyrics": "Operou, em nossa mente, celestial transformação."
-          }
+        "text": [
+          "[B]O Senhor é sempi[F#7]terno, Ele nunca muda[B]rá;",
+          "Todas as fiéis pro[E]messas a Seu [F#7]tempo cumpri[B]rá;",
+          "[F#7]Por Seu sangue_imacu[B]lado, [C#7]trouxe regenera[F#]ção;[F#7]",
+          "[B]Operou, em nossa [E]mente, celes[F#7]tial transforma[B]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "B                 F#7                     B",
-            "lyrics": "Somos reis e sacerdotes feitos para_o Criador,"
-          },
-          {
-            "chords": "             E           F#7     B",
-            "lyrics": "E a Ele serviremos em justiça e amor,"
-          },
-          {
-            "chords": "F#7                B     C#7                F#  F#7 ",
-            "lyrics": "Para que entrar possamos na presença do bom Deus"
-          },
-          {
-            "chords": "B             E            F#7            B",
-            "lyrics": "E viver eternamente com os santos lá nos céus."
-          }
+        "text": [
+          "[B]Somos reis e sacer[F#7]dotes feitos para_o Cria[B]dor,",
+          "E a Ele servi[E]remos em jus[F#7]tiça e a[B]mor,",
+          "[F#7]Para que entrar pos[B]samos [C#7]na presença do bom [F#]Deus[F#7]",
+          "[B]E viver eterna[E]mente com os [F#7]santos lá nos c[B]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "B                F#7                      B",
-            "lyrics": "Não percamos a herança que nos veio por Jesus;"
-          },
-          {
-            "chords": "                 E        F#7          B",
-            "lyrics": "Breve vamos possuí-la no eterno lar de luz."
-          },
-          {
-            "chords": "F#7              B     C#7            F#  F#7 ",
-            "lyrics": "Prossigamos no caminho da cidade do Senhor,"
-          },
-          {
-            "chords": "B                E           F#7        B",
-            "lyrics": "Onde juntos reinaremos com o nosso Redentor."
-          }
+        "text": [
+          "[B]Não percamos a he[F#7]rança que nos veio por Je[B]sus;",
+          "Breve vamos possu[E]í-la no e[F#7]terno lar de [B]luz.",
+          "[F#7]Prossigamos no ca[B]minho [C#7]da cidade do Se[F#]nhor[F#7],",
+          "[B]Onde juntos reina[E]remos com o [F#7]nosso Reden[B]tor."
         ]
       }
     ]

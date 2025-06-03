@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Foi Jesus Quem me salvou",
   "tone": {
     "recommended": "G"
@@ -9,70 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " G                ",
-            "lyrics": "Alegre canto um hino de louvor,"
-          },
-          {
-            "chords": "                   D    D7... ",
-            "lyrics": "Pois Cristo me salvou;"
-          },
-          {
-            "chords": "    G",
-            "lyrics": "Um hino de vitória e amor"
-          },
-          {
-            "chords": "   C9     D     G",
-            "lyrics": "A Quem me libertou."
-          }
+        "text": [
+          "A[G]legre canto um hino de louvor,",
+          "Pois Cristo me salv[D]ou;[D7...]",
+          "Um h[G]ino de vitória e amor",
+          "A Q[C9]uem me [D]libert[G]ou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      G              D ",
-            "lyrics": "Foi Jesus Quem me salvou,"
-          },
-          {
-            "chords": "      C9 ",
-            "lyrics": "Minha alma resgatou,"
-          },
-          {
-            "chords": "      G",
-            "lyrics": "Minha vida transformou;"
-          },
-          {
-            "chords": "                D ",
-            "lyrics": "Seu amor anunciarei"
-          },
-          {
-            "chords": "      C9        D    G",
-            "lyrics": "E Seu Nome glorificarei."
-          }
+        "text": [
+          "Foi Je[G]sus Quem me sal[D]vou,",
+          "Minha [C9]alma resgatou,",
+          "Minha [G]vida transformou;",
+          "Seu amor anuncia[D]rei",
+          "E Seu [C9]Nome glori[D]ficar[G]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    G",
-            "lyrics": "Minh´alma sente a celeste paz,"
-          },
-          {
-            "chords": "                   D    D7... ",
-            "lyrics": "Pois Cristo me salvou;"
-          },
-          {
-            "chords": "   G",
-            "lyrics": "Jamais voltar desejo para trás,"
-          },
-          {
-            "chords": "     C9      D        G",
-            "lyrics": "Com Cristo avante eu vou."
-          }
+        "text": [
+          "Minh[G]´alma sente a celeste paz,",
+          "Pois Cristo me salv[D]ou;[D7...]",
+          "Jam[G]ais voltar desejo para trás,",
+          "Com C[C9]risto av[D]ante eu v[G]ou."
         ]
       },
       {
@@ -82,23 +43,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   G",
-            "lyrics": "Só em Jesus eu conheci o amor,"
-          },
-          {
-            "chords": "                D    D7... ",
-            "lyrics": "Amor que me salvou,"
-          },
-          {
-            "chords": "  G",
-            "lyrics": "Amor que me tem feito vencedor"
-          },
-          {
-            "chords": "  C9   D    G",
-            "lyrics": "E vida me doou."
-          }
+        "text": [
+          "Só [G]em Jesus eu conheci o amor,",
+          "Amor que me salv[D]ou,[D7...]",
+          "Am[G]or que me tem feito vencedor",
+          "E [C9]vida [D]me do[G]ou."
         ]
       },
       {

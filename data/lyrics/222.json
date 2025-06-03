@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Brevemente virá o Senhor Jesus",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      B             F#7 ",
-            "lyrics": "Breve voltará Jesus Cristo,"
-          },
-          {
-            "chords": "                           B",
-            "lyrics": "Glorioso, com grande_esplendor;"
-          },
-          {
-            "chords": "                      E    E... ",
-            "lyrics": "Que_alegria será para os fiéis"
-          },
-          {
-            "chords": "     B         F#7      B",
-            "lyrics": "Que aguardam o seu Redentor!"
-          }
+        "text": [
+          "Breve [B]voltará Jesus [F#7]Cristo,",
+          "Glorioso, com grande_esplen[B]dor;",
+          "Que_alegria será para [E]os fi[E...]éis",
+          "Que a[B]guardam o [F#7]seu Reden[B]tor!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     F#7             B",
-            "lyrics": "Brevemente virá o Senhor Jesus"
-          },
-          {
-            "chords": "     F#7                 B",
-            "lyrics": "Premiar, com o Seu galardão,"
-          },
-          {
-            "chords": "                  E   C#m ",
-            "lyrics": "Os que fielmente aguardam"
-          },
-          {
-            "chords": "    B        F#7   B",
-            "lyrics": "Sua gloriosa aparição."
-          }
+        "text": [
+          "Breve[F#7]mente virá o Sen[B]hor Jesus",
+          "Premi[F#7]ar, com o Seu galard[B]ão,",
+          "Os que fielmente a[E]guar[C#m]dam",
+          "Sua [B]gloriosa [F#7]apariç[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      B             F#7 ",
-            "lyrics": "Breve voltará Jesus Cristo,"
-          },
-          {
-            "chords": "                        B",
-            "lyrics": "Triunfante, com rijo clamor;"
-          },
-          {
-            "chords": "                       E     E... ",
-            "lyrics": "Levará os remidos, por Seu poder,"
-          },
-          {
-            "chords": "       B        F#7       B",
-            "lyrics": "Para_o reino de paz e de_amor."
-          }
+        "text": [
+          "Breve [B]voltará Jesus [F#7]Cristo,",
+          "Triunfante, com rijo cla[B]mor;",
+          "Levará os remidos, por [E]Seu po[E...]der,",
+          "Para_o [B]reino de [F#7]paz e de_a[B]mor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      B             F#7 ",
-            "lyrics": "Breve voltará Jesus Cristo,"
-          },
-          {
-            "chords": "                             B",
-            "lyrics": "Quando,_então, para nós surgirá"
-          },
-          {
-            "chords": "                         E     E... ",
-            "lyrics": "Nova_aurora do reino de_eterna luz,"
-          },
-          {
-            "chords": "       B        F#7     B",
-            "lyrics": "Onde_o justo resplandecerá."
-          }
+        "text": [
+          "Breve [B]voltará Jesus [F#7]Cristo,",
+          "Quando,_então, para nós surgi[B]rá",
+          "Nova_aurora do reino de_e[E]terna [E...]luz,",
+          "Onde_o [B]justo res[F#7]plandece[B]rá."
         ]
       },
       {

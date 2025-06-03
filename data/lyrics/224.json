@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só Jesus concede paz e salvação",
   "tone": {
     "recommended": "C"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Quem, disposto, segue ao Senhor Jesus,"
-          },
-          {
-            "chords": "F             C     D          G ",
-            "lyrics": "Com virtude_e força leva_a sua cruz;"
-          },
-          {
-            "chords": "G7          C    Am     F   E ",
-            "lyrics": "Tem poder divino em seu coração,"
-          },
-          {
-            "chords": "C           F    D  G7        C",
-            "lyrics": "Não será venci - do pela tentação."
-          }
+        "text": [
+          "[C]Quem, disposto, segue ao Senhor Jesus,",
+          "[F]Com virtude_e [C]força [D]leva_a sua [G]cruz;",
+          "[G7]Tem poder di[C]vino [Am]em seu [F]cora[E]ção,",
+          "[C]Não será ven[F]ci - [D]do [G7]pela tenta[C]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G ",
-            "lyrics": "Só Jesus concede paz e salvação,"
-          },
-          {
-            "chords": "                     D           G7 ",
-            "lyrics": "E, na glória_eterna, grande galardão;"
-          },
-          {
-            "chords": "C",
-            "lyrics": "Quem também deseja ir com Deus morar,"
-          },
-          {
-            "chords": "F            C       G7       C",
-            "lyrics": "Sente que, a Cristo, deve aceitar."
-          }
+        "text": [
+          "[G]Só Jesus concede paz e salvação,",
+          "E, na glória_eterna, [D]grande galar[G7]dão;",
+          "[C]Quem também deseja ir com Deus morar,",
+          "[F]Sente que, a [C]Cristo, [G7]deve acei[C]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Todos os casados, vinde ao Senhor,"
-          },
-          {
-            "chords": "F           C     D            G ",
-            "lyrics": "Vinde sem demora, Ele_é_o Salvador;"
-          },
-          {
-            "chords": "G7        C       Am    F    E ",
-            "lyrics": "E dizei a Cristo, com satisfação:"
-          },
-          {
-            "chords": "C            F  D   G7        C",
-            "lyrics": "“Nós Te consagramos nosso coração.”"
-          }
+        "text": [
+          "[C]Todos os casados, vinde ao Senhor,",
+          "[F]Vinde sem de[C]mora, [D]Ele_é_o Salva[G]dor;",
+          "[G7]E dizei a [C]Cristo, [Am]com sa[F]tisfa[E]ção:",
+          "[C]“Nós Te consa[F]gra[D]mos [G7]nosso cora[C]ção.”"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C",
-            "lyrics": "Com a nova vida no Senhor Jesus"
-          },
-          {
-            "chords": "F             C      D          G ",
-            "lyrics": "Mostrareis ao mundo que_Ele é a Luz;"
-          },
-          {
-            "chords": "G7           C    Am    F     E ",
-            "lyrics": "Seja_a vossa obra um louvor a Deus,"
-          },
-          {
-            "chords": "C         F  D  G7             C",
-            "lyrics": "E a vida_eterna vós tereis nos céus."
-          }
+        "text": [
+          "[C]Com a nova vida no Senhor Jesus",
+          "[F]Mostrareis ao [C]mundo q[D]ue_Ele é a [G]Luz;",
+          "[G7]Seja_a vossa [C]obra [Am]um lou[F]vor a [E]Deus,",
+          "[C]E a vida_e[F]ter[D]na [G7]vós tereis nos [C]céus."
         ]
       },
       {

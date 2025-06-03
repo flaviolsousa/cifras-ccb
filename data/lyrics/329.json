@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Com fé combate",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                   D        G",
-            "lyrics": "Com Cristo podes ao mal resistir,"
-          },
-          {
-            "chords": "                     A7        D ",
-            "lyrics": "Os Seus conselhos tu deves guardar;"
-          },
-          {
-            "chords": "G              D      G",
-            "lyrics": "Se desejares coroa cingir,"
-          },
-          {
-            "chords": "                      D     G",
-            "lyrics": "Não deves, nas lutas, desanimar."
-          }
+        "text": [
+          "[G]Com Cristo podes ao [D]mal resis[G]tir,",
+          "Os Seus conselhos tu [A7]deves guar[D]dar;",
+          "[G]Se desejares co[D]roa cin[G]gir,",
+          "Não deves, nas lutas, [D]desani[G]mar."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G",
-            "lyrics": "Com fé combate, sê fervoroso,"
-          },
-          {
-            "chords": "D                 G",
-            "lyrics": "Tu vencerás com valor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Cristo promete ao vitorioso,"
-          },
-          {
-            "chords": "C      D            G",
-            "lyrics": "O galardão de_esplendor."
-          }
+        "text": [
+          "[G]Com fé combate, sê fervoroso,",
+          "[D]Tu vencerás com va[G]lor;",
+          "Cristo promete ao vitorioso,",
+          "[C]O galar[D]dão de_esplen[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                  D       G",
-            "lyrics": "Em Cristo tens a divina mercê,"
-          },
-          {
-            "chords": "               A7    D ",
-            "lyrics": "Em tudo, vitorioso serás;"
-          },
-          {
-            "chords": "G               D        G",
-            "lyrics": "Sê corajoso, combate com fé,"
-          },
-          {
-            "chords": "                   D      G",
-            "lyrics": "Caminha com Cristo e vencerás."
-          }
+        "text": [
+          "[G]Em Cristo tens a di[D]vina mer[G]cê,",
+          "Em tudo, vitori[A7]oso se[D]rás;",
+          "[G]Sê corajoso, com[D]bate com [G]fé,",
+          "Caminha com Cristo [D]e vence[G]rás."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " G                     D        G",
-            "lyrics": "“Ao que vencer”, disse Cristo Jesus,"
-          },
-          {
-            "chords": "                    A7       D ",
-            "lyrics": "“Seu nome, do livro não riscarei”;"
-          },
-          {
-            "chords": "G                D         G",
-            "lyrics": "Receberá, no Seu reino de luz,"
-          },
-          {
-            "chords": "                D           G",
-            "lyrics": "O galardão do Senhor, nosso Rei."
-          }
+        "text": [
+          "“[G]Ao que vencer”, disse [D]Cristo Je[G]sus,",
+          "“Seu nome, do livro [A7]não risca[D]rei”;",
+          "[G]Receberá, no Seu [D]reino de l[G]uz,",
+          "O galardão do Se[D]nhor, nosso [G]Rei."
         ]
       },
       {

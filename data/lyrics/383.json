@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo é a Estrela",
   "tone": {
     "recommended": "F"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                  C     C7                   F",
-            "lyrics": "Cristo Jesus é_a_Estrela que, lá dos céus, conduz"
-          },
-          {
-            "chords": "            C     C7                  F",
-            "lyrics": "O santo peregrino ao reino da eterna luz."
-          }
+        "text": [
+          "[F]Cristo Jesus é_a_Es[C]trela [C7]que, lá dos céus, con[F]duz",
+          "O santo pere[C]grino [C7]ao reino da eterna l[F]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "F      C      F     C        C7     F ",
-            "lyrics": "Cristo é a_Estrela, Guia dos Seus fiéis;"
-          },
-          {
-            "chords": "                        C        C7       F",
-            "lyrics": "Somos os Seus remidos. Glória ao Rei dos reis!"
-          }
+        "text": [
+          "[F]Cristo [C]é a_Est[F]rela, [C]Guia dos [C7]Seus fi[F]éis;",
+          "Somos os Seus remidos. G[C]lória ao [C7]Rei dos r[F]eis!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                C     C7             F",
-            "lyrics": "É Jesus Cristo_a Senda da celestial Sião,"
-          },
-          {
-            "chords": "               C     C7                F",
-            "lyrics": "Pátria mui desejada, onde teremos galardão."
-          }
+        "text": [
+          "[F]É Jesus Cristo_a [C]Senda [C7]da celestial Si[F]ão,",
+          "Pátria mui dese[C]jada, [C7]onde teremos galar[F]dão."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F             C     C7          F",
-            "lyrics": "Caminho, e Verdade, e Vida é Jesus;"
-          },
-          {
-            "chords": "               C     C7                    F",
-            "lyrics": "Por Ele, nós teremos introdução no lar de luz."
-          }
+        "text": [
+          "[F]Caminho, e Ver[C]dade, [C7]e Vida é Jes[F]us;",
+          "Por Ele, nós te[C]remos [C7]introdução no lar de l[F]uz."
         ]
       },
       {

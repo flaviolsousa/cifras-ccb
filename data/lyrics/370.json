@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Têm os santos do Senhor",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E                           A   E",
-            "lyrics": "Nós aqui estamos para,_a Cristo, exaltar,"
-          },
-          {
-            "chords": "                  B ",
-            "lyrics": "Por Sua obra redentora;"
-          },
-          {
-            "chords": "      E                       A   E",
-            "lyrics": "O Seu Nome não cessemos de glorificar;"
-          },
-          {
-            "chords": "              B7   E...",
-            "lyrics": "Sua igreja O ado - ra."
-          }
+        "text": [
+          "Nós a[E]qui estamos para,_a Cristo, [A]exal[E]tar,",
+          "Por Sua obra reden[B]tora;",
+          "O Seu [E]Nome não cessemos de glo[A]rifi[E]car;",
+          "Sua igreja O a[B7]do - [E...]ra."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E                     A         E",
-            "lyrics": "Têm os santos do Senhor, alegria de louvar"
-          },
-          {
-            "chords": "                                          B... ",
-            "lyrics": "A Jesus, que, por amor, veio_à terra a salvar;"
-          },
-          {
-            "chords": "       E                       A            E",
-            "lyrics": "Nossas almas resgatou, com Seu sangue nos lavou;"
-          },
-          {
-            "chords": "                   B7   E...",
-            "lyrics": "Glória_a Jesus, alelu - ia!"
-          }
+        "text": [
+          "Têm os [E]santos do Senhor, aleg[A]ria de lou[E]var",
+          "A Jesus, que, por amor, veio_à terra a sal[B...]var;",
+          "Nossas [E]almas resgatou, com Seu [A]sangue nos la[E]vou;",
+          "Glória_a Jesus, ale[B7]lu - [E...]ia!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E                       A       E",
-            "lyrics": "A promessa cumprirá o_eterno Rei dos reis"
-          },
-          {
-            "chords": "                       B ",
-            "lyrics": "De nos fazer herdar a glória;"
-          },
-          {
-            "chords": "     E                          A    E",
-            "lyrics": "O Penhor da_herança deu a todos os fiéis;"
-          },
-          {
-            "chords": "                        B7   E...",
-            "lyrics": "De Cristo,_honramos a memó - ria."
-          }
+        "text": [
+          "A pro[E]messa cumprirá o_eterno [A]Rei dos [E]reis",
+          "De nos fazer herdar a g[B]lória;",
+          "O Pen[E]hor da_herança deu a todos [A]os fi[E]éis;",
+          "De Cristo,_honramos a me[B7]mó - [E...]ria."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      E                         A    E",
-            "lyrics": "A_esperança já nos deu da redenção final,"
-          },
-          {
-            "chords": "                    B ",
-            "lyrics": "Que firmemente aguardamos;"
-          },
-          {
-            "chords": "     E                      A   E",
-            "lyrics": "Essa bem-aventurança_eterna é real;"
-          },
-          {
-            "chords": "                    B7   E...",
-            "lyrics": "Ao Redentor nós exalta - mos."
-          }
+        "text": [
+          "A_espe[E]rança já nos deu da redenç[A]ão fi[E]nal,",
+          "Que firmemente aguar[B]damos;",
+          "Essa [E]bem-aventurança_eterna [A]é re[E]al;",
+          "Ao Redentor nós exal[B7]ta - [E...]mos."
         ]
       },
       {

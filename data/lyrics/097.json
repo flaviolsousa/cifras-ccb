@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Cristo Jesus, nosso bom Pastor",
   "tone": {
     "recommended": "A"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                          B7      E",
-            "lyrics": "Como ovelhas que não têm nenhum pastor,"
-          },
-          {
-            "chords": "E7                            A",
-            "lyrics": "Longe do bem e do amor do Criador,"
-          },
-          {
-            "chords": "                        D        Bm",
-            "lyrics": "Todos andávamos no mal, sem enxergar"
-          },
-          {
-            "chords": "E             A    F#m  E        A    A...",
-            "lyrics": "O bom caminho celestial para trilhar."
-          }
+        "text": [
+          "[A]Como ovelhas que não têm ne[B7]nhum pas[E]tor,",
+          "[E7]Longe do bem e do amor do Cria[A]dor,",
+          "Todos andávamos no mal, [D]sem enxer[Bm]gar",
+          "[E]O bom caminho [A]celes[F#m]tial [E]para tril[A]har.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                              B7   E",
-            "lyrics": "Há um rebanho_e um Pastor, que é Jesus;"
-          },
-          {
-            "chords": "E7                                A ",
-            "lyrics": "Suas ovelhas, com amor, sempre conduz;"
-          },
-          {
-            "chords": "                       D        Bm",
-            "lyrics": "Elas somente_atenderão ao Seu falar,"
-          },
-          {
-            "chords": "E          A    F#m   E      A    A...",
-            "lyrics": "E só a Ele seguirão  sem vacilar."
-          }
+        "text": [
+          "[A]Há um rebanho_e um Pastor, que [B7]é Jes[E]us;",
+          "[E7]Suas ovelhas, com amor, sempre con[A]duz;",
+          "Elas somente_atenderão [D]ao Seu fa[Bm]lar,",
+          "[E]E só a Ele [A]segui[F#m]rão  s[E]em vaci[A]lar.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A                            B7    E",
-            "lyrics": "Vamos seguir ao bom Jesus, Sumo Pastor;"
-          },
-          {
-            "chords": "E7                                   A",
-            "lyrics": "Com Seu cajado nos conduz ao lar de_amor,"
-          },
-          {
-            "chords": "                    D       Bm",
-            "lyrics": "Onde repouso haverá junto a Deus,"
-          },
-          {
-            "chords": "E              A    F#m  E          A",
-            "lyrics": "E nada mais perturbará   os santos Seus."
-          }
+        "text": [
+          "[A]Vamos seguir ao bom Jesus, Su[B7]mo Pas[E]tor;",
+          "[E7]Com Seu cajado nos conduz ao lar de_a[A]mor,",
+          "Onde repouso haverá [D]junto a [Bm]Deus,",
+          "[E]E nada mais per[A]turba[F#m]rá   [E]os santos S[A]eus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                          E7",
-            "lyrics": "Cristo Jesus, nosso bom Pastor,"
-          },
-          {
-            "chords": "                 F#m  E   A",
-            "lyrics": "Nos agregou pelo Seu  a - mor;"
-          },
-          {
-            "chords": "                        D",
-            "lyrics": "Sobre a cruz muito padeceu;"
-          },
-          {
-            "chords": "       A  A7    D  E     A",
-            "lyrics": "Pelas ovelhas, Sua vida deu."
-          }
+        "text": [
+          "[A]Cristo Jesus, nosso bom Pas[E7]tor,",
+          "Nos agregou pelo [F#m]Seu  [E]a - [A]mor;",
+          "Sobre a cruz muito padec[D]eu;",
+          "Pelas o[A]vel[A7]has, S[D]ua [E]vida d[A]eu."
         ]
       }
     ]

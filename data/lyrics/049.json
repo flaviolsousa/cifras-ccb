@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Venho adorar-Te, santo Criador",
   "tone": {
     "recommended": "F"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "F                C            F",
-            "lyrics": "Ó Deus e Pai, Senhor da_eternidade,"
-          },
-          {
-            "chords": "Bb     B°   F       G         C    C5+",
-            "lyrics": "Venho_ado - rar-Te, santo Criador;"
-          },
-          {
-            "chords": "F                  C       Dm   F7",
-            "lyrics": "Com fé_e temor da Tua majesta - de,"
-          },
-          {
-            "chords": "Bb   B°  F    D7    G   C  F    F...",
-            "lyrics": "Para os céus elevo meu cla-mor."
-          }
+        "text": [
+          "[F]Ó Deus e Pai, Sen[C]hor da_eterni[F]dade,",
+          "[Bb]Venho_a[B°]do - [F]rar-Te, [G]santo Cria[C]dor;[C5+]",
+          "[F]Com fé_e temor da T[C]ua majes[Dm]ta - [F7]de,",
+          "[Bb]Para [B°]os c[F]éus e[D7]levo m[G]eu c[C]la-[F]mor.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "F                 C          F",
-            "lyrics": "Rogo, Senhor, por mérito de Cristo,"
-          },
-          {
-            "chords": "Bb     B°  F      G        C    C5+",
-            "lyrics": "Dá ao Teu  servo graça e saber;"
-          },
-          {
-            "chords": "F                 C           Dm  F7",
-            "lyrics": "Aos olhos Teus, desejo ser benquisto;"
-          },
-          {
-            "chords": "Bb     B°  F       D7    G  C   F    F...",
-            "lyrics": "Nesta_ora-ção transforma o meu ser."
-          }
+        "text": [
+          "[F]Rogo, Senhor, por [C]mérito de C[F]risto,",
+          "[Bb]Dá ao T[B°]eu  [F]servo g[G]raça e sa[C]ber;[C5+]",
+          "[F]Aos olhos Teus, de[C]sejo ser ben[Dm]quis[F7]to;",
+          "[Bb]Nesta_o[B°]ra-ç[F]ão trans[D7]forma [G]o m[C]eu s[F]er.[F...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "F              C                  F",
-            "lyrics": "Vem visitar minha´alma,_ó Deus bendito,"
-          },
-          {
-            "chords": "Bb     B°   F     G         C    C5+",
-            "lyrics": "Das minhas provas me esquecerei;"
-          },
-          {
-            "chords": "F                      C          Dm  F7",
-            "lyrics": "Eis-me_aos Teus pés, ansioso e contri-to;"
-          },
-          {
-            "chords": "Bb   B°   F     D7  G  C  F    F...",
-            "lyrics": "Ardente - mente Te exaltarei."
-          }
+        "text": [
+          "[F]Vem visitar min[C]ha´alma,_ó Deus ben[F]dito,",
+          "[Bb]Das min[B°]has p[F]rovas [G]me esquece[C]rei;[C5+]",
+          "[F]Eis-me_aos Teus pés, an[C]sioso e con[Dm]tri-[F7]to;",
+          "[Bb]Arden[B°]te - [F]mente [D7]Te e[G]xal[C]tar[F]ei.[F...]"
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eu vivia no pecado",
   "tone": {
     "recommended": "D"
@@ -9,82 +9,34 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     D        G ",
-            "lyrics": "Eu vivia no pecado,"
-          },
-          {
-            "chords": "      A           D",
-            "lyrics": "Sem a paz e sem a luz,"
-          },
-          {
-            "chords": "                    G ",
-            "lyrics": "Quando Deus, o Pai amado,"
-          },
-          {
-            "chords": "    A                   D",
-            "lyrics": "Revelou-me_a graça de Jesus."
-          }
+        "text": [
+          "Eu vi[D]via no pe[G]cado,",
+          "Sem a [A]paz e sem a [D]luz,",
+          "Quando Deus, o Pai a[G]mado,",
+          "Reve[A]lou-me_a graça de Je[D]sus."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     D",
-            "lyrics": "Como poderei eu esquecer-me"
-          },
-          {
-            "chords": "",
-            "lyrics": "Da mercê do meu bom Criador?!"
-          },
-          {
-            "chords": "       A            D",
-            "lyrics": "Pois livrou-me do pecado"
-          },
-          {
-            "chords": "     E           A ",
-            "lyrics": "Pelo Seu imenso_amor."
-          },
-          {
-            "chords": "    D",
-            "lyrics": "A celeste paz agora sinto"
-          },
-          {
-            "chords": "",
-            "lyrics": "Por Jesus, o meu intercessor,"
-          },
-          {
-            "chords": "      A          D",
-            "lyrics": "Minha Rocha e Justiça,"
-          },
-          {
-            "chords": "G     A               D",
-            "lyrics": "Meu fiel e forte Defensor."
-          }
+        "text": [
+          "Como [D]poderei eu esquecer-me",
+          "Da mercê do meu bom Criador?!",
+          "Pois li[A]vrou-me do pe[D]cado",
+          "Pelo [E]Seu imenso_a[A]mor.",
+          "A ce[D]leste paz agora sinto",
+          "Por Jesus, o meu intercessor,",
+          "Minha [A]Rocha e Jus[D]tiça,",
+          "[G]Meu fi[A]el e forte Defen[D]sor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      D                 G ",
-            "lyrics": "Foi Jesus, por Deus, mandado,"
-          },
-          {
-            "chords": "        A             D",
-            "lyrics": "Sendo_o Cristo_e Salvador;"
-          },
-          {
-            "chords": "                  G ",
-            "lyrics": "E, na cruz, vituperado,"
-          },
-          {
-            "chords": "     A              D",
-            "lyrics": "Consumou a obra de amor."
-          }
+        "text": [
+          "Foi Je[D]sus, por Deus, man[G]dado,",
+          "Sendo_o [A]Cristo_e Salva[D]dor;",
+          "E, na cruz, vitupe[G]rado,",
+          "Consu[A]mou a obra de a[D]mor."
         ]
       },
       {
@@ -94,23 +46,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        D           G ",
-            "lyrics": "Deus me libertou da morte "
-          },
-          {
-            "chords": "      A               D",
-            "lyrics": "Por sublime_e grande_amor;"
-          },
-          {
-            "chords": "                  G ",
-            "lyrics": "Oh! Que grandiosa sorte"
-          },
-          {
-            "chords": "     A                  D",
-            "lyrics": "Alcancei do meu bom Criador!"
-          }
+        "text": [
+          "Deus me [D]libertou da [G]morte ",
+          "Por su[A]blime_e grande_a[D]mor;",
+          "Oh! Que grandiosa [G]sorte",
+          "Alcan[A]cei do meu bom Cria[D]dor!"
         ]
       },
       {

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Contempla do céu",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   G                  D            G",
-            "lyrics": "Contempla do céu, ó Senhor, Teus fiéis;"
-          },
-          {
-            "chords": "                        A        D ",
-            "lyrics": "Em nós seja feito_o Teu santo querer;"
-          },
-          {
-            "chords": "           G         D      Em ",
-            "lyrics": "Oh! Vem ajudar-nos a peregrinar,"
-          },
-          {
-            "chords": "   Am           G       D       G",
-            "lyrics": "Conduz-nos aos céus com o Teu poder."
-          }
+        "text": [
+          "Con[G]templa do céu, ó Se[D]nhor, Teus fi[G]éis;",
+          "Em nós seja feito_o Teu [A]santo que[D]rer;",
+          "Oh! Vem aju[G]dar-nos a [D]peregri[Em]nar,",
+          "Con[Am]duz-nos aos c[G]éus com [D]o Teu po[G]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    G",
-            "lyrics": "Que volte do céu Teu Filho, ó Deus,"
-          },
-          {
-            "chords": "D                G",
-            "lyrics": "Quão desejosos estamos, Senhor!"
-          },
-          {
-            "chords": "  C     G        A        D ",
-            "lyrics": "Rejubilaremos ao vê-Lo voltar"
-          },
-          {
-            "chords": "                G",
-            "lyrics": "Em grande_esplendor."
-          }
+        "text": [
+          "Que [G]volte do céu Teu Filho, ó Deus,",
+          "[D]Quão desejosos es[G]tamos, Senhor!",
+          "Re[C]jubila[G]remos ao [A]vê-Lo vol[D]tar",
+          "Em grande_esplen[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  G              D     G",
-            "lyrics": "Ó Pai amoroso, envia Jesus;"
-          },
-          {
-            "chords": "                     A        D ",
-            "lyrics": "É grande_o desejo de vê-Lo surgir;"
-          },
-          {
-            "chords": "              G         D         Em ",
-            "lyrics": "Queremos, com Cristo, a glória herdar"
-          },
-          {
-            "chords": "  Am       G        D      G",
-            "lyrics": "E bens eternais com Ele fruir."
-          }
+        "text": [
+          "Ó [G]Pai amoroso, en[D]via Je[G]sus;",
+          "É grande_o desejo de [A]vê-Lo sur[D]gir;",
+          "Queremos, com [G]Cristo, a [D]glória her[Em]dar",
+          "E [Am]bens eter[G]nais com [D]Ele fru[G]ir."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G                     D       G",
-            "lyrics": "Oh! Faz-nos perfeitos, bondoso Senhor,"
-          },
-          {
-            "chords": "                     A       D ",
-            "lyrics": "Na luz da Palavra queremos andar;"
-          },
-          {
-            "chords": "             G         D       Em ",
-            "lyrics": "São tempos difíceis, ó bom Criador;"
-          },
-          {
-            "chords": "   Am     G      D         G",
-            "lyrics": "Virtude e fé vem nos dispensar."
-          }
+        "text": [
+          "Oh! [G]Faz-nos perfeitos, bon[D]doso Sen[G]hor,",
+          "Na luz da Palavra que[A]remos an[D]dar;",
+          "São tempos di[G]fíceis, ó [D]bom Cria[Em]dor;",
+          "Vir[Am]tude e [G]fé vem [D]nos dispen[G]sar."
         ]
       },
       {

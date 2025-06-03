@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó alma que choras",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                  E              A",
-            "lyrics": "Ó alma que choras com grande amargor,"
-          },
-          {
-            "chords": "                  B7            E ",
-            "lyrics": "Se queres alívio, recorre ao Senhor;"
-          },
-          {
-            "chords": "                   A",
-            "lyrics": "A Ele implorando, conforto acharás;"
-          },
-          {
-            "chords": " A7         D     E         A",
-            "lyrics": "Graça, e virtude, e vida terás."
-          }
+        "text": [
+          "[A]Ó alma que choras c[E]om grande amarg[A]or,",
+          "Se queres alívio, [B7]recorre ao Sen[E]hor;",
+          "A Ele implorando, c[A]onforto acharás;",
+          "G[A7]raça, e vir[D]tude, [E]e vida ter[A]ás."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A             E           A",
-            "lyrics": "Amigo sincero é Cristo Jesus,"
-          },
-          {
-            "chords": "                     B7           E ",
-            "lyrics": "Que salva o perdido, ao céu o conduz,"
-          },
-          {
-            "chords": "                A",
-            "lyrics": "Tua voz levanta ao bom Redentor,"
-          },
-          {
-            "chords": " A7         D       E              A",
-            "lyrics": "Clama por socorro, clama ao teu Senhor."
-          }
+        "text": [
+          "[A]Amigo sincero [E]é Cristo Jes[A]us,",
+          "Que salva o perdido, [B7]ao céu o cond[E]uz,",
+          "Tua voz levanta [A]ao bom Redentor,",
+          "C[A7]lama por so[D]corro, c[E]lama ao teu Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A               E             A",
-            "lyrics": "Ó alma cansada, recorre ao Senhor,"
-          },
-          {
-            "chords": "                B7         E ",
-            "lyrics": "Ele te sustenta e te dá vigor;"
-          },
-          {
-            "chords": "                 A",
-            "lyrics": "Auxílio do alto não falta jamais,"
-          },
-          {
-            "chords": "A7           D   E             A",
-            "lyrics": "Em Cristo confia e não chores mais."
-          }
+        "text": [
+          "[A]Ó alma cansada, [E]recorre ao Sen[A]hor,",
+          "Ele te sustenta [B7]e te dá vig[E]or;",
+          "Auxílio do alto n[A]ão falta jamais,",
+          "[A7]Em Cristo con[D]fia [E]e não chores m[A]ais."
         ]
       }
     ]

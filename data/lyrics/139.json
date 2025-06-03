@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ó Senhor, Tu me conheces",
   "tone": {
     "recommended": "G"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     G            D            G   ",
-            "lyrics": "Ó Senhor, Tu me conheces, Tu conheces meu viver,"
-          },
-          {
-            "chords": "                  D            G",
-            "lyrics": "E também meu pensamento não Te posso esconder;"
-          },
-          {
-            "chords": "D                        G ",
-            "lyrics": "Onde quer que eu esteja,   Teu Espírito está;"
-          },
-          {
-            "chords": "                   D             G",
-            "lyrics": "Tua mão, em toda_a parte, sempre me alcançará."
-          }
+        "text": [
+          "Ó Sen[G]hor, Tu me co[D]nheces, Tu co[G]nheces meu viver,",
+          "E também meu pensa[D]mento não Te [G]posso esconder;",
+          "[D]Onde quer que eu esteja, [G]  Teu Espírito está;",
+          "Tua mão, em toda_a [D]parte, sempre [G]me alcançará."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         G            D            G",
-            "lyrics": "Com meus olhos não Te vejo, mas eu sinto Teu amor;"
-          },
-          {
-            "chords": "                   D         G",
-            "lyrics": "Tu me cercas de contínuo, ó eterno Criador."
-          },
-          {
-            "chords": "D                        G ",
-            "lyrics": "Nem as trevas me ocultam   dos sublimes olhos Teus,"
-          },
-          {
-            "chords": "                      D        G",
-            "lyrics": "Pois a noite_é como_o dia para Ti, ó grande Deus."
-          }
+        "text": [
+          "Com meus [G]olhos não Te [D]vejo, mas eu [G]sinto Teu amor;",
+          "Tu me cercas de con[D]tínuo, ó e[G]terno Criador.",
+          "[D]Nem as trevas me ocultam [G]  dos sublimes olhos Teus,",
+          "Pois a noite_é como_o [D]dia para [G]Ti, ó grande Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G            D          G",
-            "lyrics": "Purifica_o meu caminho pelo Teu poder, Senhor;"
-          },
-          {
-            "chords": "                 D        G",
-            "lyrics": "Eu desejo ser sincero e andar em Teu temor."
-          },
-          {
-            "chords": "D                        G",
-            "lyrics": "Onde quer que eu esteja,   Teu Espírito está;"
-          },
-          {
-            "chords": "                  D             G",
-            "lyrics": "Ó Senhor, Tu me conheces; Deus além de Ti não há."
-          }
+        "text": [
+          "Puri[G]fica_o meu ca[D]minho pelo [G]Teu poder, Senhor;",
+          "Eu desejo ser sin[D]cero e an[G]dar em Teu temor.",
+          "[D]Onde quer que eu esteja, [G]  Teu Espírito está;",
+          "Ó Senhor, Tu me co[D]nheces; Deus a[G]lém de Ti não há."
         ]
       }
     ]

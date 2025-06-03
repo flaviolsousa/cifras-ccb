@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sou criança, Senhor",
   "tone": {
     "recommended": "A"
@@ -8,45 +8,21 @@
     "stanzas": [
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E                      A",
-            "lyrics": "Sou criança, mas crente em Jesus"
-          },
-          {
-            "chords": "     D                A",
-            "lyrics": "Meu amado e divino Pastor,"
-          },
-          {
-            "chords": "       A7                   D    Bm7 ",
-            "lyrics": "Que em mim faz brilhar Sua luz,"
-          },
-          {
-            "chords": "     E                     A",
-            "lyrics": "Conduzindo-me ao reino de amor."
-          }
+        "text": [
+          "Sou cri[E]ança, mas crente em Jes[A]us",
+          "Meu a[D]mado e divino Pas[A]tor,",
+          "Que em [A7]mim faz brilhar Sua l[D]uz,[Bm7]",
+          "Condu[E]zindo-me ao reino de a[A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       A                   D ",
-            "lyrics": "Sou criança, Senhor, mas fiel quero ser"
-          },
-          {
-            "chords": "    E                   A",
-            "lyrics": "À Palavra que livra do mal;"
-          },
-          {
-            "chords": "                       D ",
-            "lyrics": "Com amor e fervor eu desejo crescer"
-          },
-          {
-            "chords": "       E                 A",
-            "lyrics": "Nas virtudes da vida eternal."
-          }
+        "text": [
+          "Sou cri[A]ança, Senhor, mas fi[D]el quero ser",
+          "À Pa[E]lavra que livra do m[A]al;",
+          "Com amor e fervor eu de[D]sejo crescer",
+          "Nas vir[E]tudes da vida eter[A]nal."
         ]
       },
       {
@@ -56,23 +32,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       A                   D ",
-            "lyrics": "Sou criança, Senhor, mas zeloso do bem,"
-          },
-          {
-            "chords": "      E                   A",
-            "lyrics": "Tuas bênçãos estão sobre mim;"
-          },
-          {
-            "chords": "                          D ",
-            "lyrics": "Caminhando em amor, em justiça também,"
-          },
-          {
-            "chords": "      E              A",
-            "lyrics": "Eu serei coroado ao fim."
-          }
+        "text": [
+          "Sou cri[A]ança, Senhor, mas ze[D]loso do bem,",
+          "Tuas b[E]ênçãos estão sobre m[A]im;",
+          "Caminhando em amor, em jus[D]tiça também,",
+          "Eu ser[E]ei coroado ao f[A]im."
         ]
       },
       {

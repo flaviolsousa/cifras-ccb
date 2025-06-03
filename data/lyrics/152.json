@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Venho à casa do Senhor",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Ao entrar na casa do bom Criador,"
-          },
-          {
-            "chords": "      E          A",
-            "lyrics": "O meu ser se regozija;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Para desfrutar do Seu sublime_amor,"
-          },
-          {
-            "chords": "        E          A",
-            "lyrics": "Venho_à casa do Senhor."
-          }
+        "text": [
+          "Ao en[A]trar na casa do bom Criador,",
+          "O meu [E]ser se rego[A]zija;",
+          "Para desfrutar do Seu sublime_amor,",
+          "Venho_à [E]casa do Sen[A]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     A         B7 ",
-            "lyrics": "É na casa do Senhor"
-          },
-          {
-            "chords": "     E           A",
-            "lyrics": "Que aprendo a honrar,"
-          },
-          {
-            "chords": "                D ",
-            "lyrics": "Com temor e reverência,"
-          },
-          {
-            "chords": "     E        A",
-            "lyrics": "Meu amado Criador."
-          }
+        "text": [
+          "É na [A]casa do Se[B7]nhor",
+          "Que a[E]prendo a hon[A]rar,",
+          "Com temor e reve[D]rência,",
+          "Meu a[E]mado Cria[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "         A",
-            "lyrics": "Quando_estou na casa do bom Criador,"
-          },
-          {
-            "chords": "      E        A",
-            "lyrics": "Minha alma rejubila;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Para_ouvir os Seus conselhos de amor,"
-          },
-          {
-            "chords": "         E          A",
-            "lyrics": "Venhor_à casa do Senhor."
-          }
+        "text": [
+          "Quando_es[A]tou na casa do bom Criador,",
+          "Minha [E]alma reju[A]bila;",
+          "Para_ouvir os Seus conselhos de amor,",
+          "Venhor_à [E]casa do Sen[A]hor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     A",
-            "lyrics": "Terminando_o santo culto_ao Criador,"
-          },
-          {
-            "chords": "      E         A",
-            "lyrics": "Sinto paz e alegria;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Meditando no glorioso Seu amor,"
-          },
-          {
-            "chords": "        E          A",
-            "lyrics": "Deixo_a casa do Senhor."
-          }
+        "text": [
+          "Termi[A]nando_o santo culto_ao Criador,",
+          "Sinto [E]paz e aleg[A]ria;",
+          "Meditando no glorioso Seu amor,",
+          "Deixo_a [E]casa do Sen[A]hor."
         ]
       },
       {

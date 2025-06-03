@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Um tesouro glorioso achei",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      G               C         A ",
-            "lyrics": "Um tesouro glorioso achei em Jesus,"
-          },
-          {
-            "chords": "      D                 G",
-            "lyrics": "Um tesouro de_imenso valor;"
-          },
-          {
-            "chords": "                            C ",
-            "lyrics": "Não é prata nem ouro que_ao homem seduz,"
-          },
-          {
-            "chords": "     G       D         G",
-            "lyrics": "É a vida de Deus, Criador."
-          }
+        "text": [
+          "Um tes[G]ouro glorioso ac[C]hei em Jes[A]us,",
+          "Um tes[D]ouro de_imenso val[G]or;",
+          "Não é prata nem ouro que_ao [C]homem seduz,",
+          "É a v[G]ida de D[D]eus, Criad[G]or."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "     C                G",
-            "lyrics": "Um tesouro glorioso achei"
-          },
-          {
-            "chords": "      A                  D    D... ",
-            "lyrics": "Em Jesus, o divino Redentor;"
-          },
-          {
-            "chords": "      G               C    Am... ",
-            "lyrics": "Nada mais precioso encontrarei;"
-          },
-          {
-            "chords": " A#°    G        D          G",
-            "lyrics": "Grande graça me fez o Salvador."
-          }
+        "text": [
+          "Um te[C]souro glorioso ac[G]hei",
+          "Em Jes[A]us, o divino Redent[D]or;[D...]",
+          "Nada m[G]ais precioso enc[C]ontra[Am...]rei;",
+          "G[A#°]rande g[G]raça me f[D]ez o Salvad[G]or."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      G                   C      A ",
-            "lyrics": "Os tesouros daqui pode_a traça roer,"
-          },
-          {
-            "chords": "     D                    G",
-            "lyrics": "A ferrugem, também, consumir;"
-          },
-          {
-            "chords": "                          C ",
-            "lyrics": "Mas aqueles do céu, que irei receber,"
-          },
-          {
-            "chords": "      G      D         G",
-            "lyrics": "Nada pode jamais destruir."
-          }
+        "text": [
+          "Os tes[G]ouros daqui pode_a t[C]raça ro[A]er,",
+          "A fer[D]rugem, também, consum[G]ir;",
+          "Mas aqueles do céu, que ir[C]ei receber,",
+          "Nada p[G]ode jam[D]ais destru[G]ir."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        G                 C        A ",
-            "lyrics": "Que_alegria eu sinto por ter salvação,"
-          },
-          {
-            "chords": "      D                 G",
-            "lyrics": "Pela santa presença de Deus!"
-          },
-          {
-            "chords": "                           C ",
-            "lyrics": "Sinto_a Vida tomar todo_o meu coração;"
-          },
-          {
-            "chords": "            G        D        G",
-            "lyrics": "Cristo_é_a Vida que leva aos céus."
-          }
+        "text": [
+          "Que_aleg[G]ria eu sinto por t[C]er salvaç[A]ão,",
+          "Pela s[D]anta presença de D[G]eus!",
+          "Sinto_a Vida tomar todo_o m[C]eu coração;",
+          "Cristo_é_a V[G]ida que l[D]eva aos c[G]éus."
         ]
       },
       {

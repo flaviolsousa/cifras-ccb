@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vem, vem consolar-me",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A     E         A",
-            "lyrics": "Em Ti, Senhor, abrigado,"
-          },
-          {
-            "chords": "  D         B7      E ",
-            "lyrics": "Terei força na provação;"
-          },
-          {
-            "chords": "   A     C#       F#m  C# ",
-            "lyrics": "Também serei consola - do"
-          },
-          {
-            "chords": "   A           E  A",
-            "lyrics": "Na hora da aflição."
-          }
+        "text": [
+          "Em [A]Ti, Se[E]nhor, abri[A]gado,",
+          "Te[D]rei força [B7]na prova[E]ção;",
+          "Tam[A]bém se[C#]rei conso[F#m]la - [C#]do",
+          "Na [A]hora da afli[E]ção[A]."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A    E        A",
-            "lyrics": "Vem, vem consolar-me,"
-          },
-          {
-            "chords": "         E              A",
-            "lyrics": "Pai celestial, com Teu amor;"
-          },
-          {
-            "chords": "          E      A       D... ",
-            "lyrics": "Confio em Ti, ó Deus Criador,"
-          },
-          {
-            "chords": "    A        E     A",
-            "lyrics": "Poderoso_e fiel Senhor."
-          }
+        "text": [
+          "[A]Vem, [E]vem conso[A]lar-me,",
+          "Pai celes[E]tial, com Teu a[A]mor;",
+          "Confio em [E]Ti, ó D[A]eus Cria[D...]dor,",
+          "Pode[A]roso_e fi[E]el Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A    E          A",
-            "lyrics": "Ó Deus eterno,_enviaste,"
-          },
-          {
-            "chords": "    D         B7       E ",
-            "lyrics": "Por Cristo, veraz salvação;"
-          },
-          {
-            "chords": "   A      C#     F#m   C# ",
-            "lyrics": "Minh´alma justificas - te,"
-          },
-          {
-            "chords": "   A             E  A",
-            "lyrics": "Me concedeste perdão."
-          }
+        "text": [
+          "Ó D[A]eus e[E]terno,_envi[A]aste,",
+          "Por [D]Cristo, ve[B7]raz salva[E]ção;",
+          "Min[A]h´alma [C#]justifi[F#m]cas - [C#]te,",
+          "Me [A]concedeste per[E]dão[A]."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    A     E         A ",
-            "lyrics": "Por Ti, ó Deus, eu existo,"
-          },
-          {
-            "chords": "  D        B7       E ",
-            "lyrics": "Caminho Contigo por fé;"
-          },
-          {
-            "chords": "   A      C#       F#m    C# ",
-            "lyrics": "A paz que sinto em Cris - to,"
-          },
-          {
-            "chords": "    A              E  A",
-            "lyrics": "Do Teu amor, fruto é."
-          }
+        "text": [
+          "Por [A]Ti, ó [E]Deus, eu e[A]xisto,",
+          "Ca[D]minho Con[B7]tigo por [E]fé;",
+          "A p[A]az que [C#]sinto em [F#m]Cris - [C#]to,",
+          "Do T[A]eu amor, fruto [E]é.[A]"
         ]
       },
       {

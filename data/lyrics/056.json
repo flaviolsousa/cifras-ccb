@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Põe em Deus a confiança",
   "tone": {
     "recommended": "E"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " E                                        B7 ",
-            "lyrics": "Põe em Deus a confiança, segue sempre a Jesus;"
-          },
-          {
-            "chords": "E                       F#7          B7 ",
-            "lyrics": "Ele é a Esperança que à glória te conduz;"
-          },
-          {
-            "chords": "       E             A         B7            E",
-            "lyrics": "Não vaciles, mas confia, pois eterno_é Seu poder;"
-          },
-          {
-            "chords": "                  A           B7          E",
-            "lyrics": "Nos perigos Ele_envia os Seus anjos te suster."
-          }
+        "text": [
+          "P[E]õe em Deus a confiança, segue sempre a Je[B7]sus;",
+          "[E]Ele é a Esperança que à [F#7]glória te con[B7]duz;",
+          "Não vac[E]iles, mas conf[A]ia, pois e[B7]terno_é Seu po[E]der;",
+          "Nos perigos Ele_en[A]via os Seus [B7]anjos te sus[E]ter."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " E                                          B7 ",
-            "lyrics": "Mesmo que os anos passem, Seu amor não passará;"
-          },
-          {
-            "chords": " E                                F#7           B7 ",
-            "lyrics": "Céus e terra também passam, mas o Verbo firme_está."
-          },
-          {
-            "chords": "          E              A          B7               E",
-            "lyrics": "Vindo_as trevas sobre_o mundo e, do sol, cessando_a luz,"
-          },
-          {
-            "chords": "                     A            B7           E",
-            "lyrics": "Cristo, por amor profundo, ao Seu reino te conduz."
-          }
+        "text": [
+          "M[E]esmo que os anos passem, Seu amor não passa[B7]rá;",
+          "C[E]éus e terra também passam, mas o [F#7]Verbo firme_es[B7]tá.",
+          "Vindo_as t[E]revas sobre_o m[A]undo e, do [B7]sol, cessando_a l[E]uz,",
+          "Cristo, por amor prof[A]undo, ao Seu [B7]reino te cond[E]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " E                                        B7 ",
-            "lyrics": "Firme na fiel promessa, ao mal podes resistir;"
-          },
-          {
-            "chords": " E                         F#7          B7 ",
-            "lyrics": "Não há nada que impeça tua glória no porvir;"
-          },
-          {
-            "chords": "         E            A         B7        E",
-            "lyrics": "Eis que perto_está o dia em que tudo cessará,"
-          },
-          {
-            "chords": "              A        B7         E",
-            "lyrics": "Mas a tua alegria para sempre durará."
-          }
+        "text": [
+          "F[E]irme na fiel promessa, ao mal podes resis[B7]tir;",
+          "N[E]ão há nada que impeça tua [F#7]glória no por[B7]vir;",
+          "Eis que p[E]erto_está o d[A]ia em que [B7]tudo cessa[E]rá,",
+          "Mas a tua aleg[A]ria para [B7]sempre dura[E]rá."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "       E",
-            "lyrics": "Põe em Deus a confiança, sê fiel ao Redentor;"
-          },
-          {
-            "chords": "                            B7 ",
-            "lyrics": "Segue_avante, segue para_os céus;"
-          },
-          {
-            "chords": "       E",
-            "lyrics": "Põe em Deus a esperança, sê fiel ao Criador;"
-          },
-          {
-            "chords": "                  B7      E",
-            "lyrics": "Glória! Glória ao grande Deus!"
-          }
+        "text": [
+          "Põe em [E]Deus a confiança, sê fiel ao Redentor;",
+          "Segue_avante, segue para_os [B7]céus;",
+          "Põe em [E]Deus a esperança, sê fiel ao Criador;",
+          "Glória! Glória ao [B7]grande D[E]eus!"
         ]
       }
     ]

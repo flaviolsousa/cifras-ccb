@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, estou disposto",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "   A      E7     A     D  E7           A",
-            "lyrics": "Senhor, estou disposto a  sempre Te seguir;"
-          },
-          {
-            "chords": "                  D     E7           A",
-            "lyrics": "No Teu caminho santo, terei feliz porvir;"
-          },
-          {
-            "chords": "     E7         A         E7            A",
-            "lyrics": "Quão bela é a_herança que me darás nos céus,"
-          },
-          {
-            "chords": "              D     E7        A",
-            "lyrics": "Desejo recebê-la, ó glorioso Deus."
-          }
+        "text": [
+          "Sen[A]hor, es[E7]tou dis[A]posto [D]a  [E7]sempre Te seg[A]uir;",
+          "No Teu caminho san[D]to, te[E7]rei feliz por[A]vir;",
+          "Quão [E7]bela é a_he[A]rança que [E7]me darás nos c[A]éus,",
+          "Desejo recebê-[D]la, ó [E7]glorioso D[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A       E7      A      D  E7             A",
-            "lyrics": "Senhor, os Teus preceitos disponho-me_a cumprir"
-          },
-          {
-            "chords": "                    D        E7         A",
-            "lyrics": "E sigo_os Teus conselhos; ao céu desejo ir."
-          },
-          {
-            "chords": " E7              A         E7         A",
-            "lyrics": "Unido_aos santos anjos, em glória viverei"
-          },
-          {
-            "chords": "                  D      E7               A",
-            "lyrics": "No Teu celeste reino com Cristo,_o grande Rei."
-          }
+        "text": [
+          "Sen[A]hor, os [E7]Teus pre[A]ceitos [D]dis[E7]ponho-me_a cump[A]rir",
+          "E sigo_os Teus conse[D]lhos; ao [E7]céu desejo [A]ir.",
+          "U[E7]nido_aos santos [A]anjos, em [E7]glória vive[A]rei",
+          "No Teu celeste rei[D]no com [E7]Cristo,_o grande [A]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   A      E7  A    D    E7          A",
-            "lyrics": "Senhor, a Tua face de - sejo contemplar"
-          },
-          {
-            "chords": "                   D      E7         A",
-            "lyrics": "Na glória_incomparável do Teu eterno lar."
-          },
-          {
-            "chords": "   E7           A        E7          A",
-            "lyrics": "Eu sinto_a Tua graça, também o Teu vigor,"
-          },
-          {
-            "chords": "              D        E7            A",
-            "lyrics": "E nada me impede de_honrar-Te com fervor."
-          }
+        "text": [
+          "Sen[A]hor, a [E7]Tua [A]face [D]de - [E7]sejo contemp[A]lar",
+          "Na glória_incompará[D]vel do [E7]Teu eterno [A]lar.",
+          "Eu [E7]sinto_a Tua g[A]raça, tam[E7]bém o Teu vi[A]gor,",
+          "E nada me impe[D]de de_hon[E7]rar-Te com fer[A]vor."
         ]
       }
     ]

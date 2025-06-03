@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Jesus é o nosso Guia",
   "tone": {
     "recommended": "C"
@@ -9,74 +9,32 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                      F            C",
-            "lyrics": "Quem pode consolar-nos neste peregrinar?"
-          },
-          {
-            "chords": "Am        A7   Dm      Fm  G7               C",
-            "lyrics": "Quem pode conduzir-nos     ao nosso_eterno lar?"
-          },
-          {
-            "chords": "                               G7       C            F    Dm",
-            "lyrics": "Quem pode dar-nos mais forças?    Quem pode nos socorrer?"
-          },
-          {
-            "chords": " G7                C    C#°        G7                C",
-            "lyrics": "Aquele que, por piedade,    foi na cruz, por nós, morrer;"
-          },
-          {
-            "chords": "C/A#             F     Fm     C      G7     C",
-            "lyrics": "Jesus que, sobre tudo,    recebeu de Deus poder."
-          }
+        "text": [
+          "[C]Quem pode consolar-nos [F]neste peregri[C]nar?",
+          "[Am]Quem pode [A7]condu[Dm]zir-nos [Fm]    [G7]ao nosso_eterno l[C]ar?",
+          "Quem pode dar-nos mais forças? [G7]   Quem p[C]ode nos socor[F]rer?[Dm]",
+          "A[G7]quele que, por pie[C]dade,[C#°]    foi na [G7]cruz, por nós, mor[C]rer;",
+          "[C/A#]Jesus que, sobre [F]tudo, [Fm]   rece[C]beu de [G7]Deus po[C]der."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "  G7             C",
-            "lyrics": "Jesus é_o nosso Guia,"
-          },
-          {
-            "chords": "   G7        C",
-            "lyrics": "Perfeito e fiel;"
-          },
-          {
-            "chords": "    C/A#           F    Fm",
-            "lyrics": "Esperemos noite_e dia"
-          },
-          {
-            "chords": "       C         G7  C    C...",
-            "lyrics": "Só em Cristo,_o_Emanuel."
-          }
+        "text": [
+          "Je[G7]sus é_o nosso G[C]uia,",
+          "Per[G7]feito e fi[C]el;",
+          "Espe[C/A#]remos noite_e d[F]ia[Fm]",
+          "Só em C[C]risto,_o_E[G7]manu[C]el.[C...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                     F            C",
-            "lyrics": "Por um caminho plano nos guiará Jesus,"
-          },
-          {
-            "chords": "Am      A7  Dm   Fm  G7              C",
-            "lyrics": "Ele nos ilu-mina     com Sua_eterna luz;"
-          },
-          {
-            "chords": "                     G7    C               F    Dm",
-            "lyrics": "É ele Quem nos envia    virtude, graça_e poder,"
-          },
-          {
-            "chords": "   G7              C     C#°     G7            C",
-            "lyrics": "E, neste mundo de trevas,    nos fará resplandecer;"
-          },
-          {
-            "chords": "   C/A#       F    Fm      C     G7     C",
-            "lyrics": "Findando a jornada,    Sua face_iremos ver."
-          }
+        "text": [
+          "[C]Por um caminho plano n[F]os guiará Jes[C]us,",
+          "[Am]Ele nos [A7]ilu-[Dm]mina [Fm]    [G7]com Sua_eterna l[C]uz;",
+          "É ele Quem nos envia [G7]   vir[C]tude, graça_e po[F]der,[Dm]",
+          "E, [G7]neste mundo de t[C]revas,[C#°]    nos [G7]fará resplande[C]cer;",
+          "Fin[C/A#]dando a jor[F]nada,[Fm]    Sua [C]face_i[G7]remos v[C]er."
         ]
       },
       {

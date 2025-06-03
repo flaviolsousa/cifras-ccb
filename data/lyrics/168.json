@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A Palavra do Senhor",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     B                                     F#",
-            "lyrics": "Na Palavra do Senhor, bons conselhos pode_achar,"
-          },
-          {
-            "chords": "      B            E   F°     F#7           B",
-            "lyrics": "Neste mundo,_o pecador que na glória quer entrar;"
-          },
-          {
-            "chords": "B7     E                   B          F#",
-            "lyrics": "Tem virtude, tem vigor a Palavra do Senhor,"
-          },
-          {
-            "chords": "    B         E...  F°   F#7       B",
-            "lyrics": "É a Guia do fiel    para ir ao Criador."
-          }
+        "text": [
+          "Na Pa[B]lavra do Senhor, bons conselhos pode_a[F#]char,",
+          "Neste [B]mundo,_o peca[E]dor [F°]que na [F#7]glória quer en[B]trar;",
+          "[B7]Tem vir[E]tude, tem vigor a Pa[B]lavra do Se[F#]nhor,",
+          "É a [B]Guia do fi[E...]el    [F°]para [F#7]ir ao Cria[B]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "    B",
-            "lyrics": "A Palavra do Senhor "
-          },
-          {
-            "chords": "         F# ",
-            "lyrics": "Mostra_a todo_o pecador"
-          },
-          {
-            "chords": "          G#m             E...",
-            "lyrics": "Que Deus, por Seu grande_amor,"
-          },
-          {
-            "chords": "    F#7       B    B...",
-            "lyrics": "Enviou o Salvador."
-          }
+        "text": [
+          "A Pa[B]lavra do Senhor ",
+          "Mostra_a [F#]todo_o pecador",
+          "Que Deus, [G#m]por Seu grande_a[E...]mor,",
+          "Envi[F#7]ou o Salva[B]dor.[B...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "        B                                 F#",
-            "lyrics": "Quem procura_o Salvador, certamente_O achará"
-          },
-          {
-            "chords": "       B         E    F°    F#7           B",
-            "lyrics": "No_Evangelho de amor, que riqueza_a todos dá;"
-          },
-          {
-            "chords": "B7      E                     B            F#",
-            "lyrics": "Quem quiser de graça ter o perdão e_a salvação,"
-          },
-          {
-            "chords": "       B           E...  F°     F#7      B",
-            "lyrics": "Deve_a Cristo recorrer,  com sincero coração."
-          }
+        "text": [
+          "Quem pro[B]cura_o Salvador, certamente_O acha[F#]rá",
+          "No_Evan[B]gelho de a[E]mor, [F°]que ri[F#7]queza_a todos [B]dá;",
+          "[B7]Quem qui[E]ser de graça ter o per[B]dão e_a salva[F#]ção,",
+          "Deve_a [B]Cristo recor[E...]rer,  [F°]com sin[F#7]cero cora[B]ção."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "       B                               F#",
-            "lyrics": "Quem a Cristo encontrar e virtude suplicar,"
-          },
-          {
-            "chords": "        B        E  F°      F#7          B",
-            "lyrics": "Transformado ficará para,_a Deus, glorificar;"
-          },
-          {
-            "chords": "B7   E                   B           F#",
-            "lyrics": "Provará o puro_amor de Jesus, o Salvador,"
-          },
-          {
-            "chords": "      B         E...  F°   F#7        B",
-            "lyrics": "Sustentado pela fé    no poder do Criador."
-          }
+        "text": [
+          "Quem a [B]Cristo encontrar e virtude supli[F#]car,",
+          "Transfor[B]mado fica[E]rá [F°]para,_a [F#7]Deus, glorifi[B]car;",
+          "[B7]Prova[E]rá o puro_amor de Je[B]sus, o Salva[F#]dor,",
+          "Susten[B]tado pela [E...]fé    [F°]no po[F#7]der do Cria[B]dor."
         ]
       },
       {

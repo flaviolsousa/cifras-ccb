@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Água viva",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E             B7 ",
-            "lyrics": "Água viva sai do Manancial"
-          },
-          {
-            "chords": "                     E",
-            "lyrics": "Que é Cristo,_o Redentor;"
-          },
-          {
-            "chords": "                         B7 ",
-            "lyrics": "Ela traz, dos céus, vida eternal"
-          },
-          {
-            "chords": "                 E",
-            "lyrics": "E converte_o pecador."
-          }
+        "text": [
+          "Água [E]viva sai do Ma[B7]nancial",
+          "Que é Cristo,_o Reden[E]tor;",
+          "Ela traz, dos céus, vida [B7]eternal",
+          "E converte_o peca[E]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      E                  B7 ",
-            "lyrics": "Dessa água quem quiser beber,"
-          },
-          {
-            "chords": "                      E",
-            "lyrics": "Só a Cristo deve recorrer;"
-          },
-          {
-            "chords": "                 E7   A ",
-            "lyrics": "Outra água nos fará perecer,"
-          },
-          {
-            "chords": "      B7                 E",
-            "lyrics": "Mas a de Jesus nos faz viver."
-          }
+        "text": [
+          "Dessa [E]água quem quiser be[B7]ber,",
+          "Só a Cristo deve recor[E]rer;",
+          "Outra água nos fa[E7]rá pe[A]recer,",
+          "Mas a [B7]de Jesus nos faz vi[E]ver."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "     E             B7 ",
-            "lyrics": "Água viva da Fonte de amor"
-          },
-          {
-            "chords": "                  E",
-            "lyrics": "Só Jesus nos pode dar;"
-          },
-          {
-            "chords": "                        B7 ",
-            "lyrics": "D´Ele vem perdão para_o pecador"
-          },
-          {
-            "chords": "                 E",
-            "lyrics": "Que deseja se salvar."
-          }
+        "text": [
+          "Água [E]viva da Fonte [B7]de amor",
+          "Só Jesus nos pode [E]dar;",
+          "D´Ele vem perdão para_o [B7]pecador",
+          "Que deseja se sal[E]var."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "     E             B7 ",
-            "lyrics": "Água viva do trono celestial,"
-          },
-          {
-            "chords": "                   E",
-            "lyrics": "Refrigério_a todos traz;"
-          },
-          {
-            "chords": "                       B7 ",
-            "lyrics": "Outras águas há, mas nenhuma_igual"
-          },
-          {
-            "chords": "                 E",
-            "lyrics": "À do Príncipe da paz."
-          }
+        "text": [
+          "Água [E]viva do trono [B7]celestial,",
+          "Refrigério_a todos [E]traz;",
+          "Outras águas há, mas ne[B7]nhuma_igual",
+          "À do Príncipe da [E]paz."
         ]
       },
       {

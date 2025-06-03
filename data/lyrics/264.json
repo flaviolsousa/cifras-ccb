@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Redentor celeste e santo",
   "tone": {
     "recommended": "C"
@@ -9,50 +9,26 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "C                              G        C",
-            "lyrics": "Redentor celeste_e santo, puro é o Teu amor;"
-          },
-          {
-            "chords": "                        F    G       G7      C",
-            "lyrics": "Tu me deste a_esperança de entrar no céu, Senhor."
-          }
+        "text": [
+          "[C]Redentor celeste_e santo, puro [G]é o Teu a[C]mor;",
+          "Tu me deste a_esperança [F]de en[G]trar no [G7]céu, Sen[C]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G7               C",
-            "lyrics": "Oh! Quão feliz serei no dia"
-          },
-          {
-            "chords": "F        G      D7     G ",
-            "lyrics": "Em que Jesus do céu voltar;"
-          },
-          {
-            "chords": "C                 F      C",
-            "lyrics": "Junto aos santos, que_alegria,"
-          },
-          {
-            "chords": "F      G       G7    C",
-            "lyrics": "O galardão vou desfrutar!"
-          }
+        "text": [
+          "[G7]Oh! Quão feliz se[C]rei no dia",
+          "[F]Em que Je[G]sus do [D7]céu vol[G]tar;",
+          "[C]Junto aos santos, [F]que_ale[C]gria,",
+          "[F]O galar[G]dão vou [G7]desfru[C]tar!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "C                                      G         C",
-            "lyrics": "Faz, Senhor, com que_eu me_aparte do pecado e do mal,"
-          },
-          {
-            "chords": "                     F       G     G7   C",
-            "lyrics": "E medite noite_e dia sobre_a lei celestial."
-          }
+        "text": [
+          "[C]Faz, Senhor, com que_eu me_aparte do pe[G]cado e do [C]mal,",
+          "E medite noite_e dia [F]sobre_a [G]lei ce[G7]lesti[C]al."
         ]
       },
       {
@@ -62,15 +38,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "C                             G            C",
-            "lyrics": "Bem firmado na_esperança, a vitória_alcançarei;"
-          },
-          {
-            "chords": "                        F      G     G7   C",
-            "lyrics": "Prosseguindo confiante, no Teu reino entrarei."
-          }
+        "text": [
+          "[C]Bem firmado na_esperança, a vi[G]tória_alcança[C]rei;",
+          "Prosseguindo confiante, [F]no Teu [G]reino [G7]entra[C]rei."
         ]
       },
       {

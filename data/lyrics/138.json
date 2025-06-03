@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Louvemos ao bom Jesus",
   "tone": {
     "recommended": "A"
@@ -9,88 +9,40 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A                           E           A",
-            "lyrics": "Dos céus, com glória, surgirá a celestial cidade;"
-          },
-          {
-            "chords": "                         E         A",
-            "lyrics": "Cidade santa onde Deus conosco estará."
-          },
-          {
-            "chords": "  E                     A",
-            "lyrics": "Naquele reino_eterno há paz e_amor superno;"
-          },
-          {
-            "chords": "                F#m         Bm    E      A",
-            "lyrics": "Louvor e glória ao Senhor daremos com fervor."
-          }
+        "text": [
+          "Dos [A]céus, com glória, surgirá a [E]celestial ci[A]dade;",
+          "Cidade santa onde Deus co[E]nosco esta[A]rá.",
+          "Na[E]quele reino_eterno há [A]paz e_amor superno;",
+          "Louvor e glória [F#m]ao Senhor da[Bm]remos [E]com fer[A]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  A                        E           A",
-            "lyrics": "Jamais devemos vacilar nas tentações e provas;"
-          },
-          {
-            "chords": "                            E            A",
-            "lyrics": "Não nos cansemos de lutar, orando sem cessar;"
-          },
-          {
-            "chords": "    E                       A",
-            "lyrics": "Por Cristo, nossa Glória, teremos a vitória,"
-          },
-          {
-            "chords": "              F#m            Bm    E     A",
-            "lyrics": "Então veremos o_esplendor do reino do Senhor."
-          }
+        "text": [
+          "Ja[A]mais devemos vacilar nas [E]tentações e [A]provas;",
+          "Não nos cansemos de lutar, o[E]rando sem ces[A]sar;",
+          "Por [E]Cristo, nossa Glória, te[A]remos a vitória,",
+          "Então veremos [F#m]o_esplendor do [Bm]reino [E]do Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A                         E            A",
-            "lyrics": "Jesus mui breve voltará, Glorioso_e_Onipotente,"
-          },
-          {
-            "chords": "                            E         A",
-            "lyrics": "Nas nuvens nos acolherá e_a Si nos unirá;"
-          },
-          {
-            "chords": "    E                  A",
-            "lyrics": "Com Ele subiremos e,_então, contemplaremos"
-          },
-          {
-            "chords": "               F#m        Bm    E        A",
-            "lyrics": "O nosso_eterno Criador no reino de_esplendor."
-          }
+        "text": [
+          "Je[A]sus mui breve voltará, Glo[E]rioso_e_Onipo[A]tente,",
+          "Nas nuvens nos acolherá e_a [E]Si nos uni[A]rá;",
+          "Com [E]Ele subiremos e,_en[A]tão, contemplaremos",
+          "O nosso_eterno [F#m]Criador no [Bm]reino [E]de_esplen[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                      E           A",
-            "lyrics": "Louvemos ao bom Jesus, Rei da paz, Rei da luz;"
-          },
-          {
-            "chords": "                           E             A",
-            "lyrics": "Louvemos ao bom Jesus, que para_o céu conduz;"
-          },
-          {
-            "chords": "   E                  A",
-            "lyrics": "A_igreja reunida com Cristo,_eterna Vida,"
-          },
-          {
-            "chords": "            F#m         Bm   E     A",
-            "lyrics": "Entoará, ao Criador, um hino de louvor."
-          }
+        "text": [
+          "[A]Louvemos ao bom Jesus, [E]Rei da paz, [A]Rei da luz;",
+          "Louvemos ao bom Jesus, que [E]para_o céu con[A]duz;",
+          "A_i[E]greja reunida com C[A]risto,_eterna Vida,",
+          "Entoará, ao [F#m]Criador, um [Bm]hino [E]de lou[A]vor."
         ]
       }
     ]

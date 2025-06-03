@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Senhor, vem selar-nos",
   "tone": {
     "recommended": "G"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                D                   G",
-            "lyrics": "Do Teu Espírito Santo, derrama, ó Senhor;"
-          },
-          {
-            "chords": "                  D                     G",
-            "lyrics": "Sobre os que O esperam com fé e com fervor."
-          }
+        "text": [
+          "[G]Do Teu Espírito S[D]anto, derrama, ó Sen[G]hor;",
+          "Sobre os que O esp[D]eram com fé e com ferv[G]or."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "   G          D                      G",
-            "lyrics": "Senhor, vem selar-nos com o Espírito Santo;"
-          },
-          {
-            "chords": "            D                           G",
-            "lyrics": "Sim, vem alegrar-nos com Teu bom Consolador."
-          }
+        "text": [
+          "Sen[G]hor, vem se[D]lar-nos com o Espírito [G]Santo;",
+          "Sim, vem ale[D]grar-nos com Teu bom Consola[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G                D                 G",
-            "lyrics": "É para nós, precioso, ó santo Redentor,"
-          },
-          {
-            "chords": "                     D                   G",
-            "lyrics": "Teu Dom divino, almejado, bendito e de valor."
-          }
+        "text": [
+          "[G]É para nós, preci[D]oso, ó santo Reden[G]tor,",
+          "Teu Dom divino, almej[D]ado, bendito e de va[G]lor."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                  D                     G",
-            "lyrics": "Dá-nos, por Tua bondade, da herança o Penhor;"
-          },
-          {
-            "chords": "                 D                   G",
-            "lyrics": "Ansiosamente esperamos, bondoso Salvador."
-          }
+        "text": [
+          "[G]Dá-nos, por Tua bon[D]dade, da herança o Pen[G]hor;",
+          "Ansiosamente espe[D]ramos, bondoso Salva[G]dor."
         ]
       },
       {

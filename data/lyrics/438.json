@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Oh! Que amor celeste!",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    E",
-            "lyrics": "Bem perto_está dos Seus fiéis"
-          },
-          {
-            "chords": "                B7  E",
-            "lyrics": "Jesus, o grande Mestre;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Jamais nos deixa_o Rei dos reis,"
-          },
-          {
-            "chords": "               B7  E",
-            "lyrics": "Oh! Que amor celes-te!"
-          }
+        "text": [
+          "Bem [E]perto_está dos Seus fiéis",
+          "Jesus, o grande [B7]Mest[E]re;",
+          "Jamais nos deixa_o Rei dos reis,",
+          "Oh! Que amor ce[B7]les-[E]te!"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "E            A    E",
-            "lyrics": "Perto está o Salvador"
-          },
-          {
-            "chords": "                  B7     E",
-            "lyrics": "Dos que O têm por seu Pastor;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Não nos deixa_o Redentor;"
-          },
-          {
-            "chords": "               B7  E    E...",
-            "lyrics": "Oh! Que amor celes-te!"
-          }
+        "text": [
+          "[E]Perto está o [A]Salva[E]dor",
+          "Dos que O têm por [B7]seu Pas[E]tor;",
+          "Não nos deixa_o Redentor;",
+          "Oh! Que amor ce[B7]les-[E]te![E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   E ",
-            "lyrics": "Jesus, o nosso Redentor,"
-          },
-          {
-            "chords": "              B7  E",
-            "lyrics": "Do alto nos reves-te;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Nas provas, lutas ou a dor,"
-          },
-          {
-            "chords": "                B7  E",
-            "lyrics": "Presente_está o Mestre."
-          }
+        "text": [
+          "Jes[E]us, o nosso Redentor,",
+          "Do alto nos re[B7]ves-[E]te;",
+          "Nas provas, lutas ou a dor,",
+          "Presente_está o [B7]Mest[E]re."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   E",
-            "lyrics": "Na nossa peregrinação"
-          },
-          {
-            "chords": "                  B7  E",
-            "lyrics": "É Cristo Quem nos gui-a;"
-          },
-          {
-            "chords": "",
-            "lyrics": "Estende sempre_a Sua mão,"
-          },
-          {
-            "chords": "                   B7  E",
-            "lyrics": "Nos guarda noite_e di- a."
-          }
+        "text": [
+          "Na [E]nossa peregrinação",
+          "É Cristo Quem nos [B7]gui-[E]a;",
+          "Estende sempre_a Sua mão,",
+          "Nos guarda noite_e [B7]di- [E]a."
         ]
       },
       {

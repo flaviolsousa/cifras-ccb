@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "\"Sou o Caminho, a Verdade e a Vida\"",
   "tone": {
     "recommended": "E"
@@ -9,89 +9,41 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " E   B   C#m  E     A     B     E",
-            "lyrics": "“Sou o Cami - nho”, disse-nos Jesus;"
-          },
-          {
-            "chords": "   A      E   F#7         B ",
-            "lyrics": "Nesse Caminho vamos nós andar,"
-          },
-          {
-            "chords": "E  B      C#m  E    A   C#     F#m ",
-            "lyrics": "Firmes na fé,  pois ela nos conduz"
-          },
-          {
-            "chords": "B      E     A      B      E",
-            "lyrics": "Na esperança de, no céu, morar."
-          }
+        "text": [
+          "“[E]Sou [B]o Ca[C#m]mi - [E]nho”, [A]disse-[B]nos Je[E]sus;",
+          "Nes[A]se Cami[E]nho [F#7]vamos nós an[B]dar,",
+          "[E]Fir[B]mes na [C#m]fé,  [E]pois [A]ela [C#]nos con[F#m]duz",
+          "[B]Na espe[E]rança [A]de, no [B]céu, mo[E]rar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " E   B    C#m  E    A       B    E",
-            "lyrics": "“Sou a Verda - de”, disse_o Salvador;"
-          },
-          {
-            "chords": "   A       E  F#7          B ",
-            "lyrics": "Nessa Verdade vamos nos firmar;"
-          },
-          {
-            "chords": "E   B      C#m  E     A     C#  F#m ",
-            "lyrics": "E - la nos le - va_ao reino de amor,"
-          },
-          {
-            "chords": "B         E      A      B     E",
-            "lyrics": "Onde_os fiéis em breve_irão entrar."
-          }
+        "text": [
+          "“[E]Sou [B]a Ver[C#m]da - [E]de”, [A]disse_o [B]Salva[E]dor;",
+          "Nes[A]sa Verda[E]de [F#7]vamos nos fir[B]mar;",
+          "[E]E - [B]la nos [C#m]le - [E]va_ao [A]reino [C#]de a[F#m]mor,",
+          "[B]Onde_os fi[E]éis em [A]breve_i[B]rão en[E]trar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " E  B     C#m  E    A       B    E",
-            "lyrics": "“Eu sou a Vi - da”, disse_o Redentor;"
-          },
-          {
-            "chords": "  A      E  F#7            B  ",
-            "lyrics": "É essa Vida que suplanta_o mal,"
-          },
-          {
-            "chords": "E    B     C#m   E   A    C#  F#m ",
-            "lyrics": "Vi - da perfei - ta, Vida de amor,"
-          },
-          {
-            "chords": "B      E     A   B    E",
-            "lyrics": "Vida sublime e celestial."
-          }
+        "text": [
+          "“[E]Eu [B]sou a [C#m]Vi - [E]da”, [A]disse_o [B]Reden[E]tor;",
+          "É [A]essa Vi[E]da [F#7]que suplanta_o [B]mal,",
+          "[E]Vi - [B]da per[C#m]fei - [E]ta, [A]Vida [C#]de a[F#m]mor,",
+          "[B]Vida su[E]blime [A]e ce[B]lesti[E]al."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": " E  B      C#m  E  A      B       E",
-            "lyrics": "“Ninguém virá   ao Pai, senão por Mim”,"
-          },
-          {
-            "chords": "   A         E    F#7         B  ",
-            "lyrics": "Disse Jesus, Au - tor da salvação;"
-          },
-          {
-            "chords": "E  B    C#m  E  A   C#      F#m ",
-            "lyrics": "Só no Senhor há dádivas sem fim,"
-          },
-          {
-            "chords": "B          E    A     B    E",
-            "lyrics": "Só n´Ele_alcançaremos redenção."
-          }
+        "text": [
+          "“[E]Nin[B]guém vi[C#m]rá   [E]ao [A]Pai, se[B]não por [E]Mim”,",
+          "Dis[A]se Jesus, [E]Au - [F#7]tor da salva[B]ção;",
+          "[E]Só [B]no Se[C#m]nhor [E]há [A]dádi[C#]vas sem [F#m]fim,",
+          "[B]Só n´Ele_al[E]cança[A]remos [B]reden[E]ção."
         ]
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Profundo é o saber de Deus, Criador",
   "tone": {
     "recommended": "A"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    A                  D         E ",
-            "lyrics": "Profundo_é_o saber de Deus, Criador,"
-          },
-          {
-            "chords": "  A                 E            A",
-            "lyrics": "Saber sem igual, de grande esplendor;"
-          },
-          {
-            "chords": "    E        E7 ",
-            "lyrics": "O_intento de Deus ninguém pode sondar;"
-          },
-          {
-            "chords": "   A                     E             A",
-            "lyrics": "Conselhos ninguém foi ao grande Deus ditar."
-          }
+        "text": [
+          "Prof[A]undo_é_o saber de D[D]eus, Criad[E]or,",
+          "Sa[A]ber sem igual, de [E]grande esplen[A]dor;",
+          "O_in[E]tento de [E7]Deus ninguém pode sondar;",
+          "Con[A]selhos ninguém foi ao [E]grande Deus di[A]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "   A             D        E ",
-            "lyrics": "Perfeito saber é só o de Deus,"
-          },
-          {
-            "chords": "  A              E            A",
-            "lyrics": "Altíssimo são os pensamentos Seus;"
-          },
-          {
-            "chords": "    E     E7 ",
-            "lyrics": "Por Ele e d´Ele é tudo_o que há;"
-          },
-          {
-            "chords": "   A                       E            A",
-            "lyrics": "É Deus que, aos homens, sustento sempre dá."
-          }
+        "text": [
+          "Per[A]feito saber é [D]só o de D[E]eus,",
+          "Al[A]tíssimo são os [E]pensamentos S[A]eus;",
+          "Por [E]Ele e [E7]d´Ele é tudo_o que há;",
+          "É D[A]eus que, aos homens, sus[E]tento sempre [A]dá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "  A              D        E        ",
-            "lyrics": "Sublime saber pertence a Deus,"
-          },
-          {
-            "chords": "  A                  E           A",
-            "lyrics": "Ciência dos céus não negará aos Seus;"
-          },
-          {
-            "chords": "  E         E7 ",
-            "lyrics": "Riquezas perpétuas só Ele_é que tem;"
-          },
-          {
-            "chords": "  A             E            A",
-            "lyrics": "A Ele a glória eternamente._Amém."
-          }
+        "text": [
+          "Su[A]blime saber per[D]tence a D[E]eus,",
+          "Ci[A]ência dos céus não [E]negará aos S[A]eus;",
+          "Ri[E]quezas per[E7]pétuas só Ele_é que tem;",
+          "A [A]Ele a glória e[E]ternamente._A[A]mém."
         ]
       }
     ]

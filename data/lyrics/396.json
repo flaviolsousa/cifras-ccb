@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos, ó irmãos, marchar",
   "tone": {
     "recommended": "B"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "       B                         E ",
-            "lyrics": "Vamos, ó irmãos, marchar sempre_avante para_o céu,"
-          },
-          {
-            "chords": "     F#7                     B",
-            "lyrics": "Confiantes, nas pisadas de Jesus,"
-          },
-          {
-            "chords": "                             E  ",
-            "lyrics": "Pois à frente Ele_está e por nós combaterá,"
-          },
-          {
-            "chords": "     F#7                     B",
-            "lyrics": "Desfará as trevas com a Sua luz."
-          }
+        "text": [
+          "Vamos, [B]ó irmãos, marchar sempre_a[E]vante para_o céu,",
+          "Confi[F#7]antes, nas pisadas de Je[B]sus,",
+          "Pois à frente Ele_está e por [E]nós combaterá,",
+          "Desfa[F#7]rá as trevas com a Sua l[B]uz."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      F#7                       B",
-            "lyrics": "Com Jesus marchemos à_eternal Sião,"
-          },
-          {
-            "chords": "       E                      F#7 ",
-            "lyrics": "Bem cingidos de justiça_e retidão,"
-          },
-          {
-            "chords": "       B                                E ",
-            "lyrics": "Pois à frente Ele_está e ao céu nos levará,"
-          },
-          {
-            "chords": "      F#7                 B",
-            "lyrics": "Onde_iremos receber galardão."
-          }
+        "text": [
+          "Com Je[F#7]sus marchemos à_eternal Si[B]ão,",
+          "Bem cin[E]gidos de justiça_e reti[F#7]dão,",
+          "Pois à [B]frente Ele_está e ao céu nos leva[E]rá,",
+          "Onde_i[F#7]remos receber galard[B]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "       B                       E ",
-            "lyrics": "Cristo nos conduz a Deus com a Sua forte mão,"
-          },
-          {
-            "chords": "    F#7                      B",
-            "lyrics": "Valorosos, caminhemos nessa luz,"
-          },
-          {
-            "chords": "                               E ",
-            "lyrics": "Pois à frente Ele_está, nossos passos guiará;"
-          },
-          {
-            "chords": "     F#7                       B",
-            "lyrics": "Confiemos em Jesus, que nos conduz."
-          }
+        "text": [
+          "Cristo [B]nos conduz a Deus com a [E]Sua forte mão,",
+          "Valo[F#7]rosos, caminhemos nessa l[B]uz,",
+          "Pois à frente Ele_está, nossos [E]passos guiará;",
+          "Confi[F#7]emos em Jesus, que nos con[B]duz."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "        B                    E ",
-            "lyrics": "Sempre_unidos, ó irmãos, em amor e comunhão,"
-          },
-          {
-            "chords": "      F#7                     B",
-            "lyrics": "Prossigamos nas pisadas de Jesus,"
-          },
-          {
-            "chords": "                            E ",
-            "lyrics": "Pois à frente Ele_está, a vitória nos dará,"
-          },
-          {
-            "chords": "     F#7                       B",
-            "lyrics": "Se andarmos, ó irmãos, em Sua luz."
-          }
+        "text": [
+          "Sempre_u[B]nidos, ó irmãos, em a[E]mor e comunhão,",
+          "Prossi[F#7]gamos nas pisadas de Jes[B]us,",
+          "Pois à frente Ele_está, a vi[E]tória nos dará,",
+          "Se an[F#7]darmos, ó irmãos, em Sua l[B]uz."
         ]
       },
       {

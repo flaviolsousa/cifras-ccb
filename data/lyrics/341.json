@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Com fé espera no Senhor",
   "tone": {
     "recommended": "D"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    D         G            D               A ",
-            "lyrics": "Com fé espera no Senhor em tuas provas, também na dor;"
-          },
-          {
-            "chords": "  D               G           D             A     D",
-            "lyrics": "Paciência_e paz alcançarás do teu amado_e fiel Senhor."
-          },
-          {
-            "chords": "                                                A... ",
-            "lyrics": "Jesus virá te socorrer; é grande,_eterno, Seu poder."
-          },
-          {
-            "chords": "    D         G     G...   D            A      D   D... ",
-            "lyrics": "Com fé espera no Senhor; somente Ele te faz vencer."
-          }
+        "text": [
+          "Com [D]fé espera [G]no Senhor em [D]tuas provas, tam[A]bém na dor;",
+          "Pa[D]ciência_e paz al[G]cançarás do [D]teu amado_e fi[A]el Sen[D]hor.",
+          "Jesus virá te socorrer; é grande,_eterno, Seu po[A...]der.",
+          "Com [D]fé espera [G]no Sen[G...]hor; so[D]mente Ele te [A]faz ven[D]cer.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D             G          D           A ",
-            "lyrics": "Orando, sempre sentirás a Sua doce consolação;"
-          },
-          {
-            "chords": "  D           G          D              A   D",
-            "lyrics": "Jesus te fortalecerá; suster-te-á com a Sua mão;"
-          },
-          {
-            "chords": "                                            A... ",
-            "lyrics": "As tuas causas o Senhor resolverá, por Seu amor."
-          },
-          {
-            "chords": "    D         G     G...     D            A    D   D...",
-            "lyrics": "Com fé espera no Senhor, com fé espera no Salvador."
-          }
+        "text": [
+          "O[D]rando, sempre [G]sentirás a [D]Sua doce con[A]solação;",
+          "Je[D]sus te forta[G]lecerá; sus[D]ter-te-á com a [A]Sua [D]mão;",
+          "As tuas causas o Senhor resolverá, por Seu a[A...]mor.",
+          "Com [D]fé espera [G]no Sen[G...]hor, com [D]fé espera no [A]Salva[D]dor.[D...]"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "   D          G              D             A ",
-            "lyrics": "O que recebes do Senhor, com zelo deves em ti guardar;"
-          },
-          {
-            "chords": "  D         G            D               A     D",
-            "lyrics": "À tua mão direita_está o teu Pastor para te guiar;"
-          },
-          {
-            "chords": "                                            A... ",
-            "lyrics": "Depois ao céu te levará, em glória te receberá."
-          },
-          {
-            "chords": "    D         G     G...   D              A     D   D...",
-            "lyrics": "Com fé espera no Senhor; o teu desejo_ele cumprirá."
-          }
+        "text": [
+          "O q[D]ue recebes [G]do Senhor, com [D]zelo deves em [A]ti guardar;",
+          "À [D]tua mão di[G]reita_está o [D]teu Pastor para [A]te gui[D]ar;",
+          "Depois ao céu te levará, em glória te recebe[A...]rá.",
+          "Com [D]fé espera [G]no Sen[G...]hor; o [D]teu desejo_ele [A]cumpri[D]rá.[D...]"
         ]
       }
     ]

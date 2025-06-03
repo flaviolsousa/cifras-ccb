@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Eis que multidão mui grande",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "     E                                         B7",
-            "lyrics": "Eis que multidão mui grande, de todas nações e tribos,"
-          },
-          {
-            "chords": "                                                E",
-            "lyrics": "Foi vista nos céus e dava louvor perante o Salvador."
-          },
-          {
-            "chords": "                             E7               A",
-            "lyrics": "Trajavam vestidos brancos, lavados por Jesus Cristo;"
-          },
-          {
-            "chords": "           B7     E         B7           E",
-            "lyrics": "Nas mãos levavam palmas, louvando ao Criador."
-          }
+        "text": [
+          "Eis q[E]ue multidão mui grande, de todas nações e [B7]tribos,",
+          "Foi vista nos céus e dava louvor perante o Salva[E]dor.",
+          "Trajavam vestidos brancos, la[E7]vados por Jesus C[A]risto;",
+          "Nas mãos le[B7]vavam p[E]almas, lou[B7]vando ao Cria[E]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "  E                                         B7",
-            "lyrics": "Diziam, perante o trono de Deus e do Seu Cordeiro,"
-          },
-          {
-            "chords": "                                                     E",
-            "lyrics": "Que a Deus, o Senhor, fiel Criador, pertence a salvação."
-          },
-          {
-            "chords": "                               E7             A",
-            "lyrics": "Prostrados, com reverência, honravam ao Verdadeiro;"
-          },
-          {
-            "chords": "         B7     E         B7          E",
-            "lyrics": "Ações de graças davam, em santa adoração."
-          }
+        "text": [
+          "Di[E]ziam, perante o trono de Deus e do Seu Cor[B7]deiro,",
+          "Que a Deus, o Senhor, fiel Criador, pertence a salvaç[E]ão.",
+          "Prostrados, com reverência, hon[E7]ravam ao Verdad[A]eiro;",
+          "Ações de [B7]graças [E]davam, em [B7]santa adoraç[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    E                                          B7",
-            "lyrics": "Com anjos, na eterna glória, alegres, cantavam hinos;"
-          },
-          {
-            "chords": "                                                        E",
-            "lyrics": "Mostraram valor com Cristo, o Senhor, na grande tribulação."
-          },
-          {
-            "chords": "                             E7                  A",
-            "lyrics": "Às fontes das águas vivas, Jesus guia os seus destinos;"
-          },
-          {
-            "chords": "           B7  E        B7              E",
-            "lyrics": "Com grande regozijo, no céu resplandecerão."
-          }
+        "text": [
+          "Com [E]anjos, na eterna glória, alegres, cantavam [B7]hinos;",
+          "Mostraram valor com Cristo, o Senhor, na grande tribulaç[E]ão.",
+          "Às fontes das águas vivas, Je[E7]sus guia os seus des[A]tinos;",
+          "Com grande [B7]rego[E]zijo, no [B7]céu resplandecer[E]ão."
         ]
       }
     ]

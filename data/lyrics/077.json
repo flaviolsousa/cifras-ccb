@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vamos lançar a semente",
   "tone": {
     "recommended": "A"
@@ -9,42 +9,24 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A                      E              A",
-            "lyrics": "Vamos lançar a semente com alegria e_amor,"
-          },
-          {
-            "chords": "D                A   F#m       B7      E ",
-            "lyrics": "Nesta gloriosa seara do nosso_amado Senhor."
-          }
+        "text": [
+          "[A]Vamos lançar a semente [E]com alegria e_a[A]mor,",
+          "[D]Nesta gloriosa se[A]ara [F#m]do nosso_a[B7]mado Sen[E]hor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                             E ",
-            "lyrics": "Santa Semente é a Palavra de Deus;"
-          },
-          {
-            "chords": "A                       E                   A",
-            "lyrics": "Quem com amor semeá-La, prêmio terá lá nos céus."
-          }
+        "text": [
+          "[A]Santa Semente é a Palavra de D[E]eus;",
+          "[A]Quem com amor semeá-La, [E]prêmio terá lá nos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A                     E                    A ",
-            "lyrics": "As boas novas levemos aos que em trevas estão,"
-          },
-          {
-            "chords": "D               A      F#m      B7       E ",
-            "lyrics": "Anunciando que Cristo, a todos, dá salvação."
-          }
+        "text": [
+          "[A]As boas novas levemos [E]aos que em trevas est[A]ão,",
+          "[D]Anunciando que C[A]risto, [F#m]a todos, [B7]dá salvaç[E]ão."
         ]
       },
       {
@@ -54,15 +36,9 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": " A                          E                  A ",
-            "lyrics": "“As terras já estão brancas e prontas para ceifar”,"
-          },
-          {
-            "chords": "D                  A      F#m      B7          E ",
-            "lyrics": "Disse assim o bom Mestre; vamos, irmãos, trabalhar."
-          }
+        "text": [
+          "“[A]As terras já estão brancas [E]e prontas para ceif[A]ar”,",
+          "[D]Disse assim o bom M[A]estre; [F#m]vamos, ir[B7]mãos, trabal[E]har."
         ]
       },
       {

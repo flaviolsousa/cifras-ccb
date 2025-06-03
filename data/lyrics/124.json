@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Vivo na graça",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                C         G",
-            "lyrics": "Vivo na graça do Filho de Deus,"
-          },
-          {
-            "chords": "D7             G     D7",
-            "lyrics": "Regenerado por Ele estou;"
-          },
-          {
-            "chords": "G                 C      D#7  G",
-            "lyrics": "Para Seu reino de glória nos céus,"
-          },
-          {
-            "chords": "G7       C         D7      G",
-            "lyrics": "Cristo Jesus já me predestinou."
-          }
+        "text": [
+          "[G]Vivo na graça do [C]Filho de D[G]eus,",
+          "[D7]Regenerado por [G]Ele es[D7]tou;",
+          "[G]Para Seu reino de [C]glória [D#7]nos c[G]éus,",
+          "[G7]Cristo Je[C]sus já me [D7]predesti[G]nou."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G                D        G",
-            "lyrics": "Vivo na graça do meu Salvador,"
-          },
-          {
-            "chords": "                  A7     D7",
-            "lyrics": "Vivo contente, em paz e amor;"
-          },
-          {
-            "chords": "G                 E       Am",
-            "lyrics": "Vivo_exaltando ao meu Criador;"
-          },
-          {
-            "chords": "                     D7      G    G...",
-            "lyrics": "Sinto_em minh´alma divino fervor."
-          }
+        "text": [
+          "[G]Vivo na graça do [D]meu Salva[G]dor,",
+          "Vivo contente, em [A7]paz e a[D7]mor;",
+          "[G]Vivo_exaltando ao [E]meu Cria[Am]dor;",
+          "Sinto_em minh´alma di[D7]vino fer[G]vor.[G...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G              C         G",
-            "lyrics": "Purificado por Cristo Jesus,"
-          },
-          {
-            "chords": "D7                 G      D7",
-            "lyrics": "Sinto em mim Seu sublime amor;"
-          },
-          {
-            "chords": "G              C    D#7  G",
-            "lyrics": "Ando na Sua justiça e   luz,"
-          },
-          {
-            "chords": "G7      C       D7       G",
-            "lyrics": "E neste mundo serei vencedor."
-          }
+        "text": [
+          "[G]Purificado por [C]Cristo Jes[G]us,",
+          "[D7]Sinto em mim Seu su[G]blime a[D7]mor;",
+          "[G]Ando na Sua jus[C]tiça [D#7]e   l[G]uz,",
+          "[G7]E neste [C]mundo se[D7]rei vence[G]dor."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                  C        G",
-            "lyrics": "Este_é_o desejo do meu coração:"
-          },
-          {
-            "chords": "D7               G        D7",
-            "lyrics": "Ser revestido da vida_eternal;"
-          },
-          {
-            "chords": "G                       C     D#7   G",
-            "lyrics": "Ser como_é Cristo,_o perfeito Va - rão,"
-          },
-          {
-            "chords": "G7      C        D7      G",
-            "lyrics": "E ter entrada no lar divinal."
-          }
+        "text": [
+          "[G]Este_é_o desejo do [C]meu coraç[G]ão:",
+          "[D7]Ser revestido da [G]vida_eter[D7]nal;",
+          "[G]Ser como_é Cristo,_o per[C]feito [D#7]Va - r[G]ão,",
+          "[G7]E ter en[C]trada no [D7]lar divi[G]nal."
         ]
       },
       {

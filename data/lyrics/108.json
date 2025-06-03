@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "É Jesus a Fonte de riqueza",
   "tone": {
     "recommended": "G"
@@ -9,57 +9,33 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "    G                D                               G",
-            "lyrics": "É Jesus a Fonte de riqueza, nosso_Escudo, nossa Fortaleza;"
-          },
-          {
-            "chords": "    C                G                D              G",
-            "lyrics": "É a nossa Luz, nosso Precursor, é_o Caminho_e bom Pastor."
-          }
+        "text": [
+          "É Je[G]sus a Fonte de ri[D]queza, nosso_Escudo, nossa Forta[G]leza;",
+          "É a [C]nossa Luz, nosso [G]Precursor, é_o Ca[D]minho_e bom Pas[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "    G                D                            G",
-            "lyrics": "É Jesus a Rocha preciosa, a Verdade_eterna_e gloriosa;"
-          },
-          {
-            "chords": "      C             G             D            G",
-            "lyrics": "D´Ele temos fé para O seguir e reinarmos no porvir."
-          }
+        "text": [
+          "É Je[G]sus a Rocha preci[D]osa, a Verdade_eterna_e glori[G]osa;",
+          "D´Ele [C]temos fé para [G]O seguir e rei[D]narmos no por[G]vir."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "    G                  D                        G",
-            "lyrics": "É Jesus a nossa_eterna Sorte, Sua obra aboliu a morte;"
-          },
-          {
-            "chords": "     C                    G            D            G",
-            "lyrics": "Derramou na cruz sangue_expiador; resgatou-nos o Senhor."
-          }
+        "text": [
+          "É Je[G]sus a nossa_eterna [D]Sorte, Sua obra aboliu a [G]morte;",
+          "Derra[C]mou na cruz sangue_ex[G]piador; resga[D]tou-nos o Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "verses": [
-          {
-            "chords": "    G               D                           G",
-            "lyrics": "É Jesus o Rei vitorioso, o Sublime, Santo_e Poderoso;"
-          },
-          {
-            "chords": "      C              G              D          G",
-            "lyrics": "É o_Autor da fé e Consumador; é, de tudo, o Senhor."
-          }
+        "text": [
+          "É Je[G]sus o Rei vitori[D]oso, o Sublime, Santo_e Pode[G]roso;",
+          "É o_Au[C]tor da fé e Con[G]sumador; é, de [D]tudo, o Sen[G]hor."
         ]
       }
     ]

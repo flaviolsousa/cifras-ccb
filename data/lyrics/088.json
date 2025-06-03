@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Minha oração",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "          G            D ",
-            "lyrics": "Minha_oração, ó meu Senhor,"
-          },
-          {
-            "chords": "                    G",
-            "lyrics": "Elevo_a Ti, em comunhão;"
-          },
-          {
-            "chords": "                          C ",
-            "lyrics": "Faz-me sentir Teu grande_amor,"
-          },
-          {
-            "chords": "      D           G",
-            "lyrics": "A Tua paz e Tua_unção."
-          }
+        "text": [
+          "Minha_oraç[G]ão, ó meu Sen[D]hor,",
+          "Elevo_a Ti, em comun[G]hão;",
+          "Faz-me sentir Teu grande_a[C]mor,",
+          "A Tua [D]paz e Tua_un[G]ção."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "        D           G",
-            "lyrics": "Em nome do Senhor Jesus"
-          },
-          {
-            "chords": "        A7         D ",
-            "lyrics": "Elevo_a Ti esta_oração."
-          },
-          {
-            "chords": "      G             C ",
-            "lyrics": "Ó Criador, Fonte de luz,"
-          },
-          {
-            "chords": "          D           G",
-            "lyrics": "Entrego_a Ti meu coração."
-          }
+        "text": [
+          "Em nome [D]do Senhor Je[G]sus",
+          "Elevo_a [A7]Ti esta_ora[D]ção.",
+          "Ó Cria[G]dor, Fonte de [C]luz,",
+          "Entrego_a [D]Ti meu coraç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "          G             D ",
-            "lyrics": "Minha_oração, ó Pai de_amor,"
-          },
-          {
-            "chords": "                     G",
-            "lyrics": "Elevo_a Ti para_alcançar"
-          },
-          {
-            "chords": "                   C ",
-            "lyrics": "A Tua paz, o Teu favor;"
-          },
-          {
-            "chords": "       D           G",
-            "lyrics": "Aqui estou a Te_adorar."
-          }
+        "text": [
+          "Minha_oraç[G]ão, ó Pai de_a[D]mor,",
+          "Elevo_a Ti para_alcan[G]çar",
+          "A Tua paz, o Teu fa[C]vor;",
+          "Aqui es[D]tou a Te_ado[G]rar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "          G             D ",
-            "lyrics": "Minha_oração, ó grande Deus,"
-          },
-          {
-            "chords": "                     G",
-            "lyrics": "Elevo_a Ti para_aprender"
-          },
-          {
-            "chords": "                      C ",
-            "lyrics": "Os eternais preceitos Teus"
-          },
-          {
-            "chords": "         D       G",
-            "lyrics": "E sempre Te obedecer."
-          }
+        "text": [
+          "Minha_oraç[G]ão, ó grande D[D]eus,",
+          "Elevo_a Ti para_apren[G]der",
+          "Os eternais preceitos [C]Teus",
+          "E sempre [D]Te obede[G]cer."
         ]
       },
       {

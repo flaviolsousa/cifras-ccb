@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Grande Tu és, ó Pai",
   "tone": {
     "recommended": "D"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": " D        G          A7     D",
-            "lyrics": "Grande Tu és, ó Pai, em lealdade,"
-          },
-          {
-            "chords": "G           D/F#      E7       A",
-            "lyrics": "És sempre_o mesmo, jamais mudarás;"
-          },
-          {
-            "chords": "A7       D         D7         G ",
-            "lyrics": "És compassivo,_infinito_em bondade,"
-          },
-          {
-            "chords": "G#°     D/A       A7        D",
-            "lyrics": "Como Tu és, assim sempre serás."
-          }
+        "text": [
+          "G[D]rande Tu [G]és, ó Pai, [A7]em leal[D]dade,",
+          "[G]És sempre_o [D/F#]mesmo, jam[E7]ais mudar[A]ás;",
+          "[A7]És compas[D]sivo,_infi[D7]nito_em bon[G]dade,",
+          "[G#°]Como Tu [D/A]és, assim [A7]sempre ser[D]ás."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": " A         D        B7      Em ",
-            "lyrics": "Santo_e Supremo és, excelso Formador,"
-          },
-          {
-            "chords": " A          D       E        A ",
-            "lyrics": "Sobre Teus filhos está Teu favor;"
-          },
-          {
-            "chords": "A7     D     D7    G ",
-            "lyrics": "Imensa é Tua fidelidade;"
-          },
-          {
-            "chords": "G#°         D/A       A7    D",
-            "lyrics": "Glória_e louvor a Ti, ó Criador."
-          }
+        "text": [
+          "S[A]anto_e Sup[D]remo és, [B7]excelso [Em]Formador,",
+          "S[A]obre Teus f[D]ilhos es[E]tá Teu fa[A]vor;",
+          "[A7]Imensa [D]é Tua [D7]fideli[G]dade;",
+          "[G#°]Glória_e lou[D/A]vor a Ti, [A7]ó Cria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": " D          G             A7        D",
-            "lyrics": "Quanto_é elevado,_ó Deus, Teu pensamento,"
-          },
-          {
-            "chords": "G       D/F#      E7      A",
-            "lyrics": "Em Tuas obras há grande saber;"
-          },
-          {
-            "chords": "A7       D             D7        G ",
-            "lyrics": "Reges a terra,_os céus e_o firmamento,"
-          },
-          {
-            "chords": "G#°      D/A       A7      D",
-            "lyrics": "Tudo_enaltece Teu grande poder."
-          }
+        "text": [
+          "Q[D]uanto_é ele[G]vado,_ó Deus, [A7]Teu pensam[D]ento,",
+          "[G]Em Tuas [D/F#]obras há g[E7]rande sa[A]ber;",
+          "[A7]Reges a t[D]erra,_os céus [D7]e_o firmam[G]ento,",
+          "[G#°]Tudo_enal[D/A]tece Teu g[A7]rande po[D]der."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "D        G          A7      D ",
-            "lyrics": "Só em Ti há perdão para_o pecado,"
-          },
-          {
-            "chords": " G       D/F#      E7      A ",
-            "lyrics": "Paz sempiterna dás ao coração;"
-          },
-          {
-            "chords": "A7     D              D7         G ",
-            "lyrics": "Tua presença,_ó Deus, nos tem guiado"
-          },
-          {
-            "chords": "G#°   D/A    A7       D",
-            "lyrics": "E guiará até a perfeição."
-          }
+        "text": [
+          "[D]Só em Ti [G]há perdão p[A7]ara_o pe[D]cado,",
+          "P[G]az sempi[D/F#]terna dás [E7]ao coraç[A]ão;",
+          "[A7]Tua pre[D]sença,_ó Deus, [D7]nos tem gui[G]ado",
+          "[G#°]E guia[D/A]rá até [A7]a perfeiç[D]ão."
         ]
       },
       {

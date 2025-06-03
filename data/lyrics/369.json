@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Sentes bater em teu coração?",
   "tone": {
     "recommended": "E"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E       ",
-            "lyrics": "Cristo bate_e quer entrar,"
-          },
-          {
-            "chords": "          B             E",
-            "lyrics": "Quer te remir, por Seu amor,"
-          },
-          {
-            "chords": "          A    E",
-            "lyrics": "Para te reconciliar"
-          },
-          {
-            "chords": "A           E    B      E",
-            "lyrics": "Com Deus, o Pai, o Formador."
-          }
+        "text": [
+          "[E]Cristo bate_e quer entrar,",
+          "Quer te re[B]mir, por Seu a[E]mor,",
+          "Para te re[A]conci[E]liar",
+          "[A]Com Deus, o [E]Pai, [B]o Forma[E]dor."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "B               E",
-            "lyrics": "Sentes bater em teu coração?"
-          },
-          {
-            "chords": "A                E     B ",
-            "lyrics": "Esse_é_o chamado do Senhor."
-          },
-          {
-            "chords": "E         B      E     A ",
-            "lyrics": "Tens, por Ele,_a salvação"
-          },
-          {
-            "chords": "        E  B      E    E...",
-            "lyrics": "E o perdão do Criador."
-          }
+        "text": [
+          "[B]Sentes bater em [E]teu coração?",
+          "[A]Esse_é_o chamado [E]do Sen[B]hor.",
+          "[E]Tens, por [B]Ele,_a [E]salvaç[A]ão",
+          "E o perd[E]ão [B]do Cria[E]dor.[E...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Jesus Cristo,_o Rei da paz,"
-          },
-          {
-            "chords": "        B          E",
-            "lyrics": "A salvação veio te dar;"
-          },
-          {
-            "chords": "           A       E",
-            "lyrics": "Seu amor feliz te faz,"
-          },
-          {
-            "chords": "A             E   B          E",
-            "lyrics": "Pois quer, em Ti, sempre_habitar."
-          }
+        "text": [
+          "[E]Jesus Cristo,_o Rei da paz,",
+          "A salvaç[B]ão veio te [E]dar;",
+          "Seu amor fe[A]liz te f[E]az,",
+          "[A]Pois quer, em [E]Ti, [B]sempre_habi[E]tar."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E",
-            "lyrics": "Vem a Cristo,_o Redentor,"
-          },
-          {
-            "chords": "            B            E",
-            "lyrics": "Dá-Lhe, por fé, teu coração;"
-          },
-          {
-            "chords": "            A    E",
-            "lyrics": "Reconhece_o Seu amor;"
-          },
-          {
-            "chords": "A          E    B       E",
-            "lyrics": "Tens, em Jesus, a redenção."
-          }
+        "text": [
+          "[E]Vem a Cristo,_o Redentor,",
+          "Dá-Lhe, por [B]fé, teu coraç[E]ão;",
+          "Reconhece_o [A]Seu a[E]mor;",
+          "[A]Tens, em Je[E]sus, [B]a redenç[E]ão."
         ]
       },
       {

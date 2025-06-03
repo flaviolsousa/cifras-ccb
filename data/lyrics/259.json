@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Só triunfará o de sincero coração",
   "tone": {
     "recommended": "G"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "G                      D        D5+   G",
-            "lyrics": "Quem servir a Deus, triunfará sobre_o mal"
-          },
-          {
-            "chords": "             D    B   G   A7    D ",
-            "lyrics": "E receberá o galardão e – ter - nal;"
-          },
-          {
-            "chords": "                 G         D             Em   B ",
-            "lyrics": "Lutará, com todo o fervor, contra toda_a tentação;"
-          },
-          {
-            "chords": "G         G7   C          G    D     G",
-            "lyrics": "Só triunfará o de sincero co – ra - ção."
-          }
+        "text": [
+          "[G]Quem servir a Deus, tri[D]unfará so[D5+]bre_o [G]mal",
+          "E receberá o [D]galar[B]dão [G]e – [A7]ter - [D]nal;",
+          "Lutará, com todo [G]o fervor, [D]contra toda_a [Em]tenta[B]ção;",
+          "[G]Só triunfa[G7]rá o [C]de sincero [G]co – [D]ra - ç[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "G     D ",
-            "lyrics": "Vamos batalhar"
-          },
-          {
-            "chords": "D7   G",
-            "lyrics": "Para alcançar"
-          },
-          {
-            "chords": "    G7  C ",
-            "lyrics": "Grande  galardão:"
-          },
-          {
-            "chords": "D7          G",
-            "lyrics": "Nossa salvação."
-          }
+        "text": [
+          "[G]Vamos [D]batalhar",
+          "[D7]Para [G]alcançar",
+          "Gran[G7]de  [C]galardão:",
+          "[D7]Nossa salvaç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "G               D           D5+  G",
-            "lyrics": "Nada pode destruir a fé que Deus dá;"
-          },
-          {
-            "chords": "                     D      B   G     A7  D ",
-            "lyrics": "Com Seu braço forte, Seus fiéis gui – a - rá;"
-          },
-          {
-            "chords": "                     G          D         Em    B ",
-            "lyrics": "Quem Seu Nome sempre confessar, nunca lutará em vão;"
-          },
-          {
-            "chords": "G         G7   C          G    D     G",
-            "lyrics": "Só triunfará o de sincero co – ra - ção."
-          }
+        "text": [
+          "[G]Nada pode destru[D]ir a fé que [D5+]Deus [G]dá;",
+          "Com Seu braço forte, [D]Seus fi[B]éis [G]gui – [A7]a - [D]rá;",
+          "Quem Seu Nome sempre [G]confessar, [D]nunca luta[Em]rá em [B]vão;",
+          "[G]Só triunfa[G7]rá o [C]de sincero [G]co – [D]ra - ç[G]ão."
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "G                 D              D5+  G",
-            "lyrics": "As potentes armas do cristão são dos  céus,"
-          },
-          {
-            "chords": "                D      B   G  A7  D ",
-            "lyrics": "Armas virtuosas que provêm só de  Deus;"
-          },
-          {
-            "chords": "              G      D          Em   B  ",
-            "lyrics": "A espada do Espírito livrará da tentação;"
-          },
-          {
-            "chords": "G         G7   C          G    D     G",
-            "lyrics": "Só triunfará o de sincero co – ra - ção."
-          }
+        "text": [
+          "[G]As potentes armas [D]do cristão são [D5+]dos  [G]céus,",
+          "Armas virtuosas [D]que pro[B]vêm [G]só [A7]de  [D]Deus;",
+          "A espada do Es[G]pírito [D]livrará da [Em]tenta[B]ção;",
+          "[G]Só triunfa[G7]rá o [C]de sincero [G]co – [D]ra - ç[G]ão."
         ]
       },
       {

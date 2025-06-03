@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Glória sem par",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Quando aqui terminar meu labor,"
-          },
-          {
-            "chords": "E                 A",
-            "lyrics": "Quando a minha carreira findar,"
-          },
-          {
-            "chords": "B7                 E ",
-            "lyrics": "Quando voltar meu amado Senhor,"
-          },
-          {
-            "chords": "B7                           E   E7... ",
-            "lyrics": "Glória sem par eu irei desfrutar."
-          }
+        "text": [
+          "[A]Quando aqui terminar meu labor,",
+          "[E]Quando a minha car[A]reira findar,",
+          "[B7]Quando voltar meu a[E]mado Senhor,",
+          "[B7]Glória sem par eu irei desfru[E]tar.[E7...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "A                       E ",
-            "lyrics": "Glória sem par contemplarei,"
-          },
-          {
-            "chords": "                     A",
-            "lyrics": "Glória sem par receberei;"
-          },
-          {
-            "chords": "                 D          C#... ",
-            "lyrics": "Grande tesouro Jesus vai me dar:"
-          },
-          {
-            "chords": "D       A  A...  E          A    A...",
-            "lyrics": "Glória eterna, a glória sem par."
-          }
+        "text": [
+          "[A]Glória sem par contempla[E]rei,",
+          "Glória sem par recebe[A]rei;",
+          "Grande tesouro Je[D]sus vai me [C#...]dar:",
+          "[D]Glória e[A]ter[A...]na, a [E]glória sem [A]par.[A...]"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "Por Sua grande bondade,_o meu Deus"
-          },
-          {
-            "chords": "E                    A",
-            "lyrics": "Me fez herdeiro com Cristo Jesus;"
-          },
-          {
-            "chords": "B7              E ",
-            "lyrics": "Ele reserva, no reino dos céus,"
-          },
-          {
-            "chords": "B7                              E   E7... ",
-            "lyrics": "Glória sem par aos que andam na luz."
-          }
+        "text": [
+          "[A]Por Sua grande bondade,_o meu Deus",
+          "[E]Me fez herdeiro com C[A]risto Jesus;",
+          "[B7]Ele reserva, no [E]reino dos céus,",
+          "[B7]Glória sem par aos que andam na [E]luz.[E7...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "A",
-            "lyrics": "É momentânea a tribulação"
-          },
-          {
-            "chords": "E                  A",
-            "lyrics": "Dos que procuram a Deus agradar,"
-          },
-          {
-            "chords": "B7                     E ",
-            "lyrics": "Pois das tristezas não se lembrarão"
-          },
-          {
-            "chords": "B7                             E   E7... ",
-            "lyrics": "Quando_estiverem na glória sem par."
-          }
+        "text": [
+          "[A]É momentânea a tribulação",
+          "[E]Dos que procuram a [A]Deus agradar,",
+          "[B7]Pois das tristezas não [E]se lembrarão",
+          "[B7]Quando_estiverem na glória sem [E]par.[E7...]"
         ]
       },
       {

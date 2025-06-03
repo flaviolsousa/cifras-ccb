@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "A descida do Espírito Santo",
   "tone": {
     "recommended": "E"
@@ -9,67 +9,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "E           A           E             B ",
-            "lyrics": "Reunidos se encontravam os discípulos do Senhor;"
-          },
-          {
-            "chords": "E               A          E        B        E",
-            "lyrics": "Com fervor eles esperavam, de Deus, o Consolador."
-          },
-          {
-            "chords": "A                   E           B       E",
-            "lyrics": "Eis que_um som, mui de repente, ecoar ouviu-se lá dos céus,"
-          },
-          {
-            "chords": "A             E         B                 E ",
-            "lyrics": "Qual um vento veemente: era_o_Espírito de Deus."
-          }
+        "text": [
+          "[E]Reunidos se [A]encontravam [E]os discípulos [B]do Senhor;",
+          "[E]Com fervor eles [A]esperavam, [E]de Deus, [B]o Consola[E]dor.",
+          "[A]Eis que_um som, mui [E]de repente, [B]ecoar ou[E]viu-se lá dos céus,",
+          "[A]Qual um vento [E]veemente: [B]era_o_Espírito de [E]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "E                A           E              B ",
-            "lyrics": "Línguas, como de fogo, viram em si mesmos então pousar;"
-          },
-          {
-            "chords": "E             A           E    B               E",
-            "lyrics": "Sobre eles se repartiram, fazendo-os a Deus louvar."
-          },
-          {
-            "chords": "A             E           B         E",
-            "lyrics": "Em linguagens diferentes, começaram a manifestar"
-          },
-          {
-            "chords": "A            E          B                        E",
-            "lyrics": "As grandezas excelentes que Deus Pai lhes fez provar."
-          }
+        "text": [
+          "[E]Línguas, como de [A]fogo, viram [E]em si mesmos en[B]tão pousar;",
+          "[E]Sobre eles se [A]repartiram, [E]fazen[B]do-os a Deus lou[E]var.",
+          "[A]Em linguagens [E]diferentes, [B]começaram [E]a manifestar",
+          "[A]As grandezas [E]excelentes [B]que Deus Pai lhes fez pro[E]var."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "E            A              E                   B ",
-            "lyrics": "A Promessa é feita_a tantos quantos Deus, nosso Pai, chamar;"
-          },
-          {
-            "chords": "E                 A              E     B               E",
-            "lyrics": "Com fervor, todos os Seus santos devem os Seus dons buscar."
-          },
-          {
-            "chords": "A             E                B           E",
-            "lyrics": "Se os homens, aos seus filhos, boas coisas sabem ofertar,"
-          },
-          {
-            "chords": "A            E            B                   E",
-            "lyrics": "Muito mais o Pai bendito, aos que pedem, pode dar."
-          }
+        "text": [
+          "[E]A Promessa é [A]feita_a tantos [E]quantos Deus, nosso [B]Pai, chamar;",
+          "[E]Com fervor, todos [A]os Seus santos [E]devem [B]os Seus dons bus[E]car.",
+          "[A]Se os homens, [E]aos seus filhos, [B]boas coisas [E]sabem ofertar,",
+          "[A]Muito mais o [E]Pai bendito, [B]aos que pedem, pode [E]dar."
         ]
       }
     ]

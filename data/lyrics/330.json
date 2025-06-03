@@ -1,5 +1,5 @@
 {
-  "version": "v2",
+  "version": "v3",
   "title": "Ao findar a jornada",
   "tone": {
     "recommended": "A"
@@ -9,66 +9,30 @@
       {
         "type": "lyric",
         "code": "1",
-        "verses": [
-          {
-            "chords": "      A        E7      A",
-            "lyrics": "Ao findar a jornada, repousarei"
-          },
-          {
-            "chords": "                   E ",
-            "lyrics": "No reino da_eterna luz;"
-          },
-          {
-            "chords": "               A        D ",
-            "lyrics": "Ao findar a jornada, eu entrarei"
-          },
-          {
-            "chords": "   B7               E   E7... ",
-            "lyrics": "No céu, com o meu Jesus."
-          }
+        "text": [
+          "Ao fin[A]dar a jor[E7]nada, re[A]pousarei",
+          "No reino da_eterna [E]luz;",
+          "Ao findar a jor[A]nada, eu [D]entrarei",
+          "No [B7]céu, com o meu Je[E]sus.[E7...]"
         ]
       },
       {
         "type": "chorus",
-        "verses": [
-          {
-            "chords": "      A",
-            "lyrics": "Lá no reino dos céus rejubilarei"
-          },
-          {
-            "chords": "      D          Dm  A",
-            "lyrics": "Ao sentir o excelso_amor;"
-          },
-          {
-            "chords": "                              B7... ",
-            "lyrics": "Lá no reino dos céus contemplarei"
-          },
-          {
-            "chords": "  A       E7     A",
-            "lyrics": "A face do meu Senhor."
-          }
+        "text": [
+          "Lá no [A]reino dos céus rejubilarei",
+          "Ao sen[D]tir o excel[Dm]so_a[A]mor;",
+          "Lá no reino dos céus contempla[B7...]rei",
+          "A [A]face do [E7]meu Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "verses": [
-          {
-            "chords": "      A         E7        A",
-            "lyrics": "Sem igual há de ser minha emoção"
-          },
-          {
-            "chords": "                     E ",
-            "lyrics": "Ao ver meu Senhor voltar;"
-          },
-          {
-            "chords": "                A         D ",
-            "lyrics": "E, no lar da justiça_e da perfeição,"
-          },
-          {
-            "chords": "  B7            E   E7... ",
-            "lyrics": "Jesus me fará morar."
-          }
+        "text": [
+          "Sem ig[A]ual há de [E7]ser minha [A]emoção",
+          "Ao ver meu Senhor vol[E]tar;",
+          "E, no lar da jus[A]tiça_e da [D]perfeição,",
+          "Je[B7]sus me fará mo[E]rar.[E7...]"
         ]
       },
       {
@@ -78,23 +42,11 @@
       {
         "type": "lyric",
         "code": "3",
-        "verses": [
-          {
-            "chords": "      A        E7      A",
-            "lyrics": "Ao findar a jornada, receberei"
-          },
-          {
-            "chords": "                  E ",
-            "lyrics": "O prêmio do meu labor:"
-          },
-          {
-            "chords": "            A         D ",
-            "lyrics": "A coroa de glória das mãos do Rei,"
-          },
-          {
-            "chords": "  B7              E   E7... ",
-            "lyrics": "O santo_e fiel Senhor."
-          }
+        "text": [
+          "Ao fin[A]dar a jor[E7]nada, re[A]ceberei",
+          "O prêmio do meu la[E]bor:",
+          "A coroa de g[A]lória das [D]mãos do Rei,",
+          "O [B7]santo_e fiel Sen[E]hor.[E7...]"
         ]
       },
       {

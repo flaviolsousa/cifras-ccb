@@ -31,7 +31,7 @@ interface AutoScrollControlProps {
   contentHeight: number;
   viewportHeight: number;
   hymn: HymnModel | null;
-  fontSize: number;
+  visible: boolean;
   lastScrollYRef: React.RefObject<number>;
   scoreTouchingRef: React.RefObject<boolean>;
   onScrollingChange: (isScrolling: boolean) => void;
@@ -42,7 +42,7 @@ const AutoScrollControl = ({
   contentHeight,
   viewportHeight,
   hymn,
-  fontSize,
+  visible,
   lastScrollYRef,
   scoreTouchingRef,
   onScrollingChange,
@@ -80,6 +80,7 @@ const AutoScrollControl = ({
   }, []);
 
   if (!hymn) return null;
+  if (!visible) return null;
 
   const scrollStep = () => {
     if (!scrollViewRef.current) return;
@@ -187,6 +188,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 8,
     paddingStart: 0,
+    width: "100%",
   },
   button: {
     marginRight: 8,
