@@ -1,38 +1,42 @@
 {
   "version": "v3",
   "title": "Prossegui vitoriosos em Cristo",
+  "level": 4,
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E7", "A", "B7", "E7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Prosseg[A]ui vitoriosos em Cristo,",
-          "Ele,_em [E]breve, dos c[A]éus vai vol[B7]tar;[E]",
-          "Manda[A]rá recol[D]her Seus remidos",
-          "Para,_à g[E]lória eterna,_os le[A]var."
+          "[A]Prossegui vitoriosos em Cristo,",
+          "Ele, em [E7]breve, dos [A]céus vai vol[B7]tar;[E7]",
+          "[E7]Manda[A]rá recol[D]her Seus remidos",
+          "Para, à [A]glória [E7]eterna, os le[A]var."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Certa[E]mente_exaltado se[A]rá",
-          "Quem o Nome de [B7]Cristo não ne[E]gar;",
-          "Exal[A]tado com g[D]lória celest[A]ial,",
-          "Herda[E]rá a riqueza_eter[A]nal."
+          "[E7]Certa[E]mente exaltado se[A]rá",
+          "Quem o Nome de [B7]Cristo não ne[E7]gar;",
+          "Exal[A]tado com [D]glória celes[A]tial,",
+          "Herdará a ri[E7]queza eter[A]nal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Prosseg[A]ui, rejeitando_o pecado,",
-          "Pois ir[E]eis encont[A]rar o Sen[B7]hor;[E]",
-          "Para v[A]ós, Ele [D]tem preparado",
-          "Um lu[E]gar no Seu reino de_a[A]mor."
+          "[A]Prossegui, rejeitando o pecado,",
+          "Pois ir[E7]eis encont[A]rar o Se[B7]nhor;[E7]",
+          "[E7]Para [A]vós, Ele [D]tem preparado",
+          "Um lu[A]gar no Seu [E7]reino de a[A]mor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Prosseg[A]ui nesta fé gloriosa,",
-          "O_ini[E]migo de v[A]ós fugi[B7]rá;[E]",
-          "Vigi[A]ai na_oraç[D]ão, no cuidado,",
-          "E con[E]vosco Jesus esta[A]rá."
+          "[A]Prossegui nesta fé gloriosa,",
+          "O inimi[E7]go de [A]vós fugi[B7]rá;[E]",
+          "[E7]Vigi[A]ai na ora[D]ção, no cuidado,",
+          "E con[A]vosco Je[E7]sus esta[A]rá."
         ]
       },
       {
