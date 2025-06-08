@@ -15,6 +15,8 @@ import { type HymnModel, Stanza } from "../domain/HymnModel";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
+import { Image } from "react-native";
+import HymnIntroNotes from "../components/HymnIntroNotes";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -44,17 +46,18 @@ const StyledChordText = ({
       {parts.map((part, index) => {
         if (part.startsWith("[") && part.endsWith("]")) {
           lastChord = part.slice(1, -1);
+          let currentChord = "" + lastChord;
           return (
             <Text
               key={index}
               style={[{ color: theme.colors.primary }, cleanChordName(lastChord) === selectedChord && styleSelected]}
-              onPress={() => onChordPress?.(lastChord)}
+              onPress={() => onChordPress?.(currentChord)}
             >
               {lastChord}
             </Text>
           );
         } else {
-          return <Text key={index}>{part.substring(lastChord.length)}</Text>;
+          return <Text key={index}>{part.substring(lastChord.length).replace(/[^ ]/g, "_")}</Text>;
         }
       })}
     </Text>
@@ -295,6 +298,7 @@ const HymnDetails = () => {
   const scrollViewRef = useRef<ScrollView>(null);
   const [scrollViewHeight, setScrollViewHeight] = useState(0);
   const [contentHeight, setContentHeight] = useState(0);
+  const [contentWidth, setContentWidth] = useState(0);
 
   return (
     <View style={{ ...theme, flex: 1 }}>
@@ -390,7 +394,10 @@ const HymnDetails = () => {
         contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
         onScroll={handleScroll}
         onLayout={(e: LayoutChangeEvent) => setScrollViewHeight(e.nativeEvent.layout.height)}
-        onContentSizeChange={(contentWidth: number, contentHeight: number) => setContentHeight(contentHeight)}
+        onContentSizeChange={(contentWidth: number, contentHeight: number) => {
+          setContentHeight(contentHeight);
+          setContentWidth(contentWidth);
+        }}
         scrollEventThrottle={1}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
@@ -406,9 +413,9 @@ const HymnDetails = () => {
             },
           ]}
         >
-          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
-
+          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />} <Divider />
           <Divider />
+          {hymn && <HymnIntroNotes hymn={hymn} isPortrait={isPortrait} contentWidth={contentWidth} />}
           {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
             <View key={stanzaIndex} style={styles.stanzaRow}>
               <View style={{ flexDirection: "row" }}>
