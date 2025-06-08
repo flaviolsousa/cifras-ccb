@@ -15,64 +15,13 @@ import { type HymnModel, Stanza } from "../domain/HymnModel";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
-import { Image } from "react-native";
 import HymnIntroNotes from "../components/HymnIntroNotes";
-
+import StyledVerse from "../components/StyledVerse";
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
 function cleanChordName(chord: string): string {
   return chord.replaceAll(/[.]/g, "");
 }
-
-const StyledChordText = ({
-  text,
-  style,
-  styleSelected,
-  onChordPress,
-  selectedChord,
-}: {
-  text: string;
-  style: any;
-  styleSelected: any;
-  onChordPress?: (chord: string) => void;
-  selectedChord?: string | null;
-}) => {
-  const theme = useTheme();
-  const parts = text.split(/(\[[^\]]+\])/g);
-  let lastChord: string = "";
-
-  return (
-    <Text style={style}>
-      {parts.map((part, index) => {
-        if (part.startsWith("[") && part.endsWith("]")) {
-          lastChord = part.slice(1, -1);
-          let currentChord = "" + lastChord;
-          return (
-            <Text
-              key={index}
-              style={[{ color: theme.colors.primary }, cleanChordName(lastChord) === selectedChord && styleSelected]}
-              onPress={() => onChordPress?.(currentChord)}
-            >
-              {lastChord}
-            </Text>
-          );
-        } else {
-          return <Text key={index}>{part.substring(lastChord.length).replace(/[^ ]/g, "_")}</Text>;
-        }
-      })}
-    </Text>
-  );
-};
-
-const StyledLyricText = ({ text, style, onLayout }: { text: string; style: any; onLayout: any }) => {
-  // Remove chord markers for lyrics display
-  const lyrics = text.replace(/\[[^\]]+\]/g, "");
-  return (
-    <Text style={style} onLayout={onLayout}>
-      {lyrics}
-    </Text>
-  );
-};
 
 const HymnDetails = () => {
   const theme = useTheme();
@@ -413,7 +362,7 @@ const HymnDetails = () => {
             },
           ]}
         >
-          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />} <Divider />
+          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
           <Divider />
           {hymn && <HymnIntroNotes hymn={hymn} isPortrait={isPortrait} contentWidth={contentWidth} />}
           {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
@@ -437,42 +386,16 @@ const HymnDetails = () => {
                     const verseKey = `${stanzaIndex}-${verseIndex}`;
                     const verseHeight = verseHeights[verseKey] || fontSizeDouble;
                     return (
-                      <View
+                      <StyledVerse
                         key={verseKey}
-                        style={[
-                          styles.verse,
-                          {
-                            height: verseHeight,
-                            marginBottom: fontSize,
-                          },
-                        ]}
-                      >
-                        <StyledChordText
-                          text={line}
-                          style={[
-                            styles.chord,
-                            {
-                              fontSize: fontSize,
-                              lineHeight: fontSizeDouble,
-                            },
-                          ]}
-                          styleSelected={styles.chordSelected}
-                          onChordPress={handleChordPress}
-                          selectedChord={selectedChord}
-                        />
-                        <StyledLyricText
-                          text={line}
-                          style={[
-                            styles.lyric,
-                            {
-                              top: fontSize,
-                              fontSize: fontSize,
-                              lineHeight: fontSizeDouble,
-                            },
-                          ]}
-                          onLayout={(event: LayoutChangeEvent) => onVerseLayout(event, stanzaIndex, verseIndex)}
-                        />
-                      </View>
+                        line={line}
+                        fontSize={fontSize}
+                        fontSizeDouble={fontSizeDouble}
+                        verseHeight={verseHeight}
+                        onChordPress={handleChordPress}
+                        selectedChord={selectedChord}
+                        onVerseLayout={(event) => onVerseLayout(event, stanzaIndex, verseIndex)}
+                      />
                     );
                   })}
                 </View>
