@@ -3,7 +3,7 @@ import { Text } from "react-native";
 import { useTheme } from "react-native-paper";
 
 function cleanChordName(chord: string): string {
-  return chord.replaceAll(/[.]/g, "");
+  return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
 }
 
 interface StyledChordTextProps {
@@ -12,31 +12,39 @@ interface StyledChordTextProps {
   styleSelected: any;
   onChordPress?: (chord: string) => void;
   selectedChord?: string | null;
+  showNotes: boolean;
+  fontSize: number;
 }
 
-const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSelected, onChordPress, selectedChord }) => {
+const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSelected, onChordPress, selectedChord, showNotes, fontSize }) => {
   const theme = useTheme();
   const parts = text.split(/(\[[^\]]+\])/g);
-  let lastChord: string = "";
+  let lastChordLength: number = 0;
 
   return (
     <Text style={style}>
       {parts.map((part, index) => {
+        let comp;
         if (part.startsWith("[") && part.endsWith("]")) {
-          lastChord = part.slice(1, -1);
-          let currentChord = "" + lastChord;
-          return (
-            <Text
-              key={index}
-              style={[{ color: theme.colors.primary }, cleanChordName(lastChord) === selectedChord && styleSelected]}
-              onPress={() => onChordPress?.(currentChord)}
-            >
-              {lastChord}
-            </Text>
+          const chordsParts = part.slice(1, -1).split(/[|]/g);
+          let currentChord = chordsParts[0].trim();
+          let note = chordsParts[1]?.trim();
+          comp = (
+            <React.Fragment key={`fragment-${index}-${part}`}>
+              <Text
+                style={[{ color: theme.colors.primary }, cleanChordName(currentChord) === selectedChord && styleSelected]}
+                onPress={() => onChordPress?.(currentChord)}
+              >
+                {currentChord}
+              </Text>
+              {showNotes && note && <Text style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>{note}</Text>}
+            </React.Fragment>
           );
+          lastChordLength = currentChord.length + (note && showNotes ? Math.ceil(note.length / 2) : 0);
         } else {
-          return <Text key={index}>{part.substring(lastChord.length).replace(/[^ ]/g, "_")}</Text>;
+          comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replace(/[^ ]/g, "_")}</Text>;
         }
+        return comp;
       })}
     </Text>
   );

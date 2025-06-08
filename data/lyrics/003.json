@@ -3,12 +3,12 @@
   "title": "Faz-nos ouvir Tua voz",
   "level": 2,
   "tone": {
-    "recommended": "G",
+    "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["G", "Em", "D", "G"],
+    "introduction": ["G", "Em", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -24,7 +24,7 @@
         "type": "chorus",
         "text": [
           "[D]Ó caro [G]Salvador, [D]a Tua [G]voz de amor",
-          "[C]Nos guia [G]para o céus, [Am]glorioso [B7]lar;",
+          "[C]Nos guia [G]para o céus, [Am]glorioso [B7]lar[B7|↓];.....",
           "[C]Pela Pa[G]lavra vem [D]nos conso[G]lar."
         ]
       },

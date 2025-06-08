@@ -20,7 +20,7 @@ import StyledVerse from "../components/StyledVerse";
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
 function cleanChordName(chord: string): string {
-  return chord.replaceAll(/[.]/g, "");
+  return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
 }
 
 const HymnDetails = () => {
@@ -46,6 +46,7 @@ const HymnDetails = () => {
   const [autoScrollVisible, setAutoScrollVisible] = useState(true);
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
   const [audioPlayerVisible, setAudioPlayerVisible] = useState(true);
+  const [showNotes, setShowNotes] = useState(true);
 
   const styles = StyleSheet.create({
     content: {
@@ -134,7 +135,7 @@ const HymnDetails = () => {
             }
           });
       });
-      setAllChords(Array.from(chordSet));
+      setAllChords(Array.from(chordSet).filter(Boolean));
     }
   }, [hymn]);
 
@@ -318,6 +319,14 @@ const HymnDetails = () => {
                   title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
                   leadingIcon="music"
                 />
+                <Menu.Item
+                  onPress={() => {
+                    setShowNotes((prev) => !prev);
+                    closeMenu();
+                  }}
+                  title={showNotes ? "Ocultar Notas" : "Exibir Notas"}
+                  leadingIcon="note"
+                />
                 <Divider />
                 <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
               </Menu>
@@ -395,6 +404,8 @@ const HymnDetails = () => {
                         onChordPress={handleChordPress}
                         selectedChord={selectedChord}
                         onVerseLayout={(event) => onVerseLayout(event, stanzaIndex, verseIndex)}
+                        showNotes={showNotes}
+                        fontSize={fontSize}
                       />
                     );
                   })}

@@ -12,9 +12,19 @@ interface HymnVerseProps {
   onChordPress: (chord: string) => void;
   selectedChord: string | null;
   onVerseLayout: (event: LayoutChangeEvent) => void;
+  showNotes: boolean;
 }
 
-const HymnVerse: React.FC<HymnVerseProps> = ({ line, fontSize, fontSizeDouble, verseHeight, onChordPress, selectedChord, onVerseLayout }) => {
+const HymnVerse: React.FC<HymnVerseProps> = ({
+  line,
+  fontSize,
+  fontSizeDouble,
+  verseHeight,
+  onChordPress,
+  selectedChord,
+  onVerseLayout,
+  showNotes,
+}) => {
   const theme = useTheme();
 
   const styles = StyleSheet.create({
@@ -65,6 +75,8 @@ const HymnVerse: React.FC<HymnVerseProps> = ({ line, fontSize, fontSizeDouble, v
         styleSelected={styles.chordSelected}
         onChordPress={onChordPress}
         selectedChord={selectedChord}
+        showNotes={showNotes}
+        fontSize={fontSize}
       />
       <StyledLyricText
         text={line}
