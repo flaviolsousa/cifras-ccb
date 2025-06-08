@@ -17,6 +17,7 @@ import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
 import HymnIntroNotes from "../components/HymnIntroNotes";
 import StyledVerse from "../components/StyledVerse";
+import StyledIntroductionText from "../components/StyledIntroductionText";
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
 function cleanChordName(chord: string): string {
@@ -49,50 +50,17 @@ const HymnDetails = () => {
   const [showNotes, setShowNotes] = useState(true);
 
   const styles = StyleSheet.create({
-    content: {
-      // paddingHorizontal: 16,
-    },
-    hymnText: {
-      fontFamily: "UbuntuMonoRegular",
-    },
+    content: {},
     portrait: {},
     landscape: {
       alignSelf: "center",
       width: "100%",
     },
-
-    scoreDetail: {},
     scoreFooter: {
       height: FOOT_HEIGHT,
     },
     score: {},
-    verse: {
-      position: "relative",
-    },
-    chord: {
-      position: "absolute",
-      top: 0,
-      left: 0,
-      right: 0,
-      fontFamily: "UbuntuMonoRegular",
-      color: "transparent",
-      zIndex: 1,
-    },
-    chordSelected: {
-      fontFamily: "UbuntuMonoBold",
-      color: theme.colors.secondary,
-    },
-    lyric: {
-      position: "absolute",
-      left: 0,
-      right: 0,
-      fontFamily: "UbuntuMonoRegular",
-      color: theme.colors.secondary,
-    },
-    stanzaRow: {
-      // borderColor: "yellow",
-      // borderWidth: 1,
-    },
+    stanzaRow: {},
     stanzaDivider: {
       marginVertical: fontSize,
     },
@@ -374,6 +342,17 @@ const HymnDetails = () => {
           {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
           <Divider />
           {hymn && <HymnIntroNotes hymn={hymn} isPortrait={isPortrait} contentWidth={contentWidth} />}
+          {hymn && hymn?.score?.introduction && (
+            <StyledIntroductionText
+              introduction={hymn.score.introduction}
+              fontSize={fontSize}
+              fontSizeDouble={fontSizeDouble}
+              selectedChord={selectedChord}
+              onChordPress={handleChordPress}
+            />
+          )}
+          <Divider />
+
           {hymn?.score?.stanzas.map((stanza, stanzaIndex) => (
             <View key={stanzaIndex} style={styles.stanzaRow}>
               <View style={{ flexDirection: "row" }}>
@@ -405,7 +384,6 @@ const HymnDetails = () => {
                         selectedChord={selectedChord}
                         onVerseLayout={(event) => onVerseLayout(event, stanzaIndex, verseIndex)}
                         showNotes={showNotes}
-                        fontSize={fontSize}
                       />
                     );
                   })}

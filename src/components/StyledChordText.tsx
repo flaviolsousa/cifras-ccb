@@ -10,7 +10,7 @@ interface StyledChordTextProps {
   text: string;
   style: any;
   styleSelected: any;
-  onChordPress?: (chord: string) => void;
+  onChordPress: (chord: string) => void;
   selectedChord?: string | null;
   showNotes: boolean;
   fontSize: number;
@@ -33,7 +33,7 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
             <React.Fragment key={`fragment-${index}-${part}`}>
               <Text
                 style={[{ color: theme.colors.primary }, cleanChordName(currentChord) === selectedChord && styleSelected]}
-                onPress={() => onChordPress?.(currentChord)}
+                onPress={() => onChordPress(currentChord)}
               >
                 {currentChord}
               </Text>
