@@ -1,38 +1,42 @@
 {
   "version": "v3",
   "title": "A Rocha celestial",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Sábio_e prudente será o varão",
-          "Que_a [E]casa na rocha erg[A]uer;",
+          "[G]Sábio e prudente será o varão",
+          "Que a [D]casa na rocha erg[G]uer;",
           "Sempre terá eficaz proteção,",
-          "Pois [B7]nada a pode_aba[E]ter."
+          "Pois [A7]nada a pode aba[D]ter[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]A Rocha celestial",
-          "É Cristo,_o [B7]Filho de [E]Deus,",
-          "[A]O  [A7]Funda[D]mento_eter[C#]nal",
-          "[Bm]De  [E]quem busca_o reino dos c[A]éus."
+          "[G]A Rocha celestial",
+          "É Cristo, o [A7]Filho de [D]Deus,",
+          "[G]O  [G7]Funda[C]mento eter[B7]nal",
+          "[Am]De  [D]quem busca o reino dos c[G]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Quem sobre_a_areia quiser construir,",
-          "Em [E]vão trabalhado te[A]rá,",
+          "[G]Quem sobre a areia quiser construir,",
+          "Em [D]vão trabalhado te[G]rá,",
           "Pois sua casa virá a cair;",
-          "Em [B7]falso_alicerce_esta[E]rá."
+          "Em [A7]falso alicerce esta[D]rá[D7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]As tempestades e_os ventos virão",
-          "A [E]todos, com grande fu[A]ror;",
+          "[G]As tempestades e os ventos virão",
+          "A [D]todos, com grande fu[G]ror;",
           "Mas os que sobre a Rocha estão,",
-          "Fir[B7]meza terão nos Sen[E]hor."
+          "Fir[A7]meza terão nos Sen[D]hor[D7]..."
         ]
       },
       {

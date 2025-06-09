@@ -1,36 +1,37 @@
 {
   "version": "v3",
   "title": "Luminosa é a senda",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lumi[G]nosa [D]é a s[G]enda",
-          "Que conduz, por fé, a D[D]eus;",
-          "Não há [G]nada que me p[C]renda",
-          "Nem de[D]tenha os passos m[G]eus."
+          "Lumi[G]nosa [D7|↓]é a [G]senda",
+          "Que conduz, por fé, a [D7]Deus;",
+          "Não há [G]nada [G7|↓]que me [C]prenda",
+          "Nem de[G]tenha os [D7|↓]passos me[G]us."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Que pra[D]zer é vi[G]ver com o meu bom Jes[D]us!",
-          "Na tris[G]teza e na aleg[C]ria sinto em m[D]im a Sua l[G]uz."
-        ]
+        "text": ["[D7|↓]Que pra[D7]zer é vi[G]ver com o meu bom Je[D7]sus!", "Na tris[G]teza e [G7]na ale[C]gria sinto em [G]mim a [D7|↓]Sua [G]luz."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jubi[G]loso, [D]eu pros[G]sigo",
-          "Para a glória eter[D]nal;",
-          "Sei que C[G]risto está co[C]migo,",
-          "Prote[D]gendo-me do m[G]al."
+          "Jubi[G]loso, [D7|↓]eu pros[G]sigo",
+          "Para a glória eter[D7]nal;",
+          "Sei que C[G]risto es[G7|↓]tá co[C]migo,",
+          "Prote[G]gendo-[D7|↓]me do m[G]al."
         ]
       },
       {
@@ -41,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Jesus C[G]risto [D]me con[G]sola",
-          "Quando estou em afliç[D]ão;",
-          "Seu Es[G]pírito cont[C]rola",
-          "Minha [D]mente e coraç[G]ão."
+          "Jesus C[G]risto [D7|↓]me con[G]sola",
+          "Quando estou em afliç[D7]ão;",
+          "Seu Es[G]píri[G7|↓]to cont[C]rola",
+          "Minha [G]mente e [D7|↓]coraç[G]ão."
         ]
       },
       {

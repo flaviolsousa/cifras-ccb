@@ -1,33 +1,28 @@
 {
   "version": "v3",
   "title": "Oh! Vem, sim, vem",
+  "level": 3,
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Nesta terrena [F#7]vida, ó justo Reden[B]tor,",
-          "São grandes os combates [E]aos Teus fi[C#7]éis, [F#7]Se - n[B]hor."
-        ]
+        "text": ["[A]Nesta terrena [E7]vida, ó justo Reden[A]tor,", "São grandes os combates [D]aos Teus fi[B7]éis, [E7]Se - n[A]hor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[B]Oh! Vem, [E]sim, vem [F#7]nos alegrar, Sen[B]hor;",
-          "És nossa Esperança [E]e nosso [C#7]De – [F#7]fen - [B]sor."
-        ]
+        "text": ["[A]Oh! Vem, [D]sim, vem [E7]nos alegrar, Sen[A]hor;", "És nossa [D]Espe[A]rança [D]e nosso [B7]De – [E7]fen - [A]sor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[B]No mundo há vai[F#7]dade, muita tristeza_e [B]dor,",
-          "Mas Teus remidos sentem [E]a Tua [C#7]paz  [F#7]e_a - [B]mor."
-        ]
+        "text": ["[A]No mundo há vai[E7]dade, muita tristeza e [A]dor,", "Mas Teus remidos sentem [D]a Tua [B7]paz  [E7]e a - [A]mor."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Do céu Te espe[F#7]ramos, glorioso,_eterno [B]Rei;",
-          "Tu és veraz Pastor e [E]nós somos [C#7]Tu - [F#7]a   g[B]rei."
-        ]
+        "text": ["[A]Do céu Te espe[E7]ramos, glorioso, eterno [A]Rei;", "Tu és veraz Pastor e [D]nós somos [B7]Tu - [E7]a   g[A]rei."]
       },
       {
         "type": "ref",

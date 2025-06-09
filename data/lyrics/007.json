@@ -1,38 +1,42 @@
 {
   "version": "v3",
   "title": "Granjeai, granjeai os talentos",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Bb",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Os ta[E]lentos Jesus nos tem dado,",
-          "Dons ce[B7]lestes de grande va[E]lor;",
-          "Nós devemos, com todo_o cuidado,",
-          "Granje[B7]á-los servindo_ao Sen[E]hor.[E7]"
+          "Os ta[C]lentos Jesus nos tem dado,",
+          "Dons ce[G]lestes de grande va[C]lor;",
+          "Nós devemos, com todo o cuidado,",
+          "Granje[G]á-los servindo ao Sen[C]hor[C7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E7]  Granje[A]ai, granjeai os ta[E]lentos;",
-          "  Sobre_o [B7]muito_o Senhor vos po[E]rá;[E7]",
-          "  Vigi[A]ai e estai sempre_a[E]tentos,",
-          "  Eis que [B7]Ele à porta es[E]tá."
+          "  Granje[F]ai, granjeai os ta[C]lentos;",
+          "  Sobre o [G]muito o Se[G7]nhor vos po[C]rá;[C7]...",
+          "  Vigi[F]ai e estai sempre at[C]entos,",
+          "  Eis que [G]Ele à [G7]porta es[C]tá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Se em [E]tudo nós formos prudentes,",
-          "Se fi[B7]éis o Senhor nos ac[E]har,",
+          "Se em [C]tudo nós formos prudentes,",
+          "Se fi[G]éis o Senhor nos ac[C]har,",
           "Herdaremos Seus bens permanentes",
-          "No re[B7]pouso da glória sem [E]par.[E7]"
+          "No re[G]pouso da glória sem [C]par[C7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Dili[E]gentes obreiros sejamos,",
-          "Pois os [B7]frutos Jesus vai pe[E]dir;",
+          "Dili[C]gentes obreiros sejamos,",
+          "Pois os [G]frutos Jesus vai pe[C]dir;",
           "Os talentos, jamais escondamos,",
-          "Se qui[B7]sermos a glória fru[E]ir.[E7]"
+          "Se qui[G]sermos a glória fru[C]ir[C7]..."
         ]
       },
       {
