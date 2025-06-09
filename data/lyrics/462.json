@@ -9,31 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Glori[E]osa é a_história",
-          "Que nos [B7]fala de Jes[E]us;",
-          "Sendo Rei, Senhor da glória,",
-          "Pade[B7]ceu por nós na c[E]ruz."
-        ]
+        "text": ["Glori[E]osa é a_história", "Que nos [B7]fala de Jes[E]us;", "Sendo Rei, Senhor da glória,", "Pade[B7]ceu por nós na c[E]ruz."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Quão glori[E]osa é a_história",
-          "De Je[B7]sus, o Salva[E]dor,",
-          "Que alcançou final vitória",
-          "E o [B7]céu é_Interces[E]sor.[E...]"
-        ]
+        "text": ["Quão glori[E]osa é a_história", "De Je[B7]sus, o Salva[E]dor,", "Que alcançou final vitória", "E o [B7]céu é_Interces[E]sor.[E]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Veio_ao [E]mundo, sem pecado,",
-          "O di[B7]vino Salva[E]dor;",
-          "Conservou-Se_imaculado",
-          "E ven[B7]ceu o tenta[E]dor."
-        ]
+        "text": ["Veio_ao [E]mundo, sem pecado,", "O di[B7]vino Salva[E]dor;", "Conservou-Se_imaculado", "E ven[B7]ceu o tenta[E]dor."]
       },
       {
         "type": "ref",
@@ -42,12 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "O Sen[E]hor, crucificado,",
-          "No ma[B7]deiro expi[E]rou;",
-          "Tudo_estava consumado;",
-          "Seu es[B7]pírito_entre[E]gou."
-        ]
+        "text": ["O Sen[E]hor, crucificado,", "No ma[B7]deiro expi[E]rou;", "Tudo_estava consumado;", "Seu es[B7]pírito_entre[E]gou."]
       },
       {
         "type": "ref",
@@ -56,12 +36,7 @@
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "Foi Jes[E]us glorificado,",
-          "Pois da [B7]morte retor[E]nou;",
-          "Para_o céu foi elevado",
-          "E Deus [B7]Pai O exal[E]tou."
-        ]
+        "text": ["Foi Jes[E]us glorificado,", "Pois da [B7]morte retor[E]nou;", "Para_o céu foi elevado", "E Deus [B7]Pai O exal[E]tou."]
       },
       {
         "type": "ref",

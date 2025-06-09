@@ -16,20 +16,12 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Sempre unido_a meu Jesus,",
-          "Forças terei, também valor;",
-          "[F#m]Ele_é a [F]Luz [A]que_ao céu con[A...]duz,",
-          "Com [E]a - [A]mor."
-        ]
+        "text": ["[A]Sempre unido_a meu Jesus,", "Forças terei, também valor;", "[F#m]Ele_é a [F]Luz [A]que_ao céu con[A]duz,", "Com [E]a - [A]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, liberto_es[E]tou do [A]mal;",
-          "Des[E]fruto já o [A]Seu amor e_a [B]vida celesti[E]al.[E7]"
-        ]
+        "text": ["[A]Sinto_o Senhor, por [E]fé, em [A]mim, liberto_es[E]tou do [A]mal;", "Des[E]fruto já o [A]Seu amor e_a [B]vida celesti[E]al.[E7]"]
       },
       {
         "type": "ref",

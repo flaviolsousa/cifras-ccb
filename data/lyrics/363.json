@@ -13,7 +13,7 @@
           "Aos Teus [G]pés es[D]tou, Sen[G]hor,",
           "Elevando_o meu cla[D]mor;",
           "Faz rai[G]ar a [D]Tua [G]luz",
-          "[C]Em min[D]ha´alma, Cria[G]dor.[G...]"
+          "[C]Em min[D]ha´alma, Cria[G]dor.[G]..."
         ]
       },
       {
@@ -23,18 +23,13 @@
           "Junto_a [G]Ti, ó [D]Forma[G]dor,",
           "Dá-me graça para_es[D]tar;",
           "Quero, [G]com te[D]mor e [G]fé,",
-          "[C]Teus con[D]selhos escu[G]tar.[G...]"
+          "[C]Teus con[D]selhos escu[G]tar.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Ado[G]rando-[D]Te, Sen[G]hor,",
-          "Eu espero rece[D]ber",
-          "Forças [G]para [D]Te ser[G]vir",
-          "[C]E, em [D]retidão, cres[G]cer.[G...]"
-        ]
+        "text": ["Ado[G]rando-[D]Te, Sen[G]hor,", "Eu espero rece[D]ber", "Forças [G]para [D]Te ser[G]vir", "[C]E, em [D]retidão, cres[G]cer.[G]..."]
       },
       {
         "type": "lyric",
@@ -43,7 +38,7 @@
           "O meu [G]cálix [D]transbor[G]dar",
           "Faz por graça, ó Sen[D]hor;",
           "Eu de[G]sejo [D]aten[G]der",
-          "[C]Teus con[D]selhos de a[G]mor.[G...]"
+          "[C]Teus con[D]selhos de a[G]mor.[G]..."
         ]
       }
     ]

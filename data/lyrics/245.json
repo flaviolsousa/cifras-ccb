@@ -21,7 +21,7 @@
         "text": [
           "[G]Mesmo quando_em aflição, [C]sinto_a paz de D[G]eus;",
           "[D]Cristo, ao meu [G]coração, [A7]bênçãos traz dos [D]céus;",
-          "[G]Se, com Ele,_aqui viver [C]tão glorioso [B]é,[B...]",
+          "[G]Se, com Ele,_aqui viver [C]tão glorioso [B]é,[B]...",
           "[E7]Quão glorioso_então se[A7]rá, se per[D]manecer na [G]fé?!"
         ]
       },
@@ -42,12 +42,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[G]O meu ser foi transfor[C]mado",
-          "[D]Pela obra do Sen[G]hor;",
-          "Dia_a dia mais che[D]gado",
-          "[E]Eu estou ao [A7]lar de_a[D]mor."
-        ]
+        "text": ["[G]O meu ser foi transfor[C]mado", "[D]Pela obra do Sen[G]hor;", "Dia_a dia mais che[D]gado", "[E]Eu estou ao [A7]lar de_a[D]mor."]
       },
       {
         "type": "ref",

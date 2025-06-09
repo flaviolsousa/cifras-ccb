@@ -37,6 +37,7 @@ export interface HymnModel {
   version: string;
   code: string;
   title: string;
+  level: number;
   difficulty: number;
   tone: Tone;
   rhythm: string;

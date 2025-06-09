@@ -22,18 +22,13 @@
           "[E]Perto está o [A]Salva[E]dor",
           "Dos que O têm por [B7]seu Pas[E]tor;",
           "Não nos deixa_o Redentor;",
-          "Oh! Que amor ce[B7]les-[E]te![E...]"
+          "Oh! Que amor ce[B7]les-[E]te![E]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Jes[E]us, o nosso Redentor,",
-          "Do alto nos re[B7]ves-[E]te;",
-          "Nas provas, lutas ou a dor,",
-          "Presente_está o [B7]Mest[E]re."
-        ]
+        "text": ["Jes[E]us, o nosso Redentor,", "Do alto nos re[B7]ves-[E]te;", "Nas provas, lutas ou a dor,", "Presente_está o [B7]Mest[E]re."]
       },
       {
         "type": "ref",
@@ -42,12 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Na [E]nossa peregrinação",
-          "É Cristo Quem nos [B7]gui-[E]a;",
-          "Estende sempre_a Sua mão,",
-          "Nos guarda noite_e [B7]di- [E]a."
-        ]
+        "text": ["Na [E]nossa peregrinação", "É Cristo Quem nos [B7]gui-[E]a;", "Estende sempre_a Sua mão,", "Nos guarda noite_e [B7]di- [E]a."]
       },
       {
         "type": "ref",

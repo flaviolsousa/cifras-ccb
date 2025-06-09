@@ -9,26 +9,20 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Sen[A]hor Jesus, bom [E]Redentor, envia Teu po[A]der;",
-          "Reveste_os santos T[B]eus, Senhor, de força e sa[E]ber."
-        ]
+        "text": ["Sen[A]hor Jesus, bom [E]Redentor, envia Teu po[A]der;", "Reveste_os santos T[B]eus, Senhor, de força e sa[E]ber."]
       },
       {
         "type": "chorus",
         "text": [
           "Vem, [A]ó divino Mestre,",
           "[A7]Dá - [D]nos saber ce[A]leste;",
-          "Nós [D]somos peque[A]ni-n[A...]os,   [D]mas Tu [E4]és  [E]nosso R[A]ei."
+          "Nós [D]somos peque[A]ni-n[A]os,   [D]mas Tu [E4]és  [E]nosso R[A]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Jes[A]us, Cordeiro [E]divinal, imenso_é Teu a[A]mor;",
-          "E nesse_amor ce[B]lestial vivemos, ó Sen[E]hor."
-        ]
+        "text": ["Jes[A]us, Cordeiro [E]divinal, imenso_é Teu a[A]mor;", "E nesse_amor ce[B]lestial vivemos, ó Sen[E]hor."]
       },
       {
         "type": "ref",
@@ -37,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Nas [A]nuvens, ó Sen[E]hor Jesus, queremos Te_encont[A]rar",
-          "E, no glorioso l[B]ar de luz, Contigo habi[E]tar."
-        ]
+        "text": ["Nas [A]nuvens, ó Sen[E]hor Jesus, queremos Te_encont[A]rar", "E, no glorioso l[B]ar de luz, Contigo habi[E]tar."]
       },
       {
         "type": "ref",

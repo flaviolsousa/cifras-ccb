@@ -11,7 +11,7 @@
         "code": "1",
         "text": [
           "B[C]ênçãos dos céus prometidas, n[F]ós esperamos, Sen[C]hor,",
-          "P[G]ois o Evangelho seg[C]uimos, f[D7]ruto do Teu grande a[G]mor.[G7...]"
+          "P[G]ois o Evangelho seg[C]uimos, f[D7]ruto do Teu grande a[G]mor.[G7]..."
         ]
       },
       {
@@ -26,10 +26,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "N[C]ós, os Teus santos, pedimos h[F]umildemente, Sen[C]hor;",
-          "\"[G]As Tuas mãos pie[C]dosas [D7]abre em nosso fav[G]or.\"[G7...]"
-        ]
+        "text": ["N[C]ós, os Teus santos, pedimos h[F]umildemente, Sen[C]hor;", "\"[G]As Tuas mãos pie[C]dosas [D7]abre em nosso fav[G]or.\"[G7]..."]
       },
       {
         "type": "ref",
@@ -38,10 +35,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "S[C]ela, Senhor, Teus remidos c[F]om o bom Consola[C]dor;",
-          "V[G]em conduzir-nos a t[C]odos [D7]para os céus, ó Sen[G]hor.[G7...]"
-        ]
+        "text": ["S[C]ela, Senhor, Teus remidos c[F]om o bom Consola[C]dor;", "V[G]em conduzir-nos a t[C]odos [D7]para os céus, ó Sen[G]hor.[G7]..."]
       },
       {
         "type": "ref",

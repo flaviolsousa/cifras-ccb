@@ -9,25 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Abri[C]gado em Jesus, lutas não mais temer[G]ei;",
-          "Ele [C]é a minha Luz e por [F]Ela [G]andar[C]ei."
-        ]
+        "text": ["Abri[C]gado em Jesus, lutas não mais temer[G]ei;", "Ele [C]é a minha Luz e por [F]Ela [G]andar[C]ei."]
       },
       {
         "type": "chorus",
-        "text": [
-          "A Jes[C]us, meu Senhor, minha [F]vida consag[C]rei;",
-          "Em meu bom Redentor, forte_a[F]brigo [G]encont[C]rei.[C...]"
-        ]
+        "text": ["A Jes[C]us, meu Senhor, minha [F]vida consag[C]rei;", "Em meu bom Redentor, forte_a[F]brigo [G]encont[C]rei.[C]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Abri[C]gado em Jesus, posso sempre camin[G]har",
-          "Pela [C]senda que conduz ao su[F]blime,_e[G]terno l[C]ar."
-        ]
+        "text": ["Abri[C]gado em Jesus, posso sempre camin[G]har", "Pela [C]senda que conduz ao su[F]blime,_e[G]terno l[C]ar."]
       },
       {
         "type": "ref",
@@ -36,10 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Abri[C]gado em Jesus, mesmo quando_em afliç[G]ão,",
-          "Sinto_em m[C]im a Sua luz, que_ilu[F]mina_o [G]coraç[C]ão."
-        ]
+        "text": ["Abri[C]gado em Jesus, mesmo quando_em afliç[G]ão,", "Sinto_em m[C]im a Sua luz, que_ilu[F]mina_o [G]coraç[C]ão."]
       },
       {
         "type": "ref",

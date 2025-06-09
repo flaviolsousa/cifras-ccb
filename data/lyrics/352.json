@@ -12,7 +12,7 @@
         "text": [
           "Ao [G]Seu banquete de perdão",
           "[C]Me [G]convi[D]dou Je[G]sus;",
-          "Por graça, deu-me_introdu[G...]ção",
+          "Por graça, deu-me_introdu[G]ção",
           "[C]No [G]reino [D]Seu de [G]luz."
         ]
       },
@@ -20,7 +20,7 @@
         "type": "chorus",
         "text": [
           "[G7]Sinto [C]viva_esperança em [G]mim,",
-          "Espe[D]rança de [A7]ver o Sen[D]hor[D...]",
+          "Espe[D]rança de [A7]ver o Sen[D]hor[D]...",
           "E her[G]dar as moradas e[C]ternas,",
           "Onde_é [G]tudo [D]esplen[G]dor."
         ]
@@ -28,12 +28,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Do [G]mundo nada temerei,",
-          "[C]Pois [G]vivo [D]com Je[G]sus,",
-          "E confundido não se[G...]rei,",
-          "[C]An-[G]dando_em [D]Sua [G]luz."
-        ]
+        "text": ["Do [G]mundo nada temerei,", "[C]Pois [G]vivo [D]com Je[G]sus,", "E confundido não se[G]rei,", "[C]An-[G]dando_em [D]Sua [G]luz."]
       },
       {
         "type": "ref",
@@ -45,7 +40,7 @@
         "text": [
           "Na [G]vida devo combater",
           "[C]Com [G]fé em [D]meu Je[G]sus;",
-          "Não temerei o mau po[G...]der,",
+          "Não temerei o mau po[G]der,",
           "[C]Pois [G]tenho_a_e[D]terna [G]luz."
         ]
       },

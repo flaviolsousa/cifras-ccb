@@ -9,27 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Es[E]tás na senda [A]divi[E]nal que te faz bri[B]lhar;",
-          "O t[E]eu lugar ce[A]lesti[E]al, Deus i[B7]rá te [E]dar."
-        ]
+        "text": ["Es[E]tás na senda [A]divi[E]nal que te faz bri[B]lhar;", "O t[E]eu lugar ce[A]lesti[E]al, Deus i[B7]rá te [E]dar."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Brilha mais e mais,",
-          "Caminha com Je[B]sus;",
-          "Te[E]rás em ti a S[A]ua l[E...]uz,",
-          "Bri[A]lhando [B7]sempre m[E]ais."
-        ]
+        "text": ["[E]Brilha mais e mais,", "Caminha com Je[B]sus;", "Te[E]rás em ti a S[A]ua l[E]uz,", "Bri[A]lhando [B7]sempre m[E]ais."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "É t[E]eu desejo [A]rece[E]ber dons do teu Sen[B]hor?",
-          "Ver[E]ás que há no S[A]eu sa[E]ber santo [B7]resplen[E]dor."
-        ]
+        "text": ["É t[E]eu desejo [A]rece[E]ber dons do teu Sen[B]hor?", "Ver[E]ás que há no S[A]eu sa[E]ber santo [B7]resplen[E]dor."]
       },
       {
         "type": "ref",
@@ -38,10 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Re[E]pouso_eterno [A]há nos c[E]éus junto_ao bom Je[B]sus;",
-          "Por f[E]im verás o g[A]rande D[E]eus onde_ha[B7]bita_a l[E]uz."
-        ]
+        "text": ["Re[E]pouso_eterno [A]há nos c[E]éus junto_ao bom Je[B]sus;", "Por f[E]im verás o g[A]rande D[E]eus onde_ha[B7]bita_a l[E]uz."]
       },
       {
         "type": "ref",

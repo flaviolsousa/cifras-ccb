@@ -18,10 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "O meu [A]nome no céu escreveste, Sen[E]hor,",
-          "No Teu [A]livro da [D]vida, por Teu [E7]grande a[A]mor.[A...]"
-        ]
+        "text": ["O meu [A]nome no céu escreveste, Sen[E]hor,", "No Teu [A]livro da [D]vida, por Teu [E7]grande a[A]mor.[A]..."]
       },
       {
         "type": "lyric",

@@ -38,12 +38,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Salva[B7]ção! Salva[E]ção!",
-          "Vida_e[A]terna [B7]e per[E]dão!",
-          "Diz o [B7]som de a[E...]mor",
-          "Do_Evan[E]gelho do [B7]Reden[E]tor."
-        ]
+        "text": ["Salva[B7]ção! Salva[E]ção!", "Vida_e[A]terna [B7]e per[E]dão!", "Diz o [B7]som de a[E]mor", "Do_Evan[E]gelho do [B7]Reden[E]tor."]
       }
     ]
   }

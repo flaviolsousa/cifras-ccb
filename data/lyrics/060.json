@@ -9,17 +9,14 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Rej[G]eita o mal deste m[D]undo e vem a Jesus te_entreg[G]ar;",
-          "Seu santo amor é pro[C]fun[Am...]do;  Jes[D]us quer te abenço[G]ar."
-        ]
+        "text": ["Rej[G]eita o mal deste m[D]undo e vem a Jesus te_entreg[G]ar;", "Seu santo amor é pro[C]fun[Am]do;  Jes[D]us quer te abenço[G]ar."]
       },
       {
         "type": "chorus",
         "text": [
           "Oh! [C]Vem a Jes[G]us,",
           "Que p[A]or nós morreu sobre_a c[D]ruz;",
-          "Seu s[G]angue precioso_Ele [C]derra[Am...]mou",
+          "Seu s[G]angue precioso_Ele [C]derra[Am]mou",
           "E c[D]om Deus nos reconcil[G]iou."
         ]
       },
@@ -28,7 +25,7 @@
         "code": "2",
         "text": [
           "Rej[G]eita do mundo_a vai[D]dade, pois ela te quer seduz[G]ir;",
-          "Da graça e da santi[C]da - [Am...]de,  Jes[D]us pode te reves[G]tir."
+          "Da graça e da santi[C]da - [Am]de,  Jes[D]us pode te reves[G]tir."
         ]
       },
       {
@@ -38,10 +35,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Pro[G]pósito firme_e cons[D]tante esteja em teu coraç[G]ão;",
-          "Jesus não te quer vacilan - [Am...]te; há n[D]´Ele real salvaç[G]ão."
-        ]
+        "text": ["Pro[G]pósito firme_e cons[D]tante esteja em teu coraç[G]ão;", "Jesus não te quer vacilan - [Am]te; há n[D]´Ele real salvaç[G]ão."]
       },
       {
         "type": "ref",

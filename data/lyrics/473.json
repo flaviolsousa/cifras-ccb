@@ -22,18 +22,13 @@
           "Vive[E]rei com os fiéis",
           "Para sempre lá nos [B]céus,",
           "Pois, no [E]número dos [A]santos,",
-          "Eu se[B]rei contado por D[E]eus.[E...]"
+          "Eu se[B]rei contado por D[E]eus.[E]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Ansi[E]oso eu es[A]pero",
-          "Ver a [E]face do Sen[B]hor,",
-          "Contemp[E]lar a formo[A]sura",
-          "E a g[B]lória do Reden[E]tor."
-        ]
+        "text": ["Ansi[E]oso eu es[A]pero", "Ver a [E]face do Sen[B]hor,", "Contemp[E]lar a formo[A]sura", "E a g[B]lória do Reden[E]tor."]
       },
       {
         "type": "ref",

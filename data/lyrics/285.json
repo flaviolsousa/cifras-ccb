@@ -18,10 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Livre [D]já sou [A]para_exaltar o meu Se[E]nhor;",
-          "[A]Glória, [D]glória [A]a Jesus, o meu Li[E]berta[A]dor.[A...]"
-        ]
+        "text": ["[A]Livre [D]já sou [A]para_exaltar o meu Se[E]nhor;", "[A]Glória, [D]glória [A]a Jesus, o meu Li[E]berta[A]dor.[A]..."]
       },
       {
         "type": "lyric",

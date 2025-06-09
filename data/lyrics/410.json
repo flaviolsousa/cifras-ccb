@@ -9,25 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "O [G]sangue precioso, vertido do Sen[D]hor,",
-          "Re[G]dime_e justifica quem c[D]rer no Salva[G]dor."
-        ]
+        "text": ["O [G]sangue precioso, vertido do Sen[D]hor,", "Re[G]dime_e justifica quem c[D]rer no Salva[G]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Com Seu [G]sangue, [C]Cristo nos la[D]vou e [G]nos purificou;",
-          "Na cruz, as nossas [D]dívidas pa[G]gou.[G...]"
-        ]
+        "text": ["Com Seu [G]sangue, [C]Cristo nos la[D]vou e [G]nos purificou;", "Na cruz, as nossas [D]dívidas pa[G]gou.[G]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Se[G]jamos sempre gratos, Seu sangue nos la[D]vou;",
-          "Em [G]comunhão, louvemos Je[D]sus, que nos sal[G]vou."
-        ]
+        "text": ["Se[G]jamos sempre gratos, Seu sangue nos la[D]vou;", "Em [G]comunhão, louvemos Je[D]sus, que nos sal[G]vou."]
       },
       {
         "type": "ref",
@@ -36,10 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Em [G]breve nós veremos, em grande esplen[D]dor,",
-          "De g[G]lória coroado, Je[D]sus, o Remi[G]dor."
-        ]
+        "text": ["Em [G]breve nós veremos, em grande esplen[D]dor,", "De g[G]lória coroado, Je[D]sus, o Remi[G]dor."]
       },
       {
         "type": "ref",

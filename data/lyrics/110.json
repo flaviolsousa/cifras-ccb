@@ -18,22 +18,12 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Oh! Vigi[E]ai em todo_o tempo",
-          "Para [B]que o coraç[E]ão",
-          "Sinta vigor, também alento,",
-          "E de [B]Deus a santa_unç[E]ão.[E...]"
-        ]
+        "text": ["Oh! Vigi[E]ai em todo_o tempo", "Para [B]que o coraç[E]ão", "Sinta vigor, também alento,", "E de [B]Deus a santa_unç[E]ão.[E]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Vigi[E]ai, pois não sabeis a hora",
-          "Em que [B]o Senhor vi[E]rá;",
-          "Ele diz, também_a nós agora,",
-          "Que mui [B]breve volta[E]rá."
-        ]
+        "text": ["Vigi[E]ai, pois não sabeis a hora", "Em que [B]o Senhor vi[E]rá;", "Ele diz, também_a nós agora,", "Que mui [B]breve volta[E]rá."]
       },
       {
         "type": "ref",

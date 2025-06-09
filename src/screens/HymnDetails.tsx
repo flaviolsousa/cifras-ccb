@@ -244,6 +244,14 @@ const HymnDetails = () => {
               >
                 <Menu.Item
                   onPress={() => {
+                    navigation.navigate("HymnEdit", { hymnCode });
+                    closeMenu();
+                  }}
+                  title="Editar Hino"
+                  leadingIcon="pencil"
+                />
+                <Menu.Item
+                  onPress={() => {
                     closeMenu();
                     setNavigationVisible(true);
                     closeMenu();

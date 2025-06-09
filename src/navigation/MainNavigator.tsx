@@ -7,6 +7,7 @@ import Bookmarks from "../screens/Bookmarks";
 import DrawerContent from "../screens/DrawerContent";
 import Home from "../screens/Home";
 import HymnDetails from "../screens/HymnDetails";
+import HymnEdit from "../screens/HymnEdit";
 import Preferences from "../screens/Preferences";
 import SplashScreen from "../screens/SplashScreen";
 
@@ -16,6 +17,7 @@ export type RootStackParamList = {
   Preferences: undefined;
   Bookmarks: undefined;
   HymnDetails: { hymnCode: string; hymnsCode: string[] };
+  HymnEdit: { hymnCode: string };
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -59,6 +61,7 @@ const HomeStackNavigator = () => {
           },
         }}
       />
+      <Stack.Screen name="HymnEdit" component={HymnEdit} options={{ headerShown: false }} />
     </Stack.Navigator>
   );
 };

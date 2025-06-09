@@ -9,25 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "A [F]Ti, ó Senhor, tributamos louvor,",
-          "Honra_e glória por Teu infini[C]to [G]fa-[C]vor."
-        ]
+        "text": ["A [F]Ti, ó Senhor, tributamos louvor,", "Honra_e glória por Teu infini[C]to [G]fa-[C]vor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[F]Santo, Santo és, Senhor; Santo, Santo és [C]Tu;",
-          "[F]Só a Ti todo_o louvor per[Bb]ten-[C]ce, Sen[F]hor.[F...]"
-        ]
+        "text": ["[F]Santo, Santo és, Senhor; Santo, Santo és [C]Tu;", "[F]Só a Ti todo_o louvor per[Bb]ten-[C]ce, Sen[F]hor.[F]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "A[F]mado Jesus, celestial Rei dos reis,",
-          "Brevemente_estarão, junto_a Ti, T[C]eus [G]fi-[C]éis."
-        ]
+        "text": ["A[F]mado Jesus, celestial Rei dos reis,", "Brevemente_estarão, junto_a Ti, T[C]eus [G]fi-[C]éis."]
       },
       {
         "type": "ref",
@@ -36,10 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Em [F]breve no céus, Teus remidos, Senhor,",
-          "Viverão para sempre no rei[C]no [G]de_a[C]mor."
-        ]
+        "text": ["Em [F]breve no céus, Teus remidos, Senhor,", "Viverão para sempre no rei[C]no [G]de_a[C]mor."]
       },
       {
         "type": "ref",

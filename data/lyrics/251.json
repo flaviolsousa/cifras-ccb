@@ -13,7 +13,7 @@
           "[G]Firme nas mãos de Cristo, firme no Salva[D]dor,",
           "[G]Minh´alma já se_encon[G7]tra [C]abrigada_em [D]Seu a[G]mor.",
           "[D]Sinto a voz divina [A7]de Cristo,_o Rei da [D]glória;",
-          "Em todas as ba[G]talhas, [A7]alcançarei vi[D]tó - [D7...]ria."
+          "Em todas as ba[G]talhas, [A7]alcançarei vi[D]tó - [D7]ria."
         ]
       },
       {
@@ -23,7 +23,7 @@
           "[G]Firme nas mãos de Cristo, em paz minh´alma_es[D]tá;",
           "[G]Sobre o inimi[G7]go, [C]pela fé, tri[D]unfa[G]rá.",
           "[D]Forte serei na luta, [A7]na dor e na tor[D]menta,",
-          "Prossigo_avante,_em [G]glória, [A7]pois Cristo me sus[D]ten - [D7...]ta."
+          "Prossigo_avante,_em [G]glória, [A7]pois Cristo me sus[D]ten - [D7]ta."
         ]
       },
       {
@@ -38,10 +38,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[G]Firme nas mãos de Cristo, firme no Salva[D]dor,",
-          "[G]Minh´alma já se_encon[G7]tra, [C]abrigada_em [D]Seu a[G]mor."
-        ]
+        "text": ["[G]Firme nas mãos de Cristo, firme no Salva[D]dor,", "[G]Minh´alma já se_encon[G7]tra, [C]abrigada_em [D]Seu a[G]mor."]
       }
     ]
   }

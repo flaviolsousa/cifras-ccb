@@ -9,19 +9,14 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Eis que_os m[E]ontes se_abalaram",
-          "Ante D[B7]eus, o Cria[E]dor;",
-          "Rio e mar também pararam",
-          "Pela [F#]ordem do Sen[B7]hor."
-        ]
+        "text": ["Eis que_os m[E]ontes se_abalaram", "Ante D[B7]eus, o Cria[E]dor;", "Rio e mar também pararam", "Pela [F#]ordem do Sen[B7]hor."]
       },
       {
         "type": "chorus",
         "text": [
           "Trema_o [B7]céu, a terra,_o m[E]ar,",
           "Na pre[A]sença do Se[E]nhor,",
-          "E, do [C#m]mundo,_os mora[A]dores,[A...]",
+          "E, do [C#m]mundo,_os mora[A]dores,[A]...",
           "Deem-Lhe [B7]glória e lou[E]vor."
         ]
       },
@@ -42,12 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Nada_im[E]pede_o_Onipotente",
-          "De_ope[B7]rar a Seu praz[E]er;",
-          "Ele é o Deus vivente,",
-          "Sempi[F#]terno_é Seu po[B7]der."
-        ]
+        "text": ["Nada_im[E]pede_o_Onipotente", "De_ope[B7]rar a Seu praz[E]er;", "Ele é o Deus vivente,", "Sempi[F#]terno_é Seu po[B7]der."]
       },
       {
         "type": "ref",

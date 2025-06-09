@@ -9,25 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Quão glo[E]riosa sinto_em mim a [B7]voz do Cria[E]dor!",
-          "Refrigério ela traz, é um [B7]bálsamo de_a[E]mor."
-        ]
+        "text": ["Quão glo[E]riosa sinto_em mim a [B7]voz do Cria[E]dor!", "Refrigério ela traz, é um [B7]bálsamo de_a[E]mor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Creio no Senhor, sábio Cria[B7]dor;",
-          "[E]Sinto_em mim o Seu po[A...]der que [B7]me fará ven[E]cer."
-        ]
+        "text": ["[E]Creio no Senhor, sábio Cria[B7]dor;", "[E]Sinto_em mim o Seu po[A]der que [B7]me fará ven[E]cer."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "A Pa[E]lavra do Senhor, de[B7]sejo sempre_ou[E]vir;",
-          "Segurança Ela traz e_espe[B7]rança do por[E]vir."
-        ]
+        "text": ["A Pa[E]lavra do Senhor, de[B7]sejo sempre_ou[E]vir;", "Segurança Ela traz e_espe[B7]rança do por[E]vir."]
       },
       {
         "type": "ref",
@@ -36,10 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Eu al[E]mejo sempre_estar u[B7]nido_ao grande D[E]eus;",
-          "Em justiça_e retidão, vou se[B7]guindo para_os c[E]éus."
-        ]
+        "text": ["Eu al[E]mejo sempre_estar u[B7]nido_ao grande D[E]eus;", "Em justiça_e retidão, vou se[B7]guindo para_os c[E]éus."]
       },
       {
         "type": "ref",

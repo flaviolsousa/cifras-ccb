@@ -18,10 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[F#]Com reve[B]rência_e fé [F#]Te ado[B]ramos,",
-          "[E]Onipo[B]tente Deus, [E]Pai [F#]de a[B]mor.[B...]"
-        ]
+        "text": ["[F#]Com reve[B]rência_e fé [F#]Te ado[B]ramos,", "[E]Onipo[B]tente Deus, [E]Pai [F#]de a[B]mor.[B]..."]
       },
       {
         "type": "lyric",

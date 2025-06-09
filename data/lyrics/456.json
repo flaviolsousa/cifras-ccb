@@ -20,16 +20,13 @@
           "Somos [A]joias preci[E]osas",
           "[A]Do te[E]souro [B7]do Sen[E]hor[E7];",
           "Somos [A]belas, mui for[E]mosas, ",
-          "[A]Somos [E]joias [B7]de va[E]lor.[E...]"
+          "[A]Somos [E]joias [B7]de va[E]lor.[E]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Destas [E]joias preciosas C[A]risto [E]sempre [B7]cuida[E]rá;",
-          "Sempre belas e brilhantes [A]Ele [E]as con[B7]serva[E]rá."
-        ]
+        "text": ["Destas [E]joias preciosas C[A]risto [E]sempre [B7]cuida[E]rá;", "Sempre belas e brilhantes [A]Ele [E]as con[B7]serva[E]rá."]
       },
       {
         "type": "ref",
@@ -38,10 +35,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Reves[E]tidos de pureza, [A]camin[E]hando [B7]em a[E]mor,",
-          "Aguardemos bem atentos [A]o re[E]torno [B7]do Sen[E]hor."
-        ]
+        "text": ["Reves[E]tidos de pureza, [A]camin[E]hando [B7]em a[E]mor,", "Aguardemos bem atentos [A]o re[E]torno [B7]do Sen[E]hor."]
       },
       {
         "type": "ref",

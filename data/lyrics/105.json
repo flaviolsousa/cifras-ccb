@@ -13,7 +13,7 @@
           "[B]Ó irmão que deixaste a casa do Senhor,",
           "[F#7]Não mais andes longe [B]do teu Pai celestial;",
           "Ele quer perdoar-te, por Seu sublime_amor;",
-          "[F#7]Volta ao teu lar Pater[B]nal![B...]"
+          "[F#7]Volta ao teu lar Pater[B]nal![B]..."
         ]
       },
       {
@@ -23,7 +23,7 @@
           "[B]Ao lar que desprezaste, oh! volta, sem tardar,",
           "[F#7]Pois só nele_encontras p[B]az e consolação;",
           "Tuas culpas confessa, sem nada ocultar,",
-          "[F#7]Grandioso_é_o Deus do perd[B]ão.[B...]"
+          "[F#7]Grandioso_é_o Deus do perd[B]ão.[B]..."
         ]
       },
       {
@@ -38,12 +38,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[B]Vai, ó pródigo, vai",
-          "Do [F#7]pão do céu te sac[B]iar;",
-          "Deus te quer perdo[E]ar",
-          "[F°]E  t[B]eus[F#7]    pecados la[B]var."
-        ]
+        "text": ["[B]Vai, ó pródigo, vai", "Do [F#7]pão do céu te sac[B]iar;", "Deus te quer perdo[E]ar", "[F°]E  t[B]eus[F#7]    pecados la[B]var."]
       }
     ]
   }

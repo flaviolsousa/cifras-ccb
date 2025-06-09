@@ -9,21 +9,11 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "N[A]ão poderei jamais esquecer",
-          "T[E]ua mercê, Sen[A]hor;",
-          "Deste_aos pequenos de conhecer",
-          "T[E]ua grandeza e_a[A]mor.[A7]"
-        ]
+        "text": ["N[A]ão poderei jamais esquecer", "T[E]ua mercê, Sen[A]hor;", "Deste_aos pequenos de conhecer", "T[E]ua grandeza e_a[A]mor.[A7]"]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Jamais esq[A]uecerei",
-          "[E]Tua mercê, ó Criad[A]or;",
-          "Por Cristo [D]alcança[C#7...]rei",
-          "[D]Grande te[E]souro de_a[A]mor."
-        ]
+        "text": ["[D]Jamais esq[A]uecerei", "[E]Tua mercê, ó Criad[A]or;", "Por Cristo [D]alcança[C#7]rei", "[D]Grande te[E]souro de_a[A]mor."]
       },
       {
         "type": "lyric",

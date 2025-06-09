@@ -9,19 +9,14 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Jovens, amai o conselho,",
-          "O_en[E]sino de Cristo Jes[B]us;",
-          "Ele_é o vosso Modelo",
-          "De [C#m]vida, jus[F#7]tiça e l[B]uz."
-        ]
+        "text": ["[B]Jovens, amai o conselho,", "O_en[E]sino de Cristo Jes[B]us;", "Ele_é o vosso Modelo", "De [C#m]vida, jus[F#7]tiça e l[B]uz."]
       },
       {
         "type": "chorus",
         "text": [
           "A D[B]eus e_a Cristo,_o Sen[E]hor,[C#m]",
           "De[B]vemos consagra[F#7]ção,",
-          "Res[B]peito, honra, pro[E]fundo_a[C#...]mor",
+          "Res[B]peito, honra, pro[E]fundo_a[C#]mor",
           "E_e[F#7]terna veneraç[B]ão."
         ]
       },
@@ -42,12 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Jovens que seguem o Mestre,",
-          "Em [E]sua_existência ter[B]ão",
-          "A providência celeste",
-          "E [C#m]prósperos [F#7]n´Ele ser[B]ão."
-        ]
+        "text": ["[B]Jovens que seguem o Mestre,", "Em [E]sua_existência ter[B]ão", "A providência celeste", "E [C#m]prósperos [F#7]n´Ele ser[B]ão."]
       },
       {
         "type": "ref",

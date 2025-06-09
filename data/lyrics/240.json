@@ -18,11 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Glória, [D]gló[A]ria [B7]dou a Jesus com fer[E]vor[E7...];",
-          "Por [A]Ele serei vence[D]dor;",
-          "Oh! [E]Glória ao meu Reden[A]tor."
-        ]
+        "text": ["[A]Glória, [D]gló[A]ria [B7]dou a Jesus com fer[E]vor[E7];", "Por [A]Ele serei vence[D]dor;", "Oh! [E]Glória ao meu Reden[A]tor."]
       },
       {
         "type": "lyric",

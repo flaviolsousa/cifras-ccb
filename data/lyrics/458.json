@@ -9,31 +9,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "S[E]ou amado por Jesus,",
-          "[A]A Palavra_as[E]sim me diz;",
-          "Ele é a minha Luz",
-          "[A]E me [E]leva_ao [B7]Seu pa[E]ís."
-        ]
+        "text": ["S[E]ou amado por Jesus,", "[A]A Palavra_as[E]sim me diz;", "Ele é a minha Luz", "[A]E me [E]leva_ao [B7]Seu pa[E]ís."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Cristo me [A]ama,",
-          "[E]Sei que me [B7]ama,",
-          "[E]Muito me [A...]ama,",
-          "Em [E]Cristo [B7]sou fe[E]liz.[E...]"
-        ]
+        "text": ["[E]Cristo me [A]ama,", "[E]Sei que me [B7]ama,", "[E]Muito me [A]ama,", "Em [E]Cristo [B7]sou fe[E]liz.[E]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "S[E]ou amado por Jesus,",
-          "P[A]ois, por mim, na c[E]ruz morreu;",
-          "Ele_agora me conduz",
-          "[A]Para_o l[E]ar que [B7]promet[E]eu."
-        ]
+        "text": ["S[E]ou amado por Jesus,", "P[A]ois, por mim, na c[E]ruz morreu;", "Ele_agora me conduz", "[A]Para_o l[E]ar que [B7]promet[E]eu."]
       },
       {
         "type": "ref",
@@ -42,12 +27,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "S[E]ou amado por Jesus,",
-          "P[A]ois comigo [E]sempre_está;",
-          "Seu conselho_em mim produz",
-          "[A]Força, q[E]ue me [B7]suste[E]rá."
-        ]
+        "text": ["S[E]ou amado por Jesus,", "P[A]ois comigo [E]sempre_está;", "Seu conselho_em mim produz", "[A]Força, q[E]ue me [B7]suste[E]rá."]
       },
       {
         "type": "ref",

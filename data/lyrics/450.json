@@ -22,7 +22,7 @@
           "[A]Grande bem, [D]sem igual,",
           "[A]É estar diante [E]do Senhor;",
           "[A]Sua voz [D]divinal",
-          "[A]Nos ensina com su[E]blime_a[A]mor.[A...]"
+          "[A]Nos ensina com su[E]blime_a[A]mor.[A]..."
         ]
       },
       {
@@ -42,12 +42,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[A]A boa parte q[E]ue nos dá",
-          "Cristo Jesus, o [A]Redentor,",
-          "Nada de nós a [D]tomará,",
-          "Se a guar[A]darmos c[E]om a[A]mor."
-        ]
+        "text": ["[A]A boa parte q[E]ue nos dá", "Cristo Jesus, o [A]Redentor,", "Nada de nós a [D]tomará,", "Se a guar[A]darmos c[E]om a[A]mor."]
       },
       {
         "type": "ref",
