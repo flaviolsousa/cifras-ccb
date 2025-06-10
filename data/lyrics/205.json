@@ -11,26 +11,21 @@
         "code": "1",
         "text": [
           "Fi[G]el  [B7]A - [Em]migo eu [D]encont[G]rei",
-          "Em C[C]risto, o Salva[G]dor;[D]",
+          "Em C[C]risto, o Salva[G]dor;[D]...",
           "A[G]le[B7]gre[Em]mente eu c[D]anta[G]rei",
           "O S[C]eu sub[G]lime e g[A7]rande a[D]mor!"
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "S[G]alvo por S[D]eu poder,",
-          "[D7]Salvo por S[G]eu amor,",
-          "Sinto em meu coraç[C]ão",
-          "A virtude do [D7]Salva[G]dor."
-        ]
+        "text": ["S[G]alvo por S[D]eu poder,", "[D7]Salvo por S[G]eu amor,", "Sinto em meu coraç[C]ão", "A virtude do [D7]Salva[G]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
           "Re[G]tido[B7] es[Em]tava em [D]todo o [G]mal",
-          "Que [C]me escraviz[G]ou;[D]",
+          "Que [C]me escraviz[G]ou;[D]...",
           "Mas C[G]risto[B7], A[Em]migo ce[D]lesti[G]al,",
           "Com S[C]eu po[G]der me [A7]libert[D]ou."
         ]
@@ -44,7 +39,7 @@
         "code": "3",
         "text": [
           "Bem [G]lon[B7]ge es[Em]tava do m[D]eu Sen[G]hor,",
-          "Sem p[C]az, sem salvaç[G]ão,[D]",
+          "Sem p[C]az, sem salvaç[G]ão,[D]...",
           "Mas [G]sinto[B7]  a[Em]gora o [D]doce a[G]mor",
           "De C[C]risto, [G]em meu [A7]coraç[D]ão."
         ]
