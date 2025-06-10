@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { View, ScrollView, ToastAndroid, Platform } from "react-native";
-import { Appbar, Button, Text, TextInput, SegmentedButtons, useTheme, IconButton, Card } from "react-native-paper";
+import { Appbar, Text, SegmentedButtons, useTheme, IconButton, Card } from "react-native-paper";
 import { useNavigation, useRoute } from "@react-navigation/native";
-import useHymnData from "../hooks/useHymnData";
 import * as Clipboard from "expo-clipboard";
 import { transpose } from "chord-transposer";
+import { HymnModel } from "../domain/HymnModel";
+import { HymnModels } from "../services/Hymn/HymnImports";
 
 const RHYTHM_OPTIONS = [
   { label: "Canção", value: "Canção" },
@@ -21,6 +22,16 @@ const LEVEL_OPTIONS = [
 ];
 
 const TONE_OPTIONS = ["A", "B", "C", "D", "E", "F", "G", "Ab", "Bb", "Db", "Eb", "Gb"];
+
+const getDefaultSelectedTone = (hymn: HymnModel) => {
+  if (!hymn.score || !hymn.score.stanzas || hymn.score.stanzas.length === 0) return "C"; // Default to C if no stanzas
+  const firstStanza = hymn.score.stanzas[0];
+  if (!firstStanza.text || firstStanza.text.length === 0) return "C"; // Default to C if no text in the first stanza
+  const firstLine = firstStanza.text[0];
+  const chordRegex = /\[([^\]|]+)/;
+  const match = chordRegex.exec(firstLine);
+  return match ? match[1] : "C"; // Return the first chord or default to C
+};
 
 const TonePanel = ({ onToneUp, onToneDown }: { onToneUp: () => void; onToneDown: () => void }) => {
   return (
@@ -50,34 +61,55 @@ const HymnEdit = () => {
   const navigation = useNavigation();
   const route = useRoute();
   const { hymnCode } = route.params as { hymnCode: string };
-  const { hymn, updateHymn } = useHymnData(hymnCode);
+  const [hymn, setHymn] = useState<HymnModel | null>(null);
   const [jsonPreview, setJsonPreview] = useState("");
+
+  // Fetch hymn data on component mount
+  useEffect(() => {
+    const fetchHymn = async () => {
+      const fetchedHymn = await HymnModels[hymnCode];
+      setHymn(fetchedHymn);
+    };
+    fetchHymn();
+  }, [hymnCode]);
 
   // Update JSON preview whenever hymn changes
   useEffect(() => {
-    /*{
-  "version": "v3",
-  "title": "Oh! Vem, sim, vem",
-  "level": 3,
-  "tone": {
-    "original": "Bb",
-    "selected": "A"
-  },
-  "rhythm": "Valsa",*/
-
     if (hymn) {
-      const formattedHymn = {
+      const formattedHymn: any = {
         version: hymn.version,
         title: hymn.title,
-        level: hymn.level,
+        level: hymn.level ?? 3,
         tone: {
           original: hymn.tone.original,
-          selected: hymn.tone.selected,
+          selected: hymn.tone.selected ?? getDefaultSelectedTone(hymn),
         },
         rhythm: hymn.rhythm,
-        score: hymn.score,
+        score: {
+          introduction: [],
+          stanzas: hymn.score.stanzas,
+        },
       };
-      setJsonPreview(JSON.stringify(hymn, null, 2));
+
+      const firstStanza = formattedHymn.score.stanzas[0];
+      if (firstStanza && firstStanza.text && firstStanza.text.length > 0) {
+        const firstLine = firstStanza.text[0];
+        const extractedChords: string[] = [];
+        const chordRegex = /\[([^\]|]+)(\|[^\]]*)?\]/g;
+        let match;
+        while ((match = chordRegex.exec(firstLine)) !== null) {
+          extractedChords.push(match[1]);
+        }
+        formattedHymn.score.introduction.push(...extractedChords);
+      }
+
+      formattedHymn.score.stanzas.forEach((stanza: any) => {
+        if (stanza.text && Array.isArray(stanza.text)) {
+          stanza.text = stanza.text.map((line: string) => line.replace(/_/g, " "));
+        }
+      });
+
+      setJsonPreview(JSON.stringify(formattedHymn, null, 2));
     }
   }, [hymn]);
 
@@ -108,7 +140,7 @@ const HymnEdit = () => {
       );
     });
 
-    updateHymn({ ...hymn });
+    setHymn({ ...hymn });
   };
 
   if (!hymn) return null;
@@ -123,10 +155,10 @@ const HymnEdit = () => {
       <ScrollView style={{ padding: 16 }}>
         <Text variant="titleMedium">Nível</Text>
         <SegmentedButtons
-          value={hymn.level.toString()}
+          value={(hymn.level ?? 3).toString()}
           onValueChange={(value) => {
             hymn.level = parseInt(value);
-            updateHymn({ ...hymn });
+            setHymn({ ...hymn });
           }}
           buttons={LEVEL_OPTIONS}
         />
@@ -138,7 +170,7 @@ const HymnEdit = () => {
           value={hymn.tone.original}
           onValueChange={(value) => {
             hymn.tone.original = value;
-            updateHymn({ ...hymn });
+            setHymn({ ...hymn });
           }}
           buttons={TONE_OPTIONS.map((tone) => ({ value: tone, label: tone }))}
         />
@@ -147,10 +179,10 @@ const HymnEdit = () => {
           Tom Atual
         </Text>
         <SegmentedButtons
-          value={hymn.tone.selected}
+          value={hymn.tone.selected ?? getDefaultSelectedTone(hymn)}
           onValueChange={(value) => {
             hymn.tone.selected = value;
-            updateHymn({ ...hymn });
+            setHymn({ ...hymn });
           }}
           buttons={TONE_OPTIONS.map((tone) => ({ value: tone, label: tone }))}
         />
@@ -162,7 +194,7 @@ const HymnEdit = () => {
           value={hymn.rhythm}
           onValueChange={(value) => {
             hymn.rhythm = value;
-            updateHymn({ ...hymn });
+            setHymn({ ...hymn });
           }}
           buttons={RHYTHM_OPTIONS}
         />
