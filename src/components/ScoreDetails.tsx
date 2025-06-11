@@ -3,6 +3,7 @@ import { View, StyleSheet, Pressable } from "react-native";
 import { Text, useTheme } from "react-native-paper";
 import ToneSelector from "./ToneSelector";
 import RhythmDisplay from "./RhythmDisplay";
+import DifficultyIndicator from "./DifficultyIndicator";
 import { HymnModel } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
 
@@ -138,6 +139,14 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
               </Text>
             </View>
           )}
+        </View>
+
+        {/* Fourth row - Difficulty */}
+        <View style={styles.row}>
+          <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
+            Dificuldade:
+          </Text>
+          <DifficultyIndicator level={hymn.level} />
         </View>
       </View>
       <ToneSelector visible={toneSelectorVisible} currentTone={tone} onSelect={handleToneSelect} onDismiss={() => setToneSelectorVisible(false)} />

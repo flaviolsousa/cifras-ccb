@@ -16,6 +16,41 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose, visible 
   const scrollViewRef = useRef<ScrollView>(null);
   const sortedChords = [...allChords].sort();
 
+  const styles = StyleSheet.create({
+    container: {
+      position: "absolute",
+      bottom: 0,
+      left: 0,
+      right: 0,
+      height: 225, // Increased height to accommodate larger chord diagrams
+      elevation: 4,
+      paddingTop: 8, // Increased to accommodate floating close button
+      paddingBottom: 8,
+      zIndex: 4,
+    },
+    closeButtonContainer: {
+      position: "absolute",
+      left: 0,
+      right: 0,
+      top: -50,
+      alignItems: "center",
+      zIndex: 5,
+    },
+    closeButton: {
+      backgroundColor: theme.colors.surface,
+      borderRadius: 16,
+    },
+    chordContainer: {
+      padding: 8,
+      alignItems: "center",
+      width: 180, // Increased width for larger chord diagrams
+    },
+    chordName: {
+      fontSize: 16,
+      marginBottom: 4,
+    },
+  });
+
   // Effect to scroll to the selected chord
   useEffect(() => {
     if (selectedChord && scrollViewRef.current) {
@@ -57,40 +92,5 @@ const ChordPanel = ({ selectedChord, allChords, onChordSelect, onClose, visible 
     </Surface>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: 225, // Increased height to accommodate larger chord diagrams
-    elevation: 4,
-    paddingTop: 8, // Increased to accommodate floating close button
-    paddingBottom: 8,
-    zIndex: 4,
-  },
-  closeButtonContainer: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    top: -50,
-    alignItems: "center",
-    zIndex: 5,
-  },
-  closeButton: {
-    backgroundColor: "white",
-    borderRadius: 16,
-  },
-  chordContainer: {
-    padding: 8,
-    alignItems: "center",
-    width: 180, // Increased width for larger chord diagrams
-  },
-  chordName: {
-    fontSize: 16,
-    marginBottom: 4,
-  },
-});
 
 export default ChordPanel;
