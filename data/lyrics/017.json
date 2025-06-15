@@ -1,36 +1,34 @@
 {
   "version": "v3",
   "title": "Ó Senhor, vem visitar-me",
+  "level": 4,
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Ó Sen[G]hor, vem visitar-me e_alen[D]tar a minha [G]fé;",
-          "Eu desejo consagrar-me e_alcan[A]çar, de [A7]Ti, mer[D]cê."
-        ]
+        "text": ["Ó Sen[G]hor, vem visitar-me e alen[D]tar a minha [G]fé;", "Eu desejo consagrar-me e alcan[A]çar, de Ti, mer[D]cê."]
       },
       {
         "type": "chorus",
         "text": [
-          "Com o_Es[C]pírito di[Am]vino",
+          "Com o Es[C]pírito di[Am]vino",
           "Vem, Jes[D]us, me bati[G]zar;",
-          "Aos Teus pés eu me in[C]cli-[G]no",
+          "Aos Teus pés eu [C|↓]me in[G]cli-no",
           "E te rogo sem cessar:",
-          "Oh! V[C]em, Sen[G]hor, c[D]om Teu Dom me conso[G]lar."
+          "Oh! V[C]em, Sen[G|↓↑↓]hor, c[D]om Teu Dom me conso[G]lar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Ó Jes[G]us, és minha Sorte, és a [D]minha Salvaç[G]ão;",
-          "Faz-me firme, faz-me forte pela T[A]ua [A7]santa_unç[D]ão."
-        ]
+        "text": ["Ó Jes[G]us, és minha Sorte, és a [D]minha Salvaç[G]ão;", "Faz-me firme, faz-me forte pela T[A]ua santa unç[D]ão."]
       },
       {
         "type": "ref",
@@ -39,10 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "E ao f[G]im serei ditoso, pois Con[D]tigo estar[G]ei;",
-          "No Teu reino glorioso, face_a f[A]ace [A7]Te ver[D]ei."
-        ]
+        "text": ["E ao f[G]im serei ditoso, pois Con[D]tigo estar[G]ei;", "No Teu reino glorioso, face a f[A]ace Te ver[D]ei."]
       },
       {
         "type": "ref",

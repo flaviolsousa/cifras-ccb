@@ -35,12 +35,21 @@ ctrl+d -> Seleciona ocorrências
 - 005
 - 007
 - 008
--
+- 014
+- 015
+- 017
 
 # Dúvidas:
 
-- 011 - alsd
+- 000 - 
 
 # Errei:
 
-- 012 - kljnjmlkm
+- 000 - 
+
+
+
+# Revisado apenas o Primeiro Verso
+
+- 006
+- 013

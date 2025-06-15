@@ -1,10 +1,14 @@
 {
   "version": "v3",
   "title": "Ó alma que choras",
+  "level": 2,
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
