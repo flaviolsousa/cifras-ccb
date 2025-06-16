@@ -1,6 +1,7 @@
 {
   "version": "v3",
   "title": "Glória ao Justo, fiel Cordeiro!",
+  "level": 4,
   "tone": {
     "recommended": "C"
   },
@@ -10,25 +11,25 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao Cor[C]deiro imaculado, Jesus [F]Cristo, [G]exal[C]temos;",
-          "Do Seu Nome [G]fala[C]remos, pois, com [F]infi[D]nito_a[G]mor,",
-          "Veio_à [Am]terra, [G]glori[C]oso, com po[F]der e [G]esplen[C]dor.[C]..."
+          "[G]Ao Cor[C]deiro imaculado, Jesus [F]Cris[G]to, exal[C]temos;",
+          "Do Seu Nome[G]... fala[C]remos, pois, com [F]infi[D]nito_a[G]mor,",
+          "Veio_à [Am]terra, [G]glori[C]oso, com po[F]der e [G]esplen[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Segui[C]remos a Jesus Cristo com in[F]teira [G]confi[C]ança,",
+          "[G]Segui[C]remos a Jesus Cristo com in[F]teira [G]confi[C]ança,",
           "Temos viva [G]espe[C]rança de che[F]gar ao [D]lar de_a[G]mor,",
-          "Diri[Am]gidos, [G]ampa[C]rados pelo [F]sábio [G]Condu[C]tor.[C]..."
+          "Diri[Am]gidos, [G]ampa[C]rados pelo [F]sábio [G]Condu[C]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Só a [C]Cristo daremos glória e lou[F]vores [G]em e[C]terno,",
+          "[G]Só a [C]Cristo daremos glória e lou[F]vores [G]em e[C]terno,",
           "Pois livrou-nos [G]do in[C]ferno, do pe[F]cado [D]e do [G]mal,",
           "Para [Am]dar-nos [G]a he[C]rança no Seu [F]lar ce[G]lesti[C]al."
         ]
@@ -36,10 +37,10 @@
       {
         "type": "chorus",
         "text": [
-          "[C]  Glória_ao [F]Justo, fi[G]el Cor[C]deiro,",
-          "  Puro, [G]Santo, Verda[C]deiro!",
-          "  Pela [F]morte [G]no ma[C]deiro,",
-          "  Nos re[F]conci[G]liou com [C]Deus."
+          "[C]Glória_ao [F]Justo, fi[G]el Cor[C]deiro,",
+          "Puro, [G]Santo, Verda[C]deiro!",
+          "Pela [F]morte [G]no ma[C]deiro,",
+          "Nos re[F]conci[G]liou com [C]Deus."
         ]
       }
     ]
