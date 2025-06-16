@@ -1,32 +1,40 @@
 // src/screens/Preferences.tsx
-import React, { useState, useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
 import { useTheme, Appbar, List, Button, SegmentedButtons } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
 import _ from "lodash";
 
-import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE } from "../config/values";
+import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE, type Theme, THEME_DARK, THEME_LIGHT, THEME_SYSTEM } from "../config/values";
 import { ThemeContext } from "../config/Theme/Context";
 import StyledVerse from "../components/StyledVerse";
+import { usePreferences } from "../hooks/usePreferences";
 
 const Preferences = () => {
-  const FONT_SIZE_INITIAL = Platform.OS === "web" ? 30 : 22;
+  const { preferences, savePreferences } = usePreferences();
   const theme = useTheme();
-  const [verseHeight, setVerseHeight] = useState<number>(FONT_SIZE_INITIAL);
-  const { themeName, setThemeName } = useContext(ThemeContext);
+  const { fontSize, themeName } = preferences;
+  const [verseHeight, setVerseHeight] = useState<number>(preferences.fontSize);
+  const { themeName: themeNameContext, setThemeName: setThemeNameContext } = useContext(ThemeContext);
   const navigation = useNavigation();
 
-  const [fontSize, setFontSize] = useState(FONT_SIZE_INITIAL);
-  //const [themeSelection, setThemeSelection] = useState(themeContext.theme);
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+  }, []);
 
   const handleFontSizeChange = _.debounce((value: number) => {
-    setFontSize(value);
+    if (!isLoaded) return;
+    savePreferences({ ...preferences, fontSize: value });
   }, 150);
 
-  const savePreferences = () => {
-    // Save preferences logic here
-    navigation.goBack();
+  const handleThemeChange = (value: Theme) => {
+    setThemeNameContext(value);
+    savePreferences({ ...preferences, themeName: value });
   };
 
   const onVerseLayout = (event: LayoutChangeEvent) => {
@@ -43,7 +51,7 @@ const Preferences = () => {
       <View style={{ ...styles.content, flex: 1 }}>
         <ScrollView>
           <List.Section>
-            <List.Subheader style={styles.subHeader}>Font Size</List.Subheader>
+            <List.Subheader style={styles.subHeader}>Font Size ({fontSize})</List.Subheader>
             <Slider
               style={styles.slideFontSize}
               minimumValue={HYMN_MIN_FONT_SIZE}
@@ -68,16 +76,16 @@ const Preferences = () => {
             <List.Subheader style={styles.subHeader}>Theme</List.Subheader>
             <SegmentedButtons
               value={themeName}
-              onValueChange={setThemeName}
+              onValueChange={handleThemeChange}
               buttons={[
-                { label: "Sistema", value: "system" },
-                { label: "Dark", value: "dark" },
-                { label: "Light", value: "light" },
+                { label: "Sistema", value: THEME_SYSTEM },
+                { label: "Dark", value: THEME_DARK },
+                { label: "Light", value: THEME_LIGHT },
               ]}
             />
           </List.Section>
         </ScrollView>
-        <Button mode="contained" onPress={savePreferences}>
+        <Button mode="contained" onPress={() => navigation.goBack()}>
           Salvar
         </Button>
       </View>

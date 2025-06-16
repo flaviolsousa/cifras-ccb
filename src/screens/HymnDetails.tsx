@@ -18,6 +18,8 @@ import { type RootStackParamList } from "../navigation/MainNavigator";
 import HymnIntroNotes from "../components/HymnIntroNotes";
 import StyledVerse from "../components/StyledVerse";
 import StyledIntroductionText from "../components/StyledIntroductionText";
+import { usePreferences } from "../hooks/usePreferences";
+
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
 function cleanChordName(chord: string): string {
@@ -27,17 +29,17 @@ function cleanChordName(chord: string): string {
 const HymnDetails = () => {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const FONT_SIZE_INITIAL = Platform.OS === "web" ? 30 : 22;
-  const FOOT_HEIGHT = FONT_SIZE_INITIAL * 10;
+  const { preferences } = usePreferences();
+  const FOOT_HEIGHT = preferences.fontSize * 10;
 
   const route = useRoute<HymnDetailsRouteProp>();
   const navigation = useNavigation<any>();
   const { hymnCode, hymnsCode } = route.params;
 
   const { hymn, title, updateHymn } = useHymnData(hymnCode);
-  const [fontSize, setFontSize] = useState(FONT_SIZE_INITIAL);
-  const [fontSizeQuarter, setFontSizeQuarter] = useState(Math.floor(FONT_SIZE_INITIAL / 4));
-  const [fontSizeDouble, setFontSizeDouble] = useState(Math.floor(FONT_SIZE_INITIAL * 2));
+  const [fontSize, setFontSize] = useState(preferences.fontSize);
+  const [fontSizeQuarter, setFontSizeQuarter] = useState(Math.floor(preferences.fontSize / 4));
+  const [fontSizeDouble, setFontSizeDouble] = useState(Math.floor(preferences.fontSize * 2));
 
   const isPortrait = useOrientation();
   const [verseHeights, setVerseHeights] = useState<{ [key: string]: number }>({});
@@ -86,6 +88,10 @@ const HymnDetails = () => {
       flex: 1,
     },
   });
+
+  useEffect(() => {
+    setFontSize(preferences.fontSize);
+  }, [preferences.fontSize]);
 
   // save distinct of chords to ChordPanel
   useEffect(() => {

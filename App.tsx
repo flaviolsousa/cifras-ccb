@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from "react";
+import React, { useState, useMemo, useCallback, useEffect } from "react";
 import { LogBox } from "react-native";
 import "react-native-reanimated";
 import * as SplashScreen from "expo-splash-screen";
@@ -11,8 +11,9 @@ import { Provider as PaperProvider } from "react-native-paper";
 import { useColorScheme, StatusBar } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
-import { THEME_DARK, THEME_SYSTEM } from "./src/config/values";
+import { Theme, THEME_DARK, THEME_SYSTEM } from "./src/config/values";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { usePreferences } from "./src/hooks/usePreferences";
 
 // Log para verificar inicialização
 console.log("[Expo] Initializing app...");
@@ -31,10 +32,15 @@ export default function App() {
   });
 
   const colorScheme = useColorScheme();
-  const [themeName, setThemeName] = useState(THEME_SYSTEM);
-  const themePreferences = useMemo(() => ({ themeName, setThemeName }), [themeName, setThemeName]);
-  const selectedTheme = themeName === THEME_SYSTEM ? colorScheme : themeName;
-  const _theme = selectedTheme === THEME_DARK ? theme.dark : theme.light;
+  const { preferences } = usePreferences();
+  const [themeName, setThemeName] = useState(preferences.themeName);
+
+  //const selectedTheme = themeName === preferences.themeName ? colorScheme : themeName;
+  const _theme = themeName === THEME_DARK ? theme.dark : theme.light;
+
+  useEffect(() => {
+    setThemeName(preferences.themeName);
+  }, [preferences.themeName]);
 
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
@@ -48,12 +54,12 @@ export default function App() {
   }
 
   return (
-    <ThemeContext.Provider value={themePreferences}>
+    <ThemeContext.Provider value={{ setThemeName: setThemeName, themeName: themeName }}>
       <ReduxProvider store={store}>
         <PaperProvider theme={_theme}>
           <SafeAreaProvider>
             <SafeAreaView style={{ flex: 1 }} edges={["left", "right", "bottom"]} onLayout={onLayoutRootView}>
-              <StatusBar backgroundColor={_theme.colors.background} barStyle={selectedTheme === THEME_DARK ? "light-content" : "dark-content"} />
+              <StatusBar backgroundColor={_theme.colors.background} barStyle={themeName === THEME_DARK ? "light-content" : "dark-content"} />
               <NavigationContainer theme={_theme}>
                 <MainNavigator />
               </NavigationContainer>

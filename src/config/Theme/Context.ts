@@ -1,7 +1,7 @@
 import React from "react";
-import { THEME_SYSTEM } from "../values";
+import { Theme, THEME_SYSTEM } from "../values";
 
 export const ThemeContext = React.createContext({
-  setThemeName: (name: string) => {},
+  setThemeName: (name: Theme) => {},
   themeName: THEME_SYSTEM,
 });
