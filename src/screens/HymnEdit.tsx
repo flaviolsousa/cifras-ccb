@@ -79,7 +79,7 @@ const HymnEdit = () => {
       const formattedHymn: any = {
         version: hymn.version,
         title: hymn.title,
-        level: hymn.level ?? 3,
+        level: !!hymn.level ? hymn.level : undefined,
         tone: {
           original: hymn.tone.original,
           selected: hymn.tone.selected ?? getDefaultSelectedTone(hymn),
@@ -155,7 +155,7 @@ const HymnEdit = () => {
       <ScrollView style={{ padding: 16 }}>
         <Text variant="titleMedium">Nível</Text>
         <SegmentedButtons
-          value={(hymn.level ?? 3).toString()}
+          value={(hymn.level ?? 0).toString()}
           onValueChange={(value) => {
             hymn.level = parseInt(value);
             setHymn({ ...hymn });

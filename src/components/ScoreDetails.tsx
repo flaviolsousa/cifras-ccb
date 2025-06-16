@@ -142,12 +142,14 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
         </View>
 
         {/* Fourth row - Difficulty */}
-        <View style={styles.row}>
-          <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
-            Dificuldade:
-          </Text>
-          <DifficultyIndicator level={hymn.level} />
-        </View>
+        {hymn.level && (
+          <View style={styles.row}>
+            <Text variant="labelMedium" style={{ color: theme.colors.secondary }}>
+              Dificuldade:
+            </Text>
+            <DifficultyIndicator level={hymn.level} />
+          </View>
+        )}
       </View>
       <ToneSelector visible={toneSelectorVisible} currentTone={tone} onSelect={handleToneSelect} onDismiss={() => setToneSelectorVisible(false)} />
     </>
