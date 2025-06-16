@@ -3,43 +3,46 @@
   "title": "Glória ao Justo, fiel Cordeiro!",
   "level": 4,
   "tone": {
-    "recommended": "C"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Ao Cor[C]deiro imaculado, Jesus [F]Cris[G]to, exal[C]temos;",
-          "Do Seu Nome[G]... fala[C]remos, pois, com [F]infi[D]nito_a[G]mor,",
-          "Veio_à [Am]terra, [G]glori[C]oso, com po[F]der e [G]esplen[C]dor."
+          "[G] Ao Cor[C|x3]deiro imaculado, Jesus [F]Cristo[G], exal[C|x3]temos;",
+          "Do Seu Nome[G]... fala[C|x2]remos, pois, com [F]infi[D]nito a[G|x2]mor,",
+          "Veio à [Am]terra, [G]glori[C|x2]oso, com po[F]der e [G]esplen[C|x2]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Segui[C]remos a Jesus Cristo com in[F]teira [G]confi[C]ança,",
-          "Temos viva [G]espe[C]rança de che[F]gar ao [D]lar de_a[G]mor,",
-          "Diri[Am]gidos, [G]ampa[C]rados pelo [F]sábio [G]Condu[C]tor."
+          "[G] Segui[C]remos a Jesus Cristo com in[F]teira [G]confi[C]ança,",
+          "Temos viva [G]espe[C]rança de che[F]gar ao [D]lar de a[G]mor,",
+          "Diri[Am]gidos, [G]ampa[C]rados pelo [F]sábio [G]Condu[C|x2]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Só a [C]Cristo daremos glória e lou[F]vores [G]em e[C]terno,",
-          "Pois livrou-nos [G]do in[C]ferno, do pe[F]cado [D]e do [G]mal,",
+          "[G] Só a [C]Cristo daremos glória e lou[F]vores [G]em e[C]terno,",
+          "Pois livrou-no[G]s do in[C]ferno, do pe[F]cado [D]e do [G]mal,",
           "Para [Am]dar-nos [G]a he[C]rança no Seu [F]lar ce[G]lesti[C]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Glória_ao [F]Justo, fi[G]el Cor[C]deiro,",
-          "Puro, [G]Santo, Verda[C]deiro!",
-          "Pela [F]morte [G]no ma[C]deiro,",
+          "[C] Glória ao [F|x1]Justo[G|x1], fiel Cor[C|x2]deiro,",
+          "Puro, [G|x2]Santo, Verda[C|x2]deiro!",
+          "Pela [F]morte [G]no ma[C|x2]deiro,",
           "Nos re[F]conci[G]liou com [C]Deus."
         ]
       }

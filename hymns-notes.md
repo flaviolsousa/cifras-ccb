@@ -51,5 +51,4 @@ ctrl+d -> Seleciona ocorrências
 
 # Revisado apenas o Primeiro Verso
 
-- 006
 - 013
