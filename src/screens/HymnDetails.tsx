@@ -27,8 +27,8 @@ function cleanChordName(chord: string): string {
 const HymnDetails = () => {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const FONT_SIZE_INITIAL = 22;
-  const FOOT_HEIGHT = 300;
+  const FONT_SIZE_INITIAL = Platform.OS === "web" ? 30 : 22;
+  const FOOT_HEIGHT = FONT_SIZE_INITIAL * 10;
 
   const route = useRoute<HymnDetailsRouteProp>();
   const navigation = useNavigation<any>();
@@ -217,6 +217,23 @@ const HymnDetails = () => {
   const [scrollViewHeight, setScrollViewHeight] = useState(0);
   const [contentHeight, setContentHeight] = useState(0);
   const [contentWidth, setContentWidth] = useState(0);
+
+  useEffect(() => {
+    if (Platform.OS === "web") {
+      const handleKeyPress = (event: KeyboardEvent) => {
+        if (event.key === "+") {
+          increaseFontSize();
+        } else if (event.key === "-") {
+          decreaseFontSize();
+        }
+      };
+
+      window.addEventListener("keydown", handleKeyPress);
+      return () => {
+        window.removeEventListener("keydown", handleKeyPress);
+      };
+    }
+  }, []);
 
   return (
     <View style={{ ...theme, flex: 1 }}>
