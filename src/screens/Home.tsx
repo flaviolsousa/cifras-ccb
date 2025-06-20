@@ -55,7 +55,9 @@ const Home = () => {
         <HymnFilterPanel
           showOnlyFavorites={showOnlyFavorites}
           onChangeShowOnlyFavorites={setShowOnlyFavorites}
-          onClose={() => setFilterVisible(false)}
+          onResetFilters={() => {
+            setShowOnlyFavorites(false);
+          }}
         />
       )}
 
@@ -68,7 +70,7 @@ const Home = () => {
         // Adiciona o botão de filtro à direita
         right={(props) => (
           <TouchableOpacity onPress={() => setFilterVisible((v) => !v)}>
-            <List.Icon {...props} icon="filter-variant" style={{ marginRight: 10 }} />
+            <List.Icon {...props} icon={filterVisible ? "filter-remove-outline" : "filter-menu-outline"} style={{ marginRight: 10 }} />
           </TouchableOpacity>
         )}
       />
