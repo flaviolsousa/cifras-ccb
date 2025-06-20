@@ -11,8 +11,10 @@ type Props = {
 const HymnFilterPanel: React.FC<Props> = ({ showOnlyFavorites, onChangeShowOnlyFavorites, onResetFilters }) => (
   <Surface style={styles.container}>
     <View style={styles.row}>
-      <Text style={styles.label}>Apenas Favoritos</Text>
-      <Switch style={styles.label} value={showOnlyFavorites} onValueChange={onChangeShowOnlyFavorites} />
+      <View style={styles.labelContainer}>
+        <Text style={styles.label}>Apenas Favoritos</Text>
+      </View>
+      <Switch value={showOnlyFavorites} onValueChange={onChangeShowOnlyFavorites} />
     </View>
     <View style={styles.row}>
       <TouchableOpacity onPress={onResetFilters} style={styles.resetContainer}>
@@ -30,12 +32,14 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   row: {
-    flex: 1,
     flexDirection: "row",
     alignItems: "center",
   },
-  label: {
+  labelContainer: {
     flex: 1,
+    justifyContent: "center",
+  },
+  label: {
     fontSize: 16,
   },
   resetContainer: {
@@ -51,4 +55,5 @@ const styles = StyleSheet.create({
   },
 });
 
+export default HymnFilterPanel;
 export default HymnFilterPanel;
