@@ -10,6 +10,7 @@ export type Preferences = {
   themeName: Theme;
   favoriteChords?: string[];
   favoriteHymns?: number[];
+  flaggedHymns?: number[];
   showAutoScroll?: boolean;
   showAudioPlayer?: boolean;
   showNotes?: boolean;
@@ -20,6 +21,7 @@ const DEFAULT_PREFERENCES: Preferences = {
   themeName: "system",
   favoriteChords: [],
   favoriteHymns: [],
+  flaggedHymns: [],
   showAutoScroll: true,
   showAudioPlayer: true,
   showNotes: true,

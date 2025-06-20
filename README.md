@@ -24,12 +24,31 @@
 - ☒ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
 - ☒ Provide difficulty level
 - ☒ When changing the tone key, retain the original chord positions
-- ☐ In the Tone Key selection popup, highlight the easiest key when using a capo on lower frets
-- ☐ In the Tone Key selection popup, show capo and new chords
 - ☒ Favorite Hymns
-- ☐ Favorite Chords
 - ☒ Filter on Home Screen
 - ☒ Show introduction
+- ☐ Highlight the easiest tone (with low capo position) in tone selection popup
+- ☐ Display capo position for each chord in tone selection popup
+- ☐ Mark chords as favorites
+- ☐ Keep the screen always on during use
+- ☐ Add Flag on hymn
+
+#### V2 (future)
+
+- ☐ Count how many times a hymn is played
+- ☐ Public statistics on hymn play counts
+- ☐ Public statistics on which hymns have been favorited
+- ☐ Add metronome functionality
+- ☐ Add drums backing track support
+- ☐ Allow MIDI playback of selected parts only
+- ☐ Search by hymn content
+- ☐ Search by favorite chords
+- ☐ Recommended order for hymn practice sequence
+- ☐ Enable user feedback on each hymn
+- ☐ Let users save customized preferred tones and notes
+- ☐ Add more themes, including high-contrast mode for accessibility
+- ☐ Create social group (e.g., WhatsApp) for community support
+- ☐ Support for other instruments (e.g., Ukulele, Viola Caipira, Piano)
 
 ## Start
 

@@ -17,6 +17,9 @@ const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [filterVisible, setFilterVisible] = useState(false);
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
+  const [showOnlyFlagged, setShowOnlyFlagged] = useState(false);
+
+  console.log("flaggedHymns(2):", preferences.flaggedHymns?.includes(2));
 
   const hymns = Hymns.map((hymn) => ({
     code: hymn.code,
@@ -24,13 +27,18 @@ const Home = () => {
   }));
 
   const isFavorite = (code: string) => {
+    //console.log("Checking favorite for code:", code, ": ", preferences.favoriteHymns?.includes(Number(code)));
     return preferences.favoriteHymns?.includes(Number(code));
+  };
+  const isFlagged = (code: string) => {
+    return preferences.flaggedHymns?.includes(Number(code));
   };
   const filteredHymns = hymns.filter(({ title, code }) => {
     const query = searchQuery.toLowerCase().trim();
     const matchesQuery = title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
     const matchesFavorite = !showOnlyFavorites || isFavorite(code);
-    return matchesQuery && matchesFavorite;
+    const matchesFlagged = !showOnlyFlagged || isFlagged(code);
+    return matchesQuery && matchesFavorite && matchesFlagged;
   });
 
   const toggleFavorite = (code: string) => {
@@ -44,6 +52,12 @@ const Home = () => {
     savePreferences({ ...preferences, favoriteHymns: updatedFavorites });
   };
 
+  React.useEffect(() => {
+    // Atualiza a lista quando as preferências mudam
+    // (flagged, favorites, etc)
+    setSearchQuery((q) => q);
+  }, [preferences.favoriteHymns, preferences.flaggedHymns]);
+
   return (
     <View style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>
       <Appbar.Header elevated={true}>
@@ -54,9 +68,12 @@ const Home = () => {
       {filterVisible && (
         <HymnFilterPanel
           showOnlyFavorites={showOnlyFavorites}
+          showOnlyFlagged={showOnlyFlagged}
           onChangeShowOnlyFavorites={setShowOnlyFavorites}
+          onChangeShowOnlyFlagged={setShowOnlyFlagged}
           onResetFilters={() => {
             setShowOnlyFavorites(false);
+            setShowOnlyFlagged(false);
           }}
         />
       )}
@@ -83,9 +100,12 @@ const Home = () => {
             <List.Item
               title={item.code + " - " + item.title}
               right={(props) => (
-                <TouchableOpacity onPress={() => toggleFavorite(item.code)}>
-                  <List.Icon {...props} icon={isFavorite(item.code) ? "star" : "star-outline"} color={isFavorite(item.code) ? "#FFD700" : "#888"} />
-                </TouchableOpacity>
+                <View style={{ flexDirection: "row", alignItems: "center" }}>
+                  {isFlagged(item.code) && <List.Icon {...props} icon="flag" color="#d32f2f" style={{ marginRight: 0 }} />}
+                  <TouchableOpacity onPress={() => toggleFavorite(item.code)}>
+                    <List.Icon {...props} icon={isFavorite(item.code) ? "star" : "star-outline"} color={isFavorite(item.code) ? "#FFD700" : "#888"} />
+                  </TouchableOpacity>
+                </View>
               )}
             />
           </TouchableOpacity>

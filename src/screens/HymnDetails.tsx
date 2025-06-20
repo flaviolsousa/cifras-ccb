@@ -258,6 +258,22 @@ const HymnDetails = () => {
   };
   // End: Favorite Button
 
+  // Begin: flag Button
+  const isFlagged = (code: string) => {
+    return preferences.flaggedHymns?.includes(Number(code));
+  };
+  const toggleFlagged = (code: string) => {
+    const codeNum = Number(code);
+    let updatedFlags = preferences.flaggedHymns ?? [];
+    if (updatedFlags.includes(codeNum)) {
+      updatedFlags = updatedFlags.filter((c) => c !== codeNum);
+    } else {
+      updatedFlags = [...updatedFlags, codeNum];
+    }
+    savePreferences({ ...preferences, flaggedHymns: updatedFlags });
+  };
+  // End: flag Button
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
@@ -276,6 +292,14 @@ const HymnDetails = () => {
             <Appbar.Header elevated={true}>
               <Appbar.BackAction onPress={() => navigation.goBack()} />
               <Appbar.Content title={title} />
+              {/* Botão de flag */}
+              {isFlagged(hymnCode) && (
+                <Appbar.Action icon="flag" color="#d32f2f" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Desmarcar para revisar" />
+              )}
+              {!isFlagged(hymnCode) && (
+                <Appbar.Action icon="flag-outline" color="#888" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Marcar para revisar" />
+              )}
+              {/* Botão de menu */}
               {/* Botão de favorito */}
               <Appbar.Action
                 icon={isFavorite(hymnCode) ? "star" : "star-outline"}
@@ -283,7 +307,6 @@ const HymnDetails = () => {
                 onPress={() => toggleFavorite(hymnCode)}
                 accessibilityLabel="Favoritar"
               />
-              {/* Botão de menu */}
               <Menu
                 visible={menuVisible}
                 style={{ flex: 1, position: "absolute", top: "10%", right: "10%", left: "10%" }}

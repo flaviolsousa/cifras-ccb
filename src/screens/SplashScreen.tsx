@@ -49,7 +49,6 @@ const Screen = () => {
   return (
     <Animated.View style={[styles.container, { opacity }]}>
       <Image source={require("../../assets/splash-icon.png")} style={styles.image} resizeMode="contain" />
-      <Text>Splash-Screen</Text>
     </Animated.View>
   );
 };

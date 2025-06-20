@@ -4,17 +4,31 @@ import { Switch, Text, Surface } from "react-native-paper";
 
 type Props = {
   showOnlyFavorites: boolean;
+  showOnlyFlagged: boolean;
   onChangeShowOnlyFavorites: (value: boolean) => void;
+  onChangeShowOnlyFlagged: (value: boolean) => void;
   onResetFilters: () => void;
 };
 
-const HymnFilterPanel: React.FC<Props> = ({ showOnlyFavorites, onChangeShowOnlyFavorites, onResetFilters }) => (
+const HymnFilterPanel: React.FC<Props> = ({
+  showOnlyFavorites,
+  showOnlyFlagged,
+  onChangeShowOnlyFavorites,
+  onChangeShowOnlyFlagged,
+  onResetFilters,
+}) => (
   <Surface style={styles.container}>
     <View style={styles.row}>
       <View style={styles.labelContainer}>
         <Text style={styles.label}>Apenas Favoritos</Text>
       </View>
       <Switch value={showOnlyFavorites} onValueChange={onChangeShowOnlyFavorites} />
+    </View>
+    <View style={styles.row}>
+      <View style={styles.labelContainer}>
+        <Text style={styles.label}>Apenas para estudar</Text>
+      </View>
+      <Switch value={showOnlyFlagged} onValueChange={onChangeShowOnlyFlagged} />
     </View>
     <View style={styles.row}>
       <TouchableOpacity onPress={onResetFilters} style={styles.resetContainer}>
@@ -55,5 +69,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HymnFilterPanel;
 export default HymnFilterPanel;
