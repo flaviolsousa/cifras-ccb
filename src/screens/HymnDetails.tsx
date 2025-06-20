@@ -29,7 +29,7 @@ function cleanChordName(chord: string): string {
 const HymnDetails = () => {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const { preferences } = usePreferences();
+  const { preferences, savePreferences } = usePreferences();
   const FOOT_HEIGHT = preferences.fontSize * 10;
 
   const route = useRoute<HymnDetailsRouteProp>();
@@ -241,6 +241,23 @@ const HymnDetails = () => {
     }
   }, []);
 
+  // Begin: Favorite Button
+  const isFavorite = (code: string) => {
+    return preferences.favoriteHymns?.includes(Number(code));
+  };
+
+  const toggleFavorite = (code: string) => {
+    const codeNum = Number(code);
+    let updatedFavorites = preferences.favoriteHymns ?? [];
+    if (updatedFavorites.includes(codeNum)) {
+      updatedFavorites = updatedFavorites.filter((c) => c !== codeNum);
+    } else {
+      updatedFavorites = [...updatedFavorites, codeNum];
+    }
+    savePreferences({ ...preferences, favoriteHymns: updatedFavorites });
+  };
+  // End: Favorite Button
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       {shouldShowHeader && (
@@ -259,6 +276,14 @@ const HymnDetails = () => {
             <Appbar.Header elevated={true}>
               <Appbar.BackAction onPress={() => navigation.goBack()} />
               <Appbar.Content title={title} />
+              {/* Botão de favorito */}
+              <Appbar.Action
+                icon={isFavorite(hymnCode) ? "star" : "star-outline"}
+                color={isFavorite(hymnCode) ? "#FFD700" : "#888"}
+                onPress={() => toggleFavorite(hymnCode)}
+                accessibilityLabel="Favoritar"
+              />
+              {/* Botão de menu */}
               <Menu
                 visible={menuVisible}
                 style={{ flex: 1, position: "absolute", top: "10%", right: "10%", left: "10%" }}
