@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback, useEffect } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import { LogBox } from "react-native";
 import "react-native-reanimated";
 import * as SplashScreen from "expo-splash-screen";
@@ -8,10 +8,10 @@ import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
 import { Provider as PaperProvider } from "react-native-paper";
-import { useColorScheme, StatusBar } from "react-native";
+import { StatusBar } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
-import { Theme, THEME_DARK, THEME_SYSTEM } from "./src/config/values";
+import { THEME_DARK } from "./src/config/values";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { usePreferences } from "./src/hooks/usePreferences";
 
@@ -31,7 +31,6 @@ export default function App() {
     UbuntuRegular: require("./assets/fonts/ubuntu/Ubuntu-R.ttf"),
   });
 
-  const colorScheme = useColorScheme();
   const { preferences } = usePreferences();
   const [themeName, setThemeName] = useState(preferences.themeName);
 

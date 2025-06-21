@@ -1,6 +1,6 @@
 import React from "react";
 import { View, StyleSheet, TouchableOpacity } from "react-native";
-import { Switch, Text, Surface } from "react-native-paper";
+import { Switch, Text, Icon, Surface } from "react-native-paper";
 
 type Props = {
   showOnlyFavorites: boolean;
@@ -20,13 +20,19 @@ const HymnFilterPanel: React.FC<Props> = ({
   <Surface style={styles.container}>
     <View style={styles.row}>
       <View style={styles.labelContainer}>
-        <Text style={styles.label}>Apenas Favoritos</Text>
+        <Text style={styles.label}>
+          Apenas Favoritos
+          <Icon source="star" size={16} color={"#FFD700"} />
+        </Text>
       </View>
       <Switch value={showOnlyFavorites} onValueChange={onChangeShowOnlyFavorites} />
     </View>
     <View style={styles.row}>
       <View style={styles.labelContainer}>
-        <Text style={styles.label}>Apenas para estudar</Text>
+        <Text style={styles.label}>
+          Apenas para estudar
+          <Icon source="flag" size={16} color={"#d32f2f"} />
+        </Text>
       </View>
       <Switch value={showOnlyFlagged} onValueChange={onChangeShowOnlyFlagged} />
     </View>

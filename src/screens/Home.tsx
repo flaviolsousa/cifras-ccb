@@ -1,8 +1,8 @@
 // src/screens/Home.tsx
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { View, StyleSheet, FlatList, TouchableOpacity } from "react-native";
 import { useTheme, Appbar, Searchbar, List } from "react-native-paper";
-import { useNavigation, DrawerActions } from "@react-navigation/native";
+import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/MainNavigator";
 import { usePreferences } from "../hooks/usePreferences";
@@ -10,34 +10,31 @@ import { usePreferences } from "../hooks/usePreferences";
 import Hymns from "../../data/Hymns.json";
 import HymnFilterPanel from "../components/HymnFilterPanel";
 
+function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: number[] = []) {
+  return hymns.map((hymn) => ({
+    code: hymn.code,
+    title: hymn.title,
+    isFavorite: favoriteHymns.includes(Number(hymn.code)),
+    isFlagged: flaggedHymns.includes(Number(hymn.code)),
+  }));
+}
+
 const Home = () => {
   const theme = useTheme();
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
-  const { preferences, savePreferences } = usePreferences();
+  const { preferences, savePreferences, reloadPreferences } = usePreferences();
   const [searchQuery, setSearchQuery] = useState("");
   const [filterVisible, setFilterVisible] = useState(false);
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
   const [showOnlyFlagged, setShowOnlyFlagged] = useState(false);
+  const flatListRef = useRef<FlatList>(null);
+  const [hymns, setHymns] = useState(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
 
-  console.log("flaggedHymns(2):", preferences.flaggedHymns?.includes(2));
-
-  const hymns = Hymns.map((hymn) => ({
-    code: hymn.code,
-    title: hymn.title,
-  }));
-
-  const isFavorite = (code: string) => {
-    //console.log("Checking favorite for code:", code, ": ", preferences.favoriteHymns?.includes(Number(code)));
-    return preferences.favoriteHymns?.includes(Number(code));
-  };
-  const isFlagged = (code: string) => {
-    return preferences.flaggedHymns?.includes(Number(code));
-  };
-  const filteredHymns = hymns.filter(({ title, code }) => {
+  const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged }) => {
     const query = searchQuery.toLowerCase().trim();
     const matchesQuery = title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
-    const matchesFavorite = !showOnlyFavorites || isFavorite(code);
-    const matchesFlagged = !showOnlyFlagged || isFlagged(code);
+    const matchesFavorite = !showOnlyFavorites || isFavorite;
+    const matchesFlagged = !showOnlyFlagged || isFlagged;
     return matchesQuery && matchesFavorite && matchesFlagged;
   });
 
@@ -53,10 +50,18 @@ const Home = () => {
   };
 
   React.useEffect(() => {
-    // Atualiza a lista quando as preferências mudam
-    // (flagged, favorites, etc)
+    preferences &&
+      preferences.favoriteHymns &&
+      preferences.flaggedHymns &&
+      setHymns(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
     setSearchQuery((q) => q);
-  }, [preferences.favoriteHymns, preferences.flaggedHymns]);
+  }, [preferences.flaggedHymns, preferences.favoriteHymns]);
+
+  useFocusEffect(
+    React.useCallback(() => {
+      reloadPreferences();
+    }, []),
+  );
 
   return (
     <View style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>
@@ -84,7 +89,6 @@ const Home = () => {
         onChangeText={setSearchQuery}
         style={styles.searchInput}
         icon="magnify"
-        // Adiciona o botão de filtro à direita
         right={(props) => (
           <TouchableOpacity onPress={() => setFilterVisible((v) => !v)}>
             <List.Icon {...props} icon={filterVisible ? "filter-remove-outline" : "filter-menu-outline"} style={{ marginRight: 10 }} />
@@ -93,6 +97,7 @@ const Home = () => {
       />
 
       <FlatList
+        ref={flatListRef}
         data={filteredHymns}
         keyExtractor={(item) => item.code}
         renderItem={({ item }) => (
@@ -101,9 +106,9 @@ const Home = () => {
               title={item.code + " - " + item.title}
               right={(props) => (
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
-                  {isFlagged(item.code) && <List.Icon {...props} icon="flag" color="#d32f2f" style={{ marginRight: 0 }} />}
+                  {item.isFlagged && <List.Icon {...props} icon="flag" color="#d32f2f" style={{ marginRight: 0 }} />}
                   <TouchableOpacity onPress={() => toggleFavorite(item.code)}>
-                    <List.Icon {...props} icon={isFavorite(item.code) ? "star" : "star-outline"} color={isFavorite(item.code) ? "#FFD700" : "#888"} />
+                    <List.Icon {...props} icon={item.isFavorite ? "star" : "star-outline"} color={item.isFavorite ? "#FFD700" : "#888"} />
                   </TouchableOpacity>
                 </View>
               )}
