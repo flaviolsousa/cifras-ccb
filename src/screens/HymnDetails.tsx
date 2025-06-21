@@ -82,6 +82,16 @@ const HymnDetails = () => {
     stanza: {
       flex: 1,
     },
+    fabContainer: {
+      position: "absolute",
+      bottom: 24,
+      right: 24,
+      flexDirection: "row",
+      zIndex: 100,
+    },
+    fab: {
+      marginLeft: 12,
+    },
   });
 
   useEffect(() => {
@@ -486,34 +496,13 @@ const HymnDetails = () => {
           onToneChange={handleToneChange}
         />
       )}
-      <FAB.Group
-        open={zoomControlVisible}
-        visible={zoomControlVisible}
-        icon={"close"}
-        backdropColor="rgba(255,255,255,0.35)"
-        actions={[
-          {
-            icon: "format-font-size-increase",
-            onPress: increaseFontSize,
-          },
-          {
-            icon: "format-font-size-decrease",
-            onPress: decreaseFontSize,
-          },
-        ]}
-        onStateChange={(state) => {
-          if (state.open) setZoomControlVisible(state.open);
-          if (zoomControlAction == "") {
-            setZoomControlVisible(state.open);
-          }
-          zoomControlAction = "";
-        }}
-        onPress={() => {
-          if (zoomControlVisible) {
-            setZoomControlVisible(false);
-          }
-        }}
-      />
+      {zoomControlVisible && (
+        <View style={styles.fabContainer} pointerEvents="box-none">
+          <FAB icon="format-font-size-increase" onPress={increaseFontSize} style={styles.fab} small accessibilityLabel="Aumentar fonte" />
+          <FAB icon="format-font-size-decrease" onPress={decreaseFontSize} style={styles.fab} small accessibilityLabel="Diminuir fonte" />
+          <FAB icon="close" onPress={() => setZoomControlVisible(false)} style={styles.fab} small accessibilityLabel="Fechar controle de zoom" />
+        </View>
+      )}
       <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} />
 
       <ChordPanel

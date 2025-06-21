@@ -15,7 +15,6 @@ const AUDIO_BASE_URL = "https://flaviolsousa.github.io/violao-ccb-assets/mp3/";
 
 const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true }) => {
   const theme = useTheme();
-  const insets = useSafeAreaInsets();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showRestart, setShowRestart] = useState(false);
   const [loading, setLoading] = useState(false);
