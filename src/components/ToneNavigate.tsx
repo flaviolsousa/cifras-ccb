@@ -1,5 +1,6 @@
 import React from "react";
 import { useTheme, FAB } from "react-native-paper";
+import { View, StyleSheet } from "react-native";
 import { transpose } from "chord-transposer";
 import { HymnModel } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
@@ -12,8 +13,22 @@ interface ToneNavigateProps {
   currentTone: string;
 }
 
+const styles = StyleSheet.create({
+  container: {
+    position: "absolute",
+    bottom: 24,
+    right: 24,
+    flexDirection: "row",
+    zIndex: 100,
+  },
+  fab: {
+    marginLeft: 12,
+  },
+});
+
 const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
   const theme = useTheme();
+  if (!visible) return null;
 
   const handleToneUp = () => {
     try {
@@ -36,26 +51,11 @@ const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: Ton
   };
 
   return (
-    <FAB.Group
-      open={visible}
-      visible={visible}
-      icon="close"
-      backdropColor="rgba(255,255,255,0.35)"
-      actions={[
-        {
-          icon: "plus",
-          onPress: handleToneUp,
-        },
-        {
-          icon: "minus",
-          onPress: handleToneDown,
-        },
-      ]}
-      onStateChange={({ open }) => {}}
-      onPress={() => {
-        if (visible) onClose();
-      }}
-    />
+    <View style={styles.container} pointerEvents="box-none">
+      <FAB icon="minus" onPress={handleToneDown} style={styles.fab} small accessibilityLabel="Diminuir tom" />
+      <FAB icon="plus" onPress={handleToneUp} style={styles.fab} small accessibilityLabel="Aumentar tom" />
+      <FAB icon="close" onPress={onClose} style={styles.fab} small accessibilityLabel="Fechar navegação de tom" />
+    </View>
   );
 };
 

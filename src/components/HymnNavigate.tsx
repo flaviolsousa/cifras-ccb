@@ -1,5 +1,6 @@
 import React from "react";
 import { FAB } from "react-native-paper";
+import { View, StyleSheet } from "react-native";
 
 interface HymnNavigateProps {
   visible: boolean;
@@ -9,7 +10,21 @@ interface HymnNavigateProps {
   onNavigate: (hymnCode: string) => void;
 }
 
+const styles = StyleSheet.create({
+  container: {
+    position: "absolute",
+    bottom: 24,
+    right: 24,
+    flexDirection: "row",
+    zIndex: 100,
+  },
+  fab: {
+    marginLeft: 12,
+  },
+});
+
 const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate }: HymnNavigateProps) => {
+  if (!visible) return null;
   const currentIndex = hymnsCode.indexOf(currentHymnCode);
 
   const handlePrevious = () => {
@@ -25,26 +40,18 @@ const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate
   };
 
   return (
-    <FAB.Group
-      open={visible}
-      visible={visible}
-      icon="close"
-      backdropColor="rgba(255,255,255,0.35)"
-      actions={[
-        {
-          icon: "chevron-right",
-          onPress: handleNext,
-        },
-        {
-          icon: "chevron-left",
-          onPress: handlePrevious,
-        },
-      ]}
-      onStateChange={({ open }) => {}}
-      onPress={() => {
-        if (visible) onClose();
-      }}
-    />
+    <View style={styles.container} pointerEvents="box-none">
+      <FAB icon="chevron-left" onPress={handlePrevious} style={styles.fab} small accessibilityLabel="Anterior" disabled={currentIndex <= 0} />
+      <FAB
+        icon="chevron-right"
+        onPress={handleNext}
+        style={styles.fab}
+        small
+        accessibilityLabel="Próximo"
+        disabled={currentIndex >= hymnsCode.length - 1}
+      />
+      <FAB icon="close" onPress={onClose} style={styles.fab} small accessibilityLabel="Fechar navegação" />
+    </View>
   );
 };
 
