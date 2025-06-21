@@ -8,12 +8,13 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 interface HymnAudioPlayerProps {
   hymnCode: string;
   visible?: boolean;
+  onPlay?: () => void;
 }
 
 //const AUDIO_BASE_URL = "https://github.com/flaviolsousa/violao-ccb-assets/raw/refs/heads/main/mp3/";
 const AUDIO_BASE_URL = "https://flaviolsousa.github.io/violao-ccb-assets/mp3/";
 
-const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true }) => {
+const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {} }) => {
   const theme = useTheme();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showRestart, setShowRestart] = useState(false);
@@ -48,7 +49,9 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       }
       setIsPlaying(true);
       setShowRestart(true);
+      onPlay();
     } catch (e) {
+      console.error("Error playing audio:", e);
       // handle error
     } finally {
       setLoading(false);
