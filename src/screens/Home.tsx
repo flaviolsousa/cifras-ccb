@@ -1,5 +1,5 @@
 // src/screens/Home.tsx
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { View, StyleSheet, FlatList, TouchableOpacity } from "react-native";
 import { useTheme, Appbar, Searchbar, List } from "react-native-paper";
 import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/native";
@@ -80,6 +80,7 @@ const Home = () => {
             setShowOnlyFavorites(false);
             setShowOnlyFlagged(false);
           }}
+          onCloseFilters={() => setFilterVisible(false)}
         />
       )}
 
