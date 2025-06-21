@@ -12,7 +12,7 @@ const HymnDetails = () => {
     <View style={{ ...theme, flex: 1 }}>
       <Appbar.Header elevated={true}>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
-        <Appbar.Content title={"Favoritos"} />
+        <Appbar.Content title={"Sobre"} />
         <IconButton
           icon="information"
           onPress={() => {
@@ -22,7 +22,7 @@ const HymnDetails = () => {
       </Appbar.Header>
 
       <ScrollView contentContainerStyle={styles.content}>
-        <Text>Bookmarks Screen</Text>
+        <Text>About Screen</Text>
       </ScrollView>
     </View>
   );

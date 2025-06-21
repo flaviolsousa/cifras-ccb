@@ -8,10 +8,10 @@ import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
 import { Provider as PaperProvider } from "react-native-paper";
-import { StatusBar } from "react-native";
+import { StatusBar, useColorScheme } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
-import { THEME_DARK } from "./src/config/values";
+import { THEME_DARK, THEME_LIGHT, THEME_SYSTEM } from "./src/config/values";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { usePreferences } from "./src/hooks/usePreferences";
 
@@ -30,12 +30,13 @@ export default function App() {
     UbuntuMonoBoldItalic: require("./assets/fonts/ubuntu/UbuntuMono-BI.ttf"),
     UbuntuRegular: require("./assets/fonts/ubuntu/Ubuntu-R.ttf"),
   });
-
+  const colorScheme = useColorScheme();
   const { preferences } = usePreferences();
   const [themeName, setThemeName] = useState(preferences.themeName);
 
-  //const selectedTheme = themeName === preferences.themeName ? colorScheme : themeName;
-  const _theme = themeName === THEME_DARK ? theme.dark : theme.light;
+  console.log("[Expo] Color scheme:", colorScheme);
+
+  const _theme = (themeName === THEME_SYSTEM && colorScheme == "dark") || themeName === THEME_DARK ? theme.dark : theme.light;
 
   useEffect(() => {
     setThemeName(preferences.themeName);

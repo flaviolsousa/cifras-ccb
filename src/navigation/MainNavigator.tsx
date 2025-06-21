@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import * as ScreenOrientation from "expo-screen-orientation";
 import React from "react";
 import { Platform } from "react-native";
-import Bookmarks from "../screens/Bookmarks";
+import About from "../screens/About";
 import DrawerContent from "../screens/DrawerContent";
 import Home from "../screens/Home";
 import HymnDetails from "../screens/HymnDetails";
@@ -15,7 +15,7 @@ export type RootStackParamList = {
   Splash: undefined;
   Home: undefined;
   Preferences: undefined;
-  Bookmarks: undefined;
+  About: undefined;
   HymnDetails: { hymnCode: string; hymnsCode: string[] };
   HymnEdit: { hymnCode: string };
 };
@@ -34,7 +34,7 @@ const MainNavigator = () => {
     <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />} screenOptions={{ headerShown: false }}>
       <Drawer.Screen name="HomeStack" component={HomeStackNavigator} />
       <Drawer.Screen name="Preferences" component={Preferences} />
-      <Drawer.Screen name="Bookmarks" component={Bookmarks} />
+      <Drawer.Screen name="About" component={About} />
     </Drawer.Navigator>
   );
 };

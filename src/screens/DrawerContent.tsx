@@ -1,31 +1,23 @@
 import React from "react";
-import { View, StyleSheet, BackHandler } from "react-native";
+import { View, StyleSheet, BackHandler, Image } from "react-native";
 import { DrawerItem, DrawerContentScrollView, DrawerContentComponentProps } from "@react-navigation/drawer";
-import { useTheme, Avatar, Title, Caption, Paragraph, Drawer, Text, TouchableRipple, Switch } from "react-native-paper";
+import { useTheme, Title, Caption, Drawer } from "react-native-paper";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
 type Props = DrawerContentComponentProps;
 
 function DrawerContent(props: Props) {
   const theme = useTheme();
+  const logoSource = theme.dark ? require("../../assets/logo-h-dark.png") : require("../../assets/logo-h-light.png");
+
   return (
     <View style={{ flex: 1 }}>
       <DrawerContentScrollView {...props} style={{ flex: 1 }}>
         <View style={styles.drawerContent}>
-          <View style={{ ...styles.profile }}>
-            <Avatar.Image
-              style={{ ...styles.profileAvatar }}
-              source={{
-                uri: "https://pbs.twimg.com/profile_images/1548044150603333638/3F3siO5A_200x200.jpg",
-              }}
-              size={100}
-            />
-            <View style={{ ...styles.profileContent }}>
-              <Title style={{ ...styles.profileTitle }}>Flávio Sousa</Title>
-              <Caption style={{ ...styles.profileUser }}>google: flaviolsousa</Caption>
-            </View>
-          </View>
           <Drawer.Section style={styles.drawerSection}>
+            <Image style={{ ...styles.profileAvatar, width: "100%", height: 120 }} resizeMode="contain" source={logoSource} />
+          </Drawer.Section>
+          <Drawer.Section>
             <DrawerItem
               icon={({ size }) => <MaterialCommunityIcons name="home-outline" color={theme.colors.secondary} size={size} />}
               label="Home"
@@ -44,10 +36,10 @@ function DrawerContent(props: Props) {
               }}
             />
             <DrawerItem
-              icon={({ color, size }) => <MaterialCommunityIcons name="bookmark-outline" color={theme.colors.secondary} size={size} />}
-              label="Bookmarks"
+              icon={({ color, size }) => <MaterialCommunityIcons name="information" color={theme.colors.secondary} size={size} />}
+              label="Sobre o App"
               onPress={() => {
-                props.navigation.navigate("Bookmarks");
+                props.navigation.navigate("About");
               }}
             />
           </Drawer.Section>
@@ -55,8 +47,8 @@ function DrawerContent(props: Props) {
       </DrawerContentScrollView>
       <View style={{ backgroundColor: theme.colors.surface }}>
         <DrawerItem
-          icon={({ color, size }) => <MaterialCommunityIcons name="exit-to-app" color={theme.colors.secondary} size={size} />}
-          label="Close"
+          icon={({ size }) => <MaterialCommunityIcons name="exit-to-app" color={theme.colors.secondary} size={size} />}
+          label="Encerrar App"
           onPress={() => {
             BackHandler.exitApp();
           }}
@@ -77,9 +69,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "flex-start",
+    width: "100%", // garante que o container ocupe toda a largura
   },
   profileAvatar: {
-    marginRight: 15,
+    marginBottom: 20,
   },
   profileContent: {
     marginRight: "auto",
