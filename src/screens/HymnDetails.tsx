@@ -19,7 +19,6 @@ import HymnIntroNotes from "../components/HymnIntroNotes";
 import StyledVerse from "../components/StyledVerse";
 import StyledIntroductionText from "../components/StyledIntroductionText";
 import { usePreferences } from "../hooks/usePreferences";
-import HymnDetailsMenu from "./HymnDetailsMenu";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -303,23 +302,76 @@ const HymnDetails = () => {
                 onPress={() => toggleFavorite(hymnCode)}
                 accessibilityLabel="Favoritar"
               />
-              <HymnDetailsMenu
-                menuVisible={menuVisible}
-                closeMenu={closeMenu}
-                toggleMenu={toggleMenu}
-                navigation={navigation}
-                hymnCode={hymnCode}
-                setNavigationVisible={setNavigationVisible}
-                closeAllTools={closeAllTools}
-                setZoomControlVisible={setZoomControlVisible}
-                setToneNavigationVisible={setToneNavigationVisible}
-                setAutoScrollVisible={setAutoScrollVisible}
-                autoScrollVisible={autoScrollVisible}
-                setAudioPlayerVisible={setAudioPlayerVisible}
-                audioPlayerVisible={audioPlayerVisible}
-                showNotes={showNotes}
-                setShowNotes={setShowNotes}
-              />
+              <Menu
+                visible={menuVisible}
+                style={{ flex: 1, position: "absolute", top: "10%", right: "10%", left: "10%" }}
+                onDismiss={closeMenu}
+                anchor={<IconButton icon="menu" onPress={toggleMenu} />}
+              >
+                <Menu.Item
+                  onPress={() => {
+                    navigation.navigate("HymnEdit", { hymnCode });
+                    closeMenu();
+                  }}
+                  title="Editar Hino"
+                  leadingIcon="pencil"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeMenu();
+                    setNavigationVisible(true);
+                    closeMenu();
+                  }}
+                  title="Navegar Hinos"
+                  leadingIcon="page-next-outline"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setZoomControlVisible(true);
+                    closeMenu();
+                  }}
+                  title="Tamanho Fonte"
+                  leadingIcon="format-size"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setToneNavigationVisible(true);
+                    closeMenu();
+                  }}
+                  title="Mudar Tom"
+                  leadingIcon="pound"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setAutoScrollVisible(!autoScrollVisible);
+                    closeMenu();
+                  }}
+                  title="Rolagem Automática"
+                  leadingIcon="autorenew"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    closeAllTools();
+                    setAudioPlayerVisible((v) => !v);
+                    closeMenu();
+                  }}
+                  title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
+                  leadingIcon="music"
+                />
+                <Menu.Item
+                  onPress={() => {
+                    setShowNotes((prev) => !prev);
+                    closeMenu();
+                  }}
+                  title={showNotes ? "Ocultar Notas" : "Exibir Notas"}
+                  leadingIcon="note"
+                />
+                <Divider />
+                <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
+              </Menu>
             </Appbar.Header>
             <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
               <AutoScrollControl
@@ -451,4 +503,28 @@ const HymnDetails = () => {
         ]}
         onStateChange={(state) => {
           if (state.open) setZoomControlVisible(state.open);
-          if
+          if (zoomControlAction == "") {
+            setZoomControlVisible(state.open);
+          }
+          zoomControlAction = "";
+        }}
+        onPress={() => {
+          if (zoomControlVisible) {
+            setZoomControlVisible(false);
+          }
+        }}
+      />
+      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} />
+
+      <ChordPanel
+        selectedChord={selectedChord}
+        allChords={allChords}
+        onChordSelect={handleChordPress}
+        onClose={handleCloseChordPanel}
+        visible={!!selectedChord}
+      />
+    </View>
+  );
+};
+
+export default HymnDetails;
