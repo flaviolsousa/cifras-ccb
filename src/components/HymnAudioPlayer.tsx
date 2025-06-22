@@ -23,6 +23,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
 
   const url = `${AUDIO_BASE_URL}${hymnCode}.mp3`;
 
+  // Limpar player ao desmontar
   useEffect(() => {
     return () => {
       if (playerRef.current) {
@@ -30,6 +31,21 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (playerRef.current) {
+      playerRef.current.pause();
+      playerRef.current.remove();
+      playerRef.current = null;
+    }
+    setIsPlaying(false);
+    setShowRestart(false);
+    setLoading(false);
+    setLoopState(0);
+    setLoopStart(null);
+    setLoopEnd(null);
+    setLoopAlert(null);
+  }, [hymnCode]);
 
   const playAudio = async () => {
     setLoading(true);
