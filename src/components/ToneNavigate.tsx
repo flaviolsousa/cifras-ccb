@@ -1,6 +1,6 @@
 import React from "react";
 import { useTheme, FAB } from "react-native-paper";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Platform } from "react-native";
 import { transpose } from "chord-transposer";
 import { HymnModel } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
@@ -28,7 +28,20 @@ const styles = StyleSheet.create({
 
 const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: ToneNavigateProps) => {
   const theme = useTheme();
-  if (!visible) return null;
+
+  React.useEffect(() => {
+    if (Platform.OS !== "web") return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowUp") {
+        handleToneUp();
+      } else if (e.key === "ArrowDown") {
+        handleToneDown();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+    // eslint-disable-next-line
+  }, [currentTone, hymn]);
 
   const handleToneUp = () => {
     try {
@@ -49,6 +62,8 @@ const ToneNavigate = ({ hymn, visible, onClose, onToneChange, currentTone }: Ton
       console.error(e);
     }
   };
+
+  if (!visible) return null;
 
   return (
     <View style={styles.container} pointerEvents="box-none">

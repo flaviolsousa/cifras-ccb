@@ -1,10 +1,13 @@
 {
   "version": "v3",
   "title": "Ó igreja de Deus, resplandece",
+  "level": 3,
   "tone": {
-    "recommended": "C"
+    "original": "Bb",
+    "selected": "C"
   },
   "score": {
+    "introduction": ["C", "G"],
     "stanzas": [
       {
         "type": "lyric",
