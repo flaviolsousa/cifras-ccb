@@ -158,8 +158,6 @@ const HymnDetails = () => {
     }));
   };
 
-  const shouldShowHeader = Platform.OS === "web" || isPortrait;
-
   useEffect(() => {
     setFontSizeQuarter(Math.floor(fontSize / 4));
     setFontSizeDouble(Math.floor(fontSize * 2));
@@ -225,8 +223,8 @@ const HymnDetails = () => {
   };
 
   const scrollViewRef = useRef<ScrollView>(null);
-  const [scrollViewHeight, setScrollViewHeight] = useState(0);
-  const [contentHeight, setContentHeight] = useState(0);
+  const scrollViewHeightRef = useRef(0);
+  const contentHeightRef = useRef(0);
   const [contentWidth, setContentWidth] = useState(0);
 
   useEffect(() => {
@@ -281,131 +279,128 @@ const HymnDetails = () => {
 
   return (
     <View style={{ ...theme, flex: 1 }}>
-      {shouldShowHeader && (
-        <>
-          <Animated.View
-            style={{
-              transform: [{ translateY: headerTranslateY }],
-              position: "absolute",
-              top: 0,
-              left: 0,
-              right: 0,
-              zIndex: 1,
-              backgroundColor: theme.colors.background,
-            }}
-          >
-            <Appbar.Header elevated={true}>
-              <Appbar.BackAction onPress={() => navigation.goBack()} />
-              <Appbar.Content title={title} />
-              {/* Botão de flag */}
-              {isFlagged(hymnCode) && (
-                <Appbar.Action icon="flag" color="#d32f2f" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Desmarcar para revisar" />
-              )}
-              {!isFlagged(hymnCode) && (
-                <Appbar.Action icon="flag-outline" color="#888" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Marcar para revisar" />
-              )}
-              {/* Botão de menu */}
-              {/* Botão de favorito */}
-              <Appbar.Action
-                icon={isFavorite(hymnCode) ? "star" : "star-outline"}
-                color={isFavorite(hymnCode) ? "#FFD700" : "#888"}
-                onPress={() => toggleFavorite(hymnCode)}
-                accessibilityLabel="Favoritar"
-              />
-              <Menu
-                visible={menuVisible}
-                style={{ flex: 1, position: "absolute", top: "10%", right: "10%", left: "10%" }}
-                onDismiss={closeMenu}
-                anchor={<IconButton icon="menu" onPress={toggleMenu} />}
-              >
-                <Menu.Item
-                  onPress={() => {
-                    navigation.navigate("HymnEdit", { hymnCode });
-                    closeMenu();
-                  }}
-                  title="Editar Hino"
-                  leadingIcon="pencil"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    closeMenu();
-                    setNavigationVisible(true);
-                    closeMenu();
-                  }}
-                  title="Navegar Hinos"
-                  leadingIcon="page-next-outline"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    closeAllTools();
-                    setZoomControlVisible(true);
-                    closeMenu();
-                  }}
-                  title="Tamanho Fonte"
-                  leadingIcon="format-size"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    closeAllTools();
-                    setToneNavigationVisible(true);
-                    closeMenu();
-                  }}
-                  title="Mudar Tom"
-                  leadingIcon="pound"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    closeAllTools();
-                    setAutoScrollVisible(!autoScrollVisible);
-                    closeMenu();
-                  }}
-                  title="Rolagem Automática"
-                  leadingIcon="autorenew"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    closeAllTools();
-                    setAudioPlayerVisible((v) => !v);
-                    closeMenu();
-                  }}
-                  title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
-                  leadingIcon="music"
-                />
-                <Menu.Item
-                  onPress={() => {
-                    setShowNotes((prev) => !prev);
-                    closeMenu();
-                  }}
-                  title={showNotes ? "Ocultar Notas" : "Exibir Notas"}
-                  leadingIcon="note"
-                />
-                <Divider />
-                <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
-              </Menu>
-            </Appbar.Header>
-            <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
-              <AutoScrollControl
-                scrollViewRef={scrollViewRef}
-                contentHeight={contentHeight}
-                viewportHeight={scrollViewHeight}
-                hymn={hymn}
-                lastScrollYRef={lastScrollY}
-                scoreTouchingRef={scoreTouchingRef}
-                visible={!!autoScrollVisible}
-                onScrollingChange={setIsAutoScrolling}
-              />
-            </View>
-          </Animated.View>
-        </>
-      )}
+      <Animated.View
+        style={{
+          transform: [{ translateY: headerTranslateY }],
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 1,
+          backgroundColor: theme.colors.background,
+        }}
+      >
+        <Appbar.Header elevated={true}>
+          <Appbar.BackAction onPress={() => navigation.goBack()} />
+          <Appbar.Content title={title} />
+          {/* Botão de flag */}
+          {isFlagged(hymnCode) && (
+            <Appbar.Action icon="flag" color="#d32f2f" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Desmarcar para revisar" />
+          )}
+          {!isFlagged(hymnCode) && (
+            <Appbar.Action icon="flag-outline" color="#888" onPress={() => toggleFlagged(hymnCode)} accessibilityLabel="Marcar para revisar" />
+          )}
+          {/* Botão de menu */}
+          {/* Botão de favorito */}
+          <Appbar.Action
+            icon={isFavorite(hymnCode) ? "star" : "star-outline"}
+            color={isFavorite(hymnCode) ? "#FFD700" : "#888"}
+            onPress={() => toggleFavorite(hymnCode)}
+            accessibilityLabel="Favoritar"
+          />
+          <Menu visible={menuVisible} onDismiss={closeMenu} anchor={<IconButton icon="menu" onPress={toggleMenu} />}>
+            <Menu.Item
+              onPress={() => {
+                navigation.navigate("HymnEdit", { hymnCode });
+                closeMenu();
+              }}
+              title="Editar Hino"
+              leadingIcon="pencil"
+            />
+            <Menu.Item
+              onPress={() => {
+                closeMenu();
+                setNavigationVisible(true);
+                closeMenu();
+              }}
+              title="Navegar Hinos"
+              leadingIcon="page-next-outline"
+            />
+            <Menu.Item
+              onPress={() => {
+                closeAllTools();
+                setZoomControlVisible(true);
+                closeMenu();
+              }}
+              title="Tamanho Fonte"
+              leadingIcon="format-size"
+            />
+            <Menu.Item
+              onPress={() => {
+                closeAllTools();
+                setToneNavigationVisible(true);
+                closeMenu();
+              }}
+              title="Mudar Tom"
+              leadingIcon="pound"
+            />
+            <Menu.Item
+              onPress={() => {
+                closeAllTools();
+                setAutoScrollVisible(!autoScrollVisible);
+                closeMenu();
+              }}
+              title="Rolagem Automática"
+              leadingIcon="autorenew"
+            />
+            <Menu.Item
+              onPress={() => {
+                closeAllTools();
+                setAudioPlayerVisible((v) => !v);
+                closeMenu();
+              }}
+              title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
+              leadingIcon="music"
+            />
+            <Menu.Item
+              onPress={() => {
+                setShowNotes((prev) => !prev);
+                closeMenu();
+              }}
+              title={showNotes ? "Ocultar Notas" : "Exibir Notas"}
+              leadingIcon="note"
+            />
+            <Divider />
+            <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
+          </Menu>
+        </Appbar.Header>
+        <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
+          <AutoScrollControl
+            scrollViewRef={scrollViewRef}
+            // contentHeight={contentHeight}
+            // viewportHeight={scrollViewHeight}
+            contentHeightRef={contentHeightRef}
+            viewportHeightRef={scrollViewHeightRef}
+            hymn={hymn}
+            lastScrollYRef={lastScrollY}
+            scoreTouchingRef={scoreTouchingRef}
+            visible={!!autoScrollVisible}
+            onScrollingChange={setIsAutoScrolling}
+          />
+        </View>
+      </Animated.View>
 
       <Animated.ScrollView
         ref={scrollViewRef}
         contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
         onScroll={handleScroll}
-        onLayout={(e: LayoutChangeEvent) => setScrollViewHeight(e.nativeEvent.layout.height)}
+        onLayout={(e: LayoutChangeEvent) => {
+          // setScrollViewHeight(e.nativeEvent.layout.height);
+          scrollViewHeightRef.current = e.nativeEvent.layout.height;
+        }}
         onContentSizeChange={(contentWidth: number, contentHeight: number) => {
-          setContentHeight(contentHeight);
+          // setContentHeight(contentHeight);
+          contentHeightRef.current = contentHeight;
           setContentWidth(contentWidth);
         }}
         scrollEventThrottle={1}
@@ -419,11 +414,11 @@ const HymnDetails = () => {
             styles.score,
             {
               marginBottom: fontSizeQuarter,
-              marginTop: insets.top + (shouldShowHeader ? 64 : 0) + (autoScrollVisible ? 32 : 0),
+              marginTop: insets.top + 64 + (autoScrollVisible ? 32 : 0),
             },
           ]}
         >
-          {shouldShowHeader && hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
+          {hymn && <ScoreDetails hymn={hymn} onToneChange={handleToneChange} />}
           <Divider />
           {hymn && <HymnIntroNotes hymn={hymn} isPortrait={isPortrait} contentWidth={contentWidth} />}
           {hymn && hymn?.score?.introduction && (

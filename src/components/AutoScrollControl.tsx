@@ -28,8 +28,10 @@ function calculateScrollParams(hymn: HymnModel, speed: number, maxScroll: number
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView | null>;
-  contentHeight: number;
-  viewportHeight: number;
+  // contentHeight: number;
+  // viewportHeight: number;
+  contentHeightRef: React.RefObject<number>;
+  viewportHeightRef: React.RefObject<number>;
   hymn: HymnModel | null;
   visible: boolean;
   lastScrollYRef: React.RefObject<number>;
@@ -39,8 +41,10 @@ interface AutoScrollControlProps {
 
 const AutoScrollControl = ({
   scrollViewRef,
-  contentHeight,
-  viewportHeight,
+  // contentHeight,
+  // viewportHeight,
+  contentHeightRef,
+  viewportHeightRef,
   hymn,
   visible,
   lastScrollYRef,
@@ -86,10 +90,11 @@ const AutoScrollControl = ({
     if (!scrollViewRef.current) return;
 
     const currentPos = lastScrollYRef.current || 0;
+    const contentHeight = contentHeightRef.current || 0;
+    const viewportHeight = viewportHeightRef.current || 0;
     const maxScroll = contentHeight - viewportHeight;
 
     const step = calculateScrollParams(hymn, currentSpeedRef.current, maxScroll);
-
     if (currentPos >= maxScroll) return pause();
 
     if (animatedListenerRef.current) {
@@ -166,7 +171,12 @@ const AutoScrollControl = ({
 
   return (
     <View style={styles.container}>
-      <IconButton icon={isScrolling ? "pause" : "play"} onPress={handlePlayPause} style={styles.button} iconColor={theme.colors.primary} />
+      <IconButton
+        icon={isScrolling || !!scoreTouchingRef.current ? "pause" : "play"}
+        onPress={handlePlayPause}
+        style={styles.button}
+        iconColor={theme.colors.primary}
+      />
       <Slider
         value={speed}
         onValueChange={handleSpeedChange}

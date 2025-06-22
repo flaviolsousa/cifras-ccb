@@ -1,4 +1,4 @@
-# Ajust
+# Adjustments
 
 ```js
 
@@ -26,7 +26,7 @@ Guarânia
 
 # Shortcut
 
-ctrl+d -> Seleciona ocorrências
+ctrl+d -> Select recurrences
 
 # Completos:
 
@@ -39,16 +39,25 @@ ctrl+d -> Seleciona ocorrências
 - 015
 - 017
 
-# Dúvidas:
+# Doubts:
 
 - 000 - 
 
-# Errei:
+# Errors:
 
 - 000 - 
 
 
 
-# Revisado apenas o Primeiro Verso
+# Only the first verse is done
 
 - 013
+
+
+
+# Final pending tasks to launch on store
+
+- About Screen
+- Encrypt hymn data
+- Remote hymn data
+- Review hymn data
