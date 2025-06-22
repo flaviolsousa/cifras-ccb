@@ -105,11 +105,12 @@ const HymnEdit = () => {
 
       formattedHymn.score.stanzas.forEach((stanza: any) => {
         if (stanza.text && Array.isArray(stanza.text)) {
+          // Ensure text is an array
           stanza.text = stanza.text.map((line: string) => line.replace(/_/g, " "));
         }
       });
 
-      setJsonPreview(JSON.stringify(formattedHymn, null, 2));
+      setJsonPreview(JSON.stringify(formattedHymn, null, 2) + "\n");
     }
   }, [hymn]);
 

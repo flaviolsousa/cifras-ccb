@@ -11,7 +11,7 @@ import HymnAudioPlayer from "../components/HymnAudioPlayer";
 import HymnNavigate from "../components/HymnNavigate";
 import ScoreDetails from "../components/ScoreDetails";
 import ToneNavigate from "../components/ToneNavigate";
-import { type HymnModel, Stanza } from "../domain/HymnModel";
+import { type HymnModel } from "../domain/HymnModel";
 import useHymnData from "../hooks/useHymnData";
 import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
@@ -489,8 +489,8 @@ const HymnDetails = () => {
       )}
       {zoomControlVisible && (
         <View style={styles.fabContainer} pointerEvents="box-none">
-          <FAB icon="format-font-size-increase" onPress={increaseFontSize} style={styles.fab} small accessibilityLabel="Aumentar fonte" />
           <FAB icon="format-font-size-decrease" onPress={decreaseFontSize} style={styles.fab} small accessibilityLabel="Diminuir fonte" />
+          <FAB icon="format-font-size-increase" onPress={increaseFontSize} style={styles.fab} small accessibilityLabel="Aumentar fonte" />
           <FAB icon="close" onPress={() => setZoomControlVisible(false)} style={styles.fab} small accessibilityLabel="Fechar controle de zoom" />
         </View>
       )}

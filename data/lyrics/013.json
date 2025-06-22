@@ -8,30 +8,30 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["A", "E", "A"],
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Ó a[A]mados, vence[E]remos este mundo enganad[A]or;", "Pela [C#7]fé nós luta[F#m]remos, confi[B7]ando no Sen[E]hor."]
+        "text": ["Ó a[G]mados, vence[D]remos este mundo engana[G]dor;", "Pela [B7]fé nós luta[Em]remos, confi[A7]ando no Se[D]nhor."]
       },
       {
         "type": "chorus",
         "text": [
-          "Confi[A]emos em Deus,",
-          "Ele é o nosso [E]Pai;",
+          "Confi[G]emos em Deus,",
+          "Ele é o nosso [D]Pai;",
           "Ele ouve os Seus",
-          "E, ao céu, levá-los v[A]ai.",
-          "Pelo Seu imenso a[D]mor",
-          "Nos pro[B7]tege o Sen[E]hor;",
-          "Oh! O[A]remos, com ferv[D]or,",
-          "Ao grande [E]Deus, Forma[A]dor."
+          "E, ao céu, levá-los v[G]ai.",
+          "Pelo Seu i[G7]menso a[C]mor",
+          "Nos pro[A7]tege o Sen[D]hor;",
+          "Oh! O[G]remos, [G7]com fer[C]vor,",
+          "Ao grande [G]Deus, [D]Forma[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Do Seu t[A]rono glori[E]oso nos contempla o Sen[A]hor;", "Deus, o [C#7]Todo pode[F#m]roso, nos con[B7]serva em a[E]mor."]
+        "text": ["Do Seu t[G]rono glori[D]oso nos contempla o Sen[G]hor;", "Deus, o [B7]Todo pode[Em]roso, nos con[A7]serva em a[D]mor."]
       },
       {
         "type": "ref",

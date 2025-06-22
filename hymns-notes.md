@@ -30,12 +30,7 @@ ctrl+d -> Select recurrences
 
 # Completos:
 
-- 009
-- 004
-- 005
-- 007
-- 008
-- 014
+- 1-14
 - 015
 - 017
 
@@ -61,3 +56,4 @@ ctrl+d -> Select recurrences
 - Encrypt hymn data
 - Remote hymn data
 - Review hymn data
+- Generate data for 426,427,428,429,430

@@ -1,6 +1,6 @@
 import React from "react";
 import { FAB } from "react-native-paper";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Platform } from "react-native";
 
 interface HymnNavigateProps {
   visible: boolean;
@@ -24,8 +24,20 @@ const styles = StyleSheet.create({
 });
 
 const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate }: HymnNavigateProps) => {
-  if (!visible) return null;
   const currentIndex = hymnsCode.indexOf(currentHymnCode);
+
+  React.useEffect(() => {
+    if (Platform.OS !== "web") return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") {
+        handlePrevious();
+      } else if (e.key === "ArrowRight") {
+        handleNext();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex, hymnsCode]);
 
   const handlePrevious = () => {
     if (currentIndex > 0) {
@@ -38,6 +50,8 @@ const HymnNavigate = ({ visible, onClose, hymnsCode, currentHymnCode, onNavigate
       onNavigate(hymnsCode[currentIndex + 1]);
     }
   };
+
+  if (!visible) return null;
 
   return (
     <View style={styles.container} pointerEvents="box-none">
