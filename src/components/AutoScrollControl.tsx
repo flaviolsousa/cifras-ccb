@@ -28,8 +28,6 @@ function calculateScrollParams(hymn: HymnModel, speed: number, maxScroll: number
 
 interface AutoScrollControlProps {
   scrollViewRef: React.RefObject<ScrollView | null>;
-  // contentHeight: number;
-  // viewportHeight: number;
   contentHeightRef: React.RefObject<number>;
   viewportHeightRef: React.RefObject<number>;
   hymn: HymnModel | null;
@@ -41,8 +39,6 @@ interface AutoScrollControlProps {
 
 const AutoScrollControl = ({
   scrollViewRef,
-  // contentHeight,
-  // viewportHeight,
   contentHeightRef,
   viewportHeightRef,
   hymn,

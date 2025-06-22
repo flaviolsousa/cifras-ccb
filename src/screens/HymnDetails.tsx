@@ -377,8 +377,6 @@ const HymnDetails = () => {
         <View style={{ flexDirection: "row", alignItems: "center", paddingHorizontal: 16 }}>
           <AutoScrollControl
             scrollViewRef={scrollViewRef}
-            // contentHeight={contentHeight}
-            // viewportHeight={scrollViewHeight}
             contentHeightRef={contentHeightRef}
             viewportHeightRef={scrollViewHeightRef}
             hymn={hymn}
@@ -395,11 +393,9 @@ const HymnDetails = () => {
         contentContainerStyle={[styles.content, isPortrait ? styles.portrait : styles.landscape]}
         onScroll={handleScroll}
         onLayout={(e: LayoutChangeEvent) => {
-          // setScrollViewHeight(e.nativeEvent.layout.height);
           scrollViewHeightRef.current = e.nativeEvent.layout.height;
         }}
         onContentSizeChange={(contentWidth: number, contentHeight: number) => {
-          // setContentHeight(contentHeight);
           contentHeightRef.current = contentHeight;
           setContentWidth(contentWidth);
         }}
