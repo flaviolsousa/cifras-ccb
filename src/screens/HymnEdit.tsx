@@ -4,7 +4,7 @@ import { Appbar, Text, SegmentedButtons, useTheme, IconButton, Card } from "reac
 import { useNavigation, useRoute } from "@react-navigation/native";
 import * as Clipboard from "expo-clipboard";
 import { transpose } from "chord-transposer";
-import { HymnModel } from "../domain/HymnModel";
+import { HymnModel, Stanza } from "../domain/HymnModel";
 import { HymnModels } from "../services/Hymn/HymnImports";
 
 const RHYTHM_OPTIONS = [
@@ -68,6 +68,8 @@ const HymnEdit = () => {
   useEffect(() => {
     const fetchHymn = async () => {
       const fetchedHymn = await HymnModels[hymnCode];
+      fetchedHymn.code = hymnCode;
+      fetchedHymn.score.introduction = fetchedHymn.score.introduction || [];
       setHymn(fetchedHymn);
     };
     fetchHymn();
@@ -77,6 +79,7 @@ const HymnEdit = () => {
   useEffect(() => {
     if (hymn) {
       const formattedHymn: any = {
+        code: hymnCode,
         version: hymn.version,
         title: hymn.title,
         level: !!hymn.level ? hymn.level : undefined,

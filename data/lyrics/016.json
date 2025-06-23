@@ -1,19 +1,24 @@
 {
+  "code": "016",
+  "level": 3,
   "version": "v3",
   "title": "Promessa excelente",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Pro[G]messa_excelente fi[C]zeste, ó D[G]eus,",
-          "Fi[D]el cumprimento_a Pa[G]lavra te[D]rá;",
-          "Sen[G]tir Teu Espírito querem os T[C]eus;",
-          "Teu p[D]ovo clamando es[G]tá."
+          "Pro[G]messa excelente fi[C]zeste, ó D[G]eus,",
+          "Fi[D]el cumprimento a Pa[G]lavra te[D]rá;",
+          "Sen[G]tir Teu Espírito [G7]querem os T[C]eus;",
+          "Teu p[D]ovo cla[D7]mando es[G]tá."
         ]
       },
       {
@@ -30,9 +35,9 @@
         "code": "2",
         "text": [
           "Oh! V[G]em despertar-nos, a[C]mado Sen[G]hor;",
-          "O_Es[D]pírito Santo en[G]via dos c[D]éus;",
-          "Com [G]fé aguardamos o Consola[C]dor,",
-          "Que f[D]az virtuosos os T[G]eus."
+          "O Es[D]pírito Santo en[G]via dos c[D]éus;",
+          "Com [G]fé aguardamos o [G7]Consola[C]dor,",
+          "Que f[D]az vir[D7]tuosos os T[G]eus."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "O T[G]eu Santo_Espírito n[C]os guia[G]rá",
-          "Em t[D]oda verdade, jus[G]tiça e_am[D]or;",
-          "Por [G]Ele Teu povo_ensinado se[C]rá;",
-          "Teu [D]Dom aguardamos, Sen[G]hor."
+          "O T[G]eu Santo Espírito n[C]os guia[G]rá",
+          "Em t[D]oda verdade, jus[G]tiça e am[D]or;",
+          "Por [G]Ele Teu povo ensi[G7]nado se[C]rá;",
+          "Teu [D]Dom aguar[D7]damos, Sen[G]hor."
         ]
       },
       {

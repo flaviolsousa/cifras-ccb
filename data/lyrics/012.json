@@ -1,34 +1,38 @@
 {
   "version": "v3",
   "title": "Sempre em Jesus confiarei",
+  "level": 5,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sempre_em Jes[E]us confiarei, S[A]ua Pa[E]lavra [B7]honrarei;",
-          "P[E]or Sua morte_atroz na cruz, [A]me conce[E]deu e[B7]terna l[E]uz."
+          "[D|↓↑↓↑↓]Sempre em Jesus confiarei, [G|↓↑]Sua Pa[D|↓↑↓]lavra [A]honrarei;",
+          "P[D]or Sua morte atroz na cruz, [G|↓↑]me conce[D|↓↑↓]deu e[A|↓↑]terna [E|↓↑↓ ↓↑↓]luz..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Cristo me [A]guia com po[E]der,",
-          "Cristo me [A]guia [A#°]com sa[B7]ber;",
-          "Ele_é o_A[E]migo mui fi[A]el,",
-          "Cristo Je[B7]sus, o_Emanu[E]el."
+          "Cristo me [G]guia com po[D]der,",
+          "Cristo me [G]guia [E7]com sa[A]ber;",
+          "Ele é o A[D]migo mui f[G]iel,",
+          "Cristo Je[D]sus, o E[A]manu[D]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Os bons con[E]selhos de Jesus s[A]ão, para m[E]im, di[B7]vina luz;",
-          "[E]Eles me trazem retidão [A]e divin[E]al con[B7]solaç[E]ão."
+          "[D]Os bons conselhos de Jesus [G|↓↑]são, para [D|↓↑↓]mim, di[A]vina luz;",
+          "[D]Eles me trazem retidão [G|↓↑]e divin[D|↓↑↓]al con[A|↓↑]solaç[E|↓↑↓ ↓↑↓]ão..."
         ]
       },
       {
@@ -39,8 +43,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Eu vou a[E]vante, com valor; s[A]igo por [E]fé o [B7]meu Senhor.",
-          "[E]No céu, um dia, O verei e[A]_igual a [E]Ele_en[B7]tão ser[E]ei."
+          "[D]Eu vou avante, com valor; [G|↓↑]sigo por [D|↓↑↓]fé o [A]meu Senhor.",
+          "[D]No céu, um dia, O verei e [G|↓↑]igual a [D|↓↑↓]Ele en[A|↓↑]tão ser[E|↓↑↓ ↓↑↓]ei..."
         ]
       },
       {

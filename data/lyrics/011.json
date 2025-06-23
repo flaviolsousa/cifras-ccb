@@ -4,38 +4,39 @@
   "level": 3,
   "tone": {
     "original": "Bb",
-    "selected": "C"
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
-    "introduction": ["C", "G"],
+    "introduction": ["A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó ig[C]reja de Deus, resplande[G]ce",
-          "E alegra-te de coraç[C]ão,[C7]",
-          "Espal[F]hando a semente ce[C]leste,",
-          "Anunci[G]ando a veraz salvaç[C]ão."
+          "Ó ig[A]reja de Deus, resplande[E]ce",
+          "E alegra-te de coraç[A]ão,[A7]...",
+          "Espal[D]hando a semente ce[A]leste,",
+          "Anunci[E]ando a ve[E7]raz salvaç[A]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Tu [G]és  [C]a Igreja de Jesus Cristo, o Cord[G]eiro,",
-          "Que tem o Seu trono nos c[C]éus;[C7]",
-          "Ele, o [F]Justo, Fiel, Verd[C]adeiro,",
-          "Te da[G]rá as promessas de D[C]eus."
+          "[E]Tu [E7]és [A]a Igreja de Jesus Cristo, o Cord[E]eiro,",
+          "Que tem o Seu trono nos c[A]éus;[A7]...",
+          "Ele, o [D]Justo, Fiel, Verd[A]adeiro,",
+          "Te da[E]rá as pro[E7]messas de D[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "ès ig[C]reja formosa e ama[G]da",
-          "Por Cristo, o teu Salva[C]dor,[C7]",
-          "Que te q[F]uer sempre mais ador[C]nada",
-          "De jus[G]tiça e sublime a[C]mor."
+          "ès ig[A]reja formosa e ama[E]da",
+          "Por Cristo, o teu Salva[A]dor,[A7]...",
+          "Que te q[D]uer sempre mais ador[A]nada",
+          "De jus[E]tiça e su[E7]blime a[A]mor."
         ]
       },
       {
@@ -46,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "À glori[C]osa e celeste cida[G]de",
-          "Irás, com Jesus, Salva[C]dor;[C7]",
-          "Lá há p[F]az, grande amor, santi[C]dade;",
-          "Lá ve[G]rás o fiel Cria[C]dor."
+          "À glori[A]osa e celeste cida[E]de",
+          "Irás, com Jesus, Salva[A]dor;[A7]...",
+          "Lá há p[D]az, grande amor, santi[A]dade;",
+          "Lá ve[E]rás o fi[E7]el Cria[A]dor."
         ]
       },
       {

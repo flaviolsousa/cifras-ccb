@@ -10,7 +10,7 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]A minha alma deseja, ó Se[G]nhor,[G7]",
+          "[C]A minha alma deseja, ó Se[G]nhor,[G7]...",
           "Sempre viver, por fé, unida ao Teu a[C]mor;",
           "Com Tua força vou caminhar,",
           "Por Tua graça Te vou louvar",
@@ -19,16 +19,13 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[C]A minha [Dm]alma,[G7] ó meu Reden[C]tor,",
-          "Quer estar u[Dm]nida [G7]ao Teu grande_a[C]mor."
-        ]
+        "text": ["[C]A minha [Dm]alma,[G7] ó meu Reden[C]tor,", "Quer estar u[Dm]nida [G7]ao Teu grande_a[C]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]A minha alma deseja, ó Se[G]nhor,[G7]",
+          "[C]A minha alma deseja, ó Se[G]nhor,[G7]...",
           "Ser consagrada_a Ti, amar-Te com mais fer[C]vor;",
           "A minha mente, oh! Vem abrir;",
           "Almejo,_em mim, Tua voz sentir;",
@@ -43,7 +40,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]A minha alma jubila, ó Se[G]nhor,[G7]",
+          "[C]A minha alma jubila, ó Se[G]nhor,[G7]...",
           "Nas bênçãos divinais do Teu bom Consola[C]dor;",
           "Tu és a minha real Porção,",
           "De Ti espero consolação",
