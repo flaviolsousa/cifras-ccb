@@ -5,7 +5,7 @@ import { useNavigation, useRoute } from "@react-navigation/native";
 import * as Clipboard from "expo-clipboard";
 import { transpose } from "chord-transposer";
 import { HymnModel, Stanza } from "../domain/HymnModel";
-import { HymnModels } from "../services/Hymn/HymnImports";
+import { getHymnModel } from "../services/Hymn/HymnImports";
 
 const RHYTHM_OPTIONS = [
   { label: "Canção", value: "Canção" },
@@ -67,7 +67,7 @@ const HymnEdit = () => {
   // Fetch hymn data on component mount
   useEffect(() => {
     const fetchHymn = async () => {
-      const fetchedHymn = await HymnModels[hymnCode];
+      const fetchedHymn = await getHymnModel(hymnCode);
       fetchedHymn.code = hymnCode;
       fetchedHymn.score.introduction = fetchedHymn.score.introduction || [];
       setHymn(fetchedHymn);

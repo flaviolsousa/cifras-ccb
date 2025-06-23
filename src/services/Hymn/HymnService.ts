@@ -1,9 +1,9 @@
 import { HymnModel } from "../../domain/HymnModel";
-import { Hymns, HymnModels } from "./HymnImports";
+import { Hymns, getHymnModel } from "./HymnImports";
 import { transpose } from "chord-transposer";
 
 async function readFile(file: string): Promise<HymnModel | null> {
-  return HymnModels[file] || null;
+  return (await getHymnModel(file)) || null;
 }
 
 function transposeChordsLine(line: string, fromKey: string, toKey: string): string {
