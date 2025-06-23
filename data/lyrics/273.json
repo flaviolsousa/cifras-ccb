@@ -1,0 +1,58 @@
+{
+  "code": "273",
+  "version": "v3",
+  "title": "Jesus me deu celeste hino",
+  "level": 4,
+  "tone": {
+    "original": "Ab",
+    "selected": "G"
+  },
+  "rhythm": "Canção",
+  "score": {
+    "introduction": ["G", "D", "G"],
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "text": [
+          "[G]... Jesus me [D]deu celeste [G]hino,",
+          "Para en[D]grandecer a [G]Deus;",
+          "E, pelo Es[D]pírito di[Em]vino,",
+          "Esse [A7]canto elevo aos [D]céus."
+        ]
+      },
+      {
+        "type": "chorus",
+        "text": [
+          "[D]Tenho em mim um [G]hino ao Criador,",
+          "Um [D]canto de amor, de e[G]terna gratidão;",
+          "[D]Tenho em mim um [G]hino ao Redentor;",
+          "Aos [D]céus elevo o meu lou[G]vor."
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "text": [
+          "Jesus tor[D]nou-me ventu[G]roso,",
+          "Minha [D]vida transfor[G]mou;",
+          "Um hino [D]santo, glori[Em]oso,",
+          "Em minh’[A7]alma colo[D]cou."
+        ]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "text": ["Um novo [D]hino lá na [G]glória", "Com os [D]anjos canta[G]rei,", "Será um [D]hino de vi[Em]tória", "A Je[A7]sus, o grande [D]Rei."]
+      },
+      {
+        "type": "ref",
+        "ref": "score.stanzas[1]"
+      }
+    ]
+  }
+}

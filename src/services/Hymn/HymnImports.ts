@@ -274,7 +274,7 @@ const hymnImports: { [key: string]: () => Promise<any> } = {
   "270": () => import("../../../data/lyrics/270.json"),
   "271": () => import("../../../data/lyrics/271.json"),
   "272": () => import("../../../data/lyrics/272.json"),
-  //"273": () => import("../../../data/lyrics/273.json"),
+  "273": () => import("../../../data/lyrics/273.json"),
   "274": () => import("../../../data/lyrics/274.json"),
   "275": () => import("../../../data/lyrics/275.json"),
   "276": () => import("../../../data/lyrics/276.json"),
