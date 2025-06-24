@@ -14,6 +14,7 @@ function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: 
   return hymns.map((hymn) => ({
     code: hymn.code,
     title: hymn.title,
+    level: hymn.level,
     isFavorite: favoriteHymns.includes(Number(hymn.code)),
     isFlagged: flaggedHymns.includes(Number(hymn.code)),
   }));
@@ -27,15 +28,17 @@ const Home = () => {
   const [filterVisible, setFilterVisible] = useState(false);
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
   const [showOnlyFlagged, setShowOnlyFlagged] = useState(false);
+  const [selectedDifficulties, setSelectedDifficulties] = useState<number[]>([]);
   const flatListRef = useRef<FlatList>(null);
   const [hymns, setHymns] = useState(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
-
-  const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged }) => {
+  const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level }) => {
     const query = searchQuery.toLowerCase().trim();
     const matchesQuery = title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
     const matchesFavorite = !showOnlyFavorites || isFavorite;
     const matchesFlagged = !showOnlyFlagged || isFlagged;
-    return matchesQuery && matchesFavorite && matchesFlagged;
+    const matchesDifficulty = selectedDifficulties.length === 0 || (level && selectedDifficulties.includes(level));
+
+    return matchesQuery && matchesFavorite && matchesFlagged && matchesDifficulty;
   });
 
   const toggleFavorite = (code: string) => {
@@ -47,6 +50,10 @@ const Home = () => {
       updatedFavorites = [...updatedFavorites, codeNum];
     }
     savePreferences({ ...preferences, favoriteHymns: updatedFavorites });
+  };
+
+  const toggleDifficulty = (difficulty: number) => {
+    setSelectedDifficulties((prev) => (prev.includes(difficulty) ? prev.filter((d) => d !== difficulty) : [...prev, difficulty]));
   };
 
   React.useEffect(() => {
@@ -74,18 +81,21 @@ const Home = () => {
         <HymnFilterPanel
           showOnlyFavorites={showOnlyFavorites}
           showOnlyFlagged={showOnlyFlagged}
+          selectedDifficulties={selectedDifficulties}
           onChangeShowOnlyFavorites={setShowOnlyFavorites}
           onChangeShowOnlyFlagged={setShowOnlyFlagged}
+          onToggleDifficulty={toggleDifficulty}
           onResetFilters={() => {
             setShowOnlyFavorites(false);
             setShowOnlyFlagged(false);
+            setSelectedDifficulties([]);
           }}
           onCloseFilters={() => setFilterVisible(false)}
         />
       )}
 
       <Searchbar
-        placeholder="Buscar Hino"
+        placeholder={`Filtrar por Nome - ${filteredHymns.length} Hinos`}
         value={searchQuery}
         onChangeText={setSearchQuery}
         style={styles.searchInput}
