@@ -1,33 +1,29 @@
 {
+  "code": "022",
   "version": "v3",
   "title": "Guia-me, ó Senhor",
+  "level": 1,
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "G[A]uia-me, ó Senhor, [E]na fulgurante l[A]uz;",
-          "Dá-me mais do amor, q[E]ue_á glória me cond[A]uz."
-        ]
+        "text": ["G[A]uia-me, ó Senhor, [E]na fulgurante l[A]uz;", "Dá-me mais do amor, q[E]ue á glória me cond[A]uz."]
       },
       {
         "type": "chorus",
-        "text": [
-          "G[A]uia-me, g[D]uia-me c[A]om Tua mão, Sen[E]hor;",
-          "G[A]uarda-me, g[D]uarda-me [E]do mundo_enganad[A]or."
-        ]
+        "text": ["G[A]uia-me, g[D]uia-me c[A]om Tua mão, Sen[E]hor;", "G[A]uarda-me, g[D]uarda-me [E]do mundo enganad[A]or."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "G[A]uia-me, bom Jesus, d[E]escanso eu ter[A]ei;",
-          "Rege-me pela luz q[E]ue vem de Ti, meu R[A]ei."
-        ]
+        "text": ["G[A]uia-me, bom Jesus, d[E]escanso eu ter[A]ei;", "Rege-me pela luz q[E]ue vem de Ti, meu R[A]ei."]
       },
       {
         "type": "ref",
@@ -36,10 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "G[A]uia-me, Salvador, [E]na Tua santa l[A]ei;",
-          "Guarda-me em amor, T[E]eu Nome bendir[A]ei."
-        ]
+        "text": ["G[A]uia-me, Salvador, [E]na Tua santa l[A]ei;", "Guarda-me em amor, T[E]eu Nome bendir[A]ei."]
       },
       {
         "type": "ref",

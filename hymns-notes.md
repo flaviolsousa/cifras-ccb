@@ -30,7 +30,8 @@ ctrl+d -> Select recurrences
 
 # Completos:
 
-- 1-17
+- 1-25
+
 - 273
 
 # Doubts:

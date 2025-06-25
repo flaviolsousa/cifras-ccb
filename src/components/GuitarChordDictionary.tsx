@@ -11,7 +11,7 @@ export const chordDictionary: ChordDictionary = {
 
   // Chords of B
   B: { frets: [2, 2, 4, 4, 4, 2], fingers: [1, 1, 2, 3, 4, 1] },
-  B7: { frets: [2, 2, 4, 2, 4, 2], fingers: [1, 1, 3, 1, 4, 1] },
+  B7: { frets: [-1, 2, 1, 2, 0, 2], fingers: [0, 2, 1, 3, 0, 4] },
   Bb: { frets: [1, 1, 3, 3, 3, 1], fingers: [1, 1, 2, 3, 4, 1] },
   Bb9: { frets: [1, 1, 3, 1, 1, 1], fingers: [1, 1, 3, 1, 1, 1] },
   Bm: { frets: [2, 2, 4, 4, 3, 2], fingers: [1, 1, 3, 4, 2, 1] },

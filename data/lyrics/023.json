@@ -1,39 +1,44 @@
 {
+  "code": "023",
   "version": "v3",
   "title": "O Senhor é o meu Pastor",
+  "level": 2,
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]O Senhor é_o m[D]eu Pas[G]tor, [C]nada deixa[G]rá me fal[D]tar;",
-          "[G]Com a Sua m[C]ansidão, [G]em verdes pastos f[D]az-me_and[G]ar;",
-          "Refrigério, [D]fé e paz [B7]minha [Em]alma n[A]´Ele_ac[D]hou;",
-          "[G]Nas ve[D]redas [G]celes[C]tiais, [G]os meus [D]passos Jesus firm[G]ou."
+          "[G|x2]O Senhor é o m[D]eu Pas[G]tor, [C|x2]nada deixa[G]rá me fal[D]tar;",
+          "[G|x2]Com a Sua m[C|x2]ansidão, [G|x2]em verdes pastos f[D]az-me and[G]ar;",
+          "[G|x2]Refrigério, [D|x2]fé e paz [B7]minha [Em]alma n[A]´Ele ac[D7]hou;",
+          "[G]Nas ve[D]redas [G]celes[C|x2]tiais, [G]os meus [D]passos Je[D7]sus firm[G]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Se_eu tivesse q[D]ue an[G]dar [C]pelo vale [G]da morte,_ó D[D]eus,",
-          "[G]Eu não teme[C]ria_o mal, p[G]orquanto_estou nos b[D]raços T[G]eus;",
-          "Tua vara, [D]ó Senhor, [B7]me con[Em]serva_em [A]retid[D]ão,",
-          "T[G]eu ca[D]jado [G]divi[C]nal t[G]raz conf[D]orto_e consolaç[G]ão."
+          "[G|x2]Se eu tivesse q[D]ue an[G]dar [C|x2]pelo vale [G]da morte, ó D[D]eus,",
+          "[G|x2]Eu não teme[C|x2]ria o mal, p[G|x2]orquanto estou nos b[D]raços T[G]eus;",
+          "[G|x2]Tua vara, [D|x2]ó Senhor, [B7]me con[Em]serva em [A]retid[D7]ão,",
+          "T[G]eu ca[D]jado [G]divi[C|x2]nal t[G]raz conf[D]orto e con[D7]solaç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Uma mesa p[D]ara m[G]im, [C]ó Senhor, Tu v[G]ens prepar[D]ar;",
-          "C[G]om Teu óleo v[C]ens me_ungir, [G]fazes meu cálix t[D]ransbor[G]dar;",
-          "A bondade, [D]a mercê [B7]sobre [Em]mim con[A]templa[D]rei;",
-          "[G]Nas mo[D]radas [G]do meu D[C]eus p[G]ara s[D]empre habitar[G]ei."
+          "[G|x2]Uma mesa p[D]ara m[G]im, [C|x2]ó Senhor, Tu v[G]ens prepar[D]ar;",
+          "C[G|x2]om Teu óleo v[C|x2]ens me ungir, [G|x2]fazes meu cálix t[D]ransbor[G]dar;",
+          "[G|x2]A bondade, [D|x2]a mercê [B7]sobre [Em]mim con[A]templa[D7]rei;",
+          "[G]Nas mo[D]radas [G]do meu D[C|x2]eus p[G]ara s[D]empre ha[D7]bitar[G]ei."
         ]
       }
     ]

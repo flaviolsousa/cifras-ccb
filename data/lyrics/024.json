@@ -1,17 +1,22 @@
 {
+  "code": "024",
   "version": "v3",
   "title": "Dá-me graça, Senhor",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "Am", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Dá-me g[G]raça, Senhor, para s[D]empre Te_a[G]mar",
-          "Com in[Am]tenso_e prof[A]undo a[D]mor",
+          "Dá-me g[G]raça, Senhor, para s[D]empre Te a[G]mar",
+          "Com in[Am]tenso e prof[A]undo a[D]mor",
           "Que pro[G]cede de Ti, glori[D]oso Sen[G]hor,",
           "E me f[C]az Teus con[D]selhos guard[G]ar."
         ]
@@ -19,20 +24,20 @@
       {
         "type": "chorus",
         "text": [
-          "Quero_a[C]mar-Te com [D]todo_o fer[G]vor,[E]...",
+          "Quero a[C]mar-Te com [D]todo o fer[G]vor,",
           "Ado[Am]rar-Te, meu [A7]bom Salvad[D]or;",
           "Vem, com T[G]uas virtudes, cin[C]gir[Am]...",
-          "O Teu servo, que q[D]uer Te serv[G]ir."
+          "O Teu [Am]servo, que q[D]uer Te serv[G]ir."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Com di[G]vina_afeição quero s[D]empre Te_honr[G]ar",
+          "Com di[G]vina afeição quero s[D]empre Te honr[G]ar",
           "E tam[Am]bém ser fi[A]el servid[D]or;",
-          "Esse_im[G]enso amor que de [D]Ti vem, Sen[G]hor,",
-          "Me en[C]sina_ao Teu [D]Nome_exalt[G]ar."
+          "Esse im[G]enso amor que de [D]Ti vem, Sen[G]hor,",
+          "Me en[C]sina ao Teu [D]Nome exalt[G]ar."
         ]
       },
       {
@@ -43,9 +48,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Esse [G]elo de_amor sempre [D]me faz lemb[G]rar",
-          "Quanto_a[Am]maste min[A]h´alma, Sen[D]hor;",
-          "Quero [G]sempre sentir, culti[D]var esse_am[G]or,",
+          "Esse [G]elo de amor sempre [D]me faz lemb[G]rar",
+          "Quanto a[Am]maste min[A]h´alma, Sen[D]hor;",
+          "Quero [G]sempre sentir, culti[D]var esse am[G]or,",
           "Aguar[C]dando, com [D]fé, Teu volt[G]ar."
         ]
       },

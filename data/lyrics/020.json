@@ -1,37 +1,29 @@
 {
+  "code": "020",
   "version": "v3",
   "title": "Teu Espírito derrama",
+  "level": 2,
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Teu Es[F]pírito derrama",
-          "Sobre [C]Teus fiéis, Sen[F]hor,",
-          "Que, humildes e contritos,",
-          "Buscam [C]o Consola[F]dor."
-        ]
+        "text": ["Teu Es[F]pírito derrama", "Sobre [C]Teus fiéis, Sen[F]hor,", "Que, humildes e contritos,", "Buscam [C]o Consola[F]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[F]Vem com Teu Poder, Senhor, T[C]eu povo for[F]tificar;",
-          "Com o bom Consolador, vem, [C]oh! vem bati[F]zar."
-        ]
+        "text": ["[F]Vem com Teu Poder, Senhor, T[C]eu povo for[F]tificar;", "Com o bom Consolador, vem, [C]oh! vem bati[F]zar."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Teu Es[F]pírito derrama,",
-          "A pro[C]messa cumpre,_ó D[F]eus,",
-          "Enviando aos Teu filhos",
-          "As vir[C]tudes lá dos c[F]éus."
-        ]
+        "text": ["Teu Es[F]pírito derrama,", "A pro[C]messa cumpre, ó D[F]eus,", "Enviando aos Teu filhos", "As vir[C]tudes lá dos c[F]éus."]
       },
       {
         "type": "ref",
@@ -40,12 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Teu Es[F]pírito derrama,",
-          "Reves[C]tindo-nos de_a[F]mor;",
-          "Dos Teus dons maravilhosos,",
-          "Enriq[C]uece-nos, Sen[F]hor."
-        ]
+        "text": ["Teu Es[F]pírito derrama,", "Reves[C]tindo-nos de a[F]mor;", "Dos Teus dons maravilhosos,", "Enriq[C]uece-nos, Sen[F]hor."]
       },
       {
         "type": "ref",

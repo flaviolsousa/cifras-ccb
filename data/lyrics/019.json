@@ -1,38 +1,43 @@
 {
+  "code": "019",
   "version": "v3",
   "title": "Manda-nos Teu Poder",
+  "level": 2,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Manda, [A]ó Senhor, do céu, fogo [D]santo_ao povo T[A]eu;",
-          "Manda-[E]nos Teu Po[A]der;",
-          "Fogo que destrói o mal, fogo [D]santo, celest[A]ial;",
-          "Manda-[E]nos Teu Po[A]der."
+          "Manda, [G]ó Senhor, do céu, fogo [C]santo ao povo T[G]eu;",
+          "Manda-[D]nos Teu Po[G]der;",
+          "Fogo que destrói o mal, fogo [C]santo, celest[G]ial;",
+          "Manda-[D]nos Teu Po[G]der."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Manda-n[A]os o Teu Poder,",
-          "O Po[E]der renovador, Pelo T[A]eu imenso_amor;",
-          "Vem, Senhor, selar Teu povo",
-          "Com o b[E]om Consola[A]dor."
+          "Manda-n[G|x1]os [C]o Teu Po[G]der[Em],",
+          "O Po[Am]der renova[D7]dor, Pelo [G]Teu imenso amor;",
+          "Vem, Sen[G]hor, [C]selar Te[G]u [Em]povo",
+          "Com o b[Am]om [D7]Consola[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Vem as b[A]ênçãos derramar e,_os que [D]dormem, desper[A]tar;",
-          "Manda-[E]nos Teu Po[A]der;",
-          "E das nossas vidas faz teste[D]munho efic[A]az;",
-          "Manda-[E]nos Teu Po[A]der."
+          "Vem as b[G]ênçãos derramar e, os que [C]dormem, desper[G]tar;",
+          "Manda-[D]nos Teu Po[G]der;",
+          "E das nossas vidas faz teste[C]munho efic[G]az;",
+          "Manda-[D]nos Teu Po[G]der."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vem nos [A]dar as orações, visi[D]tando_os coraç[A]ões;",
-          "Manda-[E]nos Teu Po[A]der;",
-          "Em constante comunhão, espe[D]ramos Tua_unç[A]ão;",
-          "Manda-[E]nos Teu Po[A]der."
+          "Vem nos [G]dar as orações, visi[C]tando os coraç[G]ões;",
+          "Manda-[D]nos Teu Po[G]der;",
+          "Em constante comunhão, espe[C]ramos Tua unç[G]ão;",
+          "Manda-[D]nos Teu Po[G]der."
         ]
       },
       {

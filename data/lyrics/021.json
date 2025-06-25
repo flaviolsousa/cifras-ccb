@@ -1,50 +1,55 @@
 {
+  "code": "021",
   "version": "v3",
   "title": "Não mais oprimidos seremos",
+  "level": 2,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Não m[E]ais oprimidos seremos",
-          "Na [B7]volta do nosso Sen[E]hor;",
-          "A voz esperada_ouviremos:",
-          "\"Oh! [B7]Vinde!\", dirá_o Salva[E]dor;",
-          "A [A]vida eterna com g[E]lória",
-          "Te[B7]remos, por Cristo, nos c[E]éus;",
-          "Comp[A]leta será a vi[E]tória",
-          "Ao [B7]vermos a face de D[E]eus."
+          "Não m[D]ais [A]oprimidos [D]seremos",
+          "Na volta do [A]nosso Sen[D]hor;",
+          "A voz espe[A]rada ouvire[D]mos:",
+          "\"Oh! Vinde!\", di[A]rá o Salva[D]dor;",
+          "A vida e[G]terna com gló[D]ria",
+          "Teremos, por [A]Cristo, nos c[D]éus;",
+          "Comp[G]leta será a vi[D]tória",
+          "Ao vermos a [A]face de D[D]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Não m[E]ais perseguidos seremos",
-          "Na [B7]volta do nosso Sen[E]hor;",
-          "Deixando_este mundo, iremos",
-          "Ao [B7]céus, nossa pátria de_a[E]mor;",
-          "Naq[A]uela cidade glo[E]riosa,",
-          "Lu[B7]gar de eterno_esplen[E]dor,",
-          "A_he[A]rança divina, pre[E]ciosa,",
-          "Te[B7]remos de Deus, Cria[E]dor."
+          "Não m[D]ais perse[A]guidos se[D]remos",
+          "Na volta do [A]nosso Sen[D]hor;",
+          "Deixando este [A]mundo, ire[D]mos",
+          "Ao céus, nossa [A]pátria de a[D]mor;",
+          "Naquela ci[G]dade glorio[D]sa,",
+          "Lugar de e[A]terno esplen[D]dor,",
+          "A he[G]rança divina, precio[D]sa,",
+          "Teremos de [A]Deus, Cria[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A [E]volta de Cristo glorioso",
-          "Será com poder e_esplen[B7]dor;",
-          "Devemos estar revestidos",
-          "De graça, justiça e_a[E]mor.",
-          "Iremos, então, ó queridos,",
-          "Desfrutar a herança_etern[A]al,",
-          "Pois Jesus nos da[E]rá a coroa re[A]al,",
-          "No di[B7]toso lar celesti[E]al."
+          "[D]A volta de Cristo glorioso",
+          "Será com poder e esplen[Em]dor;",
+          "De[A7]vemos estar reves[Em]tidos",
+          "De [A7]graça, justiça e a[D]mor.",
+          "[D]Iremos, então, ó queridos,",
+          "Desfrutar a he[D7]rança etern[G]al,",
+          "Pois Jesus nos da[D]rá a coroa re[G]al,",
+          "No di[D]toso lar [A7]celesti[D]al."
         ]
       }
     ]
