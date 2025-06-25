@@ -10,9 +10,27 @@ interface StyledLyricTextProps {
 const StyledLyricText: React.FC<StyledLyricTextProps> = ({ text, style, onLayout }) => {
   // Remove chord markers for lyrics display
   const lyrics = text.replace(/\[[^\]]+\]/g, "");
+
+  // Split text into array to handle each character
+  const characters = lyrics.split("");
+
   return (
     <Text style={style} onLayout={onLayout}>
-      {lyrics}
+      {characters.map((char, index) =>
+        char === "_" ? (
+          <Text
+            key={index}
+            style={{
+              // color: "transparent",
+              color: "red",
+            }}
+          >
+            {char}
+          </Text>
+        ) : (
+          <React.Fragment key={index}>{char}</React.Fragment>
+        ),
+      )}
     </Text>
   );
 };

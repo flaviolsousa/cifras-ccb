@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { StyleSheet, View, type LayoutChangeEvent } from "react-native";
 import { useTheme } from "react-native-paper";
 import StyledChordText from "./StyledChordText";
@@ -15,6 +15,30 @@ interface HymnVerseProps {
   showNotes: boolean;
 }
 
+function padWordsUnderChords(line: string): string {
+  const regex = /(\[[^\]]+\])([^\s\[]*)/g;
+
+  return line.replace(regex, (match, chord, word) => {
+    const chordContent = chord.slice(1, -1);
+
+    let minLength;
+
+    if (chordContent.includes("|")) {
+      let [chord, notes] = chordContent.split("|");
+      minLength = chord.length + Math.ceil(notes.length / 2);
+    } else {
+      minLength = chordContent.length;
+    }
+
+    const currentLength = word.length;
+    const paddingNeeded = Math.max(0, minLength - currentLength);
+
+    const paddedWord = word + "_".repeat(paddingNeeded);
+
+    return chord + paddedWord;
+  });
+}
+
 const HymnVerse: React.FC<HymnVerseProps> = ({
   line,
   fontSize,
@@ -26,6 +50,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
   showNotes,
 }) => {
   const theme = useTheme();
+  const [lineFormatted, setLineFormatted] = useState<string>(line);
 
   const styles = StyleSheet.create({
     verse: {
@@ -53,6 +78,10 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
     },
   });
 
+  useEffect(() => {
+    setLineFormatted(padWordsUnderChords(line));
+  }, [line]);
+
   return (
     <View
       style={[
@@ -64,7 +93,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
       ]}
     >
       <StyledChordText
-        text={line}
+        text={lineFormatted}
         style={[
           styles.chord,
           {
@@ -79,7 +108,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
         fontSize={fontSize}
       />
       <StyledLyricText
-        text={line}
+        text={lineFormatted}
         style={[
           styles.lyric,
           {

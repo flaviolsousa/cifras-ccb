@@ -12,11 +12,10 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
 
   parts.forEach((part) => {
     if (part.startsWith("[") && part.endsWith("]")) {
-      // Extract chord from brackets
-      const chord = part.slice(1, -1);
+      const [chord, notes] = part.slice(1, -1).split("|");
       try {
         const transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
-        result += `[${transposed}]`;
+        result += `[${transposed}${!!notes ? `|${notes}` : ""}]`;
       } catch (e: any) {
         console.error(e);
         result += `${part}:ERROR`;

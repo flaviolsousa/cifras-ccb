@@ -10,6 +10,7 @@ import HymnDetails from "../screens/HymnDetails";
 import HymnEdit from "../screens/HymnEdit";
 import Preferences from "../screens/Preferences";
 import SplashScreen from "../screens/SplashScreen";
+import DevNavigationHelper from "../components/DevNavigationHelper";
 
 export type RootStackParamList = {
   Splash: undefined;
@@ -23,6 +24,14 @@ export type RootStackParamList = {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Drawer = createDrawerNavigator();
 
+// A wrapper component that includes the DevNavigationHelper to navigate back to last hymn
+const NavigationWrapper = ({ children }: { children: React.ReactNode }) => (
+  <>
+    {children}
+    <DevNavigationHelper />
+  </>
+);
+
 const MainNavigator = () => {
   if (Platform.OS !== "web") {
     React.useEffect(() => {
@@ -31,11 +40,13 @@ const MainNavigator = () => {
   }
 
   return (
-    <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />} screenOptions={{ headerShown: false }}>
-      <Drawer.Screen name="HomeStack" component={HomeStackNavigator} />
-      <Drawer.Screen name="Preferences" component={Preferences} />
-      <Drawer.Screen name="About" component={About} />
-    </Drawer.Navigator>
+    <NavigationWrapper>
+      <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />} screenOptions={{ headerShown: false }}>
+        <Drawer.Screen name="HomeStack" component={HomeStackNavigator} />
+        <Drawer.Screen name="Preferences" component={Preferences} />
+        <Drawer.Screen name="About" component={About} />
+      </Drawer.Navigator>
+    </NavigationWrapper>
   );
 };
 
