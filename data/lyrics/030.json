@@ -1,33 +1,28 @@
 {
+  "code": "030",
   "version": "v3",
   "title": "Confiarei sempre no Senhor",
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[G]Confiarei sempre no Senhor, [D]no Seu sublime amor;",
-          "[G]Nunca serei confundido [A7]na aflição ou na d[D]or."
-        ]
+        "text": ["[D]Confiarei sempre no Senhor, [A]no Seu sublime amor;", "[D]Nunca serei confundido [E7]na aflição ou na d[A]or."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Cristo é bom e cle[G]mente, [D]bálsamo a toda d[G]or;",
-          "Paz divinal e_excelente v[D]em do Sen[G]hor."
-        ]
+        "text": ["[A]Cristo é bom e cle[D]mente, [A]bálsamo a toda d[D]or;", "Paz divinal e excelente v[A]em do Sen[D]hor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[G]Em Jesus Cristo eu tenho fé, [D]só n´Ele esperarei;",
-          "[G]Mesmo estando_em angústia, n[A7]´Ele eu confiar[D]ei."
-        ]
+        "text": ["[D]Em Jesus Cristo eu tenho fé, [A]só n´Ele esperarei;", "[D]Mesmo estando em angústia, n[E7]´Ele eu confiar[A]ei."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[G]Nas minhas provas, confiarei [D]em Cristo, Libertador;",
-          "N[G]´Ele eu tenho firmeza, p[A7]ois é fiel Protet[D]or."
-        ]
+        "text": ["[D]Nas minhas provas, confiarei [A]em Cristo, Libertador;", "N[D]´Ele eu tenho firmeza, p[E7]ois é fiel Protet[A]or."]
       },
       {
         "type": "ref",

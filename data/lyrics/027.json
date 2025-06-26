@@ -1,39 +1,44 @@
 {
+  "code": "027",
   "version": "v3",
   "title": "O Senhor é minha Luz",
+  "level": 4,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O Sen[E]hor é m[A]inha [E]Luz e minha_eterna Salva[B7]ção. ",
-          "Nada [E]devo [A]eu te[E]mer, pois Ele [B7]é meu fiel Guardi[E]ão.",
-          "O Senhor é [D#°]o meu [C#m]Deus, nada a[F#7]qui recea[B7]rei;",
-          "Para [E]sempre s[A]entir[E]ei a provi[B7]dência do meu grande [E]Rei."
+          "O Sen[D]hor é m[G]inha [D]Luz e minha eterna Salva[A7]ção. ",
+          "Nada [D]devo [G]eu te[D]mer, pois Ele [A7]é meu fiel Guardi[D]ão.",
+          "O Senhor é [F#7]o meu [Bm]Deus, nada a[E7]qui recea[A7]rei;",
+          "Para [D]sempre s[G]entir[D]ei a provi[A7]dência do meu grande [D]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Se vi[E]er me c[A]ircun[E]dar todo_o exército do [B7]mal,",
-          "O Sen[E]hor en[A]via[E]rá Seu grande_e[B7]xército celesti[E]al.",
-          "Com o cora[D#°]ção em [C#m]paz, sirvo ao [F#7]santo Cria[B7]dor;",
-          "Peque[E]nino_e f[A]raco s[E]ou, mas meu Re[B7]fúgio é Deus, meu Sen[E]hor."
+          "Se vi[D]er me c[G]ircun[D]dar todo o exército do [A7]mal,",
+          "O Sen[D]hor en[G]via[D]rá Seu grande e[A7]xército celesti[D]al.",
+          "Com o cora[F#7]ção em [Bm]paz, sirvo ao [E7]santo Cria[A7]dor;",
+          "Peque[D]nino e f[G]raco s[D]ou, mas meu Re[A7]fúgio é Deus, meu Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Meu de[E]sejo [A]é mo[E]rar, sempre na casa do Se[B7]nhor.",
-          "Pois as[E]sim cont[A]emplar[E]ei a formo[B7]sura do meu Cria[E]dor.",
-          "Ele me es[D#°]conde[C#m]rá quando vi[F#7]er a tenta[B7]ção;",
-          "Prote[E]gido [A]esta[E]rei sempre de[B7]baixo do Seu pavil[E]hão."
+          "Meu de[D]sejo [G]é mo[D]rar, sempre na casa do Se[A7]nhor.",
+          "Pois as[D]sim cont[G]emplar[D]ei a formo[A7]sura do meu Cria[D]dor.",
+          "Ele me es[F#7]conde[Bm]rá quando vi[E7]er a tenta[A7]ção;",
+          "Prote[D]gido [G]esta[D]rei sempre de[A7]baixo do Seu pavil[D]hão."
         ]
       }
     ]

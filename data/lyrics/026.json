@@ -1,39 +1,44 @@
 {
+  "code": "026",
   "version": "v3",
   "title": "Julga-me, Senhor",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "J[A]ulga-me, Senhor, pois [D]amo Tua l[A]ei,",
-          "[E]Confiando_em Ti, jamais vacilarei;",
-          "[A]Vem, ó Deus, com Teu fa[D]lar, [B7]minha alma susten[E]tar,",
-          "Quero em justi[E]ça    [E]sempre camin[A]har."
+          "J[G]ulga-me, Senhor, pois [C]amo Tua l[G]ei,",
+          "[D]Confiando em Ti, jamais vacilarei;",
+          "[G]Vem, ó Deus, com Teu falar, [A7]minha alma sustentar,",
+          "[D|x2(-)]Quero em justiça [D7]sempre camin[G]har."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Teu Espírito,_ó Senhor,",
-          "[E]Tudo [B7]pode_investi[E]gar;",
-          "[A]Nada posso Te_ocul[D]tar,",
-          "[B7]Pois, com Teu divino_o[E]lhar,",
-          "Vês os céus e_a te[E]rra,  [E]sábio Cria[A]dor."
+          "[G]Teu Espírito, ó Senhor,",
+          "[D|x2]Tudo [A7]pode investi[D]gar;",
+          "[G]Nada posso Te ocultar,",
+          "[A7]Pois, com Teu divino olhar,",
+          "[D|x2(-)]Vês os céus e a terra, [D7]sábio Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Diante dos meus olhos T[D]eu favor es[A]tá:",
-          "B[E]em-aventurança que igual não há;",
-          "Q[A]uero,_ó Deus, Te agra[D]dar  [B7]e Teu reino alcan[E]çar;",
-          "Vem, com a Pala[E]vra,  [E]me purific[A]ar."
+          "[G]Diante dos meus olhos T[C]eu favor es[G]tá:",
+          "B[D]em-aventurança que igual não há;",
+          "Q[G]uero, ó Deus, Te agradar [A7]e Teu reino alcançar;",
+          "[D|x2(-)]Vem, com a Palavra, [D7]me purific[G]ar."
         ]
       },
       {
@@ -44,10 +49,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Em caminho plano [D]os meus pés est[A]ão,",
-          "[E]No caminho que conduz à salvação;",
-          "N[A]as congregações, ó D[D]eus, [B7]contarei os feitos T[E]eus,",
-          "Pois Tu cancelas[E]te    [E]os pecados m[A]eus."
+          "[G]Em caminho plano [C]os meus pés est[G]ão,",
+          "[D]No caminho que conduz à salvação;",
+          "N[G]as congregações, ó Deus, [A7]contarei os feitos Teus,",
+          "[D|x2(-)]Pois Tu cancelaste [D7]os pecados m[G]eus."
         ]
       },
       {

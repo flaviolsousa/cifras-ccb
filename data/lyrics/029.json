@@ -1,38 +1,43 @@
 {
+  "code": "029",
   "version": "v3",
   "title": "Senhor Jesus, Tu és o meu Rochedo",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[A]hor Jesus, Tu és o meu Rochedo,",
-          "Só em [D]Ti desejo [B7]sempre confi[E]ar;",
-          "De[A]fende-me de todo_o mal e medo,",
-          "Pois so[E]mente Tu me podes aju[A]dar."
+          "Sen[G]hor Jesus, Tu és o meu Rochedo,",
+          "Só em [C]Ti desejo [A7]sempre confi[D]ar;",
+          "De[G]fende-me de todo o mal e medo,",
+          "Pois so[D]mente Tu me podes aju[G]dar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Ó sen[E]hor, vem condu[A]zir-me",
-          "Pelo_Es[B7]pírito à pátria etern[E]al;",
-          "Da ver[A]dade vem cin[D]gir-[D]me",
-          "E de [E]toda_a armadura celest[A]ial."
+          "Ó sen[D]hor, vem condu[G]zir-me",
+          "Pelo Es[A7]pírito à pátria etern[D]al;",
+          "Da ver[G]dade vem cin[C]gir-[C]me",
+          "E de [D]toda a armadura celest[G]ial."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[A]hor Jesus, a Tua mão potente",
-          "Me fa[D]rá vencer o [B7]mundo_enganad[E]or,",
-          "Es[A]teja Tua força_em mim presente",
-          "E Te g[E]lorificarei, ó meu Sen[A]hor."
+          "Sen[G]hor Jesus, a Tua mão potente",
+          "Me fa[C]rá vencer o [A7]mundo enganad[D]or,",
+          "Es[G]teja Tua força em mim presente",
+          "E Te g[D]lorificarei, ó meu Sen[G]hor."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[A]hor Jesus, és minha Esperança,",
-          "Meu Ref[D]úgio, meu Es[B7]cudo_e Defens[E]or;",
-          "Ao [A]coração dá firme confiança",
-          "Para [E]sempre ser fiel e venced[A]or."
+          "Sen[G]hor Jesus, és minha Esperança,",
+          "Meu Ref[C]úgio, meu Es[A7]cudo e Defens[D]or;",
+          "Ao [G]coração dá firme confiança",
+          "Para [D]sempre ser fiel e venced[G]or."
         ]
       },
       {

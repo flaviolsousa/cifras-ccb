@@ -70,6 +70,12 @@ const HymnEdit = () => {
       const fetchedHymn = await getHymnModel(hymnCode);
       fetchedHymn.code = hymnCode;
       fetchedHymn.score.introduction = fetchedHymn.score.introduction || [];
+      fetchedHymn.score.stanzas.forEach((stanza: Stanza) => {
+        if (Array.isArray(stanza.text)) {
+          stanza.text = stanza.text.map((line: string) => line.replace(/\s{2,}/g, " "));
+        }
+      });
+
       setHymn(fetchedHymn);
     };
     fetchHymn();

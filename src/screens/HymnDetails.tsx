@@ -234,6 +234,8 @@ const HymnDetails = () => {
           increaseFontSize();
         } else if (event.key === "-") {
           decreaseFontSize();
+        } else if (event.key === "e" || event.key === "E") {
+          navigation.navigate("HymnEdit", { hymnCode });
         }
       };
 
@@ -242,7 +244,7 @@ const HymnDetails = () => {
         window.removeEventListener("keydown", handleKeyPress);
       };
     }
-  }, []);
+  }, [navigation, hymnCode]);
 
   // Begin: Favorite Button
   const isFavorite = (code: string) => {

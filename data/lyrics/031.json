@@ -1,48 +1,53 @@
 {
+  "code": "031",
   "version": "v3",
   "title": "Forte Rocha",
+  "level": 5,
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Forte Rocha é [F#m]Deus Sempi[E]ter[A]no;",
-          "[Bm]Nos - [F#m]sa    [G]fé  [D/F#]só    [Em7]n´Ele se [A]fun[D]da;",
-          "Seu amor celes[F#m]tial e pa[E]ter[A]no,",
-          "[Bm]Na   [F#m]tri - [G]bu –[D/F#] la - [Em7]ção nos cir[A]cun[D]da.",
-          "Do_astuto [E]tenta[A]dor [D]nos livra_o [G]Cria[Bm]dor e nos pro[E]te[A]ge;",
-          "[G]Nada [B7]nós teme[Em]re - [F#]mos,",
-          "[Bm]Pois [F#m] o    [G]In - [D/F#]vem - [Em7]cível nós [A]te[D]mos."
+          "[D]Forte Rocha é [A]Deus Sempi[E7]ter[A]no;",
+          "[Bm]Nossa [G]fé só n´[Em]Ele se [A]fun[D]da;",
+          "Seu amor celes[A]tial e [E7]pater[A]no,",
+          "[Bm]Na tri[G]bula[Em]ção nos cir[A]cun[D]da.",
+          "Do as[D]tuto [E7]tenta[A]dor nos [D]livra o [G]Cria - [Bm]dor e [D]nos [E7]prote[A]ge;",
+          "[G]Nada [D]nós teme[Em]re - [F#]mos,",
+          "[Bm]Pois o [G]Invem[Em]cível nós [A]te[D]mos."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Estará para [F#m]sempre per[E]di-[A]do",
-          "[Bm]Quem [F#m]em    [G]si  [D/F#]so  -  [Em7]mente con[A]fi - [D]a,",
-          "Mas será lá do [F#m]céu soco[E]rri[A]do,",
-          "[Bm]Cren - [F#m]do    [G]em  [D/F#] Je  - [Em7]sus, nosso G[A]ui - [D]a.",
-          "O Filho [E]do bom D[A]eus [D]é Defen[G]sor dos [Bm]Seus, é Rei da g[E]lór[A]ia;",
-          "D[G]´Ele [B7]virtude [Em]te - [F#]mos,",
-          "[Bm]E    [F#m]vi - [G]tó - [D/F#]ria   [Em7]alcança[A]rem[D]os."
+          "[D]Estará para [A]sempre per[E7]di-[A]do",
+          "[Bm]Quem em [G]si so[Em]mente con[A]fi[D]a,",
+          "Mas será lá do [A]céu soco[E7]rri[A]do,",
+          "[Bm]Crendo [G]em Je[Em]sus, nosso G[A]ui[D]a.",
+          "O [D]Filho [E7]do bom D[A]eus é [D]Defen[G]sor dos [Bm]Seus, é [D]Rei da g[E7]lór[A]ia;",
+          "D[G]´Ele [D]virtude [Em]te - [F#]mos,",
+          "[Bm]E vi[G]tória [Em]alcança[A]rem[D]os."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]A Palavra, que[F#m] é nossa [E]Vi-[A]da,",
-          "[Bm]De - [F#m]ve   s[G]er  [D/F#]por    [Em7]nós exal[A]ta - [D]da;",
-          "É, também, nossa [F#m]firme Gua[E]ri-[A]da",
-          "[Bm]Que  [F#m]não   [G]po -[D/F#] de   s[Em7]er abal[A]a - d[D]a.",
-          "O mal vi[E]rá tent[A]ar  [D]a fim de [G]despo[Bm]jar os resga[E]ta-d[A]os, ",
-          "[G]Mas te[B7]remos vi[Em]tó - [F#]ria, ",
-          "[Bm]Pois [F#m] é   [G]nos - [D/F#]so_o  [Em7]reino e_a g[A]lór[D]ia."
+          "[D]A Palavra, que [A]é nossa [E7]Vi-[A]da,",
+          "[Bm]Deve [G]ser por [Em]nós exal[A]ta[D]da;",
+          "É, também, nossa [A]firme [E7]Guari[A]da",
+          "[Bm]Que não [G]pode [Em]ser aba[A]la[D]da.",
+          "O [D]mal vi[E7]rá tent[A]ar [D]a fim de [G]despo - [Bm]jar os [D]resga[E7]ta-d[A]os, ",
+          "[G]Mas te[D]remos vi[Em]tó - [F#]ria, ",
+          "[Bm]Pois é [G]nosso o [Em]reino e a g[A]lór[D]ia."
         ]
       }
     ]

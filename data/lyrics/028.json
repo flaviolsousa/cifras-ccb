@@ -1,16 +1,21 @@
 {
+  "code": "028",
   "version": "v3",
   "title": "Para o ceú marchemos",
+  "level": 3,
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Para_o céu marchemos, firmes, sem te[G]mer;",
+          "[C]Para o céu marchemos, firmes, sem te[G]mer;",
           "Nada nesta marcha [C]pode nos deter;",
           "Com valor marc[F]hemos, q[D]uem impedi[G]rá?",
           "[C]Cristo, nossa [F]Força, Seu po[G]der nos da[C]rá."
@@ -19,8 +24,8 @@
       {
         "type": "chorus",
         "text": [
-          "Mar[C]chemos para_o céu, mo[F]rada do Senhor,",
-          "O[G]lhando bem atentos para_o [C]Redentor;",
+          "Mar[C]chemos para o céu, mo[F]rada do Senhor,",
+          "O[G]lhando bem atentos para o [C]Redentor;",
           "Marchemos com valor à [F]pátria celestial;",
           "[G]Lá desfruta[C]remos vida [G]eter[C]nal."
         ]
@@ -29,10 +34,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Para_o céu marchemos, cheios de a[G]mor,",
+          "[C]Para o céu marchemos, cheios de a[G]mor,",
           "Do amor de Cristo, [C]nosso Condutor;",
-          "Com valor an[F]demos, [D]sempre_em uni[G]ão,",
-          "[C]Para_a_eterna g[F]lória, a ce[G]leste Si[C]ão."
+          "Com valor an[F]demos, [D]sempre em uni[G]ão,",
+          "[C]Para a eterna g[F]lória, a ce[G]leste Si[C]ão."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Para_o céu marchemos, sem esmorec[G]er;",
-          "Pela fé, podemos [C]todo_o mal vencer;",
+          "[C]Para o céu marchemos, sem esmorec[G]er;",
+          "Pela fé, podemos [C]todo o mal vencer;",
           "Cristo forta[F]lece [D]nosso coraç[G]ão;",
-          "[C]No_eternal re[F]pouso nos da[G]rá galard[C]ão."
+          "[C]No eternal re[F]pouso nos da[G]rá galard[C]ão."
         ]
       },
       {
