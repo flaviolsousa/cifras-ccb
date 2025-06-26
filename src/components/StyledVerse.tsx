@@ -3,6 +3,7 @@ import { StyleSheet, View, type LayoutChangeEvent } from "react-native";
 import { useTheme } from "react-native-paper";
 import StyledChordText from "./StyledChordText";
 import StyledLyricText from "./StyledLyricText";
+import HymnService from "../services/Hymn/HymnService";
 
 interface HymnVerseProps {
   line: string;
@@ -18,24 +19,22 @@ interface HymnVerseProps {
 function padWordsUnderChords(line: string): string {
   const regex = /(\[[^\]]+\])([^\s\[]*)/g;
 
-  return line.replace(regex, (match, chord, word) => {
-    const chordContent = chord.slice(1, -1);
+  return line.replace(regex, (match, chordNotation, word) => {
+    let { chord, notes } = HymnService.splitChord(chordNotation);
 
     let minLength;
-
-    if (chordContent.includes("|")) {
-      let [chord, notes] = chordContent.split("|");
+    if (notes) {
       minLength = chord.length + Math.ceil(notes.length / 2);
     } else {
-      minLength = chordContent.length;
+      notes = "";
+      minLength = chord.length;
     }
 
     const currentLength = word.length;
     const paddingNeeded = Math.max(0, minLength - currentLength);
-
     const paddedWord = word + "_".repeat(paddingNeeded);
 
-    return chord + paddedWord;
+    return chordNotation + paddedWord;
   });
 }
 

@@ -109,6 +109,15 @@ class HymnService {
       return 0;
     }
   }
+
+  static splitChord(chord: string): { chord: string; notes: string } {
+    const content = chord.startsWith("[") && chord.endsWith("]") ? chord.slice(1, -1) : chord;
+    const [chordName, notes] = content.split("|");
+    return {
+      chord: chordName.trim(),
+      notes: notes?.trim(),
+    };
+  }
 }
 
 export default HymnService;

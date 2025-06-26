@@ -21,8 +21,8 @@ const StyledLyricText: React.FC<StyledLyricTextProps> = ({ text, style, onLayout
           <Text
             key={index}
             style={{
-              color: "transparent",
-              // color: "red",
+              // color: "transparent",
+              color: "red",
             }}
           >
             {char}

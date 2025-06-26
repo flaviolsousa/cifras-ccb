@@ -1,6 +1,7 @@
 import React from "react";
 import { Text } from "react-native";
 import { useTheme } from "react-native-paper";
+import HymnService from "../services/Hymn/HymnService";
 
 function cleanChordName(chord: string): string {
   return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
@@ -26,26 +27,24 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
       {parts.map((part, index) => {
         let comp;
         if (part.startsWith("[") && part.endsWith("]")) {
-          const chordsParts = part.slice(1, -1).split(/[|]/g);
-          let currentChord = chordsParts[0].trim();
-          let note = chordsParts[1]?.trim();
+          const { chord, notes } = HymnService.splitChord(part);
           comp = (
             <React.Fragment key={`fragment-${index}-${part}`}>
               <Text
-                style={[{ color: theme.colors.primary }, cleanChordName(currentChord) === selectedChord && styleSelected]}
-                onPress={() => onChordPress && onChordPress(currentChord)}
+                style={[{ color: theme.colors.primary }, cleanChordName(chord) === selectedChord && styleSelected]}
+                onPress={() => onChordPress && onChordPress(chord)}
               >
-                {currentChord}
+                {chord}
               </Text>
-              {showNotes && note && (
+              {showNotes && notes && (
                 <>
-                  <Text style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>{note}</Text>
-                  {note.length % 2 == 1 && <Text style={{ fontSize: fontSize / 2 }}>_</Text>}
+                  <Text style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>{notes}</Text>
+                  {notes.length % 2 == 1 && <Text style={{ fontSize: fontSize / 2 }}>_</Text>}
                 </>
               )}
             </React.Fragment>
           );
-          lastChordLength = currentChord.length + (note && showNotes ? Math.ceil(note.length / 2) : 0);
+          lastChordLength = chord.length + (notes && showNotes ? Math.ceil(notes.length / 2) : 0);
         } else {
           comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replace(/[^ ]/g, "_")}</Text>;
         }
