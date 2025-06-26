@@ -1,39 +1,44 @@
 {
+  "code": "032",
   "version": "v3",
   "title": "Eu me escondo em Ti, Senhor",
+  "level": 2,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Eu me escondo_em Ti, Senhor e[E]terno,",
-          "Em Ti me_abrigo, [B7]ó meu Salva[E]dor;[E7]...",
-          "[A]Sinto em mim o Teu amor su[E]perno;",
-          "[A]Vivo se[D]guro; [E]és meu Defens[A]or."
+          "[G]Eu me escondo em Ti, Senhor e[D]terno,",
+          "Em Ti [G]me abrigo, [A7]ó meu Salva[D]dor;",
+          "[G]Sinto em mim o Teu amor su[C]perno;",
+          "[G]Vivo se[C]guro; [D7]és meu Defens[G]or."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "B[A]usco de Ti a proteção ce[E]leste",
-          "Quando estou cer[B7]cado pelo m[E]al,[E7]...",
-          "P[A]ois Tu, Jesus, és meu amado [E]Mestre;",
-          "C[A]uidas de m[D]im com z[E]elo divin[A]al."
+          "B[G]usco de Ti a proteção ce[D]leste",
+          "Quando es[G]tou cer[A7]cado pelo m[D]al,",
+          "P[G]ois Tu, Jesus, és meu amado [C]Mestre;",
+          "C[G]uidas de m[C]im com z[D7]elo divin[G]al."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Q[A]uando aqui estou atribu[E]lado,",
-          "Quando está sem [B7]paz meu coraç[E]ão,[E7]...",
-          "C[A]lamo a Ti, meu Redentor a[E]mado;",
-          "[A]De Ti es[D]pero [E]a libertaç[A]ão."
+          "Q[G]uando aqui estou atribu[D]lado,",
+          "Quando es[G]tá sem [A7]paz meu coraç[D]ão,",
+          "C[G]lamo a Ti, meu Redentor a[C]mado;",
+          "[G]De Ti es[C]pero [D7]a libertaç[G]ão."
         ]
       }
     ]

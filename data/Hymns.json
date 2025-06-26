@@ -325,7 +325,8 @@
       "text": "76 - 92",
       "duration": 211.743,
       "introDuration": 7.841
-    }
+    },
+    "level": 4
   },
   {
     "code": "019",
@@ -342,7 +343,8 @@
       "text": "63 - 80",
       "duration": 165.143,
       "introDuration": 12.042
-    }
+    },
+    "level": 2
   },
   {
     "code": "020",
@@ -359,7 +361,8 @@
       "text": "72 - 84",
       "duration": 155.25,
       "introDuration": 11.452
-    }
+    },
+    "level": 2
   },
   {
     "code": "021",
@@ -376,7 +379,8 @@
       "text": "116 - 138",
       "duration": 143.263,
       "introDuration": 10.471
-    }
+    },
+    "level": 2
   },
   {
     "code": "022",
@@ -393,7 +397,8 @@
       "text": "104 - 132",
       "duration": 148.302,
       "introDuration": 10.971
-    }
+    },
+    "level": 1
   },
   {
     "code": "023",
@@ -410,7 +415,8 @@
       "text": "96 - 120",
       "duration": 167.394,
       "introDuration": 12.048
-    }
+    },
+    "level": 2
   },
   {
     "code": "024",
@@ -427,7 +433,8 @@
       "text": "88 - 100",
       "duration": 194.992,
       "introDuration": 14.428
-    }
+    },
+    "level": 3
   },
   {
     "code": "025",
@@ -444,7 +451,8 @@
       "text": "54 - 72",
       "duration": 169.893,
       "introDuration": 10.04
-    }
+    },
+    "level": 2
   },
   {
     "code": "026",
@@ -461,7 +469,8 @@
       "text": "69 - 88",
       "duration": 158.528,
       "introDuration": 10.947
-    }
+    },
+    "level": 3
   },
   {
     "code": "027",
@@ -478,7 +487,8 @@
       "text": "116 - 144",
       "duration": 139.893,
       "introDuration": 10.047
-    }
+    },
+    "level": 4
   },
   {
     "code": "028",
@@ -495,7 +505,8 @@
       "text": "69 - 80",
       "duration": 162.894,
       "introDuration": 12.043
-    }
+    },
+    "level": 3
   },
   {
     "code": "029",
@@ -512,7 +523,8 @@
       "text": "66 - 84",
       "duration": 157.037,
       "introDuration": 11.135
-    }
+    },
+    "level": 3
   },
   {
     "code": "030",
@@ -546,7 +558,8 @@
       "text": "60 - 76",
       "duration": 205.288,
       "introDuration": 15.812
-    }
+    },
+    "level": 5
   },
   {
     "code": "032",
@@ -563,7 +576,8 @@
       "text": "52 - 72",
       "duration": 103.226,
       "introDuration": 13.36
-    }
+    },
+    "level": 2
   },
   {
     "code": "033",
@@ -580,7 +594,8 @@
       "text": "112 - 132",
       "duration": 171.484,
       "introDuration": 10.952
-    }
+    },
+    "level": 3
   },
   {
     "code": "034",
@@ -597,7 +612,8 @@
       "text": "50 - 60",
       "duration": 107.847,
       "introDuration": 10.942
-    }
+    },
+    "level": 3
   },
   {
     "code": "035",
@@ -614,7 +630,8 @@
       "text": "108 - 120",
       "duration": 162.894,
       "introDuration": 12.012
-    }
+    },
+    "level": 3
   },
   {
     "code": "036",

@@ -1,50 +1,45 @@
 {
+  "code": "034",
   "version": "v3",
   "title": "O Mestre que desceu dos ceús",
+  "level": 4,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "E7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [E]Mestre que des[F#7]ceu dos céus,",
-          "Je[B7]sus, o Reden[E]tor,",
-          "Deixou e[G#]xemplo_aos s[A]antos Seus,",
-          "E[B7]xemplo de a[E]mor:"
+          "O [D]Mestre que desceu dos [A]céus,",
+          "Je[A7]sus, o Reden[D]tor,",
+          "Deixou e[F#]xemplo aos santos [G]Seus,",
+          "E[A7]xemplo de a[D]mor:"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Cur[E]vado, lhes la[F#7]vou os pés",
-          "E_a[B7]ssim Se humil[E]hou;",
-          "Com essa [G#]obra q[A]ue_Ele fez,",
-          "O_a[B7]mor nos ensin[E]ou."
-        ]
+        "text": ["Cur[D]vado, lhes lavou os [A]pés", "E a[A7]ssim Se humil[D]hou;", "Com essa [F#]obra que Ele [G]fez,", "O a[A7]mor nos ensin[D]ou."]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "“Am[E]ai-vos”, disse_o [F#7]Redentor",
-          "Que [B7]teve morte_at[E]roz;",
-          "Jesus, por [G#]Seu di[A]vino_amor,",
-          "Sal[B7]vou a todos n[E]ós."
+          "“Am[D]ai-vos”, disse o Reden[A]tor",
+          "Que [A7]teve morte at[D]roz;",
+          "Jesus, por [F#]Seu divino [G]amor,",
+          "Sal[A7]vou a todos n[D]ós."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "Busq[E]uemos o su[F#7]blime_amor",
-          "Que [B7]Deus quer conced[E]er;",
-          "Por nós, Je[G#]sus, o S[A]alvador,",
-          "I[B7]rá interced[E]er."
-        ]
+        "text": ["Busq[D]uemos o sublime [A]amor", "Que [A7]Deus quer conced[D]er;", "Por nós, Je[F#]sus, o Salva[G]dor,", "I[A7]rá interced[D]er."]
       }
     ]
   }

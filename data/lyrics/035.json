@@ -1,39 +1,44 @@
 {
+  "code": "035",
   "version": "v3",
   "title": "Eis que multidão mui grande",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eis q[E]ue multidão mui grande, de todas nações e [B7]tribos,",
-          "Foi vista nos céus e dava louvor perante o Salva[E]dor.",
-          "Trajavam vestidos brancos, la[E7]vados por Jesus C[A]risto;",
-          "Nas mãos le[B7]vavam p[E]almas, lou[B7]vando ao Cria[E]dor."
+          "Eis q[D]ue multidão mui grande, de todas nações e [Em]tri[A7]bos,",
+          "Foi [Em]vista nos [A7]céus e [Em]dava lou[A7]vor [Em]perante [A7]o Salva[D]dor.",
+          "[D]Trajavam vestidos brancos, lavados por [D7]Jesus C[G]ris[B7]to;",
+          "Nas [Em]mãos le[A7]vavam [D]palmas, lou[Em]vando ao [A7]Cria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Di[E]ziam, perante o trono de Deus e do Seu Cor[B7]deiro,",
-          "Que a Deus, o Senhor, fiel Criador, pertence a salvaç[E]ão.",
-          "Prostrados, com reverência, hon[E7]ravam ao Verdad[A]eiro;",
-          "Ações de [B7]graças [E]davam, em [B7]santa adoraç[E]ão."
+          "Di[D]ziam, perante o trono de Deus e do Seu Cor[Em]dei[A7]ro,",
+          "Que a [Em]Deus, o Se[A7]nhor, [Em]fiel Cria[A7]dor, per[Em]tence a [A7]salvaç[D]ão.",
+          "[D]Prostrados, com reverência, honravam ao [D7]Verda[G]dei[B7]ro;",
+          "[Em]Ações de [A7]graças [D]davam, em [Em]santa a[A7]doraç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com [E]anjos, na eterna glória, alegres, cantavam [B7]hinos;",
-          "Mostraram valor com Cristo, o Senhor, na grande tribulaç[E]ão.",
-          "Às fontes das águas vivas, Je[E7]sus guia os seus des[A]tinos;",
-          "Com grande [B7]rego[E]zijo, no [B7]céu resplandecer[E]ão."
+          "Com [D]anjos, na eterna glória, alegres, cantavam [Em]hi-[A7]nos;",
+          "Mos[Em]traram va[A7]lor com [Em]Cristo, o Se[A7]nhor, na [Em]grande [A7]tribula[D]ção.",
+          "[D]Às fontes das águas vivas, Jesus guia os [D7]seus des[G]ti[B7]nos;",
+          "Com [Em]grande [A7]rego[D]zijo, [Em]no céu resplan[A7]decer[D]ão."
         ]
       }
     ]

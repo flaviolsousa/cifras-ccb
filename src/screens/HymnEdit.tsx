@@ -21,6 +21,10 @@ const LEVEL_OPTIONS = [
   { label: "5", value: "5" },
 ];
 
+const CHORD_MAP = {
+  Gb: "F#",
+};
+
 const TONE_OPTIONS = ["A", "B", "C", "D", "E", "F", "G", "Ab", "Bb", "Db", "Eb", "Gb"];
 
 const getDefaultSelectedTone = (hymn: HymnModel) => {
@@ -134,19 +138,19 @@ const HymnEdit = () => {
     if (!hymn) return;
 
     // Adjust tone for introduction
-    hymn.score.introduction = hymn.score.introduction.map((chord) =>
-      direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString(),
-    );
+    hymn.score.introduction = hymn.score.introduction
+      .map((chord) => (direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString()))
+      .map((chord) => CHORD_MAP[chord] || chord);
 
     // Adjust tone for stanzas
     hymn.score.stanzas.forEach((stanza) => {
       if (!stanza.text) return;
       stanza.text = stanza.text.map((line) =>
-        line.replace(
-          /\[([^\]|]+)(\|[^\]]*)?\]/g,
-          (_, chord, annotation = "") =>
-            `[${direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString()}${annotation}]`,
-        ),
+        line.replace(/\[([^\]|]+)(\|[^\]]*)?\]/g, (_, chord, annotation = "") => {
+          let transposedChord = direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString();
+          transposedChord = CHORD_MAP[transposedChord] || transposedChord;
+          return `[${transposedChord}${annotation}]`;
+        }),
       );
     });
 
@@ -173,7 +177,7 @@ const HymnEdit = () => {
           buttons={LEVEL_OPTIONS}
         />
 
-        <Text variant="titleMedium" style={{ marginTop: 16 }}>
+        <Text variant="titleMedium" style={[{ marginTop: 16 }, !hymn.tone?.original && { color: "red" }]}>
           Tom Original
         </Text>
         <SegmentedButtons
@@ -197,7 +201,7 @@ const HymnEdit = () => {
           buttons={TONE_OPTIONS.map((tone) => ({ value: tone, label: tone }))}
         />
 
-        <Text variant="titleMedium" style={{ marginTop: 16 }}>
+        <Text variant="titleMedium" style={[{ marginTop: 16 }, !hymn.rhythm && { color: "red" }]}>
           Ritmo
         </Text>
         <SegmentedButtons
@@ -213,7 +217,7 @@ const HymnEdit = () => {
           <Card.Content>
             <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
               <Text variant="titleMedium">Preview do JSON</Text>
-              <IconButton icon="content-copy" onPress={handleCopyJson} />
+              {hymn.tone?.original && hymn.rhythm && <IconButton icon="content-copy" onPress={handleCopyJson} />}
             </View>
             <Text style={{ fontFamily: "monospace" }}>{jsonPreview}</Text>
           </Card.Content>

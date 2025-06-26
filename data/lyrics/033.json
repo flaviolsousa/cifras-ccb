@@ -1,40 +1,40 @@
 {
+  "code": "033",
   "version": "v3",
   "title": "Jesus é o nosso Guia",
+  "level": 3,
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Quem pode consolar-nos [F]neste peregri[C]nar?",
-          "[Am]Quem pode [A7]condu[Dm]zir-nos [Fm]    [G7]ao nosso_eterno l[C]ar?",
-          "Quem pode dar-nos mais forças? [G7]   Quem p[C]ode nos socor[F]rer?[Dm]...",
-          "A[G7]quele que, por pie[C]dade,[C#°]    foi na [G7]cruz, por nós, mor[C]rer;",
-          "[C/A#]Jesus que, sobre [F]tudo, [Fm]   rece[C]beu de [G7]Deus po[C]der."
+          "[C|x4]Quem pode consolar-nos [F|x2]neste peregri[C]nar?",
+          "[Am]Quem pode [A7]condu[Dm|x2]zir-nos [G|x2]ao nosso eterno [C]lar?",
+          "Quem pode dar-nos mais for[Dm]ças[G]? Quem [C|x2]pode nos socor[F]rer?[Dm]...",
+          "A[G|x2]quele que, por pie[C|x2]dade, foi na [Dm]cruz, por [G]nós, mor[C]rer;",
+          "Jesus que, sobre [F|x2]tudo, re[C]cebeu de [G]Deus po[C]der."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Je[G7]sus é_o nosso G[C]uia,",
-          "Per[G7]feito e fi[C]el;",
-          "Espe[C/A#]remos noite_e d[F]ia[Fm]...",
-          "Só em C[C]risto,_o_E[G7]manu[C]el.[C]..."
-        ]
+        "text": ["Je[Dm]sus é o [G]nosso G[C]uia,", "Per[Dm]feito [G]e fi[C]el;", "Esperemos noite e d[F]ia", "Só em C[C]risto, o E[G]manu[C]el."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
           "[C]Por um caminho plano n[F]os guiará Jes[C]us,",
-          "[Am]Ele nos [A7]ilu-[Dm]mina [Fm]    [G7]com Sua_eterna l[C]uz;",
-          "É ele Quem nos envia [G7]   vir[C]tude, graça_e po[F]der,[Dm]...",
-          "E, [G7]neste mundo de t[C]revas,[C#°]    nos [G7]fará resplande[C]cer;",
-          "Fin[C/A#]dando a jor[F]nada,[Fm]    Sua [C]face_i[G7]remos v[C]er."
+          "[Am]Ele nos [A7]ilu-[Dm]mina [G]com Sua eterna [C]luz;",
+          "É ele Quem nos en[Dm]via[G]... virtu[C]de, graça e po[F]der,[Dm]...",
+          "E, [G]neste mundo de [C]trevas, nos [Dm]fará res[G]plande[C]cer;",
+          "Findando a jor[F]nada, Sua [C]face i[G]remos [C]ver."
         ]
       },
       {

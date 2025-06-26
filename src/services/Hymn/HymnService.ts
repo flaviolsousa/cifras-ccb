@@ -2,6 +2,10 @@ import { HymnModel } from "../../domain/HymnModel";
 import { Hymns, getHymnModel } from "./HymnImports";
 import { transpose } from "chord-transposer";
 
+const CHORD_MAP = {
+  Gb: "F#",
+};
+
 async function readFile(file: string): Promise<HymnModel | null> {
   return (await getHymnModel(file)) || null;
 }
@@ -14,7 +18,9 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
     if (part.startsWith("[") && part.endsWith("]")) {
       const [chord, notes] = part.slice(1, -1).split("|");
       try {
-        const transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
+        let transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
+        transposed = CHORD_MAP[`[${transposed}}`] || transposed;
+
         result += `[${transposed}${!!notes ? `|${notes}` : ""}]`;
       } catch (e: any) {
         console.error(e);

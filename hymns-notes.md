@@ -21,8 +21,9 @@ Guarânia
 
 # Notes
 
-|↓
+|↓↑↓↑↓
 |x2
+|(-)
 
 # Shortcut
 
@@ -30,7 +31,7 @@ ctrl+d -> Select recurrences
 
 # Completos:
 
-- 1-25
+- 1-36
 
 - 273
 
