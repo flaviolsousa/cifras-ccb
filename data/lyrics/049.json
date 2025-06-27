@@ -1,39 +1,44 @@
 {
+  "code": "049",
   "version": "v3",
   "title": "Venho adorar-Te, santo Criador",
+  "level": 4,
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Ó Deus e Pai, Sen[C]hor da_eterni[F]dade,",
-          "[Bb]Venho_a[B°]do - [F]rar-Te, [G]santo Cria[C]dor;[C5+]...",
-          "[F]Com fé_e temor da T[C]ua majes[Dm]ta - [F7]de,",
-          "[Bb]Para [B°]os c[F]éus e[D7]levo m[G]eu c[C]la-[F]mor.[F]..."
+          "[D]Ó Deus e Pai, Sen[A]hor da eterni[D]dade,",
+          "[G|x1]Venho [A]ado[D|x2]rar-Te, [E|x2]santo Cria[A]dor[A7];",
+          "[D]Com fé e temor da T[A]ua majes[Bm]ta - [D7]de,",
+          "[G]Pa[A]ra os c[D]éus e[B7]levo m[E]eu c[A]la-[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Rogo, Senhor, por [C]mérito de C[F]risto,",
-          "[Bb]Dá ao T[B°]eu  [F]servo g[G]raça e sa[C]ber;[C5+]...",
-          "[F]Aos olhos Teus, de[C]sejo ser ben[Dm]quis[F7]to;",
-          "[Bb]Nesta_o[B°]ra-ç[F]ão trans[D7]forma [G]o m[C]eu s[F]er.[F]..."
+          "[D]Rogo, Senhor, por [A]mérito de C[D]risto,",
+          "[G|x1]Dá [A]ao Teu [D|x2]servo g[E|x2]raça e sa[A]ber[A7];",
+          "[D]Aos olhos Teus, de[A]sejo ser ben[Bm]quis[D7]to;",
+          "[G]Nes[A]ta oraç[D]ão trans[B7]forma [E]o m[A]eu s[D]er."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Vem visitar min[C]ha´alma,_ó Deus ben[F]dito,",
-          "[Bb]Das min[B°]has p[F]rovas [G]me esquece[C]rei;[C5+]...",
-          "[F]Eis-me_aos Teus pés, an[C]sioso e con[Dm]tri-[F7]to;",
-          "[Bb]Arden[B°]te - [F]mente [D7]Te e[G]xal[C]tar[F]ei.[F]..."
+          "[D]Vem visitar min[A]ha´alma, ó Deus ben[D]dito,",
+          "[G|x1]Das [A|x1]minhas p[D|x2]rovas [E|x2]me esquece[A]rei[A7];",
+          "[D]Eis-me aos Teus pés, an[A]sioso e con[Bm]tri-[D7]to;",
+          "[G]Ar - [A]dente[D]men[B7]te Te e[E]xal[A]tar[D]ei."
         ]
       }
     ]

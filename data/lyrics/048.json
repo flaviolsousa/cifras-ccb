@@ -1,24 +1,29 @@
 {
+  "code": "048",
   "version": "v3",
   "title": "Creio no Senhor",
+  "level": 4,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Quão glo[E]riosa sinto_em mim a [B7]voz do Cria[E]dor!", "Refrigério ela traz, é um [B7]bálsamo de_a[E]mor."]
+        "text": ["Quão glo[D]riosa sinto em mim a [A7]voz do Cria[D]dor!", "Refrigério ela traz, é um [A7]bálsamo de a[D]mor."]
       },
       {
         "type": "chorus",
-        "text": ["[E]Creio no Senhor, sábio Cria[B7]dor;", "[E]Sinto_em mim o Seu po[A]der que [B7]me fará ven[E]cer."]
+        "text": ["[D]Creio no Senhor, sábio Cria[A7]dor;", "[D|↓↑↓↑↓↑↓]Sinto em mim o Seu po[G|(-)]der que [A7]me fará ven[D]cer."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["A Pa[E]lavra do Senhor, de[B7]sejo sempre_ou[E]vir;", "Segurança Ela traz e_espe[B7]rança do por[E]vir."]
+        "text": ["A Pa[D]lavra do Senhor, de[A7]sejo sempre ou[D]vir;", "Segurança Ela traz e espe[A7]rança do por[D]vir."]
       },
       {
         "type": "ref",
@@ -27,7 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Eu al[E]mejo sempre_estar u[B7]nido_ao grande D[E]eus;", "Em justiça_e retidão, vou se[B7]guindo para_os c[E]éus."]
+        "text": ["Eu al[D]mejo sempre estar u[A7]nido ao grande D[D]eus;", "Em justiça e retidão, vou se[A7]guindo para os c[D]éus."]
       },
       {
         "type": "ref",

@@ -1,48 +1,53 @@
 {
+  "code": "047",
   "version": "v3",
   "title": "Sublime é o perdão!",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "“Se[G]tenta vezes sete ao t[D]eu irmão perd[G]oa”,",
-          "As[C]sim falou o M[D]estre ao ser interro[G]gado;",
-          "Se tu o perdoares, ser[D]ás abenço[G]ado",
-          "E b[C]em-aventu[D]rado. Sublime é_o perd[G]ão!"
+          "“Se[E]tenta vezes sete ao [B7]teu irmão perd[E]oa”,",
+          "As[A]sim falou o [B7]Mestre ao ser interro[E]gado;",
+          "Se tu o perdoares, se[B7]rás abenço[E]ado",
+          "E [A]bem-aventu[B7]rado. Sublime é o per[E]dão!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Med[G]ita,_irmão amado, no g[D]rande_amor de C[G]risto",
-          "E b[C]usca_a excel[D]ente, eterna Cari[G]dade;",
-          "Caminha na justiça, na p[D]az, na santi[G]dade,",
-          "Em t[C]oda humil[D]dade. Sublime é_o perd[G]ão!"
+          "Med[E]ita, irmão amado, no g[B7]rande amor de C[E]risto",
+          "E [A]busca a excel[B7]ente, eterna Cari[E]dade;",
+          "Caminha na justiça, na [B7]paz, na santi[E]dade,",
+          "Em [A]toda humil[B7]dade. Sublime é o perd[E]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Se t[G]eu irmão amares de_um c[D]oração sin[G]cero,",
-          "Te[C]rás a vida_et[D]erna na celestial ci[G]dade;",
-          "Embora ofendido, su[D]porta com pied[G]ade,",
-          "Cons[C]erva_a santid[D]ade. Sublime é_o perd[G]ão!"
+          "Se [E]teu irmão amares de um [B7]coração sin[E]cero,",
+          "Te[A]rás a vida e[B7]terna na celestial ci[E]dade;",
+          "Embora ofendido, su[B7]porta com pie[E]dade,",
+          "Con[A]serva a santi[B7]dade. Sublime é o per[E]dão!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Perd[D]oa teu irmão de todo_o coraç[G]ão,",
-          "As[C]sim terás cump[D]rido o santo manda[G]mento;",
-          "Tam[D]bém terás perdão e paz no coraç[G]ão;",
-          "Por D[C]eus serás benq[D]uisto. Sublime é_o perd[G]ão!"
+          "Perd[B7]oa teu irmão de todo o coraç[E]ão,",
+          "As[A]sim terás cump[B7]rido o santo manda[E]mento;",
+          "Tam[B7]bém terás perdão e paz no coraç[E]ão;",
+          "Por D[A]eus serás benq[B7]uisto. Sublime é o perd[E]ão!"
         ]
       }
     ]

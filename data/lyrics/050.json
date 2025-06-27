@@ -1,48 +1,53 @@
 {
+  "code": "050",
   "version": "v3",
   "title": "Glória a Jesus! Aleluia!",
+  "level": 4,
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "G[C]lória_a Jesus! Aleluia! Glória ao grande R[G]ei!",
-          "Glória por todo o sempre a Cristo eu dar[C]ei;",
+          "G[C]lória a Jesus! Aleluia! [C]Glória ao [A7]grande R[Dm]ei!",
+          "[G]Glória por todo o sempre a Cristo eu dar[C]ei;",
           "Ele me tem conduzido, [C7]com fé e com am[F]or,",
-          "Neste ca[Fm]minho de [C]vida; g[G]lória ao bom Past[C]or!"
+          "Neste caminho de [C]vida; g[G]lória ao bom Past[C]or!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "G[C]lória_a Jesus! Aleluia! Eu sempre cantar[G]ei,",
-          "Glória_a Jesus! Aleluia! N´Ele prosperar[C]ei;",
+          "G[C]lória a Jesus! Aleluia! Eu sempre [A7]cantar[Dm]ei,",
+          "[G]Glória a Jesus! Aleluia! N´Ele prosperar[C]ei;",
           "Receberei sempre forças [C7]do meu bom Salvad[F]or",
-          "Para, em [Fm]todo_o mom[C]ento, L[G]he tributar louv[C]or."
+          "Para, em todo o mom[C]ento, L[G]he tributar louv[C]or."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "G[C]lória_a Jesus! Aleluia! Por minha salvaç[G]ão,",
-          "Glória e honra Lhe devo, e minha gratid[C]ão;",
+          "G[C]lória a Jesus! Aleluia! Por minha [A7]salvaç[Dm]ão,",
+          "[G]Glória e honra Lhe devo, e minha gratid[C]ão;",
           "Merecedor é meu Mestre [C7]de receber louv[F]or,",
-          "Pois me da[Fm]rá a vi[C]tória, p[G]or Seu imenso_am[C]or."
+          "Pois me dará a vi[C]tória, p[G]or Seu imenso am[C]or."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Glória, glória_a Jesus, o meu Pastor fi[G]el!",
-          "Glória ao Salvador, Cristo, Emanu[C]el; ",
+          "[C]Glória, glória a Jesus, o meu Pastor fi[G]el!",
+          "[G]Gló[G7]ria [Dm]ao Salva[G7]dor, Cristo, Emanu[C]el; ",
           "Glória não cessarei [C7]de dar ao Redent[F]or;",
-          "Minha [Fm]alma_engran[C]dece_ao meu etern[G]al Sen[C]hor!"
+          "[Dm]Minha alma engrande[C]ce ao [Fm]meu eter[C]nal [G]Sen[C]hor!"
         ]
       }
     ]
