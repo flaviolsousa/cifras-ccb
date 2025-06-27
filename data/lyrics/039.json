@@ -1,36 +1,38 @@
 {
+  "code": "039",
   "version": "v3",
   "title": "Eu desejo, Senhor",
+  "level": 5,
   "tone": {
-    "recommended": "E"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["F", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eu de[E]sejo, Senhor, só em [B7]Ti descans[E]ar",
-          "E aq[A]ui camin[E]har em a[B7]mor;",
-          "Se por t[E]ribulação eu ti[B7]ver que pas[E]sar,",
-          "Me pro[A]tege, ó [B7]bom Cria[E]dor."
+          "Eu de[F]sejo, Senhor, só em [C7]Ti descans[F]ar",
+          "E aq[A#]ui camin[F]har em a[C7]mor;",
+          "Se por t[F]ribulação eu ti[C7]ver que pas[F]sar,",
+          "Me pro[A#]tege, ó [C7]bom Cria[F]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[B7]Quero, ó D[E]eus, consa[C#7]grar-Te meu [F#m]ser;",
-          "Minha [B7]alma de[E]seja em Teu [B7]reino vi[E]ver."
-        ]
+        "text": ["[C7]Quero, ó D[F]eus, consa[D7]grar-Te meu [Gm]ser;", "Minha [C7]alma de[F]seja em Teu [C7]reino vi[F]ver."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Eu de[E]sejo, Senhor, com fer[B7]vor sempre_es[E]tar",
-          "Aos Teus p[A]és, em cons[E]tante_ora[B7]ção;",
-          "Guarda m[E]eu coração para [B7]nunca pe[E]car;",
-          "Faz-me_and[A]ar sempre [B7]na retid[E]ão."
+          "Eu de[F]sejo, Senhor, com fer[C7]vor sempre es[F]tar",
+          "Aos Teus p[A#]és, em cons[F]tante ora[C7]ção;",
+          "Guarda m[F]eu coração para [C7]nunca pe[F]car;",
+          "Faz-me and[A#]ar sempre [C7]na retid[F]ão."
         ]
       },
       {
@@ -41,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Eu de[E]sejo, Senhor, por Ti [B7]sempre vi[E]ver",
-          "E cin[A]gir a cor[E]oa nos c[B7]éus;",
-          "Seja_em l[E]utas ou paz, quero [B7]sempre diz[E]er:",
-          "Meu Desc[A]anso és [B7]Tu, ó meu D[E]eus."
+          "Eu de[F]sejo, Senhor, por Ti [C7]sempre vi[F]ver",
+          "E cin[A#]gir a cor[F]oa nos c[C7]éus;",
+          "Seja em l[F]utas ou paz, quero [C7]sempre diz[F]er:",
+          "Meu Desc[A#]anso és [C7]Tu, ó meu D[F]eus."
         ]
       },
       {

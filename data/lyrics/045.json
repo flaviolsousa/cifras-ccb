@@ -1,10 +1,15 @@
 {
+  "code": "045",
   "version": "v3",
   "title": "Oh! Quanto nos amaste!",
+  "level": 5,
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,17 +23,14 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[C]Oh! Quanto nos a[G]maste, bondoso Cria[C]dor!",
-          "[C/E]Dá-nos [F]mais do Teu [G]santo e puro_a[C]mor."
-        ]
+        "text": ["[C]Oh! Quanto nos a[G]maste, bondoso Cria[C]dor!", "[C/E]Dá-nos [F]mais do Teu [G]santo e puro a[C]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
           "[C]Manda Tua Palavra, ó [F]Formador,",
-          "[C/E]Pelo_Es[F]pírito [G]Santo Consola[C]dor;",
+          "[C/E]Pelo Es[F]pírito [G]Santo Consola[C]dor;",
           "Dese[Dm]jamos melhor compreen[E]der",
           "[Am]Teu di[A7]vino e [Dm]santo que[G]rer."
         ]

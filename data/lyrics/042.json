@@ -1,48 +1,53 @@
 {
+  "code": "042",
   "version": "v3",
   "title": "Ó minha alma, por que te abates?",
+  "level": 4,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó minha [G]alma, por que te abates?",
-          "Em Deus es[Am]pera [D]  nos teus com[G]bates;",
+          "Ó minha [E]alma, por que te abates?",
+          "Em Deus es[F#m]pera [B7] nos teus com[E]bates;",
           "Se entre males tu te debates,",
-          "Em Deus con[Am]fia, [D]  Ele é fi[G]el."
+          "Em Deus con[F#m]fia, [B7] Ele é fi[E]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Por que, minh[G]´alma, estás aflita?",
-          "Deus te con[Am]sola, [D]  te edi[G]fica;",
+          "Por que, minh[E]´alma, estás aflita?",
+          "Deus te con[F#m]sola, [B7] te edi[E]fica;",
           "Só Ele guarda e santifica;",
-          "Sê firme n[Am]´Ele, [D]  que é fi[G]el."
+          "Sê firme n[F#m]´Ele, [B7] que é fi[E]el."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vigor e g[G]raça só Deus concede,",
-          "Com fé su[Am]plica, [D]  a Ele p[G]ede;",
+          "Vigor e g[E]raça só Deus concede,",
+          "Com fé su[F#m]plica, [B7] a Ele p[E]ede;",
           "Jesus, o Justo, por ti intercede;",
-          "Sê, minha [Am]alma, [D]  a Deus, fi[G]el."
+          "Sê, minha [F#m]alma, [B7] a Deus, fi[E]el."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Deus é o Sus[Am]tento [D]  da minha [G]vida,",
-          "Dará con[Am]forto [D]  em toda a [G]lida;[G7]...",
-          "Ao Seu des[C]canso [D]  Deus te con[G]vida;[Em]...",
-          "Ó minha [Am]alma, [D]  confia em D[G]eus."
+          "Deus é o Sus[F#m]tento [B7] da minha [E]vida,",
+          "Dará con[F#m]forto [B7] em toda a [E]lida;[E7]...",
+          "Ao Seu des[A]canso [B7] Deus te con[E]vida;[C#m]...",
+          "Ó minha [F#m]alma, [B7] confia em D[E]eus."
         ]
       }
     ]

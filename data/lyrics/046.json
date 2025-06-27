@@ -1,38 +1,43 @@
 {
+  "code": "046",
   "version": "v3",
   "title": "Grandioso é o nosso Deus",
+  "level": 2,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]A Fortaleza de t[D]odo o c[A]rente",
-          "É Deus, que [B7]tudo cri[E]ou;[E7]...",
-          "[A]É, na angústia, So[D]corro pres[A]ente,",
-          "[F#m]É Quem do [E]pó nos form[A]ou."
+          "[G]A Fortaleza de t[C]odo o c[G]rente",
+          "É Deus, que [A7]tudo cri[D]ou;[D7]...",
+          "[G]É, na angústia, So[C]corro pres[G]ente,",
+          "[Em]É Quem do [D]pó nos form[G]ou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Grandi[E]oso_é_o n[A]osso Deus,",
-          "[B7]O Deus que sonda os c[E]oraç[E7]ões;",
-          "[A]Sobre a terra é [D]Ele_exal[A]tado",
-          "[F#m]Entre as s[E]uas naç[A]ões."
+          "Grandi[D]oso é o n[G]osso Deus,",
+          "[A7]O Deus que sonda os c[D]oraç[D7]ões;[D7|↓(-)]...",
+          "[G]Sobre a terra é [C]Ele exal[G]tado",
+          "[Em]Entre as s[D]uas naç[G]ões."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "M[A]esmo mudando-se_os m[D]ontes e_a t[A]erra,",
-          "Não senti[B7]remos tem[E]or;[E7]...",
-          "T[A]udo debaixo das m[D]ãos Deus en[A]cerra,",
-          "[F#m]Pois é de t[E]udo_o Sen[A]hor."
+          "M[G]esmo mudando-se os m[C]ontes e a t[G]erra,",
+          "Não senti[A7]remos tem[D]or;[D7]...",
+          "T[G]udo debaixo das m[C]ãos Deus en[G]cerra,",
+          "[Em]Pois é de t[D]udo o Sen[G]hor."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "G[A]rande é_o Deus que nos t[D]em agre[A]gado,",
-          "Sempre co[B7]nosco es[E]tá;[E7]...",
-          "\"D[A]eus dos Exércitos\" E[D]le_é cha[A]mado,",
-          "[F#m]Ele_é Quem v[E]ida nos [A]dá."
+          "G[G]rande é o Deus que nos t[C]em agre[G]gado,",
+          "Sempre co[A7]nosco es[D]tá;[D7]...",
+          "\"D[G]eus dos Exércitos\" E[C]le é cha[G]mado,",
+          "[Em]Ele é Quem v[D]ida nos [G]dá."
         ]
       },
       {

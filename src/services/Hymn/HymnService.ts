@@ -4,6 +4,7 @@ import { transpose } from "chord-transposer";
 
 const CHORD_MAP = {
   Gb: "F#",
+  Bb: "A#",
 };
 
 async function readFile(file: string): Promise<HymnModel | null> {
@@ -20,7 +21,7 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
       try {
         let transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
         transposed = CHORD_MAP[`[${transposed}}`] || transposed;
-
+        console.log(`Transposing chord: ${chord} from ${fromKey} to ${toKey} => ${transposed}`);
         result += `[${transposed}${!!notes ? `|${notes}` : ""}]`;
       } catch (e: any) {
         console.error(e);

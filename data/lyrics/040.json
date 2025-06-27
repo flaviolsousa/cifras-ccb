@@ -1,39 +1,34 @@
 {
+  "code": "040",
   "version": "v3",
   "title": "Quando em mim Tu operaste",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Quanto_em m[A]im Tu ope[D]raste",
-          "Pelo T[E]eu imenso_a[A]mor!",
-          "Graça_e força envi[D]aste",
-          "À min[E]ha´alma, ó Sen[A]hor."
-        ]
+        "text": ["Quanto em m[G]im Tu ope[C]raste", "Pelo T[D]eu imenso a[G]mor!", "Graça e força envi[C]aste", "À min[D]ha´alma, ó Sen[G]hor."]
       },
       {
         "type": "chorus",
         "text": [
-          "Vem, Se[E7]nhor Jesus, com vir[A]tude_e fé,",
-          "E com g[D]raça, fortifi[C#]car",
-          "O meu [D]coração, que Teu [A]templo é;",
-          "Quero [B]sempre Te [E7]exal[A]tar."
+          "Vem, Se[D7]nhor Jesus, com vir[G]tude e fé,",
+          "E com g[C]raça, fortifi[B7]car",
+          "O meu [C]coração, que Teu [G]templo é;",
+          "Quero [A]sempre Te [D7]exal[G]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "O Es[A]pírito da g[D]raça,",
-          "Que pro[E]vém de Ti, Sen[A]hor,",
-          "Sempre mais fiel me [D]faça,",
-          "Ó Jes[E]us, meu Reden[A]tor."
-        ]
+        "text": ["O Es[G]pírito da g[C]raça,", "Que pro[D]vém de Ti, Sen[G]hor,", "Sempre mais fiel me [C]faça,", "Ó Jes[D]us, meu Reden[G]tor."]
       },
       {
         "type": "ref",
@@ -42,12 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Da e[A]terna_e sã ver[D]dade",
-          "Faz-me [E]sempre segui[A]dor,",
-          "Quero_andar em santi[D]dade,",
-          "Imi[E]tando_a Ti, Sen[A]hor."
-        ]
+        "text": ["Da e[G]terna e sã ver[C]dade", "Faz-me [D]sempre segui[G]dor,", "Quero andar em santi[C]dade,", "Imi[D]tando a Ti, Sen[G]hor."]
       },
       {
         "type": "ref",

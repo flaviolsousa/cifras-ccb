@@ -20,7 +20,7 @@ export const chordDictionary: ChordDictionary = {
   "B°": { frets: [2, 0, 2, 3, 2, -1], fingers: [1, 0, 2, 4, 3, 0] },
 
   // Chords of C
-  C: { frets: [0, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
+  C: { frets: [-1, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
   "C#": { frets: [-1, 4, 3, 1, 2, 1], fingers: [0, 4, 3, 1, 2, 1] },
   "C#7": { frets: [-1, 4, 3, 4, 2, -1], fingers: [0, 3, 2, 4, 1, 0] },
   "C#m": { frets: [4, 6, 6, 4, 4, 4], fingers: [1, 3, 4, 1, 1, 1] },

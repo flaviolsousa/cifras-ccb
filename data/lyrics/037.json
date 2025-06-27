@@ -1,10 +1,15 @@
 {
+  "code": "037",
   "version": "v3",
   "title": "Se a nossa vida entregarmos a Jesus",
+  "level": 1,
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "D", "E", "A7"],
     "stanzas": [
       {
         "type": "lyric",

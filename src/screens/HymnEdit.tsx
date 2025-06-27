@@ -23,6 +23,7 @@ const LEVEL_OPTIONS = [
 
 const CHORD_MAP = {
   Gb: "F#",
+  Bb: "A#",
 };
 
 const TONE_OPTIONS = ["A", "B", "C", "D", "E", "F", "G", "Ab", "Bb", "Db", "Eb", "Gb"];

@@ -1,10 +1,15 @@
 {
+  "code": "041",
   "version": "v3",
   "title": "O teu coração vem a Cristo entregar",
+  "level": 2,
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,37 +17,37 @@
         "text": [
           "Quem seu coraç[A]ão a Jesus entreg[E]ar,",
           "Participará das promessas de D[A]eus;",
-          "Veraz salvação n´Ele encontra[D]rá",
-          "E recebe[E4]rá a he[E]rança nos c[A]éus."
+          "Veraz salva[A7]ção n´Ele encontra[D]rá",
+          "E recebe[A]rá a he[E7]rança nos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A vida_etern[A]al só em Cristo_achar[E]ás;",
+          "A vida etern[A]al só em Cristo achar[E]ás;",
           "Há n´Ele poder concedido por D[A]eus;",
-          "Os Seus ricos dons aqui receber[D]ás",
-          "E o galar[E4]dão lá na g[E]lória dos c[A]éus."
+          "Os Seus ricos [A7]dons aqui receber[D]ás",
+          "E o galar[A]dão lá na g[E7]lória dos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Aceita_o perd[A]ão que Jesus quer te d[E]ar,",
-          "Confessa_ao Senhor os pecados que t[A]ens;",
-          "O teu Redentor quer do mal te liv[D]rar",
-          "E te_enrique[E4]cer dos e[E]ternos Seus b[A]ens."
+          "Aceita o perd[A]ão que Jesus quer te d[E]ar,",
+          "Confessa ao Senhor os pecados que t[A]ens;",
+          "O teu Reden[A7]tor quer do mal te liv[D]rar",
+          "E te enrique[A]cer dos e[E7]ternos Seus b[A]ens."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "O teu coraç[A]ão vem a Cristo_entreg[E]ar,",
-          "Rejeita o mal e, do mundo,_a_ilus[A]ão;",
-          "A paz e_o perdão só Jesus pode [D]dar,",
-          "E_a vida_eter[E4]nal na ce[E]leste Si[A]ão."
+          "O teu coraç[A]ão vem a Cristo entreg[E]ar,",
+          "Rejeita o mal e, do mundo, a ilus[A]ão;",
+          "A paz e o per[A7]dão só Jesus pode [D]dar,",
+          "E a vida eter[A]nal na ce[E7]leste Si[A]ão."
         ]
       }
     ]

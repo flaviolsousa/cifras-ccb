@@ -35,6 +35,11 @@ ctrl+d -> Select recurrences
 
 - 273
 
+# Target
+
+27/06/2025
+
+
 # Doubts:
 
 - 000 - 

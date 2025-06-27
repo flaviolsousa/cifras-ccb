@@ -15,6 +15,8 @@ function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: 
     code: hymn.code,
     title: hymn.title,
     level: hymn.level,
+    chords: hymn.chords,
+    rhythm: hymn.rhythm,
     isFavorite: favoriteHymns.includes(Number(hymn.code)),
     isFlagged: flaggedHymns.includes(Number(hymn.code)),
   }));
@@ -29,16 +31,18 @@ const Home = () => {
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
   const [showOnlyFlagged, setShowOnlyFlagged] = useState(false);
   const [selectedDifficulties, setSelectedDifficulties] = useState<number[]>([]);
+  const [selectedRhythms, setSelectedRhythms] = useState<string[]>([]);
   const flatListRef = useRef<FlatList>(null);
   const [hymns, setHymns] = useState(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
-  const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level }) => {
+  const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
     const query = searchQuery.toLowerCase().trim();
     const matchesQuery = title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
     const matchesFavorite = !showOnlyFavorites || isFavorite;
     const matchesFlagged = !showOnlyFlagged || isFlagged;
     const matchesDifficulty = selectedDifficulties.length === 0 || (level && selectedDifficulties.includes(level));
+    const matchesRhythm = selectedRhythms.length === 0 || (rhythm && selectedRhythms.includes(rhythm));
 
-    return matchesQuery && matchesFavorite && matchesFlagged && matchesDifficulty;
+    return matchesQuery && matchesFavorite && matchesFlagged && matchesDifficulty && matchesRhythm;
   });
 
   const toggleFavorite = (code: string) => {
@@ -54,6 +58,10 @@ const Home = () => {
 
   const toggleDifficulty = (difficulty: number) => {
     setSelectedDifficulties((prev) => (prev.includes(difficulty) ? prev.filter((d) => d !== difficulty) : [...prev, difficulty]));
+  };
+
+  const toggleRhythm = (rhythm: string) => {
+    setSelectedRhythms((prev) => (prev.includes(rhythm) ? prev.filter((r) => r !== rhythm) : [...prev, rhythm]));
   };
 
   React.useEffect(() => {
@@ -82,13 +90,16 @@ const Home = () => {
           showOnlyFavorites={showOnlyFavorites}
           showOnlyFlagged={showOnlyFlagged}
           selectedDifficulties={selectedDifficulties}
+          selectedRhythms={selectedRhythms}
           onChangeShowOnlyFavorites={setShowOnlyFavorites}
           onChangeShowOnlyFlagged={setShowOnlyFlagged}
           onToggleDifficulty={toggleDifficulty}
+          onToggleRhythm={toggleRhythm}
           onResetFilters={() => {
             setShowOnlyFavorites(false);
             setShowOnlyFlagged(false);
             setSelectedDifficulties([]);
+            setSelectedRhythms([]);
           }}
           onCloseFilters={() => setFilterVisible(false)}
         />
@@ -115,6 +126,8 @@ const Home = () => {
           <TouchableOpacity onPress={selectItemHandler(item, filteredHymns)}>
             <List.Item
               title={item.code + " - " + item.title}
+              description={`${item.level ? `Dif.: ${item.level}      ` : ""}${item.rhythm ? `${item.rhythm}      ` : ""}${item.chords.join(", ")}`}
+              descriptionStyle={{ fontSize: 10 }}
               right={(props) => (
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
                   {item.isFlagged && <List.Icon {...props} icon="flag" color="#d32f2f" style={{ marginRight: 0 }} />}

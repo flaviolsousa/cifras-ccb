@@ -1,41 +1,46 @@
 {
+  "code": "038",
   "version": "v3",
   "title": "Ó Senhor, és minha Vida",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G7", "C", "B7", "Em"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Ó Sen[B7]hor, és minha V[E]ida, com pra[D#7]zer Te vou lou[G#m]var;",
-          "[E]És A[C#7]juda [F#m]mui que[B7]rida, [C#m]que na [F#m]luz me [B7]faz and[E]ar."
+          "[C]Ó Sen[G7]hor, és minha V[C]ida, com pra[B7]zer Te vou lou[Em]var;",
+          "[C]És A[A7]juda [Dm]mui que[G7]rida, [Am]que na [Dm]luz me [G7]faz and[C]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Só em [B7]Ti, ó Deus, a[E]doro, e lou[D#7]vores Te da[G#m]rei",
-          "[E]Com os [C#7]santos, [F#m]num só [B7]coro, [C#m]pois Tu[F#m] és o_ex[B7]celso R[E]ei."
+          "[C]Só em [G7]Ti, ó Deus, a[C]doro, e lou[B7]vores Te da[Em]rei",
+          "[C]Com os [A7]santos, [Dm]num só [G7]coro, [Am]pois Tu[Dm] és o ex[G7]celso R[C]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "M[E]eu Sen[B7]hor, a Tua g[E]lória faz res[D#7]plandecer em [G#m]mim;",
-          "S[E]obre_o [C#7]mal te[F#m]rei vi[B7]tória, [C#m]por ser[F#m]vir-Te_a[B7]té o f[E]im."
+          "M[C]eu Sen[G7]hor, a Tua g[C]lória faz res[B7]plandecer em [Em]mim;",
+          "S[C]obre o [A7]mal te[Dm]rei vi[G7]tória, [Am]por ser[Dm]vir-Te a[G7]té o f[C]im."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "F[E]ome_e [B7]sede de jus[E]tiça minha [D#7]alma tem, Se[G#m]nhor;",
-          "V[E]em fa[C#7]lar-lhe [F#m]das de[B7]lícias[C#m] do Teu [F#m]reino [B7]de_esplend[E]or."
+          "F[C]ome e [G7]sede de jus[C]tiça minha [B7]alma tem, Se[Em]nhor;",
+          "V[C]em fa[A7]lar-lhe [Dm]das de[G7]lícias[Am] do Teu [Dm]reino [G7]de esplend[C]or."
         ]
       }
     ]

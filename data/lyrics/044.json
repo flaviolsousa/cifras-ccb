@@ -1,38 +1,43 @@
 {
+  "code": "044",
   "version": "v3",
   "title": "Sol da justiça",
+  "level": 4,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "B7", "E", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Do Pai das [G]luzes, o Deus vi[D]vente,",
-          "[G]Veio com glória Cristo Jes[D]us;[D7]...",
-          "[G]O santo Filho do_Onipo[D]tente",
-          "[G]É, para_o mundo, [D]Vida e L[G]uz."
+          "Do Pai das [E]luzes, o Deus vi[B7]vente,",
+          "[E]Veio com glória Cristo Jes[B7]us;",
+          "[E]O santo Filho do Onipo[B7]tente",
+          "[E]É, para o mundo, [B7]Vida e L[E]uz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Sol da jus[C]tiça, Sol da jus[G]tiça,",
-          "Temos agora T[A]eu resplen[D]dor;",
-          "[G]Graça trouxeste do Pai E[D]terno,",
-          "[G]Misericórdia [D]ao peca[G]dor."
+          "Sol da jus[A]tiça, Sol da jus[E]tiça,",
+          "Temos agora T[F#]eu resplen[B7]dor;",
+          "[E]Graça trouxeste do Pai E[B7]terno,",
+          "[E]Misericórdia [B7]ao peca[E]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O povo [G]santo, ilumi[D]nado,",
-          "[G]É dirigido por essa L[D]uz,[D7]...",
-          "[G]Pois, do Seu trono, o Rei a[D]mado",
-          "[G]Vigia sempre [D]e o con[G]duz."
+          "O povo [E]santo, ilumi[B7]nado,",
+          "[E]É dirigido por essa L[B7]uz,",
+          "[E]Pois, do Seu trono, o Rei a[B7]mado",
+          "[E]Vigia sempre [B7]e o con[E]duz."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Do mal, a f[G]orça se enfraq[D]uece,",
-          "[G]É dissipado o seu po[D]der,[D7]...",
-          "[G]Pois é só Cristo Quem preva[D]lece;",
-          "[G]Seu reino_avança [D]para ven[G]cer."
+          "Do mal, a f[E]orça se enfraq[B7]uece,",
+          "[E]É dissipado o seu po[B7]der,",
+          "[E]Pois é só Cristo Quem preva[B7]lece;",
+          "[E]Seu reino avança [B7]para ven[E]cer."
         ]
       },
       {

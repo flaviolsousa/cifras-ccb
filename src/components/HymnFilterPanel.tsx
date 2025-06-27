@@ -6,9 +6,11 @@ type Props = {
   showOnlyFavorites: boolean;
   showOnlyFlagged: boolean;
   selectedDifficulties: number[];
+  selectedRhythms: string[];
   onChangeShowOnlyFavorites: (value: boolean) => void;
   onChangeShowOnlyFlagged: (value: boolean) => void;
   onToggleDifficulty: (difficulty: number) => void;
+  onToggleRhythm: (rhythm: string) => void;
   onResetFilters: () => void;
   onCloseFilters: () => void;
 };
@@ -17,9 +19,11 @@ const HymnFilterPanel: React.FC<Props> = ({
   showOnlyFavorites,
   showOnlyFlagged,
   selectedDifficulties,
+  selectedRhythms,
   onChangeShowOnlyFavorites,
   onChangeShowOnlyFlagged,
   onToggleDifficulty,
+  onToggleRhythm,
   onResetFilters,
   onCloseFilters,
 }) => {
@@ -28,6 +32,7 @@ const HymnFilterPanel: React.FC<Props> = ({
   const difficultyColors = ["#2cba00", "#a3ff00", "#fff400", "#ffa700", "#ff0000"];
   const inactiveColor = "#cccccc";
   const inactiveTextColor = "#888888";
+  const rhythmColor = theme.colors.primary;
 
   const styles = StyleSheet.create({
     container: {
@@ -97,6 +102,36 @@ const HymnFilterPanel: React.FC<Props> = ({
       textShadowRadius: 1,
       color: "#FFF",
     },
+    rhythmContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      marginTop: 8,
+    },
+    rhythmLabel: {
+      flex: 1,
+      fontSize: 16,
+    },
+    rhythmButtons: {
+      flexDirection: "row",
+      alignItems: "center",
+      gap: 8,
+    },
+    rhythmButton: {
+      minWidth: 70,
+      height: 30,
+      borderRadius: 4,
+      justifyContent: "center",
+      alignItems: "center",
+      borderWidth: 2,
+      paddingHorizontal: 8,
+      borderColor: inactiveColor,
+    },
+    rhythmButtonText: {
+      fontWeight: "bold",
+    },
+    rhythmButtonTextSelected: {
+      color: "#FFF",
+    },
   });
 
   return (
@@ -136,6 +171,23 @@ const HymnFilterPanel: React.FC<Props> = ({
                 <Text style={[styles.difficultyButtonText, selected && styles.difficultyButtonTextSelected, { borderColor: colorful }]}>
                   {difficulty}
                 </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </View>
+      </View>
+      <View style={styles.rhythmContainer}>
+        <Text style={styles.rhythmLabel}>Ritmo:</Text>
+        <View style={styles.rhythmButtons}>
+          {["Valsa", "Canção", "Guarânia"].map((rhythm) => {
+            const selected = selectedRhythms.includes(rhythm);
+            return (
+              <TouchableOpacity
+                key={rhythm}
+                style={[styles.rhythmButton, { borderColor: rhythmColor }, selected && { backgroundColor: rhythmColor }]}
+                onPress={() => onToggleRhythm(rhythm)}
+              >
+                <Text style={[styles.rhythmButtonText, selected && styles.rhythmButtonTextSelected]}>{rhythm}</Text>
               </TouchableOpacity>
             );
           })}

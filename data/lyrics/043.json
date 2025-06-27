@@ -1,33 +1,38 @@
 {
+  "code": "043",
   "version": "v3",
   "title": "Trema o céu, a terra, o mar",
+  "level": 4,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A7", "D", "E", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Eis que_os m[E]ontes se_abalaram", "Ante D[B7]eus, o Cria[E]dor;", "Rio e mar também pararam", "Pela [F#]ordem do Sen[B7]hor."]
+        "text": ["Eis que os m[D]ontes se abalaram", "Ante D[A7]eus, o Cria[D]dor;", "Rio e mar também pararam", "Pela [E]ordem do Sen[A7]hor."]
       },
       {
         "type": "chorus",
         "text": [
-          "Trema_o [B7]céu, a terra,_o m[E]ar,",
-          "Na pre[A]sença do Se[E]nhor,",
-          "E, do [C#m]mundo,_os mora[A]dores,[A]...",
-          "Deem-Lhe [B7]glória e lou[E]vor."
+          "Trema o [A7]céu, a terra, o m[D]ar,",
+          "Na pre[G]sença do Se[D]nhor,",
+          "E, do [Bm]mundo, os mora[G|↓↑↓↑↓(-)]dores,",
+          "[G|↓]Deem-Lhe [D|↓↑↓]glória e [A7|↓]lou[D]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O Sen[E]hor fez, do rochedo,",
-          "Fonte de[B7]_águas para_os S[E]eus;",
-          "Quando_a fome trouxe_o medo,",
-          "Pão man[F#]dou-lhes desde_os c[B7]éus."
+          "O Sen[D]hor fez, do rochedo,",
+          "Fonte de[A7] águas para os S[D]eus;",
+          "Quando a fome trouxe o medo,",
+          "Pão man[E]dou-lhes desde os c[A7]éus."
         ]
       },
       {
@@ -37,7 +42,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Nada_im[E]pede_o_Onipotente", "De_ope[B7]rar a Seu praz[E]er;", "Ele é o Deus vivente,", "Sempi[F#]terno_é Seu po[B7]der."]
+        "text": ["Nada im[D]pede o Onipotente", "De ope[A7]rar a Seu praz[D]er;", "Ele é o Deus vivente,", "Sempi[E]terno é Seu po[A7]der."]
       },
       {
         "type": "ref",
