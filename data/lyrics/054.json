@@ -1,38 +1,43 @@
 {
+  "code": "054",
   "version": "v3",
   "title": "Um tesouro glorioso achei",
+  "level": 5,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["E", "A", "F#m"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Um tes[G]ouro glorioso ac[C]hei em Jes[A]us,",
-          "Um tes[D]ouro de_imenso val[G]or;",
-          "Não é prata nem ouro que_ao [C]homem seduz,",
-          "É a v[G]ida de D[D]eus, Criad[G]or."
+          "Um tes[E]ouro glorioso ac[A]hei em Jes[F#m]us,",
+          "Um tes[B7]ouro de imenso val[E]or;",
+          "Não é prata nem ouro que ao [A]homem seduz,",
+          "É a v[E]ida de D[B7]eus, Criad[E]or."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Um te[C]souro glorioso ac[G]hei",
-          "Em Jes[A]us, o divino Redent[D]or;[D]...",
-          "Nada m[G]ais precioso enc[C]ontra[Am]rei;",
-          "G[A#°]rande g[G]raça me f[D]ez o Salvad[G]or."
+          "Um te[A]souro glorioso ac[E]hei",
+          "Em Jes[F#m]us, o divino Redent[B7|(-)]or;",
+          "Nada m[E]ais precioso enc[A]ontra[F#m|(-)]rei;",
+          "Grande g[E]raça me f[B7]ez o Salvad[E]or."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Os tes[G]ouros daqui pode_a t[C]raça ro[A]er,",
-          "A fer[D]rugem, também, consum[G]ir;",
-          "Mas aqueles do céu, que ir[C]ei receber,",
-          "Nada p[G]ode jam[D]ais destru[G]ir."
+          "Os tes[E]ouros daqui pode a t[A]raça ro[F#m]er,",
+          "A fer[B7]rugem, também, consum[E]ir;",
+          "Mas aqueles do céu, que ir[A]ei receber,",
+          "Nada p[E]ode jam[B7]ais destru[E]ir."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Que_aleg[G]ria eu sinto por t[C]er salvaç[A]ão,",
-          "Pela s[D]anta presença de D[G]eus!",
-          "Sinto_a Vida tomar todo_o m[C]eu coração;",
-          "Cristo_é_a V[G]ida que l[D]eva aos c[G]éus."
+          "Que aleg[E]ria eu sinto por t[A]er salvaç[F#m]ão,",
+          "Pela s[B7]anta presença de D[E]eus!",
+          "Sinto a Vida tomar todo o m[A]eu coração;",
+          "Cristo é a V[E]ida que l[B7]eva aos c[E]éus."
         ]
       },
       {

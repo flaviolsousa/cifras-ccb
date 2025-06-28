@@ -31,7 +31,7 @@ ctrl+d -> Select recurrences
 
 # Completos:
 
-- 1-36
+- 1-54
 
 - 273
 

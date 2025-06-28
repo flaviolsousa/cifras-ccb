@@ -1,39 +1,44 @@
 {
+  "code": "053",
   "version": "v3",
   "title": "Nós somos luz do mundo",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "N[E]ós somos l[A]uz deste m[E]undo, [B7]nos falou o S[E]alvador,",
-          "E somos s[A]al desta [E]terra, [B7]por Deus, Criad[E]or;",
-          "[B7]Ante os [E]homens, devemos [F#7]sempre bri[B7]lhar",
-          "[E]E as boas [A]obras, ao m[E]undo, [B7]poderemos most[E]rar."
+          "N[D]ós somos l[G]uz deste m[D]undo, [A7]nos falou o S[D]alvador,",
+          "E somos s[G]al desta [D]terra, [A7]por Deus, Criad[D]or;",
+          "[A7]Ante os [D]homens, devemos [E7]sempre bri[A7]lhar",
+          "[D]E as boas [G]obras, ao m[D]undo, [A7]poderemos most[D]rar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "C[E]risto, o M[A]estre di[E]vino, [B7]nos dá sempre_o S[E]eu saber,",
-          "Entendi[A]mento, vir[E]tude, [B7]fé, também pod[E]er;",
-          "[B7]Pelo Es[E]pírito Santo [F#7]nos guia[B7]rá;",
-          "[E]Assim o Seu p[A]ovo, na [E]terra, [B7]sempre mais brilha[E]rá."
+          "C[D]risto, o M[G]estre di[D]vino, [A7]nos dá sempre o S[D]eu saber,",
+          "Entendi[G]mento, vir[D]tude, [A7]fé, também pod[D]er;",
+          "[A7]Pelo Es[D]pírito Santo [E7]nos guia[A7]rá;",
+          "[D]Assim o Seu p[G]ovo, na [D]terra, [A7]sempre mais brilha[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "D[E]eus revel[A]ou aos peq[E]uenos [B7]os segredos [E]lá do céu;",
-          "A luz di[A]vina, por C[E]risto, [B7]já lhes conced[E]eu;",
-          "[B7]São sábios [E]para servir a [F#7]Deus, Cria[B7]dor,",
-          "S[E]ão luz para_o m[A]undo de t[E]revas [B7]e têm grande_esplen[E]dor."
+          "D[D]eus revel[G]ou aos peq[D]uenos [A7]os segredos [D]lá do céu;",
+          "A luz di[G]vina, por C[D]risto, [A7]já lhes conced[D]eu;",
+          "[A7]São sábios [D]para servir a [E7]Deus, Cria[A7]dor,",
+          "S[D]ão luz para o m[G]undo de t[D]revas [A7]e têm grande esplen[D]dor."
         ]
       }
     ]

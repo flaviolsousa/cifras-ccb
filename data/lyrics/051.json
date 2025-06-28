@@ -1,38 +1,43 @@
 {
+  "code": "051",
   "version": "v3",
   "title": "A Palavra do Senhor é Pão celestial",
+  "level": 3,
   "tone": {
-    "recommended": "C"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]A Palavra do Senhor, para m[G]im,",
-          "É_um tesouro de valor sem ig[C]ual;",
-          "Fala do a[G]mor de Deus, [F]o amor que n[C]ão tem fim,",
-          "O amor que livra [F]do po[G]der do m[C]al."
+          "[A]A Palavra do Senhor, para m[E]im,",
+          "É um tesouro de valor sem ig[A]ual;",
+          "Fala do a[E]mor de Deus, [D]o amor que n[A]ão tem fim,",
+          "O amor que [D]livra do po[E]der do m[A]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]A Palavra do Senhor, Pão celesti[G]al,",
-          "Faz-nos caminhar na luz, livra-nos do m[C]al;",
-          "Deus nos enviou dos céus, [C7]Cristo,_o _Emanu[F]el,",
-          "Rocha viva de[C]_onde mana l[G]eite_e m[C]el."
+          "[A]A Palavra do Senhor, Pão celesti[E]al,",
+          "Faz-nos caminhar na luz, livra-nos do m[A]al;",
+          "Deus nos enviou dos céus, [A7]Cristo, o  Emanu[D]el,",
+          "Rocha viva [A]de onde mana l[E]eite e m[A]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "L[C]uz que guia nas veredas dos c[G]éus",
-          "E_ilumina quem em trevas es[C]tá;",
-          "É a luz que n[G]os faz ver [F]as riquezas [C]do bom Deus",
-          "E entendimento d[F]ivin[G]al nos [C]dá."
+          "L[A]uz que guia nas veredas dos c[E]éus",
+          "E ilumina quem em trevas es[A]tá;",
+          "É a luz que n[E]os faz ver [D]as riquezas [A]do bom Deus",
+          "E entendi[D]mento divin[E]al nos [A]dá."
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]É_um farol de celestial esplend[G]or,",
-          "Que nos guia à cidade_etern[C]al;",
-          "Quem com Cristo [G]caminhar, q[F]uem servir ao C[C]riador,",
-          "Certo chegará à p[F]átria d[G]ivin[C]al."
+          "[A]É um farol de celestial esplend[E]or,",
+          "Que nos guia à cidade etern[A]al;",
+          "Quem com Cristo [E]caminhar, q[D]uem servir ao C[A]riador,",
+          "Certo chega[D]rá à pátria d[E]ivin[A]al."
         ]
       },
       {
