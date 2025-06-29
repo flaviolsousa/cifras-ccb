@@ -1,41 +1,46 @@
 {
+  "code": "064",
   "version": "v3",
   "title": "Tu, que vives sem destino",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["E", "B7", "B7", "E", "F#m", "E", "B7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Tu, que v[D]ives [D7]sem des[G]tino neste [Am]mundo de p[G]erdiç[D]ão,",
-          "V[G]em a C[D]risto, que [D7]te con[G]cede salva[Am]ção, verda[D]deiro perd[G]ão."
+          "[E]Tu, que v[B7]ives sem des[E]tino neste [F#m]mundo de p[E]erdiç[B7]ão,",
+          "V[E]em a C[B7]risto, que te con[E]cede salva[F#m]ção, verda[B7]deiro perd[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Tu, que_est[D]ás sem [D7]espe[G]rança neste [Am]mundo cru[G]el de d[D]or,",
-          "V[G]em a C[D]risto e [D7]não vac[G]iles, pois te [Am]chama com g[D]rande a[G]mor."
+          "[E]Tu, que est[B7]ás sem espe[E]rança neste [F#m]mundo cru[E]el de d[B7]or,",
+          "V[E]em a C[B7]risto e não vac[E]iles, pois te [F#m]chama com g[B7]rande a[E]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "D[G]eixa C[D]risto [D7]condu[G]zir-te, segue_a [Am]Ele com [G]devoç[D]ão;",
-          "[G]É só E[D]le_o re[D7]al Ca[G]minho, é o_Au[Am]tor da_etern[D]al redenç[G]ão."
+          "D[E]eixa C[B7]risto condu[E]zir-te, segue a [F#m]Ele com [E]devoç[B7]ão;",
+          "[E]É só E[B7]le o real Ca[E]minho, é o Au[F#m]tor da etern[B7]al redenç[E]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "P[G]eca[D]dores [D7]fomos t[G]odos, mas Je[Am]sus veio n[G]os sal[D]var",
-          "P[G]ara,_um d[D]ia, na [D7]Sua g[G]lória, a co[Am]roa da v[D]ida nos d[G]ar."
+          "P[E]eca[B7]dores fomos t[E]odos, mas Je[F#m]sus veio n[E]os sal[B7]var",
+          "P[E]ara, um d[B7]ia, na Sua g[E]lória, a co[F#m]roa da v[B7]ida nos d[E]ar."
         ]
       }
     ]

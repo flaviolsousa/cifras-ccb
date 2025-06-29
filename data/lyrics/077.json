@@ -1,33 +1,28 @@
 {
+  "code": "077",
   "version": "v3",
   "title": "Vamos lançar a semente",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[A]Vamos lançar a semente [E]com alegria e_a[A]mor,",
-          "[D]Nesta gloriosa se[A]ara [F#m]do nosso_a[B7]mado Sen[E]hor."
-        ]
+        "text": ["[A]Vamos lançar a semente [E]com alegria e a[A]mor,", "[D]Nesta gloriosa se[A]ara [F#m]do nosso a[B7]mado Sen[E]hor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Santa Semente é a Palavra de D[E]eus;",
-          "[A]Quem com amor semeá-La, [E]prêmio terá lá nos c[A]éus."
-        ]
+        "text": ["[A]Santa Semente é a Palavra de D[E]eus;", "[A]Quem com amor semeá-La, [E]prêmio terá lá nos c[A]éus."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[A]As boas novas levemos [E]aos que em trevas est[A]ão,",
-          "[D]Anunciando que C[A]risto, [F#m]a todos, [B7]dá salvaç[E]ão."
-        ]
+        "text": ["[A]As boas novas levemos [E]aos que em trevas est[A]ão,", "[D]Anunciando que C[A]risto, [F#m]a todos, [B7]dá salvaç[E]ão."]
       },
       {
         "type": "ref",

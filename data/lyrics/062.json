@@ -1,41 +1,46 @@
 {
+  "code": "062",
   "version": "v3",
   "title": "Ó Criador, forte Rocha és",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó C[A]riador, forte [E]Rocha [A]és, imenso é o Teu po[E]der;[E7]...",
-          "Eu [A]me a[A7]brigo em [D]Ti, Sen[E]hor, a f[A]im de nunca [E]perec[A]er."
+          "Ó C[G]riador, forte [D]Rocha [G]és, imenso é o Teu po[D]der;",
+          "Eu [G]me ab[G7]rigo em [C]Ti, Sen[D]hor, a f[G]im de nunca [D]perec[G]er."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ó C[A]riador, Teu fi[E]el fa[A]vor me faz jubilar de a[E]mor;[E7]...",
-          "Com [A]toda a [A7]alma, imp[D]loro a [E]Ti; oh! V[A]em me defen[E]der, Sen[A]hor."
+          "Ó C[G]riador, Teu fi[D]el fa[G]vor me faz jubilar de a[D]mor;",
+          "Com [G]toda a [G7]alma, imp[C]loro a [D]Ti; oh! V[G]em me defen[D]der, Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó C[A]riador, vem me p[E]reser[A]var do mal e da tentaç[E]ão;[E7]...",
-          "Mui f[A]raco [A7]sou, re[D]corro a [E]Ti; a[A]tende minha [E]oraç[A]ão."
+          "Ó C[G]riador, vem me p[D]reser[G]var do mal e da tentaç[D]ão;",
+          "Mui f[G]raco [G7]sou, re[C]corro a [D]Ti; a[G]tende minha [D]oraç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Ó C[A]riador, pode[E]roso D[A]eus, espero em Teu a[E]mor;[E7]...",
-          "O[A]pera [A7]sempre a m[D]eu fa[E]vor; lou[A]vores Te dar[E]ei, Sen[A]hor."
+          "Ó C[G]riador, pode[D]roso D[G]eus, espero em Teu a[D]mor;",
+          "O[G]pera [G7]sempre a m[C]eu fa[D]vor; lou[G]vores Te dar[D]ei, Sen[G]hor."
         ]
       }
     ]

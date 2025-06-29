@@ -1,39 +1,43 @@
 {
+  "code": "069",
   "version": "v3",
   "title": "A família de Jesus",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Em [D]volta de Jesus se a[G]chava_a [A]multid[D]ão.",
-          "Ou[Bm]vindo Seus con[B7]selhos [Em]e_apren[G]dendo_a [G7]reti[F#]dão.",
-          "Al[D]guém aproximou-se [D7]para [G]Lhe a[D#°]nunci[Em]ar",
-          "Que S[A]ua mãe e S[D]eus irm[G]ãos que[A]riam Lhe fa[D]lar."
+          "Em [C]volta de Jesus se a[F]chava a [G]multid[C]ão[E].",
+          "Ou[Am]vindo Seus con[A7]selhos [Dm]e apren[F]dendo a [F7]reti[E]dão.",
+          "Al[C]guém aproximou-se [C7]para [F]Lhe a[A7]nunci[Dm]ar",
+          "Que S[G]ua mãe e S[C]eus irm[F]ãos que[G]riam Lhe fa[C]lar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Res[D]ponde_o grande Mestre,_esten[G]dendo S[A]uas m[D]ãos:",
-          "“A[Bm]qui está a [B7]Minha [Em]mãe, tam[G]bém os [G7]Meus ir[F#]mãos”;",
-          "Àq[D]ueles que_obedecem [D7]a Deus [G]Pai, que_es[D#°]tá nos [Em]céus,",
-          "Je[A]sus os chama [D]de irm[G]ãos e [A]co_herdeiros S[D]eus."
+          "Res[C]ponde o grande Mestre, esten[F]dendo S[G]uas m[C]ãos[E]:",
+          "“A[Am]qui está a [A7]Minha [Dm]mãe, tam[F]bém os [F7]Meus ir[E]mãos”;",
+          "Àq[C]ueles que obedecem [C7]a Deus [F]Pai, que es[A7]tá nos [Dm]céus,",
+          "Je[G]sus os chama [C]de irm[F]ãos e [G]co herdeiros S[C]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Oh! [D]Que amor profundo Jes[G]us tem p[A]elos S[D]eus,",
-          "Pois [Bm]chama-os de_ir[B7]mãos e [Em]filhos [G]do e[G7]terno [F#]Deus;",
-          "Tão [D]excelente_afeto [D7]Deus fa[G]rá com[D#°]preen[Em]der",
-          "Ao [A]homem que_invo[D]cá-Lo [G]e cump[A]rir o Seu que[D]rer."
+          "Oh! [C]Que amor profundo Jes[F]us tem p[G]elos S[C]eus[E],",
+          "Pois [Am]chama-os de ir[A7]mãos e [Dm]filhos [F]do e[F7]terno [E]Deus;",
+          "Tão [C]excelente afeto [C7]Deus fa[F]rá com[A7]preen[Dm]der",
+          "Ao [G]homem que invo[C]cá-Lo [F]e cump[G]rir o Seu que[C]rer."
         ]
       }
     ]

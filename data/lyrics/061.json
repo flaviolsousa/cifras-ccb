@@ -1,48 +1,53 @@
 {
+  "code": "061",
   "version": "v3",
   "title": "A minha alma deseja ver-Te",
+  "level": 1,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "A minha [E]alma quer contemplar-Te",
-          "Ó meu fi[B7]el e_amado Jes[E]us;",
+          "A minha [D]alma quer contemplar-Te",
+          "Ó meu fi[A7]el e amado Jes[D]us;",
           "Quero servir-Te, quero seguir-Te",
-          "E camin[B7]har Contigo na l[E]uz.[E]..."
+          "E camin[A7]har Contigo na l[D]uz.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "És Torre f[E]orte à minha alma,",
-          "És Prote[B7]ção em tempos de d[E]or;",
+          "És Torre f[D]orte à minha alma,",
+          "És Prote[A7]ção em tempos de d[D]or;",
           "Tu me alegras, Tu me preservas",
-          "De todo_o [B7]mal, ó meu Redent[E]or.[E]..."
+          "De todo o [A7]mal, ó meu Redent[D]or.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vivo_aguar[E]dando a Tua volta",
-          "Para su[B7]bir Contigo a D[E]eus;",
-          "A todo_instante vivo_anelante",
-          "Por contem[B7]plar a glória dos c[E]éus."
+          "Vivo aguar[D]dando a Tua volta",
+          "Para su[A7]bir Contigo a D[D]eus;",
+          "A todo instante vivo anelante",
+          "Por contem[A7]plar a glória dos c[D]éus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A minha [A]alma deseja v[E]er-Te",
-          "Sinto por [B7]Ti imenso a[E]mor;",
-          "Eu Te a[A]doro, eu Te imp[E]loro;",
-          "Faz-me vi[B7]ver Contigo, Sen[E]hor."
+          "A minha [G]alma deseja v[D]er-Te",
+          "Sinto por [A7]Ti imenso a[D]mor;",
+          "Eu Te a[G]doro, eu Te imp[D]loro;",
+          "Faz-me vi[A7]ver Contigo, Sen[D]hor."
         ]
       }
     ]

@@ -1,38 +1,38 @@
 {
+  "code": "057",
   "version": "v3",
   "title": "É estreia a porta para a Salvação",
+  "level": 3,
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]É estreita_a porta p[A]ara_a salvação,",
-          "[A7]Disse_o nosso Redent[D]or;",
-          "O caminho largo [D7]leva_à perdiç[G]ão,",
-          "[A]Ensinou o Salvad[D]or."
+          "[C]É estreita a porta p[G]ara a salvação,",
+          "[G7]Disse o nosso Redent[C]or;",
+          "O caminho largo [C7]leva à perdiç[F]ão,",
+          "[G]Ensinou o Salvad[C]or."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Porfiemos por an[A]dar",
-          "[A7]Nos caminhos do Sen[D]hor",
-          "E alcança[D7]remos v[G]ida eternal",
-          "[A]Com Deus Pai, o Cria[D]dor."
-        ]
+        "text": ["[C]Porfiemos por an[G]dar", "[G7]Nos caminhos do Sen[C]hor", "E alcança[C7]remos v[F]ida eternal", "[G]Com Deus Pai, o Cria[C]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Ó irmãos queridos, C[A]risto,_o Salvador,",
-          "[A7]Todo-Poderoso [D]é;",
-          "Tão somente nós de[D7]vemos nos disp[G]or",
-          "[A]A segui-Lo pela f[D]é."
+          "[C]Ó irmãos queridos, C[G]risto, o Salvador,",
+          "[G7]Todo-Poderoso [C]é;",
+          "Tão somente nós de[C7]vemos nos disp[F]or",
+          "[G]A segui-Lo pela f[C]é."
         ]
       },
       {
@@ -43,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A[D]os desejos nossos [A]vamos renunciar,",
-          "[A7]Agrademos ao Sen[D]hor;",
-          "Toda_a nossa vida [D7]vamos consag[G]rar",
-          "[A]Ao divino Redent[D]or."
+          "A[C]os desejos nossos [G]vamos renunciar,",
+          "[G7]Agrademos ao Sen[C]hor;",
+          "Toda a nossa vida [C7]vamos consag[F]rar",
+          "[G]Ao divino Redent[C]or."
         ]
       },
       {

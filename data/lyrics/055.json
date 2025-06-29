@@ -1,34 +1,39 @@
 {
+  "code": "055",
   "version": "v3",
   "title": "Paz seja em vós",
+  "level": 3,
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "F[C]oi grande a tempest[F]ade que, [G]no mar, se levant[C]ou,",
-          "Ondas cobriam o b[F]arco e_a t[G]odos temor caus[C]ou;",
-          "O Mestre_es[E7]tava dor[Am]min - [E7]do,  [Am]foi desper[D]tado,_ent[G]ão,[G7]...",
-          "P[C]elos que_a Ele ped[F]iram soc[G]orro e salvaç[C]ão."
+          "Ondas cobriam o b[F]arco e a t[G]odos temor caus[C]ou;",
+          "O Mestre es[E7]tava dor[Am]min - [E7]do, [Am]foi desper[D]tado, ent[G]ão,[G7]...",
+          "P[C]elos que a Ele ped[F]iram soc[G]orro e salvaç[C]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Ao Seu mandar santo_e di[G]vinal,",
-          "Paz seja_em v[C]ós;",
-          "Ventos e mares se_a[G]quietarão,",
-          "[C7]Paz seja_em v[F]ós;",
+          "[C]Ao Seu mandar santo e di[Dm]vinal,",
+          "[G]Paz seja em v[C]ós;",
+          "Ventos e mares se a[G]quietarão,",
+          "[C7]Paz seja em v[F]ós;",
           "Con[G]vosco e[E7]stá o Se[Am]nhor do mar,",
-          "Por[G]tanto, com fé, vós de[C]veis re[C]mar,",
-          "Pois E[C]le_está pronto_a vos salvar,",
-          "[G]Tende paz, [C]tende paz;",
-          "As ondas cessam de_encapelar,",
-          "[G]Paz seja_em v[C]ós."
+          "Por[G]tanto, com fé, vós de[C]veis re[C|(-)]mar,",
+          "Pois E[C]le es[F]tá pronto a [C]vos salvar,",
+          "[G7]Tende paz, [C]tende paz;",
+          "As ondas [F]cessam de en[C]capelar,",
+          "[G]Paz [G7]seja em v[C]ós."
         ]
       },
       {

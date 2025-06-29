@@ -1,38 +1,42 @@
 {
+  "code": "063",
   "version": "v3",
   "title": "Se vós baterdes, Ele vos abre",
   "tone": {
-    "recommended": "C"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Com fé cheg[C]ai-vos ao grande Mestre, Cristo Jes[F]us, [G]o Sen[C]hor;",
-          "Seus dons celestes, Sua virtude derrama[D]rá por a[G]mor;",
-          "Não duvid[F]eis, pois [E]de [Am]Cristo vem o que v[G]ós precis[C]ais;",
-          "[C7]Tudo_Ele p[F]ode faz[C]er-vos, além do q[F]ue v[G]ós pens[C]ais.[C]..."
+          "Com fé cheg[A]ai-vos ao grande Mestre, Cristo Jes[D]us, [E]o Sen[A]hor;",
+          "Seus dons celestes, Sua virtude derrama[B]rá por a[E]mor;",
+          "Não duvid[D]eis, pois [Db]de [F#m]Cristo vem o que v[E]ós precis[A]ais;",
+          "[A7]Tudo Ele p[D]ode faz[A]er-vos, além do q[D]ue v[E]ós pens[A]ais.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O mar re[C]volto e_a tempestade Cristo Jes[F]us [G]aplac[C]ou;",
-          "Os cegos viram, coxos andaram, a muitos p[D]urific[G]ou;",
-          "Mortos vol[F]taram [E]à [Am]vida, foram ent[G]regues aos s[C]eus.",
-          "[C7]Cristo, o V[F]erbo e[C]terno, veio por g[F]ra[G]ça de D[C]eus."
+          "O mar re[A]volto e a tempestade Cristo Jes[D]us [E]aplac[A]ou;",
+          "Os cegos viram, coxos andaram, a muitos p[B]urific[E]ou;",
+          "Mortos vol[D]taram [Db]à [F#m]vida, foram ent[E]regues aos s[A]eus.",
+          "[A7]Cristo, o V[D]erbo e[A]terno, veio por g[D]ra[E]ça de D[A]eus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Se vós ba[C]terdes, Ele vos [G]abre;",
-          "O que pedirdes, da[C]rá.",
-          "[C7]Se vós bus[F]cardes o M[C]estre,",
-          "Por vós ac[F]ha-[G]do se[C]rá."
+          "Se vós ba[A]terdes, Ele vos [E]abre;",
+          "O que pedirdes, da[A]rá.",
+          "[A7]Se vós bus[D]cardes o M[A]estre,",
+          "Por vós ac[D]ha-[E]do se[A]rá."
         ]
       }
     ]

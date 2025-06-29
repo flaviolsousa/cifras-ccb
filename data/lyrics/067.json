@@ -1,48 +1,52 @@
 {
+  "code": "067",
   "version": "v3",
   "title": "\"Vinde a Mim!\"",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Não [D]há palavra [G]doce ig[A]ual à de Jes[D]us,",
-          "Palavra da ver[G]dade, que [A]para_o céu cond[D]uz.",
-          "Quand[Bm]o_estiveres [F#]triste, te[Bm]rás consolaç[A]ão",
-          "Bus[D]cando_a Jesus C[G]risto, Au[A]tor da salvaç[D]ão."
+          "Não [C]há palavra [F]doce ig[G]ual à de Jes[C]us,",
+          "Palavra da ver[F]dade, que [G]para o céu cond[C]uz.",
+          "Quand[Am]o estiveres [E]triste, te[Am]rás consolaç[G]ão",
+          "Bus[C]cando a Jesus C[F]risto, Au[G]tor da salvaç[C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Não [D]andes mais dis[G]tante do S[A]alvador Je[D]sus",
-          "Que, com amor, te c[G]hama, pois [A]é a tua L[D]uz.",
-          "Se [Bm]fores despre[F#]zado e [Bm]não tiveres p[A]az,",
-          "Vem [D]logo entre[G]gar-te ao S[A]alvador ve[D]raz."
+          "Não [C]andes mais dis[F]tante do S[G]alvador Je[C]sus",
+          "Que, com amor, te c[F]hama, pois [G]é a tua L[C]uz.",
+          "Se [Am]fores despre[E]zado e [Am]não tiveres p[G]az,",
+          "Vem [C]logo entre[F]gar-te ao S[G]alvador ve[C]raz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vem, [D]sem tardar, u[G]nir-te a Q[A]uem te diz as[D]sim,",
-          "Com voz celeste_e [G]doce: “Oh! [A]Vem, sim, vem a [D]Mim”.",
-          "Por [Bm]Sua mão gui[F#]ado, a[Bm]qui tu anda[A]rás",
-          "Tranq[D]uilo_e bem se[G]guro e,_um d[A]ia,_ao céu i[D]rás."
+          "Vem, [C]sem tardar, u[F]nir-te a Q[G]uem te diz as[C]sim,",
+          "Com voz celeste e [F]doce: “Oh! [G]Vem, sim, vem a [C]Mim”.",
+          "Por [Am]Sua mão gui[E]ado, a[Am]qui tu anda[G]rás",
+          "Tranq[C]uilo e bem se[F]guro e, um d[G]ia, ao céu i[C]rás."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "“[D]Vinde_a Mim, vós todos can[E]sados e_oprimidos”,",
-          "Fal[A]ou o grande [D]Mestre, Jes[A]us, o Redent[D]or;",
-          "Pois Seu fardo_é leve, Seu [E]jugo é suave,",
-          "Só [A]Ele traz a[D]lívio: perd[A]ão ao peca[D]dor."
+          "“[C]Vinde a Mim, vós todos can[D]sados e oprimidos”,",
+          "Fal[G]ou o grande [C]Mestre, Jes[G]us, o Redent[C]or;",
+          "Pois Seu fardo é leve, Seu [D]jugo é suave,",
+          "Só [G]Ele traz a[C]lívio: perd[G]ão ao peca[C]dor."
         ]
       }
     ]

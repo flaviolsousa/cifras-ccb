@@ -1,10 +1,14 @@
 {
+  "code": "070",
   "version": "v3",
   "title": "Senhor, Tu és a minha Esperança",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,12 +22,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Ao c[G]éu desejo [C]ir",
-          "Con[D]tigo, ó Sen[G]hor;",
-          "A[G7]li irei fru[C]ir",
-          "Os bens e[D]ternos, ó bom Salva[G]dor."
-        ]
+        "text": ["Ao c[G]éu desejo [C]ir", "Con[D]tigo, ó Sen[G]hor;", "A[G7]li irei fru[C]ir", "Os bens e[D]ternos, ó bom Salva[G]dor."]
       },
       {
         "type": "lyric",
@@ -31,8 +30,8 @@
         "text": [
           "Senhor, Tu [G]és a minha Fortaleza,",
           "E és tam[D]bém o meu potente [G]Salvador;",
-          "Tu removeste_a [G7]minha incer[C]teza,",
-          "A vida_e_a [D]fé me deste,_ó Reden[G]tor."
+          "Tu removeste a [G7]minha incer[C]teza,",
+          "A vida e a [D]fé me deste, ó Reden[G]tor."
         ]
       },
       {
@@ -44,7 +43,7 @@
         "code": "3",
         "text": [
           "Agora [G]tenho Tua alegria,",
-          "Viva_espe[D]rança, paz, vigor, a[G]mor e luz;",
+          "Viva espe[D]rança, paz, vigor, a[G]mor e luz;",
           "Tu és meu Guarda [G7]e também meu [C]Guia,",
           "És tudo [D]para mim, ó bom Je[G]sus."
         ]

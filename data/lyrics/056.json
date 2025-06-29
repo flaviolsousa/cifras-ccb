@@ -1,48 +1,53 @@
 {
+  "code": "056",
   "version": "v3",
   "title": "Põe em Deus a confiança",
+  "level": 3,
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "E7", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "P[E]õe em Deus a confiança, segue sempre a Je[B7]sus;",
-          "[E]Ele é a Esperança que à [F#7]glória te con[B7]duz;",
-          "Não vac[E]iles, mas conf[A]ia, pois e[B7]terno_é Seu po[E]der;",
-          "Nos perigos Ele_en[A]via os Seus [B7]anjos te sus[E]ter."
+          "P[D]õe em Deus a confiança, segue sempre a Je[A7]sus;",
+          "[D]Ele é a Esperança que à [E7]glória te con[A7]duz;",
+          "Não vac[D]iles, mas conf[G]ia, pois e[D]terno é [A7]Seu po[D]der;",
+          "Nos perigos Ele en[G]via os Seus [A7]anjos te sus[D]ter."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "M[E]esmo que os anos passem, Seu amor não passa[B7]rá;",
-          "C[E]éus e terra também passam, mas o [F#7]Verbo firme_es[B7]tá.",
-          "Vindo_as t[E]revas sobre_o m[A]undo e, do [B7]sol, cessando_a l[E]uz,",
-          "Cristo, por amor prof[A]undo, ao Seu [B7]reino te cond[E]uz."
+          "M[D]esmo que os anos passem, Seu amor não passa[A7]rá;",
+          "C[D]éus e terra também passam, mas o [E7]Verbo firme es[A7]tá.",
+          "Vindo as t[D]revas sobre o m[G]undo e, do [D]sol, ces[A7]sando a l[D]uz,",
+          "Cristo, por amor prof[G]undo, ao Seu [A7]reino te cond[D]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "F[E]irme na fiel promessa, ao mal podes resis[B7]tir;",
-          "N[E]ão há nada que impeça tua [F#7]glória no por[B7]vir;",
-          "Eis que p[E]erto_está o d[A]ia em que [B7]tudo cessa[E]rá,",
-          "Mas a tua aleg[A]ria para [B7]sempre dura[E]rá."
+          "F[D]irme na fiel promessa, ao mal podes resis[A7]tir;",
+          "N[D]ão há nada que impeça tua [E7]glória no por[A7]vir;",
+          "Eis que p[D]erto está o d[G]ia em que [D]tudo [A7]cessa[D]rá,",
+          "Mas a tua aleg[G]ria para [A7]sempre dura[D]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Põe em [E]Deus a confiança, sê fiel ao Redentor;",
-          "Segue_avante, segue para_os [B7]céus;",
-          "Põe em [E]Deus a esperança, sê fiel ao Criador;",
-          "Glória! Glória ao [B7]grande D[E]eus!"
+          "Põe em [D]Deus a confiança, sê fiel ao Redentor;",
+          "Segue avante, segue para os [A]céus;",
+          "Põe em [D]Deus a esperança, sê fiel ao Criador;",
+          "Glória! Glória ao [A7]grande D[D]eus!"
         ]
       }
     ]

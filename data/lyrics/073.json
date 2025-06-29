@@ -1,17 +1,21 @@
 {
+  "code": "073",
   "version": "v3",
   "title": "Semearei, semearei",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Semea[C]rei a preciosa semente",
-          "Do_Evan[G]gelho de Cristo Je[C]sus;     ",
+          "Do Evan[G]gelho de Cristo Je[C]sus; ",
           "Semearei a Palavra potente",
           "Que bons f[G]rutos da [D7]graça pro[G]duz."
         ]
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "Semea[G]rei, semea[C]rei,",
-          "Pelo_Es[F]pírito [D7]Santo de D[G]eus;",
+          "Pelo Es[F]pírito [D7]Santo de D[G]eus;",
           "Ceifa[C]rei, ceifa[F]rei",
-          "Vida_e[C]terna, com g[G]lória, nos c[C]éus."
+          "Vida e[C]terna, com g[G]lória, nos c[C]éus."
         ]
       },
       {
@@ -45,7 +49,7 @@
         "text": [
           "A se[C]mente eterna, celeste,",
           "Gera [G]filhos a Deus, Cria[C]dor;",
-          "Da imagem de Cristo_os reveste",
+          "Da imagem de Cristo os reveste",
           "E per[G]feitos os [D7]faz em a[G]mor."
         ]
       },

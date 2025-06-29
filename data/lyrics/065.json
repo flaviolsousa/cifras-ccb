@@ -1,38 +1,42 @@
 {
+  "code": "065",
   "version": "v3",
   "title": "Igual ao Mestre!",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Igual ao Mestre [A]eu desejo ser,",
-          "Em humildade_e [D]mansidão viver,",
-          "Sempre, com zelo, em [G]santidade_andar",
-          "[E]E minha [A]vida a [E]Ele consag[A]rar.[A7]"
+          "[C]Igual ao Mestre [G]eu desejo ser,",
+          "Em humildade e [C]mansidão viver,",
+          "Sempre, com zelo, em [F]santidade andar",
+          "[D]E minha [G]vida a [D]Ele consag[G]rar.[G7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Meu coração é todo Teu, Se[A7]nhor,",
-          "Ele_é o um templo para Teu lou[D]vor,",
-          "Guarda-o do mal, ao [B7]vir a tenta[Em]ção;",
-          "S[E]ou Teu re[A]mi-[D]do,   [A]divino Re[D]dentor."
+          "[C]Meu coração é todo Teu, Se[G7]nhor,",
+          "Ele é o um templo para Teu lou[C]vor,",
+          "Guarda-o do mal, ao [A7]vir a tenta[Dm]ção;",
+          "S[D]ou Teu re[G]mi-[C]do, [G]divino Re[C]dentor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "C[D]risto, o Mestre, [A]Sua cruz levou",
-          "E_o Pai eterno [D]O glorificou;",
-          "Também desejo a [G]minha cruz levar",
-          "[E]E, para [A]sempre, com [E]Ele habi[A]tar.[A7]"
+          "C[C]risto, o Mestre, [G]Sua cruz levou",
+          "E o Pai eterno [C]O glorificou;",
+          "Também desejo a [F]minha cruz levar",
+          "[D]E, para [G]sempre, com [D]Ele habi[G]tar.[G7]"
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "C[D]omo_é o Mestre, [A]no céu, O verei;",
-          "À semelhança [D]d´Ele eu serei,",
-          "Num corpo santo, glo[G]rioso_e imortal,",
-          "[E]Habitar[A]ei na ci[E]dade etern[A]al.[A7]"
+          "C[C]omo é o Mestre, [G]no céu, O verei;",
+          "À semelhança [C]d´Ele eu serei,",
+          "Num corpo santo, glo[F]rioso e imortal,",
+          "[D]Habitar[G]ei na ci[D]dade etern[G]al.[G7]"
         ]
       },
       {

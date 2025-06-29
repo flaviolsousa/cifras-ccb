@@ -1,35 +1,28 @@
 {
+  "code": "068",
   "version": "v3",
   "title": "Sem tardar, vai a Cristo",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Se, [A]cansado e a[D]flito, tu pro[A]curas salvaç[D]ão,",
-          "Não de[A]mores, vai a C[D]risto, que con[A]cede redenç[D]ão."
-        ]
+        "text": ["Se, [D]cansado e a[G]flito, tu pro[D]curas salvaç[G]ão,", "Não de[D]mores, vai a C[G]risto, que con[D]cede redenç[G]ão."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Sem tar[G]dar, sem tar[D]dar,",
-          "Vai a C[A]risto,_o Salva[D]dor;",
-          "Ele q[G]uer te sal[D]var,",
-          "Segue_a [A]Ele com fer[D]vor."
-        ]
+        "text": ["Sem tar[C]dar, sem tar[G]dar,", "Vai a C[D]risto, o Salva[G]dor;", "Ele q[C]uer te sal[G]var,", "Segue a [D]Ele com fer[G]vor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Dá um [A]passo para C[D]risto e re[A]ceberás per[D]dão;",
-          "E, por D[A]eus, serás benq[D]uisto, sendo [A]um fiel Cris[D]tão."
-        ]
+        "text": ["Dá um [D]passo para C[G]risto e re[D]ceberás per[G]dão;", "E, por D[D]eus, serás benq[G]uisto, sendo [D]um fiel Cris[G]tão."]
       },
       {
         "type": "ref",
@@ -38,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Não re[A]cuses o cha[D]mado do di[A]vino Remi[D]dor",
-          "E se[A]rás justifi[D]cado ante [A]Deus, o Cria[D]dor."
-        ]
+        "text": ["Não re[D]cuses o cha[G]mado do di[D]vino Remi[G]dor", "E se[D]rás justifi[G]cado ante [D]Deus, o Cria[G]dor."]
       },
       {
         "type": "ref",

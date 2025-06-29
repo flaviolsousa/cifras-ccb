@@ -1,17 +1,21 @@
 {
+  "code": "074",
   "version": "v3",
   "title": "Vamos produzir frutos de louvor",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[D]Na doutrina santa dos céus, ensin[A]ou Jesus, Salvador:",
-          "[D]Eis que pelos campos lançou a se[G]mente_o [A]semea[D]dor;",
+          "[D]Eis que pelos campos lançou a se[G]mente o [A]semea[D]dor;",
           "[G]Parte da semente lan[D]çada, [G]consumiram [E]as aves do c[A]éu;[A7]...",
           "J[D]unto do caminho caiu e f[G]ruto, port[A]anto, não d[D]eu."
         ]
@@ -21,24 +25,24 @@
         "code": "2",
         "text": [
           "[D]Outra parte logo cresceu, mas ra[A]iz em si não formou;",
-          "[D]Entre pedregais foi cair, veio_o s[G]ol e l[A]ogo murc[D]hou;",
-          "[G]Outra, que caiu entre_es[D]pinhos, [G]sufocada, n[E]ão pôde cresc[A]er;[A7]...",
-          "M[D]uito tempo não resistiu e v[G]eio, port[A]anto,_a mor[D]rer."
+          "[D]Entre pedregais foi cair, veio o s[G]ol e l[A]ogo murc[D]hou;",
+          "[G]Outra, que caiu entre es[D]pinhos, [G]sufocada, n[E]ão pôde cresc[A]er;[A7]...",
+          "M[D]uito tempo não resistiu e v[G]eio, port[A]anto, a mor[D]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Mas em boa terra caiu outra p[A]arte_e frutificou;",
-          "[D]Os seus frutos deu, cem por um, para_aq[G]uele q[A]ue seme[D]ou.",
+          "[D]Mas em boa terra caiu outra p[A]arte e frutificou;",
+          "[D]Os seus frutos deu, cem por um, para aq[G]uele q[A]ue seme[D]ou.",
           "[G]A Palavra é a Se[D]mente q[G]ue em nós o[E]pera com pod[A]er;[A7]...",
           "S[D]omos a lavoura de Deus, que q[G]uer os seus f[A]rutos col[D]her."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[D]Vamos produ[A]zir frutos de lou[D]vor,", "Frutos para honra e g[G]lória", "De D[A]eus e de Cristo,_o Sen[D]hor."]
+        "text": ["[D]Vamos produ[A]zir frutos de lou[D]vor,", "Frutos para honra e g[G]lória", "De D[A]eus e de Cristo, o Sen[D]hor."]
       }
     ]
   }

@@ -1,31 +1,39 @@
 {
+  "code": "060",
   "version": "v3",
   "title": "Oh! Vem a Jesus",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Rej[G]eita o mal deste m[D]undo e vem a Jesus te_entreg[G]ar;", "Seu santo amor é pro[C]fun[Am]do;  Jes[D]us quer te abenço[G]ar."]
+        "text": [
+          "Rej[E]eita o mal deste m[B7]undo e vem a Jesus te entreg[E]ar;",
+          "Seu santo amor é pro[A]fun[F#m|(-)]do; Jes[B7]us quer te abenço[E]ar."
+        ]
       },
       {
         "type": "chorus",
         "text": [
-          "Oh! [C]Vem a Jes[G]us,",
-          "Que p[A]or nós morreu sobre_a c[D]ruz;",
-          "Seu s[G]angue precioso_Ele [C]derra[Am]mou",
-          "E c[D]om Deus nos reconcil[G]iou."
+          "Oh! [A]Vem a Jes[E]us,",
+          "Que p[F#]or nós morreu sobre a c[B7]ruz;",
+          "Seu s[E]angue precioso Ele [A]derra[F#m|(-)]mou",
+          "E c[B7]om Deus nos reconcil[E]iou."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Rej[G]eita do mundo_a vai[D]dade, pois ela te quer seduz[G]ir;",
-          "Da graça e da santi[C]da - [Am]de,  Jes[D]us pode te reves[G]tir."
+          "Rej[E]eita do mundo a vai[B7]dade, pois ela te quer seduz[E]ir;",
+          "Da graça e da santi[A]da - [F#m|(-)]de, Jes[B7]us pode te reves[E]tir."
         ]
       },
       {
@@ -35,7 +43,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Pro[G]pósito firme_e cons[D]tante esteja em teu coraç[G]ão;", "Jesus não te quer vacilan - [Am]te; há n[D]´Ele real salvaç[G]ão."]
+        "text": [
+          "Pro[E]pósito firme e cons[B7]tante esteja em teu coraç[E]ão;",
+          "Jesus não te quer vacilan - [F#m|(-)]te; há n[B7]´Ele real salvaç[E]ão."
+        ]
       },
       {
         "type": "ref",

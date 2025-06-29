@@ -1,38 +1,43 @@
 {
+  "code": "058",
   "version": "v3",
   "title": "Sou crente em Jesus",
+  "level": 3,
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Jes[D]us me guia c[G]om amor,",
-          "Na [D]fé, na paz e no S[A]eu te[A]mor;",
-          "Meu s[D]er, desejo c[G]onsag[G]rar",
-          "A Jes[D]us, que veio para [A]me sal[D]var."
+          "Na [D]fé, na paz e no S[A]eu te[A|(-)]mor;",
+          "Meu s[D]er, desejo c[G]onsag[G|(-)]rar",
+          "A Jes[D]us, que veio para [A]me sal[D|(-)]var."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Sou c[D]rente [A]em Jes[G]us, meu Sen[D]hor,",
-          "A Ele sempre obedece[A]rei;",
+          "Sou c[D]rente [A7]em Jes[G]us, meu Sen[D]hor,",
+          "A Ele sempre obedece[A|(-)]rei;",
           "Ter[D]ei em m[A]im Seu s[G]anto a[D]mor",
-          "E,_ao fim, reinar com Ele [A]pode[D]rei."
+          "E, ao fim, reinar com Ele [A]pode[D|(-)]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Só [D]a Jesus me_a[G]pegarei",
-          "E m[D]al nenhum eu rec[A]ear[A]ei;",
-          "Conf[D]io sempre_em S[G]eu po[G]der,",
-          "Nada p[D]oderá jamais me [A]abat[D]er."
+          "Só [D]a Jesus me a[G]pegarei",
+          "E m[D]al nenhum eu rec[A]ear[A|(-)]ei;",
+          "Conf[D]io sempre em S[G]eu po[G|(-)]der,",
+          "Nada p[D]oderá jamais me [A]abat[D|(-)]er."
         ]
       },
       {
@@ -44,9 +49,9 @@
         "code": "3",
         "text": [
           "Ao f[D]im do meu per[G]egrinar,",
-          "Ir[D]ei com Cristo Jes[A]us rei[A]nar;",
-          "Ser[D]ei ditoso, m[G]ui fel[G]iz,",
-          "No glo[D]rioso, santo, celest[A]ial pa[D]ís."
+          "Ir[D]ei com Cristo Jes[A]us rei[A|(-)]nar;",
+          "Ser[D]ei ditoso, m[G]ui fel[G|(-)]iz,",
+          "No glo[D]rioso, santo, celest[A]ial pa[D|(-)]ís."
         ]
       },
       {

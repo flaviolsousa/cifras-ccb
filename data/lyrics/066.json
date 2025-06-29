@@ -1,33 +1,28 @@
 {
+  "code": "066",
   "version": "v3",
   "title": "Cansado estás? Vem a Jesus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Cansado_es[G]tás? Vem a Jesus, o justo Remi[D]dor;",
-          "Terás em [G]ti a Sua luz e [D]Seu divino_a[G]mor."
-        ]
+        "text": ["Cansado es[G]tás? Vem a Jesus, o justo Remi[D]dor;", "Terás em [G]ti a Sua luz e [D]Seu divino a[G]mor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Vem, opri[D]mido, sem tar[G]dar, à [C]Fonte do per[D]dão;",
-          "O Reden[G]tor te faz her[C]dar e[D]terna salva[G]ção."
-        ]
+        "text": ["Vem, opri[D]mido, sem tar[G]dar, à [C]Fonte do per[D]dão;", "O Reden[G]tor te faz her[C]dar e[D]terna salva[G]ção."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Da opre[G]ssão, livrar-te-á Jesus, o Reden[D]tor;",
-          "Da perdi[G]ção, salvar-te-á por [D]Seu imenso_a[G]mor."
-        ]
+        "text": ["Da opre[G]ssão, livrar-te-á Jesus, o Reden[D]tor;", "Da perdi[G]ção, salvar-te-á por [D]Seu imenso a[G]mor."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Ele_é o_A[G]mor que não tem par, Amigo celes[D]tial;",
-          "A vida_e[G]terna quer te dar no [D]reino divi[G]nal."
-        ]
+        "text": ["Ele é o A[G]mor que não tem par, Amigo celes[D]tial;", "A vida e[G]terna quer te dar no [D]reino divi[G]nal."]
       },
       {
         "type": "ref",

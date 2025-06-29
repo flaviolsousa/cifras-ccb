@@ -1,19 +1,23 @@
 {
+  "code": "071",
   "version": "v3",
   "title": "Ó Senhor Jesus, eu recorro a Ti",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó Sen[C]hor Jesus, eu recorro_a Ti,",
+          "Ó Sen[C]hor Jesus, eu recorro a Ti,",
           "Teu po[Dm]der mani[G7]festa em m[C]im;",
-          "Confiando_em Ti, sei que vencedor",
-          "Eu se[Dm]rei sobre_o [G7]vil tenta[C]dor."
+          "Confiando em Ti, sei que vencedor",
+          "Eu se[Dm]rei sobre o [G7]vil tenta[C]dor."
         ]
       },
       {
@@ -22,17 +26,17 @@
           "Ó Je[G]sus, meu Je[Am]sus,",
           "Faz-me [G7]sempre sentir Teu vi[C]gor;",
           "Só a[G]ssim, bom Je[Am]sus,",
-          "Sobre_o [G7]mal eu serei vence[C]dor."
+          "Sobre o [G7]mal eu serei vence[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ó Sen[C]hor Jesus, eu recorro_a Ti,",
+          "Ó Sen[C]hor Jesus, eu recorro a Ti,",
           "Forte [Dm]Rocha Tu [G7]és para m[C]im;",
           "Se, de coração, eu a Ti clamar,",
-          "Pode[Dm]rei sobre_o [G7]mal triun[C]far."
+          "Pode[Dm]rei sobre o [G7]mal triun[C]far."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó Sen[C]hor Jesus, eu recorro_a Ti",
-          "Para [Dm]ter Teu a[G7]mor sempre_em m[C]im;",
-          "Eu imploro_a Ti, queiras me guiar,",
-          "Para_o [Dm]céu eu po[G7]der alcan[C]çar."
+          "Ó Sen[C]hor Jesus, eu recorro a Ti",
+          "Para [Dm]ter Teu a[G7]mor sempre em m[C]im;",
+          "Eu imploro a Ti, queiras me guiar,",
+          "Para o [Dm]céu eu po[G7]der alcan[C]çar."
         ]
       },
       {

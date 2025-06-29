@@ -1,39 +1,43 @@
 {
+  "code": "075",
   "version": "v3",
   "title": "Vem a Jesus, ó alma errante",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Vem a Jesus, ó [E]alma er[A]rante,",
-          "[F#m]Ele_é_o [B7]Sumo Pas[E]tor;",
-          "[E7]N´Ele_achar[A]ás a [F#7]graça_abun[B7]dante,",
-          "A [E]vida, o_a[A]mor."
+          "[G]Vem a Jesus, ó [D]alma er[G]rante,",
+          "[Em]Ele é o [A7]Sumo Pas[D]tor;",
+          "[D7]N´Ele achar[G]ás a [E7]graça abun[A7]dante,",
+          "A [D]vida, o a[G]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Vem a Jesus, ó [E]alma can[A]sada",
-          "[F#m]Do pe[B7]cado_e da d[E]or;",
-          "[E7]Sempre ser[A]ás por [F#7]Ele_ampa[B7]rada,",
-          "Oh! V[E]em ao Sen[A]hor."
+          "[G]Vem a Jesus, ó [D]alma can[G]sada",
+          "[Em]Do pe[A7]cado e da d[D]or;",
+          "[D7]Sempre ser[G]ás por [E7]Ele ampa[A7]rada,",
+          "Oh! V[D]em ao Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Vem a Jesus, ó [E]alma af[A]lita,",
-          "[F#m]Vem aos [B7]pés do Sen[E]hor;",
-          "[E7]Receber[A]ás a [F#7]paz infi[B7]nita",
-          "De D[E]eus, Criad[A]or."
+          "[G]Vem a Jesus, ó [D]alma af[G]lita,",
+          "[Em]Vem aos [A7]pés do Sen[D]hor;",
+          "[D7]Receber[G]ás a [E7]paz infi[A7]nita",
+          "De D[D]eus, Criad[G]or."
         ]
       }
     ]

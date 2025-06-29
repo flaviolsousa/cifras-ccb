@@ -1,39 +1,29 @@
 {
+  "code": "059",
   "version": "v3",
   "title": "Faz-me mais perseverante",
+  "level": 3,
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["E", "A", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Ó Sen[G]hor, conduz-me_avante",
-          "Nesta [C]senda [D]de amor,",
-          "Ao des[G]tino, m[C]ui brilhante,",
-          "De riq[D]ueza e_esplend[G]or."
-        ]
+        "text": ["Ó Sen[E]hor, conduz-me avante", "Nesta [A]senda de [B7]amor,", "Ao des[E]tino, mui [A]brilhante,", "De riq[B7]ueza e esplend[E]or."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Faz-me m[D]ais persever[G]ante",
-          "Nesta g[D]raça, ó Sen[G]hor;",
-          "Eu ag[G7]uardo, confi[C]ante,",
-          "Teus te[D]souros de a[G]mor."
-        ]
+        "text": ["Faz-me m[B7]ais persever[E]ante", "Nesta g[B7]raça, ó Sen[E]hor;", "Eu ag[E7]uardo, confi[A]ante,", "Teus te[B7]souros de a[E]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Pelo_Es[G]pírito divino,",
-          "Teu a[C]mor ac[D]resce_em mim;",
-          "Só por T[G]eu glori[C]oso_ensino,",
-          "Chegar[D]ei até o f[G]im."
-        ]
+        "text": ["Pelo Es[E]pírito divino,", "Teu a[A]mor acresce em [B7]mim;", "Só por T[E]eu glorioso en[A]sino,", "Chegar[B7]ei até o f[E]im."]
       },
       {
         "type": "ref",
@@ -42,12 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Amo T[G]ua sã verdade,",
-          "Tua l[C]ei e T[D]eu querer;",
-          "Amo T[G]ua s[C]antidade",
-          "Que me f[D]az resplandec[G]er."
-        ]
+        "text": ["Amo T[E]ua sã verdade,", "Tua l[A]ei e Teu que[B7]rer;", "Amo T[E]ua santi[A]dade", "Que me f[B7]az resplandec[E]er."]
       },
       {
         "type": "ref",
