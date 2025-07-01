@@ -317,7 +317,7 @@ const HymnDetails = () => {
                 closeMenu();
               }}
               title="Editar Hino"
-              leadingIcon="pencil"
+              leadingIcon="file-edit-outline"
             />
             <Menu.Item
               onPress={() => {
@@ -344,7 +344,7 @@ const HymnDetails = () => {
                 closeMenu();
               }}
               title="Mudar Tom"
-              leadingIcon="pound"
+              leadingIcon="music-accidental-sharp"
             />
             <Menu.Item
               onPress={() => {
@@ -353,7 +353,7 @@ const HymnDetails = () => {
                 closeMenu();
               }}
               title="Rolagem Automática"
-              leadingIcon="autorenew"
+              leadingIcon="pan-vertical"
             />
             <Menu.Item
               onPress={() => {
@@ -362,7 +362,7 @@ const HymnDetails = () => {
                 closeMenu();
               }}
               title={audioPlayerVisible ? "Ocultar Áudio" : "Exibir Áudio"}
-              leadingIcon="music"
+              leadingIcon="play"
             />
             <Menu.Item
               onPress={() => {
@@ -370,7 +370,7 @@ const HymnDetails = () => {
                 closeMenu();
               }}
               title={showNotes ? "Ocultar Notas" : "Exibir Notas"}
-              leadingIcon="note"
+              leadingIcon="lead-pencil"
             />
             <Divider />
             <Menu.Item onPress={closeMenu} title="Fechar menu" leadingIcon="close" />
