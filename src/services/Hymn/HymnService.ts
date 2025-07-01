@@ -17,12 +17,17 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
 
   parts.forEach((part) => {
     if (part.startsWith("[") && part.endsWith("]")) {
-      const [chord, notes] = part.slice(1, -1).split("|");
+      let [chord, notes] = part.slice(1, -1).split("|");
+      let chordSymbol = "";
+      if (chord.endsWith("°")) {
+        chord = chord.slice(0, -1);
+        chordSymbol = "°";
+      }
       try {
         let transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
         transposed = CHORD_MAP[`[${transposed}}`] || transposed;
-        console.log(`Transposing chord: ${chord} from ${fromKey} to ${toKey} => ${transposed}`);
-        result += `[${transposed}${!!notes ? `|${notes}` : ""}]`;
+        console.log(`Transposing chord: ${chord}${chordSymbol} from ${fromKey} to ${toKey} => ${transposed}${chordSymbol}`);
+        result += `[${transposed}${chordSymbol}${!!notes ? `|${notes}` : ""}]`;
       } catch (e: any) {
         console.error(e);
         result += `${part}:ERROR`;

@@ -1232,10 +1232,12 @@
       "introDuration": 9.516
     },
     "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+      "A",
+      "B7",
+      "E"
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "048",
@@ -1254,10 +1256,12 @@
       "introDuration": 9.495
     },
     "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+      "A7",
+      "D",
+      "G"
+    ],
+    "level": 4,
+    "rhythm": "Guarânia"
   },
   {
     "code": "049",
@@ -1276,16 +1280,17 @@
       "introDuration": 10.946
     },
     "chords": [
-      "Bb",
-      "B°",
-      "C",
-      "C5+",
+      "A",
+      "A7",
+      "B7",
+      "Bm",
+      "D",
       "D7",
-      "Dm",
-      "F",
-      "F7",
+      "E",
       "G"
-    ]
+    ],
+    "level": 4,
+    "rhythm": "Valsa"
   },
   {
     "code": "050",
@@ -1304,12 +1309,17 @@
       "introDuration": 10.029
     },
     "chords": [
+      "A7",
       "C",
       "C7",
+      "Dm",
       "F",
       "Fm",
-      "G"
-    ]
+      "G",
+      "G7"
+    ],
+    "level": 4,
+    "rhythm": "Valsa"
   },
   {
     "code": "051",
@@ -1328,11 +1338,13 @@
       "introDuration": 12.024
     },
     "chords": [
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+      "A",
+      "A7",
+      "D",
+      "E"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "052",
@@ -1355,7 +1367,9 @@
       "C",
       "F",
       "G"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "053",
@@ -1374,11 +1388,13 @@
       "introDuration": 10.47
     },
     "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#7"
-    ]
+      "A7",
+      "D",
+      "E7",
+      "G"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "054",
@@ -1398,12 +1414,12 @@
     },
     "chords": [
       "A",
-      "A#°",
-      "Am",
-      "C",
-      "D",
-      "G"
-    ]
+      "B7",
+      "E",
+      "F#m"
+    ],
+    "level": 5,
+    "rhythm": "Canção"
   },
   {
     "code": "055",
@@ -1426,11 +1442,14 @@
       "C",
       "C7",
       "D",
+      "Dm",
       "E7",
       "F",
       "G",
       "G7"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "056",
@@ -1450,10 +1469,13 @@
     },
     "chords": [
       "A",
-      "B7",
-      "E",
-      "F#7"
-    ]
+      "A7",
+      "D",
+      "E7",
+      "G"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "057",
@@ -1472,12 +1494,14 @@
       "introDuration": 10.728
     },
     "chords": [
-      "A",
-      "A7",
-      "D",
-      "D7",
-      "G"
-    ]
+      "C",
+      "C7",
+      "F",
+      "G",
+      "G7"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "058",
@@ -1497,9 +1521,12 @@
     },
     "chords": [
       "A",
+      "A7",
       "D",
       "G"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "059",
@@ -1518,11 +1545,13 @@
       "introDuration": 9.489
     },
     "chords": [
-      "C",
-      "D",
-      "G",
-      "G7"
-    ]
+      "A",
+      "B7",
+      "E",
+      "E7"
+    ],
+    "level": 3,
+    "rhythm": "Guarânia"
   },
   {
     "code": "060",
@@ -1542,11 +1571,13 @@
     },
     "chords": [
       "A",
-      "Am",
-      "C",
-      "D",
-      "G"
-    ]
+      "B7",
+      "E",
+      "F#",
+      "F#m"
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "061",
@@ -1565,10 +1596,12 @@
       "introDuration": 15.031
     },
     "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+      "A7",
+      "D",
+      "G"
+    ],
+    "level": 1,
+    "rhythm": "Valsa"
   },
   {
     "code": "062",
@@ -1587,12 +1620,14 @@
       "introDuration": 15.81
     },
     "chords": [
-      "A",
-      "A7",
+      "C",
       "D",
-      "E",
-      "E7"
-    ]
+      "D7",
+      "G",
+      "G7"
+    ],
+    "level": 3,
+    "rhythm": "Guarânia"
   },
   {
     "code": "063",
@@ -1611,14 +1646,17 @@
       "introDuration": 12.664
     },
     "chords": [
-      "Am",
-      "C",
-      "C7",
+      "A",
+      "A7",
+      "B7",
       "D",
+      "D°",
       "E",
-      "F",
-      "G"
-    ]
+      "E7",
+      "F#m"
+    ],
+    "level": 4,
+    "rhythm": "Valsa"
   },
   {
     "code": "064",
@@ -1637,11 +1675,12 @@
       "introDuration": 16.14
     },
     "chords": [
-      "Am",
-      "D",
-      "D7",
-      "G"
-    ]
+      "B7",
+      "E",
+      "F#m"
+    ],
+    "level": 3,
+    "rhythm": "Guarânia"
   },
   {
     "code": "065",
@@ -1660,14 +1699,16 @@
       "introDuration": 17.799
     },
     "chords": [
-      "A",
       "A7",
-      "B7",
+      "C",
       "D",
-      "E",
-      "Em",
-      "G"
-    ]
+      "Dm",
+      "F",
+      "G",
+      "G7"
+    ],
+    "level": 4,
+    "rhythm": "Valsa"
   },
   {
     "code": "066",
@@ -1689,7 +1730,9 @@
       "C",
       "D",
       "G"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Guarânia"
   },
   {
     "code": "067",
@@ -1708,13 +1751,15 @@
       "introDuration": 8.65
     },
     "chords": [
-      "A",
-      "Bm",
+      "Am",
+      "C",
       "D",
       "E",
-      "F#",
+      "F",
       "G"
-    ]
+    ],
+    "level": 5,
+    "rhythm": "Guarânia"
   },
   {
     "code": "068",
@@ -1736,7 +1781,9 @@
       "A",
       "D",
       "G"
-    ]
+    ],
+    "level": 2,
+    "rhythm": "Guarânia"
   },
   {
     "code": "069",
@@ -1755,17 +1802,18 @@
       "introDuration": 11.199
     },
     "chords": [
-      "A",
-      "B7",
-      "Bm",
-      "D",
-      "D#°",
-      "D7",
-      "Em",
-      "F#",
-      "G",
-      "G7"
-    ]
+      "A7",
+      "Am",
+      "C",
+      "C7",
+      "Dm",
+      "E",
+      "F",
+      "F7",
+      "G"
+    ],
+    "level": 4,
+    "rhythm": "Canção"
   },
   {
     "code": "070",
@@ -1788,7 +1836,9 @@
       "D",
       "G",
       "G7"
-    ]
+    ],
+    "level": 2,
+    "rhythm": "Canção"
   },
   {
     "code": "071",
@@ -1812,7 +1862,9 @@
       "Dm",
       "G",
       "G7"
-    ]
+    ],
+    "level": 2,
+    "rhythm": "Canção"
   },
   {
     "code": "072",
@@ -1831,12 +1883,13 @@
       "introDuration": 11.484
     },
     "chords": [
-      "A",
+      "C",
       "D",
-      "E",
-      "E4",
-      "F#m"
-    ]
+      "Em",
+      "G"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "073",
@@ -1859,7 +1912,9 @@
       "D7",
       "F",
       "G"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "074",
@@ -1883,7 +1938,9 @@
       "D",
       "E",
       "G"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "075",
@@ -1902,13 +1959,16 @@
       "introDuration": 15.06
     },
     "chords": [
-      "A",
-      "B7",
-      "E",
+      "A7",
+      "Am",
+      "D",
+      "D7",
       "E7",
-      "F#7",
-      "F#m"
-    ]
+      "Em",
+      "G"
+    ],
+    "level": 2,
+    "rhythm": "Valsa"
   },
   {
     "code": "076",
@@ -1930,12 +1990,12 @@
       "A7",
       "Am",
       "C",
-      "D#°",
       "Dm",
       "Em",
-      "G/B",
       "G7"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "077",
@@ -1958,8 +2018,11 @@
       "B7",
       "D",
       "E",
+      "E7",
       "F#m"
-    ]
+    ],
+    "level": 3,
+    "rhythm": "Valsa"
   },
   {
     "code": "078",
@@ -1980,10 +2043,11 @@
     "chords": [
       "A7",
       "C",
-      "C/E",
       "D",
       "G"
-    ]
+    ],
+    "level": 2,
+    "rhythm": "Valsa"
   },
   {
     "code": "079",
@@ -2002,11 +2066,13 @@
       "introDuration": 9.042
     },
     "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#7"
-    ]
+      "A7",
+      "D",
+      "E7",
+      "G"
+    ],
+    "level": 4,
+    "rhythm": "Guarânia"
   },
   {
     "code": "080",
@@ -2027,18 +2093,19 @@
     "chords": [
       "A",
       "A7",
-      "B",
+      "Am",
       "B7",
       "Bm",
-      "C#",
+      "C",
       "D",
-      "D#°",
+      "D7",
       "E",
-      "E7",
-      "F#7",
-      "F#m",
-      "G#7"
-    ]
+      "Em",
+      "G",
+      "G7"
+    ],
+    "level": 3,
+    "rhythm": "Canção"
   },
   {
     "code": "081",
@@ -2060,7 +2127,8 @@
       "C",
       "F",
       "G"
-    ]
+    ],
+    "rhythm": "Valsa"
   },
   {
     "code": "082",
@@ -2079,12 +2147,13 @@
       "introDuration": 10.878
     },
     "chords": [
-      "A",
-      "Bm",
-      "D",
+      "Am",
+      "C",
+      "D7",
       "E7",
-      "F#7"
-    ]
+      "G"
+    ],
+    "rhythm": "Canção"
   },
   {
     "code": "083",
@@ -2104,12 +2173,13 @@
     },
     "chords": [
       "A",
-      "B7",
-      "D#7",
-      "E",
-      "F#m",
-      "G#m"
-    ]
+      "Ab7",
+      "Bm",
+      "C#m",
+      "D",
+      "E7"
+    ],
+    "rhythm": "Valsa"
   },
   {
     "code": "084",
@@ -2128,13 +2198,14 @@
       "introDuration": 10.748
     },
     "chords": [
-      "A",
-      "A9",
-      "B7",
-      "C#m",
-      "E",
-      "F#m"
-    ]
+      "A7",
+      "Bm",
+      "D",
+      "Em",
+      "G",
+      "G9"
+    ],
+    "rhythm": "Canção"
   },
   {
     "code": "085",

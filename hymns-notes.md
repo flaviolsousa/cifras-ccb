@@ -25,6 +25,7 @@ Guarânia
 |x2
 |(-)
 ‿
+°
 
 # Shortcut
 

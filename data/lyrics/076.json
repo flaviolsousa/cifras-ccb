@@ -9,7 +9,7 @@
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["C", "A7", "Dm", "G/B", "G7", "C"],
+    "introduction": ["C", "A7", "Dm", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
