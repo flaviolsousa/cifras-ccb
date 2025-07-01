@@ -1,29 +1,33 @@
 {
+  "code": "110",
   "version": "v3",
   "title": "Vigiai, irmãos",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vigi[E]ai, irmãos, em todo_o tempo,",
-          "Como_en[B]sina o Sen[E]hor;",
+          "Vigi[D]ai, irmãos, em todo o tempo,",
+          "Como en[A]sina o Sen[D]hor;",
           "E, orando, achareis sustento,",
-          "Senti[B]reis maior vi[E]gor."
+          "Senti[A]reis maior vi[D]gor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["Oh! Vigi[E]ai em todo_o tempo", "Para [B]que o coraç[E]ão", "Sinta vigor, também alento,", "E de [B]Deus a santa_unç[E]ão.[E]..."]
+        "text": ["Oh! Vigi[D]ai em todo o tempo", "Para [A]que o coraç[D]ão", "Sinta vigor, também alento,", "E de [A]Deus a santa unç[D]ão.[D]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Vigi[E]ai, pois não sabeis a hora", "Em que [B]o Senhor vi[E]rá;", "Ele diz, também_a nós agora,", "Que mui [B]breve volta[E]rá."]
+        "text": ["Vigi[D]ai, pois não sabeis a hora", "Em que [A]o Senhor vi[D]rá;", "Ele diz, também a nós agora,", "Que mui [A]breve volta[D]rá."]
       },
       {
         "type": "ref",
@@ -33,10 +37,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vigi[E]ando,_atentos, aguardemos",
-          "Nosso_a[B]mado Salva[E]dor;",
+          "Vigi[D]ando, atentos, aguardemos",
+          "Nosso a[A]mado Salva[D]dor;",
           "Nossas vestes brancas conservemos;",
-          "Vigi[B]emos com fer[E]vor."
+          "Vigi[A]emos com fer[D]vor."
         ]
       },
       {

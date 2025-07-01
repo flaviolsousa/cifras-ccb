@@ -1,38 +1,42 @@
 {
+  "code": "085",
   "version": "v3",
   "title": "Anunciai o santo Evangelho",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Ide,_anunciai o santo_Evan[E]gelho",
-          "Por todo_o mundo, disse Jes[A]us,",
-          "A todo_o homem, jovem ou [D]velho,",
-          "Para_alcan[A]çar o [E]reino de l[A]uz."
+          "[G]Ide, anunciai o santo Evan[D]gelho",
+          "Por todo o mundo, disse Jes[G]us,",
+          "A todo o homem, jovem ou [C]velho,",
+          "Para alcan[G]çar o [D]reino de l[G]uz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Todo_o que [E]crer e for bati[A]zado",
-          "Salvo se[D]rá, fa[E]lou o Sen[A]hor;",
-          "[A]Mas quem não [C#]crer já é conde[F#m]nado, ",
-          "Por despre[E]zar o seu Salva[A]dor."
+          "[G]Todo o que [D]crer e for bati[G]zado",
+          "Salvo se[C]rá, fa[D]lou o Sen[G]hor;",
+          "[G]Mas quem não [B]crer já é conde[Em]nado, ",
+          "Por despre[D]zar o seu Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Não mais duvides, este_é_o ca[E]minho,",
-          "Nele_o primeiro passo vais d[A]ar;",
-          "Com alegria, segue_o des[D]tino",
-          "Que Cristo v[A]eio_a [E]ti ofer[A]tar."
+          "[G]Não mais duvides, este é o ca[D]minho,",
+          "Nele o primeiro passo vais d[G]ar;",
+          "Com alegria, segue o des[C]tino",
+          "Que Cristo v[G]eio a [D]ti ofer[G]tar."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Pelo batismo és sepul[E]tado",
-          "Para, ao mundo, renunci[A]ar;",
-          "Sendo, por Cristo, regene[D]rado,",
-          "Em Seu ca[A]minho [E]podes an[A]dar."
+          "[G]Pelo batismo és sepul[D]tado",
+          "Para, ao mundo, renunci[G]ar;",
+          "Sendo, por Cristo, regene[C]rado,",
+          "Em Seu ca[G]minho [D]podes an[G]dar."
         ]
       },
       {

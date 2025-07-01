@@ -1,10 +1,14 @@
 {
+  "code": "102",
   "version": "v3",
   "title": "Sinto a voz divina do meu fiel Pastor",
   "tone": {
-    "recommended": "D"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

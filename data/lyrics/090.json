@@ -1,39 +1,33 @@
 {
+  "code": "090",
   "version": "v3",
   "title": "Teu destino é a glória",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "A", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Pela [A]fé, irmão querido,",
-          "Serve_a [B]Cristo,_o [E7]Reden[A]tor;",
+          "Pela [G]fé, irmão querido,",
+          "Serve a [A]Cristo, o [D7]Reden[G]tor;",
           "Não te deixes ser vencido,",
-          "Vence_o [B7]mal, com [E7]teu Sen[A]hor."
+          "Vence o [A7]mal, com [D7]teu Sen[G]hor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Teu des[E7]tino é a g[A]lória,",
-          "A he[B7]rança dos fi[E]éis;",
-          "É se[A]gura a vitória",
-          "Que da[B7]rá o [E7]Rei dos [A]reis."
-        ]
+        "text": ["[G]Teu des[D7]tino é a g[G]lória,", "A he[A7]rança dos fi[D]éis;", "É se[G]gura a vitória", "Que da[A7]rá o [D7]Rei dos [G]reis."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Oh! Le[A]vanta_as mãos cansadas",
-          "E não [B]olhes [E7]para t[A]rás,",
-          "Pois serão fortificadas",
-          "Pelo [B7]Prínci[E7]pe da p[A]az."
-        ]
+        "text": ["Oh! Le[G]vanta as mãos cansadas", "E não [A]olhes [D7]para t[G]rás,", "Pois serão fortificadas", "Pelo [A7]Prínci[D7]pe da p[G]az."]
       },
       {
         "type": "ref",
@@ -43,10 +37,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Segue_as [A]obras do teu Mestre,",
-          "Marcha [B]firme [E7]para_o c[A]éu;",
+          "Segue as [G]obras do teu Mestre,",
+          "Marcha [A]firme [D7]para o c[G]éu;",
           "Ele é a Luz celeste,",
-          "Que ilu[B7]mina_os [E7]passos t[A]eus."
+          "Que ilu[A7]mina os [D7]passos t[G]eus."
         ]
       },
       {
@@ -56,12 +50,7 @@
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "A Pa[A]lavra da verdade,",
-          "A Es[B]pada [E7]divi[A]nal,",
-          "Te conserva_em santidade",
-          "Para_o [B7]reino [E7]etern[A]al."
-        ]
+        "text": ["A Pa[G]lavra da verdade,", "A Es[A]pada [D7]divi[G]nal,", "Te conserva em santidade", "Para o [A7]reino [D7]etern[G]al."]
       },
       {
         "type": "ref",

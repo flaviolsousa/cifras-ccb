@@ -2,41 +2,42 @@
   "code": "083",
   "version": "v3",
   "title": "Vinde às bodas",
+  "level": 4,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["A", "E7", "A"],
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Deus [A]breve[E7]mente celebra[A]rá",
-          "As [D]bodas de Je[E7]sus;",
-          "A i[A]greja [E7]se prepa[A]ran[Ab7]do es[C#m]tá",
-          "Com g[A]raça, a[E7]mor e l[A]uz."
+          "Deus [D]breve[A7]mente celebra[D]rá",
+          "As [G]bodas de Je[A7|(-)]sus;",
+          "A i[D]greja [A7]se prepa[D]rando es[F#m|(-)]tá",
+          "Com g[D]raça, a[A7]mor e l[D]uz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Vinde às bodas do Salva[E7]dor,",
-          "[Bm]Vinde, não [E7]rejei[A]teis;",
-          "Vestes divinas [Ab7]de jus[C#m]ti - [D]ça",
-          "[A]Dos céus re[E7]cebe[A]reis."
+          "[D]Vinde às bodas do Salva[A7]dor,",
+          "[Em]Vinde, não [A7]rejei[D|(-)]teis;",
+          "Vestes divinas [Bm]de jus[F#m]ti - [G]ça",
+          "[D]Dos céus re[A7]cebe[D]reis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ao [A]rico, ao [E7]pobre, convida D[A]eus",
-          "E n[D]ão faz distin[E7]ção;",
-          "Pois q[A]uer fa[E7]zê-los her[A]dei[Ab7]ros dos [C#m]céus,",
-          "Her[A]deiros da [E7]salvaç[A]ão."
+          "Ao [D]rico, ao [A7]pobre, convida D[D]eus",
+          "E n[G]ão faz distin[A7|(-)]ção;",
+          "Pois q[D]uer fa[A7]zê-los her[D]deiros dos [F#m|(-)]céus,",
+          "Her[D]deiros da [A7]salvaç[D]ão."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Que g[A]lória e[E7]terna, celesti[A]al,",
-          "Que [D]honra, que a[E7]mor,",
-          "Te[A]rão os [E7]santos no l[A]ar [Ab7]divi-[C#m]nal",
-          "Com C[A]risto, o [E7]seu Sen[A]hor!"
+          "Que g[D]lória e[A7]terna, celesti[D]al,",
+          "Que [G]honra, que a[A7|(-)]mor,",
+          "Te[D]rão os [A7]santos no l[D]ar divi-[F#m|(-)]nal",
+          "Com C[D]risto, o [A7]seu Sen[D]hor!"
         ]
       },
       {

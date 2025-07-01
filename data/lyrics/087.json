@@ -1,38 +1,42 @@
 {
+  "code": "087",
   "version": "v3",
   "title": "Eis que vem Jesus",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eis que [E]vem Jesus, o nosso_Esposo divinal;",
-          "Com prudência, vamos todos juntos [B]vigi[B]ar;",
-          "Oh! Que p[E]az celesti[E]al",
-          "Senti[E]rá quem preparado-se [B]encon[E]trar!"
+          "Eis que [D]vem Jesus, o nosso Esposo divinal;",
+          "Com prudência, vamos todos juntos [A]vigi[A]ar;",
+          "Oh! Que p[D]az celesti[D]al",
+          "Senti[D]rá quem preparado-se [A]encon[D]trar!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Jesus Cristo, [B]o Es[E]poso,",
-          "Para_as bodas leva[B]rá os Seus.",
-          "Q[E]ue encontro [B]glori[E]oso",
-          "Para_os santos do vi[B]vente D[E]eus!"
+          "[D]Jesus Cristo, [A]o Es[D]poso,",
+          "Para as bodas leva[A]rá os Seus.",
+          "Q[D]ue encontro [A]glori[D]oso",
+          "Para os santos do vi[A]vente D[D]eus!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Este[E]jamos bem atentos, pois Jesus virá;",
-          "Sobre_as nuvens, glorioso, apa[B]rece[B]rá;",
-          "Seus fi[E]éis recolhe[E]rá",
-          "E à g[E]lória prometida os [B]leva[E]rá."
+          "Este[D]jamos bem atentos, pois Jesus virá;",
+          "Sobre as nuvens, glorioso, apa[A]rece[A]rá;",
+          "Seus fi[D]éis recolhe[D]rá",
+          "E à g[D]lória prometida os [A]leva[D]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Tua [E]lâmpada não deve se_apagar, irmão;",
-          "O azeite da Palavra desce[B]rá dos c[B]éus;",
-          "A Jes[E]us se junta[E]rão",
-          "Os pru[E]dentes que serviram ao [B]grande D[E]eus."
+          "Tua [D]lâmpada não deve se apagar, irmão;",
+          "O azeite da Palavra desce[A]rá dos c[A]éus;",
+          "A Jes[D]us se junta[D]rão",
+          "Os pru[D]dentes que serviram ao [A]grande D[D]eus."
         ]
       },
       {

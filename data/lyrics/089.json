@@ -1,39 +1,43 @@
 {
+  "code": "089",
   "version": "v3",
   "title": "Oh! Grande Deus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "F#m", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Oh! Grande Deus, se [G#m]cumprem [F#]as pro[B]messas",
-          "Que [F#]Tu tens [G#m]feito no Se[F#]nhor [C#7]Je - [F#]sus;",
-          "Pelos Teus si[B]nais, já [F#]vemos que Te_a[B]pressas",
-          "Em mostrar a [F#7]todos Tua_eterna [B]luz."
+          "[A]Oh! Grande Deus, se [F#m]cumprem [E]as pro[A]messas",
+          "Que [E]Tu tens [F#m]feito no Se[E]nhor [B7]Je - [E]sus;",
+          "Pelos Teus si[A]nais, já [E]vemos que Te a[A]pressas",
+          "Em mostrar a [E7]todos Tua eterna [A]luz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Pai eternal, do [G#m]céu nos [F#]tens man[B]dado",
-          "Teu [F#]santo [G#m]Filho, o E[F#]ma - [C#7]nu - [F#]el,",
-          "Que, da_escravi[B]dão, nos [F#]tem já liber[B]tado",
-          "E nos fez Seu [F#7]povo santo e fi[B]el."
+          "[A]Pai eternal, do [F#m]céu nos [E]tens man[A]dado",
+          "Teu [E]santo [F#m]Filho, o E[E]ma - [B7]nu - [E]el,",
+          "Que, da escravi[A]dão, nos [E]tem já liber[A]tado",
+          "E nos fez Seu [E7]povo santo e fi[A]el."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Deus Criador, tam[G#m]bém nos [F#]envi[B]aste",
-          "Teu [F#]Santo_Es[G#m]pírito Con[F#]so – [C#7]la - [F#]dor;",
-          "Para_a reden[B]ção e[F#]terna nos se[B]laste",
-          "E, por esse [F#7]Dom, sentimos Teu a[B]mor."
+          "[A]Deus Criador, tam[F#m]bém nos [E]envi[A]aste",
+          "Teu [E]Santo Es[F#m]pírito Con[E]so – [B7]la - [E]dor;",
+          "Para a reden[A]ção e[E]terna nos se[A]laste",
+          "E, por esse [E7]Dom, sentimos Teu a[A]mor."
         ]
       }
     ]

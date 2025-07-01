@@ -1,10 +1,14 @@
 {
+  "code": "139",
   "version": "v3",
   "title": "Ó Senhor, Tu me conheces",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,8 +16,8 @@
         "text": [
           "Ó Sen[G]hor, Tu me co[D]nheces, Tu co[G]nheces meu viver,",
           "E também meu pensa[D]mento não Te [G]posso esconder;",
-          "[D]Onde quer que eu esteja, [G]  Teu Espírito está;",
-          "Tua mão, em toda_a [D]parte, sempre [G]me alcançará."
+          "[D]Onde quer que eu esteja, [G] Teu Espírito está;",
+          "Tua mão, em toda a [D]parte, sempre [G]me alcançará."
         ]
       },
       {
@@ -22,17 +26,17 @@
         "text": [
           "Com meus [G]olhos não Te [D]vejo, mas eu [G]sinto Teu amor;",
           "Tu me cercas de con[D]tínuo, ó e[G]terno Criador.",
-          "[D]Nem as trevas me ocultam [G]  dos sublimes olhos Teus,",
-          "Pois a noite_é como_o [D]dia para [G]Ti, ó grande Deus."
+          "[D]Nem as trevas me ocultam [G] dos sublimes olhos Teus,",
+          "Pois a noite é como o [D]dia para [G]Ti, ó grande Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Puri[G]fica_o meu ca[D]minho pelo [G]Teu poder, Senhor;",
+          "Puri[G]fica o meu ca[D]minho pelo [G]Teu poder, Senhor;",
           "Eu desejo ser sin[D]cero e an[G]dar em Teu temor.",
-          "[D]Onde quer que eu esteja, [G]  Teu Espírito está;",
+          "[D]Onde quer que eu esteja, [G] Teu Espírito está;",
           "Ó Senhor, Tu me co[D]nheces; Deus a[G]lém de Ti não há."
         ]
       }

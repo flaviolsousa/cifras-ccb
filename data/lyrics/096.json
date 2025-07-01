@@ -1,21 +1,25 @@
 {
+  "code": "096",
   "version": "v3",
   "title": "Vinde, adoremos a Deus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Vinde,_ado[C]re-[D]mos a D[G]eus,",
-          "Santo_e su[D]blime Rei [G]dos c[D]éus;",
+          "[G]Vinde, ado[C]re-[D]mos a D[G]eus,",
+          "Santo e su[D]blime Rei [G]dos c[D]éus;",
           "[G]Vinde com [D]fé;",
           "O Deus que [G]dá saber,",
           "[D]Grandioso [G]em po[Em]der,",
-          "Que_em [G]bre[D]ve_i[G]remos ver,",
+          "Que em [G]bre[D]ve i[G]remos ver,",
           "[C]E - [D]terno [G]é."
         ]
       },
@@ -27,8 +31,8 @@
           "Que nos man[D]dou o Re[G]den[D]tor;",
           "[G]Cristo Je[D]sus,",
           "Santo Pas[G]tor, veraz,",
-          "[D]Rei de jus[G]tiça_e [Em]paz,",
-          "Que_às [G]nos[D]sas [G]almas traz",
+          "[D]Rei de jus[G]tiça e [Em]paz,",
+          "Que às [G]nos[D]sas [G]almas traz",
           "[C]Vi-[D]da e l[G]uz."
         ]
       },
@@ -36,8 +40,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Deus, Pai e[C]ter[D]no_e fi[G]el,",
-          "Vos farta[D]rá de lei[G]te_e [D]mel",
+          "[G]Deus, Pai e[C]ter[D]no e fi[G]el,",
+          "Vos farta[D]rá de lei[G]te e [D]mel",
           "[G]E vive[D]reis",
           "Vida de [G]paz com Deus,",
           "[D]Com os re[G]midos [Em]Seus",

@@ -1,51 +1,55 @@
 {
+  "code": "111",
   "version": "v3",
   "title": "Do sepulcro ressurgiu triunfante",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Do se[E]pulcro, eis que, triun[B]fante,",
-          "Ressurgiu o Filho do e[E]terno Deus",
-          "Para dar-nos Sua fé cons[B]tante",
-          "E ao fim levar-nos para_os c[E]éus.",
-          "Foi Je[A]sus, o Mestre, sepul[E]tado,",
-          "Mas a [B7]morte não O pôde [E]mais reter;",
-          "Quem não [A]tinha_em Si nenhum pe[E]cado,",
-          "Veio [B7]pelo pecador mor[E]rer."
+          "Do se[D]pulcro, eis que, triun[A]fante,",
+          "Ressurgiu o Filho do e[D]terno Deus",
+          "Para dar-nos Sua fé cons[A]tante",
+          "E ao fim levar-nos para os c[D]éus.",
+          "Foi Je[G]sus, o Mestre, sepul[D]tado,",
+          "Mas a [A7]morte não O pôde [D]mais reter;",
+          "Quem não [G]tinha em Si nenhum pe[D]cado,",
+          "Veio [A7]pelo pecador mor[D]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Quando [E]as discípulas che[B]garam",
-          "Com aromas para_ungirem [E]o Senhor,",
-          "No sepulcro não mais O a[B]charam,",
-          "Pois da morte fora vence[E]dor.",
-          "Viram [A]anjos que lhes infor[E]maram",
-          "Que_entre_os [B7]mortos Cristo não es[E]tava mais;",
-          "Cheias [A]de_alegria retor[E]naram,",
-          "Contem[B7]plando maravilhas t[E]ais."
+          "Quando [D]as discípulas che[A]garam",
+          "Com aromas para ungirem [D]o Senhor,",
+          "No sepulcro não mais O a[A]charam,",
+          "Pois da morte fora vence[D]dor.",
+          "Viram [G]anjos que lhes infor[D]maram",
+          "Que entre os [A7]mortos Cristo não es[D]tava mais;",
+          "Cheias [G]de alegria retor[D]naram,",
+          "Contem[A7]plando maravilhas t[D]ais."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Aos a[E]póstolos apresen[B]tou-Se,",
-          "E lhes disse: “Seja_em vós a [E]Minha paz”;",
-          "A tristeza_em glória transfor[B]mou-se",
-          "Pela Sua_aparição ve[E]raz.",
-          "Em Je[A]rusalém permane[E]ceram; ",
-          "Reves[B7]tidos foram do po[E]der de Deus;",
-          "As vir[A]tudes eles rece[E]beram;",
-          "Veio_o [B7]Dom bendito desde_os c[E]éus."
+          "Aos a[D]póstolos apresen[A]tou-Se,",
+          "E lhes disse: “Seja em vós a [D]Minha paz”;",
+          "A tristeza em glória transfor[A]mou-se",
+          "Pela Sua aparição ve[D]raz.",
+          "Em Je[G]rusalém permane[D]ceram; ",
+          "Reves[A7]tidos foram do po[D]der de Deus;",
+          "As vir[G]tudes eles rece[D]beram;",
+          "Veio o [A7]Dom bendito desde os c[D]éus."
         ]
       }
     ]

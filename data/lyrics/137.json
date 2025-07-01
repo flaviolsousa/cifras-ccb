@@ -1,33 +1,28 @@
 {
+  "code": "137",
   "version": "v3",
   "title": "Senhor, vem selar-nos",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[G]Do Teu Espírito S[D]anto, derrama, ó Sen[G]hor;",
-          "Sobre os que O esp[D]eram com fé e com ferv[G]or."
-        ]
+        "text": ["[G]Do Teu Espírito S[D]anto, derrama, ó Sen[G]hor;", "Sobre os que O esp[D]eram com fé e com ferv[G]or."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Sen[G]hor, vem se[D]lar-nos com o Espírito [G]Santo;",
-          "Sim, vem ale[D]grar-nos com Teu bom Consola[G]dor."
-        ]
+        "text": ["Sen[G]hor, vem se[D]lar-nos com o Espírito [G]Santo;", "Sim, vem ale[D]grar-nos com Teu bom Consola[G]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[G]É para nós, preci[D]oso, ó santo Reden[G]tor,",
-          "Teu Dom divino, almej[D]ado, bendito e de va[G]lor."
-        ]
+        "text": ["[G]É para nós, preci[D]oso, ó santo Reden[G]tor,", "Teu Dom divino, almej[D]ado, bendito e de va[G]lor."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[G]Dá-nos, por Tua bon[D]dade, da herança o Pen[G]hor;",
-          "Ansiosamente espe[D]ramos, bondoso Salva[G]dor."
-        ]
+        "text": ["[G]Dá-nos, por Tua bon[D]dade, da herança o Pen[G]hor;", "Ansiosamente espe[D]ramos, bondoso Salva[G]dor."]
       },
       {
         "type": "ref",

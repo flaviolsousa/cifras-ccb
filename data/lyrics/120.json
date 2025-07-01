@@ -1,36 +1,37 @@
 {
+  "code": "120",
   "version": "v3",
   "title": "Nossa cruz tomemos",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "Em7", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Ó irmãos, de[F#m7]ve -  [B]mos nos renunci[E]ar",
-          "E, em cada [B]dia, [F#7]nossa cruz to[B]mar;",
-          "Pela fé si[E]gamos ao Senhor Je[A]sus,",
-          "Ao celeste_e_eterno reino Ele nos con[B]duz."
+          "[D]Ó irmãos, de[Em7]ve - [A]mos nos renunci[D]ar",
+          "E, em cada [A]dia, [E7]nossa cruz to[A]mar;",
+          "Pela fé si[D]gamos ao Senhor Je[G]sus,",
+          "Ao celeste e eterno reino Ele nos con[A]duz."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Nossa cruz to[B]memos, amados, caminhemos na l[E]uz,",
-          "Firmes nas pisadas [A]do Sen[B]hor Jes[E]us."
-        ]
+        "text": ["[D]Nossa cruz to[A]memos, amados, caminhemos na l[D]uz,", "Firmes nas pisadas [G]do Sen[A]hor Jes[D]us."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Deus dará vir[F#m7]tu -  [B]de para supor[E]tar",
-          "Todo_o vitu[B]pério [F#7]que se_apresen[B]tar;",
-          "A terrena [E]vida breve finda[A]rá,",
-          "Mas a vida sempiterna reservada_es[B]tá."
+          "[D]Deus dará vir[Em7]tu - [A]de para supor[D]tar",
+          "Todo o vitu[A]pério [E7]que se apresen[A]tar;",
+          "A terrena [D]vida breve finda[G]rá,",
+          "Mas a vida sempiterna reservada es[A]tá."
         ]
       },
       {
@@ -41,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Bem-aventu[F#m7]ra -  [B]dos somos, ó irm[E]ãos,",
-          "Pois já fomos [B]feitos, [F#7]dos céus, cidad[B]ãos;",
-          "Seja_a nossa [E]vida consagrada_a D[A]eus,",
-          "Que dará real tesouro aos remidos S[B]eus."
+          "[D]Bem-aventu[Em7]ra - [A]dos somos, ó irm[D]ãos,",
+          "Pois já fomos [A]feitos, [E7]dos céus, cidad[A]ãos;",
+          "Seja a nossa [D]vida consagrada a D[G]eus,",
+          "Que dará real tesouro aos remidos S[A]eus."
         ]
       },
       {

@@ -1,24 +1,25 @@
 {
+  "code": "134",
   "version": "v3",
   "title": "Teu amor, ó Cordeiro divinal",
   "tone": {
-    "recommended": "E"
+    "original": "E",
+    "selected": "E"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["E", "A", "B", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Que [E]obra pode se_igualar à[A]quela sobre_a c[B]ruz?",
-          "Que [E]morte pode resgatar se[A]não a [B7]de Je[E]sus?"
-        ]
+        "text": ["Que [E]obra pode se igualar à[A]quela sobre a c[B]ruz?", "Que [E]morte pode resgatar se[A]não a [B7]de Je[E]sus?"]
       },
       {
         "type": "chorus",
         "text": [
           "Teu a[E]mor, Teu amor, ó Cor[B]deiro divinal,",
-          "Só a[B7]gora é que posso_enten[E]der:",
+          "Só a[B7]gora é que posso enten[E]der:",
           "Tu pa[A]gaste a Deus meu pe[E]cado, meu mal,",
           "E fi[A]zeste fe[B7]liz o meu vi[E]ver."
         ]
@@ -26,10 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Por [E]toda_a minha transgreção mor[A]reu Jesus, o [B]Rei;",
-          "A [E]Sua_imensa compaixão ja[A]mais es[B7]quece[E]rei."
-        ]
+        "text": ["Por [E]toda a minha transgreção mor[A]reu Jesus, o [B]Rei;", "A [E]Sua imensa compaixão ja[A]mais es[B7]quece[E]rei."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Ó [E]meu Jesus, que Te darei por [A]todo esse_a[B]mor?",
-          "Meu [E]ser a Ti entregarei, se[A]rei Teu [B7]servi[E]dor."
-        ]
+        "text": ["Ó [E]meu Jesus, que Te darei por [A]todo esse a[B]mor?", "Meu [E]ser a Ti entregarei, se[A]rei Teu [B7]servi[E]dor."]
       },
       {
         "type": "ref",

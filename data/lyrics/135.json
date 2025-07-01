@@ -1,39 +1,43 @@
 {
+  "code": "135",
   "version": "v3",
   "title": "Bendito o Rei que veio do céu!",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["E", "A", "E", "A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Bendito_o Rei que [Bb]vei - [F]o em nome do Eterno!",
-          "“Hosana nas al[Bb]tu - [F]ras!”, clamava_a [C]multi[F]dão;",
-          "[C]Bendito_o Rei divino, [F]manso, fiel, [G7]fra - [C]terno,",
-          "[F]Dócil e glori[Bb]o - [F]so, Autor da [C]salva[F]ção!"
+          "[E]Bendito o Rei que [A]vei - [E]o em nome do Eterno!",
+          "“Hosana nas al[A]tu - [E]ras!”, clamava a [B]multi[E]dão;",
+          "[B]Bendito o Rei divino, [E]manso, fiel, [Gb7]fra - [B]terno,",
+          "[E]Dócil e glori[A]o - [E]so, Autor da [B]salva[E]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Bendito_o Rei que [Bb]vei - [F]o para vencer a morte",
-          "E dar-nos liber[Bb]da - [F]de para_em jus[C]tiça_an[F]dar.",
-          "[C]Bendito seja sempre, [F]dos fortes o [G7]mais [C]Forte!",
-          "[F]Todos se ale[Bb]gra - [F]vam ao ver Je[C]sus pas[F]sar."
+          "[E]Bendito o Rei que [A]vei - [E]o para vencer a morte",
+          "E dar-nos liber[A]da - [E]de para em jus[B]tiça an[E]dar.",
+          "[B]Bendito seja sempre, [E]dos fortes o [Gb7]mais [B]Forte!",
+          "[E]Todos se ale[A]gra - [E]vam ao ver Je[B]sus pas[E]sar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]A multidão lou[Bb]va - [F]va a Cristo,_o Rei eterno,",
-          "E se regozi[Bb]ja - [F]va de todo_o [C]cora[F]ção;",
-          "[C]Disse_o divino Mestre, [F]cheio do_amor [G7]su - [C]perno:",
-          "“[F]Se estes se ca[Bb]la - [F]rem, as pedras [C]clama[F]rão.”"
+          "[E]A multidão lou[A]va - [E]va a Cristo, o Rei eterno,",
+          "E se regozi[A]ja - [E]va de todo o [B]cora[E]ção;",
+          "[B]Disse o divino Mestre, [E]cheio do amor [Gb7]su - [B]perno:",
+          "“[E]Se estes se ca[A]la - [E]rem, as pedras [B]clama[E]rão.”"
         ]
       }
     ]

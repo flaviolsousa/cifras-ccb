@@ -1,36 +1,35 @@
 {
+  "code": "099",
   "version": "v3",
   "title": "Jesus Cristo é o Amigo celestial",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "E7", "A7", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Se n[G]ós fizermos tudo_o [E7]que nos [A7]manda",
+          "Se n[G]ós fizermos tudo o [E7]que nos [A7]manda",
           "Jesus [D7]Cristo, nosso [G]Redentor.",
           "Chamar-nos-á a todos [E7]de a[A]migos;",
-          "[Cm]Tão so[G]mente_an[A7]demos [D7]em a[G]mor."
+          "[Cm]Tão so[G]mente an[A7]demos [D7]em a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Jesus [D7]Cristo, Jesus [G]Cristo",
-          "É_o A[D7]migo celes[G]tial,",
-          "Amo[Cm]roso e compas[G]sivo;",
-          "É_o A[D7]migo sem ig[G]ual."
-        ]
+        "text": ["Jesus [D7]Cristo, Jesus [G]Cristo", "É o A[D7]migo celes[G]tial,", "Amo[Cm]roso e compas[G]sivo;", "É o A[D7]migo sem ig[G]ual."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "É [G]esse_Amigo que nos [E7]acom[A7]panha",
-          "Na jor[D7]nada rumo_ao [G]lar de Deus;",
+          "É [G]esse Amigo que nos [E7]acom[A7]panha",
+          "Na jor[D7]nada rumo ao [G]lar de Deus;",
           "É Ele que nos fala [E7]dos te[A]souros",
           "[Cm]Que i[G]remos [A7]desfru[D7]tar nos c[G]éus."
         ]
@@ -45,7 +44,7 @@
         "text": [
           "Seus [G]sábios e gloriosos [E7]manda[A7]mentos,",
           "Jesus [D7]Cristo vem nos [G]ensinar;",
-          "Um dia O veremos [E7]face_a [A]face,",
+          "Um dia O veremos [E7]face a [A]face,",
           "[Cm]Ele [G]mesmo [A7]prome[D7]teu vol[G]tar."
         ]
       },

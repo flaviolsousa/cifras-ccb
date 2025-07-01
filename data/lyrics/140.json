@@ -1,20 +1,19 @@
 {
+  "code": "140",
   "version": "v3",
   "title": "Sou feliz",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "A", "Dm", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[F]Vou marchando para_a glória,",
-          "Para_o país celesti[C]al;",
-          "[A]Em Je[Dm]sus terei vi[F]tória",
-          "[C]E a vida eter[F]nal."
-        ]
+        "text": ["[F]Vou marchando para a glória,", "Para o país celesti[C]al;", "[A]Em Je[Dm]sus terei vi[F]tória", "[C]E a vida eter[F]nal."]
       },
       {
         "type": "chorus",
@@ -22,18 +21,13 @@
           "Sou fe[F]liz, sou fe[C]liz,",
           "Pois achei Quem me conduz ao meu pa[F]ís;",
           "Mais feliz, mais fe[C]liz",
-          "Eu serei quando_estiver no meu pa[F]ís."
+          "Eu serei quando estiver no meu pa[F]ís."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[F]É glorioso_e inefável",
-          "O meu país celesti[C]al,",
-          "[A]De ri[Dm]queza_inigua[F]lável",
-          "[C]E de glória pere[F]nal."
-        ]
+        "text": ["[F]É glorioso e inefável", "O meu país celesti[C]al,", "[A]De ri[Dm]queza inigua[F]lável", "[C]E de glória pere[F]nal."]
       },
       {
         "type": "ref",
@@ -42,12 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[F]Todos nos separaremos,",
-          "Aqui no mundo de la[C]bor,",
-          "[A]Mas ao [Dm]fim nos uni[F]remos",
-          "[C]No país de esplen[F]dor."
-        ]
+        "text": ["[F]Todos nos separaremos,", "Aqui no mundo de la[C]bor,", "[A]Mas ao [Dm]fim nos uni[F]remos", "[C]No país de esplen[F]dor."]
       },
       {
         "type": "ref",

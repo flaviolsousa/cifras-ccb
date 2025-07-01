@@ -1,10 +1,14 @@
 {
+  "code": "093",
   "version": "v3",
   "title": "Aceitando ao Senhor...",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",

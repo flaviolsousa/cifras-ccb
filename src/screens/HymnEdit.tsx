@@ -105,16 +105,41 @@ const HymnEdit = () => {
         },
       };
 
+      // lógica para extrair acordes da primeira estrofe
       const firstStanza = formattedHymn.score.stanzas[0];
       if (firstStanza && firstStanza.text && firstStanza.text.length > 0) {
-        const firstLine = firstStanza.text[0];
-        const extractedChords: string[] = [];
+        // Junta todas as linhas em uma só string
+        const allLines = firstStanza.text.join(" ");
         const chordRegex = /\[([^\]|]+)(\|[^\]]*)?\]/g;
+        const allChords: string[] = [];
         let match;
-        while ((match = chordRegex.exec(firstLine)) !== null) {
-          extractedChords.push(match[1]);
+        while ((match = chordRegex.exec(allLines)) !== null) {
+          allChords.push(match[1]);
         }
-        formattedHymn.score.introduction.push(...extractedChords);
+
+        // Remove repetições consecutivas
+        const uniqueChords: string[] = [];
+        for (let i = 0; i < allChords.length; i++) {
+          if (i === 0 || allChords[i] !== allChords[i - 1]) {
+            uniqueChords.push(allChords[i]);
+          }
+        }
+
+        // Limita o tamanho do array conforme preferências
+        let intro = uniqueChords;
+        if (intro.length > 9) intro = intro.slice(0, 9);
+        const firstChord = intro[0];
+
+        let i = 2;
+        let introSliced: string[] | undefined = undefined;
+        while (i < intro.length) {
+          if (intro[i] == firstChord) {
+            introSliced = intro.slice(0, i + 1);
+            if (i + 1 >= 4) break;
+          }
+          i++;
+        }
+        formattedHymn.score.introduction = introSliced || intro;
       }
 
       formattedHymn.score.stanzas.forEach((stanza: any) => {
@@ -146,17 +171,38 @@ const HymnEdit = () => {
     // Adjust tone for stanzas
     hymn.score.stanzas.forEach((stanza) => {
       if (!stanza.text) return;
-      stanza.text = stanza.text.map((line) =>
-        line.replace(/\[([^\]|]+)(\|[^\]]*)?\]/g, (_, chord, annotation = "") => {
+      stanza.text = stanza.text.map((line) => {
+        console.log("Adjusting line:", line);
+        return line.replace(/\[([^\]|]+)(\|[^\]]*)?\]/g, (_, chord, annotation = "") => {
+          let chordSymbol = "";
+          if (chord.endsWith("°")) {
+            chord = chord.slice(0, -1);
+            chordSymbol = "°";
+          }
+
           let transposedChord = direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString();
           transposedChord = CHORD_MAP[transposedChord] || transposedChord;
-          return `[${transposedChord}${annotation}]`;
-        }),
-      );
+          return `[${transposedChord}${chordSymbol}${annotation}]`;
+        });
+      });
     });
 
     setHymn({ ...hymn });
   };
+
+  // Keyboard shortcut ESC for web to go back
+  useEffect(() => {
+    if (Platform.OS !== "web") return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        navigation.goBack();
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [navigation]);
 
   if (!hymn) return null;
 

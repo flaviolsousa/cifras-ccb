@@ -1,44 +1,48 @@
 {
+  "code": "105",
   "version": "v3",
   "title": "Volta ao teu lar Paternal!",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E7", "A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Ó irmão que deixaste a casa do Senhor,",
-          "[F#7]Não mais andes longe [B]do teu Pai celestial;",
-          "Ele quer perdoar-te, por Seu sublime_amor;",
-          "[F#7]Volta ao teu lar Pater[B]nal![B]..."
+          "[A]Ó irmão que deixaste a casa do Senhor,",
+          "[E7]Não mais andes longe [A]do teu Pai celestial;",
+          "Ele quer perdoar-te, por Seu sublime amor;",
+          "[E7]Volta ao teu lar Pater[A]nal![A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Ao lar que desprezaste, oh! volta, sem tardar,",
-          "[F#7]Pois só nele_encontras p[B]az e consolação;",
+          "[A]Ao lar que desprezaste, oh! volta, sem tardar,",
+          "[E7]Pois só nele encontras p[A]az e consolação;",
           "Tuas culpas confessa, sem nada ocultar,",
-          "[F#7]Grandioso_é_o Deus do perd[B]ão.[B]..."
+          "[E7]Grandioso é o Deus do perd[A]ão.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]O bom Pai te espera e quer te acolher,",
-          "[F#7]E, nos céus, os anjos [B]se regozijarão;",
+          "[A]O bom Pai te espera e quer te acolher,",
+          "[E7]E, nos céus, os anjos [A]se regozijarão;",
           "De virtude e luz o Senhor te quer prover",
-          "[F#7]E, ao fim, te dar salvaç[B]ão."
+          "[E7]E, ao fim, te dar salvaç[A]ão."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[B]Vai, ó pródigo, vai", "Do [F#7]pão do céu te sac[B]iar;", "Deus te quer perdo[E]ar", "[F°]E  t[B]eus[F#7]    pecados la[B]var."]
+        "text": ["[A]Vai, ó pródigo, vai", "Do [E7]pão do céu te sac[A]iar;", "Deus te quer perdo[D]ar", "[Eb°]E t[A]eus[E7] pecados la[A]var."]
       }
     ]
   }

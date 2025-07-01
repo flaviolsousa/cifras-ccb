@@ -1,49 +1,53 @@
 {
+  "code": "101",
   "version": "v3",
   "title": "Cantemos, juntos, louvores a Deus",
   "tone": {
-    "recommended": "G"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Can[G]temos, juntos, lou[D]vores a D[G]eus",
-          "E [C]celebremos [D]ao Senhor;",
-          "Com [G]júbilo ele[D]vemos aos c[G]éus",
-          "Tri[C]butos santos ao [D]Cria[G]dor."
+          "Can[D]temos, juntos, lou[A]vores a D[D]eus",
+          "E [G]celebremos [A]ao Senhor;",
+          "Com [D]júbilo ele[A]vemos aos c[D]éus",
+          "Tri[G]butos santos ao [A]Cria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "E[G]ternamente pre[D]side_o Sen[G]hor,",
-          "Seus [C]dias não se [D]findarão;",
-          "Pros[G]tremo-nos ante [D]Deus, Cria[G]dor,",
-          "Pois [C]somos obra da [D]Sua m[G]ão."
+          "E[D]ternamente pre[A]side o Sen[D]hor,",
+          "Seus [G]dias não se [A]findarão;",
+          "Pros[D]tremo-nos ante [A]Deus, Cria[D]dor,",
+          "Pois [G]somos obra da [A]Sua m[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó [G]vinde e ado[D]remos, por [G]fé,",
-          "Ao [C]Deus que nos fez [D]povo Seu;",
-          "O[G]nipresente e [D]santo_Ele [G]é",
-          "E [C]prometeu nos le[D]var ao [G]céu."
+          "Ó [D]vinde e ado[A]remos, por [D]fé,",
+          "Ao [G]Deus que nos fez [A]povo Seu;",
+          "O[D]nipresente e [A]santo Ele [D]é",
+          "E [G]prometeu nos le[A]var ao [D]céu."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Se [G]hoje_ouvirmos a [D]voz do Sen[G]hor,",
-          "De[C]vemos logo_o[D]bedecer,",
-          "Pois [G]o repouso no [D]reino de_a[G]mor,",
-          "De [C]Deus, o Pai, vamos [D]rece[G]ber."
+          "Se [D]hoje ouvirmos a [A]voz do Sen[D]hor,",
+          "De[G]vemos logo o[A]bedecer,",
+          "Pois [D]o repouso no [A]reino de a[D]mor,",
+          "De [G]Deus, o Pai, vamos [A]rece[D]ber."
         ]
       }
     ]

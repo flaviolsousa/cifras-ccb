@@ -1,10 +1,14 @@
 {
+  "code": "106",
   "version": "v3",
   "title": "Em nome do nosso Redentor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",

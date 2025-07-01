@@ -1,45 +1,49 @@
 {
+  "code": "107",
   "version": "v3",
   "title": "O fim de tudo chegará",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "F#m", "B", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O f[F]im de tudo chegará, ou[Gm]vi, [C]peca[F]dores,",
-          "Só Cristo vos perdoará e [Gm]vida v[C]os da[F]rá;",
-          "O fim está bem perto, bem [Gm]per-[C]to, bem p[F]erto,",
-          "Fazei então concerto com [Gm]Quem vos q[C]uer salv[F]ar;",
-          "Ó vin[C]de, contri[F]tos, dep[C]ressa, sem tard[F]ar,",
-          "A Cris[C]to piedo[F]so, que a [Gm]glória v[C]os quer d[F]ar."
+          "O f[E]im de tudo chegará, ou[F#m]vi, [B]peca[E]dores,",
+          "Só Cristo vos perdoará e [F#m]vida v[B]os da[E]rá;",
+          "O fim está bem perto, bem [F#m]per-[B]to, bem p[E]erto,",
+          "Fazei então concerto com [F#m]Quem vos q[B]uer salv[E]ar;",
+          "Ó vin[B]de, contri[E]tos, dep[B]ressa, sem tard[E]ar,",
+          "A Cris[B]to piedo[E]so, que a [F#m]glória v[B]os quer d[E]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ar[F]rependei-vos e aceitai a [Gm]Cris[C]to, o Cor[F]deiro;",
-          "A Ele as culpas confessai e o [Gm]mundo [C]rejeit[F]ai;",
-          "Não desprezeis a sorte, pois [Gm]grande [C]é essa s[F]orte",
-          "Que livrará da morte e [Gm]do et[C]erno ard[F]or;",
-          "Da i[C]ra vindou[F]ra vos l[C]ivra o redent[F]or;",
-          "Perfei[C]to refúg[F]io é [Gm]Cristo, o S[C]alvad[F]or."
+          "Ar[E]rependei-vos e aceitai a [F#m]Cris[B]to, o Cor[E]deiro;",
+          "A Ele as culpas confessai e o [F#m]mundo [B]rejeit[E]ai;",
+          "Não desprezeis a sorte, pois [F#m]grande [B]é essa s[E]orte",
+          "Que livrará da morte e [F#m]do et[B]erno ard[E]or;",
+          "Da i[B]ra vindou[E]ra vos l[B]ivra o redent[E]or;",
+          "Perfei[B]to refúg[E]io é [F#m]Cristo, o S[B]alvad[E]or."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó v[F]inde já vos entregar, Je[Gm]sus v[C]os conv[F]ida",
-          "E quer a Deus vos adotar, tam[Gm]bém her[C]ança d[F]ar;",
-          "É grande Seu afeto, di[Gm]vi - [C]no af[F]eto,",
-          "É o Seu amor, perfeito, po[Gm]tente [C]a salv[F]ar;",
-          "Ó vin[C]de, depres[F]sa, as b[C]ênçãos desfrut[F]ar,",
-          "Com glór[C]ia eter[F]na i[Gm]reis no c[C]éu rein[F]ar."
+          "Ó v[E]inde já vos entregar, Je[F#m]sus v[B]os conv[E]ida",
+          "E quer a Deus vos adotar, tam[F#m]bém her[B]ança d[E]ar;",
+          "É grande Seu afeto, di[F#m]vi - [B]no af[E]eto,",
+          "É o Seu amor, perfeito, po[F#m]tente [B]a salv[E]ar;",
+          "Ó vin[B]de, depres[E]sa, as b[B]ênçãos desfrut[E]ar,",
+          "Com glór[B]ia eter[E]na i[F#m]reis no c[B]éu rein[E]ar."
         ]
       }
     ]

@@ -1,38 +1,42 @@
 {
+  "code": "117",
   "version": "v3",
   "title": "Jesus habita em meu coração",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "B", "Em", "A7", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao [A]Salvador vivente eu sirvo com amor,",
-          "Por Sua [C#]vida [F#m]tenho re[B7]al consola[E7]ção;",
-          "Que [A]vive, é bem certo, Jesus, o Redentor,",
-          "Pois [B7]Sua voz eu sinto no cora[E]ção."
+          "Ao [G]Salvador vivente eu sirvo com amor,",
+          "Por Sua [B]vida [Em]tenho re[A7]al consola[D7]ção;",
+          "Que [G]vive, é bem certo, Jesus, o Redentor,",
+          "Pois [A7]Sua voz eu sinto no cora[D]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Je[A]sus, Je[A7]sus ha[D]bita_em meu cora[A]ção;",
-          "An[E]dar com Ele_e_ou[A]vir-Lhe_a voz é, [B7]para mim, um pra[E7]zer.",
-          "Je[A]sus, Je[A7]sus, Au[D]tor da salva[C#]ção,",
-          "É_a [F#7]Fonte_eterna [B7]do sa[B7]ber, é_a [E]Vida do meu [A]ser."
+          "Je[G]sus, Je[G7]sus ha[C]bita em meu cora[G]ção;",
+          "An[D]dar com Ele e ou[G]vir-Lhe a voz é, [A7]para mim, um pra[D7]zer.",
+          "Je[G]sus, Je[G7]sus, Au[C]tor da salva[B]ção,",
+          "É a [E7]Fonte eterna [A7]do sa[A7]ber, é a [D]Vida do meu [G]ser."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Em [A]mim se manifesta a vida de Jesus,",
-          "Por fé es[C#]tou u[F#m]nido ao [B7]Pai celesti[E7]al,",
-          "E [A]nada deste mundo agora me seduz,",
-          "Pois [B7]Cristo me separa de todo_o [E]mal."
+          "Em [G]mim se manifesta a vida de Jesus,",
+          "Por fé es[B]tou u[Em]nido ao [A7]Pai celesti[D7]al,",
+          "E [G]nada deste mundo agora me seduz,",
+          "Pois [A7]Cristo me separa de todo o [D]mal."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ju[A]bila, sim, jubila e canta, ó cristão,",
-          "Alegre[C#]mente_e[F#m]xalta a [B7]Cristo,_excelso [E7]Rei;",
-          "Bem [A]perto já se_encontra a tua redenção,",
-          "Con[B7]serva-te unido à Sua [E]grei."
+          "Ju[G]bila, sim, jubila e canta, ó cristão,",
+          "Alegre[B]mente e[Em]xalta a [A7]Cristo, excelso [D7]Rei;",
+          "Bem [G]perto já se encontra a tua redenção,",
+          "Con[A7]serva-te unido à Sua [D]grei."
         ]
       },
       {

@@ -1,19 +1,23 @@
 {
+  "code": "136",
   "version": "v3",
   "title": "Benignidade eterna é a de Deus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7", "D", "A", "E7", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[D]Benignidade e[A7]terna é a de Deus, Cria[D]dor,",
-          "Que escreveu nossos [A]nomes [E7]no céu, a pátria de_a[A]mor;",
+          "Que escreveu nossos [A]nomes [E7]no céu, a pátria de a[A]mor;",
           "[D]Regozijemo-nos [A7]de cora[D]ção, can[A7]temos-Lhe g[D]lória;",
-          "Ele, por Seu grande_a[A7]mor, nos da[D]rá com[A7]pleta vi[D]tória."
+          "Ele, por Seu grande a[A7]mor, nos da[D]rá com[A7]pleta vi[D]tória."
         ]
       },
       {
@@ -43,7 +47,7 @@
           "[D]Por Sua grande bon[A7]dade, Deus, nosso Pai, nos cha[D]mou;",
           "Para a vida e[A]terna [E7]Ele nos predesti[A]nou;",
           "[D]Seja bendito o [A7]Nome de [D]Deus, o [A7]Onipo[D]tente;",
-          "Nome que é, para [A7]todo_o fi[D]el, so[A7]corro pre[D]sente."
+          "Nome que é, para [A7]todo o fi[D]el, so[A7]corro pre[D]sente."
         ]
       }
     ]

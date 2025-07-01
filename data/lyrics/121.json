@@ -1,38 +1,42 @@
 {
+  "code": "121",
   "version": "v3",
   "title": "O meu socorro vem do Senhor",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O meu so[E]corro vem do Se[B]nhor,",
-          "Que_é, do_uni[B7]verso, o Cria[E]dor;",
-          "Tudo se move por Seu po[A]der,",
-          "Sempre, por [B]Ele, hei de ven[E]cer."
+          "O meu so[D]corro vem do Se[A]nhor,",
+          "Que é, do uni[A7]verso, o Cria[D]dor;",
+          "Tudo se move por Seu po[G]der,",
+          "Sempre, por [A]Ele, hei de ven[D]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "É Deus Quem [E]guarda a Sua_igreja,",
-          "Não adormece, [F#7]nem tosque[B]neja;",
-          "[E]Não deixará teu pé vaci[A]lar",
-          "Nas lutas [B]que tens de enfren[E]tar."
+          "É Deus Quem [D]guarda a Sua igreja,",
+          "Não adormece, [E7]nem tosque[A]neja;",
+          "[D]Não deixará teu pé vaci[G]lar",
+          "Nas lutas [A]que tens de enfren[D]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Em todo_o [E]tempo ando com [B]Deus,",
-          "Que me pro[B7]mete vida nos c[E]éus;",
-          "Se_eu for humilde me guarda[A]rá,",
-          "Para a [B]glória me leva[E]rá."
+          "Em todo o [D]tempo ando com [A]Deus,",
+          "Que me pro[A7]mete vida nos c[D]éus;",
+          "Se eu for humilde me guarda[G]rá,",
+          "Para a [A]glória me leva[D]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Eu glori[E]fico ao Cria[B]dor,",
-          "Por ter man[B7]dado o Salva[E]dor",
-          "Para me dar fé, vida_e per[A]dão,",
-          "E, no Seu [B]reino, o galar[E]dão."
+          "Eu glori[D]fico ao Cria[A]dor,",
+          "Por ter man[A7]dado o Salva[D]dor",
+          "Para me dar fé, vida e per[G]dão,",
+          "E, no Seu [A]reino, o galar[D]dão."
         ]
       },
       {

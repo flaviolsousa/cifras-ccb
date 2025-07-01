@@ -1,38 +1,42 @@
 {
+  "code": "091",
   "version": "v3",
   "title": "No esconderijo do Onipotente",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]No_esconderijo do Onipo[A]tente,",
-          "Sempre do mal preservado_esta[D]rás",
-          "E, sobrevindo a [G]prova ar[D]dente,",
-          "[G]Com Sua [D]sombra co[A]berto se[D]rás."
+          "[C]No esconderijo do Onipo[G]tente,",
+          "Sempre do mal preservado esta[C]rás",
+          "E, sobrevindo a [F]prova ar[C]dente,",
+          "[F]Com Sua [C]sombra co[G]berto se[C]rás."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]O Criador [A]te_esconde[D]rá",
-          "Em Seu seguro a[A]brigo;",
-          "[D]Ao teu redor Se [G]acampa[D]rá,",
-          "[G]Não teme[D]rás o_ini[A]mi-[D]go."
+          "[C]O Criador [G]te esconde[C]rá",
+          "Em Seu seguro a[G]brigo;",
+          "[C]Ao teu redor Se [F]acampa[C]rá,",
+          "[F]Não teme[C]rás o ini[G]mi-[C]go."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Florescerás como toda_a pal[A]meira",
-          "E, como_o cedro, assim cresce[D]rás;",
-          "Nada_embargar pode_a [G]tua ca[D]rreira",
-          "[G]E desta [D]graça ja[A]mais cai[D]rás."
+          "[C]Florescerás como toda a pal[G]meira",
+          "E, como o cedro, assim cresce[C]rás;",
+          "Nada embargar pode a [F]tua ca[C]rreira",
+          "[F]E desta [C]graça ja[G]mais cai[C]rás."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Não temerás a braveza dos [A]mares",
-          "E nem, da noite, espanto te[D]rás;",
-          "Se do escudo da [G]fé te ar[D]mares,",
-          "[G]Teu ini[D]migo por [A]terra ve[D]rás."
+          "[C]Não temerás a braveza dos [G]mares",
+          "E nem, da noite, espanto te[C]rás;",
+          "Se do escudo da [F]fé te ar[C]mares,",
+          "[F]Teu ini[C]migo por [G]terra ve[C]rás."
         ]
       },
       {

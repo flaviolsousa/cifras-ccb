@@ -1,38 +1,42 @@
 {
+  "code": "103",
   "version": "v3",
   "title": "Bendize, ó minha alma",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "Am", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Bendize,_ó minha [F]al-[C]ma, ao [Am]teu amado Sen[G]hor,",
-          "Ben[C]dize_o Nome do e[F]terno [F]Deus; é g[C]rande o b[G]em que te f[C]az;",
+          "[C]Bendize, ó minha [F]al-[C]ma, ao [Am]teu amado Sen[G]hor,",
+          "Ben[C]dize o Nome do e[F]terno [F]Deus; é g[C]rande o b[G]em que te f[C]az;",
           "[G]Nunca te esqueças [C]do amor e [D]do celestial fa[G]vor;",
-          "É [C]Ele Quem perdoa_os [F]erros [F]teus e [C]te dá con[G]forto e p[C]az."
+          "É [C]Ele Quem perdoa os [F]erros [F]teus e [C]te dá con[G]forto e p[C]az."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Ao Pai da_Eterni[F]da-[C]de,",
-          "[G7]Grande_em benignida[C]de,",
+          "[C]Ao Pai da Eterni[F]da-[C]de,",
+          "[G7]Grande em benignida[C]de,",
           "Glória e [C7]majes[F]tade,",
-          "Do[C]mínio, [G]honra_e lou[C]vor!"
+          "Do[C]mínio, [G]honra e lou[C]vor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Todo_o meu ser ben[F]di-[C]ga ao [Am]Deus que dá perfeiç[G]ão;",
-          "O [C]bálsamo que me_ali[F]via_a [F]dor, do S[C]eu santo t[G]rono pro[C]vém;",
+          "[C]Todo o meu ser ben[F]di-[C]ga ao [Am]Deus que dá perfeiç[G]ão;",
+          "O [C]bálsamo que me ali[F]via a [F]dor, do S[C]eu santo t[G]rono pro[C]vém;",
           "[G]Ele afastou, por S[C]eu amor, de m[D]im a grande maldiç[G]ão;",
-          "E, [C]aos que cumprem Sua_e[F]terna [F]lei, re[C]serva no c[G]éu sumo [C]bem."
+          "E, [C]aos que cumprem Sua e[F]terna [F]lei, re[C]serva no c[G]éu sumo [C]bem."
         ]
       },
       {
@@ -45,7 +49,7 @@
         "text": [
           "[C]Oh! Bendizei-O [F]sem[C]pre, vós [Am]todos, os santos S[G]eus,",
           "E [C]todos vós que sempre [F]O ser[F]vis, o S[C]eu Nome [G]engrande[C]cei;",
-          "[G]Ele é fiel, é [C]justo_e bom, e [D]para todo_o sempre_é D[G]eus;",
+          "[G]Ele é fiel, é [C]justo e bom, e [D]para todo o sempre é D[G]eus;",
           "Vós [C]todos que sois filhos [F]do Se[F]nhor, a [C]Ele so[G]mente te[C]mei."
         ]
       },

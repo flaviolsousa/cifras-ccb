@@ -1,33 +1,28 @@
 {
+  "code": "132",
   "version": "v3",
   "title": "Eis-me, Senhor, aos Teus pés",
   "tone": {
-    "recommended": "B"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Eis-me, Senhor, aos Teus pés [F#]para Te ado[B]rar;",
-          "De coração sin[E]cero [C#7]quero me consa[F#]grar."
-        ]
+        "text": ["[G]Eis-me, Senhor, aos Teus pés [D]para Te ado[G]rar;", "De coração sin[C]cero [A7]quero me consa[D]grar."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[F#]Eis que estou dis[B]posto[G#7] a Te o[D#]bede[G#m]cer,",
-          "[E]Mas só com Teu au[B]xílio [F#]eu poderei ven[B]cer."
-        ]
+        "text": ["[D]Eis que estou dis[G]posto[E7] a Te o[B]bede[Em]cer,", "[C]Mas só com Teu au[G]xílio [D]eu poderei ven[G]cer."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[B]Com Teu poder somente, [F#]Teu servidor se[B]rei;",
-          "A paz que Tu me [E]deste, [C#7]ao mundo_anuncia[F#]rei."
-        ]
+        "text": ["[G]Com Teu poder somente, [D]Teu servidor se[G]rei;", "A paz que Tu me [C]deste, [A7]ao mundo anuncia[D]rei."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Humildemente_aguardo [F#]Teu santo ope[B]rar;",
-          "Em Tua sã Pa[E]lavra [C#7]vou sempre confi[F#]ar."
-        ]
+        "text": ["[G]Humildemente aguardo [D]Teu santo ope[G]rar;", "Em Tua sã Pa[C]lavra [A7]vou sempre confi[D]ar."]
       },
       {
         "type": "ref",

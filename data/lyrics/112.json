@@ -1,35 +1,33 @@
 {
+  "code": "112",
   "version": "v3",
   "title": "Sigamos sempre ao Senhor",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Ir[E]mãos, avante com nosso Rei, o [B]santo Liberta[E]dor;",
-          "Permaneçamos na Sua lei, si[B]gamos sempre_ao Se[E]nhor."
-        ]
+        "text": ["Ir[D]mãos, avante com nosso Rei, o [A]santo Liberta[D]dor;", "Permaneçamos na Sua lei, si[A]gamos sempre ao Se[D]nhor."]
       },
       {
         "type": "chorus",
         "text": [
-          "Je[E]sus nos conduzirá aos céus,",
-          "Si[A]gamos [E]sempre_ao Se[B]nhor;",
-          "Ha[E]bitaremos com nosso Deus ",
-          "No [A]reino [B]de esplen[E]dor."
+          "Je[D]sus nos conduzirá aos céus,",
+          "Si[G]gamos [D]sempre ao Se[A]nhor;",
+          "Ha[D]bitaremos com nosso Deus ",
+          "No [G]reino [A]de esplen[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "O [E]Evangelho nos conduziu a [B]Cristo, o Reden[E]tor,",
-          "Que, nossas almas, do mal remiu; sir[B]vamos sempre_ao Se[E]nhor."
-        ]
+        "text": ["O [D]Evangelho nos conduziu a [A]Cristo, o Reden[D]tor,", "Que, nossas almas, do mal remiu; sir[A]vamos sempre ao Se[D]nhor."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "De[E]vemos sempre obedecer aos [B]Seus preceitos de_a[E]mor",
-          "E Seus conselhos em nós reter; a[B]memos sempre_ao Se[E]nhor."
-        ]
+        "text": ["De[D]vemos sempre obedecer aos [A]Seus preceitos de a[D]mor", "E Seus conselhos em nós reter; a[A]memos sempre ao Se[D]nhor."]
       },
       {
         "type": "ref",

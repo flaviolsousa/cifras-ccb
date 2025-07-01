@@ -1,48 +1,52 @@
 {
+  "code": "097",
   "version": "v3",
   "title": "Cristo Jesus, nosso bom Pastor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "A7", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Como ovelhas que não têm ne[B7]nhum pas[E]tor,",
-          "[E7]Longe do bem e do amor do Cria[A]dor,",
-          "Todos andávamos no mal, [D]sem enxer[Bm]gar",
-          "[E]O bom caminho [A]celes[F#m]tial [E]para tril[A]har.[A]..."
+          "[G]Como ovelhas que não têm ne[A7]nhum pas[D]tor,",
+          "[D7]Longe do bem e do amor do Cria[G]dor,",
+          "Todos andávamos no mal, [C]sem enxer[Am]gar",
+          "[D]O bom caminho [G]celes[Em]tial [D]para tril[G]har.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Há um rebanho_e um Pastor, que [B7]é Jes[E]us;",
-          "[E7]Suas ovelhas, com amor, sempre con[A]duz;",
-          "Elas somente_atenderão [D]ao Seu fa[Bm]lar,",
-          "[E]E só a Ele [A]segui[F#m]rão  s[E]em vaci[A]lar.[A]..."
+          "[G]Há um rebanho e um Pastor, que [A7]é Jes[D]us;",
+          "[D7]Suas ovelhas, com amor, sempre con[G]duz;",
+          "Elas somente atenderão [C]ao Seu fa[Am]lar,",
+          "[D]E só a Ele [G]segui[Em]rão s[D]em vaci[G]lar.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Vamos seguir ao bom Jesus, Su[B7]mo Pas[E]tor;",
-          "[E7]Com Seu cajado nos conduz ao lar de_a[A]mor,",
-          "Onde repouso haverá [D]junto a [Bm]Deus,",
-          "[E]E nada mais per[A]turba[F#m]rá   [E]os santos S[A]eus."
+          "[G]Vamos seguir ao bom Jesus, Su[A7]mo Pas[D]tor;",
+          "[D7]Com Seu cajado nos conduz ao lar de a[G]mor,",
+          "Onde repouso haverá [C]junto a [Am]Deus,",
+          "[D]E nada mais per[G]turba[Em]rá [D]os santos S[G]eus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Cristo Jesus, nosso bom Pas[E7]tor,",
-          "Nos agregou pelo [F#m]Seu  [E]a - [A]mor;",
-          "Sobre a cruz muito padec[D]eu;",
-          "Pelas o[A]vel[A7]has, S[D]ua [E]vida d[A]eu."
+          "[G]Cristo Jesus, nosso bom Pas[D7]tor,",
+          "Nos agregou pelo [Em]Seu [D]a - [G]mor;",
+          "Sobre a cruz muito padec[C]eu;",
+          "Pelas o[G]vel[G7]has, S[C]ua [D]vida d[G]eu."
         ]
       }
     ]

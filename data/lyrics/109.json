@@ -1,33 +1,28 @@
 {
+  "code": "109",
   "version": "v3",
   "title": "Vem, ó Senhor, ajudar-me",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["B", "F#7", "B", "F#7", "B"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Vem, ó Senhor, aju[F#7]dar-me nas minhas tribula[B]ções.",
-          "Eu, confiante,_espero [F#7]Tuas liberta[B]ções."
-        ]
+        "text": ["[B]Vem, ó Senhor, aju[F#7]dar-me nas minhas tribula[B]ções.", "Eu, confiante, espero [F#7]Tuas liberta[B]ções."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[B]Vem ajudar-me [F#7]sempre, ó forte Defen[B]sor,",
-          "Para que nesta [E]vida [F#7]possa ser vence[B]dor."
-        ]
+        "text": ["[B]Vem ajudar-me [F#7]sempre, ó forte Defen[B]sor,", "Para que nesta [E]vida [F#7]possa ser vence[B]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[B]Vem, ó Senhor, aju[F#7]dar-me neste meu peregri[B]nar;",
-          "Nas provações e lutas [F#7]podes me abri[B]gar."
-        ]
+        "text": ["[B]Vem, ó Senhor, aju[F#7]dar-me neste meu peregri[B]nar;", "Nas provações e lutas [F#7]podes me abri[B]gar."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Vem, ó Senhor, aju[F#7]dar-me para poder bata[B]lhar;",
-          "Reveste-me de força [F#7]para não vaci[B]lar."
-        ]
+        "text": ["[B]Vem, ó Senhor, aju[F#7]dar-me para poder bata[B]lhar;", "Reveste-me de força [F#7]para não vaci[B]lar."]
       },
       {
         "type": "ref",

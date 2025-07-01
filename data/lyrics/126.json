@@ -1,38 +1,42 @@
 {
+  "code": "126",
   "version": "v3",
   "title": "Levemos a mensagem de amor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Le[A]vemos a mensagem de a[E]mor",
-          "Aos que não têm a graça do Sen[A]hor;",
-          "Anunciando o perdão e_a di[D]vina salvação",
-          "De Je[E]sus, o Reden[A]tor."
+          "Le[G]vemos a mensagem de a[D]mor",
+          "Aos que não têm a graça do Sen[G]hor;",
+          "Anunciando o perdão e a di[C]vina salvação",
+          "De Je[D]sus, o Reden[G]tor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "De Jes[A]us, Sua luz",
-          "Levaremos aos que_estão na_escuri[E]dão;",
-          "Anun[A]ciemos, irmãos, que em [D]Cristo,_o Salvador,",
-          "Tem per[E]dão o peca[A]dor."
+          "De Jes[G]us, Sua luz",
+          "Levaremos aos que estão na escuri[D]dão;",
+          "Anun[G]ciemos, irmãos, que em [C]Cristo, o Salvador,",
+          "Tem per[D]dão o peca[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Por [A]terra, pelo ar e pelo [E]mar,",
-          "O Evangelho vamos procla[A]mar;",
-          "Falaremos do amor de Je[D]sus, o Salvador,",
-          "Que re[E]dime_o peca[A]dor."
+          "Por [G]terra, pelo ar e pelo [D]mar,",
+          "O Evangelho vamos procla[G]mar;",
+          "Falaremos do amor de Je[C]sus, o Salvador,",
+          "Que re[D]dime o peca[G]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A[A]inda muitos, no pecado,_es[E]tão,",
-          "Sem conhecer tão grande salvaç[A]ão;",
-          "Anunciemos-lhes a luz que se_en[D]contra em Jesus,",
-          "Luz que [E]salva_o peca[A]dor."
+          "A[G]inda muitos, no pecado, es[D]tão,",
+          "Sem conhecer tão grande salvaç[G]ão;",
+          "Anunciemos-lhes a luz que se en[C]contra em Jesus,",
+          "Luz que [D]salva o peca[G]dor."
         ]
       },
       {

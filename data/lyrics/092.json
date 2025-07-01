@@ -1,44 +1,48 @@
 {
+  "code": "092",
   "version": "v3",
   "title": "O santo Evangelho",
   "tone": {
-    "recommended": "E"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]O santo Evangelho todo_o [A]homem [B7]deve_ou[E]vir;",
-          "Ele [B7]é fi[E]el es[B7]pelho que reflete [F#]o por[B7]vir;",
-          "Re[E]flete [A]a gran[E]deza do a[B7]mor do [F#]Salva[B7]dor",
-          "E nos [C#m]dá re[E7]al cer[A]teza do Seu [E]reino [B7]de_esplen[E]dor."
+          "[D]O santo Evangelho todo o [G]homem [A7]deve ou[D]vir;",
+          "Ele [A7]é fi[D]el es[A7]pelho que reflete [E]o por[A7]vir;",
+          "Re[D]flete [G]a gran[D]deza do a[A7]mor do [E]Salva[A7]dor",
+          "E nos [Bm]dá re[D7]al cer[G]teza do Seu [D]reino [A7]de esplen[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]O santo Evangelho pelo [A]mundo_e[B7]coa[E]rá;",
-          "Deve_o [B7]homem [E]enten[B7]dê-Lo e, então, se [F#]salva[B7]rá.",
-          "Con[E]forta [A]nossas [E]almas e nos [B7]traz con[F#]sola[B7]ção,",
-          "Transmi[C#m]tindo [E7]paz e [A]calma nesta [E]pere[B7]grina[E]ção."
+          "[D]O santo Evangelho pelo [G]mundo e[A7]coa[D]rá;",
+          "Deve o [A7]homem [D]enten[A7]dê-Lo e, então, se [E]salva[A7]rá.",
+          "Con[D]forta [G]nossas [D]almas e nos [A7]traz con[E]sola[A7]ção,",
+          "Transmi[Bm]tindo [D7]paz e [G]calma nesta [D]pere[A7]grina[D]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]No santo Evangelho de Je[A]sus, o [B7]Reden[E]tor,",
-          "Encon[B7]tramos [E]o con[B7]selho que nos leva_ao [F#]Cria[B7]dor;",
-          "Je[E]sus, Cor[A]deiro [E]santo, trouxe [B7]nossa [F#]reden[B7]ção;",
-          "Ento[C#m]emos [E7]nosso [A]canto para [E]Sua_e[B7]xalta[E]ção."
+          "[D]No santo Evangelho de Je[G]sus, o [A7]Reden[D]tor,",
+          "Encon[A7]tramos [D]o con[A7]selho que nos leva ao [E]Cria[A7]dor;",
+          "Je[D]sus, Cor[G]deiro [D]santo, trouxe [A7]nossa [E]reden[A7]ção;",
+          "Ento[Bm]emos [D7]nosso [G]canto para [D]Sua e[A7]xalta[D]ção."
         ]
       },
       {
         "type": "chorus",
-        "text": ["Salva[B7]ção! Salva[E]ção!", "Vida_e[A]terna [B7]e per[E]dão!", "Diz o [B7]som de a[E]mor", "Do_Evan[E]gelho do [B7]Reden[E]tor."]
+        "text": ["Salva[A7]ção! Salva[D]ção!", "Vida e[G]terna [A7]e per[D]dão!", "Diz o [A7]som de a[D]mor", "Do Evan[D]gelho do [A7]Reden[D]tor."]
       }
     ]
   }

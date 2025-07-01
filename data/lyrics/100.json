@@ -1,39 +1,43 @@
 {
+  "code": "100",
   "version": "v3",
   "title": "Todos juntos, jubilemos",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "A7", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Para [B]esta vocação celeste, [B7]Deus nos tem cha[E]mado,",
-          "Glória [F#7]e louvor nós damos [B]ao Senhor!",
-          "Dentre_os povos e as tribos fomos [B7]nós com[E]prados [D#7]por Je[C#m]sus,",
-          "Lou[F#7]vemos nosso Remi[B]dor!"
+          "Para [A]esta vocação celeste, [A7]Deus nos tem cha[D]mado,",
+          "Glória [E7]e louvor nós damos [A]ao Senhor!",
+          "Dentre os povos e as tribos fomos [A7]nós com[D]prados [Db7]por Je[Bm]sus,",
+          "Lou[E7]vemos nosso Remi[A]dor!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Todos [F#7]juntos, jubilemos de um [B]coração sincero,",
-          "Dando [E]honra_e [G#7]glória_ao [C#7]nosso Reden[F#7]tor;",
-          "O seu [B]sangue precioso",
-          "Ele [B7]derra[E]mou por [D#7]nós a [C#m]cruz;",
-          "Re[F#7]midos somos do Sen[B]hor."
+          "Todos [E7]juntos, jubilemos de um [A]coração sincero,",
+          "Dando [D]honra e [Gb7]glória ao [B7]nosso Reden[E7]tor;",
+          "O seu [A]sangue precioso",
+          "Ele [A7]derra[D]mou por [Db7]nós a [Bm]cruz;",
+          "Re[E7]midos somos do Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jesus [B]Cristo, nosso Mestre, é_o Pri[B7]meiro_e_o Derra[E]deiro,",
-          "É o [F#7]Rei dos reis, de todos [B]é Senhor;",
-          "Ele nos conserva_unidos o ca[B7]minho [E]de jus[D#7]tiça_e [C#m]paz;",
-          "Ben[F#7]dito seja_o Reden[B]tor!"
+          "Jesus [A]Cristo, nosso Mestre, é o Pri[A7]meiro e o Derra[D]deiro,",
+          "É o [E7]Rei dos reis, de todos [A]é Senhor;",
+          "Ele nos conserva unidos o ca[A7]minho [D]de jus[Db7]tiça e [Bm]paz;",
+          "Ben[E7]dito seja o Reden[A]tor!"
         ]
       },
       {
@@ -44,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com Jes[B]us, celeste_Esposo, para [B7]sempre reina[E]remos",
-          "No Seu [F#7]lar de_amor, lugar de [B]esplendor;",
-          "Como Ele nós seremos, no Seu [B7]reino [E]eter[D#7]nal de [C#m]luz;",
-          "Oh! [F#7]Glória_ao nosso Salva[B]dor!"
+          "Com Jes[A]us, celeste Esposo, para [A7]sempre reina[D]remos",
+          "No Seu [E7]lar de amor, lugar de [A]esplendor;",
+          "Como Ele nós seremos, no Seu [A7]reino [D]eter[Db7]nal de [Bm]luz;",
+          "Oh! [E7]Glória ao nosso Salva[A]dor!"
         ]
       },
       {

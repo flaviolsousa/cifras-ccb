@@ -1,17 +1,21 @@
 {
+  "code": "115",
   "version": "v3",
   "title": "Minha alma engrandece...",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Minha alma_engran[C]dece_ao meu Salva[G]dor, que para mim aten[D]tou;",
-          "[G]Meu espírito [C]sente_o grande a[G]mor de Deus, que me [D]perdo[G]ou.",
+          "[G]Minha alma engran[C]dece ao meu Salva[G]dor, que para mim aten[D]tou;",
+          "[G]Meu espírito [C]sente o grande a[G]mor de Deus, que me [D]perdo[G]ou.",
           "Redimida [D]por Seu grande fa[G]vor, minha alma louva a [D]Deus.",
           "[G]Com Seu sangue pre[C]cioso, o Reden[G]tor pagou os pe[D]cados [G]meus."
         ]
@@ -20,8 +24,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Sorte entre_os re[C]midos me conce[G]deu Jesus, o meu Salva[D]dor;",
-          "[G]Deu-me a liber[C]dade para ser[G]vir a Deus com sin[D]cero_a[G]mor;",
+          "[G]Sorte entre os re[C]midos me conce[G]deu Jesus, o meu Salva[D]dor;",
+          "[G]Deu-me a liber[C]dade para ser[G]vir a Deus com sin[D]cero a[G]mor;",
           "Cristo conver[D]teu o meu cora[G]ção com o Seu eterno po[D]der",
           "[G]E as trevas do [C]mal também dissi[G]pou; agora eu [D]posso [G]ver."
         ]
@@ -30,7 +34,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Pela luz da Pa[C]lavra sinto_o Se[G]nhor que, com amor, me con[D]duz;",
+          "[G]Pela luz da Pa[C]lavra sinto o Se[G]nhor que, com amor, me con[D]duz;",
           "[G]Forças recebe[C]rei, virtude, sa[G]ber e fé no Se[D]nhor Je[G]sus;",
           "Finalmente [D]entrarei lá no [G]céu para ver a face de [D]Deus;",
           "[G]Oh! Que felici[C]dade Cristo me [G]deu, pois vou habi[D]tar nos [G]céus."

@@ -1,38 +1,42 @@
 {
+  "code": "128",
   "version": "v3",
   "title": "Teu filho sou, ó Criador",
   "tone": {
-    "recommended": "B"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "B", "E", "E7", "A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Ó Deus, meu Pai, graças Te [F#]dou",
-          "Por desfrutar da Tua l[B]uz;",
-          "Prosperarei [B7]em Ti, Se[E]nhor,",
-          "Tua Pa[B]lavra [F#]me con[B]duz."
+          "[E]Ó Deus, meu Pai, graças Te [B]dou",
+          "Por desfrutar da Tua l[E]uz;",
+          "Prosperarei [E7]em Ti, Se[A]nhor,",
+          "Tua Pa[E]lavra [B]me con[E]duz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Teu filho sou, ó Cria[C#m]dor,",
-          "Me ado[F#]taste, em Je[B]sus;",
-          "Santo_e sublime_é Teu a[E]mor;",
-          "Vivo fe[B]liz em [F#]Tua l[B]uz."
+          "[E]Teu filho sou, ó Cria[F#m]dor,",
+          "Me ado[B]taste, em Je[E]sus;",
+          "Santo e sublime é Teu a[A]mor;",
+          "Vivo fe[E]liz em [B]Tua l[E]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Faz-me, Senhor, um vaso [F#]Teu,",
-          "Cheio de fé e de a[B]mor,",
-          "Para poder [B7]sempre hon[E]rar",
-          "Teu santo [B]Nome, [F#]ó Sen[B]hor."
+          "[E]Faz-me, Senhor, um vaso [B]Teu,",
+          "Cheio de fé e de a[E]mor,",
+          "Para poder [E7]sempre hon[A]rar",
+          "Teu santo [E]Nome, [B]ó Sen[E]hor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]A Ti, Senhor, recorre[F#]rei,",
-          "Para poder me abri[B]gar",
-          "De todo_o mal [B7]e tenta[E]ção,",
-          "Enquanto_a[B]qui pe[F#]regri[B]nar."
+          "[E]A Ti, Senhor, recorre[B]rei,",
+          "Para poder me abri[E]gar",
+          "De todo o mal [E7]e tenta[A]ção,",
+          "Enquanto a[E]qui pe[B]regri[E]nar."
         ]
       },
       {

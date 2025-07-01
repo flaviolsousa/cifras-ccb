@@ -1,38 +1,42 @@
 {
+  "code": "098",
   "version": "v3",
   "title": "Cristo Jesus tudo pode",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Tudo_entreguemos a [E7]Cristo Jesus,",
-          "Nosso clamor Ele [A]pode_atender;",
-          "Somente_andemos a [B7]senda de l[E]uz",
-          "[B7]E confiante iremos vi[E]ver.[E7]..."
+          "[G]Tudo entreguemos a [D7]Cristo Jesus,",
+          "Nosso clamor Ele [G]pode atender;",
+          "Somente andemos a [A7]senda de l[D]uz",
+          "[A7]E confiante iremos vi[D]ver.[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Cristo Jes[D]us tudo [A]pode;",
-          "[E7]Conosco_está, [A]bênçãos dará;",
-          "Ele do c[D]éu nos so[A]cor[A7]re",
-          "[D]E nada [E7]nos falta[A]rá."
+          "[G]Cristo Jes[C]us tudo [G]pode;",
+          "[D7]Conosco está, [G]bênçãos dará;",
+          "Ele do c[C]éu nos so[G]cor[G7]re",
+          "[C]E nada [D7]nos falta[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Nosso conforto es[E7]tá em Jesus;",
-          "Paz e_alegria só [A]Ele nos dá;",
-          "Somente Ele é [B7]Quem nos con[E]duz;",
-          "[B7]O Redentor nunca nos deixa[E]rá.[E7]..."
+          "[G]Nosso conforto es[D7]tá em Jesus;",
+          "Paz e alegria só [G]Ele nos dá;",
+          "Somente Ele é [A7]Quem nos con[D]duz;",
+          "[A7]O Redentor nunca nos deixa[D]rá.[D7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Sem o Senhor, não po[E7]demos andar",
-          "Em Seu caminho de [A]vida_e de_amor;",
-          "Por Sua graça, Je[B7]sus quer nos [E]dar",
-          "[B7]Fé e virtude, firmeza_e va[E]lor.[E7]..."
+          "[G]Sem o Senhor, não po[D7]demos andar",
+          "Em Seu caminho de [G]vida e de amor;",
+          "Por Sua graça, Je[A7]sus quer nos [D]dar",
+          "[A7]Fé e virtude, firmeza e va[D]lor.[D7]..."
         ]
       },
       {

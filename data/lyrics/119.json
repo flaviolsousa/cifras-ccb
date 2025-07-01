@@ -1,49 +1,53 @@
 {
+  "code": "119",
   "version": "v3",
   "title": "Luz aos meus pés é a Tua Palavra",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Luz aos meus pés é [A]Tua sã Pa[B]lavra,",
-          "Luz para_o [E]meu caminho, [B]ó Sen[E]hor; ",
-          "Ela sustém min[A]h´alma e me [G#]salva",
-          "De [A]to - [B]do_o [E]mal, no [B7]mundo sedu[E]tor."
+          "[D]Luz aos meus pés é [G]Tua sã Pa[A]lavra,",
+          "Luz para o [D]meu caminho, [A]ó Sen[D]hor; ",
+          "Ela sustém min[G]h´alma e me [F#]salva",
+          "De [G]to - [A]do o [D]mal, no [A7]mundo sedu[D]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          " [E]A ser perfeito, [A]Tua lei me_en[B]sina;",
-          "É_o que de[E]sejo, ó Se[B]nhor, meu D[E]eus;",
-          "A minha mente [A]ela ilu[G#]mina",
-          "E [A]me [B]con[E]serva [B7]nos caminhos [E]Teus."
+          " [D]A ser perfeito, [G]Tua lei me en[A]sina;",
+          "É o que de[D]sejo, ó Se[A]nhor, meu D[D]eus;",
+          "A minha mente [G]ela ilu[F#]mina",
+          "E [G]me [A]con[D]serva [A7]nos caminhos [D]Teus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Meditarei no [A]sábio Teu con[B]selho;",
-          "Nele cons[E]tantemente [B]pensa[E]rei,",
-          "Pois ele é ce[A]lestial es[G#]pelho;",
-          "Em [A]Teus [B]pre[E]ceitos [B7]me alegra[E]rei."
+          "[D]Meditarei no [G]sábio Teu con[A]selho;",
+          "Nele cons[D]tantemente [A]pensa[D]rei,",
+          "Pois ele é ce[G]lestial es[F#]pelho;",
+          "Em [G]Teus [A]pre[D]ceitos [A7]me alegra[D]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "[E]Guardo em mim os [A]Teus ensina[B]mentos",
-          "Que, por a[E]mor, envias, [B]ó Sen[E]hor;",
-          "E cumprirei Teus [A]santos manda[G#]mentos",
-          "Por [A]Je - [B]sus C[E]risto, [B7]justo Reden[E]tor."
+          "[D]Guardo em mim os [G]Teus ensina[A]mentos",
+          "Que, por a[D]mor, envias, [A]ó Sen[D]hor;",
+          "E cumprirei Teus [G]santos manda[F#]mentos",
+          "Por [G]Je - [A]sus C[D]risto, [A7]justo Reden[D]tor."
         ]
       }
     ]

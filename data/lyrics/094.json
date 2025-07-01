@@ -1,19 +1,23 @@
 {
+  "code": "094",
   "version": "v3",
   "title": "Quem sustenta a nossa vida",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G7", "C", "C7", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Quem sus[C]tenta_a nossa vida é_a Pa[G7]lavra do Senhor,",
+          "Quem sus[C]tenta a nossa vida é a Pa[G7]lavra do Senhor,",
           "Que anima, edifica e nos traz consola[C]ção,",
-          "E que une_a alma_humilde ao a[C7]mor do Reden[F]tor;",
-          "É_a Palavra pode[C]rosa que faz [G]crer na salva[C]ção."
+          "E que une a alma humilde ao a[C7]mor do Reden[F]tor;",
+          "É a Palavra pode[C]rosa que faz [G]crer na salva[C]ção."
         ]
       },
       {
@@ -21,8 +25,8 @@
         "text": [
           "A Pa[G7]lavra do bom [C]Criador é a [G7]Guia do re[C]mido",
           "Na jor[G7]nada a ca[C]minho das mo[D7]radas do Fi[G]el;",
-          "É Pa[C]lavra de vir[F]tude, que le[G]vanta o_aba[C]tido;",
-          "É Espada de dois [F]gumes, é o [G]Verbo,_Emanu[C]el."
+          "É Pa[C]lavra de vir[F]tude, que le[G]vanta o aba[C]tido;",
+          "É Espada de dois [F]gumes, é o [G]Verbo, Emanu[C]el."
         ]
       },
       {
@@ -30,8 +34,8 @@
         "code": "2",
         "text": [
           "Procla[C]memos que Jesus não tarda[G7]rá em retornar,",
-          "Vamos sempre_obedecê-Lo e de coração O_a[C]mar;",
-          "Estejamos vigilantes, espe[C7]rando_o Seu vol[F]tar,",
+          "Vamos sempre obedecê-Lo e de coração O a[C]mar;",
+          "Estejamos vigilantes, espe[C7]rando o Seu vol[F]tar,",
           "Pois em breve a trom[C]beta todos [G]vamos escu[C]tar."
         ]
       },
@@ -44,9 +48,9 @@
         "code": "3",
         "text": [
           "Não se[C]jamos ociosos em ser[G7]vir o grande Rei,",
-          "Mas sejamos fervorosos para sempre_O aten[C]der;",
+          "Mas sejamos fervorosos para sempre O aten[C]der;",
           "Com as divinais virtudes cumpri[C7]remos Sua [F]lei,",
-          "Subiremos para_a g[C]lória, lar do_O[G]nipotente [C]Ser."
+          "Subiremos para a g[C]lória, lar do O[G]nipotente [C]Ser."
         ]
       },
       {

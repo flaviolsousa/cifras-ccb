@@ -30,6 +30,7 @@ let levelMissingCount = 0;
 let chordsUpdatedCount = 0;
 let rhythmUpdatedCount = 0;
 let rhythmMissingCount = 0;
+let errorMessages = [];
 
 /**
  * Updates the hymn level based on the lyrics file
@@ -44,7 +45,7 @@ function updateHymnLevel(hymn, lyrics, code) {
     console.log(`Added level ${lyrics.level} to hymn ${code} - ${hymn.title}`);
     return true;
   } else {
-    console.warn(`No level found in lyrics file for hymn ${code} - ${hymn.title}`);
+    // console.warn(`No level found in lyrics file for hymn ${code} - ${hymn.title}`);
     return false;
   }
 }
@@ -109,7 +110,7 @@ function updateHymnRhythm(hymn, lyrics, code) {
     console.log(`Added rhythm "${lyrics.rhythm}" to hymn ${code} - ${hymn.title}`);
     return true;
   } else {
-    console.warn(`No rhythm found in lyrics file for hymn ${code} - ${hymn.title}`);
+    // console.warn(`No rhythm found in lyrics file for hymn ${code} - ${hymn.title}`);
     return false;
   }
 }
@@ -136,6 +137,15 @@ hymns = hymns.map((hymn) => {
       // Read the lyrics file
       const lyricsData = fs.readFileSync(lyricsPath, "utf8");
       const lyrics = JSON.parse(lyricsData);
+
+      // Step 4: Validate that lyrics.code matches the filename
+      const filenameCode = path.basename(lyricsPath, ".json");
+      if (lyrics.code && lyrics.code != filenameCode) {
+        console.log(` ## lyricsPath= ${lyricsPath}`);
+        console.log(` ## lyrics.code="${lyrics.code}" - filenameCode="${filenameCode}"`);
+        errorMessages.push(`###\n\n\nCode mismatch: lyrics file "${filenameCode}.json" has code "${lyrics.code}". Skipping this file.\n\n\n###`);
+        return hymn;
+      }
 
       // 1. Update level
       if (updateHymnLevel(hymn, lyrics, code)) {
@@ -176,6 +186,7 @@ try {
   console.log(`Updated ${chordsUpdatedCount} hymns with chord information`);
   console.log(`Updated ${rhythmUpdatedCount} hymns with rhythm information`);
   console.log(`Missing rhythm information for ${rhythmMissingCount} hymns`);
+  console.error(errorMessages.join("\n"));
 } catch (error) {
   console.error("Error saving updated Hymns.json:", error);
 }

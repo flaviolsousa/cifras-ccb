@@ -2,36 +2,37 @@
   "code": "082",
   "version": "v3",
   "title": "Oh! Que grande amor!",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["G", "C", "G", "D7", "G", "Am", "C", "Am"],
+    "introduction": ["G", "C", "D7", "Am", "C", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Pade[C]ceu [G]dura [D7]mor-[G]te por [Am]nós, sobre a c[C]ruz, [Am]...",
-          "O [D7]Rei dos r[G]eis;[D7]...",
-          "[G]Por [D7]Seu g[G]ran[C]de a[G]mor [C]ao céu conduz[E7][Am]...",
-          "Os S[G]eus re[D7]midos fi[G]éis."
+          "[G] Pade[C]ceu dura [D7]morte por [Am]nós, sobre a c[C]ruz,.[D7]..",
+          "O Rei dos r[G]eis;",
+          "[D7]Por Seu g[G]rande a[C]mor ao [C]céu con[Am]duz.[G]..",
+          "Os Seus re[D7]midos fi[G]éis."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[G]Oh! Que g[C]ran[E7]de a-[Am]mor,", "[D7]Que sub[G]lime amor", "Nos con[D7]cede Jes[G]us!", "[C]Ele é a [D7]nossa eterna L[G]uz."]
+        "text": ["[G]Oh! Que g[C]rande a-[Am]mor,", "Que sub[G]lime amor", "Nos con[D7]cede Jes[G]us!", "[C]Ele é a [D7]nossa eterna L[G]uz."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "G[G]rati[C]dão n[G]ós de[D7]ve - [G]mos ao [Am]nosso Sen[C]hor,[Am]...",
-          "O [D7]Rei dos r[G]eis;[D7]...",
-          "Q[G]ue [D7]nos [G]le-[C]va-[G]rá [C]ao Criador,[E7][Am]...",
-          "Se em [G]tudo [D7]formos fi[G]éis."
+          "[G] Grati[C]dão nós de[D7]vemos ao [Am]nosso Sen[C]hor,.[D7]..",
+          "O Rei dos r[G]eis;",
+          "[D7]Que nos [G]leva[C]rá ao [C]Cria[Am]dor,.[G]..",
+          "Se em tudo [D7]formos fi[G]éis."
         ]
       },
       {
@@ -42,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Na ci[C]da-[G]de é[D7]ter-[G]na de [Am]paz divi[C]nal,[Am]...",
-          "O [D7]Rei dos r[G]eis;[D7]...",
-          "[G]Hon[D7]ra - [G]rá, c[C]om g[G]ló-r[C]ia perenal,[E7][Am]...",
-          "Os S[G]eus a[D7]mados fi[G]éis."
+          "[G] Na ci[C]dade é[D7]terna de [Am]paz divi[C]nal,.[D7]..",
+          "O Rei dos r[G]eis;",
+          "[D7]Honra[G]rá, com g[C]ló-ria [C]pere[Am]nal,.[G]..",
+          "Os Seus a[D7]mados fi[G]éis."
         ]
       },
       {

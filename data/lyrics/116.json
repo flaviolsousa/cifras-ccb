@@ -1,29 +1,33 @@
 {
+  "code": "116",
   "version": "v3",
   "title": "Amo ao Senhor",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "A7", "D", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Amo_ao Senhor, pois ouviu-me q[G]uando cla[C]mei;",
-          "Ele_inclinou Seus ouvi[A7]dos q[D]uando o[G]rei;",
-          "Tive tris[C]teza, [C7]tive_afli[A7]ção,[Dm]...",
-          "[G7]Mas Deus man[Am]dou-[D#°]me   [G7]consolaç[C]ão."
+          "[C]Amo ao Senhor, pois ouviu-me q[G]uando cla[C]mei;",
+          "Ele inclinou Seus ouvi[A7]dos q[D]uando o[G]rei;",
+          "Tive tris[C]teza, [C7]tive afli[A7]ção,[Dm]...",
+          "[G7]Mas Deus man[Am]dou-[D#°]me [G7]consolaç[C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]É piedoso_e sublime, [G]o justo D[C]eus;",
+          "[C]É piedoso e sublime, [G]o justo D[C]eus;",
           "Ele tem misericór[A7]dia [D]dos santos S[G]eus.",
           "Volta, min[C]h´alma, [C7]a descan[A7]sar,[Dm]...",
-          "[G7]Bênção pre[Am]cio-[D#°]sas  [G7]Deus vai te [C]dar."
+          "[G7]Bênção pre[Am]cio-[D#°]sas [G7]Deus vai te [C]dar."
         ]
       },
       {
@@ -33,7 +37,7 @@
           "[C]Meus pés livraste da queda, [G]ó meu Sen[C]hor,",
           "E preservaste do pran[A7]to T[D]eu servi[G]dor.",
           "Que posso [C]dar-Te [C7]por esse [A7]bem,[Dm]...",
-          "[G7]Que tão so[Am]men-[D#°]te   [G7]de Ti pro[C]vém?!"
+          "[G7]Que tão so[Am]men-[D#°]te [G7]de Ti pro[C]vém?!"
         ]
       },
       {
@@ -41,9 +45,9 @@
         "code": "4",
         "text": [
           "[C]Elevarei meus louvores [G]a Ti, ó D[C]eus,",
-          "Diante de todo_o Teu po[A7]vo, n[D]os átrios T[G]eus.",
+          "Diante de todo o Teu po[A7]vo, n[D]os átrios T[G]eus.",
           "Teu santo [C]Nome [C7]invoca[A7]rei;[Dm]...",
-          "[G7]Com minha [Am]vi - [D#°]da   [G7]Te servi[C]rei."
+          "[G7]Com minha [Am]vi - [D#°]da [G7]Te servi[C]rei."
         ]
       }
     ]

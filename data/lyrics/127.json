@@ -1,16 +1,20 @@
 {
+  "code": "127",
   "version": "v3",
   "title": "Meu bom Jesus, Contigo almejo estar",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Meu bom Jesus, Con[G]tigo_almejo_es[D]tar",
+          "[D]Meu bom Jesus, Con[G]tigo almejo es[D]tar",
           "E, só por Ti, viver e cami[A]nhar,",
           "[D]Para poder me [G]proteger do [D]mal",
           "E, [A]ao final, vi[D]ver na pátria [A]eter[D]nal."
@@ -18,19 +22,16 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Vem, Jesus, Redentor, nas [G]lutas me_aju[D]dar;",
-          "Em [A]Ti desejo_in[D]teiramente [A]confi[D]ar."
-        ]
+        "text": ["[D]Vem, Jesus, Redentor, nas [G]lutas me aju[D]dar;", "Em [A]Ti desejo in[D]teiramente [A]confi[D]ar."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
           "[D]Meu bom Jesus, ó [G]Fonte de a[D]mor,",
-          "Almejo_ouvir a Tua voz, Se[A]nhor;",
-          "[D]Faz-me viver cum[G]prindo_o Teu que[D]rer",
-          "E [A]rejeitando_o [D]mundo_e todo_o [A]seu pra[D]zer."
+          "Almejo ouvir a Tua voz, Se[A]nhor;",
+          "[D]Faz-me viver cum[G]prindo o Teu que[D]rer",
+          "E [A]rejeitando o [D]mundo e todo o [A]seu pra[D]zer."
         ]
       },
       {
@@ -43,8 +44,8 @@
         "text": [
           "[D]Meu bom Jesus, sus[G]tém meu cora[D]ção;",
           "Longe de Ti não há consola[A]ção;",
-          "[D]Ó Salvador, Con[G]tigo_almejo_es[D]tar;",
-          "Com [A]toda_a alma, [D]quero_a Ti me [A]consag[D]rar."
+          "[D]Ó Salvador, Con[G]tigo almejo es[D]tar;",
+          "Com [A]toda a alma, [D]quero a Ti me [A]consag[D]rar."
         ]
       },
       {

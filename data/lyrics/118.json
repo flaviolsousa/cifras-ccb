@@ -1,39 +1,43 @@
 {
+  "code": "118",
   "version": "v3",
   "title": "Fiel Salvador é Jesus",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Fi[D]el Salvador é Je[G]sus, o meu [D]Rei,",
-          "O meu poderoso Sen[A]hor;",
-          "Es[D]tando_em perigo, re[G]fúgio terei",
-          "À [A]sombra do meu Reden[D]tor."
+          "Fi[C]el Salvador é Je[F]sus, o meu [C]Rei,",
+          "O meu poderoso Sen[G]hor;",
+          "Es[C]tando em perigo, re[F]fúgio terei",
+          "À [G]sombra do meu Reden[C]tor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Es[A7]tou abrigado em [D]meu Salvador,",
-          "Ne[A7]nhum mal me pode_atin[D]gir.",
-          "Jesus tem por mim entra[G]nhável amor,",
-          "A[A]mor que não posso_expri[D]mir!",
-          "A[A]mor que não posso_expri[D]mir!"
+          "Es[G7]tou abrigado em [C]meu Salvador,",
+          "Ne[G7]nhum mal me pode atin[C]gir.",
+          "Jesus tem por mim entra[F]nhável amor,",
+          "A[G]mor que não posso expri[C]mir!",
+          "A[G]mor que não posso expri[C]mir!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Por [D]nome, Jesus, o Sen[G]hor, me cha[D]mou,",
-          "Minh´alma preciosa Lhe [A]é;",
-          "Com [D]Seu grande_amor Ele [G]me circundou,",
-          "Fir[A]mou-me na graça_e na [D]fé."
+          "Por [C]nome, Jesus, o Sen[F]hor, me cha[C]mou,",
+          "Minh´alma preciosa Lhe [G]é;",
+          "Com [C]Seu grande amor Ele [F]me circundou,",
+          "Fir[G]mou-me na graça e na [C]fé."
         ]
       },
       {
@@ -44,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A [D]fúria das águas ja[G]mais teme[D]rei,",
-          "Jesus me dará Sua m[A]ão;",
-          "Pas[D]sando no fogo, não [G]me queimarei,",
-          "Com [A]Sua fiel prote[D]ção."
+          "A [C]fúria das águas ja[F]mais teme[C]rei,",
+          "Jesus me dará Sua m[G]ão;",
+          "Pas[C]sando no fogo, não [F]me queimarei,",
+          "Com [G]Sua fiel prote[C]ção."
         ]
       },
       {

@@ -1,38 +1,42 @@
 {
+  "code": "122",
   "version": "v3",
   "title": "Alegrei-me quando me disseram...",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eu [A]alegrei-me quando me di[E]sseram:",
-          "“Oh! Vamos para_a [E7]casa do Sen[A]hor”,",
-          "Pois nela_os santos sempre rece[E]beram",
-          "[B]As bênçãos do eterno Cria[E]dor.[E7]..."
+          "Eu [G]alegrei-me quando me di[D]sseram:",
+          "“Oh! Vamos para a [D7]casa do Sen[G]hor”,",
+          "Pois nela os santos sempre rece[D]beram",
+          "[A]As bênçãos do eterno Cria[D]dor.[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Somos a nação a[E]bençoada,",
-          "Nação de Deus, unida_em Seu a[A]mor,",
-          "Somos Sua [A7]geração a[D]mada;",
-          "Por n[A]ós é [E]Deus, o Cria[A]dor."
+          "[G]Somos a nação a[D]bençoada,",
+          "Nação de Deus, unida em Seu a[G]mor,",
+          "Somos Sua [G7]geração a[C]mada;",
+          "Por n[G]ós é [D]Deus, o Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A [A]santa, gloriosa lei e[E]terna,",
-          "Na Sua casa_en[E7]sina o Sen[A]hor;",
-          "Ouvimos nela sempre_a voz Pa[E]terna",
-          "[B]E os juízos de Deus, Forma[E]dor.[E7]..."
+          "A [G]santa, gloriosa lei e[D]terna,",
+          "Na Sua casa en[D7]sina o Sen[G]hor;",
+          "Ouvimos nela sempre a voz Pa[D]terna",
+          "[A]E os juízos de Deus, Forma[D]dor.[D7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Paz [A]haja entre nós continua[E]mente,",
-          "Prosperidade_e [E7]celestial a[A]mor;",
-          "Por essa paz divina, exce[E]lente,",
-          "[B]A Deus oremos sempre com fer[E]vor.[E7]..."
+          "Paz [G]haja entre nós continua[D]mente,",
+          "Prosperidade e [D7]celestial a[G]mor;",
+          "Por essa paz divina, exce[D]lente,",
+          "[A]A Deus oremos sempre com fer[D]vor.[D7]..."
         ]
       },
       {

@@ -1,38 +1,42 @@
 {
+  "code": "114",
   "version": "v3",
   "title": "Clama ao Mestre, Cristo Jesus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Quando te sen[E]tires aba[B]tido,",
-          "[F#7]Cristo te_estende [B]a Sua mão;",
-          "Ele_é_o santo_e [E]verdadeiro_A[B]migo,",
-          "[F#7]Ele_é a tua Por[B]ção."
+          "[A]Quando te sen[D]tires aba[A]tido,",
+          "[E7]Cristo te estende [A]a Sua mão;",
+          "Ele é o santo e [D]verdadeiro A[A]migo,",
+          "[E7]Ele é a tua Por[A]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[F#7]Clama ao Mestre, [B]Cristo Jesus;",
-          "[E]D´Ele_o po[B]der senti[F#7]rás;",
-          "[B]Ele disse: “[E]Eis que_estou con[B]vosco”;",
-          "[F#7]Cristo é Quem te con[B]duz."
+          "[E7]Clama ao Mestre, [A]Cristo Jesus;",
+          "[D]D´Ele o po[A]der senti[E7]rás;",
+          "[A]Ele disse: “[D]Eis que estou con[A]vosco”;",
+          "[E7]Cristo é Quem te con[A]duz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Quando esti[E]veres pertur[B]bado,",
-          "[F#7]Busca de Cristo [B]paz e vigor;",
-          "Não te deixa[E]rá desani[B]mado",
-          "[F#7]O teu fiel Salva[B]dor."
+          "[A]Quando esti[D]veres pertur[A]bado,",
+          "[E7]Busca de Cristo [A]paz e vigor;",
+          "Não te deixa[D]rá desani[A]mado",
+          "[E7]O teu fiel Salva[A]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Vindo sobre [E]ti ardente [B]prova,",
-          "[F#7]Bate à porta [B]do Criador",
-          "Que, por Cristo,_as [E]forças te re[B]nova",
-          "[F#7]E te fará vence[B]dor."
+          "[A]Vindo sobre [D]ti ardente [A]prova,",
+          "[E7]Bate à porta [A]do Criador",
+          "Que, por Cristo, as [D]forças te re[A]nova",
+          "[E7]E te fará vence[A]dor."
         ]
       },
       {

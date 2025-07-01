@@ -1,42 +1,40 @@
 {
+  "code": "108",
   "version": "v3",
   "title": "É Jesus a Fonte de riqueza",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "É Je[G]sus a Fonte de ri[D]queza, nosso_Escudo, nossa Forta[G]leza;",
-          "É a [C]nossa Luz, nosso [G]Precursor, é_o Ca[D]minho_e bom Pas[G]tor."
+          "É Je[G]sus a Fonte de ri[D]queza, nosso Escudo, nossa Forta[G]leza;",
+          "É a [C]nossa Luz, nosso [G]Precursor, é o Ca[D]minho e bom Pas[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "É Je[G]sus a Rocha preci[D]osa, a Verdade_eterna_e glori[G]osa;",
-          "D´Ele [C]temos fé para [G]O seguir e rei[D]narmos no por[G]vir."
-        ]
+        "text": ["É Je[G]sus a Rocha preci[D]osa, a Verdade eterna e glori[G]osa;", "D´Ele [C]temos fé para [G]O seguir e rei[D]narmos no por[G]vir."]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "É Je[G]sus a nossa_eterna [D]Sorte, Sua obra aboliu a [G]morte;",
-          "Derra[C]mou na cruz sangue_ex[G]piador; resga[D]tou-nos o Sen[G]hor."
+          "É Je[G]sus a nossa eterna [D]Sorte, Sua obra aboliu a [G]morte;",
+          "Derra[C]mou na cruz sangue ex[G]piador; resga[D]tou-nos o Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "É Je[G]sus o Rei vitori[D]oso, o Sublime, Santo_e Pode[G]roso;",
-          "É o_Au[C]tor da fé e Con[G]sumador; é, de [D]tudo, o Sen[G]hor."
-        ]
+        "text": ["É Je[G]sus o Rei vitori[D]oso, o Sublime, Santo e Pode[G]roso;", "É o Au[C]tor da fé e Con[G]sumador; é, de [D]tudo, o Sen[G]hor."]
       }
     ]
   }

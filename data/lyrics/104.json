@@ -1,24 +1,28 @@
 {
+  "code": "104",
   "version": "v3",
   "title": "Santo, Santo és, Senhor",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["E", "B", "F#", "B"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["A [F]Ti, ó Senhor, tributamos louvor,", "Honra_e glória por Teu infini[C]to [G]fa-[C]vor."]
+        "text": ["A [E]Ti, ó Senhor, tributamos louvor,", "Honra e glória por Teu infini[B]to [F#]fa-[B]vor."]
       },
       {
         "type": "chorus",
-        "text": ["[F]Santo, Santo és, Senhor; Santo, Santo és [C]Tu;", "[F]Só a Ti todo_o louvor per[Bb]ten-[C]ce, Sen[F]hor.[F]..."]
+        "text": ["[E]Santo, Santo és, Senhor; Santo, Santo és [B]Tu;", "[E]Só a Ti todo o louvor per[A]ten-[B]ce, Sen[E]hor.[E]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["A[F]mado Jesus, celestial Rei dos reis,", "Brevemente_estarão, junto_a Ti, T[C]eus [G]fi-[C]éis."]
+        "text": ["A[E]mado Jesus, celestial Rei dos reis,", "Brevemente estarão, junto a Ti, T[B]eus [F#]fi-[B]éis."]
       },
       {
         "type": "ref",
@@ -27,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Em [F]breve no céus, Teus remidos, Senhor,", "Viverão para sempre no rei[C]no [G]de_a[C]mor."]
+        "text": ["Em [E]breve no céus, Teus remidos, Senhor,", "Viverão para sempre no rei[B]no [F#]de a[B]mor."]
       },
       {
         "type": "ref",

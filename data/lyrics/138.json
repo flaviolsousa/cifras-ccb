@@ -1,10 +1,14 @@
 {
+  "code": "138",
   "version": "v3",
   "title": "Louvemos ao bom Jesus",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +16,7 @@
         "text": [
           "Dos [A]céus, com glória, surgirá a [E]celestial ci[A]dade;",
           "Cidade santa onde Deus co[E]nosco esta[A]rá.",
-          "Na[E]quele reino_eterno há [A]paz e_amor superno;",
+          "Na[E]quele reino eterno há [A]paz e amor superno;",
           "Louvor e glória [F#m]ao Senhor da[Bm]remos [E]com fer[A]vor."
         ]
       },
@@ -23,25 +27,25 @@
           "Ja[A]mais devemos vacilar nas [E]tentações e [A]provas;",
           "Não nos cansemos de lutar, o[E]rando sem ces[A]sar;",
           "Por [E]Cristo, nossa Glória, te[A]remos a vitória,",
-          "Então veremos [F#m]o_esplendor do [Bm]reino [E]do Sen[A]hor."
+          "Então veremos [F#m]o esplendor do [Bm]reino [E]do Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Je[A]sus mui breve voltará, Glo[E]rioso_e_Onipo[A]tente,",
-          "Nas nuvens nos acolherá e_a [E]Si nos uni[A]rá;",
-          "Com [E]Ele subiremos e,_en[A]tão, contemplaremos",
-          "O nosso_eterno [F#m]Criador no [Bm]reino [E]de_esplen[A]dor."
+          "Je[A]sus mui breve voltará, Glo[E]rioso e Onipo[A]tente,",
+          "Nas nuvens nos acolherá e a [E]Si nos uni[A]rá;",
+          "Com [E]Ele subiremos e, en[A]tão, contemplaremos",
+          "O nosso eterno [F#m]Criador no [Bm]reino [E]de esplen[A]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[A]Louvemos ao bom Jesus, [E]Rei da paz, [A]Rei da luz;",
-          "Louvemos ao bom Jesus, que [E]para_o céu con[A]duz;",
-          "A_i[E]greja reunida com C[A]risto,_eterna Vida,",
+          "Louvemos ao bom Jesus, que [E]para o céu con[A]duz;",
+          "A i[E]greja reunida com C[A]risto, eterna Vida,",
           "Entoará, ao [F#m]Criador, um [Bm]hino [E]de lou[A]vor."
         ]
       }
