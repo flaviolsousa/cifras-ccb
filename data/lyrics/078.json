@@ -1,28 +1,33 @@
 {
+  "code": "078",
   "version": "v3",
   "title": "Glória a Jesus! Glória a Jesus!",
+  "level": 2,
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Sobre_o monte_e pe[D]rante_os Seus",
+          "[G]Sobre o monte e pe[D]rante os Seus",
           "Cristo transfigu[G]rou-Se,",
           "E a voz do e[D]terno Deus,",
-          "Da nuvem, fez-se_ou[G]vir:",
-          "“Este_é_o Meu Filho_a[C]ma - [G]do; n´Ele Eu Me com[A7]pra - [D]zo.”"
+          "Da nuvem, fez-se ou[G]vir:",
+          "“Este é o Meu Filho a[C]ma - [G]do; n´Ele Eu Me com[A7]pra - [D]zo.”"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Glória_a Jesus! [G]Glória_a Jesus!",
+          "[D]Glória a Jesus! [G]Glória a Jesus!",
           "[C]De Quem o [D]Pai tes[G]tificou;",
-          "[C/E]Glória_a Jesus! [D]Glória_a Je[G]sus!",
+          "[C]Glória a Jesus! [D]Glória a Je[G]sus!",
           "[C]Que muito [D]nos a[G]mou."
         ]
       },
@@ -31,10 +36,10 @@
         "code": "2",
         "text": [
           "[G]O Seu rosto res[D]plandeceu",
-          "E como_o sol tor[G]nou-se;",
-          "Seu vestido se_em[D]branqueceu,",
-          "Brilhando como_a l[G]uz;",
-          "E os que isto [C]vi - [G]ram, grande_assombro sen[A7]ti - [D]ram."
+          "E como o sol tor[G]nou-se;",
+          "Seu vestido se em[D]branqueceu,",
+          "Brilhando como a l[G]uz;",
+          "E os que isto [C]vi - [G]ram, grande assombro sen[A7]ti - [D]ram."
         ]
       },
       {
@@ -46,9 +51,9 @@
         "code": "3",
         "text": [
           "[G]A Jesus vamos [D]escutar",
-          "E ser_lhe consa[G]grados;",
+          "E ser lhe consa[G]grados;",
           "Sua glória nos [D]vai mostrar,",
-          "Quando_Ele retor[G]nar;",
+          "Quando Ele retor[G]nar;",
           "Foi por Deus exal[C]ta - [G]do, nosso Mestre a[A7]ma - [D]do."
         ]
       },

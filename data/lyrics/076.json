@@ -2,6 +2,7 @@
   "code": "076",
   "version": "v3",
   "title": "Cristo Jesus Sua mão me dá",
+  "level": 3,
   "tone": {
     "original": "C",
     "selected": "C"
@@ -14,23 +15,23 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Cris[A7]to Je[Dm]sus [G/B] [G7]Sua mão me [C]dá;",
-          "Neste ca[Am]minho que [Dm]leva aos céus,",
+          "[C]Cris[A7]to Je[Dm]sus [G7]Sua mão me [C]dá;",
+          "[C]Neste ca[Am]minho que [Dm]leva aos céus,",
           "[G7]Ele dirige os [C]passos meus;",
-          "Com [A7]Sua [Dm]mão,[G/B] [G7]poderosa [Am]mão,",
-          "Me [Dm]faz triun[D#°]far, me fa[Em]rá habi[A7]tar",
-          "Na eter[Dm]nal [G7]Si - [C]ão."
+          "[C]Com [A7]Sua [Dm]mão, [G7]po - [Dm]derosa [Am]mão,",
+          "Me [Dm]faz triunfar, me fa[Em]rá habi[A7]tar",
+          "Na et[Dm]ernal [G7]Si - [C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Cris[A7]to Je[Dm]sus [G/B] [G7]Sua mão me [C]dá;",
-          "Com Sua [Am]sombra me [Dm]cobrirá",
+          "[C]Cris[A7]to Je[Dm]sus [G7]Sua mão me [C]dá;",
+          "[C]Com Sua [Am]sombra me [Dm]cobrirá",
           "[G7]E nenhum mal me mo[C]lestará;",
-          "Meus [A7]pés tam[Dm]bém [G/B] [G7]não tropeça[Am]rão;",
-          "Os [Dm]anjos dos [D#°]céus, ao man[Em]dado de [A7]Deus,",
+          "[C]Meus [A7]pés tam[Dm]bém [G7]não [Dm]tropeça[Am]rão;",
+          "Os [Dm]anjos dos céus, ao man[Em]dado de [A7]Deus,",
           "Me sus[Dm]ten-[G7]ta - [C]rão."
         ]
       },
@@ -38,11 +39,11 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Cris[A7]to Je[Dm]sus [G/B] [G7]Sua mão me [C]dá;",
-          "Nada, por[Am]tanto, me [Dm]faz parar,",
+          "[C]Cris[A7]to Je[Dm]sus [G7]Sua mão me [C]dá;",
+          "[C]Nada, por[Am]tanto, me [Dm]faz parar,",
           "[G7]Nada aqui pode me[C] abalar;",
-          "Com [A7]meu Je[Dm]sus,[G/B] [G7]passo a passo [Am]vou;",
-          "Vi[Dm]tória te[D#°]rei, coro[Em]ado se[A7]rei",
+          "[C]Com [A7]meu Je[Dm]sus, [G7]pas[Dm]so a passo [Am]vou;",
+          "Vi[Dm]tória terei, coro[Em]ado se[A7]rei",
           "Por Quem [Dm]me [G7]a - [C]mou."
         ]
       }

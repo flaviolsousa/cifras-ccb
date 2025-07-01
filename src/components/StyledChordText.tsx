@@ -46,7 +46,7 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
           );
           lastChordLength = chord.length + (notes && showNotes ? Math.ceil(notes.length / 2) : 0);
         } else {
-          comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replace(/[^ ]/g, "_")}</Text>;
+          comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replaceAll("‿", "__").replace(/[^ ]/g, "_")}</Text>;
         }
         return comp;
       })}

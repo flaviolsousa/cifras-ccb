@@ -2,6 +2,7 @@
   "code": "065",
   "version": "v3",
   "title": "Igual ao Mestre!",
+  "level": 4,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -15,8 +16,8 @@
         "code": "1",
         "text": [
           "[C]Igual ao Mestre [G]eu desejo ser,",
-          "Em humildade e [C]mansidão viver,",
-          "Sempre, com zelo, em [F]santidade andar",
+          "Em humildade‿e [C]mansidão viver,",
+          "Sempre, com zelo, em [F]santidade‿andar",
           "[D]E minha [G]vida a [D]Ele consag[G]rar.[G7]"
         ]
       },
@@ -26,7 +27,7 @@
           "[C]Meu coração é todo Teu, Se[G7]nhor,",
           "Ele é o um templo para Teu lou[C]vor,",
           "Guarda-o do mal, ao [A7]vir a tenta[Dm]ção;",
-          "S[D]ou Teu re[G]mi-[C]do, [G]divino Re[C]dentor."
+          "S[D]ou Teu re[G]mi-[C|(-)]do, [G]divino Re[C]dentor."
         ]
       },
       {
@@ -47,9 +48,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "C[C]omo é o Mestre, [G]no céu, O verei;",
+          "C[C]omo‿é o Mestre, [G]no céu, O verei;",
           "À semelhança [C]d´Ele eu serei,",
-          "Num corpo santo, glo[F]rioso e imortal,",
+          "Num corpo santo, glo[F]rioso‿e imortal,",
           "[D]Habitar[G]ei na ci[D]dade etern[G]al.[G7]"
         ]
       },

@@ -2,6 +2,7 @@
   "code": "072",
   "version": "v3",
   "title": "Nome glorioso, o de Jesus!",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -17,12 +18,12 @@
           "N[G]ome glorioso, o [C]de Jes[G]us,",
           "Nome precioso, de imenso a[D]mor,",
           "N[G]ome perfeito e s[C]em ig[G]ual,",
-          "Que [D4]salva o peca[G]dor!"
+          "Que [D]salva o peca[G]dor!"
         ]
       },
       {
         "type": "chorus",
-        "text": ["Ao [C]Nome do Sen[G]hor Jesus,", "Ao [Em]Nome santo [D]de Jesus,", "T[G]odo o joelho se [C]dobra[G]rá", "E [D4]O a[D]dora[G]rá."]
+        "text": ["Ao [C]Nome do Sen[G]hor Jesus,", "Ao [Em]Nome santo [D]de Jesus,", "T[G]odo o joelho se [C]dobra[G]rá", "E [D]O a[D]dora[G]rá."]
       },
       {
         "type": "lyric",
@@ -31,7 +32,7 @@
           "N[G]ome sublime, o [C]de Jes[G]us,",
           "Fonte de vida e de a[D]mor;",
           "[G]Outro não há para [C]resga[G]tar",
-          "Ao [D4]homem [D]peca[G]dor."
+          "Ao [D]homem [D]peca[G]dor."
         ]
       },
       {
@@ -45,7 +46,7 @@
           "N[G]ome grandioso, o [C]de Jes[G]us,",
           "Forte, potente, liberta[D]dor;",
           "[G]Por esse Nome, que n[C]ão tem [G]par,",
-          "Deus [D4]salva o [D]peca[G]dor."
+          "Deus [D]salva o [D]peca[G]dor."
         ]
       },
       {

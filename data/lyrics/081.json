@@ -1,10 +1,14 @@
 {
+  "code": "081",
   "version": "v3",
   "title": "A vida deu por ti",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",

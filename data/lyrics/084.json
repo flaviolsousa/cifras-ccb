@@ -1,39 +1,43 @@
 {
+  "code": "084",
   "version": "v3",
   "title": "Quão amável é a Tua casa",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G9", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Quão amável é a Tua casa, [A9]ó   e[B7]terno Cria[E]dor!",
-          "Nela sempre_encontrará conforto [A9]quem Te_a[B7]dora, ó Sen[E]hor;",
-          "Os que [A]amam Tua [E]casa bem-a[B7]venturados s[E]ão;",
-          "De con[A]tínuo, ó E[E]ter[C#m]no,  o Teu [F#m]Nome [B7]louvar[E]ão."
+          "[D]Quão amável é a Tua casa, [G9]ó e[A7]terno Cria[D]dor!",
+          "Nela sempre encontrará conforto [G9]quem Te a[A7]dora, ó Sen[D]hor;",
+          "Os que [G]amam Tua [D]casa bem-a[A7]venturados s[D]ão;",
+          "De con[G]tínuo, ó E[D]ter[Bm]no, o Teu [Em]Nome [A7]louvar[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Bem-aventurado todo_aquele [A9]que con[B7]fia no Sen[E]hor",
-          "E que, no seu coração sincero, [A9]faz mo[B7]rada_o Cria[E]dor.",
-          "Pois ca[A]minha na jus[E]tiça e de [B7]força_em força [E]vai",
-          "Rumo_á g[A]lória prome[E]ti - [C#m]da,  a_encon[F#m]trar-se [B7]com o P[E]ai."
+          "[D]Bem-aventurado todo aquele [G9]que con[A7]fia no Sen[D]hor",
+          "E que, no seu coração sincero, [G9]faz mo[A7]rada o Cria[D]dor.",
+          "Pois ca[G]minha na jus[D]tiça e de [A7]força em força [D]vai",
+          "Rumo á g[G]lória prome[D]ti - [Bm]da, a encon[Em]trar-se [A7]com o P[D]ai."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]É melhor permanecer um dia [A9]nos Teus [B7]átrios, ó Sen[E]hor,",
-          "Do que mil em qualquer outra parte [A9]longe [B7]do divino_a[E]mor.",
-          "Pois Tu [A]és Sol e Es[E]cudo ao que [B7]anda_em reti[E]dão;",
-          "Os que [A]amam Tua [E]ca - [C#m]sa   bem-a[F#m]ventu[B7]rados s[E]ão."
+          "[D]É melhor permanecer um dia [G9]nos Teus [A7]átrios, ó Sen[D]hor,",
+          "Do que mil em qualquer outra parte [G9]longe [A7]do divino a[D]mor.",
+          "Pois Tu [G]és Sol e Es[D]cudo ao que [A7]anda em reti[D]dão;",
+          "Os que [G]amam Tua [D]ca - [Bm]sa bem-a[Em]ventu[A7]rados s[D]ão."
         ]
       }
     ]

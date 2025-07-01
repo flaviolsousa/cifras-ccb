@@ -2,6 +2,7 @@
   "code": "075",
   "version": "v3",
   "title": "Vem a Jesus, ó alma errante",
+  "level": 2,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -14,9 +15,9 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Vem a Jesus, ó [D]alma er[G]rante,",
+          "[G]Vem a Je[G]sus, ó [D]alma er[G]rante,",
           "[Em]Ele é o [A7]Sumo Pas[D]tor;",
-          "[D7]N´Ele achar[G]ás a [E7]graça abun[A7]dante,",
+          "[D7]N´Ele achar[G]ás a [E7]graça abun[Am]dante,",
           "A [D]vida, o a[G]mor."
         ]
       },
@@ -24,9 +25,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Vem a Jesus, ó [D]alma can[G]sada",
+          "[G]Vem a Je[G]sus, ó [D]alma can[G]sada",
           "[Em]Do pe[A7]cado e da d[D]or;",
-          "[D7]Sempre ser[G]ás por [E7]Ele ampa[A7]rada,",
+          "[D7]Sempre ser[G]ás por [E7]Ele ampa[Am]rada,",
           "Oh! V[D]em ao Sen[G]hor."
         ]
       },
@@ -34,9 +35,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Vem a Jesus, ó [D]alma af[G]lita,",
+          "[G]Vem a Je[G]sus, ó [D]alma af[G]lita,",
           "[Em]Vem aos [A7]pés do Sen[D]hor;",
-          "[D7]Receber[G]ás a [E7]paz infi[A7]nita",
+          "[D7]Receber[G]ás a [E7]paz infi[Am]nita",
           "De D[D]eus, Criad[G]or."
         ]
       }

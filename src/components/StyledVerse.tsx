@@ -98,6 +98,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
           {
             fontSize: fontSize,
             lineHeight: fontSizeDouble,
+            //color: "red",
           },
         ]}
         styleSelected={styles.chordSelected}

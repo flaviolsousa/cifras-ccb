@@ -1,38 +1,43 @@
 {
+  "code": "080",
   "version": "v3",
   "title": "Por Cristo, resgatado",
+  "level": 3,
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "Bm", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Cristo Jesus, o [Bm]santo Cor[E]deiro,",
-          "[A]Deu Sua vida [Bm]sobre_o ma[E7]deiro,",
-          "[C#]Com o Seu [F#m]sangue [B]me resga[E]tou,",
-          "[F#m]D´Ele a[B7]gora s[E]ou.[E7]"
+          "[G]Cristo Jesus, o [Am]santo Cor[D]deiro,",
+          "[G]Deu Sua vida [Am]sobre o ma[D7]deiro,",
+          "[B7]Com o Seu [Em]sangue [A]me resga[D]tou,",
+          "[Em]D´Ele a[A7]gora s[D]ou.[D7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Por Cristo, resga[Bm]ta - [E]do,",
-          "[Bm]Sirvo ao [E]gran[G#7]de  D[A]eus",
-          "[A7]Para a [F#7]Ele  [D]perten[D#°]cer,",
-          "[A]Junto aos [E7]santos S[A]eus."
+          "[G]Por Cristo, resga[Am]ta - [D]do,",
+          "[Am]Sirvo ao [D]grande D[G]eus",
+          "Para a [G7]Ele [C]pertencer,",
+          "[G]Junto aos [A7]santos S[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Preso estava [Bm]na_iniqui[E]dade,",
-          "[A]Cristo me trouxe [Bm]a liber[E7]dade;",
-          "[C#]Por Sua [F#m]graça [B]me resga[E]tou,",
-          "[F#m]D´Ele a[B7]gora [E]sou.[E7]"
+          "[G]Preso estava [Am]na iniqui[D]dade,",
+          "[G]Cristo me trouxe [Am]a liber[D7]dade;",
+          "[B7]Por Sua [Em]graça [A]me resga[D]tou,",
+          "[Em]D´Ele a[A7]gora [D]sou.[D7]"
         ]
       },
       {
@@ -43,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Tem minha alma [Bm]grande_ale[E]gria,",
-          "[A]Sem esperança [Bm]sempre [E7]vivia;",
-          "[C#]Glória_a Je[F#m]sus que [B]me resga[E]tou,",
-          "[F#m]D´Ele a[B7]gora [E]sou.[E7]"
+          "[G]Tem minha alma [Am]grande ale[D]gria,",
+          "[G]Sem esperança [Am]sempre [D7]vivia;",
+          "[B7]Glória a Je[Em]sus que [A]me resga[D]tou,",
+          "[Em]D´Ele a[A7]gora [D]sou.[D7]"
         ]
       },
       {

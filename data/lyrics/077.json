@@ -2,6 +2,7 @@
   "code": "077",
   "version": "v3",
   "title": "Vamos lançar a semente",
+  "level": 3,
   "tone": {
     "original": "Bb",
     "selected": "A"
@@ -13,16 +14,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[A]Vamos lançar a semente [E]com alegria e a[A]mor,", "[D]Nesta gloriosa se[A]ara [F#m]do nosso a[B7]mado Sen[E]hor."]
+        "text": ["[A]Vamos lan[E]çar a se[A]mente [E]com alegria e a[A]mor,", "[D]Nesta gloriosa se[A]ara [F#m]do nosso a[B7]mado Sen[E7]hor."]
       },
       {
         "type": "chorus",
-        "text": ["[A]Santa Semente é a Palavra de D[E]eus;", "[A]Quem com amor semeá-La, [E]prêmio terá lá nos c[A]éus."]
+        "text": ["[A]Santa Semente é a Palavra de D[E]eus;", "[A]Quem com a[D]mor se[A]meá-La, [E7]prêmio terá lá nos c[A]éus."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[A]As boas novas levemos [E]aos que em trevas est[A]ão,", "[D]Anunciando que C[A]risto, [F#m]a todos, [B7]dá salvaç[E]ão."]
+        "text": ["[A]As boas [E]novas le[A]vemos [E]aos que em trevas est[A]ão,", "[D]Anunciando que C[A]risto, [F#m]a todos, [B7]dá salvaç[E7]ão."]
       },
       {
         "type": "ref",
@@ -32,8 +33,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "“[A]As terras já estão brancas [E]e prontas para ceif[A]ar”,",
-          "[D]Disse assim o bom M[A]estre; [F#m]vamos, ir[B7]mãos, trabal[E]har."
+          "“[A]As terras [E]já estão [A]brancas [E]e prontas para ceif[A]ar”,",
+          "[D]Disse assim o bom M[A]estre; [F#m]vamos, ir[B7]mãos, trabal[E7]har."
         ]
       },
       {

@@ -2,6 +2,7 @@
   "code": "063",
   "version": "v3",
   "title": "Se vós baterdes, Ele vos abre",
+  "level": 4,
   "tone": {
     "original": "Bb",
     "selected": "A"
@@ -14,29 +15,29 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Com fé cheg[A]ai-vos ao grande Mestre, Cristo Jes[D]us, [E]o Sen[A]hor;",
-          "Seus dons celestes, Sua virtude derrama[B]rá por a[E]mor;",
-          "Não duvid[D]eis, pois [Db]de [F#m]Cristo vem o que v[E]ós precis[A]ais;",
-          "[A7]Tudo Ele p[D]ode faz[A]er-vos, além do q[D]ue v[E]ós pens[A]ais.[A]..."
+          "[A]Com fé chegai-vos ao grande Mestre, Cristo Jes[D]us, [A]o [E7]Sen[A]hor;",
+          "Seus dons celestes, Sua virtude derrama[B7]rá por a[E]mor;",
+          "Não duvid[D]eis, pois [D°]de [F#m]Cristo vem o que v[E]ós precis[A]ais;",
+          "[A7]Tudo Ele p[D]ode faz[A]er-vos, além do q[D]ue v[E]ós pens[A]ais."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O mar re[A]volto e a tempestade Cristo Jes[D]us [E]aplac[A]ou;",
-          "Os cegos viram, coxos andaram, a muitos p[B]urific[E]ou;",
-          "Mortos vol[D]taram [Db]à [F#m]vida, foram ent[E]regues aos s[A]eus.",
+          "[A]O mar revolto e a tempestade Cristo Jes[D]us [A]a[E7]plac[A]ou;",
+          "Os cegos viram, coxos andaram, a muitos p[B7]urific[E]ou;",
+          "Mortos vol[D]taram [D°]à [F#m]vida, foram ent[E]regues aos s[A]eus.",
           "[A7]Cristo, o V[D]erbo e[A]terno, veio por g[D]ra[E]ça de D[A]eus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Se vós ba[A]terdes, Ele vos [E]abre;",
+          "[A]Se vós baterdes, Ele vos [E]abre;",
           "O que pedirdes, da[A]rá.",
           "[A7]Se vós bus[D]cardes o M[A]estre,",
-          "Por vós ac[D]ha-[E]do se[A]rá."
+          "Por vós ac[D]ha - [A]do [E7]se - [A]rá."
         ]
       }
     ]

@@ -2,6 +2,7 @@
   "code": "066",
   "version": "v3",
   "title": "Cansado estás? Vem a Jesus",
+  "level": 3,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -13,7 +14,7 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Cansado es[G]tás? Vem a Jesus, o justo Remi[D]dor;", "Terás em [G]ti a Sua luz e [D]Seu divino a[G]mor."]
+        "text": ["Cansado es[G]tás? Vem a [G]Jesus, o [G]justo Remi[D]dor;", "Terás em [G]ti a Sua [G]luz e [D]Seu divino a[G]mor."]
       },
       {
         "type": "chorus",

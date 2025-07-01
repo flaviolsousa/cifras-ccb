@@ -21,7 +21,7 @@
 - ☒ Option to show/hide draw of chords
 - ☒ Option to display capo positioning
 - ☒ Implement tone selection feature
-- ☒ Display rhythm instructions clearly: (\_ <sup>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2</sup> )
+- ☒ Display rhythm instructions clearly: (\_ ‿ <sub>↑ ↓ ↟ ↥ ⇑ ⇞ ⇡ ↡ ↧ ⇓ ⇟ ⇣ x2 </sub> )
 - ☒ Provide difficulty level
 - ☒ When changing the tone key, retain the original chord positions
 - ☒ Favorite Hymns
@@ -135,3 +135,4 @@ npx expo-doctor
 - https://github.com/artutra/OpenChord?tab=readme-ov-file
 - https://www.npmjs.com/package/@tonaljs/progression
 - https://pictogrammers.com/library/mdi/
+- https://www.caracteresespeciais.com/2009/09/lista-com-2-mil-caracteres-especiais.html

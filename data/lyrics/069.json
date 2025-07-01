@@ -2,6 +2,7 @@
   "code": "069",
   "version": "v3",
   "title": "A família de Jesus",
+  "level": 4,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -14,7 +15,7 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Em [C]volta de Jesus se a[F]chava a [G]multid[C]ão[E].",
+          "Em [C]volta de Jesus se ac[F]hava a [G]multid[C]ão[E].",
           "Ou[Am]vindo Seus con[A7]selhos [Dm]e apren[F]dendo a [F7]reti[E]dão.",
           "Al[C]guém aproximou-se [C7]para [F]Lhe a[A7]nunci[Dm]ar",
           "Que S[G]ua mãe e S[C]eus irm[F]ãos que[G]riam Lhe fa[C]lar."
