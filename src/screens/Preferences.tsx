@@ -1,7 +1,7 @@
 // src/screens/Preferences.tsx
 import React, { useContext, useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
-import { useTheme, Appbar, List, Button, SegmentedButtons } from "react-native-paper";
+import { useTheme, Appbar, List, Button, SegmentedButtons, Switch } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
 import _ from "lodash";
@@ -14,7 +14,7 @@ import { usePreferences } from "../hooks/usePreferences";
 const Preferences = () => {
   const { preferences, savePreferences } = usePreferences();
   const theme = useTheme();
-  const { fontSize, themeName } = preferences;
+  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes } = preferences;
   const [verseHeight, setVerseHeight] = useState<number>(preferences.fontSize);
   const { themeName: themeNameContext, setThemeName: setThemeNameContext } = useContext(ThemeContext);
   const navigation = useNavigation();
@@ -68,7 +68,7 @@ const Preferences = () => {
               onChordPress={(chord) => console.log(`Chord pressed: ${chord}`)}
               selectedChord={""}
               onVerseLayout={(event) => onVerseLayout(event)}
-              showNotes={true}
+              showNotes={showNotes}
             />
           </List.Section>
 
@@ -82,6 +82,46 @@ const Preferences = () => {
                 { label: "Dark", value: THEME_DARK },
                 { label: "Light", value: THEME_LIGHT },
               ]}
+            />
+          </List.Section>
+
+          <List.Section>
+            <List.Subheader style={styles.subHeader}>Componentes</List.Subheader>
+            <List.Item
+              title="Exibir Rolagem Automática"
+              description="Controle que permite iniciar rolagem automática no detalhe do hinos"
+              right={() => (
+                <Switch
+                  value={showAutoScroll ?? true}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, showAutoScroll: value });
+                  }}
+                />
+              )}
+            />
+            <List.Item
+              title="Exibir Player de Áudio"
+              description="Player de áudio, no canto inferior esquerdo, do hino corrente "
+              right={() => (
+                <Switch
+                  value={showAudioPlayer ?? true}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, showAudioPlayer: value });
+                  }}
+                />
+              )}
+            />
+            <List.Item
+              title="Exibir Notas nas Cifras"
+              description="Notas em alguns acordes para ajudar com o ritmo (visualizar no verso acima)"
+              right={() => (
+                <Switch
+                  value={showNotes ?? true}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, showNotes: value });
+                  }}
+                />
+              )}
             />
           </List.Section>
         </ScrollView>

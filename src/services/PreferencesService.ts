@@ -11,9 +11,9 @@ export type Preferences = {
   favoriteChords?: string[];
   favoriteHymns?: number[];
   flaggedHymns?: number[];
-  showAutoScroll?: boolean;
-  showAudioPlayer?: boolean;
-  showNotes?: boolean;
+  showAutoScroll: boolean;
+  showAudioPlayer: boolean;
+  showNotes: boolean;
 };
 
 const DEFAULT_PREFERENCES: Preferences = {
