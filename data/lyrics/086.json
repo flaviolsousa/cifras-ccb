@@ -2,41 +2,42 @@
   "code": "086",
   "version": "v3",
   "title": "Grande Tu és, ó Pai",
+  "level": 4,
   "tone": {
     "original": "Eb",
-    "selected": "D"
+    "selected": "C"
   },
-  "rhythm": "Guarânia",
+  "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "G", "A7", "D"],
+    "introduction": ["C", "Dm", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "G[D]rande Tu [G]és, ó Pai, [A7]em leal[D]dade,",
-          "[G]És sempre o [D/F#]mesmo, jam[E7]ais mudar[A]ás;",
-          "[A7]És compas[D]sivo, infi[D7]nito em bon[G]dade,",
-          "[G#°]Como Tu [D/A]és, assim [A7]sempre ser[D]ás."
+          "G[C]rande Tu [Dm]és, ó Pai, [G7]em leal[C]dade,",
+          "[F]És sempre o [C]mesmo, jam[D7]ais mudar[G]ás;",
+          "[G7]És compas[C]sivo, infi[C7]nito em bon[F]dade,",
+          "[F]Como Tu [C]és, assim [G7]sempre ser[C]ás."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "S[A]anto e Sup[D]remo és, [B7]excelso [Em]Formador,",
-          "S[A]obre Teus f[D]ilhos es[E]tá Teu fa[A]vor;",
-          "[A7]Imensa [D]é Tua [D7]fideli[G]dade;",
-          "[G#°]Glória e lou[D/A]vor a Ti, [A7]ó Cria[D]dor."
+          "S[G]anto e Sup[C]remo és, [A7]excelso [Dm]Formador,",
+          "S[G]obre Teus f[C]ilhos es[D]tá Teu fa[G]vor;",
+          "[G7]Imensa [C]é Tua [C7]fideli[F]dade;",
+          "[F]Glória e lou[C|•••]vor a Ti, [G7]ó Cria[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Q[D]uanto é ele[G]vado, ó Deus, [A7]Teu pensam[D]ento,",
-          "[G]Em Tuas [D/F#]obras há g[E7]rande sa[A]ber;",
-          "[A7]Reges a t[D]erra, os céus [D7]e o firmam[G]ento,",
-          "[G#°]Tudo enal[D/A]tece Teu g[A7]rande po[D]der."
+          "Q[C]uanto é ele[Dm]vado, ó Deus, [G7]Teu pensam[C]ento,",
+          "[F]Em Tuas [C]obras há g[D7]rande sa[G]ber;",
+          "[G7]Reges a t[C]erra, os céus [C7]e o firmam[F]ento,",
+          "[F]Tudo enal[C]tece Teu g[G7]rande po[C]der."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Só em Ti [G]há perdão p[A7]ara o pe[D]cado,",
-          "P[G]az sempi[D/F#]terna dás [E7]ao coraç[A]ão;",
-          "[A7]Tua pre[D]sença, ó Deus, [D7]nos tem gui[G]ado",
-          "[G#°]E guia[D/A]rá até [A7]a perfeiç[D]ão."
+          "[C]Só em Ti [Dm]há perdão p[G7]ara o pe[C]cado,",
+          "P[F]az sempi[C]terna dás [D7]ao coraç[G]ão;",
+          "[G7]Tua pre[C]sença, ó Deus, [C7]nos tem gui[F]ado",
+          "[F]E guia[C]rá até [G7]a perfeiç[C]ão."
         ]
       },
       {

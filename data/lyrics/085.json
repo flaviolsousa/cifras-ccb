@@ -2,6 +2,7 @@
   "code": "085",
   "version": "v3",
   "title": "Anunciai o santo Evangelho",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -14,7 +15,7 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Ide, anunciai o santo Evan[D]gelho",
+          "[G]Ide, anun[Am]ciai o [G]santo Evan[D]gelho",
           "Por todo o mundo, disse Jes[G]us,",
           "A todo o homem, jovem ou [C]velho,",
           "Para alcan[G]çar o [D]reino de l[G]uz."
@@ -23,17 +24,17 @@
       {
         "type": "chorus",
         "text": [
-          "[G]Todo o que [D]crer e for bati[G]zado",
+          "[G]Todo o que [D7]crer e [Am]for bati[G]zado",
           "Salvo se[C]rá, fa[D]lou o Sen[G]hor;",
-          "[G]Mas quem não [B]crer já é conde[Em]nado, ",
-          "Por despre[D]zar o seu Salva[G]dor."
+          "[G]Mas quem não [B7]crer já [B7]é conde[Em]nado, ",
+          "[C]Por despre[Am]zar o [D7]seu Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Não mais duvides, este é o ca[D]minho,",
+          "[G]Não mais du[Am]vides, [G]este é o ca[D]minho,",
           "Nele o primeiro passo vais d[G]ar;",
           "Com alegria, segue o des[C]tino",
           "Que Cristo v[G]eio a [D]ti ofer[G]tar."
@@ -47,7 +48,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Pelo batismo és sepul[D]tado",
+          "[G]Pelo ba[Am]tismo [G]és sepul[D]tado",
           "Para, ao mundo, renunci[G]ar;",
           "Sendo, por Cristo, regene[C]rado,",
           "Em Seu ca[G]minho [D]podes an[G]dar."

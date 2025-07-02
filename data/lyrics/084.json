@@ -2,6 +2,7 @@
   "code": "084",
   "version": "v3",
   "title": "Quão amável é a Tua casa",
+  "level": 4,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -14,30 +15,30 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Quão amável é a Tua casa, [G9]ó e[A7]terno Cria[D]dor!",
-          "Nela sempre encontrará conforto [G9]quem Te a[A7]dora, ó Sen[D]hor;",
+          "[D]Quão amável é a Tua casa, [Em]ó e[A7]terno Cria[D]dor!",
+          "Nela sempre‿encontrará conforto [Em]quem Te a[A7]dora, ó Sen[D]hor;",
           "Os que [G]amam Tua [D]casa bem-a[A7]venturados s[D]ão;",
-          "De con[G]tínuo, ó E[D]ter[Bm]no, o Teu [Em]Nome [A7]louvar[D]ão."
+          "De con[G]tínuo, ó E[D|•••]terno, o Teu [Em]Nome [A7]louvar[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Bem-aventurado todo aquele [G9]que con[A7]fia no Sen[D]hor",
-          "E que, no seu coração sincero, [G9]faz mo[A7]rada o Cria[D]dor.",
+          "[D]Bem-aventurado todo‿aquele [Em]que con[A7]fia no Sen[D]hor",
+          "E que, no seu coração sincero, [Em]faz mo[A7]rada o Cria[D]dor.",
           "Pois ca[G]minha na jus[D]tiça e de [A7]força em força [D]vai",
-          "Rumo á g[G]lória prome[D]ti - [Bm]da, a encon[Em]trar-se [A7]com o P[D]ai."
+          "Rumo‿á g[G]lória prome[D|•••]tida, a‿encon[Em]trar-se [A7]com o P[D]ai."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]É melhor permanecer um dia [G9]nos Teus [A7]átrios, ó Sen[D]hor,",
-          "Do que mil em qualquer outra parte [G9]longe [A7]do divino a[D]mor.",
+          "[D]É melhor permanecer um dia [Em]nos Teus [A7]átrios, ó Sen[D]hor,",
+          "Do que mil em qualquer outra parte [Em]longe [A7]do divino a[D]mor.",
           "Pois Tu [G]és Sol e Es[D]cudo ao que [A7]anda em reti[D]dão;",
-          "Os que [G]amam Tua [D]ca - [Bm]sa bem-a[Em]ventu[A7]rados s[D]ão."
+          "Os que [G]amam Tua [D|•••]casa bem-a[Em]ventu[A7]rados s[D]ão."
         ]
       }
     ]
