@@ -1,6 +1,7 @@
 import React from "react";
-import { Menu } from "react-native-paper";
+import { Menu, useTheme } from "react-native-paper";
 import { Divider } from "react-native-paper";
+import { Platform } from "react-native";
 
 interface HymnDetailMenuProps {
   visible: boolean;
@@ -16,9 +17,8 @@ interface HymnDetailMenuProps {
   onEditHymn: () => void;
   onToggleToolbar: () => void;
   toolbarVisible: boolean;
-  isWebPlatform: boolean; // New prop to check if we're on web platform
+  isWebPlatform: boolean;
 
-  // Added to track visibility states
   navigationVisible: boolean;
   zoomControlVisible: boolean;
   toneNavigationVisible: boolean;
@@ -43,8 +43,15 @@ const HymnDetailMenu = ({
   zoomControlVisible,
   toneNavigationVisible,
 }: HymnDetailMenuProps) => {
+  const theme = useTheme();
+
+  const menuAnchorPosition = {
+    x: 0,
+    y: Platform.OS !== "web" ? 56 : 0,
+  };
+
   return (
-    <Menu visible={visible} onDismiss={onDismiss} anchor={{ x: 0, y: 0 }}>
+    <Menu visible={visible} onDismiss={onDismiss} anchor={menuAnchorPosition} contentStyle={{ marginTop: 8 }}>
       {isWebPlatform && (
         <Menu.Item
           onPress={() => {
@@ -58,10 +65,8 @@ const HymnDetailMenu = ({
       <Menu.Item
         onPress={() => {
           if (navigationVisible) {
-            // If already visible, close it
             onNavigate();
           } else {
-            // If not visible, open it
             onNavigate();
           }
           onDismiss();
@@ -72,10 +77,8 @@ const HymnDetailMenu = ({
       <Menu.Item
         onPress={() => {
           if (zoomControlVisible) {
-            // If already visible, close it
             onZoom();
           } else {
-            // If not visible, open it
             onZoom();
           }
           onDismiss();
@@ -86,10 +89,8 @@ const HymnDetailMenu = ({
       <Menu.Item
         onPress={() => {
           if (toneNavigationVisible) {
-            // If already visible, close it
             onToneChange();
           } else {
-            // If not visible, open it
             onToneChange();
           }
           onDismiss();
