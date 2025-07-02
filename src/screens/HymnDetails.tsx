@@ -54,7 +54,7 @@ const HymnDetails = () => {
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
   const [audioPlayerVisible, setAudioPlayerVisible] = useState(preferences.showAudioPlayer ?? true);
   const [showNotes, setShowNotes] = useState(preferences.showNotes ?? true);
-  const [toolbarVisible, setToolbarVisible] = useState(true);
+  const [toolbarVisible, setToolbarVisible] = useState(preferences.showToolbar ?? true);
 
   const isWebPlatform = Platform.OS === "web";
 
@@ -106,7 +106,8 @@ const HymnDetails = () => {
     setAutoScrollVisible(preferences.showAutoScroll);
     setAudioPlayerVisible(preferences.showAudioPlayer);
     setShowNotes(preferences.showNotes);
-  }, [preferences.fontSize, preferences.showAutoScroll, preferences.showAudioPlayer, preferences.showNotes]);
+    setToolbarVisible(preferences.showToolbar);
+  }, [preferences.fontSize, preferences.showAutoScroll, preferences.showAudioPlayer, preferences.showNotes, preferences.showToolbar]);
 
   // save distinct of chords to ChordPanel
   useEffect(() => {
@@ -289,6 +290,13 @@ const HymnDetails = () => {
   };
   // End: flag Button
 
+  const toggleToolbar = () => {
+    const newValue = !toolbarVisible;
+    setToolbarVisible(newValue);
+    // Optionally save preference when user toggles toolbar
+    // savePreferences({ ...preferences, showToolbar: newValue });
+  };
+
   return (
     <View style={{ ...theme, flex: 1 }}>
       <Animated.View
@@ -326,7 +334,7 @@ const HymnDetails = () => {
           <HymnDetailMenu
             visible={menuVisible}
             onDismiss={closeMenu}
-            isWebPlatform={isWebPlatform} // Pass the platform check
+            isWebPlatform={isWebPlatform}
             onNavigate={() => {
               closeMenu();
               setNavigationVisible((prev) => !prev);
@@ -351,7 +359,7 @@ const HymnDetails = () => {
             onToggleNotes={() => setShowNotes((prev) => !prev)}
             showNotes={showNotes}
             onEditHymn={() => navigation.navigate("HymnEdit", { hymnCode })}
-            onToggleToolbar={() => setToolbarVisible((prev) => !prev)}
+            onToggleToolbar={toggleToolbar}
             toolbarVisible={toolbarVisible}
             navigationVisible={navigationVisible}
             zoomControlVisible={zoomControlVisible}
@@ -361,7 +369,7 @@ const HymnDetails = () => {
 
         <HymnDetailToolbar
           visible={toolbarVisible}
-          isWebPlatform={isWebPlatform} // Pass the platform check
+          isWebPlatform={isWebPlatform}
           onNavigate={() => {
             if (navigationVisible) {
               setNavigationVisible(false);

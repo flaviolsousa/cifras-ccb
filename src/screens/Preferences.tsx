@@ -14,7 +14,7 @@ import { usePreferences } from "../hooks/usePreferences";
 const Preferences = () => {
   const { preferences, savePreferences } = usePreferences();
   const theme = useTheme();
-  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes } = preferences;
+  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes, showToolbar } = preferences;
   const [verseHeight, setVerseHeight] = useState<number>(preferences.fontSize);
   const { themeName: themeNameContext, setThemeName: setThemeNameContext } = useContext(ThemeContext);
   const navigation = useNavigation();
@@ -96,6 +96,19 @@ const Preferences = () => {
                   value={showNotes ?? true}
                   onValueChange={(value) => {
                     savePreferences({ ...preferences, showNotes: value });
+                  }}
+                />
+              )}
+            />
+            <List.Item
+              title="Exibir Barra de Ferramentas"
+              description="Barra de ferramentas abaixo do cabeçalho na tela de hino"
+              left={() => <Icon source="tools" size={24} />}
+              right={() => (
+                <Switch
+                  value={showToolbar ?? true}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, showToolbar: value });
                   }}
                 />
               )}

@@ -14,6 +14,7 @@ export type Preferences = {
   showAutoScroll: boolean;
   showAudioPlayer: boolean;
   showNotes: boolean;
+  showToolbar: boolean;
 };
 
 const DEFAULT_PREFERENCES: Preferences = {
@@ -25,6 +26,7 @@ const DEFAULT_PREFERENCES: Preferences = {
   showAutoScroll: true,
   showAudioPlayer: true,
   showNotes: true,
+  showToolbar: true,
 };
 
 async function savePreferences(preferences: Preferences): Promise<void> {
