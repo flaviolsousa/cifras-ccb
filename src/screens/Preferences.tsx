@@ -1,7 +1,7 @@
 // src/screens/Preferences.tsx
 import React, { useContext, useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
-import { useTheme, Appbar, List, Button, SegmentedButtons, Switch } from "react-native-paper";
+import { useTheme, Appbar, List, Button, SegmentedButtons, Switch, Icon } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
 import _ from "lodash";
@@ -88,8 +88,22 @@ const Preferences = () => {
           <List.Section>
             <List.Subheader style={styles.subHeader}>Componentes</List.Subheader>
             <List.Item
+              title="Exibir Notas nas Cifras"
+              description="Notas em alguns acordes para ajudar com o ritmo (visualizar no verso acima)"
+              left={() => <Icon source="lead-pencil" size={24} />}
+              right={() => (
+                <Switch
+                  value={showNotes ?? true}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, showNotes: value });
+                  }}
+                />
+              )}
+            />
+            <List.Item
               title="Exibir Rolagem Automática"
               description="Controle que permite iniciar rolagem automática no detalhe do hinos"
+              left={() => <Icon source="pan-vertical" size={24} />}
               right={() => (
                 <Switch
                   value={showAutoScroll ?? true}
@@ -102,23 +116,12 @@ const Preferences = () => {
             <List.Item
               title="Exibir Player de Áudio"
               description="Player de áudio, no canto inferior esquerdo, do hino corrente "
+              left={() => <Icon source="play" size={24} />}
               right={() => (
                 <Switch
                   value={showAudioPlayer ?? true}
                   onValueChange={(value) => {
                     savePreferences({ ...preferences, showAudioPlayer: value });
-                  }}
-                />
-              )}
-            />
-            <List.Item
-              title="Exibir Notas nas Cifras"
-              description="Notas em alguns acordes para ajudar com o ritmo (visualizar no verso acima)"
-              right={() => (
-                <Switch
-                  value={showNotes ?? true}
-                  onValueChange={(value) => {
-                    savePreferences({ ...preferences, showNotes: value });
                   }}
                 />
               )}
