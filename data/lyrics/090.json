@@ -2,6 +2,7 @@
   "code": "090",
   "version": "v3",
   "title": "Teu destino é a glória",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -15,19 +16,29 @@
         "code": "1",
         "text": [
           "Pela [G]fé, irmão querido,",
-          "Serve a [A]Cristo, o [D7]Reden[G]tor;",
+          "Serve a [A|↓↑↓]Cristo, o [D7|↓]Reden[G]tor;",
           "Não te deixes ser vencido,",
-          "Vence o [A7]mal, com [D7]teu Sen[G]hor."
+          "Vence o [A7|↓↑↓]mal, com [D7|↓]teu Sen[G]hor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[G]Teu des[D7]tino é a g[G]lória,", "A he[A7]rança dos fi[D]éis;", "É se[G]gura a vitória", "Que da[A7]rá o [D7]Rei dos [G]reis."]
+        "text": [
+          "Teu des[D7]tino é a g[G]lória,",
+          "A he[A7]rança dos fi[D]éis;",
+          "É se[G]gura a vitória",
+          "Que da[A7|↓↑↓]rá o [D7|↓]Rei dos [G]reis."
+        ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Oh! Le[G]vanta as mãos cansadas", "E não [A]olhes [D7]para t[G]rás,", "Pois serão fortificadas", "Pelo [A7]Prínci[D7]pe da p[G]az."]
+        "text": [
+          "Oh! Le[G]vanta as mãos cansadas",
+          "E não [A|↓↑↓]olhes [D7|↓]para t[G]rás,",
+          "Pois serão fortificadas",
+          "Pelo [A7|↓↑↓]Prínci[D7|↓]pe da p[G]az."
+        ]
       },
       {
         "type": "ref",
@@ -38,9 +49,9 @@
         "code": "3",
         "text": [
           "Segue as [G]obras do teu Mestre,",
-          "Marcha [A]firme [D7]para o c[G]éu;",
+          "Marcha [A|↓↑↓]firme [D7|↓]para o c[G]éu;",
           "Ele é a Luz celeste,",
-          "Que ilu[A7]mina os [D7]passos t[G]eus."
+          "Que ilu[A7|↓↑↓]mina os [D7|↓]passos t[G]eus."
         ]
       },
       {
@@ -50,7 +61,12 @@
       {
         "type": "lyric",
         "code": "4",
-        "text": ["A Pa[G]lavra da verdade,", "A Es[A]pada [D7]divi[G]nal,", "Te conserva em santidade", "Para o [A7]reino [D7]etern[G]al."]
+        "text": [
+          "A Pa[G]lavra da verdade,",
+          "A Es[A|↓↑↓]pada [D7|↓]divi[G]nal,",
+          "Te conserva em santidade",
+          "Para o [A7|↓↑↓]reino [D7|↓]etern[G]al."
+        ]
       },
       {
         "type": "ref",

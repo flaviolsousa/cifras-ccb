@@ -33,10 +33,10 @@ ctrl+d -> Select recurrences
 
 # Completos:
 
-- 1-87
+- 1-90
 - 273
 
-Revisar com violão 82
+Revisar com violão 89
 Tom revisado até 140
 
 # Target

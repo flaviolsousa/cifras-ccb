@@ -2,6 +2,7 @@
   "code": "088",
   "version": "v3",
   "title": "Minha oração",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -17,7 +18,7 @@
           "Minha oraç[G]ão, ó meu Sen[D]hor,",
           "Elevo a Ti, em comun[G]hão;",
           "Faz-me sentir Teu grande a[C]mor,",
-          "A Tua [D]paz e Tua un[G]ção."
+          "A Tua [G]paz [D7] e Tua un[G]ção."
         ]
       },
       {
@@ -26,13 +27,18 @@
           "Em nome [D]do Senhor Je[G]sus",
           "Elevo a [A7]Ti esta ora[D]ção.",
           "Ó Cria[G]dor, Fonte de [C]luz,",
-          "Entrego a [D]Ti meu coraç[G]ão."
+          "Entrego a [G]Ti [D7] meu coraç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Minha oraç[G]ão, ó Pai de a[D]mor,", "Elevo a Ti para alcan[G]çar", "A Tua paz, o Teu fa[C]vor;", "Aqui es[D]tou a Te ado[G]rar."]
+        "text": [
+          "Minha oraç[G]ão, ó Pai de a[D]mor,",
+          "Elevo a Ti para alcan[G]çar",
+          "A Tua paz, o Teu fa[C]vor;",
+          "Aqui es[G]tou [D7] a Te ado[G]rar."
+        ]
       },
       {
         "type": "ref",
@@ -41,7 +47,12 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Minha oraç[G]ão, ó grande D[D]eus,", "Elevo a Ti para apren[G]der", "Os eternais preceitos [C]Teus", "E sempre [D]Te obede[G]cer."]
+        "text": [
+          "Minha oraç[G]ão, ó grande D[D]eus,",
+          "Elevo a Ti para apren[G]der",
+          "Os eternais preceitos [C]Teus",
+          "E sempre [G]Te [D7] obede[G]cer."
+        ]
       },
       {
         "type": "ref",
