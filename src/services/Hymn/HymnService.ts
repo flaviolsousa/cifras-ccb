@@ -60,13 +60,16 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
   return result;
 }
 
+let hymnsCached;
+
 class HymnService {
   static getSimpleHymns(): any[] {
-    if (Hymns.length > 0 && Hymns[0].enc) {
-      // Array está criptografado, descriptografa todos os itens
-      return Hymns.map((item) => {
+    if (hymnsCached) return hymnsCached;
+
+    if (Hymns.length > 0 && Hymns[0]["enc"]) {
+      hymnsCached = Hymns.map((item) => {
         try {
-          const decrypted = CryptoService.decrypt(item.enc);
+          const decrypted = CryptoService.decrypt(item["enc"]);
           return {
             code: item.code,
             ...decrypted,
@@ -76,9 +79,10 @@ class HymnService {
           return null;
         }
       }).filter(Boolean);
+    } else {
+      hymnsCached = Hymns;
     }
-    // Não criptografado, retorna como está
-    return Hymns;
+    return hymnsCached;
   }
 
   static async getHymn(hymnCode: string): Promise<HymnModel | null> {
