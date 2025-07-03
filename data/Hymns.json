@@ -1655,7 +1655,7 @@
       "E7",
       "F#m"
     ],
-    "level": 4,
+    "level": 5,
     "rhythm": "Valsa"
   },
   {
@@ -2154,7 +2154,7 @@
       "G"
     ],
     "rhythm": "Canção",
-    "level": 3
+    "level": 4
   },
   {
     "code": "083",
@@ -2310,9 +2310,11 @@
       "A7",
       "C",
       "D",
+      "D7",
       "G"
     ],
-    "rhythm": "Canção"
+    "rhythm": "Canção",
+    "level": 2
   },
   {
     "code": "089",
@@ -2362,7 +2364,8 @@
       "D7",
       "G"
     ],
-    "rhythm": "Guarânia"
+    "rhythm": "Guarânia",
+    "level": 4
   },
   {
     "code": "091",

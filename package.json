@@ -8,7 +8,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "check-apk": "adb logcat | findstr expo",
-    "extract-apk": "apkanalyzer contents print-to-proto"
+    "extract-apk": "apkanalyzer contents print-to-proto",
+    "encrypt-hymns": "node encrypt-hymns.js encrypt",
+    "decrypt-hymns": "node encrypt-hymns.js decrypt"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",

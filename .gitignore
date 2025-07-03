@@ -1,5 +1,6 @@
 tmp/
 output/
+lyrics-gen-enc/
 *.tmp
 
 # Expo
