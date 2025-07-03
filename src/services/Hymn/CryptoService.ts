@@ -6,7 +6,6 @@ class CryptoService {
   private static generateKey(): string {
     const extraKey = process.env.ENC_KEY_EXTRA || "default-extra-key";
     const combined = process.env.BASE_KEY + extraKey;
-    console.log("Generating key with combined value:", combined);
     return SHA256(combined).toString(); // AES espera string de 256 bits
   }
 

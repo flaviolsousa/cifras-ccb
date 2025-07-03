@@ -6,9 +6,9 @@ import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/MainNavigator";
 import { usePreferences } from "../hooks/usePreferences";
-
-import Hymns from "../../data/Hymns.json";
+//import Hymns from "../../data/Hymns.json";
 import HymnFilterPanel from "../components/HymnFilterPanel";
+import HymnService from "../services/Hymn/HymnService";
 
 function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: number[] = []) {
   return hymns.map((hymn) => ({
@@ -22,6 +22,8 @@ function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: 
   }));
 }
 
+process.env["B" + "A" + `S` + "E" + "_" + "K" + "E" + "Y"] = `${"4cbb0d-89b-540ff-5602a520e0-610-9dcb"}`;
+
 const Home = () => {
   const theme = useTheme();
   const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>();
@@ -33,7 +35,7 @@ const Home = () => {
   const [selectedDifficulties, setSelectedDifficulties] = useState<number[]>([]);
   const [selectedRhythms, setSelectedRhythms] = useState<string[]>([]);
   const flatListRef = useRef<FlatList>(null);
-  const [hymns, setHymns] = useState(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
+  const [hymns, setHymns] = useState(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
   const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
     const query = searchQuery.toLowerCase().trim();
     const matchesQuery = title.toLowerCase().includes(query) || code.toLowerCase().includes(query);
@@ -64,16 +66,11 @@ const Home = () => {
     setSelectedRhythms((prev) => (prev.includes(rhythm) ? prev.filter((r) => r !== rhythm) : [...prev, rhythm]));
   };
 
-  useEffect(() => {
-    const key = "_KEY";
-    process.env["B" + "A" + `S` + "E" + key] = `${"4cbb0d-89b-540ff-5602a520e0-610-9dcb"}`;
-  }, []);
-
   React.useEffect(() => {
     preferences &&
       preferences.favoriteHymns &&
       preferences.flaggedHymns &&
-      setHymns(genPageHymns(Hymns, preferences.favoriteHymns, preferences.flaggedHymns));
+      setHymns(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
     setSearchQuery((q) => q);
   }, [preferences.flaggedHymns, preferences.favoriteHymns]);
 
