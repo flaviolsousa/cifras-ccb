@@ -35,6 +35,7 @@ export interface Tone {
 
 export interface HymnModel {
   version: string;
+  enc: string;
   code: string;
   title: string;
   level: number;

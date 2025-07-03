@@ -1,56 +1,41 @@
 #!/usr/bin/env node
 
 require("dotenv").config();
-const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const AES = require("crypto-js/aes");
+const SHA256 = require("crypto-js/sha256");
+const Utf8 = require("crypto-js/enc-utf8");
 
 // Encryption configuration
-const ALGORITHM = "aes-256-cbc";
 const BASE_KEY = "4cbb0d-89b-540ff-5602a520e0-610-9dcb"; // 32 bytes
-const IV_LENGTH = 16; // For AES, IV is 16 bytes
 
 /**
  * Generates the encryption key by combining the base + environment variable
  */
 function generateKey() {
-  const extraKey = process.env.ENC_KEY_EXTRA || "default-extra-key";
+  const extraKey = process.env.EXPO_PUBLIC_ENC_KEY_EXTRA || "default-extra-key";
   const combined = BASE_KEY + extraKey;
   // Generate SHA-256 hash to get exactly 32 bytes
-  return crypto.createHash("sha256").update(combined).digest();
+  console.log(`🔑 combined: ${combined}`);
+  return SHA256(combined).toString();
 }
 
 /**
- * Encrypts the content using AES-256-CBC
+ * Encrypts the content using AES (crypto-js)
  */
 function encryptContent(content) {
   const key = generateKey();
-  const iv = crypto.randomBytes(IV_LENGTH);
-  const cipher = crypto.createCipheriv(ALGORITHM, key, iv);
-
-  let encrypted = cipher.update(JSON.stringify(content), "utf8", "hex");
-  encrypted += cipher.final("hex");
-
-  // Combine IV + encrypted data
-  const combined = Buffer.concat([iv, Buffer.from(encrypted, "hex")]);
-  return combined.toString("base64");
+  const encrypted = AES.encrypt(JSON.stringify(content), key).toString();
+  return encrypted;
 }
 
 /**
- * Decrypts the content
+ * Decrypts the content using AES (crypto-js)
  */
 function decryptContent(encryptedData) {
   const key = generateKey();
-  const combined = Buffer.from(encryptedData, "base64");
-
-  // Extract IV (first 16 bytes) and encrypted data
-  const iv = combined.slice(0, IV_LENGTH);
-  const encrypted = combined.slice(IV_LENGTH);
-
-  const decipher = crypto.createDecipheriv(ALGORITHM, key, iv);
-  let decrypted = decipher.update(encrypted, null, "utf8");
-  decrypted += decipher.final("utf8");
-
+  const decrypted = AES.decrypt(encryptedData, key).toString(Utf8);
   return JSON.parse(decrypted);
 }
 

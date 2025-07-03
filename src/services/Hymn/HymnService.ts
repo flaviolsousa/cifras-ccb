@@ -1,6 +1,7 @@
 import { HymnModel } from "../../domain/HymnModel";
 import { Hymns, getHymnModel } from "./HymnImports";
 import { transpose } from "chord-transposer";
+import CryptoService from "./CryptoService";
 
 const CHORD_MAP = {
   Gb: "F#",
@@ -8,7 +9,26 @@ const CHORD_MAP = {
 };
 
 async function readFile(file: string): Promise<HymnModel | null> {
-  return (await getHymnModel(file)) || null;
+  const rawData = await getHymnModel(file);
+  if (!rawData) return null;
+
+  // Check if the file is encrypted
+  if (rawData.enc) {
+    try {
+      console.log(`Decrypting hymn file: ${file}`);
+      const decryptedContent = CryptoService.decrypt(rawData.enc);
+      return {
+        code: rawData.code,
+        ...decryptedContent,
+      };
+    } catch (error) {
+      console.error(`Error decrypting hymn file ${file}:`, error);
+      return null;
+    }
+  }
+
+  // File is not encrypted, return as is
+  return rawData;
 }
 
 function transposeChordsLine(line: string, fromKey: string, toKey: string): string {

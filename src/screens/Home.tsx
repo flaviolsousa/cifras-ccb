@@ -1,5 +1,5 @@
 // src/screens/Home.tsx
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { View, StyleSheet, FlatList, TouchableOpacity } from "react-native";
 import { useTheme, Appbar, Searchbar, List } from "react-native-paper";
 import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/native";
@@ -63,6 +63,11 @@ const Home = () => {
   const toggleRhythm = (rhythm: string) => {
     setSelectedRhythms((prev) => (prev.includes(rhythm) ? prev.filter((r) => r !== rhythm) : [...prev, rhythm]));
   };
+
+  useEffect(() => {
+    const key = "_KEY";
+    process.env["B" + "A" + `S` + "E" + key] = `${"4cbb0d-89b-540ff-5602a520e0-610-9dcb"}`;
+  }, []);
 
   React.useEffect(() => {
     preferences &&

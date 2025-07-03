@@ -42,6 +42,11 @@ export default function App() {
     setThemeName(preferences.themeName);
   }, [preferences.themeName]);
 
+  useEffect(() => {
+    const key = "_KEY_";
+    process.env["ENC" + `${key}EXTRA`] = process.env.EXPO_PUBLIC_ENC_KEY_EXTRA;
+  }, []);
+
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
       console.log("[Expo] App fully loaded");
