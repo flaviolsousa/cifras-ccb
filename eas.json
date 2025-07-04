@@ -18,13 +18,25 @@
       "android": {
         "buildType": "apk"
       },
-      "node": "22.15.0"
+      "node": "22.15.0",
+      "env": {
+        "EXPO_PUBLIC_ENC_KEY_EXTRA": "flavio!w1r3inf0"
+      },
+      "hooks": {
+        "prebuild": ["node encrypt-hymns.js encrypt --override", "node encrypt-hymns.js encrypt Hymns.json --override"]
+      }
     },
     "production": {
       "node": "22.15.0",
       "distribution": "store",
       "autoIncrement": true,
-      "releaseChannel": "default"
+      "releaseChannel": "default",
+      "env": {
+        "EXPO_PUBLIC_ENC_KEY_EXTRA": "flavio!w1r3inf0"
+      },
+      "hooks": {
+        "prebuild": ["node encrypt-hymns.js encrypt --override", "node encrypt-hymns.js encrypt Hymns.json --override"]
+      }
     }
   },
   "submit": {
