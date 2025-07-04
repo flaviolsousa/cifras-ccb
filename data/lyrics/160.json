@@ -1,49 +1,58 @@
 {
+  "code": "160",
   "version": "v3",
   "title": "\"Sou o Caminho, a Verdade e a Vida\"",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "Bm",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "“[E]Sou [B]o Ca[C#m]mi - [E]nho”, [A]disse-[B]nos Je[E]sus;",
-          "Nes[A]se Cami[E]nho [F#7]vamos nós an[B]dar,",
-          "[E]Fir[B]mes na [C#m]fé,  [E]pois [A]ela [C#]nos con[F#m]duz",
-          "[B]Na espe[E]rança [A]de, no [B]céu, mo[E]rar."
+          "“[D]Sou [A]o Ca[Bm]mi - [D]nho”, [G]disse-[A]nos Je[D]sus;",
+          "Nes[G]se Cami[D]nho [E7]vamos nós an[A]dar,",
+          "[D]Fir[A]mes na [Bm]fé, [D]pois [G]ela [B]nos con[Em]duz",
+          "[A]Na espe[D]rança [G]de, no [A]céu, mo[D]rar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "“[E]Sou [B]a Ver[C#m]da - [E]de”, [A]disse_o [B]Salva[E]dor;",
-          "Nes[A]sa Verda[E]de [F#7]vamos nos fir[B]mar;",
-          "[E]E - [B]la nos [C#m]le - [E]va_ao [A]reino [C#]de a[F#m]mor,",
-          "[B]Onde_os fi[E]éis em [A]breve_i[B]rão en[E]trar."
+          "“[D]Sou [A]a Ver[Bm]da - [D]de”, [G]disse o [A]Salva[D]dor;",
+          "Nes[G]sa Verda[D]de [E7]vamos nos fir[A]mar;",
+          "[D]E - [A]la nos [Bm]le - [D]va ao [G]reino [B]de a[Em]mor,",
+          "[A]Onde os fi[D]éis em [G]breve i[A]rão en[D]trar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "“[E]Eu [B]sou a [C#m]Vi - [E]da”, [A]disse_o [B]Reden[E]tor;",
-          "É [A]essa Vi[E]da [F#7]que suplanta_o [B]mal,",
-          "[E]Vi - [B]da per[C#m]fei - [E]ta, [A]Vida [C#]de a[F#m]mor,",
-          "[B]Vida su[E]blime [A]e ce[B]lesti[E]al."
+          "“[D]Eu [A]sou a [Bm]Vi - [D]da”, [G]disse o [A]Reden[D]tor;",
+          "É [G]essa Vi[D]da [E7]que suplanta o [A]mal,",
+          "[D]Vi - [A]da per[Bm]fei - [D]ta, [G]Vida [B]de a[Em]mor,",
+          "[A]Vida su[D]blime [G]e ce[A]lesti[D]al."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "“[E]Nin[B]guém vi[C#m]rá   [E]ao [A]Pai, se[B]não por [E]Mim”,",
-          "Dis[A]se Jesus, [E]Au - [F#7]tor da salva[B]ção;",
-          "[E]Só [B]no Se[C#m]nhor [E]há [A]dádi[C#]vas sem [F#m]fim,",
-          "[B]Só n´Ele_al[E]cança[A]remos [B]reden[E]ção."
+          "“[D]Nin[A]guém vi[Bm]rá [D]ao [G]Pai, se[A]não por [D]Mim”,",
+          "Dis[G]se Jesus, [D]Au - [E7]tor da salva[A]ção;",
+          "[D]Só [A]no Se[Bm]nhor [D]há [G]dádi[B]vas sem [Em]fim,",
+          "[A]Só n´Ele al[D]cança[G]remos [A]reden[D]ção."
         ]
       }
     ]

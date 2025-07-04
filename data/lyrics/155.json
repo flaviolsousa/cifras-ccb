@@ -1,10 +1,20 @@
 {
+  "code": "155",
   "version": "v3",
   "title": "Olha a Cristo, o Redentor",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "C",
+      "F",
+      "C",
+      "G",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -20,7 +30,7 @@
         "type": "chorus",
         "text": [
           "Por Je[C]sus, receberás",
-          "O per[G]dão e_a paz dos [C]céus;",
+          "O per[G]dão e a paz dos [C]céus;",
           "O Seu sangue livra[F]rá",
           "Tua [C]alma da [G]ira de [C]Deus."
         ]
@@ -46,7 +56,7 @@
           "[C]Sem o Seu sangue [F]não há per[C]dão,",
           "[G]Não há, com Deus, reconcilia[C]ção;",
           "Das obras mortas [F]limpo serás;",
-          "Vida com [C]glória_e[F]ter[G]na te[C]rás."
+          "Vida com [C]glória e[F]ter[G]na te[C]rás."
         ]
       },
       {

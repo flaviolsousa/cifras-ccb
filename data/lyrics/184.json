@@ -1,10 +1,20 @@
 {
+  "code": "184",
   "version": "v3",
   "title": "Nós Te louvamos, por fé, grande Deus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "G",
+      "Am",
+      "Em",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +22,7 @@
         "text": [
           "[G]Nós Te lou[Am]vamos, [Em]por [D]fé, grande D[G]eus,",
           "E imploramos Teu [C]santo [A7]fa - [D]vor;",
-          "Anjos [E7]Te  [Am]lou - [D]vam [G]lá nos céus",
+          "Anjos [E7]Te [Am]lou - [D]vam [G]lá nos céus",
           "[C]E nós tam[G]bém Te [C]da - [D]mos lou[G]vor."
         ]
       },
@@ -20,10 +30,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Salva Teu [Am]povo, [Em]ó   [D]Deus, Cria[G]dor,",
-          "Pelo Teu grande,_infi[C]nito [A7]po - [D]der;",
+          "[G]Salva Teu [Am]povo, [Em]ó [D]Deus, Cria[G]dor,",
+          "Pelo Teu grande, infi[C]nito [A7]po - [D]der;",
           "Dá-nos [E7]mais [Am]fé, [D]mai[G]or vigor,",
-          "[C]Para que,_o [G]mal, pos[C]sa - [D]mos ven[G]cer."
+          "[C]Para que, o [G]mal, pos[C]sa - [D]mos ven[G]cer."
         ]
       },
       {

@@ -1,38 +1,47 @@
 {
+  "code": "174",
   "version": "v3",
   "title": "Vem atender ao Seu chamado",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "D7",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao a[A]mado Jesus Cristo dá ou[D]vidos,",
-          "Ele [E7]diz: “Vem a [A]Mim”;",
-          "E serão os teus pecados esque[D]cidos;",
-          "Cristo [B7]diz: “Vem a [E7]Mim”."
+          "Ao a[G]mado Jesus Cristo dá ou[C]vidos,",
+          "Ele [D7]diz: “Vem a [G]Mim”;",
+          "E serão os teus pecados esque[C]cidos;",
+          "Cristo [A7]diz: “Vem a [D7]Mim”."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Vem [E7]atender ao Seu cha[A]mado;",
-          "Se[E7]rás, por Cristo, perdo[C#]a - [E7]do",
-          "E fa[A]rá de ti um bem-aventu[D]rado.",
-          "Diz Je[E7]sus: “[B7]Vem [E7]a   [A]Mim”."
+          "Vem [D7]atender ao Seu cha[G]mado;",
+          "Se[D7]rás, por Cristo, perdo[B]a - [D7]do",
+          "E fa[G]rá de ti um bem-aventu[C]rado.",
+          "Diz Je[D7]sus: “[A7]Vem [D7]a [G]Mim”."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Só Je[A]sus tem força para liber[D]tar-te;",
-          "Crê no [E7]teu Reden[A]tor;",
-          "Ele que, com Deus, o Pai, reconci[D]liar-te;",
-          "Crê no [B7]teu Salva[E7]dor."
+          "Só Je[G]sus tem força para liber[C]tar-te;",
+          "Crê no [D7]teu Reden[G]tor;",
+          "Ele que, com Deus, o Pai, reconci[C]liar-te;",
+          "Crê no [A7]teu Salva[D7]dor."
         ]
       },
       {
@@ -43,10 +52,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sobre_a[A]marga cruz, por ti, provou a [D]morte;",
-          "Ouve_a [E7]voz do Sen[A]hor;",
-          "Não rejeites tão preciosa_e grande [D]sorte;",
-          "Vem pro[B7]var Seu a[E7]mor."
+          "Sobre a[G]marga cruz, por ti, provou a [C]morte;",
+          "Ouve a [D7]voz do Sen[G]hor;",
+          "Não rejeites tão preciosa e grande [C]sorte;",
+          "Vem pro[A7]var Seu a[D7]mor."
         ]
       },
       {

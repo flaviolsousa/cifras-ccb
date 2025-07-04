@@ -1,39 +1,49 @@
 {
+  "code": "164",
   "version": "v3",
   "title": "Louvemos sempre alegres",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "D",
+      "A",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lou[E]vemos sempre_alegres a [B]Deus, três vezes Santo,",
-          "Que, [E]por amar-nos tanto, [B]man[E]dou o [F#7]Salva[B]dor.",
-          "Je[E]sus, por Sua [A]mor[E]te, pagou nossas o[B]fensas;",
-          "So[E]frendo dor imensa, [E7]most[A]rou o [B]Seu a[E]mor."
+          "Lou[D]vemos sempre alegres a [A]Deus, três vezes Santo,",
+          "Que, [D]por amar-nos tanto, [A]man[D]dou o [E7]Salva[A]dor.",
+          "Je[D]sus, por Sua [G]mor[D]te, pagou nossas o[A]fensas;",
+          "So[D]frendo dor imensa, [D7]most[G]rou o [A]Seu a[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Es[E]tão os nossos nomes, por [B]Deus, no céu escritos;",
-          "Che[E]guemo-nos, contritos, [B]ao [E]Pai de_e[F#7]terno_a[B]mor.",
-          "Em [E]paz, na Sua [A]sen[E]da caminham os re[B]midos,",
-          "Lu[E]tando sempre_unidos, [E7]com [A]força [B]e va[E]lor."
+          "Es[D]tão os nossos nomes, por [A]Deus, no céu escritos;",
+          "Che[D]guemo-nos, contritos, [A]ao [D]Pai de e[E7]terno a[A]mor.",
+          "Em [D]paz, na Sua [G]sen[D]da caminham os re[A]midos,",
+          "Lu[D]tando sempre unidos, [D7]com [G]força [A]e va[D]lor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Je[E]sus virá, com glória, fa[B]zer o julgamento",
-          "De [E]quem Seu mandamento [B]não [E]quis o[F#7]bede-[B]cer;",
-          "Po[E]rém, os Seus re[A]mi-[E]dos já têm a espe[B]rança",
-          "E_a [E]firme confiança [E7]de_o [A]prêmio [B]rece[E]ber."
+          "Je[D]sus virá, com glória, fa[A]zer o julgamento",
+          "De [D]quem Seu mandamento [A]não [D]quis o[E7]bede-[A]cer;",
+          "Po[D]rém, os Seus re[G]mi-[D]dos já têm a espe[A]rança",
+          "E a [D]firme confiança [D7]de o [G]prêmio [A]rece[D]ber."
         ]
       }
     ]

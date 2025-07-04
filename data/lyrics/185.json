@@ -1,10 +1,20 @@
 {
+  "code": "185",
   "version": "v3",
   "title": "Deus mandou Sua Luz",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "C",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -21,8 +31,8 @@
         "code": "2",
         "text": [
           "[G]O Sol da justiça Sua [D]luz raiou,",
-          "E o ermo_em terra fértil t[G]ransformou;",
-          "Todo_aquele que_aceitar a [C]Luz dos céus,",
+          "E o ermo em terra fértil t[G]ransformou;",
+          "Todo aquele que aceitar a [C]Luz dos céus,",
           "[G]O perdão te[D]rá de D[G]eus."
         ]
       },
@@ -40,7 +50,7 @@
         "type": "chorus",
         "text": [
           "[G]Brilha essa Luz em [D]mim,",
-          "Desde que_aceitei Je[G]sus;",
+          "Desde que aceitei Je[G]sus;",
           "Essa Luz iluminou o [C]meu viver",
           "[G]E me faz res[D]plande[G]cer."
         ]

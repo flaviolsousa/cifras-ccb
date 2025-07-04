@@ -1,27 +1,37 @@
 {
+  "code": "142",
   "version": "v3",
   "title": "Ó Pai celestial",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "F",
+      "C",
+      "F",
+      "A#",
+      "F"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Ó [F]Pai celestial, de a[C]mor eter[F]nal,",
-          "Im[Bb]ploro com todo_o meu [F]ser:",
-          "Vem me fortificar e tam[Bb]bém conso[F]lar",
+          "Im[A#]ploro com todo o meu [F]ser:",
+          "Vem me fortificar e tam[A#]bém conso[F]lar",
           "Com o Teu glori[C]oso po[F]der."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Eu im[F]ploro com todo_o meu [C]ser:",
+          "Eu im[F]ploro com todo o meu [C]ser:",
           "Pai, vem sempre me socor[F]rer;",
-          "Com Teu santo vi[F7]gor, eu se[Bb]rei vence[Gm]dor",
+          "Com Teu santo vi[F7]gor, eu se[A#]rei vence[Gm]dor",
           "E ve[C]rei Tua glória, Sen[F]hor."
         ]
       },
@@ -30,8 +40,8 @@
         "code": "2",
         "text": [
           "Fi[F]el e bom Deus, dá-me [C]graça dos c[F]éus",
-          "De [Bb]resistir ao tenta[F]dor,",
-          "Que furioso está e tor[Bb]mento me [F]dá",
+          "De [A#]resistir ao tenta[F]dor,",
+          "Que furioso está e tor[A#]mento me [F]dá",
           "Neste mundo de [C]lutas e [F]dor."
         ]
       },
@@ -44,8 +54,8 @@
         "code": "3",
         "text": [
           "Ó [F]Pai, vem me dar forças [C]para lu[F]tar",
-          "A [Bb]fim de em tudo ven[F]cer;",
-          "Acrescenta-me_a fé e sus[Bb]tém-me de [F]pé,",
+          "A [A#]fim de em tudo ven[F]cer;",
+          "Acrescenta-me a fé e sus[A#]tém-me de [F]pé,",
           "Revestindo-me [C]do Teu po[F]der."
         ]
       },

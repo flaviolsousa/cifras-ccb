@@ -1,34 +1,46 @@
 {
+  "code": "145",
   "version": "v3",
   "title": "Pródigo filho, vai!",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "C",
+      "G",
+      "C",
+      "A7",
+      "Dm",
+      "G",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Deus, no Seu lar, es[A]pera o filho que per[D]dera",
-          "E que amado [B7]e - [Em]ra; [A]pródigo filho, [D]vai!"
+          "[C]Deus, no Seu lar, es[G]pera o filho que per[C]dera",
+          "E que amado [A7]e - [Dm]ra; [G]pródigo filho, [C]vai!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Oh! Vai a Deus e [Em]cla - [A7]ma; o Criador te [D]ama;",
-          "[B7]O Seu perdão im[E7]plora; pródigo filho, [A7]vai a Deus!",
-          "[D]Ele mercê con[Em]ce - [A7]de, Cristo por ti_inter[D]cede;",
-          "Se te arrepen[B7]de - [Em]res, [A7]bens te dará, dos c[D]éus."
+          "[C]Oh! Vai a Deus e [Dm]cla - [G7]ma; o Criador te [C]ama;",
+          "[A7]O Seu perdão im[D7]plora; pródigo filho, [G7]vai a Deus!",
+          "[C]Ele mercê con[Dm]ce - [G7]de, Cristo por ti inter[C]cede;",
+          "Se te arrepen[A7]de - [Dm]res, [G7]bens te dará, dos c[C]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Seu filho, Deus per[A]doa, muito o aben[D]çoa,",
-          "De bênçãos o co[B7]ro - [Em]a;   [A]pródigo filho, [D]vai!"
+          "[C]Seu filho, Deus per[G]doa, muito o aben[C]çoa,",
+          "De bênçãos o co[A7]ro - [Dm]a; [G]pródigo filho, [C]vai!"
         ]
       },
       {
@@ -39,8 +51,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Deixa a incer[A]teza e toda a tris[D]teza;",
-          "Com Deus terás ri[B7]que - [Em]za; [A]pródigo filho, [D]vai!"
+          "[C]Deixa a incer[G]teza e toda a tris[C]teza;",
+          "Com Deus terás ri[A7]que - [Dm]za; [G]pródigo filho, [C]vai!"
         ]
       },
       {

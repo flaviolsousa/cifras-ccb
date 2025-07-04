@@ -1,29 +1,39 @@
 {
+  "code": "180",
   "version": "v3",
   "title": "Jesus é a Luz que veio ao mundo...",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Je[G]sus é_a Luz que [D]veio ao mundo [G]para me resga[D]tar;",
+          "Je[G]sus é a Luz que [D]veio ao mundo [G]para me resga[D]tar;",
           "Em [G]trevas eu ja[D]mais andarei, pois [A7]Ele me faz bri[D]lhar.[D]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Se_eu an[G]dar nessa Luz,",
+          "[D]Se eu an[G]dar nessa Luz,",
           "Um dia eu verei o fi[D]el, bom Jesus;",
           "Na [A7]casa de Deus [D]Pai,",
-          "Eu con[G]templarei todo_o esplendor",
+          "Eu con[G]templarei todo o esplendor",
           "Do meu Redentor. Que ale[D]gria!",
           "Lá não [Em]há tris[C]teza [G]e nem mal,",
-          "[C]Só o_amor [D]pere[G]nal."
+          "[C]Só o amor [D]pere[G]nal."
         ]
       },
       {
@@ -41,7 +51,10 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Je[G]sus, vem com a t[D]ua gloriosa l[G]uz para me gui[D]ar", "No [G]Evangelho [D]santo, até fin[A7]dar meu peregri[D]nar.[D]..."]
+        "text": [
+          "Je[G]sus, vem com a t[D]ua gloriosa l[G]uz para me gui[D]ar",
+          "No [G]Evangelho [D]santo, até fin[A7]dar meu peregri[D]nar.[D]..."
+        ]
       },
       {
         "type": "ref",

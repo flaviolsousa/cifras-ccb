@@ -1,16 +1,26 @@
 {
+  "code": "170",
   "version": "v3",
   "title": "Pai eternal, envia dos céus...",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "C",
+      "G",
+      "C",
+      "F",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Glória!_Aleluia! Ó bom Pai dos c[G]éus,",
+          "[C]Glória! Aleluia! Ó bom Pai dos c[G]éus,",
           "O Evangelho nos fez filhos [C]Teus;",
           "Por Ele temos a fé em Je[F]sus,",
           "Temos con[C]forto, jus[G]tiça e [C]luz."
@@ -20,9 +30,9 @@
         "type": "chorus",
         "text": [
           "Pai eter[G]nal, envia dos c[C]éus",
-          "Tua fi[Am]el Pa[D]lavra de_a[G]mor;[G7]...",
+          "Tua fi[Am]el Pa[D]lavra de a[G]mor;[G7]...",
           "N´Ela con[C]siste a vida dos [F]Teus;",
-          "Glória_ao Teu [C]Nome, a[G]mado Sen[C]hor!"
+          "Glória ao Teu [C]Nome, a[G]mado Sen[C]hor!"
         ]
       },
       {
@@ -30,9 +40,9 @@
         "code": "2",
         "text": [
           "[C]A Ti pertencem, ó Pai de a[G]mor,",
-          "Glória e honra, e todo_o lou[C]vor,",
-          "Pelo_Evangelho nós temos a [F]paz,",
-          "Forças do [C]alto e [G]graça_efi[C]caz."
+          "Glória e honra, e todo o lou[C]vor,",
+          "Pelo Evangelho nós temos a [F]paz,",
+          "Forças do [C]alto e [G]graça efi[C]caz."
         ]
       },
       {
@@ -43,9 +53,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]É o_Evangelho que nos faz cres[G]cer",
-          "Na santidade, virtude_e po[C]der;",
-          "N´Ele_entendemos Teu grande fa[F]vor;",
+          "[C]É o Evangelho que nos faz cres[G]cer",
+          "Na santidade, virtude e po[C]der;",
+          "N´Ele entendemos Teu grande fa[F]vor;",
           "Damos-Te [C]glória, ó [G]Pai de a[C]mor."
         ]
       },

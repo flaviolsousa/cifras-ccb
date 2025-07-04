@@ -1,38 +1,50 @@
 {
+  "code": "191",
   "version": "v3",
   "title": "Vem, vem consolar-me",
   "tone": {
-    "recommended": "A"
+    "original": "F",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "C",
+      "A7",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Em [A]Ti, Se[E]nhor, abri[A]gado,",
-          "Te[D]rei força [B7]na prova[E]ção;",
-          "Tam[A]bém se[C#]rei conso[F#m]la - [C#]do",
-          "Na [A]hora da afli[E]ção[A]."
+          "Em [G]Ti, Se[D]nhor, abri[G]gado,",
+          "Te[C]rei força [A7]na prova[D]ção;",
+          "Tam[G]bém se[B]rei conso[Em]la - [B]do",
+          "Na [G]hora da afli[D]ção[G]."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Vem, [E]vem conso[A]lar-me,",
-          "Pai celes[E]tial, com Teu a[A]mor;",
-          "Confio em [E]Ti, ó D[A]eus Cria[D]dor,",
-          "Pode[A]roso_e fi[E]el Sen[A]hor."
+          "[G]Vem, [D]vem conso[G]lar-me,",
+          "Pai celes[D]tial, com Teu a[G]mor;",
+          "Confio em [D]Ti, ó D[G]eus Cria[C]dor,",
+          "Pode[G]roso e fi[D]el Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ó D[A]eus e[E]terno,_envi[A]aste,",
-          "Por [D]Cristo, ve[B7]raz salva[E]ção;",
-          "Min[A]h´alma [C#]justifi[F#m]cas - [C#]te,",
-          "Me [A]concedeste per[E]dão[A]."
+          "Ó D[G]eus e[D]terno, envi[G]aste,",
+          "Por [C]Cristo, ve[A7]raz salva[D]ção;",
+          "Min[G]h´alma [B]justifi[Em]cas - [B]te,",
+          "Me [G]concedeste per[D]dão[G]."
         ]
       },
       {
@@ -43,10 +55,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Por [A]Ti, ó [E]Deus, eu e[A]xisto,",
-          "Ca[D]minho Con[B7]tigo por [E]fé;",
-          "A p[A]az que [C#]sinto em [F#m]Cris - [C#]to,",
-          "Do T[A]eu amor, fruto [E]é.[A]..."
+          "Por [G]Ti, ó [D]Deus, eu e[G]xisto,",
+          "Ca[C]minho Con[A7]tigo por [D]fé;",
+          "A p[G]az que [B]sinto em [Em]Cris - [B]to,",
+          "Do T[G]eu amor, fruto [D]é.[G]..."
         ]
       },
       {

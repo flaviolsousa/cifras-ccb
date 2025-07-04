@@ -1,38 +1,48 @@
 {
+  "code": "196",
   "version": "v3",
   "title": "Sem Deus Pai",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "A",
+      "E",
+      "A",
+      "E",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Sem Deus Pai somos frágeis hu[F#]manos,",
-          "Sem Deus, não há em nós espe[B]rança;",
-          "Neste mundo_em que peregri[F#]namos,",
-          "Só por Ele nos vem segu[B]rança."
+          "[A]Sem Deus Pai somos frágeis hu[E]manos,",
+          "Sem Deus, não há em nós espe[A]rança;",
+          "Neste mundo em que peregri[E]namos,",
+          "Só por Ele nos vem segu[A]rança."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G#m]É Jesus Cristo Quem nos con[D#]vida",
-          "[G#m]Ao Seu reino de g[E]lória nos [D#]céus;",
-          "[B]Ele nos dá poder, graça_e [F#]vida,",
-          "E as santas promessas de D[B]eus."
+          "[F#m]É Jesus Cristo Quem nos con[Db]vida",
+          "[F#m]Ao Seu reino de g[D]lória nos [Db]céus;",
+          "[A]Ele nos dá poder, graça e [E]vida,",
+          "E as santas promessas de D[A]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Sem Jesus Cristo não temos [F#]vida,",
-          "Sem Jesus, santo_amor não pro[B]vamos;",
-          "Ele, por graça, nos dá gua[F#]rida",
-          "Nos perigos que_aqui encon[B]tramos."
+          "[A]Sem Jesus Cristo não temos [E]vida,",
+          "Sem Jesus, santo amor não pro[A]vamos;",
+          "Ele, por graça, nos dá gua[E]rida",
+          "Nos perigos que aqui encon[A]tramos."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Sem o_Espírito Santo não [F#]vemos,",
-          "Sem o_Espírito,_andamos er[B]rantes;",
-          "Só por Ele_a Palavra_enten[F#]demos",
-          "E seremos, então, triun[B]fantes."
+          "[A]Sem o Espírito Santo não [E]vemos,",
+          "Sem o Espírito, andamos er[A]rantes;",
+          "Só por Ele a Palavra enten[E]demos",
+          "E seremos, então, triun[A]fantes."
         ]
       },
       {

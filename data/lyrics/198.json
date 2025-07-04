@@ -1,16 +1,25 @@
 {
+  "code": "198",
   "version": "v3",
   "title": "Nosso Pai celeste sabe e provê",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "Em",
+      "A",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Nosso [D]Pai celeste [Em]sabe_e provê",
+          "Nosso [D]Pai celeste [Em]sabe e provê",
           "O que [A]temos de mis[D]ter;",
           "Nada deixa[B7]rá fal[Em]tar ao que crê,",
           "Pois [A]grande é Seu po[D]der."
@@ -21,8 +30,8 @@
         "text": [
           "[D]Sem[A]pre, [D]com fé, procuremos agradar a D[A]eus;",
           "Sempre, por fé, aceitemos o que vem dos c[D]éus;",
-          "Deus [A]tem, [D]por nós, o cui[D7]dado santo_e pater[G]nal;",
-          "Glória, [G#°]sempiterna g[D]lória [B7]ao Deus vivo,",
+          "Deus [A]tem, [D]por nós, o cui[D7]dado santo e pater[G]nal;",
+          "Glória, [Ab°]sempiterna g[D]lória [B7]ao Deus vivo,",
           "[Em]Nosso Pai ce[A]lesti[D]al!"
         ]
       },

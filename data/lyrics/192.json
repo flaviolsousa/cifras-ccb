@@ -1,38 +1,48 @@
 {
+  "code": "192",
   "version": "v3",
   "title": "Quão fiel promessa Jesus nos fez",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "G",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jes[A]us, o Senhor, preparou",
-          "O lu[D]gar aos filhos de D[A]eus;",
-          "No e[E]terno lar onde [A]Ele entrou",
-          "Fa[B7]rá entrar os [E]santos [E]Seus."
+          "Jes[G]us, o Senhor, preparou",
+          "O lu[C]gar aos filhos de D[G]eus;",
+          "No e[D]terno lar onde [G]Ele entrou",
+          "Fa[A7]rá entrar os [D]santos [D]Seus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Quão fi[A]el promessa Je[E]sus nos fez:",
-          "“Convosco sempre_esta[A]rei!”;",
-          "Brevemente_em [C#7]nuvens re[F#m]torna[D]rá",
-          "O [A]nosso [E]grande [A]Rei."
+          "[D]Quão fi[G]el promessa Je[D]sus nos fez:",
+          "“Convosco sempre esta[G]rei!”;",
+          "Brevemente em [B7]nuvens re[Em]torna[C]rá",
+          "O [G]nosso [D]grande [G]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Je[A]sus, órfãos não nos deixou;",
-          "Envi[D]ou o Consola[A]dor;",
-          "Por i[E]menso_amor, nos a[A]bençoou",
-          "Com [B7]vida_eterna [E]e_esplen[E]dor."
+          "Je[G]sus, órfãos não nos deixou;",
+          "Envi[C]ou o Consola[G]dor;",
+          "Por i[D]menso amor, nos a[G]bençoou",
+          "Com [A7]vida eterna [D]e esplen[D]dor."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Quão [A]doce_é saber que Jesus",
-          "Nos deu [D]fé a fim de an[A]dar",
-          "Pela [E]Sua senda de [A]paz e luz,",
-          "A[B7]té o breve [E]Seu vol[E]tar."
+          "Quão [G]doce é saber que Jesus",
+          "Nos deu [C]fé a fim de an[G]dar",
+          "Pela [D]Sua senda de [G]paz e luz,",
+          "A[A7]té o breve [D]Seu vol[D]tar."
         ]
       },
       {

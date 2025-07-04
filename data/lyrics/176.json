@@ -1,38 +1,49 @@
 {
+  "code": "176",
   "version": "v3",
   "title": "Por Ti vivo, ó Deus potente",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "D",
+      "A",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vi[E]ver desejo só por Ti, Senhor,",
-          "Cumprindo sempre Teu que[B]rer,",
-          "Mos[E]trando_a luz ao mundo_enganador",
-          "E [B]consa[B7]grando_a Ti meu [E]ser."
+          "Vi[D]ver desejo só por Ti, Senhor,",
+          "Cumprindo sempre Teu que[A]rer,",
+          "Mos[D]trando a luz ao mundo enganador",
+          "E [A]consa[A7]grando a Ti meu [D]ser."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E7]Por Ti [A]vivo, ó Deus po[E]tente;",
-          "Por Ti, Se[B7]nhor, sempre vive[E]rei;",
-          "[E7]Com mi[A]nh´alma, mui reve[E]rente,",
-          "O Teu [B7]Nome bendi[E]rei."
+          "[D7]Por Ti [G]vivo, ó Deus po[D]tente;",
+          "Por Ti, Se[A7]nhor, sempre vive[D]rei;",
+          "[D7]Com mi[G]nh´alma, mui reve[D]rente,",
+          "O Teu [A7]Nome bendi[D]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Vi[E]ver por Ti, Senhor, honroso é,",
-          "Oh! Faz-me_andar em Teu a[B]mor;",
-          "Em [E]paz prosseguirei de fé em fé",
-          "E [B]vence[B7]rei o tenta[E]dor."
+          "Vi[D]ver por Ti, Senhor, honroso é,",
+          "Oh! Faz-me andar em Teu a[A]mor;",
+          "Em [D]paz prosseguirei de fé em fé",
+          "E [A]vence[A7]rei o tenta[D]dor."
         ]
       },
       {
@@ -43,10 +54,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vi[E]ver desejo,_ó Deus, em retidão,",
-          "Com as virtudes celes[B]tiais;",
-          "De [E]Ti receberei o galardão",
-          "E [B]as ri[B7]quezas eter[E]nais."
+          "Vi[D]ver desejo, ó Deus, em retidão,",
+          "Com as virtudes celes[A]tiais;",
+          "De [D]Ti receberei o galardão",
+          "E [A]as ri[A7]quezas eter[D]nais."
         ]
       },
       {

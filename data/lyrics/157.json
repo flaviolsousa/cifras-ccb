@@ -1,42 +1,52 @@
 {
+  "code": "157",
   "version": "v3",
   "title": "Ouve a voz que te convida...",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "G",
+      "D7",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vendo [A]Deus que, neste [D]mun[A]do, o pe[E7]cado impe[A]rou,",
-          "[E7]Por a[A]mor santo_e [D]profun[A]do, a Seu [E7]Filho envi[A]ou",
-          "Para [E7]vencer o pe[A]cado e nos liber[F#m]tar.",
-          "[E7]Tu tam[A]bém podes ser salvo, por Jesus podes ser [D]sal[A]vo;",
-          "Vai a [D]Ele sem tar[A]dar, vai ao [E7]Mestre sem tar[A]dar."
+          "Vendo [G]Deus que, neste [C]mun[G]do, o pe[D7]cado impe[G]rou,",
+          "[D7]Por a[G]mor santo e [C]profun[G]do, a Seu [D7]Filho envi[G]ou",
+          "Para [D7]vencer o pe[G]cado e nos liber[Em]tar.",
+          "[D7]Tu tam[G]bém podes ser salvo, por Jesus podes ser [C]sal[G]vo;",
+          "Vai a [C]Ele sem tar[G]dar, vai ao [D7]Mestre sem tar[G]dar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Da pri[A]são do teu pe[D]ca - [A]do, Cristo [E7]quer te liber[A]tar;",
-          "[E7]Ele [A]foi crucifi[D]ca - [A]do para [E7]te regene[A]rar.",
-          "Crê em Je[E7]sus, o Cor[A]deiro, que te salva[F#m]rá.",
-          "[E7]Servo [A]és do teu pecado, morto_estás no teu pe[D]ca - [A]do;",
-          "Crê so[D]mente_e vive[A]rás, para [E7]Cristo vive[A]rás."
+          "Da pri[G]são do teu pe[C]ca - [G]do, Cristo [D7]quer te liber[G]tar;",
+          "[D7]Ele [G]foi crucifi[C]ca - [G]do para [D7]te regene[G]rar.",
+          "Crê em Je[D7]sus, o Cor[G]deiro, que te salva[Em]rá.",
+          "[D7]Servo [G]és do teu pecado, morto estás no teu pe[C]ca - [G]do;",
+          "Crê so[C]mente e vive[G]rás, para [D7]Cristo vive[G]rás."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ouve_a [A]voz que te con[D]vi - [A]da, dá ou[E7]vidos ao teu D[A]eus,",
-          "[E7]E te[A]rás a nova [D]vi - [A]da que, por [E7]graça, têm os S[A]eus;",
-          "Quer-te re[E7]mir Jesus [A]Cristo e te dar a [F#m]paz;",
-          "[E7]E ao [A]fim, na Sua glória, no_esplendor da Sua [D]gló[A]ria,",
-          "Vida_e[D]terna_alcança[A]rás, galar[E7]dão alcança[A]rás."
+          "Ouve a [G]voz que te con[C]vi - [G]da, dá ou[D7]vidos ao teu D[G]eus,",
+          "[D7]E te[G]rás a nova [C]vi - [G]da que, por [D7]graça, têm os S[G]eus;",
+          "Quer-te re[D7]mir Jesus [G]Cristo e te dar a [Em]paz;",
+          "[D7]E ao [G]fim, na Sua glória, no esplendor da Sua [C]gló[G]ria,",
+          "Vida e[C]terna alcança[G]rás, galar[D7]dão alcança[G]rás."
         ]
       }
     ]

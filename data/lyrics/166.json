@@ -1,10 +1,22 @@
 {
+  "code": "166",
   "version": "v3",
   "title": "A graça inefável de Deus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "G7",
+      "C",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,14 +24,14 @@
         "text": [
           "Se [G]muitos soubessem que [D]paz sem igual",
           "Tem quem o perdão alcan[G]çou;",
-          "Por fé busca[G7]riam a [C]graça_eternal;",
-          "I[D]riam a Deus, quem_os a[G]mou."
+          "Por fé busca[G7]riam a [C]graça eternal;",
+          "I[D]riam a Deus, quem os a[G]mou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A [G]graça_inefável de [D]Deus,",
+          "A [G]graça inefável de [D]Deus,",
           "Que veio por Cristo Je[G]sus,",
           "É dom exce[G7]lente que [C]leva aos céus,",
           "Ao [D]reino de glória e [G]luz."

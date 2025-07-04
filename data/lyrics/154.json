@@ -1,38 +1,48 @@
 {
+  "code": "154",
   "version": "v3",
   "title": "Terá que renascer",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "D",
+      "G",
+      "D",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [E]homem que busca a C[A]risto, o Sen[E]hor,",
-          "Que[B7]rendo a vida e[E]terna encontrar,",
-          "O Santo conselho do [A]bom Reden[E]tor",
-          "Não [F#7]deve rejei[B7]tar."
+          "O [D]homem que busca a C[G]risto, o Sen[D]hor,",
+          "Que[A7]rendo a vida e[D]terna encontrar,",
+          "O Santo conselho do [G]bom Reden[D]tor",
+          "Não [E7]deve rejei[A7]tar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Te[E]rá que renasc[A]er,",
-          "Te[B7]rá que renasc[E]er.  ",
-          "Quem quer habi[F#m]tar nas mo[G#m]radas de D[A]eus,",
-          "Te[E]rá que [B7]renasc[E]er."
+          "Te[D]rá que renasc[G]er,",
+          "Te[A7]rá que renasc[D]er. ",
+          "Quem quer habi[Em]tar nas mo[F#m]radas de D[G]eus,",
+          "Te[D]rá que [A7]renasc[D]er."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Da [E]água e do Espírito q[A]uem não nasc[E]er,",
-          "Ja[B7]mais poderá ver o r[E]eino dos céus,",
-          "E nem entrará nele p[A]ara viv[E]er;",
-          "Ja[F#7]mais verá a D[B7]eus.”"
+          "Da [D]água e do Espírito q[G]uem não nasc[D]er,",
+          "Ja[A7]mais poderá ver o r[D]eino dos céus,",
+          "E nem entrará nele p[G]ara viv[D]er;",
+          "Ja[E7]mais verá a D[A7]eus.”"
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Só C[E]risto, unigênito F[A]ilho de D[E]eus,",
-          "Li[B7]berta o homem da c[E]ondenação,",
-          "A fim de levá-lo ao r[A]eino dos c[E]éus",
-          "E [F#7]dar-lhe galard[B7]ão."
+          "Só C[D]risto, unigênito F[G]ilho de D[D]eus,",
+          "Li[A7]berta o homem da c[D]ondenação,",
+          "A fim de levá-lo ao r[G]eino dos c[D]éus",
+          "E [E7]dar-lhe galard[A7]ão."
         ]
       },
       {

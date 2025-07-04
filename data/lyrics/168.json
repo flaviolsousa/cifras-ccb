@@ -1,38 +1,50 @@
 {
+  "code": "168",
   "version": "v3",
   "title": "A Palavra do Senhor",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "A",
+      "E",
+      "A",
+      "D",
+      "Eb°",
+      "E7",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Na Pa[B]lavra do Senhor, bons conselhos pode_a[F#]char,",
-          "Neste [B]mundo,_o peca[E]dor [F°]que na [F#7]glória quer en[B]trar;",
-          "[B7]Tem vir[E]tude, tem vigor a Pa[B]lavra do Se[F#]nhor,",
-          "É a [B]Guia do fi[E]el    [F°]para [F#7]ir ao Cria[B]dor."
+          "Na Pa[A]lavra do Senhor, bons conselhos pode a[E]char,",
+          "Neste [A]mundo, o peca[D]dor [Eb°]que na [E7]glória quer en[A]trar;",
+          "[A7]Tem vir[D]tude, tem vigor a Pa[A]lavra do Se[E]nhor,",
+          "É a [A]Guia do fi[D]el [Eb°]para [E7]ir ao Cria[A]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A Pa[B]lavra do Senhor ",
-          "Mostra_a [F#]todo_o pecador",
-          "Que Deus, [G#m]por Seu grande_a[E]mor,",
-          "Envi[F#7]ou o Salva[B]dor.[B]..."
+          "A Pa[A]lavra do Senhor ",
+          "Mostra a [E]todo o pecador",
+          "Que Deus, [F#m]por Seu grande a[D]mor,",
+          "Envi[E7]ou o Salva[A]dor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Quem pro[B]cura_o Salvador, certamente_O acha[F#]rá",
-          "No_Evan[B]gelho de a[E]mor, [F°]que ri[F#7]queza_a todos [B]dá;",
-          "[B7]Quem qui[E]ser de graça ter o per[B]dão e_a salva[F#]ção,",
-          "Deve_a [B]Cristo recor[E]rer,  [F°]com sin[F#7]cero cora[B]ção."
+          "Quem pro[A]cura o Salvador, certamente O acha[E]rá",
+          "No Evan[A]gelho de a[D]mor, [Eb°]que ri[E7]queza a todos [A]dá;",
+          "[A7]Quem qui[D]ser de graça ter o per[A]dão e a salva[E]ção,",
+          "Deve a [A]Cristo recor[D]rer, [Eb°]com sin[E7]cero cora[A]ção."
         ]
       },
       {
@@ -43,10 +55,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Quem a [B]Cristo encontrar e virtude supli[F#]car,",
-          "Transfor[B]mado fica[E]rá [F°]para,_a [F#7]Deus, glorifi[B]car;",
-          "[B7]Prova[E]rá o puro_amor de Je[B]sus, o Salva[F#]dor,",
-          "Susten[B]tado pela [E]fé    [F°]no po[F#7]der do Cria[B]dor."
+          "Quem a [A]Cristo encontrar e virtude supli[E]car,",
+          "Transfor[A]mado fica[D]rá [Eb°]para, a [E7]Deus, glorifi[A]car;",
+          "[A7]Prova[D]rá o puro amor de Je[A]sus, o Salva[E]dor,",
+          "Susten[A]tado pela [D]fé [Eb°]no po[E7]der do Cria[A]dor."
         ]
       },
       {

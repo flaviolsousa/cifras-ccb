@@ -1,39 +1,50 @@
 {
+  "code": "150",
   "version": "v3",
   "title": "Jesus Cristo, meu Senhor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "D7",
+      "G",
+      "G7",
+      "C",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jesus [A]Cristo, meu Senhor,",
-          "Me jus[E7]tificou por [A]fé;",
-          "[A7]Pela [D]graça, pelo Seu a[A]mor,",
-          "[F#]Alcan[B7]cei de Deus [E7]  mer[A]cê."
+          "Jesus [G]Cristo, meu Senhor,",
+          "Me jus[D7]tificou por [G]fé;",
+          "[G7]Pela [C]graça, pelo Seu a[G]mor,",
+          "[E]Alcan[A7]cei de Deus [D7] mer[G]cê."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Rego[A]zijo, paz e_amor,",
-          "Ale[E7]gria sem ig[A]ual,",
-          "[A7]Eu des[D]fruto em meu Salva[A]dor,",
-          "[F#]O Cor[B7]deiro di [E7]- vi[A]nal."
+          "Rego[G]zijo, paz e amor,",
+          "Ale[D7]gria sem ig[G]ual,",
+          "[G7]Eu des[C]fruto em meu Salva[G]dor,",
+          "[E]O Cor[A7]deiro di [D7]- vi[G]nal."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vivo [A]no Senhor Jesus;",
-          "Sua [E7]vida sinto_em [A]mim;",
-          "[A7]Ele [D]é, no mundo, minha [A]Luz",
-          "[F#]Para [B7]ir até [E7]   o f[A]im."
+          "Vivo [G]no Senhor Jesus;",
+          "Sua [D7]vida sinto em [G]mim;",
+          "[G7]Ele [C]é, no mundo, minha [G]Luz",
+          "[E]Para [A7]ir até [D7] o f[G]im."
         ]
       }
     ]

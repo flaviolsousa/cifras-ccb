@@ -1,38 +1,47 @@
 {
+  "code": "173",
   "version": "v3",
   "title": "Para ouvir aqui estamos",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "A",
+      "D",
+      "E",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Para_ouvir aqui es[E]tamos ",
-          "[F#]A Palavra do Sen[B]hor;",
-          "Só por Ela temos [E]vida",
-          "[F#]E a luz do Salva[B]dor."
+          "[A]Para ouvir aqui es[D]tamos ",
+          "[E]A Palavra do Sen[A]hor;",
+          "Só por Ela temos [D]vida",
+          "[E]E a luz do Salva[A]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G#m]Templos santos [D#7]fomos [G#m]fei - [B]tos",
-          "[G#m]Para_habita[C#7]ção de [F#]Deus;",
-          "[B]O Senhor nos quer per[E]feitos;",
-          "[F#]Somos os eleitos [B]Seus."
+          "[F#m]Templos santos [Db7]fomos [F#m]fei - [A]tos",
+          "[F#m]Para habita[B7]ção de [E]Deus;",
+          "[A]O Senhor nos quer per[D]feitos;",
+          "[E]Somos os eleitos [A]Seus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Exaltando_aqui es[E]tamos",
-          "[F#]A Jesus, que nos sal[B]vou;",
-          "Todo o louvor Lhe [E]damos;",
-          "[F#]Ele já nos resga[B]tou."
+          "[A]Exaltando aqui es[D]tamos",
+          "[E]A Jesus, que nos sal[A]vou;",
+          "Todo o louvor Lhe [D]damos;",
+          "[E]Ele já nos resga[A]tou."
         ]
       },
       {
@@ -43,10 +52,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Nós devemos ser-Lhe [E]gratos",
-          "[F#]Pelo Seu imenso_a[B]mor;",
-          "Nesta casa,_e_em toda_a [E]parte,",
-          "[F#]Exaltemos ao Sen[B]hor."
+          "[A]Nós devemos ser-Lhe [D]gratos",
+          "[E]Pelo Seu imenso a[A]mor;",
+          "Nesta casa, e em toda a [D]parte,",
+          "[E]Exaltemos ao Sen[A]hor."
         ]
       },
       {

@@ -1,38 +1,48 @@
 {
+  "code": "193",
   "version": "v3",
   "title": "Nada jamais me faltará",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "D",
+      "G",
+      "D",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Apascen[E]tado [A]por Jesus [E]Cristo",
-          "Nada ja[B7]mais me falta[E]rá;",
-          "De confiança [A]eu me re[E]visto,",
-          "O meu Pas[B7]tor não fa[F#7]lha - [B7]rá."
+          "Apascen[D]tado [G]por Jesus [D]Cristo",
+          "Nada ja[A7]mais me falta[D]rá;",
+          "De confiança [G]eu me re[D]visto,",
+          "O meu Pas[A7]tor não fa[E7]lha - [A7]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Sigo de [B7]perto meu grande [E]Mestre,",
-          "Nada ja[B7]mais me falta[E]rá;",
-          "No Seu a[B7]prisco santo_e ce[E]leste",
-          "Todo_o fi[A]el prote[B7]gido_es[E]tá."
+          "Sigo de [A7]perto meu grande [D]Mestre,",
+          "Nada ja[A7]mais me falta[D]rá;",
+          "No Seu a[A7]prisco santo e ce[D]leste",
+          "Todo o fi[G]el prote[A7]gido es[D]tá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Passo a [E]passo, [A]por fé pros[E]sigo",
-          "Rumo à [B7]pátria celes[E]tial;",
-          "Na tempestade [A]tenho a[E]brigo;",
-          "Tenho so[B7]corro di[F#7]vi - [B7]nal."
+          "Passo a [D]passo, [G]por fé pros[D]sigo",
+          "Rumo à [A7]pátria celes[D]tial;",
+          "Na tempestade [G]tenho a[D]brigo;",
+          "Tenho so[A7]corro di[E7]vi - [A7]nal."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Eu vou ven[E]cendo [A]de dia_em [E]dia",
-          "As minhas [B7]provas, pela [E]fé;",
-          "Cristo me unge [A]com ale[E]gria;",
-          "Sempre pre[B7]sente E[F#7]le   [B7]é."
+          "Eu vou ven[D]cendo [G]de dia em [D]dia",
+          "As minhas [A7]provas, pela [D]fé;",
+          "Cristo me unge [G]com ale[D]gria;",
+          "Sempre pre[A7]sente E[E7]le [A7]é."
         ]
       },
       {

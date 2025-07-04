@@ -1,10 +1,20 @@
 {
+  "code": "147",
   "version": "v3",
   "title": "É bom louvar ao Criador",
   "tone": {
-    "recommended": "G"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "G",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",

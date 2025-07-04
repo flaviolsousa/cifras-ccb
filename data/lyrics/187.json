@@ -1,28 +1,38 @@
 {
+  "code": "187",
   "version": "v3",
   "title": "Jesus Cristo habita em nós",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "G",
+      "E",
+      "A",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O que [D]hoje é mistério para_os santos do Senhor,",
-          "Reve[G]lado lhes será por Seu Es[E]pírito de_a[A]mor,",
-          "Pois es[D]tá em Jesus Cristo_a pleni[G]tude divi[E]nal",
+          "O que [D]hoje é mistério para os santos do Senhor,",
+          "Reve[G]lado lhes será por Seu Es[E]pírito de a[A]mor,",
+          "Pois es[D]tá em Jesus Cristo a pleni[G]tude divi[E]nal",
           "E os [A]justos participam do se[D]gredo celes[D]tial."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Jesus [D]Cristo_habita_em nós,",
-          "Sua l[G]uz [E]  habita_em n[A]ós;",
+          "Jesus [D]Cristo habita em nós,",
+          "Sua l[G]uz [E] habita em n[A]ós;",
           "Nesta [D]graça preciosa não nos [G]sentiremos [E]sós;",
-          "Glória! G[A]lória! Aleluia! Jesus [D]Cristo_habita_em [D]nós!"
+          "Glória! G[A]lória! Aleluia! Jesus [D]Cristo habita em [D]nós!"
         ]
       },
       {
@@ -30,7 +40,7 @@
         "code": "2",
         "text": [
           "Nos nem [D]tudo entendemos, pois o Pai o quer assim,",
-          "Mas, de l[G]uz em luz, iremos sempre_a[E]vante_até o f[A]im;",
+          "Mas, de l[G]uz em luz, iremos sempre a[E]vante até o f[A]im;",
           "Nossos [D]olhos, desvendados por Je[G]sus, contempla[E]rão",
           "Os mis[A]térios eternais, que reve[D]lados nos se[D]rão."
         ]
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Hoje [D]fala, pelo_Espírito da graça, o Senhor,",
-          "E nos [G]mostra o caminho para_o [E]reino de_esplen[A]dor,",
-          "Mas, em [D]breve, face_a face, ouvi[G]remos Sua [E]voz.",
-          "Glória_e[A]terna_alcançaremos, Jesus [D]Cristo_habita_em [D]nós!"
+          "Hoje [D]fala, pelo Espírito da graça, o Senhor,",
+          "E nos [G]mostra o caminho para o [E]reino de esplen[A]dor,",
+          "Mas, em [D]breve, face a face, ouvi[G]remos Sua [E]voz.",
+          "Glória e[A]terna alcançaremos, Jesus [D]Cristo habita em [D]nós!"
         ]
       },
       {

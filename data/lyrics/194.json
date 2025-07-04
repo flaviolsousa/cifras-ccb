@@ -1,39 +1,48 @@
 {
+  "code": "194",
   "version": "v3",
   "title": "\"Vós chorareis e vos lamentareis\"",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "C",
+      "Dm7",
+      "G",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "“Vós, [D]na verdade, [Em7]chorareis [A]e vos lamentar[D]eis;",
-          "O mundo se a[Em7]legrará”, d[A]isse o Rei dos r[D]eis;",
-          "Mas e[G]is que, muito_em b[D]reve, C[A]risto retorna[D]rá[D7]...",
-          "E n[G]ossa aleg[D]ri -[Bm] a  [Em]nunca ter[A]mina[D]rá."
+          "“Vós, [C]na verdade, [Dm7]chorareis [G]e vos lamentar[C]eis;",
+          "O mundo se a[Dm7]legrará”, d[G]isse o Rei dos r[C]eis;",
+          "Mas e[F]is que, muito em b[C]reve, C[G]risto retorna[C]rá[C7]...",
+          "E n[F]ossa aleg[C]ri -[Am] a [Dm]nunca ter[G]mina[C]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O[D]rando_em nome [Em7]de Jesus, D[A]eus nos atende[D]rá;",
-          "Por Seus fiéis, o [Em7]Redentor i[A]ntercedendo_es[D]tá;",
-          "Por g[G]rande_amor pa[D]terno, D[A]eus ouve_as oraç[D]ões[D7]...",
-          "E f[G]orças nos con[D]ce - [Bm]de  [Em]nas nossas p[A]rovaç[D]ões."
+          "O[C]rando em nome [Dm7]de Jesus, D[G]eus nos atende[C]rá;",
+          "Por Seus fiéis, o [Dm7]Redentor i[G]ntercedendo es[C]tá;",
+          "Por g[F]rande amor pa[C]terno, D[G]eus ouve as oraç[C]ões[C7]...",
+          "E f[F]orças nos con[C]ce - [Am]de [Dm]nas nossas p[G]rovaç[C]ões."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Nós [D]sofreremos [Em7]aflições c[A]omo Jesus sof[D]reu;",
-          "Bom ânimo de[Em7]vemos ter, p[A]ois Cristo já venc[D]eu;",
-          "O r[G]eino Lhe pert[D]ence [A]na terra e nos c[D]éus;[D7]...",
-          "Com E[G]le reina[D]re - [Bm]mos  [Em]junto aos s[A]antos S[D]eus."
+          "Nós [C]sofreremos [Dm7]aflições c[G]omo Jesus sof[C]reu;",
+          "Bom ânimo de[Dm7]vemos ter, p[G]ois Cristo já venc[C]eu;",
+          "O r[F]eino Lhe pert[C]ence [G]na terra e nos c[C]éus;[C7]...",
+          "Com E[F]le reina[C]re - [Am]mos [Dm]junto aos s[G]antos S[C]eus."
         ]
       }
     ]

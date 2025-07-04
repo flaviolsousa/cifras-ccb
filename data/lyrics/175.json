@@ -1,23 +1,33 @@
 {
+  "code": "175",
   "version": "v3",
   "title": "O Senhor Jesus te chama",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "C",
+      "G",
+      "C",
+      "G",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]O Senhor Jesus te [G]chama, com sublime_e grande a[C]mor;",
+          "[C]O Senhor Jesus te [G]chama, com sublime e grande a[C]mor;",
           "Nâo desprezes Quem te [G]ama e quer ser teu Salva[C]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Deixa Cristo,_o Rei da [G]glória,",
+          "[C]Deixa Cristo, o Rei da [G]glória,",
           "Possuir teu coraç[C]ão,",
           "[E]Se desejas [F]ter vi[C]tória",
           "E e[G]terna salva[C]ção."
@@ -28,7 +38,7 @@
         "code": "2",
         "text": [
           "[C]O prazer bem cedo [G]finda neste mundo sedu[C]tor;",
-          "Cristo quer, em Sua [G]vinda, dar-te_o reino de_esplen[C]dor."
+          "Cristo quer, em Sua [G]vinda, dar-te o reino de esplen[C]dor."
         ]
       },
       {
@@ -39,7 +49,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Hoje_é dia acei[G]tável, hoje_é dia de per[C]dão;",
+          "[C]Hoje é dia acei[G]tável, hoje é dia de per[C]dão;",
           "Com amor inigua[G]lável, Cristo dá a salva[C]ção."
         ]
       },

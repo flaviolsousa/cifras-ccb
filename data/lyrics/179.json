@@ -1,38 +1,46 @@
 {
+  "code": "179",
   "version": "v3",
   "title": "Trabalhai! Trabalhai!",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Traba[E]lhemos, irmãos, somos servos de Deus,",
-          "As se[B]aras de Cristo já [E]brancas estão;",
+          "Traba[D]lhemos, irmãos, somos servos de Deus,",
+          "As se[A]aras de Cristo já [D]brancas estão;",
           "Recebendo as forças que vêm lá dos céus,",
-          "Cumpri[B]remos, a[F#]legres, a nossa mis[B]são."
+          "Cumpri[A]remos, a[E]legres, a nossa mis[A]são."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Traba[E]lhai, traba[B]lhai,",
-          "Vigi[B7]ai, vigi[E]ai",
-          "E o[E7]rai sem ces[A]sar,[F#m]...",
-          "Pois [E]breve_o [A]Mestre [B7]vai vol[E]tar."
+          "Traba[D]lhai, traba[A]lhai,",
+          "Vigi[A7]ai, vigi[D]ai",
+          "E o[D7]rai sem ces[G]sar,[Em]...",
+          "Pois [D]breve o [G]Mestre [A7]vai vol[D]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Traba[E]lhemos, irmãos, com afinco e_amor,",
-          "Anun[B]ciando_aos famintos que_o [E]Pão celestial",
-          "É Jesus, a Palavra de vida_e vigor;",
-          "Ela [B]nos ali[F#]menta_e nos livra do [B]mal."
+          "Traba[D]lhemos, irmãos, com afinco e amor,",
+          "Anun[A]ciando aos famintos que o [D]Pão celestial",
+          "É Jesus, a Palavra de vida e vigor;",
+          "Ela [A]nos ali[E]menta e nos livra do [A]mal."
         ]
       },
       {
@@ -43,10 +51,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Traba[E]lhemos, irmãos, pois ungiu-nos o Pai",
-          "Para_a [B]graça de Cristo, por [E]fé, propagar;",
+          "Traba[D]lhemos, irmãos, pois ungiu-nos o Pai",
+          "Para a [A]graça de Cristo, por [D]fé, propagar;",
           "Os talentos, o Mestre nos diz: “Granjeai”.",
-          "Sobre_o [B]muito, no [F#]céu, nos irá colo[B]car."
+          "Sobre o [A]muito, no [E]céu, nos irá colo[A]car."
         ]
       },
       {

@@ -1,39 +1,49 @@
 {
+  "code": "144",
   "version": "v3",
   "title": "A vida eterna",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "D",
+      "G",
+      "D",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]A vida_eterna [A]só Deus con[E]cede",
-          "[B7]Aos santos [E]que seguem [F#]o Reden[B7]tor.",
-          "[E]Cristo nos guia [A]e inter[E]cede",
-          "[A]Junto ao [E]Pai, nosso [B7]Deus Cria[E]dor."
+          "[D]A vida eterna [G]só Deus con[D]cede",
+          "[A7]Aos santos [D]que seguem [E]o Reden[A7]tor.",
+          "[D]Cristo nos guia [G]e inter[D]cede",
+          "[G]Junto ao [D]Pai, nosso [A7]Deus Cria[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]A sã Palavra, [A]fiel, e[E]terna,",
-          "[B7]É que dá [E]vida e [F#]faz mui fe[B7]liz;",
-          "[E]É nossa Força, [A]Paz sempi[E]terna,",
-          "[A]Que nos con[E]duz ao ce[B7]leste pa[E]ís."
+          "[D]A sã Palavra, [G]fiel, e[D]terna,",
+          "[A7]É que dá [D]vida e [E]faz mui fe[A7]liz;",
+          "[D]É nossa Força, [G]Paz sempi[D]terna,",
+          "[G]Que nos con[D]duz ao ce[A7]leste pa[D]ís."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]O povo santo [A]tem luz di[E]vina,",
-          "[B7]Sábios con[E]selhos que [F#]vêm lá dos [B7]céus,",
-          "[E]Pois a Palavra [A]o ilu[E]mina",
-          "[A]E_o faz ser[E]vir ao Al[B7]tíssimo [E]Deus."
+          "[D]O povo santo [G]tem luz di[D]vina,",
+          "[A7]Sábios con[D]selhos que [E]vêm lá dos [A7]céus,",
+          "[D]Pois a Palavra [G]o ilu[D]mina",
+          "[G]E o faz ser[D]vir ao Al[A7]tíssimo [D]Deus."
         ]
       }
     ]

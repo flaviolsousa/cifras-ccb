@@ -1,38 +1,48 @@
 {
+  "code": "141",
   "version": "v3",
   "title": "Cristo, o Verbo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "D",
+      "A",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [E]Verbo estava com Deus, Criador,",
-          "O [B]Verbo também era D[E]eus;",
+          "O [D]Verbo estava com Deus, Criador,",
+          "O [A]Verbo também era D[D]eus;",
           "Das alturas desceu para ser Redentor,",
-          "Tra[B]zendo_a justiça dos c[E]éus."
+          "Tra[A]zendo a justiça dos c[D]éus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Cristo, o Verbo, [A]dos céus des[E]ceu,",
-          "Foi feito carne e [F#7]vida nos [B7]deu;",
-          "[E]Veio ao mundo a [A]fim de ven[E]cer,",
-          "Cheio de graça, ver[B7]dade_e po[E]der."
+          "[D]Cristo, o Verbo, [G]dos céus des[D]ceu,",
+          "Foi feito carne e [E7]vida nos [A7]deu;",
+          "[D]Veio ao mundo a [G]fim de ven[D]cer,",
+          "Cheio de graça, ver[A7]dade e po[D]der."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O [E]Verbo de Deus entre nós habitou;",
-          "A[B]qui Sua glória se v[E]iu;",
-          "O_unigênito Filho de Deus se mostrou;",
-          "De[B]pois, para_a glória su[E]biu."
+          "O [D]Verbo de Deus entre nós habitou;",
+          "A[A]qui Sua glória se v[D]iu;",
+          "O unigênito Filho de Deus se mostrou;",
+          "De[A]pois, para a glória su[D]biu."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Aos [E]que receberam Jesus, o Senhor,",
-          "Es[B]tão reservados os c[E]éus;",
+          "Aos [D]que receberam Jesus, o Senhor,",
+          "Es[A]tão reservados os c[D]éus;",
           "São herdeiros da glória com seu Redentor,",
-          "São [B]todos nascidos de D[E]eus."
+          "São [A]todos nascidos de D[D]eus."
         ]
       },
       {

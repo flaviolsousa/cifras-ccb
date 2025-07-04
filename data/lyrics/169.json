@@ -1,39 +1,48 @@
 {
+  "code": "169",
   "version": "v3",
   "title": "Aos pés de Deus estamos",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Aos pés de Deus estamos, [D]perante [E]Quem nos pros[A]tramos;",
-          "Por fé O ado[D#°]ra - [A]mos [F#m]com devo[B7]ção e fer[E7]vor;",
-          "[A]Em nome do Seu Filho, nós nos apresen[E]tamos;",
-          "Humildemente_o[A]ra - [F#m]mos, [Bm]rogando [E]Seu fa[A]vor."
+          "[G]Aos pés de Deus estamos, [C]perante [D]Quem nos pros[G]tramos;",
+          "Por fé O ado[Db°]ra - [G]mos [Em]com devo[A7]ção e fer[D7]vor;",
+          "[G]Em nome do Seu Filho, nós nos apresen[D]tamos;",
+          "Humildemente o[G]ra - [Em]mos, [Am]rogando [D]Seu fa[G]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Tudo_o que padecemos, [D]já pade[E]ceu nosso [A]Mestre,",
-          "Mas foi vitori[D#°]o  - [A]so; [F#m]nos conce[B7]deu salva[E7]ção;",
-          "[A]Ele_intercede_agora junto ao Pai ce[E]leste",
-          "Para ser aten[A]di - [F#m]da   [Bm]a nossa [E]oraç[A]ão."
+          "[G]Tudo o que padecemos, [C]já pade[D]ceu nosso [G]Mestre,",
+          "Mas foi vitori[Db°]o - [G]so; [Em]nos conce[A7]deu salva[D7]ção;",
+          "[G]Ele intercede agora junto ao Pai ce[D]leste",
+          "Para ser aten[G]di - [Em]da [Am]a nossa [D]oraç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Nunca desanimemos [D]mas, confi[E]antes, o[A]remos,",
-          "Certos de que Deus [D#°]ou - [A]ve [F#m]a voz do [B7]nosso cla[E7]mor;",
-          "[A]Ele_é o_Onipotente, só n´Ele confi[E]emos;",
-          "Todo_o louvor da[A]re - [F#m]mos  [Bm]a Deus, o [E]Cria[A]dor."
+          "[G]Nunca desanimemos [C]mas, confi[D]antes, o[G]remos,",
+          "Certos de que Deus [Db°]ou - [G]ve [Em]a voz do [A7]nosso cla[D7]mor;",
+          "[G]Ele é o Onipotente, só n´Ele confi[D]emos;",
+          "Todo o louvor da[G]re - [Em]mos [Am]a Deus, o [D]Cria[G]dor."
         ]
       }
     ]

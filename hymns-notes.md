@@ -30,6 +30,10 @@ Guarânia
 # Shortcut
 
 ctrl+d -> Select recurrences
+setas Acima e Abaixo -> Tom
+setas Frente e Atras -> Navegar Hinos
+setas + e - -> Zoom
+win + seta esquerda -> posição janela
 
 ```sh
 node encrypt-hymns.js encrypt 002.json --override

@@ -1,10 +1,21 @@
 {
+  "code": "162",
   "version": "v3",
   "title": "Cristo salvou-me",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "Am",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -33,13 +44,13 @@
           "[G]Cristo salvou-me; [D]sigo, por[G]tanto,",
           "Os bons con[Am]selhos [D]do Cria[G]dor;",
           "Ando, por eles, [G7]no bom ca[C]minho",
-          "[D]Que me conduz ao [D7]lar de_esplen[G]dor."
+          "[D]Que me conduz ao [D7]lar de esplen[G]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Oh! Que do[D]çura, sinto_a vir[G]tude",
+          "[G]Oh! Que do[D]çura, sinto a vir[G]tude",
           "Que tão a[D]legre me faz vi[G]ver;",
           "Sei que, de [D]Cristo, a pleni[G]tude",
           "Da Sua [D]graça vou rece[G]ber."

@@ -1,38 +1,47 @@
 {
+  "code": "165",
   "version": "v3",
   "title": "Foi o Senhor Jesus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "A",
+      "D",
+      "E",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Para salvar-nos, quem [E]veio do céu?",
-          "[F#]Nosso Senhor Je[B]sus.",
-          "Ele,_ao poder do pe[E]cado venceu,",
-          "[F#]Trouxe-nos vida_e [B]luz."
+          "[A]Para salvar-nos, quem [D]veio do céu?",
+          "[E]Nosso Senhor Je[A]sus.",
+          "Ele, ao poder do pe[D]cado venceu,",
+          "[E]Trouxe-nos vida e [A]luz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Foi o Se[E]nhor Je[B]sus",
-          "Que nos abenço[F#]ou;",
-          "[B]Da_escravidão [E]nos liber[B]tou",
-          "Nosso Se[F#]nhor Je[B]sus."
+          "[A]Foi o Se[D]nhor Je[A]sus",
+          "Que nos abenço[E]ou;",
+          "[A]Da escravidão [D]nos liber[A]tou",
+          "Nosso Se[E]nhor Je[A]sus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Quem, nesta graça, nos [E]pode guardar?",
-          "[F#]Cristo, fiel Pas[B]tor.",
-          "Suas palavras nos [E]podem guiar",
-          "[F#]Ao lar de esplen[B]dor."
+          "[A]Quem, nesta graça, nos [D]pode guardar?",
+          "[E]Cristo, fiel Pas[A]tor.",
+          "Suas palavras nos [D]podem guiar",
+          "[E]Ao lar de esplen[A]dor."
         ]
       },
       {
@@ -43,10 +52,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Quem poderá novas [E]forças nos dar?",
-          "[F#]Cristo, o Rei dos [B]reis.",
-          "Ele nos faz glória_e[E]terna_alcançar;",
-          "[F#]É Guia dos fi[B]éis."
+          "[A]Quem poderá novas [D]forças nos dar?",
+          "[E]Cristo, o Rei dos [A]reis.",
+          "Ele nos faz glória e[D]terna alcançar;",
+          "[E]É Guia dos fi[A]éis."
         ]
       },
       {

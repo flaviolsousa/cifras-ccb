@@ -1,19 +1,31 @@
 {
+  "code": "146",
   "version": "v3",
   "title": "De Deus veio a Luz",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "D",
+      "A7",
+      "Bm",
+      "G",
+      "Em7",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "De [D]Deus [A7]veio_a [Bm]Luz: [G]é  [Em7]Cristo [A7]Je-s[D]us,",
-          "O  [Bm]Guia que aos [E7]céus nos con[A7]duz;",
-          "Jes[D]us, [A7]Reden[Bm]tor  [G]ce-[Em7]les- [D]ti-[A7]al,",
-          "Di[Bm]ssi-[Em7]pa_as [A7]trevas do [D]mal.[D]..."
+          "De [D]Deus [A7]veio a [Bm]Luz: [G]é [Em7]Cristo [A7]Je-s[D]us,",
+          "O [Bm]Guia que aos [E7]céus nos con[A7]duz;",
+          "Jes[D]us, [A7]Reden[Bm]tor [G]ce-[Em7]les- [D]ti-[A7]al,",
+          "Di[Bm]ssi-[Em7]pa as [A7]trevas do [D]mal.[D]..."
         ]
       },
       {
@@ -22,18 +34,18 @@
         "text": [
           "Em [D]Deus [A7]há sa[Bm]ber, [G]pro[Em7]fundo [A7]sa- [D]ber,",
           "Fa[Bm]vor e infi[E7]nito po[A7]der;",
-          "Pro[D]veu, [A7]em Je[Bm]sus, [G]a  [Em7]sal -[D]va-[A7]ção;",
-          "Pro[Bm]veu [Em7]aos  [A7]homens, perd[D]ão.[D]..."
+          "Pro[D]veu, [A7]em Je[Bm]sus, [G]a [Em7]sal -[D]va-[A7]ção;",
+          "Pro[Bm]veu [Em7]aos [A7]homens, perd[D]ão.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "A [D]Deus, [A7]Cria[Bm]dor, [G]e_a [Em7]Cristo,_o [A7]Se-n[D]hor,",
+          "A [D]Deus, [A7]Cria[Bm]dor, [G]e a [Em7]Cristo, o [A7]Se-n[D]hor,",
           "E[Bm]terna grati[E7]dão e lou[A7]vor",
           "Da[D]rão [A7]sem ces[Bm]sar [G]os [Em7]san -[D]tos [A7]Seus,",
-          "Na [Bm]ter-[Em7]ra_e,_em [A7]breve, nos c[D]éus.[D]..."
+          "Na [Bm]ter-[Em7]ra e, em [A7]breve, nos c[D]éus.[D]..."
         ]
       }
     ]

@@ -1,39 +1,49 @@
 {
+  "code": "153",
   "version": "v3",
   "title": "O divinal Cordeiro",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "A",
+      "D",
+      "A",
+      "E",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [B]divinal Cor[E]deiro, pu[B]ríssimo,_ino[F#]cente,",
-          "To[B]mou os meus pe[E]cados e [B]deu-me [F#]Sua [B]fé;",
-          "Pros[F#]trar-me-ei hu[B]milde, a [E]Ele reve[F#]rente;",
-          "Por [B]Seu precioso [E]sangue eu [B]alcan[F#]cei mer[B]cê."
+          "O [A]divinal Cor[D]deiro, pu[A]ríssimo, ino[E]cente,",
+          "To[A]mou os meus pe[D]cados e [A]deu-me [E]Sua [A]fé;",
+          "Pros[E]trar-me-ei hu[A]milde, a [D]Ele reve[E]rente;",
+          "Por [A]Seu precioso [D]sangue eu [A]alcan[E]cei mer[A]cê."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Es[B]tava no pe[E]cado, mas [B]graça tenho_a[F#]chado",
-          "Em [B]Cristo, mui bon[E]doso, Au[B]tor da [F#]salva[B]ção;",
-          "A[F#]mável e hu[B]milde, ao [E]Pai foi consa[F#]grado",
-          "A [B]fim de liber[E]tar-me da_e[B]terna [F#]perdi[B]ção."
+          "Es[A]tava no pe[D]cado, mas [A]graça tenho a[E]chado",
+          "Em [A]Cristo, mui bon[D]doso, Au[A]tor da [E]salva[A]ção;",
+          "A[E]mável e hu[A]milde, ao [D]Pai foi consa[E]grado",
+          "A [A]fim de liber[D]tar-me da e[A]terna [E]perdi[A]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ao [B]divinal Cor[E]deiro, Je[B]sus, o Rei e[F#]terno,",
-          "Com [B]toda_a minha [E]alma en[B]toa[F#]rei lou[B]vor,",
-          "Pois [F#]Ele prepa[B]rou-me um [E]lar de_amor su[F#]perno",
-          "No [B]Seu celeste [E]reino de [B]vida [F#]e_esplen[B]dor."
+          "Ao [A]divinal Cor[D]deiro, Je[A]sus, o Rei e[E]terno,",
+          "Com [A]toda a minha [D]alma en[A]toa[E]rei lou[A]vor,",
+          "Pois [E]Ele prepa[A]rou-me um [D]lar de amor su[E]perno",
+          "No [A]Seu celeste [D]reino de [A]vida [E]e esplen[A]dor."
         ]
       }
     ]

@@ -1,33 +1,47 @@
 {
+  "code": "189",
   "version": "v3",
   "title": "Oh! Que preciosa paz",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "A7",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Oh! Que preciosa [B7]paz provém",
-          "[E]De Jesus, o Salva[A]dor[E]!",
-          "[A]Os fiéis desfrutam [B7]desse bem:",
-          "[E]Paz de Deus, o Cria[A]dor."
+          "[G]Oh! Que preciosa [A7]paz provém",
+          "[D]De Jesus, o Salva[G]dor[D]!",
+          "[G]Os fiéis desfrutam [A7]desse bem:",
+          "[D]Paz de Deus, o Cria[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[A]Oh! Que preci[Bm]o - [E]sa", "É a paz de D[A]eus!", "Bênção glori[Bm]osa", "[E]Que somente vem dos c[A]éus!"]
+        "text": [
+          "[G]Oh! Que preci[Am]o - [D]sa",
+          "É a paz de D[G]eus!",
+          "Bênção glori[Am]osa",
+          "[D]Que somente vem dos c[G]éus!"
+        ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Para essa paz Deus [B7]nos chamou,",
-          "[E]Por Jesus, o_Emanu[A]el;[E]...",
-          "[A]Abundantemente_a [B7]derramou",
-          "[E]Sobre_o justo e fi[A]el."
+          "[G]Para essa paz Deus [A7]nos chamou,",
+          "[D]Por Jesus, o Emanu[G]el;[D]...",
+          "[G]Abundantemente a [A7]derramou",
+          "[D]Sobre o justo e fi[G]el."
         ]
       },
       {
@@ -38,10 +52,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Só a paz de Deus pro[B7]tegerá",
-          "[E]Nossa mente_e coraç[A]ão;[E]...",
-          "[A]E, de transgredir, nos [B7]livrará,",
-          "[E]Vindo_a nós a tentaç[A]ão."
+          "[G]Só a paz de Deus pro[A7]tegerá",
+          "[D]Nossa mente e coraç[G]ão;[D]...",
+          "[G]E, de transgredir, nos [A7]livrará,",
+          "[D]Vindo a nós a tentaç[G]ão."
         ]
       },
       {

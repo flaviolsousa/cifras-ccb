@@ -1,38 +1,48 @@
 {
+  "code": "161",
   "version": "v3",
   "title": "Cristo quer salvar",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "G",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [A]Evangelho [D]vamos anun[A]ciar,",
-          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
-          "Verteu na cruz Seu [D]sangue_expia[A]dor",
-          "O [D]justo [E]Reden[A]tor."
+          "O [G]Evangelho [C]vamos anun[G]ciar,",
+          "Pois [D]Cristo quer salvar e q[G]uer justificar;",
+          "Verteu na cruz Seu [C]sangue expia[G]dor",
+          "O [C]justo [D]Reden[G]tor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Em [E]Cristo há perdão, e[A]terna salvação,",
-          "É [B7]Ele a celeste [E7]Luz;",
-          "[A]É, do mundo,_e[D]terna Reden[A]ção;",
-          "Só [D]Ele_ao [E]céu con[A]duz."
+          "Em [D]Cristo há perdão, e[G]terna salvação,",
+          "É [A7]Ele a celeste [D7]Luz;",
+          "[G]É, do mundo, e[C]terna Reden[G]ção;",
+          "Só [C]Ele ao [D]céu con[G]duz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O [A]Evangelho [D]vamos procla[A]mar,",
-          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
-          "Mui breve,_em nuvens, [D]Ele volta[A]rá",
-          "E_o [D]prêmio [E]nos da[A]rá."
+          "O [G]Evangelho [C]vamos procla[G]mar,",
+          "Pois [D]Cristo quer salvar e q[G]uer justificar;",
+          "Mui breve, em nuvens, [C]Ele volta[G]rá",
+          "E o [C]prêmio [D]nos da[G]rá."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Do [A]Evangelho [D]temos que fa[A]lar,",
-          "Pois [E]Cristo quer salvar e q[A]uer justificar;",
-          "Por essa graça, [D]damos o lou[A]vor",
-          "A [D]Deus, o [E]Cria[A]dor."
+          "Do [G]Evangelho [C]temos que fa[G]lar,",
+          "Pois [D]Cristo quer salvar e q[G]uer justificar;",
+          "Por essa graça, [C]damos o lou[G]vor",
+          "A [C]Deus, o [D]Cria[G]dor."
         ]
       },
       {

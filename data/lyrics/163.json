@@ -1,38 +1,49 @@
 {
+  "code": "163",
   "version": "v3",
   "title": "Neste mundo de ilusão",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": [
+      "D",
+      "A7",
+      "D",
+      "E",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Neste mundo [B7]de_ilu[E]são [F#]não há feli[B7]dade;",
-          "[E]Só em Cristo_há [B7]salva[C#m]ção, [A]pois Ele [B7]é a Verda[E]de;",
-          "[B7]Ei-Lo_à porta [E]a bater, [B7]vida quer te [E]conceder;",
-          "De ninguém a [A]podes ter, [E]só do Cordeiro de [B7]Deus[E]."
+          "[D]Neste mundo [A7]de ilu[D]são [E]não há feli[A7]dade;",
+          "[D]Só em Cristo há [A7]salva[Bm]ção, [G]pois Ele [A7]é a Verda[D]de;",
+          "[A7]Ei-Lo à porta [D]a bater, [A7]vida quer te [D]conceder;",
+          "De ninguém a [G]podes ter, [D]só do Cordeiro de [A7]Deus[D]."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Queres felicidade?",
-          "[B7]Crê no Senhor Je[E]sus,",
-          "Que, por ti, des[A]ceu dos céus;",
-          "[E]Crê no Cordeiro de [B7]Deus[E]!"
+          "[D]Queres felicidade?",
+          "[A7]Crê no Senhor Je[D]sus,",
+          "Que, por ti, des[G]ceu dos céus;",
+          "[D]Crê no Cordeiro de [A7]Deus[D]!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Por ti, Cristo [B7]pade[E]ceu [F#]dando apropria [B7]vida;",
-          "[E]Pela morte [B7]que so[C#m]freu, [A]graça te [B7]é concedi[E]da;",
-          "[B7]Por ti, Ele_a[E]gonizou [B7]e Seu sangue [E]derramou;",
-          "Sua vida [A]não poupou, [E]Cristo,_o Cordeiro de [B7]Deus[E]."
+          "[D]Por ti, Cristo [A7]pade[D]ceu [E]dando apropria [A7]vida;",
+          "[D]Pela morte [A7]que so[Bm]freu, [G]graça te [A7]é concedi[D]da;",
+          "[A7]Por ti, Ele a[D]gonizou [A7]e Seu sangue [D]derramou;",
+          "Sua vida [G]não poupou, [D]Cristo, o Cordeiro de [A7]Deus[D]."
         ]
       },
       {
@@ -43,10 +54,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Sem a Luz e [B7]sem a [E]Paz [F#]andas, no mundo,_a[B7]flito;",
-          "[E]Cristo mui fe[B7]liz te [C#m]faz, [A]oh! Vem a [B7]Ele, contri[E]to;",
-          "[B7]Vem, sim, vem ao [E]bom Jesus, [B7]receber a [E]Sua luz,",
-          "Que à gloria [A]te conduz, [E]Vem ao Cordeiro de [B7]Deus[E]!"
+          "[D]Sem a Luz e [A7]sem a [D]Paz [E]andas, no mundo, a[A7]flito;",
+          "[D]Cristo mui fe[A7]liz te [Bm]faz, [G]oh! Vem a [A7]Ele, contri[D]to;",
+          "[A7]Vem, sim, vem ao [D]bom Jesus, [A7]receber a [D]Sua luz,",
+          "Que à gloria [G]te conduz, [D]Vem ao Cordeiro de [A7]Deus[D]!"
         ]
       },
       {

@@ -1,26 +1,36 @@
 {
+  "code": "143",
   "version": "v3",
   "title": "Porfiemos, irmãos, por entrar nos céus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A",
+      "D",
+      "Bm",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Jesus [D]Cristo no [A]céu prepa[D]rou",
-          "Um lugar de repouso_e_esplendor;",
+          "Um lugar de repouso e esplendor;",
           "Breve nos fará entrar onde [Bm]Ele já en[D]trou:",
-          "Nas moradas do_e[A]terno Cria[D]dor."
+          "Nas moradas do e[A]terno Cria[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "Porfi[D]emos, ir[Bm]mãos, por en[A]trar lá nos c[D]éus;",
-          "Se vencermos o mal, viveremos [A]junto_ao grande D[D]eus."
+          "Se vencermos o mal, viveremos [A]junto ao grande D[D]eus."
         ]
       },
       {

@@ -1,28 +1,40 @@
 {
+  "code": "159",
   "version": "v3",
   "title": "Deus amou o mundo",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "G7",
+      "C",
+      "Am",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Deus amou o mundo e_enviou Je[D]sus,",
+          "[G]Deus amou o mundo e enviou Je[D]sus,",
           "O Autor da graça, que nos resga[G]tou;",
           "Grande vitupério [G7]suportou na [C]cruz;",
-          "[Am]Pela Sua [G]morte,_ao homem [D]perdo[G]ou."
+          "[Am]Pela Sua [G]morte, ao homem [D]perdo[G]ou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Que glorioso_amor, que sublime_amor",
-          "[C]Deus manifes[G]tou, sal[Em]vando_o peca[D]dor!",
-          "[G]Que divino_amor, [B7]que imenso_a[Em]mor",
-          "[C]Deus nos reve[G]lou em Cristo,_o [D]Salva[G]dor!"
+          "[G]Que glorioso amor, que sublime amor",
+          "[C]Deus manifes[G]tou, sal[Em]vando o peca[D]dor!",
+          "[G]Que divino amor, [B7]que imenso a[Em]mor",
+          "[C]Deus nos reve[G]lou em Cristo, o [D]Salva[G]dor!"
         ]
       },
       {
@@ -32,7 +44,7 @@
           "[G]O decreto santo do eterno [D]Deus",
           "Foi, na cruz, cumprido pelo Reden[G]tor;",
           "O Seu sacrifício [G7]nos abriu os [C]céus,",
-          "[Am]Trouxe luz e [G]vida para_o [D]peca[G]dor."
+          "[Am]Trouxe luz e [G]vida para o [D]peca[G]dor."
         ]
       },
       {
@@ -44,9 +56,9 @@
         "code": "3",
         "text": [
           "[G]Por amor profundo, Deus mandou Je[D]sus;",
-          "Todo_o que crer n´Ele não perece[G]rá,",
-          "Mas a vida_eterna, [G7]em Seu lar de [C]luz,",
-          "[Am]Com superna [G]glória, junto_a [D]Deus, te[G]rá."
+          "Todo o que crer n´Ele não perece[G]rá,",
+          "Mas a vida eterna, [G7]em Seu lar de [C]luz,",
+          "[Am]Com superna [G]glória, junto a [D]Deus, te[G]rá."
         ]
       },
       {

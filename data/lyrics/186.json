@@ -1,36 +1,46 @@
 {
+  "code": "186",
   "version": "v3",
   "title": "Cristo, Luz do mundo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "D",
+      "G",
+      "D",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Onde_havia pranto, [A]júbilo se_ou[E]viu;",
-          "[B7]Em lugar de dor, eterna paz sur[E]giu;",
-          "Onde dominou completa [E7]sequid[A]ão,",
-          "Águas bro[E]taram e trouxeram [B7]salva[E]ção."
+          "[D]Onde havia pranto, [G]júbilo se ou[D]viu;",
+          "[A7]Em lugar de dor, eterna paz sur[D]giu;",
+          "Onde dominou completa [D7]sequid[G]ão,",
+          "Águas bro[D]taram e trouxeram [A7]salva[D]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B7]Cristo, Luz do [E]mundo,",
-          "[A]É o Au[E]tor de tão preciosa [B7]redenç[E]ão."
+          "[A7]Cristo, Luz do [D]mundo,",
+          "[G]É o Au[D]tor de tão preciosa [A7]redenç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Cristo,_Estrela d´Alva, [A]Luz celesti[E]al,",
-          "[B7]Que resplandeceu a todo o mor[E]tal,",
-          "Veio_anunciar que_a noite [E7]já pas[A]sou",
-          "E que o [E]dia da justiça [B7]já che[E]gou."
+          "[D]Cristo, Estrela d´Alva, [G]Luz celesti[D]al,",
+          "[A7]Que resplandeceu a todo o mor[D]tal,",
+          "Veio anunciar que a noite [D7]já pas[G]sou",
+          "E que o [D]dia da justiça [A7]já che[D]gou."
         ]
       },
       {
@@ -41,10 +51,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Cristo, Conselheiro, [A]Príncipe da [E]paz,",
-          "[B7]Pão que vem do céu e vida_a todos t[E]raz,",
-          "Reino divinal que sobre [E7]nós des[A]ceu,",
-          "É_o Salva[E]dor que Deus ao homem [B7]prome[E]teu."
+          "[D]Cristo, Conselheiro, [G]Príncipe da [D]paz,",
+          "[A7]Pão que vem do céu e vida a todos t[D]raz,",
+          "Reino divinal que sobre [D7]nós des[G]ceu,",
+          "É o Salva[D]dor que Deus ao homem [A7]prome[D]teu."
         ]
       },
       {

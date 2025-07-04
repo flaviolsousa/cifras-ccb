@@ -1,38 +1,49 @@
 {
+  "code": "171",
   "version": "v3",
   "title": "Vida eterna! Vida eterna!",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "C",
+      "G",
+      "A7",
+      "D7",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "As mo[A]radas preparadas para_os [D]santos do Sen[A]hor",
-          "São ornadas de be[B7]leza sem i[E7]gual;",
-          "Nelas [A]nós habitaremos com Je[D]sus, o Redentor,",
-          "E com [A]Deus, o [C°]nosso [E7]Pai celesti[A]al."
+          "As mo[G]radas preparadas para os [C]santos do Sen[G]hor",
+          "São ornadas de be[A7]leza sem i[D7]gual;",
+          "Nelas [G]nós habitaremos com Je[C]sus, o Redentor,",
+          "E com [G]Deus, o [A#°]nosso [D7]Pai celesti[G]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Vida_e[Bm7]terna,[E7]   vida_e[A]terna",
-          "Nós te[D]remos junto_ao [A]nosso [E7]Deus;",
-          "Rego[A]zijo, alegria sempi[D]ter[D#°]na,",
-          "É o [A]prêmio dos e[E7]leitos S[A]eus."
+          "Vida e[Am7]terna,[D7] vida e[G]terna",
+          "Nós te[C]remos junto ao [G]nosso [D7]Deus;",
+          "Rego[G]zijo, alegria sempi[C]ter[Db°]na,",
+          "É o [G]prêmio dos e[D7]leitos S[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "É de [A]ouro a cidade glori[D]osa do Sen[A]hor,",
-          "Resplandece para [B7]sempre sua [E7]luz;",
-          "Não há [A]nela sol nem lua, pois tem [D]luz do Criador",
-          "E tam[A]bém a [C°]sua [E7]Lâmpada_é Je[A]sus."
+          "É de [G]ouro a cidade glori[C]osa do Sen[G]hor,",
+          "Resplandece para [A7]sempre sua [D7]luz;",
+          "Não há [G]nela sol nem lua, pois tem [C]luz do Criador",
+          "E tam[G]bém a [A#°]sua [D7]Lâmpada é Je[G]sus."
         ]
       },
       {
@@ -43,10 +54,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com as [A]vestes brancas e_entoando [D]hinos de lou[A]vor",
-          "Triunfantes, entra[B7]remos lá nos [E7]céus;",
-          "Lá ve[A]remos todos quantos já dor[D]miram no Senhor,",
-          "Lá ve[A]remos, [C°]face_a [E7]face, nosso D[A]eus."
+          "Com as [G]vestes brancas e entoando [C]hinos de lou[G]vor",
+          "Triunfantes, entra[A7]remos lá nos [D7]céus;",
+          "Lá ve[G]remos todos quantos já dor[C]miram no Senhor,",
+          "Lá ve[G]remos, [A#°]face a [D7]face, nosso D[G]eus."
         ]
       },
       {

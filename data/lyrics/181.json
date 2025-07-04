@@ -1,38 +1,48 @@
 {
+  "code": "181",
   "version": "v3",
   "title": "Só em Cristo, só em Cristo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A7",
+      "D",
+      "G",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vós, que [E]procurais a [B7]água que da [E]vida,",
-          "Vinde_a [A]Cristo, Fonte do per[E]dão;",
-          "Toda_a  alma contris[B7]tada e_aba[E]tida,",
-          "Em Je[F#7]sus encontrará a salva[B7]ção."
+          "Vós, que [D]procurais a [A7]água que da [D]vida,",
+          "Vinde a [G]Cristo, Fonte do per[D]dão;",
+          "Toda a alma contris[A7]tada e aba[D]tida,",
+          "Em Je[E7]sus encontrará a salva[A7]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Só em [E]Cristo, só em [A]Cristo,",
-          "Água [E]viva todos [B7]podem encon[E]trar;",
-          "Só em Cristo, só em [A]Cristo,[F#m]...",
-          "Vós, se[E]dentos, pode[B7]reis vos saci[E]ar."
+          "Só em [D]Cristo, só em [G]Cristo,",
+          "Água [D]viva todos [A7]podem encon[D]trar;",
+          "Só em Cristo, só em [G]Cristo,[Em]...",
+          "Vós, se[D]dentos, pode[A7]reis vos saci[D]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Nesta [E]Fonte tão pre[B7]ciosa,_inesgo[E]tável,",
-          "Refri[A]gério todos acha[E]rão;",
-          "Recorrendo a Je[B7]sus, Pastor a[E]mável,",
-          "Os se[F#7]dentos não mais sede senti[B7]rão."
+          "Nesta [D]Fonte tão pre[A7]ciosa, inesgo[D]tável,",
+          "Refri[G]gério todos acha[D]rão;",
+          "Recorrendo a Je[A7]sus, Pastor a[D]mável,",
+          "Os se[E7]dentos não mais sede senti[A7]rão."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Cristo [E]é_o Mananci[B7]al que puri[E]fica",
-          "E_eno[A]brece todo_o cora[E]ção;",
-          "Seu Espírito_enco[B7]raja, santi[E]fica",
-          "E en[F#7]sina a viver em reti[B7]dão."
+          "Cristo [D]é o Mananci[A7]al que puri[D]fica",
+          "E eno[G]brece todo o cora[D]ção;",
+          "Seu Espírito enco[A7]raja, santi[D]fica",
+          "E en[E7]sina a viver em reti[A7]dão."
         ]
       },
       {

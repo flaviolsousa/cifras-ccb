@@ -1,10 +1,21 @@
 {
+  "code": "172",
   "version": "v3",
   "title": "Um culto santo ao Senhor",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "C",
+      "G",
+      "C",
+      "C7",
+      "F",
+      "C"
+    ],
     "stanzas": [
       {
         "type": "lyric",
@@ -20,7 +31,7 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Um novo_a[C]lento há em [G]nós,",
+          "Um novo a[C]lento há em [G]nós,",
           "Pois Deus ouviu a nossa [C]voz;",
           "A sã Palavra [C7]nos man[F]dou",
           "E nossas [C]forças [G]reno[C]vou."
@@ -31,8 +42,8 @@
         "code": "3",
         "text": [
           "Com o con[C]selho divi[G]nal",
-          "Suplantaremos todo_o [C]mal;",
-          "E, face_a face, [C7]lá nos c[F]éus,",
+          "Suplantaremos todo o [C]mal;",
+          "E, face a face, [C7]lá nos c[F]éus,",
           "Veremos [C]nosso [G]grande D[C]eus."
         ]
       }

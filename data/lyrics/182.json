@@ -1,36 +1,45 @@
 {
+  "code": "182",
   "version": "v3",
   "title": "Brevemente retornará Jesus Cristo",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": [
+      "A",
+      "D",
+      "E7",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Breve[B]mente retornará e_a pro[E]messa [F#7]cumpri[B]rá,",
-          "[F#7]Jesus Cristo,_o Rei dos [B]reis, [F#7]que ao céu nos leva[B]rá;",
-          "Pois só Ele pode nos dar o e[E]terno [F#7]galar[B]dão."
+          "Breve[A]mente retornará e a pro[D]messa [E7]cumpri[A]rá,",
+          "[E7]Jesus Cristo, o Rei dos [A]reis, [E7]que ao céu nos leva[A]rá;",
+          "Pois só Ele pode nos dar o e[D]terno [E7]galar[A]dão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Vamos [B]todos nos consagrar e ser[E]vir ao [F#7]Reden[B]tor;",
-          "[F#7]É glorioso o por[B]vir [F#7]no Seu reino de_esplen[B]dor;",
-          "Nossa alma desfrutará paz que [E]nunca [F#7]finda[B]rá."
+          "Vamos [A]todos nos consagrar e ser[D]vir ao [E7]Reden[A]tor;",
+          "[E7]É glorioso o por[A]vir [E7]no Seu reino de esplen[A]dor;",
+          "Nossa alma desfrutará paz que [D]nunca [E7]finda[A]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "A po[B]tente voz de Jesus, ouvi[E]rão o [F#7]santos [B]Seus,",
-          "[F#7]Convidando os fi[B]éis [F#7]a entrarem lá nos [B]céus;",
-          "Brevemente retornará Cristo,_e[E]terno [F#7]Rei dos [B]reis."
+          "A po[A]tente voz de Jesus, ouvi[D]rão o [E7]santos [A]Seus,",
+          "[E7]Convidando os fi[A]éis [E7]a entrarem lá nos [A]céus;",
+          "Brevemente retornará Cristo, e[D]terno [E7]Rei dos [A]reis."
         ]
       }
     ]

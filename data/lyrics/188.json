@@ -1,16 +1,24 @@
 {
+  "code": "188",
   "version": "v3",
   "title": "O Mestre habita em mim",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "A",
+      "D",
+      "A"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Conver[A]são gloriosa_operou-se_em meu ser,",
+          "Conver[A]são gloriosa operou-se em meu ser,",
           "Pois [D]Cristo habita em [A]mim;",
           "Sinto paz que outrora não pude haver;",
           "O [B7]Mestre habita em [E]mim.[E]..."
@@ -45,7 +53,7 @@
         "text": [
           "Finda[A]rei os meus dias na graça de Deus,",
           "Pois [D]Cristo habita em [A]mim;",
-          "Sentirei Sua paz, pois irei para_os céus;",
+          "Sentirei Sua paz, pois irei para os céus;",
           "O [B7]Mestre habita em [E]mim.[E]..."
         ]
       },

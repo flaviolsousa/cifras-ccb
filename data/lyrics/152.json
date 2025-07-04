@@ -1,38 +1,48 @@
 {
+  "code": "152",
   "version": "v3",
   "title": "Venho à casa do Senhor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "G",
+      "D",
+      "G",
+      "D",
+      "G"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao en[A]trar na casa do bom Criador,",
-          "O meu [E]ser se rego[A]zija;",
-          "Para desfrutar do Seu sublime_amor,",
-          "Venho_à [E]casa do Sen[A]hor."
+          "Ao en[G]trar na casa do bom Criador,",
+          "O meu [D]ser se rego[G]zija;",
+          "Para desfrutar do Seu sublime amor,",
+          "Venho à [D]casa do Sen[G]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "É na [A]casa do Se[B7]nhor",
-          "Que a[E]prendo a hon[A]rar,",
-          "Com temor e reve[D]rência,",
-          "Meu a[E]mado Cria[A]dor."
+          "É na [G]casa do Se[A7]nhor",
+          "Que a[D]prendo a hon[G]rar,",
+          "Com temor e reve[C]rência,",
+          "Meu a[D]mado Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Quando_es[A]tou na casa do bom Criador,",
-          "Minha [E]alma reju[A]bila;",
-          "Para_ouvir os Seus conselhos de amor,",
-          "Venhor_à [E]casa do Sen[A]hor."
+          "Quando es[G]tou na casa do bom Criador,",
+          "Minha [D]alma reju[G]bila;",
+          "Para ouvir os Seus conselhos de amor,",
+          "Venhor à [D]casa do Sen[G]hor."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Termi[A]nando_o santo culto_ao Criador,",
-          "Sinto [E]paz e aleg[A]ria;",
+          "Termi[G]nando o santo culto ao Criador,",
+          "Sinto [D]paz e aleg[G]ria;",
           "Meditando no glorioso Seu amor,",
-          "Deixo_a [E]casa do Sen[A]hor."
+          "Deixo a [D]casa do Sen[G]hor."
         ]
       },
       {

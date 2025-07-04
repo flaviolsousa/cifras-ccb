@@ -1,38 +1,49 @@
 {
+  "code": "190",
   "version": "v3",
   "title": "Amados, não temamos",
   "tone": {
-    "recommended": "B"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "F",
+      "A#",
+      "F",
+      "G7",
+      "C",
+      "F"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Man[B]tendo nossa vida consa[E]grada ao Sen[B]hor,",
-          "Do céu virão as bênçãos, pois fi[C#7]el é_o Cria[F#]dor;",
-          "A [B]graça retenhamos, sem ja[E]mais esmore[B]cer;",
-          "Je[E]sus venceu o [B]mundo_e nos fa[F#]rá prevale[B]cer."
+          "Man[F]tendo nossa vida consa[A#]grada ao Sen[F]hor,",
+          "Do céu virão as bênçãos, pois fi[G7]el é o Cria[C]dor;",
+          "A [F]graça retenhamos, sem ja[A#]mais esmore[F]cer;",
+          "Je[A#]sus venceu o [F]mundo e nos fa[C]rá prevale[F]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A[B]mados, não te[E]mamos",
-          "Na [C#7]marcha para_os [F#]céus;",
-          "A [B]Cristo_obede[E]çamos,",
-          "[F°]Pois nos [B]leva [F#]para [B]Deus."
+          "A[F]mados, não te[A#]mamos",
+          "Na [G7]marcha para os [C]céus;",
+          "A [F]Cristo obede[A#]çamos,",
+          "[B°]Pois nos [F]leva [C]para [F]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Na [B]fé fortalecidos, reves[E]tidos de po[B]der",
-          "Seremos pelo Mestre, que nos [C#7]dá o Seu sa[F#]ber;",
-          "A[B]vante, esforcemo-nos em [E]obras divi[B]nais;",
-          "O [E]prêmio_é vida_e[B]terna nas mo[F#]radas celes[B]tiais."
+          "Na [F]fé fortalecidos, reves[A#]tidos de po[F]der",
+          "Seremos pelo Mestre, que nos [G7]dá o Seu sa[C]ber;",
+          "A[F]vante, esforcemo-nos em [A#]obras divi[F]nais;",
+          "O [A#]prêmio é vida e[F]terna nas mo[C]radas celes[F]tiais."
         ]
       },
       {
@@ -43,10 +54,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Lem[B]bremo-nos de todos os con[E]selhos que nos [B]deu",
-          "Jesus, o Verdadeiro, que a [C#7]glória prome[F#]teu;",
-          "A[B]vante, com propósito em [E]nosso cora[B]ção",
-          "De [E]sempre_a Deus ser[B]vir e_assim che[F#]gar à perfei[B]ção."
+          "Lem[F]bremo-nos de todos os con[A#]selhos que nos [F]deu",
+          "Jesus, o Verdadeiro, que a [G7]glória prome[C]teu;",
+          "A[F]vante, com propósito em [A#]nosso cora[F]ção",
+          "De [A#]sempre a Deus ser[F]vir e assim che[C]gar à perfei[F]ção."
         ]
       },
       {

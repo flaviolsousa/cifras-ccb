@@ -1,38 +1,48 @@
 {
+  "code": "167",
   "version": "v3",
   "title": "Água viva",
   "tone": {
-    "recommended": "E"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": [
+      "D",
+      "A7",
+      "D",
+      "A7",
+      "D"
+    ],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Água [E]viva sai do Ma[B7]nancial",
-          "Que é Cristo,_o Reden[E]tor;",
-          "Ela traz, dos céus, vida [B7]eternal",
-          "E converte_o peca[E]dor."
+          "Água [D]viva sai do Ma[A7]nancial",
+          "Que é Cristo, o Reden[D]tor;",
+          "Ela traz, dos céus, vida [A7]eternal",
+          "E converte o peca[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Dessa [E]água quem quiser be[B7]ber,",
-          "Só a Cristo deve recor[E]rer;",
-          "Outra água nos fa[E7]rá pe[A]recer,",
-          "Mas a [B7]de Jesus nos faz vi[E]ver."
+          "Dessa [D]água quem quiser be[A7]ber,",
+          "Só a Cristo deve recor[D]rer;",
+          "Outra água nos fa[D7]rá pe[G]recer,",
+          "Mas a [A7]de Jesus nos faz vi[D]ver."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Água [E]viva da Fonte [B7]de amor",
-          "Só Jesus nos pode [E]dar;",
-          "D´Ele vem perdão para_o [B7]pecador",
-          "Que deseja se sal[E]var."
+          "Água [D]viva da Fonte [A7]de amor",
+          "Só Jesus nos pode [D]dar;",
+          "D´Ele vem perdão para o [A7]pecador",
+          "Que deseja se sal[D]var."
         ]
       },
       {
@@ -43,10 +53,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Água [E]viva do trono [B7]celestial,",
-          "Refrigério_a todos [E]traz;",
-          "Outras águas há, mas ne[B7]nhuma_igual",
-          "À do Príncipe da [E]paz."
+          "Água [D]viva do trono [A7]celestial,",
+          "Refrigério a todos [D]traz;",
+          "Outras águas há, mas ne[A7]nhuma igual",
+          "À do Príncipe da [D]paz."
         ]
       },
       {
