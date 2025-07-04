@@ -56,11 +56,15 @@ const ChordColumn = React.memo(
     isChordSelected,
     handleChordPress,
     theme,
+    isFirstColumn,
+    isLastColumn,
   }: {
     chords: string[];
     isChordSelected: (chord: string) => boolean;
     handleChordPress: (chord: string) => void;
     theme: any;
+    isFirstColumn?: boolean;
+    isLastColumn?: boolean;
   }) => (
     <View style={styles.chordColumn}>
       {chords.map((chord) => (
@@ -75,7 +79,12 @@ const ChordColumn = React.memo(
             </View>
           )}
           right={() => renderChordVisualization(chord)}
-          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
+          style={[
+            styles.chordItem,
+            isFirstColumn && { marginLeft: 16 },
+            isLastColumn && { marginRight: 16 },
+            isChordSelected(chord) && { backgroundColor: theme.colors.elevation.level2 },
+          ]}
           contentStyle={styles.chordItemContent}
         />
       ))}
@@ -164,8 +173,8 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
                     {root} ({chords.length} acorde{chords.length !== 1 ? "s" : ""})
                   </List.Subheader>
                   <View style={styles.chordRow}>
-                    <ChordColumn chords={leftCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} />
-                    <ChordColumn chords={rightCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} />
+                    <ChordColumn chords={leftCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} isFirstColumn />
+                    <ChordColumn chords={rightCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} isLastColumn />
                   </View>
                 </List.Section>
               );
@@ -197,6 +206,8 @@ const styles = StyleSheet.create({
     paddingRight: 8,
     paddingTop: 0,
     paddingBottom: 0,
+    marginVertical: 8,
+    borderRadius: 16,
   },
   chordItemContent: {
     paddingLeft: 0,
