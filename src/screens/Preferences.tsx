@@ -1,7 +1,7 @@
 // src/screens/Preferences.tsx
 import React, { useContext, useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView, Text, Platform, type LayoutChangeEvent } from "react-native";
-import { useTheme, Appbar, List, Button, SegmentedButtons, Switch, Icon } from "react-native-paper";
+import { useTheme, Appbar, List, Button, SegmentedButtons, Switch, Icon, Modal, Portal } from "react-native-paper";
 import { useNavigation } from "@react-navigation/native";
 import Slider from "@react-native-community/slider";
 import _ from "lodash";
@@ -9,15 +9,17 @@ import _ from "lodash";
 import { HYMN_MAX_FONT_SIZE, HYMN_MIN_FONT_SIZE, type Theme, THEME_DARK, THEME_LIGHT, THEME_SYSTEM } from "../config/values";
 import { ThemeContext } from "../config/Theme/Context";
 import StyledVerse from "../components/StyledVerse";
+import SelectChord from "../components/SelectChord";
 import { usePreferences } from "../hooks/usePreferences";
 
 const Preferences = () => {
   const { preferences, savePreferences } = usePreferences();
   const theme = useTheme();
-  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes, showToolbar } = preferences;
+  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes, showToolbar, favoriteChords = [] } = preferences;
   const [verseHeight, setVerseHeight] = useState<number>(preferences.fontSize);
   const { themeName: themeNameContext, setThemeName: setThemeNameContext } = useContext(ThemeContext);
   const navigation = useNavigation();
+  const [showChordModal, setShowChordModal] = useState(false);
 
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -35,6 +37,12 @@ const Preferences = () => {
   const handleThemeChange = (value: Theme) => {
     setThemeNameContext(value);
     savePreferences({ ...preferences, themeName: value });
+  };
+
+  const handleChordToggle = (chord: string) => {
+    const updatedChords = favoriteChords.includes(chord) ? favoriteChords.filter((c) => c !== chord) : [...favoriteChords, chord];
+
+    savePreferences({ ...preferences, favoriteChords: updatedChords });
   };
 
   const onVerseLayout = (event: LayoutChangeEvent) => {
@@ -83,6 +91,26 @@ const Preferences = () => {
                 { label: "Light", value: THEME_LIGHT },
               ]}
             />
+          </List.Section>
+
+          <List.Section>
+            <List.Subheader style={styles.subHeader}>Acordes Favoritos</List.Subheader>
+            <List.Item
+              title="Selecionar Acordes Favoritos"
+              description={`${favoriteChords.length} acorde${favoriteChords.length !== 1 ? "s" : ""} selecionado${
+                favoriteChords.length !== 1 ? "s" : ""
+              }`}
+              left={() => <Icon source="music" size={24} />}
+              right={() => <Icon source="chevron-right" size={24} />}
+              onPress={() => setShowChordModal(true)}
+            />
+            {favoriteChords.length > 0 && (
+              <View style={styles.favoriteChords}>
+                <Text variant="bodySmall" style={styles.favoriteChordsList}>
+                  {favoriteChords.sort().join(", ")}
+                </Text>
+              </View>
+            )}
           </List.Section>
 
           <List.Section>
@@ -145,6 +173,20 @@ const Preferences = () => {
           Salvar
         </Button>
       </View>
+
+      <Portal>
+        <Modal
+          visible={showChordModal}
+          onDismiss={() => setShowChordModal(false)}
+          contentContainerStyle={[styles.modalContainer, { backgroundColor: theme.colors.surface }]}
+        >
+          <View style={styles.modalHeader}>
+            <Text variant="headlineSmall">Selecionar Acordes Favoritos</Text>
+            <Button onPress={() => setShowChordModal(false)}>Fechar</Button>
+          </View>
+          <SelectChord selectedChords={favoriteChords} onChordToggle={handleChordToggle} />
+        </Modal>
+      </Portal>
     </View>
   );
 };
@@ -158,6 +200,30 @@ const styles = StyleSheet.create({
   },
   slideFontSize: {
     width: "100%",
+  },
+  favoriteChords: {
+    paddingHorizontal: 16,
+    paddingBottom: 8,
+  },
+  favoriteChordsList: {
+    color: "gray",
+    fontStyle: "italic",
+  },
+  modalContainer: {
+    flex: 1,
+    margin: 20,
+    marginTop: 60,
+    borderRadius: 8,
+    padding: 0,
+    overflow: "hidden",
+  },
+  modalHeader: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: "rgba(0,0,0,0.1)",
   },
 });
 
