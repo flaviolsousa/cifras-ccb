@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
 import { useTheme, List, Checkbox, Searchbar, Text } from "react-native-paper";
 import HymnService from "../services/Hymn/HymnService";
@@ -13,21 +13,86 @@ interface ChordsByRoot {
   [root: string]: string[];
 }
 
+// Ordem dos acordes extraída para fora do componente
+const CHORD_ROOT_ORDER = ["C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B"];
+
+const extractRoot = (chord: string): string => {
+  if (chord === "sem acorde" || chord === ".." || chord === "...") {
+    return "Outros";
+  }
+
+  const match = chord.match(/^([A-G][#b]?)/);
+  return match ? match[1] : "Outros";
+};
+
+const shouldShowSection = (root: string, chords: string[]): boolean => {
+  // Hide "Outros" section if it only contains special cases or is empty
+  if (root === "Outros") {
+    const hasValidChords = chords.some(
+      (chord) => chord !== "sem acorde" && chord !== "." && chord !== ".." && chord !== "..." && chord.trim() !== "",
+    );
+    return hasValidChords;
+  }
+  return true;
+};
+
+const renderChordVisualization = (chord: string) => {
+  // Don't show chord diagram for special cases
+  if (chord === "sem acorde" || chord === "." || chord === ".." || chord === "..." || chord.trim() === "") {
+    return null;
+  }
+
+  return (
+    <View style={styles.chordVisualization}>
+      <GuitarChord name={chord} size={70} />
+    </View>
+  );
+};
+
+// Função auxiliar para renderizar uma coluna de acordes
+const ChordColumn = React.memo(
+  ({
+    chords,
+    isChordSelected,
+    handleChordPress,
+    theme,
+  }: {
+    chords: string[];
+    isChordSelected: (chord: string) => boolean;
+    handleChordPress: (chord: string) => void;
+    theme: any;
+  }) => (
+    <View style={styles.chordColumn}>
+      {chords.map((chord) => (
+        <List.Item
+          key={chord}
+          title={chord}
+          accessibilityLabel={`Acorde ${chord}`}
+          onPress={() => handleChordPress(chord)}
+          left={() => (
+            <View style={styles.chordCheckboxContainer}>
+              <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />
+            </View>
+          )}
+          right={() => renderChordVisualization(chord)}
+          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
+          contentStyle={styles.chordItemContent}
+        />
+      ))}
+    </View>
+  ),
+);
+
 const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle }) => {
   const theme = useTheme();
   const [allChords, setAllChords] = useState<string[]>([]);
-  const [filteredChords, setFilteredChords] = useState<ChordsByRoot>({});
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     loadChords();
   }, []);
 
-  useEffect(() => {
-    filterChords();
-  }, [allChords, searchQuery]);
-
-  const loadChords = () => {
+  const loadChords = useCallback(() => {
     try {
       const hymns = HymnService.getSimpleHymns();
       const chordSet = new Set<string>();
@@ -47,15 +112,15 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
     } catch (error) {
       console.error("Error loading chords:", error);
     }
-  };
+  }, []);
 
-  const filterChords = () => {
+  // Memoize filtragem e ordenação
+  const filteredChords: ChordsByRoot = useMemo(() => {
     const chordsByRoot: ChordsByRoot = {};
 
     allChords
       .filter((chord) => chord.toLowerCase().includes(searchQuery.toLowerCase()))
       .forEach((chord) => {
-        // Extract root note (first character(s) before modifiers)
         const root = extractRoot(chord);
         if (!chordsByRoot[root]) {
           chordsByRoot[root] = [];
@@ -63,67 +128,22 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
         chordsByRoot[root].push(chord);
       });
 
-    // Sort roots and chords within each root
-    const sortedRoots = Object.keys(chordsByRoot).sort((a, b) => {
-      const order = ["C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B"];
-      return order.indexOf(a) - order.indexOf(b);
-    });
-
+    // Ordena roots e acordes dentro de cada root
+    const sortedRoots = Object.keys(chordsByRoot).sort((a, b) => CHORD_ROOT_ORDER.indexOf(a) - CHORD_ROOT_ORDER.indexOf(b));
     const sortedChordsByRoot: ChordsByRoot = {};
     sortedRoots.forEach((root) => {
       sortedChordsByRoot[root] = chordsByRoot[root].sort();
     });
+    return sortedChordsByRoot;
+  }, [allChords, searchQuery]);
 
-    setFilteredChords(sortedChordsByRoot);
-  };
+  const isChordSelected = useCallback((chord: string) => selectedChords.includes(chord), [selectedChords]);
 
-  const extractRoot = (chord: string): string => {
-    // Handle special cases like "sem acorde", "..", etc
-    if (chord === "sem acorde" || chord === ".." || chord === "...") {
-      return "Outros";
-    }
-
-    // Extract root note (C, C#, Db, etc.)
-    const match = chord.match(/^([A-G][#b]?)/);
-    return match ? match[1] : "Outros";
-  };
-
-  const shouldShowSection = (root: string, chords: string[]): boolean => {
-    // Hide "Outros" section if it only contains special cases or is empty
-    if (root === "Outros") {
-      const hasValidChords = chords.some(
-        (chord) => chord !== "sem acorde" && chord !== "." && chord !== ".." && chord !== "..." && chord.trim() !== "",
-      );
-      return hasValidChords;
-    }
-    return true;
-  };
-
-  const isChordSelected = (chord: string): boolean => {
-    return selectedChords.includes(chord);
-  };
-
-  const handleChordPress = (chord: string) => {
-    onChordToggle(chord);
-  };
-
-  const renderChordVisualization = (chord: string) => {
-    // Don't show chord diagram for special cases
-    if (chord === "sem acorde" || chord === ".." || chord === "..." || chord.trim() === "") {
-      return null;
-    }
-
-    return (
-      <View style={styles.chordVisualization}>
-        <GuitarChord name={chord} size={60} />
-      </View>
-    );
-  };
+  const handleChordPress = useCallback((chord: string) => onChordToggle(chord), [onChordToggle]);
 
   return (
     <View style={styles.container}>
       <Searchbar placeholder="Buscar acordes..." onChangeText={setSearchQuery} value={searchQuery} style={styles.searchbar} />
-
       <ScrollView style={styles.scrollView}>
         {Object.keys(filteredChords).length === 0 ? (
           <View style={styles.emptyContainer}>
@@ -144,30 +164,8 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
                     {root} ({chords.length} acorde{chords.length !== 1 ? "s" : ""})
                   </List.Subheader>
                   <View style={styles.chordRow}>
-                    <View style={styles.chordColumn}>
-                      {leftCol.map((chord) => (
-                        <List.Item
-                          key={chord}
-                          title={chord}
-                          onPress={() => handleChordPress(chord)}
-                          left={() => <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />}
-                          right={() => renderChordVisualization(chord)}
-                          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
-                        />
-                      ))}
-                    </View>
-                    <View style={styles.chordColumn}>
-                      {rightCol.map((chord) => (
-                        <List.Item
-                          key={chord}
-                          title={chord}
-                          onPress={() => handleChordPress(chord)}
-                          left={() => <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />}
-                          right={() => renderChordVisualization(chord)}
-                          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
-                        />
-                      ))}
-                    </View>
+                    <ChordColumn chords={leftCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} />
+                    <ChordColumn chords={rightCol} isChordSelected={isChordSelected} handleChordPress={handleChordPress} theme={theme} />
                   </View>
                 </List.Section>
               );
@@ -195,11 +193,24 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   chordItem: {
-    paddingLeft: 16,
+    paddingLeft: 8,
     paddingRight: 8,
+    paddingTop: 0,
+    paddingBottom: 0,
+  },
+  chordItemContent: {
+    paddingLeft: 0,
+    alignItems: "center",
+    flexDirection: "row",
+    width: "100%",
+  },
+  chordCheckboxContainer: {
+    alignItems: "center",
+    flexDirection: "row",
   },
   chordVisualization: {
-    marginRight: 8,
+    padding: 0,
+    margin: 0,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -215,9 +226,7 @@ const styles = StyleSheet.create({
   },
   chordColumn: {
     flex: 1,
-    // Optionally add padding for spacing between columns
-    paddingRight: 4,
-    paddingLeft: 4,
+    paddingHorizontal: 8,
   },
 });
 
