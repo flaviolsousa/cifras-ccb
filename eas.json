@@ -21,9 +21,6 @@
       "node": "22.15.0",
       "env": {
         "EXPO_PUBLIC_ENC_KEY_EXTRA": "flavio!w1r3inf0"
-      },
-      "hooks": {
-        "prebuild": ["node encrypt-hymns.js encrypt --override", "node encrypt-hymns.js encrypt Hymns.json --override"]
       }
     },
     "production": {
@@ -33,13 +30,22 @@
       "releaseChannel": "default",
       "env": {
         "EXPO_PUBLIC_ENC_KEY_EXTRA": "flavio!w1r3inf0"
-      },
-      "hooks": {
-        "prebuild": ["node encrypt-hymns.js encrypt --override", "node encrypt-hymns.js encrypt Hymns.json --override"]
       }
     }
   },
   "submit": {
     "production": {}
+  },
+  "hooks": {
+    "prebuild": [
+      {
+        "command": "node encrypt-hymns.js encrypt --override",
+        "platforms": ["android", "ios"]
+      },
+      {
+        "command": "node encrypt-hymns.js encrypt Hymns.json --override",
+        "platforms": ["android", "ios"]
+      }
+    ]
   }
 }
