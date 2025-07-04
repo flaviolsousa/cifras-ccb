@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { View, StyleSheet, ScrollView } from "react-native";
 import { useTheme, List, Checkbox, Searchbar, Text } from "react-native-paper";
 import HymnService from "../services/Hymn/HymnService";
+import GuitarChord from "./GuitarChord";
 
 interface SelectChordProps {
   selectedChords: string[];
@@ -106,6 +107,19 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
     onChordToggle(chord);
   };
 
+  const renderChordVisualization = (chord: string) => {
+    // Don't show chord diagram for special cases
+    if (chord === "sem acorde" || chord === ".." || chord === "..." || chord.trim() === "") {
+      return null;
+    }
+
+    return (
+      <View style={styles.chordVisualization}>
+        <GuitarChord name={chord} size={60} />
+      </View>
+    );
+  };
+
   return (
     <View style={styles.container}>
       <Searchbar placeholder="Buscar acordes..." onChangeText={setSearchQuery} value={searchQuery} style={styles.searchbar} />
@@ -118,22 +132,46 @@ const SelectChord: React.FC<SelectChordProps> = ({ selectedChords, onChordToggle
         ) : (
           Object.entries(filteredChords)
             .filter(([root, chords]) => shouldShowSection(root, chords))
-            .map(([root, chords]) => (
-              <List.Section key={root}>
-                <List.Subheader style={styles.subHeader}>
-                  {root} ({chords.length} acorde{chords.length !== 1 ? "s" : ""})
-                </List.Subheader>
-                {chords.map((chord) => (
-                  <List.Item
-                    key={chord}
-                    title={chord}
-                    onPress={() => handleChordPress(chord)}
-                    left={() => <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />}
-                    style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
-                  />
-                ))}
-              </List.Section>
-            ))
+            .map(([root, chords]) => {
+              // Divide chords into two columns
+              const mid = Math.ceil(chords.length / 2);
+              const leftCol = chords.slice(0, mid);
+              const rightCol = chords.slice(mid);
+
+              return (
+                <List.Section key={root}>
+                  <List.Subheader style={styles.subHeader}>
+                    {root} ({chords.length} acorde{chords.length !== 1 ? "s" : ""})
+                  </List.Subheader>
+                  <View style={styles.chordRow}>
+                    <View style={styles.chordColumn}>
+                      {leftCol.map((chord) => (
+                        <List.Item
+                          key={chord}
+                          title={chord}
+                          onPress={() => handleChordPress(chord)}
+                          left={() => <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />}
+                          right={() => renderChordVisualization(chord)}
+                          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
+                        />
+                      ))}
+                    </View>
+                    <View style={styles.chordColumn}>
+                      {rightCol.map((chord) => (
+                        <List.Item
+                          key={chord}
+                          title={chord}
+                          onPress={() => handleChordPress(chord)}
+                          left={() => <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />}
+                          right={() => renderChordVisualization(chord)}
+                          style={[styles.chordItem, isChordSelected(chord) && { backgroundColor: theme.colors.primaryContainer }]}
+                        />
+                      ))}
+                    </View>
+                  </View>
+                </List.Section>
+              );
+            })
         )}
       </ScrollView>
     </View>
@@ -158,10 +196,28 @@ const styles = StyleSheet.create({
   },
   chordItem: {
     paddingLeft: 16,
+    paddingRight: 8,
+  },
+  chordVisualization: {
+    marginRight: 8,
+    alignItems: "center",
+    justifyContent: "center",
   },
   emptyContainer: {
     padding: 32,
     alignItems: "center",
+  },
+  chordRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    width: "100%",
+  },
+  chordColumn: {
+    flex: 1,
+    // Optionally add padding for spacing between columns
+    paddingRight: 4,
+    paddingLeft: 4,
   },
 });
 
