@@ -9,13 +9,13 @@ const Utf8 = require("crypto-js/enc-utf8");
 
 // Encryption configuration
 const BASE_KEY = "4cbb0d-89b-540ff-5602a520e0-610-9dcb";
+const extraKey = "flaViolao-ccb3ncrypT";
+const combined = BASE_KEY + extraKey;
 
 /**
  * Generates the encryption key by combining the base + environment variable
  */
 function generateKey() {
-  const extraKey = process.env.EXPO_PUBLIC_ENC_KEY_EXTRA || "default-extra-key";
-  const combined = BASE_KEY + extraKey;
   // Generate SHA-256 hash to get exactly 32 bytes
   return SHA256(combined).toString();
 }
@@ -263,13 +263,9 @@ Examples:
   node encrypt-hymns.js encrypt --override             Encrypt all files (override)
   node encrypt-hymns.js decrypt --override             Decrypt all files (override)
 
-Environment Variables:
-  EXPO_PUBLIC_ENC_KEY_EXTRA    Additional key component for encryption
-
 Notes:
   - Without --override, output goes to 'lyrics-gen-enc' folder
   - With --override, original files are replaced
-  - Use EXPO_PUBLIC_ENC_KEY_EXTRA environment variable for custom encryption key
   - Hymns.json is treated as array where each item is encrypted separately
     `);
 }
@@ -291,12 +287,6 @@ function main() {
 
   console.log("🎵 Violão CCB - Hymns Encryption Tool");
   console.log("=====================================");
-
-  if (process.env.EXPO_PUBLIC_ENC_KEY_EXTRA) {
-    console.log("🔑 Using custom encryption key from EXPO_PUBLIC_ENC_KEY_EXTRA");
-  } else {
-    console.log("🔑 Using default encryption key (set EXPO_PUBLIC_ENC_KEY_EXTRA for custom key)");
-  }
 
   switch (command) {
     case "encrypt":

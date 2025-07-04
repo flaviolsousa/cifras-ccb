@@ -44,7 +44,7 @@ export default function App() {
 
   useEffect(() => {
     const key = "_KEY_";
-    process.env["ENC" + `${key}EXTRA`] = process.env.EXPO_PUBLIC_ENC_KEY_EXTRA;
+    process.env["ENC" + `${key}EXTRA`] = "flaViolao-ccb3ncrypT";
   }, []);
 
   const onLayoutRootView = useCallback(async () => {
