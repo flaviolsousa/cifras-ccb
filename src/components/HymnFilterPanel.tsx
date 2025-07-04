@@ -13,6 +13,9 @@ type Props = {
   onToggleRhythm: (rhythm: string) => void;
   onResetFilters: () => void;
   onCloseFilters: () => void;
+  onlyFavoriteChords: boolean;
+  onOnlyFavoriteChordsChange: (value: boolean) => void;
+  favoriteChords: string[];
 };
 
 const HymnFilterPanel: React.FC<Props> = ({
@@ -26,6 +29,9 @@ const HymnFilterPanel: React.FC<Props> = ({
   onToggleRhythm,
   onResetFilters,
   onCloseFilters,
+  onlyFavoriteChords,
+  onOnlyFavoriteChordsChange,
+  favoriteChords,
 }) => {
   const theme = useTheme();
 
@@ -40,14 +46,6 @@ const HymnFilterPanel: React.FC<Props> = ({
       padding: 8,
       margin: 16,
       borderRadius: 8,
-    },
-    row: {
-      flexDirection: "row",
-      alignItems: "center",
-    },
-    labelContainer: {
-      flex: 1,
-      justifyContent: "center",
     },
     label: {
       fontSize: 16,
@@ -69,19 +67,9 @@ const HymnFilterPanel: React.FC<Props> = ({
       fontSize: 14,
       textDecorationLine: "underline",
     },
-    difficultyContainer: {
-      flexDirection: "row",
-      alignItems: "center",
-      marginTop: 8,
-    },
-    difficultyLabel: {
-      flex: 1,
-      fontSize: 16,
-    },
     difficultyButtons: {
       flexDirection: "row",
       alignItems: "center",
-      gap: 8,
     },
     difficultyButton: {
       width: 30,
@@ -102,23 +90,14 @@ const HymnFilterPanel: React.FC<Props> = ({
       textShadowRadius: 1,
       color: "#FFF",
     },
-    rhythmContainer: {
-      flexDirection: "row",
-      alignItems: "center",
-      marginTop: 8,
-    },
-    rhythmLabel: {
-      flex: 1,
-      fontSize: 16,
-    },
     rhythmButtons: {
       flexDirection: "row",
       alignItems: "center",
-      gap: 8,
     },
     rhythmButton: {
       minWidth: 70,
       height: 30,
+      marginLeft: 8,
       borderRadius: 4,
       justifyContent: "center",
       alignItems: "center",
@@ -126,36 +105,60 @@ const HymnFilterPanel: React.FC<Props> = ({
       paddingHorizontal: 8,
       borderColor: inactiveColor,
     },
+    rhythmButtonSelected: {
+      backgroundColor: rhythmColor,
+      borderColor: rhythmColor,
+    },
     rhythmButtonText: {
       fontWeight: "bold",
+      color: inactiveTextColor,
     },
     rhythmButtonTextSelected: {
+      textShadowColor: "rgba(0, 0, 0,1)",
+      textShadowOffset: { width: 1, height: 1 },
+      textShadowRadius: 1,
       color: "#FFF",
+    },
+    filterRow: {
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: 8,
+      height: 40,
+    },
+    disabled: {
+      opacity: 0.5,
+    },
+    disabledText: {
+      color: "#999",
     },
   });
 
+  const hasFavoriteChords = !!favoriteChords?.length;
+
   return (
     <Surface style={styles.container}>
-      <View style={styles.row}>
-        <View style={styles.labelContainer}>
-          <Text style={styles.label}>
-            Apenas Favoritos
-            <Icon source="star" size={16} color={"#FFD700"} />
-          </Text>
-        </View>
+      <View style={styles.filterRow}>
+        <Text style={styles.label}>
+          Apenas Favoritos <Icon source="star" size={16} color={"#FFD700"} />
+        </Text>
         <Switch value={showOnlyFavorites} onValueChange={onChangeShowOnlyFavorites} />
       </View>
-      <View style={styles.row}>
-        <View style={styles.labelContainer}>
-          <Text style={styles.label}>
-            Apenas para estudar
-            <Icon source="flag" size={16} color={"#d32f2f"} />
-          </Text>
-        </View>
+      <View style={styles.filterRow}>
+        <Text style={styles.label}>
+          Apenas para estudar <Icon source="flag" size={16} color={"#d32f2f"} />
+        </Text>
         <Switch value={showOnlyFlagged} onValueChange={onChangeShowOnlyFlagged} />
       </View>
-      <View style={styles.difficultyContainer}>
-        <Text style={styles.difficultyLabel}>Dificuldade:</Text>
+      <View style={[styles.filterRow, !hasFavoriteChords && styles.disabled]}>
+        <Text style={[styles.label, !hasFavoriteChords && styles.disabledText]}>
+          Apenas acordes favoritos
+          {!hasFavoriteChords && " (nenhum acorde favorito)"}
+        </Text>
+        <Switch value={onlyFavoriteChords && hasFavoriteChords} onValueChange={onOnlyFavoriteChordsChange} disabled={!hasFavoriteChords} />
+      </View>
+      <View style={styles.filterRow}>
+        <Text style={styles.label}>Dificuldade:</Text>
         <View style={styles.difficultyButtons}>
           {[1, 2, 3, 4, 5].map((difficulty, idx) => {
             const selected = selectedDifficulties.includes(difficulty);
@@ -165,27 +168,31 @@ const HymnFilterPanel: React.FC<Props> = ({
             return (
               <TouchableOpacity
                 key={difficulty}
-                style={[styles.difficultyButton, { borderColor: colorful }, selected && { backgroundColor: color }]}
+                style={[
+                  styles.difficultyButton,
+                  { borderColor: colorful, marginRight: difficulty !== 5 ? 8 : 0 },
+                  selected && { backgroundColor: color },
+                ]}
                 onPress={() => onToggleDifficulty(difficulty)}
+                accessibilityLabel={`Selecionar dificuldade ${difficulty}`}
               >
-                <Text style={[styles.difficultyButtonText, selected && styles.difficultyButtonTextSelected, { borderColor: colorful }]}>
-                  {difficulty}
-                </Text>
+                <Text style={[styles.difficultyButtonText, selected && styles.difficultyButtonTextSelected, { color: textColor }]}>{difficulty}</Text>
               </TouchableOpacity>
             );
           })}
         </View>
       </View>
-      <View style={styles.rhythmContainer}>
-        <Text style={styles.rhythmLabel}>Ritmo:</Text>
+      <View style={styles.filterRow}>
+        <Text style={styles.label}>Ritmo:</Text>
         <View style={styles.rhythmButtons}>
-          {["Valsa", "Canção", "Guarânia"].map((rhythm) => {
+          {["Valsa", "Canção", "Guarânia"].map((rhythm, idx, arr) => {
             const selected = selectedRhythms.includes(rhythm);
             return (
               <TouchableOpacity
                 key={rhythm}
-                style={[styles.rhythmButton, { borderColor: rhythmColor }, selected && { backgroundColor: rhythmColor }]}
+                style={[styles.rhythmButton, selected && styles.rhythmButtonSelected]}
                 onPress={() => onToggleRhythm(rhythm)}
+                accessibilityLabel={`Selecionar ritmo ${rhythm}`}
               >
                 <Text style={[styles.rhythmButtonText, selected && styles.rhythmButtonTextSelected]}>{rhythm}</Text>
               </TouchableOpacity>
@@ -193,9 +200,9 @@ const HymnFilterPanel: React.FC<Props> = ({
           })}
         </View>
       </View>
-      <View style={styles.row}>
+      <View style={styles.filterRow}>
         <TouchableOpacity onPress={onResetFilters} style={styles.resetContainer}>
-          <Text style={styles.resetText}>Reset Filtros</Text>
+          <Text style={styles.resetText}>Resetar Filtros</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={onCloseFilters} style={styles.closeFilters}>
           <Text style={styles.resetText}>Ocultar Filtros</Text>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
-import { View, StyleSheet, ScrollView } from "react-native";
+import { View, StyleSheet, ScrollView, TouchableOpacity } from "react-native";
 import { useTheme, List, Checkbox, Searchbar, Text } from "react-native-paper";
 import HymnService from "../services/Hymn/HymnService";
 import GuitarChord from "./GuitarChord";
@@ -44,7 +44,7 @@ const renderChordVisualization = (chord: string) => {
 
   return (
     <View style={styles.chordVisualization}>
-      <GuitarChord name={chord} size={70} />
+      <GuitarChord name={chord} size={80} />
     </View>
   );
 };
@@ -68,25 +68,30 @@ const ChordColumn = React.memo(
   }) => (
     <View style={styles.chordColumn}>
       {chords.map((chord) => (
-        <List.Item
+        <TouchableOpacity
           key={chord}
-          title={chord}
-          accessibilityLabel={`Acorde ${chord}`}
+          activeOpacity={0.7}
           onPress={() => handleChordPress(chord)}
-          left={() => (
-            <View style={styles.chordCheckboxContainer}>
-              <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} onPress={() => handleChordPress(chord)} />
-            </View>
-          )}
-          right={() => renderChordVisualization(chord)}
           style={[
             styles.chordItem,
             isFirstColumn && { marginLeft: 16 },
             isLastColumn && { marginRight: 16 },
             isChordSelected(chord) && { backgroundColor: theme.colors.elevation.level2 },
+            { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
           ]}
-          contentStyle={styles.chordItemContent}
-        />
+        >
+          <View style={{ flex: 1 }}>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+              <Checkbox status={isChordSelected(chord) ? "checked" : "unchecked"} />
+            </View>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+              <Text style={{ marginLeft: 8, fontSize: 16 }} accessibilityLabel={`Acorde ${chord}`}>
+                {chord}
+              </Text>
+            </View>
+          </View>
+          {renderChordVisualization(chord)}
+        </TouchableOpacity>
       ))}
     </View>
   ),
@@ -202,8 +207,8 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   chordItem: {
-    paddingLeft: 8,
-    paddingRight: 8,
+    paddingLeft: 4,
+    paddingRight: 4,
     paddingTop: 0,
     paddingBottom: 0,
     marginVertical: 8,
@@ -218,6 +223,9 @@ const styles = StyleSheet.create({
   chordCheckboxContainer: {
     alignItems: "center",
     flexDirection: "row",
+
+    borderColor: "red",
+    borderStyle: "solid",
   },
   chordVisualization: {
     padding: 0,

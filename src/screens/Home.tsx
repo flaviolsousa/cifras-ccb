@@ -10,8 +10,24 @@ import { usePreferences } from "../hooks/usePreferences";
 import HymnFilterPanel from "../components/HymnFilterPanel";
 import HymnService from "../services/Hymn/HymnService";
 
-function genPageHymns(hymns: any[], favoriteHymns: number[] = [], flaggedHymns: number[] = []) {
-  return hymns.map((hymn) => ({
+function genPageHymns(
+  hymns: any[],
+  favoriteHymns: number[] = [],
+  flaggedHymns: number[] = [],
+  favoriteChords: string[] = [],
+  onlyFavoriteChords: boolean = false,
+) {
+  let filteredHymns = hymns;
+
+  // Filter by favorite chords if the filter is enabled
+  if (onlyFavoriteChords && favoriteChords.length > 0) {
+    filteredHymns = hymns.filter((hymn) => {
+      // Check if ALL chords in the hymn are in the favorite chords list
+      return hymn.chords && hymn.chords.every((chord: string) => favoriteChords.includes(chord));
+    });
+  }
+
+  return filteredHymns.map((hymn) => ({
     code: hymn.code,
     title: hymn.title,
     level: hymn.level,
@@ -34,6 +50,7 @@ const Home = () => {
   const [showOnlyFlagged, setShowOnlyFlagged] = useState(false);
   const [selectedDifficulties, setSelectedDifficulties] = useState<number[]>([]);
   const [selectedRhythms, setSelectedRhythms] = useState<string[]>([]);
+  const [onlyFavoriteChords, setOnlyFavoriteChords] = useState(false);
   const flatListRef = useRef<FlatList>(null);
   const [hymns, setHymns] = useState(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
   const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
@@ -70,9 +87,17 @@ const Home = () => {
     preferences &&
       preferences.favoriteHymns &&
       preferences.flaggedHymns &&
-      setHymns(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
+      setHymns(
+        genPageHymns(
+          HymnService.getSimpleHymns(),
+          preferences.favoriteHymns,
+          preferences.flaggedHymns,
+          preferences.favoriteChords,
+          onlyFavoriteChords,
+        ),
+      );
     setSearchQuery((q) => q);
-  }, [preferences.flaggedHymns, preferences.favoriteHymns]);
+  }, [preferences.flaggedHymns, preferences.favoriteHymns, preferences.favoriteChords, onlyFavoriteChords]);
 
   useFocusEffect(
     React.useCallback(() => {
@@ -93,8 +118,11 @@ const Home = () => {
           showOnlyFlagged={showOnlyFlagged}
           selectedDifficulties={selectedDifficulties}
           selectedRhythms={selectedRhythms}
+          onlyFavoriteChords={onlyFavoriteChords}
+          favoriteChords={preferences.favoriteChords || []}
           onChangeShowOnlyFavorites={setShowOnlyFavorites}
           onChangeShowOnlyFlagged={setShowOnlyFlagged}
+          onOnlyFavoriteChordsChange={setOnlyFavoriteChords}
           onToggleDifficulty={toggleDifficulty}
           onToggleRhythm={toggleRhythm}
           onResetFilters={() => {

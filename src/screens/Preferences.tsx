@@ -106,9 +106,7 @@ const Preferences = () => {
             />
             {favoriteChords.length > 0 && (
               <View style={styles.favoriteChords}>
-                <Text variant="bodySmall" style={styles.favoriteChordsList}>
-                  {favoriteChords.sort().join(", ")}
-                </Text>
+                <Text style={styles.favoriteChordsList}>{favoriteChords.sort().join(", ")}</Text>
               </View>
             )}
           </List.Section>
@@ -181,7 +179,7 @@ const Preferences = () => {
           contentContainerStyle={[styles.modalContainer, { backgroundColor: theme.colors.surface }]}
         >
           <View style={styles.modalHeader}>
-            <Text variant="headlineSmall">Selecionar Acordes Favoritos</Text>
+            <Text>Selecionar Acordes Favoritos</Text>
             <Button onPress={() => setShowChordModal(false)}>Fechar</Button>
           </View>
           <SelectChord selectedChords={favoriteChords} onChordToggle={handleChordToggle} />

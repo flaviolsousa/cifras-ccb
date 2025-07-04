@@ -17,13 +17,7 @@
       "introDuration": 14.552
     },
     "level": 2,
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "E7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -44,16 +38,7 @@
       "introDuration": 12.038
     },
     "level": 3,
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "Bm",
-      "D",
-      "Em",
-      "F#m",
-      "G"
-    ],
+    "chords": ["A", "A7", "B7", "Bm", "D", "Em", "F#m", "G"],
     "rhythm": "Canção"
   },
   {
@@ -74,15 +59,7 @@
       "introDuration": 12.658
     },
     "level": 2,
-    "chords": [
-      "Am",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["Am", "B7", "C", "D", "D7", "Em", "G"],
     "rhythm": "Canção"
   },
   {
@@ -103,17 +80,7 @@
       "introDuration": 10.472
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "E",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "C", "D", "D7", "E", "Em", "G", "G7"],
     "rhythm": "Valsa"
   },
   {
@@ -134,13 +101,7 @@
       "introDuration": 10.027
     },
     "level": 4,
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G"
-    ],
+    "chords": ["Am", "C", "D", "F", "G"],
     "rhythm": "Canção"
   },
   {
@@ -160,13 +121,7 @@
       "introDuration": 12.056
     },
     "level": 4,
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G"
-    ],
+    "chords": ["Am", "C", "D", "F", "G"],
     "rhythm": "Canção"
   },
   {
@@ -186,13 +141,7 @@
       "introDuration": 14.426
     },
     "level": 3,
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "C7", "F", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -212,12 +161,7 @@
       "introDuration": 10.473
     },
     "level": 3,
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E7"
-    ],
+    "chords": ["A", "B7", "D", "E7"],
     "rhythm": "Valsa"
   },
   {
@@ -237,12 +181,7 @@
       "introDuration": 10.036
     },
     "level": 3,
-    "chords": [
-      "C",
-      "D7",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "D7", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -262,13 +201,7 @@
       "introDuration": 11.459
     },
     "level": 4,
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ],
+    "chords": ["A", "B7", "D", "E", "E7"],
     "rhythm": "Canção"
   },
   {
@@ -288,13 +221,7 @@
       "introDuration": 11.464
     },
     "level": 3,
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "E7"
-    ],
+    "chords": ["A", "A7", "D", "E", "E7"],
     "rhythm": "Canção"
   },
   {
@@ -314,13 +241,7 @@
       "introDuration": 9.481
     },
     "level": 5,
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "E7",
-      "G"
-    ],
+    "chords": ["A", "D", "E", "E7", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -340,15 +261,7 @@
       "introDuration": 10.956
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "B7",
-      "C",
-      "D",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "B7", "C", "D", "Em", "G", "G7"],
     "rhythm": "Canção"
   },
   {
@@ -368,11 +281,7 @@
       "introDuration": 10.071
     },
     "level": 3,
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "D", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -392,13 +301,7 @@
       "introDuration": 10.647
     },
     "level": 2,
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "E"
-    ],
+    "chords": ["A", "A7", "B7", "D", "E"],
     "rhythm": "Valsa"
   },
   {
@@ -418,13 +321,7 @@
       "introDuration": 14
     },
     "level": 3,
-    "chords": [
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "D", "D7", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -444,13 +341,7 @@
       "introDuration": 9.523
     },
     "level": 4,
-    "chords": [
-      "A",
-      "Am",
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "Am", "C", "D", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -470,13 +361,7 @@
       "introDuration": 7.841
     },
     "level": 4,
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -496,14 +381,7 @@
       "introDuration": 12.042
     },
     "level": 2,
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["Am", "C", "D", "D7", "Em", "G"],
     "rhythm": "Canção"
   },
   {
@@ -523,10 +401,7 @@
       "introDuration": 11.452
     },
     "level": 2,
-    "chords": [
-      "C",
-      "F"
-    ],
+    "chords": ["C", "F"],
     "rhythm": "Canção"
   },
   {
@@ -546,14 +421,7 @@
       "introDuration": 10.471
     },
     "level": 2,
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "D7", "Em", "G"],
     "rhythm": "Canção"
   },
   {
@@ -573,11 +441,7 @@
       "introDuration": 10.971
     },
     "level": 1,
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ],
+    "chords": ["A", "D", "E"],
     "rhythm": "Valsa"
   },
   {
@@ -597,15 +461,7 @@
       "introDuration": 12.048
     },
     "level": 2,
-    "chords": [
-      "A",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A", "B7", "C", "D", "D7", "Em", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -625,14 +481,7 @@
       "introDuration": 14.428
     },
     "level": 3,
-    "chords": [
-      "A",
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "A7", "Am", "C", "D", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -652,10 +501,7 @@
       "introDuration": 10.04
     },
     "level": 2,
-    "chords": [
-      "D",
-      "G"
-    ],
+    "chords": ["D", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -675,13 +521,7 @@
       "introDuration": 10.947
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -701,14 +541,7 @@
       "introDuration": 10.047
     },
     "level": 4,
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "E7",
-      "F#7",
-      "G"
-    ],
+    "chords": ["A7", "Bm", "D", "E7", "F#7", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -728,12 +561,7 @@
       "introDuration": 12.043
     },
     "level": 3,
-    "chords": [
-      "C",
-      "D",
-      "F",
-      "G"
-    ],
+    "chords": ["C", "D", "F", "G"],
     "rhythm": "Canção"
   },
   {
@@ -753,12 +581,7 @@
       "introDuration": 11.135
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -777,11 +600,7 @@
       "duration": 152.393,
       "introDuration": 10.935
     },
-    "chords": [
-      "A",
-      "D",
-      "E7"
-    ],
+    "chords": ["A", "D", "E7"],
     "level": 1,
     "rhythm": "Valsa"
   },
@@ -802,15 +621,7 @@
       "introDuration": 15.812
     },
     "level": 5,
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "E7",
-      "Em",
-      "F#",
-      "G"
-    ],
+    "chords": ["A", "Bm", "D", "E7", "Em", "F#", "G"],
     "rhythm": "Canção"
   },
   {
@@ -830,13 +641,7 @@
       "introDuration": 13.36
     },
     "level": 2,
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -856,14 +661,7 @@
       "introDuration": 10.952
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "Dm",
-      "F",
-      "G"
-    ],
+    "chords": ["A7", "Am", "C", "Dm", "F", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -883,14 +681,7 @@
       "introDuration": 10.942
     },
     "level": 4,
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7",
-      "F#",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "E7", "F#", "G"],
     "rhythm": "Canção"
   },
   {
@@ -910,14 +701,7 @@
       "introDuration": 12.012
     },
     "level": 3,
-    "chords": [
-      "A7",
-      "B7",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "B7", "D", "D7", "Em", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -936,13 +720,7 @@
       "duration": 194.608,
       "introDuration": 14.054
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G"],
     "level": 4,
     "rhythm": "Guarânia"
   },
@@ -962,15 +740,7 @@
       "duration": 148.302,
       "introDuration": 10.929
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D7",
-      "E",
-      "Em",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "D7", "E", "Em", "G"],
     "level": 1,
     "rhythm": "Canção"
   },
@@ -990,15 +760,7 @@
       "duration": 132.393,
       "introDuration": 13.395
     },
-    "chords": [
-      "A7",
-      "Am",
-      "B7",
-      "C",
-      "Dm",
-      "Em",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "B7", "C", "Dm", "Em", "G7"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1018,13 +780,7 @@
       "duration": 192.395,
       "introDuration": 17.554
     },
-    "chords": [
-      "A#",
-      "C7",
-      "D7",
-      "F",
-      "Gm"
-    ],
+    "chords": ["A#", "C7", "D7", "F", "Gm"],
     "level": 5,
     "rhythm": "Guarânia"
   },
@@ -1044,14 +800,7 @@
       "duration": 148.302,
       "introDuration": 10.93
     },
-    "chords": [
-      "A",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A", "B7", "C", "D", "D7", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1071,13 +820,7 @@
       "duration": 145.309,
       "introDuration": 15.085
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "E7"
-    ],
+    "chords": ["A", "A7", "D", "E", "E7"],
     "level": 2,
     "rhythm": "Valsa"
   },
@@ -1097,14 +840,7 @@
       "duration": 152.728,
       "introDuration": 16.066
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "E7",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "C#m", "E", "E7", "F#m"],
     "level": 4,
     "rhythm": "Valsa"
   },
@@ -1124,13 +860,7 @@
       "duration": 130.643,
       "introDuration": 9.015
     },
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "E",
-      "G"
-    ],
+    "chords": ["A7", "Bm", "D", "E", "G"],
     "level": 4,
     "rhythm": "Guarânia"
   },
@@ -1150,12 +880,7 @@
       "duration": 201.144,
       "introDuration": 15.011
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#"
-    ],
+    "chords": ["A", "B7", "E", "F#"],
     "level": 4,
     "rhythm": "Valsa"
   },
@@ -1175,16 +900,7 @@
       "duration": 177.895,
       "introDuration": 18.028
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "C/E",
-      "Dm",
-      "E",
-      "F",
-      "G"
-    ],
+    "chords": ["A7", "Am", "C", "C/E", "Dm", "E", "F", "G"],
     "level": 5,
     "rhythm": "Valsa"
   },
@@ -1204,14 +920,7 @@
       "duration": 159.534,
       "introDuration": 11.481
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "Em", "G"],
     "level": 2,
     "rhythm": "Valsa"
   },
@@ -1231,11 +940,7 @@
       "duration": 169.368,
       "introDuration": 9.516
     },
-    "chords": [
-      "A",
-      "B7",
-      "E"
-    ],
+    "chords": ["A", "B7", "E"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -1255,11 +960,7 @@
       "duration": 137.392,
       "introDuration": 9.495
     },
-    "chords": [
-      "A7",
-      "D",
-      "G"
-    ],
+    "chords": ["A7", "D", "G"],
     "level": 4,
     "rhythm": "Guarânia"
   },
@@ -1279,16 +980,7 @@
       "duration": 152.393,
       "introDuration": 10.946
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "Bm",
-      "D",
-      "D7",
-      "E",
-      "G"
-    ],
+    "chords": ["A", "A7", "B7", "Bm", "D", "D7", "E", "G"],
     "level": 4,
     "rhythm": "Valsa"
   },
@@ -1308,16 +1000,7 @@
       "duration": 178.643,
       "introDuration": 10.029
     },
-    "chords": [
-      "A7",
-      "C",
-      "C7",
-      "Dm",
-      "F",
-      "Fm",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "C", "C7", "Dm", "F", "Fm", "G", "G7"],
     "level": 4,
     "rhythm": "Valsa"
   },
@@ -1337,12 +1020,7 @@
       "duration": 162.894,
       "introDuration": 12.024
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E"
-    ],
+    "chords": ["A", "A7", "D", "E"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1362,12 +1040,7 @@
       "duration": 154.477,
       "introDuration": 10.032
     },
-    "chords": [
-      "Am",
-      "C",
-      "F",
-      "G"
-    ],
+    "chords": ["Am", "C", "F", "G"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -1387,12 +1060,7 @@
       "duration": 140.002,
       "introDuration": 10.47
     },
-    "chords": [
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ],
+    "chords": ["A7", "D", "E7", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1412,12 +1080,7 @@
       "duration": 171.893,
       "introDuration": 12.059
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "E", "F#m"],
     "level": 5,
     "rhythm": "Canção"
   },
@@ -1437,17 +1100,7 @@
       "duration": 217.847,
       "introDuration": 10.938
     },
-    "chords": [
-      "Am",
-      "C",
-      "C7",
-      "D",
-      "Dm",
-      "E7",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["Am", "C", "C7", "D", "Dm", "E7", "F", "G", "G7"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -1467,13 +1120,7 @@
       "duration": 178.107,
       "introDuration": 10.728
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "E7", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1493,13 +1140,7 @@
       "duration": 152.393,
       "introDuration": 10.728
     },
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "C7", "F", "G", "G7"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1519,12 +1160,7 @@
       "duration": 160.219,
       "introDuration": 11.101
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1544,12 +1180,7 @@
       "duration": 130.287,
       "introDuration": 9.489
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ],
+    "chords": ["A", "B7", "E", "E7"],
     "level": 3,
     "rhythm": "Guarânia"
   },
@@ -1569,13 +1200,7 @@
       "duration": 156.484,
       "introDuration": 10.985
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "E", "F#", "F#m"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -1595,11 +1220,7 @@
       "duration": 143.643,
       "introDuration": 15.031
     },
-    "chords": [
-      "A7",
-      "D",
-      "G"
-    ],
+    "chords": ["A7", "D", "G"],
     "level": 1,
     "rhythm": "Valsa"
   },
@@ -1619,13 +1240,7 @@
       "duration": 153.143,
       "introDuration": 15.81
     },
-    "chords": [
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "D", "D7", "G", "G7"],
     "level": 3,
     "rhythm": "Guarânia"
   },
@@ -1645,16 +1260,7 @@
       "duration": 147.036,
       "introDuration": 12.664
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "D°",
-      "E",
-      "E7",
-      "F#m"
-    ],
+    "chords": ["A", "A7", "B7", "D", "D°", "E", "E7", "F#m"],
     "level": 5,
     "rhythm": "Valsa"
   },
@@ -1674,11 +1280,7 @@
       "duration": 154.437,
       "introDuration": 16.14
     },
-    "chords": [
-      "B7",
-      "E",
-      "F#m"
-    ],
+    "chords": ["B7", "E", "F#m"],
     "level": 3,
     "rhythm": "Guarânia"
   },
@@ -1698,15 +1300,7 @@
       "duration": 239.8,
       "introDuration": 17.799
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "Dm",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "C", "D", "Dm", "F", "G", "G7"],
     "level": 4,
     "rhythm": "Valsa"
   },
@@ -1726,11 +1320,7 @@
       "duration": 139.893,
       "introDuration": 10.045
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["C", "D", "G"],
     "level": 3,
     "rhythm": "Guarânia"
   },
@@ -1750,14 +1340,7 @@
       "duration": 161.02,
       "introDuration": 8.65
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "E",
-      "F",
-      "G"
-    ],
+    "chords": ["Am", "C", "D", "E", "F", "G"],
     "level": 5,
     "rhythm": "Guarânia"
   },
@@ -1777,11 +1360,7 @@
       "duration": 132.656,
       "introDuration": 9.498
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "D", "G"],
     "level": 2,
     "rhythm": "Guarânia"
   },
@@ -1801,17 +1380,7 @@
       "duration": 155.25,
       "introDuration": 11.199
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "C7",
-      "Dm",
-      "E",
-      "F",
-      "F7",
-      "G"
-    ],
+    "chords": ["A7", "Am", "C", "C7", "Dm", "E", "F", "F7", "G"],
     "level": 4,
     "rhythm": "Canção"
   },
@@ -1831,12 +1400,7 @@
       "duration": 165.518,
       "introDuration": 12.049
     },
-    "chords": [
-      "C",
-      "D",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "D", "G", "G7"],
     "level": 2,
     "rhythm": "Canção"
   },
@@ -1856,13 +1420,7 @@
       "duration": 144.893,
       "introDuration": 12.036
     },
-    "chords": [
-      "Am",
-      "C",
-      "Dm",
-      "G",
-      "G7"
-    ],
+    "chords": ["Am", "C", "Dm", "G", "G7"],
     "level": 2,
     "rhythm": "Canção"
   },
@@ -1882,12 +1440,7 @@
       "duration": 153.107,
       "introDuration": 11.484
     },
-    "chords": [
-      "C",
-      "D",
-      "Em",
-      "G"
-    ],
+    "chords": ["C", "D", "Em", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1907,12 +1460,7 @@
       "duration": 155.25,
       "introDuration": 11.478
     },
-    "chords": [
-      "C",
-      "D7",
-      "F",
-      "G"
-    ],
+    "chords": ["C", "D7", "F", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1932,13 +1480,7 @@
       "duration": 170.802,
       "introDuration": 10.23
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "E", "G"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -1958,15 +1500,7 @@
       "duration": 107.394,
       "introDuration": 15.06
     },
-    "chords": [
-      "A7",
-      "Am",
-      "D",
-      "D7",
-      "E7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "Am", "D", "D7", "E7", "Em", "G"],
     "level": 2,
     "rhythm": "Valsa"
   },
@@ -1986,14 +1520,7 @@
       "duration": 159.061,
       "introDuration": 11.48
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "Dm",
-      "Em",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "C", "Dm", "Em", "G7"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -2013,14 +1540,7 @@
       "duration": 141.958,
       "introDuration": 10.465
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "D", "E", "E7", "F#m"],
     "level": 3,
     "rhythm": "Valsa"
   },
@@ -2040,12 +1560,7 @@
       "duration": 180.576,
       "introDuration": 10.938
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "G"],
     "level": 2,
     "rhythm": "Valsa"
   },
@@ -2065,12 +1580,7 @@
       "duration": 189.143,
       "introDuration": 9.042
     },
-    "chords": [
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ],
+    "chords": ["A7", "D", "E7", "G"],
     "level": 4,
     "rhythm": "Guarânia"
   },
@@ -2090,20 +1600,7 @@
       "duration": 160.643,
       "introDuration": 12.049
     },
-    "chords": [
-      "A",
-      "A7",
-      "Am",
-      "B7",
-      "Bm",
-      "C",
-      "D",
-      "D7",
-      "E",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["A", "A7", "Am", "B7", "Bm", "C", "D", "D7", "E", "Em", "G", "G7"],
     "level": 3,
     "rhythm": "Canção"
   },
@@ -2123,11 +1620,7 @@
       "duration": 162.572,
       "introDuration": 11.693
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ],
+    "chords": ["C", "F", "G"],
     "rhythm": "Valsa",
     "level": 3
   },
@@ -2147,12 +1640,7 @@
       "duration": 148.226,
       "introDuration": 10.878
     },
-    "chords": [
-      "Am",
-      "C",
-      "D7",
-      "G"
-    ],
+    "chords": ["Am", "C", "D7", "G"],
     "rhythm": "Canção",
     "level": 4
   },
@@ -2172,14 +1660,7 @@
       "duration": 184.001,
       "introDuration": 12.876
     },
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "Em",
-      "F#m",
-      "G"
-    ],
+    "chords": ["A7", "Bm", "D", "Em", "F#m", "G"],
     "rhythm": "Valsa",
     "level": 4
   },
@@ -2199,13 +1680,7 @@
       "duration": 156.68,
       "introDuration": 10.748
     },
-    "chords": [
-      "A7",
-      "D",
-      "Em",
-      "G",
-      "G9"
-    ],
+    "chords": ["A7", "D", "Em", "G", "G9"],
     "rhythm": "Canção",
     "level": 4
   },
@@ -2225,15 +1700,7 @@
       "duration": 141.958,
       "introDuration": 10.456
     },
-    "chords": [
-      "Am",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ],
+    "chords": ["Am", "B7", "C", "D", "D7", "Em", "G"],
     "rhythm": "Canção",
     "level": 3
   },
@@ -2253,17 +1720,7 @@
       "duration": 190.729,
       "introDuration": 13.34
     },
-    "chords": [
-      "A7",
-      "C",
-      "C7",
-      "D",
-      "D7",
-      "Dm",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "C", "C7", "D", "D7", "Dm", "F", "G", "G7"],
     "rhythm": "Valsa",
     "level": 4
   },
@@ -2283,10 +1740,7 @@
       "duration": 174.893,
       "introDuration": 12.762
     },
-    "chords": [
-      "A",
-      "D"
-    ],
+    "chords": ["A", "D"],
     "rhythm": "Canção",
     "level": 3
   },
@@ -2306,13 +1760,7 @@
       "duration": 165.518,
       "introDuration": 12.036
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G"],
     "rhythm": "Canção",
     "level": 2
   },
@@ -2332,13 +1780,7 @@
       "duration": 134.268,
       "introDuration": 10.025
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "E", "E7", "F#m"],
     "rhythm": "Canção"
   },
   {
@@ -2357,13 +1799,7 @@
       "duration": 169.761,
       "introDuration": 9.491
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "D7", "G"],
     "rhythm": "Guarânia",
     "level": 4
   },
@@ -2383,11 +1819,7 @@
       "duration": 167.394,
       "introDuration": 12.037
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ],
+    "chords": ["C", "F", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -2406,14 +1838,7 @@
       "duration": 180.965,
       "introDuration": 11.459
     },
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "D7",
-      "E",
-      "G"
-    ],
+    "chords": ["A7", "Bm", "D", "D7", "E", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2432,10 +1857,7 @@
       "duration": 107.394,
       "introDuration": 10.024
     },
-    "chords": [
-      "A",
-      "E"
-    ],
+    "chords": ["A", "E"],
     "rhythm": "Guarânia"
   },
   {
@@ -2454,14 +1876,7 @@
       "duration": 209.235,
       "introDuration": 12.663
     },
-    "chords": [
-      "C",
-      "C7",
-      "D7",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "C7", "D7", "F", "G", "G7"],
     "rhythm": "Canção"
   },
   {
@@ -2480,11 +1895,7 @@
       "duration": 157.392,
       "introDuration": 11.492
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["C", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2503,12 +1914,7 @@
       "duration": 111.958,
       "introDuration": 11.812
     },
-    "chords": [
-      "C",
-      "D",
-      "Em",
-      "G"
-    ],
+    "chords": ["C", "D", "Em", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -2527,16 +1933,7 @@
       "duration": 165.085,
       "introDuration": 9.257
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "C", "D", "D7", "Em", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -2555,14 +1952,7 @@
       "duration": 163.821,
       "introDuration": 11.483
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "C", "D", "D7", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -2581,14 +1971,7 @@
       "duration": 155.25,
       "introDuration": 11.232
     },
-    "chords": [
-      "A",
-      "A7",
-      "Cm",
-      "D7",
-      "E7",
-      "G"
-    ],
+    "chords": ["A", "A7", "Cm", "D7", "E7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2607,16 +1990,7 @@
       "duration": 171.893,
       "introDuration": 12.044
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "Bm",
-      "D",
-      "Db7",
-      "E7",
-      "Gb7"
-    ],
+    "chords": ["A", "A7", "B7", "Bm", "D", "Db7", "E7", "Gb7"],
     "rhythm": "Canção"
   },
   {
@@ -2635,11 +2009,7 @@
       "duration": 132.393,
       "introDuration": 13.366
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2658,13 +2028,7 @@
       "duration": 178.226,
       "introDuration": 10.03
     },
-    "chords": [
-      "A7",
-      "Bm7",
-      "D",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "Bm7", "D", "Em", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -2683,15 +2047,7 @@
       "duration": 219.211,
       "introDuration": 10.28
     },
-    "chords": [
-      "Am",
-      "C",
-      "C7",
-      "D",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["Am", "C", "C7", "D", "F", "G", "G7"],
     "rhythm": "Canção"
   },
   {
@@ -2710,12 +2066,7 @@
       "duration": 120.252,
       "introDuration": 8.612
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "F#"
-    ],
+    "chords": ["A", "B", "E", "F#"],
     "rhythm": "Guarânia"
   },
   {
@@ -2734,12 +2085,7 @@
       "duration": 150.393,
       "introDuration": 15.714
     },
-    "chords": [
-      "A",
-      "D",
-      "E7",
-      "Eb°"
-    ],
+    "chords": ["A", "D", "E7", "Eb°"],
     "rhythm": "Valsa"
   },
   {
@@ -2758,15 +2104,7 @@
       "duration": 138.226,
       "introDuration": 18.381
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["Am", "C", "D", "D7", "Em", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -2785,11 +2123,7 @@
       "duration": 188.392,
       "introDuration": 9.616
     },
-    "chords": [
-      "B",
-      "E",
-      "F#m"
-    ],
+    "chords": ["B", "E", "F#m"],
     "rhythm": "Valsa"
   },
   {
@@ -2808,11 +2142,7 @@
       "duration": 119.393,
       "introDuration": 11.772
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["C", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2831,11 +2161,7 @@
       "duration": 148.302,
       "introDuration": 10.619
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7"
-    ],
+    "chords": ["B", "E", "F#7"],
     "rhythm": "Valsa"
   },
   {
@@ -2854,10 +2180,7 @@
       "duration": 157.392,
       "introDuration": 11.459
     },
-    "chords": [
-      "A",
-      "D"
-    ],
+    "chords": ["A", "D"],
     "rhythm": "Canção"
   },
   {
@@ -2876,12 +2199,7 @@
       "duration": 123.893,
       "introDuration": 9.061
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -2900,11 +2218,7 @@
       "duration": 141.679,
       "introDuration": 10.481
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "D", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -2923,12 +2237,7 @@
       "duration": 159.443,
       "introDuration": 11.274
     },
-    "chords": [
-      "A7",
-      "D",
-      "D7",
-      "G"
-    ],
+    "chords": ["A7", "D", "D7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -2947,11 +2256,7 @@
       "duration": 160.643,
       "introDuration": 12.04
     },
-    "chords": [
-      "A",
-      "D",
-      "E7"
-    ],
+    "chords": ["A", "D", "E7"],
     "rhythm": "Canção"
   },
   {
@@ -2970,11 +2275,7 @@
       "duration": 173.822,
       "introDuration": 12.361
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["C", "D", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -2993,17 +2294,7 @@
       "duration": 185.001,
       "introDuration": 10.473
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "C7",
-      "D",
-      "D#°",
-      "Dm",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "C", "C7", "D", "D#°", "Dm", "G", "G7"],
     "rhythm": "Valsa"
   },
   {
@@ -3022,17 +2313,7 @@
       "duration": 246.341,
       "introDuration": 9.528
     },
-    "chords": [
-      "A7",
-      "B",
-      "C",
-      "D",
-      "D7",
-      "E7",
-      "Em",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "B", "C", "D", "D7", "E7", "Em", "G", "G7"],
     "rhythm": "Valsa"
   },
   {
@@ -3051,12 +2332,7 @@
       "duration": 180.892,
       "introDuration": 12.041
     },
-    "chords": [
-      "C",
-      "F",
-      "G",
-      "G7"
-    ],
+    "chords": ["C", "F", "G", "G7"],
     "rhythm": "Valsa"
   },
   {
@@ -3075,13 +2351,7 @@
       "duration": 160.965,
       "introDuration": 17.17
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "F#",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "F#", "G"],
     "rhythm": "Canção"
   },
   {
@@ -3100,13 +2370,7 @@
       "duration": 204.568,
       "introDuration": 10.458
     },
-    "chords": [
-      "A",
-      "D",
-      "E7",
-      "Em7",
-      "G"
-    ],
+    "chords": ["A", "D", "E7", "Em7", "G"],
     "rhythm": "Canção"
   },
   {
@@ -3125,13 +2389,7 @@
       "duration": 201.144,
       "introDuration": 15.015
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ],
+    "chords": ["A", "A7", "D", "E7", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -3150,14 +2408,7 @@
       "duration": 161.679,
       "introDuration": 11.469
     },
-    "chords": [
-      "A",
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ],
+    "chords": ["A", "C", "D", "D7", "G", "G7"],
     "rhythm": "Canção"
   },
   {
@@ -3176,14 +2427,7 @@
       "duration": 126.681,
       "introDuration": 17.181
     },
-    "chords": [
-      "A",
-      "B7",
-      "Db7",
-      "E7",
-      "Eb°",
-      "F#m"
-    ],
+    "chords": ["A", "B7", "Db7", "E7", "Eb°", "F#m"],
     "rhythm": "Guarânia"
   },
   {
@@ -3202,17 +2446,7 @@
       "duration": 208.643,
       "introDuration": 15.046
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "D#7",
-      "D7",
-      "E",
-      "G",
-      "G7"
-    ],
+    "chords": ["A7", "Am", "C", "D", "D#7", "D7", "E", "G", "G7"],
     "rhythm": "Guarânia"
   },
   {
@@ -3231,14 +2465,7 @@
       "duration": 177.392,
       "introDuration": 12.07
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "C#m",
-      "E",
-      "F#"
-    ],
+    "chords": ["A", "B", "B7", "C#m", "E", "F#"],
     "rhythm": "Valsa"
   },
   {
@@ -3257,11 +2484,7 @@
       "duration": 162.894,
       "introDuration": 12.052
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ],
+    "chords": ["C", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -3280,11 +2503,7 @@
       "duration": 138.143,
       "introDuration": 12.009
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ],
+    "chords": ["A", "D", "G"],
     "rhythm": "Canção"
   },
   {
@@ -3303,13 +2522,7 @@
       "duration": 152.393,
       "introDuration": 10.949
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "E7",
-      "F#m"
-    ],
+    "chords": ["A", "B", "E", "E7", "F#m"],
     "rhythm": "Valsa"
   },
   {
@@ -3328,11 +2541,7 @@
       "duration": 174.144,
       "introDuration": 12.035
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ],
+    "chords": ["A", "B", "E"],
     "rhythm": "Canção"
   },
   {
@@ -3351,12 +2560,7 @@
       "duration": 181.143,
       "introDuration": 10.042
     },
-    "chords": [
-      "A",
-      "Bm",
-      "E",
-      "E7"
-    ],
+    "chords": ["A", "Bm", "E", "E7"],
     "rhythm": "Valsa"
   },
   {
@@ -3375,15 +2579,7 @@
       "duration": 212.393,
       "introDuration": 12.061
     },
-    "chords": [
-      "Am",
-      "C",
-      "D7",
-      "Dm",
-      "G",
-      "G7",
-      "G°"
-    ],
+    "chords": ["Am", "C", "D7", "Dm", "G", "G7", "G°"],
     "rhythm": "Canção"
   },
   {
@@ -3402,15 +2598,7 @@
       "duration": 147.849,
       "introDuration": 10.941
     },
-    "chords": [
-      "A7",
-      "B",
-      "C",
-      "D",
-      "E7",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "B", "C", "D", "E7", "Em", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -3429,14 +2617,7 @@
       "duration": 152.393,
       "introDuration": 8.586
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm",
-      "D",
-      "Db",
-      "E"
-    ],
+    "chords": ["A", "A7", "Bm", "D", "Db", "E"],
     "rhythm": "Canção"
   },
   {
@@ -3455,12 +2636,7 @@
       "duration": 162.894,
       "introDuration": 12.005
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E"
-    ],
+    "chords": ["A", "B", "B7", "E"],
     "rhythm": "Canção"
   },
   {
@@ -3479,12 +2655,7 @@
       "duration": 155.25,
       "introDuration": 11.487
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "Gb7"
-    ],
+    "chords": ["A", "B", "E", "Gb7"],
     "rhythm": "Canção"
   },
   {
@@ -3503,12 +2674,7 @@
       "duration": 182.393,
       "introDuration": 10.029
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7"
-    ],
+    "chords": ["A", "A7", "D", "E7"],
     "rhythm": "Valsa"
   },
   {
@@ -3527,10 +2693,7 @@
       "duration": 141.958,
       "introDuration": 10.493
     },
-    "chords": [
-      "D",
-      "G"
-    ],
+    "chords": ["D", "G"],
     "rhythm": "Valsa"
   },
   {
@@ -3549,12 +2712,7 @@
       "duration": 178.643,
       "introDuration": 10.061
     },
-    "chords": [
-      "A",
-      "Bm",
-      "E",
-      "F#m"
-    ],
+    "chords": ["A", "Bm", "E", "F#m"],
     "rhythm": "Valsa"
   },
   {
@@ -3573,10 +2731,7 @@
       "duration": 132.656,
       "introDuration": 9.49
     },
-    "chords": [
-      "D",
-      "G"
-    ],
+    "chords": ["D", "G"],
     "rhythm": "Guarânia"
   },
   {
@@ -3595,12 +2750,7 @@
       "duration": 139.35,
       "introDuration": 9.626
     },
-    "chords": [
-      "A",
-      "C",
-      "Dm",
-      "F"
-    ],
+    "chords": ["A", "C", "Dm", "F"],
     "rhythm": "Canção"
   },
   {
@@ -3619,13 +2769,7 @@
       "duration": 167.391,
       "introDuration": 12.028
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B", "B7", "E", "F#7"]
   },
   {
     "code": "142",
@@ -3643,13 +2787,7 @@
       "duration": 184.535,
       "introDuration": 12.935
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F",
-      "F7",
-      "Gm"
-    ]
+    "chords": ["Bb", "C", "F", "F7", "Gm"]
   },
   {
     "code": "143",
@@ -3667,11 +2805,7 @@
       "duration": 165.143,
       "introDuration": 12.061
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D"
-    ]
+    "chords": ["A", "Bm", "D"]
   },
   {
     "code": "144",
@@ -3689,12 +2823,7 @@
       "duration": 132.892,
       "introDuration": 18.016
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#"
-    ]
+    "chords": ["A", "B7", "E", "F#"]
   },
   {
     "code": "145",
@@ -3712,14 +2841,7 @@
       "duration": 211.959,
       "introDuration": 10.457
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "E7",
-      "Em"
-    ]
+    "chords": ["A", "A7", "B7", "D", "E7", "Em"]
   },
   {
     "code": "146",
@@ -3737,14 +2859,7 @@
       "duration": 118.446,
       "introDuration": 9.504
     },
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "E7",
-      "Em7",
-      "G"
-    ]
+    "chords": ["A7", "Bm", "D", "E7", "Em7", "G"]
   },
   {
     "code": "147",
@@ -3762,14 +2877,7 @@
       "duration": 213.348,
       "introDuration": 10.913
     },
-    "chords": [
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ]
+    "chords": ["B7", "C", "D", "D7", "Em", "G"]
   },
   {
     "code": "148",
@@ -3787,11 +2895,7 @@
       "duration": 139.893,
       "introDuration": 10.056
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "149",
@@ -3809,15 +2913,7 @@
       "duration": 170.802,
       "introDuration": 10.95
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "E",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "Am", "C", "D", "E", "Em", "G"]
   },
   {
     "code": "150",
@@ -3835,14 +2931,7 @@
       "duration": 105.001,
       "introDuration": 13.964
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "E7",
-      "F#"
-    ]
+    "chords": ["A", "A7", "B7", "D", "E7", "F#"]
   },
   {
     "code": "151",
@@ -3860,11 +2949,7 @@
       "duration": 143.263,
       "introDuration": 9.797
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "152",
@@ -3882,12 +2967,7 @@
       "duration": 141.958,
       "introDuration": 10.512
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "B7", "D", "E"]
   },
   {
     "code": "153",
@@ -3905,11 +2985,7 @@
       "duration": 162.894,
       "introDuration": 12.04
     },
-    "chords": [
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "E", "F#"]
   },
   {
     "code": "154",
@@ -3927,14 +3003,7 @@
       "duration": 166.677,
       "introDuration": 11.451
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#7",
-      "F#m",
-      "G#m"
-    ]
+    "chords": ["A", "B7", "E", "F#7", "F#m", "G#m"]
   },
   {
     "code": "155",
@@ -3952,11 +3021,7 @@
       "duration": 176.077,
       "introDuration": 12.665
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "F", "G"]
   },
   {
     "code": "156",
@@ -3974,14 +3039,7 @@
       "duration": 146.257,
       "introDuration": 10.917
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "F#",
-      "G#"
-    ]
+    "chords": ["A", "B7", "C#m", "E", "F#", "G#"]
   },
   {
     "code": "157",
@@ -3999,12 +3057,7 @@
       "duration": 173.212,
       "introDuration": 10.043
     },
-    "chords": [
-      "A",
-      "D",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "D", "E7", "F#m"]
   },
   {
     "code": "158",
@@ -4022,11 +3075,7 @@
       "duration": 94.058,
       "introDuration": 6.449
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "F", "G"]
   },
   {
     "code": "159",
@@ -4044,15 +3093,7 @@
       "duration": 171.34,
       "introDuration": 12.696
     },
-    "chords": [
-      "Am",
-      "B7",
-      "C",
-      "D",
-      "Em",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "B7", "C", "D", "Em", "G", "G7"]
   },
   {
     "code": "160",
@@ -4070,15 +3111,7 @@
       "duration": 152.393,
       "introDuration": 8.601
     },
-    "chords": [
-      "A",
-      "B",
-      "C#",
-      "C#m",
-      "E",
-      "F#7",
-      "F#m"
-    ]
+    "chords": ["A", "B", "C#", "C#m", "E", "F#7", "F#m"]
   },
   {
     "code": "161",
@@ -4096,13 +3129,7 @@
       "duration": 153.465,
       "introDuration": 11.489
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "162",
@@ -4120,14 +3147,7 @@
       "duration": 143.227,
       "introDuration": 15.057
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D", "D7", "G", "G7"]
   },
   {
     "code": "163",
@@ -4145,13 +3165,7 @@
       "duration": 204.568,
       "introDuration": 10.432
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "F#"
-    ]
+    "chords": ["A", "B7", "C#m", "E", "F#"]
   },
   {
     "code": "164",
@@ -4169,13 +3183,7 @@
       "duration": 148.302,
       "introDuration": 10.914
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "E7",
-      "F#7"
-    ]
+    "chords": ["A", "B", "E", "E7", "F#7"]
   },
   {
     "code": "165",
@@ -4193,11 +3201,7 @@
       "duration": 136.143,
       "introDuration": 10.049
     },
-    "chords": [
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "E", "F#"]
   },
   {
     "code": "166",
@@ -4215,12 +3219,7 @@
       "duration": 159.534,
       "introDuration": 11.496
     },
-    "chords": [
-      "C",
-      "D",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D", "G", "G7"]
   },
   {
     "code": "167",
@@ -4238,12 +3237,7 @@
       "duration": 148.302,
       "introDuration": 10.958
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "E", "E7"]
   },
   {
     "code": "168",
@@ -4261,15 +3255,7 @@
       "duration": 138.143,
       "introDuration": 12.029
     },
-    "chords": [
-      "B",
-      "B7",
-      "E",
-      "F#",
-      "F#7",
-      "F°",
-      "G#m"
-    ]
+    "chords": ["B", "B7", "E", "F#", "F#7", "F°", "G#m"]
   },
   {
     "code": "169",
@@ -4287,16 +3273,7 @@
       "duration": 155.25,
       "introDuration": 11.448
     },
-    "chords": [
-      "A",
-      "B7",
-      "Bm",
-      "D",
-      "D#°",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "Bm", "D", "D#°", "E", "E7", "F#m"]
   },
   {
     "code": "170",
@@ -4314,14 +3291,7 @@
       "duration": 201.144,
       "introDuration": 15.037
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D", "F", "G", "G7"]
   },
   {
     "code": "171",
@@ -4339,15 +3309,7 @@
       "duration": 173.709,
       "introDuration": 12.689
     },
-    "chords": [
-      "A",
-      "B7",
-      "Bm7",
-      "C°",
-      "D",
-      "D#°",
-      "E7"
-    ]
+    "chords": ["A", "B7", "Bm7", "C°", "D", "D#°", "E7"]
   },
   {
     "code": "172",
@@ -4365,12 +3327,7 @@
       "duration": 90.964,
       "introDuration": 11.489
     },
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "C7", "F", "G"]
   },
   {
     "code": "173",
@@ -4388,14 +3345,7 @@
       "duration": 152.393,
       "introDuration": 10.723
     },
-    "chords": [
-      "B",
-      "C#7",
-      "D#7",
-      "E",
-      "F#",
-      "G#m"
-    ]
+    "chords": ["B", "C#7", "D#7", "E", "F#", "G#m"]
   },
   {
     "code": "174",
@@ -4413,13 +3363,7 @@
       "duration": 172.392,
       "introDuration": 11.493
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#",
-      "D",
-      "E7"
-    ]
+    "chords": ["A", "B7", "C#", "D", "E7"]
   },
   {
     "code": "175",
@@ -4437,12 +3381,7 @@
       "duration": 162.144,
       "introDuration": 11.288
     },
-    "chords": [
-      "C",
-      "E",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "E", "F", "G"]
   },
   {
     "code": "176",
@@ -4460,13 +3399,7 @@
       "duration": 171.34,
       "introDuration": 12.355
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B", "B7", "E", "E7"]
   },
   {
     "code": "177",
@@ -4484,17 +3417,7 @@
       "duration": 188.392,
       "introDuration": 13.233
     },
-    "chords": [
-      "B",
-      "B7",
-      "C#7",
-      "C#m",
-      "D#°",
-      "E",
-      "F#7",
-      "F#m",
-      "G#7"
-    ]
+    "chords": ["B", "B7", "C#7", "C#m", "D#°", "E", "F#7", "F#m", "G#7"]
   },
   {
     "code": "178",
@@ -4512,12 +3435,7 @@
       "duration": 130.287,
       "introDuration": 9.523
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "C#7", "E", "F#7"]
   },
   {
     "code": "179",
@@ -4535,15 +3453,7 @@
       "duration": 158.106,
       "introDuration": 11.485
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E",
-      "E7",
-      "F#",
-      "F#m"
-    ]
+    "chords": ["A", "B", "B7", "E", "E7", "F#", "F#m"]
   },
   {
     "code": "180",
@@ -4561,13 +3471,7 @@
       "duration": 185.12,
       "introDuration": 10.945
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "Em", "G"]
   },
   {
     "code": "181",
@@ -4585,13 +3489,7 @@
       "duration": 162.894,
       "introDuration": 12.026
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#7",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "E", "F#7", "F#m"]
   },
   {
     "code": "182",
@@ -4609,11 +3507,7 @@
       "duration": 119.666,
       "introDuration": 10.935
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "E", "F#7"]
   },
   {
     "code": "183",
@@ -4631,12 +3525,7 @@
       "duration": 204.134,
       "introDuration": 10.454
     },
-    "chords": [
-      "B",
-      "B7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "B7", "E", "F#7"]
   },
   {
     "code": "184",
@@ -4654,15 +3543,7 @@
       "duration": 130.287,
       "introDuration": 9.508
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "E7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "Am", "C", "D", "E7", "Em", "G"]
   },
   {
     "code": "185",
@@ -4680,11 +3561,7 @@
       "duration": 110.25,
       "introDuration": 11.476
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "186",
@@ -4702,12 +3579,7 @@
       "duration": 186.893,
       "introDuration": 18.028
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "E", "E7"]
   },
   {
     "code": "187",
@@ -4725,12 +3597,7 @@
       "duration": 178.643,
       "introDuration": 12.069
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "G"]
   },
   {
     "code": "188",
@@ -4748,12 +3615,7 @@
       "duration": 163.821,
       "introDuration": 11.491
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "B7", "D", "E"]
   },
   {
     "code": "189",
@@ -4771,12 +3633,7 @@
       "duration": 153.107,
       "introDuration": 11.465
     },
-    "chords": [
-      "A",
-      "B7",
-      "Bm",
-      "E"
-    ]
+    "chords": ["A", "B7", "Bm", "E"]
   },
   {
     "code": "190",
@@ -4794,13 +3651,7 @@
       "duration": 159.893,
       "introDuration": 11.47
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#",
-      "F°"
-    ]
+    "chords": ["B", "C#7", "E", "F#", "F°"]
   },
   {
     "code": "191",
@@ -4818,14 +3669,7 @@
       "duration": 159.534,
       "introDuration": 11.478
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#", "D", "E", "F#m"]
   },
   {
     "code": "192",
@@ -4843,14 +3687,7 @@
       "duration": 172.392,
       "introDuration": 11.445
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#7",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#7", "D", "E", "F#m"]
   },
   {
     "code": "193",
@@ -4868,12 +3705,7 @@
       "duration": 201.144,
       "introDuration": 15.029
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B7", "E", "F#7"]
   },
   {
     "code": "194",
@@ -4891,15 +3723,7 @@
       "duration": 171.34,
       "introDuration": 12.648
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "D7",
-      "Em",
-      "Em7",
-      "G"
-    ]
+    "chords": ["A", "Bm", "D", "D7", "Em", "Em7", "G"]
   },
   {
     "code": "195",
@@ -4917,11 +3741,7 @@
       "duration": 114.894,
       "introDuration": 8.258
     },
-    "chords": [
-      "A",
-      "D",
-      "E7"
-    ]
+    "chords": ["A", "D", "E7"]
   },
   {
     "code": "196",
@@ -4939,13 +3759,7 @@
       "duration": 184.001,
       "introDuration": 12.895
     },
-    "chords": [
-      "B",
-      "D#",
-      "E",
-      "F#",
-      "G#m"
-    ]
+    "chords": ["B", "D#", "E", "F#", "G#m"]
   },
   {
     "code": "197",
@@ -4963,11 +3777,7 @@
       "duration": 192.778,
       "introDuration": 13.902
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F"
-    ]
+    "chords": ["Bb", "C", "F"]
   },
   {
     "code": "198",
@@ -4985,15 +3795,7 @@
       "duration": 190.193,
       "introDuration": 9.614
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "D7",
-      "Em",
-      "G",
-      "G#°"
-    ]
+    "chords": ["A", "B7", "D", "D7", "Em", "G", "G#°"]
   },
   {
     "code": "199",
@@ -5011,14 +3813,7 @@
       "duration": 162.894,
       "introDuration": 12.059
     },
-    "chords": [
-      "B7",
-      "C",
-      "D",
-      "Em",
-      "G",
-      "G7"
-    ]
+    "chords": ["B7", "C", "D", "Em", "G", "G7"]
   },
   {
     "code": "200",
@@ -5036,13 +3831,7 @@
       "duration": 162.894,
       "introDuration": 12.061
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "201",
@@ -5060,11 +3849,7 @@
       "duration": 169.644,
       "introDuration": 12.05
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "F", "G"]
   },
   {
     "code": "202",
@@ -5082,11 +3867,7 @@
       "duration": 152.393,
       "introDuration": 10.971
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "203",
@@ -5104,13 +3885,7 @@
       "duration": 162.894,
       "introDuration": 12.148
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "Bm", "D", "Em", "G"]
   },
   {
     "code": "204",
@@ -5128,15 +3903,7 @@
       "duration": 162.894,
       "introDuration": 12.035
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm7",
-      "D",
-      "D7",
-      "E7",
-      "G"
-    ]
+    "chords": ["A", "A7", "Bm7", "D", "D7", "E7", "G"]
   },
   {
     "code": "205",
@@ -5154,15 +3921,7 @@
       "duration": 183.465,
       "introDuration": 16.808
     },
-    "chords": [
-      "A7",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "B7", "C", "D", "D7", "Em", "G"]
   },
   {
     "code": "206",
@@ -5180,15 +3939,7 @@
       "duration": 145.569,
       "introDuration": 10.46
     },
-    "chords": [
-      ".",
-      "A",
-      "B7",
-      "C#7",
-      "E",
-      "F#7",
-      "F#m"
-    ]
+    "chords": [".", "A", "B7", "C#7", "E", "F#7", "F#m"]
   },
   {
     "code": "207",
@@ -5206,14 +3957,7 @@
       "duration": 145.219,
       "introDuration": 9.827
     },
-    "chords": [
-      "A",
-      "Am",
-      "C",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "Am", "C", "D", "E", "G"]
   },
   {
     "code": "208",
@@ -5231,12 +3975,7 @@
       "duration": 186.838,
       "introDuration": 17.848
     },
-    "chords": [
-      "B7",
-      "C#m7",
-      "E",
-      "F#m"
-    ]
+    "chords": ["B7", "C#m7", "E", "F#m"]
   },
   {
     "code": "209",
@@ -5254,12 +3993,7 @@
       "duration": 153.107,
       "introDuration": 11.469
     },
-    "chords": [
-      "A",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "C", "D", "G"]
   },
   {
     "code": "210",
@@ -5277,12 +4011,7 @@
       "duration": 160.643,
       "introDuration": 11.792
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B", "E", "E7"]
   },
   {
     "code": "211",
@@ -5300,11 +4029,7 @@
       "duration": 132.656,
       "introDuration": 9.532
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "F", "G"]
   },
   {
     "code": "212",
@@ -5322,14 +4047,7 @@
       "duration": 164.666,
       "introDuration": 10.716
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "E°",
-      "F#"
-    ]
+    "chords": ["A", "B7", "C#m", "E", "E°", "F#"]
   },
   {
     "code": "213",
@@ -5347,12 +4065,7 @@
       "duration": 148.302,
       "introDuration": 10.96
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E"
-    ]
+    "chords": ["A", "B7", "C#m", "E"]
   },
   {
     "code": "214",
@@ -5370,12 +4083,7 @@
       "duration": 129.498,
       "introDuration": 13.473
     },
-    "chords": [
-      "A",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "C", "D", "G"]
   },
   {
     "code": "215",
@@ -5393,17 +4101,7 @@
       "duration": 152.393,
       "introDuration": 16
     },
-    "chords": [
-      "A7",
-      "C",
-      "C7",
-      "Dm",
-      "F",
-      "F#°",
-      "G",
-      "G4",
-      "G7"
-    ]
+    "chords": ["A7", "C", "C7", "Dm", "F", "F#°", "G", "G4", "G7"]
   },
   {
     "code": "216",
@@ -5421,13 +4119,7 @@
       "duration": 156.484,
       "introDuration": 10.935
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "G"]
   },
   {
     "code": "217",
@@ -5445,15 +4137,7 @@
       "duration": 139.893,
       "introDuration": 10.029
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm",
-      "D",
-      "D7",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "Bm", "D", "D7", "E", "G"]
   },
   {
     "code": "218",
@@ -5471,11 +4155,7 @@
       "duration": 135.814,
       "introDuration": 12.669
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "219",
@@ -5493,16 +4173,7 @@
       "duration": 167.995,
       "introDuration": 9.679
     },
-    "chords": [
-      "B",
-      "B7",
-      "B°",
-      "C#7",
-      "E",
-      "F#",
-      "F#7",
-      "F°"
-    ]
+    "chords": ["B", "B7", "B°", "C#7", "E", "F#", "F#7", "F°"]
   },
   {
     "code": "220",
@@ -5520,12 +4191,7 @@
       "duration": 173.709,
       "introDuration": 12.676
     },
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "C7", "F", "G"]
   },
   {
     "code": "221",
@@ -5543,11 +4209,7 @@
       "duration": 160.643,
       "introDuration": 12.008
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "222",
@@ -5565,12 +4227,7 @@
       "duration": 159.536,
       "introDuration": 11.429
     },
-    "chords": [
-      "B",
-      "C#m",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "C#m", "E", "F#7"]
   },
   {
     "code": "223",
@@ -5588,13 +4245,7 @@
       "duration": 148.302,
       "introDuration": 10.95
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "Dm",
-      "F"
-    ]
+    "chords": ["Bb", "C", "C7", "Dm", "F"]
   },
   {
     "code": "224",
@@ -5612,15 +4263,7 @@
       "duration": 196.03,
       "introDuration": 14.8
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "E",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D", "E", "F", "G", "G7"]
   },
   {
     "code": "225",
@@ -5638,14 +4281,7 @@
       "duration": 155.25,
       "introDuration": 11.478
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E",
-      "F#7",
-      "F#m"
-    ]
+    "chords": ["A", "B", "B7", "E", "F#7", "F#m"]
   },
   {
     "code": "226",
@@ -5663,13 +4299,7 @@
       "duration": 138.182,
       "introDuration": 13.461
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E7", "G"]
   },
   {
     "code": "227",
@@ -5687,10 +4317,7 @@
       "duration": 132.656,
       "introDuration": 9.482
     },
-    "chords": [
-      "D",
-      "G"
-    ]
+    "chords": ["D", "G"]
   },
   {
     "code": "228",
@@ -5708,11 +4335,7 @@
       "duration": 123.893,
       "introDuration": 9.064
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "229",
@@ -5730,12 +4353,7 @@
       "duration": 204.568,
       "introDuration": 10.241
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "G"]
   },
   {
     "code": "230",
@@ -5753,14 +4371,7 @@
       "duration": 138.107,
       "introDuration": 11.439
     },
-    "chords": [
-      "A",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "C", "D", "D7", "Em", "G"]
   },
   {
     "code": "231",
@@ -5778,13 +4389,7 @@
       "duration": 156.484,
       "introDuration": 10.927
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "D7", "G"]
   },
   {
     "code": "232",
@@ -5802,12 +4407,7 @@
       "duration": 120.609,
       "introDuration": 8.38
     },
-    "chords": [
-      "C",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["C", "D", "D7", "G"]
   },
   {
     "code": "233",
@@ -5825,14 +4425,7 @@
       "duration": 155.25,
       "introDuration": 11.487
     },
-    "chords": [
-      "C",
-      "C7",
-      "D",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "C7", "D", "F", "G", "G7"]
   },
   {
     "code": "234",
@@ -5850,12 +4443,7 @@
       "duration": 160.643,
       "introDuration": 12.029
     },
-    "chords": [
-      "A7",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "D", "Em", "G"]
   },
   {
     "code": "235",
@@ -5873,16 +4461,7 @@
       "duration": 125.855,
       "introDuration": 8.997
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "D7",
-      "Dm",
-      "F",
-      "F#°",
-      "Gm"
-    ]
+    "chords": ["Bb", "C", "C7", "D7", "Dm", "F", "F#°", "Gm"]
   },
   {
     "code": "236",
@@ -5900,13 +4479,7 @@
       "duration": 171.34,
       "introDuration": 12.691
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B", "B7", "E", "F#7"]
   },
   {
     "code": "237",
@@ -5924,14 +4497,7 @@
       "duration": 154.774,
       "introDuration": 11.481
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#", "E", "E7", "F#m"]
   },
   {
     "code": "238",
@@ -5949,13 +4515,7 @@
       "duration": 159.211,
       "introDuration": 16.407
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "D7", "G"]
   },
   {
     "code": "239",
@@ -5973,16 +4533,7 @@
       "duration": 130.287,
       "introDuration": 9.521
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C#7",
-      "C7",
-      "D°",
-      "F",
-      "F7",
-      "G7"
-    ]
+    "chords": ["Bb", "C", "C#7", "C7", "D°", "F", "F7", "G7"]
   },
   {
     "code": "240",
@@ -6000,14 +4551,7 @@
       "duration": 152.393,
       "introDuration": 10.948
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "C#7", "D", "E", "E7"]
   },
   {
     "code": "241",
@@ -6025,19 +4569,7 @@
       "duration": 152.393,
       "introDuration": 11.496
     },
-    "chords": [
-      "Bb",
-      "B°",
-      "C",
-      "C7",
-      "D",
-      "D7",
-      "F",
-      "F7",
-      "G",
-      "G7",
-      "Gm"
-    ]
+    "chords": ["Bb", "B°", "C", "C7", "D", "D7", "F", "F7", "G", "G7", "Gm"]
   },
   {
     "code": "242",
@@ -6055,12 +4587,7 @@
       "duration": 132.656,
       "introDuration": 9.504
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "D", "E", "E7"]
   },
   {
     "code": "243",
@@ -6078,10 +4605,7 @@
       "duration": 143.916,
       "introDuration": 10.461
     },
-    "chords": [
-      "D",
-      "G"
-    ]
+    "chords": ["D", "G"]
   },
   {
     "code": "244",
@@ -6099,12 +4623,7 @@
       "duration": 152.393,
       "introDuration": 10.764
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F",
-      "F7"
-    ]
+    "chords": ["Bb", "C", "F", "F7"]
   },
   {
     "code": "245",
@@ -6122,15 +4641,7 @@
       "duration": 173.822,
       "introDuration": 8.629
     },
-    "chords": [
-      "A7",
-      "B",
-      "C",
-      "D",
-      "E",
-      "E7",
-      "G"
-    ]
+    "chords": ["A7", "B", "C", "D", "E", "E7", "G"]
   },
   {
     "code": "246",
@@ -6148,11 +4659,7 @@
       "duration": 181.03,
       "introDuration": 10.94
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "247",
@@ -6170,13 +4677,7 @@
       "duration": 172.846,
       "introDuration": 10.97
     },
-    "chords": [
-      "B7",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["B7", "C", "D", "Em", "G"]
   },
   {
     "code": "248",
@@ -6194,13 +4695,7 @@
       "duration": 209.784,
       "introDuration": 15.725
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "G"]
   },
   {
     "code": "249",
@@ -6218,11 +4713,7 @@
       "duration": 161.679,
       "introDuration": 11.432
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "250",
@@ -6240,12 +4731,7 @@
       "duration": 137.392,
       "introDuration": 9.524
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "D", "E"]
   },
   {
     "code": "251",
@@ -6263,14 +4749,7 @@
       "duration": 162.829,
       "introDuration": 9.851
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7"
-    ]
+    "chords": ["A7", "C", "D", "D7", "G", "G7"]
   },
   {
     "code": "252",
@@ -6288,17 +4767,7 @@
       "duration": 130.792,
       "introDuration": 9.613
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "Bm",
-      "C#7",
-      "C#m",
-      "E",
-      "F#7",
-      "F#m"
-    ]
+    "chords": ["A", "B", "B7", "Bm", "C#7", "C#m", "E", "F#7", "F#m"]
   },
   {
     "code": "253",
@@ -6316,15 +4785,7 @@
       "duration": 223.822,
       "introDuration": 11.494
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G",
-      "G7",
-      "G°"
-    ]
+    "chords": ["A7", "C", "D", "D7", "G", "G7", "G°"]
   },
   {
     "code": "254",
@@ -6342,19 +4803,7 @@
       "duration": 112.395,
       "introDuration": 14.579
     },
-    "chords": [
-      "A",
-      "A7",
-      "A°",
-      "Bb",
-      "B°",
-      "C",
-      "C7",
-      "Dm",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["A", "A7", "A°", "Bb", "B°", "C", "C7", "Dm", "F", "G", "G7"]
   },
   {
     "code": "255",
@@ -6372,12 +4821,7 @@
       "duration": 165.143,
       "introDuration": 12.045
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "C#7", "E", "F#7"]
   },
   {
     "code": "256",
@@ -6395,11 +4839,7 @@
       "duration": 131.393,
       "introDuration": 11.686
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "257",
@@ -6417,16 +4857,7 @@
       "duration": 199.895,
       "introDuration": 10.062
     },
-    "chords": [
-      "A",
-      "Bb",
-      "C",
-      "C7",
-      "Dm",
-      "F",
-      "G7",
-      "Gm"
-    ]
+    "chords": ["A", "Bb", "C", "C7", "Dm", "F", "G7", "Gm"]
   },
   {
     "code": "258",
@@ -6444,14 +4875,7 @@
       "duration": 116.393,
       "introDuration": 11.995
     },
-    "chords": [
-      "B",
-      "E",
-      "F#",
-      "F#7",
-      "G#m",
-      "G°"
-    ]
+    "chords": ["B", "E", "F#", "F#7", "G#m", "G°"]
   },
   {
     "code": "259",
@@ -6469,17 +4893,7 @@
       "duration": 201.958,
       "introDuration": 9.835
     },
-    "chords": [
-      "A7",
-      "B",
-      "C",
-      "D",
-      "D5+",
-      "D7",
-      "Em",
-      "G",
-      "G7"
-    ]
+    "chords": ["A7", "B", "C", "D", "D5+", "D7", "Em", "G", "G7"]
   },
   {
     "code": "260",
@@ -6497,13 +4911,7 @@
       "duration": 155.25,
       "introDuration": 11.126
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "Em", "G"]
   },
   {
     "code": "261",
@@ -6521,18 +4929,7 @@
       "duration": 201.484,
       "introDuration": 14.147
     },
-    "chords": [
-      "A",
-      "Bb",
-      "C",
-      "C7",
-      "D7",
-      "F",
-      "F7",
-      "G",
-      "G7",
-      "Gm"
-    ]
+    "chords": ["A", "Bb", "C", "C7", "D7", "F", "F7", "G", "G7", "Gm"]
   },
   {
     "code": "262",
@@ -6550,12 +4947,7 @@
       "duration": 144.893,
       "introDuration": 12.016
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "G"]
   },
   {
     "code": "263",
@@ -6573,13 +4965,7 @@
       "duration": 153.107,
       "introDuration": 11.481
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "G"]
   },
   {
     "code": "264",
@@ -6597,13 +4983,7 @@
       "duration": 165.143,
       "introDuration": 11.808
     },
-    "chords": [
-      "C",
-      "D7",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D7", "F", "G", "G7"]
   },
   {
     "code": "265",
@@ -6621,15 +5001,7 @@
       "duration": 196.145,
       "introDuration": 10.009
     },
-    "chords": [
-      "C",
-      "C7",
-      "D7",
-      "E",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "C7", "D7", "E", "F", "G", "G7"]
   },
   {
     "code": "266",
@@ -6647,13 +5019,7 @@
       "duration": 105.001,
       "introDuration": 13.947
     },
-    "chords": [
-      "B",
-      "C#",
-      "E",
-      "F#",
-      "F#7"
-    ]
+    "chords": ["B", "C#", "E", "F#", "F#7"]
   },
   {
     "code": "267",
@@ -6671,19 +5037,7 @@
       "duration": 265.22,
       "introDuration": 10.465
     },
-    "chords": [
-      "A#°",
-      "B",
-      "B7",
-      "B°",
-      "C#7",
-      "E",
-      "F#",
-      "F#7",
-      "F°",
-      "G#m",
-      "G#°"
-    ]
+    "chords": ["A#°", "B", "B7", "B°", "C#7", "E", "F#", "F#7", "F°", "G#m", "G#°"]
   },
   {
     "code": "268",
@@ -6701,14 +5055,7 @@
       "duration": 169.368,
       "introDuration": 9.516
     },
-    "chords": [
-      "Bb",
-      "B°",
-      "C",
-      "C7",
-      "F",
-      "G7"
-    ]
+    "chords": ["Bb", "B°", "C", "C7", "F", "G7"]
   },
   {
     "code": "269",
@@ -6726,11 +5073,7 @@
       "duration": 121.028,
       "introDuration": 16.12
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "270",
@@ -6748,17 +5091,7 @@
       "duration": 204.568,
       "introDuration": 10.467
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "C#m",
-      "E",
-      "F#7",
-      "F#m",
-      "G#7",
-      "G°"
-    ]
+    "chords": ["A", "B", "B7", "C#m", "E", "F#7", "F#m", "G#7", "G°"]
   },
   {
     "code": "271",
@@ -6776,14 +5109,7 @@
       "duration": 111.144,
       "introDuration": 15.058
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "Am", "C", "D", "Em", "G"]
   },
   {
     "code": "272",
@@ -6801,13 +5127,7 @@
       "duration": 165.085,
       "introDuration": 9.3
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "273",
@@ -6826,12 +5146,7 @@
       "introDuration": 10.958
     },
     "level": 4,
-    "chords": [
-      "A7",
-      "D",
-      "Em",
-      "G"
-    ],
+    "chords": ["A7", "D", "Em", "G"],
     "rhythm": "Canção"
   },
   {
@@ -6850,16 +5165,7 @@
       "duration": 152.393,
       "introDuration": 10.959
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm7",
-      "D",
-      "E",
-      "E7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "A7", "Bm7", "D", "E", "E7", "Em", "G"]
   },
   {
     "code": "275",
@@ -6877,11 +5183,7 @@
       "duration": 153.465,
       "introDuration": 11.493
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "276",
@@ -6899,12 +5201,7 @@
       "duration": 125.726,
       "introDuration": 13.35
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B", "B7", "E"]
   },
   {
     "code": "277",
@@ -6922,16 +5219,7 @@
       "duration": 196.145,
       "introDuration": 10.015
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "E7",
-      "Em",
-      "G",
-      "G7"
-    ]
+    "chords": ["A7", "Am", "C", "D", "E7", "Em", "G", "G7"]
   },
   {
     "code": "278",
@@ -6949,12 +5237,7 @@
       "duration": 193.302,
       "introDuration": 10.959
     },
-    "chords": [
-      "C9",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["C9", "D", "Em", "G"]
   },
   {
     "code": "279",
@@ -6972,15 +5255,7 @@
       "duration": 141.958,
       "introDuration": 10.502
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "C#7",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "A7", "B7", "C#7", "D", "E", "F#m"]
   },
   {
     "code": "280",
@@ -6998,12 +5273,7 @@
       "duration": 199.895,
       "introDuration": 10.036
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#"
-    ]
+    "chords": ["A", "B7", "E", "F#"]
   },
   {
     "code": "281",
@@ -7021,17 +5291,7 @@
       "duration": 245.992,
       "introDuration": 9.625
     },
-    "chords": [
-      "Bb",
-      "B°",
-      "C7",
-      "D",
-      "F",
-      "F7",
-      "G",
-      "G#°",
-      "Gm"
-    ]
+    "chords": ["Bb", "B°", "C7", "D", "F", "F7", "G", "G#°", "Gm"]
   },
   {
     "code": "282",
@@ -7049,13 +5309,7 @@
       "duration": 163.821,
       "introDuration": 11.482
     },
-    "chords": [
-      "C",
-      "D7",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D7", "F", "G", "G7"]
   },
   {
     "code": "283",
@@ -7073,15 +5327,7 @@
       "duration": 157.037,
       "introDuration": 11.121
     },
-    "chords": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "B", "C", "D", "D7", "Em", "G"]
   },
   {
     "code": "284",
@@ -7099,15 +5345,7 @@
       "duration": 162.894,
       "introDuration": 12.036
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "Dm",
-      "F",
-      "F7",
-      "Gm"
-    ]
+    "chords": ["Bb", "C", "C7", "Dm", "F", "F7", "Gm"]
   },
   {
     "code": "285",
@@ -7125,11 +5363,7 @@
       "duration": 157.392,
       "introDuration": 11.489
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "286",
@@ -7147,13 +5381,7 @@
       "duration": 176.077,
       "introDuration": 12.669
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "G"]
   },
   {
     "code": "287",
@@ -7171,13 +5399,7 @@
       "duration": 201.144,
       "introDuration": 15.044
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "E", "G"]
   },
   {
     "code": "288",
@@ -7195,12 +5417,7 @@
       "duration": 167.394,
       "introDuration": 12.047
     },
-    "chords": [
-      "Am",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["Am", "D", "Em", "G"]
   },
   {
     "code": "289",
@@ -7218,12 +5435,7 @@
       "duration": 117.393,
       "introDuration": 5.776
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#"
-    ]
+    "chords": ["A", "B7", "E", "F#"]
   },
   {
     "code": "290",
@@ -7241,14 +5453,7 @@
       "duration": 143.916,
       "introDuration": 10.461
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#7",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#7", "D", "E", "F#m"]
   },
   {
     "code": "291",
@@ -7266,16 +5471,7 @@
       "duration": 224.132,
       "introDuration": 10.446
     },
-    "chords": [
-      "Am",
-      "B7",
-      "C",
-      "D",
-      "D7",
-      "E",
-      "Em",
-      "G"
-    ]
+    "chords": ["Am", "B7", "C", "D", "D7", "E", "Em", "G"]
   },
   {
     "code": "292",
@@ -7293,12 +5489,7 @@
       "duration": 150.348,
       "introDuration": 10.94
     },
-    "chords": [
-      "B",
-      "C#",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#", "E", "F#"]
   },
   {
     "code": "293",
@@ -7316,13 +5507,7 @@
       "duration": 126.681,
       "introDuration": 17.201
     },
-    "chords": [
-      "..",
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["..", "A", "B7", "E", "E7"]
   },
   {
     "code": "294",
@@ -7340,12 +5525,7 @@
       "duration": 189.212,
       "introDuration": 10.952
     },
-    "chords": [
-      "A",
-      "A#°",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "A#°", "B7", "E"]
   },
   {
     "code": "295",
@@ -7363,12 +5543,7 @@
       "duration": 106.739,
       "introDuration": 10.485
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "G"]
   },
   {
     "code": "296",
@@ -7386,14 +5561,7 @@
       "duration": 186.68,
       "introDuration": 8.64
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#7",
-      "G#m",
-      "G°"
-    ]
+    "chords": ["B", "C#7", "E", "F#7", "G#m", "G°"]
   },
   {
     "code": "297",
@@ -7411,14 +5579,7 @@
       "duration": 168.583,
       "introDuration": 11.452
     },
-    "chords": [
-      "A",
-      "Am",
-      "C",
-      "D",
-      "E7",
-      "G"
-    ]
+    "chords": ["A", "Am", "C", "D", "E7", "G"]
   },
   {
     "code": "298",
@@ -7436,19 +5597,7 @@
       "duration": 128.53,
       "introDuration": 10.943
     },
-    "chords": [
-      "B",
-      "B7",
-      "C#",
-      "C#7",
-      "C#m",
-      "E",
-      "E°",
-      "F#",
-      "F#7",
-      "F#°",
-      "G#"
-    ]
+    "chords": ["B", "B7", "C#", "C#7", "C#m", "E", "E°", "F#", "F#7", "F#°", "G#"]
   },
   {
     "code": "299",
@@ -7466,12 +5615,7 @@
       "duration": 129.142,
       "introDuration": 12.031
     },
-    "chords": [
-      "B",
-      "C#",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#", "E", "F#"]
   },
   {
     "code": "300",
@@ -7489,12 +5633,7 @@
       "duration": 148.302,
       "introDuration": 10.936
     },
-    "chords": [
-      "A",
-      "D",
-      "D°",
-      "G"
-    ]
+    "chords": ["A", "D", "D°", "G"]
   },
   {
     "code": "301",
@@ -7512,11 +5651,7 @@
       "duration": 146.257,
       "introDuration": 10.973
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "302",
@@ -7534,14 +5669,7 @@
       "duration": 177.895,
       "introDuration": 9.048
     },
-    "chords": [
-      "Am",
-      "C",
-      "E",
-      "F",
-      "F#°",
-      "G"
-    ]
+    "chords": ["Am", "C", "E", "F", "F#°", "G"]
   },
   {
     "code": "303",
@@ -7559,13 +5687,7 @@
       "duration": 139.645,
       "introDuration": 9.041
     },
-    "chords": [
-      "C",
-      "E",
-      "F",
-      "G",
-      "sem acorde"
-    ]
+    "chords": ["C", "E", "F", "G", "sem acorde"]
   },
   {
     "code": "304",
@@ -7583,15 +5705,7 @@
       "duration": 187.13,
       "introDuration": 9.513
     },
-    "chords": [
-      "A",
-      "B",
-      "C#",
-      "E",
-      "E7",
-      "F#",
-      "F#m"
-    ]
+    "chords": ["A", "B", "C#", "E", "E7", "F#", "F#m"]
   },
   {
     "code": "305",
@@ -7609,12 +5723,7 @@
       "duration": 145.965,
       "introDuration": 8.896
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B", "E", "F#m"]
   },
   {
     "code": "306",
@@ -7632,12 +5741,7 @@
       "duration": 173.083,
       "introDuration": 12.099
     },
-    "chords": [
-      "A",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "C", "D", "G"]
   },
   {
     "code": "307",
@@ -7655,12 +5759,7 @@
       "duration": 155.25,
       "introDuration": 11.429
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["A", "B", "E", "F#"]
   },
   {
     "code": "308",
@@ -7678,12 +5777,7 @@
       "duration": 159.534,
       "introDuration": 11.475
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "D", "E", "F#m"]
   },
   {
     "code": "309",
@@ -7701,16 +5795,7 @@
       "duration": 165.143,
       "introDuration": 12.06
     },
-    "chords": [
-      "A",
-      "B",
-      "Bm",
-      "C#7",
-      "D",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B", "Bm", "C#7", "D", "E", "E7", "F#m"]
   },
   {
     "code": "310",
@@ -7728,12 +5813,7 @@
       "duration": 132.393,
       "introDuration": 13.357
     },
-    "chords": [
-      "B",
-      "C#",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#", "E", "F#"]
   },
   {
     "code": "311",
@@ -7751,11 +5831,7 @@
       "duration": 155.25,
       "introDuration": 11.486
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "312",
@@ -7773,13 +5849,7 @@
       "duration": 147.778,
       "introDuration": 8.851
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "Bm", "D", "E", "G"]
   },
   {
     "code": "313",
@@ -7797,13 +5867,7 @@
       "duration": 197.393,
       "introDuration": 11.852
     },
-    "chords": [
-      "C",
-      "D",
-      "Dm7",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "D", "Dm7", "F", "G"]
   },
   {
     "code": "314",
@@ -7821,13 +5885,7 @@
       "duration": 130.792,
       "introDuration": 9.302
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "F#",
-      "F#m"
-    ]
+    "chords": ["A", "B", "E", "F#", "F#m"]
   },
   {
     "code": "315",
@@ -7845,14 +5903,7 @@
       "duration": 189.594,
       "introDuration": 14.45
     },
-    "chords": [
-      "A",
-      "Am",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "Am", "C", "D", "Em", "G"]
   },
   {
     "code": "316",
@@ -7870,15 +5921,7 @@
       "duration": 162.036,
       "introDuration": 17.173
     },
-    "chords": [
-      "B",
-      "B°",
-      "C#7",
-      "E",
-      "F#",
-      "F#7",
-      "F°"
-    ]
+    "chords": ["B", "B°", "C#7", "E", "F#", "F#7", "F°"]
   },
   {
     "code": "317",
@@ -7896,14 +5939,7 @@
       "duration": 151.94,
       "introDuration": 10.954
     },
-    "chords": [
-      "A",
-      "B",
-      "E",
-      "E7",
-      "F",
-      "F#m"
-    ]
+    "chords": ["A", "B", "E", "E7", "F", "F#m"]
   },
   {
     "code": "318",
@@ -7921,13 +5957,7 @@
       "duration": 176.077,
       "introDuration": 12.023
     },
-    "chords": [
-      "B",
-      "C#",
-      "E",
-      "F#",
-      "F#7"
-    ]
+    "chords": ["B", "C#", "E", "F#", "F#7"]
   },
   {
     "code": "319",
@@ -7945,12 +5975,7 @@
       "duration": 160.25,
       "introDuration": 12.169
     },
-    "chords": [
-      "C9",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["C9", "D", "D7", "G"]
   },
   {
     "code": "320",
@@ -7968,11 +5993,7 @@
       "duration": 172.645,
       "introDuration": 12.771
     },
-    "chords": [
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "E", "F#"]
   },
   {
     "code": "321",
@@ -7990,14 +6011,7 @@
       "duration": 162.393,
       "introDuration": 13.962
     },
-    "chords": [
-      "A",
-      "B",
-      "C#",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B", "C#", "E", "E7", "F#m"]
   },
   {
     "code": "322",
@@ -8015,19 +6029,7 @@
       "duration": 213.757,
       "introDuration": 10.967
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "D7",
-      "Dm",
-      "E",
-      "E7",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["A7", "Am", "C", "D", "D7", "Dm", "E", "E7", "F", "G", "G7"]
   },
   {
     "code": "323",
@@ -8045,12 +6047,7 @@
       "duration": 160.643,
       "introDuration": 12.032
     },
-    "chords": [
-      "B",
-      "E",
-      "F#",
-      "F#7"
-    ]
+    "chords": ["B", "E", "F#", "F#7"]
   },
   {
     "code": "324",
@@ -8068,13 +6065,7 @@
       "duration": 173.709,
       "introDuration": 12.653
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "F", "G"]
   },
   {
     "code": "325",
@@ -8092,12 +6083,7 @@
       "duration": 177.176,
       "introDuration": 10.485
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "G"]
   },
   {
     "code": "326",
@@ -8115,13 +6101,7 @@
       "duration": 162.572,
       "introDuration": 12.065
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "E", "E7", "F#m"]
   },
   {
     "code": "327",
@@ -8139,11 +6119,7 @@
       "duration": 141.958,
       "introDuration": 10.477
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "328",
@@ -8161,12 +6137,7 @@
       "duration": 162.894,
       "introDuration": 12.066
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#7", "E", "F#"]
   },
   {
     "code": "329",
@@ -8184,12 +6155,7 @@
       "duration": 141.958,
       "introDuration": 10.477
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "G"]
   },
   {
     "code": "330",
@@ -8207,14 +6173,7 @@
       "duration": 156.484,
       "introDuration": 10.94
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "Dm",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "Dm", "E", "E7"]
   },
   {
     "code": "331",
@@ -8232,13 +6191,7 @@
       "duration": 118.107,
       "introDuration": 11.501
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "332",
@@ -8256,12 +6209,7 @@
       "duration": 156.484,
       "introDuration": 10.962
     },
-    "chords": [
-      "B",
-      "C#m",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#m", "E", "F#"]
   },
   {
     "code": "333",
@@ -8279,12 +6227,7 @@
       "duration": 153.143,
       "introDuration": 9.034
     },
-    "chords": [
-      "..",
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["..", "C", "F", "G"]
   },
   {
     "code": "334",
@@ -8302,12 +6245,7 @@
       "duration": 162.894,
       "introDuration": 12.052
     },
-    "chords": [
-      "C",
-      "D",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D", "G", "G7"]
   },
   {
     "code": "335",
@@ -8325,11 +6263,7 @@
       "duration": 165.143,
       "introDuration": 12.064
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "336",
@@ -8347,14 +6281,7 @@
       "duration": 145.575,
       "introDuration": 10.238
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "F#",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "F#", "G"]
   },
   {
     "code": "337",
@@ -8372,15 +6299,7 @@
       "duration": 135.607,
       "introDuration": 11.451
     },
-    "chords": [
-      "B",
-      "B7",
-      "C#",
-      "E",
-      "F#",
-      "F#7",
-      "F°"
-    ]
+    "chords": ["B", "B7", "C#", "E", "F#", "F#7", "F°"]
   },
   {
     "code": "338",
@@ -8398,13 +6317,7 @@
       "duration": 146.257,
       "introDuration": 10.935
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#",
-      "F#7"
-    ]
+    "chords": ["B", "C#7", "E", "F#", "F#7"]
   },
   {
     "code": "339",
@@ -8422,14 +6335,7 @@
       "duration": 164.666,
       "introDuration": 10.941
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "C#", "D", "E", "E7"]
   },
   {
     "code": "340",
@@ -8447,13 +6353,7 @@
       "duration": 213.303,
       "introDuration": 10.941
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D°",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "D°", "G"]
   },
   {
     "code": "341",
@@ -8471,11 +6371,7 @@
       "duration": 160.573,
       "introDuration": 10.93
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "342",
@@ -8493,14 +6389,7 @@
       "duration": 170.474,
       "introDuration": 7.733
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "Em",
-      "F",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "Em", "F", "G"]
   },
   {
     "code": "343",
@@ -8518,14 +6407,7 @@
       "duration": 148.302,
       "introDuration": 10.741
     },
-    "chords": [
-      "C",
-      "C7",
-      "D",
-      "F",
-      "F#°",
-      "G"
-    ]
+    "chords": ["C", "C7", "D", "F", "F#°", "G"]
   },
   {
     "code": "344",
@@ -8543,13 +6425,7 @@
       "duration": 155.25,
       "introDuration": 11.138
     },
-    "chords": [
-      "A",
-      "A7",
-      "B",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "B", "D", "E"]
   },
   {
     "code": "345",
@@ -8567,15 +6443,7 @@
       "duration": 163.821,
       "introDuration": 11.246
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "F",
-      "F4",
-      "G",
-      "G4"
-    ]
+    "chords": ["Bb", "C", "C7", "F", "F4", "G", "G4"]
   },
   {
     "code": "346",
@@ -8593,14 +6461,7 @@
       "duration": 177.738,
       "introDuration": 12.43
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "A7", "B7", "D", "E", "E7"]
   },
   {
     "code": "347",
@@ -8618,13 +6479,7 @@
       "duration": 187.61,
       "introDuration": 10.449
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "348",
@@ -8642,12 +6497,7 @@
       "duration": 142.131,
       "introDuration": 9.519
     },
-    "chords": [
-      "Am",
-      "C",
-      "F",
-      "G7"
-    ]
+    "chords": ["Am", "C", "F", "G7"]
   },
   {
     "code": "349",
@@ -8665,14 +6515,7 @@
       "duration": 165.143,
       "introDuration": 12.045
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "E7",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#m", "E", "E7", "F#m"]
   },
   {
     "code": "350",
@@ -8690,13 +6533,7 @@
       "duration": 241.088,
       "introDuration": 15.685
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "E", "G"]
   },
   {
     "code": "351",
@@ -8714,12 +6551,7 @@
       "duration": 120.323,
       "introDuration": 12.434
     },
-    "chords": [
-      "C",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "F", "G", "G7"]
   },
   {
     "code": "352",
@@ -8737,13 +6569,7 @@
       "duration": 150.895,
       "introDuration": 9.026
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G",
-      "G7"
-    ]
+    "chords": ["A7", "C", "D", "G", "G7"]
   },
   {
     "code": "353",
@@ -8761,12 +6587,7 @@
       "duration": 154.568,
       "introDuration": 13.963
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "G"]
   },
   {
     "code": "354",
@@ -8784,11 +6605,7 @@
       "duration": 157.643,
       "introDuration": 9.061
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "355",
@@ -8806,12 +6623,7 @@
       "duration": 195.893,
       "introDuration": 11.276
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "E", "E7"]
   },
   {
     "code": "356",
@@ -8829,12 +6641,7 @@
       "duration": 157.749,
       "introDuration": 11.453
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "G"]
   },
   {
     "code": "357",
@@ -8852,14 +6659,7 @@
       "duration": 137.392,
       "introDuration": 10.055
     },
-    "chords": [
-      "..",
-      "Bb",
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+    "chords": ["..", "Bb", "C", "C7", "F", "G"]
   },
   {
     "code": "358",
@@ -8877,14 +6677,7 @@
       "duration": 160.643,
       "introDuration": 12.053
     },
-    "chords": [
-      "C",
-      "D",
-      "D7",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D", "D7", "F", "G", "G7"]
   },
   {
     "code": "359",
@@ -8902,11 +6695,7 @@
       "duration": 149.235,
       "introDuration": 9.485
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "360",
@@ -8924,13 +6713,7 @@
       "duration": 165.894,
       "introDuration": 12.761
     },
-    "chords": [
-      "A",
-      "B",
-      "C#m",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B", "C#m", "E", "F#7"]
   },
   {
     "code": "361",
@@ -8948,11 +6731,7 @@
       "duration": 163.821,
       "introDuration": 11.446
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "362",
@@ -8970,11 +6749,7 @@
       "duration": 197.788,
       "introDuration": 14.218
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "363",
@@ -8992,11 +6767,7 @@
       "duration": 102.393,
       "introDuration": 10.048
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "364",
@@ -9014,15 +6785,7 @@
       "duration": 162.894,
       "introDuration": 11.745
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "Dm",
-      "E7",
-      "F",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "Dm", "E7", "F", "G"]
   },
   {
     "code": "365",
@@ -9040,13 +6803,7 @@
       "duration": 132.656,
       "introDuration": 9.25
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "D", "E", "F#m"]
   },
   {
     "code": "366",
@@ -9064,13 +6821,7 @@
       "duration": 150.348,
       "introDuration": 10.979
     },
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "F#°",
-      "Gm"
-    ]
+    "chords": ["C", "C7", "F", "F#°", "Gm"]
   },
   {
     "code": "367",
@@ -9088,11 +6839,7 @@
       "duration": 152.393,
       "introDuration": 9.042
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "368",
@@ -9110,11 +6857,7 @@
       "duration": 132.393,
       "introDuration": 9.84
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "369",
@@ -9132,11 +6875,7 @@
       "duration": 145.871,
       "introDuration": 10.469
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "370",
@@ -9154,12 +6893,7 @@
       "duration": 158.528,
       "introDuration": 10.927
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B", "B7", "E"]
   },
   {
     "code": "371",
@@ -9177,12 +6911,7 @@
       "duration": 137.392,
       "introDuration": 9.496
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B", "B7", "E"]
   },
   {
     "code": "372",
@@ -9200,13 +6929,7 @@
       "duration": 138.574,
       "introDuration": 12.029
     },
-    "chords": [
-      "C",
-      "C#°",
-      "Dm",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "C#°", "Dm", "G", "G7"]
   },
   {
     "code": "373",
@@ -9224,15 +6947,7 @@
       "duration": 117.143,
       "introDuration": 15.79
     },
-    "chords": [
-      "A",
-      "B7",
-      "Bm",
-      "D",
-      "E",
-      "E7",
-      "F#7"
-    ]
+    "chords": ["A", "B7", "Bm", "D", "E", "E7", "F#7"]
   },
   {
     "code": "374",
@@ -9268,13 +6983,7 @@
       "duration": 168.506,
       "introDuration": 8.567
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "F", "G"]
   },
   {
     "code": "376",
@@ -9292,11 +7001,7 @@
       "duration": 111.893,
       "introDuration": 12.028
     },
-    "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B7", "E"]
   },
   {
     "code": "377",
@@ -9314,15 +7019,7 @@
       "duration": 156.143,
       "introDuration": 6.707
     },
-    "chords": [
-      "A",
-      "B7",
-      "Bm",
-      "D",
-      "E",
-      "F#",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "Bm", "D", "E", "F#", "F#m"]
   },
   {
     "code": "378",
@@ -9340,13 +7037,7 @@
       "duration": 184.05,
       "introDuration": 13.38
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "Bm", "D", "E", "F#m"]
   },
   {
     "code": "379",
@@ -9364,11 +7055,7 @@
       "duration": 159.536,
       "introDuration": 11.446
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "380",
@@ -9386,11 +7073,7 @@
       "duration": 165.143,
       "introDuration": 12.028
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "381",
@@ -9408,12 +7091,7 @@
       "duration": 232.393,
       "introDuration": 11.439
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "E", "G"]
   },
   {
     "code": "382",
@@ -9431,12 +7109,7 @@
       "duration": 157.392,
       "introDuration": 11.438
     },
-    "chords": [
-      "B",
-      "E",
-      "F#",
-      "F#7"
-    ]
+    "chords": ["B", "E", "F#", "F#7"]
   },
   {
     "code": "383",
@@ -9454,11 +7127,7 @@
       "duration": 148.302,
       "introDuration": 10.934
     },
-    "chords": [
-      "C",
-      "C7",
-      "F"
-    ]
+    "chords": ["C", "C7", "F"]
   },
   {
     "code": "384",
@@ -9476,11 +7145,7 @@
       "duration": 178.447,
       "introDuration": 12.664
     },
-    "chords": [
-      "A",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "D", "G"]
   },
   {
     "code": "385",
@@ -9498,16 +7163,7 @@
       "duration": 157.848,
       "introDuration": 16.019
     },
-    "chords": [
-      "A",
-      "A7",
-      "Am",
-      "B7",
-      "D",
-      "Dm",
-      "E7",
-      "Em"
-    ]
+    "chords": ["A", "A7", "Am", "B7", "D", "Dm", "E7", "Em"]
   },
   {
     "code": "386",
@@ -9525,13 +7181,7 @@
       "duration": 155.25,
       "introDuration": 11.474
     },
-    "chords": [
-      "C",
-      "D#°",
-      "D7",
-      "F",
-      "G7"
-    ]
+    "chords": ["C", "D#°", "D7", "F", "G7"]
   },
   {
     "code": "387",
@@ -9549,17 +7199,7 @@
       "duration": 143.346,
       "introDuration": 15
     },
-    "chords": [
-      "A",
-      "A7",
-      "B",
-      "Bm",
-      "D",
-      "E7",
-      "Em",
-      "F#7",
-      "G"
-    ]
+    "chords": ["A", "A7", "B", "Bm", "D", "E7", "Em", "F#7", "G"]
   },
   {
     "code": "388",
@@ -9577,12 +7217,7 @@
       "duration": 152.393,
       "introDuration": 10.735
     },
-    "chords": [
-      "C",
-      "D7",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "D7", "F", "G"]
   },
   {
     "code": "389",
@@ -9600,13 +7235,7 @@
       "duration": 141.958,
       "introDuration": 10.448
     },
-    "chords": [
-      "B",
-      "B7",
-      "C#7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "B7", "C#7", "E", "F#7"]
   },
   {
     "code": "390",
@@ -9624,14 +7253,7 @@
       "duration": 189.498,
       "introDuration": 9.506
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "E",
-      "F",
-      "G"
-    ]
+    "chords": ["Am", "C", "D", "E", "F", "G"]
   },
   {
     "code": "391",
@@ -9649,12 +7271,7 @@
       "duration": 139.893,
       "introDuration": 10.051
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "D", "E"]
   },
   {
     "code": "392",
@@ -9672,12 +7289,7 @@
       "duration": 141.958,
       "introDuration": 10.486
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "D", "E", "F#m"]
   },
   {
     "code": "393",
@@ -9695,12 +7307,7 @@
       "duration": 159.534,
       "introDuration": 11.456
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#7", "E", "F#"]
   },
   {
     "code": "394",
@@ -9718,13 +7325,7 @@
       "duration": 174.144,
       "introDuration": 12.063
     },
-    "chords": [
-      "A7",
-      "Bm",
-      "D",
-      "F#7",
-      "G"
-    ]
+    "chords": ["A7", "Bm", "D", "F#7", "G"]
   },
   {
     "code": "395",
@@ -9742,19 +7343,7 @@
       "duration": 152.393,
       "introDuration": 8.611
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "Bm",
-      "C#m",
-      "E",
-      "F#7",
-      "F#m",
-      "F°",
-      "G",
-      "G#m"
-    ]
+    "chords": ["A", "B", "B7", "Bm", "C#m", "E", "F#7", "F#m", "F°", "G", "G#m"]
   },
   {
     "code": "396",
@@ -9772,11 +7361,7 @@
       "duration": 171.34,
       "introDuration": 12.667
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "E", "F#7"]
   },
   {
     "code": "397",
@@ -9794,14 +7379,7 @@
       "duration": 130.643,
       "introDuration": 18.023
     },
-    "chords": [
-      "A",
-      "A#°",
-      "B",
-      "Bm",
-      "Bm7(5-)",
-      "E7"
-    ]
+    "chords": ["A", "A#°", "B", "Bm", "Bm7(5-)", "E7"]
   },
   {
     "code": "398",
@@ -9819,16 +7397,7 @@
       "duration": 214.297,
       "introDuration": 7.663
     },
-    "chords": [
-      "B",
-      "B°",
-      "C#7",
-      "E",
-      "F#",
-      "F#7",
-      "G#m",
-      "G7"
-    ]
+    "chords": ["B", "B°", "C#7", "E", "F#", "F#7", "G#m", "G7"]
   },
   {
     "code": "399",
@@ -9846,12 +7415,7 @@
       "duration": 201.144,
       "introDuration": 15.054
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F",
-      "Gm"
-    ]
+    "chords": ["Bb", "C", "F", "Gm"]
   },
   {
     "code": "400",
@@ -9869,13 +7433,7 @@
       "duration": 135.024,
       "introDuration": 9.158
     },
-    "chords": [
-      "A",
-      "A#°",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "A#°", "B7", "E", "E7"]
   },
   {
     "code": "401",
@@ -9893,14 +7451,7 @@
       "duration": 144.21,
       "introDuration": 8.218
     },
-    "chords": [
-      "Am",
-      "C",
-      "D7",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D7", "F", "G", "G7"]
   },
   {
     "code": "402",
@@ -9918,13 +7469,7 @@
       "duration": 162.894,
       "introDuration": 12.064
     },
-    "chords": [
-      "Bb9",
-      "C",
-      "C7",
-      "F",
-      "F7"
-    ]
+    "chords": ["Bb9", "C", "C7", "F", "F7"]
   },
   {
     "code": "403",
@@ -9942,13 +7487,7 @@
       "duration": 166.644,
       "introDuration": 6.771
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D", "F", "G7"]
   },
   {
     "code": "404",
@@ -9966,13 +7505,7 @@
       "duration": 162.894,
       "introDuration": 12.044
     },
-    "chords": [
-      "A",
-      "C#",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "C#", "D", "E", "F#m"]
   },
   {
     "code": "405",
@@ -9990,11 +7523,7 @@
       "duration": 171.34,
       "introDuration": 12.678
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "406",
@@ -10012,13 +7541,7 @@
       "duration": 155.25,
       "introDuration": 11.474
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "Em", "G"]
   },
   {
     "code": "407",
@@ -10036,14 +7559,7 @@
       "duration": 146.598,
       "introDuration": 10.974
     },
-    "chords": [
-      "A7",
-      "Am",
-      "C",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A7", "Am", "C", "D", "E", "G"]
   },
   {
     "code": "408",
@@ -10061,10 +7577,7 @@
       "duration": 126.838,
       "introDuration": 13.387
     },
-    "chords": [
-      "A",
-      "E"
-    ]
+    "chords": ["A", "E"]
   },
   {
     "code": "409",
@@ -10082,13 +7595,7 @@
       "duration": 170.394,
       "introDuration": 12.812
     },
-    "chords": [
-      "B",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["B", "C", "D", "Em", "G"]
   },
   {
     "code": "410",
@@ -10106,11 +7613,7 @@
       "duration": 115.392,
       "introDuration": 8.062
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "411",
@@ -10128,14 +7631,7 @@
       "duration": 179.785,
       "introDuration": 10.457
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "C#m",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B", "B7", "C#m", "E", "F#7"]
   },
   {
     "code": "412",
@@ -10153,11 +7649,7 @@
       "duration": 151.358,
       "introDuration": 18.652
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F"
-    ]
+    "chords": ["Bb", "C", "F"]
   },
   {
     "code": "413",
@@ -10175,13 +7667,7 @@
       "duration": 188.481,
       "introDuration": 13.93
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "F",
-      "G7"
-    ]
+    "chords": ["Bb", "C", "C7", "F", "G7"]
   },
   {
     "code": "414",
@@ -10199,13 +7685,7 @@
       "duration": 190.221,
       "introDuration": 13.929
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "E",
-      "Em"
-    ]
+    "chords": ["A", "Bm", "D", "E", "Em"]
   },
   {
     "code": "415",
@@ -10223,14 +7703,7 @@
       "duration": 241.794,
       "introDuration": 18.037
     },
-    "chords": [
-      "C",
-      "D7",
-      "Dm",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D7", "Dm", "F", "G", "G7"]
   },
   {
     "code": "416",
@@ -10248,13 +7721,7 @@
       "duration": 151.917,
       "introDuration": 16.234
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#m",
-      "E",
-      "G#m"
-    ]
+    "chords": ["A", "B7", "C#m", "E", "G#m"]
   },
   {
     "code": "417",
@@ -10272,13 +7739,7 @@
       "duration": 185.17,
       "introDuration": 12.808
     },
-    "chords": [
-      "A7",
-      "D",
-      "D7",
-      "E7",
-      "G"
-    ]
+    "chords": ["A7", "D", "D7", "E7", "G"]
   },
   {
     "code": "418",
@@ -10296,14 +7757,7 @@
       "duration": 213.696,
       "introDuration": 15.666
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "D°",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "D", "D°", "E", "G"]
   },
   {
     "code": "419",
@@ -10321,13 +7775,7 @@
       "duration": 226.029,
       "introDuration": 15.701
     },
-    "chords": [
-      "A",
-      "Am",
-      "D",
-      "Em",
-      "G"
-    ]
+    "chords": ["A", "Am", "D", "Em", "G"]
   },
   {
     "code": "420",
@@ -10345,10 +7793,7 @@
       "duration": 196.938,
       "introDuration": 14.271
     },
-    "chords": [
-      "D",
-      "G"
-    ]
+    "chords": ["D", "G"]
   },
   {
     "code": "421",
@@ -10366,13 +7811,7 @@
       "duration": 174.357,
       "introDuration": 12.89
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "F#m",
-      "G#m"
-    ]
+    "chords": ["A", "B7", "E", "F#m", "G#m"]
   },
   {
     "code": "422",
@@ -10390,12 +7829,7 @@
       "duration": 209.132,
       "introDuration": 14.424
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "E", "E7"]
   },
   {
     "code": "423",
@@ -10413,11 +7847,7 @@
       "duration": 171.34,
       "introDuration": 12.683
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "424",
@@ -10435,14 +7865,7 @@
       "duration": 201.144,
       "introDuration": 12.026
     },
-    "chords": [
-      "Bb",
-      "C",
-      "D",
-      "F",
-      "G7",
-      "Gm"
-    ]
+    "chords": ["Bb", "C", "D", "F", "G7", "Gm"]
   },
   {
     "code": "425",
@@ -10460,12 +7883,7 @@
       "duration": 229.535,
       "introDuration": 16.685
     },
-    "chords": [
-      "A",
-      "A7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "D", "E"]
   },
   {
     "code": "431",
@@ -10483,12 +7901,7 @@
       "duration": 148.302,
       "introDuration": 10.959
     },
-    "chords": [
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "C7", "F", "G"]
   },
   {
     "code": "432",
@@ -10506,14 +7919,7 @@
       "duration": 126.282,
       "introDuration": 8.953
     },
-    "chords": [
-      "A",
-      "A7",
-      "B",
-      "D",
-      "E",
-      "E4"
-    ]
+    "chords": ["A", "A7", "B", "D", "E", "E4"]
   },
   {
     "code": "433",
@@ -10531,13 +7937,7 @@
       "duration": 122.394,
       "introDuration": 8.59
     },
-    "chords": [
-      "B",
-      "C#m",
-      "E",
-      "F#",
-      "G#m"
-    ]
+    "chords": ["B", "C#m", "E", "F#", "G#m"]
   },
   {
     "code": "434",
@@ -10555,10 +7955,7 @@
       "duration": 87.036,
       "introDuration": 11.48
     },
-    "chords": [
-      "C",
-      "G"
-    ]
+    "chords": ["C", "G"]
   },
   {
     "code": "435",
@@ -10576,11 +7973,7 @@
       "duration": 101.869,
       "introDuration": 9.496
     },
-    "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B7", "E"]
   },
   {
     "code": "436",
@@ -10598,14 +7991,7 @@
       "duration": 191.257,
       "introDuration": 10.938
     },
-    "chords": [
-      "A",
-      "D",
-      "E",
-      "Em",
-      "G",
-      "G#°"
-    ]
+    "chords": ["A", "D", "E", "Em", "G", "G#°"]
   },
   {
     "code": "437",
@@ -10623,11 +8009,7 @@
       "duration": 116.393,
       "introDuration": 11.81
     },
-    "chords": [
-      "C9",
-      "D",
-      "G"
-    ]
+    "chords": ["C9", "D", "G"]
   },
   {
     "code": "438",
@@ -10645,11 +8027,7 @@
       "duration": 145.871,
       "introDuration": 10.181
     },
-    "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B7", "E"]
   },
   {
     "code": "439",
@@ -10667,12 +8045,7 @@
       "duration": 141.958,
       "introDuration": 10.256
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "C#7", "E", "F#"]
   },
   {
     "code": "440",
@@ -10690,13 +8063,7 @@
       "duration": 141.307,
       "introDuration": 9.816
     },
-    "chords": [
-      "A7",
-      "Am",
-      "D7",
-      "E7",
-      "G"
-    ]
+    "chords": ["A7", "Am", "D7", "E7", "G"]
   },
   {
     "code": "441",
@@ -10714,14 +8081,7 @@
       "duration": 101.09,
       "introDuration": 6.988
     },
-    "chords": [
-      "A7",
-      "Bm7",
-      "D",
-      "D7",
-      "Em",
-      "G"
-    ]
+    "chords": ["A7", "Bm7", "D", "D7", "Em", "G"]
   },
   {
     "code": "442",
@@ -10739,14 +8099,7 @@
       "duration": 152.393,
       "introDuration": 10.739
     },
-    "chords": [
-      "A",
-      "B7",
-      "C#",
-      "D",
-      "E",
-      "F#m"
-    ]
+    "chords": ["A", "B7", "C#", "D", "E", "F#m"]
   },
   {
     "code": "443",
@@ -10764,14 +8117,7 @@
       "duration": 150.348,
       "introDuration": 10.938
     },
-    "chords": [
-      "B",
-      "C#",
-      "D#7",
-      "E",
-      "F#7",
-      "G#m"
-    ]
+    "chords": ["B", "C#", "D#7", "E", "F#7", "G#m"]
   },
   {
     "code": "444",
@@ -10789,14 +8135,7 @@
       "duration": 87.895,
       "introDuration": 9.033
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm",
-      "D",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "A7", "Bm", "D", "E", "G"]
   },
   {
     "code": "445",
@@ -10814,11 +8153,7 @@
       "duration": 141.958,
       "introDuration": 10.441
     },
-    "chords": [
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "E", "F#"]
   },
   {
     "code": "446",
@@ -10836,13 +8171,7 @@
       "duration": 223.822,
       "introDuration": 11.484
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "D7", "G"]
   },
   {
     "code": "447",
@@ -10860,12 +8189,7 @@
       "duration": 159.536,
       "introDuration": 11.433
     },
-    "chords": [
-      "A",
-      "B",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B", "B7", "E"]
   },
   {
     "code": "448",
@@ -10883,13 +8207,7 @@
       "duration": 155.25,
       "introDuration": 11.457
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "Bm7", "D", "E"]
   },
   {
     "code": "449",
@@ -10907,13 +8225,7 @@
       "duration": 156.958,
       "introDuration": 7.848
     },
-    "chords": [
-      "A",
-      "B7",
-      "D",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "D", "E", "E7"]
   },
   {
     "code": "450",
@@ -10931,11 +8243,7 @@
       "duration": 157.392,
       "introDuration": 11.46
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "451",
@@ -10953,13 +8261,7 @@
       "duration": 156.484,
       "introDuration": 10.95
     },
-    "chords": [
-      "A",
-      "A7",
-      "C#7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "C#7", "D", "E"]
   },
   {
     "code": "452",
@@ -10977,11 +8279,7 @@
       "duration": 162.894,
       "introDuration": 12.058
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "453",
@@ -10999,13 +8297,7 @@
       "duration": 173.083,
       "introDuration": 12.431
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "F",
-      "G"
-    ]
+    "chords": ["Bb", "C", "C7", "F", "G"]
   },
   {
     "code": "454",
@@ -11023,11 +8315,7 @@
       "duration": 155.25,
       "introDuration": 11.152
     },
-    "chords": [
-      "C9",
-      "D",
-      "G"
-    ]
+    "chords": ["C9", "D", "G"]
   },
   {
     "code": "455",
@@ -11045,12 +8333,7 @@
       "duration": 157.392,
       "introDuration": 11.474
     },
-    "chords": [
-      "A7",
-      "D",
-      "E7",
-      "G"
-    ]
+    "chords": ["A7", "D", "E7", "G"]
   },
   {
     "code": "456",
@@ -11068,12 +8351,7 @@
       "duration": 126.144,
       "introDuration": 9.056
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "E7"
-    ]
+    "chords": ["A", "B7", "E", "E7"]
   },
   {
     "code": "457",
@@ -11091,14 +8369,7 @@
       "duration": 178.643,
       "introDuration": 10.052
     },
-    "chords": [
-      "Am",
-      "C",
-      "D",
-      "F",
-      "G",
-      "G7"
-    ]
+    "chords": ["Am", "C", "D", "F", "G", "G7"]
   },
   {
     "code": "458",
@@ -11116,11 +8387,7 @@
       "duration": 96.341,
       "introDuration": 6.375
     },
-    "chords": [
-      "A",
-      "B7",
-      "E"
-    ]
+    "chords": ["A", "B7", "E"]
   },
   {
     "code": "459",
@@ -11138,15 +8405,7 @@
       "duration": 137.394,
       "introDuration": 10.04
     },
-    "chords": [
-      "Am",
-      "C",
-      "Dm",
-      "E7",
-      "F",
-      "F#°",
-      "G7"
-    ]
+    "chords": ["Am", "C", "Dm", "E7", "F", "F#°", "G7"]
   },
   {
     "code": "460",
@@ -11164,13 +8423,7 @@
       "duration": 146.257,
       "introDuration": 10.936
     },
-    "chords": [
-      "Bb",
-      "C",
-      "C7",
-      "F",
-      "F°"
-    ]
+    "chords": ["Bb", "C", "C7", "F", "F°"]
   },
   {
     "code": "461",
@@ -11188,11 +8441,7 @@
       "duration": 157.392,
       "introDuration": 11.475
     },
-    "chords": [
-      "C",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "F", "G"]
   },
   {
     "code": "462",
@@ -11210,10 +8459,7 @@
       "duration": 179.535,
       "introDuration": 8.623
     },
-    "chords": [
-      "B7",
-      "E"
-    ]
+    "chords": ["B7", "E"]
   },
   {
     "code": "463",
@@ -11231,13 +8477,7 @@
       "duration": 150.348,
       "introDuration": 10.96
     },
-    "chords": [
-      "A",
-      "A7",
-      "Bm",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "Bm", "D", "E"]
   },
   {
     "code": "464",
@@ -11255,12 +8495,7 @@
       "duration": 139.893,
       "introDuration": 10.02
     },
-    "chords": [
-      "A",
-      "B",
-      "C#m",
-      "E"
-    ]
+    "chords": ["A", "B", "C#m", "E"]
   },
   {
     "code": "465",
@@ -11278,12 +8513,7 @@
       "duration": 116.393,
       "introDuration": 12.061
     },
-    "chords": [
-      "B",
-      "C#7",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "C#7", "E", "F#7"]
   },
   {
     "code": "466",
@@ -11301,11 +8531,7 @@
       "duration": 69.894,
       "introDuration": 9.059
     },
-    "chords": [
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["C", "D", "G"]
   },
   {
     "code": "467",
@@ -11323,13 +8549,7 @@
       "duration": 170.018,
       "introDuration": 12.013
     },
-    "chords": [
-      "A",
-      "B",
-      "C#m",
-      "E",
-      "F#7"
-    ]
+    "chords": ["A", "B", "C#m", "E", "F#7"]
   },
   {
     "code": "468",
@@ -11347,11 +8567,7 @@
       "duration": 93.143,
       "introDuration": 12.031
     },
-    "chords": [
-      "Bb",
-      "C",
-      "F"
-    ]
+    "chords": ["Bb", "C", "F"]
   },
   {
     "code": "469",
@@ -11369,13 +8585,7 @@
       "duration": 202.394,
       "introDuration": 11.461
     },
-    "chords": [
-      "A",
-      "A7",
-      "B7",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "A7", "B7", "D", "E"]
   },
   {
     "code": "470",
@@ -11393,13 +8603,7 @@
       "duration": 121.089,
       "introDuration": 10.508
     },
-    "chords": [
-      "A",
-      "D",
-      "D7",
-      "E",
-      "G"
-    ]
+    "chords": ["A", "D", "D7", "E", "G"]
   },
   {
     "code": "471",
@@ -11417,13 +8621,7 @@
       "duration": 135.024,
       "introDuration": 12.262
     },
-    "chords": [
-      "C",
-      "D",
-      "Dm",
-      "Em",
-      "G"
-    ]
+    "chords": ["C", "D", "Dm", "Em", "G"]
   },
   {
     "code": "472",
@@ -11441,12 +8639,7 @@
       "duration": 160.643,
       "introDuration": 12.044
     },
-    "chords": [
-      "C",
-      "D",
-      "F",
-      "G"
-    ]
+    "chords": ["C", "D", "F", "G"]
   },
   {
     "code": "473",
@@ -11464,11 +8657,7 @@
       "duration": 157.392,
       "introDuration": 11.429
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "474",
@@ -11486,11 +8675,7 @@
       "duration": 153.107,
       "introDuration": 11.438
     },
-    "chords": [
-      "B",
-      "E",
-      "F#"
-    ]
+    "chords": ["B", "E", "F#"]
   },
   {
     "code": "475",
@@ -11508,11 +8693,7 @@
       "duration": 112.038,
       "introDuration": 11.5
     },
-    "chords": [
-      "A",
-      "B",
-      "E"
-    ]
+    "chords": ["A", "B", "E"]
   },
   {
     "code": "476",
@@ -11530,12 +8711,7 @@
       "duration": 93.143,
       "introDuration": 12.006
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7",
-      "F°"
-    ]
+    "chords": ["B", "E", "F#7", "F°"]
   },
   {
     "code": "477",
@@ -11553,12 +8729,7 @@
       "duration": 153.107,
       "introDuration": 11.431
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7",
-      "G#m"
-    ]
+    "chords": ["B", "E", "F#7", "G#m"]
   },
   {
     "code": "478",
@@ -11576,12 +8747,7 @@
       "duration": 165.143,
       "introDuration": 12.039
     },
-    "chords": [
-      "A",
-      "B7",
-      "E",
-      "G°"
-    ]
+    "chords": ["A", "B7", "E", "G°"]
   },
   {
     "code": "479",
@@ -11599,10 +8765,7 @@
       "duration": 123.893,
       "introDuration": 9.037
     },
-    "chords": [
-      "B",
-      "F#7"
-    ]
+    "chords": ["B", "F#7"]
   },
   {
     "code": "480",
@@ -11620,13 +8783,7 @@
       "duration": 145.871,
       "introDuration": 10.441
     },
-    "chords": [
-      "B",
-      "C#",
-      "C#m",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "C#", "C#m", "E", "F#7"]
   },
   {
     "code": "Coro-1",
@@ -11642,14 +8799,7 @@
       "reference": 1,
       "text": "60 - 80"
     },
-    "chords": [
-      "A",
-      "Bm",
-      "D",
-      "E",
-      "E4",
-      "E7"
-    ]
+    "chords": ["A", "Bm", "D", "E", "E4", "E7"]
   },
   {
     "code": "Coro-2",
@@ -11665,13 +8815,7 @@
       "reference": 0.9,
       "text": "54 - 66"
     },
-    "chords": [
-      "A",
-      "Bm",
-      "C",
-      "D",
-      "G"
-    ]
+    "chords": ["A", "Bm", "C", "D", "G"]
   },
   {
     "code": "Coro-3",
@@ -11687,13 +8831,7 @@
       "reference": 0.966667,
       "text": "58 - 76"
     },
-    "chords": [
-      "A7",
-      "C",
-      "D",
-      "D7",
-      "G"
-    ]
+    "chords": ["A7", "C", "D", "D7", "G"]
   },
   {
     "code": "Coro-4",
@@ -11709,11 +8847,7 @@
       "reference": 1,
       "text": "60 - 84"
     },
-    "chords": [
-      "A",
-      "D",
-      "E"
-    ]
+    "chords": ["A", "D", "E"]
   },
   {
     "code": "Coro-5",
@@ -11729,11 +8863,7 @@
       "reference": 1,
       "text": "60 - 76"
     },
-    "chords": [
-      "B",
-      "E",
-      "F#7"
-    ]
+    "chords": ["B", "E", "F#7"]
   },
   {
     "code": "Coro-6",
@@ -11749,11 +8879,6 @@
       "reference": 1,
       "text": "60 - 76"
     },
-    "chords": [
-      "C",
-      "D",
-      "G",
-      "G7"
-    ]
+    "chords": ["C", "D", "G", "G7"]
   }
 ]

@@ -20,7 +20,7 @@ export type Preferences = {
 const DEFAULT_PREFERENCES: Preferences = {
   fontSize: Platform.OS === "web" ? 30 : 22,
   themeName: "system",
-  favoriteChords: [],
+  favoriteChords: ["A", "A7", "Am", "C", "D", "D7", "Dm", "E", "E7", "Em", "G", "B7"],
   favoriteHymns: [],
   flaggedHymns: [],
   showAutoScroll: true,
