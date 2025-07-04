@@ -10,7 +10,8 @@
     "check-apk": "adb logcat | findstr expo",
     "extract-apk": "apkanalyzer contents print-to-proto",
     "encrypt-hymns": "node encrypt-hymns.js encrypt",
-    "decrypt-hymns": "node encrypt-hymns.js decrypt"
+    "decrypt-hymns": "node encrypt-hymns.js decrypt",
+    "eas-build-post-install": "node eas-post-install.js"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
