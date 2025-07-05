@@ -40,7 +40,8 @@
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.10.0",
     "react-native-web": "^0.20.0",
-    "react-redux": "^9.2.0"
+    "react-redux": "^9.2.0",
+    "expo-keep-awake": "~14.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

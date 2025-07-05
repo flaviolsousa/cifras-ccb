@@ -21,6 +21,7 @@ import StyledIntroductionText from "../components/StyledIntroductionText";
 import { usePreferences } from "../hooks/usePreferences";
 import HymnDetailToolbar from "../components/HymnDetailToolbar";
 import HymnDetailMenu from "../components/HymnDetailMenu";
+import { useKeepAwake } from "expo-keep-awake";
 
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
@@ -29,6 +30,8 @@ function cleanChordName(chord: string): string {
 }
 
 const HymnDetails = () => {
+  useKeepAwake();
+
   const theme = useTheme();
   const insets = useSafeAreaInsets();
   const { preferences, savePreferences } = usePreferences();
