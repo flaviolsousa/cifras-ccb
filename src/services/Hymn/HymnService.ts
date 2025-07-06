@@ -115,6 +115,7 @@ class HymnService {
       },
       score: {
         ...hymn.score,
+        introduction: hymn.score.introduction?.map((chord) => "" + transpose(chord).fromKey(hymn.tone.selected).toKey(newTone)),
         stanzas: hymn.score.stanzas.map((stanza) => ({
           ...stanza,
           text: stanza.text?.map((line) => transposeChordsLine(line, hymn.tone.selected, newTone)),
