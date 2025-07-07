@@ -54,7 +54,7 @@ const Preferences = () => {
     <View style={{ ...theme, flex: 1 }}>
       <Appbar.Header elevated={true}>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
-        <Appbar.Content title="Preferences" />
+        <Appbar.Content title="Preferencias" />
       </Appbar.Header>
       <View style={{ ...styles.content, flex: 1 }}>
         <ScrollView>

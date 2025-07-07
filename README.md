@@ -1,4 +1,4 @@
-# violao-ccb
+# cifras-ccb
 
 ## Tasks
 
@@ -91,15 +91,15 @@ eas build --platform android --profile preview
 
 ```sh
 npm install -g expo-cli
-npx create-expo-app violao-ccb --template expo-template-blank-typescript
+npx create-expo-app cifras-ccb --template expo-template-blank-typescript
 
-cd violao-ccb
+cd cifras-ccb
 npm i
 
 npx expo install react-dom react-native-web @expo/metro-runtime
 npx expo install --fix
 
-npx expo install @reduxjs/toolkit react-redux  
+npx expo install @reduxjs/toolkit react-redux
 
 npx expo install @react-navigation/native
 # npx expo install react-native-screens react-native-safe-area-context
@@ -107,7 +107,7 @@ npx expo install @react-navigation/native-stack
 
 npx expo install @react-navigation/drawer
 npx expo install react-native-paper
-npx expo install eslint -- --save-dev 
+npx expo install eslint -- --save-dev
 npx expo install expo-font
 npx expo install SplashScreen
 

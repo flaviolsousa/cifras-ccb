@@ -11,8 +11,8 @@ interface HymnAudioPlayerProps {
   onPlay?: () => void;
 }
 
-//const AUDIO_BASE_URL = "https://github.com/flaviolsousa/violao-ccb-assets/raw/refs/heads/main/mp3/";
-const AUDIO_BASE_URL = "https://flaviolsousa.github.io/violao-ccb-assets/mp3/";
+//const AUDIO_BASE_URL = "https://github.com/flaviolsousa/cifras-ccb-assets/raw/refs/heads/main/mp3/";
+const AUDIO_BASE_URL = "https://flaviolsousa.github.io/cifras-ccb-assets/mp3/";
 
 const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {} }) => {
   const theme = useTheme();

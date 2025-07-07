@@ -1,6 +1,6 @@
 // src/screens/About.tsx
 import React, { useRef } from "react";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View, Linking, TouchableOpacity } from "react-native";
 import { useTheme, Appbar } from "react-native-paper";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 
@@ -52,6 +52,20 @@ const About = () => {
         <Text style={[styles.paragraph, { color: theme.colors.onBackground }]}>
           Espero que este app te ajude tanto quanto tem me ajudado. Bons hinos, bons estudos… e que Deus te abençoe!
         </Text>
+
+        {/* Contatos Section */}
+        <View style={styles.contactsSection}>
+          <Text style={[styles.contactsTitle, { color: theme.colors.onBackground }]}>Contatos</Text>
+          <TouchableOpacity onPress={() => Linking.openURL("mailto:flasoft@gmail.com")}>
+            <Text style={[styles.contactItem, { color: theme.colors.primary }]}>Email: flasoft@gmail.com</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => Linking.openURL("https://github.com/flaviolsousa")}>
+            <Text style={[styles.contactItem, { color: theme.colors.primary }]}>GitHub: github.com/flaviolsousa</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => Linking.openURL("https://www.linkedin.com/in/flavio-sousa-62782b13/")}>
+            <Text style={[styles.contactItem, { color: theme.colors.primary }]}>LinkedIn: flavio-sousa-62782b13</Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </View>
   );
@@ -71,6 +85,23 @@ const styles = StyleSheet.create({
     marginBottom: 40,
     textAlign: "justify",
     textAlignVertical: "center",
+  },
+  contactsSection: {
+    marginTop: 32,
+    borderTopWidth: 1,
+    borderTopColor: "#ccc",
+    paddingTop: 24,
+  },
+  contactsTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 12,
+    textAlign: "left",
+  },
+  contactItem: {
+    fontSize: 16,
+    marginBottom: 8,
+    textDecorationLine: "underline",
   },
 });
 

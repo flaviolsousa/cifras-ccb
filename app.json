@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "violao-ccb",
-    "slug": "violao-ccb",
+    "name": "cifras-ccb",
+    "slug": "cifras-ccb",
     "version": "1.0.0",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -17,7 +17,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.flaviolsousa.violaoccb",
+      "package": "com.flaviolsousa.cifrasccb",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"

@@ -30,14 +30,14 @@ function DrawerContent(props: Props) {
           <Drawer.Section>
             <DrawerItem
               icon={({ color, size }) => <MaterialCommunityIcons name="tune" color={theme.colors.secondary} size={size} />}
-              label="Preferences"
+              label="Preferencias"
               onPress={() => {
                 props.navigation.navigate("Preferences");
               }}
             />
             <DrawerItem
               icon={({ color, size }) => <MaterialCommunityIcons name="information" color={theme.colors.secondary} size={size} />}
-              label="Sobre o App"
+              label="Sobre o Aplicativo"
               onPress={() => {
                 props.navigation.navigate("About");
               }}
