@@ -2,6 +2,7 @@
   "code": "094",
   "version": "v3",
   "title": "Quem sustenta a nossa vida",
+  "level": 5,
   "tone": {
     "original": "C",
     "selected": "C"
@@ -14,7 +15,7 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Quem sus[C]tenta a nossa vida é a Pa[G7]lavra do Senhor,",
+          "Quem sus[C]tenta a nossa vida é a Pa[Dm]lavra do Sen[G]hor,",
           "Que anima, edifica e nos traz consola[C]ção,",
           "E que une a alma humilde ao a[C7]mor do Reden[F]tor;",
           "É a Palavra pode[C]rosa que faz [G]crer na salva[C]ção."
@@ -23,17 +24,17 @@
       {
         "type": "chorus",
         "text": [
-          "A Pa[G7]lavra do bom [C]Criador é a [G7]Guia do re[C]mido",
-          "Na jor[G7]nada a ca[C]minho das mo[D7]radas do Fi[G]el;",
-          "É Pa[C]lavra de vir[F]tude, que le[G]vanta o aba[C]tido;",
-          "É Espada de dois [F]gumes, é o [G]Verbo, Emanu[C]el."
+          "A Pa[Dm]lavra [G]do bom Cria[C]dor é a [Dm]Guia [G7]do remi[C]do",
+          "Na jor[Dm]nada [G]a camin[C]ho das mo[D7]radas [D7|↓]do [G]Fiel;",
+          "[G|↓]É Pa[C]lavra de [C|↓]vir - [F]tude, [F|↓]que le[G7]vanta [G7|↓]o aba[C]tido;",
+          "[G7|↓]É Es[C]pada [C|↓]de dois [F]gumes, [F|↓]é o [C]Verbo, E[G7]manu[C]el."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Procla[C]memos que Jesus não tarda[G7]rá em retornar,",
+          "Procla[C]memos que Jesus não tarda[Dm]rá em retor[G]nar,",
           "Vamos sempre obedecê-Lo e de coração O a[C]mar;",
           "Estejamos vigilantes, espe[C7]rando o Seu vol[F]tar,",
           "Pois em breve a trom[C]beta todos [G]vamos escu[C]tar."
@@ -47,7 +48,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Não se[C]jamos ociosos em ser[G7]vir o grande Rei,",
+          "Não se[C]jamos ociosos em ser[Dm]vir o grande [G]Rei,",
           "Mas sejamos fervorosos para sempre O aten[C]der;",
           "Com as divinais virtudes cumpri[C7]remos Sua [F]lei,",
           "Subiremos para a g[C]lória, lar do O[G]nipotente [C]Ser."

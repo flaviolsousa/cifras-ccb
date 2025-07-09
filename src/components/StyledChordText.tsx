@@ -38,7 +38,17 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
               </Text>
               {showNotes && notes && (
                 <>
-                  <Text style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>{notes}</Text>
+                  {notes.split("").map((char, i) =>
+                    char === " " ? (
+                      <Text key={"note-space-" + i} style={{ color: "transparent", fontSize: fontSize / 2 }}>
+                        _
+                      </Text>
+                    ) : (
+                      <Text key={"note-char-" + i} style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>
+                        {char}
+                      </Text>
+                    ),
+                  )}
                   {notes.length % 2 == 1 && <Text style={{ fontSize: fontSize / 2 }}>_</Text>}
                 </>
               )}
@@ -46,7 +56,7 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
           );
           lastChordLength = chord.length + (notes && showNotes ? Math.ceil(notes.length / 2) : 0);
         } else {
-          comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replaceAll("‿", "__").replace(/[^ ]/g, "_")}</Text>;
+          comp = <Text key={`text-${index}-${part}`}>{part.substring(lastChordLength).replace(/‿/g, "__").replace(/[^ ]/g, "_")}</Text>;
         }
         return comp;
       })}

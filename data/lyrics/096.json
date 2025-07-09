@@ -2,6 +2,7 @@
   "code": "096",
   "version": "v3",
   "title": "Vinde, adoremos a Deus",
+  "level": 5,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -14,39 +15,39 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Vinde, ado[C]re-[D]mos a D[G]eus,",
-          "Santo e su[D]blime Rei [G]dos c[D]éus;",
+          "[G]Vinde, ado[C|↓]re-[D|↓↑↓]mos a D[G]eus,",
+          "Santo e su[D|↓↑↓]blime Rei [G|↓]dos c[D]éus;",
           "[G]Vinde com [D]fé;",
           "O Deus que [G]dá saber,",
-          "[D]Grandioso [G]em po[Em]der,",
-          "Que em [G]bre[D]ve i[G]remos ver,",
-          "[C]E - [D]terno [G]é."
+          "[D]Grandioso [G|↓↑↓]em po[Em|↓]der,",
+          "[G]Que em breve i[G]remos ver,",
+          "[C|↓]E - [D|↓↑↓]terno [G]é."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Vinde ser[C]vir [D]ao Sen[G]hor",
-          "Que nos man[D]dou o Re[G]den[D]tor;",
+          "[G]Vinde ser[C|↓]vir [D|↓↑↓]ao Sen[G]hor",
+          "Que nos man[D|↓↑↓]dou o Re[G|↓]den[D]tor;",
           "[G]Cristo Je[D]sus,",
           "Santo Pas[G]tor, veraz,",
-          "[D]Rei de jus[G]tiça e [Em]paz,",
-          "Que às [G]nos[D]sas [G]almas traz",
-          "[C]Vi-[D]da e l[G]uz."
+          "[D]Rei de jus[G|↓↑↓]tiça e [Em|↓]paz,",
+          "[G]Que às nossas [G]almas traz",
+          "[C|↓]Vi-[D|↓↑↓]da e l[G]uz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Deus, Pai e[C]ter[D]no e fi[G]el,",
-          "Vos farta[D]rá de lei[G]te e [D]mel",
+          "[G]Deus, Pai e[C|↓]ter[D|↓↑↓]no e fi[G]el,",
+          "Vos farta[D|↓↑↓]rá de lei[G|↓]te e [D]mel",
           "[G]E vive[D]reis",
           "Vida de [G]paz com Deus,",
-          "[D]Com os re[G]midos [Em]Seus",
-          "E, [G]jun[D]tos, [G]lá nos céus",
-          "[C]E - [D]xulta[G]reis."
+          "[D]Com os re[G|↓↑↓]midos [Em|↓]Seus",
+          "[G]E, juntos, [G]lá nos céus",
+          "[C|↓]E - [D|↓↑↓]xulta[G]reis."
         ]
       }
     ]

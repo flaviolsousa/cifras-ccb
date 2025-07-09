@@ -29,7 +29,7 @@ const HymnIntroNotes: React.FC<HymnIntroNotesProps> = ({ hymn, contentWidth, vis
 
   if (!visible || imageError) return null;
 
-  const imageUrl = `https://flaviolsousa.github.io/violao-ccb-assets/png-intro/${hymn.code}.png`;
+  const imageUrl = `https://flaviolsousa.github.io/cifras-ccb-assets/png-intro/${hymn.code}.png`;
 
   return (
     <>

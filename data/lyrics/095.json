@@ -2,6 +2,7 @@
   "code": "095",
   "version": "v3",
   "title": "\"Vinde, ó benditos de Meu Pai\"",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -14,9 +15,9 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "“Vinde, [G]ó ben[D]ditos de Meu [G]Pai”, ouvi[C]rão de C[G]risto, o Reden[D]tor,",
-          "Todos [G]os que [D]amam ao bom D[G]eus e entra[C]rão no [D]reino de a[G]mor.",
-          "Oh! [C]Que esplendor! Que [G]consolação nos a[D]guarda no por[G]vir:",
+          "“[D|↓]Vinde, [G]ó ben[D]ditos [D7]de Meu [G]Pai”, ouvi[C]rão de C[G]risto, o Reden[D]tor,",
+          "Todos [G]os que [D]amam ao bom D[Em]eus e entra[C]rão no [D]reino de a[G]mor.",
+          "Oh! [C]Que esplendor! Que [G]consolação nos a[D]guarda [D7]no por[G]vir:",
           "[D]Juntos do e[G]terno Criador, os bens celestes nós i[D]remos fru[G]ir!"
         ]
       },
@@ -24,9 +25,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Majes[G]toso, [D]Cristo volta[G]rá com po[C]der e g[G]rande esplen[D]dor;",
-          "Manda[G]rá os [D]anjos recol[G]her os fi[C]éis ao [D]reino de a[G]mor;",
-          "No [C]céu surgirá com g[G]rande sinal, todo [D]o olho O ve[G]rá;",
+          "[D|↓]Majes[G]toso, [D]Cristo [D7]volta[G]rá com po[C]der e g[G]rande esplen[D]dor;",
+          "Manda[G]rá os [D]anjos recol[Em]her os fi[C]éis ao [D]reino de a[G]mor;",
+          "No [C]céu surgirá com g[G]rande sinal, todo [D]o olho [D7]O ve[G]rá;",
           "[D]Grande espanto [G]para o pecador, mas grande glória para o [D]justo se[G]rá."
         ]
       },
@@ -34,9 +35,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Para o [G]alto o[D]lhemos, ó fi[G]éis, perto es[C]tá a [G]nossa reden[D]ção;",
-          "Conser[G]vemos [D]a paz e o a[G]mor, cami[C]nhemos [D]em retid[G]ão;",
-          "A [C]vida eternal, com g[G]lória no céu, Jesus [D]Cristo nos da[G]rá;",
+          "[D|↓]Para o [G]alto o[D]lhemos, ó [D7]fi - [G]éis, perto es[C]tá a [G]nossa reden[D]ção;",
+          "Conser[G]vemos [D]a paz e o a[Em]mor, cami[C]nhemos [D]em retid[G]ão;",
+          "A [C]vida eternal, com g[G]lória no céu, Jesus [D]Cristo [D7]nos da[G]rá;",
           "[D]Deus enxuga[G]rá as lágrimas e toda a tribula[D]ção cessa[G]rá."
         ]
       }

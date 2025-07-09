@@ -31,7 +31,7 @@ export const chordDictionary: ChordDictionary = {
   "C5+": { frets: [-1, 3, 2, 1, 1, 0], fingers: [0, 4, 3, 1, 2, 0] },
   C7: { frets: [0, 3, 2, 3, 1, 0], fingers: [0, 3, 2, 4, 1, 0] },
   C9: { frets: [3, 3, 2, 3, 3, 3], fingers: [2, 2, 1, 3, 3, 4] },
-  Cm: { frets: [-1, 3, 1, 0, 1, -1], fingers: [0, 3, 1, 0, 2, 0] },
+  Cm: { frets: [-1, 3, 5, 5, 4, 3], fingers: [0, 1, 3, 4, 2, 1] },
   "C°": { frets: [-1, 3, 4, 2, 4, 2], fingers: [0, 2, 3, 1, 4, 1] },
 
   // Chords of D

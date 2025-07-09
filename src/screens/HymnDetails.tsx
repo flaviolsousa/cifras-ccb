@@ -26,7 +26,7 @@ import { useKeepAwake } from "expo-keep-awake";
 type HymnDetailsRouteProp = RouteProp<RootStackParamList, "HymnDetails">;
 
 function cleanChordName(chord: string): string {
-  return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
+  return chord.replace(/[.]/g, "").replace(/\|.*/g, "");
 }
 
 const HymnDetails = () => {

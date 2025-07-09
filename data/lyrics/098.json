@@ -2,11 +2,12 @@
   "code": "098",
   "version": "v3",
   "title": "Cristo Jesus tudo pode",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
-  "rhythm": "Guarânia",
+  "rhythm": "Valsa",
   "score": {
     "introduction": ["G", "D7", "G"],
     "stanzas": [
@@ -25,7 +26,7 @@
         "text": [
           "[G]Cristo Jes[C]us tudo [G]pode;",
           "[D7]Conosco está, [G]bênçãos dará;",
-          "Ele do c[C]éu nos so[G]cor[G7]re",
+          "Ele do c[C]éu nos so[G]cor[G7|•••]re",
           "[C]E nada [D7]nos falta[G]rá."
         ]
       },

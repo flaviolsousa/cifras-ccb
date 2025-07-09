@@ -2,6 +2,7 @@
   "code": "091",
   "version": "v3",
   "title": "No esconderijo do Onipotente",
+  "level": 3,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -14,8 +15,8 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]No esconderijo do Onipo[G]tente,",
-          "Sempre do mal preservado esta[C]rás",
+          "[C]No esconderijo do Onipo[Dm]tente,",
+          "[G]Sempre do mal preservado esta[C]rás",
           "E, sobrevindo a [F]prova ar[C]dente,",
           "[F]Com Sua [C]sombra co[G]berto se[C]rás."
         ]
@@ -24,17 +25,17 @@
         "type": "chorus",
         "text": [
           "[C]O Criador [G]te esconde[C]rá",
-          "Em Seu seguro a[G]brigo;",
+          "Em Seu seguro a[G7]brigo;",
           "[C]Ao teu redor Se [F]acampa[C]rá,",
-          "[F]Não teme[C]rás o ini[G]mi-[C]go."
+          "[F]Não teme[C]rás o ini[G7]mi-[C]go."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Florescerás como toda a pal[G]meira",
-          "E, como o cedro, assim cresce[C]rás;",
+          "[C]Florescerás como toda a pal[Dm]meira",
+          "[G]E, como o cedro, assim cresce[C]rás;",
           "Nada embargar pode a [F]tua ca[C]rreira",
           "[F]E desta [C]graça ja[G]mais cai[C]rás."
         ]
@@ -47,8 +48,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Não temerás a braveza dos [G]mares",
-          "E nem, da noite, espanto te[C]rás;",
+          "[C]Não temerás a braveza dos [Dm]mares",
+          "[G]E nem, da noite, espanto te[C]rás;",
           "Se do escudo da [F]fé te ar[C]mares,",
           "[F]Teu ini[C]migo por [G]terra ve[C]rás."
         ]

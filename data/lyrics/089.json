@@ -2,6 +2,7 @@
   "code": "089",
   "version": "v3",
   "title": "Oh! Grande Deus",
+  "level": 3,
   "tone": {
     "original": "Bb",
     "selected": "A"
@@ -14,30 +15,30 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Oh! Grande Deus, se [F#m]cumprem [E]as pro[A]messas",
-          "Que [E]Tu tens [F#m]feito no Se[E]nhor [B7]Je - [E]sus;",
+          "[A]Oh! Grande Deus, se [F#m]cumprem as pro[A]messas",
+          "[A]Que Tu tens [F#m]feito no Se[B7]nhor Je[E]sus;",
           "Pelos Teus si[A]nais, já [E]vemos que Te a[A]pressas",
-          "Em mostrar a [E7]todos Tua eterna [A]luz."
+          "[D]Em mostrar a [A]todos Tua e[E7]terna [A]luz."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Pai eternal, do [F#m]céu nos [E]tens man[A]dado",
-          "Teu [E]santo [F#m]Filho, o E[E]ma - [B7]nu - [E]el,",
+          "[A]Pai eternal, do [F#m]céu nos tens man[A]dado",
+          "[A]Teu santo [F#m]Filho, o E[B7]manu[E]el,",
           "Que, da escravi[A]dão, nos [E]tem já liber[A]tado",
-          "E nos fez Seu [E7]povo santo e fi[A]el."
+          "[D]E nos fez Seu [A]povo santo [E7]e fi[A]el."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Deus Criador, tam[F#m]bém nos [E]envi[A]aste",
-          "Teu [E]Santo Es[F#m]pírito Con[E]so – [B7]la - [E]dor;",
+          "[A]Deus Criador, tam[F#m]bém nos envi[A]aste",
+          "[A]Teu Santo Es[F#m]pírito Con[B7]sola[E]dor;",
           "Para a reden[A]ção e[E]terna nos se[A]laste",
-          "E, por esse [E7]Dom, sentimos Teu a[A]mor."
+          "[D]E, por esse [A]Dom, sentimos [E7]Teu a[A]mor."
         ]
       }
     ]
