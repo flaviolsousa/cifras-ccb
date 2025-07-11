@@ -3,7 +3,7 @@ import * as FileSystem from "expo-file-system";
 import { Platform } from "react-native";
 import { Theme } from "../config/values";
 
-const PREFERENCES_FILE = `${FileSystem.documentDirectory}violao-ccb-preferences.json`;
+const PREFERENCES_FILE = `${FileSystem.documentDirectory}cifras-ccb-preferences.json`;
 
 export type Preferences = {
   fontSize: number;

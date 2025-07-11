@@ -9,7 +9,7 @@ const Utf8 = require("crypto-js/enc-utf8");
 
 // Encryption configuration
 const BASE_KEY = "4cbb0d-89b-540ff-5602a520e0-610-9dcb";
-const extraKey = "flaViolao-ccb3ncrypT";
+const extraKey = "flacifras-ccb3ncrypT";
 const combined = BASE_KEY + extraKey;
 
 /**

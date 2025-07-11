@@ -12,7 +12,10 @@
       "backgroundColor": "#ffffff",
       "hideExponentText": true
     },
-    "platforms": ["android", "web"],
+    "platforms": [
+      "android",
+      "web"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,17 +26,26 @@
         "backgroundColor": "#ffffff"
       },
       "softwareKeyboardLayoutMode": "pan",
-      "permissions": ["INTERNET"]
+      "permissions": [
+        "INTERNET",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-font", "expo-audio"],
+    "plugins": [
+      "expo-font",
+      "expo-audio"
+    ],
     "extra": {
       "eas": {
-        "projectId": "33d5c811-66f7-4be3-9e57-802dadd2673e"
+        "projectId": "db3224d2-67ef-4bab-8c12-97b2ee579938"
       }
     },
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
