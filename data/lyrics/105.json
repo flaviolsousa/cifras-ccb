@@ -2,22 +2,23 @@
   "code": "105",
   "version": "v3",
   "title": "Volta ao teu lar Paternal!",
+  "level": 3,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["A", "E7", "A", "E7", "A"],
+    "introduction": ["A", "E7", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[A]Ó irmão que deixaste a casa do Senhor,",
-          "[E7]Não mais andes longe [A]do teu Pai celestial;",
+          "[E7]Não mais andes longe [A]do teu [D]Pai celes[A]tial;",
           "Ele quer perdoar-te, por Seu sublime amor;",
-          "[E7]Volta ao teu lar Pater[A]nal![A]..."
+          "[E7]Volta ao teu lar Pater[A]nal![D]...[A]..."
         ]
       },
       {
@@ -25,9 +26,9 @@
         "code": "2",
         "text": [
           "[A]Ao lar que desprezaste, oh! volta, sem tardar,",
-          "[E7]Pois só nele encontras p[A]az e consolação;",
+          "[E7]Pois só nele encontras p[A]az e [D]consola[A]ção;",
           "Tuas culpas confessa, sem nada ocultar,",
-          "[E7]Grandioso é o Deus do perd[A]ão.[A]..."
+          "[E7]Grandioso é o Deus do perd[A]ão.[D]...[A]..."
         ]
       },
       {
@@ -35,14 +36,19 @@
         "code": "3",
         "text": [
           "[A]O bom Pai te espera e quer te acolher,",
-          "[E7]E, nos céus, os anjos [A]se regozijarão;",
+          "[E7]E, nos céus, os anjos [A]se re[D]gozija[A]rão;",
           "De virtude e luz o Senhor te quer prover",
-          "[E7]E, ao fim, te dar salvaç[A]ão."
+          "[E7]E, ao fim, te dar salvaç[A]ão.[D]...[A]..."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[A]Vai, ó pródigo, vai", "Do [E7]pão do céu te sac[A]iar;", "Deus te quer perdo[D]ar", "[Eb°]E t[A]eus[E7] pecados la[A]var."]
+        "text": [
+          "[A]Vai, ó pródigo, vai",
+          "Do [E7]pão do céu te sac[A]iar;",
+          "Deus te q[A7]uer perdo[D]ar",
+          "[A]E t[E7]eus pecados la[A]var[D]...[A]..."
+        ]
       }
     ]
   }

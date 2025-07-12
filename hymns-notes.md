@@ -41,7 +41,7 @@ node encrypt-hymns.js encrypt 002.json --override
 
 # Completos:
 
-- 1-90
+- 1-107
 - 273
 
 Revisar com violão 89

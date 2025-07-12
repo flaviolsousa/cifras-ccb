@@ -2,51 +2,52 @@
   "code": "102",
   "version": "v3",
   "title": "Sinto a voz divina do meu fiel Pastor",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "G", "A7", "D"],
+    "introduction": ["D", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "S[D]into a voz tão m[G]eiga [A7]de Cristo, o Redent[D]or,",
-          "[Bm7]Que sempre me con[Em]sola [A7]com Seu sublime a[D]mor;",
-          "A pastos verdej[G]antes [A7]sempre me guia[D]rá;",
-          "[Bm7]Com seu calado [Em]santo [A7]me apascenta[D]rá."
+          "[D]Sinto a voz tão m[Em]eiga [A7]de Cristo, o Redent[D]or,",
+          "[D]Que sempre me con[Em]sola [A7]com Seu sublime a[D]mor;",
+          "[D]A pastos verdej[Em]antes [A7]sempre me guia[D]rá;",
+          "[D]Com seu cajado [Em]santo [A7]me apascenta[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Amigo Seu, me c[G]hama, [A7]meu Salvador Jes[D]us;",
-          "[Bm7]A Seu falar su[Em]blime [A7]dá compreensão e l[D]uz;",
-          "Quero, aos pés do M[G]estre, [A7]continuamente es[D]tar;",
-          "[Bm7]Quero, nos Seus con[Em]selhos, [A7]sempre me delei[D]tar."
+          "[D]Amigo Seu, me c[Em]hama, [A7]meu Salvador Jes[D]us;",
+          "[D]A Seu falar su[Em]blime [A7]dá compreensão e l[D]uz;",
+          "[D]Quero, aos pés do M[Em]estre, [A7]continuamente es[D]tar;",
+          "[D]Quero, nos Seus con[Em]selhos, [A7]sempre me delei[D]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]O meu divino M[G]estre [A7]fala com mansid[D]ão",
-          "[Bm7]E traz à minha [Em]alma [A7]grande consolaç[D]ão;",
-          "Em todas as ang[G]ústias, [A7]na prova ou na [D]dor,",
-          "[Bm7]Dentro de mim eu [Em]sinto [A7]a voz do meu Sen[D]hor."
+          "[D]O meu divino M[Em]estre [A7]fala com mansid[D]ão",
+          "[D]E traz à minha [Em]alma [A7]grande consolaç[D]ão;",
+          "[D]Em todas as ang[Em]ústias, [A7]na prova ou na [D]dor,",
+          "[D]Dentro de mim eu [Em]sinto [A7]a voz do meu Sen[D]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Sinto a voz di[Em]vina [A7]do meu fiel Pas[D]tor,",
-          "[Bm7]Que sempre me en[Em]sina [A7]com infinito a[D]mor;",
-          "A Sua face um [Em]dia [A7]na glória eu ver[D]ei;",
-          "[Bm7]Na bem-aventu[Em]rança [A7]regozijar-me-[D]ei."
+          "[D]Sinto a [D]voz di[Em|x2]vina [A7]do meu fiel Pas[D]tor,",
+          "[D]Que sempre [B7]me en[Em|x2]sina [A7]com infinito a[D]mor;",
+          "[D]A Sua [D]face um [Em|x2]dia [A7]na glória eu ver[D]ei;",
+          "[D]Na bem-a[B7]ventu[Em|x2]rança [A7]regozijar-me-[D]ei."
         ]
       }
     ]
