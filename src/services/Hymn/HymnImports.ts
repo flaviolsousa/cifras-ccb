@@ -490,8 +490,20 @@ const hymnImports: { [key: string]: () => Promise<any> } = {
   "Coro-6": () => import("../../../data/lyrics/Coro-6.json"),
 };
 
+const frequenciesImports: { [key: string]: () => Promise<any> } = {
+  "001": () => import("../../../data/lyrics/frequencies/001.json"),
+  "002": () => import("../../../data/lyrics/frequencies/002.json"),
+  "003": () => import("../../../data/lyrics/frequencies/003.json"),
+};
 export async function getHymnModel(hymnNumber: string): Promise<HymnModel> {
   const loader = hymnImports[hymnNumber];
+  if (!loader) throw new Error(`Hino não encontrado: ${hymnNumber}`);
+  const module = await loader();
+  return module.default;
+}
+
+export async function getHymnFrequencies(hymnNumber: string): Promise<number[]> {
+  const loader = frequenciesImports[hymnNumber];
   if (!loader) throw new Error(`Hino não encontrado: ${hymnNumber}`);
   const module = await loader();
   return module.default;

@@ -1,20 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import { View, StyleSheet, Animated, AppState } from "react-native";
+import HymnAudioPlayerBar from "./HymnAudioPlayerBar";
 import { FAB, useTheme, Text } from "react-native-paper";
 import { createAudioPlayer } from "expo-audio";
 import type { AudioPlayer } from "expo-audio/build/AudioModule.types";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { getHymnFrequencies } from "../services/Hymn/HymnImports";
 
 interface HymnAudioPlayerProps {
   hymnCode: string;
   visible?: boolean;
   onPlay?: () => void;
+  hymn: any;
 }
 
-//const AUDIO_BASE_URL = "https://github.com/flaviolsousa/cifras-ccb-assets/raw/refs/heads/main/mp3/";
 const AUDIO_BASE_URL = "https://flaviolsousa.github.io/cifras-ccb-assets/mp3/";
 
-const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {} }) => {
+const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {}, hymn }) => {
   const theme = useTheme();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showRestart, setShowRestart] = useState(false);
@@ -22,6 +23,54 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
   const playerRef = useRef<AudioPlayer | null>(null);
 
   const url = `${AUDIO_BASE_URL}${hymnCode}.mp3`;
+
+  // Frequencies: carregamento assíncrono otimizado
+  const [frequencies, setFrequencies] = useState<number[]>([]);
+  useEffect(() => {
+    let isMounted = true;
+
+    // Delay o carregamento das frequências para não bloquear o áudio
+    const loadFrequencies = async () => {
+      try {
+        // Adiciona um pequeno delay para permitir que o player seja criado primeiro
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+
+        if (!isMounted) return;
+
+        const mod = await getHymnFrequencies(hymnCode);
+
+        if (isMounted && Array.isArray(mod)) {
+          // Processa as frequências em chunks menores para não bloquear a UI
+          const chunkSize = 1000;
+          const chunks: number[][] = [];
+          for (let i = 0; i < mod.length; i += chunkSize) {
+            chunks.push(mod.slice(i, i + chunkSize));
+          }
+
+          // Processa um chunk por vez com intervalos
+          let processedFrequencies: number[] = [];
+          for (const chunk of chunks) {
+            processedFrequencies = [...processedFrequencies, ...chunk];
+            if (isMounted) {
+              setFrequencies([...processedFrequencies]);
+              // Pequeno delay entre chunks para não bloquear a UI
+              await new Promise((resolve) => setTimeout(resolve, 10));
+            }
+          }
+        }
+      } catch (error) {
+        console.log("Frequencies not available for hymn", hymnCode);
+        if (isMounted) setFrequencies([]);
+      }
+    };
+
+    // Executa em uma microtask para não bloquear a renderização inicial
+    Promise.resolve().then(loadFrequencies);
+
+    return () => {
+      isMounted = false;
+    };
+  }, [hymnCode]);
 
   // Limpar player ao desmontar
   useEffect(() => {
@@ -49,17 +98,22 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
 
   const playAudio = async () => {
     setLoading(true);
+
     try {
       if (playerRef.current) {
         playerRef.current.play();
       } else {
         const player = createAudioPlayer(url);
+
         playerRef.current = player;
         player.play();
+
         player.addListener("playbackStatusUpdate", (status: any) => {
           if (status.isLoaded && status.didJustFinish) {
             setIsPlaying(false);
-            setShowRestart(true);
+            setShowRestart(false);
+            player.seekTo(0);
+            pauseAudio();
           }
         });
       }
@@ -79,6 +133,7 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       playerRef.current.pause();
       setShowRestart(false);
       setIsPlaying(false);
+      setLoopAlert(null);
     }
   };
 
@@ -159,13 +214,16 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     if (loopState !== 2 || loopStart === null || loopEnd === null) return;
     const player = playerRef.current;
     const listener = (status: any) => {
+      if (status.isLoaded && status.currentTime < loopStart) {
+        player.seekTo(loopStart);
+      }
       if (status.isLoaded && status.currentTime >= loopEnd) {
         player.seekTo(loopStart);
       }
     };
     player.addListener("playbackStatusUpdate", listener);
     return () => {
-      player.removeAllListeners && player.removeAllListeners("playbackStatusUpdate");
+      player.removeListener && player.removeListener("playbackStatusUpdate", listener);
     };
   }, [loopState, loopStart, loopEnd]);
 
@@ -175,7 +233,9 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       if (playerRef.current) {
         playerRef.current.pause();
         playerRef.current.seekTo(0);
+        setShowRestart(false);
         setIsPlaying(false);
+        setLoopAlert(null);
       }
     };
 
@@ -195,7 +255,10 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       // When unmounting, just stop, don't restart
       if (playerRef.current) {
         playerRef.current.pause();
+
+        setShowRestart(false);
         setIsPlaying(false);
+        setLoopAlert(null);
       }
       if (appStateListener && appStateListener.remove) appStateListener.remove();
     };
@@ -207,7 +270,10 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       if (state === "active" && playerRef.current) {
         // Ensure it doesn't play automatically when returning
         playerRef.current.pause();
+
+        setShowRestart(false);
         setIsPlaying(false);
+        setLoopAlert(null);
       }
     };
     let appStateListener: any;
@@ -219,15 +285,44 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
     };
   }, []);
 
+  // Posição atual do áudio
+  const [currentTime, setCurrentTime] = useState(0);
+  useEffect(() => {
+    let interval: any;
+    if (isPlaying && playerRef.current) {
+      interval = setInterval(() => {
+        const status = playerRef.current?.currentStatus;
+        if (status && status.isLoaded) setCurrentTime(status.currentTime || 0);
+      }, 200);
+    } else {
+      setCurrentTime(0);
+    }
+    return () => interval && clearInterval(interval);
+  }, [isPlaying, hymnCode]);
+
+  // Função para seek
+  const handleSeek = useCallback((time: number) => {
+    if (playerRef.current) {
+      playerRef.current.seekTo(time);
+    }
+  }, []);
+
   if (!visible) return null;
+
+  const [shouldShowBar, setShouldShowBar] = useState(false);
+
+  useEffect(() => {
+    setShouldShowBar(frequencies.length > 0);
+  }, [frequencies]);
 
   return (
     <>
+      {/* Sempre mostrar os controles de áudio */}
       <Animated.View
         style={[
           styles.fabContainer,
           {
-            bottom: 24,
+            bottom: 8,
             left: 24,
             right: undefined,
           },
@@ -279,26 +374,24 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           />
         )}
       </Animated.View>
+
+      {/* Barra de progresso e espectrograma - só mostra se tiver frequências E duração */}
+      {shouldShowBar && showRestart && (
+        <View style={{ flex: 1, paddingHorizontal: 16 }}>
+          <HymnAudioPlayerBar
+            frequencies={frequencies}
+            duration={hymn?.time?.duration}
+            currentTime={currentTime}
+            onSeek={handleSeek}
+            loopStart={loopStart}
+            loopEnd={loopEnd}
+          />
+        </View>
+      )}
+
       {loopAlert && (
-        <View
-          style={{
-            width: "100%",
-            position: "relative",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <View
-            style={{
-              position: "absolute",
-              bottom: 90,
-              backgroundColor: theme.colors.secondary,
-              borderRadius: 8,
-              paddingHorizontal: 16,
-              paddingVertical: 8,
-              zIndex: 200,
-            }}
-          >
+        <View style={styles.alertContainer}>
+          <View style={[styles.alertBox, { backgroundColor: theme.colors.secondary }]}>
             <Animated.Text style={{ color: theme.colors.onSecondary, fontWeight: "bold" }}>{loopAlert}</Animated.Text>
           </View>
         </View>
@@ -315,6 +408,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     zIndex: 1,
+    backgroundColor: "transparent",
+    marginBottom: 8,
   },
   fab: {
     marginRight: 8,
@@ -324,6 +419,20 @@ const styles = StyleSheet.create({
   },
   fabSeek: {
     marginLeft: 0,
+  },
+  alertContainer: {
+    width: "100%",
+    position: "relative",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  alertBox: {
+    position: "absolute",
+    bottom: 140,
+    borderRadius: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    zIndex: 200,
   },
 });
 

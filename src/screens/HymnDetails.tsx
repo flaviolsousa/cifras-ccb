@@ -533,7 +533,7 @@ const HymnDetails = () => {
           <FAB icon="close" onPress={() => setZoomControlVisible(false)} style={styles.fab} small accessibilityLabel="Fechar controle de zoom" />
         </View>
       )}
-      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} onPlay={closeAllTools} />
+      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} onPlay={closeAllTools} hymn={hymn} />
 
       <ChordPanel
         selectedChord={selectedChord}

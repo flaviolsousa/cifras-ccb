@@ -204,7 +204,7 @@ const DevNavigationHelper: React.FC = () => {
         const savedState = JSON.parse(savedStateJSON);
 
         // Only restore if saved within the last minute (to avoid old states)
-        const isRecent = Date.now() - savedState.timestamp < 60 * 60 * 1000; //### last hour
+        const isRecent = Date.now() - savedState.timestamp < 60 * 60 * 1000; // last hour
         if (!isRecent) {
           return;
         }
