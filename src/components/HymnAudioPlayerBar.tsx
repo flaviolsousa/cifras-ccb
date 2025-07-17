@@ -1,5 +1,7 @@
 import React, { useCallback, useRef } from "react";
 import { View, StyleSheet, LayoutChangeEvent, Pressable } from "react-native";
+import { useTheme } from "react-native-paper";
+import alpha from "color-alpha";
 import HymnAudioPlayerBarWave from "./HymnAudioPlayerBarWave";
 
 interface HymnAudioPlayerBarProps {
@@ -23,12 +25,56 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
   loopStart,
   loopEnd,
   height = 36,
-  barColor = "#888",
-  progressColor = "#1976d2",
-  loopColor = "rgba(25, 118, 210, 0.2)",
+  barColor,
+  progressColor,
+  loopColor,
 }) => {
+  const theme = useTheme();
   const containerRef = useRef<View>(null);
   const [width, setWidth] = React.useState(0);
+
+  // Use theme colors as defaults with transparency using color-alpha
+  const finalBarColor = barColor || theme.colors.secondary;
+  const finalProgressColor = progressColor || theme.colors.primary;
+  const finalLoopColor = loopColor || alpha(theme.colors.primary, 0.2);
+
+  const styles = StyleSheet.create({
+    container: {
+      backgroundColor: alpha(theme.colors.surfaceVariant, 0.67),
+      width: "100%",
+      marginTop: 8,
+      marginBottom: 8,
+      overflow: "visible",
+      justifyContent: "center",
+      height: 36,
+      transform: [{ translateY: -130 }],
+    },
+    waveformContainer: {
+      position: "absolute",
+      width: "100%",
+      left: 0,
+      right: 0,
+      justifyContent: "center",
+    },
+    progressLine: {
+      position: "absolute",
+      width: 2,
+      borderRadius: 1,
+      zIndex: 2,
+    },
+    loopLine: {
+      position: "absolute",
+      width: 2,
+      borderRadius: 1,
+      zIndex: 2,
+      opacity: 0.7,
+    },
+    loopArea: {
+      position: "absolute",
+      zIndex: 1,
+      borderRadius: 4,
+    },
+  });
 
   const handleLayout = (e: LayoutChangeEvent) => {
     setWidth(e.nativeEvent.layout.width);
@@ -55,7 +101,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
     },
     [width, duration, onSeek],
   );
-  const barCount = Math.floor(width / 5);
+  const barCount = Math.floor(width / 9);
 
   // Calcula posições
   const progressPercent = duration ? currentTime / duration : 0;
@@ -71,7 +117,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
             {
               left: width * loopStartPercent,
               width: width * (loopEndPercent - loopStartPercent),
-              backgroundColor: loopColor,
+              backgroundColor: finalLoopColor,
               height,
             },
           ]}
@@ -80,7 +126,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
 
       {/* Frequencies */}
       <View style={[styles.waveformContainer, { height }]}>
-        <HymnAudioPlayerBarWave frequencies={frequencies} barCount={barCount} height={height} color={barColor} />
+        <HymnAudioPlayerBarWave frequencies={frequencies} barCount={barCount} height={height} color={finalBarColor} />
       </View>
 
       {/* Progress line */}
@@ -91,7 +137,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
             {
               left: width * progressPercent - 1,
               height,
-              backgroundColor: progressColor,
+              backgroundColor: finalProgressColor,
             },
           ]}
           pointerEvents="none"
@@ -106,7 +152,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
             {
               left: width * loopStartPercent - 1,
               height,
-              backgroundColor: progressColor,
+              backgroundColor: finalProgressColor,
             },
           ]}
           pointerEvents="none"
@@ -119,7 +165,7 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
             {
               left: width * loopEndPercent - 1,
               height,
-              backgroundColor: progressColor,
+              backgroundColor: finalProgressColor,
             },
           ]}
           pointerEvents="none"
@@ -128,43 +174,5 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
     </Pressable>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: "#AAAA",
-    width: "100%",
-    marginTop: 8,
-    marginBottom: 8,
-    overflow: "visible",
-    justifyContent: "center",
-    height: 36,
-    transform: [{ translateY: -130 }], // Reduzir para metade da altura desejada
-  },
-  waveformContainer: {
-    position: "absolute",
-    width: "100%",
-    left: 0,
-    right: 0,
-    justifyContent: "center",
-  },
-  progressLine: {
-    position: "absolute",
-    width: 2,
-    borderRadius: 1,
-    zIndex: 2,
-  },
-  loopLine: {
-    position: "absolute",
-    width: 2,
-    borderRadius: 1,
-    zIndex: 2,
-    opacity: 0.7,
-  },
-  loopArea: {
-    position: "absolute",
-    zIndex: 1,
-    borderRadius: 4,
-  },
-});
 
 export default HymnAudioPlayerBar;

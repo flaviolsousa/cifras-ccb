@@ -5,6 +5,7 @@ import { FAB, useTheme, Text } from "react-native-paper";
 import { createAudioPlayer } from "expo-audio";
 import type { AudioPlayer } from "expo-audio/build/AudioModule.types";
 import { getHymnFrequencies } from "../services/Hymn/HymnImports";
+import alpha from "color-alpha";
 
 interface HymnAudioPlayerProps {
   hymnCode: string;
@@ -376,18 +377,22 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       </Animated.View>
 
       {/* Barra de progresso e espectrograma - só mostra se tiver frequências E duração */}
-      {shouldShowBar && showRestart && (
-        <View style={{ flex: 1, paddingHorizontal: 16 }}>
-          <HymnAudioPlayerBar
-            frequencies={frequencies}
-            duration={hymn?.time?.duration}
-            currentTime={currentTime}
-            onSeek={handleSeek}
-            loopStart={loopStart}
-            loopEnd={loopEnd}
-          />
-        </View>
-      )}
+      {
+        // ### shouldShowBar && showRestart && (
+        shouldShowBar && (
+          <View style={{ flex: 1, paddingHorizontal: 16 }}>
+            <HymnAudioPlayerBar
+              frequencies={frequencies}
+              duration={hymn?.time?.duration}
+              currentTime={currentTime}
+              onSeek={handleSeek}
+              loopStart={loopStart}
+              loopEnd={loopEnd}
+              loopColor={alpha(theme.colors.primary, 0.2)}
+            />
+          </View>
+        )
+      }
 
       {loopAlert && (
         <View style={styles.alertContainer}>

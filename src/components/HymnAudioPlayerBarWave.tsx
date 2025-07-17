@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
 interface HymnAudioPlayerBarWaveProps {
   frequencies: number[];
@@ -19,10 +19,10 @@ const HymnAudioPlayerBarWave: React.FC<HymnAudioPlayerBarWaveProps> = ({ frequen
 
     // Amostragem mais eficiente das frequências
     console.log(`Processing ${frequencies.length} frequencies into ${effectiveBarCount} bars`);
-    const step = Math.max(1, Math.floor(frequencies.length / effectiveBarCount));
+    const step = Math.max(1, frequencies.length / effectiveBarCount);
     const sampled = Array.from({ length: effectiveBarCount }, (_, i) => {
-      const start = i * step;
-      const end = Math.min(start + step, frequencies.length);
+      const start = Math.round(i * step);
+      const end = Math.min(start + Math.round(step), frequencies.length);
       if (end > start) {
         // Calcula a média dos valores no intervalo [start, end)
         const sum = frequencies.slice(start, end).reduce((acc, v) => acc + v, 0);
@@ -46,12 +46,14 @@ const HymnAudioPlayerBarWave: React.FC<HymnAudioPlayerBarWaveProps> = ({ frequen
           const barEnd = Math.round(pauseEnd / step);
           for (let b = barStart; b < barEnd && b < sampled.length; b++) {
             sampled[b] = 0.01;
+            pauseCount = 0;
           }
         } else if (pauseCount > pauseThreshold) {
           // Continua marcando as barras seguintes enquanto durar a pausa
-          const barIdx = Math.floor(i / step);
+          const barIdx = Math.round(i / step);
           if (barIdx < sampled.length) {
             sampled[barIdx] = 0.01;
+            pauseCount = 0;
           }
         }
       } else {
@@ -68,18 +70,32 @@ const HymnAudioPlayerBarWave: React.FC<HymnAudioPlayerBarWaveProps> = ({ frequen
   }, [frequencies, barCount, height]);
 
   return (
-    <View style={{ flexDirection: "row", alignItems: "flex-end", height }}>
+    <View
+      style={{
+        flexDirection: "row",
+        alignItems: "center",
+        height,
+      }}
+    >
       {processedBars.map((bar) => (
         <View
           key={bar.key}
           style={{
             flex: 1,
-            height: bar.height,
-            backgroundColor: color,
-            marginHorizontal: 0.5,
-            borderRadius: 2,
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100%",
           }}
-        />
+        >
+          <View
+            style={{
+              width: "75%",
+              height: bar.height,
+              backgroundColor: color,
+              borderRadius: 2,
+            }}
+          />
+        </View>
       ))}
     </View>
   );
