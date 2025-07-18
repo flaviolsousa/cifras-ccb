@@ -94,9 +94,6 @@ class HymnService {
     const hymns = HymnService.getSimpleHymns();
     const hymnMetaData = hymns.find((hymn) => hymn.code === hymnCode);
 
-    console.log("### [LOG] x1 hymnData:", JSON.stringify(hymnData, null, 2));
-    console.log("### [LOG] x2 hymnMetaData:", JSON.stringify(hymnMetaData, null, 2));
-
     if (hymnMetaData) {
       const hymn = JSON.parse(
         JSON.stringify({
@@ -104,10 +101,8 @@ class HymnService {
           ...hymnData,
         }),
       );
-      console.log("### [LOG] x3 hymn:", JSON.stringify(hymn, null, 2));
       hymn.tone.selected = hymn.tone.selected ?? hymn.tone.recommended;
       hymn.tone.recommended = hymn.tone.recommended ?? hymn.tone.selected;
-      console.log("### [LOG] x4 hymn:", JSON.stringify(hymn, null, 2));
       return hymn;
     }
     return null;
