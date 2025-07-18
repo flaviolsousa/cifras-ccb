@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from "react";
+import React, { useEffect, useRef, useState, useCallback, use } from "react";
 import { View, StyleSheet, Animated, AppState } from "react-native";
 import HymnAudioPlayerBar from "./HymnAudioPlayerBar";
 import { FAB, useTheme, Text } from "react-native-paper";
@@ -6,22 +6,24 @@ import { createAudioPlayer } from "expo-audio";
 import type { AudioPlayer } from "expo-audio/build/AudioModule.types";
 import { getHymnFrequencies } from "../services/Hymn/HymnImports";
 import alpha from "color-alpha";
+import useHymnData from "../hooks/useHymnData";
 
 interface HymnAudioPlayerProps {
   hymnCode: string;
   visible?: boolean;
   onPlay?: () => void;
-  hymn: any;
 }
 
 const AUDIO_BASE_URL = "https://flaviolsousa.github.io/cifras-ccb-assets/mp3/";
 
-const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {}, hymn }) => {
+const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = true, onPlay = () => {} }) => {
   const theme = useTheme();
   const [isPlaying, setIsPlaying] = useState(false);
   const [showRestart, setShowRestart] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [duration, setDuration] = useState<number | null>(null);
   const playerRef = useRef<AudioPlayer | null>(null);
+  const { hymn } = useHymnData(hymnCode);
 
   const url = `${AUDIO_BASE_URL}${hymnCode}.mp3`;
 
@@ -36,7 +38,9 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
         // Adiciona um pequeno delay para permitir que o player seja criado primeiro
         await new Promise((resolve) => setTimeout(resolve, 1000));
 
-        if (!isMounted) return;
+        if (!isMounted) {
+          return;
+        }
 
         const mod = await getHymnFrequencies(hymnCode);
 
@@ -60,7 +64,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
           }
         }
       } catch (error) {
-        console.log("Frequencies not available for hymn", hymnCode);
         if (isMounted) setFrequencies([]);
       }
     };
@@ -72,6 +75,10 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       isMounted = false;
     };
   }, [hymnCode]);
+
+  useEffect(() => {
+    setDuration(hymn?.time?.duration || null);
+  }, [hymn]);
 
   // Limpar player ao desmontar
   useEffect(() => {
@@ -99,7 +106,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
 
   const playAudio = async () => {
     setLoading(true);
-
     try {
       if (playerRef.current) {
         playerRef.current.play();
@@ -122,7 +128,6 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       setShowRestart(true);
       onPlay();
     } catch (e) {
-      console.error("Error playing audio:", e);
       // handle error
     } finally {
       setLoading(false);
@@ -377,11 +382,11 @@ const HymnAudioPlayer: React.FC<HymnAudioPlayerProps> = ({ hymnCode, visible = t
       </Animated.View>
 
       {/* Barra de progresso e espectrograma - só mostra se tiver frequências E duração */}
-      {shouldShowBar && showRestart && (
+      {shouldShowBar && showRestart && duration && (
         <View style={{ flex: 1, paddingHorizontal: 16 }}>
           <HymnAudioPlayerBar
             frequencies={frequencies}
-            duration={hymn?.time?.duration}
+            duration={duration}
             currentTime={currentTime}
             onSeek={handleSeek}
             loopStart={loopStart}

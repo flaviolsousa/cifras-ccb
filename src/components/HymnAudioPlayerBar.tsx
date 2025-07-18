@@ -33,7 +33,6 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
   const containerRef = useRef<View>(null);
   const [width, setWidth] = React.useState(0);
 
-  // Use theme colors as defaults with transparency using color-alpha
   const finalBarColor = barColor || theme.colors.secondary;
   const finalProgressColor = progressColor || theme.colors.primary;
   const finalLoopColor = loopColor || alpha(theme.colors.primary, 0.2);
@@ -82,20 +81,13 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
 
   const handlePress = useCallback(
     (evt: any) => {
-      function round(num: number, precision: number = 3): number {
-        const factor = Math.pow(10, precision);
-        return Math.round(num * factor) / factor;
+      if (!width || !duration) {
+        return;
       }
-      if (!width || !duration) return;
-
-      // Usar pageX ao invés de locationX para coordenadas absolutas
       const pageX = evt.nativeEvent.pageX;
-
-      // Medir a posição do container na tela
       containerRef.current?.measure((x, y, w, h, pageXOffset, pageYOffset) => {
         const relativeX = pageX - pageXOffset;
         const percent = Math.max(0, Math.min(1, relativeX / width));
-
         onSeek(percent * duration);
       });
     },
@@ -103,13 +95,12 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
   );
   const barCount = Math.floor(width / 9);
 
-  // Calcula posições
   const progressPercent = duration ? currentTime / duration : 0;
   const loopStartPercent = loopStart && duration ? loopStart / duration : null;
   const loopEndPercent = loopEnd && duration ? loopEnd / duration : null;
+
   return (
     <Pressable ref={containerRef} onPress={handlePress} onLayout={handleLayout} style={[styles.container, { height }]}>
-      {/* Loop highlight */}
       {loopStartPercent !== null && loopEndPercent !== null && width > 0 && (
         <View
           style={[
@@ -124,12 +115,10 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
         />
       )}
 
-      {/* Frequencies */}
       <View style={[styles.waveformContainer, { height }]}>
         <HymnAudioPlayerBarWave frequencies={frequencies} barCount={barCount} height={height} color={finalBarColor} />
       </View>
 
-      {/* Progress line */}
       {width > 0 && (
         <View
           style={[
@@ -144,7 +133,6 @@ const HymnAudioPlayerBar: React.FC<HymnAudioPlayerBarProps> = ({
         />
       )}
 
-      {/* Loop start/end lines */}
       {loopStartPercent !== null && width > 0 && (
         <View
           style={[

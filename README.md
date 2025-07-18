@@ -87,6 +87,12 @@ eas build --platform android --profile preview
 # eas build --platform android --profile development
 ```
 
+## Log android
+
+```sh
+adb logcat
+```
+
 ## Reference to new project configuration
 
 ```sh
