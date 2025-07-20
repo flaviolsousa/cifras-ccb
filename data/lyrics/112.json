@@ -2,6 +2,7 @@
   "code": "112",
   "version": "v3",
   "title": "Sigamos sempre ao Senhor",
+  "level": 2,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -18,10 +19,10 @@
       {
         "type": "chorus",
         "text": [
-          "Je[D]sus nos conduzirá aos céus,",
-          "Si[G]gamos [D]sempre ao Se[A]nhor;",
-          "Ha[D]bitaremos com nosso Deus ",
-          "No [G]reino [A]de esplen[D]dor."
+          "Je[D]sus nos [G]conduzi[D]rá aos céus,",
+          "Si[G]gamos [D]sempre ao Se[A]nhor[A7];",
+          "Ha[D]bitaremos com nosso Deus",
+          "No [G]reino [A7]de esplen[D]dor."
         ]
       },
       {

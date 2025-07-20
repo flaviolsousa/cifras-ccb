@@ -2,6 +2,7 @@
   "code": "114",
   "version": "v3",
   "title": "Clama ao Mestre, Cristo Jesus",
+  "level": 3,
   "tone": {
     "original": "Bb",
     "selected": "A"
@@ -15,17 +16,17 @@
         "code": "1",
         "text": [
           "[A]Quando te sen[D]tires aba[A]tido,",
-          "[E7]Cristo te estende [A]a Sua mão;",
-          "Ele é o santo e [D]verdadeiro A[A]migo,",
-          "[E7]Ele é a tua Por[A]ção."
+          "[E7]Cristo te‿estende [A]a Sua mão;",
+          "Ele é‿o santo e‿[D]verdadeiro‿A[A]migo,",
+          "[E7]Ele‿é a tua Por[A]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[E7]Clama ao Mestre, [A]Cristo Jesus;",
-          "[D]D´Ele o po[A]der senti[E7]rás;",
-          "[A]Ele disse: “[D]Eis que estou con[A]vosco”;",
+          "[D]D´Ele‿o po[A]der senti[E7]rás;",
+          "[A]Ele disse: “[D]Eis que‿estou con[A]vosco”;",
           "[E7]Cristo é Quem te con[A]duz."
         ]
       },
@@ -49,7 +50,7 @@
         "text": [
           "[A]Vindo sobre [D]ti ardente [A]prova,",
           "[E7]Bate à porta [A]do Criador",
-          "Que, por Cristo, as [D]forças te re[A]nova",
+          "Que, por Cristo,‿as [D]forças te re[A]nova",
           "[E7]E te fará vence[A]dor."
         ]
       },

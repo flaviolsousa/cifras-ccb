@@ -2,6 +2,7 @@
   "code": "110",
   "version": "v3",
   "title": "Vigiai, irmãos",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -22,7 +23,12 @@
       },
       {
         "type": "chorus",
-        "text": ["Oh! Vigi[D]ai em todo o tempo", "Para [A]que o coraç[D]ão", "Sinta vigor, também alento,", "E de [A]Deus a santa unç[D]ão.[D]..."]
+        "text": [
+          "Oh! Vigi[D]ai.[G].. em todo o [D]tempo",
+          "Para [A]que o coraç[D]ão..[A].",
+          "Sinta vi[D]gor,.[G].. também a[D]lento,",
+          "E de [A]Deus a [A7]santa unç[D]ão.[D]..."
+        ]
       },
       {
         "type": "lyric",

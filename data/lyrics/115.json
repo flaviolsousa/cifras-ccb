@@ -2,19 +2,20 @@
   "code": "115",
   "version": "v3",
   "title": "Minha alma engrandece...",
+  "level": 1,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["G", "C", "G", "D", "G"],
+    "introduction": ["G", "G", "C", "C", "G", "G", "D", "G", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Minha alma engran[C]dece ao meu Salva[G]dor, que para mim aten[D]tou;",
+          "[G]Minha alma engran[C]dece ao meu Salva[G]dor, que para mim aten[D|x1]tou;",
           "[G]Meu espírito [C]sente o grande a[G]mor de Deus, que me [D]perdo[G]ou.",
           "Redimida [D]por Seu grande fa[G]vor, minha alma louva a [D]Deus.",
           "[G]Com Seu sangue pre[C]cioso, o Reden[G]tor pagou os pe[D]cados [G]meus."

@@ -2,6 +2,7 @@
   "code": "113",
   "version": "v3",
   "title": "O Senhor seja louvado",
+  "level": 2,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -13,16 +14,31 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[D]O Senhor seja lou[A7]vado,", "Pois mandou-nos Sua l[D]uz;", "Ento[D7]emos, ó re[G]midos,", "[D]Hinos ao Se[A7]nhor Je[D]sus."]
+        "text": [
+          "[D]O Senhor seja lou[Em]vado,",
+          "[A7]Pois mandou-nos Sua l[D]uz;",
+          "Ento[D7]emos, ó re[G]midos,",
+          "[D]Hinos ao Se[A7]nhor Je[D]sus."
+        ]
       },
       {
         "type": "chorus",
-        "text": ["[D]Exaltado, aclamado", "Seja Cristo, o Reden[A7]tor;", "[D]D´Ele temos a vitória", "Por Seu sangue justo e [A7]remi[D]dor."]
+        "text": [
+          "[D]Exaltado, aclamado",
+          "Seja Cristo, o Reden[A7]tor;",
+          "[D]D´Ele [D]temos a vi[D]tória.[D].. ",
+          "Por Seu [D]sangue justo e [A7]remi[D]dor."
+        ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[D]O Senhor seja lou[A7]vado", "Pelos resgatados S[D]eus,", "Que de[D7]sejam, ansi[G]osos,", "[D]Ver a glória [A7]do bom D[D]eus."]
+        "text": [
+          "[D]O Senhor seja lou[Em]vado",
+          "[A7]Pelos resgatados S[D]eus,",
+          "Que de[D7]sejam, ansi[G]osos,",
+          "[D]Ver a glória [A7]do bom D[D]eus."
+        ]
       },
       {
         "type": "ref",
@@ -31,7 +47,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[D]O Senhor seja lou[A7]vado,", "Pois nos deu o Seu Pen[D]hor;", "Seu Es[D7]pírito e[G]terno,", "[D]Divinal Con[A7]sola[D]dor."]
+        "text": ["[D]O Senhor seja lou[Em]vado,", "[A7]Pois nos deu o Seu Pen[D]hor;", "Seu Es[D7]pírito e[G]terno,", "[D]Divinal Con[A7]sola[D]dor."]
       },
       {
         "type": "ref",
