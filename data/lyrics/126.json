@@ -2,13 +2,14 @@
   "code": "126",
   "version": "v3",
   "title": "Levemos a mensagem de amor",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["G", "D", "G", "C", "D", "G"],
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -17,7 +18,7 @@
           "Le[G]vemos a mensagem de a[D]mor",
           "Aos que não têm a graça do Sen[G]hor;",
           "Anunciando o perdão e a di[C]vina salvação",
-          "De Je[D]sus, o Reden[G]tor."
+          "De Je[G]sus, o [D7]Reden[G]tor."
         ]
       },
       {
@@ -26,7 +27,7 @@
           "De Jes[G]us, Sua luz",
           "Levaremos aos que estão na escuri[D]dão;",
           "Anun[G]ciemos, irmãos, que em [C]Cristo, o Salvador,",
-          "Tem per[D]dão o peca[G]dor."
+          "Tem per[G]dão o [D7]peca[G]dor."
         ]
       },
       {
@@ -36,7 +37,7 @@
           "Por [G]terra, pelo ar e pelo [D]mar,",
           "O Evangelho vamos procla[G]mar;",
           "Falaremos do amor de Je[C]sus, o Salvador,",
-          "Que re[D]dime o peca[G]dor."
+          "Que re[G]dime o [D7]peca[G]dor."
         ]
       },
       {
@@ -50,7 +51,7 @@
           "A[G]inda muitos, no pecado, es[D]tão,",
           "Sem conhecer tão grande salvaç[G]ão;",
           "Anunciemos-lhes a luz que se en[C]contra em Jesus,",
-          "Luz que [D]salva o peca[G]dor."
+          "Luz que [G]salva o [D7]peca[G]dor."
         ]
       },
       {

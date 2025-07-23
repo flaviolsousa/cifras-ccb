@@ -2,42 +2,43 @@
   "code": "123",
   "version": "v3",
   "title": "Ó Jesus, és meu Guardião",
+  "level": 3,
   "tone": {
     "original": "Bb",
-    "selected": "A"
+    "selected": "G"
   },
-  "rhythm": "Guarânia",
+  "rhythm": "Valsa",
   "score": {
-    "introduction": ["A", "E7", "A", "F#m", "B7", "E7", "A"],
+    "introduction": ["G", "D7", "G", "Em", "A7", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Ó Jesus, és meu [E7]Guardi[A]ão,",
-          "[F#m]Tu me livras de [B7]todo o [E7]mal;",
-          "[A]Mesmo em prova e tri[Db7]bula-[F#m]ção,",
-          "[Eb°]És meu Re[A]fúgio ce[E7]lesti[A]al."
+          "[G]Ó Jesus, és meu [D7]Guardi[G]ão,",
+          "[Em]Tu me livras de [A7]todo o [D7]mal;",
+          "[G]Mesmo em prova e tri[B7]bula-[Em]ção,",
+          "És meu Re[G]fúgio ce[D7]lesti[G]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Meu tesouro és [E7]Tu, Jes[A]us,",
-          "[F#m]Minha Vida, meu [B7]Galar[E7]dão.",
-          "[A]Neste mundo és [Db7]minha [F#m]Luz",
-          "[Eb°]E me con[A]duzes com [E7]Tua m[A]ão."
+          "[G]Meu tesouro és [D7]Tu, Jes[G]us,",
+          "[Em]Minha Vida, meu [A7]Galar[D7]dão.",
+          "[G]Neste mundo és [B7]minha [Em]Luz",
+          "E me con[G]duzes com [D7]Tua m[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Pela fé e por [E7]Teu a[A]mor,",
-          "[F#m]Vou seguindo a [B7]Ti, Je[E7]sus,",
-          "[A]Pela senda do [Db7]Cria-[F#m]dor;",
-          "[Eb°]Breve esta[A]rei no Teu [E7]lar de l[A]uz."
+          "[G]Pela fé e por [D7]Teu a[G]mor,",
+          "[Em]Vou seguindo a [A7]Ti, Je[D7]sus,",
+          "[G]Pela senda do [B7]Cria-[Em]dor;",
+          "Breve esta[G]rei no Teu [D7]lar de l[G]uz."
         ]
       }
     ]

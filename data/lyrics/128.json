@@ -2,41 +2,37 @@
   "code": "128",
   "version": "v3",
   "title": "Teu filho sou, ó Criador",
+  "level": 3,
   "tone": {
-    "original": "F",
-    "selected": "E"
+    "original": "Bb",
+    "selected": "A"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["E", "B", "E", "E7", "A", "E"],
+    "introduction": ["E", "A", "E", "E7", "A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Ó Deus, meu Pai, graças Te [B]dou",
-          "Por desfrutar da Tua l[E]uz;",
-          "Prosperarei [E7]em Ti, Se[A]nhor,",
-          "Tua Pa[E]lavra [B]me con[E]duz."
+          "[E]Ó Deus, meu [A]Pai, graças Te [E]dou",
+          "Por desfru[E7]tar da Tua l[A]uz;",
+          "[E]Prospera[A]rei em Ti, Se[D]nhor,",
+          "Tua Pa[A]lavra [E7]me con[A]duz."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Teu filho sou, ó Cria[F#m]dor,",
-          "Me ado[B]taste, em Je[E]sus;",
-          "Santo e sublime é Teu a[A]mor;",
-          "Vivo fe[E]liz em [B]Tua l[E]uz."
-        ]
+        "text": ["[A]Teu filho sou, ó Cria[E7]dor,", "Me adotaste, em Je[A]sus;", "Santo e sublime é Teu a[D]mor;", "Vivo fe[A]liz em [E]Tua l[A]uz."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Faz-me, Senhor, um vaso [B]Teu,",
-          "Cheio de fé e de a[E]mor,",
-          "Para poder [E7]sempre hon[A]rar",
-          "Teu santo [E]Nome, [B]ó Sen[E]hor."
+          "[E]Faz-me, Sen[A]hor, um vaso [E]Teu,",
+          "Cheio de [E7]fé e de a[A]mor,",
+          "[E]Para po[A]der sempre hon[D]rar",
+          "Teu santo [A]Nome, [E7]ó Sen[A]hor."
         ]
       },
       {
@@ -47,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]A Ti, Senhor, recorre[B]rei,",
-          "Para poder me abri[E]gar",
-          "De todo o mal [E7]e tenta[A]ção,",
-          "Enquanto a[E]qui pe[B]regri[E]nar."
+          "[E]A Ti, Sen[A]hor, recorre[E]rei,",
+          "Para po[E7]der me abri[A]gar",
+          "[E]De todo o [A]mal e tenta[D]ção,",
+          "Enquanto a[A]qui pe[E7]regri[A]nar."
         ]
       },
       {

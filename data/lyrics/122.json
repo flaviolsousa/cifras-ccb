@@ -2,6 +2,7 @@
   "code": "122",
   "version": "v3",
   "title": "Alegrei-me quando me disseram...",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -14,16 +15,16 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eu [G]alegrei-me quando me di[D]sseram:",
-          "“Oh! Vamos para a [D7]casa do Sen[G]hor”,",
-          "Pois nela os santos sempre rece[D]beram",
-          "[A]As bênçãos do eterno Cria[D]dor.[D7]..."
+          "Eu [G]alegrei-me quando me di[Am]sseram[D]:",
+          "“Oh! [D]Vamos para a [D7]casa do Sen[G]hor”,",
+          "Pois nela os santos sempre rece[Am]beram",
+          "As [A7]bênçãos do eterno Cria[D]dor.[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Somos a nação a[D]bençoada,",
+          "Somos [G]a nação abenç[D]oada,",
           "Nação de Deus, unida em Seu a[G]mor,",
           "Somos Sua [G7]geração a[C]mada;",
           "Por n[G]ós é [D]Deus, o Cria[G]dor."
@@ -33,10 +34,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "A [G]santa, gloriosa lei e[D]terna,",
-          "Na Sua casa en[D7]sina o Sen[G]hor;",
-          "Ouvimos nela sempre a voz Pa[D]terna",
-          "[A]E os juízos de Deus, Forma[D]dor.[D7]..."
+          "A [G]santa, gloriosa lei e[Am]terna[D],",
+          "Na [D]Sua casa en[D7]sina o Sen[G]hor;",
+          "Ouvimos nela sempre a voz Pa[Am]terna",
+          "E [A7]os juízos de Deus, Forma[D]dor.[D7]..."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Paz [G]haja entre nós continua[D]mente,",
-          "Prosperidade e [D7]celestial a[G]mor;",
-          "Por essa paz divina, exce[D]lente,",
-          "[A]A Deus oremos sempre com fer[D]vor.[D7]..."
+          "Paz [G]haja entre nós continua[Am]mente[D],",
+          "Pros[D]peridade e [D7]celestial a[G]mor;",
+          "Por essa paz divina, exce[Am]lente,",
+          "A [A7]Deus oremos sempre com fer[D]vor.[D7]..."
         ]
       },
       {

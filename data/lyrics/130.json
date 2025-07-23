@@ -2,38 +2,39 @@
   "code": "130",
   "version": "v3",
   "title": "A minha alma",
+  "level": 3,
   "tone": {
-    "original": "Bb",
-    "selected": "A"
+    "original": "C",
+    "selected": "C"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["A", "E", "E7", "A"],
+    "introduction": ["C", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]A minha alma deseja, ó Se[E]nhor,[E7]...",
-          "Sempre viver, por fé, unida ao Teu a[A]mor;",
+          "[C]A minha alma deseja, ó Se[G]nhor,",
+          "[G7]Sempre viver, por fé, unida ao Teu a[C]mor;",
           "Com Tua força vou caminhar,",
           "Por Tua graça Te vou louvar",
-          "E [E7]sempre de Ti fa[A]lar."
+          "E [G7]sempre de Ti fa[C]lar."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[A]A minha [Bm]alma,[E7] ó meu Reden[A]tor,", "Quer estar u[Bm]nida [E7]ao Teu grande a[A]mor."]
+        "text": ["[C]A minha [Dm]alma, [G7]ó meu Reden[C]tor,", "Quer estar u[Dm]nida [G7]ao Teu grande a[C]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]A minha alma deseja, ó Se[E]nhor,[E7]...",
-          "Ser consagrada a Ti, amar-Te com mais fer[A]vor;",
+          "[C]A minha alma deseja, ó Se[G]nhor,",
+          "[G7]Ser consagrada a Ti, amar-Te com mais fer[C]vor;",
           "A minha mente, oh! Vem abrir;",
           "Almejo, em mim, Tua voz sentir;",
-          "De[E7]sejo a Ti ser[A]vir."
+          "De[G7]sejo a Ti ser[C]vir."
         ]
       },
       {
@@ -44,11 +45,11 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]A minha alma jubila, ó Se[E]nhor,[E7]...",
-          "Nas bênçãos divinais do Teu bom Consola[A]dor;",
+          "[C]A minha alma jubila, ó Se[G]nhor,",
+          "[G7]Nas bênçãos divinais do Teu bom Consola[C]dor;",
           "Tu és a minha real Porção,",
           "De Ti espero consolação",
-          "Na [E7]prova ou tribula[A]ção."
+          "Na [G7]prova ou tribula[C]ção."
         ]
       },
       {

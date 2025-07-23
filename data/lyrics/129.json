@@ -2,41 +2,42 @@
   "code": "129",
   "version": "v3",
   "title": "Salvo estou por Jesus",
+  "level": 3,
   "tone": {
-    "original": "F",
-    "selected": "E"
+    "original": "Bb",
+    "selected": "A"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["E", "A", "B", "E"],
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Certo es[E]tou de que Cristo Jesus é meu [A]Rei,",
-          "De mi[B]nh´alma é o Prote[E]tor;",
-          "Vou avante com fé, junto à Sua [A]grei,",
-          "Com a [B]força do meu Salva[E]dor."
+          "Certo es[A]tou de que Cristo Jesus é meu [D]Rei,",
+          "De mi[E]nh´alma é o Prote[A]tor;",
+          "Vou avante com fé, junto à Sua [D]grei,",
+          "Com a [E]força do meu Salva[A]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Salvo es[E]tou por Jesus, o meu bom Salvador,",
-          "Cumprirá Sua obra de a[B]mor,[B]...",
-          "Vou a[E]vante por graça, com [A]fé no Se[A]nhor,",
-          "Meu a[E]mado e di[B]vino Pas[E]tor."
+          "Salvo es[A]tou por Jesus, o meu bom Salvador,",
+          "Cumprirá Sua obra de a[E]mor,[E|↓ •••]",
+          "Vou a[A]vante por graça, com [D]fé no Se[D|↓ •••]nhor,",
+          "Meu a[A]mado e di[E]vino Pas[A|•••]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Certo es[E]tou de que Cristo, o fiel Salva[A]dor,",
-          "Cumpri[B]rá Sua obra de a[E]mor,",
-          "Obra eterna, perfeita, de grande va[A]lor,",
-          "Orde[B]nada por Deus, Cria[E]dor."
+          "Certo es[A]tou de que Cristo, o fiel Salva[D]dor,",
+          "Cumpri[E]rá Sua obra de a[A]mor,",
+          "Obra eterna, perfeita, de grande va[D]lor,",
+          "Orde[E]nada por Deus, Cria[A]dor."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Certo es[E]tou de que meu poderoso Je[A]sus",
-          "Dar-me-[B]á sempre força e va[E]lor,",
-          "E também mais virtude, mais graça e mais [A]luz;",
-          "A Je[B]sus servirei com fer[E]vor."
+          "Certo es[A]tou de que meu poderoso Je[D]sus",
+          "Dar-me-[E]á sempre força e va[A]lor,",
+          "E também mais virtude, mais graça e mais [D]luz;",
+          "A Je[E]sus servirei com fer[A]vor."
         ]
       },
       {

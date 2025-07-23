@@ -2,41 +2,42 @@
   "code": "125",
   "version": "v3",
   "title": "Mais grato a Ti",
+  "level": 4,
   "tone": {
     "original": "F",
-    "selected": "E"
+    "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["E", "A", "E", "B", "E"],
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Mais grato a Ti, ó bon[A]doso Sen[E]hor,",
-          "[B]Faz-me, por Teu infinito po[E]der;",
-          "O que fizeste em [A]mim, por a[E]mor,",
-          "[F#]Homem ne[B]nhum pode[F#]ria fa[B]zer.[B]..."
+          "[D]Mais grato a Ti, ó bon[G]doso Sen[D]hor,",
+          "[A]Faz-me, por Teu infinito po[D]der;",
+          "O que fizeste em [G]mim, por a[D]mor,",
+          "[E]Homem ne[A]nhum pode[E]ria fa[A]zer.[A]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Mais grato a Ti, mais grato a Ti,",
-          "[A]De coraç[E]ão, ó Se[C#m]nhor, quero [B]ser;",
-          "[B7]Celeste [E]dádiva [A]eu rece[E]bi,",
-          "[A]Quero o Teu [E]Nome, ó [C#m]Deus, [B7]engrande[E]cer."
+          "[D]Mais grato a Ti, mais grato a Ti,",
+          "[G]De coraç[D]ão, ó Se[Bm]nhor, quero [A]ser;",
+          "[A7]Celeste [D]dádiva [G]eu rece[D]bi,",
+          "[G]Quero o Teu [D]Nome, ó [Bm|↓ •••]Deus, [A7]engrande[D]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Tu confirmaste o [A]meu coraç[E]ão",
-          "[B]Com a Palavra da fé e da p[E]az,",
-          "E enviaste ve[A]raz salvaç[E]ão",
-          "[F#]Que a cer[B]teza da [F#]glória me t[B]raz.[B]..."
+          "[D]Tu confirmaste o [G]meu coraç[D]ão",
+          "[A]Com a Palavra da fé e da p[D]az,",
+          "E enviaste ve[G]raz salvaç[D]ão",
+          "[E]Que a cer[A]teza da [E]glória me t[A]raz.[A]..."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Teu filho sou, por Je[A]sus, ó bom D[E]eus,",
-          "[B]Pelo Espírito de adoç[E]ão;",
-          "Um cidadão me fi[A]zeste, dos c[E]éus,",
-          "[F#]Para her[B]dar divi[F#]nal galar[B]dão.[B]..."
+          "[D]Teu filho sou, por Je[G]sus, ó bom D[D]eus,",
+          "[A]Pelo Espírito de adoç[D]ão;",
+          "Um cidadão me fi[G]zeste, dos c[D]éus,",
+          "[E]Para her[A]dar divi[E]nal galar[A]dão.[A]..."
         ]
       },
       {

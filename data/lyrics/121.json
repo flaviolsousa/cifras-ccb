@@ -2,6 +2,7 @@
   "code": "121",
   "version": "v3",
   "title": "O meu socorro vem do Senhor",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -17,16 +18,16 @@
           "O meu so[D]corro vem do Se[A]nhor,",
           "Que é, do uni[A7]verso, o Cria[D]dor;",
           "Tudo se move por Seu po[G]der,",
-          "Sempre, por [A]Ele, hei de ven[D]cer."
+          "Sempre, por [D]Ele, [A7]hei de ven[D]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "É Deus Quem [D]guarda a Sua igreja,",
-          "Não adormece, [E7]nem tosque[A]neja;",
-          "[D]Não deixará teu pé vaci[G]lar",
-          "Nas lutas [A]que tens de enfren[D]tar."
+          "[A7]É Deus Quem [D|x2]guarda a [G]Sua i[D|x2]greja,",
+          "[A7]Não ador[D]mece, [E7]nem tosque[A]neja;",
+          "[D]Não deixará teu [D7]pé vaci[G|x2]lar",
+          "Nas lutas [D]que tens [A7]de enfren[D]tar."
         ]
       },
       {
@@ -36,7 +37,7 @@
           "Em todo o [D]tempo ando com [A]Deus,",
           "Que me pro[A7]mete vida nos c[D]éus;",
           "Se eu for humilde me guarda[G]rá,",
-          "Para a [A]glória me leva[D]rá."
+          "Para a [D]glória [A7]me leva[D]rá."
         ]
       },
       {
@@ -50,7 +51,7 @@
           "Eu glori[D]fico ao Cria[A]dor,",
           "Por ter man[A7]dado o Salva[D]dor",
           "Para me dar fé, vida e per[G]dão,",
-          "E, no Seu [A]reino, o galar[D]dão."
+          "E, no Seu [D]reino, [A7]o galar[D]dão."
         ]
       },
       {

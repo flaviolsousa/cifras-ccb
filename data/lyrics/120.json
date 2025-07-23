@@ -2,6 +2,7 @@
   "code": "120",
   "version": "v3",
   "title": "Nossa cruz tomemos",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -14,24 +15,24 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Ó irmãos, de[Em7]ve - [A]mos nos renunci[D]ar",
-          "E, em cada [A]dia, [E7]nossa cruz to[A]mar;",
+          "[D]Ó irmãos, de[Em]ve - [A7]mos nos renunci[D]ar",
+          "E, em cada [Em]dia, [E7]nossa cruz to[A7]mar;",
           "Pela fé si[D]gamos ao Senhor Je[G]sus,",
-          "Ao celeste e eterno reino Ele nos con[A]duz."
+          "Ao celeste e eterno reino Ele nos con[A7]duz."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[D]Nossa cruz to[A]memos, amados, caminhemos na l[D]uz,", "Firmes nas pisadas [G]do Sen[A]hor Jes[D]us."]
+        "text": ["[D]Nossa c[G]ruz to[A7]memos, amados, caminhemos na l[D]uz,", "[D]Firmes [G]nas pi[D]sadas [Em]do Sen[A7]hor Jes[D]us."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Deus dará vir[Em7]tu - [A]de para supor[D]tar",
-          "Todo o vitu[A]pério [E7]que se apresen[A]tar;",
+          "[D]Deus dará vir[Em]tu - [A7]de para supor[D]tar",
+          "Todo o vitu[Em]pério [E7]que se apresen[A7]tar;",
           "A terrena [D]vida breve finda[G]rá,",
-          "Mas a vida sempiterna reservada es[A]tá."
+          "Mas a vida sempiterna reservada es[A7]tá."
         ]
       },
       {
@@ -42,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Bem-aventu[Em7]ra - [A]dos somos, ó irm[D]ãos,",
-          "Pois já fomos [A]feitos, [E7]dos céus, cidad[A]ãos;",
+          "[D]Bem-aventu[Em]ra - [A7]dos somos, ó irm[D]ãos,",
+          "Pois já fomos [Em]feitos, [E7]dos céus, cidad[A7]ãos;",
           "Seja a nossa [D]vida consagrada a D[G]eus,",
-          "Que dará real tesouro aos remidos S[A]eus."
+          "Que dará real tesouro aos remidos S[A7]eus."
         ]
       },
       {
