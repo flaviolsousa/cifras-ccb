@@ -3,7 +3,7 @@
   "version": "v3",
   "title": "Eis-me, Senhor, aos Teus pés",
   "tone": {
-    "original": "G",
+    "original": "Bb",
     "selected": "G"
   },
   "rhythm": "Valsa",
@@ -17,7 +17,7 @@
       },
       {
         "type": "chorus",
-        "text": ["[D]Eis que estou dis[G]posto[E7] a Te o[B]bede[Em]cer,", "[C]Mas só com Teu au[G]xílio [D]eu poderei ven[G]cer."]
+        "text": ["[D]Eis que estou dis[G]posto[E7] a Te o[B7]bede[Em]cer,", "[C]Mas só com Teu au[G]xílio [D]eu poderei ven[G]cer."]
       },
       {
         "type": "lyric",

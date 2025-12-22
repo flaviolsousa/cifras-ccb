@@ -2,52 +2,53 @@
   "code": "131",
   "version": "v3",
   "title": "Ó Senhor glorioso, Deus da perfeição",
+  "level": 3,
   "tone": {
-    "original": "C",
-    "selected": "C"
+    "original": "G",
+    "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["C", "G7", "C", "Am", "G", "D7", "G", "G7", "C"],
+    "introduction": ["G", "D7", "G", "Em", "D", "A7", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Ó Senhor glo[G7]rioso, Deus da perfeiç[C]ão,",
-          "[Am]Tu nos liber[G]taste [D7]da escravid[G]ão;[G7]...",
-          "[C]Caminhando es[G7]tamos ao Teu lar de a[C]mor,",
-          "Ento[G°]ando, [Dm]sempre, [G7]hinos de lou[C]vor."
+          "[G]Ó Senhor glo[Am]rioso, [D7]Deus da perfeiç[G]ão,",
+          "[Em]Tu nos liber[Am]taste [A7]da escravid[D]ão;[D7]...",
+          "[G]Caminhando es[Am]tamos [D7]ao Teu lar de a[G]mor,",
+          "Ento[G7]ando, [Am]sempre, [D7]hinos de lou[G]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Na jornada es[G7]tamos para o céu, Sen[C]hor,",
-          "[Am]Nela encon[G]tramos [D7]provações e [G]dor,[G7]...",
-          "[C]Mas jamais vi[G7]remos a desfale[C]cer,",
-          "Pela [G°]espe[Dm]rança [G7]de Teu rosto [C]ver."
+          "[G]Na jornada es[Am]tamos [D7]para o céu, Sen[G]hor,",
+          "[Em]Nela encon[Am]tramos [A7]provações e [D]dor,[D7]...",
+          "[G]Mas jamais vi[Am]remos [D7]a desfale[G]cer,",
+          "Pela [G7]espe[Am]rança [D7]de Teu rosto [G]ver."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Vales e mon[G7]tanhas nos farás trans[C]por,",
-          "[Am]E o mar re[G]volto, [D7]ó Deus, Cria[G]dor;[G7]...",
-          "[C]Nada nesta [G7]terra pode nos pa[C]rar,",
-          "Nada [G°]nos im[Dm]pede [G7]de Te exal[C]tar."
+          "[G]Vales e mon[Am]tanhas [D7]nos farás trans[G]por,",
+          "[Em]E o mar re[Am]volto, [A7]ó Deus, Cria[D]dor;[D7]...",
+          "[G]Nada nesta [Am]terra [D7]pode nos pa[G]rar,",
+          "Nada [G7]nos im[Am]pede [D7]de Te exal[G]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "[C]Já bem longe es[G7]tamos, na jornada, ó D[C]eus,",
-          "[Am]E já contem[G]plamos, [D7]pela fé, os c[G]éus,[G7]...",
-          "[C]E a nova [G7]terra que Tu nos da[C]rás,",
-          "Onde, [G°]com os [Dm]santos, [G7]Tu habita[C]rás."
+          "[G]Já bem longe es[Am]tamos, [D7]na jornada, ó D[G]eus,",
+          "[Em]E já contem[Am]plamos, [A7]pela fé, os c[D]éus,[D7]...",
+          "[G]E a nova [Am]terra [D7]que Tu nos da[G]rás,",
+          "Onde, [G7]com os [Am]santos, [D7]Tu habita[G]rás."
         ]
       }
     ]

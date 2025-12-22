@@ -8,6 +8,18 @@ const CHORD_MAP = {
   Bb: "A#",
 };
 
+// Normalize flats to sharps consistently
+const FLAT_TO_SHARP: Record<string, string> = {
+  Db: "C#",
+  Eb: "D#",
+  Gb: "F#",
+  Ab: "G#",
+  Bb: "A#",
+};
+function normalizeEnharmonic(name: string): string {
+  return FLAT_TO_SHARP[name] ?? name;
+}
+
 async function readFile(file: string): Promise<HymnModel | null> {
   const rawData = await getHymnModel(file);
   if (!rawData) return null;
@@ -45,12 +57,13 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
       }
       try {
         let transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
-        transposed = CHORD_MAP[`[${transposed}}`] || transposed;
-        console.log(`Transposing chord: ${chord}${chordSymbol} from ${fromKey} to ${toKey} => ${transposed}${chordSymbol}`);
+        // Normalize enharmonic spelling
+        transposed = normalizeEnharmonic(transposed);
         result += `[${transposed}${chordSymbol}${!!notes ? `|${notes}` : ""}]`;
-      } catch (e: any) {
-        console.error(e);
-        result += `${part}:ERROR`;
+      } catch (e) {
+        console.error("Error transposing chord line part", { part, fromKey, toKey, error: e });
+        // Keep original chord block to avoid corrupting UI
+        result += part;
       }
     } else {
       result += part;
@@ -60,7 +73,7 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
   return result;
 }
 
-let hymnsCached;
+let hymnsCached: any[] | null = null;
 
 class HymnService {
   static getSimpleHymns(): any[] {
@@ -78,9 +91,9 @@ class HymnService {
           console.error(`Erro ao descriptografar hino ${item.code}:`, error);
           return null;
         }
-      }).filter(Boolean);
+      }).filter(Boolean) as any[];
     } else {
-      hymnsCached = Hymns;
+      hymnsCached = Hymns as any[];
     }
     return hymnsCached;
   }
@@ -117,7 +130,14 @@ class HymnService {
       },
       score: {
         ...hymn.score,
-        introduction: hymn.score.introduction?.map((chord) => "" + transpose(chord).fromKey(hymn.tone.selected).toKey(newTone)),
+        introduction: hymn.score.introduction?.map((chord) => {
+          try {
+            const t = "" + transpose(chord).fromKey(hymn.tone.selected).toKey(newTone);
+            return normalizeEnharmonic(t);
+          } catch {
+            return chord;
+          }
+        }),
         stanzas: hymn.score.stanzas.map((stanza) => ({
           ...stanza,
           text: stanza.text?.map((line) => transposeChordsLine(line, hymn.tone.selected, newTone)),
@@ -169,7 +189,7 @@ class HymnService {
     }
   }
 
-  static splitChord(chord: string): { chord: string; notes: string } {
+  static splitChord(chord: string): { chord: string; notes?: string } {
     const content = chord.startsWith("[") && chord.endsWith("]") ? chord.slice(1, -1) : chord;
     const [chordName, notes] = content.split("|");
     return {

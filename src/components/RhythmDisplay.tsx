@@ -20,7 +20,7 @@ const RHYTHM_PATTERNS: Record<string, RhythmPattern> = {
     slim: ["↓", "↑", "↓", "↓"],
     arrows: ["↓", "↑", "↓", "↓"],
     fingers: ["p", "i", "t", "p"],
-    arrowStyles: ["normal", "sub", "sub", "sup", "sup"],
+    arrowStyles: ["normal", "sub", "sub", "sup"],
   },
   Valsa: {
     slim: ["↓", "↑", "↑"],

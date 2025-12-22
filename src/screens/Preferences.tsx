@@ -51,7 +51,7 @@ const Preferences = () => {
   };
 
   return (
-    <View style={{ ...theme, flex: 1 }}>
+    <View style={{ backgroundColor: theme.colors.background, flex: 1 }}>
       <Appbar.Header elevated={true}>
         <Appbar.BackAction onPress={() => navigation.goBack()} />
         <Appbar.Content title="Preferencias" />
@@ -106,7 +106,7 @@ const Preferences = () => {
             />
             {favoriteChords.length > 0 && (
               <View style={styles.favoriteChords}>
-                <Text style={styles.favoriteChordsList}>{favoriteChords.sort().join(", ")}</Text>
+                <Text style={styles.favoriteChordsList}>{[...favoriteChords].sort().join(", ")}</Text>
               </View>
             )}
           </List.Section>

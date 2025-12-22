@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback, use } from "react";
+import React, { useEffect, useRef, useState, useCallback } from "react";
 import { View, StyleSheet, Animated, AppState } from "react-native";
 import HymnAudioPlayerBar from "./HymnAudioPlayerBar";
 import { FAB, useTheme, Text } from "react-native-paper";

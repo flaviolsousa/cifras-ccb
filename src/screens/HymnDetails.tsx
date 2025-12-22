@@ -301,7 +301,7 @@ const HymnDetails = () => {
   };
 
   return (
-    <View style={{ ...theme, flex: 1 }}>
+    <View style={{ backgroundColor: theme.colors.background, flex: 1 }}>
       <Animated.View
         style={{
           transform: [{ translateY: headerTranslateY }],
