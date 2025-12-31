@@ -1,16 +1,20 @@
 {
+  "code": "205",
   "version": "v3",
   "title": "Salvo por Seu poder",
   "tone": {
-    "recommended": "G"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "B7", "Em", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Fi[G]el  [B7]A - [Em]migo eu [D]encont[G]rei",
+          "Fi[G]el [B7]A - [Em]migo eu [D]encont[G]rei",
           "Em C[C]risto, o Salva[G]dor;[D]...",
           "A[G]le[B7]gre[Em]mente eu c[D]anta[G]rei",
           "O S[C]eu sub[G]lime e g[A7]rande a[D]mor!"
@@ -40,7 +44,7 @@
         "text": [
           "Bem [G]lon[B7]ge es[Em]tava do m[D]eu Sen[G]hor,",
           "Sem p[C]az, sem salvaç[G]ão,[D]...",
-          "Mas [G]sinto[B7]  a[Em]gora o [D]doce a[G]mor",
+          "Mas [G]sinto[B7] a[Em]gora o [D]doce a[G]mor",
           "De C[C]risto, [G]em meu [A7]coraç[D]ão."
         ]
       },

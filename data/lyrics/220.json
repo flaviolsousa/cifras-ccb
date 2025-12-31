@@ -1,17 +1,21 @@
 {
+  "code": "220",
   "version": "v3",
   "title": "Cristo voltará",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "C7", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[C]Com poder e glória [C7]e total vi[F]tória,",
-          "[C]Cristo, sobre_as nuvens, [G]breve voltará;",
+          "[C]Cristo, sobre as nuvens, [G]breve voltará;",
           "[C]Oh! Que grande dia! [C7]Oh! Que ale[F]gria!",
           "[C]Para os fiéis o [G]pranto finda[C]rá."
         ]
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "[C]Cristo voltará, [F]Cristo volta[C]rá,",
-          "E a Sua_igreja [G]arrebatará;",
+          "E a Sua igreja [G]arrebatará;",
           "[C]E, então, no céu [F]a coroa[C]rá",
-          "Com a glória_eterna [G]que_Ele lhe da[C]rá."
+          "Com a glória eterna [G]que Ele lhe da[C]rá."
         ]
       },
       {
@@ -30,9 +34,9 @@
         "code": "2",
         "text": [
           "[C]Eis que se apressa [C7]a fiel pro[F]messa",
-          "[C]Do Senhor Jesus, que [G]breve_há de voltar;",
-          "[C]Quero nesse dia, [C7]cheio de_ale[F]gria,",
-          "[C]Juntamente_aos salvos, [G]Cristo encon[C]trar."
+          "[C]Do Senhor Jesus, que [G]breve há de voltar;",
+          "[C]Quero nesse dia, [C7]cheio de ale[F]gria,",
+          "[C]Juntamente aos salvos, [G]Cristo encon[C]trar."
         ]
       },
       {
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Sempre vigiando, [C7]contra_o mal lu[F]tando,",
+          "[C]Sempre vigiando, [C7]contra o mal lu[F]tando,",
           "[C]Vamos aguardar a [G]volta do Senhor;",
-          "[C]O que for achado [C7]servindo_ao pe[F]cado,",
+          "[C]O que for achado [C7]servindo ao pe[F]cado,",
           "[C]Não terá lugar nas [G]bodas de a[C]mor."
         ]
       },

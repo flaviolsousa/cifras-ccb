@@ -1,29 +1,33 @@
 {
+  "code": "216",
   "version": "v3",
   "title": "Irmãos, amemos ao Senhor",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Ir[D]mãos, amemos ao Senhor,", "Pois g[A]rande é Seu a[D]mor;", "Seu precioso sangue [G]derramou", "E [A]nossas almas la[D]vou."]
+        "text": ["Ir[C]mãos, amemos ao Senhor,", "Pois g[G]rande é Seu a[C]mor;", "Seu precioso sangue [F]derramou", "E [G]nossas almas la[C]vou."]
       },
       {
         "type": "chorus",
         "text": [
-          "Com [A7]toda_a nossa [D]devoção,",
-          "Com [E]toda_a força_e fer[A]vor,[A]...",
-          "Com [D]toda_a alma e_en[G]tendimento,",
-          "A[A]memos ao Sen[D]hor.[D]..."
+          "Com [G7]toda a nossa [C]devoção,",
+          "Com [D]toda a força e fer[G]vor,[G]...",
+          "Com [C]toda a alma e en[F]tendimento,",
+          "A[G]memos ao Sen[C]hor.[C]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Ir[D]mãos, amemos ao Senhor,", "Di[A]vino Ensina[D]dor,", "A perfeita Fonte [G]do saber,", "Que [A]faz na graça cres[D]cer."]
+        "text": ["Ir[C]mãos, amemos ao Senhor,", "Di[G]vino Ensina[C]dor,", "A perfeita Fonte [F]do saber,", "Que [G]faz na graça cres[C]cer."]
       },
       {
         "type": "ref",
@@ -32,7 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Ir[D]mãos, amemos ao Senhor,", "Au[A]tor e Consuma[D]dor", "Desta fé, que dá a [G]salvação", "E [A]celestial galar[D]dão."]
+        "text": ["Ir[C]mãos, amemos ao Senhor,", "Au[G]tor e Consuma[C]dor", "Desta fé, que dá a [F]salvação", "E [G]celestial galar[C]dão."]
       },
       {
         "type": "ref",

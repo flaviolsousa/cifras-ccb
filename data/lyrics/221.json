@@ -1,39 +1,43 @@
 {
+  "code": "221",
   "version": "v3",
   "title": "A descida do Espírito Santo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Reunidos se [A]encontravam [E]os discípulos [B]do Senhor;",
-          "[E]Com fervor eles [A]esperavam, [E]de Deus, [B]o Consola[E]dor.",
-          "[A]Eis que_um som, mui [E]de repente, [B]ecoar ou[E]viu-se lá dos céus,",
-          "[A]Qual um vento [E]veemente: [B]era_o_Espírito de [E]Deus."
+          "[D]Reunidos se [G]encontravam [D]os discípulos [A]do Senhor;",
+          "[D]Com fervor eles [G]esperavam, [D]de Deus, [A]o Consola[D]dor.",
+          "[G]Eis que um som, mui [D]de repente, [A]ecoar ou[D]viu-se lá dos céus,",
+          "[G]Qual um vento [D]veemente: [A]era o Espírito de [D]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Línguas, como de [A]fogo, viram [E]em si mesmos en[B]tão pousar;",
-          "[E]Sobre eles se [A]repartiram, [E]fazen[B]do-os a Deus lou[E]var.",
-          "[A]Em linguagens [E]diferentes, [B]começaram [E]a manifestar",
-          "[A]As grandezas [E]excelentes [B]que Deus Pai lhes fez pro[E]var."
+          "[D]Línguas, como de [G]fogo, viram [D]em si mesmos en[A]tão pousar;",
+          "[D]Sobre eles se [G]repartiram, [D]fazen[A]do-os a Deus lou[D]var.",
+          "[G]Em linguagens [D]diferentes, [A]começaram [D]a manifestar",
+          "[G]As grandezas [D]excelentes [A]que Deus Pai lhes fez pro[D]var."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]A Promessa é [A]feita_a tantos [E]quantos Deus, nosso [B]Pai, chamar;",
-          "[E]Com fervor, todos [A]os Seus santos [E]devem [B]os Seus dons bus[E]car.",
-          "[A]Se os homens, [E]aos seus filhos, [B]boas coisas [E]sabem ofertar,",
-          "[A]Muito mais o [E]Pai bendito, [B]aos que pedem, pode [E]dar."
+          "[D]A Promessa é [G]feita a tantos [D]quantos Deus, nosso [A]Pai, chamar;",
+          "[D]Com fervor, todos [G]os Seus santos [D]devem [A]os Seus dons bus[D]car.",
+          "[G]Se os homens, [D]aos seus filhos, [A]boas coisas [D]sabem ofertar,",
+          "[G]Muito mais o [D]Pai bendito, [A]aos que pedem, pode [D]dar."
         ]
       }
     ]

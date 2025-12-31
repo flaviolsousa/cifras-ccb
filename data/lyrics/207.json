@@ -1,24 +1,28 @@
 {
+  "code": "207",
   "version": "v3",
   "title": "Cristo é fiel",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[G]Fortes ventos [D]soprarão", "Contra_o crente_em D[G]eus;", "Temporais so[D]brevirão", "[A]Aos amados [D]Seus."]
+        "text": ["[G]Fortes ventos [D]soprarão", "Contra o crente em D[G]eus;", "Temporais so[D]brevirão", "[A]Aos amados [D]Seus."]
       },
       {
         "type": "chorus",
-        "text": ["[G]Cristo [E]é fi[Am]el,", "[D]Nunca falha[G]rá;", "[C]Ao Seu servo_a[G]ju - [E]rá", "[Am]E   [D]forças lhe da[G]rá."]
+        "text": ["[G]Cristo [E]é fi[Am]el,", "[D]Nunca falha[G]rá;", "[C]Ao Seu servo a[G]ju - [E]rá", "[Am]E [D]forças lhe da[G]rá."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[G]Incertezas [D]surgirão", "Para te_aba[G]ter,", "Mas não preva[D]lecerão,", "[A]Vais vitória [D]ter."]
+        "text": ["[G]Incertezas [D]surgirão", "Para te aba[G]ter,", "Mas não preva[D]lecerão,", "[A]Vais vitória [D]ter."]
       },
       {
         "type": "ref",
@@ -27,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[G]Horas de_amar[D]gor cruel", "Os remidos [G]têm,", "Mas o Guardi[D]ão fiel", "[A]Socorrê-los [D]vem."]
+        "text": ["[G]Horas de amar[D]gor cruel", "Os remidos [G]têm,", "Mas o Guardi[D]ão fiel", "[A]Socorrê-los [D]vem."]
       },
       {
         "type": "ref",

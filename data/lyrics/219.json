@@ -1,38 +1,42 @@
 {
+  "code": "219",
   "version": "v3",
   "title": "Novos céus nós aguardamos",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Novos céus nós aguardamos e nova terra tam[F#]bém;",
-          "Neles nós sempre pensamos, [F#7]neles está nosso [B]bem;",
-          "Por isso_es[F#]tamos ser[F#7]vin - [B]do a Deus, o Cria[E]dor;",
-          "[F°]Sua vontade cum[B]prindo, [C#7]veremos Seu esplen[F#]dor.[F#7]"
+          "[A]Novos céus nós aguardamos e nova terra tam[E]bém;",
+          "Neles nós sempre pensamos, [E7]neles está nosso [A]bem;",
+          "Por isso es[E]tamos ser[E7]vin - [A]do a Deus, o Cria[D]dor;",
+          "[Eb°]Sua vontade cum[A]prindo, [B7]veremos Seu esplen[E]dor.[E7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]No - [B°]vos [B]céus Deus, aos Seus fiéis, da[F#]rá;",
-          "[F#7]Nova terra, onde_a justiça_es[B]tá;",
-          "Em breve [F#7]volta o [B]Rei, Cristo Je[B7]sus, Se[E]nhor;",
-          "[F°]Firmes na graça se[B]jamos, firmes na [F#7]fé e no_a[B]mor."
+          "[A]No - [A°]vos [A]céus Deus, aos Seus fiéis, da[E]rá;",
+          "[E7]Nova terra, onde a justiça es[A]tá;",
+          "Em breve [E7]volta o [A]Rei, Cristo Je[A7]sus, Se[D]nhor;",
+          "[Eb°]Firmes na graça se[A]jamos, firmes na [E7]fé e no a[A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Pelo Espírito_andemos dentro da lei do bom [F#]Deus;",
-          "O coração inclinemos [F#7]para as coisas dos [B]céus;",
-          "Do mundo [F#]toda_a vai[F#7]da - [B]de devemos rejei[E]tar;",
-          "[F°]Temos de Deus uma_her[B]dade:[C#7] a terra que nos vai [F#]dar.[F#7]"
+          "[A]Pelo Espírito andemos dentro da lei do bom [E]Deus;",
+          "O coração inclinemos [E7]para as coisas dos [A]céus;",
+          "Do mundo [E]toda a vai[E7]da - [A]de devemos rejei[D]tar;",
+          "[Eb°]Temos de Deus uma her[A]dade:[B7] a terra que nos vai [E]dar.[E7]"
         ]
       },
       {

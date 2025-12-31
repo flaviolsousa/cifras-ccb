@@ -1,39 +1,43 @@
 {
+  "code": "213",
   "version": "v3",
   "title": "Quando vier do céu",
   "tone": {
-    "recommended": "E"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7", "D", "Bm", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Quando vier do céu [B7]Cristo Je[E]sus, o Rei,",
-          "O mundo de_ilu[C#m]são, ven[E]cido [B7]eu te[E]rei;",
-          "[B7]Repouso [E]celestial [A]e vida [E]eter[B7]nal",
-          "[E]Receberei de [C#m]Deus, a [E]Quem me [B7]consag[E]rei."
+          "[D]Quando vier do céu [A7]Cristo Je[D]sus, o Rei,",
+          "O mundo de ilu[Bm]são, ven[D]cido [A7]eu te[D]rei;",
+          "[A7]Repouso [D]celestial [G]e vida [D]eter[A7]nal",
+          "[D]Receberei de [Bm]Deus, a [D]Quem me [A7]consag[D]rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Consiste_o meu viver [B7]em agra[E]dar a Deus,",
-          "Em revestir-me_a[C#m]qui da [E]vida [B7]lá dos c[E]éus;",
-          "[B7]Unido [E]eu estou [A]a Cristo, [E]que me_a[B7]mou;",
-          "[E]Com sangue remi[C#m]dor pa[E]gou os [B7]erros m[E]eus."
+          "[D]Consiste o meu viver [A7]em agra[D]dar a Deus,",
+          "Em revestir-me a[Bm]qui da [D]vida [A7]lá dos c[D]éus;",
+          "[A7]Unido [D]eu estou [G]a Cristo, [D]que me a[A7]mou;",
+          "[D]Com sangue remi[Bm]dor pa[D]gou os [A7]erros m[D]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Bendito é_o Senhor, [B7]meu Reden[E]tor, Jesus,",
-          "Que, pelo Seu a[C#m]mor, à g[E]lória [B7]me con[E]duz;",
-          "[B7]O santo S[E]eu poder [A]aqui me [E]faz ven[B7]cer.",
-          "[E]Bendito é_o Se[C#m]nhor, que [E]é a [B7]minha [E]Luz."
+          "[D]Bendito é o Senhor, [A7]meu Reden[D]tor, Jesus,",
+          "Que, pelo Seu a[Bm]mor, à g[D]lória [A7]me con[D]duz;",
+          "[A7]O santo S[D]eu poder [G]aqui me [D]faz ven[A7]cer.",
+          "[D]Bendito é o Se[Bm]nhor, que [D]é a [A7]minha [D]Luz."
         ]
       }
     ]

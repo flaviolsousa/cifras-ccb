@@ -1,38 +1,42 @@
 {
+  "code": "222",
   "version": "v3",
   "title": "Brevemente virá o Senhor Jesus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E7", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Breve [B]voltará Jesus [F#7]Cristo,",
-          "Glorioso, com grande_esplen[B]dor;",
-          "Que_alegria será para [E]os fi[E]éis",
-          "Que a[B]guardam o [F#7]seu Reden[B]tor!"
+          "Breve [A]voltará Jesus [E7]Cristo,",
+          "Glorioso, com grande esplen[A]dor;",
+          "Que alegria será para [D]os fi[D]éis",
+          "Que a[A]guardam o [E7]seu Reden[A]tor!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Breve[F#7]mente virá o Sen[B]hor Jesus",
-          "Premi[F#7]ar, com o Seu galard[B]ão,",
-          "Os que fielmente a[E]guar[C#m]dam",
-          "Sua [B]gloriosa [F#7]apariç[B]ão."
+          "Breve[E7]mente virá o Sen[A]hor Jesus",
+          "Premi[E7]ar, com o Seu galard[A]ão,",
+          "Os que fielmente a[D]guar[Bm]dam",
+          "Sua [A]gloriosa [E7]apariç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Breve [B]voltará Jesus [F#7]Cristo,",
-          "Triunfante, com rijo cla[B]mor;",
-          "Levará os remidos, por [E]Seu po[E]der,",
-          "Para_o [B]reino de [F#7]paz e de_a[B]mor."
+          "Breve [A]voltará Jesus [E7]Cristo,",
+          "Triunfante, com rijo cla[A]mor;",
+          "Levará os remidos, por [D]Seu po[D]der,",
+          "Para o [A]reino de [E7]paz e de a[A]mor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Breve [B]voltará Jesus [F#7]Cristo,",
-          "Quando,_então, para nós surgi[B]rá",
-          "Nova_aurora do reino de_e[E]terna [E]luz,",
-          "Onde_o [B]justo res[F#7]plandece[B]rá."
+          "Breve [A]voltará Jesus [E7]Cristo,",
+          "Quando, então, para nós surgi[A]rá",
+          "Nova aurora do reino de e[D]terna [D]luz,",
+          "Onde o [A]justo res[E7]plandece[A]rá."
         ]
       },
       {

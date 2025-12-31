@@ -1,10 +1,14 @@
 {
+  "code": "202",
   "version": "v3",
   "title": "Em Ti me alegro, Senhor",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -46,7 +50,7 @@
           "Trans[D]borda de bênçãos meu [A]coração,",
           "Alegre me sinto em [D]Te louvar;",
           "Em prova, angústia ou [G]aflição,",
-          "A Tua pre[D]sença vem [A]me_aleg[D]rar.[D]..."
+          "A Tua pre[D]sença vem [A]me aleg[D]rar.[D]..."
         ]
       },
       {

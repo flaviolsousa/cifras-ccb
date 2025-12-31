@@ -1,38 +1,42 @@
 {
+  "code": "204",
   "version": "v3",
   "title": "Só Jesus é Amigo verdadeiro",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Contar[D]ei a todos a real gran[A]deza,",
-          "A vir[A7]tude recebida do Sen[D]hor:",
-          "Transformou a minha [D7]vida de tris[G]teza",
-          "Em a[Bm7]legre vida, c[E7]heia de a[A]mor."
+          "Contar[C]ei a todos a real gran[G]deza,",
+          "A vir[G7]tude recebida do Sen[C]hor:",
+          "Transformou a minha [C7]vida de tris[F]teza",
+          "Em a[Am7]legre vida, c[D7]heia de a[G]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Só Jes[A]us é Amigo verda[D]deiro,",
-          "Conser[A]var desejo Seu a[D]mor;",
-          "Por minh´alma deu a [D7]vida no ma[G]deiro;",
-          "G[D]lória, glória ao [A]Salva[D]dor!"
+          "Só Jes[G]us é Amigo verda[C]deiro,",
+          "Conser[G]var desejo Seu a[C]mor;",
+          "Por minh´alma deu a [C7]vida no ma[F]deiro;",
+          "G[C]lória, glória ao [G]Salva[C]dor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Eu jam[D]ais me esquecerei do amor sin[A]cero",
-          "Que o Sen[A7]hor manifestou por mim, na c[D]ruz;",
-          "No meu coração, sen[D7]ti-lo sempre q[G]uero,",
-          "Pois é [Bm7]esse o a[E7]mor que ao céu cond[A]uz."
+          "Eu jam[C]ais me esquecerei do amor sin[G]cero",
+          "Que o Sen[G7]hor manifestou por mim, na c[C]ruz;",
+          "No meu coração, sen[C7]ti-lo sempre q[F]uero,",
+          "Pois é [Am7]esse o a[D7]mor que ao céu cond[G]uz."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Não e[D]xiste amor maior que o de C[A]risto,",
-          "Não e[A7]xiste outro amigo tão fi[D]el;",
-          "Um sublime amor a[D7]ssim jamais foi v[G]isto,",
-          "A não [Bm7]ser em Jesus C[E7]risto, Emanu[A]el."
+          "Não e[C]xiste amor maior que o de C[G]risto,",
+          "Não e[G7]xiste outro amigo tão fi[C]el;",
+          "Um sublime amor a[C7]ssim jamais foi v[F]isto,",
+          "A não [Am7]ser em Jesus C[D7]risto, Emanu[G]el."
         ]
       },
       {

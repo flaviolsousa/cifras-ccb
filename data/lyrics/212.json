@@ -1,40 +1,44 @@
 {
+  "code": "212",
   "version": "v3",
   "title": "Testemunhas verazes nós somos",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "D°", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Teste[E]munhas ve[B7]razes nós [E]somos",
-          "Do que Cristo_em [E°]nós ope[E]rou;",
-          "Seus [A]passos a[B7]gora se[E]guimos,",
-          "Pois [C#m]Cristo Je[F#]sus nos [B7]transformou,",
-          "Sim, [E]Ele nos [F#]transfor[B7]mou."
+          "Teste[D]munhas ve[A7]razes nós [D]somos",
+          "Do que Cristo em [D°]nós ope[D]rou;",
+          "Seus [G]passos a[A7]gora se[D]guimos,",
+          "Pois [Bm]Cristo Je[E]sus nos [A7]transformou,",
+          "Sim, [D]Ele nos [E]transfor[A7]mou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Eis que_as [E]trevas já são pas[A]sadas,",
-          "Veio_o [B7]dia com esplen[E]dor;",
-          "Che[C#m]gado_é_o [A]reino de [E]Deus a [C#m]nós,",
-          "O [E]reino de [B7]luz e_a[E]mor."
+          "Eis que as [D]trevas já são pas[G]sadas,",
+          "Veio o [A7]dia com esplen[D]dor;",
+          "Che[Bm]gado é o [G]reino de [D]Deus a [Bm]nós,",
+          "O [D]reino de [A7]luz e a[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Escon[E]der não de[B7]vemos, do [E]mundo,",
-          "Nossa fé em [E°]Cristo Je[E]sus;",
-          "A[A]mor celes[B7]tial e pro[E]fundo",
-          "O [C#m]Justo mos[F#]trou por [B7]nós na cruz,",
-          "Sim, [E]Cristo mos[F#]trou na [B7]cruz."
+          "Escon[D]der não de[A7]vemos, do [D]mundo,",
+          "Nossa fé em [D°]Cristo Je[D]sus;",
+          "A[G]mor celes[A7]tial e pro[D]fundo",
+          "O [Bm]Justo mos[E]trou por [A7]nós na cruz,",
+          "Sim, [D]Cristo mos[E]trou na [A7]cruz."
         ]
       },
       {
@@ -45,11 +49,11 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "O_Evan[E]gelho da [B7]graça di[E]vina",
-          "Sobre_a terra_ou[E°]vido se[E]rá;",
-          "Por [A]Sua ce[B7]leste dou[E]trina,",
-          "Os [C#m]homens, Je[F#]sus con[B7]verterá,",
-          "Sim, [E]Ele_os con[F#]verte[B7]rá."
+          "O Evan[D]gelho da [A7]graça di[D]vina",
+          "Sobre a terra ou[D°]vido se[D]rá;",
+          "Por [G]Sua ce[A7]leste dou[D]trina,",
+          "Os [Bm]homens, Je[E]sus con[A7]verterá,",
+          "Sim, [D]Ele os con[E]verte[A7]rá."
         ]
       },
       {

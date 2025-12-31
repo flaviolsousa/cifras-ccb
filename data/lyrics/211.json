@@ -1,19 +1,23 @@
 {
+  "code": "211",
   "version": "v3",
   "title": "O Senhor Jesus passava...",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O Sen[C]hor Jesus passava, com Ele [F]ia_a multi[C]dão;",
-          "Eis que_um [G]cego, junto_ao ca[C]minho, espe[G]rava por compai[C]xão;",
-          "E ouvindo [F]que se fa[C]lava sobre_o nome [G]de Jesus,",
-          "[C]Levantou-se_e [F]foi ao bom [C]Mestre para rece[G]ber a l[C]uz."
+          "O Sen[C]hor Jesus passava, com Ele [F]ia a multi[C]dão;",
+          "Eis que um [G]cego, junto ao ca[C]minho, espe[G]rava por compai[C]xão;",
+          "E ouvindo [F]que se fa[C]lava sobre o nome [G]de Jesus,",
+          "[C]Levantou-se e [F]foi ao bom [C]Mestre para rece[G]ber a l[C]uz."
         ]
       },
       {
@@ -22,7 +26,7 @@
         "text": [
           "A Pa[C]lavra virtuosa, tão espe[F]rada, escu[C]tou;",
           "A vi[G]são lhe foi restau[C]rada e, por [G]fé, também se sal[C]vou;",
-          "Libertado [F]por Jesus [C]Cristo, dava glória_ao [G]grande Deus;",
+          "Libertado [F]por Jesus [C]Cristo, dava glória ao [G]grande Deus;",
           "[C]Exaltou o [F]Mestre di[C]vino e seguiu os [G]passos S[C]eus."
         ]
       },
@@ -30,7 +34,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Jesus [C]Cristo é o mesmo, entre_os fi[F]éis também es[C]tá,",
+          "Jesus [C]Cristo é o mesmo, entre os fi[F]éis também es[C]tá,",
           "E, quem [G]crer, verá Sua [C]glória; Seu fa[G]vor, por certo, te[C]rá.",
           "Ele é a [F]Luz preci[C]osa que, dos céus, Deus [G]enviou;",
           "[C]Quem em trevas [F]se encon[C]trava, essa Luz i[G]lumi[C]nou."

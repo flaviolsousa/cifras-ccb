@@ -1,20 +1,19 @@
 {
+  "code": "203",
   "version": "v3",
   "title": "O meu vero Amigo é Jesus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Jes[D]us é meu vero A[A]migo",
-          "E jamais me deixa[D]rá,",
-          "Pois, quando estiver em pe[G]rigo,",
-          "Sua m[A]ão me livra[D]rá."
-        ]
+        "text": ["Jes[D]us é meu vero A[A]migo", "E jamais me deixa[D]rá,", "Pois, quando estiver em pe[G]rigo,", "Sua m[A]ão me livra[D]rá."]
       },
       {
         "type": "chorus",
@@ -28,12 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "A[D]migo fiel e bon[A]doso,",
-          "Em Jesus eu encont[D]rei;",
-          "Em Seu doce amor, glori[G]oso,",
-          "Sempre [A]me deleitar[D]ei."
-        ]
+        "text": ["A[D]migo fiel e bon[A]doso,", "Em Jesus eu encont[D]rei;", "Em Seu doce amor, glori[G]oso,", "Sempre [A]me deleitar[D]ei."]
       },
       {
         "type": "ref",
@@ -42,12 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Por C[D]risto estou prote[A]gido",
-          "Na angústia ou na d[D]or;",
-          "E, quando me sinto aba[G]tido,",
-          "É ver[A]az Consola[D]dor."
-        ]
+        "text": ["Por C[D]risto estou prote[A]gido", "Na angústia ou na d[D]or;", "E, quando me sinto aba[G]tido,", "É ver[A]az Consola[D]dor."]
       },
       {
         "type": "ref",

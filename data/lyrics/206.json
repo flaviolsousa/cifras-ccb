@@ -1,38 +1,37 @@
 {
+  "code": "206",
   "version": "v3",
   "title": "Tu és o Amigo",
   "tone": {
-    "recommended": "E"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A7", "D", "B7", "Em", "E7", "A7"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[.]Tu [B7]és o A[E]migo sin[C#7]cero_e le[F#m]al",
-          "[F#7]Dos  [B7]que Te adoram, Sen[E]hor;",
-          "Tu [B7]sempre_os pro[E]teges e_os [C#7]livras do [F#m]mal,",
-          "Por [E]Tua Pa[F#7]lavra de_a[B7]mor."
+          "Tu [A7]és o A[D]migo sin[B7]cero e le[Em]al",
+          "[E7]Dos [A7]que Te adoram, Sen[D]hor;",
+          "Tu [A7]sempre os pro[D]teges e os [B7]livras do [Em]mal,",
+          "Por [D]Tua Pa[E7]lavra de a[A7]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Com Teu poder, Senhor,",
-          "[B7]Sempre [E]guardas",
-          "As nossas [F#m]almas no [E]Teu grande_a[A]mor,",
-          "[B7]Ó Jesus, Reden[E]tor."
-        ]
+        "text": ["[D]Com Teu poder, Senhor,", "[A7]Sempre [D]guardas", "As nossas [Em]almas no [D]Teu grande a[G]mor,", "[A7]Ó Jesus, Reden[D]tor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[.]És [B7]sempre fi[E]el, ó Je[C#7]sus Salva[F#m]dor,",
-          "[F#7]Do   [B7]céu nos trouxeste a l[E]uz;",
-          "So[B7]freste, por [E]nós, amar[C#7]gura e [F#m]dor,",
-          "No [E]duro ma[F#7]deiro da [B7]cruz."
+          "És [A7]sempre fi[D]el, ó Je[B7]sus Salva[Em]dor,",
+          "[E7]Do [A7]céu nos trouxeste a l[D]uz;",
+          "So[A7]freste, por [D]nós, amar[B7]gura e [Em]dor,",
+          "No [D]duro ma[E7]deiro da [A7]cruz."
         ]
       },
       {
@@ -43,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[.]Por [B7]Ti, ó Je[E]sus, temos [C#7]vida_eter[F#m]nal,",
-          "[F#7]Tam - [B7]bém as riquezas re[E]ais,",
-          "As [B7]quais nos da[E]rás no Teu [C#7]lar celesti[F#m]al,",
-          "Se [E]formos, em [F#7]tudo, le[B7]ais."
+          "Por [A7]Ti, ó Je[D]sus, temos [B7]vida eter[Em]nal,",
+          "[E7]Tam - [A7]bém as riquezas re[D]ais,",
+          "As [A7]quais nos da[D]rás no Teu [B7]lar celesti[Em]al,",
+          "Se [D]formos, em [E7]tudo, le[A7]ais."
         ]
       },
       {

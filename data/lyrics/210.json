@@ -1,39 +1,43 @@
 {
+  "code": "210",
   "version": "v3",
   "title": "Grandes promessas",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Quão grandes pro[B]messas fez [E]Cristo, nosso [B]Reden[E]tor;",
-          "[A]Crendo, parti[E]ciparei com os [B]santos no [E]reino de_a[B]mor;",
-          "[E]Temos em Je[B]sus, o Rei, [E]santo e_eter[E7]nal po[A]der",
-          "Para que os [E]Seus fiéis possam [B]todo_o mal ven[E]cer."
+          "[D]Quão grandes pro[A]messas fez [D]Cristo, nosso [A]Reden[D]tor;",
+          "[G]Crendo, parti[D]ciparei com os [A]santos no [D]reino de a[A]mor;",
+          "[D]Temos em Je[A]sus, o Rei, [D]santo e eter[D7]nal po[G]der",
+          "Para que os [D]Seus fiéis possam [A]todo o mal ven[D]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Cristo nos pro[B]mete dar [E]vida eter[B]nal nos c[E]éus",
-          "[A]E galardo[E]ar, ao fim, todos [B]os fiéis [E]servos de D[B]eus.",
-          "[E]Creio no meu [B]Salvador, [E]justo e fi[E7]el Ju[A]iz.",
-          "Ele me fa[E]rá, no céu, mui di[B]toso_e mui fe[E]liz."
+          "[D]Cristo nos pro[A]mete dar [D]vida eter[A]nal nos c[D]éus",
+          "[G]E galardo[D]ar, ao fim, todos [A]os fiéis [D]servos de D[A]eus.",
+          "[D]Creio no meu [A]Salvador, [D]justo e fi[D7]el Ju[G]iz.",
+          "Ele me fa[D]rá, no céu, mui di[A]toso e mui fe[D]liz."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Modelo per[B]feito é, [E]o santo_e fi[B]el Je[E]sus;",
-          "[A]Vida que i[E]mitarei, cami[B]nhando na [E]senda de [B]luz;",
-          "[E]Tenho, por Je[B]sus, no céu, [E]parte com o [E7]Cria[A]dor",
-          "E,_em santa a[E]doração, esta[B]rei com meu Sen[E]hor."
+          "[D]Modelo per[A]feito é, [D]o santo e fi[A]el Je[D]sus;",
+          "[G]Vida que i[D]mitarei, cami[A]nhando na [D]senda de [A]luz;",
+          "[D]Tenho, por Je[A]sus, no céu, [D]parte com o [D7]Cria[G]dor",
+          "E, em santa a[D]doração, esta[A]rei com meu Sen[D]hor."
         ]
       }
     ]

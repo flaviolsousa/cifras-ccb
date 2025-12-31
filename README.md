@@ -49,6 +49,11 @@
 - ☐ Add more themes, including high-contrast mode for accessibility
 - ☐ Create social group (e.g., WhatsApp) for community support
 - ☐ Support for other instruments (e.g., Ukulele, Viola Caipira, Piano)
+- ☐ Allow tone markers to use other colors (green, blue, purple, etc.), not only red
+- ☐ Add category filter (Jovens, Batismo ou Santa Seia, Oração, Palavra, Testemunho, Abertura, Encerramento)
+- ☐ Add preference for notes font size (two options: Large or Small)
+- ☐ Display the selected speed in the ScoreDetail.Velocidade field
+- ☐ Make the difficulty level dynamic according to the selected tone key
 
 ## Start
 

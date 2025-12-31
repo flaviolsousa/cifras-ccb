@@ -1,10 +1,14 @@
 {
+  "code": "209",
   "version": "v3",
   "title": "Oh! Marchai, soldados",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "A", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -30,7 +34,7 @@
         "code": "2",
         "text": [
           "[G]Oh! Marchai, soldados, sois de Cristo!",
-          "[C]A tor[G]menta [A]tendes que_enfren[D]tar,",
+          "[C]A tor[G]menta [A]tendes que enfren[D]tar,",
           "[G]Mas, bem firmes e sem duvi[C]dar,",
           "Resisti[G]reis sem nunca [D]vaci[G]lar."
         ]

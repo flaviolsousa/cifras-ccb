@@ -1,19 +1,23 @@
 {
+  "code": "201",
   "version": "v3",
   "title": "Deus nos guarde...",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Deus nos guarde em Seu [G]santo_a[C]mor.",
+          "[C]Deus nos guarde em Seu [G]santo a[C]mor.",
           "[F]O Seu Nome louvare[C]mos",
           "[G]Onde quer que nos ac[C]hemos.",
-          "Deus nos guarde em Seu [G]santo_a[C]mor."
+          "Deus nos guarde em Seu [G]santo a[C]mor."
         ]
       },
       {
@@ -21,18 +25,18 @@
         "text": [
           "Ao vol[C]tar Jesus, esta[F]remos",
           "Livres [C]de qualquer condena[G]ção;",
-          "Junto_aos [C]santos nós reina[F]remos;",
-          "Que per[C]feita_e santa [G]uni[C]ão!"
+          "Junto aos [C]santos nós reina[F]remos;",
+          "Que per[C]feita e santa [G]uni[C]ão!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Deus nos guarde_em santi[G]ficaç[C]ão",
+          "[C]Deus nos guarde em santi[G]ficaç[C]ão",
           "[F]Nos perigos da jorna[C]da,",
-          "[G]Dentro_em breve termi[C]nada;",
-          "Deus nos guarde_em santi[G]ficaç[C]ão."
+          "[G]Dentro em breve termi[C]nada;",
+          "Deus nos guarde em santi[G]ficaç[C]ão."
         ]
       },
       {
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "[C]Deus nos guarde com a [G]Sua p[C]az",
-          "[F]Para,_em comunhão, viver[C]mos",
+          "[F]Para, em comunhão, viver[C]mos",
           "[G]E ao fim perfeitos [C]sermos;",
           "Deus nos guarde com a [G]Sua p[C]az."
         ]

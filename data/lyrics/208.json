@@ -1,10 +1,14 @@
 {
+  "code": "208",
   "version": "v3",
   "title": "Conserva a paz, ó minha alma",
   "tone": {
-    "recommended": "E"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F#m", "B7", "E", "F#m"],
     "stanzas": [
       {
         "type": "lyric",
