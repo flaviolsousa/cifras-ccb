@@ -1,38 +1,42 @@
 {
+  "code": "233",
   "version": "v3",
   "title": "Avante, santos e fiéis de Deus",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G7", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]A  -  [G7]vante, santos e fi[C]éis de Deus,",
+          "[C]A - [G7]vante, santos e fi[C]éis de Deus,",
           "Até o [G]fim, até ven[C]cer,",
-          "Pois Ele_as forças mandará dos céus;",
-          "É [D]sem limite_o Seu po[G]der."
+          "Pois Ele as forças mandará dos céus;",
+          "É [D]sem limite o Seu po[G]der."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "Vamos mar[C]char por fé, vamos seguir Jesus,",
-          "Pois à [G]frente Ele_está e à [C]glória nos conduz;",
+          "Pois à [G]frente Ele está e à [C]glória nos conduz;",
           "Junto a Deus, nos [C7]céus, o galar[F]dão sem [C]par",
-          "Breve_iremos [G]desfru[C]tar."
+          "Breve iremos [G]desfru[C]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]A  -  [G7]vante com celesti[C]al valor;",
+          "[C]A - [G7]vante com celesti[C]al valor;",
           "Os dons de [G]Deus não falta[C]rão;",
-          "Em nós se manifestará_o Senhor",
-          "Du[D]rante_a peregrina[G]ção."
+          "Em nós se manifestará o Senhor",
+          "Du[D]rante a peregrina[G]ção."
         ]
       },
       {
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Com   [G7]fé em Deus e no Se[C]nhor Jesus,",
+          "[C]Com [G7]fé em Deus e no Se[C]nhor Jesus,",
           "Sinais dos [G]céus iremos [C]ver;",
-          "Tomando cada dia_a nossa cruz,",
+          "Tomando cada dia a nossa cruz,",
           "Si[D]gamos Quem nos faz ven[G]cer."
         ]
       },

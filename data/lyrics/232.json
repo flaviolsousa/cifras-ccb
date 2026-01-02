@@ -1,10 +1,14 @@
 {
+  "code": "232",
   "version": "v3",
   "title": "Seguro estou...",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

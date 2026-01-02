@@ -1,10 +1,14 @@
 {
+  "code": "228",
   "version": "v3",
   "title": "Salvação! Salvação!",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,7 +17,7 @@
           "Vem do [G]céu alegre som: Salvação! Salva[D]ção!",
           "Só em [G]Cristo há perdão. Salva[D]ção! Salva[G]ção!",
           "Paz e [C]graça proclamar vão os [G]servos do Se[D]nhor",
-          "Pelo [G]ar, por terra_e [C]mar. [G]Salva[D]ção! Salva[G]ção!"
+          "Pelo [G]ar, por terra e [C]mar. [G]Salva[D]ção! Salva[G]ção!"
         ]
       },
       {
@@ -21,19 +25,19 @@
         "code": "2",
         "text": [
           "Anun[G]ciemos sem cessar: Salvação! Salva[D]ção!",
-          "Que_ale[G]gria em pensar! Salva[D]ção! Salva[G]ção!",
-          "Só no [C]sangue do Senhor, derra[G]mado sobre_a [D]cruz,",
-          "Tem res[G]gate_o peca[C]dor. [G]Salva[D]ção! Salva[G]ção!"
+          "Que ale[G]gria em pensar! Salva[D]ção! Salva[G]ção!",
+          "Só no [C]sangue do Senhor, derra[G]mado sobre a [D]cruz,",
+          "Tem res[G]gate o peca[C]dor. [G]Salva[D]ção! Salva[G]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Do pe[G]cado_e maldição, salvo_estou, salvo_es[D]tou!",
-          "Rece[G]bi, de Deus, perdão. Salvo_es[D]tou! Salvo_es[G]tou!",
-          "Mesmo_à [C]hora de_expirar, senti[G]rei a salva[D]ção,",
-          "Pois no [G]céu vou habi[C]tar, [G]Salvo_es[D]tou! Salvo_es[G]tou!"
+          "Do pe[G]cado e maldição, salvo estou, salvo es[D]tou!",
+          "Rece[G]bi, de Deus, perdão. Salvo es[D]tou! Salvo es[G]tou!",
+          "Mesmo à [C]hora de expirar, senti[G]rei a salva[D]ção,",
+          "Pois no [G]céu vou habi[C]tar, [G]Salvo es[D]tou! Salvo es[G]tou!"
         ]
       }
     ]

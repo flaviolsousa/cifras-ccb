@@ -1,17 +1,21 @@
 {
+  "code": "224",
   "version": "v3",
   "title": "Só Jesus concede paz e salvação",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "D", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[C]Quem, disposto, segue ao Senhor Jesus,",
-          "[F]Com virtude_e [C]força [D]leva_a sua [G]cruz;",
+          "[F]Com virtude e [C]força [D]leva a sua [G]cruz;",
           "[G7]Tem poder di[C]vino [Am]em seu [F]cora[E]ção,",
           "[C]Não será ven[F]ci - [D]do [G7]pela tenta[C]ção."
         ]
@@ -20,7 +24,7 @@
         "type": "chorus",
         "text": [
           "[G]Só Jesus concede paz e salvação,",
-          "E, na glória_eterna, [D]grande galar[G7]dão;",
+          "E, na glória eterna, [D]grande galar[G7]dão;",
           "[C]Quem também deseja ir com Deus morar,",
           "[F]Sente que, a [C]Cristo, [G7]deve acei[C]tar."
         ]
@@ -30,7 +34,7 @@
         "code": "2",
         "text": [
           "[C]Todos os casados, vinde ao Senhor,",
-          "[F]Vinde sem de[C]mora, [D]Ele_é_o Salva[G]dor;",
+          "[F]Vinde sem de[C]mora, [D]Ele é o Salva[G]dor;",
           "[G7]E dizei a [C]Cristo, [Am]com sa[F]tisfa[E]ção:",
           "[C]“Nós Te consa[F]gra[D]mos [G7]nosso cora[C]ção.”"
         ]
@@ -44,9 +48,9 @@
         "code": "3",
         "text": [
           "[C]Com a nova vida no Senhor Jesus",
-          "[F]Mostrareis ao [C]mundo q[D]ue_Ele é a [G]Luz;",
-          "[G7]Seja_a vossa [C]obra [Am]um lou[F]vor a [E]Deus,",
-          "[C]E a vida_e[F]ter[D]na [G7]vós tereis nos [C]céus."
+          "[F]Mostrareis ao [C]mundo q[D]ue Ele é a [G]Luz;",
+          "[G7]Seja a vossa [C]obra [Am]um lou[F]vor a [E]Deus,",
+          "[C]E a vida e[F]ter[D]na [G7]vós tereis nos [C]céus."
         ]
       },
       {

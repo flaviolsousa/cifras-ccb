@@ -1,20 +1,19 @@
 {
+  "code": "223",
   "version": "v3",
   "title": "Muitos, por fé, aceitaram Jesus",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "Bb", "F", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[F]Muitos, por fé, acei[Bb]taram Je[F]sus",
-          "[C7]E_alcançaram [F]salvação;",
-          "O pecador que re[Bb]cebe a [F]Luz",
-          "[C]Tem perdão."
-        ]
+        "text": ["[F]Muitos, por fé, acei[Bb]taram Je[F]sus", "[C7]E alcançaram [F]salvação;", "O pecador que re[Bb]cebe a [F]Luz", "[C]Tem perdão."]
       },
       {
         "type": "chorus",
@@ -30,7 +29,7 @@
         "code": "2",
         "text": [
           "[F]Muitos já trilham a [Bb]senda do [F]bem;",
-          "[C7]Sobre_o mal vão [F]triunfar;",
+          "[C7]Sobre o mal vão [F]triunfar;",
           "Deves juntar-te a [Bb]eles tam[F]bém",
           "[C]Sem tardar."
         ]
@@ -43,7 +42,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Muitos aguardam a [Bb]vida_eter[F]nal",
+          "[F]Muitos aguardam a [Bb]vida eter[F]nal",
           "[C7]Para descan[F]sar nos céus;",
           "Crê em Jesus, o A[Bb]migo le[F]al;",
           "[C]Crê em Deus."

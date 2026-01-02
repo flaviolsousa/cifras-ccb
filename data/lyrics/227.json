@@ -1,10 +1,14 @@
 {
+  "code": "227",
   "version": "v3",
   "title": "Procuras tu ao Salvador?",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,8 +17,8 @@
           "Procuras [G]tu ao Salvador,",
           "Que dá a bem-aventu[D]ran[G]ça?",
           "Qual é a [D]tua [G]confiança",
-          "Aqui no [D]mundo_enagna[G]dor?",
-          "Em Cristo tens a [D]vida, tens a [G]força e_o fa[D]vor.",
+          "Aqui no [D]mundo enagna[G]dor?",
+          "Em Cristo tens a [D]vida, tens a [G]força e o fa[D]vor.",
           "O [G]santo Redentor",
           "Será a tua Segu[D]ran[G]ça."
         ]
@@ -25,24 +29,24 @@
         "text": [
           "A Cristo [G]vem, sem duvidar,",
           "Vem dar os teus primeiros [D]pas[G]sos;",
-          "Jesus re[D]move_os [G]embaraços,",
+          "Jesus re[D]move os [G]embaraços,",
           "Perdão e [D]vida quer te [G]dar,",
           "É Cristo Quem te [D]salva, faz de [G]ti um vence[D]dor.",
-          "De[G]seja,_o Redentor,",
-          "Manter contigo_eternos [D]la - [G]ços."
+          "De[G]seja, o Redentor,",
+          "Manter contigo eternos [D]la - [G]ços."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Findano_a [G]peregrinação,",
-          "Terás com Ele_eterna [D]vi - [G]da;",
+          "Findano a [G]peregrinação,",
+          "Terás com Ele eterna [D]vi - [G]da;",
           "Jesus a[D]qui te [G]dá guarida",
           "E lá no [D]céu o galar[G]dão.",
-          "É Cristo Fonte_e[D]terna de vir[G]tude e de [D]fé.",
+          "É Cristo Fonte e[D]terna de vir[G]tude e de [D]fé.",
           "Po[G]tente Ele é",
-          "E te socorre_em toda_a [D]li - [G]da."
+          "E te socorre em toda a [D]li - [G]da."
         ]
       }
     ]

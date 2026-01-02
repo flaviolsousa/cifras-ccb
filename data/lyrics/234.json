@@ -1,32 +1,30 @@
 {
+  "code": "234",
   "version": "v3",
   "title": "O meu ser entrego a Cristo",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[D]O meu ser en[A7]trego_a Cristo, [D]d´Ele sempre [A7]eu se[D]rei;",
-          "Ele é o [A7]sábio Mestre, [D]só a Ele [A7]ouvi[D]rei."
-        ]
+        "text": ["[D]O meu ser en[A7]trego a Cristo, [D]d´Ele sempre [A7]eu se[D]rei;", "Ele é o [A7]sábio Mestre, [D]só a Ele [A7]ouvi[D]rei."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Cristo me sal[Em]vou [A7]e me perdo[D]ou;",
-          "O meu ser a Ele_en[G]trego, [A7]servo d´Ele [D]sou."
-        ]
+        "text": ["[D]Cristo me sal[Em]vou [A7]e me perdo[D]ou;", "O meu ser a Ele en[G]trego, [A7]servo d´Ele [D]sou."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]O meu ser en[A7]trego_a Cristo, [D]sempre_a Ele [A7]ama - [D]rei;",
-          "Cristo é_o Pas[A7]tor celeste, [D]n´Ele me de[A7]leita[D]rei."
+          "[D]O meu ser en[A7]trego a Cristo, [D]sempre a Ele [A7]ama - [D]rei;",
+          "Cristo é o Pas[A7]tor celeste, [D]n´Ele me de[A7]leita[D]rei."
         ]
       },
       {
@@ -37,8 +35,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]O meu ser en[A7]trego_a Cristo, [D]perto d´Ele [A7]quero_es[D]tar;",
-          "Seu poder é [A7]infinito [D]para,_à glória, [A7]me le[D]var."
+          "[D]O meu ser en[A7]trego a Cristo, [D]perto d´Ele [A7]quero es[D]tar;",
+          "Seu poder é [A7]infinito [D]para, à glória, [A7]me le[D]var."
         ]
       },
       {

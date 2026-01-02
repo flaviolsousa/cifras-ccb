@@ -1,17 +1,21 @@
 {
+  "code": "230",
   "version": "v3",
   "title": "A Ti rendemos graças",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D7", "G", "D", "Em", "A", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "A [G]Ti rendemos [D7]graças, majestoso Cria[G]dor,",
-          "Findando este culto de louvor a Ti, [D]ó  [Em]Deus [A]Forma[D]dor;",
+          "Findando este culto de louvor a Ti, [D]ó [Em]Deus [A]Forma[D]dor;",
           "As [G]nossas forças [D7]foram renovadas [G]por [C]Teu [D]bom Consola[G]dor."
         ]
       },
@@ -19,8 +23,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[G]hor, com Tua_a[D7]juda, desejamos aten[G]der",
-          "A tudo_o que, por Tua sã Palavra, nos [D]fi-[Em]zes-[A]te sa[D]ber,",
+          "Sen[G]hor, com Tua a[D7]juda, desejamos aten[G]der",
+          "A tudo o que, por Tua sã Palavra, nos [D]fi-[Em]zes-[A]te sa[D]ber,",
           "Pois [G]nós queremos, [D7]sobre esta terra, [G]sem[C]pre [D]mais resplande[G]cer."
         ]
       },
@@ -29,7 +33,7 @@
         "code": "3",
         "text": [
           "Des[G]pede-os em [D7]paz da Tua casa, ó Sen[G]hor,",
-          "Levando_em nossos corações as bênçãos do [D]Teu [Em]gran[A]de a[D]mor;",
+          "Levando em nossos corações as bênçãos do [D]Teu [Em]gran[A]de a[D]mor;",
           "A[G]gradecido, [D7]nós Te tributamos [G]hon[C]ra, [D]glória e lou[G]vor."
         ]
       }

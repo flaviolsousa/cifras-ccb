@@ -1,38 +1,42 @@
 {
+  "code": "225",
   "version": "v3",
   "title": "Senhor, com Tua voz me chamas",
   "tone": {
-    "recommended": "E"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[E]hor, com Tua voz me chamas,",
-          "Os T[A]eus caminhos me en[E]sinas;",
-          "Eu [B7]sei, Senhor, que Tu me a[E]mas",
-          "Com [F#m]Teu a[B7]mor celesti[E]al."
+          "Sen[D]hor, com Tua voz me chamas,",
+          "Os T[G]eus caminhos me en[D]sinas;",
+          "Eu [A7]sei, Senhor, que Tu me a[D]mas",
+          "Com [Em]Teu a[A7]mor celesti[D]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Oh! Que [F#7]voz tão preci[B]osa",
-          "É [F#7]Tua voz, ó Cria[B]dor[B7],",
-          "Meiga, santa e pode[E]rosa,",
-          "Que [F#m]me  a[B7]legra, ó Sen[E]hor."
+          "[A]Oh! Que [E7]voz tão preci[A]osa",
+          "É [E7]Tua voz, ó Cria[A]dor[A7],",
+          "Meiga, santa e pode[D]rosa,",
+          "Que [Em]me a[A7]legra, ó Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[E]hor, a Tua voz sublime",
-          "Me t[A]raz conforto e rego[E]zijo,",
-          "E, q[B7]uando a angústia me op[E]rime,",
-          "É [F#m]bálsa[B7]mo consola[E]dor."
+          "Sen[D]hor, a Tua voz sublime",
+          "Me t[G]raz conforto e rego[D]zijo,",
+          "E, q[A7]uando a angústia me op[D]rime,",
+          "É [Em]bálsa[A7]mo consola[D]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[E]hor, a Tua voz potente,",
-          "Que f[A]az cessar a tempes[E]tade",
-          "E [B7]que apaga o fogo ar[E]dente,",
-          "Me [F#m]guia[B7]rá até o c[E]éu."
+          "Sen[D]hor, a Tua voz potente,",
+          "Que f[G]az cessar a tempes[D]tade",
+          "E [A7]que apaga o fogo ar[D]dente,",
+          "Me [Em]guia[A7]rá até o c[D]éu."
         ]
       },
       {
