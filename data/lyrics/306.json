@@ -1,10 +1,14 @@
 {
+  "code": "306",
   "version": "v3",
   "title": "Bendizei ao Altíssimo Deus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +16,7 @@
         "text": [
           "Na [G]alma do justo há [D]voz de lou[G]vor",
           "A [C]Deus e a [G]Cristo, fi[A]el Remi[D]dor;",
-          "Há [G]voz de_alegria, há [D]exaltaç[G]ão;",
+          "Há [G]voz de alegria, há [D]exaltaç[G]ão;",
           "Seu [C]cálix trans[G]borda de [D]consolaç[G]ão."
         ]
       },
@@ -20,7 +24,7 @@
         "type": "chorus",
         "text": [
           "Bendi[G]zei, bendizei ao Altíssimo [D]Deus,",
-          "Deus de_amor, Deus de paz,",
+          "Deus de amor, Deus de paz,",
           "Que man[G]dou lá dos céus",
           "O santo Cordeiro, fi[D]el Reden[G]tor,",
           "A [C]nossa Jus[G]tiça, Je[D]sus, o Sen[G]hor.[G]..."
@@ -30,9 +34,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "A [G]Deus toda_a honra e [D]glória_ete[G]nal,",
+          "A [G]Deus toda a honra e [D]glória ete[G]nal,",
           "Pois [C]é pie[G]doso o [A]Pai celesti[D]al;",
-          "Por [G]Seu Filho_amado, Deus [D]reconcili[G]ou",
+          "Por [G]Seu Filho amado, Deus [D]reconcili[G]ou",
           "Os [C]homens Con[G]sigo e [D]os resga[G]tou."
         ]
       },
@@ -45,7 +49,7 @@
         "code": "3",
         "text": [
           "Por [G]boa vontade de [D]Deus, Cria[G]dor,",
-          "Do [C]novo Con[G]certo_é Je[A]sus Media[D]dor;",
+          "Do [C]novo Con[G]certo é Je[A]sus Media[D]dor;",
           "Pre[G]ciosas promessas i[D]rão se cum[G]prir",
           "Na [C]volta de [G]Cristo, em [D]breve por[G]vir."
         ]

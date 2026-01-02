@@ -1,42 +1,46 @@
 {
+  "code": "270",
   "version": "v3",
   "title": "Deste mundo mais nada esperarei",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Deste [E]mundo mais nada_es[B]perarei,",
-          "Em Je[B7]sus, salvação já [E]encontrei;",
-          "N´Ele sempre eu hei de [B]confiar",
-          "E, de cora[F#7]ção, O_a[B]mar[B7]."
+          "Deste [D]mundo mais nada es[A]perarei,",
+          "Em Je[A7]sus, salvação já [D]encontrei;",
+          "N´Ele sempre eu hei de [A]confiar",
+          "E, de cora[E7]ção, O a[A]mar[A7]."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Outro [E]bem não procurarei,",
-          "Outro bem não encontra[B]rei;",
+          "Outro [D]bem não procurarei,",
+          "Outro bem não encontra[A]rei;",
           "Em Jesus, meu Senhor,",
-          "Sempre [B7]devo confi[E]ar;",
+          "Sempre [A7]devo confi[D]ar;",
           "Pois quem pode me proteger",
-          "Neste [C#m]mundo_en[G#7]gan - [A]dor?",
-          "[B]Só Je[E]sus, meu [A]Mestre e [E]Salva[F#m]dor,",
-          "[G°]Meu [E]Rei e_eter[B7]nal Pas[E]tor."
+          "Neste [Bm]mundo en[Gb7]gan - [G]dor?",
+          "[A]Só Je[D]sus, meu [G]Mestre e [D]Salva[Em]dor,",
+          "[F°]Meu [D]Rei e eter[A7]nal Pas[D]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "É vai[E]dade o que no [B]mundo há,",
-          "Tudo_em [B7]breve aqui se [E]findará;",
-          "Viverei para sempre [B]com Jesus,",
-          "Se andar em [F#7]Sua l[B]uz.[B7]"
+          "É vai[D]dade o que no [A]mundo há,",
+          "Tudo em [A7]breve aqui se [D]findará;",
+          "Viverei para sempre [A]com Jesus,",
+          "Se andar em [E7]Sua l[A]uz.[A7]"
         ]
       },
       {
@@ -47,10 +51,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Neste [E]mundo mais nada [B]me seduz,",
-          "Minha [B7]glória_e riqueza [E]é Jesus;",
-          "Receber eu desejo, [B]lá no céu,",
-          "Tudo_o que me [F#7]prome[B]teu[B7]."
+          "Neste [D]mundo mais nada [A]me seduz,",
+          "Minha [A7]glória e riqueza [D]é Jesus;",
+          "Receber eu desejo, [A]lá no céu,",
+          "Tudo o que me [E7]prome[A]teu[A7]."
         ]
       },
       {

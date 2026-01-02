@@ -1,38 +1,42 @@
 {
+  "code": "296",
   "version": "v3",
   "title": "Teu Nome é soberano, ó Redentor",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["A", "E7", "A", "B7", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Teu [B]Nome_é soberano, ó caro Reden[F#7]tor;",
-          "Teu Nome_é mui su[B]blime, de [C#7]grande esplen[F#7]dor;",
-          "Em es[B]pírito_e ver[F#7]dade devemos ado[G°]rar-[G#m]Te;",
-          "De[E]vemos tribu[B]tar-Te [E]lou[F#7]vores, ó Sen[B]hor."
+          "Teu [A]Nome é soberano, ó caro Reden[E7]tor;",
+          "Teu Nome é mui su[A]blime, de [B7]grande esplen[E7]dor;",
+          "Em es[A]pírito e ver[E7]dade devemos ado[F°]rar-[F#m]Te;",
+          "De[D]vemos tribu[A]tar-Te [D]lou[E7]vores, ó Sen[A]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Quão suave_e preci[E]oso",
-          "[F#7]É Teu Nome,_ó Salva[B]dor;",
-          "Não há outro Nome [E]pelo qual os homens",
-          "[B]Chegarão ao [C#7]Cri – [F#7]a  - [B]dor."
+          "[A]Quão suave e preci[D]oso",
+          "[E7]É Teu Nome, ó Salva[A]dor;",
+          "Não há outro Nome [D]pelo qual os homens",
+          "[A]Chegarão ao [B7]Cri – [E7]a - [A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Teu [B]Nome bendiremos, eterno Salva[F#7]dor;",
-          "Em todos os com[B]bates és [C#7]nosso Defen[F#7]sor;",
-          "Deste_a [B]todos os Teus [F#7]santos fé viva e_espe[G°]ran - [G#m]ça",
-          "De_en[E]trar na Tua g[B]lória, [E]ó  [F#7]justo Reden[B]tor."
+          "Teu [A]Nome bendiremos, eterno Salva[E7]dor;",
+          "Em todos os com[A]bates és [B7]nosso Defen[E7]sor;",
+          "Deste a [A]todos os Teus [E7]santos fé viva e espe[F°]ran - [F#m]ça",
+          "De en[D]trar na Tua g[A]lória, [D]ó [E7]justo Reden[A]tor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Teu [B]Nome respeitamos e_amamos, ó Se[F#7]nhor;",
-          "A paz com Deus nós [B]temos por [C#7]Ti, ó Reden[F#7]tor;",
-          "Nossas [B]almas resga[F#7]taste, a vida nos do[G°]as - [G#m]te,",
-          "Her[E]deiros nos fi[B]zeste [E]de [F#7]Deus, o Cria[B]dor."
+          "Teu [A]Nome respeitamos e amamos, ó Se[E7]nhor;",
+          "A paz com Deus nós [A]temos por [B7]Ti, ó Reden[E7]tor;",
+          "Nossas [A]almas resga[E7]taste, a vida nos do[F°]as - [F#m]te,",
+          "Her[D]deiros nos fi[A]zeste [D]de [E7]Deus, o Cria[A]dor."
         ]
       },
       {

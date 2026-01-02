@@ -1,10 +1,14 @@
 {
+  "code": "269",
   "version": "v3",
   "title": "Ressuscitados, por graça, fomos",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -32,7 +36,7 @@
         "text": [
           "Bênçãos glo[G]riosas descem do [C]alto",
           "[D]Onde habita o Cria[G]dor;",
-          "Se rejeitarmos o mundo_ingrato,",
+          "Se rejeitarmos o mundo ingrato,",
           "[C]Salvos se[G]remos [D]por Seu a[G]mor."
         ]
       }

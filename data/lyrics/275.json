@@ -1,10 +1,14 @@
 {
+  "code": "275",
   "version": "v3",
   "title": "Avante eu vou",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,16 +17,16 @@
           "Deus [A]enviou do céu, Jesus, o Salvador,",
           "A [D]fim de, neste [A]mundo, re[E]mir o pecador;",
           "A [A]Cristo vou ouvir e pela fé andar,",
-          "E_a [D]glória,_eterna[A]mente, no [E]céu vou desfru[A]tar."
+          "E a [D]glória, eterna[A]mente, no [E]céu vou desfru[A]tar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Avante_eu [E]vou, com Cristo_eu [A]vou,",
-          "Para_entrar no_eterno reino de_esplen[E]dor;",
-          "Sigo, [A]pela graça_e fé, a Je[D]sus, o Salva[A]dor;",
-          "Nada quero deste [E]mundo,_avante_eu v[A]ou."
+          "Avante eu [E]vou, com Cristo eu [A]vou,",
+          "Para entrar no eterno reino de esplen[E]dor;",
+          "Sigo, [A]pela graça e fé, a Je[D]sus, o Salva[A]dor;",
+          "Nada quero deste [E]mundo, avante eu v[A]ou."
         ]
       },
       {
@@ -32,7 +36,7 @@
           "No [A]dia do Senhor, os anjos tocarão",
           "A [D]celestial trom[A]beta que [E]todos ouvirão;",
           "Re[A]tornará Jesus, o nosso Redentor,",
-          "Em [D]glória, sobre_as [A]nuvens, cer[E]cado de_esplen[A]dor."
+          "Em [D]glória, sobre as [A]nuvens, cer[E]cado de esplen[A]dor."
         ]
       },
       {
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Je[A]sus, o Salvador, ao céu me levará;",
-          "Re[D]ceberei a_he[A]rança que [E]preparada_está;",
+          "Re[D]ceberei a he[A]rança que [E]preparada está;",
           "A [A]Deus, o Pai, verei, com Cristo estarei",
           "E [D]todos os re[A]midos, no [E]céu, contempla[A]rei."
         ]

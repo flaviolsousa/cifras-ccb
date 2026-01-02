@@ -1,29 +1,33 @@
 {
+  "code": "284",
   "version": "v3",
   "title": "Louvor nos céus altíssimos",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "Dm", "Bb", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lou[F]vor nos céus al[Dm]tíssimos, ho[Bb]sana_ao [C]Rei viven[F]te,",
-          "Ao Forte,_Onipo[Dm]tente, ben[Bb]dito [C7]Reden[F]tor.",
-          "Glória, glória_ao Verbo [C]santo, ao Autor da fé po[F]tente;",
-          "Tem vida_e[F7]terna_o [Bb]cren[Gm]te em Je[F]sus, o [C]Salva[F]dor."
+          "Lou[F]vor nos céus al[Dm]tíssimos, ho[Bb]sana ao [C]Rei viven[F]te,",
+          "Ao Forte, Onipo[Dm]tente, ben[Bb]dito [C7]Reden[F]tor.",
+          "Glória, glória ao Verbo [C]santo, ao Autor da fé po[F]tente;",
+          "Tem vida e[F7]terna o [Bb]cren[Gm]te em Je[F]sus, o [C]Salva[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O [F]Justo_e Poten[Dm]tíssimo, do [Bb]céu, nos [C]foi manda[F]do;",
+          "O [F]Justo e Poten[Dm]tíssimo, do [Bb]céu, nos [C]foi manda[F]do;",
           "Em forma de um [Dm]servo, ao [Bb]Pai o[C7]bedec[F]eu;",
-          "Humilhou-Se_até a [C]morte, foi por Deus ressusci[F]tado.",
-          "Jesus, por [F7]nós a[Bb]ma - [Gm]do, vida_e [F]paz nos [C]conce[F]deu."
+          "Humilhou-Se até a [C]morte, foi por Deus ressusci[F]tado.",
+          "Jesus, por [F7]nós a[Bb]ma - [Gm]do, vida e [F]paz nos [C]conce[F]deu."
         ]
       },
       {

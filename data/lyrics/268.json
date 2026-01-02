@@ -1,17 +1,21 @@
 {
+  "code": "268",
   "version": "v3",
   "title": "Ó Deus bendito",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "Bb", "F", "Bb", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Ó Deus bendito, ó Pai da_eternidade,",
-          "[Bb]Em  [F]Tua [Bb]som - [F]bra me [G7]quero_abri[C]gar[C7];",
+          "[F]Ó Deus bendito, ó Pai da eternidade,",
+          "[Bb]Em [F]Tua [Bb]som - [F]bra me [G7]quero abri[C]gar[C7];",
           "[F]Forças contrárias à Tua santidade",
           "[Bb]Que - [F]rem, da [Bb]fé, [C7]me fazer desvi[F]ar."
         ]
@@ -21,7 +25,7 @@
         "code": "2",
         "text": [
           "[F]Quanto é frágil a minha estrutura!",
-          "[Bb]Os  [F]meus re[Bb]cei - [F]os, dis[G7]sipa, Sen[C]hor[C7];",
+          "[Bb]Os [F]meus re[Bb]cei - [F]os, dis[G7]sipa, Sen[C]hor[C7];",
           "[F]Dá ao Teu servo divina armadura;",
           "[Bb]Ou - [F]ve, ó [Bb]Deus, [C7]minha voz, meu cla[F]mor."
         ]
@@ -31,18 +35,18 @@
         "code": "3",
         "text": [
           "[F]A minha alma, por Ti, foi resgatada,",
-          "[Bb]Foi [F]envol[Bb]vi - [F]da por [G7]Teu grande_a[C]mor[C7],",
+          "[Bb]Foi [F]envol[Bb]vi - [F]da por [G7]Teu grande a[C]mor[C7],",
           "[F]E, das ruínas, também foi levantada;",
-          "[Bb]Em  [F]Ti es[Bb]tá  [C7]minha sorte, Sen[F]hor."
+          "[Bb]Em [F]Ti es[Bb]tá [C7]minha sorte, Sen[F]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[F]Ó Deus bendito, Pai de bondade,",
-          "[Bb]Tu  [B°]-  a Pa[F]lavra me [G7]pode liv[C]rar[C7];",
-          "[F]Neste deserto de_iniquidade, ",
-          "[Bb]Tu  [B°]-  as vir[F]tudes me [C]podem guar[F]dar."
+          "[Bb]Tu [B°]- a Pa[F]lavra me [G7]pode liv[C]rar[C7];",
+          "[F]Neste deserto de iniquidade, ",
+          "[Bb]Tu [B°]- as vir[F]tudes me [C]podem guar[F]dar."
         ]
       }
     ]

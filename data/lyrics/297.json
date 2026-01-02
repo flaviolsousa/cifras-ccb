@@ -1,38 +1,42 @@
 {
+  "code": "297",
   "version": "v3",
   "title": "Senhor, conforta meu coração",
   "tone": {
-    "recommended": "G"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "B7", "E", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[G]hor, conforta meu [C]coração",
-          "[E7]E   [A]vem livrar-me da [D]aflição;",
-          "A [G]minha súplica, [C]ó Se[Am]nhor,",
-          "Re[G]cebe, [D]por grande_a[G]mor."
+          "Sen[D]hor, conforta meu [G]coração",
+          "[B7]E [E]vem livrar-me da [A]aflição;",
+          "A [D]minha súplica, [G]ó Se[Em]nhor,",
+          "Re[D]cebe, [A]por grande a[D]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Vem, Jesus, meu Consolador,",
-          "Nas angústias, tam[D]bém na dor,",
-          "Com [G]Teu amor me [C]confor[Am]tar;",
-          "[G]Vem, nas provas, me [D]liber[G]tar.[G]..."
+          "[D]Vem, Jesus, meu Consolador,",
+          "Nas angústias, tam[A]bém na dor,",
+          "Com [D]Teu amor me [G]confor[Em]tar;",
+          "[D]Vem, nas provas, me [A]liber[D]tar.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[G]hor, conforta meu [C]coração,",
-          "[E7]Com [A]Tua paz e con[D]solação;",
-          "A[G]legremente eu [C]vive[Am]rei;",
-          "Lou[G]vor a [D]Ti canta[G]rei."
+          "Sen[D]hor, conforta meu [G]coração,",
+          "[B7]Com [E]Tua paz e con[A]solação;",
+          "A[D]legremente eu [G]vive[Em]rei;",
+          "Lou[D]vor a [A]Ti canta[D]rei."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[G]hor, conforta meu [C]coração,",
-          "[E7]Com [A]Teu amor e ce[D]leste_unção;",
-          "Teu [G]refrigério eu [C]senti[Am]rei,",
-          "Ó [G]meu Se[D]nhor e meu [G]Rei."
+          "Sen[D]hor, conforta meu [G]coração,",
+          "[B7]Com [E]Teu amor e ce[A]leste unção;",
+          "Teu [D]refrigério eu [G]senti[Em]rei,",
+          "Ó [D]meu Se[A]nhor e meu [D]Rei."
         ]
       },
       {

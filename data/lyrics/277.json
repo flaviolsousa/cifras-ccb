@@ -1,27 +1,28 @@
 {
+  "code": "277",
   "version": "v3",
   "title": "Oh! Quanto é bom louvarmos",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Oh! Quanto_é bom louvarmos a Deus, o Cria[D]dor,",
-          "E nos regozi[C]jar[G]mos [A7]em Sua_eterna [D]luz!",
-          "[G]Por graça fomos salvos [G7]do mundo_en[E7]gana[Am]dor,",
+          "[G]Oh! Quanto é bom louvarmos a Deus, o Cria[D]dor,",
+          "E nos regozi[C]jar[G]mos [A7]em Sua eterna [D]luz!",
+          "[G]Por graça fomos salvos [G7]do mundo en[E7]gana[Am]dor,",
           "Fomos também com[G]pra[Em]dos [A7]com sangue [D]de Je[G]sus."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "A[G]legres serviremos ao [D]nosso Forma[G]dor,",
-          "Cantado [G7]santos [C]hi-[G]nos a Deus, nosso [D]bom Cria[G]dor."
-        ]
+        "text": ["A[G]legres serviremos ao [D]nosso Forma[G]dor,", "Cantado [G7]santos [C]hi-[G]nos a Deus, nosso [D]bom Cria[G]dor."]
       },
       {
         "type": "lyric",
@@ -41,7 +42,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Alegres caminhemos com o bom Pai de_a[D]mor,",
+          "[G]Alegres caminhemos com o bom Pai de a[D]mor,",
           "Seguindo-O, triun[C]fan[G]tes, [A7]pois do mal nos li[D]vrou;",
           "[G]Nós fomos adotados [G7]filhos ao [E7]Cria[Am]dor,",
           "Pelo precioso [G]san[Em]gue [A7]que Cristo [D]derra[G]mou."

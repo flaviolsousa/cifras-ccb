@@ -1,10 +1,14 @@
 {
+  "code": "303",
   "version": "v3",
   "title": "O Senhor não mudará",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,8 +17,8 @@
           "Não [C]mudará o nosso [G]Deus,",
           "Não falhará o [C]Seu poder;",
           "Cumprir-se-ão [E]os pla[F]nos Seus;[F]...",
-          "[sem acorde]  D7      G   G7 ",
-          "Em Deus há    luz e saber."
+          "[sem acorde] D7 G G7 ",
+          "Em Deus há luz e saber."
         ]
       },
       {
@@ -23,8 +27,8 @@
           "[C]O Senhor não [G]mudará;",
           "Seus intentos [C]cumprirá;",
           "Firmes perma[E]ne - [F]cerão,[F]...",
-          "[sem acorde]  C    D7    G   C",
-          "Pois há em    Deus per - feição."
+          "[sem acorde] C D7 G C",
+          "Pois há em Deus per - feição."
         ]
       },
       {
@@ -34,8 +38,8 @@
           "Se [C]formos nós fiéis a [G]Deus,",
           "Também fiel Se [C]mostrará;",
           "Triunfarão [E]os fi[F]lhos Seus,[F]...",
-          "[sem acorde]  D7        G  G7 ",
-          "Deus Pai    jamais falhará."
+          "[sem acorde] D7 G G7 ",
+          "Deus Pai jamais falhará."
         ]
       },
       {
@@ -46,11 +50,11 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Em [C]breve_irão passar os [G]céus,",
+          "Em [C]breve irão passar os [G]céus,",
           "Também a terra [C]passará;",
-          "Mas é eter[E]no_o nos[F]so Deus[F]...",
-          "[sem acorde]  D7        G  G7 ",
-          "E       vida_eterna nos dá."
+          "Mas é eter[E]no o nos[F]so Deus[F]...",
+          "[sem acorde] D7 G G7 ",
+          "E vida eterna nos dá."
         ]
       },
       {

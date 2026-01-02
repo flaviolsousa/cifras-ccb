@@ -1,38 +1,42 @@
 {
+  "code": "294",
   "version": "v3",
   "title": "Avante! Coragem! Marchemos",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7", "D", "G", "G#°", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "A[E]vante! Coragem! Mar[B7]chemos com fé e com todo_o fer[E]vor,",
-          "Sol[A]dados nós [A#°]somos de [E]Cristo, o [B7]nosso Sen[E]hor;",
-          "Avante! Ve[A]remos a [E]glória de [B7]Cristo, fiel Reden[E]tor,",
-          "Te[A]remos com[A#°]pleta vi[E]tória com [B7]o Salva[E]dor."
+          "A[D]vante! Coragem! Mar[A7]chemos com fé e com todo o fer[D]vor,",
+          "Sol[G]dados nós [G#°]somos de [D]Cristo, o [A7]nosso Sen[D]hor;",
+          "Avante! Ve[G]remos a [D]glória de [A7]Cristo, fiel Reden[D]tor,",
+          "Te[G]remos com[G#°]pleta vi[D]tória com [A7]o Salva[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Co[E]ragem, ir[A]mãos, sempre_a[B7]vante!",
-          "Devemos lutar pela [E]fé;",
-          "Nosso ânimo [A]seja cons[E]tante,",
-          "Deus [B7]tudo pro[E]vê."
+          "Co[D]ragem, ir[G]mãos, sempre a[A7]vante!",
+          "Devemos lutar pela [D]fé;",
+          "Nosso ânimo [G]seja cons[D]tante,",
+          "Deus [A7]tudo pro[D]vê."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A[E]vante! Lutar nós de[B7]vemos, cingidos de foça_e vi[E]gor,",
-          "Am[A]paro de [A#°]Deus nós te[E]remos, por [B7]Seu grande_a[E]mor;",
-          "Voluntaria[A]mente sir[E]vamos a [B7]Cristo, o Rei vence[E]dor; ",
-          "Nós [A]somos, por [A#°]fé, Seus sol[E]dados, mos[B7]tremos va[E]lor."
+          "A[D]vante! Lutar nós de[A7]vemos, cingidos de foça e vi[D]gor,",
+          "Am[G]paro de [G#°]Deus nós te[D]remos, por [A7]Seu grande a[D]mor;",
+          "Voluntaria[G]mente sir[D]vamos a [A7]Cristo, o Rei vence[D]dor; ",
+          "Nós [G]somos, por [G#°]fé, Seus sol[D]dados, mos[A7]tremos va[D]lor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A[E]vante! Lutemos u[B7]nidos, marchando com todo_o fer[E]vor,",
-          "Cin[A]gidos de [A#°]toda_arma[E]dura de [B7]Deus, Cria[E]dor.",
-          "Seguindo os [A]passos de [E]Cristo, vi[B7]tória se alcança[E]rá;",
-          "É [A]Ele ve[A#°]raz Forta[E]leza, que [B7]nos salva[E]rá."
+          "A[D]vante! Lutemos u[A7]nidos, marchando com todo o fer[D]vor,",
+          "Cin[G]gidos de [G#°]toda arma[D]dura de [A7]Deus, Cria[D]dor.",
+          "Seguindo os [G]passos de [D]Cristo, vi[A7]tória se alcança[D]rá;",
+          "É [G]Ele ve[G#°]raz Forta[D]leza, que [A7]nos salva[D]rá."
         ]
       },
       {

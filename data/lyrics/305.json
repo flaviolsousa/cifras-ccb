@@ -1,42 +1,46 @@
 {
+  "code": "305",
   "version": "v3",
   "title": "Oh! Que fundamento",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "D", "Em", "D", "A", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Oh! Q[A]ue funda[E]mento em [A]Jesus Cristo te[E]mos,",
-          "É [F#m]Ele_a_Espe[E]rança do e[B]terno por[E]vir;",
-          "As S[A]uas pro[E]mes[A]sas e[E]ternas [F#m]alcan[E]çamos;",
-          "Em [A]Seu amor, unidos, a Deus vamos servir,[E]...",
-          "Em Seu amor, uni[F#m]dos, O [E]vamos ser[A]vir."
+          "Oh! Q[G]ue funda[D]mento em [G]Jesus Cristo te[D]mos,",
+          "É [Em]Ele a Espe[D]rança do e[A]terno por[D]vir;",
+          "As S[G]uas pro[D]mes[G]sas e[D]ternas [Em]alcan[D]çamos;",
+          "Em [G]Seu amor, unidos, a Deus vamos servir,[D]...",
+          "Em Seu amor, uni[Em]dos, O [D]vamos ser[G]vir."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Se, [A]peregri[E]nando, com[A]bates nós tiver[E]mos;",
-          "A [F#m]mão do Se[E]nhor, por graça, [B]nos livra[E]rá;",
-          "E [A]contra a [E]for[A]ça do [E]mal nós [F#m]luta - [E]remos;",
-          "Ser[A]vindo_a Deus com zelo, ajuda nos dará,[E]...",
-          "Servindo_a Deus com ze[F#m]lo, a[E]juda da[A]rá."
+          "Se, [G]peregri[D]nando, com[G]bates nós tiver[D]mos;",
+          "A [Em]mão do Se[D]nhor, por graça, [A]nos livra[D]rá;",
+          "E [G]contra a [D]for[G]ça do [D]mal nós [Em]luta - [D]remos;",
+          "Ser[G]vindo a Deus com zelo, ajuda nos dará,[D]...",
+          "Servindo a Deus com ze[Em]lo, a[D]juda da[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó [A]Rocha e[E]terna e_e[A]terna Fortale[E]za,",
-          "Por [F#m]fé nós vi[E]vemos no Teu [B]grande a[E]mor;",
-          "Fi[A]zeste-nos [E]dig[A]nos da [E]celes[F#m]tial ri[E]queza,",
-          "Pois [A]todo_o nosso bem vem de Ti, ó Redentor,[E]...",
-          "Pois todo_o nosso bem [F#m]vem de [E]Ti, Reden[A]tor."
+          "Ó [G]Rocha e[D]terna e e[G]terna Fortale[D]za,",
+          "Por [Em]fé nós vi[D]vemos no Teu [A]grande a[D]mor;",
+          "Fi[G]zeste-nos [D]dig[G]nos da [D]celes[Em]tial ri[D]queza,",
+          "Pois [G]todo o nosso bem vem de Ti, ó Redentor,[D]...",
+          "Pois todo o nosso bem [Em]vem de [D]Ti, Reden[G]tor."
         ]
       }
     ]

@@ -1,18 +1,19 @@
 {
+  "code": "289",
   "version": "v3",
   "title": "Avante, sempre avante",
   "tone": {
-    "recommended": "E"
+    "original": "E",
+    "selected": "E"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["E", "A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "A[E]vante, sempre_avante, vamos todos anunciar",
-          "O [A]santo Evan[E]gelho e [F#]n´Ele cami[B7]nhar."
-        ]
+        "text": ["A[E]vante, sempre avante, vamos todos anunciar", "O [A]santo Evan[E]gelho e [F#]n´Ele cami[B7]nhar."]
       },
       {
         "type": "chorus",
@@ -26,10 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "A[E]vante, não neguemos nosso_amado Salvador;",
-          "Com [A]Ele vence[E]remos, lu[F#]temos com fer[B7]vor."
-        ]
+        "text": ["A[E]vante, não neguemos nosso amado Salvador;", "Com [A]Ele vence[E]remos, lu[F#]temos com fer[B7]vor."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "A[E]vante, confiantes, sem jamais retroceder,",
-          "A [A]bem-aventu[E]rança i[F#]remos rece[B7]ber."
-        ]
+        "text": ["A[E]vante, confiantes, sem jamais retroceder,", "A [A]bem-aventu[E]rança i[F#]remos rece[B7]ber."]
       },
       {
         "type": "ref",

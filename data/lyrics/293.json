@@ -1,39 +1,43 @@
 {
+  "code": "293",
   "version": "v3",
   "title": "Tu és Oleiro",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[..]Tu és O[A]lei[E]ro, ó meu Se[B7]nhor,",
-          "Eu sou argila na Tua m[E]ão;",
-          "Vaso de [A]hon[E]ra [E7]e de lou[A]vor",
-          "Faz-me, Sen[E]hor, com [B7]Tua unç[E]ão."
+          "[D]Tu és O[G]lei[D]ro, ó meu Se[A7]nhor,",
+          "Eu sou argila na Tua m[D]ão;",
+          "Vaso de [G]hon[D]ra [D7]e de lou[G]vor",
+          "Faz-me, Sen[D]hor, com [A7]Tua unç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[..]Vem mode[A]lar-[E]me, ó Forma[B7]dor,",
-          "Pela Palavra do Teu po[E]der;",
-          "Humilde_e [A]man[E]so [E7]faz-me, Se[A]nhor,",
-          "Cumpre em [E]mim Teu [B7]santo que[E]rer."
+          "[D]Vem mode[G]lar-[D]me, ó Forma[A7]dor,",
+          "Pela Palavra do Teu po[D]der;",
+          "Humilde e [G]man[D]so [D7]faz-me, Se[G]nhor,",
+          "Cumpre em [D]mim Teu [A7]santo que[D]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[..]Em Teus pre[A]cei[E]tos quero vi[B7]ver,",
-          "Para servir-Te e Te_agra[E]dar;",
-          "Pela Pa[A]la - [E]vra [E7]vem remo[A]ver",
-          "O que me_im[E]pede [B7]de Te lou[E]var."
+          "[D]Em Teus pre[G]cei[D]tos quero vi[A7]ver,",
+          "Para servir-Te e Te agra[D]dar;",
+          "Pela Pa[G]la - [D]vra [D7]vem remo[G]ver",
+          "O que me im[D]pede [A7]de Te lou[D]var."
         ]
       }
     ]

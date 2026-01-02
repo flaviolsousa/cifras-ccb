@@ -1,10 +1,14 @@
 {
+  "code": "287",
   "version": "v3",
   "title": "Irmãos amados, sempre avante",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -19,10 +23,10 @@
       {
         "type": "chorus",
         "text": [
-          "Sempre a[C]vante! Cristo_é_o Va[G]lente",
-          "[E]Que por Seu po[Am]vo  [C]peleja[G]rá;",
-          "Cristo, o [C]Forte, o_Onipo[G]tente,",
-          "[E]A glória_eter[Am]na  [D]nos leva[G]rá."
+          "Sempre a[C]vante! Cristo é o Va[G]lente",
+          "[E]Que por Seu po[Am]vo [C]peleja[G]rá;",
+          "Cristo, o [C]Forte, o Onipo[G]tente,",
+          "[E]A glória eter[Am]na [D]nos leva[G]rá."
         ]
       },
       {

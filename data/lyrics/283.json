@@ -1,25 +1,29 @@
 {
+  "code": "283",
   "version": "v3",
   "title": "Quero, ó Senhor, ir Contigo ao céu",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Tenho,_em meu [G]coração, real cer[D]teza",
-          "De que, no [C]céu, com Cristo_habita[G]rei,",
+          "Tenho, em meu [G]coração, real cer[D]teza",
+          "De que, no [C]céu, com Cristo habita[G]rei,",
           "Pois minha sorte, eternal ri[C]queza,",
-          "Está no [G]céu, onde_a des[D7]fruta[G]rei."
+          "Está no [G]céu, onde a des[D7]fruta[G]rei."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Quero, ó Senhor, [C]ir Contigo_ao céu",
+          "[G]Quero, ó Senhor, [C]ir Contigo ao céu",
           "E contemplar [G]Teu esplendor;",
           "[Em]Sei que me darás, na eternal Si[B]ão,",
           "[C]Grande e [G]avultado [A]ga – [D7]lard[G]ão."
@@ -31,7 +35,7 @@
         "text": [
           "Bom teste[G]munho levarei co[D]migo,",
           "Se neste [C]mundo eu manifes[G]tar",
-          "Que Jesus Cristo_é verdadeiro_A[C]migo,",
+          "Que Jesus Cristo é verdadeiro A[C]migo,",
           "Por Quem a [G]paz eu pude [D7]encon[G]trar."
         ]
       },
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vivendo [G]sempre_em doce espe[D]rança,",
+          "Vivendo [G]sempre em doce espe[D]rança,",
           "Em Cristo [C]sinto divinal pra[G]zer;",
-          "Receberei no céu a minha_he[C]rança",
+          "Receberei no céu a minha he[C]rança",
           "Que Deus i[G]rá, na glória, [D7]conce[G]der."
         ]
       },

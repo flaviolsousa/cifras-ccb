@@ -1,16 +1,20 @@
 {
+  "code": "288",
   "version": "v3",
   "title": "Ó irmãos, com Cristo avante",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó ir[G]mãos, com Cristo a[D]vante, [G]todo_o mal i[D]remos ven[G]cer;",
+          "Ó ir[G]mãos, com Cristo a[D]vante, [G]todo o mal i[D]remos ven[G]cer;",
           "Com a Sua mão pode[D]rosa, n[G]ão nos deixa[D]rá pere[G]cer;",
           "[D]Quando [G]lutas [D]nós enfren[G]tarmos, o Se[Em]nhor pe[Am]leja[D]rá;",
           "[G]O Seu Nome invoca[D]remos; S[G]eu socorro [D]nos manda[G]rá.[G]..."
@@ -22,8 +26,8 @@
         "text": [
           "Quando [G]fracos nós esti[D]vermos [G]e sem forças [D]para lu[G]tar,",
           "Pela fé nós prossegui[D]remos, [G]pois Jesus vi[D]rá aju[G]dar;",
-          "[D]Cristo_é_a [G]nossa [D]grande_Espe[G]rança, é a [Em]nossa [Am]Salva[D]ção;",
-          "[G]N´Ele_encontraremos as [D]forças [G]para_estarmos [D]em reti[G]dão.[G]..."
+          "[D]Cristo é a [G]nossa [D]grande Espe[G]rança, é a [Em]nossa [Am]Salva[D]ção;",
+          "[G]N´Ele encontraremos as [D]forças [G]para estarmos [D]em reti[G]dão.[G]..."
         ]
       },
       {
@@ -33,7 +37,7 @@
           "Muitas [G]provas nesta jor[D]nada n[G]ós teremos [D]que enfren[G]tar,",
           "Mas Jesus, o Mestre a[D]mado, n[G]os fará ao [D]fim triun[G]far.",
           "[D]Sendo [G]nossa [D]vida gui[G]ada pelo [Em]sábio [Am]Condu[D]tor,",
-          "[G]Certamente nós chega[D]remos [G]ao eterno [D]lar de_esplen[G]dor.[G]..."
+          "[G]Certamente nós chega[D]remos [G]ao eterno [D]lar de esplen[G]dor.[G]..."
         ]
       }
     ]

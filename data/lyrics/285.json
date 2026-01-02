@@ -1,10 +1,14 @@
 {
+  "code": "285",
   "version": "v3",
   "title": "Glória e louvor a Jesus darei",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,7 +22,7 @@
       },
       {
         "type": "chorus",
-        "text": ["[A]Livre [D]já sou [A]para_exaltar o meu Se[E]nhor;", "[A]Glória, [D]glória [A]a Jesus, o meu Li[E]berta[A]dor.[A]..."]
+        "text": ["[A]Livre [D]já sou [A]para exaltar o meu Se[E]nhor;", "[A]Glória, [D]glória [A]a Jesus, o meu Li[E]berta[A]dor.[A]..."]
       },
       {
         "type": "lyric",
@@ -27,7 +31,7 @@
           "[A]Glória e louvor [D]minha alma dá",
           "[A]A Jesus que já me resga[E]tou;",
           "[A]Nada, do Senhor, [D]me separará,",
-          "[A]Pois eu sigo_a Quem me [E]libert[A]ou."
+          "[A]Pois eu sigo a Quem me [E]libert[A]ou."
         ]
       },
       {
@@ -39,8 +43,8 @@
         "code": "3",
         "text": [
           "[A]Glória e louvor, [D]glória sem cessar,",
-          "[A]A Jesus, que_a todo_o mal ven[E]ceu;",
-          "[A]Glória_ao Redentor [D]sempre devo dar,",
+          "[A]A Jesus, que a todo o mal ven[E]ceu;",
+          "[A]Glória ao Redentor [D]sempre devo dar,",
           "[A]Pelo bem que já me [E]conced[A]eu."
         ]
       },

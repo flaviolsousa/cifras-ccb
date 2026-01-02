@@ -1,35 +1,33 @@
 {
+  "code": "264",
   "version": "v3",
   "title": "Redentor celeste e santo",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C", "F", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[C]Redentor celeste_e santo, puro [G]é o Teu a[C]mor;",
-          "Tu me deste a_esperança [F]de en[G]trar no [G7]céu, Sen[C]hor."
-        ]
+        "text": ["[C]Redentor celeste e santo, puro [G]é o Teu a[C]mor;", "Tu me deste a esperança [F]de en[G]trar no [G7]céu, Sen[C]hor."]
       },
       {
         "type": "chorus",
         "text": [
           "[G7]Oh! Quão feliz se[C]rei no dia",
           "[F]Em que Je[G]sus do [D7]céu vol[G]tar;",
-          "[C]Junto aos santos, [F]que_ale[C]gria,",
+          "[C]Junto aos santos, [F]que ale[C]gria,",
           "[F]O galar[G]dão vou [G7]desfru[C]tar!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[C]Faz, Senhor, com que_eu me_aparte do pe[G]cado e do [C]mal,",
-          "E medite noite_e dia [F]sobre_a [G]lei ce[G7]lesti[C]al."
-        ]
+        "text": ["[C]Faz, Senhor, com que eu me aparte do pe[G]cado e do [C]mal,", "E medite noite e dia [F]sobre a [G]lei ce[G7]lesti[C]al."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[C]Bem firmado na_esperança, a vi[G]tória_alcança[C]rei;",
-          "Prosseguindo confiante, [F]no Teu [G]reino [G7]entra[C]rei."
-        ]
+        "text": ["[C]Bem firmado na esperança, a vi[G]tória alcança[C]rei;", "Prosseguindo confiante, [F]no Teu [G]reino [G7]entra[C]rei."]
       },
       {
         "type": "ref",

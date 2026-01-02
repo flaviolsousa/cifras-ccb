@@ -1,17 +1,21 @@
 {
+  "code": "274",
   "version": "v3",
   "title": "Na plenitude estarei",
   "tone": {
-    "recommended": "D"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "D[D]esejo [Em]ser, [A7]   ó meu Sen[D]hor,[Bm7]...",
-          "Fiel a [E]Ti [E7]   até o f[A]im;[A7]...",
+          "D[D]esejo [Em]ser, [A7] ó meu Sen[D]hor,[Bm7]...",
+          "Fiel a [E]Ti [E7] até o f[A]im;[A7]...",
           "Meus passos g[G]ui-[A7]a em Teu a[D]mor;[Bm7]...",
           "Senhor, és [Em]tudo [A7]para m[D]im.[Bm7]"
         ]
@@ -19,9 +23,9 @@
       {
         "type": "chorus",
         "text": [
-          "Na pleni[Em]tude [A7]   estar[D]ei,[Bm7]...",
-          "Os céus a[Em]bertos [A7]   eu ver[D]ei,[Bm7]...",
-          "Eternas [Em]bênçãos [A7]   herdar[D]ei,[Bm7]...",
+          "Na pleni[Em]tude [A7] estar[D]ei,[Bm7]...",
+          "Os céus a[Em]bertos [A7] eu ver[D]ei,[Bm7]...",
+          "Eternas [Em]bênçãos [A7] herdar[D]ei,[Bm7]...",
           "Servindo a [Em]Ti, Sen[A7]hor, meu R[D]ei."
         ]
       },
@@ -29,8 +33,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Venera[Em]ção, [A7]   fé e tem[D]or[Bm7]...",
-          "Estejam [E]em [E7]   meu coraç[A]ão,[A7]...",
+          "[D]Venera[Em]ção, [A7] fé e tem[D]or[Bm7]...",
+          "Estejam [E]em [E7] meu coraç[A]ão,[A7]...",
           "E, do pe[G]ca[A7]do, ó Sen[D]hor,[Bm7]...",
           "Livrar-me [Em]pode [A7]Tua m[D]ão.[Bm7]"
         ]
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]As trevas [Em]vindo [A7]   sobre m[D]im,[Bm7]...",
-          "Não temer[E]ei, [E7]   pois o esplen[A]dor[A7]...",
-          "Da Tua l[G]uz, [A7]   que não tem f[D]im,[Bm7]...",
+          "[D]As trevas [Em]vindo [A7] sobre m[D]im,[Bm7]...",
+          "Não temer[E]ei, [E7] pois o esplen[A]dor[A7]...",
+          "Da Tua l[G]uz, [A7] que não tem f[D]im,[Bm7]...",
           "Me guia [Em]ao Teu [A7]lar, Sen[D]hor.[Bm7]"
         ]
       },

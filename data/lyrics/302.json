@@ -1,38 +1,37 @@
 {
+  "code": "302",
   "version": "v3",
   "title": "Que gloriosa Esperança é Jesus!",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "G", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Que glo[C]riosa Espe[G]rança é Jesus, o Salva[C]dor,",
-          "Nossa Bem-aventu[G]ran[C]ça, [F]nosso_a[G]mado Remi[C]dor!",
+          "Nossa Bem-aventu[G]ran[C]ça, [F]nosso a[G]mado Remi[C]dor!",
           "Nossa Luz e Ale[G]gria, poderoso Defen[C]sor,",
-          "Nosso_Escudo, nosso [E]Gui[Am]a   [F#°]é  Je[G]sus, o Reden[C]tor."
+          "Nosso Escudo, nosso [E]Gui[Am]a [F#°]é Je[G]sus, o Reden[C]tor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "É Je[G]sus a Espe[C]rança,",
-          "[G]É o Justo e Fi[C]el, ",
-          "É a nossa Confiança,",
-          "[F]Pode[G]roso_Emanu[C]el."
-        ]
+        "text": ["É Je[G]sus a Espe[C]rança,", "[G]É o Justo e Fi[C]el, ", "É a nossa Confiança,", "[F]Pode[G]roso Emanu[C]el."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Nossa [C]Vida e Ri[G]queza, nosso_Apoio é_o Sen[C]hor,",
-          "É o Pão de vida_e[G]ter[C]na [F]que sus[G]tenta_e dá vi[C]gor;",
-          "Glória, glória nas al[G]turas, glória, glória_ao Reden[C]tor,",
-          "Que nos dá paz sempi[E]ter[Am]na  [F#°]e o  [G]Seu sublime_a[C]mor!"
+          "Nossa [C]Vida e Ri[G]queza, nosso Apoio é o Sen[C]hor,",
+          "É o Pão de vida e[G]ter[C]na [F]que sus[G]tenta e dá vi[C]gor;",
+          "Glória, glória nas al[G]turas, glória, glória ao Reden[C]tor,",
+          "Que nos dá paz sempi[E]ter[Am]na [F#°]e o [G]Seu sublime a[C]mor!"
         ]
       },
       {
@@ -45,8 +44,8 @@
         "text": [
           "A Je[C]sus, o Verda[G]deiro, Invencível, grande [C]Rei,",
           "O meu coração en[G]tre[C]go, [F]só a [G]Ele servi[C]rei;",
-          "Certo_estou de que_a vi[G]tória almejada_alcança[C]rei;",
-          "E na glória, junto_a [E]E - [Am]le, [F#°]para [G]sempre reina[C]rei."
+          "Certo estou de que a vi[G]tória almejada alcança[C]rei;",
+          "E na glória, junto a [E]E - [Am]le, [F#°]para [G]sempre reina[C]rei."
         ]
       },
       {

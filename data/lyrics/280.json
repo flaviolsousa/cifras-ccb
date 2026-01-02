@@ -1,36 +1,37 @@
 {
+  "code": "280",
   "version": "v3",
   "title": "De Deus a armadura",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A7", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lu[E]tar devemos [B7]todos, com fé e com va[E]lor,",
-          "Vestidos de jus[B7]tiça, com armas do Sen[E]hor;",
-          "Cin[B7]gidos da ver[E]dade, po[F#]demos pelej[B7]ar;",
-          "Cal[E]çados no_Evan[A]gelho, i[B7]remos triun[E]far."
+          "Lu[D]tar devemos [A7]todos, com fé e com va[D]lor,",
+          "Vestidos de jus[A7]tiça, com armas do Sen[D]hor;",
+          "Cin[A7]gidos da ver[D]dade, po[E]demos pelej[A7]ar;",
+          "Cal[D]çados no Evan[G]gelho, i[A7]remos triun[D]far."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]De Deus a_arma[B7]dura devemos to[E]mar",
-          "[A]Para, na pe[E]leja, po[B7]dermos triun[E]far."
-        ]
+        "text": ["[D]De Deus a arma[A7]dura devemos to[D]mar", "[G]Para, na pe[D]leja, po[A7]dermos triun[D]far."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Da [E]fé o_escudo [B7]temos, podemos batal[E]har;",
-          "Avante! Valo[B7]rosos e sem desani[E]mar;",
-          "Com[B7]bateremos [E]firmes com [F#]celestial va[B7]lor,",
-          "E [E]tudo vence[A]remos em [B7]nome do Sen[E]hor."
+          "Da [D]fé o escudo [A7]temos, podemos batal[D]har;",
+          "Avante! Valo[A7]rosos e sem desani[D]mar;",
+          "Com[A7]bateremos [D]firmes com [E]celestial va[A7]lor,",
+          "E [D]tudo vence[G]remos em [A7]nome do Sen[D]hor."
         ]
       },
       {
@@ -41,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Pro[E]ezas nós fa[B7]remos por Cristo,_o Reden[E]tor,",
-          "Vitória canta[B7]remos em nome do Sen[E]hor;",
-          "Mos[B7]tremos as vir[E]tudes do [F#]nosso grande [B7]Rei;",
-          "Nós [E]somos Seus re[A]midos, guar[B7]demos Sua l[E]ei."
+          "Pro[D]ezas nós fa[A7]remos por Cristo, o Reden[D]tor,",
+          "Vitória canta[A7]remos em nome do Sen[D]hor;",
+          "Mos[A7]tremos as vir[D]tudes do [E]nosso grande [A7]Rei;",
+          "Nós [D]somos Seus re[G]midos, guar[A7]demos Sua l[D]ei."
         ]
       },
       {

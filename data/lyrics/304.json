@@ -1,38 +1,37 @@
 {
+  "code": "304",
   "version": "v3",
   "title": "Cristo é a Esperança",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "D7", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Tu - [B]do_é vaidade neste mundo de_ilus[E]ão;",
-          "[E7]Gló - [A]rias ter[B]renas breve findar[E]ão.",
-          "É_um vapor a [A]vida, [F#]que se [B]desvanece[E]rá;",
-          "A_esperança_é [A]Cristo; [B]n´Ele_a graça_es[E]tá."
+          "[D]Tu - [A]do é vaidade neste mundo de ilus[D]ão;",
+          "[D7]Gló - [G]rias ter[A]renas breve findar[D]ão.",
+          "É um vapor a [G]vida, [E]que se [A]desvanece[D]rá;",
+          "A esperança é [G]Cristo; [A]n´Ele a graça es[D]tá."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Cristo é a_Espe[B]rança,",
-          "É do mundo_o Reden[E]tor;",
-          "N´Ele [C#]há confi[F#m]ança,",
-          "[B]Vida, paz e_a[E]mor."
-        ]
+        "text": ["[D]Cristo é a Espe[A]rança,", "É do mundo o Reden[D]tor;", "N´Ele [B]há confi[Em]ança,", "[A]Vida, paz e a[D]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]So - [B]bre a terra há tristeza,_inquietaç[E]ão,",
-          "[E7]Do - [A]res, en[B]fado e perturbaç[E]ão;",
-          "Não há paz no [A]mundo, [F#]neste [B]mundo_engana[E]dor;",
-          "A_esperança_é [A]Cristo, [B]nosso Benfei[E]tor."
+          "[D]So - [A]bre a terra há tristeza, inquietaç[D]ão,",
+          "[D7]Do - [G]res, en[A]fado e perturbaç[D]ão;",
+          "Não há paz no [G]mundo, [E]neste [A]mundo engana[D]dor;",
+          "A esperança é [G]Cristo, [A]nosso Benfei[D]tor."
         ]
       },
       {
@@ -43,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]De [B]Deus a ira sobre_a terra desce[E]rá",
-          "[E7]E,  [A]nesse [B]dia, tudo finda[E]rá;",
-          "Nada, deste [A]mundo, [F#]pode [B]dar a salvaç[E]ão;",
-          "A_esperança_é [A]Cristo, [B]nossa Redenç[E]ão."
+          "[D]De [A]Deus a ira sobre a terra desce[D]rá",
+          "[D7]E, [G]nesse [A]dia, tudo finda[D]rá;",
+          "Nada, deste [G]mundo, [E]pode [A]dar a salvaç[D]ão;",
+          "A esperança é [G]Cristo, [A]nossa Redenç[D]ão."
         ]
       },
       {

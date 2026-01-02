@@ -1,38 +1,42 @@
 {
+  "code": "290",
   "version": "v3",
   "title": "Sempre avante!",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Com Jesus, irmãos, [D]sim, marc[A]hemos,",
-          "[E]Ninguém poderá [B7]nos aba[E]ter;",
-          "[A]Força celestial [D]prova[A]remos",
-          "E i[F#m]remos todo_o [E]mal ven[A]cer."
+          "[G]Com Jesus, irmãos, [C]sim, marc[G]hemos,",
+          "[D]Ninguém poderá [A7]nos aba[D]ter;",
+          "[G]Força celestial [C]prova[G]remos",
+          "E i[Em]remos todo o [D]mal ven[G]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Sempre_avante, [E]com o Valo[A]roso!",
-          "[C#7]Todos [F#m]juntos [B7]nos convém marc[E]har;",
-          "[A]Somos povo [E]do Deus pode[A]roso, ",
-          "O_ini[F#m]migo não nos [E]faz pa[A]rar.[A]..."
+          "[G]Sempre avante, [D]com o Valo[G]roso!",
+          "[B7]Todos [Em]juntos [A7]nos convém marc[D]har;",
+          "[G]Somos povo [D]do Deus pode[G]roso, ",
+          "O ini[Em]migo não nos [D]faz pa[G]rar.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Com Jesus, irmãos, [D]prossi[A]gamos,",
-          "[E]Pois Deus nos dará [B7]força_e vi[E]gor;",
-          "[A]Ao mal, pela fé, [D]resis[A]tamos.",
-          "Sempre_a[F#m]vante,_em nomde [E]do Sen[A]hor!"
+          "[G]Com Jesus, irmãos, [C]prossi[G]gamos,",
+          "[D]Pois Deus nos dará [A7]força e vi[D]gor;",
+          "[G]Ao mal, pela fé, [C]resis[G]tamos.",
+          "Sempre a[Em]vante, em nomde [D]do Sen[G]hor!"
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Com Jesus, irmãos, [D]entra[A]remos",
-          "[E]Todos os fiéis [B7]no lar de_a[E]mor;",
-          "[A]Regozijo_e paz [D]senti[A]remos",
-          "E da[F#m]remos glória_ao [E]Cria[A]dor."
+          "[G]Com Jesus, irmãos, [C]entra[G]remos",
+          "[D]Todos os fiéis [A7]no lar de a[D]mor;",
+          "[G]Regozijo e paz [C]senti[G]remos",
+          "E da[Em]remos glória ao [D]Cria[G]dor."
         ]
       },
       {

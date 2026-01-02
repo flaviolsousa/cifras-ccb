@@ -1,38 +1,42 @@
 {
+  "code": "291",
   "version": "v3",
   "title": "Irmãos, avante, avante!",
   "tone": {
-    "recommended": "G"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "Bm", "D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ir[G]mãos, avante,_a[Em]vante! Com [G]nosso Salva[D]dor,",
-          "Se[D7]remos triunfantes, lutando com fer[G]vor;",
-          "Vitória_al[E]cança[Am]remos, se[D7]guindo a Je[G]sus,",
-          "Que [B7]vai à nossa frente e_á [Em]glória [C]nos con[B7]duz.[D]..."
+          "Ir[D]mãos, avante, a[Bm]vante! Com [D]nosso Salva[A]dor,",
+          "Se[A7]remos triunfantes, lutando com fer[D]vor;",
+          "Vitória al[B]cança[Em]remos, se[A7]guindo a Je[D]sus,",
+          "Que [Gb7]vai à nossa frente e á [Bm]glória [G]nos con[Gb7]duz.[A]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A[G]vante,_a[D]vante!",
-          "U[D7]nidos ao Sen[G]hor;",
-          "Só [E]Ele_é [Am]nosso [D]Condu[G]tor;",
-          "A[C]vante! Marc[G]he-[Em]mos [D]com va[G]lor."
+          "A[D]vante, a[A]vante!",
+          "U[A7]nidos ao Sen[D]hor;",
+          "Só [B]Ele é [Em]nosso [A]Condu[D]tor;",
+          "A[G]vante! Marc[D]he-[Bm]mos [A]com va[D]lor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Lu[G]gares delei[Em]tosos Je[G]sus nos prepa[D]rou,",
-          "De [D7]jugos mui penosos também nos liber[G]tou;",
-          "A_herança [E]prome[Am]tida por [D7]Cristo,_o Salva[G]dor,",
-          "No [B7]céu é reservada por [Em]Deus, o [C]Forma[B7]dor.[D]..."
+          "Lu[D]gares delei[Bm]tosos Je[D]sus nos prepa[A]rou,",
+          "De [A7]jugos mui penosos também nos liber[D]tou;",
+          "A herança [B]prome[Em]tida por [A7]Cristo, o Salva[D]dor,",
+          "No [Gb7]céu é reservada por [Bm]Deus, o [G]Forma[Gb7]dor.[A]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com [G]nosso_amado [Em]Mestre, mar[G]chemos com fer[D]vor!",
-          "Com [D7]fé, perseverantes, lutemos com vi[G]gor.",
-          "Guiados [E]nós se[Am]remos com [D7]força divi[G]nal;",
-          "A[B7]vante! Prossigamos ao [Em]lar ce[C]lesti[B7]al.[D]..."
+          "Com [D]nosso amado [Bm]Mestre, mar[D]chemos com fer[A]vor!",
+          "Com [A7]fé, perseverantes, lutemos com vi[D]gor.",
+          "Guiados [B]nós se[Em]remos com [A7]força divi[D]nal;",
+          "A[Gb7]vante! Prossigamos ao [Bm]lar ce[G]lesti[Gb7]al.[A]..."
         ]
       },
       {

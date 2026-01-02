@@ -1,17 +1,21 @@
 {
+  "code": "261",
   "version": "v3",
   "title": "Vivo por Cristo",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "Bb", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[F]Vivo por [C]Cristo, o [Bb]bom Salva[F]dor;",
-          "[C]Vivo pro[F]vando do [G]Seu grande_a[C]mor.",
+          "[C]Vivo pro[F]vando do [G]Seu grande a[C]mor.",
           "[F]Cristo, o [C]Mestre, na [Bb]cruz expi[A]rou;",
           "[Bb]Por Sua [F]morte, per[C7]dão me do[F]ou."
         ]
@@ -19,10 +23,10 @@
       {
         "type": "chorus",
         "text": [
-          "Je[F]sus, Pastor divino, en[Gm]trego_a Ti meu ser,",
+          "Je[F]sus, Pastor divino, en[Gm]trego a Ti meu ser,",
           "Pois, [C7]com Teu sacri[F]fício, fi[G]zeste-me vi[C]ver;",
-          "A[F]mor celeste_e santo mos[F7]traste sobre_a [Bb]cruz;",
-          "Glorioso_é perten[F]cer a [D7]Ti, ó  [G7]Salva[C7]dor Jes[F]us!"
+          "A[F]mor celeste e santo mos[F7]traste sobre a [Bb]cruz;",
+          "Glorioso é perten[F]cer a [D7]Ti, ó [G7]Salva[C7]dor Jes[F]us!"
         ]
       },
       {
@@ -31,8 +35,8 @@
         "text": [
           "[F]É um te[C]souro de [Bb]grande va[F]lor",
           "[C]A salva[F]ção que me [G]deu o Sen[C]hor;",
-          "[F]Tenho_espe[C]rança de_en[Bb]trar lá nos c[A]éus",
-          "[Bb]E, com o [F]Mestre, es[C7]tar junto_a D[F]eus."
+          "[F]Tenho espe[C]rança de en[Bb]trar lá nos c[A]éus",
+          "[Bb]E, com o [F]Mestre, es[C7]tar junto a D[F]eus."
         ]
       },
       {
@@ -45,8 +49,8 @@
         "text": [
           "[F]Humilde[C]mente eu [Bb]atende[F]rei",
           "[C]Aos bons con[F]selhos de [G]Cristo, meu [C]Rei;",
-          "[F]Em grande_a[C]preço te[Bb]rei Seu a[A]mor;",
-          "[Bb]Glória e [F]honra a [C7]Cristo,_o Sen[F]hor!"
+          "[F]Em grande a[C]preço te[Bb]rei Seu a[A]mor;",
+          "[Bb]Glória e [F]honra a [C7]Cristo, o Sen[F]hor!"
         ]
       },
       {

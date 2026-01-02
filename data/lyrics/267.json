@@ -1,38 +1,42 @@
 {
+  "code": "267",
   "version": "v3",
   "title": "Graça maravilhosa",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "A°", "A", "G#°", "F#m", "B7", "E", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Graça maravi[B°]lho - [B]sa de Cristo,_o Redentor![A#°]...",
-          "[G#m]Não há em mim palavras [C#7]para a descre[F#]ver![F#7]...",
-          "[B]É dom mui exce[B°]len - [B]te, grande é [B7]seu va[E]lor;",
-          "Essa [F°]graça bendita [B]sin[G#°]to   [F#]em  [F#7]meu  [B]ser."
+          "[A]Graça maravi[A°]lho - [A]sa de Cristo, o Redentor![G#°]...",
+          "[F#m]Não há em mim palavras [B7]para a descre[E]ver![E7]...",
+          "[A]É dom mui exce[A°]len - [A]te, grande é [A7]seu va[D]lor;",
+          "Essa [D#°]graça bendita [A]sin[F#°]to [E]em [E7]meu [A]ser."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]É maravilhosa e_exce[F#]len - [F#7]te   [B]a divina graça de Je[F#7]sus,",
-          "Nada a [B]ela se [C#7]pode_igua[F#]lar;[F#7]...",
-          "[B]Ela apagou os meus pe[F#]ca - [F#7]dos  [B]e à gloria_eterna me con[E]duz;",
-          "Su[F°]blime é a graça q[B]ue Je[E]sus me [F#]vei - [F#7]o   d[B]ar."
+          "[A]É maravilhosa e exce[E]len - [E7]te [A]a divina graça de Je[E7]sus,",
+          "Nada a [A]ela se [B7]pode igua[E]lar;[E7]...",
+          "[A]Ela apagou os meus pe[E]ca - [E7]dos [A]e à gloria eterna me con[D]duz;",
+          "Su[D#°]blime é a graça q[A]ue Je[D]sus me [E]vei - [E7]o d[A]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Graça maravi[B°]lho - [B]sa que traz a salvação,[A#°]...",
-          "[G#m]Por ela, dos pecados, [C#7]Cristo me liber[F#]tou;[F#7]...",
-          "[B]Ela se_estende_a [B°]to - [B]dos, a todos [B7]dá per[E]dão,",
-          "Pois em [F°]Cristo Jesus, aos [B]ho - [G#°]mens, [F#]Deus [F#7]a - m[B]ou."
+          "[A]Graça maravi[A°]lho - [A]sa que traz a salvação,[G#°]...",
+          "[F#m]Por ela, dos pecados, [B7]Cristo me liber[E]tou;[E7]...",
+          "[A]Ela se estende a [A°]to - [A]dos, a todos [A7]dá per[D]dão,",
+          "Pois em [D#°]Cristo Jesus, aos [A]ho - [F#°]mens, [E]Deus [E7]a - m[A]ou."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Graça maravi[B°]lho - [B]sa concede paz com Deus;[A#°]...",
-          "[G#m]Por sua eficácia, [C#7]transforma_o cora[F#]ção;[F#7]...",
-          "[B]Essa bendita [B°]gra - [B]ça me leva[B7]rá aos [E]céus,",
-          "Onde [F°]Cristo dará, aos [B]san[G#°]tos, [F#]ga – [F#7]lar - d[B]ão."
+          "[A]Graça maravi[A°]lho - [A]sa concede paz com Deus;[G#°]...",
+          "[F#m]Por sua eficácia, [B7]transforma o cora[E]ção;[E7]...",
+          "[A]Essa bendita [A°]gra - [A]ça me leva[A7]rá aos [D]céus,",
+          "Onde [D#°]Cristo dará, aos [A]san[F#°]tos, [E]ga – [E7]lar - d[A]ão."
         ]
       },
       {

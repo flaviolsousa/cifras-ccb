@@ -1,38 +1,42 @@
 {
+  "code": "279",
   "version": "v3",
   "title": "Oh! Não temas, igreja de Jesus",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Oh! Não [A]temas tu, igreja [E]de Jesus,",
-          "Com justiça Ele te confirma[A]rá;",
-          "O lugar da tua tenda_e_ha[E]bitação",
-          "[B7]O Senhor amplia[E]rá."
+          "Oh! Não [G]temas tu, igreja [D]de Jesus,",
+          "Com justiça Ele te confirma[G]rá;",
+          "O lugar da tua tenda e ha[D]bitação",
+          "[A7]O Senhor amplia[D]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Toda_a arma contra [A]ti",
-          "[C#7]Prosperar não pode[F#m]rá;[A7]...",
-          "[D]Quando_o inimigo contra [A]ti se levantar,",
-          "[E]Cristo te defende[A]rá."
+          "[D]Toda a arma contra [G]ti",
+          "[B7]Prosperar não pode[Em]rá;[G7]...",
+          "[C]Quando o inimigo contra [G]ti se levantar,",
+          "[D]Cristo te defende[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Toda_a [A]arma preparada [E]contra ti",
-          "Te combate, mas jamais te vence[A]rá,",
-          "Pois Jesus, o teu amado [E]Redentor,",
-          "[B7]A vitória te da[E]rá."
+          "Toda a [G]arma preparada [D]contra ti",
+          "Te combate, mas jamais te vence[G]rá,",
+          "Pois Jesus, o teu amado [D]Redentor,",
+          "[A7]A vitória te da[D]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Na e[A]terna glória, não te [E]lembrarás",
-          "Das angústias deste mundo_engana[A]dor,",
-          "Pois ali eternamente [E]estarás",
-          "[B7]Com Jesus, o Vence[E]dor."
+          "Na e[G]terna glória, não te [D]lembrarás",
+          "Das angústias deste mundo engana[G]dor,",
+          "Pois ali eternamente [D]estarás",
+          "[A7]Com Jesus, o Vence[D]dor."
         ]
       },
       {

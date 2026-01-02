@@ -1,38 +1,42 @@
 {
+  "code": "307",
   "version": "v3",
   "title": "Cristo nos dará da Sua plenitude",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó ir[E]mãos, apresentemo-nos ao nosso Redentor,",
-          "Prontos para O_aten[B]der;",
-          "Ao que Ele nos disser, obede[E]çamos com amor,",
-          "Sem ja[B]mais es[F#]more[B]cer."
+          "Ó ir[D]mãos, apresentemo-nos ao nosso Redentor,",
+          "Prontos para O aten[A]der;",
+          "Ao que Ele nos disser, obede[D]çamos com amor,",
+          "Sem ja[A]mais es[E]more[A]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Cristo [E]nos dará da [A]Sua pleni[E]tude,",
-          "Com a [B]fé nos cingirá e em [E]nós derramará,",
-          "Do Es[A]pírito,_o poder e a vir[E]tude;",
-          "Valorosos [B]nos fa[E]rá."
+          "Cristo [D]nos dará da [G]Sua pleni[D]tude,",
+          "Com a [A]fé nos cingirá e em [D]nós derramará,",
+          "Do Es[G]pírito, o poder e a vir[D]tude;",
+          "Valorosos [A]nos fa[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ó a[E]mados, aceitemos do Senhor a correção,",
-          "Pois corrige_a quem quer [B]bem;",
-          "Os Seus santos mandamentos leves [E]para nós serão,",
-          "Seus con[B]selhos [F#]nos con[B]vêm."
+          "Ó a[D]mados, aceitemos do Senhor a correção,",
+          "Pois corrige a quem quer [A]bem;",
+          "Os Seus santos mandamentos leves [D]para nós serão,",
+          "Seus con[A]selhos [E]nos con[A]vêm."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Pelo_Es[E]pírito da graça poderemos compreender",
-          "Toda_a obra de a[B]mor;",
-          "Saberemos, ó eleitos, como_a [E]nosso Deus temer;",
-          "Oh! Sir[B]vamos [F#]ao Sen[B]hor."
+          "Pelo Es[D]pírito da graça poderemos compreender",
+          "Toda a obra de a[A]mor;",
+          "Saberemos, ó eleitos, como a [D]nosso Deus temer;",
+          "Oh! Sir[A]vamos [E]ao Sen[A]hor."
         ]
       },
       {

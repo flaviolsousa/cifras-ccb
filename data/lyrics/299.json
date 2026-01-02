@@ -1,33 +1,37 @@
 {
+  "code": "299",
   "version": "v3",
   "title": "Em nome de Jesus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "A", "E", "B", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Em nome de Jesus, eis-nos reunidos",
-          "[F#]Para_apren[B]der Teu que[F#]rer, [C#]ó Se[F#]nhor;",
-          "[B]Conserva-nos, ó Deus, sempre unidos,",
-          "[F#]Pois depen[B]demos de [E]Ti, [F#]Cria[B]dor."
+          "[A]Em nome de Jesus, eis-nos reunidos",
+          "[E]Para apren[A]der Teu que[E]rer, [B]ó Se[E]nhor;",
+          "[A]Conserva-nos, ó Deus, sempre unidos,",
+          "[E]Pois depen[A]demos de [D]Ti, [E]Cria[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[F#]Com reve[B]rência_e fé [F#]Te ado[B]ramos,", "[E]Onipo[B]tente Deus, [E]Pai [F#]de a[B]mor.[B]..."]
+        "text": ["[E]Com reve[A]rência e fé [E]Te ado[A]ramos,", "[D]Onipo[A]tente Deus, [D]Pai [E]de a[A]mor.[A]..."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Dá-nos, Senhor, do Teu conhecimento",
-          "[F#]Para que_as[B]sim Te pos[F#]sa - [C#]mos hon[F#]rar;",
-          "[B]Tua Palavra dá entendimento",
-          "[F#]E em jus[B]tiça nos [E]faz [F#]camin[B]har."
+          "[A]Dá-nos, Senhor, do Teu conhecimento",
+          "[E]Para que as[A]sim Te pos[E]sa - [B]mos hon[E]rar;",
+          "[A]Tua Palavra dá entendimento",
+          "[E]E em jus[A]tiça nos [D]faz [E]camin[A]har."
         ]
       },
       {
@@ -38,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Habita_em Ti, ó Deus, sabedoria,",
-          "[F#]Toda ci[B]ência, glo[F#]rio - [C#]so Se[F#]nhor;",
-          "[B]Tua eterna luz sempre nos guia",
-          "[F#]Na sã ver[B]dade, a[E]mor [F#]e te[B]mor."
+          "[A]Habita em Ti, ó Deus, sabedoria,",
+          "[E]Toda ci[A]ência, glo[E]rio - [B]so Se[E]nhor;",
+          "[A]Tua eterna luz sempre nos guia",
+          "[E]Na sã ver[A]dade, a[D]mor [E]e te[A]mor."
         ]
       },
       {

@@ -1,10 +1,14 @@
 {
+  "code": "272",
   "version": "v3",
   "title": "Louvarei ao bom Jesus",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,18 +16,18 @@
         "text": [
           "L[A]ouvarei ao bom Jesus, o santo Redent[E]or;",
           "[E7]Sua poderosa mão veio me libert[A]ar;",
-          "As promessas cumprirá, pelo Seu grande_a[D]mor,",
-          "E, por graça, [A]no Seu reino_ir[E]ei mor[A]ar."
+          "As promessas cumprirá, pelo Seu grande a[D]mor,",
+          "E, por graça, [A]no Seu reino ir[E]ei mor[A]ar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "G[A]lorifico_ao bom Jesus, santo_e fiel Sen[E]hor;",
-          "[E7]Eu me_alegro_em Sua lei, sempre a seguir[A]ei;",
+          "G[A]lorifico ao bom Jesus, santo e fiel Sen[E]hor;",
+          "[E7]Eu me alegro em Sua lei, sempre a seguir[A]ei;",
           "Nada pode me deter, vivo em Seu a[D]mor;",
-          "Seu querer int[A]eiramente_ac[E]eitar[A]ei."
+          "Seu querer int[A]eiramente ac[E]eitar[A]ei."
         ]
       },
       {
@@ -31,16 +35,16 @@
         "code": "3",
         "text": [
           "[A]Aleluia! Eu serei como é meu Sen[E]hor,",
-          "[E7]No glorioso dia_em que Ele do céu vol[A]tar;",
+          "[E7]No glorioso dia em que Ele do céu vol[A]tar;",
           "Nesta vida me sustém o bom Consola[D]dor,",
-          "Pela fé que [A]me ajuda_a c[E]amin[A]har."
+          "Pela fé que [A]me ajuda a c[E]amin[A]har."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[A]O bom Jesus veio mo[D]rar",
-          "No meu coraç[A]ão e,_assim, [B7]o conso[E]lar.[E7]...",
+          "No meu coraç[A]ão e, assim, [B7]o conso[E]lar.[E7]...",
           "[A]Glória sem fim ao Reden[D]tor,",
           "Filho do e[A]terno Deus, [E]o Criad[A]or."
         ]

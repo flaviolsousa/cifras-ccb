@@ -1,37 +1,38 @@
 {
+  "code": "298",
   "version": "v3",
   "title": "Avante sempre, sem temer!",
   "tone": {
-    "recommended": "B"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "A[B]vante sempre, sem te[F#]mer, ó soldados verdadei[B]ros!",
-          "[G#]Por [C#m]Cristo, nosso_Ensina[G#]dor, [C#]fomos feitos bons guer[C#7]rei - [F#]ros;",
-          "Ele, [F#]por nós, combaterá, Suas armas po[F#°]tentes [F#]são,",
-          "Pois nos [F#7]livram sempre do [B]mal,[B7]    [E]do po[B]der da [F#7]tentaç[B]ão.[B]..."
+          "A[F]vante sempre, sem te[C]mer, ó soldados verdadei[F]ros!",
+          "[D]Por [Gm]Cristo, nosso Ensina[D]dor, [G]fomos feitos bons guer[G7]rei - [C]ros;",
+          "Ele, [C]por nós, combaterá, Suas armas po[C°]tentes [C]são,",
+          "Pois nos [C7]livram sempre do [F]mal,[F7] [A#]do po[F]der da [C7]tentaç[F]ão.[F]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A[B]vante, com o Salva[F#]dor, pois é certa a vitó[B]ria!",
-          "[G#]Mar - [C#m]chemos sempre com vi[G#]gor, [C#]prosseguindo para_a [C#7]gló - [F#]ria;",
-          "A co[F#]roa receberá, só quem for em tu[F#°]do fi[F#]el",
-          "A Je[F#7]sus, o nosso Sen[B]hor[B7]    [E]e o [B]nosso_E[F#7]manu - [B]el."
+          "A[F]vante, com o Salva[C]dor, pois é certa a vitó[F]ria!",
+          "[D]Mar - [Gm]chemos sempre com vi[D]gor, [G]prosseguindo para a [G7]gló - [C]ria;",
+          "A co[C]roa receberá, só quem for em tu[C°]do fi[C]el",
+          "A Je[C7]sus, o nosso Sen[F]hor[F7] [A#]e o [F]nosso E[C7]manu - [F]el."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Ale[B]luia! Ale[F#]luia! Bendiremos nosso Salva[B]dor;",
-          "Alelui[B7]a!  [G#]Ale - [C#m]luia! [E°]Glória_e[B]terna_ao [F#7]Reden[B]tor!"
-        ]
+        "text": ["Ale[F]luia! Ale[C]luia! Bendiremos nosso Salva[F]dor;", "Alelui[F7]a! [D]Ale - [Gm]luia! [A#°]Glória e[F]terna ao [C7]Reden[F]tor!"]
       }
     ]
   }

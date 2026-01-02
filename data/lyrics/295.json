@@ -1,50 +1,39 @@
 {
+  "code": "295",
   "version": "v3",
   "title": "Fui, Senhor, por Ti remido",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "Am", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Fui, Sen[G]hor, por Ti re[C]mido",
-          "Para_an[Am]dar em [D]santo_a[G]mor;",
-          "Neste mundo,_a Ti u[C]nido,",
+          "Para an[Am]dar em [D]santo a[G]mor;",
+          "Neste mundo, a Ti u[C]nido,",
           "Eu se[D]rei um vence[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Teu a[G]mor já me con[C]sola",
-          "Para [Am]sempre_o[D]bede[G]cer",
-          "À Palavra, que con[C]trola",
-          "Todo [D]este fraco [G]ser."
-        ]
+        "text": ["Teu a[G]mor já me con[C]sola", "Para [Am]sempre o[D]bede[G]cer", "À Palavra, que con[C]trola", "Todo [D]este fraco [G]ser."]
       },
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Seja [G]eu fortifi[C]cado",
-          "Com o [Am]Teu po[D]der, Sen[G]hor,",
-          "Para ser santifi[C]cado",
-          "Pelo_Es[D]pírito de_a[G]mor."
-        ]
+        "text": ["Seja [G]eu fortifi[C]cado", "Com o [Am]Teu po[D]der, Sen[G]hor,", "Para ser santifi[C]cado", "Pelo Es[D]pírito de a[G]mor."]
       },
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "Sou Teu [G]servo muito_a[C]mado,",
-          "Co-her[Am]deiro [D]Teu, Sen[G]hor;",
-          "E, no reino dese[C]jado,",
-          "Eu ve[D]rei o Cria[G]dor."
-        ]
+        "text": ["Sou Teu [G]servo muito a[C]mado,", "Co-her[Am]deiro [D]Teu, Sen[G]hor;", "E, no reino dese[C]jado,", "Eu ve[D]rei o Cria[G]dor."]
       }
     ]
   }

@@ -1,33 +1,28 @@
 {
+  "code": "263",
   "version": "v3",
   "title": "Cristo é Luz resplandecente",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "E", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[D]Cristo_é Luz resplandecente [G]ao con[D]trito [E]peca[A]dor,",
-          "[D]Que, cansado e aflito, paz espera [A]do Sen[D]hor."
-        ]
+        "text": ["[D]Cristo é Luz resplandecente [G]ao con[D]trito [E]peca[A]dor,", "[D]Que, cansado e aflito, paz espera [A]do Sen[D]hor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Salvação te[A]rá [A7]  todo_o peca[D]dor",
-          "Que se converter ao Evan[A]gelho do Sen[D]hor."
-        ]
+        "text": ["[D]Salvação te[A]rá [A7] todo o peca[D]dor", "Que se converter ao Evan[A]gelho do Sen[D]hor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[D]Cristo_é Senda gloriosa [G]que pre[D]serva [E]no a[A]mor",
-          "[D]Todo_aquele que_obedece à vontade [A]do Sen[D]hor. "
-        ]
+        "text": ["[D]Cristo é Senda gloriosa [G]que pre[D]serva [E]no a[A]mor", "[D]Todo aquele que obedece à vontade [A]do Sen[D]hor. "]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[D]É a celestial Verdade [G]que trans[D]forma_o [E]peca[A]dor,",
-          "[D]E, quem d´Ela se reveste, filho_eleito_é [A]do Sen[D]hor."
-        ]
+        "text": ["[D]É a celestial Verdade [G]que trans[D]forma o [E]peca[A]dor,", "[D]E, quem d´Ela se reveste, filho eleito é [A]do Sen[D]hor."]
       },
       {
         "type": "ref",

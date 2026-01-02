@@ -1,38 +1,42 @@
 {
+  "code": "292",
   "version": "v3",
   "title": "Oh! Quanto é bom o Redentor!",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O bom [B]Deus, Criador, a Seu Filho_enviou,",
-          "A [E]fim de nos dar a e[B]terna redenção;",
+          "O bom [A]Deus, Criador, a Seu Filho enviou,",
+          "A [D]fim de nos dar a e[A]terna redenção;",
           "Pelos nossos pecados Jesus suportou",
-          "[E]Morte de [B]cruz, que nos [F#]trouxe_a salva[B]ção."
+          "[D]Morte de [A]cruz, que nos [E]trouxe a salva[A]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Oh! [B]Quanto_é bom o nosso Reden[E]tor!",
-          "[C#]Sobre_a cruz, por nós a vida [F#]deu",
-          "[B]E lavou-nos pelo Seu a[E]mor;",
-          "Justifi[B]cou-nos no [F#]sangue que ver[B]teu."
+          "Oh! [A]Quanto é bom o nosso Reden[D]tor!",
+          "[B]Sobre a cruz, por nós a vida [E]deu",
+          "[A]E lavou-nos pelo Seu a[D]mor;",
+          "Justifi[A]cou-nos no [E]sangue que ver[A]teu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O pe[B]cado, em todos, a morte gerou;",
-          "Nin[E]guém desse mal se po[B]dia libertar;",
-          "Sobre_a morte, o Filho de Deus triunfou",
-          "[E]E ressur[B]giu para [F#]nos justifi[B]car."
+          "O pe[A]cado, em todos, a morte gerou;",
+          "Nin[D]guém desse mal se po[A]dia libertar;",
+          "Sobre a morte, o Filho de Deus triunfou",
+          "[D]E ressur[A]giu para [E]nos justifi[A]car."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Cristo [B]triunfalmente subiu para_os céus,",
-          "E_as[E]sim voltará, Sobe[B]rano e Senhor.",
-          "Levará para_a glória os filhos de Deus",
-          "[E]E lhes da[B]rá o Seu [F#]reino de_esplen[B]dor."
+          "Cristo [A]triunfalmente subiu para os céus,",
+          "E as[D]sim voltará, Sobe[A]rano e Senhor.",
+          "Levará para a glória os filhos de Deus",
+          "[D]E lhes da[A]rá o Seu [E]reino de esplen[A]dor."
         ]
       },
       {

@@ -1,16 +1,20 @@
 {
+  "code": "300",
   "version": "v3",
   "title": "Tudo o que nos falta",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D°", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
+          "[D]Tudo o que nos falta, Cristo supri[A]rá;",
           "Quando suplicarmos, [D°]Ele ouvi[D]rá;",
           "De Seus dons celestes [G]nos revestirá,",
           "Quando nós ba[D]termos, Ele [A]abri[D]rá."
@@ -20,7 +24,7 @@
         "type": "chorus",
         "text": [
           "[D]Glória ao bendito Salvador,",
-          "Forte_e inven[A]cível Defensor!",
+          "Forte e inven[A]cível Defensor!",
           "[D]Árdua é a luta [G]contra o pecado, ",
           "[A]Mas resistiremos com va[D]lor."
         ]
@@ -29,9 +33,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
+          "[D]Tudo o que nos falta, Cristo supri[A]rá;",
           "Proteção divina, [D°]Ele prove[D]rá;",
-          "Temos que_entregar-Lhe [G]todo_o nosso ser,",
+          "Temos que entregar-Lhe [G]todo o nosso ser,",
           "Para que pos[D]samos com va[A]lor ven[D]cer."
         ]
       },
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Tudo_o que nos falta, Cristo supri[A]rá;",
-          "Firme_e fielmente, [D°]nos conduzi[D]rá",
-          "Nesta travessia [G]que nos leva_aos céus,",
-          "Onde_iremos [D]ver a face [A]do bom D[D]eus."
+          "[D]Tudo o que nos falta, Cristo supri[A]rá;",
+          "Firme e fielmente, [D°]nos conduzi[D]rá",
+          "Nesta travessia [G]que nos leva aos céus,",
+          "Onde iremos [D]ver a face [A]do bom D[D]eus."
         ]
       },
       {

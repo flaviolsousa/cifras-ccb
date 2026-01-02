@@ -1,28 +1,32 @@
 {
+  "code": "262",
   "version": "v3",
   "title": "Senhor, a Tua igreja",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "E", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[D]hor, a Tua_igreja es[A]pera_alcan[D]çar",
+          "Sen[D]hor, a Tua igreja es[A]pera alcan[D]çar",
           "O reino de gló[E]ria sem [A]par;",
-          "No [D]mundo_ela_encontra tris[G]teza e [A]dor,",
-          "Afli[D]ção, fadiga_e [A]provas, Sen[D]hor."
+          "No [D]mundo ela encontra tris[G]teza e [A]dor,",
+          "Afli[D]ção, fadiga e [A]provas, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[D]hor, a Tua_igreja Te q[A]uer encon[D]trar",
+          "Sen[D]hor, a Tua igreja Te q[A]uer encon[D]trar",
           "E sempre Conti[E]go es[A]tar;",
-          "Oh! [D]Guia seus passos por [G]Teu grande_a[A]mor;",
+          "Oh! [D]Guia seus passos por [G]Teu grande a[A]mor;",
           "Vem lhe [D]dar os Teus a[A]dornos, Sen[D]hor."
         ]
       },
@@ -30,10 +34,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[D]hor, a Tua_igreja quer [A]ver-Te vol[D]tar,",
+          "Sen[D]hor, a Tua igreja quer [A]ver-Te vol[D]tar,",
           "Também quer no céu [E]habi[A]tar;",
           "Quer [D]ver Tua face, ó [G]Rei celest[A]ial,",
-          "E_ado[D]rar-Te no Teu [A]reino_eter[D]nal."
+          "E ado[D]rar-Te no Teu [A]reino eter[D]nal."
         ]
       }
     ]

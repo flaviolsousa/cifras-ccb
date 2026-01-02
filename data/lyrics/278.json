@@ -1,10 +1,14 @@
 {
+  "code": "278",
   "version": "v3",
   "title": "Éramos mortos nas obras más",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "Em", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

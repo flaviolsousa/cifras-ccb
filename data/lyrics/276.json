@@ -1,50 +1,34 @@
 {
+  "code": "276",
   "version": "v3",
   "title": "Ó Senhor da glória",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[E]Ó Senhor da gló[B]ria, ",
-          "Rei celesti[E]al,",
-          "Sempre tens to[A]tal vi[E]tó - [A]ria",
-          "[E]Sobre [B7]todo_o [E]mal."
-        ]
+        "text": ["[D]Ó Senhor da gló[A]ria, ", "Rei celesti[D]al,", "Sempre tens to[G]tal vi[D]tó - [G]ria", "[D]Sobre [A7]todo o [D]mal."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[E]Redentor celes[B]te,",
-          "Fonte do sa[E]ber,",
-          "Para nos re[A]mir, vi[E]es - [A]te",
-          "[E]Sobre_a [B7]cruz mor[E]rer."
-        ]
+        "text": ["[D]Redentor celes[A]te,", "Fonte do sa[D]ber,", "Para nos re[G]mir, vi[D]es - [G]te", "[D]Sobre a [A7]cruz mor[D]rer."]
       },
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[E]Tu nos libertas[B]te",
-          "Da escravid[E]ão;",
-          "Com Teu sangue [A]Tu pa[E]gas[A]te",
-          "[E]Nossa [B7]transgres[E]são."
-        ]
+        "text": ["[D]Tu nos libertas[A]te", "Da escravid[D]ão;", "Com Teu sangue [G]Tu pa[D]gas[G]te", "[D]Nossa [A7]transgres[D]são."]
       },
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "[E]Nossa Fortale[B]za,",
-          "Nossa Paz e [E]Luz,",
-          "Nossa Glória [A]e Ri[E]que[A]za",
-          "[E]És, Se[B7]nhor Jes[E]us."
-        ]
+        "text": ["[D]Nossa Fortale[A]za,", "Nossa Paz e [D]Luz,", "Nossa Glória [G]e Ri[D]que[G]za", "[D]És, Se[A7]nhor Jes[D]us."]
       }
     ]
   }

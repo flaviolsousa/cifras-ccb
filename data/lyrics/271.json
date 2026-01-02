@@ -1,10 +1,14 @@
 {
+  "code": "271",
   "version": "v3",
   "title": "Graças dou a Ti, ó bom Deus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

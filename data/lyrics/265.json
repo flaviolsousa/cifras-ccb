@@ -1,32 +1,36 @@
 {
+  "code": "265",
   "version": "v3",
   "title": "Bençãos dos céus prometidas",
   "tone": {
-    "recommended": "C"
+    "original": "Eb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "B[C]ênçãos dos céus prometidas, n[F]ós esperamos, Sen[C]hor,",
-          "P[G]ois o Evangelho seg[C]uimos, f[D7]ruto do Teu grande a[G]mor.[G7]..."
+          "B[A]ênçãos dos céus prometidas, n[D]ós esperamos, Sen[A]hor,",
+          "P[E]ois o Evangelho seg[A]uimos, f[B7]ruto do Teu grande a[E]mor.[E7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Ó Criador, b[F]ênçãos dos céus,",
-          "[G]Os Teus amados es[C]peram [D7]ansiosamente, Sen[G]hor;[G7]...",
-          "[C]Pai celestial, [C7]    [F]ouve os T[E]eus;",
-          "[F]Bálsamo às nossas [C]almas s[G]ão Tuas bênçãos de a[C]mor."
+          "[A]Ó Criador, b[D]ênçãos dos céus,",
+          "[E]Os Teus amados es[A]peram [B7]ansiosamente, Sen[E]hor;[E7]...",
+          "[A]Pai celestial, [A7] [D]ouve os T[C#]eus;",
+          "[D]Bálsamo às nossas [A]almas s[E]ão Tuas bênçãos de a[A]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["N[C]ós, os Teus santos, pedimos h[F]umildemente, Sen[C]hor;", "\"[G]As Tuas mãos pie[C]dosas [D7]abre em nosso fav[G]or.\"[G7]..."]
+        "text": ["N[A]ós, os Teus santos, pedimos h[D]umildemente, Sen[A]hor;", "\"[E]As Tuas mãos pie[A]dosas [B7]abre em nosso fav[E]or.\"[E7]..."]
       },
       {
         "type": "ref",
@@ -35,7 +39,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["S[C]ela, Senhor, Teus remidos c[F]om o bom Consola[C]dor;", "V[G]em conduzir-nos a t[C]odos [D7]para os céus, ó Sen[G]hor.[G7]..."]
+        "text": ["S[A]ela, Senhor, Teus remidos c[D]om o bom Consola[A]dor;", "V[E]em conduzir-nos a t[A]odos [B7]para os céus, ó Sen[E]hor.[E7]..."]
       },
       {
         "type": "ref",

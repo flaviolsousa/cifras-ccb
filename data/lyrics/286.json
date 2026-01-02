@@ -1,28 +1,32 @@
 {
+  "code": "286",
   "version": "v3",
   "title": "Nome precioso para mim",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Um [D]Nome preci[G]oso [A]para [D]mim,",
-          "O Nome que_ama[G]rei a[A]té o[D]fim,",
-          "Com sin[A]cero_amor, com sin[D]cero_ardor,",
-          "É_o [E]Nome de Jesus, o [A]Mestre[A7]."
+          "O Nome que ama[G]rei a[A]té o[D]fim,",
+          "Com sin[A]cero amor, com sin[D]cero ardor,",
+          "É o [E]Nome de Jesus, o [A]Mestre[A7]."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[D]Nome preci[G]oso [A]para [D]mim",
-          "É o [A]de Jesus, minha [D]Vida_e Luz;",
-          "Por fé eu quero_a[G]má-Lo_a[A]té o [D]fim;",
-          "Je[G]sus, o Reden[A]tor, habita_em [D]mim!"
+          "É o [A]de Jesus, minha [D]Vida e Luz;",
+          "Por fé eu quero a[G]má-Lo a[A]té o [D]fim;",
+          "Je[G]sus, o Reden[A]tor, habita em [D]mim!"
         ]
       },
       {

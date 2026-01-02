@@ -1,38 +1,42 @@
 {
+  "code": "301",
   "version": "v3",
   "title": "Nossa Esperança é Jesus",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Nossa Esperança [B]é Jesus;",
-          "Ele, nesta graça, [E]nos conduz",
-          "Bem alegres pela [A]comunhão",
-          "[B]Que nos traz consola[E]ção."
+          "[D]Nossa Esperança [A]é Jesus;",
+          "Ele, nesta graça, [D]nos conduz",
+          "Bem alegres pela [G]comunhão",
+          "[A]Que nos traz consola[D]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Só a Jesus Cristo [E]seguiremos,",
-          "[B]Ele é o nosso [E]bom Pastor;",
-          "E, ao fim, com Ele [A]reinaremos",
-          "[B]Na cidade de_esplen[E]dor."
+          "[A]Só a Jesus Cristo [D]seguiremos,",
+          "[A]Ele é o nosso [D]bom Pastor;",
+          "E, ao fim, com Ele [G]reinaremos",
+          "[A]Na cidade de esplen[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Cristo,_o Rei dos reis e [B]Salvador,",
-          "Faz-nos caminhar em [E]Seu amor;",
-          "Do pecado veio [A]nos remir,",
-          "[B]Para um feliz por[E]vir."
+          "[D]Cristo, o Rei dos reis e [A]Salvador,",
+          "Faz-nos caminhar em [D]Seu amor;",
+          "Do pecado veio [G]nos remir,",
+          "[A]Para um feliz por[D]vir."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Neste mundo cheio [B]de_ilusão",
-          "Só em Cristo_existe [E]salvação;",
-          "Ele nos concede [A]graça_e luz",
-          "[B]E à glória nos con[E]duz."
+          "[D]Neste mundo cheio [A]de ilusão",
+          "Só em Cristo existe [D]salvação;",
+          "Ele nos concede [G]graça e luz",
+          "[A]E à glória nos con[D]duz."
         ]
       },
       {
