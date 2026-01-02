@@ -1,39 +1,43 @@
 {
+  "code": "252",
   "version": "v3",
   "title": "Exaltação ao Deus Onipotente!",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "E7", "A", "Am", "G", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Exalta[A]ção ao [F#7]Deus Onipo[B]tente!",
-          "[Bm]San-[A]to lou[F#m]vor Lhe [B7]dão os filhos S[E]eus.",
-          "Oram por [C#m]fé e, reve[C#7]rente[F#m]mente,",
-          "[Bm]Can-[A]tam ao [F#m]Pai, Se[B7]nhor e grande D[E]eus."
+          "[D]Exalta[G]ção ao [E7]Deus Onipo[A]tente!",
+          "[Am]San-[G]to lou[Em]vor Lhe [A7]dão os filhos S[D]eus.",
+          "Oram por [Bm]fé e, reve[B7]rente[Em]mente,",
+          "[Am]Can-[G]tam ao [Em]Pai, Se[A7]nhor e grande D[D]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Venera[A]ção ao [F#7]Deus Onipre[B]sente!",
-          "[Bm]Re -[A]ge do [F#m]céu o [B7]mundo que for[E]mou.",
-          "Do Seu o[C#m]lhar, não pode_o [C#7]ser vi[F#m]vente",
-          "[Bm]Se  [A]ocul[F#m]tar, pois [B7]Ele o cri[E]ou."
+          "[D]Venera[G]ção ao [E7]Deus Onipre[A]sente!",
+          "[Am]Re -[G]ge do [Em]céu o [A7]mundo que for[D]mou.",
+          "Do Seu o[Bm]lhar, não pode o [B7]ser vi[Em]vente",
+          "[Am]Se [G]ocul[Em]tar, pois [A7]Ele o cri[D]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Adora[A]ção ao [F#7]Deus Onisci[B]ente!",
-          "[Bm]É   [A]mui su[F#m]blime_o [B7]pensamento [E]Seu;",
-          "Sábio, fi[C#m]el e bom a [C#7]todo_o [F#m]crente",
-          "[Bm]Que, [A]pela [F#m]fé, in[B7]voca_o Rei do c[E]éu."
+          "[D]Adora[G]ção ao [E7]Deus Onisci[A]ente!",
+          "[Am]É [G]mui su[Em]blime o [A7]pensamento [D]Seu;",
+          "Sábio, fi[Bm]el e bom a [B7]todo o [Em]crente",
+          "[Am]Que, [G]pela [Em]fé, in[A7]voca o Rei do c[D]éu."
         ]
       }
     ]

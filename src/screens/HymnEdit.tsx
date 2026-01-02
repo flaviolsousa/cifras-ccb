@@ -22,7 +22,10 @@ const LEVEL_OPTIONS = [
 ];
 
 const CHORD_MAP = {
+  Db: "C#",
+  Eb: "D#",
   Gb: "F#",
+  Ab: "G#",
   Bb: "A#",
 };
 

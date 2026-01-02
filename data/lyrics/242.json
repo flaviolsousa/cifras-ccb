@@ -1,18 +1,22 @@
 {
+  "code": "242",
   "version": "v3",
   "title": "Profundo é o saber de Deus, Criador",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Prof[A]undo_é_o saber de D[D]eus, Criad[E]or,",
+          "Prof[A]undo é o saber de D[D]eus, Criad[E]or,",
           "Sa[A]ber sem igual, de [E]grande esplen[A]dor;",
-          "O_in[E]tento de [E7]Deus ninguém pode sondar;",
+          "O in[E]tento de [E7]Deus ninguém pode sondar;",
           "Con[A]selhos ninguém foi ao [E]grande Deus di[A]tar."
         ]
       },
@@ -22,7 +26,7 @@
         "text": [
           "Per[A]feito saber é [D]só o de D[E]eus,",
           "Al[A]tíssimo são os [E]pensamentos S[A]eus;",
-          "Por [E]Ele e [E7]d´Ele é tudo_o que há;",
+          "Por [E]Ele e [E7]d´Ele é tudo o que há;",
           "É D[A]eus que, aos homens, sus[E]tento sempre [A]dá."
         ]
       },
@@ -32,8 +36,8 @@
         "text": [
           "Su[A]blime saber per[D]tence a D[E]eus,",
           "Ci[A]ência dos céus não [E]negará aos S[A]eus;",
-          "Ri[E]quezas per[E7]pétuas só Ele_é que tem;",
-          "A [A]Ele a glória e[E]ternamente._A[A]mém."
+          "Ri[E]quezas per[E7]pétuas só Ele é que tem;",
+          "A [A]Ele a glória e[E]ternamente. A[A]mém."
         ]
       }
     ]

@@ -1,10 +1,14 @@
 {
+  "code": "260",
   "version": "v3",
   "title": "Sou servo inútil, ó Deus piedoso",
   "tone": {
-    "recommended": "D"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "A", "Em", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",

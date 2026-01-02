@@ -1,38 +1,42 @@
 {
+  "code": "236",
   "version": "v3",
   "title": "Há um lugar de eterna paz",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Os santos [E]do Senhor em terra_es[B]tranha_estão,",
-          "Caminham com fervor, em pere[E]grinação;",
-          "Estão buscando_o lar de esplen[A]dor sem par,",
-          "São co-her[B7]deiros de Je[E]sus."
+          "Os santos [D]do Senhor em terra es[A]tranha estão,",
+          "Caminham com fervor, em pere[D]grinação;",
+          "Estão buscando o lar de esplen[G]dor sem par,",
+          "São co-her[A7]deiros de Je[D]sus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Há um lu[B7]gar de_eterna [E]paz",
-          "E de con[B]solação [F#7]ve - [B]raz;",
-          "Quem se_entre[E]gar a Deus, quem crer no [A]Salvador,",
-          "Irá mo[E]rar no lar [B7]de_a[E]mor."
+          "Há um lu[A7]gar de eterna [D]paz",
+          "E de con[A]solação [E7]ve - [A]raz;",
+          "Quem se entre[D]gar a Deus, quem crer no [G]Salvador,",
+          "Irá mo[D]rar no lar [A7]de a[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Quem pode [E]exprimir, quem pode [B]explicar",
-          "A glória do porvir, que_o justo [E]vai herdar?",
-          "Certeza deste bem, por fé, a[A]gora têm",
-          "Os resga[B7]tados de Je[E]sus."
+          "Quem pode [D]exprimir, quem pode [A]explicar",
+          "A glória do porvir, que o justo [D]vai herdar?",
+          "Certeza deste bem, por fé, a[G]gora têm",
+          "Os resga[A7]tados de Je[D]sus."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Mandado [E]é, dos céus, que_o homem [B]pecador",
-          "Aceite_a_eterna lei de Deus, o [E]Criador;",
-          "Justificado,_então terá o [A]galardão",
-          "Com os que [B7]creram em Je[E]sus."
+          "Mandado [D]é, dos céus, que o homem [A]pecador",
+          "Aceite a eterna lei de Deus, o [D]Criador;",
+          "Justificado, então terá o [G]galardão",
+          "Com os que [A7]creram em Je[D]sus."
         ]
       },
       {

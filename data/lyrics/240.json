@@ -1,33 +1,37 @@
 {
+  "code": "240",
   "version": "v3",
   "title": "Não me cansarei de cantar",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Não [A]me cansarei de can[E]tar",
-          "Louvores ao [E7]meu Cria[A]dor;",
-          "A paz que me faz exul[C#7]tar[D]...",
-          "É [E]fruto [E7]do Seu a[A]mor."
+          "Não [G]me cansarei de can[D]tar",
+          "Louvores ao [D7]meu Cria[G]dor;",
+          "A paz que me faz exul[B7]tar[C]...",
+          "É [D]fruto [D7]do Seu a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[A]Glória, [D]gló[A]ria [B7]dou a Jesus com fer[E]vor[E7];", "Por [A]Ele serei vence[D]dor;", "Oh! [E]Glória ao meu Reden[A]tor."]
+        "text": ["[G]Glória, [C]gló[G]ria [A7]dou a Jesus com fer[D]vor[D7];", "Por [G]Ele serei vence[C]dor;", "Oh! [D]Glória ao meu Reden[G]tor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "De [A]quando Jesus me cha[E]mou,",
-          "Não cesso de [E7]dar-Lhe lou[A]vor;",
-          "Foi Ele Quem me resga[C#7]tou,[D]...",
-          "Ben[E]dito_é [E7]Cristo,_o Sen[A]hor!"
+          "De [G]quando Jesus me cha[D]mou,",
+          "Não cesso de [D7]dar-Lhe lou[G]vor;",
+          "Foi Ele Quem me resga[B7]tou,[C]...",
+          "Ben[D]dito é [D7]Cristo, o Sen[G]hor!"
         ]
       },
       {
@@ -38,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A [A]santa presença de [E]Deus,",
-          "Meu cálice [E7]faz transbor[A]dar;",
-          "Terei regozijo nos [C#7]céus,[D]...",
-          "Glo[E]rioso,_e[E7]terno, sem [A]par."
+          "A [G]santa presença de [D]Deus,",
+          "Meu cálice [D7]faz transbor[G]dar;",
+          "Terei regozijo nos [B7]céus,[C]...",
+          "Glo[D]rioso, e[D7]terno, sem [G]par."
         ]
       },
       {

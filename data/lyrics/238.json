@@ -1,48 +1,52 @@
 {
+  "code": "238",
   "version": "v3",
   "title": "Teu servo ouve; fala, Senhor",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Para ou[D]vir-Te, ó Cria[A]dor,",
-          "Me apre[A7]sento diante de [D]Ti;",
-          "Tua Palavra [D7]manda, Sen[G]hor;",
-          "Para ou[D]vi-La, [A]eis-me a[D]qui."
+          "Para ou[C]vir-Te, ó Cria[G]dor,",
+          "Me apre[G7]sento diante de [C]Ti;",
+          "Tua Palavra [C7]manda, Sen[F]hor;",
+          "Para ou[C]vi-La, [G]eis-me a[C]qui."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ao meu de[D]sejo renuncia[A]rei",
-          "Para ser[A7]vir-Te e Te_agra[D]dar;",
-          "E os preceitos [D7]da Tua [G]lei",
-          "Quero, con[D]tente, [A]execu[D]tar."
+          "Ao meu de[C]sejo renuncia[G]rei",
+          "Para ser[G7]vir-Te e Te agra[C]dar;",
+          "E os preceitos [C7]da Tua [F]lei",
+          "Quero, con[C]tente, [G]execu[C]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Serve-Te [D]deste meu fraco [A]ser",
-          "Como_instru[A7]mento ao Teu lou[D]vor;",
-          "E, Te servindo, [D7]quero di[G]zer:",
-          "“Sevo i[D]nútil [A]sou, ó Sen[D]hor.”"
+          "Serve-Te [C]deste meu fraco [G]ser",
+          "Como instru[G7]mento ao Teu lou[C]vor;",
+          "E, Te servindo, [C7]quero di[F]zer:",
+          "“Sevo i[C]nútil [G]sou, ó Sen[C]hor.”"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Teu servo [D]ouve; fala, Sen[A]hor,",
-          "O que [A7]requeres de mim, [D]ó Deus?",
-          "A voz divina, [D7]que vem dos [G]céus,",
-          "Teu servo [D]ouve; [A]fala, Sen[D]hor."
+          "Teu servo [C]ouve; fala, Sen[G]hor,",
+          "O que [G7]requeres de mim, [C]ó Deus?",
+          "A voz divina, [C7]que vem dos [F]céus,",
+          "Teu servo [C]ouve; [G]fala, Sen[C]hor."
         ]
       }
     ]

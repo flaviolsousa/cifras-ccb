@@ -1,33 +1,37 @@
 {
+  "code": "254",
   "version": "v3",
   "title": "De Jesus a graça divina",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C7", "F", "A#", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]De [C7]Je - [F]sus a gra[Bb]ça di[F]vi - [C]na [A]e, [A7]tam - [Dm]bém, a [G]paz [G7]de  [C]Deus,",
-          "Com [G7]a   [C7]ce - [F]les[Bb]tial [B°]dou - [C]tri[C7]na, [F]per[A°]ma – [Bb]ne - [B°]çam [C]nos [C7]filhos [F]Seus."
+          "[F]De [C7]Je - [F]sus a gra[A#]ça di[F]vi - [C]na [A]e, [A7]tam - [Dm]bém, a [G]paz [G7]de [C]Deus,",
+          "Com [G7]a [C7]ce - [F]les[A#]tial [Cb°]dou - [C]tri[C7]na, [F]per[A°]ma – [A#]ne - [Cb°]çam [C]nos [C7]filhos [F]Seus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Fé [C7]e_a - [F]mor conser[Bb]vem u[F]ni - [C]dos [A]os [A7]re - [Dm]midos [G]do [G7]Se - [C]nhor;",
-          "Se[G7]jam [C7]e - [F]les [Bb]re – [B°]ves – [C]ti - [C7]dos [F]das [A°]vir – [Bb]tu - [B°]des [C]do [C7]Reden[F]tor."
+          "[F]Fé [C7]e a - [F]mor conser[A#]vem u[F]ni - [C]dos [A]os [A7]re - [Dm]midos [G]do [G7]Se - [C]nhor;",
+          "Se[G7]jam [C7]e - [F]les [A#]re – [Cb°]ves – [C]ti - [C7]dos [F]das [A°]vir – [A#]tu - [Cb°]des [C]do [C7]Reden[F]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Sem[C7]pre_u[F]nidos ao [Bb]sábio [F]Mes[C]tre [A]de - [A7]vem [Dm]os fi[G]éis [G7]vi - [C]ver;",
-          "E [G7]a   [C7]co – [F]mu - [Bb]nhão [B°]ce - [C]les[C7]te, [F]nos [A°]seus [Bb]co – [B°]ra - [C]ções, [C7]devem [F]ter."
+          "[F]Sem[C7]pre u[F]nidos ao [A#]sábio [F]Mes[C]tre [A]de - [A7]vem [Dm]os fi[G]éis [G7]vi - [C]ver;",
+          "E [G7]a [C7]co – [F]mu - [A#]nhão [Cb°]ce - [C]les[C7]te, [F]nos [A°]seus [A#]co – [Cb°]ra - [C]ções, [C7]devem [F]ter."
         ]
       }
     ]

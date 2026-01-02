@@ -1,37 +1,41 @@
 {
+  "code": "244",
   "version": "v3",
   "title": "Cristo intercede por ti",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Quando te faltam forças contra_o mal,",
+          "[F]Quando te faltam forças contra o mal,",
           "Tens o socorro dos c[C]éus;",
           "[F]Cristo Jesus, Cordeiro divinal,",
-          "[C]É_Intercessor junto_a D[F]eus."
+          "[C]É Intercessor junto a D[F]eus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[F]Cristo_intercede por [C]ti",
-          "Junto_a Deus, o Pai celes[F]tial;",
-          "[F7]Cristo_é_o Modelo [Bb]santo_e perfeito,",
-          "[F]Cristo_é_o A[C]migo le[F]al."
+          "[F]Cristo intercede por [C]ti",
+          "Junto a Deus, o Pai celes[F]tial;",
+          "[F7]Cristo é o Modelo [Bb]santo e perfeito,",
+          "[F]Cristo é o A[C]migo le[F]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Quando_o_inimigo te vier tentar,",
-          "Clama_a Jesus, Reden[C]tor;",
-          "[F]Forças, por certo, Ele_irá te dar",
+          "[F]Quando o inimigo te vier tentar,",
+          "Clama a Jesus, Reden[C]tor;",
+          "[F]Forças, por certo, Ele irá te dar",
           "[C]E te fará vence[F]dor."
         ]
       },
@@ -43,7 +47,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Quando_estiveres em tribulação,",
+          "[F]Quando estiveres em tribulação,",
           "Clama ao Filho de D[C]eus,",
           "[F]E certamente te socorrerão",
           "[C]Anjos mandados dos c[F]éus."

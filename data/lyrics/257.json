@@ -1,17 +1,21 @@
 {
+  "code": "257",
   "version": "v3",
   "title": "Remiu-nos por graça",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "Bb", "F", "G7", "C", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Re[F]miu-nos por graça_o bon[Bb]doso Je[F]sus,",
-          "Morrendo por [G7]nós sobre_a [C]cruz[C7],",
+          "Re[F]miu-nos por graça o bon[Bb]doso Je[F]sus,",
+          "Morrendo por [G7]nós sobre a [C]cruz[C7],",
           "Pa[F]gou nossa dívida [Bb]ao Cria[F]dor,",
           "Por [Bb]Seu ine[C7]fável a[F]mor."
         ]
@@ -19,8 +23,8 @@
       {
         "type": "chorus",
         "text": [
-          "Bus[F]quemos a Cristo com todo_o fer[C]vor,",
-          "Na paz, na_humil[F]dade, com [G7]fé e te[C]mor;",
+          "Bus[F]quemos a Cristo com todo o fer[C]vor,",
+          "Na paz, na humil[F]dade, com [G7]fé e te[C]mor;",
           "Di[F]vina mercê quer Jesus dispen[Gm]sar",
           "A [A]quem, confi[Dm]ante, a [C7]Ele cla[F]mar."
         ]
@@ -29,7 +33,7 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Nin[F]guém merecia_o fa[Bb]vor do Sen[F]hor,",
+          "Nin[F]guém merecia o fa[Bb]vor do Sen[F]hor,",
           "Mas Ele, por [G7]grande a[C]mor[C7],",
           "A [F]todos promete re[Bb]al salvaç[F]ão;",
           "Quem [Bb]crê em Je[C7]sus, tem perd[F]ão."
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Só [F]em Cristo temos ve[Bb]raz salvaç[F]ão,",
-          "Por Ele_alcan[G7]çamos per[C]dão[C7];",
+          "Por Ele alcan[G7]çamos per[C]dão[C7];",
           "Je[F]sus veio com Seu po[Bb]der nos sal[F]var",
           "E [Bb]Seus fiéis [C7]ao céu gui[F]ar."
         ]

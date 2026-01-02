@@ -1,36 +1,40 @@
 {
+  "code": "248",
   "version": "v3",
   "title": "Glória! Aleluia! Sinto Jesus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "D", "E", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Glória!_Aleluia! [G]Sinto Jes[D]us,",
+          "[D]Glória! Aleluia! [G]Sinto Jes[D]us,",
           "Ele me [E]guia na senda de [A]luz;",
           "[D]Seu forte braço [G]me suste[D]rá,",
-          "De todo_o [G]mal me [A]defende[D]rá."
+          "De todo o [G]mal me [A]defende[D]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Glória!_Aleluia! [G]Contempla[D]rei",
+          "[D]Glória! Aleluia! [G]Contempla[D]rei",
           "Face a [G]face [E]o meu Se[A]nhor,",
-          "[A7]E_então ig[D]ual a [G]Ele se[D]rei",
-          "No Seu glo[G]rioso [A]lar de_esplen[D]dor."
+          "[A7]E então ig[D]ual a [G]Ele se[D]rei",
+          "No Seu glo[G]rioso [A]lar de esplen[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Glória!_Aleluia! [G]Santo_é_o Sen[D]hor,",
-          "Três vezes [E]Santo e rico_em a[A]mor;",
+          "[D]Glória! Aleluia! [G]Santo é o Sen[D]hor,",
+          "Três vezes [E]Santo e rico em a[A]mor;",
           "[D]Vivo seguro [G]em Seu po[D]der,",
           "E este [G]mundo [A]posso ven[D]cer."
         ]
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Glória!_Aleluia! [G]Amo_ao Sen[D]hor;",
-          "Quero ser[E]vi-Lo com todo_o fer[A]vor;",
+          "[D]Glória! Aleluia! [G]Amo ao Sen[D]hor;",
+          "Quero ser[E]vi-Lo com todo o fer[A]vor;",
           "[D]Em Sua glória [G]eu entra[D]rei",
-          "E, junto_aos [G]santos, [A]habita[D]rei."
+          "E, junto aos [G]santos, [A]habita[D]rei."
         ]
       },
       {

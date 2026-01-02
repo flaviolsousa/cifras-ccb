@@ -1,35 +1,29 @@
 {
+  "code": "243",
   "version": "v3",
   "title": "É Jesus o nosso Intercessor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Sumo [G]Sacerdote santo, eternal,",
-          "É Je[D]sus, o Sen[G]hor;",
-          "Intercede junto_ao Pai celestial,",
-          "Nosso [D]Deus, Cria[G]dor."
-        ]
+        "text": ["Sumo [G]Sacerdote santo, eternal,", "É Je[D]sus, o Sen[G]hor;", "Intercede junto ao Pai celestial,", "Nosso [D]Deus, Cria[G]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "É Je[G]sus o nosso_Intercessor",
-          "Junto_a [D]Deus, o Forma[G]dor;",
-          "Em Seu Nome,_a nossa oração",
-          "Chega[D]rá ao Cria[G]dor."
-        ]
+        "text": ["É Je[G]sus o nosso Intercessor", "Junto a [D]Deus, o Forma[G]dor;", "Em Seu Nome, a nossa oração", "Chega[D]rá ao Cria[G]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sacer[G]dote compassivo é_o Senhor;",
+          "Sacer[G]dote compassivo é o Senhor;",
           "Ele [D]nos resga[G]tou;",
           "É piedoso para com o transgressor,",
           "Pois na [D]cruz os sal[G]vou."
@@ -43,10 +37,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Foi ten[G]tado_em tudo o Senhor Jesus,",
+          "Foi ten[G]tado em tudo o Senhor Jesus,",
           "Resis[D]tiu com va[G]lor;",
           "Com Seu braço forte Ele nos conduz;",
-          "Tem por [D]nós grande_a[G]mor."
+          "Tem por [D]nós grande a[G]mor."
         ]
       },
       {

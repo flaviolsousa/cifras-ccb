@@ -1,10 +1,14 @@
 {
+  "code": "253",
   "version": "v3",
   "title": "Foi alegre, ditoso o dia",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,16 +17,16 @@
           "Eu es[G]tava morto no pe[D]cado,",
           "Mas Je[D7]sus, com Sua [G]voz, me despertou;",
           "Era, pelo mal, es[C]cravizado",
-          "E a[G]gora li[D7]berto_es[G]tou."
+          "E a[G]gora li[D7]berto es[G]tou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Foi a[G]legre, ditoso_o [A7]dia",
+          "Foi a[G]legre, ditoso o [A7]dia",
           "Em que [D]Cristo, o Verda[G°]dei - [G]ro,",
-          "Trouxe_a luz divina [D]ao meu coração",
-          "E ves[D7]tiu-me de jus[G]tiça_e salvação;",
+          "Trouxe a luz divina [D]ao meu coração",
+          "E ves[D7]tiu-me de jus[G]tiça e salvação;",
           "Grande glória, oh! ale[A7]luia!,",
           "No Seu [D]reino desfruta[G]rei;",
           "Lá eu cantarei lou[G7]vores ao [C]justo,",
@@ -33,10 +37,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Eu não [G]servirei à_iniqui[D]dade,",
-          "Pois re[D7]tenho_em mim a [G]fé no Salvador;",
+          "Eu não [G]servirei à iniqui[D]dade,",
+          "Pois re[D7]tenho em mim a [G]fé no Salvador;",
           "Entrarei na celes[C]tial cidade",
-          "Para_es[G]tar com o [D7]meu Sen[G]hor."
+          "Para es[G]tar com o [D7]meu Sen[G]hor."
         ]
       },
       {
@@ -50,7 +54,7 @@
           "Com e[G]terna bem-aventu[D]rança,",
           "Os Seus [D7]santos, o Sen[G]hor coroará;",
           "Eu prossigo com a [C]esperança",
-          "Da vi[G]tória, que [D7]perto_es[G]tá."
+          "Da vi[G]tória, que [D7]perto es[G]tá."
         ]
       },
       {

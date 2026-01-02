@@ -1,16 +1,20 @@
 {
+  "code": "250",
   "version": "v3",
   "title": "Com meu Redentor viverei nos céus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "No [D]dia_em que Jesus vier",
+          "No [D]dia em que Jesus vier",
           "Para, [A]deste mundo, me [D]recolher,",
           "Em Sua paz descansarei",
           "E a [E]Sua volta a[A]guardarei[A]. "
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "Com meu [A7]Redentor vive[D]rei nos céus",
-          "Junto_ao [A]Criador, o e[D]terno Deus;",
-          "Por di[A7]vino_amor, eu des[D]frutarei",
-          "Da e[A]terna_herança com [D]Cristo,_o Rei[D]."
+          "Junto ao [A]Criador, o e[D]terno Deus;",
+          "Por di[A7]vino amor, eu des[D]frutarei",
+          "Da e[A]terna herança com [D]Cristo, o Rei[D]."
         ]
       },
       {
@@ -30,8 +34,8 @@
         "code": "2",
         "text": [
           "E[D]coará dos altos céus",
-          "O som [A]da trombeta do_e[D]terno Deus;",
-          "E, do meu sono,_acordarei",
+          "O som [A]da trombeta do e[D]terno Deus;",
+          "E, do meu sono, acordarei",
           "Para [E]encontrar o glo[A]rioso Rei[A]."
         ]
       },

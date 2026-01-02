@@ -1,36 +1,35 @@
 {
+  "code": "246",
   "version": "v3",
   "title": "Irmãos, já resgatados",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ir[A]mãos, já resgatados no [E]sangue de Jes[A]us,",
-          "Agora_iluminados, mos[E]tremos Sua luz;",
-          "Do mundo, sepa[A]rados, o [D]Mestre n[A]os con[E]du...[A]uz."
+          "Ir[G]mãos, já resgatados no [D]sangue de Jes[G]us,",
+          "Agora iluminados, mos[D]tremos Sua luz;",
+          "Do mundo, sepa[G]rados, o [C]Mestre n[G]os con[D]du...[G]uz."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Resgatados fomos,",
-          "[E]Perdoados somos;",
-          "[A]Salvos nós se[D]remos,",
-          "[E]Sendo_a Deus fi[A]éis."
-        ]
+        "text": ["[G]Resgatados fomos,", "[D]Perdoados somos;", "[G]Salvos nós se[C]remos,", "[D]Sendo a Deus fi[G]éis."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Com [A]todo_o povo_eleito ser[E]vimos ao Sen[A]hor;",
-          "Herdeiros nos tem feito do [E]reino de_esplendor,",
-          "Eterno e perf[A]eito, um [D]reino [A]de a[E]mo...[A]or."
+          "Com [G]todo o povo eleito ser[D]vimos ao Sen[G]hor;",
+          "Herdeiros nos tem feito do [D]reino de esplendor,",
+          "Eterno e perf[G]eito, um [C]reino [G]de a[D]mo...[G]or."
         ]
       },
       {
@@ -41,9 +40,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "No [A]número dos santos es[E]tamos, por Jes[A]us,",
-          "E, com vestidos brancos, hon[E]ramos Sua luz;",
-          "Cobertos com Seu [A]manto, o [D]mal não n[A]os se[E]du...[A]uz."
+          "No [G]número dos santos es[D]tamos, por Jes[G]us,",
+          "E, com vestidos brancos, hon[D]ramos Sua luz;",
+          "Cobertos com Seu [G]manto, o [C]mal não n[G]os se[D]du...[G]uz."
         ]
       },
       {

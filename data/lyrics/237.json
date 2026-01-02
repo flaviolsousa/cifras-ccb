@@ -1,37 +1,37 @@
 {
+  "code": "237",
   "version": "v3",
   "title": "Deus é por mim",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Deus é por mim, nada [F#m]devo temer;",
-          "Por [B7]que hei de duvi[E]dar[B7]?",
-          "[E]Ele em [E7]tudo me [A]pode va[F#m]ler,",
-          "Só [B7]n´Ele vou confi[E]ar."
+          "[D]Deus é por mim, nada [Em]devo temer;",
+          "Por [A7]que hei de duvi[D]dar[A7]?",
+          "[D]Ele em [D7]tudo me [G]pode va[Em]ler,",
+          "Só [A7]n´Ele vou confi[D]ar."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[E]Do mundo [A]já separado_es[B7]tou,",
-          "Foi Je[E]sus Quem me separou;",
-          "[C#]Com Seu [F#m]sangue precioso me [B7]resga[E]tou."
-        ]
+        "text": ["[D]Do mundo [G]já separado es[A7]tou,", "Foi Je[D]sus Quem me separou;", "[B]Com Seu [Em]sangue precioso me [A7]resga[D]tou."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Nada no mundo ja[F#m]mais poderá",
-          "Pri[B7]var-me do Seu a[E]mor[B7];",
-          "[E]É esse_a[E7]mor que me [A]conduzi[F#m]rá",
-          "Ao [B7]reino do Cria[E]dor."
+          "[D]Nada no mundo ja[Em]mais poderá",
+          "Pri[A7]var-me do Seu a[D]mor[A7];",
+          "[D]É esse a[D7]mor que me [G]conduzi[Em]rá",
+          "Ao [A7]reino do Cria[D]dor."
         ]
       },
       {
@@ -42,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Para_os fiéis não há [F#m]condenação,",
-          "Je[B7]sus é seu Defen[E]sor[B7];",
-          "[E]Sobre a [E7]morte_eles [A]triunfa[F#m]rão",
-          "Na [B7]volta do seu Se[E]nhor."
+          "[D]Para os fiéis não há [Em]condenação,",
+          "Je[A7]sus é seu Defen[D]sor[A7];",
+          "[D]Sobre a [D7]morte eles [G]triunfa[Em]rão",
+          "Na [A7]volta do seu Se[D]nhor."
         ]
       },
       {

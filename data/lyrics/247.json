@@ -1,10 +1,14 @@
 {
+  "code": "247",
   "version": "v3",
   "title": "Se fores tentado",
   "tone": {
-    "recommended": "G"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "Em", "B7", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -38,10 +42,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[G]Só em Cristo confia, s[D]eja noite ou d[G]ia,",
-          "[C]E terás aleg[G]ria [D]em teu coraç[G]ão."
-        ]
+        "text": ["[G]Só em Cristo confia, s[D]eja noite ou d[G]ia,", "[C]E terás aleg[G]ria [D]em teu coraç[G]ão."]
       }
     ]
   }

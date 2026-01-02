@@ -1,17 +1,21 @@
 {
+  "code": "256",
   "version": "v3",
   "title": "Sem Deus Pai, vivi no mundo",
   "tone": {
-    "recommended": "G"
+    "original": "Bb",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[G]Sem Deus Pai, vi[D]vi no mundo, à vai[C]dade [D]eu ser[G]vi;",
-          "Em tristezas [D]me_encontrava quando,_a [C]Cristo, [D]conhe[G]ci;",
+          "Em tristezas [D]me encontrava quando, a [C]Cristo, [D]conhe[G]ci;",
           "Seu perdão, Seu amor, em minh´alma [D]rece[G]bi."
         ]
       },
@@ -19,17 +23,17 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Eu jamais com[D]preenderia o_Evan[C]gelho [D]do Sen[G]hor,",
-          "Se não fosse [D]Sua graça, Seu a[C]mor, i[D]menso_a[G]mor,",
-          "Que do mal me livrou, me unindo_ao [D]Cria[G]dor."
+          "[G]Eu jamais com[D]preenderia o Evan[C]gelho [D]do Sen[G]hor,",
+          "Se não fosse [D]Sua graça, Seu a[C]mor, i[D]menso a[G]mor,",
+          "Que do mal me livrou, me unindo ao [D]Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]No meu ser a[D]gora sinto Teu Es[C]píri[D]to,_ó Sen[G]hor,",
-          "Que me guia [D]na verdade e me [C]leva_ao [D]lar de_a[G]mor;",
+          "[G]No meu ser a[D]gora sinto Teu Es[C]píri[D]to, ó Sen[G]hor,",
+          "Que me guia [D]na verdade e me [C]leva ao [D]lar de a[G]mor;",
           "Nesse lar viverei com Jesus, meu [D]Reden[G]tor."
         ]
       }

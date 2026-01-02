@@ -1,35 +1,34 @@
 {
+  "code": "239",
   "version": "v3",
   "title": "Eis que a noite é passada",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["F", "C", "F", "Bb", "G7", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eis que_a [F]noite é pas[C]sada, para mim surgiu o [F]dia;",
+          "Eis que a [F]noite é pas[C]sada, para mim surgiu o [F]dia;",
           "De Je[Bb]sus estou mais perto; [G7]oh! que ale[C]gria!",
           "Sempre [F]mais eu vou cres[C]cendo nas virtudes do Sen[F]hor",
-          "Para,_um [Bb]dia, [D°]ser per[C#7]feito [C7]no divino_a[F]mor."
+          "Para, um [Bb]dia, [D°]ser per[C#7]feito [C7]no divino a[F]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Ó Je[F]sus, por Tua [C]graça,",
-          "Glória [C7]sempre Te da[F]rei;",
-          "Resga[F7]tado por Teu [Bb]sangue,",
-          "Só a [C7]Ti servi[F]rei."
-        ]
+        "text": ["Ó Je[F]sus, por Tua [C]graça,", "Glória [C7]sempre Te da[F]rei;", "Resga[F7]tado por Teu [Bb]sangue,", "Só a [C7]Ti servi[F]rei."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Eis que_a [F]noite é pas[C]sada, já surgiu a Luz di[F]vina;",
+          "Eis que a [F]noite é pas[C]sada, já surgiu a Luz di[F]vina;",
           "Essa [Bb]Luz é Jesus Cristo, [G7]que me ilu[C]mina.",
           "Bem cin[F]gido de jus[C]tiça e das armas do Sen[F]hor,",
           "Eu es[Bb]pero, [D°]confi[C#7]ante, [C7]ser um vence[F]dor."

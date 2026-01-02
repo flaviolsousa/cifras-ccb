@@ -1,29 +1,28 @@
 {
+  "code": "259",
   "version": "v3",
   "title": "Só triunfará o de sincero coração",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "D5+", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Quem servir a Deus, tri[D]unfará so[D5+]bre_o [G]mal",
+          "[G]Quem servir a Deus, tri[D]unfará so[D5+]bre o [G]mal",
           "E receberá o [D]galar[B]dão [G]e – [A7]ter - [D]nal;",
-          "Lutará, com todo [G]o fervor, [D]contra toda_a [Em]tenta[B]ção;",
+          "Lutará, com todo [G]o fervor, [D]contra toda a [Em]tenta[B]ção;",
           "[G]Só triunfa[G7]rá o [C]de sincero [G]co – [D]ra - ç[G]ão."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[G]Vamos [D]batalhar",
-          "[D7]Para [G]alcançar",
-          "Gran[G7]de  [C]galardão:",
-          "[D7]Nossa salvaç[G]ão."
-        ]
+        "text": ["[G]Vamos [D]batalhar", "[D7]Para [G]alcançar", "Gran[G7]de [C]galardão:", "[D7]Nossa salvaç[G]ão."]
       },
       {
         "type": "lyric",
@@ -43,8 +42,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]As potentes armas [D]do cristão são [D5+]dos  [G]céus,",
-          "Armas virtuosas [D]que pro[B]vêm [G]só [A7]de  [D]Deus;",
+          "[G]As potentes armas [D]do cristão são [D5+]dos [G]céus,",
+          "Armas virtuosas [D]que pro[B]vêm [G]só [A7]de [D]Deus;",
           "A espada do Es[G]pírito [D]livrará da [Em]tenta[B]ção;",
           "[G]Só triunfa[G7]rá o [C]de sincero [G]co – [D]ra - ç[G]ão."
         ]

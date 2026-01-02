@@ -1,10 +1,14 @@
 {
+  "code": "249",
   "version": "v3",
   "title": "A Caridade",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
