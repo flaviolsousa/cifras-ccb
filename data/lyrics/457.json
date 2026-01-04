@@ -1,17 +1,21 @@
 {
+  "code": "457",
   "version": "v3",
   "title": "Comigo está Jesus",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "C", "Am", "D", "G", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Co[C]migo_está Jesus, meu bom [F]Mestre_e Salva[C]dor,",
-          "Me guia com a luz, [Am]pelo S[D]eu imenso_a[G]mor;",
+          "Co[C]migo está Jesus, meu bom [F]Mestre e Salva[C]dor,",
+          "Me guia com a luz, [Am]pelo S[D]eu imenso a[G]mor;",
           "Mistérios [G7]celestiais Jes[C]us revelará;",
           "No S[F]eu bom ca[C]minho an[G]dar me fa[C]rá.[C]..."
         ]
@@ -20,8 +24,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Quem [C]me separará do sub[F]lime_amor de D[C]eus?",
-          "Quem me condenará? [Am]Pois Jes[D]us defende_os S[G]eus.",
+          "Quem [C]me separará do sub[F]lime amor de D[C]eus?",
+          "Quem me condenará? [Am]Pois Jes[D]us defende os S[G]eus.",
           "Unido [G7]ao Senhor por [C]celestial amor,",
           "Ca[F]minho a[C]vante com [G]fé e va[C]lor.[C]..."
         ]
@@ -40,7 +44,7 @@
         "type": "chorus",
         "text": [
           "Es[C]tou com Jesus, meu Senhor: vou ven[G7]cer!",
-          "Jesus ama_os Seus e_as coisas de Deus lhes faz sa[C]ber.",
+          "Jesus ama os Seus e as coisas de Deus lhes faz sa[C]ber.",
           "A nada aqui temerei, pois eu bem [F]sei",
           "Que tudo está sob as [C]ordens [G]do meu R[C]ei."
         ]

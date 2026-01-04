@@ -1,48 +1,52 @@
 {
+  "code": "475",
   "version": "v3",
   "title": "Se eu for aqui provado",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Se_eu [E]for aqui provado, clama[B]rei a Ti, Senhor;",
-          "Tu és o meu Socorro e tam[E]bém meu Defensor;",
-          "E só por Teu poder, fa[A]rei o Teu querer",
-          "E [B]vencerei, por fé, o mundo_en[E]gana[E]dor."
+          "Se eu [D]for aqui provado, clama[A]rei a Ti, Senhor;",
+          "Tu és o meu Socorro e tam[D]bém meu Defensor;",
+          "E só por Teu poder, fa[G]rei o Teu querer",
+          "E [A]vencerei, por fé, o mundo en[D]gana[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Se_eu [E]for aqui provado, clama[B]rei a Ti, Senhor;",
-          "Confiante que_ouvirás e_atende[E]rás ao meu clamor;",
-          "Se junto_a Ti viver e [A]Te obedecer,",
-          "Por [B]certo eu serei em tudo [E]vence[E]dor."
+          "Se eu [D]for aqui provado, clama[A]rei a Ti, Senhor;",
+          "Confiante que ouvirás e atende[D]rás ao meu clamor;",
+          "Se junto a Ti viver e [G]Te obedecer,",
+          "Por [A]certo eu serei em tudo [D]vence[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Se_eu [E]for aqui_oprimido, clama[B]rei a Ti, Senhor;",
-          "O santo Evangelho me da[E]rá o Teu valor;",
-          "Com Tua proteção te[A]rei a salvação",
-          "E_e[B]xaltarei Teu grande Nome,_ó [E]Salvador."
+          "Se eu [D]for aqui oprimido, clama[A]rei a Ti, Senhor;",
+          "O santo Evangelho me da[D]rá o Teu valor;",
+          "Com Tua proteção te[G]rei a salvação",
+          "E e[A]xaltarei Teu grande Nome, ó [D]Salvador."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Já [E]desde_a minha_infância clamo_a [B]Ti, Senhor,",
-          "De todo_o coração e com sin[E]cero_amor;",
-          "E Tu, meu bom Jesus, és [A]sempre_a minha Luz",
-          "E [B]me conduzirás ao lar de [E]esplen[E]dor."
+          "Já [D]desde a minha infância clamo a [A]Ti, Senhor,",
+          "De todo o coração e com sin[D]cero amor;",
+          "E Tu, meu bom Jesus, és [G]sempre a minha Luz",
+          "E [A]me conduzirás ao lar de [D]esplen[D]dor."
         ]
       }
     ]

@@ -1,23 +1,27 @@
 {
+  "code": "Coro-1",
   "version": "v3",
   "title": "Aleluia! Aleluia!",
   "tone": {
-    "recommended": "A"
+    "original": "A",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "Bm", "E4", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ale[A]luia!_Aleluia!_Ale[D]luia!_Ale[Bm]luia!",
-          "[E4]Glória_ao [E]Reden[A]tor!",
-          "Aleluia!_Aleluia!_Ale[D]luia!_Ale[Bm]luia!",
-          "[E4]Glória_ao [E]Reden[A]tor!",
-          "Glória_ao Reden[E]tor! Aleluia!",
+          "Ale[A]luia! Aleluia! Ale[D]luia! Ale[Bm]luia!",
+          "[E4]Glória ao [E]Reden[A]tor!",
+          "Aleluia! Aleluia! Ale[D]luia! Ale[Bm]luia!",
+          "[E4]Glória ao [E]Reden[A]tor!",
+          "Glória ao Reden[E]tor! Aleluia!",
           "[E7]Santo Remi[A]dor! Aleluia!",
           "Nosso Salva[D]dor! Ale[Bm]luia!",
-          "[E4]Glóa[E]ria_a Jes[A]us![A]..."
+          "[E4]Glóa[E]ria a Jes[A]us![A]..."
         ]
       }
     ]

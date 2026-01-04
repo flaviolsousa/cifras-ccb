@@ -1,38 +1,42 @@
 {
+  "code": "455",
   "version": "v3",
   "title": "Quão ditoso é caminhar com Jesus!",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "D7", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Alegremente seguimos os passos",
-          "Do nosso bom Salva[E7]dor, nosso [A7]Rei,",
-          "P[D]ois acolheu-nos em S[G]eus santos braços,",
-          "[D]Desde cri[G]anças nos [A7]fez Sua g[D]rei."
+          "[C]Alegremente seguimos os passos",
+          "Do nosso bom Salva[D7]dor, nosso [G7]Rei,",
+          "P[C]ois acolheu-nos em S[F]eus santos braços,",
+          "[C]Desde cri[F]anças nos [G7]fez Sua g[C]rei."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Quão di[G]toso_é caminhar com Jes[D]us, ó meninos!",
-          "[A7]Somos Sua grei, [D]Ele_é_o bom Pastor;",
-          "Se[G]guimos, com amor, os pre[D]ciosos ensinos",
-          "[A7]De Deus, Cria[D]dor."
+          "Quão di[F]toso é caminhar com Jes[C]us, ó meninos!",
+          "[G7]Somos Sua grei, [C]Ele é o bom Pastor;",
+          "Se[F]guimos, com amor, os pre[C]ciosos ensinos",
+          "[G7]De Deus, Cria[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Nesta jornada, unidos devemos;",
-          "Sempre dispostos, a [E7]Cristo se[A7]guir;",
-          "[D]E, no Seu Nome, vi[G]tória teremos,",
-          "[D]Desfruta[G]remos os [A7]bens do por[D]vir."
+          "[C]Nesta jornada, unidos devemos;",
+          "Sempre dispostos, a [D7]Cristo se[G7]guir;",
+          "[C]E, no Seu Nome, vi[F]tória teremos,",
+          "[C]Desfruta[F]remos os [G7]bens do por[C]vir."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]O Salvador nos conduz nesta vida",
-          "Para fazer-nos mo[E7]rar lá nos c[A7]éus;",
-          "[D]E, essa pátria, glo[G]riosa_e querida,",
-          "[D]Contempla[G]remos a [A7]face de [D]Deus."
+          "[C]O Salvador nos conduz nesta vida",
+          "Para fazer-nos mo[D7]rar lá nos c[G7]éus;",
+          "[C]E, essa pátria, glo[F]riosa e querida,",
+          "[C]Contempla[F]remos a [G7]face de [C]Deus."
         ]
       },
       {

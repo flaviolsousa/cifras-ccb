@@ -1,19 +1,23 @@
 {
+  "code": "468",
   "version": "v3",
   "title": "Toda a criança...",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Toda a cri[C]ança que, com fé e_a[F]mor,",
-          "Serve_ao Deus vi[C]vente, santo Cria[F]dor,",
+          "[F]Toda a cri[C]ança que, com fé e a[F]mor,",
+          "Serve ao Deus vi[C]vente, santo Cria[F]dor,",
           "[Bb]Cresce na jus[F]tiça [Bb]e na retid[F]ão,",
-          "[Bb]Com a lei de [F]Cristo  [C]em seu coraç[F]ão.[F]..."
+          "[Bb]Com a lei de [F]Cristo [C]em seu coraç[F]ão.[F]..."
         ]
       },
       {
@@ -21,7 +25,7 @@
         "code": "2",
         "text": [
           "[F]Toda a cri[C]ança deve conhe[F]cer",
-          "Quanto_é glori[C]oso junto_a Deus vi[F]ver.",
+          "Quanto é glori[C]oso junto a Deus vi[F]ver.",
           "[Bb]Grande aleg[F]ria [Bb]lhe dará Jes[F]us;",
           "[Bb]Ele a pro[F]tege, [C]Ele a cond[F]uz.[F]..."
         ]
@@ -30,8 +34,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Deus, o Pai e[C]terno, ouve_a oraç[F]ão",
-          "Que toda_a cri[C]ança faz com devoç[F]ão.",
+          "[F]Deus, o Pai e[C]terno, ouve a oraç[F]ão",
+          "Que toda a cri[C]ança faz com devoç[F]ão.",
           "[Bb]Cristo, com Seu b[F]raço, [Bb]firme a sus[F]tém,",
           "[Bb]Para que al[F]cance [C]o eterno b[F]em.[F]..."
         ]

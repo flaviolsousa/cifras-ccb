@@ -1,10 +1,14 @@
 {
+  "code": "454",
   "version": "v3",
   "title": "Cidadão dos céus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "C9", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -22,7 +26,7 @@
         "text": [
           "[G]Vivo a[C9]legre, [G]em paz Te s[D]igo,",
           "N[G]ada re[C9]ceio, p[D]ois estou Conti[G]go;",
-          "Neste deserto, em Ti me_ab[D]rigo;",
+          "Neste deserto, em Ti me ab[D]rigo;",
           "[G]Já me fi[C9]zeste c[D]idadão dos c[G]éus."
         ]
       },

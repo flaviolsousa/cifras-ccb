@@ -1,10 +1,14 @@
 {
+  "code": "Coro-2",
   "version": "v3",
   "title": "Toda a glória a Jesus",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",

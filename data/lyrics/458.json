@@ -1,24 +1,28 @@
 {
+  "code": "458",
   "version": "v3",
   "title": "Cristo me ama",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["S[E]ou amado por Jesus,", "[A]A Palavra_as[E]sim me diz;", "Ele é a minha Luz", "[A]E me [E]leva_ao [B7]Seu pa[E]ís."]
+        "text": ["S[D]ou amado por Jesus,", "[G]A Palavra as[D]sim me diz;", "Ele é a minha Luz", "[G]E me [D]leva ao [A7]Seu pa[D]ís."]
       },
       {
         "type": "chorus",
-        "text": ["[E]Cristo me [A]ama,", "[E]Sei que me [B7]ama,", "[E]Muito me [A]ama,", "Em [E]Cristo [B7]sou fe[E]liz.[E]..."]
+        "text": ["[D]Cristo me [G]ama,", "[D]Sei que me [A7]ama,", "[D]Muito me [G]ama,", "Em [D]Cristo [A7]sou fe[D]liz.[D]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["S[E]ou amado por Jesus,", "P[A]ois, por mim, na c[E]ruz morreu;", "Ele_agora me conduz", "[A]Para_o l[E]ar que [B7]promet[E]eu."]
+        "text": ["S[D]ou amado por Jesus,", "P[G]ois, por mim, na c[D]ruz morreu;", "Ele agora me conduz", "[G]Para o l[D]ar que [A7]promet[D]eu."]
       },
       {
         "type": "ref",
@@ -27,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["S[E]ou amado por Jesus,", "P[A]ois comigo [E]sempre_está;", "Seu conselho_em mim produz", "[A]Força, q[E]ue me [B7]suste[E]rá."]
+        "text": ["S[D]ou amado por Jesus,", "P[G]ois comigo [D]sempre está;", "Seu conselho em mim produz", "[G]Força, q[D]ue me [A7]suste[D]rá."]
       },
       {
         "type": "ref",

@@ -1,38 +1,42 @@
 {
+  "code": "469",
   "version": "v3",
   "title": "Pai nosso, que estás nos céus",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó Pai [A]nosso, q[D]ue estás nos c[A]éus,",
-          "Infi[E]nito em po[A]der,",
-          "Santo é Teu [D]Nome,_ó grande D[A]eus,",
-          "Sem li[B7]mite_é Teu sa[E]ber."
+          "Ó Pai [G]nosso, q[C]ue estás nos c[G]éus,",
+          "Infi[D]nito em po[G]der,",
+          "Santo é Teu [C]Nome, ó grande D[G]eus,",
+          "Sem li[A7]mite é Teu sa[D]ber."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Glória, g[A]lória, g[D]lória e[A]terna",
-          "Te daremos, ó Deus, Pai de_a[E]mor!",
-          "Pois her[A]deiros [A7]nos fi[D]zeste, ó Sen[A]hor,",
-          "Do Teu [E]reino de_esplen[A]dor."
+          "Glória, g[G]lória, g[C]lória e[G]terna",
+          "Te daremos, ó Deus, Pai de a[D]mor!",
+          "Pois her[G]deiros [G7]nos fi[C]zeste, ó Sen[G]hor,",
+          "Do Teu [D]reino de esplen[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Venha_a n[A]ós Teu [D]reino,_ó grande D[A]eus,",
-          "Seja [E]feito_o Teu que[A]rer",
-          "Nesta terra, [D]como é nos c[A]éus,",
-          "Pelo_i[B7]menso Teu po[E]der."
+          "Venha a n[G]ós Teu [C]reino, ó grande D[G]eus,",
+          "Seja [D]feito o Teu que[G]rer",
+          "Nesta terra, [C]como é nos c[G]éus,",
+          "Pelo i[A7]menso Teu po[D]der."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Cada d[A]ia [D]dá-nos nosso p[A]ão",
-          "E per[E]doa nosso m[A]al;",
-          "Ofendidos, [D]damos o perd[A]ão",
-          "Com ca[B7]rinho frater[E]nal."
+          "Cada d[G]ia [C]dá-nos nosso p[G]ão",
+          "E per[D]doa nosso m[G]al;",
+          "Ofendidos, [C]damos o perd[G]ão",
+          "Com ca[A7]rinho frater[D]nal."
         ]
       },
       {
@@ -57,10 +61,10 @@
         "type": "lyric",
         "code": "4",
         "text": [
-          "Ó Sen[A]hor, pre[D]serva-nos do m[A]al",
-          "E da [E]tentação tam[A]bém,",
-          "Pois é Teu o [D]reino eter[A]nal,",
-          "Glória [B7]e poder. A[E]mém!"
+          "Ó Sen[G]hor, pre[C]serva-nos do m[G]al",
+          "E da [D]tentação tam[G]bém,",
+          "Pois é Teu o [C]reino eter[G]nal,",
+          "Glória [A7]e poder. A[D]mém!"
         ]
       },
       {

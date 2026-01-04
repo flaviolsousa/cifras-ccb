@@ -1,10 +1,14 @@
 {
+  "code": "459",
   "version": "v3",
   "title": "Vamos nos preparar!",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G7", "C", "F", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,8 +17,8 @@
           "Cristo Je[C]sus breve voltará, vamos nos prepa[G7]rar!",
           "Ele à glória nos levará, para nos coro[C]ar!",
           "Receberá os remidos Seus",
-          "Para_habitarem no c[F]éu dos céus,",
-          "[G7]Junto aos [C]anjos [F]e a D[C]eus[Dm].   [C]Vamos nos [G7]prepa[C]rar![C]..."
+          "Para habitarem no c[F]éu dos céus,",
+          "[G7]Junto aos [C]anjos [F]e a D[C]eus[Dm]. [C]Vamos nos [G7]prepa[C]rar![C]..."
         ]
       },
       {
@@ -23,18 +27,18 @@
         "text": [
           "Não cede[C]remos à tentação; vamos, com fé, lu[G7]tar;",
           "Rejeitaremos a ilusão, para não vaci[C]lar.",
-          "Quando voltar Cristo,_o Salvador,",
+          "Quando voltar Cristo, o Salvador,",
           "Vitorioso, com [F]esplendor,",
-          "[G7]Encontra[C]rá em n[F]ós va[C]lor[Dm].   [C]Vamos nos [G7]prepa[C]rar!"
+          "[G7]Encontra[C]rá em n[F]ós va[C]lor[Dm]. [C]Vamos nos [G7]prepa[C]rar!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Glória! Glória a Cristo,_o Rei dos r[F]eis!",
+          "[C]Glória! Glória a Cristo, o Rei dos r[F]eis!",
           "[G7]Glória! Glória! Cantam os Seus fi[C]éis;",
           "Gló[G7]ria! [Am]Gló-[E7]ria [F]na terra e nos c[C]éus;",
-          "[G7]Gló-[C]ria! [F]Gló[F#°]ria  [C]ao pode[G7]roso D[C]eus![C]..."
+          "[G7]Gló-[C]ria! [F]Gló[F#°]ria [C]ao pode[G7]roso D[C]eus![C]..."
         ]
       }
     ]

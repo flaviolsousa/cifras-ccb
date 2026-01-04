@@ -1,39 +1,43 @@
 {
+  "code": "476",
   "version": "v3",
   "title": "\"Deixai a Mim vir os pequeninos...\"",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E7", "A", "D", "D#°", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Crianças [B]eram encami[F#7]nhadas",
-          "Aos pés do bom Jesus, o Reden[B]tor,",
-          "A fim de serem abenço[E]adas[F°]...",
-          "E conhe[B]cerem [F#7]   o Seu a[B]mor.[B]..."
+          "Crianças [A]eram encami[E7]nhadas",
+          "Aos pés do bom Jesus, o Reden[A]tor,",
+          "A fim de serem abenço[D]adas[D#°]...",
+          "E conhe[A]cerem [E7] o Seu a[A]mor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "“Deixai a [B]Mim vir os peque[F#7]ninos",
-          "E não os impeçais”, falou Jes[B]us;",
-          "Quem não se torna também me[E]nino[F°]...",
-          "Não tem ent[B]rada [F#7]   o lar de l[B]uz.[B]..."
+          "“Deixai a [A]Mim vir os peque[E7]ninos",
+          "E não os impeçais”, falou Jes[A]us;",
+          "Quem não se torna também me[D]nino[D#°]...",
+          "Não tem ent[A]rada [E7] o lar de l[A]uz.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Doutrina [B]santa e exce[F#7]lente",
-          "Ensina_o Redentor aos Seus fi[B]éis.",
-          "A Deus sirvamos humilde[E]mente,[F°]...",
-          "Pois foi hu[B]milde [F#7]   o Rei dos r[B]eis.[B]..."
+          "Doutrina [A]santa e exce[E7]lente",
+          "Ensina o Redentor aos Seus fi[A]éis.",
+          "A Deus sirvamos humilde[D]mente,[D#°]...",
+          "Pois foi hu[A]milde [E7] o Rei dos r[A]eis.[A]..."
         ]
       }
     ]

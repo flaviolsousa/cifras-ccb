@@ -1,38 +1,42 @@
 {
+  "code": "477",
   "version": "v3",
   "title": "Vinde, crianças",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Vinde, crianças, vinde_a Jes[E]us,",
-          "[F#7]Ele vos chama c[B]om voz de_amor",
-          "Para guiar-vos com Sua l[E]uz",
-          "[F#7]Ao reino de_esplen[B]dor."
+          "[A]Vinde, crianças, vinde a Jes[D]us,",
+          "[E7]Ele vos chama c[A]om voz de amor",
+          "Para guiar-vos com Sua l[D]uz",
+          "[E7]Ao reino de esplen[A]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Grande tesouro [E]revelou Jesus",
-          "[F#7]Aos que caminham [G#m]na divina [F#7]luz;",
-          "[B]Esse tesouro Deus prome[E]teu",
-          "[F#7]Dar aos fiéis no c[B]éu."
+          "[A]Grande tesouro [D]revelou Jesus",
+          "[E7]Aos que caminham [F#m]na divina [E7]luz;",
+          "[A]Esse tesouro Deus prome[D]teu",
+          "[E7]Dar aos fiéis no c[A]éu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Sede prudente e espe[E]rai",
-          "[F#7]Os ricos bens do [B]lar de_espendor,",
-          "Onde habita Deus, nosso [E]Pai,",
-          "[F#7]E Cristo,_o Salva[B]dor."
+          "[A]Sede prudente e espe[D]rai",
+          "[E7]Os ricos bens do [A]lar de espendor,",
+          "Onde habita Deus, nosso [D]Pai,",
+          "[E7]E Cristo, o Salva[A]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Vós, neste mundo, encontra[E]reis",
-          "[F#7]Muita vaidade, [B]muita_ilusão;",
-          "Santificai-vos e_alcança[E]reis,",
-          "[F#7]No céu, o galard[B]ão."
+          "[A]Vós, neste mundo, encontra[D]reis",
+          "[E7]Muita vaidade, [A]muita ilusão;",
+          "Santificai-vos e alcança[D]reis,",
+          "[E7]No céu, o galard[A]ão."
         ]
       },
       {

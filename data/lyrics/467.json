@@ -1,38 +1,42 @@
 {
+  "code": "467",
   "version": "v3",
   "title": "Vamos com Jesus",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "Bm", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Si[E]gamos, com fervor, Jesus, o Salvador,",
-          "Que por amor nos livrou da condena[B]ção;",
-          "É [E]Ele_o nosso Rei, nós somos Sua grei,",
-          "Que_i[C#m]rá, no céu, [E]receber o [B]grande galard[E]ão."
+          "Si[D]gamos, com fervor, Jesus, o Salvador,",
+          "Que por amor nos livrou da condena[A]ção;",
+          "É [D]Ele o nosso Rei, nós somos Sua grei,",
+          "Que i[Bm]rá, no céu, [D]receber o [A]grande galard[D]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Vamos com Jesus, [E]Ele nos conduz",
-          "[F#7]Ao Seu reino de a[B]mor;[B]...",
-          "Marc[E]hemos com valor à pátria celestial,",
-          "O [A]nosso Rei [B]nos dará a glória eter[E]nal.[E]..."
+          "[G]Vamos com Jesus, [D]Ele nos conduz",
+          "[E7]Ao Seu reino de a[A]mor;[A]...",
+          "Marc[D]hemos com valor à pátria celestial,",
+          "O [G]nosso Rei [A]nos dará a glória eter[D]nal.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Oh! [E]Vamos combater e, pela fé, vencer",
-          "O tentador que os quer para_o mal le[B]var;",
-          "Si[E]gamos ao Senhor com todo o fervor;",
-          "Só [C#m]Ele tem [E]armas que os [B]fazem triun[E]far."
+          "Oh! [D]Vamos combater e, pela fé, vencer",
+          "O tentador que os quer para o mal le[A]var;",
+          "Si[D]gamos ao Senhor com todo o fervor;",
+          "Só [Bm]Ele tem [D]armas que os [A]fazem triun[D]far."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Mis[E]térios celestiais, riquezas eternais,",
-          "Jesus, o Rei, por amor nos desvenda[B]rá;",
-          "Fe[E]lizes, pois, nos céus seremos junto_a Deus;",
-          "Na[C#m]quele lar [E]nosso cora[B]ção jubila[E]rá."
+          "Mis[D]térios celestiais, riquezas eternais,",
+          "Jesus, o Rei, por amor nos desvenda[A]rá;",
+          "Fe[D]lizes, pois, nos céus seremos junto a Deus;",
+          "Na[Bm]quele lar [D]nosso cora[A]ção jubila[D]rá."
         ]
       },
       {

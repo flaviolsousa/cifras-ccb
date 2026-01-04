@@ -1,38 +1,42 @@
 {
+  "code": "478",
   "version": "v3",
   "title": "Cedo retorna o Senhor",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "F°", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Cedo [E]vem a fim de premiar os san[G°]tos [B7]Seus,",
-          "Jesus Cristo, nosso Salva[E]dor;",
-          "Recompensa para_os justos have[A]rá nos céus,",
-          "[E]Reino de glória [B7]e  a[E]mor."
+          "Cedo [D]vem a fim de premiar os san[F°]tos [A7]Seus,",
+          "Jesus Cristo, nosso Salva[D]dor;",
+          "Recompensa para os justos have[G]rá nos céus,",
+          "[D]Reino de glória [A7]e a[D]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Cedo retorna [B7]o Senhor",
-          "E traz o_eterno [E]galardão.",
-          "Bem-aventurado quem O [A]serve com amor",
-          "[E]E com sincero [B7]coraç[E]ão.[E]..."
+          "[D]Cedo retorna [A7]o Senhor",
+          "E traz o eterno [D]galardão.",
+          "Bem-aventurado quem O [G]serve com amor",
+          "[D]E com sincero [A7]coraç[D]ão.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Moci[E]dade, vamos todos nos puri[G°]fi- [B7]car",
-          "Atendendo_a Cristo,_o bom Pas[E]tor.",
-          "Ele quer a todos os Seus santos [A]coroar",
-          "[E]Com vida_eterna [B7]e_espelen[E]dor."
+          "Moci[D]dade, vamos todos nos puri[F°]fi- [A7]car",
+          "Atendendo a Cristo, o bom Pas[D]tor.",
+          "Ele quer a todos os Seus santos [G]coroar",
+          "[D]Com vida eterna [A7]e espelen[D]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Consag[E]rados, poderemos, ó fiéis, [G°]di- [B7]zer:",
-          "Ora vem, Jesus, bom Reden[E]tor!",
-          "D´Ele sempre recebemos força [A]e poder,",
-          "[E]Para servi-Lo [B7]com fer[E]vor."
+          "Consag[D]rados, poderemos, ó fiéis, [F°]di- [A7]zer:",
+          "Ora vem, Jesus, bom Reden[D]tor!",
+          "D´Ele sempre recebemos força [G]e poder,",
+          "[D]Para servi-Lo [A7]com fer[D]vor."
         ]
       },
       {

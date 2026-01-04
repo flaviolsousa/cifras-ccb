@@ -1,33 +1,37 @@
 {
+  "code": "480",
   "version": "v3",
   "title": "Jovens, amai o conselho",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "D", "A", "Bm", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[B]Jovens, amai o conselho,", "O_en[E]sino de Cristo Jes[B]us;", "Ele_é o vosso Modelo", "De [C#m]vida, jus[F#7]tiça e l[B]uz."]
+        "text": ["[A]Jovens, amai o conselho,", "O en[D]sino de Cristo Jes[A]us;", "Ele é o vosso Modelo", "De [Bm]vida, jus[E7]tiça e l[A]uz."]
       },
       {
         "type": "chorus",
         "text": [
-          "A D[B]eus e_a Cristo,_o Sen[E]hor,[C#m]...",
-          "De[B]vemos consagra[F#7]ção,",
-          "Res[B]peito, honra, pro[E]fundo_a[C#]mor",
-          "E_e[F#7]terna veneraç[B]ão."
+          "A D[A]eus e a Cristo, o Sen[D]hor,[Bm]...",
+          "De[A]vemos consagra[E7]ção,",
+          "Res[A]peito, honra, pro[D]fundo a[B]mor",
+          "E e[E7]terna veneraç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Vasos, por Cristo,_escolhidos",
-          "Se[E]reis, para glória de D[B]eus;",
+          "[A]Vasos, por Cristo, escolhidos",
+          "Se[D]reis, para glória de D[A]eus;",
           "Cristo vos quer revestidos",
-          "Das [C#m]santas vir[F#7]tudes dos c[B]éus."
+          "Das [Bm]santas vir[E7]tudes dos c[A]éus."
         ]
       },
       {
@@ -37,7 +41,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[B]Jovens que seguem o Mestre,", "Em [E]sua_existência ter[B]ão", "A providência celeste", "E [C#m]prósperos [F#7]n´Ele ser[B]ão."]
+        "text": ["[A]Jovens que seguem o Mestre,", "Em [D]sua existência ter[A]ão", "A providência celeste", "E [Bm]prósperos [E7]n´Ele ser[A]ão."]
       },
       {
         "type": "ref",

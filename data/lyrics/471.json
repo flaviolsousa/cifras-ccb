@@ -1,10 +1,14 @@
 {
+  "code": "471",
   "version": "v3",
   "title": "Que grande bem é andar com Cristo!",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "Dm", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,11 +22,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Que grande [C]bem,",
-          "Eterno bem,",
-          "Rece[G]bemos de D[C]eus!"
-        ]
+        "text": ["Que grande [C]bem,", "Eterno bem,", "Rece[G]bemos de D[C]eus!"]
       },
       {
         "type": "lyric",

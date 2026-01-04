@@ -1,18 +1,22 @@
 {
+  "code": "472",
   "version": "v3",
   "title": "Glorificarei, glorificarei",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[C]Desde pequenino, D[F]eus, o Cria[C]dor,",
-          "Fez-me conhecer a C[G]risto,_o Salvador;",
-          "[C]Tem manifestado_em m[F]im o Seu a[C]mor,",
+          "Fez-me conhecer a C[G]risto, o Salvador;",
+          "[C]Tem manifestado em m[F]im o Seu a[C]mor,",
           "[G]Pelo bom Consola[C]dor."
         ]
       },
@@ -20,8 +24,8 @@
         "type": "chorus",
         "text": [
           "[G]Glorificarei, g[C]lorificarei",
-          "Ao Senhor Je[F]sus e_a Deus, o [D]Cria[G]dor;",
-          "[C]Sendo eu pequeno, [F]separado_estou,",
+          "Ao Senhor Je[F]sus e a Deus, o [D]Cria[G]dor;",
+          "[C]Sendo eu pequeno, [F]separado estou,",
           "[G]Para glória do Sen[C]hor."
         ]
       },
@@ -32,7 +36,7 @@
           "[C]Com perseverança c[F]lamo ao Sen[C]hor,",
           "Esperando d´Ele [G]força e fervor;",
           "[C]Nas tribulações se[F]rei um vence[C]dor,",
-          "[G]Pois Deus ouve_o meu cla[C]mor."
+          "[G]Pois Deus ouve o meu cla[C]mor."
         ]
       },
       {
@@ -45,8 +49,8 @@
         "text": [
           "[C]A gloriosa pátria [F]hei de alcan[C]çar,",
           "Se seguir a Cristo s[G]em desanimar;",
-          "[C]Nada neste mundo [F]pode se_igua[C]lar",
-          "[G]Com aquele_eterno [C]lar."
+          "[C]Nada neste mundo [F]pode se igua[C]lar",
+          "[G]Com aquele eterno [C]lar."
         ]
       },
       {

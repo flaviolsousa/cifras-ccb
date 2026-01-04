@@ -1,10 +1,14 @@
 {
+  "code": "470",
   "version": "v3",
   "title": "Jesus Cristo, Seus fiéis, ensina",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "E", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,7 +17,7 @@
           "[D]Jesus Cristo, Seus fiéis, ensina; vamos todos [A]juntos [E]apren[A]der;",
           "[D]Com a Sua celestial doutrina Ele os re[E]veste de sa[A]ber;",
           "Ele guia os [D]pequeninos c[A]om carinho e c[D]om amor;",
-          "Somos d´Ele_os cordeirinhos, [A]Jesus Cristo_é_o [G]bom Pas[D]tor.",
+          "Somos d´Ele os cordeirinhos, [A]Jesus Cristo é o [G]bom Pas[D]tor.",
           "São mui sábios os ensinos [D7]do di[G]vino [A]Reden[D]tor.[D]..."
         ]
       },
@@ -21,9 +25,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Jesus Cristo para_o céu nos leva; vamos, pois, com [A]Ele [E]camin[A]har;",
+          "[D]Jesus Cristo para o céu nos leva; vamos, pois, com [A]Ele [E]camin[A]har;",
           "[D]Nesta graça, Seu poder conserva quem irá com [E]Ele habi[A]tar.",
-          "No Seu reino de g[D]rande glória, n[A]as moradas do_e[D]terno Deus,",
+          "No Seu reino de g[D]rande glória, n[A]as moradas do e[D]terno Deus,",
           "Cantaremos a vitória [A]junto aos re[G]midos S[D]eus.",
           "Quão suprema é a glória [D7]que te[G]remos [A]lá nos c[D]éus![D]..."
         ]

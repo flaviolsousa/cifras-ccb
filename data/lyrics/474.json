@@ -1,38 +1,42 @@
 {
+  "code": "474",
   "version": "v3",
   "title": "Oh! Glória! Bendito é o Senhor!",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Com alegria de[E]vemos ser[B]vir",
-          "A [F#]Cristo Jesus, [B]o Salvador,",
-          "Que nos fará bens e[E]ternos fru[B]ir;",
-          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
+          "[A]Com alegria de[D]vemos ser[A]vir",
+          "A [E]Cristo Jesus, [A]o Salvador,",
+          "Que nos fará bens e[D]ternos fru[A]ir;",
+          "Oh! [E]Glória! Bendito é o Sen[A]hor!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Vida_e[B]terna [E]certo_alcança[B]rão",
-          "Lá o [F#]céu, os fi[B]éis;",
-          "Coroados, [E]eles bendi[B]rão",
-          "A Je[F#]sus, o Rei dos r[B]eis."
+          "Vida e[A]terna [D]certo alcança[A]rão",
+          "Lá o [E]céu, os fi[A]éis;",
+          "Coroados, [D]eles bendi[A]rão",
+          "A Je[E]sus, o Rei dos r[A]eis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Com toda_a alma de[E]vemos a[B]mar",
-          "A [F#]Cristo Jesus, [B]o Salvador;",
-          "Ele, nas provas, nos f[E]az triun[B]far;",
-          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
+          "[A]Com toda a alma de[D]vemos a[A]mar",
+          "A [E]Cristo Jesus, [A]o Salvador;",
+          "Ele, nas provas, nos f[D]az triun[A]far;",
+          "Oh! [E]Glória! Bendito é o Sen[A]hor!"
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Quando_estivermos no [E]lar divi[B]nal,",
-          "Com [F#]Cristo Jesus, [B]o Salvador,",
-          "Desfrutaremos o [E]bem celes[B]tial;",
-          "Oh! [F#]Glória! Bendito_é_o Sen[B]hor!"
+          "[A]Quando estivermos no [D]lar divi[A]nal,",
+          "Com [E]Cristo Jesus, [A]o Salvador,",
+          "Desfrutaremos o [D]bem celes[A]tial;",
+          "Oh! [E]Glória! Bendito é o Sen[A]hor!"
         ]
       },
       {

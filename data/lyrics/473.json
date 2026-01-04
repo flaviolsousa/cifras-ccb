@@ -1,34 +1,38 @@
 {
+  "code": "473",
   "version": "v3",
   "title": "Forasteiro sou no mundo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Foras[E]teiro sou no [A]mundo,",
-          "Neste [E]mundo de_ilus[B]ão;",
-          "Para_o c[E]éu vou camin[A]hando,",
-          "Onde [B]os fiéis entrar[E]ão."
+          "Foras[D]teiro sou no [G]mundo,",
+          "Neste [D]mundo de ilus[A]ão;",
+          "Para o c[D]éu vou camin[G]hando,",
+          "Onde [A]os fiéis entrar[D]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Vive[E]rei com os fiéis",
-          "Para sempre lá nos [B]céus,",
-          "Pois, no [E]número dos [A]santos,",
-          "Eu se[B]rei contado por D[E]eus.[E]..."
+          "Vive[D]rei com os fiéis",
+          "Para sempre lá nos [A]céus,",
+          "Pois, no [D]número dos [G]santos,",
+          "Eu se[A]rei contado por D[D]eus.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Ansi[E]oso eu es[A]pero", "Ver a [E]face do Sen[B]hor,", "Contemp[E]lar a formo[A]sura", "E a g[B]lória do Reden[E]tor."]
+        "text": ["Ansi[D]oso eu es[G]pero", "Ver a [D]face do Sen[A]hor,", "Contemp[D]lar a formo[G]sura", "E a g[A]lória do Reden[D]tor."]
       },
       {
         "type": "ref",
@@ -38,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com a [E]multidão can[A]tando",
-          "E lou[E]vando ao Sen[B]hor,",
-          "Entra[E]rei, com rego[A]zijo,",
-          "No ce[B]leste lar de_esplen[E]dor."
+          "Com a [D]multidão can[G]tando",
+          "E lou[D]vando ao Sen[A]hor,",
+          "Entra[D]rei, com rego[G]zijo,",
+          "No ce[A]leste lar de esplen[D]dor."
         ]
       },
       {

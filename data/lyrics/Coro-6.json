@@ -1,17 +1,21 @@
 {
+  "code": "Coro-6",
   "version": "v3",
   "title": "A Jesus eu cantarei louvor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "G7", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[G]A Jesus eu canta[D]rei louvor;",
-          "Honra_e glória sempre [G]Lhe darei;",
+          "Honra e glória sempre [G]Lhe darei;",
           "Exalta[G7]rei [C]ao meu Senhor;",
           "[D]O Seu Nome bendi[G]rei."
         ]

@@ -1,19 +1,23 @@
 {
+  "code": "451",
   "version": "v3",
   "title": "Jamais esquecerei Tua mercê",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["N[A]ão poderei jamais esquecer", "T[E]ua mercê, Sen[A]hor;", "Deste_aos pequenos de conhecer", "T[E]ua grandeza e_a[A]mor.[A7]"]
+        "text": ["N[A]ão poderei jamais esquecer", "T[E]ua mercê, Sen[A]hor;", "Deste aos pequenos de conhecer", "T[E]ua grandeza e a[A]mor.[A7]"]
       },
       {
         "type": "chorus",
-        "text": ["[D]Jamais esq[A]uecerei", "[E]Tua mercê, ó Criad[A]or;", "Por Cristo [D]alcança[C#7]rei", "[D]Grande te[E]souro de_a[A]mor."]
+        "text": ["[D]Jamais esq[A]uecerei", "[E]Tua mercê, ó Criad[A]or;", "Por Cristo [D]alcança[Db7]rei", "[D]Grande te[E]souro de a[A]mor."]
       },
       {
         "type": "lyric",
@@ -21,7 +25,7 @@
         "text": [
           "[A]Oh! que tesouro de esplendor",
           "[E]Tu me darás nos c[A]éus;",
-          "Não há herança de_igual valor",
+          "Não há herança de igual valor",
           "P[E]ara Teus filhos, ó D[A]eus.[A7]"
         ]
       },
@@ -33,10 +37,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Se eu andar sempre_em Teu temor,",
+          "[A]Se eu andar sempre em Teu temor,",
           "[E]Ao fim eu entrar[A]ei",
-          "No reino_eterno de esplendor,",
-          "[E]Onde_o repouso ter[A]ei.[A7]"
+          "No reino eterno de esplendor,",
+          "[E]Onde o repouso ter[A]ei.[A7]"
         ]
       },
       {

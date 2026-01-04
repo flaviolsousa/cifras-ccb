@@ -1,20 +1,24 @@
 {
+  "code": "460",
   "version": "v3",
   "title": "Vamos todos juntos cantar",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[F]Vamos todos juntos cantar:",
-          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "[C]Glória a Jesus! [F]Glória a Jesus!",
           "Vamos todos juntos louvar",
           "[C7]Ao Sen[F]hor [C7]Je-s[F]us!",
-          "Ele_é_a nos[F°]sa  [F]Paz, Ele_é_a [Bb]nossa L[F]uz;",
+          "Ele é a nos[F°]sa [F]Paz, Ele é a [Bb]nossa L[F]uz;",
           "Exaltemos, com devoção,",
           "[C7]Ao Sen[F]hor [C7]Je-s[F]us!"
         ]
@@ -24,7 +28,7 @@
         "code": "2",
         "text": [
           "[F]Somos salvos por Seu amor;",
-          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "[C]Glória a Jesus! [F]Glória a Jesus!",
           "Suportou, por nós, grande dor",
           "[C7]O Sen[F]hor [C7]Je-s[F]us.",
           "Quem nos dá [F°]perd[F]ão, Quem ao [Bb]céu cond[F]uz",
@@ -37,10 +41,10 @@
         "code": "3",
         "text": [
           "[F]Mui felizes somos então;",
-          "[C]Glória_a Jesus! [F]Glória_a Jesus!",
+          "[C]Glória a Jesus! [F]Glória a Jesus!",
           "Recebemos consolação",
           "[C7]Do Sen[F]hor [C7]Je-s[F]us.",
-          "No Seu lar d[F°]e_am[F]or, no Seu [Bb]lar de l[F]uz,",
+          "No Seu lar d[F°]e am[F]or, no Seu [Bb]lar de l[F]uz,",
           "Novo hino vamos cantar",
           "[C7]Ao Sen[F]hor [C7]Je-s[F]us."
         ]

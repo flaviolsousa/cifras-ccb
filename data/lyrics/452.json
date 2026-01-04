@@ -1,39 +1,43 @@
 {
+  "code": "452",
   "version": "v3",
   "title": "Jesus, ó Divinal Pastor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jes[A]us, ó divi[D]nal Pastor, o T[E]eu rebanho quer Te_ou[A]vir;",
-          "Com Teu Espírito,_ó Sen[D]hor, vem este [E]culto presi[A]dir.",
-          "Nós [E]somos todos cordei[A]rinhos do Teu aprisco,_ó Reden[E]tor;",
-          "Só [A]Tu nos tratas com ca[D]rinho, ó glori[E]oso Salva[A]dor."
+          "Jes[G]us, ó divi[C]nal Pastor, o T[D]eu rebanho quer Te ou[G]vir;",
+          "Com Teu Espírito, ó Sen[C]hor, vem este [D]culto presi[G]dir.",
+          "Nós [D]somos todos cordei[G]rinhos do Teu aprisco, ó Reden[D]tor;",
+          "Só [G]Tu nos tratas com ca[C]rinho, ó glori[D]oso Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jes[A]us, glorioso [D]e fiel, em [E]Ti está o nosso b[A]em;",
-          "Tu és o nosso_Emanu[D]el, és Quem, na g[E]raça, nos sus[A]tém.",
-          "Aq[E]ui estamos reu[A]nidos ao Teu redor, fiel Sen[E]hor,",
-          "Pois, [A]onde_estão os Teus re[D]midos, também es[E]tás, ó bom Pas[A]tor."
+          "Jes[G]us, glorioso [C]e fiel, em [D]Ti está o nosso b[G]em;",
+          "Tu és o nosso Emanu[C]el, és Quem, na g[D]raça, nos sus[G]tém.",
+          "Aq[D]ui estamos reu[G]nidos ao Teu redor, fiel Sen[D]hor,",
+          "Pois, [G]onde estão os Teus re[C]midos, também es[D]tás, ó bom Pas[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Nós [A]Te seguimos, [D]Redentor, pois [E]conhecemos Tua v[A]oz,",
-          "Voz que nos fala com a[D]mor, dizendo: “[E]Não vos deixo s[A]ós.”",
-          "A [E]pastos sempre verde[A]jantes Tu nos conduzes, ó Sen[E]hor.",
-          "Por [A]isso_estamos confi[D]antes, sentindo_a T[E]ua paz e_a[A]mor."
+          "Nós [G]Te seguimos, [C]Redentor, pois [D]conhecemos Tua v[G]oz,",
+          "Voz que nos fala com a[C]mor, dizendo: “[D]Não vos deixo s[G]ós.”",
+          "A [D]pastos sempre verde[G]jantes Tu nos conduzes, ó Sen[D]hor.",
+          "Por [G]isso estamos confi[C]antes, sentindo a T[D]ua paz e a[G]mor."
         ]
       }
     ]

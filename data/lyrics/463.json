@@ -1,38 +1,42 @@
 {
+  "code": "463",
   "version": "v3",
   "title": "Mocidade! Vamos combater!",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Com valor, ó jovens, santos do Sen[E]hor,",
-          "Vamos proclamar que C[A]risto_é_o Salvador;",
-          "Os que n´Ele crerem, certo_alcançar[D]ão",
-          "[E]Vida_eterna e perd[A]ão."
+          "[G]Com valor, ó jovens, santos do Sen[D]hor,",
+          "Vamos proclamar que C[G]risto é o Salvador;",
+          "Os que n´Ele crerem, certo alcançar[C]ão",
+          "[D]Vida eterna e perd[G]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Mocidade! Vamos comba[E]ter!",
-          "Valorosos somos por Jes[A]us!",
-          "Venceremos [A7]pelo Seu po[D]der,",
-          "[Bm]Manifesta[E]remos Sua l[A]uz.[A]..."
+          "[G]Mocidade! Vamos comba[D]ter!",
+          "Valorosos somos por Jes[G]us!",
+          "Venceremos [G7]pelo Seu po[C]der,",
+          "[Am]Manifesta[D]remos Sua l[G]uz.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Sempre_avante,_ó jovens, vamos, com va[E]lor,",
-          "Combater, por fé, o_as[A]tuto tentador;",
-          "Cristo, com Seu braço, nos sustenta[D]rá",
-          "[E]E vitória nos da[A]rá."
+          "[G]Sempre avante, ó jovens, vamos, com va[D]lor,",
+          "Combater, por fé, o as[G]tuto tentador;",
+          "Cristo, com Seu braço, nos sustenta[C]rá",
+          "[D]E vitória nos da[G]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Bem-aventurados somos no Sen[E]hor,",
-          "Temos alcançado_a_unç[A]ão do Criador",
-          "Pela qual sentimos paz e comun[D]hão,",
-          "[E]Para_eterna salvaç[A]ão."
+          "[G]Bem-aventurados somos no Sen[D]hor,",
+          "Temos alcançado a unç[G]ão do Criador",
+          "Pela qual sentimos paz e comun[C]hão,",
+          "[D]Para eterna salvaç[G]ão."
         ]
       },
       {

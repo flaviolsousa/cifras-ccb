@@ -1,38 +1,42 @@
 {
+  "code": "450",
   "version": "v3",
   "title": "Vamos, queridos, escolher a boa parte",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Vamos, queridos, [E]escolher",
-          "A boa parte [A]para nós,",
-          "Sempre ouvindo, c[D]om prazer,",
-          "De Jesus C[A]risto,_a [E]doce v[A]oz."
+          "[G]Vamos, queridos, [D]escolher",
+          "A boa parte [G]para nós,",
+          "Sempre ouvindo, c[C]om prazer,",
+          "De Jesus C[G]risto, a [D]doce v[G]oz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Grande bem, [D]sem igual,",
-          "[A]É estar diante [E]do Senhor;",
-          "[A]Sua voz [D]divinal",
-          "[A]Nos ensina com su[E]blime_a[A]mor.[A]..."
+          "[G]Grande bem, [C]sem igual,",
+          "[G]É estar diante [D]do Senhor;",
+          "[G]Sua voz [C]divinal",
+          "[G]Nos ensina com su[D]blime a[G]mor.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "N[A]ão há no mundo [E]nada_igual",
-          "Ao regozijo [A]de estar",
-          "Aos pés do Mestre [D]divinal,",
-          "A Quem de[A]vemos [E]sempre_a[A]mar."
+          "N[G]ão há no mundo [D]nada igual",
+          "Ao regozijo [G]de estar",
+          "Aos pés do Mestre [C]divinal,",
+          "A Quem de[G]vemos [D]sempre a[G]mar."
         ]
       },
       {
@@ -42,7 +46,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[A]A boa parte q[E]ue nos dá", "Cristo Jesus, o [A]Redentor,", "Nada de nós a [D]tomará,", "Se a guar[A]darmos c[E]om a[A]mor."]
+        "text": ["[G]A boa parte q[D]ue nos dá", "Cristo Jesus, o [G]Redentor,", "Nada de nós a [C]tomará,", "Se a guar[G]darmos c[D]om a[G]mor."]
       },
       {
         "type": "ref",

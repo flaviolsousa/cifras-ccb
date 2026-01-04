@@ -1,10 +1,14 @@
 {
+  "code": "Coro-3",
   "version": "v3",
   "title": "Ação de graças darei",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

@@ -1,48 +1,52 @@
 {
+  "code": "465",
   "version": "v3",
   "title": "Deus tem por nós imenso amor",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "B7", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Nesta [B]hora reunidos nós es[E]tamos ante D[B]eus",
-          "E em nome de Je[C#7]sus, o Salva[F#7]dor;",
-          "Quer-nos [B]todos reverentes nosso [E]Pai que_está os c[B]éus;",
-          "Deus tem por [F#7]nós imenso_a[B]mor.[B]..."
+          "Nesta [A]hora reunidos nós es[D]tamos ante D[A]eus",
+          "E em nome de Je[B7]sus, o Salva[E7]dor;",
+          "Quer-nos [A]todos reverentes nosso [D]Pai que está os c[A]éus;",
+          "Deus tem por [E7]nós imenso a[A]mor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Como [B]filhos reverentes que_obe[E]decem a seu p[B]ai,",
-          "Atendamos ao su[C#7]blime Cria[F#7]dor;",
-          "Lá no c[B]éu os Seus tesouros conce[E]der-nos Ele v[B]ai;",
-          "Deus tem por [F#7]nós imenso_a[B]mor.[B]..."
+          "Como [A]filhos reverentes que obe[D]decem a seu p[A]ai,",
+          "Atendamos ao su[B7]blime Cria[E7]dor;",
+          "Lá no c[A]éu os Seus tesouros conce[D]der-nos Ele v[A]ai;",
+          "Deus tem por [E7]nós imenso a[A]mor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Se an[B]damos pela senda da jus[E]tiça e da l[B]uz,",
-          "Tem prazer em nossas [C#7]almas, o Se[F#7]nhor;",
-          "Se aq[B]ui nós imitamos o Mo[E]delo, que_é Jes[B]us,",
-          "Deus tem por [F#7]nós imenso_a[B]mor."
+          "Se an[A]damos pela senda da jus[D]tiça e da l[A]uz,",
+          "Tem prazer em nossas [B7]almas, o Se[E7]nhor;",
+          "Se aq[A]ui nós imitamos o Mo[D]delo, que é Jes[A]us,",
+          "Deus tem por [E7]nós imenso a[A]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Ao e[E]terno Pai celeste honra_e g[B]lória vamos dar",
-          "E, atentos, Seus con[C#7]selhos escu[F#7]tar;",
-          "Suas [B]bênçãos gloriosas nos da[E]rá o Cria[B]dor;",
-          "Deus tem por [F#7]nós imenso_a[B]mor."
+          "Ao e[D]terno Pai celeste honra e g[A]lória vamos dar",
+          "E, atentos, Seus con[B7]selhos escu[E7]tar;",
+          "Suas [A]bênçãos gloriosas nos da[D]rá o Cria[A]dor;",
+          "Deus tem por [E7]nós imenso a[A]mor."
         ]
       }
     ]

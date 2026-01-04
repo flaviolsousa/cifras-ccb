@@ -1,18 +1,22 @@
 {
+  "code": "453",
   "version": "v3",
   "title": "Consagrados sejamos a Deus",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "C", "F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Se qui[F]sermos, irmãos, do Senhor receber",
-          "As vir[C]tudes da vida_eter[F]nal,",
-          "Seja_a nossa_afeição e o nosso prazer",
+          "As vir[C]tudes da vida eter[F]nal,",
+          "Seja a nossa afeição e o nosso prazer",
           "Em Jes[C]us e na lei celest[F]ial."
         ]
       },
@@ -31,7 +35,7 @@
         "text": [
           "Se qui[F]sermos, irmãos, ser benditos de Deus,",
           "Ado[C]remo-Lo com devoç[F]ão;",
-          "Seus preceitos de_amor Ele_envia dos céus;",
+          "Seus preceitos de amor Ele envia dos céus;",
           "Seja [C]Ele a nossa Porç[F]ão."
         ]
       },
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Se hon[F]rarmos a Deus, Ele nos honrará",
-          "Nesta [C]terra_e na pátria_eter[F]nal;",
+          "Nesta [C]terra e na pátria eter[F]nal;",
           "Um diadema, nos céus, Ele concederá,",
           "Ao ent[C]rarmos no lar divi[F]nal."
         ]

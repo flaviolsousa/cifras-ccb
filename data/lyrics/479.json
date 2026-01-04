@@ -1,35 +1,28 @@
 {
+  "code": "479",
   "version": "v3",
   "title": "Somos jovens consagrados",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["A", "E7", "A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Somos [B]jovens consagrados a Je[F#7]sus, o Reden[B]tor,",
-          "E, por Ele, ensinados a ser[F#7]vir ao Cria[B]dor."
-        ]
+        "text": ["Somos [A]jovens consagrados a Je[E7]sus, o Reden[A]tor,", "E, por Ele, ensinados a ser[E7]vir ao Cria[A]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Que_ale[B]gria encontramos",
-          "Em ser[F#7]vir ao Cria[B]dor!",
-          "Nós, Seus filhos, O amamos,",
-          "Com sin[F#7]cero_e puro_a[B]mor."
-        ]
+        "text": ["Que ale[A]gria encontramos", "Em ser[E7]vir ao Cria[A]dor!", "Nós, Seus filhos, O amamos,", "Com sin[E7]cero e puro a[A]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Somos [B]jovens obedientes a Je[F#7]sus, o Salva[B]dor,",
-          "Atendemos, reverentes, à Pa[F#7]lavra do Sen[B]hor."
-        ]
+        "text": ["Somos [A]jovens obedientes a Je[E7]sus, o Salva[A]dor,", "Atendemos, reverentes, à Pa[E7]lavra do Sen[A]hor."]
       },
       {
         "type": "ref",
@@ -38,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Somos [B]jovens dedicados nesta [F#7]obra do Sen[B]hor,",
-          "Fomos todos resgatados por Seu [F#7]sangue_expia[B]dor."
-        ]
+        "text": ["Somos [A]jovens dedicados nesta [E7]obra do Sen[A]hor,", "Fomos todos resgatados por Seu [E7]sangue expia[A]dor."]
       },
       {
         "type": "ref",

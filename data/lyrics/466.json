@@ -1,29 +1,28 @@
 {
+  "code": "466",
   "version": "v3",
   "title": "A criança consagrada",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "A cri[G]ança consagrada ",
-          "A Jes[D]us, o [G]Salva[D]dor,",
-          "[G]É, por [D]Ele, ensi[G]nada",
-          "A ser[C]vir ao [D]Cria[G]dor."
-        ]
+        "text": ["A cri[G]ança consagrada ", "A Jes[D]us, o [G]Salva[D]dor,", "[G]É, por [D]Ele, ensi[G]nada", "A ser[C]vir ao [D]Cria[G]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Cristo c[G]hama_os pequeninos",
+          "Cristo c[G]hama os pequeninos",
           "Com ter[D]nura [G]e a[D]mor;",
-          "[G]Quando_a D[D]eus entoam [G]hinos",
-          "É a[C]ceito_o s[D]eu lou[G]vor."
+          "[G]Quando a D[D]eus entoam [G]hinos",
+          "É a[C]ceito o s[D]eu lou[G]vor."
         ]
       },
       {
@@ -32,7 +31,7 @@
         "text": [
           "Cristo [G]é a luz divina",
           "Envi[D]ada [G]lá dos c[D]éus;",
-          "[G]Ele [D]trouxe_a sã dou[G]trina",
+          "[G]Ele [D]trouxe a sã dou[G]trina",
           "Que con[C]duz, por [D]fé, a D[G]eus."
         ]
       }

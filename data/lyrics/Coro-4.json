@@ -1,19 +1,23 @@
 {
+  "code": "Coro-4",
   "version": "v3",
   "title": "Glória, glória nas alturas!",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "G[A]lória, glória nas alturas!",
-          "G[E]lória, g[A]lória_ao nosso D[E]eus!",
+          "G[E]lória, g[A]lória ao nosso D[E]eus!",
           "Salvaç[A]ão nos preparou por Jes[D]us, que nos am[A]ou;",
-          "Glória_ao Deus vivente q[E]ue está nos c[A]éus!"
+          "Glória ao Deus vivente q[E]ue está nos c[A]éus!"
         ]
       }
     ]

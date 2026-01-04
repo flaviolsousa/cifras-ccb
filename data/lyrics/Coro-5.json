@@ -1,19 +1,23 @@
 {
+  "code": "Coro-5",
   "version": "v3",
   "title": "Majestoso é Cristo Jesus!",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Majes[B]toso é Cristo Jes[E]us, o Senhor,",
-          "Majes[F#7]toso é Cristo Jes[B]us;",
-          "O poder Deus Lhe deu, quer na [E]terra, quer no céu,",
-          "Majes[F#7]toso é Cristo Jes[B]us!"
+          "Majes[A]toso é Cristo Jes[D]us, o Senhor,",
+          "Majes[E7]toso é Cristo Jes[A]us;",
+          "O poder Deus Lhe deu, quer na [D]terra, quer no céu,",
+          "Majes[E7]toso é Cristo Jes[A]us!"
         ]
       }
     ]

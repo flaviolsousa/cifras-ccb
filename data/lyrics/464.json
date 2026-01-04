@@ -1,39 +1,43 @@
 {
+  "code": "464",
   "version": "v3",
   "title": "Reunidos nós estamos",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Reu[E]nidos nós es[B]tamos aos Teus p[A]és, ó C[B]ria[E]dor,",
-          "Ansiosos espe[B]ramos Tuas [A]bênçãos, T[B]eu fav[E]or;",
-          "Glorificado [A]seja semp[E]re Teu santo Nome, [A]ó Sen[E]hor,",
-          "E Teu [C#m]reino_anunci[B]ado para [A]todo_o [B]peca[E]dor.[E]..."
+          "Reu[D]nidos nós es[A]tamos aos Teus p[G]és, ó C[A]ria[D]dor,",
+          "Ansiosos espe[A]ramos Tuas [G]bênçãos, T[A]eu fav[D]or;",
+          "Glorificado [G]seja semp[D]re Teu santo Nome, [G]ó Sen[D]hor,",
+          "E Teu [Bm]reino anunci[A]ado para [G]todo o [A]peca[D]dor.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ó Sen[E]hor, só Tu con[B]heces nossa [A]mente_e [B]coraç[E]ão,",
-          "Elevamos nossas p[B]reces com sin[A]cera [B]devoç[E]ão.",
-          "Nós invocamos [A]o Teu No[E]me e desejamos [A]Te hon[E]rar;",
-          "Dá-nos [C#m]força, Pai e[B]terno, para [A]Te glo[B]rifi[E]car.[E]..."
+          "Ó Sen[D]hor, só Tu con[A]heces nossa [G]mente e [A]coraç[D]ão,",
+          "Elevamos nossas p[A]reces com sin[G]cera [A]devoç[D]ão.",
+          "Nós invocamos [G]o Teu No[D]me e desejamos [G]Te hon[D]rar;",
+          "Dá-nos [Bm]força, Pai e[A]terno, para [G]Te glo[A]rifi[D]car.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Faz que n[E]ós conside[B]remos que pre[A]sente_es[B]tás, ó D[E]eus,",
-          "Para que nos aleg[B]remos nos fi[A]éis con[B]selhos T[E]eus;",
-          "Tua Palavra [A]de virtu[E]de nós esperamos, [A]ó Sen[E]hor,",
-          "N´Ela_es[C#m]tá a pleni[B]tude do Teu [A]santo_e_i[B]menso_a[E]mor.[E]..."
+          "Faz que n[D]ós conside[A]remos que pre[G]sente es[A]tás, ó D[D]eus,",
+          "Para que nos aleg[A]remos nos fi[G]éis con[A]selhos T[D]eus;",
+          "Tua Palavra [G]de virtu[D]de nós esperamos, [G]ó Sen[D]hor,",
+          "N´Ela es[Bm]tá a pleni[A]tude do Teu [G]santo e i[A]menso a[D]mor.[D]..."
         ]
       }
     ]

@@ -1,32 +1,36 @@
 {
+  "code": "456",
   "version": "v3",
   "title": "Somos joias preciosas",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao vol[E]tar, com grande glória, [A]Jesus C[E]risto,_o [B7]Reden[E]tor,",
-          "Levará as Suas joias [A]para_o [E]reino [B7]de_esplen[E]dor."
+          "Ao vol[D]tar, com grande glória, [G]Jesus C[D]risto, o [A7]Reden[D]tor,",
+          "Levará as Suas joias [G]para o [D]reino [A7]de esplen[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Somos [A]joias preci[E]osas",
-          "[A]Do te[E]souro [B7]do Sen[E]hor[E7];",
-          "Somos [A]belas, mui for[E]mosas, ",
-          "[A]Somos [E]joias [B7]de va[E]lor.[E]..."
+          "Somos [G]joias preci[D]osas",
+          "[G]Do te[D]souro [A7]do Sen[D]hor[D7];",
+          "Somos [G]belas, mui for[D]mosas, ",
+          "[G]Somos [D]joias [A7]de va[D]lor.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Destas [E]joias preciosas C[A]risto [E]sempre [B7]cuida[E]rá;", "Sempre belas e brilhantes [A]Ele [E]as con[B7]serva[E]rá."]
+        "text": ["Destas [D]joias preciosas C[G]risto [D]sempre [A7]cuida[D]rá;", "Sempre belas e brilhantes [G]Ele [D]as con[A7]serva[D]rá."]
       },
       {
         "type": "ref",
@@ -35,7 +39,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Reves[E]tidos de pureza, [A]camin[E]hando [B7]em a[E]mor,", "Aguardemos bem atentos [A]o re[E]torno [B7]do Sen[E]hor."]
+        "text": ["Reves[D]tidos de pureza, [G]camin[D]hando [A7]em a[D]mor,", "Aguardemos bem atentos [G]o re[D]torno [A7]do Sen[D]hor."]
       },
       {
         "type": "ref",
