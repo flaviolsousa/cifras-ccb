@@ -1,39 +1,43 @@
 {
+  "code": "346",
   "version": "v3",
   "title": "Longe do mal e perto de Ti",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Longe do mal e [D]perto de [A]Ti eu já es[E]tou, ó meu Je[A]sus;",
-          "Paz neste mundo [D]nunca sen[A]ti, não tinha [E]Tua l[A]uz;[A7]...",
-          "[D]Já livre_estou da [A]condenação, [E]já livre_estou da [B7]ira de [E]Deus;[E7]...",
-          "[A]Tu me livraste [D]da perdiç[A]ão para le[E]var-me_aos c[A]éus."
+          "[G]Longe do mal e [C]perto de [G]Ti eu já es[D]tou, ó meu Je[G]sus;",
+          "Paz neste mundo [C]nunca sen[G]ti, não tinha [D]Tua l[G]uz;[G7]...",
+          "[C]Já livre estou da [G]condenação, [D]já livre estou da [A7]ira de [D]Deus;[D7]...",
+          "[G]Tu me livraste [C]da perdiç[G]ão para le[D]var-me aos c[G]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Longe do mal, ó [D]meu Guardi[A]ão, vivo fe[E]liz em Teu a[A]mor;",
-          "Sinto_alegria_em [D]meu coraç[A]ão, ó justo [E]Salva[A]dor.[A7]...",
-          "[D]Com toda_a alma [A]eu cantarei [E]hinos de glória [B7]em Teu lou[E]vor;[E7]...",
-          "[A]Por toda_a vida [D]Te bendi[A]rei e Te_ama[E]rei, Sen[A]hor."
+          "[G]Longe do mal, ó [C]meu Guardi[G]ão, vivo fe[D]liz em Teu a[G]mor;",
+          "Sinto alegria em [C]meu coraç[G]ão, ó justo [D]Salva[G]dor.[G7]...",
+          "[C]Com toda a alma [G]eu cantarei [D]hinos de glória [A7]em Teu lou[D]vor;[D7]...",
+          "[G]Por toda a vida [C]Te bendi[G]rei e Te ama[D]rei, Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Longe do mal Con[D]tigo_anda[A]rei, não teme[E]rei o tenta[A]dor;",
-          "Sobre a terra [D]Te honra[A]rei, santo_e fi[E]el Sen[A]hor.[A7]...",
-          "[D]Vem dilatar o [A]meu coração, [E]vem estreitar-me_em [B7]Ti, ó Je[E]sus;[E7]...",
-          "[A]Quero amar-Te [D]com devoç[A]ão, és minha [E]Vida_e L[A]uz."
+          "[G]Longe do mal Con[C]tigo anda[G]rei, não teme[D]rei o tenta[G]dor;",
+          "Sobre a terra [C]Te honra[G]rei, santo e fi[D]el Sen[G]hor.[G7]...",
+          "[C]Vem dilatar o [G]meu coração, [D]vem estreitar-me em [A7]Ti, ó Je[D]sus;[D7]...",
+          "[G]Quero amar-Te [C]com devoç[G]ão, és minha [D]Vida e L[G]uz."
         ]
       }
     ]

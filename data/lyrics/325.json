@@ -1,28 +1,27 @@
 {
+  "code": "325",
   "version": "v3",
   "title": "Louvemos ao Rei dos reis",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lou[G]vemos [D]ao Rei dos r[G]eis com todo_o nosso fer[D]vor;",
-          "Num [G]só es[C]pírito[A7],_ó fiéis, can[D]temos hinos [G]de louvor;",
+          "Lou[G]vemos [D]ao Rei dos r[G]eis com todo o nosso fer[D]vor;",
+          "Num [G]só es[C]pírito[A7], ó fiéis, can[D]temos hinos [G]de louvor;",
           "Por graça, [D]temos p[G]az e [C]vida e[D]terna no Sen[G]hor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Que [G]grande tesouro",
-          "Alcançaremos em [D]glória!",
-          "Nem [G]ouro_ou prata se[C]rá,",
-          "Mas vida q[D]ue não finda[G]rá."
-        ]
+        "text": ["Que [G]grande tesouro", "Alcançaremos em [D]glória!", "Nem [G]ouro ou prata se[C]rá,", "Mas vida q[D]ue não finda[G]rá."]
       },
       {
         "type": "lyric",
@@ -30,7 +29,7 @@
         "text": [
           "O s[G]anto, [D]puro a[G]mor somente vem de Jes[D]us,",
           "Por Q[G]uem sen[C]timos [A7]o vigor de s[D]uportar a [G]nossa cruz",
-          "Com fé, pac[D]iência_e [G]calma, [C]irradi[D]ando sempre [G]luz."
+          "Com fé, pac[D]iência e [G]calma, [C]irradi[D]ando sempre [G]luz."
         ]
       },
       {

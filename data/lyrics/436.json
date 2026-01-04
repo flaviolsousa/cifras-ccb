@@ -1,17 +1,21 @@
 {
+  "code": "436",
   "version": "v3",
   "title": "Alegria sinto em servir Jesus",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "Em", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Aleg[D]ria sinto em servir Jesus,",
-          "Aleg[A]ria que, no mundo, n[D]ão há_igual;",
+          "Aleg[A]ria que, no mundo, n[D]ão há igual;",
           "Bem por isso sigo a e[Em]terna luz",
           "Da Jus[A]tiça divi[D]nal.[D]..."
         ]
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "Privi[Em]légio [A]santo, s[D]em igual, é an[E]dar com meu Sen[A]hor,",
-          "Camin[D]har em Seu a[Em]mor, [A]  exaltando_ao Cria[D]dor!",
+          "Camin[D]har em Seu a[Em]mor, [A] exaltando ao Cria[D]dor!",
           "Desejamos ver retor[G]nar dos c[G]éus",
-          "[G#°]Cristo,_o R[D]ei [A]  e Salva[D]dor.[D]..."
+          "[G#°]Cristo, o R[D]ei [A] e Salva[D]dor.[D]..."
         ]
       },
       {
@@ -31,7 +35,7 @@
         "text": [
           "Rego[D]zijo e real consolação,",
           "Paz di[A]vina e celesti[D]al amor,",
-          "Me preservam deste mundo [Em]de_ilusão",
+          "Me preservam deste mundo [Em]de ilusão",
           "E me [A]unem ao Sen[D]hor.[D]..."
         ]
       },
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Ó a[D]mados, caminhemos com Jesus,",
-          "N´Ele [A]temos vida_eterna_e [D]salvação;",
+          "N´Ele [A]temos vida eterna e [D]salvação;",
           "Se aqui manifestarmos [Em]Sua luz,",
           "Nós te[A]remos galard[D]ão.[D]..."
         ]

@@ -1,19 +1,23 @@
 {
+  "code": "345",
   "version": "v3",
   "title": "Regozijo-me em falar do Salvador",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "F4", "F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Rego[F]zijo-me em fa[F4]lar do Salva[F]dor,",
           "Que me concedeu imenso fa[C]vor;",
           "O Seu sangue derramou, meus pe[F]cados perdoou",
-          "Sobre_a [Bb]cruz, onde [C]tudo consum[F]ou."
+          "Sobre a [Bb]cruz, onde [C]tudo consum[F]ou."
         ]
       },
       {
@@ -29,7 +33,7 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Rego[F]zijo-me em fa[F4]lar do Salva[F]dor,",
           "Meu amado e fiel Remi[C]dor,",
           "Que me deu a salvação pela [F]Sua compaixão.",
           "Ale[Bb]luia! Eu [C]sinto Seu perd[F]ão."
@@ -43,7 +47,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Rego[F]zijo-me_em fa[F4]lar do Salva[F]dor,",
+          "Rego[F]zijo-me em fa[F4]lar do Salva[F]dor,",
           "Pois das trevas me tirou, por a[C]mor;",
           "Me chamou à Sua luz e à g[F]lória me conduz;",
           "Com fer[Bb]vor louva[C]rei ao meu Jes[F]us."

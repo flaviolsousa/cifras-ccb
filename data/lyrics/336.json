@@ -1,10 +1,14 @@
 {
+  "code": "336",
   "version": "v3",
   "title": "Sempre bilhar devemos",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,19 +22,16 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Sempre brilhar de[A]vemos, irradiemos [D]luz;",
-          "Neste mundo res[F#]plan[G]deceremos [A]por Je[D]sus."
-        ]
+        "text": ["[D]Sempre brilhar de[A]vemos, irradiemos [D]luz;", "Neste mundo res[F#]plan[G]deceremos [A]por Je[D]sus."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Cristo_é a Luz que [G]veio_ao [D]mundo",
-          "Para o_i[A]lumi[D]nar",
+          "[D]Cristo é a Luz que [G]veio ao [D]mundo",
+          "Para o i[A]lumi[D]nar",
           "[A]E, pelo Seu a[D]mor profundo,",
-          "[E]Do sono_o desper[A]tar[A7]."
+          "[E]Do sono o desper[A]tar[A7]."
         ]
       },
       {
@@ -40,12 +41,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[D]Pela Palavra, [G]que_ilu[D]mina,",
-          "Todos en[A]tende[D]rão",
-          "[A]Que só de Cristo [D]a doutrina",
-          "[E]Leva à perfei[A]ção[A7]."
-        ]
+        "text": ["[D]Pela Palavra, [G]que ilu[D]mina,", "Todos en[A]tende[D]rão", "[A]Que só de Cristo [D]a doutrina", "[E]Leva à perfei[A]ção[A7]."]
       },
       {
         "type": "ref",

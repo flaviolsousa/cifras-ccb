@@ -1,17 +1,21 @@
 {
+  "code": "368",
   "version": "v3",
   "title": "Deus nos elegeu para Si",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[G]Não duvidemos, [D]Deus nos ele[C]geu [G]para [C]Si, [D]em Je[G]sus;",
-          "Confirmará a [D]nossa salva[C]ção [G]com po[C]der, [D]graça_e [G]luz.",
+          "Confirmará a [D]nossa salva[C]ção [G]com po[C]der, [D]graça e [G]luz.",
           "Salvo não será quem não [D]combater.",
           "Quem, na [G]caminhada, es[D]morecer;",
           "Os [G]vitoriosos reinarão e com [C]Deus [D]vive[G]rão.[G]..."
@@ -22,10 +26,10 @@
         "code": "2",
         "text": [
           "[G]Tem proteção o [D]povo do Se[C]nhor, [G]prote[C]ção [D]efi[G]caz;",
-          "Seu fundamento_é [D]Cristo,_o Salva[C]dor, [G]que lhe [C]dá [D]vida_e [G]paz;",
+          "Seu fundamento é [D]Cristo, o Salva[C]dor, [G]que lhe [C]dá [D]vida e [G]paz;",
           "Por Seu verdadeiro a[D]dorador,",
-          "Deus, o [G]Criador, tem pro[D]fundo_amor;",
-          "Bem [G]perto_está e cuidará, guarda[C]rá, [D]salva[G]rá.[G]..."
+          "Deus, o [G]Criador, tem pro[D]fundo amor;",
+          "Bem [G]perto está e cuidará, guarda[C]rá, [D]salva[G]rá.[G]..."
         ]
       },
       {

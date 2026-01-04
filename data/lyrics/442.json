@@ -1,38 +1,42 @@
 {
+  "code": "442",
   "version": "v3",
   "title": "Bênçãos, bênçãos Deus derramará",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Bênção como chuva [D]se derramarão",
-          "[E]Sobre_aquele que a Deus ser[A]vir,",
-          "E, dos céus, as portas n[D]ão se fecharão,",
-          "[E]Bens celestes poderá fru[A]ir."
+          "[G]Bênção como chuva [C]se derramarão",
+          "[D]Sobre aquele que a Deus ser[G]vir,",
+          "E, dos céus, as portas n[C]ão se fecharão,",
+          "[D]Bens celestes poderá fru[G]ir."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Bênçãos, [E]bênçãos Deus de[F#m]rrama[C#]rá,",
-          "[D]Bênçãos [B7]que, no mundo,_iguais não [E]há;",
-          "[A]Ele,_aqui, te dá as [D]bênçãos temporais",
-          "[E]E, por fim, no céu, as etern[A]ais."
+          "[G]Bênçãos, [D]bênçãos Deus de[Em]rrama[B]rá,",
+          "[C]Bênçãos [A7]que, no mundo, iguais não [D]há;",
+          "[G]Ele, aqui, te dá as [C]bênçãos temporais",
+          "[D]E, por fim, no céu, as etern[G]ais."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Se obedeceres [D]ao teu Criador,",
-          "[E]Tu serás bendito do Sen[A]hor;",
-          "O Seu forte braço [D]Ele_estenderá",
-          "[E]E em teu favor trabalha[A]rá."
+          "[G]Se obedeceres [C]ao teu Criador,",
+          "[D]Tu serás bendito do Sen[G]hor;",
+          "O Seu forte braço [C]Ele estenderá",
+          "[D]E em teu favor trabalha[G]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]O que Deus te pede, [D]deves tu fazer",
-          "[E]E somente_a Ele_obede[A]cer,",
-          "Pois Deus é contigo, [D]te ajudará",
-          "[E]E dos céus te abençoa[A]rá."
+          "[G]O que Deus te pede, [C]deves tu fazer",
+          "[D]E somente a Ele obede[G]cer,",
+          "Pois Deus é contigo, [C]te ajudará",
+          "[D]E dos céus te abençoa[G]rá."
         ]
       },
       {

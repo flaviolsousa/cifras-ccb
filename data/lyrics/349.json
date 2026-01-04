@@ -1,38 +1,42 @@
 {
+  "code": "349",
   "version": "v3",
   "title": "Irmãos amados",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Irmãos a[E]mados, já resgatados",
-          "Por Jesus C[B7]risto, o Verda[E]deiro,",
+          "Irmãos a[D]mados, já resgatados",
+          "Por Jesus C[A7]risto, o Verda[D]deiro,",
           "Seguindo avante, com fé constante,",
-          "Sirvamos [F#m]ao Sen[B7]hor Jes[E]us.[E7]"
+          "Sirvamos [Em]ao Sen[A7]hor Jes[D]us.[D7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Irmãos a[A]mados, já resga[E]tados,[C#m]...",
-          "Por Cristo [F#m]fomos [B7]  regene[E]rados,[E7]...",
-          "Com o Seu s[A]angue purifi[E]cados;[C#m]...",
-          "Bendito é o [F#m]Nome [B7]do Sen[E]hor."
+          "Irmãos a[G]mados, já resga[D]tados,[Bm]...",
+          "Por Cristo [Em]fomos [A7] regene[D]rados,[D7]...",
+          "Com o Seu s[G]angue purifi[D]cados;[Bm]...",
+          "Bendito é o [Em]Nome [A7]do Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Irmãos a[E]mados, purificados,",
-          "Jesus lou[B7]vemos e O ado[E]remos;",
+          "Irmãos a[D]mados, purificados,",
+          "Jesus lou[A7]vemos e O ado[D]remos;",
           "Remidos somos, comprados fomos",
-          "Com o Seu [F#m]sangue ex[B7]pia[E]dor.[E7]"
+          "Com o Seu [Em]sangue ex[A7]pia[D]dor.[D7]"
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Irmãos a[E]mados, regenerados,",
-          "Por fé nós [B7]somos justifi[E]cados;",
+          "Irmãos a[D]mados, regenerados,",
+          "Por fé nós [A7]somos justifi[D]cados;",
           "Se combatemos, vitória temos",
-          "Em nome [F#m]do Sen[B7]hor Jes[E]us.[E7]"
+          "Em nome [Em]do Sen[A7]hor Jes[D]us.[D7]"
         ]
       },
       {

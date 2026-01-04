@@ -1,24 +1,28 @@
 {
+  "code": "406",
   "version": "v3",
   "title": "A voz de Cristo te convida: Vem!",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "A [G]voz de Cristo te con[C]vida: [G]Vem! Sedento,_a Cristo [D]vem!",
-          "Cha[G]mando continua_o [C]Salva[G]dor,",
+          "A [G]voz de Cristo te con[C]vida: [G]Vem! Sedento, a Cristo [D]vem!",
+          "Cha[G]mando continua o [C]Salva[G]dor,",
           "Ao [Em]homem [D]peca[G]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Glória_ao grande_e pode[C]roso D[G]eus,",
+          "[G]Glória ao grande e pode[C]roso D[G]eus,",
           "Que mandou a reden[A7]ção dos c[D]éus",
           "[G]Em Jesus, a Fonte [C]do perd[G]ão,",
           "E[D]terna Salvaç[G]ão."
@@ -30,7 +34,7 @@
         "text": [
           "Se[G]dentos, vinde ao Ma[C]nanci[G]al de vida eter[D]nal;",
           "Quem [G]ao convite não se [C]recu[G]sar,",
-          "Com [Em]Cristo_i[D]rá rei[G]nar."
+          "Com [Em]Cristo i[D]rá rei[G]nar."
         ]
       },
       {

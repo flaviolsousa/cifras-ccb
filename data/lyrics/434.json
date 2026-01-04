@@ -1,10 +1,14 @@
 {
+  "code": "434",
   "version": "v3",
   "title": "A minha alma sente paz no Senhor",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +16,7 @@
         "text": [
           "A minha [C]alma sente p[G]az no Sen[C]hor,",
           "P[G]az eternal, p[C]az sem igual;",
-          "Por essa paz irei ao [G]reino de_a[C]mor,",
+          "Por essa paz irei ao [G]reino de a[C]mor,",
           "[G]Reino celesti[C]al.[C]..."
         ]
       },
@@ -20,10 +24,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Meu coraç[C]ão já sente_o g[G]rande a[C]mor",
+          "Meu coraç[C]ão já sente o g[G]rande a[C]mor",
           "Q[G]ue vem dos céus, q[C]ue vem dos céus;",
           "Eternamente eu se[G]rei do Sen[C]hor;",
-          "G[G]rande_é o_amor de D[C]eus![C]..."
+          "G[G]rande é o amor de D[C]eus![C]..."
         ]
       },
       {

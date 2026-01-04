@@ -1,38 +1,42 @@
 {
+  "code": "308",
   "version": "v3",
   "title": "Soa a trombeta",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Ouve-se_em toda_a parte_anunciar:",
-          "[E]Já é chagado_o [A]reino de_a[E]mor;",
-          "[A]Cristo_é potente para salvar",
-          "E dar a [F#m]vida [E]ao peca[A]dor."
+          "[G]Ouve-se em toda a parte anunciar:",
+          "[D]Já é chagado o [G]reino de a[D]mor;",
+          "[G]Cristo é potente para salvar",
+          "E dar a [Em]vida [D]ao peca[G]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Soa_a trombeta; [E]oh! escu[F#m]tai",
-          "[D]O Evan[A]gelho [D]do Salva[E]dor;",
-          "[A]Vossos ouvidos, oh! inclinai",
-          "Ás sãs pa[F#m]lavras [E]do Cria[A]dor.[A]..."
+          "[C]Soa a trombeta; [D]oh! escu[Em]tai",
+          "[C]O Evan[G]gelho [C]do Salva[D]dor;",
+          "[G]Vossos ouvidos, oh! inclinai",
+          "Ás sãs pa[Em]lavras [D]do Cria[G]dor.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Os mensageiros do Redentor",
-          "[E]As boas novas [A]fazem ou[E]vir,",
-          "[A]Novas de paz, de vida_e de_amor,",
-          "De um fe[F#m]liz e_e[E]terno por[A]vir."
+          "[G]Os mensageiros do Redentor",
+          "[D]As boas novas [G]fazem ou[D]vir,",
+          "[G]Novas de paz, de vida e de amor,",
+          "De um fe[Em]liz e e[D]terno por[G]vir."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Nesta mensagem, vinda de Deus,",
-          "[E]É manifesto [A]ao peca[E]dor",
-          "[A]Que, para todos, há salvação;",
-          "Vinde_acei[F#m]tá-la [E]do Salva[A]dor."
+          "[G]Nesta mensagem, vinda de Deus,",
+          "[D]É manifesto [G]ao peca[D]dor",
+          "[G]Que, para todos, há salvação;",
+          "Vinde acei[Em]tá-la [D]do Salva[G]dor."
         ]
       },
       {

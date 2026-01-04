@@ -1,17 +1,21 @@
 {
+  "code": "315",
   "version": "v3",
   "title": "Contempla do céu",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "A", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Con[G]templa do céu, ó Se[D]nhor, Teus fi[G]éis;",
-          "Em nós seja feito_o Teu [A]santo que[D]rer;",
+          "Em nós seja feito o Teu [A]santo que[D]rer;",
           "Oh! Vem aju[G]dar-nos a [D]peregri[Em]nar,",
           "Con[Am]duz-nos aos c[G]éus com [D]o Teu po[G]der."
         ]
@@ -22,7 +26,7 @@
           "Que [G]volte do céu Teu Filho, ó Deus,",
           "[D]Quão desejosos es[G]tamos, Senhor!",
           "Re[C]jubila[G]remos ao [A]vê-Lo vol[D]tar",
-          "Em grande_esplen[G]dor."
+          "Em grande esplen[G]dor."
         ]
       },
       {
@@ -30,7 +34,7 @@
         "code": "2",
         "text": [
           "Ó [G]Pai amoroso, en[D]via Je[G]sus;",
-          "É grande_o desejo de [A]vê-Lo sur[D]gir;",
+          "É grande o desejo de [A]vê-Lo sur[D]gir;",
           "Queremos, com [G]Cristo, a [D]glória her[Em]dar",
           "E [Am]bens eter[G]nais com [D]Ele fru[G]ir."
         ]

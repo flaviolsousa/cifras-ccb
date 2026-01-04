@@ -1,10 +1,14 @@
 {
+  "code": "388",
   "version": "v3",
   "title": "Na cidade santa",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,16 +17,16 @@
           "[C]Na cidade santa do e[F]terno Deus,",
           "[G]Pecador não poderá ent[C]rar;",
           "Lá só entrarão os escol[F]hidos Seus",
-          "[G]Para_os bens eternos desfru[C]tar."
+          "[G]Para os bens eternos desfru[C]tar."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "[C]Na cidade santa, por Deus [F]prepa[D7]rada,",
-          "[G]Um repouso_eterno o fi[C]el terá;",
-          "De_eternais riquezas ela_é [F]ador[D7]nada",
-          "[G]E seu brilho não se_apaga[C]rá."
+          "[G]Um repouso eterno o fi[C]el terá;",
+          "De eternais riquezas ela é [F]ador[D7]nada",
+          "[G]E seu brilho não se apaga[C]rá."
         ]
       },
       {
@@ -30,8 +34,8 @@
         "code": "2",
         "text": [
           "[C]A cidade santa do e[F]terno Rei",
-          "[G]É de_incomparável esplen[C]dor;",
-          "Nela_habitará quem camin[F]har na lei,",
+          "[G]É de incomparável esplen[C]dor;",
+          "Nela habitará quem camin[F]har na lei,",
           "[G]Na perfeita lei do Reden[C]tor."
         ]
       },
@@ -45,7 +49,7 @@
         "text": [
           "G[C]rande alegria, ao ent[F]rarmos lá,",
           "[G]Sentirá o nosso coraç[C]ão;",
-          "Toda a tristeza_aqui se [F]deixará,",
+          "Toda a tristeza aqui se [F]deixará,",
           "[G]Todos os combates cessar[C]ão."
         ]
       },

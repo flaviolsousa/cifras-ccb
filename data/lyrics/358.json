@@ -1,17 +1,21 @@
 {
+  "code": "358",
   "version": "v3",
   "title": "O Teu precioso sangue",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[C]O Teu precioso [F]sangue, [C]ó divinal Cor[G]deiro,",
-          "[C]Do mundo resga[F]tou-me, por [C]Teu i[G7]menso_a[C]mor;",
+          "[C]Do mundo resga[F]tou-me, por [C]Teu i[G7]menso a[C]mor;",
           "[G]Faz que em Ti este[D]ja [D7]a minha confi[G]ança,",
           "[C]Dá-me perseve[F]rança e [C]fé, ó [G7]Reden[C]tor."
         ]
@@ -20,9 +24,9 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Fraco eu sou, no [F]mundo, [C]para_enfrentar a [G]lida,",
+          "[C]Fraco eu sou, no [F]mundo, [C]para enfrentar a [G]lida,",
           "[C]Mas, com celeste [F]força, o [C]mal não [G7]teme[C]rei;",
-          "[G]Vindo o inimi[D]go [D7]para_enlaçar-me_a [G]vida,",
+          "[G]Vindo o inimi[D]go [D7]para enlaçar-me a [G]vida,",
           "[C]Sei que terei gua[F]rida em [C]Ti, meu [G7]grande [C]Rei."
         ]
       },
@@ -30,7 +34,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Estando sempre_a[F]tento [C]à celestial Pa[G]lavra,",
+          "[C]Estando sempre a[F]tento [C]à celestial Pa[G]lavra,",
           "[C]Nunca serei ven[F]cido do [C]mal, ó [G7]meu Sen[C]hor.",
           "[G]O Teu falar divi[D]no [D7]confortará min[G]ha´alma,",
           "[C]Dando-lhe paz e [F]calma, fir[C]meza [G7]e fer[C]vor."

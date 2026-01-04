@@ -1,27 +1,28 @@
 {
+  "code": "407",
   "version": "v3",
   "title": "És bendito eternamente!",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Oh! [G]Quanto amo Tua lei eterna_e divinal!",
-          "E [C]nela eu medito dia_e [A7]noite, ó Sen[D]hor;",
+          "Oh! [G]Quanto amo Tua lei eterna e divinal!",
+          "E [C]nela eu medito dia e [A7]noite, ó Sen[D]hor;",
           "Por [G]Teus conselhos ando na justiça celestial,",
           "Nas ve[C]redas [D]de a[G]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[G]És bendito_eternamente, g[D]lorioso Criador!",
-          "[G]Minha alma, reve[C]ren[Am]te, [E]Te a[Am]dora, [D]ó Sen[G]hor."
-        ]
+        "text": ["[G]És bendito eternamente, g[D]lorioso Criador!", "[G]Minha alma, reve[C]ren[Am]te, [E]Te a[Am]dora, [D]ó Sen[G]hor."]
       },
       {
         "type": "lyric",
@@ -29,7 +30,7 @@
         "text": [
           "Teus [G]santos testemunhos me alegram, ó Senhor,",
           "As [C]Tuas sãs palavras são mais [A7]doces que o [D]mel,",
-          "Pois [G]falam das riquezas do Teu reino de_esplendor,",
+          "Pois [G]falam das riquezas do Teu reino de esplendor,",
           "Prepa[C]radas [D]ao fi[G]el."
         ]
       },
@@ -41,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Por [G]Teu celeste_Espírito ensina-me, ó Deus,",
+          "Por [G]Teu celeste Espírito ensina-me, ó Deus,",
           "E [C]dá-me as virtudes para [A7]Te obede[D]cer;",
-          "De[G]sejo_ardentemente contemplar-Te lá nos céus",
-          "E, Con[C]tigo,_en[D]tão vi[G]ver."
+          "De[G]sejo ardentemente contemplar-Te lá nos céus",
+          "E, Con[C]tigo, en[D]tão vi[G]ver."
         ]
       },
       {

@@ -1,38 +1,42 @@
 {
+  "code": "362",
   "version": "v3",
   "title": "Que bela herança!",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Que bela_he[A]rança Deus me re[E]serva",
-          "Junto_a Jesus, o bom Reden[A]tor!",
-          "Para_alcançá-la, Deus me pre[E]serva",
-          "De todo_o mal, por grande a[A]mor."
+          "Que bela he[G]rança Deus me re[D]serva",
+          "Junto a Jesus, o bom Reden[G]tor!",
+          "Para alcançá-la, Deus me pre[D]serva",
+          "De todo o mal, por grande a[G]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Breve, no [D]céu, os santos re[A]midos",
-          "Recebe[E]rão o reino_e_o po[A]der;",
-          "Breve_os fi[D]éis, por Deus esco[A]lhidos,",
-          "Vão, com Je[E]sus, resplande[A]cer.[A]..."
+          "Breve, no [C]céu, os santos re[G]midos",
+          "Recebe[D]rão o reino e o po[G]der;",
+          "Breve os fi[C]éis, por Deus esco[G]lhidos,",
+          "Vão, com Je[D]sus, resplande[G]cer.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Próximo_é_o [A]dia tão espe[E]rado",
-          "Em que Jesus do céu volta[A]rá;",
-          "Oh! Que encontro tão dese[E]jado!",
-          "Quem for fiel, a Deus subi[A]rá."
+          "Próximo é o [G]dia tão espe[D]rado",
+          "Em que Jesus do céu volta[G]rá;",
+          "Oh! Que encontro tão dese[D]jado!",
+          "Quem for fiel, a Deus subi[G]rá."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "É ine[A]fável, grande_e su[E]perno",
-          "O galardão que vou desfru[A]tar;",
-          "Com Jesus Cristo no reino_e[E]terno",
-          "Junto a Deus, irei habi[A]tar."
+          "É ine[G]fável, grande e su[D]perno",
+          "O galardão que vou desfru[G]tar;",
+          "Com Jesus Cristo no reino e[D]terno",
+          "Junto a Deus, irei habi[G]tar."
         ]
       },
       {

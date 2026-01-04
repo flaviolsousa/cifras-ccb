@@ -1,38 +1,37 @@
 {
+  "code": "391",
   "version": "v3",
   "title": "Um peregrino sou aqui",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Um pereg[A]rino sou aq[D]ui,",
-          "Pois o meu [A]lar está nos c[E]éus;",
-          "Em breve_ir[A]ei[A7]  viver a[D]li,",
-          "Unido a[A]os fi[E]éis de D[A]eus."
+          "Um pereg[G]rino sou aq[C]ui,",
+          "Pois o meu [G]lar está nos c[D]éus;",
+          "Em breve ir[G]ei[G7] viver a[C]li,",
+          "Unido a[G]os fi[D]éis de D[G]eus."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Que aleg[A]ria sem ig[E]ual",
-          "Há de sentir meu coraç[A]ão!",
-          "Terei re[A7]pouso etern[D]al",
-          "No fim da [A]pereg[E]rinaç[A]ão."
-        ]
+        "text": ["Que aleg[G]ria sem ig[D]ual", "Há de sentir meu coraç[G]ão!", "Terei re[G7]pouso etern[C]al", "No fim da [G]pereg[D]rinaç[G]ão."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Inigua[A]lável galard[D]ão",
-          "Espero_em b[A]reve alcan[E]çar;",
-          "Da divin[A]al[A7]  consolaç[D]ão,",
-          "Junto_aos fi[A]éis vou d[E]esfrut[A]ar."
+          "Inigua[G]lável galard[C]ão",
+          "Espero em b[G]reve alcan[D]çar;",
+          "Da divin[G]al[G7] consolaç[C]ão,",
+          "Junto aos fi[G]éis vou d[D]esfrut[G]ar."
         ]
       },
       {
@@ -43,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Findando_o m[A]eu peregrin[D]ar,",
-          "Irei à p[A]átria etern[E]al;",
-          "Darei lou[A]vo [A7]- res sem ces[D]sar",
-          "A Deus, o P[A]ai ce[E]lesti[A]al."
+          "Findando o m[G]eu peregrin[C]ar,",
+          "Irei à p[G]átria etern[D]al;",
+          "Darei lou[G]vo [G7]- res sem ces[C]sar",
+          "A Deus, o P[G]ai ce[D]lesti[G]al."
         ]
       },
       {

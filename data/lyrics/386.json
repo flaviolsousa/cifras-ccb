@@ -1,24 +1,25 @@
 {
+  "code": "386",
   "version": "v3",
   "title": "Pela morte de Jesus",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "D#°", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[C]Pela morte de [D#°]Je - [G7]sus, deu-nos vida_o Cria[C]dor,",
-          "Trouxe paz e [F]trouxe luz, [C]nosso ben[G7]dito Salva[C]dor."
-        ]
+        "text": ["[C]Pela morte de [D#°]Je - [G7]sus, deu-nos vida o Cria[C]dor,", "Trouxe paz e [F]trouxe luz, [C]nosso ben[G7]dito Salva[C]dor."]
       },
       {
         "type": "chorus",
         "text": [
           "[C]Não foi com ouro que [G7]Cristo nos comprou,",
-          "Mas com Seu sangue pre[C]ciso_e remidor,",
+          "Mas com Seu sangue pre[C]ciso e remidor,",
           "E, por Sua graça, [F]nos vivificou;",
           "[D7]Somos co-her[C]deiros do [G7]Reden[C]tor."
         ]
@@ -26,10 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[C]Sua graça nos [D#°]do - [G7]ou, Jesus Cristo, o Sen[C]hor;",
-          "Dos pecados [F]nos lavou; [C]vamos ser[G7]vi-Lo com fer[C]vor."
-        ]
+        "text": ["[C]Sua graça nos [D#°]do - [G7]ou, Jesus Cristo, o Sen[C]hor;", "Dos pecados [F]nos lavou; [C]vamos ser[G7]vi-Lo com fer[C]vor."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[C]Honra_e glória ao [D#°]Se - [G7]nhor, o Autor de todo_o [C]bem,",
-          "Que nos guia_ao [F]Criador, [C]à eter[G7]nal Jerusa[C]lém."
-        ]
+        "text": ["[C]Honra e glória ao [D#°]Se - [G7]nhor, o Autor de todo o [C]bem,", "Que nos guia ao [F]Criador, [C]à eter[G7]nal Jerusa[C]lém."]
       },
       {
         "type": "ref",

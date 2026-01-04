@@ -1,10 +1,14 @@
 {
+  "code": "375",
   "version": "v3",
   "title": "\"A paz Eu vos deixo\"",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C", "Am", "D", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,20 +16,20 @@
         "text": [
           "“A p[C]az Eu vos deixo”, fa[G]lou o Salva[C]dor,",
           "“A [Am]paz que o [D]mundo não [G]dá”.",
-          "Fi[C]el é_o Sen[F]hor que, por g[D]rande a[G]mor,",
+          "Fi[C]el é o Sen[F]hor que, por g[D]rande a[G]mor,",
           "A Pa[C]lavra em [G]nós cumpri[C]rá.[C]..."
         ]
       },
       {
         "type": "chorus",
-        "text": ["Haja p[C]az  [G]  desde_os c[C]éus;[G][C]......", "Haja p[F]az sobre_o [G]povo de D[C]eus.[C]..."]
+        "text": ["Haja p[C]az [G] desde os c[C]éus;[G][C]......", "Haja p[F]az sobre o [G]povo de D[C]eus.[C]..."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A[C]inda que_os [G]montes se movam do lu[C]gar",
-          "E_a [Am]terra não [D]mais produ[G]zir",
+          "A[C]inda que os [G]montes se movam do lu[C]gar",
+          "E a [Am]terra não [D]mais produ[G]zir",
           "E [C]tudo, no [F]mundo, pa[D]reça fa[G]lhar,",
           "Os fi[C]éis vão a [G]Cristo seg[C]uir.[C]..."
         ]
@@ -38,8 +42,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Re[C]al forta[G]leza que não se_abala[C]rá,",
-          "Je[Am]sus veio_em n[D]ós constru[G]ir;",
+          "Re[C]al forta[G]leza que não se abala[C]rá,",
+          "Je[Am]sus veio em n[D]ós constru[G]ir;",
           "Em D[C]eus, nossa c[F]rença fun[D]dada es[G]tá;",
           "Aguar[C]damos glo[G]rioso por[C]vir.[C]..."
         ]

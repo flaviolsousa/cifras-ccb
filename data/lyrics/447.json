@@ -1,24 +1,28 @@
 {
+  "code": "447",
   "version": "v3",
   "title": "Brilha mais e mais",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Es[E]tás na senda [A]divi[E]nal que te faz bri[B]lhar;", "O t[E]eu lugar ce[A]lesti[E]al, Deus i[B7]rá te [E]dar."]
+        "text": ["Es[D]tás na senda [G]divi[D]nal que te faz bri[A]lhar;", "O t[D]eu lugar ce[G]lesti[D]al, Deus i[A7]rá te [D]dar."]
       },
       {
         "type": "chorus",
-        "text": ["[E]Brilha mais e mais,", "Caminha com Je[B]sus;", "Te[E]rás em ti a S[A]ua l[E]uz,", "Bri[A]lhando [B7]sempre m[E]ais."]
+        "text": ["[D]Brilha mais e mais,", "Caminha com Je[A]sus;", "Te[D]rás em ti a S[G]ua l[D]uz,", "Bri[G]lhando [A7]sempre m[D]ais."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["É t[E]eu desejo [A]rece[E]ber dons do teu Sen[B]hor?", "Ver[E]ás que há no S[A]eu sa[E]ber santo [B7]resplen[E]dor."]
+        "text": ["É t[D]eu desejo [G]rece[D]ber dons do teu Sen[A]hor?", "Ver[D]ás que há no S[G]eu sa[D]ber santo [A7]resplen[D]dor."]
       },
       {
         "type": "ref",
@@ -27,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Re[E]pouso_eterno [A]há nos c[E]éus junto_ao bom Je[B]sus;", "Por f[E]im verás o g[A]rande D[E]eus onde_ha[B7]bita_a l[E]uz."]
+        "text": ["Re[D]pouso eterno [G]há nos c[D]éus junto ao bom Je[A]sus;", "Por f[D]im verás o g[G]rande D[D]eus onde ha[A7]bita a l[D]uz."]
       },
       {
         "type": "ref",

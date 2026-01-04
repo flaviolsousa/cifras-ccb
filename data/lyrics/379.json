@@ -1,38 +1,42 @@
 {
+  "code": "379",
   "version": "v3",
   "title": "Grande festa haverá nos céus",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Perto_es[A]tá [E]o porto da sal[A]vação,",
-          "Perto_es[D]tá o lar eter[A]nal;",
-          "Brevemen[E]te_os filhos de Deus [A]verão",
-          "A Si[D]ão ce[E]lesti[A]al."
+          "Perto es[G]tá [D]o porto da sal[G]vação,",
+          "Perto es[C]tá o lar eter[G]nal;",
+          "Brevemen[D]te os filhos de Deus [G]verão",
+          "A Si[C]ão ce[D]lesti[G]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Grande f[A]esta [D]haverá nos c[A]éus",
-          "Para_os [D]santos do Sen[E]hor;",
-          "Alel[A]uia! Glória, g[D]lória_ao nosso [D]Deus!",
-          "Quanto_é g[A]rande S[E]eu fa[A]vor!"
+          "Grande f[G]esta [C]haverá nos c[G]éus",
+          "Para os [C]santos do Sen[D]hor;",
+          "Alel[G]uia! Glória, g[C]lória ao nosso [C]Deus!",
+          "Quanto é g[G]rande S[D]eu fa[G]vor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sobre_as [A]á - g[E]uas Cristo Jesus [A]virá,",
-          "Quando_o [D]mar se embrave[A]cer;",
-          "O furor [E]do vento apla[A]cará",
-          "Pelo_i[D]menso [E]Seu po[A]der."
+          "Sobre as [G]á - g[D]uas Cristo Jesus [G]virá,",
+          "Quando o [C]mar se embrave[G]cer;",
+          "O furor [D]do vento apla[G]cará",
+          "Pelo i[C]menso [D]Seu po[G]der."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Cristo, [A]no S[E]eu reino, exal[A]tará",
-          "Quem vi[D]ver com fé e va[A]lor;",
-          "E com gló[E]ria_eterna coro[A]ará",
-          "O fi[D]el e [E]vence[A]dor."
+          "Cristo, [G]no S[D]eu reino, exal[G]tará",
+          "Quem vi[C]ver com fé e va[G]lor;",
+          "E com gló[D]ria eterna coro[G]ará",
+          "O fi[C]el e [D]vence[G]dor."
         ]
       },
       {

@@ -1,38 +1,42 @@
 {
+  "code": "421",
   "version": "v3",
   "title": "Recorda, por fé, minha alma",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "Em", "F#m", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Rec[E]orda, por [F#m]fé, minha[G#m] al - [E]ma,",
-          "A_an[B7]gústia do teu Redent[E]or;",
-          "Rec[E]orda que [F#m]muito te[G#m] a - [E]ma;",
-          "Por [B7]ti padeceu o Sen[E]hor."
+          "Rec[D]orda, por [Em]fé, minha[F#m] al - [D]ma,",
+          "A an[A7]gústia do teu Redent[D]or;",
+          "Rec[D]orda que [Em]muito te[F#m] a - [D]ma;",
+          "Por [A7]ti padeceu o Sen[D]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Lou[A]vemos a Deus, Pai e[E]terno,",
-          "Que [B7]Suas promessas nos d[E]eu;",
-          "Lou[A]vemos Jesus Sempi[E]terno,",
-          "O Se[B7]nhor do_universo_e do c[E]éu."
+          "Lou[G]vemos a Deus, Pai e[D]terno,",
+          "Que [A7]Suas promessas nos d[D]eu;",
+          "Lou[G]vemos Jesus Sempi[D]terno,",
+          "O Se[A7]nhor do universo e do c[D]éu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O[E]rando, e[F#m]levo ao[G#m] al - [E]to,",
-          "Ao t[B7]rono do bom Reden[E]tor,",
-          "O m[E]eu cora[F#m]ção que, mui [G#m]gra - [E]to,",
-          "Ju[B7]bila por Seu grande_a[E]mor."
+          "O[D]rando, e[Em]levo ao[F#m] al - [D]to,",
+          "Ao t[A7]rono do bom Reden[D]tor,",
+          "O m[D]eu cora[Em]ção que, mui [F#m]gra - [D]to,",
+          "Ju[A7]bila por Seu grande a[D]mor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Oh! G[E]lória a [F#m]Deus nas al[G#m]tu - r[E]as,",
-          "Pois [B7]nos enviou o Sen[E]hor,",
-          "A f[E]im de so[F#m]frer ama[G#m]rgu - r[E]as",
-          "E [B7]dar-nos Seu reino de_a[E]mor."
+          "Oh! G[D]lória a [Em]Deus nas al[F#m]tu - r[D]as,",
+          "Pois [A7]nos enviou o Sen[D]hor,",
+          "A f[D]im de so[Em]frer ama[F#m]rgu - r[D]as",
+          "E [A7]dar-nos Seu reino de a[D]mor."
         ]
       },
       {

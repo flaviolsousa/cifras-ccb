@@ -1,10 +1,14 @@
 {
+  "code": "324",
   "version": "v3",
   "title": "Do mal o Salvador veio me tirar",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,7 +17,7 @@
           "Do [C]mundo do pecado, veio me tirar",
           "Je[F]sus, o Pode[C]roso, que me fará en[G]trar",
           "Na [C]terra da promessa, pois herdeiro sou.",
-          "Oh! [F]Glória_a Jesus [C]Cristo, que [G]já me resga[C]tou!"
+          "Oh! [F]Glória a Jesus [C]Cristo, que [G]já me resga[C]tou!"
         ]
       },
       {

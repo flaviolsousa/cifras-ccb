@@ -1,39 +1,43 @@
 {
+  "code": "400",
   "version": "v3",
   "title": "Divina Fonte é Jesus",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Di[E]vina Fonte [A]é Je[E]sus, [A]de puri[E]fica[B7]ção,",
-          "Pois, [E]sobre_a cruz, por [A]nós ver[E]teu [A#°]o    [E]sangue [B7]da_asper[E]são;",
-          "E [A]nesse sangue [E]tem perdão quem [B7]n´Ele crer e [E]se_entregar",
-          "[E7]E,  [A]com sincero [E]coração, Seu [B7]santo Nome [E]confes[E]sar."
+          "Di[D]vina Fonte [G]é Je[D]sus, [G]de puri[D]fica[A7]ção,",
+          "Pois, [D]sobre a cruz, por [G]nós ver[D]teu [G#°]o [D]sangue [A7]da asper[D]são;",
+          "E [G]nesse sangue [D]tem perdão quem [A7]n´Ele crer e [D]se entregar",
+          "[D7]E, [G]com sincero [D]coração, Seu [A7]santo Nome [D]confes[D]sar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Cons[E]ciência_em paz, Je[A]sus nos [E]deu [A]perante_o [E]grande [B7]Deus;",
-          "Vir[E]tude_e graça [A]lá do [E]céu [A#°]têm  [E]os re[B7]midos [E]Seus;",
-          "De [A]gloriosa [E]salvação, her[B7]deiros somos [E]por Jesus;",
-          "[E7]Não [A]resta mais con[E]denação. Ben[B7]dito seja_o [E]Deus da L[E]uz!"
+          "Cons[D]ciência em paz, Je[G]sus nos [D]deu [G]perante o [D]grande [A7]Deus;",
+          "Vir[D]tude e graça [G]lá do [D]céu [G#°]têm [D]os re[A7]midos [D]Seus;",
+          "De [G]gloriosa [D]salvação, her[A7]deiros somos [D]por Jesus;",
+          "[D7]Não [G]resta mais con[D]denação. Ben[A7]dito seja o [D]Deus da L[D]uz!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "O [E]Salvador res[A]susci[E]tou [A]e para_o [E]Pai su[B7]biu;",
-          "Do [E]cativeiro [A]liber[E]tou [A#°]a -  [E]queles [B7]que re[E]miu;",
-          "Ao [A]céu subiu o [E]Remidor e_os [B7]salvos subi[E]rão também;",
-          "[E7]Com-[A]templarão o [E]Criador na [B7]celestial Je[E]rusa[E]lém."
+          "O [D]Salvador res[G]susci[D]tou [G]e para o [D]Pai su[A7]biu;",
+          "Do [D]cativeiro [G]liber[D]tou [G#°]a - [D]queles [A7]que re[D]miu;",
+          "Ao [G]céu subiu o [D]Remidor e os [A7]salvos subi[D]rão também;",
+          "[D7]Com-[G]templarão o [D]Criador na [A7]celestial Je[D]rusa[D]lém."
         ]
       }
     ]

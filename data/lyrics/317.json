@@ -1,27 +1,31 @@
 {
+  "code": "317",
   "version": "v3",
   "title": "Sinto o Senhor, por fé, em mim",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, e Sua [E]comun[A]hão;",
-          "Por [E]graça, paz, vir[A]tude_e_amor, ju[B]bila meu cora[E]ção.[E7]"
+          "[G]Sinto o Senhor, por [D]fé, em [G]mim, e Sua [D]comun[G]hão;",
+          "Por [D]graça, paz, vir[G]tude e amor, ju[A]bila meu cora[D]ção.[D7]"
         ]
       },
       {
         "type": "chorus",
-        "text": ["[A]Sempre unido_a meu Jesus,", "Forças terei, também valor;", "[F#m]Ele_é a [F]Luz [A]que_ao céu con[A]duz,", "Com [E]a - [A]mor."]
+        "text": ["[G]Sempre unido a meu Jesus,", "Forças terei, também valor;", "[Em]Ele é a [D#]Luz [G]que ao céu con[G]duz,", "Com [D]a - [G]mor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[A]Sinto_o Senhor, por [E]fé, em [A]mim, liberto_es[E]tou do [A]mal;", "Des[E]fruto já o [A]Seu amor e_a [B]vida celesti[E]al.[E7]"]
+        "text": ["[G]Sinto o Senhor, por [D]fé, em [G]mim, liberto es[D]tou do [G]mal;", "Des[D]fruto já o [G]Seu amor e a [A]vida celesti[D]al.[D7]"]
       },
       {
         "type": "ref",
@@ -31,8 +35,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Sinto_o Senhor, por [E]fé, em [A]mim, tranquilo [E]eu es[A]tou,",
-          "Sen[E]tindo_a paz, o [A]Seu perdão e_a [B]graça que me_ofer[E]tou[E7]"
+          "[G]Sinto o Senhor, por [D]fé, em [G]mim, tranquilo [D]eu es[G]tou,",
+          "Sen[D]tindo a paz, o [G]Seu perdão e a [A]graça que me ofer[D]tou[D7]"
         ]
       },
       {

@@ -1,50 +1,34 @@
 {
+  "code": "351",
   "version": "v3",
   "title": "Senhor, à Tua presença",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Sen[C]hor, à Tua pre[F]sença,",
-          "Em [G]paz vamos nos pros[C]trar,",
-          "E, pelo_Espírito Santo,",
-          "Teu [G7]Nome celeste_invo[C]car."
-        ]
+        "text": ["Sen[C]hor, à Tua pre[F]sença,", "Em [G]paz vamos nos pros[C]trar,", "E, pelo Espírito Santo,", "Teu [G7]Nome celeste invo[C]car."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Sen[C]hor, és Tu que con[F]heces",
-          "O [G]que sente_o cora[C]ção;",
-          "Humildes, Te suplicamos:",
-          "A[G7]tende a nossa_oraç[C]ão."
-        ]
+        "text": ["Sen[C]hor, és Tu que con[F]heces", "O [G]que sente o cora[C]ção;", "Humildes, Te suplicamos:", "A[G7]tende a nossa oraç[C]ão."]
       },
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Sen[C]hor, com fé nós ro[F]gamos:",
-          "Con[G]cede-nos mais te[C]mor",
-          "A fim de permanecermos",
-          "Em [G7]Tua justiça e_a[C]mor."
-        ]
+        "text": ["Sen[C]hor, com fé nós ro[F]gamos:", "Con[G]cede-nos mais te[C]mor", "A fim de permanecermos", "Em [G7]Tua justiça e a[C]mor."]
       },
       {
         "type": "lyric",
         "code": "4",
-        "text": [
-          "Do [C]trono da Tua g[F]raça,",
-          "En[G]via consolaç[C]ão;",
-          "As bênçãos nós esperamos;",
-          "Res[G7]ponde a nossa_oraç[C]ão."
-        ]
+        "text": ["Do [C]trono da Tua g[F]raça,", "En[G]via consolaç[C]ão;", "As bênçãos nós esperamos;", "Res[G7]ponde a nossa oraç[C]ão."]
       }
     ]
   }

@@ -1,10 +1,14 @@
 {
+  "code": "399",
   "version": "v3",
   "title": "\"Sou a Videira\"",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "C", "F", "Gm", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
@@ -13,7 +17,7 @@
           "\"[F]Sou a Videira”, [C]disse Je[F]sus,",
           "[Gm]Nosso amado, [C]bom Salvador;",
           "[F]A Sua seiva [C]em nós pro[F]duz",
-          "[Gm]Vida celeste, [C]vida de_a[F]mor."
+          "[Gm]Vida celeste, [C]vida de a[F]mor."
         ]
       },
       {
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "\"[F]Sou a Videira”, [C]disse Je[F]sus,",
-          "[Gm]N´Ela_enxertados [C]fomos por Deus;",
+          "[Gm]N´Ela enxertados [C]fomos por Deus;",
           "[F]Ele é Sábio, [C]bom Lavra[F]dor,",
           "[Gm]Pela Palavra [C]limpa os S[F]eus."
         ]

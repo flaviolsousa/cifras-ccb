@@ -1,16 +1,20 @@
 {
+  "code": "414",
   "version": "v3",
   "title": "Teu sangue imaculado",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Teu sangue_imacu[A]lado, bendito Reden[D]tor,",
+          "[D]Teu sangue imacu[A]lado, bendito Reden[D]tor,",
           "[Bm]Dá plena confi[Em]ança [E]de ir ao Cria[A]dor;",
           "[Bm]É um refúgio [Em]forte T[E]eu sangue, [A]ó Sen[D]hor."
         ]
@@ -20,8 +24,8 @@
         "code": "2",
         "text": [
           "[D]Nele eu fui la[A]vado e nada teme[D]rei,",
-          "[Bm]Sempre agrade[Em]cido, p[E]or ele,_a Deus ser[A]ei;",
-          "[Bm]No sangue do Con[Em]certo, [E]socorro_en[A]contra[D]rei."
+          "[Bm]Sempre agrade[Em]cido, p[E]or ele, a Deus ser[A]ei;",
+          "[Bm]No sangue do Con[Em]certo, [E]socorro en[A]contra[D]rei."
         ]
       },
       {
@@ -29,7 +33,7 @@
         "code": "3",
         "text": [
           "[D]Eu fui justifi[A]cado no sangue Teu, Sen[D]hor,",
-          "[Bm]Com ele vem co[Em]brir-me, p[E]or Teu imenso_a[A]mor;",
+          "[Bm]Com ele vem co[Em]brir-me, p[E]or Teu imenso a[A]mor;",
           "[Bm]Por ele, nesta [Em]vida [E]posso ser [A]vence[D]dor."
         ]
       },
@@ -37,7 +41,7 @@
         "type": "lyric",
         "code": "4",
         "text": [
-          "[D]Sob o precioso [A]sangue de Cristo,_o Remi[D]dor,",
+          "[D]Sob o precioso [A]sangue de Cristo, o Remi[D]dor,",
           "[Bm]Eu vivo prote[Em]gido [E]e não terei pa[A]vor;",
           "[Bm]Caminharei a[Em]vante, [E]firme no [A]Salva[D]dor."
         ]

@@ -1,10 +1,14 @@
 {
+  "code": "420",
   "version": "v3",
   "title": "Foi no Calvário...",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -32,7 +36,7 @@
           "Á [G]destra de Deus Pai está",
           "Jesus, fiel Interces[D]sor,",
           "Que [G]sempre nos defenderá,",
-          "Por S[D]eu glorioso_e santo_a[G]mor."
+          "Por S[D]eu glorioso e santo a[G]mor."
         ]
       },
       {
@@ -42,12 +46,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Lou[G]vor e honra_ao Criador,",
-          "Por ter mandado_o Salva[D]dor",
-          "Jus[G]tificar o pecador",
-          "E [D]dar-lhe_o reino de_esplen[G]dor."
-        ]
+        "text": ["Lou[G]vor e honra ao Criador,", "Por ter mandado o Salva[D]dor", "Jus[G]tificar o pecador", "E [D]dar-lhe o reino de esplen[G]dor."]
       },
       {
         "type": "ref",

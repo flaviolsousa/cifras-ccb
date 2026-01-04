@@ -1,37 +1,41 @@
 {
+  "code": "376",
   "version": "v3",
   "title": "Senhor, preciso mais...",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Senhor, preciso mais da Tua [B7]luz,",
-          "Luz preciosa que ao céu con[E]duz,",
-          "Que pode_as t[A]revas dissi[E]par",
-          "E_em [B7]retidão fazer an[E]dar.",
-          "Vencedor sobre_o mal, com Tua luz, se[B7]rei;",
-          "Nos caminhos da vida_eterna anda[E]rei;",
-          "A Luz, que_é C[A]risto,_o Reden[E]tor,",
-          "Me [B7]guiará a Ti, Sen[E]hor."
+          "[D]Senhor, preciso mais da Tua [A7]luz,",
+          "Luz preciosa que ao céu con[D]duz,",
+          "Que pode as t[G]revas dissi[D]par",
+          "E em [A7]retidão fazer an[D]dar.",
+          "Vencedor sobre o mal, com Tua luz, se[A7]rei;",
+          "Nos caminhos da vida eterna anda[D]rei;",
+          "A Luz, que é C[G]risto, o Reden[D]tor,",
+          "Me [A7]guiará a Ti, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Senhor, preciso mais da Tua [B7]paz,",
-          "Do Teu poder eterno e_efi[E]caz;",
-          "Fortale[A]cido_em Ti, meu D[E]eus,",
-          "Não [B7]falharão os passos m[E]eus.",
-          "Vencerei neste mundo, pois Jesus ven[B7]ceu,",
-          "Foi tentado em tudo, mas prevale[E]ceu;",
-          "A Tua p[A]az e Teu po[E]der",
-          "Por [B7]certo me farão ven[E]cer."
+          "[D]Senhor, preciso mais da Tua [A7]paz,",
+          "Do Teu poder eterno e efi[D]caz;",
+          "Fortale[G]cido em Ti, meu D[D]eus,",
+          "Não [A7]falharão os passos m[D]eus.",
+          "Vencerei neste mundo, pois Jesus ven[A7]ceu,",
+          "Foi tentado em tudo, mas prevale[D]ceu;",
+          "A Tua p[G]az e Teu po[D]der",
+          "Por [A7]certo me farão ven[D]cer."
         ]
       }
     ]

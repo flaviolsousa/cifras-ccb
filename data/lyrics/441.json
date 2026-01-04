@@ -1,10 +1,14 @@
 {
+  "code": "441",
   "version": "v3",
   "title": "Eu sou um cordeirinho",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

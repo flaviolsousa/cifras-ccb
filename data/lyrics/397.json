@@ -1,42 +1,46 @@
 {
+  "code": "397",
   "version": "v3",
   "title": "Paz, sublime paz",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "G#°", "A", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Paz, sublime [A#°]paz, sen[B]timos",
-          "Nós, [E7]povo do Senhor,",
-          "Re[A]midos por amor.",
-          "Por Jesus, a [A#°]Quem ser[Bm]vi - [Bm7(5-)]mos,",
-          "[A]Temos paz do [E7]Cria[A]dor."
+          "[G]Paz, sublime [G#°]paz, sen[A]timos",
+          "Nós, [D7]povo do Senhor,",
+          "Re[G]midos por amor.",
+          "Por Jesus, a [G#°]Quem ser[Am]vi - [Am7(5 -)]mos,",
+          "[G]Temos paz do [D7]Cria[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Filhos dessa [A#°]paz glo[B]riosa",
-          "Nos [E7]fez o Criador,",
-          "Por [A]Cristo,_o Redentor;",
-          "Para nós é [A#°]paz pre[Bm]cio - [Bm7(5-)]sa,",
-          "[A]Pois é bênção [E7]do Sen[A]hor."
+          "[G]Filhos dessa [G#°]paz glo[A]riosa",
+          "Nos [D7]fez o Criador,",
+          "Por [G]Cristo, o Redentor;",
+          "Para nós é [G#°]paz pre[Am]cio - [Am7(5 -)]sa,",
+          "[G]Pois é bênção [D7]do Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Para excelsa_en[A#°]contra[B]remos",
-          "No [E7]reino divinal,",
-          "Na g[A]lória eternal;",
-          "Face_a face [A#°]lá ve[Bm]re - [Bm7(5-)]mos",
-          "[A]Deus, o Pai ce[E7]lesti[A]al."
+          "[G]Para excelsa en[G#°]contra[A]remos",
+          "No [D7]reino divinal,",
+          "Na g[G]lória eternal;",
+          "Face a face [G#°]lá ve[Am]re - [Am7(5 -)]mos",
+          "[G]Deus, o Pai ce[D7]lesti[G]al."
         ]
       }
     ]

@@ -1,38 +1,42 @@
 {
+  "code": "405",
   "version": "v3",
   "title": "Só por Cristo temos salvação",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Só o [A]sangue de Jesus tem po[D]der de nos liv[A]rar",
-          "E de toda_a mancha nos lim[E]par;",
-          "Todo_o q[A]ue lavado for nesse [D]sangue_expiador,",
-          "O perd[A]ão terá do [E]Cria[A]dor."
+          "Só o [G]sangue de Jesus tem po[C]der de nos liv[G]rar",
+          "E de toda a mancha nos lim[D]par;",
+          "Todo o q[G]ue lavado for nesse [C]sangue expiador,",
+          "O perd[G]ão terá do [D]Cria[G]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Só por [A]Cristo [D]temos salvaç[A]ão,",
-          "Divi[E]nal redenç[A]ão;",
-          "Entraremos [D]na Sião ce[A]leste,",
-          "Reino_e[E]terno do bom D[A]eus."
+          "Só por [G]Cristo [C]temos salvaç[G]ão,",
+          "Divi[D]nal redenç[G]ão;",
+          "Entraremos [C]na Sião ce[G]leste,",
+          "Reino e[D]terno do bom D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Só o [A]sangue de Jesus tem po[D]der de nos sal[A]var",
-          "E da tentação nos liber[E]tar;",
-          "Esse [A]sangue tem valor, pois é_o [D]preço do amor",
-          "Com que n[A]os remiu o [E]Salva[A]dor."
+          "Só o [G]sangue de Jesus tem po[C]der de nos sal[G]var",
+          "E da tentação nos liber[D]tar;",
+          "Esse [G]sangue tem valor, pois é o [C]preço do amor",
+          "Com que n[G]os remiu o [D]Salva[G]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Só o [A]sangue de Jesus tem po[D]der de resga[A]tar",
-          "Toda_a alma que se quer sal[E]var;",
-          "Vitu[A]pério_e grande dor foram [D]preço do favor",
-          "Que_alcan[A]çamos do bom [E]Reden[A]tor."
+          "Só o [G]sangue de Jesus tem po[C]der de resga[G]tar",
+          "Toda a alma que se quer sal[D]var;",
+          "Vitu[G]pério e grande dor foram [C]preço do favor",
+          "Que alcan[G]çamos do bom [D]Reden[G]tor."
         ]
       },
       {

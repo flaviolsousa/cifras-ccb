@@ -1,38 +1,42 @@
 {
+  "code": "367",
   "version": "v3",
   "title": "Ao que vive para sempre...",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Ao que [D]vive para [G]sem[D]pre, seja g[G]lória [A]e lou[D]vor;",
-          "Ao Senhor, três vezes [G]San[D]to, Deus, de [G]tudo_o [A]Cria[D]dor;",
+          "Ao Senhor, três vezes [G]San[D]to, Deus, de [G]tudo o [A]Cria[D]dor;",
           "Nesta terra louvem-[G]No os [A]santos S[D]eus;",
-          "Nas altu[D]ras seja g[G]lória_ao g[A]rande D[D]eus.[D]..."
+          "Nas altu[D]ras seja g[G]lória ao g[A]rande D[D]eus.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ao man[D]dado do E[G]ter[D]no logo [G]tudo_a[A]parec[D]eu;",
-          "Ele fez o sol e_a [G]lu - [D]a, fez a [G]terra [A]e o c[D]éu;",
-          "Sua obra não se [G]pode_esq[A]uadrin[D]har,",
-          "Sua gló[D]ria não se [G]pode_i[A]magi[D]nar.[D]..."
+          "Ao man[D]dado do E[G]ter[D]no logo [G]tudo a[A]parec[D]eu;",
+          "Ele fez o sol e a [G]lu - [D]a, fez a [G]terra [A]e o c[D]éu;",
+          "Sua obra não se [G]pode esq[A]uadrin[D]har,",
+          "Sua gló[D]ria não se [G]pode i[A]magi[D]nar.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Salvaç[D]ão e vida_e[G]ter[D]na prepa[G]rou o [A]Cria[D]dor,",
-          "Enviando Jesus [G]Cris[D]to, nosso_a[G]mado [A]Reden[D]tor.",
-          "É perfeita toda_a [G]obra [A]do bom D[D]eus;",
+          "Salvaç[D]ão e vida e[G]ter[D]na prepa[G]rou o [A]Cria[D]dor,",
+          "Enviando Jesus [G]Cris[D]to, nosso a[G]mado [A]Reden[D]tor.",
+          "É perfeita toda a [G]obra [A]do bom D[D]eus;",
           "São perfei[D]tos todos [G]os ca[A]minhos S[D]eus.[D]..."
         ]
       },
@@ -41,9 +45,9 @@
         "code": "4",
         "text": [
           "Ao que [D]vive para [G]sem[D]pre, seja g[G]lória [A]e lou[D]vor;",
-          "Ao Senhor, três vezes [G]San[D]to, Deus, de [G]tudo_o [A]Cria[D]dor;",
+          "Ao Senhor, três vezes [G]San[D]to, Deus, de [G]tudo o [A]Cria[D]dor;",
           "Nesta terra louvem-[G]No os [A]santos S[D]eus;",
-          "Nas altu[D]ras seja g[G]lória_ao g[A]rande D[D]eus.[D]..."
+          "Nas altu[D]ras seja g[G]lória ao g[A]rande D[D]eus.[D]..."
         ]
       }
     ]

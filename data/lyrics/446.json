@@ -1,10 +1,14 @@
 {
+  "code": "446",
   "version": "v3",
   "title": "Vós, ó jovens do Senhor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +16,7 @@
         "text": [
           "Vós, ó [G]jovens do Senhor, dai-Lhe [C]honra e lou[G]vor,",
           "Esforçai-vos por servir ao Rei dos r[D]eis;[D7]...",
-          "Reves[G]ti-vos, pois, de fé e do [C]Seu imenso_a[G]mor;",
+          "Reves[G]ti-vos, pois, de fé e do [C]Seu imenso a[G]mor;",
           "O que d[C]´Ele preci[D]sardes vós ter[G]eis."
         ]
       },
@@ -24,7 +28,7 @@
           "Mora[A7]reis com Deus em S[D]eu lar;",
           "Dili[G]gentes sede vós, Ele não vos deixa s[D]ós,",
           "Mas convosco estará e as [G]forças vos dará,",
-          "Pois a [C]graça n[D]´Ele_es[G]tá."
+          "Pois a [C]graça n[D]´Ele es[G]tá."
         ]
       },
       {
@@ -33,7 +37,7 @@
         "text": [
           "Sois re[G]midos, ó irmãos, sois a[C]mados de Je[G]sus",
           "E sois fortes para suplantar o m[D]al;[D7]...",
-          "Pelo [G]bom Consolador vós te[C]reis virtude_e l[G]uz;",
+          "Pelo [G]bom Consolador vós te[C]reis virtude e l[G]uz;",
           "Sim, cres[C]cei na esta[D]tura divi[G]nal."
         ]
       },

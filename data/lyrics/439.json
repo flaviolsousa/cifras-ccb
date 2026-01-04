@@ -1,38 +1,42 @@
 {
+  "code": "439",
   "version": "v3",
   "title": "Somos jovens",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Somos [B]jovens, mas devemos sempre_andar",
-          "No te[F#]mor do Cria[B]dor;",
+          "Somos [A]jovens, mas devemos sempre andar",
+          "No te[E]mor do Cria[A]dor;",
           "O Modelo santo vamos imitar:",
-          "Jesus [C#7]Cristo,_o Salva[F#]dor."
+          "Jesus [B7]Cristo, o Salva[E]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Em a[F#]mor, com vi[B]gor,",
-          "Nós, [E]jovens, [B]vamos camin[F#]har!",
-          "Most[B]rando_a luz do [E]Salvador",
-          "[B]E hon[F#]rando_ao Cria[B]dor."
+          "Em a[E]mor, com vi[A]gor,",
+          "Nós, [D]jovens, [A]vamos camin[E]har!",
+          "Most[A]rando a luz do [D]Salvador",
+          "[A]E hon[E]rando ao Cria[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Cristo [B]é a Luz divina para nós,",
-          "Vemos [F#]n´Ele_a perfeiç[B]ão;",
-          "Ouviremos, sempre_atentos, Sua voz,",
-          "Que con[C#7]sola_o cora[F#]ção."
+          "Cristo [A]é a Luz divina para nós,",
+          "Vemos [E]n´Ele a perfeiç[A]ão;",
+          "Ouviremos, sempre atentos, Sua voz,",
+          "Que con[B7]sola o cora[E]ção."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Se seg[B]uirmos sempre firmes ao Senhor,",
-          "Com sin[F#]cero coraç[B]ão,",
-          "Ele nos dará, no reino de_esplendor,",
-          "O glo[C#7]rioso garlar[F#]dão."
+          "Se seg[A]uirmos sempre firmes ao Senhor,",
+          "Com sin[E]cero coraç[A]ão,",
+          "Ele nos dará, no reino de esplendor,",
+          "O glo[B7]rioso garlar[E]dão."
         ]
       },
       {

@@ -1,10 +1,14 @@
 {
+  "code": "394",
   "version": "v3",
   "title": "Nas moradas do Senhor",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "Bm", "F#7", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",

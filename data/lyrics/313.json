@@ -1,29 +1,33 @@
 {
+  "code": "313",
   "version": "v3",
   "title": "Arrebatado aos céus",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "Dm7", "G", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [C]rijo clamor da trom[G]beta_ouvi[C]rão",
+          "O [C]rijo clamor da trom[G]beta ouvi[C]rão",
           "Os filhos de Deus, que ao [Dm7]céu subi[G]rão;",
           "Vindo em nuvens, Je[F]sus surgi[C]rá",
           "E [F]visto por [G]todos os [C]homens será;",
           "Seus [D]anjos virão, deste [G]mundo, levar",
           "Os [D]que, com Cristo, i[G]rão reinar.",
-          "Que [D]dia de júbilo [G]e_esplendor!",
-          "Oh! [D]Glória_a Jesus, o Sen[G]hor![G]..."
+          "Que [D]dia de júbilo [G]e esplendor!",
+          "Oh! [D]Glória a Jesus, o Sen[G]hor![G]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Arrebato_aos céus, por Cristo,_eterno [G]Rei,",
+          "[C]Arrebato aos céus, por Cristo, eterno [G]Rei,",
           "Lá eu verei o grande Deus; oh! quão feliz se[C]rei!",
           "Cristo Jesus dará aos escolhidos [F]Seus[Dm7]...",
           "[G]A eternal mo[C]rada: [F]Jerusa[G]lém de D[C]eus.[C]..."
@@ -35,12 +39,12 @@
         "text": [
           "Aos [C]Seus resgatados di[G]rá o Sen[C]hor:",
           "“Oh! Vinde, benditos”, com [Dm7]grande a[G]mor,",
-          "Um reino_eterno o [F]Pai nos do[C]ou,",
-          "Que [F]desde_o prin[G]cípio_Ele [C]nos preparou.",
-          "A[D]inda um pouco_e Je[G]sus voltará;",
-          "A [D]Sua_igreja O_en[G]contrará.",
-          "Que [D]dia de júbilo [G]e_esplendor!",
-          "Oh! [D]Glória_a Jesus, o Sen[G]hor![G]..."
+          "Um reino eterno o [F]Pai nos do[C]ou,",
+          "Que [F]desde o prin[G]cípio Ele [C]nos preparou.",
+          "A[D]inda um pouco e Je[G]sus voltará;",
+          "A [D]Sua igreja O en[G]contrará.",
+          "Que [D]dia de júbilo [G]e esplendor!",
+          "Oh! [D]Glória a Jesus, o Sen[G]hor![G]..."
         ]
       },
       {

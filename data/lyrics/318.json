@@ -1,38 +1,42 @@
 {
+  "code": "318",
   "version": "v3",
   "title": "Ó Salvador, vem converter o pecador",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó bom Je[B]sus! Ó Salvador!",
-          "O peca[F#]dor pede compaix[B]ão,",
-          "Pois só em Ti ele_acha[E]rá",
-          "A salvaç[B]ão e [C#]o   [F#]perd[B]ão."
+          "Ó bom Je[A]sus! Ó Salvador!",
+          "O peca[E]dor pede compaix[A]ão,",
+          "Pois só em Ti ele acha[D]rá",
+          "A salvaç[A]ão e [B]o [E]perd[A]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Ó Salva[F#]dor, vem conver[B]ter",
-          "O peca[C#]dor, por compai[F#]xão;[F#7]...",
-          "Com Teu fa[B]lar, vem como[E]ver",
-          "E transfor[B]mar seu [C#]co – [F#]ra - ç[B]ão."
+          "Ó Salva[E]dor, vem conver[A]ter",
+          "O peca[B]dor, por compai[E]xão;[E7]...",
+          "Com Teu fa[A]lar, vem como[D]ver",
+          "E transfor[A]mar seu [B]co – [E]ra - ç[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Além de [B]Ti, ó Rei dos reis,",
-          "Não há nin[F#]guém para dar perd[B]ão;",
-          "Somente Tu, ó Salva[E]dor,",
-          "És o Au[B]tor da [C#]re – [F#]den - ç[B]ão."
+          "Além de [A]Ti, ó Rei dos reis,",
+          "Não há nin[E]guém para dar perd[A]ão;",
+          "Somente Tu, ó Salva[D]dor,",
+          "És o Au[A]tor da [B]re – [E]den - ç[A]ão."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "O peca[B]dor vive_a sofrer",
-          "Sem salva[F#]ção, sem o Teu fa[B]vor.",
-          "Mas, crendo_em Ti, alcança[E]rá",
-          "Divina [B]graça,_ó [C#]Re – [F#]den - t[B]or!"
+          "O peca[A]dor vive a sofrer",
+          "Sem salva[E]ção, sem o Teu fa[A]vor.",
+          "Mas, crendo em Ti, alcança[D]rá",
+          "Divina [A]graça, ó [B]Re – [E]den - t[A]or!"
         ]
       },
       {

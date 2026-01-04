@@ -1,16 +1,20 @@
 {
+  "code": "326",
   "version": "v3",
   "title": "Sempre a Cristo fiéis",
   "tone": {
-    "recommended": "E"
+    "original": "F",
+    "selected": "E"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["E", "B7", "E", "E7", "A", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sempre_a C[E]risto fiéis nós se[B7]remos,",
+          "Sempre a C[E]risto fiéis nós se[B7]remos,",
           "Sempre firmes devemos lu[E]tar;",
           "Pela graça que [E7]nós rece[A]bemos,",
           "Pode[B7]remos bons frutos Lhe [E]dar."
@@ -29,10 +33,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Vesti[E]remos, de Deus, a_arma[B7]dura",
-          "Para_o nosso_inimigo_enfren[E]tar;",
-          "A Palavra de [E7]Deus, santa_e [A]pura,",
-          "Nos [B7]fará a vitória_alcan[E]çar."
+          "Vesti[E]remos, de Deus, a arma[B7]dura",
+          "Para o nosso inimigo enfren[E]tar;",
+          "A Palavra de [E7]Deus, santa e [A]pura,",
+          "Nos [B7]fará a vitória alcan[E]çar."
         ]
       },
       {
@@ -46,7 +50,7 @@
           "Final[E]mente diremos, u[B7]nidos:",
           "\"Combatemos, guardamos a [E]fé\";",
           "Na presença de [E7]Deus, reu[A]nidos,",
-          "O ve[B7]remos tal como_Ele [E]é."
+          "O ve[B7]remos tal como Ele [E]é."
         ]
       },
       {

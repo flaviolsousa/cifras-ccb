@@ -1,38 +1,42 @@
 {
+  "code": "344",
   "version": "v3",
   "title": "Vou encontrar meu Deus",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Para_a cidade eterna eu vou,",
-          "[E]Pois bem fundado em [A]Cristo estou;",
-          "[D]Tenho_a certeza de [A]nela en[A7]trar",
-          "[D]E com Je[E]sus rei[A]nar."
+          "[G]Para a cidade eterna eu vou,",
+          "[D]Pois bem fundado em [G]Cristo estou;",
+          "[C]Tenho a certeza de [G]nela en[G7]trar",
+          "[C]E com Je[D]sus rei[G]nar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Vou encontrar meu Deus,",
-          "[E]Com os remidos no [B]reino de_a[E]mor;",
-          "[A]É meu desejo [D]ir para_os céus",
-          "[E]E_estar com o Sen[A]hor."
+          "[G]Vou encontrar meu Deus,",
+          "[D]Com os remidos no [A]reino de a[D]mor;",
+          "[G]É meu desejo [C]ir para os céus",
+          "[D]E estar com o Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Por este mundo não tenho_atração;",
-          "[E]Firme aguardo o [A]meu galardão;",
-          "[D]Para_alcançá-lo, Je[A]sus, meu Pas[A7]tor,",
-          "[D]Me guia [E]com a[A]mor."
+          "[G]Por este mundo não tenho atração;",
+          "[D]Firme aguardo o [G]meu galardão;",
+          "[C]Para alcançá-lo, Je[G]sus, meu Pas[G7]tor,",
+          "[C]Me guia [D]com a[G]mor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Incomparável tesouro achei",
-          "[E]Em Jesus Cristo, o [A]meu grande Rei;",
-          "[D]Breve nos céus eu i[A]rei desfru[A7]tar",
-          "[D]Glória que [E]não tem [A]par."
+          "[G]Incomparável tesouro achei",
+          "[D]Em Jesus Cristo, o [G]meu grande Rei;",
+          "[C]Breve nos céus eu i[G]rei desfru[G7]tar",
+          "[C]Glória que [D]não tem [G]par."
         ]
       },
       {

@@ -1,49 +1,53 @@
 {
+  "code": "395",
   "version": "v3",
   "title": "\"Eis-Me aqui\", dirá o Criador",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]“Eis-Me aqui”, [A]di-[E]rá o [B7]Cria[E]dor",
-          "Aos [C#m]Seus fi[G#m]éis que [B]rogam Seu [F#7]fa - [B]vor;",
-          "Deus manda[G]rá po[Bm]der ce[F#7]lesti[B]al",
-          "[E]Pa-[A]ra que_os [E]Seus [F°]tri-[F#m]un - [E]fem [B7]sobre_o [E]mal."
+          "[D]“Eis-Me aqui”, [G]di-[D]rá o [A7]Cria[D]dor",
+          "Aos [Bm]Seus fi[F#m]éis que [A]rogam Seu [E7]fa - [A]vor;",
+          "Deus manda[F]rá po[Am]der ce[E7]lesti[A]al",
+          "[D]Pa-[G]ra que os [D]Seus [D#°]tri-[Em]un - [D]fem [A7]sobre o [D]mal."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]A geração [A]dos [E]santos [B7]do Sen[E]hor",
-          "Tem [C#m]em seu [G#m]Deus, po[B]tente De[F#7]fen -[B]sor;",
-          "Só Ele_é [G]Deus, Au[Bm]tor da [F#7]cria-[B]ção;",
-          "[E]Tu-[A]do_Ele [E]fez [F°]com [F#m]luz  [E]e  [B7]perfeiç[E]ão."
+          "[D]A geração [G]dos [D]santos [A7]do Sen[D]hor",
+          "Tem [Bm]em seu [F#m]Deus, po[A]tente De[E7]fen -[A]sor;",
+          "Só Ele é [F]Deus, Au[Am]tor da [E7]cria-[A]ção;",
+          "[D]Tu-[G]do Ele [D]fez [D#°]com [Em]luz [D]e [A7]perfeiç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Vamos, irmãos, [A]a  [E]Deus nos [B7]ache[E]gar;",
-          "E [C#m]nossa [G#m]fé em [B]Deus depo[F#7]si - [B]tar;",
-          "Ele é [G]Pai de [Bm]grande [F#7]compai[B]xão;",
-          "[E]Te-[A]mos tam[E]bém [F°]de  [F#m]Cris-[E]to_a_in[B7]terces[E]são."
+          "[D]Vamos, irmãos, [G]a [D]Deus nos [A7]ache[D]gar;",
+          "E [Bm]nossa [F#m]fé em [A]Deus depo[E7]si - [A]tar;",
+          "Ele é [F]Pai de [Am]grande [E7]compai[A]xão;",
+          "[D]Te-[G]mos tam[D]bém [D#°]de [Em]Cris-[D]to a in[A7]terces[D]são."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "[E]Voz celestial [A]o  [E]justo [B7]senti[E]rá",
-          "Den[C#m]tro de [G#m]si e [B]rejubi[F#7]la - [B]rá;",
-          "“Eis-Me a[G]qui”, di[Bm]rá o [F#7]Cria-[B]dor",
-          "[E]Ao [A]Seu fi[E]el [F°]e   [F#m]san -[E]to [B7]servi[E]dor."
+          "[D]Voz celestial [G]o [D]justo [A7]senti[D]rá",
+          "Den[Bm]tro de [F#m]si e [A]rejubi[E7]la - [A]rá;",
+          "“Eis-Me a[F]qui”, di[Am]rá o [E7]Cria-[A]dor",
+          "[D]Ao [G]Seu fi[D]el [D#°]e [Em]san -[D]to [A7]servi[D]dor."
         ]
       }
     ]

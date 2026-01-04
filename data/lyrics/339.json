@@ -1,38 +1,42 @@
 {
+  "code": "339",
   "version": "v3",
   "title": "Glória sem par",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Quando aqui terminar meu labor,",
-          "[E]Quando a minha car[A]reira findar,",
-          "[B7]Quando voltar meu a[E]mado Senhor,",
-          "[B7]Glória sem par eu irei desfru[E]tar.[E7]..."
+          "[G]Quando aqui terminar meu labor,",
+          "[D]Quando a minha car[G]reira findar,",
+          "[A7]Quando voltar meu a[D]mado Senhor,",
+          "[A7]Glória sem par eu irei desfru[D]tar.[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Glória sem par contempla[E]rei,",
-          "Glória sem par recebe[A]rei;",
-          "Grande tesouro Je[D]sus vai me [C#]dar:",
-          "[D]Glória e[A]ter[A]na, a [E]glória sem [A]par.[A]..."
+          "[G]Glória sem par contempla[D]rei,",
+          "Glória sem par recebe[G]rei;",
+          "Grande tesouro Je[C]sus vai me [B]dar:",
+          "[C]Glória e[G]ter[G]na, a [D]glória sem [G]par.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Por Sua grande bondade,_o meu Deus",
-          "[E]Me fez herdeiro com C[A]risto Jesus;",
-          "[B7]Ele reserva, no [E]reino dos céus,",
-          "[B7]Glória sem par aos que andam na [E]luz.[E7]..."
+          "[G]Por Sua grande bondade, o meu Deus",
+          "[D]Me fez herdeiro com C[G]risto Jesus;",
+          "[A7]Ele reserva, no [D]reino dos céus,",
+          "[A7]Glória sem par aos que andam na [D]luz.[D7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]É momentânea a tribulação",
-          "[E]Dos que procuram a [A]Deus agradar,",
-          "[B7]Pois das tristezas não [E]se lembrarão",
-          "[B7]Quando_estiverem na glória sem [E]par.[E7]..."
+          "[G]É momentânea a tribulação",
+          "[D]Dos que procuram a [G]Deus agradar,",
+          "[A7]Pois das tristezas não [D]se lembrarão",
+          "[A7]Quando estiverem na glória sem [D]par.[D7]..."
         ]
       },
       {

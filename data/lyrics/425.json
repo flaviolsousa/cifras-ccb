@@ -1,38 +1,42 @@
 {
+  "code": "425",
   "version": "v3",
   "title": "Cristo Supremo",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "C[D]risto Supremo, do céu veio_ao mundo",
-          "[A]E trouxe graça, virtude e p[D]az;",
-          "Deu vida_aos mortos, curou os enfermos,",
-          "M[E]anifestando poder efic[A]az.[A7]"
+          "C[C]risto Supremo, do céu veio ao mundo",
+          "[G]E trouxe graça, virtude e p[C]az;",
+          "Deu vida aos mortos, curou os enfermos,",
+          "M[D]anifestando poder efic[G]az.[G7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Foi sempre_hu[A]milde e obe[D]diente         ",
-          "Até a [E]morte, Jesus, o Sen[A]hor;[A7]...",
-          "[D]Ressusci[A]tou por justiça di[D]vina",
-          "[E]E é, no céu, o fi[A7]el Media[D]dor."
+          "[C]Foi sempre hu[G]milde e obe[C]diente ",
+          "Até a [D]morte, Jesus, o Sen[G]hor;[G7]...",
+          "[C]Ressusci[G]tou por justiça di[C]vina",
+          "[D]E é, no céu, o fi[G7]el Media[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "E[D]ra_inocente, mas foi condenado",
-          "[A]Ao sacrifício da cruz e da d[D]or;",
-          "Não defendeu-Se, manteve-Se_humilde;",
-          "C[E]álice_amargo provou o Sen[A]hor.[A7]"
+          "E[C]ra inocente, mas foi condenado",
+          "[G]Ao sacrifício da cruz e da d[C]or;",
+          "Não defendeu-Se, manteve-Se humilde;",
+          "C[D]álice amargo provou o Sen[G]hor.[G7]"
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Já despontava o dia terceiro,",
-          "Q[A]uando o Mestre à vida volt[D]ou.",
+          "[C]Já despontava o dia terceiro,",
+          "Q[G]uando o Mestre à vida volt[C]ou.",
           "Apresentou-Se aos Seus seguidores,",
-          "D[E]eu-lhes a paz e os abenço[A]ou.[A7]"
+          "D[D]eu-lhes a paz e os abenço[G]ou.[G7]"
         ]
       },
       {
@@ -56,10 +60,10 @@
       {
         "type": "chorus",
         "text": [
-          "[D]Foi ele[A]vado o Rei e[D]terno",
-          "E assen[E]tou-Se à destra de D[A]eus;[A7]...",
-          "[D]Com grande g[A]lória será Seu re[D]torno",
-          "[E]Para levar os e[A7]leitos aos c[D]éus."
+          "[C]Foi ele[G]vado o Rei e[C]terno",
+          "E assen[D]tou-Se à destra de D[G]eus;[G7]...",
+          "[C]Com grande g[G]lória será Seu re[C]torno",
+          "[D]Para levar os e[G7]leitos aos c[C]éus."
         ]
       }
     ]

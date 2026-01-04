@@ -1,39 +1,43 @@
 {
+  "code": "338",
   "version": "v3",
   "title": "O Senhor é sempiterno",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E7", "A", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]O Senhor é sempi[F#7]terno, Ele nunca muda[B]rá;",
-          "Todas as fiéis pro[E]messas a Seu [F#7]tempo cumpri[B]rá;",
-          "[F#7]Por Seu sangue_imacu[B]lado, [C#7]trouxe regenera[F#]ção;[F#7]...",
-          "[B]Operou, em nossa [E]mente, celes[F#7]tial transforma[B]ção."
+          "[A]O Senhor é sempi[E7]terno, Ele nunca muda[A]rá;",
+          "Todas as fiéis pro[D]messas a Seu [E7]tempo cumpri[A]rá;",
+          "[E7]Por Seu sangue imacu[A]lado, [B7]trouxe regenera[E]ção;[E7]...",
+          "[A]Operou, em nossa [D]mente, celes[E7]tial transforma[A]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Somos reis e sacer[F#7]dotes feitos para_o Cria[B]dor,",
-          "E a Ele servi[E]remos em jus[F#7]tiça e a[B]mor,",
-          "[F#7]Para que entrar pos[B]samos [C#7]na presença do bom [F#]Deus[F#7]...",
-          "[B]E viver eterna[E]mente com os [F#7]santos lá nos c[B]éus."
+          "[A]Somos reis e sacer[E7]dotes feitos para o Cria[A]dor,",
+          "E a Ele servi[D]remos em jus[E7]tiça e a[A]mor,",
+          "[E7]Para que entrar pos[A]samos [B7]na presença do bom [E]Deus[E7]...",
+          "[A]E viver eterna[D]mente com os [E7]santos lá nos c[A]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Não percamos a he[F#7]rança que nos veio por Je[B]sus;",
-          "Breve vamos possu[E]í-la no e[F#7]terno lar de [B]luz.",
-          "[F#7]Prossigamos no ca[B]minho [C#7]da cidade do Se[F#]nhor[F#7],",
-          "[B]Onde juntos reina[E]remos com o [F#7]nosso Reden[B]tor."
+          "[A]Não percamos a he[E7]rança que nos veio por Je[A]sus;",
+          "Breve vamos possu[D]í-la no e[E7]terno lar de [A]luz.",
+          "[E7]Prossigamos no ca[A]minho [B7]da cidade do Se[E]nhor[E7],",
+          "[A]Onde juntos reina[D]remos com o [E7]nosso Reden[A]tor."
         ]
       }
     ]

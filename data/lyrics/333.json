@@ -1,42 +1,46 @@
 {
+  "code": "333",
   "version": "v3",
   "title": "Peregrino sou no mundo",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "F", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Pere[G]grino sou no [C]mundo, meu de[G]sejo_é ir ao [C]céu,",
-          "Deus, por [G]Seu amor pro[C]fundo, santa [G]pátria prome[C]teu;",
-          "Nas an[F]gústias desta [C]vida, só Je[F]sus me dá gua[C]rida;",
-          "Deste mundo nada_es[F]pero, o meu [C]lar está no céu;",
-          "Consagrar-me_a Deus eu q[F]uero, para [C]ser her[G]deiro [C]Seu.[C]..."
+          "Pere[C]grino sou no [F]mundo, meu de[C]sejo é ir ao [F]céu,",
+          "Deus, por [C]Seu amor pro[F]fundo, santa [C]pátria prome[F]teu;",
+          "Nas an[A#]gústias desta [F]vida, só Je[A#]sus me dá gua[F]rida;",
+          "Deste mundo nada es[A#]pero, o meu [F]lar está no céu;",
+          "Consagrar-me a Deus eu q[A#]uero, para [F]ser her[C]deiro [F]Seu.[F]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Nada_im[G]pede_o meu ca[C]minho para [G]habitar no [C]céu;",
-          "Jesus [G]Cristo,_o Rei di[C]vino, graça_e [G]paz me conce[C]deu;",
-          "Pela [F]fé o céu con[C]templo, entra[F]rei no santo [C]templo,",
-          "Onde Deus, o Pai bon[F]doso, Sua [C]face mostrará",
-          "Ao Seu povo vito[F]rioso que, com [C]Ele,_ha[G]bita[C]rá.[C]..."
+          "Nada im[C]pede o meu ca[F]minho para [C]habitar no [F]céu;",
+          "Jesus [C]Cristo, o Rei di[F]vino, graça e [C]paz me conce[F]deu;",
+          "Pela [A#]fé o céu con[F]templo, entra[A#]rei no santo [F]templo,",
+          "Onde Deus, o Pai bon[A#]doso, Sua [F]face mostrará",
+          "Ao Seu povo vito[A#]rioso que, com [F]Ele, ha[C]bita[F]rá.[F]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Não te_a[G]flijas, minha [C]alma, há re[G]pouso lá no [C]céu,",
-          "Onde_e[G]xiste paz e [C]calma que o [G]mundo não te [C]deu;",
-          "De vi[F]tória em vi[C]tória, vais com [F]Cristo_à Sua g[C]lória;",
-          "Segue_avante com o [F]Mestre, d´Ele [C]tens a proteção,",
-          "Pois de força te re[F]veste nesta [C]pere[G]grinaç[C]ão.[C]..."
+          "Não te a[C]flijas, minha [F]alma, há re[C]pouso lá no [F]céu,",
+          "Onde e[C]xiste paz e [F]calma que o [C]mundo não te [F]deu;",
+          "De vi[A#]tória em vi[F]tória, vais com [A#]Cristo à Sua g[F]lória;",
+          "Segue avante com o [A#]Mestre, d´Ele [F]tens a proteção,",
+          "Pois de força te re[A#]veste nesta [F]pere[C]grinaç[F]ão.[F]..."
         ]
       }
     ]

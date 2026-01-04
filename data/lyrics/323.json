@@ -1,39 +1,28 @@
 {
+  "code": "323",
   "version": "v3",
   "title": "Oh! Não busques, ansioso",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Oh! Não busques, ansioso,",
-          "[F#]Paz no mundo_engana[B]dor,",
-          "Pois é só Jesus, bondoso,",
-          "[F#]O veraz Consola[B]dor."
-        ]
+        "text": ["[A]Oh! Não busques, ansioso,", "[E]Paz no mundo engana[A]dor,", "Pois é só Jesus, bondoso,", "[E]O veraz Consola[A]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[F#]Ao Senhor Jesus en[B]trega",
-          "[E]Tua mente_e cora[F#7]ção,",
-          "[B]Pois o mundo só te leva",
-          "[E]À e[F#]terna perdiç[B]ão."
-        ]
+        "text": ["[E]Ao Senhor Jesus en[A]trega", "[D]Tua mente e cora[E7]ção,", "[A]Pois o mundo só te leva", "[D]À e[E]terna perdiç[A]ão."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[B]Ouve bem, Jesus te chama",
-          "[F#]Para te regene[B]rar;",
-          "Com celeste_amor te ama",
-          "[F#]E deseja te sal[B]var."
-        ]
+        "text": ["[A]Ouve bem, Jesus te chama", "[E]Para te regene[A]rar;", "Com celeste amor te ama", "[E]E deseja te sal[A]var."]
       },
       {
         "type": "ref",
@@ -42,12 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Pelo mundo tens andado",
-          "[F#]Longe do teu Reden[B]tor;",
-          "Não mais sirvas ao pecado,",
-          "[F#]Serve_a Cristo, teu Sen[B]hor."
-        ]
+        "text": ["[A]Pelo mundo tens andado", "[E]Longe do teu Reden[A]tor;", "Não mais sirvas ao pecado,", "[E]Serve a Cristo, teu Sen[A]hor."]
       },
       {
         "type": "ref",

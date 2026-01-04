@@ -1,42 +1,46 @@
 {
+  "code": "411",
   "version": "v3",
   "title": "O vitupério de Jesus",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Fe[E]rido foi o [B]Salvador, Jesus, o nosso R[E]ei,",
-          "Foi tido como [B]malfeitor e [B7]transgressor da l[E]ei;",
-          "Le[A]vado foi à [E]morte_atroz, de [F#7]nada recla[B]mou;",
-          "O [B7]santo_e justo [E]Remidor pa[B]gou perante D[E]eus",
-          "A [C#m]transgres[A]são de [E]todos nós, a[A]brindo-[B7]nos os c[E]éus.[E]..."
+          "Fe[D]rido foi o [A]Salvador, Jesus, o nosso R[D]ei,",
+          "Foi tido como [A]malfeitor e [A7]transgressor da l[D]ei;",
+          "Le[G]vado foi à [D]morte atroz, de [E7]nada recla[A]mou;",
+          "O [A7]santo e justo [D]Remidor pa[A]gou perante D[D]eus",
+          "A [Bm]transgres[G]são de [D]todos nós, a[G]brindo-[A7]nos os c[D]éus.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Cru[E]el martírio [B]suportou o_amado Reden[E]tor;",
-          "Na morte_a alma [B]derramou, o [B7]grande Benfei[E]tor,",
-          "E, [A]para_o nosso [E]Deus e Pai, com [F#7]sangue nos comp[B]rou;",
-          "Sal[B7]vou-se grande [E]multidão na [B]obra de Jes[E]us;",
-          "Ben[C#m]dito [A]seja_o [E]Rei da paz, que [A]é a [B7]nossa L[E]uz.[E]..."
+          "Cru[D]el martírio [A]suportou o amado Reden[D]tor;",
+          "Na morte a alma [A]derramou, o [A7]grande Benfei[D]tor,",
+          "E, [G]para o nosso [D]Deus e Pai, com [E7]sangue nos comp[A]rou;",
+          "Sal[A7]vou-se grande [D]multidão na [A]obra de Jes[D]us;",
+          "Ben[Bm]dito [G]seja o [D]Rei da paz, que [G]é a [A7]nossa L[D]uz.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Mor[E]reu o justo [B]pelos maus, por grande_amor de D[E]eus;",
-          "Saiu da morte [B]com poder, é [B7]Mediador nos c[E]éus;",
-          "O b[A]om prazer do [E]Criador em [F#7]Cristo prospe[B]rou;",
-          "“A[B7]mai-vos como_Eu [E]vos amei”, fa[B]lou o Reden[E]tor;",
-          "A[C#m]mou-nos D[A]eus, o [E]Pai dos céus, man[A]dando_o [B7]Salva[E]dor.[E]..."
+          "Mor[D]reu o justo [A]pelos maus, por grande amor de D[D]eus;",
+          "Saiu da morte [A]com poder, é [A7]Mediador nos c[D]éus;",
+          "O b[G]om prazer do [D]Criador em [E7]Cristo prospe[A]rou;",
+          "“A[A7]mai-vos como Eu [D]vos amei”, fa[A]lou o Reden[D]tor;",
+          "A[Bm]mou-nos D[G]eus, o [D]Pai dos céus, man[G]dando o [A7]Salva[D]dor.[D]..."
         ]
       }
     ]

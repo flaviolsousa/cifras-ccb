@@ -1,10 +1,14 @@
 {
+  "code": "312",
   "version": "v3",
   "title": "Tributos de louvor",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "Bm", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,28 +16,28 @@
         "text": [
           "Tri[D]butos de lou[Bm]vor da[G]rei ao grande D[A]eus,",
           "Ao [D]Deus que escre[E]veu me nome lá nos c[A]éus;",
-          "Que [G]gran[A]de_a[D]mor!",
-          "Ben[G]dito seja sempre_o Deus do [A]meu lou[D]vor![D]..."
+          "Que [G]gran[A]de a[D]mor!",
+          "Ben[G]dito seja sempre o Deus do [A]meu lou[D]vor![D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Pe[D]rante_o Cria[Bm]dor eu [G]me inclina[A]rei;",
+          "Pe[D]rante o Cria[Bm]dor eu [G]me inclina[A]rei;",
           "Pros[D]trado aos Seu [E]pés, Seu Nome bendi[A]rei;",
-          "Fi[G]el [A]é  [D]Deus!",
-          "Do [G]Seu lugar excelso ouve_os [A]santos S[D]eus.[D]..."
+          "Fi[G]el [A]é [D]Deus!",
+          "Do [G]Seu lugar excelso ouve os [A]santos S[D]eus.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "No [D]trono_eterno_es[Bm]tá o_O[G]nipotente D[A]eus,",
+          "No [D]trono eterno es[Bm]tá o O[G]nipotente D[A]eus,",
           "Cer[D]cado por e[E]xércitos de anjos S[A]eus;",
           "Que [G]es - [A]plen[D]dor!",
-          "E[G]terna glória_a Deus, o santo [A]Cria[D]dor![D]..."
+          "E[G]terna glória a Deus, o santo [A]Cria[D]dor![D]..."
         ]
       },
       {
@@ -41,7 +45,7 @@
         "code": "4",
         "text": [
           "Meu [D]Deus me conta[Bm]rá com [G]todos os fi[A]éis;",
-          "He[D]rança me da[E]rá com Cristo,_o Rei dos r[A]eis;",
+          "He[D]rança me da[E]rá com Cristo, o Rei dos r[A]eis;",
           "E[G]le – [A]va - [D]rei",
           "O [G]meu louvor a Deus e a Je[A]sus, meu [D]Rei.[D]..."
         ]

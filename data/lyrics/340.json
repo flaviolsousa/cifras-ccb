@@ -1,38 +1,37 @@
 {
+  "code": "340",
   "version": "v3",
   "title": "No mundo sou peregrino",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[D]No mundo sou peregrino,",
-          "É Cristo meu Condu[A]tor;",
-          "Ele_é_o Caminho que [D]leva ao céu,",
-          "Tam[G]bém é meu [A]Salva[D]dor."
-        ]
+        "text": ["[C]No mundo sou peregrino,", "É Cristo meu Condu[G]tor;", "Ele é o Caminho que [C]leva ao céu,", "Tam[F]bém é meu [G]Salva[C]dor."]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Eu subirei com [D°]Cris[D]to à celestial Si[A]ão,",
-          "É Ele Quem me guia [A7]na peregrinaç[D]ão;",
-          "Quando_eu entrar na g[D°]ló - [D]ria do meu amado [G]Rei,",
-          "Ao contemplar Sua [D]face, [G]regozi[A]jar-me-[D]ei."
+          "[C]Eu subirei com [C°]Cris[C]to à celestial Si[G]ão,",
+          "É Ele Quem me guia [G7]na peregrinaç[C]ão;",
+          "Quando eu entrar na g[C°]ló - [C]ria do meu amado [F]Rei,",
+          "Ao contemplar Sua [C]face, [F]regozi[G]jar-me-[C]ei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]No mundo sou peregrino,",
-          "Quem pode_aqui me_aju[A]dar?",
-          "Só Cristo,_a Porta do [D]reino dos céus,",
-          "Por [G]Quem pode[A]rei en[D]trar."
+          "[C]No mundo sou peregrino,",
+          "Quem pode aqui me aju[G]dar?",
+          "Só Cristo, a Porta do [C]reino dos céus,",
+          "Por [F]Quem pode[G]rei en[C]trar."
         ]
       },
       {
@@ -42,12 +41,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[D]No mundo sou peregrino,",
-          "Ando aqui com Je[A]sus;",
-          "Busco_as moradas do [D]Pai celestial,",
-          "O [G]lar de jus[A]tiça_e l[D]uz."
-        ]
+        "text": ["[C]No mundo sou peregrino,", "Ando aqui com Je[G]sus;", "Busco as moradas do [C]Pai celestial,", "O [F]lar de jus[G]tiça e l[C]uz."]
       },
       {
         "type": "ref",

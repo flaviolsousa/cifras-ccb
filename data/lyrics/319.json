@@ -1,10 +1,14 @@
 {
+  "code": "319",
   "version": "v3",
   "title": "Foi Jesus Quem me salvou",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",

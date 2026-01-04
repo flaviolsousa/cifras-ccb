@@ -1,38 +1,42 @@
 {
+  "code": "311",
   "version": "v3",
   "title": "Teus tesouros revelaste",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó Sen[A]hor, vivente Deus, a Ti da[D]remos, sem ces[A]sar,",
-          "Toda honra e louvor, com devo[E]ção;",
-          "Pois qui[A]seste, aos pequenos, Teus te[D]souros reve[A]lar,",
-          "Pelo Teu amor e_i[E]mensa compai[A]xão."
+          "Ó Sen[G]hor, vivente Deus, a Ti da[C]remos, sem ces[G]sar,",
+          "Toda honra e louvor, com devo[D]ção;",
+          "Pois qui[G]seste, aos pequenos, Teus te[C]souros reve[G]lar,",
+          "Pelo Teu amor e i[D]mensa compai[G]xão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Teus te[A]souros revelaste",
-          "Aos hu[E]mildes que chamaste;",
-          "Para [A]eles decre[D]taste",
-          "Vida_e[A]terna com Je[E]sus, o Salva[A]dor."
+          "Teus te[G]souros revelaste",
+          "Aos hu[D]mildes que chamaste;",
+          "Para [G]eles decre[C]taste",
+          "Vida e[G]terna com Je[D]sus, o Salva[G]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Teus te[A]souros ocultaste para_os [D]sábios, ó Sen[A]hor,",
-          "Mas Te_aprouve revela-los para [E]nós",
-          "E a [A]todo que,_igualmente, se a[D]chega_ao Reden[A]tor,",
-          "Atendendo_humilde[E]mente_à Sua [A]voz."
+          "Teus te[G]souros ocultaste para os [C]sábios, ó Sen[G]hor,",
+          "Mas Te aprouve revela-los para [D]nós",
+          "E a [G]todo que, igualmente, se a[C]chega ao Reden[G]tor,",
+          "Atendendo humilde[D]mente à Sua [G]voz."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Anun[A]ciamos neste mundo que Je[D]sus é_o Salva[A]dor,",
-          "Que, com graça,_O enviaste, ó bom [E]Deus;",
-          "Mesmo [A]que aqui sejamos opri[D]midos, ó Sen[A]hor,",
-          "Nós teremos grande [E]prêmio lá nos c[A]éus."
+          "Anun[G]ciamos neste mundo que Je[C]sus é o Salva[G]dor,",
+          "Que, com graça, O enviaste, ó bom [D]Deus;",
+          "Mesmo [G]que aqui sejamos opri[C]midos, ó Sen[G]hor,",
+          "Nós teremos grande [D]prêmio lá nos c[G]éus."
         ]
       },
       {

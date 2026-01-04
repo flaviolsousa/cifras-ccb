@@ -1,36 +1,40 @@
 {
+  "code": "355",
   "version": "v3",
   "title": "A Ti, Deus, eu consagrei-me",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A7", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]A Ti, Deus, eu [B7]consagrei-[E]me [B7]para sempre Te ser[E]vir;",
-          "De Teus dons vem [A]reves[E]tir-me, [B7]e de_amor também cin[E]gir.",
-          "Vem manter-me [A]sempre [E]fir[E7]me, [A]bem dis[B7]posto_a Te ou[E]vir."
+          "[D]A Ti, Deus, eu [A7]consagrei-[D]me [A7]para sempre Te ser[D]vir;",
+          "De Teus dons vem [G]reves[D]tir-me, [A7]e de amor também cin[D]gir.",
+          "Vem manter-me [G]sempre [D]fir[D7]me, [G]bem dis[A7]posto a Te ou[D]vir."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B7]Ao bom Pai, o Deus e[E]terno,",
-          "[B7]Consagrei meu cora[E]ção;",
-          "Com sublime_a[E7]mor su[A]perno",
-          "Me [B7]prometeu o galard[E]ão."
+          "[A7]Ao bom Pai, o Deus e[D]terno,",
+          "[A7]Consagrei meu cora[D]ção;",
+          "Com sublime a[D7]mor su[G]perno",
+          "Me [A7]prometeu o galard[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Nesta graça [B7]precio[E]sa [B7]sou ditoso em vi[E]ver;",
-          "Que herança [A]glori[E]osa [B7]do Senhor vou rece[E]ber!",
-          "Esta fé ma[A]ravi[E]lho[E7]sa  [A]quero [B7]sempre_em mim re[E]ter."
+          "[D]Nesta graça [A7]precio[D]sa [A7]sou ditoso em vi[D]ver;",
+          "Que herança [G]glori[D]osa [A7]do Senhor vou rece[D]ber!",
+          "Esta fé ma[G]ravi[D]lho[D7]sa [G]quero [A7]sempre em mim re[D]ter."
         ]
       },
       {
@@ -41,9 +45,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Um futuro [B7]mui glorio[E]so [B7]eu achei em Ti, Sen[E]hor;",
-          "Ó bom Deus, fi[A]el, pie[E]doso, [B7]revestiste-me de_a[E]mor.",
-          "Eu aguardo, [A]ansi[E]o - [E7]so, [A]ver Teu [B7]rosto,_ó Cria[E]dor."
+          "[D]Um futuro [A7]mui glorio[D]so [A7]eu achei em Ti, Sen[D]hor;",
+          "Ó bom Deus, fi[G]el, pie[D]doso, [A7]revestiste-me de a[D]mor.",
+          "Eu aguardo, [G]ansi[D]o - [D7]so, [G]ver Teu [A7]rosto, ó Cria[D]dor."
         ]
       },
       {

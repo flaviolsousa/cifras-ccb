@@ -1,10 +1,14 @@
 {
+  "code": "364",
   "version": "v3",
   "title": "Os tempos já chegados são...",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "Dm", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,16 +16,16 @@
         "text": [
           "Os [C]tempos já chegados são,",
           "Os [F]dias [Dm]Deus abrevi[G]ou;",
-          "Bem [C]perto_está_a consumação",
+          "Bem [C]perto está a consumação",
           "Das pro[F]messas que [G]Deus anunci[C]ou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "O [C]nos[E7]so  [Am]Rei não [D]tarda[G]rá!",
-          "Vi[Am]rá  [G]do [C]céu com [D]resplen[G]dor;",
-          "O [C]po-[E7]vo  [Am]santo,_ao [D]vê-Lo, Lhe di[G]rá:",
+          "O [C]nos[E7]so [Am]Rei não [D]tarda[G]rá!",
+          "Vi[Am]rá [G]do [C]céu com [D]resplen[G]dor;",
+          "O [C]po-[E7]vo [Am]santo, ao [D]vê-Lo, Lhe di[G]rá:",
           "Sim, [Am]vem, a[Dm]ma - [G]do Sen[C]hor!"
         ]
       },
@@ -31,8 +35,8 @@
         "text": [
           "Os [C]que servirem ao Senhor,",
           "Com [F]glória [Dm]aparece[G]rão;",
-          "No [C]reino_eterno de amor,",
-          "Como_o [F]Sol eles [G]resplandece[C]rão."
+          "No [C]reino eterno de amor,",
+          "Como o [F]Sol eles [G]resplandece[C]rão."
         ]
       },
       {
@@ -43,8 +47,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Quem [C]tem ouvidos para_ouvir,",
-          "A[F]tenda_o_Es[Dm]pírito de [G]Deus,",
+          "Quem [C]tem ouvidos para ouvir,",
+          "A[F]tenda o Es[Dm]pírito de [G]Deus,",
           "Que [C]fala do feliz porvir",
           "Prepa[F]rado aos [G]santos lá nos c[C]éus."
         ]

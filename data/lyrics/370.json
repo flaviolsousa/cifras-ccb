@@ -1,38 +1,42 @@
 {
+  "code": "370",
   "version": "v3",
   "title": "Têm os santos do Senhor",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Nós a[E]qui estamos para,_a Cristo, [A]exal[E]tar,",
-          "Por Sua obra reden[B]tora;",
-          "O Seu [E]Nome não cessemos de glo[A]rifi[E]car;",
-          "Sua igreja O a[B7]do - [E]ra."
+          "Nós a[D]qui estamos para, a Cristo, [G]exal[D]tar,",
+          "Por Sua obra reden[A]tora;",
+          "O Seu [D]Nome não cessemos de glo[G]rifi[D]car;",
+          "Sua igreja O a[A7]do - [D]ra."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Têm os [E]santos do Senhor, aleg[A]ria de lou[E]var",
-          "A Jesus, que, por amor, veio_à terra a sal[B]var;",
-          "Nossas [E]almas resgatou, com Seu [A]sangue nos la[E]vou;",
-          "Glória_a Jesus, ale[B7]lu - [E]ia!"
+          "Têm os [D]santos do Senhor, aleg[G]ria de lou[D]var",
+          "A Jesus, que, por amor, veio à terra a sal[A]var;",
+          "Nossas [D]almas resgatou, com Seu [G]sangue nos la[D]vou;",
+          "Glória a Jesus, ale[A7]lu - [D]ia!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A pro[E]messa cumprirá o_eterno [A]Rei dos [E]reis",
-          "De nos fazer herdar a g[B]lória;",
-          "O Pen[E]hor da_herança deu a todos [A]os fi[E]éis;",
-          "De Cristo,_honramos a me[B7]mó - [E]ria."
+          "A pro[D]messa cumprirá o eterno [G]Rei dos [D]reis",
+          "De nos fazer herdar a g[A]lória;",
+          "O Pen[D]hor da herança deu a todos [G]os fi[D]éis;",
+          "De Cristo, honramos a me[A7]mó - [D]ria."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "A_espe[E]rança já nos deu da redenç[A]ão fi[E]nal,",
-          "Que firmemente aguar[B]damos;",
-          "Essa [E]bem-aventurança_eterna [A]é re[E]al;",
-          "Ao Redentor nós exal[B7]ta - [E]mos."
+          "A espe[D]rança já nos deu da redenç[G]ão fi[D]nal,",
+          "Que firmemente aguar[A]damos;",
+          "Essa [D]bem-aventurança eterna [G]é re[D]al;",
+          "Ao Redentor nós exal[A7]ta - [D]mos."
         ]
       },
       {

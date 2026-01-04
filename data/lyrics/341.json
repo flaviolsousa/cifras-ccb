@@ -1,18 +1,22 @@
 {
+  "code": "341",
   "version": "v3",
   "title": "Com fé espera no Senhor",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Com [D]fé espera [G]no Senhor em [D]tuas provas, tam[A]bém na dor;",
-          "Pa[D]ciência_e paz al[G]cançarás do [D]teu amado_e fi[A]el Sen[D]hor.",
-          "Jesus virá te socorrer; é grande,_eterno, Seu po[A]der.",
+          "Pa[D]ciência e paz al[G]cançarás do [D]teu amado e fi[A]el Sen[D]hor.",
+          "Jesus virá te socorrer; é grande, eterno, Seu po[A]der.",
           "Com [D]fé espera [G]no Sen[G]hor; so[D]mente Ele te [A]faz ven[D]cer.[D]..."
         ]
       },
@@ -31,9 +35,9 @@
         "code": "3",
         "text": [
           "O q[D]ue recebes [G]do Senhor, com [D]zelo deves em [A]ti guardar;",
-          "À [D]tua mão di[G]reita_está o [D]teu Pastor para [A]te gui[D]ar;",
+          "À [D]tua mão di[G]reita está o [D]teu Pastor para [A]te gui[D]ar;",
           "Depois ao céu te levará, em glória te recebe[A]rá.",
-          "Com [D]fé espera [G]no Sen[G]hor; o [D]teu desejo_ele [A]cumpri[D]rá.[D]..."
+          "Com [D]fé espera [G]no Sen[G]hor; o [D]teu desejo ele [A]cumpri[D]rá.[D]..."
         ]
       }
     ]

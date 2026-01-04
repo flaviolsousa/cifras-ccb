@@ -1,37 +1,41 @@
 {
+  "code": "357",
   "version": "v3",
   "title": "Face a face O verei",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["F", "C7", "F", "Bb", "G", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Aguardo_a [F]vinda [C7]do Sen[F]hor",
+          "Aguardo a [F]vinda [C7]do Sen[F]hor",
           "Que reve[Bb]lou-Se [G]em meu [C]ser;",
-          "A[F]guardo Cristo,_o [C7]Reden[F]tor,",
-          "Pois vai em [Bb]breve_a[C7]pare[F]cer."
+          "A[F]guardo Cristo, o [C7]Reden[F]tor,",
+          "Pois vai em [Bb]breve a[C7]pare[F]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "E face_a [F]face O ve[C7]rei;",
+          "E face a [F]face O ve[C7]rei;",
           "Contemplarei Jesus, meu [F]Rei,",
           "Que para Deus me leva[C7]rá;",
-          "A_herança_e[Bb]terna [C7]me da[F]rá.[F]..."
+          "A herança e[Bb]terna [C7]me da[F]rá.[F]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jesus, o_a[F]mado [C7]Reden[F]tor,",
-          "Com voz de_Ar[Bb]canjo_i[G]rá sur[C]gir;",
-          "Co[F]mo_escolhido [C7]do Sen[F]hor,",
+          "Jesus, o a[F]mado [C7]Reden[F]tor,",
+          "Com voz de Ar[Bb]canjo i[G]rá sur[C]gir;",
+          "Co[F]mo escolhido [C7]do Sen[F]hor,",
           "Irei os [Bb]bens de [C7]Deus fru[F]ir."
         ]
       },
@@ -44,9 +48,9 @@
         "code": "3",
         "text": [
           "O céu a[F]berto [C7]eu ve[F]rei,",
-          "Nele_entra[Bb]rei com [G]meu Je[C]sus.",
-          "A[F]té que venha,_es[C7]pera[F]rei",
-          "Sem que se_a[Bb]pague_a [C7]minha l[F]uz."
+          "Nele entra[Bb]rei com [G]meu Je[C]sus.",
+          "A[F]té que venha, es[C7]pera[F]rei",
+          "Sem que se a[Bb]pague a [C7]minha l[F]uz."
         ]
       },
       {

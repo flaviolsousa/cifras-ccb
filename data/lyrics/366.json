@@ -1,16 +1,20 @@
 {
+  "code": "366",
   "version": "v3",
   "title": "Pela fé tereis vitória",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "Gm", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]O Santo_Evan[Gm]gelho diz: Marchai,",
+          "[F]O Santo Evan[Gm]gelho diz: Marchai,",
           "[C]Tende fé em Deus; [F]n´Ele confiai;",
           "Todas as ba[Gm]talhas enfrentai,",
           "[C]Pela fé tereis vi[C7]tó - r[F]ia."
@@ -43,8 +47,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]O mal não re[Gm]siste_ao Seu poder,",
-          "[C]Com a_unção de Deus, [F]ide combater;",
+          "[F]O mal não re[Gm]siste ao Seu poder,",
+          "[C]Com a unção de Deus, [F]ide combater;",
           "Deus coroa[Gm]rá ao que vencer,",
           "[C]Pela fé tereis vi[C7]tó - r[F]ia."
         ]

@@ -1,48 +1,52 @@
 {
+  "code": "316",
   "version": "v3",
   "title": "Tua vida é triste?",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "A°", "A", "E7", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Tua [B°]vida_é [B]triste? Tens profunda [F#7]dor?",
-          "[F#]Queres um auxílio, um liberta[B]dor?",
-          "Acei[B°]tando_a [B]Cristo, paz recebe[E]rás,",
-          "Força [F°]e_ale[B]gria [F#]d´Ele_alcança[B]rás.[B]..."
+          "[A]Tua [A°]vida é [A]triste? Tens profunda [E7]dor?",
+          "[E]Queres um auxílio, um liberta[A]dor?",
+          "Acei[A°]tando a [A]Cristo, paz recebe[D]rás,",
+          "Força [D#°]e ale[A]gria [E]d´Ele alcança[A]rás.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Fardo [B°]de pe[B]cado carregando_es[F#7]tás?",
-          "[F#]Jugo de justiça de Jesus te[B]rás;",
-          "Ouve [B°]a men[B]sagem de amor sem [E]par",
-          "Para [F°]que, com [B]Cristo, [F#]possas camin[B]har.[B]..."
+          "[A]Fardo [A°]de pe[A]cado carregando es[E7]tás?",
+          "[E]Jugo de justiça de Jesus te[A]rás;",
+          "Ouve [A°]a men[A]sagem de amor sem [D]par",
+          "Para [D#°]que, com [A]Cristo, [E]possas camin[A]har.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Por ca[B°]minho [B]largo andas sem ter [F#7]paz?",
-          "[F#]Cristo é a Senda que feliz te [B]faz;",
-          "Confi[B°]ando [B]n´Ele, tu encontra[E]rás",
-          "Salva[F°]ção e[B]terna, [F#]salvação ve[B]raz."
+          "[A]Por ca[A°]minho [A]largo andas sem ter [E7]paz?",
+          "[E]Cristo é a Senda que feliz te [A]faz;",
+          "Confi[A°]ando [A]n´Ele, tu encontra[D]rás",
+          "Salva[D#°]ção e[A]terna, [E]salvação ve[A]raz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Olha para_o [F#7]alto, de_onde vem a [B]luz,",
-          "[E]E verás, en[B]tão, a glória [C#7]de Je[F#7]sus;",
-          "[B]Que su[B°]blime [B]obra consumou na [E]cruz;",
-          "Ao ce[F°]leste [B]reino [F#7]Ele te con[B]duz."
+          "[A]Olha para o [E7]alto, de onde vem a [A]luz,",
+          "[D]E verás, en[A]tão, a glória [B7]de Je[E7]sus;",
+          "[A]Que su[A°]blime [A]obra consumou na [D]cruz;",
+          "Ao ce[D#°]leste [A]reino [E7]Ele te con[A]duz."
         ]
       }
     ]

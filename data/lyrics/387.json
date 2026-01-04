@@ -1,49 +1,53 @@
 {
+  "code": "387",
   "version": "v3",
   "title": "Ó Salvador, que recebeste poder",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Ó  [G]Sal[A7]va -[D]dor, [G]que [B]de [Em]Deus [A]rece[D]beste",
-          "[Bm]To -[A]do_o [E7]po -[A]der [E7]so -[F#7]bre_a [Bm]ter-[E7]ra e_os [A]céus,[A7]...",
-          "[D]Vem [A7]au -[D]men[G]tar a [B]vir[Em]tu -[A]de ce[G]les[D]te",
-          "[Bm]Nes-[A]te [G]meu [D]ser, [G]pa-[B]ra [Em]gló-[A7]ria de [D]Deus."
+          "[C]Ó [F]Sal[G7]va -[C]dor, [F]que [A]de [Dm]Deus [G]rece[C]beste",
+          "[Am]To -[G]do o [D7]po -[G]der [D7]so -[E7]bre a [Am]ter-[D7]ra e os [G]céus,[G7]...",
+          "[C]Vem [G7]au -[C]men[F]tar a [A]vir[Dm]tu -[G]de ce[F]les[C]te",
+          "[Am]Nes-[G]te [F]meu [C]ser, [F]pa-[A]ra [Dm]gló-[G7]ria de [C]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Ó  [G]Re-[A7]den-[D]tor, [G]que [B]a -[Em]bris[A]te a [D]porta",
-          "[Bm]Do  [A]san[E7]tu -[A]á -[E7]rio [F#7]e  - [Bm]ter-[E7]no de [A]Deus,[A7]...",
-          "[D]Dá [A7]ao  [D]Teu [G]servo [B]a  [Em]paz [A]que con[G]for[D]ta,",
-          "[Bm]Que [A]pro[G]me-[D]tes[G]te [B]a  [Em]to -[A7]dos os [D]Teus."
+          "[C]Ó [F]Re-[G7]den-[C]tor, [F]que [A]a -[Dm]bris[G]te a [C]porta",
+          "[Am]Do [G]san[D7]tu -[G]á -[D7]rio [E7]e - [Am]ter-[D7]no de [G]Deus,[G7]...",
+          "[C]Dá [G7]ao [C]Teu [F]servo [A]a [Dm]paz [G]que con[F]for[C]ta,",
+          "[Am]Que [G]pro[F]me-[C]tes[F]te [A]a [Dm]to -[G7]dos os [C]Teus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Fi-[G]lho [A7]de  [D]Deus, [G]Tu [B]ven[Em]ces-[A]te a [D]morte",
-          "[Bm]E   [A]vi-[E7]vo_es[A]tás [E7]pa -[F#7]ra   [Bm]sem-[E7]pre, Se[A]nhor;[A7]...",
-          "[D]De [A7]Ti  [D]es-[G]pero [B]tam[Em]bém [A]esta [G]sor[D]te:",
-          "[Bm]Res-[A]sus[G]ci-[D]tar [G]pa-[B]ra_o [Em]rei-[A7]no de_a[D]mor."
+          "[C]Fi-[F]lho [G7]de [C]Deus, [F]Tu [A]ven[Dm]ces-[G]te a [C]morte",
+          "[Am]E [G]vi-[D7]vo es[G]tás [D7]pa -[E7]ra [Am]sem-[D7]pre, Se[G]nhor;[G7]...",
+          "[C]De [G7]Ti [C]es-[F]pero [A]tam[Dm]bém [G]esta [F]sor[C]te:",
+          "[Am]Res-[G]sus[F]ci-[C]tar [F]pa-[A]ra o [Dm]rei-[G7]no de a[C]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "[D]No [G]trans[A7]cor-[D]rer [G]des[B]ta [Em]mi -[A]nha_exis[D]tência,",
-          "[Bm]Que-[A]ro [E7]hon-[A]rar-[E7]Te, [F#7]ó    [Bm]meu [E7]Reden[A]tor;[A7]...",
-          "[D]Que[A7]ro  [D]um [G]dia [B]es-[Em]tar [A]na pre[G]sen[D]ça",
-          "[Bm]Do  [A]gran[G]de [D]Deus [G]e  [B]fi-[Em]el  [A7]Cria[D]dor."
+          "[C]No [F]trans[G7]cor-[C]rer [F]des[A]ta [Dm]mi -[G]nha exis[C]tência,",
+          "[Am]Que-[G]ro [D7]hon-[G]rar-[D7]Te, [E7]ó [Am]meu [D7]Reden[G]tor;[G7]...",
+          "[C]Que[G7]ro [C]um [F]dia [A]es-[Dm]tar [G]na pre[F]sen[C]ça",
+          "[Am]Do [G]gran[F]de [C]Deus [F]e [A]fi-[Dm]el [G7]Cria[C]dor."
         ]
       }
     ]

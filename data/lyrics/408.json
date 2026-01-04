@@ -1,29 +1,33 @@
 {
+  "code": "408",
   "version": "v3",
   "title": "Jesus Cristo é o Pão celeste",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jesus C[A]risto_é_o Pão celeste que, por nós, desceu dos c[E]éus",
-          "E, de b[A]ênçãos, nos reveste, nos con[E]cede paz com D[A]eus.",
-          "Este pão nos traz lembrança da bondade do Salva[E]dor,",
-          "Nossa [A]Bem-aventurança, nossa P[E]az e nosso_A[A]mor."
+          "Jesus C[G]risto é o Pão celeste que, por nós, desceu dos c[D]éus",
+          "E, de b[G]ênçãos, nos reveste, nos con[D]cede paz com D[G]eus.",
+          "Este pão nos traz lembrança da bondade do Salva[D]dor,",
+          "Nossa [G]Bem-aventurança, nossa P[D]az e nosso A[G]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Comun[A]hão há neste cálix, no Seus sangue_expia[E]dor",
-          "Que, por n[A]ós, foi derramado sobre_a c[E]ruz, com grande [A]dor;",
-          "Anunciemos, pois, a morte do Cordeiro do_eterno D[E]eus,",
-          "Que to[A]mou a dura sorte para [E]nos levar aos c[A]éus."
+          "Comun[G]hão há neste cálix, no Seus sangue expia[D]dor",
+          "Que, por n[G]ós, foi derramado sobre a c[D]ruz, com grande [G]dor;",
+          "Anunciemos, pois, a morte do Cordeiro do eterno D[D]eus,",
+          "Que to[G]mou a dura sorte para [D]nos levar aos c[G]éus."
         ]
       }
     ]

@@ -1,10 +1,14 @@
 {
+  "code": "372",
   "version": "v3",
   "title": "Da igreja, fiel Fundamento é Jesus",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "C#°", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -14,10 +18,10 @@
           "É Jesus, Alicerce sem p[C]ar;",
           "A tormenta e [C#°]o forte [G]vento",
           "Não a [G7]podem jamais derri[C]bar.",
-          "Pela_igreja, Je[C#°]sus veio_ao [Dm]mundo",
-          "E mor[G]reu para_a vida lhe d[C]ar;",
-          "Com amor tão pre[C#°]cioso_e pro[Dm]fundo,",
-          "Ele_a q[C]uer, desde_os [G7]céus, ador[C]nar.[C]..."
+          "Pela igreja, Je[C#°]sus veio ao [Dm]mundo",
+          "E mor[G]reu para a vida lhe d[C]ar;",
+          "Com amor tão pre[C#°]cioso e pro[Dm]fundo,",
+          "Ele a q[C]uer, desde os [G7]céus, ador[C]nar.[C]..."
         ]
       },
       {
@@ -27,9 +31,9 @@
           "A i[C]greja é [C#°]sempre for[G]mosa",
           "Para Cristo, seu Rei e Sen[C]hor;",
           "É chamada “a [C#°]Sua es[G]posa”,",
-          "Reves[G7]tida de graça e_a[C]mor;",
+          "Reves[G7]tida de graça e a[C]mor;",
           "Combatida por [C#°]seu ini[Dm]migo,",
-          "Nesta [G]terra a_igreja se[C]rá,",
+          "Nesta [G]terra a igreja se[C]rá,",
           "Mas, em tudo, Je[C#°]sus é con[Dm]sigo,",
           "Vito[C]riosa da[G7]qui sai[C]rá."
         ]
@@ -39,7 +43,7 @@
         "text": [
           "Sempi[C]terno, fi[C#°]el Funda[G]mento",
           "Da igreja é Cristo Je[C]sus,",
-          "N´Ele,_os santos en[C#°]contram a[Dm]lento,",
+          "N´Ele, os santos en[C#°]contram a[Dm]lento,",
           "Fé e g[C]raça, vir[G]tude e l[C]uz."
         ]
       }

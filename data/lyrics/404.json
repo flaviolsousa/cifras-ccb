@@ -1,35 +1,33 @@
 {
+  "code": "404",
   "version": "v3",
   "title": "Por fé, recebe o grande Mestre",
   "tone": {
-    "recommended": "A"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Na [A]porta do teu coração, ba[D]tendo_es[E]tá o Redentor,",
-          "Jesus, Autor da salvação, que traz perd[A]ão ao [D]peca[A]dor."
-        ]
+        "text": ["Na [D]porta do teu coração, ba[G]tendo es[A]tá o Redentor,", "Jesus, Autor da salvação, que traz perd[D]ão ao [G]peca[D]dor."]
       },
       {
         "type": "chorus",
         "text": [
-          "Por [F#m]fé, recebe_o grande [C#]Mestre",
-          "Que [F#m]para Deus te [D]leva[A]rá.",
-          "O Dom precioso e ce[D]leste",
-          "A tua [A]alma [E]prova[A]rá."
+          "Por [Bm]fé, recebe o grande [F#]Mestre",
+          "Que [Bm]para Deus te [G]leva[D]rá.",
+          "O Dom precioso e ce[G]leste",
+          "A tua [D]alma [A]prova[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Em [A]vão batendo não está A[D]quele [E]que morreu na cruz;",
-          "Teu coração pulsando_está? Depressa [A]abre, [D]é Je[A]sus."
-        ]
+        "text": ["Em [D]vão batendo não está A[G]quele [A]que morreu na cruz;", "Teu coração pulsando está? Depressa [D]abre, [G]é Je[D]sus."]
       },
       {
         "type": "ref",
@@ -38,10 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "A [A]paz, a vida, o amor, por C[D]risto,_em [E]ti habitarão;",
-          "Por ti morreu o Remidor, para te [A]dar a [D]salvaç[A]ão."
-        ]
+        "text": ["A [D]paz, a vida, o amor, por C[G]risto, em [A]ti habitarão;", "Por ti morreu o Remidor, para te [D]dar a [G]salvaç[D]ão."]
       },
       {
         "type": "ref",

@@ -1,18 +1,22 @@
 {
+  "code": "334",
   "version": "v3",
   "title": "Há uma pátria perfeita...",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Há_uma [G]pátria per[C]feita_em be[G]leza,",
-          "Pátria_eterna, sublime, de_a[D]mor;",
-          "Nessa [G]pátria de_in[C]finda ri[G]queza,",
+          "Há uma [G]pátria per[C]feita em be[G]leza,",
+          "Pátria eterna, sublime, de a[D]mor;",
+          "Nessa [G]pátria de in[C]finda ri[G]queza,",
           "Tudo tem eter[D]nal esplen[G]dor."
         ]
       },
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "É nos [G]céus, é nos [D]céus",
-          "Essa pátria de vida_e de_a[G]mor;",
-          "Nela_está[G7]  nosso [C]Deus ",
-          "E Je[G]sus, nosso_a[D]mado Sen[G]hor."
+          "Essa pátria de vida e de a[G]mor;",
+          "Nela está[G7] nosso [C]Deus ",
+          "E Je[G]sus, nosso a[D]mado Sen[G]hor."
         ]
       },
       {
@@ -32,7 +36,7 @@
           "A Deus [G]Pai o lou[C]vor tribu[G]temos,",
           "E a Cristo, o Rei divi[D]nal,",
           "E, um [G]dia, ao [C]céu subi[G]remos;",
-          "Viveremos na [D]glória_eter[G]nal."
+          "Viveremos na [D]glória eter[G]nal."
         ]
       },
       {
@@ -46,7 +50,7 @@
           "Ao Cor[G]deiro de [C]Deus canta[G]remos,",
           "Nessa pátria, divino lou[D]vor;",
           "Congre[G]gados a[C]li esta[G]remos",
-          "Ante_o trono de [D]Deus, Cria[G]dor."
+          "Ante o trono de [D]Deus, Cria[G]dor."
         ]
       },
       {

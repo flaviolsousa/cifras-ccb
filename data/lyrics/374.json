@@ -1,10 +1,45 @@
 {
+  "code": "374",
   "version": "v3",
-  "title": "Santo! Santo! Santo!",
+  "title": "Santo, Santo, Santo!",
   "tone": {
-    "recommended": "D"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
-    "stanzas": []
+    "introduction": ["D", "Bm", "A", "D"],
+    "stanzas": [
+      {
+        "type": "lyric",
+        "code": "1",
+        "text": [
+          "[D]Santo! [Bm]Santo! [A]San[D]to! De[G]us On[D]ipotente!",
+          "[A]Semp[D]re [A]ale[Bm]grement[F#m]e a Ti [E]exa[E7]lta[A]rei[A7]",
+          "[D]Santo! [Bm]Santo! [A]San[D]to! [G]Deus Onipresen[D]te",
+          "[Bm]E Onis[F#m]cien[G]te! [D]Eu [Em]Te hon[A7]rar[D]ei!"
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "2",
+        "text": [
+          "[D]Santo! [Bm]Santo! [A]San[D]to! [G]Todos os re[D]midos",
+          "[A]Com [D]lou[A]vor Te a[Bm]do[F#m]ram em [E]todo o [E7]lu[A]gar[A7]",
+          "[D]Anjos e [Bm]Arcan[A]jos can[D]tam reu[G]ni[D]dos",
+          "[Bm]Todos se [F#m]pros[G]tram pa[D]ra [Em]Te a[A7]do[D]rar"
+        ]
+      },
+      {
+        "type": "lyric",
+        "code": "3",
+        "text": [
+          "[D]Santo! [Bm]Santo! [A]San[D]to! [G]Deus de a[D]mor, pie[D]doso",
+          "[A]Teu [D]ful[A]gor ex[Bm]celso [F#m]não pode o [E]ho[E7]mem [A]ver[A7]",
+          "[D]És três ve[Bm]zes [A]San[D]to, [G]Todo Pode[D]roso",
+          "[Bm]Justo e Su[F#m]bli[G]me, [D]Fonte do [Em]Sa[A7]ber[D]!"
+        ]
+      }
+    ]
   }
 }

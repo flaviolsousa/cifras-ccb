@@ -1,24 +1,28 @@
 {
+  "code": "371",
   "version": "v3",
   "title": "Aos Teus pés me apresento",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Aos Teus [E]pés me apresento, ó [B]justo Cria[E]dor;", "A fé e_o_entendimento con[B7]cede-me, Sen[E]hor."]
+        "text": ["Aos Teus [D]pés me apresento, ó [A]justo Cria[D]dor;", "A fé e o entendimento con[A7]cede-me, Sen[D]hor."]
       },
       {
         "type": "chorus",
-        "text": ["Em [E]nome de Jes[A]us,", "Pros[E]trar-me vou, Sen[B]hor;", "Ó [E]Pai de infinita [E]luz,", "A[B7]tende_ao meu cla[E]mor.[E]..."]
+        "text": ["Em [D]nome de Jes[G]us,", "Pros[D]trar-me vou, Sen[A]hor;", "Ó [D]Pai de infinita [D]luz,", "A[A7]tende ao meu cla[D]mor.[D]..."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Eu Te_imp[E]loro,_ó Deus vivente, em [B]minha oraç[E]ão:", "Vem, com o_amor ardente, su[B7]prir meu coraç[E]ão."]
+        "text": ["Eu Te imp[D]loro, ó Deus vivente, em [A]minha oraç[D]ão:", "Vem, com o amor ardente, su[A7]prir meu coraç[D]ão."]
       },
       {
         "type": "ref",
@@ -27,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Ó bom [E]Deus de caridade, Con[B]tigo_está_o perd[E]ão;", "Suporta, por piedade, a [B7]minha_imperfeiç[E]ão."]
+        "text": ["Ó bom [D]Deus de caridade, Con[A]tigo está o perd[D]ão;", "Suporta, por piedade, a [A7]minha imperfeiç[D]ão."]
       },
       {
         "type": "ref",

@@ -1,15 +1,19 @@
 {
+  "code": "410",
   "version": "v3",
   "title": "O sangue precioso",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["O [G]sangue precioso, vertido do Sen[D]hor,", "Re[G]dime_e justifica quem c[D]rer no Salva[G]dor."]
+        "text": ["O [G]sangue precioso, vertido do Sen[D]hor,", "Re[G]dime e justifica quem c[D]rer no Salva[G]dor."]
       },
       {
         "type": "chorus",

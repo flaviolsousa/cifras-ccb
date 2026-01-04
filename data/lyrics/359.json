@@ -1,20 +1,19 @@
 {
+  "code": "359",
   "version": "v3",
   "title": "Ó irmãos, de Deus diletos",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Ó ir[D]mãos, de Deus diletos,",
-          "Fomos [A]já por graça_e[D]leitos;",
-          "Cristo nos fará perfeitos",
-          "Se_O ser[A]virmos pela [D]fé."
-        ]
+        "text": ["Ó ir[D]mãos, de Deus diletos,", "Fomos [A]já por graça e[D]leitos;", "Cristo nos fará perfeitos", "Se O ser[A]virmos pela [D]fé."]
       },
       {
         "type": "chorus",
@@ -22,18 +21,13 @@
           "A nosso [G]Deus cantemos lou[D]vor,",
           "Por Seu a[A]mor, por Sua mer[D]cê;",
           "Vamos ser[G]vir ao bom Cria[D]dor",
-          "E_a Je[G]sus, Au[A]tor da [D]fé."
+          "E a Je[G]sus, Au[A]tor da [D]fé."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Nosso [D]Deus nos tem amado",
-          "E nos [A]tem justifi[D]cado",
-          "Por Jesus, o Consagrado,",
-          "O Cor[A]deiro remi[D]dor."
-        ]
+        "text": ["Nosso [D]Deus nos tem amado", "E nos [A]tem justifi[D]cado", "Por Jesus, o Consagrado,", "O Cor[A]deiro remi[D]dor."]
       },
       {
         "type": "ref",
@@ -42,12 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Deus, o [D]Pai, regenerou-nos,",
-          "Em Je[A]sus predesti[D]nou-nos;",
-          "Seu Espírito_enviou-nos,",
-          "Para_a_e[A]terna redenç[D]ão."
-        ]
+        "text": ["Deus, o [D]Pai, regenerou-nos,", "Em Je[A]sus predesti[D]nou-nos;", "Seu Espírito enviou-nos,", "Para a e[A]terna redenç[D]ão."]
       },
       {
         "type": "ref",

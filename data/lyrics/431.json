@@ -1,17 +1,21 @@
 {
+  "code": "431",
   "version": "v3",
   "title": "Ó meninos, estamos reunidos",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Ó me[C]ninos, nós es[F]ta-[C]mos",
-          "Reunidos ante_o bom Pas[G]tor;",
+          "Reunidos ante o bom Pas[G]tor;",
           "Ansi[C]osos, espe[F]ra-[C]mos",
           "Seus conselhos [G]de a[C]mor."
         ]
@@ -31,8 +35,8 @@
         "text": [
           "Ó me[C]ninos, aten[F]da-[C]mos",
           "A Jesus, divino Salva[G]dor,",
-          "Pois é d[C]´Ele que_espe[F]ra-[C]mos",
-          "A virtude_e [G]o vi[C]gor."
+          "Pois é d[C]´Ele que espe[F]ra-[C]mos",
+          "A virtude e [G]o vi[C]gor."
         ]
       },
       {

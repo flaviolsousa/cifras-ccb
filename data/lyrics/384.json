@@ -1,10 +1,14 @@
 {
+  "code": "384",
   "version": "v3",
   "title": "Nos resgatou e nos lavou",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -20,9 +24,9 @@
         "type": "chorus",
         "text": [
           "Nos [D]resgatou e [G]nos la[D]vou",
-          "Com Seu precioso [G]sangue, Cristo,_o [A]Redentor;",
+          "Com Seu precioso [G]sangue, Cristo, o [A]Redentor;",
           "Nos [D]libertou e [G]nos sal[D]vou",
-          "Do mundo_e do pe[G]cado, Cristo,_o [A]Salva[D]dor.[D]..."
+          "Do mundo e do pe[G]cado, Cristo, o [A]Salva[D]dor.[D]..."
         ]
       },
       {
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Somos, [D]por Jesus, selados para_a [A]nossa redenção;",
-          "Sempre_a[D]vante, caminhemos nesta g[A]rande vocação;",
-          "Pelo [D]sangue inocente, Cristo,_a [A]Deus, nos adotou;",
+          "Somos, [D]por Jesus, selados para a [A]nossa redenção;",
+          "Sempre a[D]vante, caminhemos nesta g[A]rande vocação;",
+          "Pelo [D]sangue inocente, Cristo, a [A]Deus, nos adotou;",
           "Glória [D]a Je[D]sus, o [A]Justo que nos resga[D]tou!"
         ]
       },

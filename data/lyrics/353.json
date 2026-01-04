@@ -1,10 +1,14 @@
 {
+  "code": "353",
   "version": "v3",
   "title": "Eleitos nós somos",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -18,10 +22,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Nós [G]somos eleitos por Deus, Criador;",
-          "Nos [C]céus frui[G]remos a he[D]rança de a[G]mor."
-        ]
+        "text": ["Nós [G]somos eleitos por Deus, Criador;", "Nos [C]céus frui[G]remos a he[D]rança de a[G]mor."]
       },
       {
         "type": "lyric",

@@ -1,48 +1,52 @@
 {
+  "code": "331",
   "version": "v3",
   "title": "Vem a Cristo sem tardar",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "C", "G", "C", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vem a [A]Cristo sem tardar, Sua [D]graça quer te [A]dar;",
-          "Vem, con[D]trito, rece[B7]ber a Sua [E]luz;",
-          "Seu o[A]lhar tem sobre ti, Ele [D]quer te perdoar;",
-          "Vem a [A]Cristo entregar-[A]te    [E]sem tar[A]dar.[A]..."
+          "Vem a [G]Cristo sem tardar, Sua [C]graça quer te [G]dar;",
+          "Vem, con[C]trito, rece[A7]ber a Sua [D]luz;",
+          "Seu o[G]lhar tem sobre ti, Ele [C]quer te perdoar;",
+          "Vem a [G]Cristo entregar-[G]te [D]sem tar[G]dar.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Vem a [A]Cristo sem tardar, paz e [D]vida quer te [A]dar,",
-          "Deixa_a [D]senda que à [B7]morte te con[E]duz;",
-          "Ele q[A]uer te transformar, Ele [D]pode te salvar;",
-          "Vem a [A]Cristo entregar-[A]te    [E]sem tar[A]dar.[A]..."
+          "Vem a [G]Cristo sem tardar, paz e [C]vida quer te [G]dar,",
+          "Deixa a [C]senda que à [A7]morte te con[D]duz;",
+          "Ele q[G]uer te transformar, Ele [C]pode te salvar;",
+          "Vem a [G]Cristo entregar-[G]te [D]sem tar[G]dar.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Vem a [A]Cristo sem tardar, pois no [D]céu te quer do[A]ar",
-          "Um te[D]souro que, no [B7]mundo, não te[E]rás;",
-          "Tu não [A]deves rejeitar esta [D]graça, que_é sem par;",
-          "Vem a [A]Cristo entregar-[A]te    [E]sem tar[A]dar."
+          "Vem a [G]Cristo sem tardar, pois no [C]céu te quer do[G]ar",
+          "Um te[C]souro que, no [A7]mundo, não te[D]rás;",
+          "Tu não [G]deves rejeitar esta [C]graça, que é sem par;",
+          "Vem a [G]Cristo entregar-[G]te [D]sem tar[G]dar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Sem tar[A]dar, sem mais tar[E]dar,",
-          "A Je[E7]sus vem te_entre[A]gar;",
-          "Seu olhar tem sobre ti, Ele [D]quer te perdo[D]ar,",
-          "Vem de[A]pressa_a Quem te cha[A]ma,   [E]sem tar[A]dar."
+          "Sem tar[G]dar, sem mais tar[D]dar,",
+          "A Je[D7]sus vem te entre[G]gar;",
+          "Seu olhar tem sobre ti, Ele [C]quer te perdo[C]ar,",
+          "Vem de[G]pressa a Quem te cha[G]ma, [D]sem tar[G]dar."
         ]
       }
     ]

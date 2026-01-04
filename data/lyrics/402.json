@@ -1,10 +1,14 @@
 {
+  "code": "402",
   "version": "v3",
   "title": "Ó irmãos, a Deus devemos...",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "Bb9", "F", "C", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",

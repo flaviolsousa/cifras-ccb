@@ -1,44 +1,48 @@
 {
+  "code": "398",
   "version": "v3",
   "title": "Não tardará a volta do Senhor",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "A°", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Mar[B]chemos, irmãos, pela [B°]senda da verda[B]de!",
-          "O fi[F#]el Salvador nos dará, do céu, a proteção,",
-          "Fer[B]vor e valor, e tam[B°]bém a santida[B]de;",
-          "Do Se[F#]nhor, nosso Deus, alcan[C#7]çamos o per[F#]dão.",
-          "Jesus mor[B]reu sobre_a cruz para [B°]dar-nos liberda[B]de",
-          "De_an[C#7]dar e_O servir em santifica[F#]ção."
+          "Mar[A]chemos, irmãos, pela [A°]senda da verda[A]de!",
+          "O fi[E]el Salvador nos dará, do céu, a proteção,",
+          "Fer[A]vor e valor, e tam[A°]bém a santida[A]de;",
+          "Do Se[E]nhor, nosso Deus, alcan[B7]çamos o per[E]dão.",
+          "Jesus mor[A]reu sobre a cruz para [A°]dar-nos liberda[A]de",
+          "De an[B7]dar e O servir em santifica[E]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Não tarda[B]rá [E]a  [B]volta do Se[E]nhor Je[F#]sus!",
-          "Virá, irmãos, premiar os Seus com galar[F#7]dão;",
-          "Mas, [B]os [E]que [B]rejeitarem [E]Sua [F#]luz,",
-          "Con[G#m]dena-[G7]ção e[F#7]terna_encontra[B]rão.",
+          "Não tarda[A]rá [D]a [A]volta do Se[D]nhor Je[E]sus!",
+          "Virá, irmãos, premiar os Seus com galar[E7]dão;",
+          "Mas, [A]os [D]que [A]rejeitarem [D]Sua [E]luz,",
+          "Con[F#m]dena-[F7]ção e[E7]terna encontra[A]rão.",
           "Andai, irmãos,",
-          "Na fé, na paz, no_a[B]mor  do [F#]Rei [F#7]dos  [B]reis.[B]..."
+          "Na fé, na paz, no a[A]mor do [E]Rei [E7]dos [A]reis.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Ir[B]mãos, em amor, bem u[B°]nidos caminhe[B]mos",
-          "Com Je[F#]sus, Salvador, que dará o galardão final.",
-          "Lou[B]vor perenal e ve[B°]raz Lhe tribute[B]mos",
-          "Pelo [F#]bem que os fez nosso [C#7]Rei celesti[F#]al;",
-          "Por esse [B]bem divinal de a[B°]mor, recebere[B]mos",
-          "No [C#7]céu, nosso lar, a glória eter[F#]nal."
+          "Ir[A]mãos, em amor, bem u[A°]nidos caminhe[A]mos",
+          "Com Je[E]sus, Salvador, que dará o galardão final.",
+          "Lou[A]vor perenal e ve[A°]raz Lhe tribute[A]mos",
+          "Pelo [E]bem que os fez nosso [B7]Rei celesti[E]al;",
+          "Por esse [A]bem divinal de a[A°]mor, recebere[A]mos",
+          "No [B7]céu, nosso lar, a glória eter[E]nal."
         ]
       },
       {

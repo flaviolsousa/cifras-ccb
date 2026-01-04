@@ -1,10 +1,14 @@
 {
+  "code": "380",
   "version": "v3",
   "title": "Com Jesus, eternamente viverei",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -31,7 +35,7 @@
         "text": [
           "De Jes[D]us, o rosto santo, eu no [G]céu vou contemplar,",
           "Onde n[A]ão há dor nem pranto. Ale[D]luia!",
-          "Um sublime_e novo canto vão os [G]santos entoar;",
+          "Um sublime e novo canto vão os [G]santos entoar;",
           "Que g[A]lória lá no céu vou desfru[D]tar!"
         ]
       },
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Quando, [D]no céu desejado, vito[G]rioso eu entrar,",
-          "Lá ver[A]ei Cristo_exaltado. Ale[D]luia!",
+          "Lá ver[A]ei Cristo exaltado. Ale[D]luia!",
           "Para sempre consolado, ouvi[G]rei o Seu falar;",
           "Que g[A]lória lá no céu vou desfru[D]tar!"
         ]

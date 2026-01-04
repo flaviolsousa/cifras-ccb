@@ -1,10 +1,14 @@
 {
+  "code": "417",
   "version": "v3",
   "title": "Recordemo-nos sempre do Mestre",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

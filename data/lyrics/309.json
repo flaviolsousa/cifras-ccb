@@ -1,38 +1,42 @@
 {
+  "code": "309",
   "version": "v3",
   "title": "Galardão nos espera",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "A", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Bem-aventurado quem aqui chorar,",
-          "[E]Pois, de Deus, conforto certo_al[B]cança[E7]rá;",
-          "[A]Quem aqui for manso [C#7]e perseve[F#m]rar,",
-          "[B]No eterno [A]lar de Deus ha[E]bita[A]rá."
+          "[G]Bem-aventurado quem aqui chorar,",
+          "[D]Pois, de Deus, conforto certo al[A]cança[D7]rá;",
+          "[G]Quem aqui for manso [B7]e perseve[Em]rar,",
+          "[A]No eterno [G]lar de Deus ha[D]bita[G]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Galardão, [F#m]galardão [A]nos espera [E]lá nos céus,",
-          "[D]Galardão, [Bm]galardão, [E]junto_ao nosso D[A]eus;",
-          "Glória indescritível na eterni[D]dade",
-          "[E]É o galard[A]ão de Cristo_aos [E]santos S[A]eus.[A]..."
+          "[G]Galardão, [Em]galardão [G]nos espera [D]lá nos céus,",
+          "[C]Galardão, [Am]galardão, [D]junto ao nosso D[G]eus;",
+          "Glória indescritível na eterni[C]dade",
+          "[D]É o galard[G]ão de Cristo aos [D]santos S[G]eus.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Bem-aventurado quem sedento_está",
-          "[E]E tem fome da justiça [B]que_é dos [E7]céus;",
-          "[A]Farto_e consolado [C#7]pelo Pai se[F#m]rá;",
-          "[B]Quem for limpo_e [A]puro vive[E]rá com D[A]eus."
+          "[G]Bem-aventurado quem sedento está",
+          "[D]E tem fome da justiça [A]que é dos [D7]céus;",
+          "[G]Farto e consolado [B7]pelo Pai se[Em]rá;",
+          "[A]Quem for limpo e [G]puro vive[D]rá com D[G]eus."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Bem-aventurado quem seguir Jesus,",
-          "[E]Sendo_aqui na terra paci[B]fica[E7]dor;",
-          "[A]Quem for desprezado [C#7]por andar na [F#m]Luz,",
-          "[B]Alegrar-se-[A]á na vinda [E]do Sen[A]hor."
+          "[G]Bem-aventurado quem seguir Jesus,",
+          "[D]Sendo aqui na terra paci[A]fica[D7]dor;",
+          "[G]Quem for desprezado [B7]por andar na [Em]Luz,",
+          "[A]Alegrar-se-[G]á na vinda [D]do Sen[G]hor."
         ]
       },
       {

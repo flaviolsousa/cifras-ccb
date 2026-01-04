@@ -1,38 +1,42 @@
 {
+  "code": "392",
   "version": "v3",
   "title": "Com Jesus, a Esperança",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Com Jes[A]us, a Esperança, caminhemos com fervor,",
-          "Todos firmes, jubilando_em Seu a[E]mor;",
-          "Com o [A]dom da fé iremos, junto_a [D]Cristo,_o Reden[A]tor,",
-          "À_eter[D]nal Je[E]rusa[A]lém."
+          "Com Jes[G]us, a Esperança, caminhemos com fervor,",
+          "Todos firmes, jubilando em Seu a[D]mor;",
+          "Com o [G]dom da fé iremos, junto a [C]Cristo, o Reden[G]tor,",
+          "À eter[C]nal Je[D]rusa[G]lém."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Novo [D]hino cantaremos ao Cor[A]deiro divinal",
-          "No su[E]blime lar, pátria e[F#m]ternal;",
-          "Sua [D]face lá veremos e Seu [A]brilho sem igual,",
-          "Na_eternal  [E]  Jerusa[A]lém."
+          "Novo [C]hino cantaremos ao Cor[G]deiro divinal",
+          "No su[D]blime lar, pátria e[Em]ternal;",
+          "Sua [C]face lá veremos e Seu [G]brilho sem igual,",
+          "Na eternal [D] Jerusa[G]lém."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Com Jes[A]us, fiel Guerreiro, pelejemos com valor,",
-          "Resistindo ao astuto tenta[E]dor;",
-          "Susten[A]tados pela fé, sigamos [D]nosso Reden[A]tor",
-          "À_eter[D]nal Je[E]rusa[A]lém."
+          "Com Jes[G]us, fiel Guerreiro, pelejemos com valor,",
+          "Resistindo ao astuto tenta[D]dor;",
+          "Susten[G]tados pela fé, sigamos [C]nosso Reden[G]tor",
+          "À eter[C]nal Je[D]rusa[G]lém."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com Jes[A]us, a nossa Força, lutaremos sem temor,",
-          "Venceremos este mundo_engana[E]dor;",
-          "Temos [A]viva esperança, Quem nos g[D]uia é_o Sen[A]hor",
-          "À_ete[D]nal Je[E]rusa[A]lém."
+          "Com Jes[G]us, a nossa Força, lutaremos sem temor,",
+          "Venceremos este mundo engana[D]dor;",
+          "Temos [G]viva esperança, Quem nos g[C]uia é o Sen[G]hor",
+          "À ete[C]nal Je[D]rusa[G]lém."
         ]
       },
       {

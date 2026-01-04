@@ -1,17 +1,21 @@
 {
+  "code": "416",
   "version": "v3",
   "title": "No Calvário...",
   "tone": {
-    "recommended": "E"
+    "original": "E",
+    "selected": "E"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["E", "B7", "E", "A", "B7", "C#m", "G#m", "A", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "J[E]esus por [B7]nós sof[E]reu, mor[A]reu crucifi[B7]cado,",
-          "[C#m]Foi grande_a [G#m]dor  [A]do Salvad[E]or, [C#m]Cristo Jes[A]us, [B7]o Sen[E]hor."
+          "[C#m]Foi grande a [G#m]dor [A]do Salvad[E]or, [C#m]Cristo Jes[A]us, [B7]o Sen[E]hor."
         ]
       },
       {

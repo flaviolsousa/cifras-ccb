@@ -1,38 +1,42 @@
 {
+  "code": "369",
   "version": "v3",
   "title": "Sentes bater em teu coração?",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "A", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Cristo bate_e quer entrar,",
-          "Quer te re[B]mir, por Seu a[E]mor,",
-          "Para te re[A]conci[E]liar",
-          "[A]Com Deus, o [E]Pai, [B]o Forma[E]dor."
+          "[D]Cristo bate e quer entrar,",
+          "Quer te re[A]mir, por Seu a[D]mor,",
+          "Para te re[G]conci[D]liar",
+          "[G]Com Deus, o [D]Pai, [A]o Forma[D]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Sentes bater em [E]teu coração?",
-          "[A]Esse_é_o chamado [E]do Sen[B]hor.",
-          "[E]Tens, por [B]Ele,_a [E]salvaç[A]ão",
-          "E o perd[E]ão [B]do Cria[E]dor.[E]..."
+          "[A]Sentes bater em [D]teu coração?",
+          "[G]Esse é o chamado [D]do Sen[A]hor.",
+          "[D]Tens, por [A]Ele, a [D]salvaç[G]ão",
+          "E o perd[D]ão [A]do Cria[D]dor.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Jesus Cristo,_o Rei da paz,",
-          "A salvaç[B]ão veio te [E]dar;",
-          "Seu amor fe[A]liz te f[E]az,",
-          "[A]Pois quer, em [E]Ti, [B]sempre_habi[E]tar."
+          "[D]Jesus Cristo, o Rei da paz,",
+          "A salvaç[A]ão veio te [D]dar;",
+          "Seu amor fe[G]liz te f[D]az,",
+          "[G]Pois quer, em [D]Ti, [A]sempre habi[D]tar."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Vem a Cristo,_o Redentor,",
-          "Dá-Lhe, por [B]fé, teu coraç[E]ão;",
-          "Reconhece_o [A]Seu a[E]mor;",
-          "[A]Tens, em Je[E]sus, [B]a redenç[E]ão."
+          "[D]Vem a Cristo, o Redentor,",
+          "Dá-Lhe, por [A]fé, teu coraç[D]ão;",
+          "Reconhece o [G]Seu a[D]mor;",
+          "[G]Tens, em Je[D]sus, [A]a redenç[D]ão."
         ]
       },
       {

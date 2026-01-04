@@ -1,38 +1,42 @@
 {
+  "code": "381",
   "version": "v3",
   "title": "Mui breve virá, mui breve virá",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Breve virá Jesus Cristo,_o Cor[A]deiro;",
-          "Premiará com o S[D]eu galardão",
-          "Todo_o fiel e sin[G]cero o[D]breiro",
-          "[E]Que Lhe consagra o seu cora[A]ção."
+          "[C]Breve virá Jesus Cristo, o Cor[G]deiro;",
+          "Premiará com o S[C]eu galardão",
+          "Todo o fiel e sin[F]cero o[C]breiro",
+          "[D]Que Lhe consagra o seu cora[G]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Mui [D]breve virá, mui [G]breve vi[D]rá,",
-          "Aquele que_exerce_o juízo, mui [E]breve vi[A]rá;",
-          "Aos [D]santos dará_o paraíso, Je[G]sus, Rei dos [D]reis;",
-          "No tempo_esperado_e preciso, sim, C[A]risto vi[D]rá.[D]..."
+          "Mui [C]breve virá, mui [F]breve vi[C]rá,",
+          "Aquele que exerce o juízo, mui [D]breve vi[G]rá;",
+          "Aos [C]santos dará o paraíso, Je[F]sus, Rei dos [C]reis;",
+          "No tempo esperado e preciso, sim, C[G]risto vi[C]rá.[C]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Próximo_é_o dia da volta glo[A]riosa",
-          "De Jesus Cristo, o [D]Filho de Deus;",
-          "Sua igreja es[G]tá ansi[D]osa",
-          "[E]Por encontrar-se com Ele nos c[A]éus."
+          "[C]Próximo é o dia da volta glo[G]riosa",
+          "De Jesus Cristo, o [C]Filho de Deus;",
+          "Sua igreja es[F]tá ansi[C]osa",
+          "[D]Por encontrar-se com Ele nos c[G]éus."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Quem, suas vestes, no sangue pre[A]cioso",
-          "De Jesus Cristo, por [D]fé, branquear,",
-          "Habitará no pa[G]ís glori[D]oso",
-          "[E]E poderá, com os santos, rei[A]nar."
+          "[C]Quem, suas vestes, no sangue pre[G]cioso",
+          "De Jesus Cristo, por [C]fé, branquear,",
+          "Habitará no pa[F]ís glori[C]oso",
+          "[D]E poderá, com os santos, rei[G]nar."
         ]
       },
       {

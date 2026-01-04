@@ -1,17 +1,21 @@
 {
+  "code": "321",
   "version": "v3",
   "title": "Bendito seja o Deus vivente",
   "tone": {
-    "recommended": "A"
+    "original": "Eb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ben[A]dito seja_o Deus vi[E]vente",
-          "Que [E7]nos gerou de novo_em Cristo,",
+          "Ben[A]dito seja o Deus vi[E]vente",
+          "Que [E7]nos gerou de novo em Cristo,",
           "E, [A]pela [C#]graça exce[F#m]lente,",
           "Nos [B]deu herança lá nos [E]céus,",
           "Habita[E7]ção de D[A]eus."
@@ -23,7 +27,7 @@
         "text": [
           "A [A]nossa fé é mais pre[E]ciosa",
           "Do [E7]que o ouro perecível;",
-          "O [A]fim é_a [C#]salvação glo[F#m]riosa,",
+          "O [A]fim é a [C#]salvação glo[F#m]riosa,",
           "In[B]corruptível galar[E]dão,",
           "Eterna [E7]redenç[A]ão."
         ]
@@ -34,7 +38,7 @@
         "text": [
           "A [A]sã Palavra da ver[E]dade,",
           "Que [E7]para sempre permanece,",
-          "Nos [A]leva_ao [C#]Pai da_eterni[F#m]dade;",
+          "Nos [A]leva ao [C#]Pai da eterni[F#m]dade;",
           "Tam[B]bém seremos eter[E]nais,",
           "Com corpos [E7]celest[A]iais."
         ]
@@ -43,8 +47,8 @@
         "type": "lyric",
         "code": "4",
         "text": [
-          "Pe[A]rece_o homem como_a [E]erva",
-          "E [E7]sua glória_aqui termina,",
+          "Pe[A]rece o homem como a [E]erva",
+          "E [E7]sua glória aqui termina,",
           "Mas [A]Deus, aos [C#]Seus fiéis, re[F#m]serva",
           "A [B]glória que não finda[E]rá:",
           "Seu povo [E7]reina[A]rá."

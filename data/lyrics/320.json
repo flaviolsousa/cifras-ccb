@@ -1,38 +1,42 @@
 {
+  "code": "320",
   "version": "v3",
   "title": "Que prazer é andar com Cristo",
   "tone": {
-    "recommended": "B"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "A#", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Que pra[B]zer é_andar com Cristo e a [E]Sua voz ouvir,",
-          "Medi[F#]tar em Seus conselhos que da[B]rão feliz por[B]vir,",
-          "Ó que[B]ridos, consagremos nossas [E]vidas ao Senhor",
-          "Para [F#]termos a herança no Seu [B]reino de_eplen[B]dor."
+          "Que pra[F]zer é andar com Cristo e a [A#]Sua voz ouvir,",
+          "Medi[C]tar em Seus conselhos que da[F]rão feliz por[F]vir,",
+          "Ó que[F]ridos, consagremos nossas [A#]vidas ao Senhor",
+          "Para [C]termos a herança no Seu [F]reino de eplen[F]dor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Jesus [B]Cristo é pode[E]roso,",
-          "Forte, [F#]santo, mui valo[B]roso,",
-          "Sumo Sábio, maravi[E]lhoso,",
-          "É_o Se[F#]nhor de tudo_e Rei dos r[B]eis."
+          "Jesus [F]Cristo é pode[A#]roso,",
+          "Forte, [C]santo, mui valo[F]roso,",
+          "Sumo Sábio, maravi[A#]lhoso,",
+          "É o Se[C]nhor de tudo e Rei dos r[F]eis."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Que pra[B]zer é_andar com Cristo, desfru[E]tar o Seu amor,",
-          "Comba[F#]ter a_iniquidade e, ao [B]fim, ser vence[B]dor;",
-          "Neste [B]mundo, o Senhor por nós mor[E]reu na dura cruz",
-          "Para [F#]dar-nos vida_e glória onde [B]há eterna [B]luz."
+          "Que pra[F]zer é andar com Cristo, desfru[A#]tar o Seu amor,",
+          "Comba[C]ter a iniquidade e, ao [F]fim, ser vence[F]dor;",
+          "Neste [F]mundo, o Senhor por nós mor[A#]reu na dura cruz",
+          "Para [C]dar-nos vida e glória onde [F]há eterna [F]luz."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Que pra[B]zer é_andar com Cristo, o Ca[E]minho que conduz",
-          "Ás mo[F#]radas sempiternas de resp[B]landecente [B]luz;",
-          "Só em [B]Cristo há verdade, vida, [E]graça e perdão;",
-          "N´Ele [F#]temos a certeza de_alcan[B]çar a perfei[B]ção."
+          "Que pra[F]zer é andar com Cristo, o Ca[A#]minho que conduz",
+          "Ás mo[C]radas sempiternas de resp[F]landecente [F]luz;",
+          "Só em [F]Cristo há verdade, vida, [A#]graça e perdão;",
+          "N´Ele [C]temos a certeza de alcan[F]çar a perfei[F]ção."
         ]
       },
       {

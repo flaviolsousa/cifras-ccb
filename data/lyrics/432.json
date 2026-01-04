@@ -1,28 +1,28 @@
 {
+  "code": "432",
   "version": "v3",
   "title": "Vem, ó divino Mestre",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Sen[A]hor Jesus, bom [E]Redentor, envia Teu po[A]der;", "Reveste_os santos T[B]eus, Senhor, de força e sa[E]ber."]
+        "text": ["Sen[G]hor Jesus, bom [D]Redentor, envia Teu po[G]der;", "Reveste os santos T[A]eus, Senhor, de força e sa[D]ber."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Vem, [A]ó divino Mestre,",
-          "[A7]Dá - [D]nos saber ce[A]leste;",
-          "Nós [D]somos peque[A]ni-n[A]os,   [D]mas Tu [E4]és  [E]nosso R[A]ei."
-        ]
+        "text": ["Vem, [G]ó divino Mestre,", "[G7]Dá - [C]nos saber ce[G]leste;", "Nós [C]somos peque[G]ni-n[G]os, [C]mas Tu [D4]és [D]nosso R[G]ei."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Jes[A]us, Cordeiro [E]divinal, imenso_é Teu a[A]mor;", "E nesse_amor ce[B]lestial vivemos, ó Sen[E]hor."]
+        "text": ["Jes[G]us, Cordeiro [D]divinal, imenso é Teu a[G]mor;", "E nesse amor ce[A]lestial vivemos, ó Sen[D]hor."]
       },
       {
         "type": "ref",
@@ -31,7 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Nas [A]nuvens, ó Sen[E]hor Jesus, queremos Te_encont[A]rar", "E, no glorioso l[B]ar de luz, Contigo habi[E]tar."]
+        "text": ["Nas [G]nuvens, ó Sen[D]hor Jesus, queremos Te encont[G]rar", "E, no glorioso l[A]ar de luz, Contigo habi[D]tar."]
       },
       {
         "type": "ref",

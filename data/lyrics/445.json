@@ -1,33 +1,33 @@
 {
+  "code": "445",
   "version": "v3",
   "title": "Ajuntemos um tesouro eterno",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Ajuntemos, ó meninos, nosso bom te[F#]souro lá nos céus de_amor,",
-          "[B]Onde_habita nosso Mestre e o Pai eterno, [E]nosso [F#]Cria[B]dor."
+          "[A]Ajuntemos, ó meninos, nosso bom te[E]souro lá nos céus de amor,",
+          "[A]Onde habita nosso Mestre e o Pai eterno, [D]nosso [E]Cria[A]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[B]Ajuntemos um tesouro_eterno",
-          "[F#]Onde_habita nosso Deus su[B]perno.",
-          "[E]Nos c[F#]éus os [B]bens jamais se a[F#]cabar[B]ão."
-        ]
+        "text": ["[A]Ajuntemos um tesouro eterno", "[E]Onde habita nosso Deus su[A]perno.", "[D]Nos c[E]éus os [A]bens jamais se a[E]cabar[A]ão."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Ricos das eternas bênçãos e dos dons ce[F#]lestes que nos vêm de Deus,",
-          "[B]Caminhemos nas veredas da justiça_eterna, q[E]ue nos [F#]leva_aos c[B]éus."
+          "[A]Ricos das eternas bênçãos e dos dons ce[E]lestes que nos vêm de Deus,",
+          "[A]Caminhemos nas veredas da justiça eterna, q[D]ue nos [E]leva aos c[A]éus."
         ]
       },
       {
@@ -37,10 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[B]Ao sairmos deste mundo, tudo deixa[F#]remos, tudo findará;",
-          "[B]O tesouro ajuntado na eterna glória [E]sempre [F#]dura[B]rá."
-        ]
+        "text": ["[A]Ao sairmos deste mundo, tudo deixa[E]remos, tudo findará;", "[A]O tesouro ajuntado na eterna glória [D]sempre [E]dura[A]rá."]
       },
       {
         "type": "ref",

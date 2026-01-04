@@ -1,38 +1,42 @@
 {
+  "code": "382",
   "version": "v3",
   "title": "Creio nas fiéis promessas do meu Deus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Creio nas fiéis promessas do meu Deus,",
-          "[E]Que se cumprirão na terra [B]e nos céus;",
+          "[A]Creio nas fiéis promessas do meu Deus,",
+          "[D]Que se cumprirão na terra [A]e nos céus;",
           "Glória ao Altíssimo darão os Seus;",
-          "Creio nas pro[F#7]messas do Sen[B]hor."
+          "Creio nas pro[E7]messas do Sen[A]hor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Creio, [E]creio",
-          "[F#]No eterno Deus e em Jes[B]us, eu creio;",
-          "Creio, c[E]reio[E],",
-          "Fi[B]éis são as pro[F#7]messas do Sen[B]hor."
+          "[A]Creio, [D]creio",
+          "[E]No eterno Deus e em Jes[A]us, eu creio;",
+          "Creio, c[D]reio[D],",
+          "Fi[A]éis são as pro[E7]messas do Sen[A]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Creio no Senhor que já me resgatou,",
-          "[E]Pela fé em Cristo, para_o c[B]éu eu vou;",
+          "[A]Creio no Senhor que já me resgatou,",
+          "[D]Pela fé em Cristo, para o c[A]éu eu vou;",
           "Todos meus pecados Ele cancelou;",
-          "Creio nas pro[F#7]messas do Sen[B]hor."
+          "Creio nas pro[E7]messas do Sen[A]hor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Sei que a Palavra do meu Criador",
-          "[E]Cumpre-Se comigo, creio [B]com fervor;",
-          "Ele não me deixa, grande_é Seu amor;",
-          "Creio nas pro[F#7]messas do Sen[B]hor."
+          "[A]Sei que a Palavra do meu Criador",
+          "[D]Cumpre-Se comigo, creio [A]com fervor;",
+          "Ele não me deixa, grande é Seu amor;",
+          "Creio nas pro[E7]messas do Sen[A]hor."
         ]
       },
       {

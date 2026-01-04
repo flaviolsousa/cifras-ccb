@@ -1,10 +1,14 @@
 {
+  "code": "444",
   "version": "v3",
   "title": "Ó meninos, exaltemos",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "A", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

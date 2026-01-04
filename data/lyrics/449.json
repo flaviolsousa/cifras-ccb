@@ -1,33 +1,37 @@
 {
+  "code": "449",
   "version": "v3",
   "title": "O meu nome no céu escreveste, Senhor",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G", "A7", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "As riq[A]uezas celestes eu al[D]mejo, Sen[A]hor,",
-          "Os tesouros da terra têm pe[B7]queno va[E7]lor.",
-          "Com fer[A]vor eu Te rogo, ó e[D]terno Deus m[A]eu,",
-          "Que conserves esc[D]rito o meu [E7]nome no c[A]éu."
+          "As riq[G]uezas celestes eu al[C]mejo, Sen[G]hor,",
+          "Os tesouros da terra têm pe[A7]queno va[D7]lor.",
+          "Com fer[G]vor eu Te rogo, ó e[C]terno Deus m[G]eu,",
+          "Que conserves esc[C]rito o meu [D7]nome no c[G]éu."
         ]
       },
       {
         "type": "chorus",
-        "text": ["O meu [A]nome no céu escreveste, Sen[E]hor,", "No Teu [A]livro da [D]vida, por Teu [E7]grande a[A]mor.[A]..."]
+        "text": ["O meu [G]nome no céu escreveste, Sen[D]hor,", "No Teu [G]livro da [C]vida, por Teu [D7]grande a[G]mor.[G]..."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Que ven[A]tura sublime! Que te[D]souro sem p[A]ar!",
-          "Pois verei Teu semblante, ouvi[B7]rei Teu fa[E7]lar;",
-          "O meu n[A]ome não risques, eu imp[D]loro, Sen[A]hor;",
-          "Entre_os Teus esco[D]lhidos quero_es[E7]tar, Cria[A]dor."
+          "Que ven[G]tura sublime! Que te[C]souro sem p[G]ar!",
+          "Pois verei Teu semblante, ouvi[A7]rei Teu fa[D7]lar;",
+          "O meu n[G]ome não risques, eu imp[C]loro, Sen[G]hor;",
+          "Entre os Teus esco[C]lhidos quero es[D7]tar, Cria[G]dor."
         ]
       },
       {
@@ -38,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Tu me p[A]redestinaste para s[D]er filho T[A]eu,",
-          "Para ser Teu herdeiro, com os [B7]santos, no c[E7]éu;",
-          "Como p[A]osso pagar-Te essa g[D]rande mer[A]cê?",
-          "Pois em mim colo[D]caste a_espe[E7]rança e_a [A]fé."
+          "Tu me p[G]redestinaste para s[C]er filho T[G]eu,",
+          "Para ser Teu herdeiro, com os [A7]santos, no c[D7]éu;",
+          "Como p[G]osso pagar-Te essa g[C]rande mer[G]cê?",
+          "Pois em mim colo[C]caste a espe[D7]rança e a [G]fé."
         ]
       },
       {

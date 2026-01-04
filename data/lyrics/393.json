@@ -1,38 +1,42 @@
 {
+  "code": "393",
   "version": "v3",
   "title": "Ó bom Jesus, meu caro Jesus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Ó bom Jesus, Teu [F#]santo fa[B]lar",
-          "[E]Sempre co[B]move [C#7]meu cora[F#]ção;",
-          "[B]Faz-me um vaso [F#]para Te_hon[B]rar;",
-          "Dá-me, Sen[E]hor, a [F#]Tua unç[B]ão."
+          "[A]Ó bom Jesus, Teu [E]santo fa[A]lar",
+          "[D]Sempre co[A]move [B7]meu cora[E]ção;",
+          "[A]Faz-me um vaso [E]para Te hon[A]rar;",
+          "Dá-me, Sen[D]hor, a [E]Tua unç[A]ão."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]Ó bom Je[E]sus, meu caro Je[B]sus,",
-          "Faz deste [C#7]vaso, ó Reden[F#]tor,",
-          "[B]Vaso de [E]honra, graça e [B]luz,",
-          "Para lou[E]var-Te, [F#]ó meu Sen[B]hor.[B]..."
+          "[A]Ó bom Je[D]sus, meu caro Je[A]sus,",
+          "Faz deste [B7]vaso, ó Reden[E]tor,",
+          "[A]Vaso de [D]honra, graça e [A]luz,",
+          "Para lou[D]var-Te, [E]ó meu Sen[A]hor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Neste deserto, [F#]caro Je[B]sus,",
-          "[E]Sou pere[B]grino, [C#7]por Teu a[F#]mor;",
-          "[B]Vem dirigir-me [F#]com Tua [B]luz,",
-          "Sê, ó Je[E]sus, o [F#]meu Condu[B]tor."
+          "[A]Neste deserto, [E]caro Je[A]sus,",
+          "[D]Sou pere[A]grino, [B7]por Teu a[E]mor;",
+          "[A]Vem dirigir-me [E]com Tua [A]luz,",
+          "Sê, ó Je[D]sus, o [E]meu Condu[A]tor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Pela Palavra, [F#]vem reve[B]lar",
-          "[E]Tua von[B]tade,[C#7] o Teu que[F#]rer,",
-          "[B]Pois eu desejo [F#]no céu en[B]trar",
-          "Para, ao [E]fim, Con[F#]tigo vi[B]ver."
+          "[A]Pela Palavra, [E]vem reve[A]lar",
+          "[D]Tua von[A]tade,[B7] o Teu que[E]rer,",
+          "[A]Pois eu desejo [E]no céu en[A]trar",
+          "Para, ao [D]fim, Con[E]tigo vi[A]ver."
         ]
       },
       {

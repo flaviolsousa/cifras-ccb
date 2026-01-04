@@ -1,17 +1,21 @@
 {
+  "code": "356",
   "version": "v3",
   "title": "Por preço elevado Jesus resgatou-me",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Por [D]preço_elevado Je[A]sus resgatou-me,",
-          "Por preço que_o [D]ouro não pode pagar;",
+          "Por [D]preço elevado Je[A]sus resgatou-me,",
+          "Por preço que o [D]ouro não pode pagar;",
           "Com Seu próprio sangue o [G]Mestre comp[D]rou-me",
           "A [E]fim de fazer-me na glória entr[A]ar."
         ]
@@ -19,10 +23,10 @@
       {
         "type": "chorus",
         "text": [
-          "Não têm va[D]lor a prata_e_o [A]ouro",
+          "Não têm va[D]lor a prata e o [A]ouro",
           "Para dar a salvaç[D]ão;",
-          "Não há, na terra,_algum te[G]souro",
-          "Que res[D]gate_e [A]dê perd[D]ão."
+          "Não há, na terra, algum te[G]souro",
+          "Que res[D]gate e [A]dê perd[D]ão."
         ]
       },
       {

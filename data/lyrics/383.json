@@ -1,33 +1,28 @@
 {
+  "code": "383",
   "version": "v3",
   "title": "Cristo é a Estrela",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["F", "C", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[F]Cristo Jesus é_a_Es[C]trela [C7]que, lá dos céus, con[F]duz",
-          "O santo pere[C]grino [C7]ao reino da eterna l[F]uz."
-        ]
+        "text": ["[F]Cristo Jesus é a Es[C]trela [C7]que, lá dos céus, con[F]duz", "O santo pere[C]grino [C7]ao reino da eterna l[F]uz."]
       },
       {
         "type": "chorus",
-        "text": [
-          "[F]Cristo [C]é a_Est[F]rela, [C]Guia dos [C7]Seus fi[F]éis;",
-          "Somos os Seus remidos. G[C]lória ao [C7]Rei dos r[F]eis!"
-        ]
+        "text": ["[F]Cristo [C]é a Est[F]rela, [C]Guia dos [C7]Seus fi[F]éis;", "Somos os Seus remidos. G[C]lória ao [C7]Rei dos r[F]eis!"]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[F]É Jesus Cristo_a [C]Senda [C7]da celestial Si[F]ão,",
-          "Pátria mui dese[C]jada, [C7]onde teremos galar[F]dão."
-        ]
+        "text": ["[F]É Jesus Cristo a [C]Senda [C7]da celestial Si[F]ão,", "Pátria mui dese[C]jada, [C7]onde teremos galar[F]dão."]
       },
       {
         "type": "ref",
@@ -36,10 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[F]Caminho, e Ver[C]dade, [C7]e Vida é Jes[F]us;",
-          "Por Ele, nós te[C]remos [C7]introdução no lar de l[F]uz."
-        ]
+        "text": ["[F]Caminho, e Ver[C]dade, [C7]e Vida é Jes[F]us;", "Por Ele, nós te[C]remos [C7]introdução no lar de l[F]uz."]
       },
       {
         "type": "ref",

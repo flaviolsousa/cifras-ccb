@@ -1,38 +1,37 @@
 {
+  "code": "332",
   "version": "v3",
   "title": "É Cristo Quem cuida de ti",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "E", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[B]Cristo Jesus, o Pastor divinal,",
-          "Sempre de [F#]ti cuida[B]rá;",
-          "Ele, que fala de vida_eternal,",
-          "Nunca te_a[F#]bandona[B]rá."
-        ]
+        "text": ["[A]Cristo Jesus, o Pastor divinal,", "Sempre de [E]ti cuida[A]rá;", "Ele, que fala de vida eternal,", "Nunca te a[E]bandona[A]rá."]
       },
       {
         "type": "chorus",
         "text": [
-          "[B]É Cristo Quem cuida de ti,",
-          "[F#]É Ele Quem zela por ti;",
-          "[B]N´Ele descansa, [E]n´Ele tem [C#m]fé,",
-          "[B]Forte Refúgio [F#]Ele [B]é.[B]..."
+          "[A]É Cristo Quem cuida de ti,",
+          "[E]É Ele Quem zela por ti;",
+          "[A]N´Ele descansa, [D]n´Ele tem [Bm]fé,",
+          "[A]Forte Refúgio [E]Ele [A]é.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Em toda_a prova, irmão, o Senhor,",
-          "Forças do [F#]céu te da[B]rá;",
+          "[A]Em toda a prova, irmão, o Senhor,",
+          "Forças do [E]céu te da[A]rá;",
           "Cristo te salva, te faz vencedor;",
-          "Ele ja[F#]mais falha[B]rá."
+          "Ele ja[E]mais falha[A]rá."
         ]
       },
       {
@@ -43,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Em Sua graça, irmão, o Senhor",
-          "Sempre te [F#]conserva[B]rá;",
+          "[A]Em Sua graça, irmão, o Senhor",
+          "Sempre te [E]conserva[A]rá;",
           "Cristo, teu Guia, também teu Valor,",
-          "Em teu so[F#]corro vi[B]rá."
+          "Em teu so[E]corro vi[A]rá."
         ]
       },
       {

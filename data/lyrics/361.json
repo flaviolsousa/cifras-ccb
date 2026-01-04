@@ -1,38 +1,42 @@
 {
+  "code": "361",
   "version": "v3",
   "title": "Tudo entende o Salvador",
   "tone": {
-    "recommended": "D"
+    "original": "Db",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Atribulado te_encontras, irmão?",
-          "[A]Quer o desânimo te domi[D]nar?",
-          "Abre a Cristo o teu cora[G]ção,",
-          "Tudo_Ele_en[D]tende_e te [A]pode_aju[D]dar."
+          "[C]Atribulado te encontras, irmão?",
+          "[G]Quer o desânimo te domi[C]nar?",
+          "Abre a Cristo o teu cora[F]ção,",
+          "Tudo Ele en[C]tende e te [G]pode aju[C]dar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Tudo entende_o Salva[A]dor:",
-          "O teu sentir, tua_afliç[D]ão;",
-          "Tu provarás o Seu grande a[G]mor;",
-          "Ele con[D]he - [D]ce o t[A]eu coraç[D]ão.[D]..."
+          "[C]Tudo entende o Salva[G]dor:",
+          "O teu sentir, tua afliç[C]ão;",
+          "Tu provarás o Seu grande a[F]mor;",
+          "Ele con[C]he - [C]ce o t[G]eu coraç[C]ão.[C]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Não desanimes, pois o Redentor",
-          "[A]É Atalaia de todos os S[D]eus;",
-          "Ele, do céu, ouvirá teu cla[G]mor;",
-          "Tudo en[D]tende o [A]Filho de D[D]eus."
+          "[C]Não desanimes, pois o Redentor",
+          "[G]É Atalaia de todos os S[C]eus;",
+          "Ele, do céu, ouvirá teu cla[F]mor;",
+          "Tudo en[C]tende o [G]Filho de D[C]eus."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Obra perfeita procura fazer,",
-          "[A]Tem paciência na luta_e na [D]dor;",
-          "Cristo_é contigo e d´Ele_é_o po[G]der;",
-          "Tudo en[D]tende o [A]teu Salva[D]dor."
+          "[C]Obra perfeita procura fazer,",
+          "[G]Tem paciência na luta e na [C]dor;",
+          "Cristo é contigo e d´Ele é o po[F]der;",
+          "Tudo en[C]tende o [G]teu Salva[C]dor."
         ]
       },
       {

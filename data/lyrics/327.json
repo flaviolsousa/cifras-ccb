@@ -1,39 +1,28 @@
 {
+  "code": "327",
   "version": "v3",
   "title": "Soldados somos do Senhor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Sol[G]dados somos do Senhor,",
-          "A[D]vante sem te[G]mer!",
-          "Deus nos dá força e valor",
-          "E [C]nos fa[D]rá ven[G]cer."
-        ]
+        "text": ["Sol[G]dados somos do Senhor,", "A[D]vante sem te[G]mer!", "Deus nos dá força e valor", "E [C]nos fa[D]rá ven[G]cer."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Galar[D]dão nos da[G]rá,",
-          "Eternal! E_excelso [D]bem;",
-          "Ao [G]terminar a luta, nos exaltará",
-          "Na_eter[C]nal Je[D]rusa[G]lém."
-        ]
+        "text": ["Galar[D]dão nos da[G]rá,", "Eternal! E excelso [D]bem;", "Ao [G]terminar a luta, nos exaltará", "Na eter[C]nal Je[D]rusa[G]lém."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Lu[G]temos firmes, sem cessar,",
-          "Pois [D]Cristo,_o Vence[G]dor,",
-          "Nos auxilia_a enfrentar",
-          "O_as[C]tuto [D]tenta[G]dor."
-        ]
+        "text": ["Lu[G]temos firmes, sem cessar,", "Pois [D]Cristo, o Vence[G]dor,", "Nos auxilia a enfrentar", "O as[C]tuto [D]tenta[G]dor."]
       },
       {
         "type": "ref",
@@ -42,12 +31,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Se [G]forte a peleja for,",
-          "Lu[D]temos sem te[G]mer,",
-          "Pois é mais forte o Senhor;",
-          "I[C]menso_é [D]Seu po[G]der."
-        ]
+        "text": ["Se [G]forte a peleja for,", "Lu[D]temos sem te[G]mer,", "Pois é mais forte o Senhor;", "I[C]menso é [D]Seu po[G]der."]
       },
       {
         "type": "ref",

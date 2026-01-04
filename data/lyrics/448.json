@@ -1,28 +1,32 @@
 {
+  "code": "448",
   "version": "v3",
   "title": "Sou criança, Senhor",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["A", "D", "G", "D", "D7", "G", "Em7", "A"],
     "stanzas": [
       {
         "type": "chorus",
         "text": [
-          "Sou cri[E]ança, mas crente em Jes[A]us",
-          "Meu a[D]mado e divino Pas[A]tor,",
-          "Que em [A7]mim faz brilhar Sua l[D]uz,[Bm7]...",
-          "Condu[E]zindo-me ao reino de a[A]mor."
+          "Sou cri[A]ança, mas crente em Jes[D]us",
+          "Meu a[G]mado e divino Pas[D]tor,",
+          "Que em [D7]mim faz brilhar Sua l[G]uz,[Em7]...",
+          "Condu[A]zindo-me ao reino de a[D]mor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sou cri[A]ança, Senhor, mas fi[D]el quero ser",
-          "À Pa[E]lavra que livra do m[A]al;",
-          "Com amor e fervor eu de[D]sejo crescer",
-          "Nas vir[E]tudes da vida eter[A]nal."
+          "Sou cri[D]ança, Senhor, mas fi[G]el quero ser",
+          "À Pa[A]lavra que livra do m[D]al;",
+          "Com amor e fervor eu de[G]sejo crescer",
+          "Nas vir[A]tudes da vida eter[D]nal."
         ]
       },
       {
@@ -33,10 +37,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sou cri[A]ança, Senhor, mas ze[D]loso do bem,",
-          "Tuas b[E]ênçãos estão sobre m[A]im;",
-          "Caminhando em amor, em jus[D]tiça também,",
-          "Eu ser[E]ei coroado ao f[A]im."
+          "Sou cri[D]ança, Senhor, mas ze[G]loso do bem,",
+          "Tuas b[A]ênçãos estão sobre m[D]im;",
+          "Caminhando em amor, em jus[G]tiça também,",
+          "Eu ser[A]ei coroado ao f[D]im."
         ]
       },
       {

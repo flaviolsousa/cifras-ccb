@@ -1,38 +1,42 @@
 {
+  "code": "396",
   "version": "v3",
   "title": "Vamos, ó irmãos, marchar",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Vamos, [B]ó irmãos, marchar sempre_a[E]vante para_o céu,",
-          "Confi[F#7]antes, nas pisadas de Je[B]sus,",
-          "Pois à frente Ele_está e por [E]nós combaterá,",
-          "Desfa[F#7]rá as trevas com a Sua l[B]uz."
+          "Vamos, [A]ó irmãos, marchar sempre a[D]vante para o céu,",
+          "Confi[E7]antes, nas pisadas de Je[A]sus,",
+          "Pois à frente Ele está e por [D]nós combaterá,",
+          "Desfa[E7]rá as trevas com a Sua l[A]uz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Com Je[F#7]sus marchemos à_eternal Si[B]ão,",
-          "Bem cin[E]gidos de justiça_e reti[F#7]dão,",
-          "Pois à [B]frente Ele_está e ao céu nos leva[E]rá,",
-          "Onde_i[F#7]remos receber galard[B]ão."
+          "Com Je[E7]sus marchemos à eternal Si[A]ão,",
+          "Bem cin[D]gidos de justiça e reti[E7]dão,",
+          "Pois à [A]frente Ele está e ao céu nos leva[D]rá,",
+          "Onde i[E7]remos receber galard[A]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Cristo [B]nos conduz a Deus com a [E]Sua forte mão,",
-          "Valo[F#7]rosos, caminhemos nessa l[B]uz,",
-          "Pois à frente Ele_está, nossos [E]passos guiará;",
-          "Confi[F#7]emos em Jesus, que nos con[B]duz."
+          "Cristo [A]nos conduz a Deus com a [D]Sua forte mão,",
+          "Valo[E7]rosos, caminhemos nessa l[A]uz,",
+          "Pois à frente Ele está, nossos [D]passos guiará;",
+          "Confi[E7]emos em Jesus, que nos con[A]duz."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sempre_u[B]nidos, ó irmãos, em a[E]mor e comunhão,",
-          "Prossi[F#7]gamos nas pisadas de Jes[B]us,",
-          "Pois à frente Ele_está, a vi[E]tória nos dará,",
-          "Se an[F#7]darmos, ó irmãos, em Sua l[B]uz."
+          "Sempre u[A]nidos, ó irmãos, em a[D]mor e comunhão,",
+          "Prossi[E7]gamos nas pisadas de Jes[A]us,",
+          "Pois à frente Ele está, a vi[D]tória nos dará,",
+          "Se an[E7]darmos, ó irmãos, em Sua l[A]uz."
         ]
       },
       {

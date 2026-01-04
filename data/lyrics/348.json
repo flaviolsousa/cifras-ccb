@@ -1,30 +1,34 @@
 {
+  "code": "348",
   "version": "v3",
   "title": "Em Cristo espera, sem vacilar",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "G7", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Na jor[C]nada do_Evangelho, cami[G7]nhamos com Je[C]sus;",
-          "Ele_é o_Au[F]tor de todo_o [C]bem; a quem [G7]crê e obe[Am]dece,",
-          "O Se[F]nhor sempre_enri[C]quece com os [G7]dons que d´Ele [C]vêm."
+          "Na jor[C]nada do Evangelho, cami[G7]nhamos com Je[C]sus;",
+          "Ele é o Au[F]tor de todo o [C]bem; a quem [G7]crê e obe[Am]dece,",
+          "O Se[F]nhor sempre enri[C]quece com os [G7]dons que d´Ele [C]vêm."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[C]Em Cristo_espera, [G7]sem vaci[C]lar;", "[F]Paz, fé e vir[G7]tude [F]tem para nos [C]dar."]
+        "text": ["[C]Em Cristo espera, [G7]sem vaci[C]lar;", "[F]Paz, fé e vir[G7]tude [F]tem para nos [C]dar."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
           "Se em [C]mar tempestuoso nosso [G7]barco peri[C]gar,",
-          "Em Cristo [F]vamos confi[C]ar; perto_es[G7]tá e nos a[Am]tende,",
+          "Em Cristo [F]vamos confi[C]ar; perto es[G7]tá e nos a[Am]tende,",
           "Sempre [F]Sua mão es[C]tende para [G7]vir nos liber[C]tar."
         ]
       },

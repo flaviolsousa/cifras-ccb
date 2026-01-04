@@ -1,52 +1,56 @@
 {
+  "code": "337",
   "version": "v3",
   "title": "Por fé seguimos ao Senhor",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E", "B", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Fi[B]éis irmãos, mostremos sempre o amor",
-          "Do [F#]bom Jesus a [C#]todo_o peca[F#]dor;",
-          "Não [B]há ninguém que [E]poderá nos impedir",
-          "De [B]afirmar que [F#]Cristo há de [B]vir[B]."
+          "Fi[A]éis irmãos, mostremos sempre o amor",
+          "Do [E]bom Jesus a [B]todo o peca[E]dor;",
+          "Não [A]há ninguém que [D]poderá nos impedir",
+          "De [A]afirmar que [E]Cristo há de [A]vir[A]."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Fi[B]éis irmãos, eleitos fomos do Senhor",
-          "A [F#]proclamar o [C#]Seu eterno_a[F#]mor;",
-          "Em[B]bora nós te[E]nhamos que aqui sofrer",
-          "Por [B]esse_amor, Je[F#]sus nos faz ven[B]cer[B]."
+          "Fi[A]éis irmãos, eleitos fomos do Senhor",
+          "A [E]proclamar o [B]Seu eterno a[E]mor;",
+          "Em[A]bora nós te[D]nhamos que aqui sofrer",
+          "Por [A]esse amor, Je[E]sus nos faz ven[A]cer[A]."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Fi[B]éis irmãos, andemos sempre nesse_amor,",
-          "Su[F#]blime_amor do [C#]nosso Reden[F#]tor;",
-          "O [B]galardão re[E]ceberemos lá nos céus,",
-          "On[B]de_é o lar do_O[F#]nipresente [B]Deus."
+          "Fi[A]éis irmãos, andemos sempre nesse amor,",
+          "Su[E]blime amor do [B]nosso Reden[E]tor;",
+          "O [A]galardão re[D]ceberemos lá nos céus,",
+          "On[A]de é o lar do O[E]nipresente [A]Deus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Por fé se[B]guimos ao Senhor",
-          "No Seu caminho de a[F#]mor,",
+          "Por fé se[A]guimos ao Senhor",
+          "No Seu caminho de a[E]mor,",
           "Amor que mostra a luz divina",
-          "E nos con[F#7]duz ao Cria[B]dor.",
+          "E nos con[E7]duz ao Cria[A]dor.",
           "Feliz será quem o provar,",
-          "Pois é_um a[B7]mor que não tem [E]par;",
-          "Amor glo[F°]rioso, amor su[B]blime,",
-          "Só em Je[E]sus se [F#7]pode_ac[B]har."
+          "Pois é um a[A7]mor que não tem [D]par;",
+          "Amor glo[D#°]rioso, amor su[A]blime,",
+          "Só em Je[D]sus se [E7]pode ac[A]har."
         ]
       }
     ]

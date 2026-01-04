@@ -1,19 +1,23 @@
 {
+  "code": "390",
   "version": "v3",
   "title": "Eis que vem o Verdadeiro",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eis que [C]vem, por sobre_as nuvens, Cristo, [F]nosso [G]Rei po[C]tente;",
-          "Todo_o olho há de vê-Lo em Seu [D]grande esplen[G]dor,",
-          "Pois será como_o relâmpago que se [C]mostra no_ori[G]ente,",
-          "E a[C]té no ocidente apa[F]rece_o [G]seu ful[C]gor."
+          "Eis que [C]vem, por sobre as nuvens, Cristo, [F]nosso [G]Rei po[C]tente;",
+          "Todo o olho há de vê-Lo em Seu [D]grande esplen[G]dor,",
+          "Pois será como o relâmpago que se [C]mostra no ori[G]ente,",
+          "E a[C]té no ocidente apa[F]rece o [G]seu ful[C]gor."
         ]
       },
       {
@@ -21,18 +25,18 @@
         "text": [
           "Eis que [C]vem o Verdadeiro,",
           "O Ju[Am]iz e [F]Conse[E]lheiro:",
-          "Julga[F]rá o mundo_in[C]teiro",
-          "Com jus[F]tiça_e [G]retid[C]ão."
+          "Julga[F]rá o mundo in[C]teiro",
+          "Com jus[F]tiça e [G]retid[C]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Como_o [C]sol é o Seu rosto, Seu ves[F]tido_é [G]resplen[C]dente;",
-          "Flamejantes como_o fogo são Seus [D]olhos divi[G]nais;",
-          "Como_a voz de muitas águas é a [C]Sua voz po[G]tente;",
-          "São mais [C]alvos do que_a neve Seus ca[F]belos [G]celes[C]tiais."
+          "Como o [C]sol é o Seu rosto, Seu ves[F]tido é [G]resplen[C]dente;",
+          "Flamejantes como o fogo são Seus [D]olhos divi[G]nais;",
+          "Como a voz de muitas águas é a [C]Sua voz po[G]tente;",
+          "São mais [C]alvos do que a neve Seus ca[F]belos [G]celes[C]tiais."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Nesse [C]dia glorioso, que se_en[F]contra [G]já bem [C]perto,",
+          "Nesse [C]dia glorioso, que se en[F]contra [G]já bem [C]perto,",
           "Quem de é, perante Cristo, pode[D]rá permane[G]cer?",
           "Só os justos e fiéis a Deus, que guar[C]daram o Con[G]certo,",
-          "Subi[C]rão à_eterna glória para_o [F]reino [G]rece[C]ber."
+          "Subi[C]rão à eterna glória para o [F]reino [G]rece[C]ber."
         ]
       },
       {

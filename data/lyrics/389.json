@@ -1,38 +1,37 @@
 {
+  "code": "389",
   "version": "v3",
   "title": "Cristo Jesus chama os Seus",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["A", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Cristo Jesus, o divino Pastor,",
-          "[F#7]Com doce voz, c[B]hama os Seus;",
+          "[A]Cristo Jesus, o divino Pastor,",
+          "[E7]Com doce voz, c[A]hama os Seus;",
           "Quer conduzi-los a Deus, Criador,",
-          "[C#7]Para viverem nos [F#7]céus."
+          "[B7]Para viverem nos [E7]céus."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[B]Cristo Je[F#7]sus",
-          "Chama os S[B]eus",
-          "[B7]Para a l[E]uz",
-          "Que os g[B]uia ao [F#7]reino dos c[B]éus."
-        ]
+        "text": ["[A]Cristo Je[E7]sus", "Chama os S[A]eus", "[A7]Para a l[D]uz", "Que os g[A]uia ao [E7]reino dos c[A]éus."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Para lhes dar a herança_eternal,",
-          "[F#7]Cristo Jesus c[B]hama os Seus;",
-          "Ele_é o_Amigo que não tem igual,",
-          "[C#7]Ele_é o Filho de [F#7]Deus."
+          "[A]Para lhes dar a herança eternal,",
+          "[E7]Cristo Jesus c[A]hama os Seus;",
+          "Ele é o Amigo que não tem igual,",
+          "[B7]Ele é o Filho de [E7]Deus."
         ]
       },
       {
@@ -43,10 +42,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[B]Cristo Jesus, Sumo Sábio_e Fiel,",
-          "[F#7]Com voz de_amor, c[B]hama os Seus;",
-          "Suas palavras, mais doces que_o mel,",
-          "[C#7]Fazem que_amemos a [F#7]Deus."
+          "[A]Cristo Jesus, Sumo Sábio e Fiel,",
+          "[E7]Com voz de amor, c[A]hama os Seus;",
+          "Suas palavras, mais doces que o mel,",
+          "[B7]Fazem que amemos a [E7]Deus."
         ]
       },
       {

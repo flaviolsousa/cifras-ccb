@@ -1,38 +1,42 @@
 {
+  "code": "440",
   "version": "v3",
   "title": "Lembra-te do teu Criador!",
   "tone": {
-    "recommended": "G"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "Gm", "C7", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Nos dias da tua pere[Am]grinação,",
-          "[D7]Usa_o tempo servindo_ao Sen[G]hor",
-          "E, com alegria, cumpre [Am]a missão;",
-          "[D7]Lembra-te do Criad[G]or!"
+          "[F]Nos dias da tua pere[Gm]grinação,",
+          "[C7]Usa o tempo servindo ao Sen[F]hor",
+          "E, com alegria, cumpre [Gm]a missão;",
+          "[C7]Lembra-te do Criad[F]or!"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Debaixo [G]do sol [E7]   tudo_é vai[A7]dade,",
-          "Recorre_a [D7]Deus, o Forma[G]dor;",
-          "Nos breves dias [E7]   da moci[A7]dade,",
-          "Não te es[D7]queças do Sen[G]hor!"
+          "Debaixo [F]do sol [D7] tudo é vai[G7]dade,",
+          "Recorre a [C7]Deus, o Forma[F]dor;",
+          "Nos breves dias [D7] da moci[G7]dade,",
+          "Não te es[C7]queças do Sen[F]hor!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Os preditos dias logo [Am]hão de vir,",
-          "[D7]Serve, pois, a Deus, o Forma[G]dor;",
-          "“Vinde, ó benditos”, tu i[Am]rás ouvir",
-          "[D7]De Jesus, teu Reden[G]tor."
+          "[F]Os preditos dias logo [Gm]hão de vir,",
+          "[C7]Serve, pois, a Deus, o Forma[F]dor;",
+          "“Vinde, ó benditos”, tu i[Gm]rás ouvir",
+          "[C7]De Jesus, teu Reden[F]tor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Mesmo tendo, neste mundo, [Am]muitos bens",
-          "[D7]E a vida cheia de vi[G]gor,",
-          "É maior a_herança que, na [Am]glória, tens",
-          "[D7]Com o santo Cria[G]dor."
+          "[F]Mesmo tendo, neste mundo, [Gm]muitos bens",
+          "[C7]E a vida cheia de vi[F]gor,",
+          "É maior a herança que, na [Gm]glória, tens",
+          "[C7]Com o santo Cria[F]dor."
         ]
       },
       {

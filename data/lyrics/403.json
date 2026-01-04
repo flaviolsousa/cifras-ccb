@@ -1,16 +1,20 @@
 {
+  "code": "403",
   "version": "v3",
   "title": "Pela fé uma vez...",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G7", "C", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Pela [C]fé uma vez por Jesus dada_aos santos,",
+          "Pela [C]fé uma vez por Jesus dada aos santos,",
           "Fé per[G7]feita que fez vitoriosos a [C]tantos,",
           "Não temeram horrores nem es[G7]pantos",
           "Os fiéis que seguiram ao Sen[C]hor."
@@ -21,8 +25,8 @@
         "text": [
           "Nas tris[C]tezas, nas lutas e dor,",
           "Recorriam a C[D]risto [G7]Jesus,",
-          "Que lhes [Am]dava vir[F]tude_e va[C]lor,",
-          "Pela [G7]fé que_os guiava na l[C]uz."
+          "Que lhes [Am]dava vir[F]tude e va[C]lor,",
+          "Pela [G7]fé que os guiava na l[C]uz."
         ]
       },
       {
@@ -44,7 +48,7 @@
         "code": "3",
         "text": [
           "Nessa [C]fé é que nós, crentes, sempre devemos",
-          "Cami[G7]nhar bem firmados, e_assim vence[C]remos;",
+          "Cami[G7]nhar bem firmados, e assim vence[C]remos;",
           "E um dia, no céu, encontra[G7]remos",
           "Os fiéis que amaram ao Sen[C]hor."
         ]

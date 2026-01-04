@@ -1,31 +1,35 @@
 {
+  "code": "354",
   "version": "v3",
   "title": "Jerusalém celestial!",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Je[G]rusalém celestial,", "Ci[D]dade do eterno Deus!", "Mui [G]breve_ali se_econtrarão", "Os [D]santos cida[G]dãos dos [G]céus."]
+        "text": ["Je[G]rusalém celestial,", "Ci[D]dade do eterno Deus!", "Mui [G]breve ali se econtrarão", "Os [D]santos cida[G]dãos dos [G]céus."]
       },
       {
         "type": "chorus",
         "text": [
           "Je[D]rusalém ce[G]lestial,",
-          "Lu[D]gar de paz e [G]de_esplendor!",
+          "Lu[D]gar de paz e [G]de esplendor!",
           "Por [D]fé, podemos contemplar",
           "A [G]terra que Deus nos vai dar;",
-          "En[C]tão o_exílio [G]findará,",
+          "En[C]tão o exílio [G]findará,",
           "O [D]povo santo [G]reina[G]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Je[G]rusalém celestial", "É [D]a cidade_onde_entrarão", "Os [G]que amaram o Senhor", "Com [D]um sincero [G]cora[G]ção."]
+        "text": ["Je[G]rusalém celestial", "É [D]a cidade onde entrarão", "Os [G]que amaram o Senhor", "Com [D]um sincero [G]cora[G]ção."]
       },
       {
         "type": "ref",
@@ -34,7 +38,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Je[G]rusalém celestial,", "De_i[D]comparável esplendor,", "É [G]adornada de amor", "E [D]majestade [G]do Sen[G]hor."]
+        "text": ["Je[G]rusalém celestial,", "De i[D]comparável esplendor,", "É [G]adornada de amor", "E [D]majestade [G]do Sen[G]hor."]
       },
       {
         "type": "ref",

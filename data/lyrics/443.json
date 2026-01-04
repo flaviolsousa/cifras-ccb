@@ -1,51 +1,55 @@
 {
+  "code": "443",
   "version": "v3",
   "title": "Ó meninos, Deus vos convida",
   "tone": {
-    "recommended": "B"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "E7", "A", "D", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[B]Ó meninos, [F#7]Deus vos con[B]vida",
-          "[E]Para_a grande [F#7]festa nos c[B]éus;",
-          "Regozijo_e[F#7]terno e [G#m]vida",
-          "[E]Acha[B]reis no [F#7]reino de D[B]eus.",
-          "[G#m]Grande glória lá vos a[D#7]guarda,",
-          "[B]Bênção que a[C#]qui não te[F#7]reis;",
-          "[B]Atendei, pois [F#7]Cristo não [G#m]tarda;",
-          "[E]Breve[B]mente [F#7]vós O ver[B]eis.[B]..."
+          "[A]Ó meninos, [E7]Deus vos con[A]vida",
+          "[D]Para a grande [E7]festa nos c[A]éus;",
+          "Regozijo e[E7]terno e [F#m]vida",
+          "[D]Acha[A]reis no [E7]reino de D[A]eus.",
+          "[F#m]Grande glória lá vos a[Db7]guarda,",
+          "[A]Bênção que a[B]qui não te[E7]reis;",
+          "[A]Atendei, pois [E7]Cristo não [F#m]tarda;",
+          "[D]Breve[A]mente [E7]vós O ver[A]eis.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[B]Deslumbrante [F#7]é a be[B]leza",
-          "[E]Das moradas [F#7]do Cria[B]dor,",
-          "Que reserva [F#7]essa ri[G#m]queza",
-          "[E]Aos re[B]midos [F#7]por Seu a[B]mor.",
-          "[G#m]Vós vereis na glória ce[D#7]leste,",
-          "G[B]lória onde_é [C#]tudo_esplen[F#7]dor,",
-          "[B]Todos quantos [F#7]seguem ao [G#m]Mestre,",
-          "[E]Jesus C[B]risto, [F#7]nosso Sen[B]hor.[B]..."
+          "[A]Deslumbrante [E7]é a be[A]leza",
+          "[D]Das moradas [E7]do Cria[A]dor,",
+          "Que reserva [E7]essa ri[F#m]queza",
+          "[D]Aos re[A]midos [E7]por Seu a[A]mor.",
+          "[F#m]Vós vereis na glória ce[Db7]leste,",
+          "G[A]lória onde é [B]tudo esplen[E7]dor,",
+          "[A]Todos quantos [E7]seguem ao [F#m]Mestre,",
+          "[D]Jesus C[A]risto, [E7]nosso Sen[A]hor.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "T[B]ão somente [F#7]santifi[B]cai-vos",
-          "[E]Pela força [F#7]do nosso D[B]eus;",
-          "De justiça [F#7]sempre_ador[G#m]nai-vos,",
-          "[E]Para_a g[B]rande [F#7]festa nos c[B]éus.",
-          "[G#m]Todos juntos nós subi[D#7]remos,",
-          "C[B]om Jesus, ao [C#]Pai celes[F#7]tial;",
-          "[B]Diante d´Ele [F#7]entoa[G#m]remos",
-          "[E]Hinos [B]de lou[F#7]vor eter[B]nal.[B]..."
+          "T[A]ão somente [E7]santifi[A]cai-vos",
+          "[D]Pela força [E7]do nosso D[A]eus;",
+          "De justiça [E7]sempre ador[F#m]nai-vos,",
+          "[D]Para a g[A]rande [E7]festa nos c[A]éus.",
+          "[F#m]Todos juntos nós subi[Db7]remos,",
+          "C[A]om Jesus, ao [B]Pai celes[E7]tial;",
+          "[A]Diante d´Ele [E7]entoa[F#m]remos",
+          "[D]Hinos [A]de lou[E7]vor eter[A]nal.[A]..."
         ]
       }
     ]

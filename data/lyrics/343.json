@@ -1,19 +1,23 @@
 {
+  "code": "343",
   "version": "v3",
   "title": "Lá no céu cantaremos",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["C", "G", "C", "F", "F#°", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[C]Neste mundo somos peregrinos,",
-          "[G]Nosso lar é_a pátria do bom [C]Deus;",
-          "Que_alegria [F]já sen[F#°]timos",
-          "[C]De, um [G]dia,_entrar nos [C]céus!"
+          "[G]Nosso lar é a pátria do bom [C]Deus;",
+          "Que alegria [F]já sen[F#°]timos",
+          "[C]De, um [G]dia, entrar nos [C]céus!"
         ]
       },
       {
@@ -21,7 +25,7 @@
         "text": [
           "Lá no [C]céu cantaremos,",
           "Todos juntos, lou[D]vores ao Se[G]nhor;",
-          "Lá no c[C]éu [C7]  ve[F]remos",
+          "Lá no c[C]éu [C7] ve[F]remos",
           "Je[C]sus, em [G]grande esplen[C]dor."
         ]
       },
@@ -42,12 +46,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[C]Preparados, nós esperaremos",
-          "[G]A Jesus, unidos em a[C]mor;",
-          "E com Ele [F]entra[F#°]remos",
-          "[C]Na ci[G]dade do Sen[C]hor."
-        ]
+        "text": ["[C]Preparados, nós esperaremos", "[G]A Jesus, unidos em a[C]mor;", "E com Ele [F]entra[F#°]remos", "[C]Na ci[G]dade do Sen[C]hor."]
       },
       {
         "type": "ref",

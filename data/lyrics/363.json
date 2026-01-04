@@ -1,17 +1,21 @@
 {
+  "code": "363",
   "version": "v3",
   "title": "Aos Teus pés estou, Senhor",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Aos Teus [G]pés es[D]tou, Sen[G]hor,",
-          "Elevando_o meu cla[D]mor;",
+          "Elevando o meu cla[D]mor;",
           "Faz rai[G]ar a [D]Tua [G]luz",
           "[C]Em min[D]ha´alma, Cria[G]dor.[G]..."
         ]
@@ -20,8 +24,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Junto_a [G]Ti, ó [D]Forma[G]dor,",
-          "Dá-me graça para_es[D]tar;",
+          "Junto a [G]Ti, ó [D]Forma[G]dor,",
+          "Dá-me graça para es[D]tar;",
           "Quero, [G]com te[D]mor e [G]fé,",
           "[C]Teus con[D]selhos escu[G]tar.[G]..."
         ]

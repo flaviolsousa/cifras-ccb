@@ -1,49 +1,53 @@
 {
+  "code": "377",
   "version": "v3",
   "title": "No céu, Senhor, no céu",
   "tone": {
-    "recommended": "A"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "No céu, Sen[A]hor, no céu, Con[E]tigo lá em g[A]lória,",
-          " [D]  No [E]Teu e[A]terno reino,_a[E]legres, [B7]canta[E]re - [A]mos",
-          "   Um [F#]hino glori[Bm]oso, o [E]hino da vi[A]tó - [F#m]ria;",
-          " [D]  Sen[E]hor, Teu [A]esplendor no c[D]éu [Bm]   contempla[E]re - [A]mos.[A]..."
+          "No céu, Sen[D]hor, no céu, Con[A]tigo lá em g[D]lória,",
+          " [G] No [A]Teu e[D]terno reino, a[A]legres, [E7]canta[A]re - [D]mos",
+          " Um [B]hino glori[Em]oso, o [A]hino da vi[D]tó - [Bm]ria;",
+          " [G] Sen[A]hor, Teu [D]esplendor no c[G]éu [Em] contempla[A]re - [D]mos.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "As portas, [A]lá no céu, são [E]pérolas pre[A]ciosas",
-          " [D]  E_a [E]praça [A]da cidade_é [E]ouro [B7]relu[E]zen[A]te;",
-          "   No [F#]céu é tudo [Bm]puro; ri[E]quezas glori[A]o - [F#m]sas",
-          " [D]  Des[E]fruta[A]remos com Je[D]sus,[Bm]    eterna[E]men[A]te.[A]..."
+          "As portas, [D]lá no céu, são [A]pérolas pre[D]ciosas",
+          " [G] E a [A]praça [D]da cidade é [A]ouro [E7]relu[A]zen[D]te;",
+          " No [B]céu é tudo [Em]puro; ri[A]quezas glori[D]o - [Bm]sas",
+          " [G] Des[A]fruta[D]remos com Je[G]sus,[Em] eterna[A]men[D]te.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "O pereg[A]rino que al[E]meja, no fu[A]turo,",
-          " [D]  Ir [E]habi[A]tar com o Sen[E]hor Je[B7]sus, a[E]ma - [A]do,",
-          "   Pro[F#]cura ser mais [Bm]santo, de[E]seja ser mais [A]pu - [F#m]ro",
-          " [D]  E [E]busca [A]ser a Deus, o [D]Pai,[Bm]    mais consa[E]gra[A]do.[A]..."
+          "O pereg[D]rino que al[A]meja, no fu[D]turo,",
+          " [G] Ir [A]habi[D]tar com o Sen[A]hor Je[E7]sus, a[A]ma - [D]do,",
+          " Pro[B]cura ser mais [Em]santo, de[A]seja ser mais [D]pu - [Bm]ro",
+          " [G] E [A]busca [D]ser a Deus, o [G]Pai,[Em] mais consa[A]gra[D]do.[D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "É glória_e[A]terna para_o [E]santo pereg[A]rino,",
-          " [D]  A [E]celest[A]ial cidade [E]por Deus [B7]prepa[E]ra - [A]da;",
-          "   Em [F#]breve chega[Bm]remos ao [E]triunfal des[A]ti - [F#m]no,",
-          " [D]  On[E]de_há re[A]pouso do la[D]bor [Bm]   e da jor[E]na - [A]da.[A]..."
+          "É glória e[D]terna para o [A]santo pereg[D]rino,",
+          " [G] A [A]celest[D]ial cidade [A]por Deus [E7]prepa[A]ra - [D]da;",
+          " Em [B]breve chega[Em]remos ao [A]triunfal des[D]ti - [Bm]no,",
+          " [G] On[A]de há re[D]pouso do la[G]bor [Em] e da jor[A]na - [D]da.[D]..."
         ]
       }
     ]

@@ -1,10 +1,14 @@
 {
+  "code": "378",
   "version": "v3",
   "title": "Grandioso és Tu",
   "tone": {
-    "recommended": "A"
+    "original": "Bb",
+    "selected": "A"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -20,7 +24,7 @@
         "type": "chorus",
         "text": [
           "A Ti de[A]vemos n[D]ossa gratid[A]ão;[F#m]...",
-          "Grandioso és [Bm]Tu, [E]  Senhor Jes[A]us;",
+          "Grandioso és [Bm]Tu, [E] Senhor Jes[A]us;",
           "Tu nos tiraste [D]da escravid[A]ão;[F#m]...",
           "Grandioso és [Bm]Tu, Sen[E]hor Jes[A]us."
         ]

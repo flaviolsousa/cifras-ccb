@@ -1,10 +1,14 @@
 {
+  "code": "350",
   "version": "v3",
   "title": "A jornada farei",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "G", "D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,14 +16,14 @@
         "text": [
           "A jor[D]nada farei com Jesus, meu Sen[G]hor,",
           "Certa[D]mente ao céu chega[A]rei[A7];",
-          "Pere[D]grino_aqui sou, busco_o lar de_esplen[G]dor,",
-          "Onde_os [D]bens celes[E]tiais frui[A]rei[A7]."
+          "Pere[D]grino aqui sou, busco o lar de esplen[G]dor,",
+          "Onde os [D]bens celes[E]tiais frui[A]rei[A7]."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Sempre_unido_a Cristo devo es[A]tar,",
+          "[D]Sempre unido a Cristo devo es[A]tar,",
           "Para, nos perigos, [A7]não vaci[D]lar;",
           "Sinto a voz divina em meu cora[G]ção,",
           "Que me ofe[D]rece [A]o galard[D]ão."
@@ -31,8 +35,8 @@
         "text": [
           "A jor[D]nada será, para mim, um pra[G]zer,",
           "Camin[D]hando com meu Salva[A]dor[A7];",
-          "Quero_ao [D]mal renunciar e a graça re[G]ter,",
-          "Quero [D]ser, sobre_o [E]mal, vence[A]dor[A7]."
+          "Quero ao [D]mal renunciar e a graça re[G]ter,",
+          "Quero [D]ser, sobre o [E]mal, vence[A]dor[A7]."
         ]
       },
       {

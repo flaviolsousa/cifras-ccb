@@ -1,38 +1,42 @@
 {
+  "code": "360",
   "version": "v3",
   "title": "Do mal apartados devemos estar",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "G", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Do [E]mal apartados devemos estar",
-          "E_a [A]todo_o mo[E]mento em [B]Cristo pensar;",
-          "U[E]nidos a Ele de[A]vemos andar;",
-          "Oh! [E]Glória!_Aleluia! Vamos [B]ento[E]ar."
+          "Do [D]mal apartados devemos estar",
+          "E a [G]todo o mo[D]mento em [A]Cristo pensar;",
+          "U[D]nidos a Ele de[G]vemos andar;",
+          "Oh! [D]Glória! Aleluia! Vamos [A]ento[D]ar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Firmes sejamos no Salvador,",
-          "[C#m]Na santidade e [F#7]no fer[B]vor!",
-          "[E]Ele, o Forte, o [A]Defensor,",
-          "Da[E]rá vitória._Ale[B]lui[E]a![E]..."
+          "[D]Firmes sejamos no Salvador,",
+          "[Bm]Na santidade e [E7]no fer[A]vor!",
+          "[D]Ele, o Forte, o [G]Defensor,",
+          "Da[D]rá vitória. Ale[A]lui[D]a![D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Je[E]sus nos amou, para Deus nos comprou,",
-          "O [A]Santo Es[E]pírito [B]nos enviou;",
-          "Lu[E]gar nesta graça tam[A]bém preparou;",
-          "Oh! [E]Glória!_Aleluia! Cristo [B]nos sal[E]vou."
+          "Je[D]sus nos amou, para Deus nos comprou,",
+          "O [G]Santo Es[D]pírito [A]nos enviou;",
+          "Lu[D]gar nesta graça tam[G]bém preparou;",
+          "Oh! [D]Glória! Aleluia! Cristo [A]nos sal[D]vou."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Es[E]tá perto_o dia em que o Senhor",
-          "Vi[A]rá, como_Es[E]poso, com [B]grande_esplendor,",
-          "A [E]todos que buscam vir[A]tude e_amor;",
-          "Oh! [E]Glória!_Aleluia! Grande_é [B]Seu fa[E]vor!"
+          "Es[D]tá perto o dia em que o Senhor",
+          "Vi[G]rá, como Es[D]poso, com [A]grande esplendor,",
+          "A [D]todos que buscam vir[G]tude e amor;",
+          "Oh! [D]Glória! Aleluia! Grande é [A]Seu fa[D]vor!"
         ]
       },
       {

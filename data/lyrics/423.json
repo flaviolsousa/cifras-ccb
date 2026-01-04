@@ -1,38 +1,42 @@
 {
+  "code": "423",
   "version": "v3",
   "title": "Só o sangue precioso e expiador",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D", "G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Só o s[A]angue precioso_e_expiador,",
-          "Que Jesus derramou sobre_a c[E]ruz,",
-          "É ac[A]eito pelo nosso C[D]riador",
-          "Para n[E]os conceder graça_e l[A]uz."
+          "Só o s[G]angue precioso e expiador,",
+          "Que Jesus derramou sobre a c[D]ruz,",
+          "É ac[G]eito pelo nosso C[C]riador",
+          "Para n[D]os conceder graça e l[G]uz."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "O perd[A]ão, salvaç[D]ão,",
-          "Não se [A]pode com ouro_alcan[E]çar;",
-          "Só no [A]sangue de Jesus há [D]remissão;",
-          "Só Je[E]sus pode_a todos sal[A]var."
+          "O perd[G]ão, salvaç[C]ão,",
+          "Não se [G]pode com ouro alcan[D]çar;",
+          "Só no [G]sangue de Jesus há [C]remissão;",
+          "Só Je[D]sus pode a todos sal[G]var."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Pelo s[A]angue precioso de Jesus,",
-          "Achegar-nos podemos a D[E]eus",
-          "E_habit[A]ar no reino da di[D]vina luz,",
-          "Etern[E]al santuário dos c[A]éus."
+          "Pelo s[G]angue precioso de Jesus,",
+          "Achegar-nos podemos a D[D]eus",
+          "E habit[G]ar no reino da di[C]vina luz,",
+          "Etern[D]al santuário dos c[G]éus."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ouro_e p[A]rata não concedem salvação;",
-          "Só o sangue de Cristo,_o Sen[E]hor,",
-          "É o p[A]reço do resgate_e [D]do perdão",
-          "Conce[E]didos por Deus, Criad[A]or."
+          "Ouro e p[G]rata não concedem salvação;",
+          "Só o sangue de Cristo, o Sen[D]hor,",
+          "É o p[G]reço do resgate e [C]do perdão",
+          "Conce[D]didos por Deus, Criad[G]or."
         ]
       },
       {

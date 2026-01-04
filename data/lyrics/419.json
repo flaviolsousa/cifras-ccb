@@ -1,39 +1,43 @@
 {
+  "code": "419",
   "version": "v3",
   "title": "\"Fazei isto em memória de Mim\"",
   "tone": {
-    "recommended": "G"
+    "original": "G",
+    "selected": "G"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Sempre lembremo-[D]nos da [G]morte do [D]nosso_a[G]mado_e [A]bom Je[D]sus;",
-          "[G]Sua memória [D]cele[G]bremos, Seu [D]sacri[G]fício [A]sobre_a c[D]ruz.",
+          "[G]Sempre lembremo-[D]nos da [G]morte do [D]nosso a[G]mado e [A]bom Je[D]sus;",
+          "[G]Sua memória [D]cele[G]bremos, Seu [D]sacri[G]fício [A]sobre a c[D]ruz.",
           "To[A]ma-[D]remos, [Em]co – [D]mo-[G]vidos, a [D]Santa [Em]Ceia [A]do Sen[D]hor;",
-          "[G]Somos, agora, [D]Seus re[G]midos por [Em]Su - [Am]a   [D]obra de [G]gran[D]de_a[G]mor.[G]..."
+          "[G]Somos, agora, [D]Seus re[G]midos por [Em]Su - [Am]a [D]obra de [G]gran[D]de a[G]mor.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Neste momento_o p[D]ão par[G]timos, co[D]mo Je[G]sus de[A]termi[D]nou,",
+          "[G]Neste momento o p[D]ão par[G]timos, co[D]mo Je[G]sus de[A]termi[D]nou,",
           "[G]E, nesta comun[D]hão, sen[G]timos quan[D]to o [G]Mestre n[A]os a[D]mou;",
           "Ao [A]be-[D]bermos [Em]des-[D]te [G]cálix, por [D]manda[Em]mento [A]do Sen[D]hor",
-          "[G]Anunciamos S[D]ua [G]morte a[Em]té  [Am]que [D]venha o [G]Re-[D]den[G]tor.[G]..."
+          "[G]Anunciamos S[D]ua [G]morte a[Em]té [Am]que [D]venha o [G]Re-[D]den[G]tor.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Rememoremos [D]o mar[G]tírio, a_hu[D]milha[G]ção que su[A]por[D]tou;",
-          "[G]Sendo, de Deus, o_a[D]mado [G]Filho, do c[D]éu des[G]ceu e n[A]os sal[D]vou.",
-          "Re[A]tor[D]nou ao [Em]Pai [D]e - [G]terno, mas [D]dentro_em [Em]breve [A]volta[D]rá",
-          "[G]Para nos dar per[D]pétua g[G]lória no [Em]rei-[Am]no q[D]ue prepa[G]ra-[D]do_es[G]tá.[G]..."
+          "[G]Rememoremos [D]o mar[G]tírio, a hu[D]milha[G]ção que su[A]por[D]tou;",
+          "[G]Sendo, de Deus, o a[D]mado [G]Filho, do c[D]éu des[G]ceu e n[A]os sal[D]vou.",
+          "Re[A]tor[D]nou ao [Em]Pai [D]e - [G]terno, mas [D]dentro em [Em]breve [A]volta[D]rá",
+          "[G]Para nos dar per[D]pétua g[G]lória no [Em]rei-[Am]no q[D]ue prepa[G]ra-[D]do es[G]tá.[G]..."
         ]
       }
     ]

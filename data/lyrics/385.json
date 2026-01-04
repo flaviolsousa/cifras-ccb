@@ -1,16 +1,20 @@
 {
+  "code": "385",
   "version": "v3",
   "title": "\"Vinde após Mim\"",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["D", "B7", "Em", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]“Vinde_após Mim”, falou o Senhor;",
+          "[D]“Vinde após Mim”, falou o Senhor;",
           "[B7]Quem O se[Em]guir, na [A7]luz anda[D]rá;",
           "[Dm]Grandes mis[Am]térios [E7]do Cria[A]dor;",
           "[A7]Cristo Je[D]sus [E7]lhe [A7]mostra[D]rá.[D]..."
@@ -20,10 +24,10 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]“Vinde_após Mim”, convida Jesus,",
+          "[D]“Vinde após Mim”, convida Jesus,",
           "[B7]O Salva[Em]dor, A[A7]migo le[D]al,",
           "[Dm]Que, ao fi[Am]el, en[E7]via a [A]luz",
-          "[A7]Para_o li[D]vrar [E7]de  [A7]todo_o [D]mal.[D]..."
+          "[A7]Para o li[D]vrar [E7]de [A7]todo o [D]mal.[D]..."
         ]
       },
       {
@@ -43,7 +47,7 @@
           "[D]Nobres na fé por Cristo, serão",
           "[B7]Os Seus fi[Em]éis her[A7]deiros dos [D]céus,",
           "[Dm]Que, para [Am]sempre, [E7]exulta[A]rão,",
-          "[A7]Contempla[D]rão [E7]o   [A7]grande [D]Deus.[D]..."
+          "[A7]Contempla[D]rão [E7]o [A7]grande [D]Deus.[D]..."
         ]
       }
     ]

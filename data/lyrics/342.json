@@ -1,22 +1,26 @@
 {
+  "code": "342",
   "version": "v3",
   "title": "Sião celestial",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "F", "D", "Em", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Si[C]ão celestial é repouso dos santos,",
-          "O [F]Seu Arqui[D]teto_é chamado_“o Se[Em]nhor”;",
+          "O [F]Seu Arqui[D]teto é chamado “o Se[Em]nhor”;",
           "A[C]li entra[G]rão, com lou[C]vor e com cantos,",
-          "A[F]queles que_a[C]doram o [G]bom Cria[C]dor,",
+          "A[F]queles que a[C]doram o [G]bom Cria[C]dor,",
           "De preciosi[F]dades está ador[C]nada por Deus,",
           "É [F]indescri[D]tível, sem par, sua [G]luz;",
-          "A [C]sua grandeza,_o Senhor reser[G]vou para_os S[C]eus;",
+          "A [C]sua grandeza, o Senhor reser[G]vou para os S[C]eus;",
           "Re[Am]flete a [G]glória de Cristo Je[C]sus,",
           "De [G]Cristo Je[C]sus, de Cristo Jesus,",
           "Re[Am]flete a [G]glória de Cristo Je[C]sus."
@@ -27,12 +31,12 @@
         "code": "2",
         "text": [
           "Na[C]quela morada há luz permanente,",
-          "A [F]Lâmpada_é [D]Cristo Jesus, o Se[Em]nhor;",
+          "A [F]Lâmpada é [D]Cristo Jesus, o Se[Em]nhor;",
           "Os [C]seus funda[G]mentos são [C]pedras fulgentes;",
           "É [F]mui majes[C]toso o [G]seu esplen[C]dor.",
           "Os santos re[F]midos, com hino de [C]glória triunfal,",
           "Ca[F]minham com [D]Cristo e lá reina[G]rão.",
-          "Se[C]rá, para_os justos, o lar de re[G]pouso_eter[C]nal;",
+          "Se[C]rá, para os justos, o lar de re[G]pouso eter[C]nal;",
           "Su[Am]blime se[G]rá nossa consola[C]ção;",
           "Su[G]blime se[C]rá, sublime será,",
           "Su[Am]blime se[G]rá nossa consola[C]ção."

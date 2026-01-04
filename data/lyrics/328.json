@@ -1,38 +1,42 @@
 {
+  "code": "328",
   "version": "v3",
   "title": "Grande é o Teu poder, Senhor",
   "tone": {
-    "recommended": "B"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Grande [B]é o Teu poder, Senhor,",
-          "Quão i[F#]menso é, ó e[B]terno Deus;",
+          "Grande [F]é o Teu poder, Senhor,",
+          "Quão i[C]menso é, ó e[F]terno Deus;",
           "Não há outro Deus dominador",
-          "Sobre_a [F#]terra, sobre_os [C#7]mares e nos [F#]céus."
+          "Sobre a [C]terra, sobre os [G7]mares e nos [C]céus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Toda_a [F#]glória só a Ti per[B]tence,",
-          "Pois três [F#]vezes Santo és, Sen[B]hor;",
-          "Reges [E]tudo [B]com o Teu poder,",
-          "Ó [F#]Cria[B]dor."
+          "Toda a [C]glória só a Ti per[F]tence,",
+          "Pois três [C]vezes Santo és, Sen[F]hor;",
+          "Reges [A#]tudo [F]com o Teu poder,",
+          "Ó [C]Cria[F]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Mani[B]festam Teu poder, os céus,",
-          "Obra [F#]Tua é toda_a [B]criação,",
+          "Mani[F]festam Teu poder, os céus,",
+          "Obra [C]Tua é toda a [F]criação,",
           "São perfeitos os caminhos Teus;",
-          "És [F#]também Quem dá, ao [C#7]homem, salva[F#]ção."
+          "És [C]também Quem dá, ao [G7]homem, salva[C]ção."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "É e[B]terno Teu poder, Senhor;",
-          "Passam [F#]gerações, tudo [B]passará,",
+          "É e[F]terno Teu poder, Senhor;",
+          "Passam [C]gerações, tudo [F]passará,",
           "Mas o Teu poder, ó Criador,",
-          "Para [F#]toda_a_eterni[C#7]dade dura[F#]rá."
+          "Para [C]toda a eterni[G7]dade dura[C]rá."
         ]
       },
       {

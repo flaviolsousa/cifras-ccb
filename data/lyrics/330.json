@@ -1,38 +1,42 @@
 {
+  "code": "330",
   "version": "v3",
   "title": "Ao findar a jornada",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["G", "D7", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ao fin[A]dar a jor[E7]nada, re[A]pousarei",
-          "No reino da_eterna [E]luz;",
-          "Ao findar a jor[A]nada, eu [D]entrarei",
-          "No [B7]céu, com o meu Je[E]sus.[E7]..."
+          "Ao fin[G]dar a jor[D7]nada, re[G]pousarei",
+          "No reino da eterna [D]luz;",
+          "Ao findar a jor[G]nada, eu [C]entrarei",
+          "No [A7]céu, com o meu Je[D]sus.[D7]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Lá no [A]reino dos céus rejubilarei",
-          "Ao sen[D]tir o excel[Dm]so_a[A]mor;",
-          "Lá no reino dos céus contempla[B7]rei",
-          "A [A]face do [E7]meu Sen[A]hor."
+          "Lá no [G]reino dos céus rejubilarei",
+          "Ao sen[C]tir o excel[Cm]so a[G]mor;",
+          "Lá no reino dos céus contempla[A7]rei",
+          "A [G]face do [D7]meu Sen[G]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sem ig[A]ual há de [E7]ser minha [A]emoção",
-          "Ao ver meu Senhor vol[E]tar;",
-          "E, no lar da jus[A]tiça_e da [D]perfeição,",
-          "Je[B7]sus me fará mo[E]rar.[E7]..."
+          "Sem ig[G]ual há de [D7]ser minha [G]emoção",
+          "Ao ver meu Senhor vol[D]tar;",
+          "E, no lar da jus[G]tiça e da [C]perfeição,",
+          "Je[A7]sus me fará mo[D]rar.[D7]..."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ao fin[A]dar a jor[E7]nada, re[A]ceberei",
-          "O prêmio do meu la[E]bor:",
-          "A coroa de g[A]lória das [D]mãos do Rei,",
-          "O [B7]santo_e fiel Sen[E]hor.[E7]..."
+          "Ao fin[G]dar a jor[D7]nada, re[G]ceberei",
+          "O prêmio do meu la[D]bor:",
+          "A coroa de g[G]lória das [C]mãos do Rei,",
+          "O [A7]santo e fiel Sen[D]hor.[D7]..."
         ]
       },
       {

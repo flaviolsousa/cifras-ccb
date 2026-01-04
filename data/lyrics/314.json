@@ -1,39 +1,43 @@
 {
+  "code": "314",
   "version": "v3",
   "title": "O Teu poder supremo",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "O [E]Teu poder su[B]premo, ó [A]Rei [B]dos [E]reis,",
-          "Remove os tro[B]peços aos [F#m]Teus [B]fi-[E]éis;",
-          "Só [B]Tu me [F#]podes [B]conduzir ao [F#]lar de_a[B]mor;",
-          "És [E]Fonte de toda [A]for[E]ça, fir[B]meza e vi[E]gor."
+          "O [D]Teu poder su[A]premo, ó [G]Rei [A]dos [D]reis,",
+          "Remove os tro[A]peços aos [Em]Teus [A]fi-[D]éis;",
+          "Só [A]Tu me [E]podes [A]conduzir ao [E]lar de a[A]mor;",
+          "És [D]Fonte de toda [G]for[D]ça, fir[A]meza e vi[D]gor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Em [E]Teu bendito [B]Nome, ó [A]Re-[B]den[E]tor,",
-          "Por Deus é rece[B]bido o [F#m]meu  [B]cla[E]mor;",
-          "Meu [B]ser en[F#]trego [B]todo_a Ti, ó [F#]Salva[B]dor;",
-          "Meus [E]olhos a Ti le[A]van[E]to, a[B]tende-me, Sen[E]hor."
+          "Em [D]Teu bendito [A]Nome, ó [G]Re-[A]den[D]tor,",
+          "Por Deus é rece[A]bido o [Em]meu [A]cla[D]mor;",
+          "Meu [A]ser en[E]trego [A]todo a Ti, ó [E]Salva[A]dor;",
+          "Meus [D]olhos a Ti le[G]van[D]to, a[A]tende-me, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ag[E]rava-se_a ba[B]talha a[A]qui, [B]meu [E]Rei,",
-          "Mas sempre_estás co[B]migo, não [F#m]te – [B]me-[E]rei;",
-          "De [B]arma[F#]dura [B]divinal me [F#]prove[B]rás;",
-          "Ao [E]fim, na eterna [A]gló[E]ria, Tu [B]me recebe[E]rás."
+          "Ag[D]rava-se a ba[A]talha a[G]qui, [A]meu [D]Rei,",
+          "Mas sempre estás co[A]migo, não [Em]te – [A]me-[D]rei;",
+          "De [A]arma[E]dura [A]divinal me [E]prove[A]rás;",
+          "Ao [D]fim, na eterna [G]gló[D]ria, Tu [A]me recebe[D]rás."
         ]
       }
     ]

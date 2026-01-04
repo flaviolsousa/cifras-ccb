@@ -1,10 +1,14 @@
 {
+  "code": "401",
   "version": "v3",
   "title": "Revela Teu querer",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["C", "F", "C", "Am", "D7", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -21,7 +25,7 @@
         "text": [
           "Re[C]vela, ó bom Pai, ro[F]gamos com fervor,",
           "Teus p[C]lanos eternais, por [Am]Teu Con[D7]sola[G]dor.",
-          "Pre[C]cioso, para nós, é_o [F]santo Teu saber",
+          "Pre[C]cioso, para nós, é o [F]santo Teu saber",
           "Que [C]nos fa[G7]rá ven[C]cer."
         ]
       },
@@ -29,7 +33,7 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Oh! [C]Faze-nos crescer na_i[F]magem de Jesus;",
+          "Oh! [C]Faze-nos crescer na i[F]magem de Jesus;",
           "Que[C]remos prosperar na [Am]graça [D7]e na l[G]uz.",
           "Des[C]venda, ó Senhor, mis[F]térios lá dos céus",
           "E [C]pensa[G7]mentos T[C]eus."

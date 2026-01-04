@@ -1,18 +1,22 @@
 {
+  "code": "413",
   "version": "v3",
   "title": "Foi por mim que morreste",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["F", "A#", "F", "C", "F"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Foi por m[F]im que morreste, Je[Bb]sus Reden[F]tor,",
+          "Foi por m[F]im que morreste, Je[A#]sus Reden[F]tor,",
           "Por a[C]mor, para dar-me a [F]fé;",
-          "Fé em Deus, que me livra do [Bb]mal, ó Sen[F]hor,",
+          "Fé em Deus, que me livra do [A#]mal, ó Sen[F]hor,",
           "E con[C]serva-me sempre de [F]pé."
         ]
       },
@@ -21,18 +25,18 @@
         "text": [
           "Ao Cor[F]deiro de Deus, sempre glória darei,",
           "Pois, do [G7]céu, veio para sal[C]var;",
-          "[C7]Ao meu [F]bom Salvador sempre [Bb]exalta[F]rei;",
-          "Santas [Bb]bênçãos me f[C]az desfru[F]tar."
+          "[C7]Ao meu [F]bom Salvador sempre [A#]exalta[F]rei;",
+          "Santas [A#]bênçãos me f[C]az desfru[F]tar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Pelo T[F]eu sacrifício, Je[Bb]sus Remi[F]dor,",
-          "Me a[C]briste_o caminho dos c[F]éus;",
-          "Dos pecados lavaste min[Bb]h´alma, Sen[F]hor,",
-          "Comun[C]hão tenho_agora com D[F]eus."
+          "Pelo T[F]eu sacrifício, Je[A#]sus Remi[F]dor,",
+          "Me a[C]briste o caminho dos c[F]éus;",
+          "Dos pecados lavaste min[A#]h´alma, Sen[F]hor,",
+          "Comun[C]hão tenho agora com D[F]eus."
         ]
       },
       {
@@ -43,9 +47,9 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Bom Jes[F]us, por Teu ato su[Bb]blime de_a[F]mor",
+          "Bom Jes[F]us, por Teu ato su[A#]blime de a[F]mor",
           "Me trou[C]xeste, de Deus, o perd[F]ão;",
-          "Levarás minha alma ao [Bb]lar de_esplen[F]dor,",
+          "Levarás minha alma ao [A#]lar de esplen[F]dor,",
           "Onde [C]receberei galard[F]ão."
         ]
       },

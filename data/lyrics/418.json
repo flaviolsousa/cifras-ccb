@@ -1,10 +1,14 @@
 {
+  "code": "418",
   "version": "v3",
   "title": "Só Jesus Cristo, santo Cordeiro",
   "tone": {
-    "recommended": "D"
+    "original": "D",
+    "selected": "D"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["D", "D°", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -12,7 +16,7 @@
         "text": [
           "Só Jesus [D]Cristo, [D°]santo Cor[D]deiro,",
           "Reconciliou-nos com nosso D[A]eus;",
-          "[D]Vertendo sangue [D°]sobre_o ma[D]deiro,",
+          "[D]Vertendo sangue [D°]sobre o ma[D]deiro,",
           "Nos prepa[E]rou a glória dos c[A]éus.[A7]..."
         ]
       },
@@ -46,7 +50,7 @@
           "A Jesus C[D]risto [D°]sempre lou[D]vemos,",
           "Pois, deste mundo, nos separ[A]ou;",
           "[D]Toda a glória [D°]Lhe tribu[D]temos,",
-          "Da pena_e[E]terna nos libert[A]ou.[A7]..."
+          "Da pena e[E]terna nos libert[A]ou.[A7]..."
         ]
       },
       {

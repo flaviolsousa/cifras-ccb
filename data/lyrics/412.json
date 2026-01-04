@@ -1,10 +1,14 @@
 {
+  "code": "412",
   "version": "v3",
   "title": "Senhor, recordamos aqui...",
   "tone": {
-    "recommended": "F"
+    "original": "F",
+    "selected": "F"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["F", "C", "F", "Bb", "F"],
     "stanzas": [
       {
         "type": "lyric",
@@ -32,8 +36,8 @@
         "text": [
           "Faz-[F]nos dignos, [C]ó Reden[F]tor,",
           "Da [Bb]celesti[F]al comun[C]hão",
-          "Do Teu corpo_e [F]sangue pre[C]cioso, Sen[F]hor;",
-          "Conserva-nos [C]nesta_uni[F]ão.[F]..."
+          "Do Teu corpo e [F]sangue pre[C]cioso, Sen[F]hor;",
+          "Conserva-nos [C]nesta uni[F]ão.[F]..."
         ]
       }
     ]

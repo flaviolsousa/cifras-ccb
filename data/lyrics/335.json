@@ -1,38 +1,42 @@
 {
+  "code": "335",
   "version": "v3",
   "title": "Eu almejo nessa pátria entrar",
   "tone": {
-    "recommended": "E"
+    "original": "Eb",
+    "selected": "D"
   },
+  "rhythm": "Canção",
   "score": {
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Sei que, ao findar aqui o [B]meu labor,",
-          "Reinarei no lar de glória_e [E]de_esplendor,",
-          "Onde a tristeza não te[B]rá lugar;",
-          "Paz e alegria lá vou desfru[E]tar."
+          "[D]Sei que, ao findar aqui o [A]meu labor,",
+          "Reinarei no lar de glória e [D]de esplendor,",
+          "Onde a tristeza não te[A]rá lugar;",
+          "Paz e alegria lá vou desfru[D]tar."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[E]Eu almejo nessa [B]pátria_entrar",
-          "E, na glória, com Je[E]sus reinar;",
-          "Com os [A]santos [B]eu entoarei",
-          "[E]Hinos de lou[A]vores ao e[B]terno [E]Rei."
+          "[D]Eu almejo nessa [A]pátria entrar",
+          "E, na glória, com Je[D]sus reinar;",
+          "Com os [G]santos [A]eu entoarei",
+          "[D]Hinos de lou[G]vores ao e[A]terno [D]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Sei que, ao findar a luta [B]contra_o mal,",
-          "Viverei com Deus na pátria [E]celestial;",
-          "Lá existe paz, justiça [B]e amor,",
-          "E os salvos louvarão ao Cria[E]dor."
+          "[D]Sei que, ao findar a luta [A]contra o mal,",
+          "Viverei com Deus na pátria [D]celestial;",
+          "Lá existe paz, justiça [A]e amor,",
+          "E os salvos louvarão ao Cria[D]dor."
         ]
       },
       {
@@ -43,10 +47,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]Sei que, ao findar o meu pe[B]regrinar,",
-          "Entrarei com Cristo no ce[E]leste lar,",
-          "Onde os remidos se en[B]contrarão",
-          "E eternamente,_a Deus, exalta[E]rão."
+          "[D]Sei que, ao findar o meu pe[A]regrinar,",
+          "Entrarei com Cristo no ce[D]leste lar,",
+          "Onde os remidos se en[A]contrarão",
+          "E eternamente, a Deus, exalta[D]rão."
         ]
       },
       {

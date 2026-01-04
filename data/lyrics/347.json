@@ -1,48 +1,52 @@
 {
+  "code": "347",
   "version": "v3",
   "title": "Ontem, hoje e eternamente",
   "tone": {
-    "recommended": "A"
+    "original": "Ab",
+    "selected": "G"
   },
+  "rhythm": "Guarânia",
   "score": {
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Passa_o céu e a terra, mas Je[D]sus não muda[A]rá;",
-          "O Seu reino_é de grande glória [E]e jamais passará;",
-          "Ele_é sempre o [A]mesmo, Ele_é cha[D]mado “[B7]o Sen[E]hor”[E7];",
-          "[A]Ao Seu santo mandado nada [D]pode [E]se o[A]por.[A]..."
+          "[G]Passa o céu e a terra, mas Je[C]sus não muda[G]rá;",
+          "O Seu reino é de grande glória [D]e jamais passará;",
+          "Ele é sempre o [G]mesmo, Ele é cha[C]mado “[A7]o Sen[D]hor”[D7];",
+          "[G]Ao Seu santo mandado nada [C]pode [D]se o[G]por.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[A]Ao enfermo que esperava [D]a libertaç[A]ão,",
-          "Disse: “Filho, os teus pecados [E]perdoados estão.”",
-          "Hoje, Cristo Je[A]sus, à destra de [D]Deus, sen[B7]tado_es[E]tá[E7]...",
-          "[A]E, do homem que n´Ele crer, se [D]compa[E]dece[A]rá.[A]..."
+          "[G]Ao enfermo que esperava [C]a libertaç[G]ão,",
+          "Disse: “Filho, os teus pecados [D]perdoados estão.”",
+          "Hoje, Cristo Je[G]sus, à destra de [C]Deus, sen[A7]tado es[D]tá[D7]...",
+          "[G]E, do homem que n´Ele crer, se [C]compa[D]dece[G]rá.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[A]Sobre todas as coisas Cristo [D]tem poder to[A]tal;",
-          "N´Ele_habita a plenitude [E]de Deus, Pai celestial.",
-          "Esse mesmo Je[A]sus que foi para_os [D]céus, re[B7]torna[E]rá;[E7]...",
-          "[A]Coroado de glória_e honra [D]Ele [E]volta[A]rá."
+          "[G]Sobre todas as coisas Cristo [C]tem poder to[G]tal;",
+          "N´Ele habita a plenitude [D]de Deus, Pai celestial.",
+          "Esse mesmo Je[G]sus que foi para os [C]céus, re[A7]torna[D]rá;[D7]...",
+          "[G]Coroado de glória e honra [C]Ele [D]volta[G]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A]Ontem, hoje e_e[D]ternamente é_o [A]mesmo, Cristo Je[E]sus,",
-          "[A]Ele_é_o Verbo de [D]Deus, que nos trouxe [E]graça, vida_e l[A]uz;",
-          "Santo [D]e fi[A]el é Jesus, Reden[E]tor[E7]!",
-          "[A]Tudo passa, mas [D]Cristo [D]não;  [E]glória_ao [E7]Salva[A]dor!"
+          "[G]Ontem, hoje e e[C]ternamente é o [G]mesmo, Cristo Je[D]sus,",
+          "[G]Ele é o Verbo de [C]Deus, que nos trouxe [D]graça, vida e l[G]uz;",
+          "Santo [C]e fi[G]el é Jesus, Reden[D]tor[D7]!",
+          "[G]Tudo passa, mas [C]Cristo [C]não; [D]glória ao [D7]Salva[G]dor!"
         ]
       }
     ]

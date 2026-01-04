@@ -1,17 +1,21 @@
 {
+  "code": "322",
   "version": "v3",
   "title": "Vem, Rei eterno",
   "tone": {
-    "recommended": "C"
+    "original": "C",
+    "selected": "C"
   },
+  "rhythm": "Valsa",
   "score": {
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]A Tua obra de_a[G]mor conta[C]rei, [F]ó glorioso Je[C]sus;[G7]...",
-          "[Am]Que os pe[E]cados per[F]doas, di[C]rei, [D7]e que do mundo_és a [G]Luz.[G7]"
+          "[C]A Tua obra de a[G]mor conta[C]rei, [F]ó glorioso Je[C]sus;[G7]...",
+          "[Am]Que os pe[E]cados per[F]doas, di[C]rei, [D7]e que do mundo és a [G]Luz.[G7]"
         ]
       },
       {
@@ -27,7 +31,7 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Revelarás Teus mis[G]térios, Se[C]nhor, [F]a todo_aquele que c[C]rer;[G7]...",
+          "[C]Revelarás Teus mis[G]térios, Se[C]nhor, [F]a todo aquele que c[C]rer;[G7]...",
           "[Am]Pelo Es[E]pírito [F]Consola[C]dor [D7]concederás Teu sa[G]ber.[G7]"
         ]
       },
@@ -39,7 +43,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Por Tua graça me [G]deste o [C]bem, [F]a paz, a vida, o_a[C]mor;[G7]...",
+          "[C]Por Tua graça me [G]deste o [C]bem, [F]a paz, a vida, o a[C]mor;[G7]...",
           "[Am]Certo da[E]rás esta [F]graça tam[C]bém [D7]aos que Te buscam, Sen[G]hor.[G7]"
         ]
       },
