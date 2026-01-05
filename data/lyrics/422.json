@@ -15,29 +15,33 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jesus [D]Cristo, fiel Cor[A7]deiro,",
+          "ATENÇÃO:\n- VERSOS no rdelitmo de VALSA\n- CORO no rdelitmo de CANÇÃO",
+          "↓↑↑   (Valsa)",
+          "Jesus [D]Cristo, [G]fiel Cor[A]deiro,",
           "Por amor, desceu do c[D]éu;",
-          "Santo, Puro e Verda[A7]deiro,",
-          "Para nos resgatar, mor[D]reu.[D]..."
+          "Santo, Puro e [G]Verda[A]deiro,",
+          "Para nos resgatar, mor[D]reu.[D|↓]..."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Humi[D]lhou-Se assim Je[A7]sus,",
-          "Vitupério, por nós, sof[D]reu;",
+          "↓↑↓↓   (Canção)",
+          "Humi[D]lhou-Se assim Je[A]sus,",
+          "Vi[Em]tupério, [A]por nós, sof[D]reu;",
           "Pelos nossos pe[D7]cados [G]padec[D]eu;",
-          "Vida, [D]ao ressur[A7]gir, nos d[D]eu."
+          "Vida, [A]ao ressur[A7]gir, nos d[D]eu."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jesus [D]Cristo, fiel Cor[A7]deiro,",
+          "↓↑↑   (Valsa)",
+          "Jesus [D]Cristo, [G]fiel Cor[A]deiro,",
           "Padeceu na cruz por n[D]ós;",
-          "Maldição se fez no ma[A7]deiro,",
-          "Onde teve uma morte at[D]roz.[D]..."
+          "Maldição se f[G]ez no ma[A]deiro,",
+          "Onde teve uma morte at[D]roz.[D|↓]..."
         ]
       },
       {
@@ -48,10 +52,11 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Jesus [D]Cristo, fiel Cor[A7]deiro,",
+          "↓↑↑   (Valsa)",
+          "Jesus [D]Cristo, [G]fiel Cor[A]deiro,",
           "Sobre a morte triunf[D]ou;",
-          "Unigênito e Verda[A7]deiro,",
-          "O poder, Deus Lhe outor[D]gou.[D]..."
+          "Unigênito e [G]Verda[A]deiro,",
+          "O poder, Deus Lhe outor[D]gou.[D|↓]..."
         ]
       },
       {
