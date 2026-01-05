@@ -55,6 +55,10 @@
 - ☐ Display the selected speed in the ScoreDetail.Velocidade field
 - ☐ Make the difficulty level dynamic according to the selected tone key
 
+#### Technical debt
+
+- ☐ Update expo-file-system/legacy in PreferencesService.ts
+
 ## Start
 
 ### Browser

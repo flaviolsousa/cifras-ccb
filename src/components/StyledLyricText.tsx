@@ -1,5 +1,6 @@
 import React from "react";
 import { Text, type LayoutChangeEvent } from "react-native";
+import { useTheme } from "react-native-paper";
 
 interface StyledLyricTextProps {
   text: string;
@@ -8,6 +9,7 @@ interface StyledLyricTextProps {
 }
 
 const StyledLyricText: React.FC<StyledLyricTextProps> = ({ text, style, onLayout }) => {
+  const theme = useTheme();
   // Remove chord markers for lyrics display
   const lyrics = text.replace(/\[[^\]]+\]/g, "");
 
@@ -21,7 +23,7 @@ const StyledLyricText: React.FC<StyledLyricTextProps> = ({ text, style, onLayout
           <Text
             key={index}
             style={{
-              color: "transparent",
+              color: theme.colors.surface,
               // color: "red",
             }}
           >

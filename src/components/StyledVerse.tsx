@@ -61,7 +61,6 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
       left: 0,
       right: 0,
       fontFamily: "UbuntuMonoRegular",
-      color: "transparent",
       zIndex: 1,
     },
     chordSelected: {

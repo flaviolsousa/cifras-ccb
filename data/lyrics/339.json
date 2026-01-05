@@ -2,6 +2,7 @@
   "code": "339",
   "version": "v3",
   "title": "Glória sem par",
+  "level": 2,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -23,10 +24,10 @@
       {
         "type": "chorus",
         "text": [
-          "[G]Glória sem par contempla[D]rei,",
-          "Glória sem par recebe[G]rei;",
-          "Grande tesouro Je[C]sus vai me [B]dar:",
-          "[C]Glória e[G]ter[G]na, a [D]glória sem [G]par.[G]..."
+          "[G]Glória sem par contempla[Am]rei,",
+          "Glória sem p[D]ar recebe[G]rei;",
+          "Grande tesouro Je[C]sus vai me [B7]dar:",
+          "[C]Glória e[G]terna, a [D]glória sem [G]par"
         ]
       },
       {
