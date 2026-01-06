@@ -3,51 +3,51 @@
   "version": "v3",
   "title": "Quão bom e quão suave é...",
   "tone": {
-    "original": "Bb",
-    "selected": "A"
+    "original": "F",
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["A", "Bm", "E", "A"],
+    "introduction": ["D", "Em", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Quão [A]bom e quão suave [Bm]é, pe[E]rante D[A]eus,",
-          "Que vivam os irmãos em [D]doce [Bm]uni- [Db]ão;",
-          "É [A7]como orvalho [D]santo que [Bm]desce lá dos c[A]éus,",
-          "Trazendo rego[Db]zijo [Bm]e con[E]solaç[A]ão."
+          "Quão [D]bom e quão suave [Em]é, pe[A]rante D[D]eus,",
+          "Que vivam os irmãos em [G]doce [Em]uni- [F#]ão;",
+          "É [D7]como orvalho [G]santo que [Em]desce lá dos c[D]éus,",
+          "Trazendo rego[F#]zijo [Em]e con[A]solaç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "É [A]o celeste orvalho [Bm]que as [E]bênçãos t[A]raz",
-          "E vivifica sempre o [D]nosso [Bm]coraç[Db]ão,",
-          "Por[A7]que o Senhor or[D]dena a [Bm]vida e a p[A]az.",
-          "O santo amor de [Db]Deus con[Bm]duz à [E]perfeiç[A]ão."
+          "É [D]o celeste orvalho [Em]que as [A]bênçãos t[D]raz",
+          "E vivifica sempre o [G]nosso [Em]coraç[F#]ão,",
+          "Por[D7]que o Senhor or[G]dena a [Em]vida e a p[D]az.",
+          "O santo amor de [F#]Deus con[Em]duz à [A]perfeiç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Fun[A]dados estejamos [Bm]no di[E]vino a[A]mor",
-          "A fim de compreendermos [D]quão pro[Bm]fundo [Db]é",
-          "O a[A7]mor do nosso [D]Mestre, Je[Bm]sus, o Reden[A]tor.",
-          "Que trouxe às nossas [Db]almas [Bm]preci[E]osa [A]fé."
+          "Fun[D]dados estejamos [Em]no di[A]vino a[D]mor",
+          "A fim de compreendermos [G]quão pro[Em]fundo [F#]é",
+          "O a[D7]mor do nosso [G]Mestre, Je[Em]sus, o Reden[D]tor.",
+          "Que trouxe às nossas [F#]almas [Em]preci[A]osa [D]fé."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Nós [A]somos a herança [Bm]do e[E]terno D[A]eus;",
-          "Jesus, o Verdadeiro, [D]é a [Bm]nossa [Db]Paz;",
-          "“A[A7]mai-vos uns aos [D]outros”, en[Bm]sina para os S[A]eus;",
-          "O Seu amor su[Db]blime [Bm]rego[E]zijo t[A]raz."
+          "Nós [D]somos a herança [Em]do e[A]terno D[D]eus;",
+          "Jesus, o Verdadeiro, [G]é a [Em]nossa [F#]Paz;",
+          "“A[D7]mai-vos uns aos [G]outros”, en[Em]sina para os S[D]eus;",
+          "O Seu amor su[F#]blime [Em]rego[A]zijo t[D]raz."
         ]
       }
     ]
