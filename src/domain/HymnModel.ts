@@ -22,6 +22,7 @@ export interface Stanza {
 }
 
 export interface Score {
+  initialObservation: string;
   introduction: string[];
   stanzas: Stanza[];
 }

@@ -2,6 +2,7 @@
   "code": "133",
   "version": "v3",
   "title": "Quão bom e quão suave é...",
+  "level": 5,
   "tone": {
     "original": "F",
     "selected": "D"
@@ -14,40 +15,42 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Quão [D]bom e quão suave [Em]é, pe[A]rante D[D]eus,",
-          "Que vivam os irmãos em [G]doce [Em]uni- [F#]ão;",
+          "ATENÇÃO:\n- Alguns compassos serão divididos em 2 acordes",
+          "↓↑ então ↓↓   (Canção)",
+          "Quão [D|x1]bom e quão su[D|↓↑]ave [Em|↓↓]é, pe[A]rante D[D]eus,",
+          "Que vivam os irmu[D|↓↑]ãos em [G|↓↓]doce [Em]uni[F#]ão;",
           "É [D7]como orvalho [G]santo que [Em]desce lá dos c[D]éus,",
-          "Trazendo rego[F#]zijo [Em]e con[A]solaç[D]ão."
+          "Trazendo rego[F#|↓↑]zijo [Em|↓↓]e con[A]solaç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "É [D]o celeste orvalho [Em]que as [A]bênçãos t[D]raz",
-          "E vivifica sempre o [G]nosso [Em]coraç[F#]ão,",
+          "É [D]o celeste or[D|↓↑]valho [Em|↓↓]que as [A]bênçãos t[D]raz",
+          "E vivifica sem[D|↓↑]pre o [G|↓↓]nosso [Em]coraç[F#]ão,",
           "Por[D7]que o Senhor or[G]dena a [Em]vida e a p[D]az.",
-          "O santo amor de [F#]Deus con[Em]duz à [A]perfeiç[D]ão."
+          "O santo amor de [F#|↓↑]Deus con[Em|↓↓]duz à [A]perfeiç[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Fun[D]dados estejamos [Em]no di[A]vino a[D]mor",
-          "A fim de compreendermos [G]quão pro[Em]fundo [F#]é",
+          "Fun[D]dados este[D|↓↑]jamos [Em|↓↓]no di[A]vino a[D]mor",
+          "A fim de compre[D|↓↑]endermos [G|↓↓]quão pro[Em]fundo [F#]é",
           "O a[D7]mor do nosso [G]Mestre, Je[Em]sus, o Reden[D]tor.",
-          "Que trouxe às nossas [F#]almas [Em]preci[A]osa [D]fé."
+          "Que trouxe às nossas [F#|↓↑]almas [Em|↓↓]preci[A]osa [D]fé."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Nós [D]somos a herança [Em]do e[A]terno D[D]eus;",
-          "Jesus, o Verdadeiro, [G]é a [Em]nossa [F#]Paz;",
-          "“A[D7]mai-vos uns aos [G]outros”, en[Em]sina para os S[D]eus;",
-          "O Seu amor su[F#]blime [Em]rego[A]zijo t[D]raz."
+          "Nós [D]somos a he[D|↓↑]rança [Em|↓↓]do e[A]terno D[D]eus;",
+          "Jesus, o Verda[D|↓↑]deiro, [G|↓↓]é a [Em]nossa [F#]Paz;",
+          "“A[D7]maios uns aos [G]outros”, en[Em]sina para os S[D]eus;",
+          "O Seu amor su[F#|↓↑]blime [Em|↓↓]rego[A]zijo t[D]raz."
         ]
       }
     ]

@@ -2,42 +2,43 @@
   "code": "135",
   "version": "v3",
   "title": "Bendito o Rei que veio do céu!",
+  "level": 4,
   "tone": {
     "original": "F",
-    "selected": "E"
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["E", "A", "E", "A", "E"],
+    "introduction": ["D", "G", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[E]Bendito o Rei que [A]vei - [E]o em nome do Eterno!",
-          "“Hosana nas al[A]tu - [E]ras!”, clamava a [B]multi[E]dão;",
-          "[B]Bendito o Rei divino, [E]manso, fiel, [Gb7]fra - [B]terno,",
-          "[E]Dócil e glori[A]o - [E]so, Autor da [B]salva[E]ção!"
+          "[D]Bendito o Rei que [G]vei - [D]o em nome do Eterno!",
+          "“Hosana nas al[G]tu - [D]ras!”, clamava a [A]multi[D]dão;",
+          "[A]Bendito o Rei divino, [D]manso, [D|↓↑]fiel, [E7|↓↓]fra - [A]terno,",
+          "[D]Dócil e glori[G]o - [D]so, Autor da [A]salva[D]ção!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]Bendito o Rei que [A]vei - [E]o para vencer a morte",
-          "E dar-nos liber[A]da - [E]de para em jus[B]tiça an[E]dar.",
-          "[B]Bendito seja sempre, [E]dos fortes o [Gb7]mais [B]Forte!",
-          "[E]Todos se ale[A]gra - [E]vam ao ver Je[B]sus pas[E]sar."
+          "[D]Bendito o Rei que [G]vei - [D]o para vencer a morte",
+          "E dar-nos liber[G]da - [D]de para em jus[A]tiça an[D]dar.",
+          "[A]Bendito seja sempre, [D]dos fortes [D|↓↑]o [E7|↓↓]mais [A]Forte!",
+          "[D]Todos se ale[G]gra - [D]vam ao ver Je[A]sus pas[D]sar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[E]A multidão lou[A]va - [E]va a Cristo, o Rei eterno,",
-          "E se regozi[A]ja - [E]va de todo o [B]cora[E]ção;",
-          "[B]Disse o divino Mestre, [E]cheio do amor [Gb7]su - [B]perno:",
-          "“[E]Se estes se ca[A]la - [E]rem, as pedras [B]clama[E]rão.”"
+          "[D]A multidão lou[G]va - [D]va a Cristo, o Rei eterno,",
+          "E se regozi[G]ja - [D]va de todo o [A]cora[D]ção;",
+          "[A]Disse o divino Mestre, [D]cheio do a[D|↓↑]mor [E7|↓↓]su - [A]perno:",
+          "“[D]Se estes se ca[G]la - [D]rem, as pedras [A]clama[D]rão.”"
         ]
       }
     ]

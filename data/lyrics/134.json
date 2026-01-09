@@ -2,6 +2,7 @@
   "code": "134",
   "version": "v3",
   "title": "Teu amor, ó Cordeiro divinal",
+  "level": 3,
   "tone": {
     "original": "E",
     "selected": "E"
@@ -19,7 +20,7 @@
         "type": "chorus",
         "text": [
           "Teu a[E]mor, Teu amor, ó Cor[B]deiro divinal,",
-          "Só a[B7]gora é que posso enten[E]der:",
+          "Só a[A]gora é que [B7]posso enten[E]der[E7]:",
           "Tu pa[A]gaste a Deus meu pe[E]cado, meu mal,",
           "E fi[A]zeste fe[B7]liz o meu vi[E]ver."
         ]
