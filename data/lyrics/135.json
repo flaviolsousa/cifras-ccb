@@ -10,6 +10,7 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["D", "G", "D", "G", "D"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",

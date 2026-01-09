@@ -10,12 +10,12 @@
   "rhythm": "Valsa",
   "score": {
     "introduction": ["D", "A7", "D", "A7", "D"],
+    "initialObservation": "VERSOS no ritmo de VALSA\nCORO no ritmo de CANÇÃO",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "ATENÇÃO:\n- VERSOS no rdelitmo de VALSA\n- CORO no rdelitmo de CANÇÃO",
           "↓↑↑   (Valsa)",
           "Jesus [D]Cristo, [G]fiel Cor[A]deiro,",
           "Por amor, desceu do c[D]éu;",
