@@ -90,7 +90,6 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
             </Pressable>
           )}
         </View>
-
         {/* Second row - Division and Time */}
         <View style={styles.row}>
           {sigN && sigD && (
@@ -110,7 +109,6 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
             </View>
           )}
         </View>
-
         {/* Third row - Tone and Capo */}
         <View style={styles.row}>
           {tone && (
@@ -150,7 +148,26 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
             <DifficultyIndicator level={hymn.level} />
           </View>
         )}
+
+        {/* Fifth row - Initial Observation */}
+        {hymn.score?.initialObservation && (
+          <>
+            <View
+              style={{
+                borderBottomColor: theme.colors.onSurfaceDisabled,
+                borderBottomWidth: StyleSheet.hairlineWidth,
+                marginVertical: 8,
+              }}
+            />
+            <View style={styles.row}>
+              <Text variant="bodyMedium" style={{ flex: 1 }}>
+                {hymn.score.initialObservation}
+              </Text>
+            </View>
+          </>
+        )}
       </View>
+
       <ToneSelector visible={toneSelectorVisible} currentTone={tone} onSelect={handleToneSelect} onDismiss={() => setToneSelectorVisible(false)} />
     </>
   );

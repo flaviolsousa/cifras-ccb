@@ -10,13 +10,12 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["D", "Em", "A", "D"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "ATENÇÃO:\n- Alguns compassos serão divididos em 2 acordes",
-          "↓↑ então ↓↓   (Canção)",
           "Quão [D|x1]bom e quão su[D|↓↑]ave [Em|↓↓]é, pe[A]rante D[D]eus,",
           "Que vivam os irmu[D|↓↑]ãos em [G|↓↓]doce [Em]uni[F#]ão;",
           "É [D7]como orvalho [G]santo que [Em]desce lá dos c[D]éus,",
