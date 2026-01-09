@@ -14,7 +14,7 @@ function cleanChordName(chord: string): string {
   return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
 }
 
-const StyledIntroductionText: React.FC<StyledIntroductionTextProps> = ({ introduction, fontSize, fontSizeDouble, selectedChord, onChordPress }) => {
+const StyledIntroduction: React.FC<StyledIntroductionTextProps> = ({ introduction, fontSize, fontSizeDouble, selectedChord, onChordPress }) => {
   const theme = useTheme();
 
   const styles = StyleSheet.create({
@@ -52,4 +52,4 @@ const StyledIntroductionText: React.FC<StyledIntroductionTextProps> = ({ introdu
   );
 };
 
-export default StyledIntroductionText;
+export default StyledIntroduction;

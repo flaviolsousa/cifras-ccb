@@ -17,7 +17,7 @@ import useOrientation from "../hooks/useOrientation";
 import { type RootStackParamList } from "../navigation/MainNavigator";
 import HymnIntroNotes from "../components/HymnIntroNotes";
 import StyledVerse from "../components/StyledVerse";
-import StyledIntroductionText from "../components/StyledIntroductionText";
+import StyledIntroduction from "../components/StyledIntroduction";
 import { usePreferences } from "../hooks/usePreferences";
 import HymnDetailToolbar from "../components/HymnDetailToolbar";
 import HymnDetailMenu from "../components/HymnDetailMenu";
@@ -457,7 +457,7 @@ const HymnDetails = () => {
           <Divider />
           {hymn && <HymnIntroNotes hymn={hymn} isPortrait={isPortrait} contentWidth={contentWidth} />}
           {hymn && hymn?.score?.introduction && (
-            <StyledIntroductionText
+            <StyledIntroduction
               introduction={hymn.score.introduction}
               fontSize={fontSize}
               fontSizeDouble={fontSizeDouble}
