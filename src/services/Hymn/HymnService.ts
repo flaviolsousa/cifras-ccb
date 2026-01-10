@@ -56,7 +56,7 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
         chordSymbol = "°";
       }
       try {
-        let transposed = transpose(chord).fromKey(fromKey).toKey(toKey);
+        let transposed = transpose(chord).fromKey(fromKey).toKey(toKey).toString();
         // Normalize enharmonic spelling
         transposed = normalizeEnharmonic(transposed);
         result += `[${transposed}${chordSymbol}${!!notes ? `|${notes}` : ""}]`;

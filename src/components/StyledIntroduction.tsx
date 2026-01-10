@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text } from "react-native";
 import { useTheme } from "react-native-paper";
 
-interface StyledIntroductionTextProps {
+interface StyledIntroductionProps {
   introduction: string[];
   fontSize: number;
   fontSizeDouble: number;
@@ -14,7 +14,7 @@ function cleanChordName(chord: string): string {
   return chord.replaceAll(/[.]/g, "").replaceAll(/\|.*/g, "");
 }
 
-const StyledIntroduction: React.FC<StyledIntroductionTextProps> = ({ introduction, fontSize, fontSizeDouble, selectedChord, onChordPress }) => {
+const StyledIntroduction: React.FC<StyledIntroductionProps> = ({ introduction, fontSize, fontSizeDouble, selectedChord, onChordPress }) => {
   const theme = useTheme();
 
   const styles = StyleSheet.create({
