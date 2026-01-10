@@ -3,11 +3,6 @@ import { Hymns, getHymnModel } from "./HymnImports";
 import { transpose } from "chord-transposer";
 import CryptoService from "./CryptoService";
 
-const CHORD_MAP = {
-  Gb: "F#",
-  Bb: "A#",
-};
-
 // Normalize flats to sharps consistently
 const FLAT_TO_SHARP: Record<string, string> = {
   Db: "C#",

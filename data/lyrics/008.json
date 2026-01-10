@@ -14,16 +14,16 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[A]Nesta terrena [E7]vida, ó justo Reden[A]tor,", "São grandes os combates [D]aos Teus fi[B7]éis, [E7]Se - n[A]hor."]
+        "text": ["[A]Nesta terrena [E7]vida, ó justo Reden[A]tor,", "São grandes os combates [D]aos Teus fi[B7]éis, [E7]Se[A]nhor."]
       },
       {
         "type": "chorus",
-        "text": ["[A]Oh! Vem, [D]sim, vem [E7]nos alegrar, Sen[A]hor;", "És nossa [D]Espe[A]rança [D]e nosso [B7]De – [E7]fen - [A]sor."]
+        "text": ["[A]Oh! Vem, [D]sim, vem [E7]nos alegrar, Sen[A]hor;", "És nossa [D]Espe[A]rança [D]e nosso [B7]De[E7]fen[A]sor."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[A]No mundo há vai[E7]dade, muita tristeza e [A]dor,", "Mas Teus remidos sentem [D]a Tua [B7]paz  [E7]e a - [A]mor."]
+        "text": ["[A]No mundo há vai[E7]dade, muita tristeza e [A]dor,", "Mas Teus remidos sentem [D]a Tua [B7]paz [E7]e a[A]mor."]
       },
       {
         "type": "ref",
@@ -32,7 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[A]Do céu Te espe[E7]ramos, glorioso, eterno [A]Rei;", "Tu és veraz Pastor e [D]nós somos [B7]Tu - [E7]a   g[A]rei."]
+        "text": ["[A]Do céu Te espe[E7]ramos, glorioso, eterno [A]Rei;", "Tu és veraz Pastor e [D]nós somos [B7]Tu[E7]a g[A]rei."]
       },
       {
         "type": "ref",

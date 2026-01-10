@@ -22,17 +22,26 @@ function padWordsUnderChords(line: string): string {
   return line.replace(regex, (match, chordNotation, word) => {
     let { chord, notes } = HymnService.splitChord(chordNotation);
 
-    let minLength;
+    const nextCharIndex = match.length;
+    const indexNextChar = line.indexOf(match) + nextCharIndex;
+    const nextChar = line[indexNextChar];
+
+    let minLength = nextChar === "[" ? 1 : 0; // to check if the chord is in the middle of a word that has another chord in sequence
     if (notes) {
-      minLength = chord.length + Math.ceil(notes.length / 2);
+      minLength += chord.length + Math.ceil(notes.length / 2);
     } else {
       notes = "";
-      minLength = chord.length;
+      minLength += chord.length;
     }
 
     const currentLength = word.length;
     const paddingNeeded = Math.max(0, minLength - currentLength);
-    const paddedWord = word + "_".repeat(paddingNeeded);
+    let paddedWord = word + "_".repeat(paddingNeeded);
+
+    // Verifica se há um [ logo após a palavra
+    if (paddingNeeded > 0 && nextChar === "[") {
+      paddedWord += "-_";
+    }
 
     return chordNotation + paddedWord;
   });
