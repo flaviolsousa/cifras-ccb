@@ -14,6 +14,7 @@ export type Preferences = {
   showAutoScroll: boolean;
   showAudioPlayer: boolean;
   showNotes: boolean;
+  notesBigStyle: boolean;
   showToolbar: boolean;
 };
 
@@ -26,6 +27,7 @@ const DEFAULT_PREFERENCES: Preferences = {
   showAutoScroll: true,
   showAudioPlayer: true,
   showNotes: true,
+  notesBigStyle: false,
   showToolbar: true,
 };
 

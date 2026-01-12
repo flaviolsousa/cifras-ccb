@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { HymnModel, Stanza, Score } from "../domain/HymnModel";
 import HymnService from "../services/Hymn/HymnService";
 
-const updateWithRef = (score: Score, stanza: Stanza) => {
+const updateRefs = (score: Score, stanza: Stanza) => {
   if (!stanza.ref) return;
   const match = stanza.ref.match(/score\.stanzas\[(\d+)\]/);
   if (match && match[1]) {
@@ -27,7 +27,7 @@ const useHymnData = (hymnCode: string) => {
         const score = hymn.score;
         score.stanzas.forEach((stanza: Stanza) => {
           if (stanza.type === "ref") {
-            updateWithRef(score, stanza);
+            updateRefs(score, stanza);
           }
         });
 

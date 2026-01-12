@@ -14,13 +14,25 @@ interface StyledChordTextProps {
   onChordPress?: (chord: string) => void;
   selectedChord?: string | null;
   showNotes: boolean;
+  notesBigStyle: boolean;
   fontSize: number;
 }
 
-const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSelected, onChordPress, selectedChord, showNotes, fontSize }) => {
+const StyledChordText: React.FC<StyledChordTextProps> = ({
+  text,
+  style,
+  styleSelected,
+  onChordPress,
+  selectedChord,
+  showNotes,
+  notesBigStyle,
+  fontSize,
+}) => {
   const theme = useTheme();
   const parts = text.split(/(\[[^\]]+\])/g);
   let lastChordLength: number = 0;
+
+  const noteFontSize = notesBigStyle ? fontSize : fontSize / 2;
 
   return (
     <Text style={style}>
@@ -28,6 +40,7 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
         let comp;
         if (part.startsWith("[") && part.endsWith("]")) {
           const { chord, notes } = HymnService.splitChord(part);
+          const notesLength = showNotes && notes ? (notesBigStyle ? notes.length : Math.ceil(notes.length / 2)) : 0;
           comp = (
             <React.Fragment key={`fragment-${index}-${part}`}>
               <Text
@@ -40,21 +53,21 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({ text, style, styleSel
                 <>
                   {notes.split("").map((char, i) =>
                     char === " " ? (
-                      <Text key={"note-space-" + i} style={{ color: theme.colors.surface, fontSize: fontSize / 2 }}>
+                      <Text key={"note-space-" + i} style={{ color: theme.colors.surface, fontSize: noteFontSize }}>
                         _
                       </Text>
                     ) : (
-                      <Text key={"note-char-" + i} style={{ color: theme.colors.secondary, fontSize: fontSize / 2 }}>
+                      <Text key={"note-char-" + i} style={{ color: theme.colors.secondary, fontSize: noteFontSize }}>
                         {char}
                       </Text>
                     ),
                   )}
-                  {notes.length % 2 == 1 && <Text style={{ color: theme.colors.surface, fontSize: fontSize / 2 }}>_</Text>}
+                  {!notesBigStyle && notes.length % 2 == 1 && <Text style={{ color: theme.colors.surface, fontSize: noteFontSize }}>_</Text>}
                 </>
               )}
             </React.Fragment>
           );
-          lastChordLength = chord.length + (notes && showNotes ? Math.ceil(notes.length / 2) : 0);
+          lastChordLength = chord.length + notesLength;
         } else {
           comp = (
             <Text key={`text-${index}-${part}`} style={{ color: theme.colors.surface }}>

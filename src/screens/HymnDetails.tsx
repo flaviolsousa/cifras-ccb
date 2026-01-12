@@ -57,6 +57,7 @@ const HymnDetails = () => {
   const [isAutoScrolling, setIsAutoScrolling] = useState(false);
   const [audioPlayerVisible, setAudioPlayerVisible] = useState(preferences.showAudioPlayer ?? true);
   const [showNotes, setShowNotes] = useState(preferences.showNotes ?? true);
+  const [notesBigStyle, setNotesBigStyle] = useState(preferences.notesBigStyle ?? false);
   const [toolbarVisible, setToolbarVisible] = useState(preferences.showToolbar ?? true);
 
   const isWebPlatform = Platform.OS === "web";
@@ -109,8 +110,16 @@ const HymnDetails = () => {
     setAutoScrollVisible(preferences.showAutoScroll);
     setAudioPlayerVisible(preferences.showAudioPlayer);
     setShowNotes(preferences.showNotes);
+    setNotesBigStyle(preferences.notesBigStyle);
     setToolbarVisible(preferences.showToolbar);
-  }, [preferences.fontSize, preferences.showAutoScroll, preferences.showAudioPlayer, preferences.showNotes, preferences.showToolbar]);
+  }, [
+    preferences.fontSize,
+    preferences.showAutoScroll,
+    preferences.showAudioPlayer,
+    preferences.showNotes,
+    preferences.notesBigStyle,
+    preferences.showToolbar,
+  ]);
 
   // save distinct of chords to ChordPanel
   useEffect(() => {
@@ -498,6 +507,7 @@ const HymnDetails = () => {
                         selectedChord={selectedChord}
                         onVerseLayout={(event) => onVerseLayout(event, stanzaIndex, verseIndex)}
                         showNotes={showNotes}
+                        notesBigStyle={notesBigStyle}
                       />
                     );
                   })}

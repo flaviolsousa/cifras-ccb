@@ -14,9 +14,10 @@ interface HymnVerseProps {
   selectedChord: string | null;
   onVerseLayout: (event: LayoutChangeEvent) => void;
   showNotes: boolean;
+  notesBigStyle: boolean;
 }
 
-function padWordsUnderChords(line: string): string {
+function padWordsUnderChords(line: string, notesBigStyle: boolean, showNotes: boolean): string {
   const regex = /(\[[^\]]+\])([^\s\[]*)/g;
 
   return line.replace(regex, (match, chordNotation, word) => {
@@ -27,8 +28,9 @@ function padWordsUnderChords(line: string): string {
     const nextChar = line[indexNextChar];
 
     let minLength = nextChar === "[" ? 1 : 0; // to check if the chord is in the middle of a word that has another chord in sequence
-    if (notes) {
-      minLength += chord.length + Math.ceil(notes.length / 2);
+    if (showNotes && notes) {
+      const notesLength = notesBigStyle ? notes.length : Math.ceil(notes.length / 2);
+      minLength += chord.length + notesLength;
     } else {
       notes = "";
       minLength += chord.length;
@@ -41,6 +43,7 @@ function padWordsUnderChords(line: string): string {
     // Verifica se há um [ logo após a palavra
     if (paddingNeeded > 0 && nextChar === "[") {
       paddedWord += "-_";
+      console.log("Adicionou -_ ->", match, "->", "minLength", minLength, "currentLength", currentLength, "paddedWord", paddedWord);
     }
 
     return chordNotation + paddedWord;
@@ -56,6 +59,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
   selectedChord,
   onVerseLayout,
   showNotes,
+  notesBigStyle,
 }) => {
   const theme = useTheme();
   const [lineFormatted, setLineFormatted] = useState<string>(line);
@@ -86,8 +90,8 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
   });
 
   useEffect(() => {
-    setLineFormatted(padWordsUnderChords(line));
-  }, [line]);
+    setLineFormatted(padWordsUnderChords(line, notesBigStyle, showNotes));
+  }, [line, notesBigStyle, showNotes]);
 
   return (
     <View
@@ -113,6 +117,7 @@ const HymnVerse: React.FC<HymnVerseProps> = ({
         onChordPress={onChordPress}
         selectedChord={selectedChord}
         showNotes={showNotes}
+        notesBigStyle={notesBigStyle}
         fontSize={fontSize}
       />
       <StyledLyricText

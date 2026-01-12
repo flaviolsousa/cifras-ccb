@@ -15,7 +15,7 @@ import { usePreferences } from "../hooks/usePreferences";
 const Preferences = () => {
   const { preferences, savePreferences } = usePreferences();
   const theme = useTheme();
-  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes, showToolbar, favoriteChords = [] } = preferences;
+  const { fontSize, themeName, showAutoScroll, showAudioPlayer, showNotes, notesBigStyle, showToolbar, favoriteChords = [] } = preferences;
   const [verseHeight, setVerseHeight] = useState<number>(preferences.fontSize);
   const { themeName: themeNameContext, setThemeName: setThemeNameContext } = useContext(ThemeContext);
   const navigation = useNavigation();
@@ -77,6 +77,7 @@ const Preferences = () => {
               selectedChord={""}
               onVerseLayout={(event) => onVerseLayout(event)}
               showNotes={showNotes}
+              notesBigStyle={notesBigStyle}
             />
           </List.Section>
 
@@ -126,6 +127,22 @@ const Preferences = () => {
                 />
               )}
             />
+
+            <List.Item
+              title="Notas com Tamanho Grande"
+              description="Exibir as notas com o mesmo tamanho da fonte dos acordes (ao invés de metade do tamanho)"
+              left={() => <Icon source="format-size" size={24} />}
+              right={() => (
+                <Switch
+                  value={notesBigStyle ?? false}
+                  disabled={!showNotes}
+                  onValueChange={(value) => {
+                    savePreferences({ ...preferences, notesBigStyle: value });
+                  }}
+                />
+              )}
+            />
+
             <List.Item
               title="Exibir Barra de Ferramentas"
               description="Barra de ferramentas abaixo do cabeçalho na tela de hino"
