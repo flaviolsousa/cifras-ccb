@@ -43,7 +43,6 @@ function padWordsUnderChords(line: string, notesBigStyle: boolean, showNotes: bo
     // Verifica se há um [ logo após a palavra
     if (paddingNeeded > 0 && nextChar === "[") {
       paddedWord += "-_";
-      console.log("Adicionou -_ ->", match, "->", "minLength", minLength, "currentLength", currentLength, "paddedWord", paddedWord);
     }
 
     return chordNotation + paddedWord;

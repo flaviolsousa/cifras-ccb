@@ -163,14 +163,12 @@ const HymnDetails = () => {
 
   // Zoom
   const [zoomControlVisible, setZoomControlVisible] = React.useState(false);
-  let zoomControlAction = "";
+
   const increaseFontSize = () => {
     setFontSize((prev: number) => Math.min(prev + 2, 90));
-    zoomControlAction = "increaseFontSize";
   };
   const decreaseFontSize = () => {
     setFontSize((prev: number) => Math.max(prev - 2, 10));
-    zoomControlAction = "decreaseFontSize";
   };
 
   const onVerseLayout = (event: LayoutChangeEvent, stanzaIndex: number, verseIndex: number) => {
@@ -218,9 +216,11 @@ const HymnDetails = () => {
       if (deltaY < 0 && !headerVisible && !isAutoScrolling) {
         setHeaderVisible(true);
         showHeader();
+        console.log("xxx showHeader");
       } else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
         setHeaderVisible(false);
         hideHeader();
+        console.log("xxx hideHeader");
       }
       lastScrollY.current = currentScrollY;
     },
@@ -543,7 +543,7 @@ const HymnDetails = () => {
           <FAB icon="close" onPress={() => setZoomControlVisible(false)} style={styles.fab} small accessibilityLabel="Fechar controle de zoom" />
         </View>
       )}
-      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} onPlay={closeAllTools} hymn={hymn} />
+      <HymnAudioPlayer hymnCode={hymnCode} visible={audioPlayerVisible} onPlay={closeAllTools} />
 
       <ChordPanel
         selectedChord={selectedChord}
