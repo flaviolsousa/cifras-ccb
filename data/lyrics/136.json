@@ -2,13 +2,14 @@
   "code": "136",
   "version": "v3",
   "title": "Benignidade eterna é a de Deus",
+  "level": 3,
   "tone": {
     "original": "D",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "A7", "D", "A", "E7", "A", "D"],
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

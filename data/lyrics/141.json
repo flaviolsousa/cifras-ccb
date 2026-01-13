@@ -2,19 +2,14 @@
   "code": "141",
   "version": "v3",
   "title": "Cristo, o Verbo",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D",
-      "A",
-      "D"
-    ],
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",

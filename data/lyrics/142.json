@@ -2,47 +2,43 @@
   "code": "142",
   "version": "v3",
   "title": "Ó Pai celestial",
+  "level": 2,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "F",
-      "C",
-      "F",
-      "A#",
-      "F"
-    ],
+    "introduction": ["D", "A", "D", "G", "D"],
+    "initialObservation": "Se mudar o tom para F, é um bom hino para estudar os acordes da tonalidade.",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó [F]Pai celestial, de a[C]mor eter[F]nal,",
-          "Im[A#]ploro com todo o meu [F]ser:",
-          "Vem me fortificar e tam[A#]bém conso[F]lar",
-          "Com o Teu glori[C]oso po[F]der."
+          "Ó [D]Pai celestial, de a[A]mor eter[D]nal,",
+          "Im[G]ploro com todo o meu [D]ser:",
+          "Vem me fortificar e tam[G]bém conso[D]lar",
+          "Com o Teu glori[A]oso po[D]der."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Eu im[F]ploro com todo o meu [C]ser:",
-          "Pai, vem sempre me socor[F]rer;",
-          "Com Teu santo vi[F7]gor, eu se[A#]rei vence[Gm]dor",
-          "E ve[C]rei Tua glória, Sen[F]hor."
+          "Eu im[D]ploro com todo o meu [A]ser:",
+          "Pai, vem sempre me socor[D]rer;",
+          "Com Teu santo vi[D7]gor, eu se[G]rei vence[Em]dor",
+          "E ve[A]rei Tua glória, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Fi[F]el e bom Deus, dá-me [C]graça dos c[F]éus",
-          "De [A#]resistir ao tenta[F]dor,",
-          "Que furioso está e tor[A#]mento me [F]dá",
-          "Neste mundo de [C]lutas e [F]dor."
+          "Fi[D]el e bom Deus, dá-me [A]graça dos c[D]éus",
+          "De [G]resistir ao tenta[D]dor,",
+          "Que furioso está e tor[G]mento me [D]dá",
+          "Neste mundo de [A]lutas e [D]dor."
         ]
       },
       {
@@ -53,10 +49,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Ó [F]Pai, vem me dar forças [C]para lu[F]tar",
-          "A [A#]fim de em tudo ven[F]cer;",
-          "Acrescenta-me a fé e sus[A#]tém-me de [F]pé,",
-          "Revestindo-me [C]do Teu po[F]der."
+          "Ó [D]Pai, vem me dar forças [A]para lu[D]tar",
+          "A [G]fim de em tudo ven[D]cer;",
+          "Acrescenta-me a fé e sus[G]tém-me de [D]pé,",
+          "Revestindo-me [A]do Teu po[D]der."
         ]
       },
       {

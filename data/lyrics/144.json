@@ -2,19 +2,14 @@
   "code": "144",
   "version": "v3",
   "title": "A vida eterna",
+  "level": 2,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "D",
-      "G",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

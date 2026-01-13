@@ -27,7 +27,7 @@ const DEFAULT_PREFERENCES: Preferences = {
   showAutoScroll: true,
   showAudioPlayer: true,
   showNotes: true,
-  notesBigStyle: false,
+  notesBigStyle: true,
   showToolbar: true,
 };
 

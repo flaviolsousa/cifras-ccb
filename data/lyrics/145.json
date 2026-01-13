@@ -2,46 +2,33 @@
   "code": "145",
   "version": "v3",
   "title": "Pródigo filho, vai!",
+  "level": 3,
   "tone": {
     "original": "Db",
     "selected": "C"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "A7",
-      "Dm",
-      "G",
-      "C"
-    ],
+    "introduction": ["C", "G", "C", "A7", "Dm", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[C]Deus, no Seu lar, es[G]pera o filho que per[C]dera",
-          "E que amado [A7]e - [Dm]ra; [G]pródigo filho, [C]vai!"
-        ]
+        "text": ["[C]Deus, no Seu lar, es[G]pera o filho que per[C]dera", "E que a[Am]mado [A7]e[Dm]ra; [G]pródigo filho, [C]vai!"]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Oh! Vai a Deus e [Dm]cla - [G7]ma; o Criador te [C]ama;",
-          "[A7]O Seu perdão im[D7]plora; pródigo filho, [G7]vai a Deus!",
-          "[C]Ele mercê con[Dm]ce - [G7]de, Cristo por ti inter[C]cede;",
-          "Se te arrepen[A7]de - [Dm]res, [G7]bens te dará, dos c[C]éus."
+          "[C]Oh! Vai a Deus e [Dm]cla[G7]ma; o Criador te [C]ama;",
+          "[A7]O Seu perdão im[D7]plora; pródigo filho, [G]vai a [G7]Deus!",
+          "[C]Ele mercê con[Dm]ce[G7]de, Cristo por ti inter[C]cede;",
+          "Se te arrepen[A7]de[Dm]res, [G7]bens te dará, dos c[C]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[C]Seu filho, Deus per[G]doa, muito o aben[C]çoa,",
-          "De bênçãos o co[A7]ro - [Dm]a; [G]pródigo filho, [C]vai!"
-        ]
+        "text": ["[C]Seu filho, Deus per[G]doa, muito o aben[C]çoa,", "De bên[Am]çãos o co[A7]ro[Dm]a; [G]pródigo filho, [C]vai!"]
       },
       {
         "type": "ref",
@@ -50,10 +37,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[C]Deixa a incer[G]teza e toda a tris[C]teza;",
-          "Com Deus terás ri[A7]que - [Dm]za; [G]pródigo filho, [C]vai!"
-        ]
+        "text": ["[C]Deixa a incer[G]teza e toda a tris[C]teza;", "Com Deus [Am]terás ri[A7]que[Dm]za; [G]pródigo filho, [C]vai!"]
       },
       {
         "type": "ref",

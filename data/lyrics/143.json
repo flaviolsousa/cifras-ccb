@@ -2,45 +2,37 @@
   "code": "143",
   "version": "v3",
   "title": "Porfiemos, irmãos, por entrar nos céus",
+  "level": 3,
   "tone": {
     "original": "D",
-    "selected": "D"
+    "selected": "C"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D",
-      "Bm",
-      "D"
-    ],
+    "introduction": ["C", "G", "C", "Am", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Jesus [D]Cristo no [A]céu prepa[D]rou",
+          "Jesus [C]Cristo no [G]céu prepa[C]rou",
           "Um lugar de repouso e esplendor;",
-          "Breve nos fará entrar onde [Bm]Ele já en[D]trou:",
-          "Nas moradas do e[A]terno Cria[D]dor."
+          "Breve nos fará entrar onde [Am]Ele já en[C]trou:",
+          "Nas moradas do‿e[G]terno Cria[C]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "Porfi[D]emos, ir[Bm]mãos, por en[A]trar lá nos c[D]éus;",
-          "Se vencermos o mal, viveremos [A]junto ao grande D[D]eus."
-        ]
+        "text": ["Porfi[C]emos, ir[Am]mãos, por en[G]trar lá nos c[C]éus;", "Se vencermos o mal, viveremos [G]junto ao grande D[C]eus."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Nesta [D]terra te[A]souros não [D]há,",
+          "Nesta [C]terra te[G]souros não [C]há,",
           "Que nos possam aqui segurar;",
-          "Desejamos ir ao céu, onde [Bm]Cristo nos da[D]rá",
-          "Um tesouro que [A]nunca vai fin[D]dar."
+          "Desejamos ir ao céu, onde [Am]Cristo nos da[C]rá",
+          "Um tesouro que [G]nunca vai fin[C]dar."
         ]
       },
       {
@@ -51,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Breve[D]mente i[A]remos en[D]trar",
+          "Breve[C]mente i[G]remos en[C]trar",
           "E reinar com os santos no céu;",
-          "Novo hino de louvor juntos [Bm]vamos ento[D]ar",
-          "A Jesus, que a [A]salvação nos [D]deu."
+          "Novo hino de louvor juntos [Am]vamos ento[C]ar",
+          "A Jesus, que a [G]salvação nos [C]deu."
         ]
       },
       {
