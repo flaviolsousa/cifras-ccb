@@ -185,6 +185,7 @@ const HymnDetails = () => {
   }, [fontSize]);
 
   const scrollY = useRef(new Animated.Value(0)).current;
+  const scrollTimerToHide = useRef<NodeJS.Timeout | null>(null);
   const lastScrollY = useRef(0);
   const [headerVisible, setHeaderVisible] = useState(true);
 
@@ -216,19 +217,34 @@ const HymnDetails = () => {
       if (deltaY < 0 && !headerVisible && !isAutoScrolling) {
         setHeaderVisible(true);
         showHeader();
-        console.log("xxx showHeader");
-      } else if (deltaY > 0 && headerVisible && currentScrollY > 64) {
-        setHeaderVisible(false);
-        hideHeader();
-        console.log("xxx hideHeader");
+        if (scrollTimerToHide.current != null) {
+          clearTimeout(scrollTimerToHide.current as NodeJS.Timeout);
+          scrollTimerToHide.current = null;
+        }
+      } else if (headerVisible && scrollTimerToHide.current == null && deltaY > 0 && currentScrollY > 64) {
+        scrollTimerToHide.current = setTimeout(
+          () => {
+            setHeaderVisible(false);
+            hideHeader();
+            scrollTimerToHide.current = null;
+          },
+          isAutoScrolling ? 4000 : 0,
+        );
       }
       lastScrollY.current = currentScrollY;
     },
   });
 
+  useEffect(() => {
+    if (!isAutoScrolling && scrollTimerToHide.current != null) {
+      clearTimeout(scrollTimerToHide.current as NodeJS.Timeout);
+      scrollTimerToHide.current = null;
+    }
+  }, [isAutoScrolling]);
+
   const scoreTouchingRef = useRef<boolean>(false);
   const handleTouchStart = () => (scoreTouchingRef.current = true);
-  const handleTouchEnd = () => setTimeout(() => (scoreTouchingRef.current = false), 500);
+  const handleTouchEnd = () => setTimeout(() => (scoreTouchingRef.current = false), 100);
 
   const [navigationVisible, setNavigationVisible] = useState(false);
   const [toneNavigationVisible, setToneNavigationVisible] = useState(false);

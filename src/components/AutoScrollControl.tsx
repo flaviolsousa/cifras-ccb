@@ -167,12 +167,7 @@ const AutoScrollControl = ({
 
   return (
     <View style={styles.container}>
-      <IconButton
-        icon={isScrolling || !!scoreTouchingRef.current ? "pause" : "play"}
-        onPress={handlePlayPause}
-        style={styles.button}
-        iconColor={theme.colors.primary}
-      />
+      <IconButton icon={isScrolling ? "pause" : "play"} onPress={handlePlayPause} style={styles.button} iconColor={theme.colors.primary} />
       <Slider
         value={speed}
         onValueChange={handleSpeedChange}

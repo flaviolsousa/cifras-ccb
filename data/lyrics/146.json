@@ -2,50 +2,43 @@
   "code": "146",
   "version": "v3",
   "title": "De Deus veio a Luz",
+  "level": 5,
   "tone": {
     "original": "D",
     "selected": "D"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "Bm",
-      "G",
-      "Em7",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "A7", "Bm", "G", "Em7", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "De [D]Deus [A7]veio a [Bm]Luz: [G]é [Em7]Cristo [A7]Je-s[D]us,",
+          "De [D|↓↑↓]Deus [A7|↓]veio a [Bm|↓↑↓]Luz: [G|↓]é [Em7|↓↑↓]Cristo [A7|↓]Je[D]sus,",
           "O [Bm]Guia que aos [E7]céus nos con[A7]duz;",
-          "Jes[D]us, [A7]Reden[Bm]tor [G]ce-[Em7]les- [D]ti-[A7]al,",
-          "Di[Bm]ssi-[Em7]pa as [A7]trevas do [D]mal.[D]..."
+          "Jes[D|↓↑↓]us, [A7|↓]Reden[Bm|↓↑↓]tor [G|↓]ce[Em7|↓↑↓]les[D|↓]ti[A7]al,",
+          "Di[Bm|↓↑↓]ssi[Em7|↓]pa as [A7]trevas do [D]mal..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Em [D]Deus [A7]há sa[Bm]ber, [G]pro[Em7]fundo [A7]sa- [D]ber,",
+          "Em [D|↓↑↓]Deus [A7|↓]há sa[|↓↑↓]ber, [G|↓]pro[Em7|↓↑↓]fundo [A7|↓]sa[D]ber,",
           "Fa[Bm]vor e infi[E7]nito po[A7]der;",
-          "Pro[D]veu, [A7]em Je[Bm]sus, [G]a [Em7]sal -[D]va-[A7]ção;",
-          "Pro[Bm]veu [Em7]aos [A7]homens, perd[D]ão.[D]..."
+          "Pro[D|↓↑↓]veu, [A7|↓]em Je[Bm|↓↑↓]sus, [G|↓]a [Em7|↓↑↓]sal[D|↓]va[A7]ção;",
+          "Pro[Bm|↓↑↓]veu [Em7|↓]aos [A7]homens, perd[D]ão..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "A [D]Deus, [A7]Cria[Bm]dor, [G]e a [Em7]Cristo, o [A7]Se-n[D]hor,",
+          "A [D|↓↑↓]Deus, [A7|↓]Cria[Bm|↓↑↓]dor, [G|↓]e a [Em7|↓↑↓]Cristo, o [A7|↓]Se[D]nhor,",
           "E[Bm]terna grati[E7]dão e lou[A7]vor",
-          "Da[D]rão [A7]sem ces[Bm]sar [G]os [Em7]san -[D]tos [A7]Seus,",
-          "Na [Bm]ter-[Em7]ra e, em [A7]breve, nos c[D]éus.[D]..."
+          "Da[D|↓↑↓]rão [A7|↓]sem ces[Bm|↓↑↓]sar [G|↓]os [Em7|↓↑↓]san[D|↓]tos [A7]Seus,",
+          "Na [Bm|↓↑↓]ter[Em7|↓]ra e, em [A7]breve, nos c[D]éus..."
         ]
       }
     ]
