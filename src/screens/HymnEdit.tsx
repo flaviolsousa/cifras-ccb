@@ -6,6 +6,7 @@ import * as Clipboard from "expo-clipboard";
 import { transpose } from "chord-transposer";
 import { HymnModel, Stanza } from "../domain/HymnModel";
 import { getHymnModel } from "../services/Hymn/HymnImports";
+import ChordNormalizationService from "../services/Hymn/ChordNormalizationService";
 
 const RHYTHM_OPTIONS = [
   { label: "Canção", value: "Canção" },
@@ -20,14 +21,6 @@ const LEVEL_OPTIONS = [
   { label: "4", value: "4" },
   { label: "5", value: "5" },
 ];
-
-const CHORD_MAP = {
-  Db: "C#",
-  Eb: "D#",
-  Gb: "F#",
-  Ab: "G#",
-  Bb: "A#",
-};
 
 const TONE_OPTIONS = ["A", "B", "C", "D", "E", "F", "G", "Ab", "Bb", "Db", "Eb", "Gb"];
 
@@ -169,7 +162,7 @@ const HymnEdit = () => {
     // Adjust tone for introduction
     hymn.score.introduction = hymn.score.introduction
       .map((chord) => (direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString()))
-      .map((chord) => CHORD_MAP[chord] || chord);
+      .map((chord) => ChordNormalizationService.normalize(chord));
 
     // Adjust tone for stanzas
     hymn.score.stanzas.forEach((stanza) => {
@@ -184,7 +177,7 @@ const HymnEdit = () => {
           }
 
           let transposedChord = direction === "up" ? transpose(chord).up(1).toString() : transpose(chord).down(1).toString();
-          transposedChord = CHORD_MAP[transposedChord] || transposedChord;
+          transposedChord = ChordNormalizationService.normalize(transposedChord);
           return `[${transposedChord}${chordSymbol}${annotation}]`;
         });
       });

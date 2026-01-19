@@ -2,18 +2,7 @@ import { HymnModel } from "../../domain/HymnModel";
 import { Hymns, getHymnModel } from "./HymnImports";
 import { transpose } from "chord-transposer";
 import CryptoService from "./CryptoService";
-
-// Normalize flats to sharps consistently
-const FLAT_TO_SHARP: Record<string, string> = {
-  Db: "C#",
-  Eb: "D#",
-  Gb: "F#",
-  Ab: "G#",
-  Bb: "A#",
-};
-function normalizeEnharmonic(name: string): string {
-  return FLAT_TO_SHARP[name] ?? name;
-}
+import ChordNormalizationService from "./ChordNormalizationService";
 
 async function readFile(file: string): Promise<HymnModel | null> {
   const rawData = await getHymnModel(file);
@@ -53,7 +42,7 @@ function transposeChordsLine(line: string, fromKey: string, toKey: string): stri
       try {
         let transposed = transpose(chord).fromKey(fromKey).toKey(toKey).toString();
         // Normalize enharmonic spelling
-        transposed = normalizeEnharmonic(transposed);
+        transposed = ChordNormalizationService.normalize(transposed);
         result += `[${transposed}${chordSymbol}${!!notes ? `|${notes}` : ""}]`;
       } catch (e) {
         console.error("Error transposing chord line part", { part, fromKey, toKey, error: e });
@@ -128,7 +117,7 @@ class HymnService {
         introduction: hymn.score.introduction?.map((chord) => {
           try {
             const t = "" + transpose(chord).fromKey(hymn.tone.selected).toKey(newTone);
-            return normalizeEnharmonic(t);
+            return ChordNormalizationService.normalize(t);
           } catch {
             return chord;
           }
