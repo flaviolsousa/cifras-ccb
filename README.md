@@ -30,8 +30,8 @@
 - ☒ Add Flag on hymn
 - ☐ Highlight the easiest tone (with low capo position) in tone selection popup
 - ☐ Display capo position for each chord in tone selection popup
-- ☐ Mark chords as favorites
-- ☐ Keep the screen always on during use
+- ☒ Mark chords as favorites
+- ☒ Keep the screen always on during use
 
 #### V2 (future)
 

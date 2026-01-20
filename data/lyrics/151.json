@@ -2,44 +2,28 @@
   "code": "151",
   "version": "v3",
   "title": "Se, de Cristo, o Nome amares",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[G]Se, de Cristo, o Nome amares, [C]não terás, do mal, pa[G]vor;",
-          "[D]Se, com fé, O invo[G]cares, [D]ser-te-á ajuda[G]dor."
-        ]
+        "text": ["[G]Se, de Cristo, o Nome amares, [C]não terás, do mal, pa[G]vor;", "[D]Se, com fé, O invo[G]cares, [D]ser-te-á ajuda[G]dor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "Nome [C]bom, sem i[G]gual,",
-          "É o Nome de Je[D]sus,",
-          "Defen[G]sor eter[C]nal[C]...",
-          "Que à g[G]lória [D]te con[G]duz."
-        ]
+        "text": ["Nome [C]bom, sem i[G]gual,", "É o Nome de Je[D]sus,", "Defen[G]sor eter[C]nal[C]...", "Que à g[G]lória [D]te con[G]duz."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[G]Se, de Cristo, o Nome amado [C]em ti bem gravado [G]for,",
-          "[D]Serás livre do pe[G]cado, [D]andarás em Seu te[G]mor."
-        ]
+        "text": ["[G]Se, de Cristo, o Nome amado [C]em ti bem gravado [G]for,", "[D]Serás livre do pe[G]cado, [D]andarás em Seu te[G]mor."]
       },
       {
         "type": "ref",
@@ -48,10 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[G]Se, de Cristo, o Nome forte [C]invocares com fer[G]vor,",
-          "[D]Tu não temerás a [G]morte, [D]Ele é teu Consola[G]dor."
-        ]
+        "text": ["[G]Se, de Cristo, o Nome forte [C]invocares com fer[G]vor,", "[D]Tu não temerás a [G]morte, [D]Ele é teu Consola[G]dor."]
       },
       {
         "type": "ref",

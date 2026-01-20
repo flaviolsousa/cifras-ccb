@@ -8,23 +8,16 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D7",
-      "G",
-      "G7",
-      "C",
-      "G"
-    ],
+    "introduction": ["G", "D7", "G", "G7", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Jesus [G]Cristo, meu Senhor,",
-          "Me jus[D7]tificou por [G]fé;",
-          "[G7]Pela [C]graça, pelo Seu a[G]mor,",
-          "[E]Alcan[A7]cei de Deus [D7] mer[G]cê."
+          "Me jus[D7]tificou por [G]fé;[G7]",
+          "Pela [C]graça, pelo Seu a[G]mor,[E]",
+          "Alcan[A7]cei de Deu[D7]s mer[G]cê."
         ]
       },
       {
@@ -32,9 +25,9 @@
         "code": "2",
         "text": [
           "Rego[G]zijo, paz e amor,",
-          "Ale[D7]gria sem ig[G]ual,",
-          "[G7]Eu des[C]fruto em meu Salva[G]dor,",
-          "[E]O Cor[A7]deiro di [D7]- vi[G]nal."
+          "Ale[D7]gria sem ig[G]ual,[G7]",
+          "Eu des[C]fruto em meu Salva[G]dor,[E]",
+          "O Cor[A7]deiro d[D7]ivi[G]nal."
         ]
       },
       {
@@ -42,9 +35,9 @@
         "code": "3",
         "text": [
           "Vivo [G]no Senhor Jesus;",
-          "Sua [D7]vida sinto em [G]mim;",
-          "[G7]Ele [C]é, no mundo, minha [G]Luz",
-          "[E]Para [A7]ir até [D7] o f[G]im."
+          "Sua [D7]vida sinto em [G]mim;[G7]",
+          "Ele [C]é, no mundo, minha [G]Luz[E]",
+          "Para [A7]ir at[D7]é o f[G]im."
         ]
       }
     ]
