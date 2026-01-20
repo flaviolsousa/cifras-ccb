@@ -1,18 +1,31 @@
 import React from "react";
-import { View, StyleSheet } from "react-native";
-import { Modal, Portal, Text, Button, useTheme } from "react-native-paper";
+import { View, StyleSheet, Pressable } from "react-native";
+import { Modal, Portal, Text, useTheme } from "react-native-paper";
 
 const TONES = ["Ab", "A", "Bb", "B", "C", "Db", "D", "Eb", "E", "F", "Gb", "G"];
 
 interface ToneSelectorProps {
   visible: boolean;
   currentTone: string;
+  originalTone: string;
   onSelect: (tone: string) => void;
   onDismiss: () => void;
 }
 
-const ToneSelector = ({ visible, currentTone, onSelect, onDismiss }: ToneSelectorProps) => {
+const ToneSelector = ({ visible, currentTone, originalTone, onSelect, onDismiss }: ToneSelectorProps) => {
   const theme = useTheme();
+
+  const getCapoPosition = (targetTone: string): number => {
+    const originalIndex = TONES.indexOf(originalTone);
+    const targetIndex = TONES.indexOf(targetTone);
+
+    if (originalIndex === -1 || targetIndex === -1) return 0;
+
+    let diff = originalIndex - targetIndex;
+    if (diff < 0) diff += 12;
+
+    return diff;
+  };
 
   const styles = StyleSheet.create({
     container: {
@@ -33,9 +46,42 @@ const ToneSelector = ({ visible, currentTone, onSelect, onDismiss }: ToneSelecto
       gap: 12,
     },
     toneButton: {
-      width: 10,
-      flexBasis: 90,
+      minHeight: 72,
+      flexBasis: 95,
       marginHorizontal: 4,
+      justifyContent: "center",
+      alignItems: "center",
+      borderRadius: 20,
+      borderWidth: 1,
+      paddingVertical: 8,
+      paddingHorizontal: 4,
+    },
+    toneButtonOutlined: {
+      borderColor: theme.colors.outline,
+      backgroundColor: "transparent",
+    },
+    toneButtonContained: {
+      borderColor: theme.colors.primary,
+      backgroundColor: theme.colors.primary,
+    },
+    toneText: {
+      fontSize: 18,
+      fontWeight: "bold",
+    },
+    toneTextOutlined: {
+      color: theme.colors.onSurface,
+    },
+    toneTextContained: {
+      color: theme.colors.onPrimary,
+    },
+    capoText: {
+      fontSize: 11,
+      opacity: 0.8,
+      marginTop: 2,
+    },
+    buttonContent: {
+      flexDirection: "column",
+      alignItems: "center",
     },
   });
 
@@ -46,11 +92,24 @@ const ToneSelector = ({ visible, currentTone, onSelect, onDismiss }: ToneSelecto
           Selecione o Tom
         </Text>
         <View style={styles.grid}>
-          {TONES.map((tone) => (
-            <Button key={tone} mode={tone === currentTone ? "contained" : "outlined"} onPress={() => onSelect(tone)} style={styles.toneButton}>
-              {tone}
-            </Button>
-          ))}
+          {TONES.map((tone) => {
+            const capoPosition = getCapoPosition(tone);
+            const isSelected = tone === currentTone;
+            return (
+              <Pressable
+                key={tone}
+                onPress={() => onSelect(tone)}
+                style={[styles.toneButton, isSelected ? styles.toneButtonContained : styles.toneButtonOutlined]}
+              >
+                <View style={styles.buttonContent}>
+                  <Text style={[styles.toneText, isSelected ? styles.toneTextContained : styles.toneTextOutlined]}>{tone}</Text>
+                  {capoPosition > 0 && (
+                    <Text style={[styles.capoText, isSelected ? styles.toneTextContained : styles.toneTextOutlined]}>Capo {capoPosition}</Text>
+                  )}
+                </View>
+              </Pressable>
+            );
+          })}
         </View>
       </Modal>
     </Portal>

@@ -168,7 +168,13 @@ const ScoreDetails = ({ hymn, onToneChange }: ScoreDetailsProps) => {
         )}
       </View>
 
-      <ToneSelector visible={toneSelectorVisible} currentTone={tone} onSelect={handleToneSelect} onDismiss={() => setToneSelectorVisible(false)} />
+      <ToneSelector
+        visible={toneSelectorVisible}
+        currentTone={tone}
+        originalTone={toneOriginal}
+        onSelect={handleToneSelect}
+        onDismiss={() => setToneSelectorVisible(false)}
+      />
     </>
   );
 };
