@@ -2,20 +2,14 @@
   "code": "149",
   "version": "v3",
   "title": "Ó irmãos, por fé, louvemos a Jesus",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "Em",
-      "C",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "Em", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -24,7 +18,7 @@
           "[G]Ó irmãos, por fé, lou[D]vemos a Jesus, o Rei da [G]glória;",
           "[Em]Pela Sua graça [C]te - [G]mos, [A7]nos combates, a vitó[D]ria;",
           "[G]O Consolador di[D]vino traz celeste e santo en[G]sino;",
-          "[Em]Glória a Deus que, desde os [C]céus, man[E]dou [Am]o [D]Salva[G]dor."
+          "[Em]Glória a Deus que, desde os [C]céus, man[Am]dou o [G]Sal[D7]va[G]dor."
         ]
       },
       {
@@ -34,7 +28,7 @@
           "[G]Ó irmãos, já ado[D]tados, entoemos doce [G]canto",
           "[Em]A Jesus, por nós a[C]ma - [G]do, [A7]e a Deus, três vezes San[D]to;",
           "[G]O Seu Nome exal[D]temos e Seus feitos procla[G]memos;",
-          "[Em]Glória a Quem nos liber[C]tou e [E]nos [Am]pu - [D]rifi[G]cou."
+          "[Em]Glória a Quem nos liber[C]tou e [Am]nos pu[G]ri[D7]fi[G]cou."
         ]
       },
       {
@@ -44,7 +38,7 @@
           "[G]Ó irmãos, por Cristo, [D]somos, no Seu santo amor, guar[G]dados;",
           "[Em]Do pecado escravos [C]fo - [G]mos, [A7]mas, por graça, liberta[D]dos;",
           "[G]Consolados, jubi[D]lemos, paz com Deus agora [G]temos;",
-          "[Em]Santo, Santo é o Se[C]nhor, Au[E]tor [Am]da [D]salva[G]ção."
+          "[Em]Santo, Santo é o Se[C]nhor, Au[Am]tor da [G]sal[D7]va[G]ção."
         ]
       },
       {
@@ -52,8 +46,8 @@
         "text": [
           "[G]Meus irmãos, a Deus lou[D]vemos",
           "E a Cristo exal[G]temos;",
-          "O Es[C]pírito da [G]graça nos [E]traz",
-          "[Am]O [D]Seu a[G]mor."
+          "[G]O Es[C]pírito da [G]graça nos [E]traz",
+          "O [Am]Seu [D]a[G]mor."
         ]
       }
     ]

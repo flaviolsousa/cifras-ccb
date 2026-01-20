@@ -2,19 +2,14 @@
   "code": "147",
   "version": "v3",
   "title": "É bom louvar ao Criador",
+  "level": 2,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -28,12 +23,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "Fi[D]éis adora[G]dores,",
-          "Lou[C]vai ao Deus vi[G]vente;",
-          "Por Seus imensos fa[C]vores,",
-          "Lou[D]vai ao Cria[G]dor!"
-        ]
+        "text": ["Fi[D]éis adora[G]dores,", "Lou[C]vai ao Deus vi[G]vente;", "Por Seus imensos fa[C]vores,", "Lou[D]vai ao Cria[G]dor!"]
       },
       {
         "type": "lyric",

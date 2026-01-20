@@ -2,48 +2,43 @@
   "code": "148",
   "version": "v3",
   "title": "Louvor a Deus, o Criador",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lou[G]vor a Deus, o [C]Criador, do uni[G]verso, Rege[D]dor;",
-          "É [G]infinito o [C]Seu poder, é d´Ele a [G]força [D]e o sa[G]ber.",
-          "Deus [C]é perfeito, [G]é Amor, está cercado de esplen[D]dor;",
-          "Os [G]céus nos falam [C]do Seu Ser, tudo obe[G]dece ao [D]Seu que[G]rer."
+          "Louvor a [G]Deus, o Cria[C]dor, do uni[G]verso, Rege[D]dor;",
+          "É infi[G]nito o Seu po[C]der, é d´Ele a [G|↓↑↓]força [D|↓]e o sa[G]ber.",
+          "Deus é per[C]feito, é A[G]mor, está cercado de esplen[D]dor;",
+          "Os céus nos [G]falam do Seu [C]Ser, tudo obe[G|↓↑↓]dece ao [D|↓]Seu que[G]rer."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Lou[G]vor a Deus, o [C]Criador, por ter man[G]dado o Reden[D]tor;",
-          "O [G]Seu favor su[C]blime é em Jesus [G]Cristo, Au[D]tor da [G]fé;",
-          "Quem, [C]neste mundo en[G]ganador, obedecer ao Salva[D]dor,",
-          "Re[G]ceberá, de [C]Deus, perdão, virtude e [G]paz no [D]cora[G]ção."
+          "Louvor a [G]Deus, o Cria[C]dor, por ter man[G]dado o Reden[D]tor;",
+          "O Seu fa[G]vor sublime [C]é em Jesus [G|↓↑↓]Cristo, Au[D|↓]tor da [G]fé;",
+          "Quem, neste [C]mundo engana[G]dor, obedecer ao Salva[D]dor,",
+          "Recebe[G]rá, de Deus, per[C]dão, virtude e [G|↓↑↓]paz no [D|↓]cora[G]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Lou[G]vor a Deus, o [C]Criador, das sãs pro[G]messas, Cumpri[D]dor;",
-          "Por [G]todos nós hon[C]rado é e em nós ha[G]bita, [D]pela [G]fé;",
-          "Nin[C]guém impede o [G]Criador, com Cristo e o bom Consola[D]dor,",
-          "De [G]operar a [C]Seu prazer, pois infi[G]nito é o [D]Seu po[G]der."
+          "Louvor a [G]Deus, o Cria[C]dor, das sãs pro[G]messas, Cumpri[D]dor;",
+          "Por todos [G]nós honrado [C]é e em nós ha[G|↓↑↓]bita, [D|↓]pela [G]fé;",
+          "Ninguém im[C]pede o Cria[G]dor, com Cristo e o bom Consola[D]dor,",
+          "De ope[G]rar a Seu pra[C]zer, pois infi[G|↓↑↓]nito é o [D|↓]Seu po[G]der."
         ]
       }
     ]
