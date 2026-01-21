@@ -18,7 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": ["Nome [C]bom, sem i[G]gual,", "É o Nome de Je[D]sus,", "Defen[G]sor eter[C]nal[C]...", "Que à g[G]lória [D]te con[G]duz."]
+        "text": ["Nome [C]bom, sem i[G]gual,", "É o Nome de Je[D]sus,", "Defen[G]sor eter[C]nal[C|↓]...", "Que à g[G]lória [D]te con[G]duz."]
       },
       {
         "type": "lyric",

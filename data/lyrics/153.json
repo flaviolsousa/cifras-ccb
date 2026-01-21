@@ -2,19 +2,14 @@
   "code": "153",
   "version": "v3",
   "title": "O divinal Cordeiro",
+  "level": 2,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "A",
-      "D",
-      "A",
-      "E",
-      "A"
-    ],
+    "introduction": ["A", "D", "A", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",

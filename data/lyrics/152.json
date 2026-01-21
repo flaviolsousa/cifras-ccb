@@ -2,19 +2,14 @@
   "code": "152",
   "version": "v3",
   "title": "Venho à casa do Senhor",
+  "level": 2,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -28,12 +23,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "É na [G]casa do Se[A7]nhor",
-          "Que a[D]prendo a hon[G]rar,",
-          "Com temor e reve[C]rência,",
-          "Meu a[D]mado Cria[G]dor."
-        ]
+        "text": ["É na [G]casa do Se[A7]nhor", "Que a[D]prendo a hon[G]rar,", "Com temor e reve[C]rência,", "Meu a[D]mado Cria[G]dor."]
       },
       {
         "type": "lyric",

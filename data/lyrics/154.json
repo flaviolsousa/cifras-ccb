@@ -2,19 +2,14 @@
   "code": "154",
   "version": "v3",
   "title": "Terá que renascer",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "G",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,7 +18,7 @@
           "O [D]homem que busca a C[G]risto, o Sen[D]hor,",
           "Que[A7]rendo a vida e[D]terna encontrar,",
           "O Santo conselho do [G]bom Reden[D]tor",
-          "Não [E7]deve rejei[A7]tar."
+          "Não [E7]deve rejei[A7]tar.[A7|↓•••]"
         ]
       },
       {
@@ -31,8 +26,8 @@
         "text": [
           "Te[D]rá que renasc[G]er,",
           "Te[A7]rá que renasc[D]er. ",
-          "Quem quer habi[Em]tar nas mo[F#m]radas de D[G]eus,",
-          "Te[D]rá que [A7]renasc[D]er."
+          "Quem quer habi[Em]tar nas mo[F#m]radas de D[G]eus,[G|↓•••]",
+          "Te[D]rá que [A7]renasc[D]er.[D|↓•••]"
         ]
       },
       {
@@ -42,7 +37,7 @@
           "Da [D]água e do Espírito q[G]uem não nasc[D]er,",
           "Ja[A7]mais poderá ver o r[D]eino dos céus,",
           "E nem entrará nele p[G]ara viv[D]er;",
-          "Ja[E7]mais verá a D[A7]eus.”"
+          "Ja[E7]mais verá a D[A7]eus.[A7|↓•••]"
         ]
       },
       {
@@ -56,7 +51,7 @@
           "Só C[D]risto, unigênito F[G]ilho de D[D]eus,",
           "Li[A7]berta o homem da c[D]ondenação,",
           "A fim de levá-lo ao r[G]eino dos c[D]éus",
-          "E [E7]dar-lhe galard[A7]ão."
+          "E [E7]dar-lhe galard[A7]ão.[A7|↓•••]"
         ]
       },
       {
