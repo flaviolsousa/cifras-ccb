@@ -22,10 +22,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[D]O meu ser en[A7]trego a Cristo, [D]sempre a Ele [A7]ama - [D]rei;",
-          "Cristo é o Pas[A7]tor celeste, [D]n´Ele me de[A7]leita[D]rei."
-        ]
+        "text": ["[D]O meu ser en[A7]trego a Cristo, [D]sempre a Ele [A7]ama[D]rei;", "Cristo é o Pas[A7]tor celeste, [D]n´Ele me de[A7]leita[D]rei."]
       },
       {
         "type": "ref",

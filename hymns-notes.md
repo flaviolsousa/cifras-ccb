@@ -40,13 +40,9 @@ win + seta esquerda -> posição janela
 node encrypt-hymns.js encrypt 002.json --override
 ```
 
-# Completos:
+# Pendente
 
-- 1-107
-- 273
-
-Revisar com violão 89
-Tom revisado até 140
+168
 
 # Target
 

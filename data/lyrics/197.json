@@ -8,14 +8,7 @@
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "F",
-      "G",
-      "C"
-    ],
+    "introduction": ["C", "G", "C", "F", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -43,7 +36,7 @@
           "Os [C]nossos corações conheces, ó Deus;",
           "Em comunhão Contigo estamos, Sen[G]hor;",
           "Tu [C]prometeste, para todos os Teus,",
-          "O Teu divino e santo [F]Conso[G]la - [C]dor."
+          "O Teu divino e santo [F]Conso[G]la[C]dor."
         ]
       },
       {

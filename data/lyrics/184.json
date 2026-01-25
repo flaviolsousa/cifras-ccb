@@ -8,22 +8,16 @@
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "G",
-      "Am",
-      "Em",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "Am", "Em", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "[G]Nós Te lou[Am]vamos, [Em]por [D]fé, grande D[G]eus,",
-          "E imploramos Teu [C]santo [A7]fa - [D]vor;",
-          "Anjos [E7]Te [Am]lou - [D]vam [G]lá nos céus",
-          "[C]E nós tam[G]bém Te [C]da - [D]mos lou[G]vor."
+          "E imploramos Teu [C]santo [A7]fa[D]vor;",
+          "Anjos [E7]Te [Am]lou[D]vam [G]lá nos céus",
+          "[C]E nós tam[G]bém Te [C]da[D]mos lou[G]vor."
         ]
       },
       {
@@ -31,18 +25,18 @@
         "code": "2",
         "text": [
           "[G]Salva Teu [Am]povo, [Em]ó [D]Deus, Cria[G]dor,",
-          "Pelo Teu grande, infi[C]nito [A7]po - [D]der;",
+          "Pelo Teu grande, infi[C]nito [A7]po[D]der;",
           "Dá-nos [E7]mais [Am]fé, [D]mai[G]or vigor,",
-          "[C]Para que, o [G]mal, pos[C]sa - [D]mos ven[G]cer."
+          "[C]Para que, o [G]mal, pos[C]sa[D]mos ven[G]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Venha Teu [Am]reino [Em]e - [D]terno de [G]paz",
-          "Sobre Teus santos fi[C]éis do[A7]mi - [D]nar;",
-          "Pela [E7]Pa – [Am]la - [D]vra [G]eficaz",
+          "[G]Venha Teu [Am]reino [Em]e[D]terno de [G]paz",
+          "Sobre Teus santos fi[C]éis do[A7]mi[D]nar;",
+          "Pela [E7]Pa – [Am]la[D]vra [G]eficaz",
           "[C]Tu nos fa[G]rás, na [C]gló[D]ria, ent[G]rar."
         ]
       }

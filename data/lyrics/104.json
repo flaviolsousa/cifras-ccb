@@ -14,7 +14,7 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["A [D]Ti, ó Senhor, tributamos louvor,", "Honra e glória por Teu infini[A|↓↑↓]to [E|↓]fa-[A]vor."]
+        "text": ["A [D]Ti, ó Senhor, tributamos louvor,", "Honra e glória por Teu infini[A|↓↑↓]to [E|↓]fa[A]vor."]
       },
       {
         "type": "chorus",
@@ -23,7 +23,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": ["A[D]mado Jesus, celestial Rei dos reis,", "Brevemente estarão, junto a Ti, T[A|↓↑↓]eus [E|↓]fi-[A]éis."]
+        "text": ["A[D]mado Jesus, celestial Rei dos reis,", "Brevemente estarão, junto a Ti, T[A|↓↑↓]eus [E|↓]fi[A]éis."]
       },
       {
         "type": "ref",

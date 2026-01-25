@@ -2,57 +2,53 @@
   "code": "160",
   "version": "v3",
   "title": "\"Sou o Caminho, a Verdade e a Vida\"",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "Bm",
-      "D"
-    ],
+    "introduction": ["D", "A", "Bm", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "“[D]Sou [A]o Ca[Bm]mi - [D]nho”, [G]disse-[A]nos Je[D]sus;",
+          "“[D]Sou o Ca[Bm]minho”, [G]disse-nos Je[D]sus;",
           "Nes[G]se Cami[D]nho [E7]vamos nós an[A]dar,",
-          "[D]Fir[A]mes na [Bm]fé, [D]pois [G]ela [B]nos con[Em]duz",
-          "[A]Na espe[D]rança [G]de, no [A]céu, mo[D]rar."
+          "[D]Firmes na [Bm]fé, pois [G]ela nos con[Em]duz",
+          "[A]Na espe[D]rança de, no [A]céu, mo[D]rar."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "“[D]Sou [A]a Ver[Bm]da - [D]de”, [G]disse o [A]Salva[D]dor;",
+          "“[D]Sou a Ver[Bm]dade”, [G]disse o Salva[D]dor;",
           "Nes[G]sa Verda[D]de [E7]vamos nos fir[A]mar;",
-          "[D]E - [A]la nos [Bm]le - [D]va ao [G]reino [B]de a[Em]mor,",
-          "[A]Onde os fi[D]éis em [G]breve i[A]rão en[D]trar."
+          "[D]Ela nos [Bm]leva ao [G]reino de a[Em]mor,",
+          "[A]Onde os fi[D]éis em breve i[A]rão en[D]trar."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "“[D]Eu [A]sou a [Bm]Vi - [D]da”, [G]disse o [A]Reden[D]tor;",
+          "“[D]Eu sou a [Bm]Vida”, [G]disse o Reden[D]tor;",
           "É [G]essa Vi[D]da [E7]que suplanta o [A]mal,",
-          "[D]Vi - [A]da per[Bm]fei - [D]ta, [G]Vida [B]de a[Em]mor,",
-          "[A]Vida su[D]blime [G]e ce[A]lesti[D]al."
+          "[D]Vida per[Bm]feita, [G]Vida de a[Em]mor,",
+          "[A]Vida su[D]blime e ce[A]lesti[D]al."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "“[D]Nin[A]guém vi[Bm]rá [D]ao [G]Pai, se[A]não por [D]Mim”,",
-          "Dis[G]se Jesus, [D]Au - [E7]tor da salva[A]ção;",
-          "[D]Só [A]no Se[Bm]nhor [D]há [G]dádi[B]vas sem [Em]fim,",
-          "[A]Só n´Ele al[D]cança[G]remos [A]reden[D]ção."
+          "“[D]Ninguém vi[Bm]rá ao [G]Pai, se não por [D]Mim”,",
+          "Dis[G]se Jesus, [D]Au[E7]tor da salva[A]ção;",
+          "[D]Só no Se[Bm]nhor há [G]dádivas sem [Em]fim,",
+          "[A]Só n´Ele al[D]cançaremos [A]reden[D]ção."
         ]
       }
     ]

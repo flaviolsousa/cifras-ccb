@@ -2,19 +2,14 @@
   "code": "167",
   "version": "v3",
   "title": "Água viva",
+  "level": 2,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "A7", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -38,12 +33,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Água [D]viva da Fonte [A7]de amor",
-          "Só Jesus nos pode [D]dar;",
-          "D´Ele vem perdão para o [A7]pecador",
-          "Que deseja se sal[D]var."
-        ]
+        "text": ["Água [D]viva da Fonte [A7]de amor", "Só Jesus nos pode [D]dar;", "D´Ele vem perdão para o [A7]pecador", "Que deseja se sal[D]var."]
       },
       {
         "type": "ref",

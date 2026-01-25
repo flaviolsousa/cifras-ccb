@@ -2,18 +2,14 @@
   "code": "165",
   "version": "v3",
   "title": "Foi o Senhor Jesus",
+  "level": 1,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "A",
-      "D",
-      "E",
-      "A"
-    ],
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -27,12 +23,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[A]Foi o Se[D]nhor Je[A]sus",
-          "Que nos abenço[E]ou;",
-          "[A]Da escravidão [D]nos liber[A]tou",
-          "Nosso Se[E]nhor Je[A]sus."
-        ]
+        "text": ["[A]Foi o Se[D]nhor Je[A]sus", "Que nos abenço[E]ou;", "[A]Da escravidão [D]nos liber[A]tou", "Nosso Se[E]nhor Je[A]sus."]
       },
       {
         "type": "lyric",

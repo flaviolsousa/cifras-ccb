@@ -8,15 +8,7 @@
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "C",
-      "A7",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "C", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -24,7 +16,7 @@
         "text": [
           "Em [G]Ti, Se[D]nhor, abri[G]gado,",
           "Te[C]rei força [A7]na prova[D]ção;",
-          "Tam[G]bém se[B]rei conso[Em]la - [B]do",
+          "Tam[G]bém se[B]rei conso[Em]la[B]do",
           "Na [G]hora da afli[D]ção[G]."
         ]
       },
@@ -43,7 +35,7 @@
         "text": [
           "Ó D[G]eus e[D]terno, envi[G]aste,",
           "Por [C]Cristo, ve[A7]raz salva[D]ção;",
-          "Min[G]h´alma [B]justifi[Em]cas - [B]te,",
+          "Min[G]h´alma [B]justifi[Em]cas[B]te,",
           "Me [G]concedeste per[D]dão[G]."
         ]
       },
@@ -57,7 +49,7 @@
         "text": [
           "Por [G]Ti, ó [D]Deus, eu e[G]xisto,",
           "Ca[C]minho Con[A7]tigo por [D]fé;",
-          "A p[G]az que [B]sinto em [Em]Cris - [B]to,",
+          "A p[G]az que [B]sinto em [Em]Cris[B]to,",
           "Do T[G]eu amor, fruto [D]é.[G]..."
         ]
       },

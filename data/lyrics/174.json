@@ -8,12 +8,7 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "D7",
-      "G"
-    ],
+    "introduction": ["G", "C", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -29,7 +24,7 @@
         "type": "chorus",
         "text": [
           "Vem [D7]atender ao Seu cha[G]mado;",
-          "Se[D7]rás, por Cristo, perdo[B]a - [D7]do",
+          "Se[D7]rás, por Cristo, perdo[B]a[D7]do",
           "E fa[G]rá de ti um bem-aventu[C]rado.",
           "Diz Je[D7]sus: “[A7]Vem [D7]a [G]Mim”."
         ]

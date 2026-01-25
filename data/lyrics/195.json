@@ -8,14 +8,7 @@
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "G",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "A7", "D", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -41,7 +34,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[D]hor, a [A7]Tua [D]face [G]de - [A7]sejo contemp[D]lar",
+          "Sen[D]hor, a [A7]Tua [D]face [G]de[A7]sejo contemp[D]lar",
           "Na glória incompará[G]vel do [A7]Teu eterno [D]lar.",
           "Eu [A7]sinto a Tua g[D]raça, tam[A7]bém o Teu vi[D]gor,",
           "E nada me impe[G]de de hon[A7]rar-Te com fer[D]vor."

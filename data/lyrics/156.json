@@ -2,47 +2,42 @@
   "code": "156",
   "version": "v3",
   "title": "Cristo entrou nos céus primeiro",
+  "level": 3,
   "tone": {
     "original": "Eb",
-    "selected": "D"
+    "selected": "C"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["C", "G7", "C", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]A esperança [A7]de entrar na [D]glória",
-          "Nos sustém fiéis ao [A7]nosso Deus;",
-          "[D]É, para os santos, [G]neste ca[D]minho,",
-          "[A7]Âncora que vem dos [D]céus."
+          "[C]A esperança [G7]de entrar na [C]glória",
+          "Nos sustém fiéis ao [G7]nosso Deus;",
+          "[C]É, para os santos, [F]neste ca[C]minho,",
+          "[G7]Âncora que vem dos [C]céus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[Bm]Cristo en[F#]trou nos [Bm]céus primeiro,",
-          "[A7]Ele é o [E]nosso [A7]Precursor;",
-          "[D]É o Sumo [G]Sacerdote eterno",
-          "[A7]Junto a Deus, o Cria[D]dor."
+          "[Am]Cristo en[E]trou nos [Am]céus primeiro,",
+          "[G7]Ele é o [D]nosso [G7]Precursor;",
+          "[C]É o Sumo [F]Sacerdote eterno",
+          "[G7]Junto a Deus, o Cria[C]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Na esperança [A7]que está pro[D]posta,",
-          "Firme está a nossa [A7]vocação;",
-          "[D]Ela sustenta [G]a nossa [D]alma",
-          "[A7]Através da prova[D]ção."
+          "[C]Na esperança [G7]que está pro[C]posta,",
+          "Firme está a nossa [G7]vocação;",
+          "[C]Ela sustenta [F]a nossa [C]alma",
+          "[G7]Através da prova[C]ção."
         ]
       },
       {
@@ -53,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]No santuário [A7]dos céus entra[D]remos",
-          "Como entrou Jesus, o [A7]nosso Rei,",
-          "[D]Se atendermos [G]aos Seus pre[D]ceitos",
-          "[A7]E amarmos Sua [D]lei."
+          "[C]No santuário [G7]dos céus entra[C]remos",
+          "Como entrou Jesus, o [G7]nosso Rei,",
+          "[C]Se atendermos [F]aos Seus pre[C]ceitos",
+          "[G7]E amarmos Sua [C]lei."
         ]
       },
       {

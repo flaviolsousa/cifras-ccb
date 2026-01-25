@@ -2,28 +2,23 @@
   "code": "164",
   "version": "v3",
   "title": "Louvemos sempre alegres",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D",
-      "A",
-      "D"
-    ],
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Lou[D]vemos sempre alegres a [A]Deus, três vezes Santo,",
-          "Que, [D]por amar-nos tanto, [A]man[D]dou o [E7]Salva[A]dor.",
+          "Que, [D]por amar-nos tanto, man[Bm]dou o [E7]Salva[A]dor.",
           "Je[D]sus, por Sua [G]mor[D]te, pagou nossas o[A]fensas;",
-          "So[D]frendo dor imensa, [D7]most[G]rou o [A]Seu a[D]mor."
+          "So[D]frendo dor imensa, mos[Em]trou o [A]Seu a[D]mor."
         ]
       },
       {
@@ -31,9 +26,9 @@
         "code": "2",
         "text": [
           "Es[D]tão os nossos nomes, por [A]Deus, no céu escritos;",
-          "Che[D]guemo-nos, contritos, [A]ao [D]Pai de e[E7]terno a[A]mor.",
+          "Che[D]guemo-nos, contritos, ao [Bm]Pai de e[E7]terno a[A]mor.",
           "Em [D]paz, na Sua [G]sen[D]da caminham os re[A]midos,",
-          "Lu[D]tando sempre unidos, [D7]com [G]força [A]e va[D]lor."
+          "Lu[D]tando sempre unidos, com [Em]força [A]e va[D]lor."
         ]
       },
       {
@@ -41,9 +36,9 @@
         "code": "3",
         "text": [
           "Je[D]sus virá, com glória, fa[A]zer o julgamento",
-          "De [D]quem Seu mandamento [A]não [D]quis o[E7]bede-[A]cer;",
-          "Po[D]rém, os Seus re[G]mi-[D]dos já têm a espe[A]rança",
-          "E a [D]firme confiança [D7]de o [G]prêmio [A]rece[D]ber."
+          "De [D]quem Seu mandamento não [Bm]quis o[E7]bede[A]cer;",
+          "Po[D]rém, os Seus re[G]mi[D]dos já têm a espe[A]rança",
+          "E a [D]firme confiança de o [Em]prêmio [A]rece[D]ber."
         ]
       }
     ]

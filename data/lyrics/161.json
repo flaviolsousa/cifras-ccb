@@ -2,19 +2,14 @@
   "code": "161",
   "version": "v3",
   "title": "Cristo quer salvar",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

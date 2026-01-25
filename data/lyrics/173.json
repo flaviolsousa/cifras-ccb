@@ -8,27 +8,17 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "A",
-      "D",
-      "E",
-      "A"
-    ],
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[A]Para ouvir aqui es[D]tamos ",
-          "[E]A Palavra do Sen[A]hor;",
-          "Só por Ela temos [D]vida",
-          "[E]E a luz do Salva[A]dor."
-        ]
+        "text": ["[A]Para ouvir aqui es[D]tamos ", "[E]A Palavra do Sen[A]hor;", "Só por Ela temos [D]vida", "[E]E a luz do Salva[A]dor."]
       },
       {
         "type": "chorus",
         "text": [
-          "[F#m]Templos santos [Db7]fomos [F#m]fei - [A]tos",
+          "[F#m]Templos santos [Db7]fomos [F#m]fei[A]tos",
           "[F#m]Para habita[B7]ção de [E]Deus;",
           "[A]O Senhor nos quer per[D]feitos;",
           "[E]Somos os eleitos [A]Seus."
@@ -37,12 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[A]Exaltando aqui es[D]tamos",
-          "[E]A Jesus, que nos sal[A]vou;",
-          "Todo o louvor Lhe [D]damos;",
-          "[E]Ele já nos resga[A]tou."
-        ]
+        "text": ["[A]Exaltando aqui es[D]tamos", "[E]A Jesus, que nos sal[A]vou;", "Todo o louvor Lhe [D]damos;", "[E]Ele já nos resga[A]tou."]
       },
       {
         "type": "ref",
@@ -51,12 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[A]Nós devemos ser-Lhe [D]gratos",
-          "[E]Pelo Seu imenso a[A]mor;",
-          "Nesta casa, e em toda a [D]parte,",
-          "[E]Exaltemos ao Sen[A]hor."
-        ]
+        "text": ["[A]Nós devemos ser-Lhe [D]gratos", "[E]Pelo Seu imenso a[A]mor;", "Nesta casa, e em toda a [D]parte,", "[E]Exaltemos ao Sen[A]hor."]
       },
       {
         "type": "ref",

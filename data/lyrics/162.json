@@ -2,20 +2,14 @@
   "code": "162",
   "version": "v3",
   "title": "Cristo salvou-me",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "Am",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "Am", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

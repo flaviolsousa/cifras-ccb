@@ -2,21 +2,14 @@
   "code": "166",
   "version": "v3",
   "title": "A graça inefável de Deus",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "G7",
-      "C",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "C", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

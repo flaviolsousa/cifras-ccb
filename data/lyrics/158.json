@@ -2,19 +2,14 @@
   "code": "158",
   "version": "v3",
   "title": "Meu lar está no céu",
+  "level": 5,
   "tone": {
     "original": "C",
     "selected": "C"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "G",
-      "C"
-    ],
+    "introduction": ["C", "G", "C", "G", "C"],
     "stanzas": [
       {
         "type": "lyric",
@@ -22,8 +17,8 @@
         "text": [
           "[C]Meu lar está no céu, [G]pátria de a[C]mor,",
           "Onde, com o Senhor, [G]habita[C]rei;",
-          "Oh! Quão fe[F]liz se[C]rei ao ver o [F]Cria[C]dor!",
-          "Seu [G]grande [C]esplendor [F]con[G]templa[C]rei."
+          "Oh! Quão fe[F|↓]liz se[C]rei ao v[C|↓]er o [F|↓]Cria[C]dor!",
+          "Seu [G|↓]grande [C]esplendor [F|↓]con[G|↓]templa[C]rei."
         ]
       },
       {
@@ -32,8 +27,8 @@
         "text": [
           "[C]Meu lar está no céu, [G]pátria de a[C]mor,",
           "Onde, do meu labor, [G]descansa[C]rei;",
-          "Cristo me [F]prome[C]teu dar, pelo [F]Seu fa[C]vor,",
-          "He[G]rança [C]que no céu [F]des[G]fruta[C]rei."
+          "Cristo me [F|↓]prome[C]teu dar, [C|↓]pelo [F|↓]Seu fa[C]vor,",
+          "He[G|↓]rança [C]que no céu [F|↓]des[G|↓]fruta[C]rei."
         ]
       },
       {
@@ -42,8 +37,8 @@
         "text": [
           "[C]Meu lar está no céu, [G]pátria de a[C]mor;",
           "Em glória, com Jesus, [G]lá entra[C]rei;",
-          "Quando, en[F]fim, che[C]gar ao reino [F]de esplen[C]dor,",
-          "Li[G]vre de [C]toda a dor, [F]re - [G]pousa[C]rei."
+          "Quando, en[F|↓]fim, che[C]gar ao [C|↓]reino [F|↓]de esplen[C]dor,",
+          "Li[G|↓]vre de [C]toda a dor, [F|↓]re[G|↓]pousa[C]rei."
         ]
       }
     ]

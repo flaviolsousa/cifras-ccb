@@ -2,21 +2,14 @@
   "code": "159",
   "version": "v3",
   "title": "Deus amou o mundo",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "G7",
-      "C",
-      "Am",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "G7", "C", "Am", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -33,7 +26,7 @@
         "text": [
           "[G]Que glorioso amor, que sublime amor",
           "[C]Deus manifes[G]tou, sal[Em]vando o peca[D]dor!",
-          "[G]Que divino amor, [B7]que imenso a[Em]mor",
+          "[G]Que divino amor, [B7]que i[Em]menso amor",
           "[C]Deus nos reve[G]lou em Cristo, o [D]Salva[G]dor!"
         ]
       },

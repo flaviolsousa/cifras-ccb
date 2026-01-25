@@ -2,39 +2,28 @@
   "code": "163",
   "version": "v3",
   "title": "Neste mundo de ilusão",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "E",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "A7", "D", "E", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Neste mundo [A7]de ilu[D]são [E]não há feli[A7]dade;",
-          "[D]Só em Cristo há [A7]salva[Bm]ção, [G]pois Ele [A7]é a Verda[D]de;",
+          "[D]Neste mundo [A7]de ilu[D]são [E]não há felici[A7]dade;",
+          "[D]Só em Cristo há [A7]salva[Bm]ção, [G]pois Ele [A7|×2]é a Verda[D]de;",
           "[A7]Ei-Lo à porta [D]a bater, [A7]vida quer te [D]conceder;",
           "De ninguém a [G]podes ter, [D]só do Cordeiro de [A7]Deus[D]."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]Queres felicidade?",
-          "[A7]Crê no Senhor Je[D]sus,",
-          "Que, por ti, des[G]ceu dos céus;",
-          "[D]Crê no Cordeiro de [A7]Deus[D]!"
-        ]
+        "text": ["[D]Queres felicidade?", "[A7]Crê no Senhor Je[D]sus,", "Que, por ti, des[G|×2]ceu dos céus;", "[D]Crê no Cordeiro de [A7]Deus[D]!"]
       },
       {
         "type": "lyric",

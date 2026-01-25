@@ -15,7 +15,7 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Bendize, ó minha [F]al-[C]ma, ao [Am]teu amado Sen[G]hor,",
+          "[C]Bendize, ó minha [F]al[C]ma, ao [Am]teu amado Sen[G]hor,",
           "Ben[C]dize o Nome do e[F]terno [F|↓ •••]Deus; é g[C]rande o b[G]em que te f[C]az;",
           "[G]Nunca te esqueças [C]do amor e [D]do celestial fa[G]vor;",
           "É [C]Ele Quem perdoa os [F]erros [F|↓ •••]teus e [C]te dá con[G]forto e p[C]az."
@@ -23,18 +23,13 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[C]Ao Pai da Eterni[F]da-[C]de,",
-          "[G7]Grande em benignida[C]de,",
-          "Glória e [C7]majes[F]tade,",
-          "Do[C]mínio, [G]honra e lou[C]vor!"
-        ]
+        "text": ["[C]Ao Pai da Eterni[F]da[C]de,", "[G7]Grande em benignida[C]de,", "Glória e [C7]majes[F]tade,", "Do[C]mínio, [G]honra e lou[C]vor!"]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Todo o meu ser ben[F]di-[C]ga ao [Am]Deus que dá perfeiç[G]ão;",
+          "[C]Todo o meu ser ben[F]di[C]ga ao [Am]Deus que dá perfeiç[G]ão;",
           "O [C]bálsamo que me ali[F]via a [F|↓ •••]dor, do S[C]eu santo t[G]rono pro[C]vém;",
           "[G]Ele afastou, por S[C]eu amor, de m[D]im a grande maldiç[G]ão;",
           "E, [C]aos que cumprem Sua e[F]terna [F|↓ •••]lei, re[C]serva no c[G]éu sumo [C]bem."

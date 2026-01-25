@@ -8,12 +8,7 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "A7",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "A7", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -27,12 +22,7 @@
       },
       {
         "type": "chorus",
-        "text": [
-          "[G]Oh! Que preci[Am]o - [D]sa",
-          "É a paz de D[G]eus!",
-          "Bênção glori[Am]osa",
-          "[D]Que somente vem dos c[G]éus!"
-        ]
+        "text": ["[G]Oh! Que preci[Am]o[D]sa", "É a paz de D[G]eus!", "Bênção glori[Am]osa", "[D]Que somente vem dos c[G]éus!"]
       },
       {
         "type": "lyric",
