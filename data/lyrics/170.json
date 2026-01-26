@@ -2,19 +2,14 @@
   "code": "170",
   "version": "v3",
   "title": "Pai eternal, envia dos céus...",
+  "level": 3,
   "tone": {
     "original": "C",
     "selected": "C"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "F",
-      "C"
-    ],
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",

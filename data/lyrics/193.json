@@ -8,13 +8,7 @@
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "G",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,7 +17,7 @@
           "Apascen[D]tado [G]por Jesus [D]Cristo",
           "Nada ja[A7]mais me falta[D]rá;",
           "De confiança [G]eu me re[D]visto,",
-          "O meu Pas[A7]tor não fa[E7]lha - [A7]rá."
+          "O meu Pas[A7]tor não fa[E7]lha[A7]rá."
         ]
       },
       {
@@ -42,7 +36,7 @@
           "Passo a [D]passo, [G]por fé pros[D]sigo",
           "Rumo à [A7]pátria celes[D]tial;",
           "Na tempestade [G]tenho a[D]brigo;",
-          "Tenho so[A7]corro di[E7]vi - [A7]nal."
+          "Tenho so[A7]corro di[E7]vi[A7]nal."
         ]
       },
       {

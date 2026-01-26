@@ -2,30 +2,19 @@
   "code": "172",
   "version": "v3",
   "title": "Um culto santo ao Senhor",
+  "level": 3,
   "tone": {
     "original": "C",
     "selected": "C"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "C7",
-      "F",
-      "C"
-    ],
+    "introduction": ["C", "G", "C", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Um culto [C]santo ao Sen[G]hor",
-          "Foi celebrado com a[C]mor;",
-          "Foi recebido [C7]lá nos c[F]éus",
-          "Por nosso [C]pode[G]roso D[C]eus."
-        ]
+        "text": ["Um culto [C]santo ao Sen[G]hor", "Foi celebrado com a[C]mor;", "Foi re[C7]cebido lá nos c[F]éus", "Por nosso [G]poderoso D[C]eus."]
       },
       {
         "type": "lyric",
@@ -33,8 +22,8 @@
         "text": [
           "Um novo a[C]lento há em [G]nós,",
           "Pois Deus ouviu a nossa [C]voz;",
-          "A sã Palavra [C7]nos man[F]dou",
-          "E nossas [C]forças [G]reno[C]vou."
+          "A sã Pala[C7]vra nos man[F]dou",
+          "E nossas [G]forças reno[C]vou."
         ]
       },
       {
@@ -43,8 +32,8 @@
         "text": [
           "Com o con[C]selho divi[G]nal",
           "Suplantaremos todo o [C]mal;",
-          "E, face a face, [C7]lá nos c[F]éus,",
-          "Veremos [C]nosso [G]grande D[C]eus."
+          "E, face a [C7]face, lá nos c[F]éus,",
+          "Veremos [G]nosso grande D[C]eus."
         ]
       }
     ]

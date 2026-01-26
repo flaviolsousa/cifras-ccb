@@ -2,19 +2,14 @@
   "code": "180",
   "version": "v3",
   "title": "Jesus é a Luz que veio ao mundo...",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -33,7 +28,7 @@
           "Eu con[G]templarei todo o esplendor",
           "Do meu Redentor. Que ale[D]gria!",
           "Lá não [Em]há tris[C]teza [G]e nem mal,",
-          "[C]Só o amor [D]pere[G]nal."
+          "[C]Só‿o‿amor [D]pere[G]nal."
         ]
       },
       {
@@ -51,10 +46,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Je[G]sus, vem com a t[D]ua gloriosa l[G]uz para me gui[D]ar",
-          "No [G]Evangelho [D]santo, até fin[A7]dar meu peregri[D]nar.[D]..."
-        ]
+        "text": ["Je[G]sus, vem com a t[D]ua gloriosa l[G]uz para me gui[D]ar", "No [G]Evangelho [D]santo, até fin[A7]dar meu peregri[D]nar.[D]..."]
       },
       {
         "type": "ref",

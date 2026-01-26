@@ -2,44 +2,28 @@
   "code": "178",
   "version": "v3",
   "title": "A Palavra preciosa",
+  "level": 3,
   "tone": {
     "original": "Bb",
     "selected": "A"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "A",
-      "D",
-      "B7",
-      "E7",
-      "A"
-    ],
+    "introduction": ["A", "D", "B7", "E7", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "A Pa[A]lavra da ver[D]dade, de Deus [B7]Pai, o Cria[E7]dor,",
-          "Traz dos [A]céus a santi[D]dade aos re[E7]midos do Sen[A]hor."
-        ]
+        "text": ["A Pa[A]lavra da ver[D]dade, de Deus [B7]Pai, o Cria[E7]dor,", "Traz dos [A]céus a santi[D]dade aos re[E7]midos do Sen[A]hor."]
       },
       {
         "type": "chorus",
-        "text": [
-          "A Pa[D]lavra preci[A]osa",
-          "Do fi[B7]el, vivente [E7]Deus,",
-          "É Es[A]pada pode[D]rosa,",
-          "Que de[E7]fende os santos S[A]eus."
-        ]
+        "text": ["A Pa[D]lavra preci[A]osa", "Do fi[B7]el, vivente [E7]Deus,", "É Es[A]pada pode[D]rosa,", "Que de[E7]fende os santos S[A]eus."]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "A Pa[A]lavra cria[D]dora trouxe ao [B7]mundo grande [E7]luz",
-          "Pela [A]obra reden[D]tora consu[E7]mada por Je[A]sus."
-        ]
+        "text": ["A Pa[A]lavra cria[D]dora trouxe ao [B7]mundo grande [E7]luz", "Pela [A]obra reden[D]tora consu[E7]mada por Je[A]sus."]
       },
       {
         "type": "ref",
@@ -48,10 +32,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Para [A]sempre perma[D]nece a Pa[B7]lavra divi[E7]nal;",
-          "Nossas [A]almas forta[D]lece e pro[E7]tege-nos do [A]mal."
-        ]
+        "text": ["Para [A]sempre perma[D]nece a Pa[B7]lavra divi[E7]nal;", "Nossas [A]almas forta[D]lece e pro[E7]tege-nos do [A]mal."]
       },
       {
         "type": "ref",

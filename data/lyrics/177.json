@@ -2,47 +2,42 @@
   "code": "177",
   "version": "v3",
   "title": "Eu necessito achegar-me",
+  "level": 3,
   "tone": {
     "original": "Eb",
-    "selected": "D"
+    "selected": "C"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["C", "G7", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[D]Eu neces[A7]sito ache[D]gar-me",
-          "Ao meu fiel e bon[A7]doso Sen[D]hor,[Db°]...",
-          "[Bm]Para po[Gb7]der conso[Bm]lar-me",
-          "Sempre no [E7]Seu infinito a[A]mor."
+          "[C]Eu neces[G7]sito ache[C]gar-me",
+          "Ao meu fiel e bon[G7]doso Sen[C]hor,",
+          "[Am]Para po[E]der conso[Am]lar-me",
+          "Sempre no [D7]Seu infinito a[G]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[A7]Sim, [D]eu neces[A]sito entre[D]gar-me",
-          "[A7]Nos [D]braços do [A]meu Reden[D]tor;",
-          "Só em Jesus pode[B7]rei abri[Em]gar-me,",
-          "[A7]Pois é fiel Defen[D]sor."
+          "[G7]Sim, [C]eu neces[G]sito entre[C]gar-me",
+          "[G7]Nos [C]braços do [G]meu Reden[C]tor;",
+          "Só em Jesus pode[A7]rei abri[Dm]gar-me,",
+          "[G7]Pois é fiel Defen[C]sor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[D]Eu neces[A7]sito a[D]ter-me",
-          "Ao meu Senhor, o ve[A7]raz Reden[D]tor;[Db°]...",
-          "[Bm]Não posso, eu [Gb7]só, defen[Bm]der-me,",
-          "Mas com Je[E7]sus eu serei vence[A]dor."
+          "[C]Eu neces[G7]sito a[C]ter-me",
+          "Ao meu Senhor, o ve[G7]raz Reden[C]tor;",
+          "[Am]Não posso, eu [E]só, defen[Am]der-me,",
+          "Mas com Je[D7]sus eu serei vence[G]dor."
         ]
       },
       {
@@ -53,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Eu neces[A7]sito pros[D]trar-me",
-          "Aos santos pés do meu [A7]bom Reden[D]tor;[Db°]...",
-          "[Bm]Ele ao [Gb7]céu quer le[Bm]var-me",
-          "Por Seu e[E7]terno e sublime a[A]mor."
+          "[C]Eu neces[G7]sito pros[C]trar-me",
+          "Aos santos pés do meu [G7]bom Reden[C]tor;",
+          "[Am]Ele ao [E]céu quer le[Am]var-me",
+          "Por Seu e[D7]terno e sublime a[G]mor."
         ]
       },
       {

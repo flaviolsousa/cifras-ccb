@@ -13,6 +13,10 @@
 
 ```
 
+```regex
+[-]\s*\[[\w|]+\](?!nos|me)
+```
+
 # Rhythms
 
 Canção
@@ -43,6 +47,10 @@ node encrypt-hymns.js encrypt 002.json --override
 # Pendente
 
 168
+
+169
+https://www.cifraclub.com.br/congregacao-crista-no-brasil/169-aos-pes-de-deus-estamos/#
+ou Hinário de papel está muito bom
 
 # Target
 

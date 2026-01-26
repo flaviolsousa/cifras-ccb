@@ -2,20 +2,14 @@
   "code": "176",
   "version": "v3",
   "title": "Por Ti vivo, ó Deus potente",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D",
-      "A",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "A", "D", "A", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -24,15 +18,15 @@
           "Vi[D]ver desejo só por Ti, Senhor,",
           "Cumprindo sempre Teu que[A]rer,",
           "Mos[D]trando a luz ao mundo enganador",
-          "E [A]consa[A7]grando a Ti meu [D]ser."
+          "E [A]consa[A7]grando a Ti meu [D]ser.[D7]"
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D7]Por Ti [G]vivo, ó Deus po[D]tente;",
-          "Por Ti, Se[A7]nhor, sempre vive[D]rei;",
-          "[D7]Com mi[G]nh´alma, mui reve[D]rente,",
+          "Por Ti [G]vivo, ó Deus po[D]tente;",
+          "Por Ti, Se[A7]nhor, sempre vive[D]rei;[D7]",
+          "Com mi[G]nh´alma, mui reve[D]rente,",
           "O Teu [A7]Nome bendi[D]rei."
         ]
       },
@@ -43,7 +37,7 @@
           "Vi[D]ver por Ti, Senhor, honroso é,",
           "Oh! Faz-me andar em Teu a[A]mor;",
           "Em [D]paz prosseguirei de fé em fé",
-          "E [A]vence[A7]rei o tenta[D]dor."
+          "E [A]vence[A7]rei o tenta[D]dor.[D7]"
         ]
       },
       {
@@ -57,7 +51,7 @@
           "Vi[D]ver desejo, ó Deus, em retidão,",
           "Com as virtudes celes[A]tiais;",
           "De [D]Ti receberei o galardão",
-          "E [A]as ri[A7]quezas eter[D]nais."
+          "E [A]as ri[A7]quezas eter[D]nais.[D7]"
         ]
       },
       {

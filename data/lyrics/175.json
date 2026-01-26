@@ -2,44 +2,34 @@
   "code": "175",
   "version": "v3",
   "title": "O Senhor Jesus te chama",
+  "level": 5,
   "tone": {
     "original": "C",
     "selected": "C"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "C",
-      "G",
-      "C",
-      "G",
-      "C"
-    ],
+    "introduction": ["C", "G", "C"],
+    "initialObservation": "No verso, haverá um compasso onde o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "[C]O Senhor Jesus te [G]chama, com sublime e grande a[C]mor;",
-          "Nâo desprezes Quem te [G]ama e quer ser teu Salva[C]dor."
-        ]
+        "text": ["[C]O Senhor Jesus te [G]chama, com sublime e grande a[C]mor;", "Nâo desprezes Quem te [G]ama e quer ser teu Salva[C]dor."]
       },
       {
         "type": "chorus",
         "text": [
           "[C]Deixa Cristo, o Rei da [G]glória,",
           "Possuir teu coraç[C]ão,",
-          "[E]Se desejas [F]ter vi[C]tória",
+          "[E]Se de[E|↓↑]sejas [F|↓↓]ter vi[C]tória",
           "E e[G]terna salva[C]ção."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "[C]O prazer bem cedo [G]finda neste mundo sedu[C]tor;",
-          "Cristo quer, em Sua [G]vinda, dar-te o reino de esplen[C]dor."
-        ]
+        "text": ["[C]O prazer bem cedo [G]finda neste mundo sedu[C]tor;", "Cristo quer, em Sua [G]vinda, dar-te o reino de esplen[C]dor."]
       },
       {
         "type": "ref",
@@ -48,10 +38,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[C]Hoje é dia acei[G]tável, hoje é dia de per[C]dão;",
-          "Com amor inigua[G]lável, Cristo dá a salva[C]ção."
-        ]
+        "text": ["[C]Hoje é dia acei[G]tável, hoje é dia de per[C]dão;", "Com amor inigua[G]lável, Cristo dá a salva[C]ção."]
       },
       {
         "type": "ref",

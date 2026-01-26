@@ -2,17 +2,14 @@
   "code": "179",
   "version": "v3",
   "title": "Trabalhai! Trabalhai!",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D"
-    ],
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -21,7 +18,7 @@
           "Traba[D]lhemos, irmãos, somos servos de Deus,",
           "As se[A]aras de Cristo já [D]brancas estão;",
           "Recebendo as forças que vêm lá dos céus,",
-          "Cumpri[A]remos, a[E]legres, a nossa mis[A]são."
+          "Cumpri[A]remos, a[E]legres, a nossa mis[A]são.[A7]"
         ]
       },
       {
@@ -30,7 +27,7 @@
           "Traba[D]lhai, traba[A]lhai,",
           "Vigi[A7]ai, vigi[D]ai",
           "E o[D7]rai sem ces[G]sar,[Em]...",
-          "Pois [D]breve o [G]Mestre [A7]vai vol[D]tar."
+          "Pois [D]breve o Mestre [A7]vai vol[D]tar."
         ]
       },
       {
@@ -40,7 +37,7 @@
           "Traba[D]lhemos, irmãos, com afinco e amor,",
           "Anun[A]ciando aos famintos que o [D]Pão celestial",
           "É Jesus, a Palavra de vida e vigor;",
-          "Ela [A]nos ali[E]menta e nos livra do [A]mal."
+          "Ela [A]nos ali[E]menta e nos livra do [A]mal.[A7]"
         ]
       },
       {
@@ -54,7 +51,7 @@
           "Traba[D]lhemos, irmãos, pois ungiu-nos o Pai",
           "Para a [A]graça de Cristo, por [D]fé, propagar;",
           "Os talentos, o Mestre nos diz: “Granjeai”.",
-          "Sobre o [A]muito, no [E]céu, nos irá colo[A]car."
+          "Sobre o [A]muito, no [E]céu, nos irá colo[A]car.[A7]"
         ]
       },
       {

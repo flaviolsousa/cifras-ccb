@@ -2,14 +2,15 @@ import { type ChordDictionary } from "../domain/ChordDictionary";
 
 export const chordDictionary: ChordDictionary = {
   // Chords of A
-  A: { frets: [0, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
+  A: { frets: [-1, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
   "A#": { frets: [-1, 1, 3, 3, 3, 1], fingers: [0, 1, 2, 3, 4, 1] },
   "A#7": { frets: [-1, 1, 3, 1, 3, 1], fingers: [0, 1, 2, 1, 3, 1] },
   "A#m": { frets: [-1, 1, 3, 3, 2, 1], fingers: [0, 1, 3, 4, 2, 1] },
-  "A#°": { frets: [0, 1, 2, 0, 2, 0], fingers: [0, 1, 2, 0, 3, 0] },
-  A7: { frets: [0, 0, 2, 0, 2, 0], fingers: [0, 0, 2, 0, 3, 0] },
-  A9: { frets: [0, 0, 2, 4, 2, 0], fingers: [0, 0, 1, 3, 2, 0] },
-  Am: { frets: [0, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+  "A#°": { frets: [-1, 1, 2, 0, 2, 0], fingers: [0, 1, 2, 0, 3, 0] },
+  A7: { frets: [-1, 0, 2, 0, 2, 0], fingers: [0, 0, 2, 0, 3, 0] },
+  A9: { frets: [-1, 0, 2, 4, 2, 0], fingers: [0, 0, 1, 3, 2, 0] },
+  Am: { frets: [-1, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+  Am7: { frets: [-1, 0, 2, 0, 1, 3], fingers: [0, 0, 2, 0, 1, 4] },
   "A°": { frets: [0, 0, 1, 2, 1, -1], fingers: [0, 0, 1, 3, 2, 0] },
 
   // Chords of B

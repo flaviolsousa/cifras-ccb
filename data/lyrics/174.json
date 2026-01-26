@@ -2,6 +2,7 @@
   "code": "174",
   "version": "v3",
   "title": "Vem atender ao Seu chamado",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -17,16 +18,16 @@
           "Ao a[G]mado Jesus Cristo dá ou[C]vidos,",
           "Ele [D7]diz: “Vem a [G]Mim”;",
           "E serão os teus pecados esque[C]cidos;",
-          "Cristo [A7]diz: “Vem a [D7]Mim”."
+          "Cristo [A7]diz: “Vem a [D7|•••]Mim”."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "Vem [D7]atender ao Seu cha[G]mado;",
-          "Se[D7]rás, por Cristo, perdo[B]a[D7]do",
+          "Se[D7]rás, por Cristo, perdo[B7]a[D7|•••]do",
           "E fa[G]rá de ti um bem-aventu[C]rado.",
-          "Diz Je[D7]sus: “[A7]Vem [D7]a [G]Mim”."
+          "Diz Je[D7|•••]sus: “[A7|↓]Vem [D7|↓]a [G]Mim”."
         ]
       },
       {
@@ -36,7 +37,7 @@
           "Só Je[G]sus tem força para liber[C]tar-te;",
           "Crê no [D7]teu Reden[G]tor;",
           "Ele que, com Deus, o Pai, reconci[C]liar-te;",
-          "Crê no [A7]teu Salva[D7]dor."
+          "Crê no [A7]teu Salva[D7|•••]dor."
         ]
       },
       {
@@ -50,7 +51,7 @@
           "Sobre a[G]marga cruz, por ti, provou a [C]morte;",
           "Ouve a [D7]voz do Sen[G]hor;",
           "Não rejeites tão preciosa e grande [C]sorte;",
-          "Vem pro[A7]var Seu a[D7]mor."
+          "Vem pro[A7]var Seu a[D7|•••]mor."
         ]
       },
       {

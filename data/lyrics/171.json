@@ -2,20 +2,14 @@
   "code": "171",
   "version": "v3",
   "title": "Vida eterna! Vida eterna!",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "A7",
-      "D7",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "A7", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -24,15 +18,15 @@
           "As mo[G]radas preparadas para os [C]santos do Sen[G]hor",
           "São ornadas de be[A7]leza sem i[D7]gual;",
           "Nelas [G]nós habitaremos com Je[C]sus, o Redentor,",
-          "E com [G]Deus, o [A#°]nosso [D7]Pai celesti[G]al."
+          "E com [G]Deus, o nosso [Am|↓]Pai ce[D|↓]lesti[G]al."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Vida e[Am7]terna,[D7] vida e[G]terna",
+          "Vida e[Am]terna,[D7] vida e[G]terna",
           "Nós te[C]remos junto ao [G]nosso [D7]Deus;",
-          "Rego[G]zijo, alegria sempi[C]ter[Db°]na,",
+          "Rego[G]zijo, ale[G7]gria sempi[C]terna,",
           "É o [G]prêmio dos e[D7]leitos S[G]eus."
         ]
       },
@@ -43,7 +37,7 @@
           "É de [G]ouro a cidade glori[C]osa do Sen[G]hor,",
           "Resplandece para [A7]sempre sua [D7]luz;",
           "Não há [G]nela sol nem lua, pois tem [C]luz do Criador",
-          "E tam[G]bém a [A#°]sua [D7]Lâmpada é Je[G]sus."
+          "E tam[G]bém a sua [Am|↓]Lâmpa[D|↓]da é Je[G]sus."
         ]
       },
       {
@@ -57,7 +51,7 @@
           "Com as [G]vestes brancas e entoando [C]hinos de lou[G]vor",
           "Triunfantes, entra[A7]remos lá nos [D7]céus;",
           "Lá ve[G]remos todos quantos já dor[C]miram no Senhor,",
-          "Lá ve[G]remos, [A#°]face a [D7]face, nosso D[G]eus."
+          "Lá ve[G]remos, face a [Am|↓]face, [D|↓]nosso D[G]eus."
         ]
       },
       {
