@@ -2,6 +2,7 @@
   "code": "184",
   "version": "v3",
   "title": "Nós Te louvamos, por fé, grande Deus",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -14,30 +15,30 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Nós Te lou[Am]vamos, [Em]por [D]fé, grande D[G]eus,",
-          "E imploramos Teu [C]santo [A7]fa[D]vor;",
-          "Anjos [E7]Te [Am]lou[D]vam [G]lá nos céus",
-          "[C]E nós tam[G]bém Te [C]da[D]mos lou[G]vor."
+          "[G]Nós Te lou[Am]vamos, por [D]fé, grande D[G]eus,",
+          "E imploramos Teu [C]santo fa[D]vor;",
+          "[D7|↓↑↓]Anjos [E7|↓]Te [Am|↓↑↓]lou[D|↓]vam [G]lá nos céus",
+          "[C]E nós tam[G]bém Te [C|↓]da[D7|↓↑↓]mos lou[G]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]Salva Teu [Am]povo, [Em]ó [D]Deus, Cria[G]dor,",
-          "Pelo Teu grande, infi[C]nito [A7]po[D]der;",
-          "Dá-nos [E7]mais [Am]fé, [D]mai[G]or vigor,",
-          "[C]Para que, o [G]mal, pos[C]sa[D]mos ven[G]cer."
+          "[G]Salva Teu [Am]povo, ó [D]Deus, Cria[G]dor,",
+          "Pelo Teu grande, infi[C]nito po[D]der;",
+          "[D7|↓↑↓]Dá-nos [E7|↓]mais [Am|↓↑↓]fé, [D|↓]mai[G]or vigor,",
+          "[C]Para que, o [G]mal, pos[C|↓]sa[D7|↓↑↓]mos ven[G]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Venha Teu [Am]reino [Em]e[D]terno de [G]paz",
-          "Sobre Teus santos fi[C]éis do[A7]mi[D]nar;",
-          "Pela [E7]Pa – [Am]la[D]vra [G]eficaz",
-          "[C]Tu nos fa[G]rás, na [C]gló[D]ria, ent[G]rar."
+          "[G]Venha Teu [Am]reino e[D]terno de [G]paz",
+          "Sobre Teus santos fi[C]éis domi[D]nar;",
+          "[D7|↓↑↓]Pela [E7|↓]Pa – [Am|↓↑↓]la[D|↓]vra [G]eficaz",
+          "[C]Tu nos fa[G]rás, na [C|↓]gló[D7|↓↑↓]ria, ent[G]rar."
         ]
       }
     ]

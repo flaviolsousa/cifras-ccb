@@ -2,57 +2,52 @@
   "code": "185",
   "version": "v3",
   "title": "Deus mandou Sua Luz",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "G",
-      "D",
-      "G",
-      "C",
-      "G"
-    ],
+    "introduction": ["G", "D", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Deus mandou ao mundo Sua [D]Luz brilhar",
-          "E as trevas do pecado [G]dissipar,",
+          "[G]Deus mandou ao mundo Sua [Am]Luz brilhar",
+          "[D7]E as trevas do pecado [G]dissipar,",
           "Anunciando a eterna [C]salvação,",
-          "[G]Paz divina [D]e perd[G]ão."
+          "[G]Paz divina [D7]e perd[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[G]O Sol da justiça Sua [D]luz raiou,",
-          "E o ermo em terra fértil t[G]ransformou;",
+          "[G]O Sol da justiça Sua [Am]luz raiou,",
+          "[D7]E o ermo em terra fértil t[G]ransformou;",
           "Todo aquele que aceitar a [C]Luz dos céus,",
-          "[G]O perdão te[D]rá de D[G]eus."
+          "[G]O perdão te[D7]rá de D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "[G]Temos em Jesus a luz que [D]não tem par,",
-          "Luz que brilha sem jamais se [G]apagar,",
+          "[G]Temos em Jesus a luz que [Am]não tem par,",
+          "[D7]Luz que brilha sem jamais se [G]apagar,",
           "Sol que nunca cessa de res[C]plandecer",
-          "[G]Sobre quem em [D]Cristo c[G]rer."
+          "[G]Sobre quem em [D7]Cristo c[G]rer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[G]Brilha essa Luz em [D]mim,",
-          "Desde que aceitei Je[G]sus;",
+          "[G]Brilha essa Luz em [Am|•••]mim,",
+          "[D7]Desde que‿aceitei Je[G|•••]sus;",
           "Essa Luz iluminou o [C]meu viver",
-          "[G]E me faz res[D]plande[G]cer."
+          "[G]E me faz res[D7]plande[G|•••]cer."
         ]
       }
     ]

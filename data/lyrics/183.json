@@ -2,19 +2,14 @@
   "code": "183",
   "version": "v3",
   "title": "Cristo Jesus é a Porta dos céus",
+  "level": 2,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "A",
-      "D",
-      "A",
-      "D"
-    ],
+    "introduction": ["D", "A", "D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,7 +18,7 @@
           "[D]Cristo Jesus é a Porta dos céus,",
           "[A]N´Ele há paz [D]n´Ele há luz;",
           "Reconcilia o homem com Deus;",
-          "[A]Só Ele à glória con[D]duz."
+          "[A]Só Ele‿à glória con[D]duz."
         ]
       },
       {
@@ -32,11 +27,11 @@
           "[D]Por essa Porta devemos entrar",
           "[A]E caminhar, [D]sem hesitar;",
           "[D]Salvar-se-á quem por Ela passar,",
-          "[E7]N`Ela também confi[A]ar;[A7]...",
+          "[Em]N`Ela tam[E7]bém confi[A]ar;[A7]...",
           "[D]Não mais duvides, não deves tardar",
           "[A]Para entrar, [D]sem vacilar;",
           "Breve, Jesus voltará para os Seus",
-          "[A]E vai leva-los a [D]Deus."
+          "[A]E vai le[A7]va-los a [D]Deus."
         ]
       },
       {
@@ -46,7 +41,7 @@
           "[D]Cristo é a Porta, e outra não há,",
           "[A]Que traz o bem [D]celestial;",
           "Vida com glória aos justos dará,",
-          "[A]Paz e repouso eter[D]nal."
+          "[A]Paz e repouso‿eter[D]nal."
         ]
       },
       {
@@ -57,7 +52,7 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[D]Cristo, Autor de eternal redenção,",
+          "[D]Cristo, Autor de‿eternal redenção,",
           "[A]Veio de Deus, [D]leva a Deus;",
           "Por essa Porta, os santos serão",
           "[A]Glorificados nos [D]céus."

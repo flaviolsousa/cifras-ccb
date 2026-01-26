@@ -2,19 +2,14 @@
   "code": "181",
   "version": "v3",
   "title": "Só em Cristo, só em Cristo",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "A7",
-      "D",
-      "G",
-      "D"
-    ],
+    "introduction": ["D", "A7", "D", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,7 +18,7 @@
           "Vós, que [D]procurais a [A7]água que da [D]vida,",
           "Vinde a [G]Cristo, Fonte do per[D]dão;",
           "Toda a alma contris[A7]tada e aba[D]tida,",
-          "Em Je[E7]sus encontrará a salva[A7]ção."
+          "Em Je[E7]sus encontrará a salva[A]ção.[A7]"
         ]
       },
       {
@@ -42,7 +37,7 @@
           "Nesta [D]Fonte tão pre[A7]ciosa, inesgo[D]tável,",
           "Refri[G]gério todos acha[D]rão;",
           "Recorrendo a Je[A7]sus, Pastor a[D]mável,",
-          "Os se[E7]dentos não mais sede senti[A7]rão."
+          "Os se[E7]dentos não mais sede senti[A]rão.[A7]"
         ]
       },
       {
@@ -56,7 +51,7 @@
           "Cristo [D]é o Mananci[A7]al que puri[D]fica",
           "E eno[G]brece todo o cora[D]ção;",
           "Seu Espírito enco[A7]raja, santi[D]fica",
-          "E en[E7]sina a viver em reti[A7]dão."
+          "E en[E7]sina a viver em reti[A]dão.[A7]"
         ]
       },
       {

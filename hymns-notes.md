@@ -46,11 +46,8 @@ node encrypt-hymns.js encrypt 002.json --override
 
 # Pendente
 
-168
-
-169
-https://www.cifraclub.com.br/congregacao-crista-no-brasil/169-aos-pes-de-deus-estamos/#
-ou Hinário de papel está muito bom
+hino ccb 1 cifras simplificada
+https://github.com/eneiasramos/ccb-hinario-5-do/tree/master/do/pdf
 
 # Target
 
