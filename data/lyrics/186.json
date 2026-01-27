@@ -2,19 +2,14 @@
   "code": "186",
   "version": "v3",
   "title": "Cristo, Luz do mundo",
+  "level": 4,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": [
-      "D",
-      "G",
-      "D",
-      "A7",
-      "D"
-    ],
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,15 +18,12 @@
           "[D]Onde havia pranto, [G]júbilo se ou[D]viu;",
           "[A7]Em lugar de dor, eterna paz sur[D]giu;",
           "Onde dominou completa [D7]sequid[G]ão,",
-          "Águas bro[D]taram e trouxeram [A7]salva[D]ção."
+          "Águas bro[D]taram e trou[Bm|↓]xeram [A7|↓↑↓]salva[D]ção."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[A7]Cristo, Luz do [D]mundo,",
-          "[G]É o Au[D]tor de tão preciosa [A7]redenç[D]ão."
-        ]
+        "text": ["[A7]Cristo, Luz do [D]mundo,", "[G]É o Au[D|↓↑↓↑↓↑↓]tor de tão preciosa [A7|↓↑↓]redenç[D]ão."]
       },
       {
         "type": "lyric",
@@ -40,7 +32,7 @@
           "[D]Cristo, Estrela d´Alva, [G]Luz celesti[D]al,",
           "[A7]Que resplandeceu a todo o mor[D]tal,",
           "Veio anunciar que a noite [D7]já pas[G]sou",
-          "E que o [D]dia da justiça [A7]já che[D]gou."
+          "E que o [D]dia da jus[Bm|↓]tiça [A7|↓↑↓]já che[D]gou."
         ]
       },
       {
@@ -54,7 +46,7 @@
           "[D]Cristo, Conselheiro, [G]Príncipe da [D]paz,",
           "[A7]Pão que vem do céu e vida a todos t[D]raz,",
           "Reino divinal que sobre [D7]nós des[G]ceu,",
-          "É o Salva[D]dor que Deus ao homem [A7]prome[D]teu."
+          "É o Salva[D]dor que Deus ao [Bm|↓]homem [A7|↓↑↓]prome[D]teu."
         ]
       },
       {

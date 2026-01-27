@@ -2,6 +2,7 @@
   "code": "189",
   "version": "v3",
   "title": "Oh! Que preciosa paz",
+  "level": 3,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -16,13 +17,13 @@
         "text": [
           "[G]Oh! Que preciosa [A7]paz provém",
           "[D]De Jesus, o Salva[G]dor[D]!",
-          "[G]Os fiéis desfrutam [A7]desse bem:",
+          "[G]Os fiéis des[Em]frutam [A7]desse bem:",
           "[D]Paz de Deus, o Cria[G]dor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[G]Oh! Que preci[Am]o[D]sa", "É a paz de D[G]eus!", "Bênção glori[Am]osa", "[D]Que somente vem dos c[G]éus!"]
+        "text": ["[G]Oh! Que preci[Am]o[D]sa", "É a paz de D[G]eus!", "Bênção glori[Am]osa", "[D7]Que somente vem dos c[G]éus!"]
       },
       {
         "type": "lyric",
@@ -30,7 +31,7 @@
         "text": [
           "[G]Para essa paz Deus [A7]nos chamou,",
           "[D]Por Jesus, o Emanu[G]el;[D]...",
-          "[G]Abundantemente a [A7]derramou",
+          "[G]Abundante[Em]mente a [A7]derramou",
           "[D]Sobre o justo e fi[G]el."
         ]
       },
@@ -44,7 +45,7 @@
         "text": [
           "[G]Só a paz de Deus pro[A7]tegerá",
           "[D]Nossa mente e coraç[G]ão;[D]...",
-          "[G]E, de transgredir, nos [A7]livrará,",
+          "[G]E, de trans[Em]gredir, nos [A7]livrará,",
           "[D]Vindo a nós a tentaç[G]ão."
         ]
       },

@@ -2,17 +2,14 @@
   "code": "188",
   "version": "v3",
   "title": "O Mestre habita em mim",
+  "level": 4,
   "tone": {
     "original": "A",
     "selected": "A"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "A",
-      "D",
-      "A"
-    ],
+    "introduction": ["A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
@@ -21,7 +18,7 @@
           "Conver[A]são gloriosa operou-se em meu ser,",
           "Pois [D]Cristo habita em [A]mim;",
           "Sinto paz que outrora não pude haver;",
-          "O [B7]Mestre habita em [E]mim.[E]..."
+          "O [B7]Mestre habita em [E|•••]mim."
         ]
       },
       {
@@ -29,7 +26,7 @@
         "text": [
           "Com [A]Cristo em meu coração",
           "Eu [D]sinto real salvaç[A]ão.",
-          "Venturoso, aguardo a glória de [A]Deus,",
+          "Venturoso, aguardo a glória de [A|•••]Deus,",
           "Pois [E]Cristo me leva aos c[A]éus."
         ]
       },
@@ -40,7 +37,7 @@
           "Sepa[A]rado da senda do mal eu estou,",
           "Pois [D]Cristo habita em [A]mim;",
           "Dos pecados passados Deus me perdoou;",
-          "O [B7]Mestre habita em [E]mim.[E]..."
+          "O [B7]Mestre habita em [E|•••]mim."
         ]
       },
       {
@@ -54,7 +51,7 @@
           "Finda[A]rei os meus dias na graça de Deus,",
           "Pois [D]Cristo habita em [A]mim;",
           "Sentirei Sua paz, pois irei para os céus;",
-          "O [B7]Mestre habita em [E]mim.[E]..."
+          "O [B7]Mestre habita em [E|•••]mim."
         ]
       },
       {

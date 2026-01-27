@@ -2,48 +2,42 @@
   "code": "190",
   "version": "v3",
   "title": "Amados, não temamos",
+  "level": 3,
   "tone": {
-    "original": "F",
-    "selected": "F"
+    "original": "Bb",
+    "selected": "A"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "F",
-      "A#",
-      "F",
-      "G7",
-      "C",
-      "F"
-    ],
+    "introduction": ["A", "D", "A", "B7", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Man[F]tendo nossa vida consa[A#]grada ao Sen[F]hor,",
-          "Do céu virão as bênçãos, pois fi[G7]el é o Cria[C]dor;",
-          "A [F]graça retenhamos, sem ja[A#]mais esmore[F]cer;",
-          "Je[A#]sus venceu o [F]mundo e nos fa[C]rá prevale[F]cer."
+          "Man[A]tendo nossa vida consa[D]grada ao Sen[A]hor,",
+          "Do céu virão as bênçãos, pois fi[B7]el é o Cria[E]dor;",
+          "A [A]graça retenhamos, sem ja[D]mais esmore[A]cer;",
+          "Je[D]sus venceu o [A]mundo e nos fa[E]rá prevale[A|•••]cer."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A[F]mados, não te[A#]mamos",
-          "Na [G7]marcha para os [C]céus;",
-          "A [F]Cristo obede[A#]çamos,",
-          "[B°]Pois nos [F]leva [C]para [F]Deus."
+          "A[A]mados, não te[D]mamos",
+          "Na [B7]marcha para os [E]céus;",
+          "A [A|×2]Cristo obede[D|×1]çamos,",
+          "[D7]Pois nos [A]leva [E7]para [A|•••]Deus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Na [F]fé fortalecidos, reves[A#]tidos de po[F]der",
-          "Seremos pelo Mestre, que nos [G7]dá o Seu sa[C]ber;",
-          "A[F]vante, esforcemo-nos em [A#]obras divi[F]nais;",
-          "O [A#]prêmio é vida e[F]terna nas mo[C]radas celes[F]tiais."
+          "Na [A]fé fortalecidos, reves[D]tidos de po[A]der",
+          "Seremos pelo Mestre, que nos [B7]dá o Seu sa[E]ber;",
+          "A[A]vante, esforcemo-nos em [D]obras divi[A]nais;",
+          "O [D]prêmio é vida e[A]terna nas mo[E]radas celes[A]tiais."
         ]
       },
       {
@@ -54,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Lem[F]bremo-nos de todos os con[A#]selhos que nos [F]deu",
-          "Jesus, o Verdadeiro, que a [G7]glória prome[C]teu;",
-          "A[F]vante, com propósito em [A#]nosso cora[F]ção",
-          "De [A#]sempre a Deus ser[F]vir e assim che[C]gar à perfei[F]ção."
+          "Lem[A]bremo-nos de todos os con[D]selhos que nos [A]deu",
+          "Jesus, o Verdadeiro, que a [B7]glória prome[E]teu;",
+          "A[A]vante, com propósito em [D]nosso cora[A]ção",
+          "De [D]sempre a Deus ser[A]vir e assim che[E]gar à perfei[A]ção."
         ]
       },
       {

@@ -57,7 +57,7 @@ const StyledChordText: React.FC<StyledChordTextProps> = ({
                         _
                       </Text>
                     ) : (
-                      <Text key={"note-char-" + i} style={{ color: theme.colors.secondary, fontSize: noteFontSize }}>
+                      <Text key={"note-char-" + i} style={{ color: theme.colors.tertiary, fontSize: noteFontSize }}>
                         {char}
                       </Text>
                     ),
