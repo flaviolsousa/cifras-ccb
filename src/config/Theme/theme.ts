@@ -8,7 +8,7 @@ const themes = {
     colors: {
       ...DefaultTheme.colors,
       ...MD3LightTheme.colors,
-      tertiary: "#c21bb4",
+      tertiary: "#9b88bb",
     },
     fonts: {
       ...DefaultTheme.fonts,
