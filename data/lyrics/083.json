@@ -4,12 +4,12 @@
   "title": "Vinde às bodas",
   "level": 4,
   "tone": {
-    "original": "Bb",
-    "selected": "A"
+    "original": "Eb",
+    "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "A7", "D"],
+    "introduction": ["D", "A7", "D", "G", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",

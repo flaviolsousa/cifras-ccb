@@ -4,12 +4,12 @@
   "title": "Sem tardar, vai a Cristo",
   "level": 2,
   "tone": {
-    "original": "A",
-    "selected": "A"
+    "original": "D",
+    "selected": "D"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": ["A", "D", "A", "D"],
+    "introduction": ["A", "D", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",

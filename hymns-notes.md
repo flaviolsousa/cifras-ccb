@@ -49,6 +49,15 @@ node encrypt-hymns.js encrypt 002.json --override
 hino ccb 1 cifras simplificada
 https://github.com/eneiasramos/ccb-hinario-5-do/tree/master/do/pdf
 
+# Harmonic
+
+uma partitura de 2 bemóis fica em que campo harmônico no violão?
+
+1 bemóis = F
+2 bemóis = Bb
+3 bemóis = Eb
+4 bemóis = Ab
+
 # Target
 
 ## 9 Hymns Every Day

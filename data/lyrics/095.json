@@ -4,12 +4,12 @@
   "title": "\"Vinde, ó benditos de Meu Pai\"",
   "level": 3,
   "tone": {
-    "original": "Eb",
-    "selected": "D"
+    "original": "Ab",
+    "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["G", "D", "G", "C", "G"],
+    "introduction": ["D", "G", "D", "D7", "G", "C", "G", "D"],
     "stanzas": [
       {
         "type": "lyric",
