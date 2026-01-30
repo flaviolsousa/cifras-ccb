@@ -3,21 +3,21 @@
   "version": "v3",
   "title": "Glória, glória nas alturas!",
   "tone": {
-    "original": "Bb",
-    "selected": "A"
+    "original": "Ab",
+    "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["A", "E", "A", "E", "A"],
+    "introduction": ["G", "D", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "G[A]lória, glória nas alturas!",
-          "G[E]lória, g[A]lória ao nosso D[E]eus!",
-          "Salvaç[A]ão nos preparou por Jes[D]us, que nos am[A]ou;",
-          "Glória ao Deus vivente q[E]ue está nos c[A]éus!"
+          "G[G]lória, glória nas alturas!",
+          "G[D]lória, g[G]lória ao nosso D[D]eus!",
+          "Salvaç[G]ão nos preparou por Jes[C]us, que nos am[G]ou;",
+          "Glória ao Deus vivente q[D]ue está nos c[G]éus!"
         ]
       }
     ]

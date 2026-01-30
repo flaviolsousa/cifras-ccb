@@ -3,51 +3,51 @@
   "version": "v3",
   "title": "Os meninos viram Jesus passar",
   "tone": {
-    "original": "B",
-    "selected": "A"
+    "original": "G",
+    "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["A", "E", "A", "D9", "A"],
+    "introduction": ["G", "D", "G", "C9", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[A]Os meninos viram Jes[E]us passar;",
-          "Logo O seguiram p[A]ara proclamar:",
-          "Glória ao que veio em [D9]nome do Sen[A]hor!",
-          "Foi engrandecido o [E]Reden[A]tor."
+          "[G]Os meninos viram Jes[D]us passar;",
+          "Logo O seguiram p[G]ara proclamar:",
+          "Glória ao que veio em [C9]nome do Sen[G]hor!",
+          "Foi engrandecido o [D]Reden[G]tor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "V[A]amos exaltar a Jes[E]us, então,",
-          "Com os nossos lábios [A]e o coração;",
-          "Ó meninos, vamos [D9]ao Senhor ser[A]vir",
-          "E a lei perfeita de D[E]eus cump[A]rir."
+          "V[G]amos exaltar a Jes[D]us, então,",
+          "Com os nossos lábios [G]e o coração;",
+          "Ó meninos, vamos [C9]ao Senhor ser[G]vir",
+          "E a lei perfeita de D[D]eus cump[G]rir."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "E[A]is que, entre nós, Jesus C[E]risto está;",
-          "Ele, que nos vê, nos [A]abençoará;",
-          "As virtudes santas [D9]quer nos conce[A]der,",
-          "Para que possamos o m[E]al ven[A]cer."
+          "E[G]is que, entre nós, Jesus C[D]risto está;",
+          "Ele, que nos vê, nos [G]abençoará;",
+          "As virtudes santas [C9]quer nos conce[G]der,",
+          "Para que possamos o m[D]al ven[G]cer."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "[A]Em silêncio ouçamos o q[E]ue dirá",
-          "Cristo, o nosso Mestre, q[A]ue ensinará",
-          "A doutrina santa [D9]que conduz aos c[A]éus;",
-          "Ó meninos, vamos a[E]mar a D[A]eus."
+          "[G]Em silêncio ouçamos o q[D]ue dirá",
+          "Cristo, o nosso Mestre, q[G]ue ensinará",
+          "A doutrina santa [C9]que conduz aos c[G]éus;",
+          "Ó meninos, vamos a[D]mar a D[G]eus."
         ]
       }
     ]

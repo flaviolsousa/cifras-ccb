@@ -3,41 +3,41 @@
   "version": "v3",
   "title": "Senhor, estou disposto",
   "tone": {
-    "original": "Eb",
-    "selected": "D"
+    "original": "Ab",
+    "selected": "G"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": ["D", "A7", "D", "G", "A7", "D"],
+    "introduction": ["G", "D7", "G", "C", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[D]hor, es[A7]tou dis[D]posto [G]a [A7]sempre Te seg[D]uir;",
-          "No Teu caminho san[G]to, te[A7]rei feliz por[D]vir;",
-          "Quão [A7]bela é a he[D]rança que [A7]me darás nos c[D]éus,",
-          "Desejo recebê-[G]la, ó [A7]glorioso D[D]eus."
+          "Sen[G]hor, es[D7]tou dis[G]posto [C]a [D7]sempre Te seg[G]uir;",
+          "No Teu caminho san[C]to, te[D7]rei feliz por[G]vir;",
+          "Quão [D7]bela é a he[G]rança que [D7]me darás nos c[G]éus,",
+          "Desejo recebê-[C]la, ó [D7]glorioso D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[D]hor, os [A7]Teus pre[D]ceitos [G]dis[A7]ponho-me a cump[D]rir",
-          "E sigo os Teus conse[G]lhos; ao [A7]céu desejo [D]ir.",
-          "U[A7]nido aos santos [D]anjos, em [A7]glória vive[D]rei",
-          "No Teu celeste rei[G]no com [A7]Cristo, o grande [D]Rei."
+          "Sen[G]hor, os [D7]Teus pre[G]ceitos [C]dis[D7]ponho-me a cump[G]rir",
+          "E sigo os Teus conse[C]lhos; ao [D7]céu desejo [G]ir.",
+          "U[D7]nido aos santos [G]anjos, em [D7]glória vive[G]rei",
+          "No Teu celeste rei[C]no com [D7]Cristo, o grande [G]Rei."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[D]hor, a [A7]Tua [D]face [G]de[A7]sejo contemp[D]lar",
-          "Na glória incompará[G]vel do [A7]Teu eterno [D]lar.",
-          "Eu [A7]sinto a Tua g[D]raça, tam[A7]bém o Teu vi[D]gor,",
-          "E nada me impe[G]de de hon[A7]rar-Te com fer[D]vor."
+          "Sen[G]hor, a [D7]Tua [G]face [C]de[D7]sejo contemp[G]lar",
+          "Na glória incompará[C]vel do [D7]Teu eterno [G]lar.",
+          "Eu [D7]sinto a Tua g[G]raça, tam[D7]bém o Teu vi[G]gor,",
+          "E nada me impe[C]de de hon[D7]rar-Te com fer[G]vor."
         ]
       }
     ]
