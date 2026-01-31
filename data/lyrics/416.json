@@ -3,43 +3,43 @@
   "version": "v3",
   "title": "No Calvário...",
   "tone": {
-    "original": "E",
-    "selected": "E"
+    "original": "Eb",
+    "selected": "C"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["E", "B7", "E", "A", "B7", "C#m", "G#m", "A", "E"],
+    "introduction": ["C", "G7", "C", "F", "G7", "Am", "Em", "F", "C"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "J[E]esus por [B7]nós sof[E]reu, mor[A]reu crucifi[B7]cado,",
-          "[C#m]Foi grande a [G#m]dor [A]do Salvad[E]or, [C#m]Cristo Jes[A]us, [B7]o Sen[E]hor."
+          "J[C]esus por [G7]nós sof[C]reu, mor[F]reu crucifi[G7]cado,",
+          "[Am]Foi grande a [Em]dor [F]do Salvad[C]or, [Am]Cristo Jes[F]us, [G7]o Sen[C]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[E]No Calvá[B7]rio mor[E]reu, cra[A]vado no ma[B7]deiro;",
-          "[C#m]Cálix de [G#m]fel, [A]de amarg[E]or, [C#m]por nós prov[A]ou [B7]o Sen[E]hor."
+          "[C]No Calvá[G7]rio mor[C]reu, cra[F]vado no ma[G7]deiro;",
+          "[Am]Cálix de [Em]fel, [F]de amarg[C]or, [Am]por nós prov[F]ou [G7]o Sen[C]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "\"P[E]erdoa-l[B7]hes, ó P[E]ai\", Jes[A]us morreu, di[B7]zendo.",
-          "[C#m]Grande a[G#m]mor E[A]le most[E]rou [C#m]quando na c[A]ruz [B7]expir[E]ou."
+          "\"P[C]erdoa-l[G7]hes, ó P[C]ai\", Jes[F]us morreu, di[G7]zendo.",
+          "[Am]Grande a[Em]mor E[F]le most[C]rou [Am]quando na c[F]ruz [G7]expir[C]ou."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "J[E]esus ress[B7]usci[E]tou, po[A]der Lhe foi do[B7]ado;",
-          "[C#m]Reina, nos [G#m]céus, [A]o Redent[E]or, [C#m] à destra [A]do [B7]Cria[E]dor."
+          "J[C]esus ress[G7]usci[C]tou, po[F]der Lhe foi do[G7]ado;",
+          "[Am]Reina, nos [Em]céus, [F]o Redent[C]or, [Am] à destra [F]do [G7]Cria[C]dor."
         ]
       }
     ]

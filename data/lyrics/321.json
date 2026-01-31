@@ -3,55 +3,55 @@
   "version": "v3",
   "title": "Bendito seja o Deus vivente",
   "tone": {
-    "original": "Eb",
-    "selected": "A"
+    "original": "Ab",
+    "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["A", "E", "E7", "A"],
+    "introduction": ["G", "D", "D7", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ben[A]dito seja o Deus vi[E]vente",
-          "Que [E7]nos gerou de novo em Cristo,",
-          "E, [A]pela [C#]graça exce[F#m]lente,",
-          "Nos [B]deu herança lá nos [E]céus,",
-          "Habita[E7]ção de D[A]eus."
+          "Ben[G]dito seja o Deus vi[D]vente",
+          "Que [D7]nos gerou de novo em Cristo,",
+          "E, [G]pela [B]graça exce[Em]lente,",
+          "Nos [A]deu herança lá nos [D]céus,",
+          "Habita[D7]ção de D[G]eus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "A [A]nossa fé é mais pre[E]ciosa",
-          "Do [E7]que o ouro perecível;",
-          "O [A]fim é a [C#]salvação glo[F#m]riosa,",
-          "In[B]corruptível galar[E]dão,",
-          "Eterna [E7]redenç[A]ão."
+          "A [G]nossa fé é mais pre[D]ciosa",
+          "Do [D7]que o ouro perecível;",
+          "O [G]fim é a [B]salvação glo[Em]riosa,",
+          "In[A]corruptível galar[D]dão,",
+          "Eterna [D7]redenç[G]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "A [A]sã Palavra da ver[E]dade,",
-          "Que [E7]para sempre permanece,",
-          "Nos [A]leva ao [C#]Pai da eterni[F#m]dade;",
-          "Tam[B]bém seremos eter[E]nais,",
-          "Com corpos [E7]celest[A]iais."
+          "A [G]sã Palavra da ver[D]dade,",
+          "Que [D7]para sempre permanece,",
+          "Nos [G]leva ao [B]Pai da eterni[Em]dade;",
+          "Tam[A]bém seremos eter[D]nais,",
+          "Com corpos [D7]celest[G]iais."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Pe[A]rece o homem como a [E]erva",
-          "E [E7]sua glória aqui termina,",
-          "Mas [A]Deus, aos [C#]Seus fiéis, re[F#m]serva",
-          "A [B]glória que não finda[E]rá:",
-          "Seu povo [E7]reina[A]rá."
+          "Pe[G]rece o homem como a [D]erva",
+          "E [D7]sua glória aqui termina,",
+          "Mas [G]Deus, aos [B]Seus fiéis, re[Em]serva",
+          "A [A]glória que não finda[D]rá:",
+          "Seu povo [D7]reina[G]rá."
         ]
       }
     ]

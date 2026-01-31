@@ -3,41 +3,41 @@
   "version": "v3",
   "title": "Contrito, venho a Ti",
   "tone": {
-    "original": "A",
+    "original": "Ab",
     "selected": "A"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": ["A", "D", "A", "E", "A"],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Ó [A]Pai celestial, vi[D]vente Cria[A]dor,",
-          "Con[E]trito, venho a [A]Ti, por [B7]Cristo, o Reden[E]tor;",
-          "Por [A]Tua pie[E]dade, Deus de cari[F#m]dade,",
-          "Per[D]doa os meus [A]erros, [D]su - p[E]lico, Sen[A]hor.[A]..."
+          "Ó [G]Pai celestial, vi[C]vente Cria[G]dor,",
+          "Con[D]trito, venho a [G]Ti, por [A7]Cristo, o Reden[D]tor;",
+          "Por [G]Tua pie[D]dade, Deus de cari[Em]dade,",
+          "Per[C]doa os meus [G]erros, [C]su - p[D]lico, Sen[G]hor.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Con[A]fesso-Te, Senhor, a [D]minha imperfeiç[A]ão;",
-          "De[E]sejo apren[A]der por [B7]Tua correç[E]ão;",
-          "Ag[A]uardo, Pai a[E]mado, ser justifi[F#m]cado;",
-          "Com [D]arrependi[A]mento [D]eu [E]rogo perd[A]ão.[A]..."
+          "Con[G]fesso-Te, Senhor, a [C]minha imperfeiç[G]ão;",
+          "De[D]sejo apren[G]der por [A7]Tua correç[D]ão;",
+          "Ag[G]uardo, Pai a[D]mado, ser justifi[Em]cado;",
+          "Com [C]arrependi[G]mento [C]eu [D]rogo perd[G]ão.[G]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "É [A]vão o meu viver sem [D]Teu sublime a[A]mor;",
-          "Com [E]zelo pater[A]nal con[B7]duze-me, Sen[E]hor;",
-          "De [A]Ti, ó Deus ben[E]dito, sempre nece[F#m]ssito;",
-          "Se[D]guir-Te-ei de [A]perto, [D]com [E]todo o fer[A]vor.[A]..."
+          "É [G]vão o meu viver sem [C]Teu sublime a[G]mor;",
+          "Com [D]zelo pater[G]nal con[A7]duze-me, Sen[D]hor;",
+          "De [G]Ti, ó Deus ben[D]dito, sempre nece[Em]ssito;",
+          "Se[C]guir-Te-ei de [G]perto, [C]com [D]todo o fer[G]vor.[G]..."
         ]
       }
     ]

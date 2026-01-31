@@ -3,47 +3,47 @@
   "version": "v3",
   "title": "Na santa escola",
   "tone": {
-    "original": "F",
-    "selected": "F"
+    "original": "Bb",
+    "selected": "A"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": ["F", "C", "F", "A#", "F"],
+    "introduction": ["A", "E", "A", "D", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Es[F]tamos, ó me[C]ninos, na es[F]cola do Senhor;",
-          "Can[A#]temos santos [F]hinos a D[A#]eus, o Cria[F]dor.",
-          "Na santa escola do Mestre e[Dm]terno há bem su[Gm]per [C]- [F]no.[F]..."
+          "Es[A]tamos, ó me[E]ninos, na es[A]cola do Senhor;",
+          "Can[D]temos santos [A]hinos a D[D]eus, o Cria[A]dor.",
+          "Na santa escola do Mestre e[F#m]terno há bem su[Bm]per [E]- [A]no.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Jes[F]us, o nosso [C]Mestre, en[F]sina com amor",
-          "A e[A#]terna lei ce[F]leste, que [A#]leva ao Cria[F]dor.",
-          "Na santa escola o Mestre a[Dm]mado é ado[Gm]ra [C]- [F]do.[F]..."
+          "Jes[A]us, o nosso [E]Mestre, en[A]sina com amor",
+          "A e[D]terna lei ce[A]leste, que [D]leva ao Cria[A]dor.",
+          "Na santa escola o Mestre a[F#m]mado é ado[Bm]ra [E]- [A]do.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "O [F]santo Evan[C]gelho vi[F]emos aprender;",
-          "De [A#]Cristo o con[F]selho que[A#]remos aten[F]der.",
-          "Na santa escola o Mestre en[Dm]sina a sã dou[Gm]tri [C]- [F]na.[F]..."
+          "O [A]santo Evan[E]gelho vi[A]emos aprender;",
+          "De [D]Cristo o con[A]selho que[D]remos aten[A]der.",
+          "Na santa escola o Mestre en[F#m]sina a sã dou[Bm]tri [E]- [A]na.[A]..."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "Ó [F]jovens e me[C]ninos, de[F]vemos conservar",
-          "Os [A#]divinais en[F]sinos e [A#]neles camin[F]har.",
-          "Na santa escola ao Mestre ou[Dm]vimos e O ser[Gm]vi [C]- m[F]os.[F]..."
+          "Ó [A]jovens e me[E]ninos, de[A]vemos conservar",
+          "Os [D]divinais en[A]sinos e [D]neles camin[A]har.",
+          "Na santa escola ao Mestre ou[F#m]vimos e O ser[Bm]vi [E]- m[A]os.[A]..."
         ]
       }
     ]
