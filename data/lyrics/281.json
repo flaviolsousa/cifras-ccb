@@ -2,42 +2,43 @@
   "code": "281",
   "version": "v3",
   "title": "Soldados valorosos nós somos",
+  "level": 3,
   "tone": {
-    "original": "C",
-    "selected": "C"
+    "original": "F",
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["C", "G7", "C", "A", "Dm", "D#°", "C"],
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]O Rei dos reis nos fez soldados celes[G7]tiais,",
-          "Nos revestiu de fé e armas divi[C]nais;",
-          "A guerra se levanta com [A]ímpeto e fu[Dm]ror,",
-          "Mas [D#°]nós resisti[C]remos, pois à [D]frente está o Se[G7]nhor."
+          "O [D]Rei dos [D]reis nos [D]fez [D] sol[D]dados [D]celes[A7]tiais,",
+          "Nos revestiu de fé e armas divi[D]nais;",
+          "A guerra se levanta com [B7]ímpeto e fu[Em]ror,",
+          "Mas [E7]nós resisti[D]remos, pois à [E]frente está o Se[A7]nhor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[C]Soldados valorosos nós somos de Cristo, o [G7]Rei;",
-          "Soldados da verdade, que amam a Sua l[C]ei;",
-          "Vitória alcançaremos em [Dm]nome do [C7]Reden[F]tor,",
-          "[F#°]Com va[C]lor, [F#°]com fer[C]vor,",
-          "[F#°]Com a [C]fé em Deus, e[G7]terno Domina[C]dor."
+          "[D]Soldados valorosos nós somos de Cristo, o [A7]Rei;",
+          "Soldados da verdade, que amam a Sua l[D]ei;",
+          "Vitória alcançaremos em [Em]nome do [D7]Reden[G]tor,",
+          "Com va[D]lor, com [D7]fervor,",
+          "Com a [D]fé em [D7]Deus, e[A7]terno Domina[D]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Conosco está Jesus, não há porque te[G7]mer,",
-          "Pois, quando o mal vier, Deus nos fará ven[C]cer.",
-          "Tenhamos lealdade a [A]Cristo, o Salva[Dm]dor;",
-          "É [D#°]d´Ele esta [C]guerra; aten[D]damos ao Se[G7]nhor."
+          "Co[D]nosco está Jesus, não há porque te[A7]mer,",
+          "Pois, quando o mal vier, Deus nos fará ven[D]cer.",
+          "Tenhamos lealdade a [B7]Cristo, o Salva[Em]dor;",
+          "É [E7]d´Ele esta [D]guerra; aten[E]damos ao Se[A7]nhor."
         ]
       },
       {
@@ -48,10 +49,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Quem fraco estiver não deve atrás vol[G7]tar,",
-          "Pois Deus dará poder a fim de bata[C]lhar;",
-          "Ninguém se espavente nem [A]venha a esmore[Dm]cer;",
-          "Te[D#°]nhamos fé em [C]Cristo, que vi[D]rá nos soco[G7]rrer."
+          "Quem [D]fraco estiver não deve atrás vol[A7]tar,",
+          "Pois Deus dará poder a fim de bata[D]lhar;",
+          "Ninguém se espavente nem [B7]venha a esmore[Em]cer;",
+          "Te[E7]nhamos fé em [D]Cristo, que vi[E]rá nos soco[A7]rrer."
         ]
       },
       {

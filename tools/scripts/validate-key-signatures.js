@@ -29,6 +29,7 @@ const lyricsDir = path.join(__dirname, "..", "..", "data", "lyrics");
 const hymnsData = JSON.parse(fs.readFileSync(hymnsFilePath, "utf8"));
 
 const discrepancies = [];
+const codeDiscrepancies = [];
 
 // Processar cada hino
 hymnsData.forEach((hymn) => {
@@ -54,9 +55,20 @@ hymnsData.forEach((hymn) => {
 
   const lyricsData = JSON.parse(fs.readFileSync(lyricsFilePath, "utf8"));
   const originalTone = lyricsData.tone?.original;
+  const jsonCode = lyricsData.code;
 
   console.log(`Hino ${code}: Acidentes = ${accidentals}, Tom esperado = ${expectedKey}, Tom original = ${originalTone}`);
-  // Verificar se há divergência
+
+  // Verificar se há divergência entre o code do JSON e o nome do arquivo
+  if (jsonCode && jsonCode !== code) {
+    codeDiscrepancies.push({
+      fileName: code,
+      expectedCode: code,
+      actualCode: jsonCode,
+    });
+  }
+
+  // Verificar se há divergência no tom
   if (originalTone && originalTone !== expectedKey) {
     discrepancies.push({
       code: code,
@@ -69,7 +81,7 @@ hymnsData.forEach((hymn) => {
 
 // Exibir resultados
 if (discrepancies.length > 0) {
-  console.log("\n=== HINOS COM DIVERGÊNCIAS ===\n");
+  console.log("\n=== HINOS COM DIVERGÊNCIAS CODE ===\n");
   discrepancies.forEach((item) => {
     console.log(`Hino ${item.code}:`);
     console.log(`  Acidentes: ${item.accidentals}`);
@@ -80,8 +92,20 @@ if (discrepancies.length > 0) {
   console.log(`Total de divergências: ${discrepancies.length}`);
 
   // Mostrar apenas os códigos
-  console.log("\n=== CÓDIGOS COM DIVERGÊNCIA ===");
+  console.log("\n=== CÓDIGOS COM CAMPO HARMÔNICO ===");
   console.log(discrepancies.map((d) => d.code).join(", "));
 } else {
   console.log("\n✓ Nenhuma divergência encontrada! Todos os tons estão corretos.");
+}
+
+// Exibir discrepâncias de código
+if (codeDiscrepancies.length > 0) {
+  console.log("\n=== DISCREPÂNCIAS DE code ===\n");
+  codeDiscrepancies.forEach((item) => {
+    console.log(`Arquivo: ${item.fileName}.json`);
+    console.log(`  Código esperado: ${item.expectedCode}`);
+    console.log(`  Código atual: ${item.actualCode}`);
+    console.log("");
+  });
+  console.log(`Total de discrepâncias de código: ${codeDiscrepancies.length}`);
 }
