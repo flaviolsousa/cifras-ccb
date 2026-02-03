@@ -2,26 +2,27 @@
   "code": "203",
   "version": "v3",
   "title": "O meu vero Amigo é Jesus",
+  "level": 2,
   "tone": {
     "original": "D",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["D", "A", "D", "G", "A", "D"],
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["Jes[D]us é meu vero A[A]migo", "E jamais me deixa[D]rá,", "Pois, quando estiver em pe[G]rigo,", "Sua m[A]ão me livra[D]rá."]
+        "text": ["Jes[D]us é meu vero A[A]migo", "E jamais me deixa[D]rá,", "Pois, quando es[D7]tiver em pe[G]rigo,", "Sua m[A]ão me livra[D]rá."]
       },
       {
         "type": "chorus",
         "text": [
           "O m[D]eu vero Amigo é Jesus,",
           "Na senda de paz já me conduz;",
-          "Nunca [A]outro haverá que ofe[D]reça graça [Bm]tal,",
-          "Preci[Em]osa, [A]divin[D]al."
+          "Nunca [A]outro haverá que ofe[D]reça graça [D7]tal,",
+          "Preci[G]osa, [A7]divin[D]al."
         ]
       },
       {

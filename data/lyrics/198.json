@@ -2,47 +2,43 @@
   "code": "198",
   "version": "v3",
   "title": "Nosso Pai celeste sabe e provê",
+  "level": 4,
   "tone": {
     "original": "D",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": [
-      "D",
-      "Em",
-      "A",
-      "D"
-    ],
+    "introduction": ["D", "Em", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Nosso [D]Pai celeste [Em]sabe e provê",
+          "Nosso [D]Pai celeste [G]sabe e pro[Em]vê",
           "O que [A]temos de mis[D]ter;",
           "Nada deixa[B7]rá fal[Em]tar ao que crê,",
-          "Pois [A]grande é Seu po[D]der."
+          "Pois [D]grande é [A7]Seu po[D]der."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Sem[A]pre, [D]com fé, procuremos agradar a D[A]eus;",
-          "Sempre, por fé, aceitemos o que vem dos c[D]éus;",
-          "Deus [A]tem, [D]por nós, o cui[D7]dado santo e pater[G]nal;",
-          "Glória, [Ab°]sempiterna g[D]lória [B7]ao Deus vivo,",
-          "[Em]Nosso Pai ce[A]lesti[D]al!"
+          "[D]Sem[A7]pre, [D]com fé, procuremos agradar a D[Em]eus;",
+          "[A7]Sem[Em]pre, [A7]por fé, aceitemos o que vem dos c[D]éus[A7];",
+          "[D]Deus [A7]tem, [D]por nós, o cuidado santo e [D7]pater[G]nal;",
+          "Glória, sempiterna g[D]lória [B7]ao Deus vivo,",
+          "[Em]Nosso Pai ce[A7]lesti[D]al!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Duvi[D]dosos não de[Em]vemos estar,",
+          "Duvi[D]dosos não de[G]vemos es[Em]tar,",
           "Pois Deus [A]tudo prove[D]rá;",
           "Caminhemos [B7]firmes, [Em]sem vacilar,",
-          "A[A]juda dos céus vi[D]rá."
+          "A[D]juda dos [A7]céus vi[D]rá."
         ]
       },
       {
@@ -53,10 +49,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Que cui[D]dado tem das [Em]aves dos céus",
+          "Que cui[D]dado tem das [G]aves dos cé[Em]us",
           "Nosso [A]Pai celesti[D]al!",
           "Muita mais te[B7]rá cui[Em]dado dos Seus,",
-          "Com [A]Seu zelo pater[D]nal."
+          "Com [D]Seu zelo [A7]pater[D]nal."
         ]
       },
       {

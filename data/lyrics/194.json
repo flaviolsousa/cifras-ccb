@@ -2,6 +2,7 @@
   "code": "194",
   "version": "v3",
   "title": "\"Vós chorareis e vos lamentareis\"",
+  "level": 4,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -14,30 +15,30 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "“Vós, [C]na verdade, [Dm7]chorareis [G]e vos lamentar[C]eis;",
-          "O mundo se a[Dm7]legrará”, d[G]isse o Rei dos r[C]eis;",
-          "Mas e[F]is que, muito em b[C]reve, C[G]risto retorna[C]rá[C7]...",
-          "E n[F]ossa ale[C]gri[Am]a [Dm]nunca ter[G]mina[C]rá."
+          "“Vós, [C]na verdade, [Dm]chorareis [G7]e vos lamentar[C]eis;",
+          "O mundo se a[Dm]legrará”, d[G7]isse o Rei dos r[C]eis;",
+          "Mas e[F]is que, muito em b[C]reve, C[G7]risto retorna[C]rá[C7]...",
+          "E n[F]ossa ale[C]gri[Am]a [Dm]nunca ter[G7]mina[C]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "O[C]rando em nome [Dm7]de Jesus, D[G]eus nos atende[C]rá;",
-          "Por Seus fiéis, o [Dm7]Redentor i[G]ntercedendo es[C]tá;",
-          "Por g[F]rande amor pa[C]terno, D[G]eus ouve as oraç[C]ões[C7]...",
-          "E f[F]orças nos con[C]ce[Am]de [Dm]nas nossas p[G]rovaç[C]ões."
+          "O[C]rando em nome [Dm]de Jesus, D[G7]eus nos atende[C]rá;",
+          "Por Seus fiéis, o [Dm]Redentor i[G7]ntercedendo es[C]tá;",
+          "Por g[F]rande amor pa[C]terno, D[G7]eus ouve as oraç[C]ões[C7]...",
+          "E f[F]orças nos con[C]ce[Am]de [Dm]nas nossas p[G7]rovaç[C]ões."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Nós [C]sofreremos [Dm7]aflições c[G]omo Jesus sof[C]reu;",
-          "Bom ânimo de[Dm7]vemos ter, p[G]ois Cristo já venc[C]eu;",
-          "O r[F]eino Lhe pert[C]ence [G]na terra e nos c[C]éus;[C7]...",
-          "Com E[F]le reina[C]re[Am]mos [Dm]junto aos s[G]antos S[C]eus."
+          "Nós [C]sofreremos [Dm]aflições c[G7]omo Jesus sof[C]reu;",
+          "Bom ânimo de[Dm]vemos ter, p[G7]ois Cristo já venc[C]eu;",
+          "O r[F]eino Lhe pert[C]ence [G7]na terra e nos c[C]éus;[C7]...",
+          "Com E[F]le reina[C]re[Am]mos [Dm]junto aos s[G7]antos S[C]eus."
         ]
       }
     ]

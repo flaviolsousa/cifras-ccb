@@ -2,13 +2,14 @@
   "code": "202",
   "version": "v3",
   "title": "Em Ti me alegro, Senhor",
+  "level": 1,
   "tone": {
     "original": "D",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "A", "D", "G", "D"],
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",

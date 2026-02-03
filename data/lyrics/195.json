@@ -2,6 +2,7 @@
   "code": "195",
   "version": "v3",
   "title": "Senhor, estou disposto",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -14,8 +15,8 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[G]hor, es[D7]tou dis[G]posto [C]a [D7]sempre Te seg[G]uir;",
-          "No Teu caminho san[C]to, te[D7]rei feliz por[G]vir;",
+          "Sen[G|↓↑↓]hor, es[D7|↓]tou dis[G|↓↑↓]posto [C|↓]a [D7]sempre Te seg[G]uir;",
+          "No [G|↓↑↓↑↓↑↓]Teu caminho san[C|↓↑↓]to, te[D7]rei feliz por[G]vir;",
           "Quão [D7]bela é a he[G]rança que [D7]me darás nos c[G]éus,",
           "Desejo recebê-[C]la, ó [D7]glorioso D[G]eus."
         ]
@@ -24,8 +25,8 @@
         "type": "lyric",
         "code": "2",
         "text": [
-          "Sen[G]hor, os [D7]Teus pre[G]ceitos [C]dis[D7]ponho-me a cump[G]rir",
-          "E sigo os Teus conse[C]lhos; ao [D7]céu desejo [G]ir.",
+          "Sen[G|↓↑↓]hor, os [D7|↓]Teus pre[G|↓↑↓]ceitos [C|↓]dis[D7]ponho-me a cump[G]rir",
+          "E [G|↓↑↓↑↓↑↓]sigo os Teus conse[C|↓↑↓]lhos; ao [D7]céu desejo [G]ir.",
           "U[D7]nido aos santos [G]anjos, em [D7]glória vive[G]rei",
           "No Teu celeste rei[C]no com [D7]Cristo, o grande [G]Rei."
         ]
@@ -34,8 +35,8 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Sen[G]hor, a [D7]Tua [G]face [C]de[D7]sejo contemp[G]lar",
-          "Na glória incompará[C]vel do [D7]Teu eterno [G]lar.",
+          "Sen[G|↓↑↓]hor, a [D7|↓]Tua [G|↓↑↓]face [C|↓]de[D7]sejo contemp[G]lar",
+          "Na [G|↓↑↓↑↓↑↓]glória incompará[C|↓↑↓]vel do [D7]Teu eterno [G]lar.",
           "Eu [D7]sinto a Tua g[G]raça, tam[D7]bém o Teu vi[G]gor,",
           "E nada me impe[C]de de hon[D7]rar-Te com fer[G]vor."
         ]

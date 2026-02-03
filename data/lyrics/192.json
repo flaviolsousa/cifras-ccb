@@ -2,19 +2,14 @@
   "code": "192",
   "version": "v3",
   "title": "Quão fiel promessa Jesus nos fez",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "G",
-      "C",
-      "G",
-      "D",
-      "G"
-    ],
+    "introduction": ["G", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",
@@ -23,15 +18,15 @@
           "Jes[G]us, o Senhor, preparou",
           "O lu[C]gar aos filhos de D[G]eus;",
           "No e[D]terno lar onde [G]Ele entrou",
-          "Fa[A7]rá entrar os [D]santos [D]Seus."
+          "Fa[A7]rá entrar os [D]santos [D|•••]Seus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[D]Quão fi[G]el promessa Je[D]sus nos fez:",
+          "[D|↓•••]Quão fi[G]el promessa Je[D]sus nos fez:",
           "“Convosco sempre esta[G]rei!”;",
-          "Brevemente em [B7]nuvens re[Em]torna[C]rá",
+          "Brevemente em [B7]nuvens re[Em]torna[C|•••]rá",
           "O [G]nosso [D]grande [G]Rei."
         ]
       },
@@ -42,7 +37,7 @@
           "Je[G]sus, órfãos não nos deixou;",
           "Envi[C]ou o Consola[G]dor;",
           "Por i[D]menso amor, nos a[G]bençoou",
-          "Com [A7]vida eterna [D]e esplen[D]dor."
+          "Com [A7]vida eterna [D]e esplen[D|•••]dor."
         ]
       },
       {
@@ -56,7 +51,7 @@
           "Quão [G]doce é saber que Jesus",
           "Nos deu [C]fé a fim de an[G]dar",
           "Pela [D]Sua senda de [G]paz e luz,",
-          "A[A7]té o breve [D]Seu vol[D]tar."
+          "A[A7]té o breve [D]Seu vol[D|•••]tar."
         ]
       },
       {

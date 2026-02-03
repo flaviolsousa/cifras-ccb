@@ -2,6 +2,7 @@
   "code": "193",
   "version": "v3",
   "title": "Nada jamais me faltará",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -14,29 +15,29 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "Apascen[D]tado [G]por Jesus [D]Cristo",
+          "[D]Apascentado [G]por Jesus [D]Cristo",
           "Nada ja[A7]mais me falta[D]rá;",
           "De confiança [G]eu me re[D]visto,",
-          "O meu Pas[A7]tor não fa[E7]lha[A7]rá."
+          "O meu Pas[Em]tor não fa[E7]lha[A]rá."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "Sigo de [A7]perto meu grande [D]Mestre,",
-          "Nada ja[A7]mais me falta[D]rá;",
+          "Nada ja[A]mais me fal[A7]ta[D]rá;",
           "No Seu a[A7]prisco santo e ce[D]leste",
-          "Todo o fi[G]el prote[A7]gido es[D]tá."
+          "[D7]Todo o fi[G]el prote[A7]gido es[D]tá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Passo a [D]passo, [G]por fé pros[D]sigo",
+          "[D]Passo a passo, [G]por fé pros[D]sigo",
           "Rumo à [A7]pátria celes[D]tial;",
           "Na tempestade [G]tenho a[D]brigo;",
-          "Tenho so[A7]corro di[E7]vi[A7]nal."
+          "Tenho so[Em]corro di[E7]vi[A]nal."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Eu vou ven[D]cendo [G]de dia em [D]dia",
+          "[D]Eu vou vencendo [G]de dia em [D]dia",
           "As minhas [A7]provas, pela [D]fé;",
           "Cristo me unge [G]com ale[D]gria;",
-          "Sempre pre[A7]sente E[E7]le [A7]é."
+          "Sempre pre[Em]sente E[E7]le [A]é."
         ]
       },
       {
