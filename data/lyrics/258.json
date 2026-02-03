@@ -3,51 +3,51 @@
   "version": "v3",
   "title": "Louvemos ao nosso Senhor",
   "tone": {
-    "original": "F",
+    "original": "Bb",
     "selected": "F"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["F", "A#", "C", "F"],
+    "introduction": ["A", "D", "E", "A"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Lou[F]ve - [A#]mos ao [C]nosso Sen[F]hor,",
-          "Exal[A#]temos Seu [C7]Nome e[F]terno,",
-          "Pois E[A#]le é [C]Fon - [C#°]te de a[Dm]mor",
-          "E é [F]dig[A#]no de [C7]todo o lou[F]vor."
+          "Lou[A]ve - [D]mos ao [E]nosso Sen[A]hor,",
+          "Exal[D]temos Seu [E7]Nome e[A]terno,",
+          "Pois E[D]le é [E]Fon - [F°]te de a[F#m]mor",
+          "E é [A]dig[D]no de [E7]todo o lou[A]vor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Oh! [F]Va - [A#]mos lou[C]vores can[F]tar,",
-          "Agra[A#]dáveis lou[C7]vores ao [F]bom Deus,",
-          "E hi[A#]nos de [C]gló - [C#°]ria ento[Dm]ar;",
-          "Vamos [F]no [A#]Seu a[C7]mor jubi[F]lar!"
+          "Oh! [A]Va - [D]mos lou[E]vores can[A]tar,",
+          "Agra[D]dáveis lou[E7]vores ao [A]bom Deus,",
+          "E hi[D]nos de [E]gló - [F°]ria ento[F#m]ar;",
+          "Vamos [A]no [D]Seu a[E7]mor jubi[A]lar!"
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Oh! [F]Va - [A#]mos, com [C]fé, ao Sen[F]hor;",
-          "Assen[A#]temo-nos [C7]todos à [F]mesa,",
-          "Pois nos [A#]servi[C]rá [C#°]com a[Dm]mor,",
-          "Pelo Es[F]pí - [A#]rito [C7]Consola[F]dor."
+          "Oh! [A]Va - [D]mos, com [E]fé, ao Sen[A]hor;",
+          "Assen[D]temo-nos [E7]todos à [A]mesa,",
+          "Pois nos [D]servi[E]rá [F°]com a[F#m]mor,",
+          "Pelo Es[A]pí - [D]rito [E7]Consola[A]dor."
         ]
       },
       {
         "type": "lyric",
         "code": "4",
         "text": [
-          "A[F]qui [A#]nos a[C]chamos, Sen[F]hor,",
-          "Ofer[A#]tando tri[C7]butos de g[F]lória;",
-          "Só Tu [A#]és, do [C]bem, [C#°]Doa[Dm]dor,",
-          "Ó e[F]ter[A#]no, bon[C7]doso Sen[F]hor."
+          "A[A]qui [D]nos a[E]chamos, Sen[A]hor,",
+          "Ofer[D]tando tri[E7]butos de g[A]lória;",
+          "Só Tu [D]és, do [E]bem, [F°]Doa[F#m]dor,",
+          "Ó e[A]ter[D]no, bon[E7]doso Sen[A]hor."
         ]
       }
     ]

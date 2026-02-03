@@ -2,47 +2,37 @@
   "code": "199",
   "version": "v3",
   "title": "Senhor, Tu és a minha Porção",
+  "level": 2,
   "tone": {
-    "original": "D",
-    "selected": "D"
+    "original": "G",
+    "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": [
-      "D",
-      "G",
-      "D",
-      "G",
-      "D"
-    ],
+    "introduction": ["G", "C", "G", "C", "G"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[D]hor, Tu és a [G]minha Por[D]ção,",
-          "Em [G]Ti me alegra[D]rei;",
-          "Em Ti es[D7]tá minha [G]salvação,",
-          "Sen[A]hor, meu grande [D]Rei."
+          "Sen[G]hor, Tu és a [C]minha Por[G]ção,",
+          "Em [C]Ti me alegra[G]rei;",
+          "Em Ti es[G7]tá minha [C]salvação,",
+          "Sen[D]hor, meu grande [G]Rei."
         ]
       },
       {
         "type": "chorus",
-        "text": [
-          "[D]És minha Por[A]ção,",
-          "[Bm]És meu Galar[Gb7]dão;",
-          "[G]Bem-aventu[D]rado sou,",
-          "Tu [A]és minha Por[D]ção."
-        ]
+        "text": ["[G]És minha Por[D]ção,", "[Em]És meu Galar[B7]dão;", "[C]Bem-aventu[G]rado sou,", "Tu [D]és minha Por[G]ção."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "I[D]menso e puro [G]é Teu a[D]mor,",
-          "Meu [G]Salvador, Je[D]sus;",
-          "Estás em [D7]meu cora[G]ção, Senhor;",
-          "Por [A]Ti vivo na [D]luz."
+          "I[G]menso e puro [C]é Teu a[G]mor,",
+          "Meu [C]Salvador, Je[G]sus;",
+          "Estás em [G7]meu cora[C]ção, Senhor;",
+          "Por [D]Ti vivo na [G]luz."
         ]
       },
       {
@@ -53,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Su[D]blime sorte [G]coube a [D]mim,",
-          "Por [G]Ti, ó meu Sen[D]hor,",
-          "Pois vida e[D7]terna te[G]rei, ao fim,",
-          "No [A]Teu reino de a[D]mor."
+          "Su[G]blime sorte [C]coube a [G]mim,",
+          "Por [C]Ti, ó meu Sen[G]hor,",
+          "Pois vida e[G7]terna te[C]rei, ao fim,",
+          "No [D]Teu reino de a[G]mor."
         ]
       },
       {

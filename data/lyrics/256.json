@@ -2,8 +2,9 @@
   "code": "256",
   "version": "v3",
   "title": "Sem Deus Pai, vivi no mundo",
+  "level": 1,
   "tone": {
-    "original": "Bb",
+    "original": "G",
     "selected": "G"
   },
   "rhythm": "Valsa",

@@ -2,41 +2,42 @@
   "code": "197",
   "version": "v3",
   "title": "Senhor, por Teu poder",
+  "level": 4,
   "tone": {
-    "original": "C",
-    "selected": "C"
+    "original": "F",
+    "selected": "E"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["C", "G", "C", "F", "G", "C"],
+    "introduction": ["E", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Sen[C]hor, por Teu poder, vem nos conceder",
-          "Celestial ciência, ó Cria[G]dor;",
-          "Aq[C]ui nos encontramos para aprender",
-          "A Tua sã doutrina, [F]cheia [G]de a[C]mor."
+          "Sen[E]hor, por Teu poder, vem nos conceder",
+          "Celestial ciência, ó Cria[B7]dor;",
+          "Aq[E]ui nos encontramos para aprender",
+          "A Tua sã doutrina, [A|↓↑]cheia [B7|↓]de a[E]mor."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "A [G]Tua igreja Te [C]roga, ó Deus:",
-          "En[G]via, do alto, Teu [C]Consolador;",
+          "A [B7]Tua igreja Te [E]roga, ó Deus:",
+          "En[B7]via, do alto, Teu [E]Consolador;",
           "Em nossos corações desperta o fervor,",
-          "Assim caminharemos [F]rumo [G]aos c[C]éus."
+          "Assim caminharemos [A|↓↑]rumo [B7|↓]aos c[E]éus."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Os [C]nossos corações conheces, ó Deus;",
-          "Em comunhão Contigo estamos, Sen[G]hor;",
-          "Tu [C]prometeste, para todos os Teus,",
-          "O Teu divino e santo [F]Conso[G]la[C]dor."
+          "Os [E]nossos corações conheces, ó Deus;",
+          "Em comunhão Contigo estamos, Sen[B7]hor;",
+          "Tu [E]prometeste, para todos os Teus,",
+          "O Teu divino e santo [A|↓↑]Conso[B7|↓]la[E]dor."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "Com [C]Teus conselhos santos vem ensinar",
-          "Teus filhos muito amados, ó Cria[G]dor;",
-          "O [C]nosso entendimento vem renovar",
-          "E faz-nos meditar no [F]Teu gran[G]de a[C]mor."
+          "Com [E]Teus conselhos santos vem ensinar",
+          "Teus filhos muito amados, ó Cria[B7]dor;",
+          "O [E]nosso entendimento vem renovar",
+          "E faz-nos meditar no [A|↓↑]Teu gran[B7|↓]de a[E]mor."
         ]
       },
       {
