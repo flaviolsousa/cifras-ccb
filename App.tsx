@@ -8,7 +8,7 @@ import { store } from "./src/store";
 import { NavigationContainer } from "@react-navigation/native";
 import MainNavigator from "./src/navigation/MainNavigator";
 import { Provider as PaperProvider } from "react-native-paper";
-import { StatusBar, useColorScheme } from "react-native";
+import { StatusBar, useColorScheme, Text } from "react-native";
 import theme from "./src/config/Theme/theme";
 import { ThemeContext } from "./src/config/Theme/Context";
 import { THEME_DARK, THEME_LIGHT, THEME_SYSTEM } from "./src/config/values";
@@ -22,6 +22,8 @@ LogBox.ignoreLogs(["Warning: ..."]); // Opcional: ignorar warnings específicos
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
+  const APP_EXPIRATION_UTC = Date.UTC(2027, 0, 1, 0, 0, 0);
+  const isExpired = Date.now() >= APP_EXPIRATION_UTC;
   console.log("[Expo] Loading fonts...");
   const [fontsLoaded] = useFonts({
     HackRegular: require("./assets/fonts/hack-mono/Hack-Regular.ttf"),
@@ -56,6 +58,16 @@ export default function App() {
 
   if (!fontsLoaded) {
     return null;
+  }
+
+  if (isExpired) {
+    return (
+      <SafeAreaProvider>
+        <SafeAreaView style={{ flex: 1, alignItems: "center", justifyContent: "center", padding: 24 }}>
+          <Text style={{ fontSize: 18, textAlign: "center" }}>Esta versão expirou. Atualize o aplicativo.</Text>
+        </SafeAreaView>
+      </SafeAreaProvider>
+    );
   }
 
   return (

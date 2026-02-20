@@ -1,6 +1,6 @@
 // src/screens/Home.tsx
 import React, { useRef, useState, useEffect } from "react";
-import { View, StyleSheet, FlatList, TouchableOpacity } from "react-native";
+import { View, StyleSheet, FlatList, TouchableOpacity, Animated } from "react-native";
 import { useTheme, Appbar, Searchbar, List } from "react-native-paper";
 import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
@@ -52,6 +52,9 @@ const Home = () => {
   const [selectedRhythms, setSelectedRhythms] = useState<string[]>([]);
   const [onlyFavoriteChords, setOnlyFavoriteChords] = useState(false);
   const flatListRef = useRef<FlatList>(null);
+  const filterIconScale = useRef(new Animated.Value(1)).current;
+  const filterIconRotate = useRef(new Animated.Value(0)).current;
+  const [isSearchbarFocused, setIsSearchbarFocused] = useState(false);
   const [hymns, setHymns] = useState(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
   const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
     const query = searchQuery.toLowerCase().trim();
@@ -105,6 +108,38 @@ const Home = () => {
     }, []),
   );
 
+  // Animação do ícone de filtro quando o Searchbar recebe foco
+  useEffect(() => {
+    if (isSearchbarFocused) {
+      Animated.sequence([
+        Animated.parallel([
+          Animated.timing(filterIconScale, {
+            toValue: 1.3,
+            duration: 300,
+            useNativeDriver: false,
+          }),
+          Animated.timing(filterIconRotate, {
+            toValue: 1,
+            duration: 300,
+            useNativeDriver: false,
+          }),
+        ]),
+        Animated.parallel([
+          Animated.timing(filterIconScale, {
+            toValue: 1,
+            duration: 200,
+            useNativeDriver: false,
+          }),
+          Animated.timing(filterIconRotate, {
+            toValue: 0,
+            duration: 200,
+            useNativeDriver: false,
+          }),
+        ]),
+      ]).start();
+    }
+  }, [isSearchbarFocused, filterIconScale, filterIconRotate]);
+
   return (
     <View style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>
       <Appbar.Header elevated={true}>
@@ -139,11 +174,27 @@ const Home = () => {
         placeholder={`Filtrar por Nome - ${filteredHymns.length} Hinos`}
         value={searchQuery}
         onChangeText={setSearchQuery}
+        onFocus={() => setIsSearchbarFocused(true)}
+        onBlur={() => setIsSearchbarFocused(false)}
         style={styles.searchInput}
         icon="magnify"
         right={(props) => (
           <TouchableOpacity onPress={() => setFilterVisible((v) => !v)}>
-            <List.Icon {...props} icon={filterVisible ? "filter-remove-outline" : "filter-menu-outline"} style={{ marginRight: 10 }} />
+            <Animated.View
+              style={{
+                transform: [
+                  { scale: filterIconScale },
+                  {
+                    rotate: filterIconRotate.interpolate({
+                      inputRange: [0, 1],
+                      outputRange: ["0deg", "10deg"],
+                    }),
+                  },
+                ],
+              }}
+            >
+              <List.Icon {...props} icon={filterVisible ? "filter-remove-outline" : "filter-menu-outline"} style={{ marginRight: 10 }} />
+            </Animated.View>
           </TouchableOpacity>
         )}
       />

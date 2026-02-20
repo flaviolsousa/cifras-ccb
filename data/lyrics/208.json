@@ -2,48 +2,50 @@
   "code": "208",
   "version": "v3",
   "title": "Conserva a paz, ó minha alma",
+  "level": 5,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["F#m", "B7", "E", "F#m"],
+    "introduction": ["D", "Em", "A7", "D"],
+    "initialObservation": "Pode ser que ache mais confortável em C com capo na casa 5",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Conserva a [F#m]paz, tem [B7]fé, ó minha [E]alma,",
-          "Suporta a [F#m]cruz com [B7]paciência e [E]fé;",
-          "Deus te pro[C#m7]vê de confiança e [F#m]calma",
-          "O teu Sen[E]hor con[B7]tigo sempre [E]é;",
-          "Oh! Fica em [C#m7]paz, pois Deus te guarda[F#m]rá,",
-          "O Seu fa[E]vor jam[B7]ais te falta[E]rá."
+          "[D]Conserva a [Em]paz, tem [A7]fé, ó minha [D]alma,",
+          "Suporta a [Em]cruz com [A7]paciência e [D]fé;",
+          "Deus te pro[Bm]vê de [F#m]confiança e [Em]calma",
+          "O teu Sen[D]hor con[A7]tigo sempre [F#7]é;",
+          "Oh! Fica em [Bm]paz, pois Deus te guarda[Em]rá,",
+          "O Seu fa[D]vor jam[A7]ais te falta[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Conserva a [F#m]paz, fe[B7]liz é o teu fu[E]turo,",
-          "Junto a Je[F#m]sus, a[B7]mado Salva[E]dor;",
-          "Teu galar[C#m7]dão no céu está se[F#m]guro,",
-          "Breve o ter[E]ás das m[B7]ãos do Reden[E]tor;",
-          "Oh! Fica em [C#m7]paz, pois tens a salva[F#m]ção,",
-          "Ao teu re[E]dor es[B7]tá o Guardi[E]ão."
+          "[D]Conserva a [Em]paz, fe[A7]liz é o teu fu[D]turo,",
+          "Junto a Je[Em]sus, a[A7]mado Salva[D]dor;",
+          "Teu galar[Bm]dão no [F#m]céu está se[Em]guro,",
+          "Breve o ter[D]ás das m[A7]ãos do Reden[F#7]tor;",
+          "Oh! Fica em [Bm]paz, pois tens a salva[Em]ção,",
+          "Ao teu re[D]dor es[A7]tá o Guardi[D]ão."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "Conserva a [F#m]paz, des[B7]cansa bem tranq[E]üila,",
-          "O teu Se[F#m]nhor de [B7]ti cuidando es[E]tá;",
-          "Amparo [C#m7]tens se o teu pé va[F#m]cila,",
-          "Das mãos de D[E]eus ning[B7]uém te tira[E]rá;",
-          "Oh! Fica em [C#m7]paz, e os receios [F#m]teus",
-          "Dissipa[E]rá O [B7]que formou os c[E]éus."
+          "[D]Conserva a [Em]paz, des[A7]cansa bem tranq[D]üila,",
+          "O teu Se[Em]nhor de [A7]ti cuidando es[D]tá;",
+          "Amparo [Bm]tens [F#m]se o teu pé va[Em]cila,",
+          "Das mãos de D[D]eus ning[A7]uém te tira[F#7]rá;",
+          "Oh! Fica em [Bm]paz, e os receios [Em]teus",
+          "Dissipa[D]rá O [A7]que formou os c[D]éus."
         ]
       }
     ]

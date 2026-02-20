@@ -2,13 +2,14 @@
   "code": "210",
   "version": "v3",
   "title": "Grandes promessas",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["D", "A", "D", "A", "D"],
+    "introduction": ["D", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",

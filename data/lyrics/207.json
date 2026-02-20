@@ -2,6 +2,7 @@
   "code": "207",
   "version": "v3",
   "title": "Cristo é fiel",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -17,7 +18,7 @@
       },
       {
         "type": "chorus",
-        "text": ["[G]Cristo [E]é fi[Am]el,", "[D]Nunca falha[G]rá;", "[C]Ao Seu servo a[G]juda[E]rá", "[Am]E [D]forças lhe da[G]rá."]
+        "text": ["[G]Cristo [E]é fi[Am]el,", "[D]Nunca falha[G]rá;", "[C]Ao Seu servo a[G]juda[E|•••]rá", "E [Am]forças [D]lhe da[G]rá."]
       },
       {
         "type": "lyric",
