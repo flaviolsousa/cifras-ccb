@@ -55,6 +55,8 @@ const Home = () => {
   const filterIconScale = useRef(new Animated.Value(1)).current;
   const filterIconRotate = useRef(new Animated.Value(0)).current;
   const [isSearchbarFocused, setIsSearchbarFocused] = useState(false);
+  const [filterPanelHeight, setFilterPanelHeight] = useState(0);
+  const filterPanelAnim = useRef(new Animated.Value(0)).current;
   const [hymns, setHymns] = useState(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
   const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
     const query = searchQuery.toLowerCase().trim();
@@ -140,6 +142,36 @@ const Home = () => {
     }
   }, [isSearchbarFocused, filterIconScale, filterIconRotate]);
 
+  useEffect(() => {
+    if (filterPanelHeight === 0 && filterVisible) {
+      return;
+    }
+    Animated.timing(filterPanelAnim, {
+      toValue: filterVisible ? 1 : 0,
+      duration: 250,
+      useNativeDriver: false,
+    }).start();
+  }, [filterVisible, filterPanelHeight, filterPanelAnim]);
+
+  const filterPanelAnimatedStyle = {
+    height: filterPanelAnim.interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, filterPanelHeight || 0],
+    }),
+    opacity: filterPanelAnim.interpolate({
+      inputRange: [0, 1],
+      outputRange: [0, 1],
+    }),
+    transform: [
+      {
+        translateY: filterPanelAnim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [-8, 0],
+        }),
+      },
+    ],
+  };
+
   return (
     <View style={{ ...theme, flex: 1, backgroundColor: theme.colors.surface }}>
       <Appbar.Header elevated={true}>
@@ -147,7 +179,36 @@ const Home = () => {
         <Appbar.Content title="Hinos" />
       </Appbar.Header>
 
-      {filterVisible && (
+      {filterPanelHeight === 0 && (
+        <View
+          pointerEvents="none"
+          style={styles.filterPanelMeasure}
+          onLayout={(event) => setFilterPanelHeight(event.nativeEvent.layout.height)}
+        >
+          <HymnFilterPanel
+            showOnlyFavorites={showOnlyFavorites}
+            showOnlyFlagged={showOnlyFlagged}
+            selectedDifficulties={selectedDifficulties}
+            selectedRhythms={selectedRhythms}
+            onlyFavoriteChords={onlyFavoriteChords}
+            favoriteChords={preferences.favoriteChords || []}
+            onChangeShowOnlyFavorites={setShowOnlyFavorites}
+            onChangeShowOnlyFlagged={setShowOnlyFlagged}
+            onOnlyFavoriteChordsChange={setOnlyFavoriteChords}
+            onToggleDifficulty={toggleDifficulty}
+            onToggleRhythm={toggleRhythm}
+            onResetFilters={() => {
+              setShowOnlyFavorites(false);
+              setShowOnlyFlagged(false);
+              setSelectedDifficulties([]);
+              setSelectedRhythms([]);
+            }}
+            onCloseFilters={() => setFilterVisible(false)}
+          />
+        </View>
+      )}
+
+      <Animated.View pointerEvents={filterVisible ? "auto" : "none"} style={[styles.filterPanelContainer, filterPanelAnimatedStyle]}>
         <HymnFilterPanel
           showOnlyFavorites={showOnlyFavorites}
           showOnlyFlagged={showOnlyFlagged}
@@ -168,7 +229,7 @@ const Home = () => {
           }}
           onCloseFilters={() => setFilterVisible(false)}
         />
-      )}
+      </Animated.View>
 
       <Searchbar
         placeholder={`Filtrar por Nome - ${filteredHymns.length} Hinos`}
@@ -231,6 +292,16 @@ const Home = () => {
 };
 
 const styles = StyleSheet.create({
+  filterPanelContainer: {
+    overflow: "hidden",
+  },
+  filterPanelMeasure: {
+    position: "absolute",
+    opacity: 0,
+    left: 0,
+    right: 0,
+    zIndex: -1,
+  },
   searchInput: {
     margin: 10,
   },
