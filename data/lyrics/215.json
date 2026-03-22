@@ -2,6 +2,7 @@
   "code": "215",
   "version": "v3",
   "title": "Em breve ao céu irei",
+  "level": 3,
   "tone": {
     "original": "C",
     "selected": "C"
@@ -16,8 +17,8 @@
         "text": [
           "Em breve ao [C]céu irei e lá contemplarei",
           "A glória [G]do bom Pai e a face [C]do meu Rei;",
-          "Oh Quão feliz serei na pátria [F]divinal,",
-          "Ao rece[G4]ber, de [G7]Deus, vida eter[C]nal.[C]..."
+          "Oh Quão feliz serei [C7]na pátria [F]divinal,",
+          "Ao rece[G]ber, de [G7]Deus, vida eter[C]nal.[C]..."
         ]
       },
       {
@@ -26,8 +27,8 @@
         "text": [
           "Somente ao [C]meu Jesus sempre pertencerei,",
           "No sangue ex[G]piador refugi[C]ar-me-ei;",
-          "Glória sublime, Deus, por Cristo, [F]prometeu,",
-          "E vida [G4]pere[G7]nal ao povo S[C]eu.[C]..."
+          "Glória sublime, Deus, [C7]por Cristo, [F]prometeu,",
+          "E vida [G]pere[G7]nal ao povo S[C]eu.[C]..."
         ]
       },
       {
@@ -36,17 +37,17 @@
         "text": [
           "Com todos [C]os fiéis jubilarei nos céus,",
           "Onde te[G]rei lugar junto do [C]grande Deus;",
-          "Hinos celestiais a Ele en[F]toarei,",
-          "Incompa[G4]rável [G7]paz desfruta[C]rei."
+          "Hinos celestiais [C7]a Ele en[F]toarei,",
+          "Incompa[G]rável [G7]paz desfruta[C]rei."
         ]
       },
       {
         "type": "chorus",
         "text": [
           "Com meu Se[G7]nhor logo esta[C]rei;",
-          "[A7]Seu esplen[Dm]dor [G7] contempla[C]rei;",
+          "[A7]Seu esplen[Dm|×2]dor [G7|×2] contempla[C]rei;",
           "[G]Corpo eter[C]nal [C7]recebe[F]rei",
-          "[F#°]Para vi[G4]ver com [G7]Deus, excelso [C]Rei.[C]..."
+          "Para vi[G]ver com [G7]Deus, excelso [C]Rei.[C]..."
         ]
       }
     ]

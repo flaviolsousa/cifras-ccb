@@ -2,6 +2,7 @@
   "code": "212",
   "version": "v3",
   "title": "Testemunhas verazes nós somos",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -15,7 +16,7 @@
         "code": "1",
         "text": [
           "Teste[D]munhas ve[A7]razes nós [D]somos",
-          "Do que Cristo em [D°]nós ope[D]rou;",
+          "Do que Cristo em [G]nós ope[D]rou;",
           "Seus [G]passos a[A7]gora se[D]guimos,",
           "Pois [Bm]Cristo Je[E]sus nos [A7]transformou,",
           "Sim, [D]Ele nos [E]transfor[A7]mou."
@@ -24,10 +25,10 @@
       {
         "type": "chorus",
         "text": [
-          "Eis que as [D]trevas já são pas[G]sadas,",
+          "Eis que as [D]trevas já [A7]são pas[Em]sadas,",
           "Veio o [A7]dia com esplen[D]dor;",
-          "Che[Bm]gado é o [G]reino de [D]Deus a [Bm]nós,",
-          "O [D]reino de [A7]luz e a[D]mor."
+          "Che[G]gado é o [A7]reino de [D]Deus a [Bm]nós,",
+          "O [Em]reino de [A7]luz e a[D]mor."
         ]
       },
       {
@@ -35,7 +36,7 @@
         "code": "2",
         "text": [
           "Escon[D]der não de[A7]vemos, do [D]mundo,",
-          "Nossa fé em [D°]Cristo Je[D]sus;",
+          "Nossa fé em [G]Cristo Je[D]sus;",
           "A[G]mor celes[A7]tial e pro[D]fundo",
           "O [Bm]Justo mos[E]trou por [A7]nós na cruz,",
           "Sim, [D]Cristo mos[E]trou na [A7]cruz."
@@ -46,11 +47,11 @@
         "ref": "score.stanzas[1]"
       },
       {
-        "type": "lyric",
+        "type": "lyriEm",
         "code": "3",
         "text": [
           "O Evan[D]gelho da [A7]graça di[D]vina",
-          "Sobre a terra ou[D°]vido se[D]rá;",
+          "Sobre a terra ou[G]vido se[D]rá;",
           "Por [G]Sua ce[A7]leste dou[D]trina,",
           "Os [Bm]homens, Je[E]sus con[A7]verterá,",
           "Sim, [D]Ele os con[E]verte[A7]rá."

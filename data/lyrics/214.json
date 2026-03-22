@@ -2,6 +2,7 @@
   "code": "214",
   "version": "v3",
   "title": "Como foi para os céus, assim virá",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -9,15 +10,16 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["G", "D", "G", "C", "G"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
           "Ao su[G]bir Jesus a Deus, vieram anjos lá dos céus",
-          "Declarando que o Mestre volta[D]ria para os [D]Seus;",
+          "Declarando que o Mestre volta[D]ria para os [D|•••]Seus;",
           "A res[G]plandecente Estrela da Ma[C]nhã ressurgi[G]rá.",
-          "Que alegria o [C]povo [D]santo senti[G]rá!"
+          "Que ale[G|↓↑]gria o [C|↓↓]povo [D]santo senti[G|•••]rá!"
         ]
       },
       {
@@ -25,9 +27,9 @@
         "code": "2",
         "text": [
           "Cristo [G]voltará em nuvens quando o tempo se cumprir,",
-          "Para, à glória prometida, Seus re[D]midos condu[D]zir;",
+          "Para, à glória prometida, Seus re[D]midos condu[D|•••]zir;",
           "Bem-a[G]venturados todos que O [C]servem com a[G]mor,",
-          "A coroa [C]lhes da[D]rá o Cria[G]dor."
+          "A co[G|↓↑]roa [C|↓↓]lhes da[D]rá o Cria[G|•••]dor."
         ]
       },
       {
@@ -35,18 +37,18 @@
         "code": "3",
         "text": [
           "A Pa[G]lavra do Senhor no mundo se cumprindo está,",
-          "Os sinais dos tempos mostram que Ele, em [D]breve, volta[D]rá;",
+          "Os sinais dos tempos mostram que Ele, em [D]breve, volta[D|•••]rá;",
           "Oh! Que [G]glorioso “vinde” Seus e[C]leitos ouvi[G]rão",
-          "De Jesus, na [C]glori[D]osa apari[G]ção."
+          "De Je[G|↓↑]sus, na [C|↓↓]glori[D]osa apari[G|•••]ção."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Como [G]foi para os céus, assim virá[C][G]......",
-          "O Senhor, com celeste esplen[D]dor;[A][D]...",
+          "Como [G]foi para os céus, assim vi[G|↓↑]rá[C|↓↓][G]",
+          "O Senhor, com celeste esplen[D|↓↑]dor;[A|↓↓][D|•••]",
           "A pro[G]messa preciosa que Deus [C]fez se cumpri[G]rá:",
-          "Breve volta[C]rá Je[D]sus, o Reden[G]tor."
+          "Breve [G|↓↑]volta[C|↓↓]rá Je[D]sus, o Reden[G]tor."
         ]
       }
     ]

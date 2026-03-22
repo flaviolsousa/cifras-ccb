@@ -1,13 +1,15 @@
 // src/screens/Home.tsx
-import React, { useRef, useState, useEffect } from "react";
-import { View, StyleSheet, FlatList, TouchableOpacity, Animated } from "react-native";
-import { useTheme, Appbar, Searchbar, List } from "react-native-paper";
+import React, { useRef, useState } from "react";
+import { View, StyleSheet } from "react-native";
+import type { FlatList } from "react-native";
+import { useTheme, Appbar } from "react-native-paper";
 import { useNavigation, DrawerActions, useFocusEffect } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { RootStackParamList } from "../navigation/MainNavigator";
 import { usePreferences } from "../hooks/usePreferences";
-//import Hymns from "../../data/Hymns.json";
-import HymnFilterPanel from "../components/HymnFilterPanel";
+import HomeFilterPanelAnimated from "../components/HomeFilterPanelAnimated";
+import HomeSearchBar from "../components/HomeSearchBar";
+import HymnList, { type HymnListItem } from "../components/HymnList";
 import HymnService from "../services/Hymn/HymnService";
 
 function genPageHymns(
@@ -16,7 +18,7 @@ function genPageHymns(
   flaggedHymns: number[] = [],
   favoriteChords: string[] = [],
   onlyFavoriteChords: boolean = false,
-) {
+): HymnListItem[] {
   let filteredHymns = hymns;
 
   // Filter by favorite chords if the filter is enabled
@@ -51,12 +53,7 @@ const Home = () => {
   const [selectedDifficulties, setSelectedDifficulties] = useState<number[]>([]);
   const [selectedRhythms, setSelectedRhythms] = useState<string[]>([]);
   const [onlyFavoriteChords, setOnlyFavoriteChords] = useState(false);
-  const flatListRef = useRef<FlatList>(null);
-  const filterIconScale = useRef(new Animated.Value(1)).current;
-  const filterIconRotate = useRef(new Animated.Value(0)).current;
-  const [isSearchbarFocused, setIsSearchbarFocused] = useState(false);
-  const [filterPanelHeight, setFilterPanelHeight] = useState(0);
-  const filterPanelAnim = useRef(new Animated.Value(0)).current;
+  const flatListRef = useRef<FlatList<HymnListItem>>(null);
   const [hymns, setHymns] = useState(genPageHymns(HymnService.getSimpleHymns(), preferences.favoriteHymns, preferences.flaggedHymns));
   const filteredHymns = hymns.filter(({ title, code, isFavorite, isFlagged, level, rhythm }) => {
     const query = searchQuery.toLowerCase().trim();
@@ -110,66 +107,16 @@ const Home = () => {
     }, []),
   );
 
-  // Animação do ícone de filtro quando o Searchbar recebe foco
-  useEffect(() => {
-    if (isSearchbarFocused) {
-      Animated.sequence([
-        Animated.parallel([
-          Animated.timing(filterIconScale, {
-            toValue: 1.3,
-            duration: 300,
-            useNativeDriver: false,
-          }),
-          Animated.timing(filterIconRotate, {
-            toValue: 1,
-            duration: 300,
-            useNativeDriver: false,
-          }),
-        ]),
-        Animated.parallel([
-          Animated.timing(filterIconScale, {
-            toValue: 1,
-            duration: 200,
-            useNativeDriver: false,
-          }),
-          Animated.timing(filterIconRotate, {
-            toValue: 0,
-            duration: 200,
-            useNativeDriver: false,
-          }),
-        ]),
-      ]).start();
-    }
-  }, [isSearchbarFocused, filterIconScale, filterIconRotate]);
+  const handleResetFilters = () => {
+    setShowOnlyFavorites(false);
+    setShowOnlyFlagged(false);
+    setSelectedDifficulties([]);
+    setSelectedRhythms([]);
+  };
 
-  useEffect(() => {
-    if (filterPanelHeight === 0 && filterVisible) {
-      return;
-    }
-    Animated.timing(filterPanelAnim, {
-      toValue: filterVisible ? 1 : 0,
-      duration: 250,
-      useNativeDriver: false,
-    }).start();
-  }, [filterVisible, filterPanelHeight, filterPanelAnim]);
-
-  const filterPanelAnimatedStyle = {
-    height: filterPanelAnim.interpolate({
-      inputRange: [0, 1],
-      outputRange: [0, filterPanelHeight || 0],
-    }),
-    opacity: filterPanelAnim.interpolate({
-      inputRange: [0, 1],
-      outputRange: [0, 1],
-    }),
-    transform: [
-      {
-        translateY: filterPanelAnim.interpolate({
-          inputRange: [0, 1],
-          outputRange: [-8, 0],
-        }),
-      },
-    ],
+  const handleSelectItem = (item: HymnListItem) => {
+    const hymnsCode = filteredHymns.map((hymn) => hymn.code);
+    navigation.navigate("HymnDetails", { hymnCode: item.code, hymnsCode });
   };
 
   return (
@@ -179,129 +126,38 @@ const Home = () => {
         <Appbar.Content title="Hinos" />
       </Appbar.Header>
 
-      {filterPanelHeight === 0 && (
-        <View
-          pointerEvents="none"
-          style={styles.filterPanelMeasure}
-          onLayout={(event) => setFilterPanelHeight(event.nativeEvent.layout.height)}
-        >
-          <HymnFilterPanel
-            showOnlyFavorites={showOnlyFavorites}
-            showOnlyFlagged={showOnlyFlagged}
-            selectedDifficulties={selectedDifficulties}
-            selectedRhythms={selectedRhythms}
-            onlyFavoriteChords={onlyFavoriteChords}
-            favoriteChords={preferences.favoriteChords || []}
-            onChangeShowOnlyFavorites={setShowOnlyFavorites}
-            onChangeShowOnlyFlagged={setShowOnlyFlagged}
-            onOnlyFavoriteChordsChange={setOnlyFavoriteChords}
-            onToggleDifficulty={toggleDifficulty}
-            onToggleRhythm={toggleRhythm}
-            onResetFilters={() => {
-              setShowOnlyFavorites(false);
-              setShowOnlyFlagged(false);
-              setSelectedDifficulties([]);
-              setSelectedRhythms([]);
-            }}
-            onCloseFilters={() => setFilterVisible(false)}
-          />
-        </View>
-      )}
+      <HomeFilterPanelAnimated
+        visible={filterVisible}
+        showOnlyFavorites={showOnlyFavorites}
+        showOnlyFlagged={showOnlyFlagged}
+        selectedDifficulties={selectedDifficulties}
+        selectedRhythms={selectedRhythms}
+        onlyFavoriteChords={onlyFavoriteChords}
+        favoriteChords={preferences.favoriteChords || []}
+        onChangeShowOnlyFavorites={setShowOnlyFavorites}
+        onChangeShowOnlyFlagged={setShowOnlyFlagged}
+        onOnlyFavoriteChordsChange={setOnlyFavoriteChords}
+        onToggleDifficulty={toggleDifficulty}
+        onToggleRhythm={toggleRhythm}
+        onResetFilters={handleResetFilters}
+        onCloseFilters={() => setFilterVisible(false)}
+      />
 
-      <Animated.View pointerEvents={filterVisible ? "auto" : "none"} style={[styles.filterPanelContainer, filterPanelAnimatedStyle]}>
-        <HymnFilterPanel
-          showOnlyFavorites={showOnlyFavorites}
-          showOnlyFlagged={showOnlyFlagged}
-          selectedDifficulties={selectedDifficulties}
-          selectedRhythms={selectedRhythms}
-          onlyFavoriteChords={onlyFavoriteChords}
-          favoriteChords={preferences.favoriteChords || []}
-          onChangeShowOnlyFavorites={setShowOnlyFavorites}
-          onChangeShowOnlyFlagged={setShowOnlyFlagged}
-          onOnlyFavoriteChordsChange={setOnlyFavoriteChords}
-          onToggleDifficulty={toggleDifficulty}
-          onToggleRhythm={toggleRhythm}
-          onResetFilters={() => {
-            setShowOnlyFavorites(false);
-            setShowOnlyFlagged(false);
-            setSelectedDifficulties([]);
-            setSelectedRhythms([]);
-          }}
-          onCloseFilters={() => setFilterVisible(false)}
-        />
-      </Animated.View>
-
-      <Searchbar
-        placeholder={`Filtrar por Nome - ${filteredHymns.length} Hinos`}
-        value={searchQuery}
-        onChangeText={setSearchQuery}
-        onFocus={() => setIsSearchbarFocused(true)}
-        onBlur={() => setIsSearchbarFocused(false)}
+      <HomeSearchBar
+        filteredCount={filteredHymns.length}
+        searchQuery={searchQuery}
+        onChangeSearch={setSearchQuery}
+        filterVisible={filterVisible}
+        onToggleFilters={() => setFilterVisible((v) => !v)}
         style={styles.searchInput}
-        icon="magnify"
-        right={(props) => (
-          <TouchableOpacity onPress={() => setFilterVisible((v) => !v)}>
-            <Animated.View
-              style={{
-                transform: [
-                  { scale: filterIconScale },
-                  {
-                    rotate: filterIconRotate.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: ["0deg", "10deg"],
-                    }),
-                  },
-                ],
-              }}
-            >
-              <List.Icon {...props} icon={filterVisible ? "filter-remove-outline" : "filter-menu-outline"} style={{ marginRight: 10 }} />
-            </Animated.View>
-          </TouchableOpacity>
-        )}
       />
 
-      <FlatList
-        ref={flatListRef}
-        data={filteredHymns}
-        keyExtractor={(item) => item.code}
-        renderItem={({ item }) => (
-          <TouchableOpacity onPress={selectItemHandler(item, filteredHymns)}>
-            <List.Item
-              title={item.code + " - " + item.title}
-              description={`${item.level ? `Dif.: ${item.level}      ` : ""}${item.rhythm ? `${item.rhythm}      ` : ""}${item.chords.join(", ")}`}
-              descriptionStyle={{ fontSize: 10 }}
-              right={(props) => (
-                <View style={{ flexDirection: "row", alignItems: "center" }}>
-                  {item.isFlagged && <List.Icon {...props} icon="flag" color="#d32f2f" style={{ marginRight: 0 }} />}
-                  <TouchableOpacity onPress={() => toggleFavorite(item.code)}>
-                    <List.Icon {...props} icon={item.isFavorite ? "star" : "star-outline"} color={item.isFavorite ? "#FFD700" : "#888"} />
-                  </TouchableOpacity>
-                </View>
-              )}
-            />
-          </TouchableOpacity>
-        )}
-      />
+      <HymnList data={filteredHymns} listRef={flatListRef} onPressItem={handleSelectItem} onToggleFavorite={toggleFavorite} />
     </View>
   );
-
-  function selectItemHandler(item: { code: string; title: string }, hymns: Array<{ code: string; title: string }>) {
-    const hymnsCode = hymns.map((hymn) => hymn.code);
-    return () => navigation.navigate("HymnDetails", { hymnCode: item.code, hymnsCode });
-  }
 };
 
 const styles = StyleSheet.create({
-  filterPanelContainer: {
-    overflow: "hidden",
-  },
-  filterPanelMeasure: {
-    position: "absolute",
-    opacity: 0,
-    left: 0,
-    right: 0,
-    zIndex: -1,
-  },
   searchInput: {
     margin: 10,
   },
