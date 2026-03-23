@@ -2,36 +2,37 @@
   "code": "223",
   "version": "v3",
   "title": "Muitos, por fé, aceitaram Jesus",
+  "level": 3,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["F", "Bb", "F", "C7", "F"],
+    "introduction": ["D", "G", "D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[F]Muitos, por fé, acei[Bb]taram Je[F]sus", "[C7]E alcançaram [F]salvação;", "O pecador que re[Bb]cebe a [F]Luz", "[C]Tem perdão."]
+        "text": ["[D]Muitos, por fé, acei[G]taram Je[D]sus", "[A7]E alcançaram [D]salvação;", "O pecador que re[G]cebe a [D]Luz", "[A]Tem perdão."]
       },
       {
         "type": "chorus",
         "text": [
-          "[C7]Muitos já sentem o [F]grande amor",
-          "[C7]De Jesus Cristo, A[F]migo sem par;",
-          "[C7]Oh! Não rejeites o [F]bom Redentor",
-          "[Dm]Que te [C]quer sal[F]var."
+          "[A7]Muitos já sentem o [D]grande amor",
+          "[A7]De Jesus Cristo, A[D]migo sem par;",
+          "[A7]Oh! Não rejeites o [D]bom Redentor",
+          "[Bm]Que te [A]quer sal[D]var."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Muitos já trilham a [Bb]senda do [F]bem;",
-          "[C7]Sobre o mal vão [F]triunfar;",
-          "Deves juntar-te a [Bb]eles tam[F]bém",
-          "[C]Sem tardar."
+          "[D]Muitos já trilham a [G]senda do [D]bem;",
+          "[A7]Sobre o mal vão [D]triunfar;",
+          "Deves juntar-te a [G]eles tam[D]bém",
+          "[A]Sem tardar."
         ]
       },
       {
@@ -41,12 +42,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "[F]Muitos aguardam a [Bb]vida eter[F]nal",
-          "[C7]Para descan[F]sar nos céus;",
-          "Crê em Jesus, o A[Bb]migo le[F]al;",
-          "[C]Crê em Deus."
-        ]
+        "text": ["[D]Muitos aguardam a [G]vida eter[D]nal", "[A7]Para descan[D]sar nos céus;", "Crê em Jesus, o A[G]migo le[D]al;", "[A]Crê em Deus."]
       },
       {
         "type": "ref",

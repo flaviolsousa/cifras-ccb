@@ -2,6 +2,7 @@
   "code": "218",
   "version": "v3",
   "title": "Oh! Jubilemos, devotos de Cristo",
+  "level": 4,
   "tone": {
     "original": "Ab",
     "selected": "G"
@@ -9,6 +10,7 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["G", "C", "G", "C", "D", "G"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
@@ -16,7 +18,7 @@
         "text": [
           "[G]Oh! Jubilemos, de[C]votos de [G]Cristo,",
           "E ento[C]emos a [D]Ele lou[G]vor;",
-          "Ressuscitado, por [C]mui[D]tos foi [G]visto;",
+          "Ressuscitado, por [C|↓↑]mui[D|↓↓]tos foi [G]visto;",
           "Sobre o mal foi, na [D]cruz, vencedor;",
           "[G]Deus exaltou o Seu [C]Filho ben[G]quisto,",
           "Que lá no [C]céu é fi[D]el Media[G]dor."
@@ -28,7 +30,7 @@
         "text": [
           "[G]Oh! Jubilemos em [C]Cristo, o Vi[G]vente,",
           "Que, sobre a [C]cruz, por a[D]mor pade[G]ceu.",
-          "Ele, o Forte e [C]O[D]nipo[G]tente,",
+          "Ele, o Forte e [C|↓↑]O[D|↓↓]nipo[G]tente,",
           "Todas as forças do [D]mal abateu",
           "[G]Para podermos di[C]zer livre[G]mente:",
           "Nós fomos [C]feitos her[D]deiros do c[G]éu."
@@ -40,7 +42,7 @@
         "text": [
           "[G]Oh! Jubilemos, re[C]midos do [G]Santo,",
           "Que prome[C]teu Sua [D]glória nos [G]dar;",
-          "Lá no Seu reino, com [C]um [D]novo [G]canto,",
+          "Lá no Seu reino, com [C|↓↑]um [D|↓↓]novo [G]canto,",
           "Nós poderemos a [D]Deus exaltar;",
           "[G]O regozijo se[C]rá, no céu, [G]tanto, ",
           "Que não se [C]pode a[D]qui imagi[G]nar."

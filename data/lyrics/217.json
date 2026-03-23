@@ -2,6 +2,7 @@
   "code": "217",
   "version": "v3",
   "title": "Vamos, unidos, a Deus louvar",
+  "level": 3,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -14,24 +15,24 @@
         "type": "lyric",
         "code": "1",
         "text": [
-          "[C]Vamos unidos, a [G]Deus louvar",
+          "[C]Vamos unidos, a [Dm]Deus lou[G7]var",
           "E a Jesus, nosso [C]Rei, cantar,",
-          "[Am]Pelo Evangelho as[D]segurar",
-          "Que Cristo vai vol[G]tar.[G7]"
+          "[Am]Pelo Evangelho as[Dm]segurar",
+          "[D]Que Cristo vai vol[G]tar.[G7]"
         ]
       },
       {
         "type": "chorus",
-        "text": ["[C]Vem, Je[F]sus, os Teus fi[G7]éis bus[C]car,", "Pois dese[C7]jamos, um [F]dia, nos [D]céus [G]há[G7]bi[C]tar.[C]..."]
+        "text": ["[C]Vem, Je[Dm]sus, os Teus fi[G7]éis bus[C]car,", "Pois dese[C7]jamos, um [F]dia, nos [Dm]céus [C]há[G7]bi[C]tar."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[C]Vamos a todos tes[G]tificar",
+          "[C]Vamos a todos [Dm]testifi[G]car",
           "Que Deus mandou Cristo [C]a salvar;",
-          "[Am]E quem a Ele se [D]entregar,",
-          "No céu irá rei[G]nar.[G7]"
+          "[Am]E quem a Ele se [Dm]entregar,",
+          "[D]No céu irá rei[G]nar.[G7]"
         ]
       },
       {
@@ -42,10 +43,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[C]Vamos, irmãos, a Deus [G]celebrar,",
+          "[C]Vamos, irmãos, a Deus [Dm]cele[G]brar,",
           "E não cessemos de [C]afirmar",
-          "[Am]Que, só por Cristo, se [D]pode entrar",
-          "No céu, eterno l[G]ar.[G7]"
+          "[Am]Que, só por Cristo, se [Dm]pode entrar",
+          "[D]No céu, eterno l[G]ar.[G7]"
         ]
       },
       {

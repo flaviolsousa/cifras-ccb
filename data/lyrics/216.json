@@ -2,6 +2,7 @@
   "code": "216",
   "version": "v3",
   "title": "Irmãos, amemos ao Senhor",
+  "level": 3,
   "tone": {
     "original": "Db",
     "selected": "C"
@@ -19,9 +20,9 @@
         "type": "chorus",
         "text": [
           "Com [G7]toda a nossa [C]devoção,",
-          "Com [D]toda a força e fer[G]vor,[G]...",
+          "Com [D]toda a força e fer[G]vor,[G|•••]",
           "Com [C]toda a alma e en[F]tendimento,",
-          "A[G]memos ao Sen[C]hor.[C]..."
+          "A[G]memos ao Sen[C]hor.[C|•••]"
         ]
       },
       {
