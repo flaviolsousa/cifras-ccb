@@ -2,36 +2,37 @@
   "code": "239",
   "version": "v3",
   "title": "Eis que a noite é passada",
+  "level": 4,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "E"
   },
   "rhythm": "Guarânia",
   "score": {
-    "introduction": ["F", "C", "F", "Bb", "G7", "C", "F"],
+    "introduction": ["E", "B", "E", "A", "F#7", "B", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "Eis que a [F]noite é pas[C]sada, para mim surgiu o [F]dia;",
-          "De Je[Bb]sus estou mais perto; [G7]oh! que ale[C]gria!",
-          "Sempre [F]mais eu vou cres[C]cendo nas virtudes do Sen[F]hor",
-          "Para, um [Bb]dia, [D°]ser per[C#7]feito [C7]no divino a[F]mor."
+          "Eis que a [E]noite é pas[B7]sada, para [B7]mim surgiu o [E]dia;",
+          "De Je[A]sus estou mais [A]perto; [F#7]oh! que ale[B7]gria!",
+          "Sempre [E]mais eu vou cres[B7]cendo nas vir[B7]tudes do Sen[E]hor",
+          "Para, um [A]dia, ser per[C7]feito [B7]no divino a[E]mor."
         ]
       },
       {
         "type": "chorus",
-        "text": ["Ó Je[F]sus, por Tua [C]graça,", "Glória [C7]sempre Te da[F]rei;", "Resga[F7]tado por Teu [Bb]sangue,", "Só a [C7]Ti servi[F]rei."]
+        "text": ["Ó Je[E]sus, por Tua [B7]graça,", "Glória [B7]sempre Te da[E]rei;", "Resga[E7]tado por Teu [A]sangue,", "Só a [B7]Ti servi[E]rei."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "Eis que a [F]noite é pas[C]sada, já surgiu a Luz di[F]vina;",
-          "Essa [Bb]Luz é Jesus Cristo, [G7]que me ilu[C]mina.",
-          "Bem cin[F]gido de jus[C]tiça e das armas do Sen[F]hor,",
-          "Eu es[Bb]pero, [D°]confi[C#7]ante, [C7]ser um vence[F]dor."
+          "Eis que a [E]noite é pas[B7]sada, já surgiu a Luz di[E]vina;",
+          "Essa [A]Luz é Jesus Cristo, [F#7]que me ilu[B7]mina.",
+          "Bem cin[E]gido de jus[B7]tiça e das armas do Sen[E]hor,",
+          "Eu es[A]pero, confi[C7]ante, [B7]ser um vence[E]dor."
         ]
       },
       {

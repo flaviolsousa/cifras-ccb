@@ -28,10 +28,10 @@
 - ☒ Filter on Home Screen
 - ☒ Show introduction
 - ☒ Add Flag on hymn
-- ☐ Highlight the easiest tone (with low capo position) in tone selection popup
-- ☐ Display capo position for each chord in tone selection popup
+- ☒ Display capo position for each chord in tone selection popup
 - ☒ Mark chords as favorites
 - ☒ Keep the screen always on during use
+- ☒ Search by favorite chords
 
 #### V2 (future)
 
@@ -42,7 +42,6 @@
 - ☐ Add drums backing track support
 - ☐ Allow MIDI playback of selected parts only
 - ☐ Search by hymn content
-- ☐ Search by favorite chords
 - ☐ Recommended order for hymn practice sequence
 - ☐ Enable user feedback on each hymn
 - ☐ Let users save customized preferred tones and notes

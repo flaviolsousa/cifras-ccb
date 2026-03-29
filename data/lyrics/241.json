@@ -4,42 +4,42 @@
   "title": "A Justiça divina",
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["F", "C7", "F"],
+    "introduction": ["D", "A7", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Deus quis ao mundo manifestar",
-          "A perfeita Cari[C7]dade;",
+          "[D]Deus quis ao mundo manifestar",
+          "A perfeita Cari[A7]dade;",
           "Pelos profetas, fez anunciar",
-          "A Justiça e a Ver[F]dade.",
+          "A Justiça e a Ver[D]dade.",
           "Essa Justiça, que é Jesus,",
-          "[D]Enviada foi ao [D7]mun[Gm]do,",
-          "[G]Manifes[C]tando, por [G7]Sua [C]luz,",
-          "[G]O amor que ao céu con[C]duz."
+          "[B7]Enviada foi ao mun[Em]do,",
+          "[E]Manifes[A]tando, por [E7]Sua [A]luz,",
+          "[E]O amor que ao céu con[A]duz."
         ]
       },
       {
         "type": "chorus",
-        "text": ["[F]A Justiça di[C]vina [C7]é Jesus, o Salva[F]dor;", "[F7]Sua sá dou[Bb]tri - [B°]na [F]nos conduz ao [C]Cria[F]dor."]
+        "text": ["[D]A Justiça di[A]vina [A7]é Jesus, o Salva[D]dor;", "[D7]Sua sá dou[G]trina [D]nos conduz ao [A]Cria[D]dor."]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Essa Justiça nos libertou",
-          "Da condenação vin[C7]doura;",
+          "[D]Essa Justiça nos libertou",
+          "Da condenação vin[A7]doura;",
           "Deus, por Jesus, nos predestinou",
-          "Para a glória dura[F]doura.",
+          "Para a glória dura[D]doura.",
           "Somos, agora, remidos Seus,",
-          "[D]Exaltemos o Seu [D7]No - [Gm]me;",
-          "[G]Ele nos [C]fez cida[G7]dãos dos c[C]éus",
-          "[G]E herdeiros do bom D[C]eus."
+          "[B7]Exaltemos o Seu No[Em]me;",
+          "[E]Ele nos [A]fez cida[E7]dãos dos c[A]éus",
+          "[E]E herdeiros do bom D[A]eus."
         ]
       },
       {

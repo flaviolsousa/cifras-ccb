@@ -13,12 +13,7 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": [
-          "Ó me[C]ninos, nós es[F]ta-[C]mos",
-          "Reunidos ante o bom Pas[G]tor;",
-          "Ansi[C]osos, espe[F]ra-[C]mos",
-          "Seus conselhos [G]de a[C]mor."
-        ]
+        "text": ["Ó me[C]ninos, nós es[F]ta[C]mos", "Reunidos ante o bom Pas[G]tor;", "Ansi[C]osos, espe[F]ra[C]mos", "Seus conselhos [G]de a[C]mor."]
       },
       {
         "type": "chorus",
@@ -32,12 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": [
-          "Ó me[C]ninos, aten[F]da-[C]mos",
-          "A Jesus, divino Salva[G]dor,",
-          "Pois é d[C]´Ele que espe[F]ra-[C]mos",
-          "A virtude e [G]o vi[C]gor."
-        ]
+        "text": ["Ó me[C]ninos, aten[F]da[C]mos", "A Jesus, divino Salva[G]dor,", "Pois é d[C]´Ele que espe[F]ra[C]mos", "A virtude e [G]o vi[C]gor."]
       },
       {
         "type": "ref",
@@ -46,12 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": [
-          "Ó me[C]ninos, com fir[F]me-[C]za",
-          "Nós devemos sempre camin[G]har;",
-          "É e[C]terna a riq[F]ue-[C]za",
-          "Que Jesus nos [G]veio [C]dar."
-        ]
+        "text": ["Ó me[C]ninos, com fir[F]me[C]za", "Nós devemos sempre camin[G]har;", "É e[C]terna a riq[F]ue[C]za", "Que Jesus nos [G]veio [C]dar."]
       },
       {
         "type": "ref",

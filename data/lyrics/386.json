@@ -13,7 +13,7 @@
       {
         "type": "lyric",
         "code": "1",
-        "text": ["[C]Pela morte de [D#°]Je - [G7]sus, deu-nos vida o Cria[C]dor,", "Trouxe paz e [F]trouxe luz, [C]nosso ben[G7]dito Salva[C]dor."]
+        "text": ["[C]Pela morte de [D#°]Je[G7]sus, deu-nos vida o Cria[C]dor,", "Trouxe paz e [F]trouxe luz, [C]nosso ben[G7]dito Salva[C]dor."]
       },
       {
         "type": "chorus",
@@ -27,7 +27,7 @@
       {
         "type": "lyric",
         "code": "2",
-        "text": ["[C]Sua graça nos [D#°]do - [G7]ou, Jesus Cristo, o Sen[C]hor;", "Dos pecados [F]nos lavou; [C]vamos ser[G7]vi-Lo com fer[C]vor."]
+        "text": ["[C]Sua graça nos [D#°]do[G7]ou, Jesus Cristo, o Sen[C]hor;", "Dos pecados [F]nos lavou; [C]vamos ser[G7]vi-Lo com fer[C]vor."]
       },
       {
         "type": "ref",
@@ -36,7 +36,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[C]Honra e glória ao [D#°]Se - [G7]nhor, o Autor de todo o [C]bem,", "Que nos guia ao [F]Criador, [C]à eter[G7]nal Jerusa[C]lém."]
+        "text": ["[C]Honra e glória ao [D#°]Se[G7]nhor, o Autor de todo o [C]bem,", "Que nos guia ao [F]Criador, [C]à eter[G7]nal Jerusa[C]lém."]
       },
       {
         "type": "ref",

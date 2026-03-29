@@ -15,7 +15,7 @@
         "code": "1",
         "text": [
           "A[A]vante sempre, sem te[E]mer, ó soldados verdadei[A]ros!",
-          "[F#]Por [Bm]Cristo, nosso Ensina[F#]dor, [B]fomos feitos bons guer[B7]rei - [E]ros;",
+          "[F#]Por [Bm]Cristo, nosso Ensina[F#]dor, [B]fomos feitos bons guer[B7]rei[E]ros;",
           "Ele, [E]por nós, combaterá, Suas armas po[E°]tentes [E]são,",
           "Pois nos [E7]livram sempre do [A]mal,[A7] [D]do po[A]der da [E7]tentaç[A]ão.[A]..."
         ]
@@ -25,14 +25,14 @@
         "code": "2",
         "text": [
           "A[A]vante, com o Salva[E]dor, pois é certa a vitó[A]ria!",
-          "[F#]Mar - [Bm]chemos sempre com vi[F#]gor, [B]prosseguindo para a [B7]gló - [E]ria;",
+          "[F#]Mar[Bm]chemos sempre com vi[F#]gor, [B]prosseguindo para a [B7]gló[E]ria;",
           "A co[E]roa receberá, só quem for em tu[E°]do fi[E]el",
-          "A Je[E7]sus, o nosso Sen[A]hor[A7] [D]e o [A]nosso E[E7]manu - [A]el."
+          "A Je[E7]sus, o nosso Sen[A]hor[A7] [D]e o [A]nosso E[E7]manu[A]el."
         ]
       },
       {
         "type": "chorus",
-        "text": ["Ale[A]luia! Ale[E]luia! Bendiremos nosso Salva[A]dor;", "Alelui[A7]a! [F#]Ale - [Bm]luia! [D°]Glória e[A]terna ao [E7]Reden[A]tor!"]
+        "text": ["Ale[A]luia! Ale[E]luia! Bendiremos nosso Salva[A]dor;", "Alelui[A7]a! [F#]Ale[Bm]luia! [D°]Glória e[A]terna ao [E7]Reden[A]tor!"]
       }
     ]
   }

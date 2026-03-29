@@ -15,6 +15,7 @@
 
 ```regex
 [-]\s*\[[\w|]+\](?!nos|me)
+[-–]\s*\[[^\]]+?\](?!(me|nos|ei|á|la|te|no|Lhe)[\s,;."])
 ```
 
 # Rhythms

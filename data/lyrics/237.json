@@ -2,6 +2,7 @@
   "code": "237",
   "version": "v3",
   "title": "Deus é por mim",
+  "level": 3,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -22,7 +23,7 @@
       },
       {
         "type": "chorus",
-        "text": ["[D]Do mundo [G]já separado es[A7]tou,", "Foi Je[D]sus Quem me separou;", "[B]Com Seu [Em]sangue precioso me [A7]resga[D]tou."]
+        "text": ["[D]Do mundo [G]já separado es[A7]tou,", "Foi Je[D]sus Quem me separou;", "[B7]Com Seu [Em]sangue precioso me [A7]resga[D]tou."]
       },
       {
         "type": "lyric",

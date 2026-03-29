@@ -17,7 +17,7 @@
           "Bem [D]perto está dos Seus fiéis",
           "Jesus, o grande [A7]Mest[D]re;",
           "Jamais nos deixa o Rei dos reis,",
-          "Oh! Que amor ce[A7]les-[D]te!"
+          "Oh! Que amor ce[A7]les[D]te!"
         ]
       },
       {
@@ -26,13 +26,13 @@
           "[D]Perto está o [G]Salva[D]dor",
           "Dos que O têm por [A7]seu Pas[D]tor;",
           "Não nos deixa o Redentor;",
-          "Oh! Que amor ce[A7]les-[D]te![D]..."
+          "Oh! Que amor ce[A7]les[D]te![D]..."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
-        "text": ["Jes[D]us, o nosso Redentor,", "Do alto nos re[A7]ves-[D]te;", "Nas provas, lutas ou a dor,", "Presente está o [A7]Mest[D]re."]
+        "text": ["Jes[D]us, o nosso Redentor,", "Do alto nos re[A7]ves[D]te;", "Nas provas, lutas ou a dor,", "Presente está o [A7]Mest[D]re."]
       },
       {
         "type": "ref",
@@ -41,7 +41,7 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["Na [D]nossa peregrinação", "É Cristo Quem nos [A7]gui-[D]a;", "Estende sempre a Sua mão,", "Nos guarda noite e [A7]di- [D]a."]
+        "text": ["Na [D]nossa peregrinação", "É Cristo Quem nos [A7]gui[D]a;", "Estende sempre a Sua mão,", "Nos guarda noite e [A7]di[D]a."]
       },
       {
         "type": "ref",

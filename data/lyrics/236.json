@@ -2,6 +2,7 @@
   "code": "236",
   "version": "v3",
   "title": "Há um lugar de eterna paz",
+  "level": 4,
   "tone": {
     "original": "Eb",
     "selected": "D"
@@ -9,6 +10,7 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["D", "A", "D", "G", "A7", "D"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
@@ -24,9 +26,9 @@
         "type": "chorus",
         "text": [
           "Há um lu[A7]gar de eterna [D]paz",
-          "E de con[A]solação [E7]ve[A]raz;",
+          "E de con[A]sola[A|↓↑]ção [E7|↓↓]ve[A]raz;",
           "Quem se entre[D]gar a Deus, quem crer no [G]Salvador,",
-          "Irá mo[D]rar no lar [A7]de a[D]mor."
+          "Irá mo[D]rar no la[D|↓↑]r [A7|↓↓]de a[D]mor."
         ]
       },
       {
