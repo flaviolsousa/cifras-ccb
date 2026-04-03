@@ -2,13 +2,14 @@
   "code": "251",
   "version": "v3",
   "title": "Firme nas mãos de Cristo",
+  "level": 2,
   "tone": {
     "original": "G",
     "selected": "G"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["G", "D", "G", "G7", "C", "D", "G"],
+    "introduction": ["G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

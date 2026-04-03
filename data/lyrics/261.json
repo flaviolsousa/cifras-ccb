@@ -2,41 +2,43 @@
   "code": "261",
   "version": "v3",
   "title": "Vivo por Cristo",
+  "level": 4,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "D"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["F", "C", "Bb", "F"],
+    "introduction": ["D", "A", "G", "D"],
+    "initialObservation": "Em alguns compassos, o ritmo será dividido em 2 acordes\n↓↑ então ↓↓   (Canção)",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Vivo por [C]Cristo, o [Bb]bom Salva[F]dor;",
-          "[C]Vivo pro[F]vando do [G]Seu grande a[C]mor.",
-          "[F]Cristo, o [C]Mestre, na [Bb]cruz expi[A]rou;",
-          "[Bb]Por Sua [F]morte, per[C7]dão me do[F]ou."
+          "[D]Vivo por [A]Cristo, o [G]bom Salva[D]dor;",
+          "[A]Vivo pro[D]vando do [E]Seu grande a[A]mor.",
+          "[D]Cristo, o [A]Mestre, na [G]cruz expi[F#]rou;",
+          "[G]Por Sua [D]morte, per[A7]dão me do[D]ou."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "Je[F]sus, Pastor divino, en[Gm]trego a Ti meu ser,",
-          "Pois, [C7]com Teu sacri[F]fício, fi[G]zeste-me vi[C]ver;",
-          "A[F]mor celeste e santo mos[F7]traste sobre a [Bb]cruz;",
-          "Glorioso é perten[F]cer a [D7]Ti, ó [G7]Salva[C7]dor Jes[F]us!"
+          "Je[D]sus, Pastor divino, en[Em]trego a Ti meu ser,",
+          "Pois, [A7]com Teu sacri[D]fício, fi[E]zeste-me vi[A]ver;",
+          "A[D]mor celeste e santo mos[D7]traste sobre a [G]cruz;",
+          "Glorioso é perten[D|↓↑]cer a [B7|↓•••]Ti, ó [E7|↓↑]Salva[A7|↓↓]dor Jes[D]us!"
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]É um te[C]souro de [Bb]grande va[F]lor",
-          "[C]A salva[F]ção que me [G]deu o Sen[C]hor;",
-          "[F]Tenho espe[C]rança de en[Bb]trar lá nos c[A]éus",
-          "[Bb]E, com o [F]Mestre, es[C7]tar junto a D[F]eus."
+          "[D]É um te[A]souro de [G]grande va[D]lor",
+          "[A]A salva[D]ção que me [E]deu o Sen[A]hor;",
+          "[D]Tenho espe[A]rança de en[G]trar lá nos c[F#]éus",
+          "[G]E, com o [D]Mestre, es[A7]tar junto a D[D]eus."
         ]
       },
       {
@@ -47,10 +49,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Humilde[C]mente eu [Bb]atende[F]rei",
-          "[C]Aos bons con[F]selhos de [G]Cristo, meu [C]Rei;",
-          "[F]Em grande a[C]preço te[Bb]rei Seu a[A]mor;",
-          "[Bb]Glória e [F]honra a [C7]Cristo, o Sen[F]hor!"
+          "[D]Humilde[A]mente eu [G]atende[D]rei",
+          "[A]Aos bons con[D]selhos de [E]Cristo, meu [A]Rei;",
+          "[D]Em grande a[A]preço te[G]rei Seu a[F#]mor;",
+          "[G]Glória e [D]honra a [A7]Cristo, o Sen[D]hor!"
         ]
       },
       {

@@ -2,41 +2,42 @@
   "code": "244",
   "version": "v3",
   "title": "Cristo intercede por ti",
+  "level": 3,
   "tone": {
     "original": "F",
-    "selected": "F"
+    "selected": "E"
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["F", "C", "F", "C", "F"],
+    "introduction": ["E", "B7", "E", "B7", "E"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[F]Quando te faltam forças contra o mal,",
-          "Tens o socorro dos c[C]éus;",
-          "[F]Cristo Jesus, Cordeiro divinal,",
-          "[C]É Intercessor junto a D[F]eus."
+          "[E]Quando te faltam forças contra o mal,",
+          "Tens o socorro dos c[B7]éus;",
+          "[E]Cristo Jesus, Cordeiro divinal,",
+          "[B7]É Intercessor junto a D[E]eus."
         ]
       },
       {
         "type": "chorus",
         "text": [
-          "[F]Cristo intercede por [C]ti",
-          "Junto a Deus, o Pai celes[F]tial;",
-          "[F7]Cristo é o Modelo [Bb]santo e perfeito,",
-          "[F]Cristo é o A[C]migo le[F]al."
+          "[E]Cristo intercede por [B7]ti",
+          "Junto a Deus, o Pai celes[E]tial;",
+          "[E7]Cristo é o Modelo [A]santo e perfeito,",
+          "[E]Cristo é o A[B7]migo le[E]al."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "[F]Quando o inimigo te vier tentar,",
-          "Clama a Jesus, Reden[C]tor;",
-          "[F]Forças, por certo, Ele irá te dar",
-          "[C]E te fará vence[F]dor."
+          "[E]Quando o inimigo te vier tentar,",
+          "Clama a Jesus, Reden[B7]tor;",
+          "[E]Forças, por certo, Ele irá te dar",
+          "[B7]E te fará vence[E]dor."
         ]
       },
       {
@@ -47,10 +48,10 @@
         "type": "lyric",
         "code": "3",
         "text": [
-          "[F]Quando estiveres em tribulação,",
-          "Clama ao Filho de D[C]eus,",
-          "[F]E certamente te socorrerão",
-          "[C]Anjos mandados dos c[F]éus."
+          "[E]Quando estiveres em tribulação,",
+          "Clama ao Filho de D[B7]eus,",
+          "[E]E certamente te socorrerão",
+          "[B7]Anjos mandados dos c[E]éus."
         ]
       },
       {

@@ -17,7 +17,7 @@
           "[G]Não pode entender o [C]mundo",
           "[D]Quão alegre é o meu vi[G]ver;",
           "Mas, de Cristo, o amor pro[D]fundo",
-          "[E]Sentirá quem [A7]n´Ele [D]crer."
+          "[E|↓↑↓]Sentirá quem [A7|↓]n´Ele [D|•••]crer."
         ]
       },
       {
@@ -25,7 +25,7 @@
         "text": [
           "[G]Mesmo quando em aflição, [C]sinto a paz de D[G]eus;",
           "[D]Cristo, ao meu [G]coração, [A7]bênçãos traz dos [D]céus;",
-          "[G]Se, com Ele, aqui viver [C]tão glorioso [B]é,[B]...",
+          "[G]Se, com Ele, aqui viver [C]tão glorioso [B7]é,",
           "[E7]Quão glorioso então se[A7]rá, se per[D]manecer na [G]fé?!"
         ]
       },
@@ -36,7 +36,7 @@
           "[G]Eu me sinto mui di[C]toso, ",
           "[D]Pela graça do bom D[G]eus;",
           "Meu futuro é mui glo[D]rioso,",
-          "[E]Pois espero [A7]ir aos [D]céus."
+          "[E|↓↑↓]Pois espero [A7|↓]ir aos [D|•••]céus."
         ]
       },
       {
@@ -46,7 +46,12 @@
       {
         "type": "lyric",
         "code": "3",
-        "text": ["[G]O meu ser foi transfor[C]mado", "[D]Pela obra do Sen[G]hor;", "Dia a dia mais che[D]gado", "[E]Eu estou ao [A7]lar de a[D]mor."]
+        "text": [
+          "[G]O meu ser foi transfor[C]mado",
+          "[D]Pela obra do Sen[G]hor;",
+          "Dia a dia mais che[D]gado",
+          "[E|↓↑↓]Eu estou ao [A7|↓]lar de a[D|•••]mor."
+        ]
       },
       {
         "type": "ref",

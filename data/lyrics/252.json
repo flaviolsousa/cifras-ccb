@@ -8,7 +8,7 @@
   },
   "rhythm": "Canção",
   "score": {
-    "introduction": ["D", "G", "E7", "A", "Am", "G", "Em", "A7", "D"],
+    "introduction": ["D", "G", "E7", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",

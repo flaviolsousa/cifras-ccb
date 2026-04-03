@@ -2,6 +2,7 @@
   "code": "259",
   "version": "v3",
   "title": "Só triunfará o de sincero coração",
+  "level": 4,
   "tone": {
     "original": "G",
     "selected": "G"
@@ -9,14 +10,15 @@
   "rhythm": "Canção",
   "score": {
     "introduction": ["G", "D", "D5+", "G"],
+    "initialObservation": "Se o acorde D5+ não for possível, pode ser substituído por D7.",
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "[G]Quem servir a Deus, tri[D]unfará so[D5+]bre o [G]mal",
-          "E receberá o [D]galar[B]dão [G]e[A7]ter[D]nal;",
-          "Lutará, com todo [G]o fervor, [D]contra toda a [Em]tenta[B]ção;",
+          "[G]Quem servir a Deus, tri[D]unfará sobre [D5+]o [G]mal",
+          "E receberá o [D]galar[B7]dão [G]e[A7]ter[D]nal;",
+          "Lutará, com todo [G]o fervor, [D]contra toda a [Em]tenta[B7]ção;",
           "[G]Só triunfa[G7]rá o [C]de sincero [G]co[D]ra[G]ção."
         ]
       },
@@ -29,8 +31,8 @@
         "code": "2",
         "text": [
           "[G]Nada pode destru[D]ir a fé que [D5+]Deus [G]dá;",
-          "Com Seu braço forte, [D]Seus fi[B]éis [G]gui[A7]a[D]rá;",
-          "Quem Seu Nome sempre [G]confessar, [D]nunca luta[Em]rá em [B]vão;",
+          "Com Seu braço forte, [D]Seus fi[B7]éis [G]gui[A7]a[D]rá;",
+          "Quem Seu Nome sempre [G]confessar, [D]nunca luta[Em]rá em [B7]vão;",
           "[G]Só triunfa[G7]rá o [C]de sincero [G]co[D]ra[G]ção."
         ]
       },
@@ -43,8 +45,8 @@
         "code": "3",
         "text": [
           "[G]As potentes armas [D]do cristão são [D5+]dos [G]céus,",
-          "Armas virtuosas [D]que pro[B]vêm [G]só [A7]de [D]Deus;",
-          "A espada do Es[G]pírito [D]livrará da [Em]tenta[B]ção;",
+          "Armas virtuosas [D]que pro[B7]vêm [G]só [A7]de [D]Deus;",
+          "A espada do Es[G]pírito [D]livrará da [Em]tenta[B7]ção;",
           "[G]Só triunfa[G7]rá o [C]de sincero [G]co[D]ra[G]ção."
         ]
       },

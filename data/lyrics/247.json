@@ -2,13 +2,14 @@
   "code": "247",
   "version": "v3",
   "title": "Se fores tentado",
+  "level": 2,
   "tone": {
     "original": "Ab",
     "selected": "G"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["G", "D", "Em", "B7", "C", "G"],
+    "introduction": ["G", "D", "Em", "B7", "C", "G", "D", "G"],
     "stanzas": [
       {
         "type": "lyric",

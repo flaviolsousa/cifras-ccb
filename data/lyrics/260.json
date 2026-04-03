@@ -2,42 +2,43 @@
   "code": "260",
   "version": "v3",
   "title": "Sou servo inútil, ó Deus piedoso",
+  "level": 2,
   "tone": {
     "original": "Eb",
     "selected": "D"
   },
   "rhythm": "Valsa",
   "score": {
-    "introduction": ["D", "G", "A", "Em", "G", "A", "D"],
+    "introduction": ["D", "G", "A", "D"],
     "stanzas": [
       {
         "type": "lyric",
         "code": "1",
         "text": [
-          "S[D]ou servo inútil, [G]ó Deus pie[A]doso,",
+          "S[D]ou [A]servo i[D]nútil, [G]ó Deus pie[A]doso,",
           "[Em]Sou sempre fraco, s[G]into-me fal[A]toso;",
-          "[D]Nesta impru[G]dência, r[E]ogo cle[A]mência;",
-          "[D]Lava a minha alma, c[G]lamo a [A]Ti, Sen[D]hor."
+          "[D]Nesta impru[G]dência, r[E]ogo cle[A]mên[A7]cia;",
+          "[D]Lava a [A]minha [D]al[D7]ma, c[G]lamo a [A7]Ti, Sen[D]hor."
         ]
       },
       {
         "type": "lyric",
         "code": "2",
         "text": [
-          "S[D]ou servo inútil, s[G]ervo imperf[A]eito;",
+          "S[D]ou [A]servo i[D]nútil, s[G]ervo imperf[A]eito;",
           "[Em]Vivo ansioso p[G]ara ser ac[A]eito;",
-          "[D]Podes limp[G]ar-me, j[E]ustific[A]ar-me;",
-          "[D]Se Tu o quiseres, n[G]ada imp[A]edi[D]rá."
+          "[D]Podes limp[G]ar-me, j[E]ustific[A]ar-[A7]me;",
+          "[D]Se Tu [A]o qui[D]se[D7]res, n[G]ada imp[A7]edi[D]rá."
         ]
       },
       {
         "type": "lyric",
         "code": "3",
         "text": [
-          "S[D]ou servo inútil n[G]este ca[A]minho,",
+          "S[D]ou [A]servo i[D]nútil n[G]este ca[A]minho,",
           "[Em]Sem Teu cuidado, q[G]ue farei so[A]zinho?",
-          "[D]Este Teu f[G]ilho r[E]oga au[A]xílio;",
-          "[D]Ouve meu pedido: \"C[G]ompaix[A]ão, Sen[D]hor!\""
+          "[D]Este Teu f[G]ilho r[E]oga au[A]xí[A7]lio;",
+          "[D]Ouve [A]meu pe[D]di[D7]do: \"C[G]ompaix[A7]ão, Sen[D]hor!\""
         ]
       }
     ]
