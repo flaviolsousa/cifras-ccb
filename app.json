@@ -12,41 +12,28 @@
       "backgroundColor": "#ffffff",
       "hideExponentText": true
     },
-    "platforms": [
-      "android",
-      "web"
-    ],
+    "platforms": ["android", "web"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.flaviolsousa.cifrasccb",
+      "package": "br.com.fcoreapps.cifrasccb",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "softwareKeyboardLayoutMode": "pan",
-      "permissions": [
-        "INTERNET",
-        "android.permission.RECORD_AUDIO",
-        "android.permission.MODIFY_AUDIO_SETTINGS"
-      ]
+      "permissions": ["INTERNET", "android.permission.RECORD_AUDIO", "android.permission.MODIFY_AUDIO_SETTINGS"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-font",
-      "expo-audio",
-      "expo-asset"
-    ],
+    "plugins": ["expo-font", "expo-audio", "expo-asset"],
     "extra": {
       "eas": {
         "projectId": "db3224d2-67ef-4bab-8c12-97b2ee579938"
       }
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }
